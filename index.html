@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="vi" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LUYỆN TẬP VIẾT LUẬN - VSTEP WRITING TASK 02</title>
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="styles.css?v=21">
+</head>
+<body>
+
+  <div id="app-container">
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-icon">E</div>
+        <span class="brand-name">ESSAY MASTER</span>
+      </div>
+
+      <nav class="nav-menu">
+        <li class="nav-item">
+          <a class="nav-link active" onclick="switchScreen('dashboard')">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+            </svg>
+            HOME PAGE
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" onclick="switchCategory(1)">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v18m9-9H3" />
+            </svg>
+            Advantages & Disadvantages
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" onclick="switchCategory(2)">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+            </svg>
+            Causes & Solutions
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" onclick="switchCategory(3)">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 8.25h9s3 0 3 3.5-3 3.5-3 3.5h-9s-3 0-3-3.5 3-3.5 3-3.5zM10.5 14.25v2.25M13.5 14.25v2.25" />
+            </svg>
+            Opinion Essays
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" onclick="switchCategory(4)">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M8.684 10.742l1.968-.5a1.5 1.5 0 001.127-1.127l.5-1.969a1.5 1.5 0 012.772 0l.5 1.97a1.5 1.5 0 001.127 1.126l1.97.5a1.5 1.5 0 010 2.772l-1.97.5a1.5 1.5 0 00-1.126 1.127l-.5 1.97a1.5 1.5 0 01-2.772 0l-.5-1.97a1.5 1.5 0 00-1.127-1.126l-1.969-.5a1.5 1.5 0 010-2.772zM2 19.5h20" />
+            </svg>
+            Discussion Essays
+          </a>
+        </li>
+        
+        <li class="nav-item" style="margin-top: 1.5rem; border-top: 1px solid var(--panel-border); padding-top: 1rem;">
+          <a class="nav-link" onclick="switchScreen('history')">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            Lịch sử bài viết
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" onclick="switchScreen('drafts')">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5A3.375 3.375 0 0010.125 2.25H6.108c-.41 0-.796.223-1.002.585l-1.62 2.855A1.125 1.125 0 004.5 6.273v12.727c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125v-4.75z" />
+            </svg>
+            Bản nháp đã lưu
+          </a>
+        </li>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="theme-toggle">
+          <span class="theme-label">Giao diện</span>
+          <div class="theme-btn-group">
+            <button class="theme-btn" onclick="setTheme('light')" id="theme-light">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" style="width: 14px; height: 14px;">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M3 12h2.25m-.386-6.364l1.591 1.591M12 7.5a4.5 4.5 0 110 9 4.5 4.5 0 010-9z" />
+              </svg>
+            </button>
+            <button class="theme-btn active" onclick="setTheme('dark')" id="theme-dark">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" style="width: 14px; height: 14px;">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content Panel -->
+    <main class="main-content">
+      <!-- Header Bar -->
+      <header class="top-header">
+        <h1 class="page-title" id="page-header-title">HOME PAGE</h1>
+        <a href="https://www.facebook.com/nguyetpham28" target="_blank" class="header-middle-brand">ENGLISH WITH MISS NGUYET</a>
+        <div class="header-actions">
+          <div class="search-box" id="global-search-container">
+            <input type="text" class="search-input" id="search-input-field" placeholder="Tìm đề tài, từ khóa..." oninput="handleSearch(this.value)">
+            <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            </svg>
+          </div>
+        </div>
+      </header>
+
+      <!-- SCREEN 1: DASHBOARD -->
+      <section id="screen-dashboard" class="screen active">
+        <div class="welcome-banner">
+          <div class="welcome-text">
+            <h2>Luyện Viết Luận VSTEP B1/B2</h2>
+            <p>Chào mừng bạn đến với <strong>BÌNH NGUYÊN LUYỆN VIẾT VÔ TẬN</strong> của <strong>Miss Nguyet</strong>. Hãy dành thời gian luyện viết mỗi ngày để <strong>KỸ NĂNG VIẾT KHÔNG CÒN LÀ NỖI SỢ QUÁ LỚN</strong> nhé!</p>
+          </div>
+          <div class="welcome-graphic">
+            <img src="welcome_cats.png" alt="Welcome Cats">
+          </div>
+        </div>
+
+        <!-- Quick Stats Row -->
+        <div class="stats-row">
+          <div class="stats-card">
+            <div class="stats-icon-wrapper" style="background-color: var(--success-bg); color: var(--success);">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" style="width: 24px; height: 24px;">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+            </div>
+            <div class="stats-info">
+              <h3>Đã viết</h3>
+              <div class="stats-value" id="stat-completed-count">0</div>
+            </div>
+          </div>
+          <div class="stats-card">
+            <div class="stats-icon-wrapper" style="background-color: var(--info-bg); color: var(--info);">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" style="width: 24px; height: 24px;">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-3m-1 4l-3 3m0 0l-3-3m3 3V4" />
+              </svg>
+            </div>
+            <div class="stats-info">
+              <h3>Bản nháp</h3>
+              <div class="stats-value" id="stat-draft-count">0</div>
+            </div>
+          </div>
+          <div class="stats-card">
+            <div class="stats-icon-wrapper" style="background-color: var(--warning-bg); color: var(--warning);">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" style="width: 24px; height: 24px;">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+              </svg>
+            </div>
+            <div class="stats-info">
+              <h3>Từ vựng tích lũy</h3>
+              <div class="stats-value" id="stat-vocab-count">0</div>
+            </div>
+          </div>
+          <div class="stats-card">
+            <div class="stats-icon-wrapper" style="background-color: var(--danger-bg); color: var(--danger);">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" style="width: 24px; height: 24px;">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+              </svg>
+            </div>
+            <div class="stats-info">
+              <h3>Điểm trung bình</h3>
+              <div class="stats-value" id="stat-avg-score">0.0</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="dashboard-grid">
+          <!-- Left Column: User Guide -->
+          <div class="dashboard-main-col">
+            <div class="user-guide-container">
+              <div class="dashboard-section-title" style="margin-bottom: 1.5rem;">
+                <span style="font-size: 1.25rem; font-weight: 700; color: var(--accent-primary); letter-spacing: 0.5px;">HƯỚNG DẪN SỬ DỤNG HỆ THỐNG LUYỆN VIẾT</span>
+              </div>
+              
+              <div class="guide-steps-grid">
+                <div class="guide-step-card">
+                  <div class="guide-step-num" style="background: var(--accent-gradient);">🎯</div>
+                  <div class="guide-step-content">
+                    <h4>Chọn Dạng luận & Đề luận</h4>
+                    <p>Duyệt qua 4 dạng bài luận ở danh mục bên trái và lựa chọn đề bài mong muốn để bắt đầu luyện viết.</p>
+                  </div>
+                </div>
+
+                <div class="guide-step-card">
+                  <div class="guide-step-num">1</div>
+                  <div class="guide-step-content">
+                    <h4>BƯỚC 01: ĐỌC HIỂU ĐỀ</h4>
+                    <p>Đọc kỹ đề bài, nắm vững ngữ cảnh, yêu cầu và sơ đồ ý tưởng định hướng để phân tích các luận điểm chính.</p>
+                  </div>
+                </div>
+
+                <div class="guide-step-card">
+                  <div class="guide-step-num">2</div>
+                  <div class="guide-step-content">
+                    <h4>BƯỚC 02: TẬP DIỄN ĐẠT QUAN ĐIỂM</h4>
+                    <p>Thực hành dịch các câu mẫu (luận điểm, luận cứ) song ngữ từ tiếng Việt sang tiếng Anh để tích lũy từ vựng và cấu trúc hữu ích (chỉ áp dụng với các đề đã có hướng dẫn chi tiết).</p>
+                  </div>
+                </div>
+
+                <div class="guide-step-card">
+                  <div class="guide-step-num">3</div>
+                  <div class="guide-step-content">
+                    <h4>BƯỚC 03: VIẾT BÀI LUẬN</h4>
+                    <p>Thực hành viết bài luận hoàn chỉnh, sau đó nhấp vào <strong>Nộp bài & Chấm điểm</strong> để nhận kết quả phân tích lỗi chi tiết và bảng điểm ước lượng VSTEP.</p>
+                  </div>
+                </div>
+
+                <div class="guide-step-card">
+                  <div class="guide-step-num">4</div>
+                  <div class="guide-step-content">
+                    <h4>BƯỚC 04: THAM KHẢO BÀI LUẬN MẪU</h4>
+                    <p>Tham khảo bài viết mẫu đạt chuẩn B1 & B2 kèm dịch nghĩa song ngữ để đối chiếu, học hỏi cách diễn đạt và hoàn thiện bài viết của mình.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Keep a hidden container to prevent renderDashboard JS from breaking -->
+            <div id="featured-topics-container" style="display: none;"></div>
+          </div>
+
+          <!-- Right Column: Sidebar Panels -->
+          <div class="dashboard-sidebar">
+            <div class="sidebar-panel">
+              <div class="panel-header">Hoạt động gần đây</div>
+              <ul class="panel-list" id="recent-activity-list">
+                <!-- Dynamically rendered recent activities -->
+                <li class="empty-state">Chưa có bài viết nào được nộp</li>
+              </ul>
+            </div>
+
+            <div class="sidebar-panel">
+              <div class="panel-header">Tiêu chí chấm VSTEP Writing Task 2</div>
+              <ul class="panel-list">
+                <li class="panel-list-item" style="flex-direction: column; align-items: flex-start; gap: 0.25rem;">
+                  <span class="item-title" style="color: var(--accent-primary); max-width: 100%;">1. Task Fulfillment (Độ dài & đúng đề)</span>
+                  <span class="item-meta">Yêu cầu viết ít nhất 250 từ. Trả lời đúng trọng tâm câu hỏi, luận điểm phát triển rõ ràng.</span>
+                </li>
+                <li class="panel-list-item" style="flex-direction: column; align-items: flex-start; gap: 0.25rem; margin-top: 0.75rem;">
+                  <span class="item-title" style="color: var(--success); max-width: 100%;">2. Cohesion & Coherence (Liên kết câu)</span>
+                  <span class="item-meta">Tổ chức ý mạch lạc theo các đoạn (Intro, Body 1, Body 2, Conclusion). Sử dụng tốt từ nối.</span>
+                </li>
+                <li class="panel-list-item" style="flex-direction: column; align-items: flex-start; gap: 0.25rem; margin-top: 0.75rem;">
+                  <span class="item-title" style="color: var(--warning); max-width: 100%;">3. Lexical Resource (Từ vựng)</span>
+                  <span class="item-meta">Sử dụng đa dạng từ vựng, hạn chế lặp từ, áp dụng tốt các collocations tiếng Anh học thuật.</span>
+                </li>
+                <li class="panel-list-item" style="flex-direction: column; align-items: flex-start; gap: 0.25rem; margin-top: 0.75rem;">
+                  <span class="item-title" style="color: var(--info); max-width: 100%;">4. Grammatical Accuracy (Ngữ pháp)</span>
+                  <span class="item-meta">Kết hợp linh hoạt câu đơn, câu ghép và câu phức. Tránh các lỗi sai chính tả cơ bản.</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SCREEN 2: CATEGORY VIEW -->
+      <section id="screen-category" class="screen">
+        <div class="category-intro">
+          <p id="category-description">Mô tả chi tiết về dạng bài và hướng tiếp cận viết bài.</p>
+        </div>
+
+        <div class="topics-grid" id="topics-list-container">
+          <!-- Dynamically loaded topic cards -->
+        </div>
+
+        <div class="pagination" id="topics-pagination">
+          <!-- Paginated buttons -->
+        </div>
+      </section>
+
+      <!-- SCREEN 3: WRITING WORKSPACE -->
+      <section id="screen-workspace" class="screen" style="padding: 0;">
+        <div class="workspace-layout" id="workspace-layout-container">
+          
+          <!-- CENTER PANEL: main text editor (Takes full space) -->
+          <div class="workspace-pane">
+            <div class="resources-header" style="border-bottom: 1px solid var(--panel-border); background-color: rgba(0, 0, 0, 0.05); padding: 0.75rem 1.25rem; display: flex; justify-content: space-between; align-items: center; flex-direction: row; gap: 1rem;">
+              <div style="display: flex; flex-direction: column; gap: 0.15rem;">
+                <span class="topic-header-title" id="workspace-topic-title" style="font-size: 1.15rem; font-weight: 700; color: var(--accent-primary); margin: 0; text-transform: uppercase;">Chủ đề viết bài</span>
+                <span id="workspace-topic-category" style="font-size: 0.8rem; color: var(--text-muted);">Dạng luận</span>
+              </div>
+              <span class="detail-badge" id="workspace-enrichment-badge" style="padding: 0.25rem 0.65rem; border-radius: 4px; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; color: #fff;">Nâng cao</span>
+            </div>
+            <!-- Step Selector Tabs -->
+            <div class="workspace-step-header">
+              <div class="step-tab active" id="ws-step1-tab" onclick="switchStep(1)">
+                <span class="step-num">1</span>
+                <span class="step-label">BƯỚC 01: ĐỌC HIỂU ĐỀ</span>
+              </div>
+              <div class="step-tab" id="ws-step2-tab" onclick="switchStep(2)">
+                <span class="step-num">2</span>
+                <span class="step-label">BƯỚC 02: TẬP DIỄN ĐẠT QUAN ĐIỂM</span>
+              </div>
+              <div class="step-tab" id="ws-step3-tab" onclick="switchStep(3)">
+                <span class="step-num">3</span>
+                <span class="step-label">BƯỚC 03: VIẾT BÀI LUẬN</span>
+              </div>
+              <div class="step-tab" id="ws-step4-tab" onclick="switchStep(4)">
+                <span class="step-num">4</span>
+                <span class="step-label">BƯỚC 04: THAM KHẢO BÀI LUẬN MẪU</span>
+              </div>
+            </div>
+
+            <!-- STEP 1 CONTAINER: Reading & Prompt Analysis -->
+            <div id="workspace-step1-container" class="workspace-step-content active" style="overflow-y: auto;">
+              <div class="step1-reading-view" id="ws-step1-reading-content">
+                <!-- Dynamically generated in JS -->
+              </div>
+            </div>
+
+            <!-- STEP 2 CONTAINER: Translation Exercises -->
+            <div id="workspace-step2-container" class="workspace-step-content" style="overflow-y: auto;">
+              <div class="editor-header">
+                <div class="outline-level-selector" style="margin-bottom: 0;">
+                  <div class="level-pill active" id="ws-trans-level-b1" onclick="switchTransLevel('B1')">LUYỆN TẬP DIỄN ĐẠT Ý TƯỞNG B1</div>
+                  <div class="level-pill" id="ws-trans-level-b2" onclick="switchTransLevel('B2')">LUYỆN TẬP DIỄN ĐẠT Ý TƯỞNG B2</div>
+                </div>
+                <div style="display: flex; gap: 0.5rem;">
+                  <button class="btn btn-secondary" style="color: var(--danger-color); border-color: var(--danger-color);" onclick="clearProgressAction()">XÓA BẢN NHÁP</button>
+                  <button class="btn btn-secondary" onclick="saveProgressAction()">SAO LƯU TIẾN ĐỘ</button>
+                  <button class="btn btn-primary" onclick="switchStep(3)">VIẾT BÀI ›</button>
+                </div>
+              </div>
+              <div class="translation-exercises-list" id="ws-translation-list">
+                <!-- Translation cards rendered dynamically in JS -->
+              </div>
+            </div>
+
+             <!-- STEP 3 CONTAINER: Full Essay Editor -->
+             <div id="workspace-step3-container" class="workspace-step-content" style="overflow-y: auto;">
+               
+               <!-- Sub-view 3A: Writing Editor -->
+               <div id="step3-editor-view" style="display: flex; flex-direction: column; height: 100%;">
+                 <div class="editor-header">
+                   <div class="timer-box">
+                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width: 20px; height: 20px; color: var(--text-muted);">
+                       <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                     </svg>
+                     <span class="timer-display" id="timer-text">40:00</span>
+                     <button class="timer-btn" id="timer-toggle-btn" onclick="toggleTimer()">
+                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" style="width: 16px; height: 16px;" id="timer-icon-svg">
+                         <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zM8 7a1 1 0 00-1 1v4a1 1 0 001 1h4a1 1 0 001-1V8a1 1 0 00-1-1H8z" clip-rule="evenodd" />
+                       </svg>
+                     </button>
+                     <button class="timer-btn" onclick="resetTimer()">
+                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width: 16px; height: 16px;">
+                         <path stroke-linecap="round" stroke-linejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182m0-4.991v4.99" />
+                       </svg>
+                     </button>
+                   </div>
+
+                   <div class="editor-actions">
+                     <button class="btn btn-secondary btn-icon-only" style="color: var(--danger-color); border-color: var(--danger-color);" title="Xóa bản nháp" onclick="clearProgressAction()">
+                       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width: 18px; height: 18px;">
+                         <path stroke-linecap="round" stroke-linejoin="round" d="M14.74 9l-.346 9m-4.788 0L9.26 9m9.968-3.21c.342.052.682.107 1.022.166m-1.022-.165L18.16 19.673a2.25 2.25 0 01-2.244 2.077H8.084a2.25 2.25 0 01-2.244-2.077L4.772 5.79m14.456 0a48.108 48.108 0 00-3.478-.397m-12 .562c.34-.059.68-.114 1.022-.165m0 0a48.11 48.11 0 013.478-.397m7.5 0v-.916c0-1.18-.91-2.164-2.09-2.201a51.964 51.964 0 00-3.32 0c-1.18.037-2.09 1.022-2.09 2.201v.916m7.5 0a48.667 48.667 0 00-7.5 0" />
+                       </svg>
+                     </button>
+                     <button class="btn btn-secondary" onclick="saveProgressAction()">SAO LƯU TIẾN ĐỘ</button>
+                     <button class="btn btn-secondary" onclick="copyToClipboard()">Sao chép</button>
+                     <button class="btn btn-primary" onclick="submitEssay()">Nộp Bài chấm điểm</button>
+                   </div>
+                 </div>
+
+                 <div class="textarea-container" style="flex-grow: 1;">
+                   <textarea class="writing-textarea" autocomplete="off" id="essay-textarea" placeholder="Nhập bài viết của bạn tại đây... (Nhắc nhở: Hãy sử dụng các từ vựng và câu đã luyện dịch ở Bước 2 để hoàn thành bài viết xuất sắc nhất)" oninput="updateWordCount()"></textarea>
+                 </div>
+
+                 <div class="editor-status-bar">
+                   <div class="word-count-widget">
+                     <span style="white-space: nowrap;"><strong id="words-typed">0</strong> từ / tối thiểu 250 từ</span>
+                     <div class="progress-bar-container">
+                       <div class="progress-bar-fill" id="word-progress-fill"></div>
+                     </div>
+                   </div>
+                   <span id="char-count-display">0 ký tự</span>
+                 </div>
+               </div>
+
+               <!-- Sub-view 3B: Evaluation Dashboard -->
+               <div id="step3-evaluation-view" style="display: none; padding: 1.5rem; flex-direction: column; gap: 1.5rem;">
+                 <!-- Dynamically populated in JS -->
+               </div>
+
+             </div>
+
+            <!-- STEP 4 CONTAINER: Model Essay Reference -->
+            <div id="workspace-step4-container" class="workspace-step-content" style="overflow-y: auto;">
+              <div class="editor-header">
+                <div class="outline-level-selector" style="margin-bottom: 0;">
+                  <div class="level-pill active" id="ws-model-level-b1" onclick="switchModelEssayLevel('B1')">BÀI LUẬN MẪU B1</div>
+                  <div class="level-pill" id="ws-model-level-b2" onclick="switchModelEssayLevel('B2')">BÀI LUẬN MẪU B2</div>
+                </div>
+                <button class="btn btn-secondary" onclick="openComparisonModal()">So sánh bài viết</button>
+              </div>
+              <div class="model-essay-step-content" id="ws-model-step-view">
+                <!-- Dynamically generated in JS -->
+              </div>
+            </div>
+
+          <!-- RIGHT PANEL: AI Feedback (shown only after submit) -->
+          <div class="workspace-pane analysis-pane">
+            <div class="analysis-header">
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem;">
+                <span class="topic-header-title">Kết quả phân tích bài</span>
+                <button class="btn btn-secondary btn-icon-only" title="Đóng bảng phân tích" onclick="closeFeedbackPane()">✕</button>
+              </div>
+            </div>
+
+            <div class="analysis-tabs">
+              <button class="analysis-tab-btn active" onclick="switchAnalysisTab('score')">Chấm điểm</button>
+              <button class="analysis-tab-btn" onclick="switchAnalysisTab('vocab-check')">Đối chiếu</button>
+              <button class="analysis-tab-btn" onclick="switchAnalysisTab('model')">Bài mẫu</button>
+            </div>
+
+            <div class="analysis-content">
+              <!-- Score Section -->
+              <div id="analysis-sec-score" class="analysis-section active">
+                <div class="score-circle-wrapper">
+                  <div class="score-circle">
+                    <span class="score-num" id="estimated-score">6.0</span>
+                    <span class="score-scale">VSTEP quy đổi</span>
+                  </div>
+                  <div class="score-feedback" id="ws-feedback-general">Hợp lệ! Hãy cải thiện cấu trúc.</div>
+                </div>
+
+                <div class="grade-details-list" id="feedback-details-list">
+                  <!-- Dynamic check-list elements -->
+                </div>
+              </div>
+
+              <!-- Vocabulary Matches Checklist -->
+              <div id="analysis-sec-vocab-check" class="analysis-section">
+                <div class="prompt-card" style="margin-bottom: 1rem; font-size: 0.8rem; line-height: 1.4; color: var(--text-secondary);">
+                  Danh sách collocations tiêu chuẩn từ vựng của bài học. <strong>Màu xanh</strong> biểu thị các từ bạn đã lồng ghép thành công trong bài luận.
+                </div>
+                <div class="vocab-match-list" id="ws-vocab-match-container">
+                  <!-- Match collocations items -->
+                </div>
+              </div>
+
+              <!-- Model Essays Sample Toggle -->
+              <div id="analysis-sec-model" class="analysis-section">
+                <div class="sample-essay-selector">
+                  <div class="sample-pill active" id="ws-sample-b1-pill" onclick="switchSampleLevel('B1')">Bài mẫu B1</div>
+                  <div class="sample-pill" id="ws-sample-b2-pill" onclick="switchSampleLevel('B2')">Bài mẫu B2</div>
+                </div>
+                <div class="sample-essay-text" id="ws-sample-essay-text">
+                  (Đang tải bài mẫu...)
+                </div>
+                <button class="btn btn-secondary" style="width: 100%; margin-top: 1rem; display: flex; justify-content: center; align-items: center; gap: 0.5rem;" onclick="openComparisonModal()">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width: 16px; height: 16px;">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 21L3 16.5m0 0L7.5 12M3 16.5h13.5m0-13.5L21 7.5m0 0L16.5 12M21 7.5H7.5" />
+                  </svg>
+                  So sánh song song (Side-by-side)
+                </button>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- SCREEN 4: HISTORY -->
+      <section id="screen-history" class="screen">
+        <div class="category-intro">
+          <p>Danh sách lưu trữ các bài viết bạn đã hoàn thành, điểm số quy đổi ước lượng, số từ và lịch sử sửa đổi.</p>
+        </div>
+        
+        <div class="history-table-container">
+          <table class="history-table">
+            <thead>
+              <tr>
+                <th>Ngày nộp</th>
+                <th>Dạng bài</th>
+                <th>Tên chủ đề</th>
+                <th>Số từ</th>
+                <th>Điểm đánh giá</th>
+                <th>Hành động</th>
+              </tr>
+            </thead>
+            <tbody id="history-table-body">
+              <!-- Dynamically populated past writings -->
+              <tr>
+                <td colspan="6" class="empty-state">Chưa có lịch sử làm bài nào được ghi lại. Hãy chọn đề và luyện tập viết ngay nhé!</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- SCREEN 5: SAVED DRAFTS -->
+      <section id="screen-drafts" class="screen">
+        <div class="category-intro">
+          <p>Các bài luận đang viết dở dang được hệ thống tự động lưu trữ dưới dạng bản nháp. Bạn có thể mở lại bất cứ lúc nào để tiếp tục viết.</p>
+        </div>
+
+        <div class="topics-grid" id="drafts-list-container">
+          <!-- Dynamically populated drafts -->
+          <div class="empty-state" style="grid-column: span 3; padding: 4rem;">
+            Chưa có bản nháp nào được lưu. Hệ thống tự động lưu bài viết của bạn sau mỗi 10 giây trong quá trình gõ bài.
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- COMPARISON SIDE-BY-SIDE MODAL -->
+  <div class="modal-overlay" id="comparison-modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title">So sánh bài viết của bạn với bài giải mẫu</h3>
+        <button class="modal-close" onclick="closeComparisonModal()">✕</button>
+      </div>
+      <div class="modal-body">
+        <div class="comparison-container">
+          <div class="comparison-box">
+            <h5 id="compare-user-header">Bài viết của bạn (0 từ)</h5>
+            <div class="comparison-text" id="compare-user-text"></div>
+          </div>
+          <div class="comparison-box">
+            <h5 id="compare-model-header">Bài giải mẫu B1</h5>
+            <div class="comparison-text" id="compare-model-text"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Notification Toast Container -->
+  <div id="toast-container"></div>
+
+  <!-- Loaded global topic data -->
+  <script src="topics_db.js?v=21"></script>
+  <!-- Application Logic -->
+  <script src="app.js?v=21"></script>
+</body>
+</html>
