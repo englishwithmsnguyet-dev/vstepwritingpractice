@@ -4957,8 +4957,8 @@ function renderStep1Reading() {
       return `<li><strong>${label}:</strong> ${p.point_vi}</li>`;
     };
 
-    const b1Benefits = topic.details.ideas_b1.benefits.map(b => formatPoint(b, 'LỢI ÍCH')).join('');
-    const b1Drawbacks = topic.details.ideas_b1.drawbacks.map(d => formatPoint(d, 'BẤT LỢI')).join('');
+    const b1Benefits = (topic.details.ideas_b1.benefits || []).map(b => formatPoint(b, 'LỢI ÍCH')).join('');
+    const b1Drawbacks = (topic.details.ideas_b1.drawbacks || []).map(d => formatPoint(d, 'BẤT LỢI')).join('');
     
     outlineSummaryHtml = `
       <ul class="outline-summary-list">

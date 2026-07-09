@@ -9183,7 +9183,228 @@ const ESSAY_DATA = [
         ],
         "context": "Smoking remains a common habit in many societies despite growing awareness of its harmful effects on health. In public places such as restaurants, parks, transportation systems, and workplaces, smoking can affect not only smokers but also people around them through exposure to second-hand smoke. For this reason, some people believe that smoking should be banned in all public places.",
         "prompt": "What is your opinion on the view that smoking should be banned in public places? Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "details": {
+          "vocab": [],
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "LÝ DO 01: HÚT THUỐC GÂY HẠI CHO SỨC KHỎE CỦA MỌI NGƯỜI",
+                "collocations": [
+                  {
+                    "en": "smoking in public places",
+                    "vi": "hút thuốc ở nơi công cộng"
+                  },
+                  {
+                    "en": "smokers",
+                    "vi": "người hút thuốc"
+                  },
+                  {
+                    "en": "non-smokers",
+                    "vi": "người không hút thuốc"
+                  },
+                  {
+                    "en": "cigarette smoke",
+                    "vi": "khói thuốc lá"
+                  },
+                  {
+                    "en": "harmful chemicals",
+                    "vi": "các chất độc hại"
+                  },
+                  {
+                    "en": "respiratory diseases",
+                    "vi": "bệnh về hô hấp"
+                  },
+                  {
+                    "en": "public health",
+                    "vi": "sức khỏe cộng đồng"
+                  },
+                  {
+                    "en": "contain",
+                    "vi": "chứa cái gì"
+                  },
+                  {
+                    "en": "breathe in",
+                    "vi": "hít vào"
+                  },
+                  {
+                    "en": "increase the risk of",
+                    "vi": "làm tăng nguy cơ"
+                  }
+                ],
+                "point_vi": "Hút thuốc ở nơi công cộng có thể gây hại cho sức khỏe của cả người hút và những người xung quanh.",
+                "point_en": "Smoking in public places can harm the health of both smokers and other people.",
+                "evidence_vi": "Khói thuốc có chứa nhiều chất độc hại. Những người không hút thuốc vẫn có thể hít phải khói thuốc. Điều này có thể làm tăng nguy cơ mắc các bệnh về hô hấp. Vì vậy, cấm hút thuốc ở nơi công cộng có thể bảo vệ sức khỏe cộng đồng.",
+                "evidence_en": "Cigarette smoke contains many harmful chemicals. Non-smokers may still breathe in cigarette smoke. This may increase the risk of respiratory diseases. Therefore, banning smoking in public places can protect public health."
+              },
+              {
+                "title": "LÝ DO 02: HÚT THUỐC ẢNH HƯỞNG ĐẾN NHỮNG NGƯỜI XUNG QUANH",
+                "collocations": [
+                  {
+                    "en": "feel uncomfortable",
+                    "vi": "cảm thấy khó chịu"
+                  },
+                  {
+                    "en": "the smell of cigarette smoke",
+                    "vi": "mùi khói thuốc lá"
+                  },
+                  {
+                    "en": "elderly people",
+                    "vi": "người cao tuổi"
+                  },
+                  {
+                    "en": "be sensitive to",
+                    "vi": "nhạy cảm với"
+                  },
+                  {
+                    "en": "public spaces",
+                    "vi": "không gian công cộng"
+                  },
+                  {
+                    "en": "a comfortable environment",
+                    "vi": "môi trường thoải mái"
+                  }
+                ],
+                "point_vi": "Hút thuốc ở nơi công cộng có thể làm người khác cảm thấy khó chịu.",
+                "point_en": "Smoking in public places can make other people feel uncomfortable.",
+                "evidence_vi": "Nhiều người không thích mùi khói thuốc. Trẻ em và người cao tuổi thường nhạy cảm hơn với khói thuốc. Điều này có thể làm giảm chất lượng của các không gian công cộng. Do đó, cấm hút thuốc có thể tạo ra môi trường dễ chịu hơn cho mọi người.",
+                "evidence_en": "Many people dislike the smell of cigarette smoke. Children and elderly people are often more sensitive to cigarette smoke. This may reduce the quality of public spaces. Therefore, banning smoking can create a more comfortable environment for everyone."
+              },
+              {
+                "title": "LÝ DO 03: LỆNH CẤM CÓ THỂ KHUYẾN KHÍCH MỌI NGƯỜI BỎ THUỐC",
+                "collocations": [
+                  {
+                    "en": "smoking rates",
+                    "vi": "tỷ lệ hút thuốc"
+                  },
+                  {
+                    "en": "smoke less",
+                    "vi": "hút ít thuốc hơn"
+                  },
+                  {
+                    "en": "quit smoking",
+                    "vi": "bỏ thuốc lá"
+                  },
+                  {
+                    "en": "long-term benefits",
+                    "vi": "lợi ích lâu dài"
+                  },
+                  {
+                    "en": "society",
+                    "vi": "xã hội"
+                  }
+                ],
+                "point_vi": "Cấm hút thuốc ở nơi công cộng có thể giúp giảm tỷ lệ hút thuốc.",
+                "point_en": "Banning smoking in public places can help reduce smoking rates.",
+                "evidence_vi": "Người hút thuốc sẽ có ít nơi để hút thuốc hơn. Điều này có thể khuyến khích họ hút ít thuốc hơn. Một số người thậm chí có thể quyết định bỏ thuốc. Vì lý do đó, lệnh cấm có thể mang lại lợi ích lâu dài cho xã hội.",
+                "evidence_en": "Smokers will have fewer places to smoke. This may encourage them to smoke less. Some people may even decide to quit smoking. For this reason, the ban can bring long-term benefits to society."
+              }
+            ]
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "LÝ DO 01: HÚT THUỐC Ở NƠI CÔNG CỘNG GÂY HẠI CHO SỨC KHỎE CỘNG ĐỒNG",
+                "collocations": [
+                  {
+                    "en": "pose health risks",
+                    "vi": "gây ra rủi ro cho sức khỏe"
+                  },
+                  {
+                    "en": "harmful substances",
+                    "vi": "các chất độc hại"
+                  },
+                  {
+                    "en": "second-hand smoke",
+                    "vi": "khói thuốc thụ động"
+                  },
+                  {
+                    "en": "respiratory diseases",
+                    "vi": "bệnh hô hấp"
+                  },
+                  {
+                    "en": "cardiovascular diseases",
+                    "vi": "bệnh tim mạch"
+                  },
+                  {
+                    "en": "protect public health",
+                    "vi": "bảo vệ sức khỏe cộng đồng"
+                  }
+                ],
+                "point_vi": "Hút thuốc ở nơi công cộng gây nguy hiểm cho sức khỏe của cả người hút và người không hút thuốc.",
+                "point_en": "Smoking in public places poses health risks to both smokers and non-smokers.",
+                "evidence_vi": "Khói thuốc lá chứa nhiều chất độc có thể gây ra các bệnh nghiêm trọng. Những người xung quanh có thể hít phải khói thuốc mặc dù họ không hút thuốc. Điều này làm tăng nguy cơ mắc các bệnh về hô hấp và tim mạch. Ngoài ra, trẻ em và người cao tuổi thường chịu ảnh hưởng nghiêm trọng hơn. Vì vậy, cấm hút thuốc ở nơi công cộng là một cách hiệu quả để bảo vệ sức khỏe cộng đồng.",
+                "evidence_en": "Cigarette smoke contains harmful substances that can cause serious diseases. People nearby may inhale second-hand smoke even if they do not smoke. This increases the risk of respiratory and cardiovascular diseases. In addition, children and elderly people are often affected more seriously. Therefore, banning smoking in public places is an effective way to protect public health."
+              },
+              {
+                "title": "LÝ DO 02: HÚT THUỐC LÀM GIẢM CHẤT LƯỢNG CỦA KHÔNG GIAN CÔNG CỘNG",
+                "collocations": [
+                  {
+                    "en": "public transportation",
+                    "vi": "phương tiện giao thông công cộng"
+                  },
+                  {
+                    "en": "public spaces",
+                    "vi": "không gian công cộng"
+                  },
+                  {
+                    "en": "a smoking ban",
+                    "vi": "lệnh cấm hút thuốc"
+                  },
+                  {
+                    "en": "cleaner environment",
+                    "vi": "môi trường sạch hơn"
+                  },
+                  {
+                    "en": "more comfortable environment",
+                    "vi": "môi trường dễ chịu hơn"
+                  }
+                ],
+                "point_vi": "Hút thuốc có thể làm cho nơi công cộng trở nên kém an toàn và kém dễ chịu hơn.",
+                "point_en": "Smoking can make public places less safe and less comfortable.",
+                "evidence_vi": "Nhiều người cảm thấy khó chịu vì mùi khói thuốc. Điều này có thể ảnh hưởng đến trải nghiệm của họ ở các nhà hàng, công viên hoặc phương tiện công cộng. Một số người có thể tránh những nơi có nhiều người hút thuốc. Điều này có thể làm giảm chất lượng của các không gian công cộng. Do đó, lệnh cấm hút thuốc có thể tạo ra môi trường sạch sẽ và dễ chịu hơn cho mọi người.",
+                "evidence_en": "Many people feel uncomfortable because of cigarette smoke. This may affect their experience in restaurants, parks, and public transportation. Some people may avoid places where many people smoke. This may reduce the quality of public spaces. Therefore, a smoking ban can create a cleaner and more comfortable environment for everyone."
+              },
+              {
+                "title": "LÝ DO 03: LỆNH CẤM CÓ THỂ GIẢM TỶ LỆ HÚT THUỐC TRONG XÃ HỘI",
+                "collocations": [
+                  {
+                    "en": "give up smoking",
+                    "vi": "từ bỏ việc hút thuốc"
+                  },
+                  {
+                    "en": "restrictions",
+                    "vi": "các hạn chế"
+                  },
+                  {
+                    "en": "smoke less frequently",
+                    "vi": "hút thuốc ít thường xuyên hơn"
+                  },
+                  {
+                    "en": "adopt a healthier lifestyle",
+                    "vi": "có lối sống lành mạnh hơn"
+                  },
+                  {
+                    "en": "the number of smokers",
+                    "vi": "số lượng người hút thuốc"
+                  },
+                  {
+                    "en": "long-term benefits",
+                    "vi": "lợi ích lâu dài"
+                  }
+                ],
+                "point_vi": "Cấm hút thuốc ở nơi công cộng có thể khuyến khích mọi người từ bỏ thói quen hút thuốc.",
+                "point_en": "Banning smoking in public places can encourage people to give up smoking.",
+                "evidence_vi": "Người hút thuốc sẽ gặp nhiều hạn chế hơn khi muốn hút thuốc. Điều này có thể khiến họ giảm tần suất hút thuốc. Một số người có thể quyết định bỏ thuốc để có lối sống lành mạnh hơn. Điều này cũng góp phần giảm số lượng người hút thuốc trong cộng đồng. Vì lý do đó, lệnh cấm có thể mang lại lợi ích lâu dài cho sức khỏe cộng đồng.",
+                "evidence_en": "Smokers will face more restrictions on where they can smoke. This may encourage them to smoke less frequently. Some people may decide to quit smoking and adopt a healthier lifestyle. This also helps reduce the number of smokers in the community. For this reason, the ban can bring long-term benefits to public health."
+              }
+            ]
+          },
+          "sample_b1": "In recent years, <strong>the idea that smoking should be banned in public places has become a common topic of discussion.</strong> From my perspective, <strong><em>I completely agree with this opinion for several important reasons.</em></strong> This essay will present the main arguments supporting my viewpoint.\n\n<strong>The first reason why I agree with this opinion is that smoking in public places can harm the health of both smokers and other people.</strong> This is because cigarette smoke contains many harmful chemicals. As a result, non-smokers may still breathe in cigarette smoke even though they do not smoke. This may increase the risk of respiratory diseases. Therefore, banning smoking in public places can protect public health.\n\n<strong>Another important reason is that smoking in public places can make other people feel uncomfortable.</strong> Many people dislike the smell of cigarette smoke, especially children and elderly people, who are often more sensitive to it. In addition, cigarette smoke may reduce the quality of public spaces such as restaurants, parks, and bus stations. Therefore, banning smoking can create a cleaner and more comfortable environment for everyone.\n\n<strong>A further reason supporting my viewpoint is that banning smoking in public places can help reduce smoking rates.</strong> This is because smokers will have fewer places to smoke. As a result, they may smoke less and some people may even decide to quit smoking completely. For this reason, the ban can bring long-term benefits to society and improve public health.\n\nIn conclusion, <strong><em>I strongly agree with the idea that smoking should be banned in public places.</em></strong> The reasons above clearly explain why I support this viewpoint. Therefore, people should think about this opinion carefully in modern society.",
+          "sample_b2": "In recent years, <strong>the idea that smoking should be banned in public places has attracted considerable public attention and discussion.</strong> From my perspective, <strong><em>I completely agree with this opinion for several important reasons.</em></strong> This essay will present the main arguments supporting my viewpoint.\n\n<strong>The first reason why I agree with this opinion is that smoking in public places poses health risks to both smokers and non-smokers.</strong> This is because cigarette smoke contains harmful substances that can cause serious diseases. Moreover, people nearby may inhale second-hand smoke even if they do not smoke. As a result, the risk of respiratory and cardiovascular diseases can increase. In addition, children and elderly people are often affected more seriously than healthy adults. Therefore, banning smoking in public places is an effective way to protect public health.\n\n<strong>Another important reason is that smoking can make public places less safe and less comfortable.</strong> Many people feel uncomfortable because of cigarette smoke when they visit restaurants, parks, or use public transportation. Furthermore, some people may avoid these places because they do not want to be exposed to cigarette smoke. As a result, the quality of public spaces may be reduced. Therefore, a smoking ban can create a cleaner and more comfortable environment for everyone.\n\n<strong>A further reason supporting my viewpoint is that banning smoking in public places can encourage people to give up smoking.</strong> When smokers face more restrictions on where they can smoke, they may smoke less frequently. In addition, some people may decide to quit smoking and adopt a healthier lifestyle. This also helps reduce the number of smokers in the community. For this reason, the ban can bring long-term benefits to public health.\n\nIn conclusion, <strong><em>I strongly agree with the idea that smoking should be banned in public places.</em></strong> The arguments presented above clearly explain why I support this viewpoint. Therefore, I believe that this perspective should be carefully considered in modern society.",
+          "translation_b1": "Trong những năm gần đây, <strong>ý kiến cho rằng việc hút thuốc nên bị cấm ở những nơi công cộng đã trở thành một chủ đề thảo luận phổ biến.</strong> Từ góc độ của tôi, <strong><em>tôi hoàn toàn đồng ý với ý kiến này vì một số lý do quan trọng.</em></strong> Bài viết này sẽ trình bày các lập luận chính ủng hộ quan điểm của tôi.\n\n<strong>Lý do đầu tiên khiến tôi đồng ý với ý kiến này là hút thuốc ở nơi công cộng có thể gây hại cho sức khỏe của cả người hút và những người khác.</strong> Điều này là do khói thuốc chứa nhiều hóa chất độc hại. Do đó, những người không hút thuốc vẫn có thể hít phải khói thuốc mặc dù họ không hút thuốc. Điều này có thể làm tăng nguy cơ mắc các bệnh về hô hấp. Vì vậy, cấm hút thuốc ở nơi công cộng có thể bảo vệ sức khỏe cộng đồng.\n\n<strong>Một lý do quan trọng khác là hút thuốc ở nơi công cộng có thể làm người khác cảm thấy khó chịu.</strong> Nhiều người không thích mùi khói thuốc, đặc biệt là trẻ em và người cao tuổi, những người thường nhạy cảm hơn với nó. Ngoài ra, khói thuốc có thể làm giảm chất lượng của các không gian công cộng như nhà hàng, công viên và bến xe buýt. Do đó, lệnh cấm hút thuốc có thể tạo ra một môi trường sạch sẽ và thoải mái hơn cho tất cả mọi người.\n\n<strong>Một lý do nữa ủng hộ quan điểm của tôi là cấm hút thuốc ở nơi công cộng có thể giúp giảm tỷ lệ hút thuốc.</strong> Điều này là do người hút thuốc sẽ có ít nơi để hút thuốc hơn. Kết quả là, họ có thể hút ít đi và một số người thậm chí có thể quyết định bỏ thuốc hoàn toàn. Vì lý do này, lệnh cấm có thể mang lại lợi ích lâu dài cho xã hội và cải thiện sức khỏe cộng đồng.\n\nTóm lại, <strong><em>tôi kịch liệt đồng ý với ý kiến cho rằng hút thuốc nên bị cấm ở nơi công cộng.</em></strong> Các lý do trên giải thích rõ ràng tại sao tôi ủng hộ quan điểm này. Do đó, mọi người nên suy nghĩ cẩn thận về ý kiến này trong xã hội hiện đại.",
+          "translation_b2": "Trong những năm gần đây, <strong>quan điểm cho rằng nên cấm hút thuốc ở các nơi công cộng đã thu hút được sự chú ý và thảo luận đáng kể từ công chúng.</strong> Từ góc độ của tôi, <strong><em>tôi hoàn toàn đồng ý với quan điểm này vì một số lý do quan trọng.</em></strong> Bài luận này sẽ trình bày những lập luận chính củng cố cho quan điểm của tôi.\n\n<strong>Lý do đầu tiên khiến tôi đồng ý với ý kiến này là việc hút thuốc ở nơi công cộng gây ra những rủi ro sức khỏe cho cả người hút lẫn người không hút thuốc.</strong> Nguyên nhân là do khói thuốc chứa các chất độc hại có thể gây ra các căn bệnh nghiêm trọng. Hơn nữa, những người xung quanh có thể hít phải khói thuốc thụ động ngay cả khi họ không hút thuốc. Kết quả là, nguy cơ mắc các bệnh về hô hấp và tim mạch có thể gia tăng. Thêm vào đó, trẻ em và người cao tuổi thường bị ảnh hưởng nghiêm trọng hơn so với người lớn khỏe mạnh. Vì vậy, cấm hút thuốc ở các khu vực công cộng là một biện pháp hiệu quả để bảo vệ sức khỏe cộng đồng.\n\n<strong>Một lý do quan trọng khác là hút thuốc có thể khiến những nơi công cộng trở nên kém an toàn và thiếu thoải mái hơn.</strong> Nhiều người cảm thấy khó chịu vì khói thuốc khi họ đến nhà hàng, công viên, hoặc sử dụng các phương tiện giao thông công cộng. Hơn thế nữa, một số người có thể tránh xa những địa điểm này vì họ không muốn tiếp xúc với khói thuốc. Do đó, chất lượng của các không gian công cộng có thể bị suy giảm. Vì vậy, lệnh cấm hút thuốc có thể kiến tạo một môi trường sạch sẽ và dễ chịu hơn cho tất cả mọi người.\n\n<strong>Một lý do sâu xa hơn ủng hộ góc nhìn của tôi là lệnh cấm hút thuốc ở nơi công cộng có thể khuyến khích mọi người từ bỏ hút thuốc.</strong> Khi người hút thuốc đối mặt với nhiều hạn chế hơn về nơi họ có thể hút, họ có thể hút ít thường xuyên hơn. Ngoài ra, một số người có thể quyết định bỏ thuốc và áp dụng một lối sống lành mạnh hơn. Điều này cũng giúp làm giảm số lượng người hút thuốc trong cộng đồng. Vì lý do này, lệnh cấm có thể mang lại những lợi ích dài hạn cho sức khỏe cộng đồng.\n\nTóm lại, <strong><em>tôi kịch liệt đồng tình với quan điểm nên cấm hút thuốc ở nơi công cộng.</em></strong> Những lập luận được trình bày ở trên đã giải thích một cách rõ ràng lý do tôi ủng hộ góc nhìn này. Do đó, tôi tin rằng quan điểm này cần được cân nhắc một cách nghiêm túc trong xã hội hiện đại."
+        }
       },
       {
         "id": 12,
