@@ -3877,10 +3877,90 @@ const ESSAY_DATA = [
       {
         "id": 61,
         "title_en": "Sharing housework among family members",
-        "title_vi": "Chia sẻ việc nhà giữa các thành viên [chỉ lợi ích]",
+        "title_vi": "Chia sẻ việc nhà giữa các thành viên",
+        "tags": "[chỉ lợi ích]",
         "context": "In modern families, household chores are no longer considered the responsibility of only one person. Many families encourage parents and children to share tasks such as cooking, cleaning, washing dishes, and taking care of the home. This approach is believed to create a more balanced and supportive family environment. Many people believe that sharing housework among family members brings important benefits to both individuals and families.",
         "prompt": "Write an essay to an educated reader to discuss the benefits of sharing housework among family members. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "paraphrases": [
+          {
+            "en": "The division of household chores",
+            "vi": "Sự phân chia việc nhà"
+          },
+          {
+            "en": "Sharing domestic responsibilities",
+            "vi": "Việc chia sẻ các trách nhiệm trong gia đình"
+          },
+          {
+            "en": "The distribution of housework",
+            "vi": "Sự phân bổ việc nhà"
+          }
+        ],
+        "details": {
+          "vocab": [],
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "ADVANTAGE 01",
+                "collocations": [],
+                "point_vi": "Chia sẻ việc nhà giúp giảm khối lượng công việc cho mỗi thành viên trong gia đình.",
+                "point_en": "Sharing housework reduces the workload for each family member.",
+                "evidence_vi": "Mỗi người chỉ cần làm một phần công việc. Điều này giúp họ cảm thấy bớt mệt mỏi hơn. Họ cũng có thêm thời gian để nghỉ ngơi hoặc làm những việc khác. Vì vậy, cuộc sống gia đình trở nên cân bằng hơn.",
+                "evidence_en": "Each person only needs to do part of the housework. This helps them feel less tired. They also have more time to relax or do other activities. Therefore, family life becomes more balanced."
+              },
+              {
+                "title": "ADVANTAGE 02",
+                "collocations": [],
+                "point_vi": "Chia sẻ việc nhà giúp các thành viên trong gia đình gắn kết hơn.",
+                "point_en": "Sharing housework strengthens family relationships.",
+                "evidence_vi": "Các thành viên có cơ hội làm việc cùng nhau. Họ cũng dành nhiều thời gian trò chuyện và hỗ trợ nhau hơn. Điều này giúp mọi người hiểu nhau hơn. Nhờ đó, gia đình trở nên hạnh phúc hơn.",
+                "evidence_en": "Family members have opportunities to work together. They also spend more time talking and support each other. This helps them understand each other better. As a result, families become happier."
+              },
+              {
+                "title": "ADVANTAGE 03",
+                "collocations": [],
+                "point_vi": "Chia sẻ việc nhà giúp trẻ em học cách có trách nhiệm.",
+                "point_en": "Sharing housework teaches children responsibility.",
+                "evidence_vi": "Trẻ em học cách hoàn thành công việc của mình. Các em cũng biết giúp đỡ cha mẹ nhiều hơn. Điều này giúp các em trở nên tự lập hơn. Vì vậy, các em được chuẩn bị tốt hơn cho cuộc sống trong tương lai.",
+                "evidence_en": "Children learn to complete their own tasks. They also learn to help their parents more. This helps them become more independent. Therefore, they are better prepared for future life."
+              }
+            ],
+            "drawbacks": []
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "ADVANTAGE 01",
+                "collocations": [],
+                "point_vi": "Chia sẻ việc nhà giúp giảm khối lượng công việc cho tất cả các thành viên trong gia đình.",
+                "point_en": "Sharing housework reduces the workload for all family members.",
+                "evidence_vi": "Các công việc được phân chia công bằng giữa mọi người. Không ai phải chịu quá nhiều trách nhiệm. Điều này giúp mọi người cân bằng tốt hơn giữa công việc, học tập và cuộc sống. Họ cũng có thêm thời gian để nghỉ ngơi và chăm sóc bản thân. Vì vậy, chất lượng cuộc sống của cả gia đình được cải thiện.",
+                "evidence_en": "Household tasks are shared fairly among family members. No one has to take on too many responsibilities. This helps them achieve a better balance between work, study, and personal life. They also have more time to relax and take care of themselves. Therefore, the overall quality of family life can be improved."
+              },
+              {
+                "title": "ADVANTAGE 02",
+                "collocations": [],
+                "point_vi": "Chia sẻ việc nhà giúp tăng cường mối quan hệ giữa các thành viên trong gia đình.",
+                "point_en": "Sharing housework strengthens family relationships.",
+                "evidence_vi": "Các thành viên có nhiều cơ hội hợp tác với nhau hơn. Họ cũng dành nhiều thời gian trò chuyện và hỗ trợ nhau. Điều này giúp xây dựng sự thấu hiểu và tôn trọng lẫn nhau. Gia đình có thể giải quyết các vấn đề cùng nhau hiệu quả hơn. Nhờ đó, môi trường gia đình trở nên tích cực và gắn kết hơn.",
+                "evidence_en": "Family members have more opportunities to cooperate with one another. They also spend more time talking and supporting each other. This helps build mutual understanding and respect. Families can solve problems together more effectively. As a result, the family environment becomes more positive and united."
+              },
+              {
+                "title": "ADVANTAGE 03",
+                "collocations": [],
+                "point_vi": "Chia sẻ việc nhà giúp trẻ em phát triển những kỹ năng sống quan trọng.",
+                "point_en": "Sharing housework helps children develop important life skills.",
+                "evidence_vi": "Các em học cách chịu trách nhiệm về công việc của mình. Các em cũng phát triển kỹ năng quản lý thời gian. Điều này giúp các em trở nên tự lập hơn. Các kỹ năng này rất hữu ích khi các em trưởng thành. Vì vậy, chia sẻ việc nhà góp phần chuẩn bị cho các em một tương lai tốt hơn.",
+                "evidence_en": "Children learn to take responsibility for their own tasks. They also develop time management skills. This helps them become more independent. These skills are very useful in adult life. Therefore, sharing housework helps prepare children for a better future."
+              }
+            ],
+            "drawbacks": []
+          },
+          "sample_b1": "In recent years, sharing housework among family members has become more common in modern society. Many people see this as a positive development. This essay will discuss the main advantages of this topic.\n\n<strong>One main advantage is that sharing housework reduces the workload for each family member.</strong> This is because each person only needs to do part of the housework, so no one has to do everything alone. In addition, family members feel less tired after finishing their daily tasks. As a result, they have more time to relax or spend time with their families. Therefore, family life becomes more balanced and enjoyable.\n\n<strong>Another positive aspect is that sharing housework strengthens family relationships.</strong> The main reason is that family members have more opportunities to work together and help one another. Moreover, they spend more time talking while doing household chores, so they can understand each other better. Consequently, family members become closer and build stronger relationships. For example, parents and children can cook dinner together and enjoy meaningful conversations.\n\n<strong>A further benefit is that sharing housework teaches children responsibility.</strong> This means that children learn to complete their own household tasks instead of depending on their parents. Furthermore, they learn to help other family members and become more independent. As a result, they develop useful life skills and are better prepared for the future. For this reason, sharing housework plays an important role in children's personal development.\n\nIn conclusion, <strong><em>sharing housework among family members offers several benefits.</em></strong> These advantages make it useful for many families. Overall, it is a positive development in modern society.",
+          "sample_b2": "In recent years, sharing housework among family members has become increasingly prevalent in modern society. This has led to a range of benefits across different contexts. This essay will focus on the main advantages associated with it.\n\n<strong>One major benefit is that sharing housework reduces the workload for all family members.</strong> This is because household tasks are divided fairly, so no one has to take on too many responsibilities. As a result, family members can achieve a better balance between work, study, and personal life. For example, parents can spend less time doing household chores and more time with their children. Furthermore, they also have more opportunities to relax and take care of themselves, which improves the overall quality of family life.\n\n<strong>Another positive effect is that sharing housework strengthens family relationships.</strong> This happens because family members have more opportunities to cooperate and support one another while completing daily tasks. Consequently, they build greater mutual understanding and respect. For instance, family members may cook meals or clean the house together, giving them more time to communicate and solve problems as a team. As a result, the family environment becomes more positive, harmonious, and united.\n\n<strong>A further aspect to consider is that it helps children develop important life skills.</strong> The main reason is that children learn to take responsibility for their own household tasks instead of depending entirely on their parents. This leads to greater independence and better time management skills. For example, children who regularly make their beds, wash the dishes, or clean their rooms gradually become more responsible. Moreover, these valuable skills prepare them for adult life and contribute to a brighter future.\n\nIn conclusion, <strong><em>sharing housework among family members offers several notable advantages.</em></strong> These positive aspects highlight its value in various areas of life. Overall, examining these factors provides a clearer understanding of the topic.",
+          "translation_b1": "Trong những năm gần đây, việc chia sẻ công việc nhà giữa các thành viên trong gia đình đã trở nên phổ biến hơn trong xã hội hiện đại. Nhiều người xem đây là một sự phát triển tích cực. Bài tiểu luận này sẽ thảo luận về những lợi ích chính của chủ đề này.\n\n<strong>Một lợi ích chính là chia sẻ việc nhà giúp giảm bớt khối lượng công việc cho mỗi thành viên trong gia đình.</strong> Điều này là do mỗi người chỉ cần làm một phần việc nhà, nên không ai phải làm mọi thứ một mình. Ngoài ra, các thành viên gia đình cảm thấy ít mệt mỏi hơn sau khi hoàn thành công việc hằng ngày của họ. Kết quả là, họ có nhiều thời gian hơn để nghỉ ngơi hoặc dành thời gian cho gia đình. Nhờ vậy, cuộc sống gia đình trở nên cân bằng và thú vị hơn.\n\n<strong>Một khía cạnh tích cực khác là chia sẻ việc nhà giúp tăng cường các mối quan hệ trong gia đình.</strong> Lý do chính là vì các thành viên có nhiều cơ hội để làm việc cùng nhau và giúp đỡ lẫn nhau hơn. Hơn nữa, họ dành nhiều thời gian để trò chuyện trong khi làm việc nhà, vì vậy họ có thể hiểu nhau tốt hơn. Hậu quả là, các thành viên gia đình trở nên thân thiết hơn và xây dựng được những mối quan hệ bền chặt hơn. Ví dụ, cha mẹ và con cái có thể cùng nhau nấu bữa tối và tận hưởng những cuộc trò chuyện đầy ý nghĩa.\n\n<strong>Một lợi ích xa hơn là chia sẻ việc nhà dạy cho trẻ em tinh thần trách nhiệm.</strong> Điều này có nghĩa là trẻ em học cách tự hoàn thành các công việc nhà của riêng mình thay vì phụ thuộc vào cha mẹ. Thêm vào đó, chúng học được cách giúp đỡ các thành viên khác trong gia đình và trở nên tự lập hơn. Hệ quả là, chúng phát triển được những kỹ năng sống hữu ích và được chuẩn bị tốt hơn cho tương lai. Vì lý do này, việc chia sẻ công việc nhà đóng một vai trò quan trọng trong sự phát triển cá nhân của trẻ.\n\nTóm lại, <strong><em>việc chia sẻ công việc nhà giữa các thành viên trong gia đình mang lại một số lợi ích.</em></strong> Những lợi ích này làm cho việc đó trở nên hữu ích đối với nhiều gia đình. Nhìn chung, đây là một bước tiến tích cực trong xã hội hiện đại.",
+          "translation_b2": "Trong những năm gần đây, việc chia sẻ công việc nhà giữa các thành viên trong gia đình đã trở nên ngày càng thịnh hành trong xã hội hiện đại. Điều này đã dẫn đến hàng loạt lợi ích trong các khía cạnh khác nhau. Bài luận này sẽ tập trung vào các ưu điểm chính đi kèm với xu hướng này.\n\n<strong>Một lợi ích lớn là việc chia sẻ công việc nhà làm giảm khối lượng công việc cho tất cả các thành viên trong gia đình.</strong> Điều này là do công việc nhà được phân chia một cách công bằng, nhờ đó không ai phải gánh vác quá nhiều trách nhiệm. Kết quả là, các thành viên trong gia đình có thể đạt được sự cân bằng tốt hơn giữa công việc, học tập và cuộc sống cá nhân. Ví dụ, cha mẹ có thể dành ít thời gian hơn cho công việc nhà và nhiều thời gian hơn cho con cái. Hơn nữa, họ cũng có nhiều cơ hội hơn để thư giãn và chăm sóc bản thân, từ đó nâng cao chất lượng chung của cuộc sống gia đình.\n\n<strong>Một tác động tích cực khác là việc chia sẻ công việc nhà củng cố các mối quan hệ gia đình.</strong> Điều này xảy ra do các thành viên có nhiều cơ hội hơn để hợp tác và hỗ trợ lẫn nhau trong lúc hoàn thành các công việc hàng ngày. Hệ quả là, họ xây dựng được sự thấu hiểu và tôn trọng lẫn nhau lớn hơn. Chẳng hạn, các thành viên trong gia đình có thể cùng nấu ăn hoặc dọn dẹp nhà cửa, mang đến cho họ nhiều thời gian hơn để giao tiếp và giải quyết các vấn đề như một đội. Nhờ vậy, môi trường gia đình trở nên tích cực, hòa thuận và gắn kết hơn.\n\n<strong>Một khía cạnh nữa cần xem xét là điều này giúp trẻ em phát triển những kỹ năng sống quan trọng.</strong> Nguyên nhân chính là vì trẻ học được cách chịu trách nhiệm cho các công việc nhà của mình thay vì hoàn toàn ỷ lại vào cha mẹ. Điều này dẫn đến tính tự lập cao hơn và các kỹ năng quản lý thời gian tốt hơn. Ví dụ, những đứa trẻ thường xuyên tự dọn giường, rửa bát, hoặc dọn dẹp phòng của mình sẽ dần trở nên có trách nhiệm hơn. Ngoài ra, những kỹ năng quý giá này trang bị cho chúng sẵn sàng cho cuộc sống trưởng thành và đóng góp vào một tương lai tươi sáng hơn.\n\nTóm lại, <strong><em>việc chia sẻ công việc nhà giữa các thành viên trong gia đình mang lại một vài lợi ích đáng chú ý.</em></strong> Những khía cạnh tích cực này làm nổi bật giá trị của nó trong nhiều lĩnh vực của cuộc sống. Nhìn chung, việc xem xét các yếu tố này giúp ta có được sự thấu hiểu rõ ràng hơn về chủ đề này."
+        }
       },
       {
         "id": 62,
