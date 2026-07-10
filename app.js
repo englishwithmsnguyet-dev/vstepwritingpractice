@@ -356,6 +356,47 @@ function renderCategoryTopics(searchQuery = '') {
   });
   
   renderPagination(totalPages);
+  
+  // Populate the floating widget with updated topics
+  const updatedTopics = currentCategory.topics.filter(t => t.has_full_details);
+  const widgetList = document.getElementById('floating-updated-list');
+  const widgetBadge = document.getElementById('floating-updated-badge');
+  const widget = document.getElementById('floating-updated-widget');
+  
+  if (updatedTopics.length > 0) {
+    widget.style.display = 'flex';
+    widgetBadge.textContent = updatedTopics.length;
+    widgetList.innerHTML = '';
+    
+    updatedTopics.forEach(topic => {
+      const item = document.createElement('div');
+      item.className = 'floating-updated-item';
+      item.onclick = () => {
+        toggleUpdatedTopicsWidget(false);
+        startPractice(currentCategory.id, topic.id);
+      };
+      
+      item.innerHTML = `
+        <div class="item-icon">📚</div>
+        <div class="item-text">${topic.id}. ${topic.title_vi}</div>
+      `;
+      widgetList.appendChild(item);
+    });
+  } else {
+    widget.style.display = 'none';
+  }
+}
+
+// Toggle logic for floating widget
+function toggleUpdatedTopicsWidget(show) {
+  const widget = document.getElementById('floating-updated-widget');
+  if (show === undefined) {
+    widget.classList.toggle('active');
+  } else if (show) {
+    widget.classList.add('active');
+  } else {
+    widget.classList.remove('active');
+  }
 }
 
 // Render Pagination Buttons
