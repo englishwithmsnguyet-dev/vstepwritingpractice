@@ -7541,9 +7541,18 @@ const ESSAY_DATA = [
         "prompt": "Write an essay to an educated reader to discuss the reasons for the popularity of online shopping. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
         "has_full_details": true,
         "paraphrases": [
-          "The growing popularity of online shopping is caused by several factors.",
-          "There are several reasons behind the widespread use of online shopping.",
-          "The rise of online shopping can be attributed to multiple reasons."
+          {
+            "en": "The widespread use of online shopping",
+            "vi": "Sự sử dụng rộng rãi của mua sắm trực tuyến"
+          },
+          {
+            "en": "The growing trend of internet shopping",
+            "vi": "Xu hướng gia tăng của việc mua sắm trên mạng"
+          },
+          {
+            "en": "The rise of e-commerce",
+            "vi": "Sự trỗi dậy của thương mại điện tử"
+          }
         ],
         "details": {
           "vocab": [],
@@ -7862,9 +7871,18 @@ const ESSAY_DATA = [
         "prompt": "Write an essay to an educated reader to discuss the reasons for the popularity of online shopping. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
         "has_full_details": true,
         "paraphrases": [
-          "The growing popularity of online shopping is caused by several factors.",
-          "There are several reasons behind the widespread use of online shopping.",
-          "The rise of online shopping can be attributed to multiple reasons."
+          {
+            "en": "The widespread use of online shopping",
+            "vi": "Sự sử dụng rộng rãi của mua sắm trực tuyến"
+          },
+          {
+            "en": "The growing trend of internet shopping",
+            "vi": "Xu hướng gia tăng của việc mua sắm trên mạng"
+          },
+          {
+            "en": "The rise of e-commerce",
+            "vi": "Sự trỗi dậy của thương mại điện tử"
+          }
         ],
         "details": {
           "vocab": [],
@@ -9594,9 +9612,18 @@ const ESSAY_DATA = [
         "title_en": "Smoking should be banned in public places.",
         "title_vi": "Việc hút thuốc nên bị cấm ở nơi công cộng.",
         "paraphrases": [
-          "Smoking in public places ought to be prohibited.",
-          "Banning smoking in public places is necessary.",
-          "It is essential/necessary to ban/prohibit smoking in public places."
+          {
+            "en": "Smoking in public places ought to be prohibited.",
+            "vi": "Việc hút thuốc ở nơi công cộng nên bị cấm."
+          },
+          {
+            "en": "Banning smoking in public places is necessary.",
+            "vi": "Cấm hút thuốc ở nơi công cộng là điều cần thiết."
+          },
+          {
+            "en": "It is essential to ban smoking in public places.",
+            "vi": "Việc cấm hút thuốc ở các khu vực công cộng là thiết yếu."
+          }
         ],
         "context": "Smoking remains a common habit in many societies despite growing awareness of its harmful effects on health. In public places such as restaurants, parks, transportation systems, and workplaces, smoking can affect not only smokers but also people around them through exposure to second-hand smoke. For this reason, some people believe that smoking should be banned in all public places.",
         "prompt": "What is your opinion on the view that smoking should be banned in public places? Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
