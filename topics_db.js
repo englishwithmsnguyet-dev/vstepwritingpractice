@@ -3596,9 +3596,139 @@ const ESSAY_DATA = [
         "id": 42,
         "title_en": "Food delivery services",
         "title_vi": "Dịch vụ giao đồ ăn",
+        "tags": "",
         "context": "In busy modern life, food delivery services have become popular in many cities. People can order meals from restaurants through mobile applications or websites and have the food delivered to their homes, workplaces, or schools. Some people believe that food delivery services bring many benefits, while others argue that they may also cause several problems.",
         "prompt": "Write an essay to an educated reader to discuss the advantages and disadvantages of food delivery services. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "paraphrases": [
+          {
+            "en": "The use of food delivery services",
+            "vi": "Việc sử dụng các dịch vụ giao đồ ăn"
+          },
+          {
+            "en": "Ordering food online",
+            "vi": "Việc đặt đồ ăn trực tuyến"
+          },
+          {
+            "en": "Using meal delivery applications",
+            "vi": "Việc sử dụng các ứng dụng giao bữa ăn"
+          }
+        ],
+        "details": {
+          "vocab": [],
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "ADVANTAGE 01",
+                "collocations": [],
+                "point_vi": "Dịch vụ giao đồ ăn giúp mọi người tiết kiệm thời gian.",
+                "point_en": "Food delivery services help people save time.",
+                "evidence_vi": "Mọi người không cần đến nhà hàng vì có thể đặt món ngay tại nhà hoặc nơi làm việc.",
+                "evidence_en": "People do not need to visit restaurants because they can order meals from home or work."
+              },
+              {
+                "title": "ADVANTAGE 02",
+                "collocations": [],
+                "point_vi": "Dịch vụ giao đồ ăn rất thuận tiện.",
+                "point_en": "Food delivery services are very convenient.",
+                "evidence_vi": "Mọi người có thể đặt đồ ăn bất cứ lúc nào chỉ bằng điện thoại hoặc ứng dụng.",
+                "evidence_en": "People can order food anytime using a mobile phone or an application."
+              },
+              {
+                "title": "ADVANTAGE 03",
+                "collocations": [],
+                "point_vi": "Dịch vụ giao đồ ăn mang đến nhiều lựa chọn hơn.",
+                "point_en": "Food delivery services offer a wider variety of meals.",
+                "evidence_vi": "Khách hàng có thể lựa chọn món ăn từ nhiều nhà hàng khác nhau.",
+                "evidence_en": "Customers can choose meals from many different restaurants."
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "DISADVANTAGE 01",
+                "collocations": [],
+                "point_vi": "Dịch vụ giao đồ ăn có thể tốn kém.",
+                "point_en": "Food delivery services can be expensive.",
+                "evidence_vi": "Khách hàng thường phải trả thêm phí giao hàng và phí dịch vụ.",
+                "evidence_en": "Customers often have to pay delivery and service fees."
+              },
+              {
+                "title": "DISADVANTAGE 02",
+                "collocations": [],
+                "point_vi": "Dịch vụ giao đồ ăn có thể khuyến khích thói quen ăn uống không lành mạnh.",
+                "point_en": "Food delivery services may encourage unhealthy eating habits.",
+                "evidence_vi": "Nhiều người thường gọi đồ ăn nhanh thay vì tự nấu ăn.",
+                "evidence_en": "Many people often order fast food instead of cooking at home."
+              },
+              {
+                "title": "DISADVANTAGE 03",
+                "collocations": [],
+                "point_vi": "Dịch vụ giao đồ ăn tạo ra nhiều rác thải.",
+                "point_en": "Food delivery services create more waste.",
+                "evidence_vi": "Mỗi đơn hàng thường sử dụng nhiều hộp và túi nhựa dùng một lần.",
+                "evidence_en": "Each order usually uses many disposable plastic boxes and bags."
+              }
+            ]
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "ADVANTAGE 01",
+                "collocations": [],
+                "point_vi": "Dịch vụ giao đồ ăn giúp mọi người tiết kiệm thời gian và công sức.",
+                "point_en": "Food delivery services help people save both time and effort.",
+                "evidence_vi": "Người dùng không cần đến nhà hàng hoặc tự chuẩn bị bữa ăn. Điều này đặc biệt thuận tiện đối với những người có lịch trình bận rộn.",
+                "evidence_en": "People do not need to visit restaurants or prepare meals themselves. This is especially beneficial for people with busy schedules."
+              },
+              {
+                "title": "ADVANTAGE 02",
+                "collocations": [],
+                "point_vi": "Dịch vụ giao đồ ăn mang đến nhiều lựa chọn hơn cho người tiêu dùng.",
+                "point_en": "Food delivery services provide consumers with a wider variety of meals.",
+                "evidence_vi": "Khách hàng có thể đặt món từ nhiều nhà hàng khác nhau. Họ cũng có thể dễ dàng so sánh giá cả và thực đơn trước khi đặt món.",
+                "evidence_en": "Customers can order meals from many different restaurants. They can also compare prices and menus before placing an order."
+              },
+              {
+                "title": "ADVANTAGE 03",
+                "collocations": [],
+                "point_vi": "Công nghệ hiện đại giúp việc đặt đồ ăn trở nên dễ dàng hơn.",
+                "point_en": "Modern technology makes food delivery services more accessible.",
+                "evidence_vi": "Các ứng dụng đặt đồ ăn rất dễ sử dụng. Thanh toán trực tuyến và dịch vụ giao hàng ngày càng nhanh và thuận tiện.",
+                "evidence_en": "Food delivery applications are user-friendly and easy to use. Online payment and delivery services have become faster and more convenient."
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "DISADVANTAGE 01",
+                "collocations": [],
+                "point_vi": "Dịch vụ giao đồ ăn có thể làm tăng chi phí sinh hoạt.",
+                "point_en": "Food delivery services can increase daily living expenses.",
+                "evidence_vi": "Người dùng thường phải trả thêm phí giao hàng và phí dịch vụ. Giá món ăn trên ứng dụng đôi khi cao hơn tại nhà hàng.",
+                "evidence_en": "Customers often have to pay delivery and service fees. Meal prices on delivery applications are sometimes higher than those in restaurants."
+              },
+              {
+                "title": "DISADVANTAGE 02",
+                "collocations": [],
+                "point_vi": "Dịch vụ giao đồ ăn có thể dẫn đến thói quen ăn uống không lành mạnh.",
+                "point_en": "Food delivery services may lead to unhealthy eating habits.",
+                "evidence_vi": "Nhiều người thường xuyên gọi đồ ăn nhanh. Điều này có thể làm tăng nguy cơ gặp các vấn đề về sức khỏe.",
+                "evidence_en": "Many people frequently order fast food. This may increase the risk of health problems."
+              },
+              {
+                "title": "DISADVANTAGE 03",
+                "collocations": [],
+                "point_vi": "Dịch vụ giao đồ ăn có thể gây ra các vấn đề về môi trường.",
+                "point_en": "Food delivery services may create environmental problems.",
+                "evidence_vi": "Mỗi đơn hàng thường sử dụng nhiều bao bì nhựa dùng một lần. Điều này làm tăng lượng rác thải và gây ô nhiễm môi trường.",
+                "evidence_en": "Each order usually uses a large amount of disposable plastic packaging. This increases the amount of waste and causes environmental pollution."
+              }
+            ]
+          },
+          "sample_b1": "In recent years, food delivery services have become more common in modern society. Although they have some benefits, there are also some drawbacks. This essay will discuss both sides of this topic.\n\n<strong>On the one hand, food delivery services have several advantages.</strong> <strong><em>One major benefit is that they help people save time.</em></strong> This is because people do not need to visit restaurants, as they can order meals from home or work. <strong><em>Another positive aspect is that they are very convenient.</em></strong> The main reason is that people can order food anytime using a mobile phone or an application. <strong><em>A further good point is that they offer a wider variety of meals.</em></strong> For example, customers can choose meals from many different restaurants without leaving their homes.\n\n<strong>On the other hand, there are also several disadvantages.</strong> <strong><em>One possible drawback is that food delivery services can be expensive.</em></strong> This is because customers often have to pay delivery and service fees in addition to the cost of the meal. <strong><em>Another negative aspect is that they may encourage unhealthy eating habits.</em></strong> For instance, many people often order fast food instead of cooking at home, which may be harmful to their health. <strong><em>A further problem is that they create more waste.</em></strong> This means that each order usually uses many disposable plastic boxes and bags, so the amount of waste increases.\n\nIn conclusion, <strong>food delivery services have both advantages and disadvantages.</strong> These points show that they have different effects on people's lives. Therefore, it is important to consider both sides before making a decision.",
+          "sample_b2": "In recent years, food delivery services have become increasingly prevalent in modern society. Although they bring certain benefits, there are also some negative aspects. This essay will examine both the advantages and disadvantages.\n\n<strong>On the one hand, food delivery services offer several advantages.</strong> <strong><em>One major benefit is that they help people save both time and effort.</em></strong> This is because people do not need to visit restaurants or prepare meals themselves. As a result, they can spend more time on work, study, or other important activities, especially if they have busy schedules. <strong><em>Another positive effect is that they provide consumers with a wider variety of meals.</em></strong> Customers can order food from many different restaurants and compare menus before making a decision. Consequently, they are more likely to find meals that suit their preferences. <strong><em>A further aspect to consider is that modern technology has made food delivery services more accessible.</em></strong> Food delivery applications are user-friendly, while online payment and delivery services have become faster and more convenient. Therefore, more people are choosing this way of ordering food.\n\n<strong>On the other hand, there are some disadvantages that should be considered.</strong> <strong><em>One possible drawback is that food delivery services can increase daily living expenses.</em></strong> This happens because customers often have to pay delivery and service fees, and meal prices on applications are sometimes higher than those in restaurants. As a result, people may spend much more money if they use these services regularly. <strong><em>Another negative aspect is that food delivery services may lead to unhealthy eating habits.</em></strong> Many people frequently order fast food instead of preparing healthy meals at home. Consequently, this may increase the risk of health problems in the long term. <strong><em>A further concern is that food delivery services may create environmental problems.</em></strong> Each order usually requires disposable plastic boxes, cups, bags, and utensils. This leads to a larger amount of waste and may contribute to environmental pollution.\n\nIn conclusion, <strong>food delivery services present both advantages and disadvantages.</strong> The points discussed above highlight their key aspects. Overall, understanding these factors helps provide a more balanced view of this topic.",
+          "translation_b1": "Trong những năm gần đây, dịch vụ giao đồ ăn đã trở nên phổ biến hơn trong xã hội hiện đại. Mặc dù có một vài lợi ích, chúng cũng đi kèm với một số bất lợi. Bài luận này sẽ thảo luận về cả hai khía cạnh của chủ đề này.\n\n<strong>Một mặt, dịch vụ giao đồ ăn có một số ưu điểm.</strong> <strong><em>Một lợi ích chính là chúng giúp mọi người tiết kiệm thời gian.</em></strong> Điều này là do mọi người không cần phải đến nhà hàng, vì họ có thể đặt các bữa ăn từ nhà hoặc nơi làm việc. <strong><em>Một khía cạnh tích cực khác là chúng rất tiện lợi.</em></strong> Lý do chính là vì mọi người có thể đặt thức ăn bất cứ lúc nào bằng điện thoại di động hoặc ứng dụng. <strong><em>Một điểm tốt nữa là chúng mang đến nhiều sự lựa chọn bữa ăn hơn.</em></strong> Ví dụ, khách hàng có thể chọn món ăn từ nhiều nhà hàng khác nhau mà không cần phải rời khỏi nhà.\n\n<strong>Mặt khác, cũng có một số nhược điểm.</strong> <strong><em>Một bất lợi có thể xảy ra là dịch vụ giao đồ ăn có thể khá đắt đỏ.</em></strong> Điều này là do khách hàng thường phải trả phí giao hàng và phí dịch vụ cộng thêm vào chi phí của bữa ăn. <strong><em>Một khía cạnh tiêu cực khác là chúng có thể khuyến khích những thói quen ăn uống không lành mạnh.</em></strong> Chẳng hạn, nhiều người thường đặt thức ăn nhanh thay vì nấu ăn ở nhà, điều này có thể gây hại cho sức khỏe của họ. <strong><em>Một vấn đề khác nữa là chúng tạo ra nhiều rác thải hơn.</em></strong> Điều này có nghĩa là mỗi đơn hàng thường sử dụng nhiều hộp nhựa và túi ni-lông dùng một lần, làm gia tăng lượng rác thải.\n\nTóm lại, <strong>dịch vụ giao đồ ăn có cả ưu điểm và nhược điểm.</strong> Những điểm này cho thấy chúng có những tác động khác nhau đến cuộc sống của con người. Do đó, việc xem xét cả hai khía cạnh trước khi đưa ra quyết định là rất quan trọng.",
+          "translation_b2": "Trong những năm gần đây, dịch vụ giao đồ ăn đã trở nên ngày càng thịnh hành trong xã hội hiện đại. Dù mang lại những lợi ích nhất định, chúng cũng tồn tại một số khía cạnh tiêu cực. Bài tiểu luận này sẽ xem xét cả những điểm mạnh và điểm yếu.\n\n<strong>Một mặt, dịch vụ giao đồ ăn cung cấp một vài ưu điểm.</strong> <strong><em>Một lợi ích lớn là chúng giúp con người tiết kiệm cả thời gian lẫn công sức.</em></strong> Đó là bởi mọi người không cần phải tự đến nhà hàng hay chuẩn bị bữa ăn. Nhờ vậy, họ có thể dành nhiều thời gian hơn cho công việc, học tập, hoặc các hoạt động quan trọng khác, đặc biệt là nếu họ có một lịch trình bận rộn. <strong><em>Một hiệu ứng tích cực khác là chúng mang đến cho người tiêu dùng nhiều sự lựa chọn món ăn hơn.</em></strong> Khách hàng có thể đặt đồ ăn từ nhiều nhà hàng khác nhau và so sánh thực đơn trước khi đưa ra quyết định. Nhờ đó, họ dễ dàng tìm được những bữa ăn phù hợp với sở thích của mình hơn. <strong><em>Một khía cạnh nữa cần xem xét là công nghệ hiện đại đã làm cho các dịch vụ giao đồ ăn trở nên dễ tiếp cận hơn.</em></strong> Các ứng dụng giao đồ ăn rất thân thiện với người dùng, trong khi đó các dịch vụ thanh toán trực tuyến và giao hàng ngày càng trở nên nhanh chóng và tiện lợi hơn. Chính vì thế, càng có nhiều người lựa chọn phương thức đặt đồ ăn này.\n\n<strong>Mặt khác, có một số nhược điểm cần được xem xét.</strong> <strong><em>Một hạn chế có thể thấy là dịch vụ giao đồ ăn có thể làm tăng chi phí sinh hoạt hàng ngày.</em></strong> Điều này xảy ra do khách hàng thường phải trả thêm các khoản phí giao hàng và dịch vụ, và giá món ăn trên các ứng dụng đôi khi cũng cao hơn so với tại nhà hàng. Kết quả là, mọi người có thể phải tiêu tốn nhiều tiền hơn nếu thường xuyên sử dụng các dịch vụ này. <strong><em>Một khía cạnh tiêu cực khác là dịch vụ giao đồ ăn có thể dẫn đến những thói quen ăn uống thiếu lành mạnh.</em></strong> Nhiều người thường xuyên đặt thức ăn nhanh thay vì chuẩn bị các bữa ăn tốt cho sức khỏe tại nhà. Hậu quả là, điều này có thể làm tăng nguy cơ mắc các vấn đề sức khỏe trong dài hạn. <strong><em>Một mối quan ngại thêm nữa là dịch vụ giao đồ ăn có thể gây ra các vấn đề về môi trường.</em></strong> Mỗi đơn hàng thường đi kèm với hộp, cốc, túi nhựa, và các dụng cụ dùng một lần. Việc này dẫn đến một lượng rác thải lớn hơn và có thể góp phần vào việc ô nhiễm môi trường.\n\nTóm lại, <strong>dịch vụ giao đồ ăn có cả lợi ích lẫn tác hại.</strong> Các ý được thảo luận ở trên đã làm rõ những khía cạnh chính của chúng. Nhìn chung, việc hiểu được các yếu tố này sẽ giúp mang lại một góc nhìn đa chiều và cân bằng hơn về chủ đề này."
+        }
       },
       {
         "id": 43,
