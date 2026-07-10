@@ -11702,9 +11702,99 @@ const ESSAY_DATA = [
         "id": 15,
         "title_en": "Friendship: lifelong commitment or temporary relationship?",
         "title_vi": "Tình bạn: sự gắn bó lâu dài hay mối quan hệ tạm thời?",
+        "tags": "",
         "context": "Friendship is an important part of human life and can greatly influence people's happiness and well-being. Some people believe that true friendship is a lifelong commitment and that genuine friends are invaluable because they provide trust, emotional support, and meaningful companionship throughout life. Others argue that friendships are often temporary relationships that last only as long as people share common interests, goals, or needs, and may gradually fade as circumstances change.",
         "prompt": "Discuss both views and give your own opinion. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "paraphrases": {
+          "view1": {
+            "title_en": "True friendship can last a lifetime",
+            "title_vi": "Tình bạn thật sự có thể duy trì trong suốt cuộc đời",
+            "items": [
+              {
+                "en": "true friendship can last a lifetime",
+                "vi": "tình bạn thật sự có thể duy trì trong suốt cuộc đời"
+              },
+              {
+                "en": "genuine friendship can remain strong throughout a person's life",
+                "vi": "tình bạn chân thành có thể duy trì bền vững trong suốt cuộc đời của một người"
+              },
+              {
+                "en": "true friends can stay together throughout life",
+                "vi": "những người bạn thật sự có thể đồng hành cùng nhau suốt cuộc đời"
+              }
+            ]
+          },
+          "view2": {
+            "title_en": "Some friendships only last for a period of time",
+            "title_vi": "Một số tình bạn chỉ kéo dài trong một khoảng thời gian",
+            "items": [
+              {
+                "en": "some friendships only last for a period of time",
+                "vi": "một số tình bạn chỉ kéo dài trong một khoảng thời gian"
+              },
+              {
+                "en": "many friendships only last while people share similar circumstances or goals",
+                "vi": "nhiều tình bạn chỉ tồn tại khi mọi người có chung hoàn cảnh hoặc mục tiêu"
+              },
+              {
+                "en": "friendships may come to an end over time",
+                "vi": "các tình bạn có thể kết thúc theo thời gian"
+              }
+            ]
+          }
+        },
+        "details": {
+          "vocab": [],
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "VIEW 01",
+                "collocations": [],
+                "point_vi": "Bạn bè thật sự có thể duy trì tình bạn trong suốt cuộc đời.",
+                "point_en": "True friendship can last a lifetime.",
+                "evidence_vi": "Bạn bè thật sự luôn tin tưởng lẫn nhau. Họ luôn sẵn sàng giúp đỡ nhau khi gặp khó khăn. Điều này giúp mối quan hệ của họ ngày càng bền chặt hơn. Họ cũng tạo ra nhiều kỷ niệm đẹp cùng nhau. Vì vậy, những người bạn thật sự rất đáng quý và có thể đồng hành suốt cuộc đời.",
+                "evidence_en": "True friends always trust each other. They are always willing to help each other during difficult times. This makes their relationship stronger over time. They also create many happy memories together. Therefore, true friends are very valuable and can stay together throughout life."
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "VIEW 02",
+                "collocations": [],
+                "point_vi": "Một số tình bạn chỉ kéo dài trong một khoảng thời gian.",
+                "point_en": "Some friendships only last for a period of time.",
+                "evidence_vi": "Mọi người có thể thay đổi trường học, công việc hoặc nơi sinh sống. Điều này khiến họ ít có cơ hội gặp nhau hơn. Họ cũng có thể có những sở thích hoặc mục tiêu khác nhau. Dần dần, họ dành ít thời gian cho nhau hơn. Do đó, một số tình bạn có thể kết thúc theo thời gian.",
+                "evidence_en": "People may change their schools, jobs, or places of living. This gives them fewer chances to meet each other. They may also develop different interests or goals. Gradually, they spend less time together. As a result, some friendships may come to an end over time."
+              }
+            ]
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "VIEW 01",
+                "collocations": [],
+                "point_vi": "Bạn bè thật sự có thể duy trì mối quan hệ bền vững trong suốt cuộc đời.",
+                "point_en": "True friendship can remain strong throughout a person's life.",
+                "evidence_vi": "Bạn bè thật sự xây dựng mối quan hệ dựa trên sự tin tưởng và tôn trọng lẫn nhau. Họ luôn sẵn sàng hỗ trợ nhau trong những giai đoạn khó khăn. Những trải nghiệm cùng nhau giúp mối quan hệ ngày càng bền chặt. Ngoài ra, họ vẫn giữ liên lạc ngay cả khi sống ở những nơi khác nhau. Vì vậy, tình bạn thật sự có thể kéo dài suốt cuộc đời. Đây là lý do nhiều người coi những người bạn thật sự là vô cùng quý giá.",
+                "evidence_en": "True friends build their relationships on mutual trust and respect. They are always willing to support each other during difficult times. Shared experiences make their relationship even stronger over time. In addition, they stay in touch even when they live in different places. Therefore, genuine friendship can last a lifetime. For this reason, many people consider true friends invaluable."
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "VIEW 02",
+                "collocations": [],
+                "point_vi": "Nhiều tình bạn chỉ tồn tại khi mọi người còn có chung hoàn cảnh hoặc mục tiêu.",
+                "point_en": "Many friendships only last while people share similar circumstances or goals.",
+                "evidence_vi": "Mọi người thường thay đổi nơi học tập, làm việc hoặc sinh sống theo thời gian. Điều này khiến họ có ít cơ hội gặp gỡ và trò chuyện với nhau hơn. Sở thích và ưu tiên của mỗi người cũng có thể thay đổi. Khi không còn nhiều điểm chung, mối quan hệ có thể dần trở nên xa cách. Cuối cùng, một số tình bạn tự nhiên kết thúc mà không xảy ra mâu thuẫn. Vì vậy, không phải mọi tình bạn đều có thể kéo dài mãi mãi.",
+                "evidence_en": "People often change their schools, workplaces, or places of living over time. This gives them fewer opportunities to meet and communicate with one another. Their interests and priorities may also change. When they no longer have much in common, the relationship may gradually become distant. Eventually, some friendships naturally come to an end without any conflict. Therefore, not every friendship can last forever."
+              }
+            ]
+          },
+          "sample_b1": "In recent years, friendship has become a common topic of discussion. Some people believe that true friendship can last a lifetime, while others argue that some friendships only last for a period of time. This essay will discuss both views and give my own opinion.\n\n<strong>On the one hand, it is argued that true friendship can last a lifetime.</strong> This is because true friends always trust each other and are willing to help each other during difficult times. In addition, these experiences make their relationship stronger over time. They also create many happy memories together by studying, travelling, or taking part in different activities. As a result, their friendship becomes closer and more meaningful. For example, many childhood friends remain close even after they grow up and live in different places. Therefore, true friends are very valuable and can stay together throughout life.\n\n<strong>On the other hand, it is believed that some friendships only last for a period of time.</strong> The main reason is that people may change their schools, jobs, or places of living as they get older. As a result, they have fewer chances to meet each other. In addition, they may develop different interests or life goals, so they gradually spend less time together. Consequently, some friendships naturally come to an end over time. For example, many classmates lose contact after graduation because their lives follow different paths.\n\nIn conclusion, both views have their own reasons. <strong><em>However, I believe that true friendship can last a lifetime because trust, support, and shared experiences help people maintain strong relationships.</em></strong> Therefore, people should think carefully before forming an opinion.",
+          "sample_b2": "In recent years, friendship has become a subject of considerable debate. Some people believe that true friendship can last for a lifetime, while others argue that some friendships only last for a period of time. This essay will discuss both perspectives and present my personal viewpoint.\n\n<strong>On the one hand, it is argued that true friendship can remain strong throughout a person's life.</strong> First of all, true friends build their relationships on mutual trust and respect, which creates a solid foundation for a lasting friendship. In addition, they are always willing to support each other during difficult times, helping one another overcome challenges. Shared experiences also make their relationship even stronger over time because they create unforgettable memories together. Moreover, true friends usually stay in touch even when they live in different places or have busy lives. For example, many childhood friends continue to meet regularly and support each other despite studying or working in different cities. Therefore, many people consider genuine friendship invaluable because it can last a lifetime.\n\n<strong>On the other hand, it is believed that many friendships only last while people share similar circumstances or goals.</strong> People often change their schools, workplaces, or places of living as they move through different stages of life. As a result, they have fewer opportunities to meet and communicate with one another. Furthermore, their interests and priorities may gradually change over time, making them have fewer things in common. Consequently, some friendships become more distant and eventually come to an end without any conflict. For instance, many classmates lose contact after graduation because they choose different careers and lifestyles. Therefore, not every friendship can last forever.\n\nIn conclusion, both sides of the argument present valid points. <strong><em>However, I personally believe that true friendship can last a lifetime because trust, support, and shared experiences help people maintain strong relationships.</em></strong> Therefore, people should carefully consider both perspectives before forming a final opinion.",
+          "translation_b1": "Trong những năm gần đây, tình bạn đã trở thành một chủ đề thảo luận phổ biến. Một số người tin rằng tình bạn thật sự có thể duy trì suốt đời, trong khi những người khác cho rằng một số tình bạn chỉ kéo dài trong một khoảng thời gian nhất định. Bài luận này sẽ thảo luận cả hai quan điểm và đưa ra ý kiến cá nhân của tôi.\n\n<strong>Một mặt, có ý kiến cho rằng tình bạn thật sự có thể duy trì suốt đời.</strong> Điều này là bởi vì những người bạn thật sự luôn tin tưởng lẫn nhau và sẵn sàng giúp đỡ nhau trong những lúc khó khăn. Ngoài ra, những trải nghiệm này làm cho mối quan hệ của họ bền chặt hơn theo thời gian. Họ cũng tạo ra nhiều kỷ niệm đẹp cùng nhau thông qua việc học tập, đi du lịch hoặc tham gia các hoạt động khác nhau. Kết quả là, tình bạn của họ trở nên gần gũi và có ý nghĩa hơn. Ví dụ, nhiều người bạn thuở nhỏ vẫn thân thiết ngay cả khi họ lớn lên và sống ở những nơi khác nhau. Do đó, những người bạn thật sự rất quý giá và có thể gắn bó với nhau suốt cuộc đời.\n\n<strong>Mặt khác, người ta tin rằng một số tình bạn chỉ kéo dài trong một khoảng thời gian.</strong> Lý do chính là mọi người có thể thay đổi trường học, công việc hoặc nơi sinh sống khi họ lớn lên. Hậu quả là, họ có ít cơ hội gặp nhau hơn. Thêm vào đó, họ có thể phát triển những sở thích hoặc mục tiêu sống khác nhau, vì vậy họ dần dần dành ít thời gian cho nhau hơn. Do đó, một số tình bạn tự nhiên đi đến hồi kết theo thời gian. Ví dụ, nhiều bạn cùng lớp mất liên lạc sau khi tốt nghiệp vì cuộc đời họ đi theo những con đường khác nhau.\n\nTóm lại, cả hai quan điểm đều có những lý do riêng. <strong><em>Tuy nhiên, tôi tin rằng tình bạn thật sự có thể kéo dài suốt đời vì sự tin tưởng, sự hỗ trợ và những trải nghiệm chung giúp mọi người duy trì những mối quan hệ bền vững.</em></strong> Vì vậy, mọi người nên suy nghĩ cẩn thận trước khi đưa ra nhận định.",
+          "translation_b2": "Trong những năm gần đây, tình bạn đã trở thành một chủ đề tranh luận đáng chú ý. Một số người tin rằng tình bạn thật sự có thể kéo dài suốt đời, trong khi những người khác lại lập luận rằng một số tình bạn chỉ tồn tại trong một khoảng thời gian. Bài tiểu luận này sẽ thảo luận cả hai góc nhìn và trình bày quan điểm cá nhân của tôi.\n\n<strong>Một mặt, người ta lập luận rằng tình bạn thật sự có thể duy trì bền vững trong suốt cuộc đời của một người.</strong> Trước hết, những người bạn chân thành xây dựng mối quan hệ của họ trên sự tin tưởng và tôn trọng lẫn nhau, điều này tạo ra một nền tảng vững chắc cho một tình bạn lâu dài. Thêm vào đó, họ luôn sẵn sàng hỗ trợ nhau trong những giai đoạn khó khăn, giúp nhau vượt qua thử thách. Những trải nghiệm chung cũng làm cho mối quan hệ của họ càng trở nên bền chặt hơn theo thời gian vì chúng tạo ra những kỷ niệm khó quên cùng nhau. Hơn thế nữa, những người bạn thật sự thường giữ liên lạc ngay cả khi họ sống ở những nơi khác nhau hoặc có cuộc sống bận rộn. Ví dụ, nhiều người bạn thời thơ ấu tiếp tục gặp gỡ thường xuyên và hỗ trợ nhau mặc dù học tập hoặc làm việc ở các thành phố khác nhau. Do đó, nhiều người coi tình bạn chân thành là vô giá vì nó có thể kéo dài suốt đời.\n\n<strong>Mặt khác, người ta tin rằng nhiều tình bạn chỉ kéo dài trong khi mọi người chia sẻ hoàn cảnh hoặc mục tiêu tương đồng.</strong> Mọi người thường thay đổi trường học, nơi làm việc hoặc nơi sinh sống khi họ bước qua các giai đoạn khác nhau của cuộc đời. Kết quả là, họ có ít cơ hội gặp gỡ và giao tiếp với nhau hơn. Hơn nữa, sở thích và ưu tiên của họ có thể dần thay đổi theo thời gian, khiến họ có ít điểm chung hơn. Hậu quả là, một số tình bạn trở nên xa cách hơn và cuối cùng đi đến hồi kết mà không có bất kỳ xung đột nào. Ví dụ, nhiều bạn cùng lớp mất liên lạc sau khi tốt nghiệp vì họ chọn những nghề nghiệp và lối sống khác nhau. Vì vậy, không phải tình bạn nào cũng có thể kéo dài mãi mãi.\n\nTóm lại, cả hai phe của cuộc tranh luận đều đưa ra những luận điểm hợp lý. <strong><em>Tuy nhiên, cá nhân tôi tin rằng tình bạn thật sự có thể duy trì suốt đời vì sự tin tưởng, sự hỗ trợ và những trải nghiệm chung giúp con người duy trì các mối quan hệ bền vững.</em></strong> Do đó, mọi người nên cân nhắc cẩn thận cả hai góc nhìn trước khi hình thành quan điểm cuối cùng."
+        }
       },
       {
         "id": 16,
