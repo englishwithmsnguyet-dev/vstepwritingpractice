@@ -10116,13 +10116,85 @@ const ESSAY_DATA = [
         "id": 16,
         "title_en": "The textbook is the key component of the language classroom.",
         "title_vi": "Sách giáo khoa là yếu tố cốt lõi trong lớp học ngoại ngữ.",
-        "paraphrases": [
-          "Textbooks play a central/crucial/main/key role in language teaching and learning.",
-          "Textbooks are considered/ seen as the main foundation for organizing language classrooms/ lessons."
-        ],
+        "tags": "",
         "context": "Textbooks have long been used as a primary source of learning materials in language education. They provide structured lessons, vocabulary, grammar exercises, and guidance for both teachers and students. However, with the development of technology and the increasing availability of online resources, some people question whether textbooks should still play a central role in language classrooms. Others believe that textbooks remain the key component of effective language teaching and learning.",
         "prompt": "What is your opinion on the view that the textbook is the key component of the language classroom? Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "paraphrases": [
+          {
+            "en": "Textbooks play a central role in language teaching and learning.",
+            "vi": "Sách giáo khoa đóng vai trò trung tâm trong việc dạy và học ngôn ngữ."
+          },
+          {
+            "en": "Textbooks are considered the main foundation for organizing language classrooms.",
+            "vi": "Sách giáo khoa được coi là nền tảng chính để tổ chức các lớp học ngôn ngữ."
+          }
+        ],
+        "details": {
+          "vocab": [],
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "LÝ DO 01",
+                "collocations": [],
+                "point_vi": "Sách giáo khoa giúp việc học ngôn ngữ có cấu trúc rõ ràng.",
+                "point_en": "Textbooks provide a clear structure for language learning.",
+                "evidence_vi": "Các bài học được sắp xếp theo trình tự từ dễ đến khó. Điều này giúp học sinh học từng bước một cách hiệu quả hơn. Học sinh cũng dễ theo dõi tiến độ học tập của mình. Vì vậy, sách giáo khoa giúp quá trình học trở nên có hệ thống hơn.",
+                "evidence_en": "Lessons are organized from easy to difficult. This helps students learn step by step more effectively. Students can also follow their learning progress more easily. Therefore, textbooks make the learning process more systematic."
+              },
+              {
+                "title": "LÝ DO 02",
+                "collocations": [],
+                "point_vi": "Sách giáo khoa cung cấp những kiến thức ngôn ngữ cần thiết.",
+                "point_en": "Textbooks provide essential language knowledge.",
+                "evidence_vi": "Chúng bao gồm từ vựng, ngữ pháp và các bài luyện tập. Học sinh có thể luyện tập tất cả các kỹ năng ngôn ngữ. Điều này giúp các em xây dựng nền tảng tiếng Anh vững chắc. Do đó, sách giáo khoa đóng vai trò quan trọng trong việc học ngôn ngữ.",
+                "evidence_en": "They include vocabulary, grammar, and practice exercises. Students can practise all language skills. This helps them build a strong foundation in English. Therefore, textbooks play an important role in language learning."
+              },
+              {
+                "title": "LÝ DO 03",
+                "collocations": [],
+                "point_vi": "Sách giáo khoa hỗ trợ cả giáo viên và học sinh.",
+                "point_en": "Textbooks support both teachers and students.",
+                "evidence_vi": "Giáo viên có thể chuẩn bị bài giảng dễ dàng hơn. Học sinh biết mình cần học gì trước và sau mỗi bài học. Điều này giúp việc dạy và học trở nên hiệu quả hơn. Vì lý do đó, sách giáo khoa vẫn là một phần quan trọng của lớp học.",
+                "evidence_en": "Teachers can prepare lessons more easily. Students know what they need to learn before and after each lesson. This makes teaching and learning more effective. For this reason, textbooks remain an important part of the classroom."
+              }
+            ],
+            "drawbacks": []
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "LÝ DO 01",
+                "collocations": [],
+                "point_vi": "Sách giáo khoa cung cấp một lộ trình học tập có hệ thống cho người học.",
+                "point_en": "Textbooks provide a well-organized learning framework for language learners.",
+                "evidence_vi": "Các bài học được thiết kế theo trình tự hợp lý từ kiến thức cơ bản đến nâng cao. Điều này giúp người học phát triển kỹ năng ngôn ngữ một cách có hệ thống. Họ cũng dễ dàng theo dõi tiến độ học tập của mình. Ngoài ra, một chương trình học thống nhất giúp giáo viên tổ chức bài giảng thuận lợi hơn. Vì vậy, sách giáo khoa vẫn giữ vai trò nền tảng trong lớp học ngoại ngữ.",
+                "evidence_en": "Lessons are designed in a logical sequence from basic to more advanced knowledge. This helps learners develop their language skills systematically. They can also monitor their learning progress more effectively. In addition, a structured curriculum helps teachers organize lessons more effectively. Therefore, textbooks remain the foundation of language classrooms."
+              },
+              {
+                "title": "LÝ DO 02",
+                "collocations": [],
+                "point_vi": "Sách giáo khoa cung cấp đầy đủ các nội dung cần thiết để học ngôn ngữ.",
+                "point_en": "Textbooks provide comprehensive language content.",
+                "evidence_vi": "Chúng bao gồm từ vựng, ngữ pháp, phát âm và các kỹ năng ngôn ngữ. Các bài luyện tập giúp học sinh củng cố kiến thức đã học. Điều này giúp người học xây dựng nền tảng ngôn ngữ vững chắc. Ngoài ra, nội dung thường được biên soạn bởi các chuyên gia giáo dục. Do đó, sách giáo khoa vẫn là nguồn tài liệu học tập đáng tin cậy.",
+                "evidence_en": "They include vocabulary, grammar, pronunciation, and language skills. Practice activities help students reinforce what they have learned. This enables learners to build a solid language foundation. In addition, the content is usually developed by educational experts. Therefore, textbooks remain a reliable learning resource."
+              },
+              {
+                "title": "LÝ DO 03",
+                "collocations": [],
+                "point_vi": "Sách giáo khoa giúp nâng cao hiệu quả dạy và học.",
+                "point_en": "Textbooks support effective teaching and learning.",
+                "evidence_vi": "Giáo viên có thể lập kế hoạch bài giảng dễ dàng hơn. Học sinh biết rõ mục tiêu của từng bài học. Điều này giúp quá trình học tập diễn ra thống nhất hơn. Ngoài ra, sách giáo khoa tạo điều kiện thuận lợi cho việc ôn tập và tự học. Vì lý do đó, chúng vẫn là thành phần quan trọng của lớp học ngoại ngữ.",
+                "evidence_en": "Teachers can plan lessons more efficiently. Students clearly understand the objectives of each lesson. This makes the learning process more consistent. Moreover, textbooks make revision and self-study more convenient. For this reason, they remain a key component of the language classroom."
+              }
+            ],
+            "drawbacks": []
+          },
+          "sample_b1": "In recent years, the idea that the textbook is the key component of the language classroom has become a common topic of discussion. From my perspective, I completely agree with this opinion for several important reasons. This essay will present the main arguments supporting my viewpoint.\n\n<strong>The first reason why I agree with this opinion is that textbooks provide a clear structure for language learning.</strong> In fact, lessons are organized from easy to difficult, so students can learn step by step. In addition, they can follow their learning progress more easily throughout the course. As a result, the learning process becomes more systematic and effective. Therefore, textbooks play an important role in helping students learn a language.\n\n<strong>Another important reason is that textbooks provide essential language knowledge.</strong> This is because they include vocabulary, grammar, and practice exercises in every unit. Moreover, students can practise listening, speaking, reading, and writing through different learning activities. This helps them build a strong foundation in English. Consequently, textbooks are an important source of language learning materials.\n\n<strong>A further reason supporting my viewpoint is that textbooks support both teachers and students.</strong> This means that teachers can prepare lessons more easily by following the textbook. At the same time, students know what they need to learn before and after each lesson. This makes teaching and learning more effective and organized. For this reason, textbooks remain an important part of the language classroom.\n\nIn conclusion, <strong><em>I strongly agree with the idea that the textbook is the key component of the language classroom.</em></strong> The reasons above clearly explain why I support this viewpoint. Therefore, people should think about this opinion carefully in modern education.",
+          "sample_b2": "In recent years, the idea that the textbook is the key component of the language classroom has attracted considerable public attention and discussion. From my perspective, I completely agree with this opinion for several important reasons. This essay will present the main arguments supporting my viewpoint.\n\n<strong>The first reason why I agree with this opinion is that textbooks provide a well-organized learning framework for language learners.</strong> This is because lessons are designed in a logical sequence from basic to more advanced knowledge, allowing students to learn step by step. As a result, learners can develop their language skills systematically and monitor their learning progress more effectively. In addition, a structured curriculum enables teachers to organize lessons more efficiently and ensure that important content is covered. Therefore, textbooks remain the foundation of language classrooms.\n\n<strong>Another important reason is that textbooks provide comprehensive language content.</strong> In fact, they include vocabulary, grammar, pronunciation, and activities for developing all four language skills. Furthermore, practice activities help students reinforce what they have learned and build a solid language foundation. In addition, most textbooks are developed by educational experts, so the learning materials are generally reliable and well organized. For example, many English textbooks combine language knowledge with practical exercises to improve students' overall language ability. Therefore, textbooks continue to be a trustworthy learning resource.\n\n<strong>A further reason supporting my viewpoint is that textbooks support effective teaching and learning.</strong> This means that teachers can plan lessons more efficiently by following a clear syllabus, while students understand the objectives of each lesson more easily. As a result, the learning process becomes more consistent and organized. Moreover, textbooks make revision and self-study more convenient because students know exactly what they need to review after each lesson. For this reason, textbooks remain a key component of the language classroom.\n\nIn conclusion, <strong><em>I strongly agree with the idea that the textbook is the key component of the language classroom.</em></strong> The arguments presented above clearly explain why I support this viewpoint. Therefore, I believe that this perspective should be carefully considered in modern society.",
+          "translation_b1": "Trong những năm gần đây, quan điểm cho rằng sách giáo khoa là thành phần then chốt của lớp học ngôn ngữ đã trở thành một chủ đề thảo luận phổ biến. Từ góc độ của tôi, tôi hoàn toàn đồng ý với ý kiến này vì một số lý do quan trọng. Bài luận này sẽ trình bày những lập luận chính ủng hộ quan điểm của tôi.\n\n<strong>Lý do đầu tiên khiến tôi đồng ý với quan điểm này là sách giáo khoa cung cấp một cấu trúc rõ ràng cho việc học ngôn ngữ.</strong> Trên thực tế, các bài học được sắp xếp từ dễ đến khó, do đó học sinh có thể học từng bước một. Ngoài ra, họ có thể theo dõi tiến trình học tập của mình dễ dàng hơn trong suốt khóa học. Kết quả là quá trình học tập trở nên có hệ thống và hiệu quả hơn. Do đó, sách giáo khoa đóng vai trò quan trọng trong việc giúp học sinh học một ngôn ngữ.\n\n<strong>Một lý do quan trọng khác là sách giáo khoa cung cấp những kiến thức ngôn ngữ thiết yếu.</strong> Điều này là bởi vì chúng bao gồm từ vựng, ngữ pháp và các bài tập thực hành trong mỗi bài học. Hơn nữa, học sinh có thể thực hành nghe, nói, đọc và viết thông qua các hoạt động học tập khác nhau. Việc này giúp họ xây dựng một nền tảng vững chắc trong tiếng Anh. Do vậy, sách giáo khoa là một nguồn tài liệu học ngôn ngữ quan trọng.\n\n<strong>Một lý do nữa củng cố cho quan điểm của tôi là sách giáo khoa hỗ trợ cả giáo viên và học sinh.</strong> Điều này có nghĩa là giáo viên có thể chuẩn bị bài giảng dễ dàng hơn bằng cách làm theo sách giáo khoa. Đồng thời, học sinh biết mình cần học những gì trước và sau mỗi bài học. Nó làm cho việc dạy và học trở nên hiệu quả và có tổ chức hơn. Vì lý do này, sách giáo khoa vẫn là một phần quan trọng của lớp học ngôn ngữ.\n\nTóm lại, <strong><em>tôi hoàn toàn đồng tình với ý kiến cho rằng sách giáo khoa là thành phần then chốt của lớp học ngôn ngữ.</em></strong> Những lý do trên giải thích rõ tại sao tôi ủng hộ quan điểm này. Vì vậy, mọi người nên cân nhắc kỹ về ý kiến này trong nền giáo dục hiện đại.",
+          "translation_b2": "Trong những năm gần đây, quan điểm cho rằng sách giáo khoa là thành phần then chốt của lớp học ngôn ngữ đã thu hút sự chú ý và thảo luận đáng kể từ công chúng. Từ góc nhìn của tôi, tôi hoàn toàn đồng tình với quan điểm này vì nhiều lý do quan trọng. Bài tiểu luận này sẽ trình bày những lập luận chính củng cố cho góc nhìn của tôi.\n\n<strong>Lý do đầu tiên khiến tôi đồng ý với nhận định này là sách giáo khoa cung cấp một khuôn khổ học tập được tổ chức tốt cho người học ngôn ngữ.</strong> Đó là vì các bài học được thiết kế theo một trình tự hợp lý từ kiến thức cơ bản đến nâng cao hơn, cho phép học sinh học theo từng bước. Kết quả là, người học có thể phát triển các kỹ năng ngôn ngữ của mình một cách có hệ thống và theo dõi sự tiến bộ trong học tập của mình hiệu quả hơn. Thêm vào đó, một chương trình giảng dạy có cấu trúc cho phép giáo viên tổ chức bài học hiệu quả hơn và đảm bảo rằng các nội dung quan trọng được truyền đạt. Do vậy, sách giáo khoa vẫn luôn là nền tảng của các lớp học ngôn ngữ.\n\n<strong>Một nguyên nhân quan trọng khác là sách giáo khoa cung cấp nội dung ngôn ngữ mang tính toàn diện.</strong> Thực tế, chúng bao gồm từ vựng, ngữ pháp, phát âm và các hoạt động để phát triển toàn bộ bốn kỹ năng ngôn ngữ. Hơn thế nữa, các hoạt động thực hành giúp học sinh củng cố những gì đã học và xây dựng một nền tảng ngôn ngữ vững chắc. Ngoài ra, hầu hết sách giáo khoa đều được biên soạn bởi các chuyên gia giáo dục, do đó tài liệu học tập nhìn chung đáng tin cậy và được biên soạn kỹ lưỡng. Ví dụ, nhiều cuốn sách giáo khoa tiếng Anh kết hợp kiến thức ngôn ngữ với các bài tập thực hành để cải thiện khả năng ngôn ngữ tổng thể của học sinh. Vì vậy, sách giáo khoa tiếp tục là một nguồn tài nguyên học tập đáng tin cậy.\n\n<strong>Một lý do nữa hỗ trợ quan điểm của tôi là sách giáo khoa củng cố tính hiệu quả của việc dạy và học.</strong> Điều này có nghĩa là giáo viên có thể lên kế hoạch bài giảng hiệu quả hơn nhờ theo sát một giáo trình rõ ràng, trong khi học sinh hiểu các mục tiêu của từng bài học dễ dàng hơn. Hậu quả là, quá trình học tập trở nên nhất quán và có tổ chức hơn. Hơn nữa, sách giáo khoa làm cho việc ôn tập và tự học trở nên thuận tiện hơn vì học sinh biết chính xác những gì mình cần ôn lại sau mỗi buổi học. Vì lý do này, sách giáo khoa vẫn luôn là một thành phần then chốt của lớp học ngôn ngữ.\n\nTóm lại, <strong><em>tôi vô cùng đồng tình với quan điểm cho rằng sách giáo khoa là yếu tố cốt lõi của lớp học ngôn ngữ.</em></strong> Những lập luận được trình bày ở trên đã giải thích rõ vì sao tôi ủng hộ góc nhìn này. Do đó, tôi tin rằng khía cạnh này cần được cân nhắc cẩn thận trong xã hội hiện đại."
+        }
       },
       {
         "id": 17,
