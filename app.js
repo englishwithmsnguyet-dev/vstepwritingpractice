@@ -385,8 +385,9 @@ function renderCategoryTopics(searchQuery = '') {
   });
   
   renderPagination(totalPages);
-  
-  // Render Pagination Buttons
+}
+
+// Render Pagination Buttons
 function renderPagination(totalPages) {
   const container = document.getElementById('topics-pagination');
   container.innerHTML = '';
