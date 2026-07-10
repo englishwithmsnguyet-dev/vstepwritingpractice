@@ -11694,9 +11694,99 @@ const ESSAY_DATA = [
         "id": 14,
         "title_en": "Friendship: a priceless relationship or an unstable one?",
         "title_vi": "Tình bạn là mối quan hệ vô giá hay là mối quan hệ không bền vững?",
+        "tags": "",
         "context": "Friendship is one of the most important relationships in people's lives and can have a significant impact on personal well-being and happiness. Some people believe that friendship is priceless because it provides emotional support, companionship, and a sense of belonging during both good and difficult times. Others argue that friendships are often unstable because people's circumstances, goals, and priorities change as they grow older, causing relationships to weaken or end.",
         "prompt": "Discuss both views and give your own opinion. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "paraphrases": {
+          "view1": {
+            "title_en": "Friendship is a priceless relationship",
+            "title_vi": "Tình bạn là một mối quan hệ vô giá",
+            "items": [
+              {
+                "en": "true friendship is a priceless relationship",
+                "vi": "tình bạn thật sự là một mối quan hệ vô giá"
+              },
+              {
+                "en": "genuine friends are invaluable",
+                "vi": "những người bạn chân thành là vô giá"
+              },
+              {
+                "en": "friendship provides a sense of belonging",
+                "vi": "tình bạn mang lại cảm giác gắn thuộc"
+              }
+            ]
+          },
+          "view2": {
+            "title_en": "Friendships are often unstable",
+            "title_vi": "Tình bạn thường không bền vững",
+            "items": [
+              {
+                "en": "friendships are often unstable relationships",
+                "vi": "tình bạn thường là những mối quan hệ không bền vững"
+              },
+              {
+                "en": "people's circumstances change as they grow older, causing relationships to weaken",
+                "vi": "hoàn cảnh của con người thay đổi khi họ lớn lên, khiến các mối quan hệ trở nên suy yếu"
+              },
+              {
+                "en": "some friendships gradually fade",
+                "vi": "một số tình bạn dần phai nhạt"
+              }
+            ]
+          }
+        },
+        "details": {
+          "vocab": [],
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "VIEW 01",
+                "collocations": [],
+                "point_vi": "Bạn bè thật sự mang lại những giá trị vô giá trong cuộc đời.",
+                "point_en": "True friends bring priceless values to our lives.",
+                "evidence_vi": "Bạn bè thật sự luôn tin tưởng lẫn nhau. Họ luôn sẵn sàng giúp đỡ nhau khi gặp khó khăn. Điều này giúp mối quan hệ của họ ngày càng bền chặt hơn. Họ cũng tạo ra nhiều kỷ niệm đẹp cùng nhau. Vì vậy, những người bạn thật sự rất đáng quý và có thể đồng hành suốt cuộc đời.",
+                "evidence_en": "True friends always trust each other. They are always willing to help each other during difficult times. This makes their relationship stronger over time. They also create many happy memories together. Therefore, true friends are very valuable and can stay together throughout life."
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "VIEW 02",
+                "collocations": [],
+                "point_vi": "Một số tình bạn thường không bền vững do hoàn cảnh thay đổi.",
+                "point_en": "Some friendships are often unstable due to changing circumstances.",
+                "evidence_vi": "Mọi người có thể thay đổi trường học, công việc hoặc nơi sinh sống. Điều này khiến họ ít có cơ hội gặp nhau hơn. Họ cũng có thể có những sở thích hoặc mục tiêu khác nhau. Dần dần, họ dành ít thời gian cho nhau hơn. Do đó, một số tình bạn có thể suy yếu hoặc kết thúc theo thời gian.",
+                "evidence_en": "People may change their schools, jobs, or places of living. This gives them fewer chances to meet each other. They may also develop different interests or goals. Gradually, they spend less time together. As a result, some friendships may weaken or come to an end over time."
+              }
+            ]
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "VIEW 01",
+                "collocations": [],
+                "point_vi": "Tình bạn thật sự là một kết nối vô giá mang lại sự hỗ trợ trọn đời.",
+                "point_en": "True friendship is a priceless connection providing lifelong support.",
+                "evidence_vi": "Bạn bè thật sự xây dựng mối quan hệ dựa trên sự tin tưởng và tôn trọng lẫn nhau. Họ luôn sẵn sàng hỗ trợ nhau trong những giai đoạn khó khăn. Những trải nghiệm cùng nhau giúp mối quan hệ ngày càng bền vững. Ngoài ra, họ vẫn giữ liên lạc ngay cả khi sống ở những nơi khác nhau. Vì vậy, nhiều người coi những người bạn thật sự là vô cùng quý giá.",
+                "evidence_en": "True friends build their relationships on mutual trust and respect. They are always willing to support each other during difficult times. Shared experiences make their relationship even stronger and more stable. In addition, they stay in touch even when they live in different places. Therefore, many people consider true friends invaluable."
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "VIEW 02",
+                "collocations": [],
+                "point_vi": "Nhiều tình bạn vốn không bền vững khi mọi người không còn điểm chung.",
+                "point_en": "Many friendships are inherently unstable when people lack common ground.",
+                "evidence_vi": "Mọi người thường thay đổi nơi học tập, làm việc hoặc sinh sống theo thời gian. Điều này khiến họ có ít cơ hội gặp gỡ và trò chuyện với nhau hơn. Sở thích và ưu tiên của mỗi người cũng có thể thay đổi. Khi không còn nhiều điểm chung, mối quan hệ có thể dần trở nên xa cách. Cuối cùng, sự thay đổi hoàn cảnh khiến tình bạn trở nên thiếu bền vững.",
+                "evidence_en": "People often change their schools, workplaces, or places of living over time. This gives them fewer opportunities to meet and communicate with one another. Their interests and priorities may also change. When they no longer have much in common, the relationship may gradually become distant. Eventually, changing circumstances make friendships unstable."
+              }
+            ]
+          },
+          "sample_b1": "In recent years, friendship has become a common topic of discussion. Some people believe that friendship is a priceless relationship, while others argue that it is often unstable. This essay will discuss both views and give my own opinion.\n\n<strong>On the one hand, it is argued that true friendship is priceless.</strong> This is because true friends always trust each other and are willing to help each other during difficult times. In addition, these experiences make their relationship stronger over time. They also create many happy memories together by studying, travelling, or taking part in different activities. As a result, their friendship becomes closer and more meaningful. For example, many childhood friends remain close even after they grow up and live in different places. Therefore, true friends are very valuable and bring priceless support to our lives.\n\n<strong>On the other hand, it is believed that some friendships are unstable.</strong> The main reason is that people may change their schools, jobs, or places of living as they get older. As a result, they have fewer chances to meet each other. In addition, they may develop different interests or life goals, so they gradually spend less time together. Consequently, some friendships naturally weaken or come to an end over time. For example, many classmates lose contact after graduation because their lives follow different paths.\n\nIn conclusion, both views have their own reasons. <strong><em>However, I believe that true friendship is a priceless relationship because trust, support, and shared experiences help people maintain strong and stable relationships.</em></strong> Therefore, people should value their true friends in modern life.",
+          "sample_b2": "In recent years, friendship has become a subject of considerable debate. Some people believe that friendship is a priceless relationship, while others argue that it is inherently unstable. This essay will discuss both perspectives and present my personal viewpoint.\n\n<strong>On the one hand, it is argued that true friendship is invaluable.</strong> First of all, true friends build their relationships on mutual trust and respect, which creates a solid foundation for a lasting connection. In addition, they are always willing to support each other during difficult times, helping one another overcome challenges. Shared experiences also make their relationship even stronger over time because they create unforgettable memories together. Moreover, true friends usually stay in touch even when they live in different places or have busy lives. For example, many childhood friends continue to meet regularly and support each other despite studying or working in different cities. Therefore, many people consider genuine friendship a priceless connection that provides lifelong emotional support.\n\n<strong>On the other hand, it is believed that many friendships are unstable.</strong> People often change their schools, workplaces, or places of living as they move through different stages of life. As a result, they have fewer opportunities to meet and communicate with one another. Furthermore, their interests and priorities may gradually change over time, making them have fewer things in common. Consequently, some friendships become more distant and eventually weaken without any conflict. For instance, many classmates lose contact after graduation because they choose different careers and lifestyles. Therefore, it is true that friendships can be unstable when people's circumstances change.\n\nIn conclusion, both sides of the argument present valid points. <strong><em>However, I personally believe that true friendship is a priceless relationship because trust, support, and shared experiences help people overcome instability and maintain strong connections.</em></strong> Therefore, people should carefully consider the value of genuine friends before forming a final opinion.",
+          "translation_b1": "Trong những năm gần đây, tình bạn đã trở thành một chủ đề thảo luận phổ biến. Một số người tin rằng tình bạn là một mối quan hệ vô giá, trong khi những người khác cho rằng nó thường không bền vững. Bài luận này sẽ thảo luận cả hai quan điểm và đưa ra ý kiến cá nhân của tôi.\n\n<strong>Một mặt, có ý kiến cho rằng tình bạn thật sự là vô giá.</strong> Điều này là bởi vì những người bạn thật sự luôn tin tưởng lẫn nhau và sẵn sàng giúp đỡ nhau trong những lúc khó khăn. Ngoài ra, những trải nghiệm này làm cho mối quan hệ của họ bền chặt hơn theo thời gian. Họ cũng tạo ra nhiều kỷ niệm đẹp cùng nhau thông qua việc học tập, đi du lịch hoặc tham gia các hoạt động khác nhau. Kết quả là, tình bạn của họ trở nên gần gũi và có ý nghĩa hơn. Ví dụ, nhiều người bạn thuở nhỏ vẫn thân thiết ngay cả khi họ lớn lên và sống ở những nơi khác nhau. Do đó, những người bạn thật sự rất quý giá và mang lại sự hỗ trợ vô giá cho cuộc sống của chúng ta.\n\n<strong>Mặt khác, người ta tin rằng một số tình bạn không bền vững.</strong> Lý do chính là mọi người có thể thay đổi trường học, công việc hoặc nơi sinh sống khi họ lớn tuổi hơn. Hậu quả là, họ có ít cơ hội gặp nhau hơn. Thêm vào đó, họ có thể phát triển những sở thích hoặc mục tiêu sống khác nhau, vì vậy họ dần dần dành ít thời gian cho nhau hơn. Do đó, một số tình bạn tự nhiên suy yếu hoặc đi đến hồi kết theo thời gian. Ví dụ, nhiều bạn cùng lớp mất liên lạc sau khi tốt nghiệp vì cuộc đời họ đi theo những con đường khác nhau.\n\nTóm lại, cả hai quan điểm đều có những lý do riêng. <strong><em>Tuy nhiên, tôi tin rằng tình bạn thật sự là một mối quan hệ vô giá vì sự tin tưởng, sự hỗ trợ và những trải nghiệm chung giúp mọi người duy trì những mối quan hệ bền vững và ổn định.</em></strong> Vì vậy, mọi người nên trân trọng những người bạn thật sự của mình trong cuộc sống hiện đại.",
+          "translation_b2": "Trong những năm gần đây, tình bạn đã trở thành một chủ đề tranh luận đáng chú ý. Một số người tin rằng tình bạn là một mối quan hệ vô giá, trong khi những người khác lại lập luận rằng nó vốn dĩ không bền vững. Bài tiểu luận này sẽ thảo luận cả hai góc nhìn và trình bày quan điểm cá nhân của tôi.\n\n<strong>Một mặt, người ta lập luận rằng tình bạn thật sự là vô giá.</strong> Trước hết, những người bạn chân thành xây dựng mối quan hệ của họ trên sự tin tưởng và tôn trọng lẫn nhau, điều này tạo ra một nền tảng vững chắc cho một sự gắn kết lâu dài. Thêm vào đó, họ luôn sẵn sàng hỗ trợ nhau trong những giai đoạn khó khăn, giúp nhau vượt qua thử thách. Những trải nghiệm chung cũng làm cho mối quan hệ của họ càng trở nên bền chặt hơn theo thời gian vì chúng tạo ra những kỷ niệm khó quên cùng nhau. Hơn thế nữa, những người bạn thật sự thường giữ liên lạc ngay cả khi họ sống ở những nơi khác nhau hoặc có cuộc sống bận rộn. Ví dụ, nhiều người bạn thời thơ ấu tiếp tục gặp gỡ thường xuyên và hỗ trợ nhau mặc dù học tập hoặc làm việc ở các thành phố khác nhau. Do đó, nhiều người coi tình bạn chân thành là một sự kết nối vô giá, mang lại sự hỗ trợ tinh thần suốt đời.\n\n<strong>Mặt khác, người ta tin rằng nhiều tình bạn không bền vững.</strong> Mọi người thường thay đổi trường học, nơi làm việc hoặc nơi sinh sống khi họ bước qua các giai đoạn khác nhau của cuộc đời. Kết quả là, họ có ít cơ hội gặp gỡ và giao tiếp với nhau hơn. Hơn nữa, sở thích và ưu tiên của họ có thể dần thay đổi theo thời gian, khiến họ có ít điểm chung hơn. Hậu quả là, một số tình bạn trở nên xa cách hơn và cuối cùng suy yếu mà không có bất kỳ xung đột nào. Ví dụ, nhiều bạn cùng lớp mất liên lạc sau khi tốt nghiệp vì họ chọn những nghề nghiệp và lối sống khác nhau. Vì vậy, đúng là tình bạn có thể không bền vững khi hoàn cảnh của mọi người thay đổi.\n\nTóm lại, cả hai phe của cuộc tranh luận đều đưa ra những luận điểm hợp lý. <strong><em>Tuy nhiên, cá nhân tôi tin rằng tình bạn thật sự là một mối quan hệ vô giá vì sự tin tưởng, sự hỗ trợ và những trải nghiệm chung giúp con người vượt qua sự bất ổn và duy trì các mối liên kết mạnh mẽ.</em></strong> Do đó, mọi người nên trân trọng giá trị của những người bạn chân thành trước khi hình thành quan điểm cuối cùng."
+        }
       },
       {
         "id": 15,
