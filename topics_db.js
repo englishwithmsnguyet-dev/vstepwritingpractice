@@ -3633,6 +3633,18 @@ const ESSAY_DATA = [
               "vi": "đặt món ăn"
             },
             {
+              "en": "become more common",
+              "vi": "trở nên phổ biến hơn"
+            },
+            {
+              "en": "modern society",
+              "vi": "xã hội hiện đại"
+            },
+            {
+              "en": "do not need to + Vo",
+              "vi": "không cần làm gì"
+            },
+            {
               "en": "convenient",
               "vi": "thuận tiện"
             },
@@ -3649,6 +3661,18 @@ const ESSAY_DATA = [
               "vi": "ứng dụng"
             },
             {
+              "en": "a positive aspect",
+              "vi": "một khía cạnh tích cực"
+            },
+            {
+              "en": "without leaving their homes",
+              "vi": "mà không cần ra khỏi nhà"
+            },
+            {
+              "en": "the main reason is that",
+              "vi": "lý do chính là"
+            },
+            {
               "en": "a wider variety of meals",
               "vi": "nhiều lựa chọn món ăn hơn"
             },
@@ -3659,6 +3683,18 @@ const ESSAY_DATA = [
             {
               "en": "different restaurants",
               "vi": "nhiều nhà hàng khác nhau"
+            },
+            {
+              "en": "a further good point",
+              "vi": "một điểm tốt nữa"
+            },
+            {
+              "en": "customer",
+              "vi": "khách hàng"
+            },
+            {
+              "en": "offer + N",
+              "vi": "cung cấp cái gì"
             },
             {
               "en": "expensive",
@@ -3673,12 +3709,20 @@ const ESSAY_DATA = [
               "vi": "ngoài ra"
             },
             {
+              "en": "the cost of the meal",
+              "vi": "chi phí của bữa ăn"
+            },
+            {
+              "en": "a possible drawback",
+              "vi": "một hạn chế có thể xảy ra"
+            },
+            {
               "en": "unhealthy eating habits",
               "vi": "thói quen ăn uống không lành mạnh"
             },
             {
               "en": "encourage",
-              "vi": "khuyến khích"
+              "vi": "khuyến khích, tạo điều kiện cho"
             },
             {
               "en": "order fast food",
@@ -3687,6 +3731,18 @@ const ESSAY_DATA = [
             {
               "en": "cook at home",
               "vi": "tự nấu ăn ở nhà"
+            },
+            {
+              "en": "harmful to their health",
+              "vi": "có hại cho sức khỏe của họ"
+            },
+            {
+              "en": "instead of + V-ing",
+              "vi": "thay vì làm gì"
+            },
+            {
+              "en": "a negative aspect",
+              "vi": "một khía cạnh tiêu cực"
             },
             {
               "en": "create more waste",
@@ -3699,6 +3755,18 @@ const ESSAY_DATA = [
             {
               "en": "plastic bags",
               "vi": "túi nhựa"
+            },
+            {
+              "en": "the amount of waste increases",
+              "vi": "lượng rác thải tăng lên"
+            },
+            {
+              "en": "a further problem",
+              "vi": "một vấn đề nữa"
+            },
+            {
+              "en": "environmental impact",
+              "vi": "tác động môi trường"
             },
             {
               "en": "save both time and effort",
@@ -3717,6 +3785,22 @@ const ESSAY_DATA = [
               "vi": "lịch trình bận rộn"
             },
             {
+              "en": "become increasingly prevalent",
+              "vi": "ngày càng trở nên thịnh hành"
+            },
+            {
+              "en": "spend more time on",
+              "vi": "dành nhiều thời gian hơn cho"
+            },
+            {
+              "en": "important activities",
+              "vi": "các hoạt động quan trọng"
+            },
+            {
+              "en": "examine both the advantages and disadvantages",
+              "vi": "xem xét cả ưu điểm và nhược điểm"
+            },
+            {
               "en": "provide consumers with",
               "vi": "cung cấp cho người tiêu dùng"
             },
@@ -3727,6 +3811,26 @@ const ESSAY_DATA = [
             {
               "en": "place an order",
               "vi": "đặt món"
+            },
+            {
+              "en": "a positive effect",
+              "vi": "một tác động tích cực"
+            },
+            {
+              "en": "make a decision",
+              "vi": "đưa ra quyết định"
+            },
+            {
+              "en": "suit their preferences",
+              "vi": "phù hợp với sở thích của họ"
+            },
+            {
+              "en": "be more likely to",
+              "vi": "có nhiều khả năng... hơn"
+            },
+            {
+              "en": "make an informed choice",
+              "vi": "đưa ra lựa chọn sáng suốt"
             },
             {
               "en": "modern technology",
@@ -3745,6 +3849,22 @@ const ESSAY_DATA = [
               "vi": "thanh toán trực tuyến"
             },
             {
+              "en": "a further aspect to consider",
+              "vi": "một khía cạnh khác cần xem xét"
+            },
+            {
+              "en": "delivery services",
+              "vi": "dịch vụ giao hàng"
+            },
+            {
+              "en": "faster and more convenient",
+              "vi": "nhanh chóng và thuận tiện hơn"
+            },
+            {
+              "en": "choose this way of ordering food",
+              "vi": "chọn cách đặt thức ăn này"
+            },
+            {
               "en": "daily living expenses",
               "vi": "chi phí sinh hoạt hàng ngày"
             },
@@ -3757,6 +3877,22 @@ const ESSAY_DATA = [
               "vi": "ứng dụng giao hàng"
             },
             {
+              "en": "increase expenses",
+              "vi": "làm tăng chi phí"
+            },
+            {
+              "en": "spend much more money",
+              "vi": "chi tiêu nhiều tiền hơn"
+            },
+            {
+              "en": "use these services regularly",
+              "vi": "sử dụng các dịch vụ này thường xuyên"
+            },
+            {
+              "en": "financial burden",
+              "vi": "gánh nặng tài chính"
+            },
+            {
               "en": "lead to",
               "vi": "dẫn đến"
             },
@@ -3766,7 +3902,23 @@ const ESSAY_DATA = [
             },
             {
               "en": "risk of health problems",
-              "vi": "nguy cơ gặp vấn đề sức khỏe"
+              "vi": "nguy cơ mắc các vấn đề sức khỏe"
+            },
+            {
+              "en": "prepare healthy meals",
+              "vi": "chuẩn bị các bữa ăn lành mạnh"
+            },
+            {
+              "en": "in the long term",
+              "vi": "trong dài hạn"
+            },
+            {
+              "en": "sedentary lifestyle",
+              "vi": "lối sống ít vận động"
+            },
+            {
+              "en": "lack of physical activity",
+              "vi": "thiếu hoạt động thể chất"
             },
             {
               "en": "environmental problems",
@@ -3783,6 +3935,18 @@ const ESSAY_DATA = [
             {
               "en": "environmental pollution",
               "vi": "ô nhiễm môi trường"
+            },
+            {
+              "en": "utensils",
+              "vi": "dụng cụ ăn uống (dao, nĩa, muỗng)"
+            },
+            {
+              "en": "contribute to",
+              "vi": "góp phần vào"
+            },
+            {
+              "en": "a further concern is that",
+              "vi": "một mối lo ngại nữa là"
             }
           ],
           "ideas_b1": {
@@ -3805,6 +3969,18 @@ const ESSAY_DATA = [
                   {
                     "en": "order meals",
                     "vi": "đặt món ăn"
+                  },
+                  {
+                    "en": "become more common",
+                    "vi": "trở nên phổ biến hơn"
+                  },
+                  {
+                    "en": "modern society",
+                    "vi": "xã hội hiện đại"
+                  },
+                  {
+                    "en": "do not need to + Vo",
+                    "vi": "không cần làm gì"
                   }
                 ],
                 "point_vi": "Dịch vụ giao đồ ăn giúp mọi người tiết kiệm thời gian.",
@@ -3830,6 +4006,18 @@ const ESSAY_DATA = [
                   {
                     "en": "application",
                     "vi": "ứng dụng"
+                  },
+                  {
+                    "en": "a positive aspect",
+                    "vi": "một khía cạnh tích cực"
+                  },
+                  {
+                    "en": "without leaving their homes",
+                    "vi": "mà không cần ra khỏi nhà"
+                  },
+                  {
+                    "en": "the main reason is that",
+                    "vi": "lý do chính là"
                   }
                 ],
                 "point_vi": "Dịch vụ giao đồ ăn rất thuận tiện.",
@@ -3851,6 +4039,18 @@ const ESSAY_DATA = [
                   {
                     "en": "different restaurants",
                     "vi": "nhiều nhà hàng khác nhau"
+                  },
+                  {
+                    "en": "a further good point",
+                    "vi": "một điểm tốt nữa"
+                  },
+                  {
+                    "en": "customer",
+                    "vi": "khách hàng"
+                  },
+                  {
+                    "en": "offer + N",
+                    "vi": "cung cấp cái gì"
                   }
                 ],
                 "point_vi": "Dịch vụ giao đồ ăn mang đến nhiều lựa chọn hơn.",
@@ -3874,6 +4074,14 @@ const ESSAY_DATA = [
                   {
                     "en": "in addition to",
                     "vi": "ngoài ra"
+                  },
+                  {
+                    "en": "the cost of the meal",
+                    "vi": "chi phí của bữa ăn"
+                  },
+                  {
+                    "en": "a possible drawback",
+                    "vi": "một hạn chế có thể xảy ra"
                   }
                 ],
                 "point_vi": "Dịch vụ giao đồ ăn có thể tốn kém.",
@@ -3890,7 +4098,7 @@ const ESSAY_DATA = [
                   },
                   {
                     "en": "encourage",
-                    "vi": "khuyến khích"
+                    "vi": "khuyến khích, tạo điều kiện cho"
                   },
                   {
                     "en": "order fast food",
@@ -3899,6 +4107,18 @@ const ESSAY_DATA = [
                   {
                     "en": "cook at home",
                     "vi": "tự nấu ăn ở nhà"
+                  },
+                  {
+                    "en": "harmful to their health",
+                    "vi": "có hại cho sức khỏe của họ"
+                  },
+                  {
+                    "en": "instead of + V-ing",
+                    "vi": "thay vì làm gì"
+                  },
+                  {
+                    "en": "a negative aspect",
+                    "vi": "một khía cạnh tiêu cực"
                   }
                 ],
                 "point_vi": "Dịch vụ giao đồ ăn có thể khuyến khích thói quen ăn uống không lành mạnh.",
@@ -3920,6 +4140,18 @@ const ESSAY_DATA = [
                   {
                     "en": "plastic bags",
                     "vi": "túi nhựa"
+                  },
+                  {
+                    "en": "the amount of waste increases",
+                    "vi": "lượng rác thải tăng lên"
+                  },
+                  {
+                    "en": "a further problem",
+                    "vi": "một vấn đề nữa"
+                  },
+                  {
+                    "en": "environmental impact",
+                    "vi": "tác động môi trường"
                   }
                 ],
                 "point_vi": "Dịch vụ giao đồ ăn tạo ra nhiều rác thải.",
@@ -3949,6 +4181,22 @@ const ESSAY_DATA = [
                   {
                     "en": "busy schedules",
                     "vi": "lịch trình bận rộn"
+                  },
+                  {
+                    "en": "become increasingly prevalent",
+                    "vi": "ngày càng trở nên thịnh hành"
+                  },
+                  {
+                    "en": "spend more time on",
+                    "vi": "dành nhiều thời gian hơn cho"
+                  },
+                  {
+                    "en": "important activities",
+                    "vi": "các hoạt động quan trọng"
+                  },
+                  {
+                    "en": "examine both the advantages and disadvantages",
+                    "vi": "xem xét cả ưu điểm và nhược điểm"
                   }
                 ],
                 "point_vi": "Dịch vụ giao đồ ăn giúp mọi người tiết kiệm thời gian và công sức.",
@@ -3970,6 +4218,26 @@ const ESSAY_DATA = [
                   {
                     "en": "place an order",
                     "vi": "đặt món"
+                  },
+                  {
+                    "en": "a positive effect",
+                    "vi": "một tác động tích cực"
+                  },
+                  {
+                    "en": "make a decision",
+                    "vi": "đưa ra quyết định"
+                  },
+                  {
+                    "en": "suit their preferences",
+                    "vi": "phù hợp với sở thích của họ"
+                  },
+                  {
+                    "en": "be more likely to",
+                    "vi": "có nhiều khả năng... hơn"
+                  },
+                  {
+                    "en": "make an informed choice",
+                    "vi": "đưa ra lựa chọn sáng suốt"
                   }
                 ],
                 "point_vi": "Dịch vụ giao đồ ăn mang đến nhiều lựa chọn hơn cho người tiêu dùng.",
@@ -3995,6 +4263,22 @@ const ESSAY_DATA = [
                   {
                     "en": "online payment",
                     "vi": "thanh toán trực tuyến"
+                  },
+                  {
+                    "en": "a further aspect to consider",
+                    "vi": "một khía cạnh khác cần xem xét"
+                  },
+                  {
+                    "en": "delivery services",
+                    "vi": "dịch vụ giao hàng"
+                  },
+                  {
+                    "en": "faster and more convenient",
+                    "vi": "nhanh chóng và thuận tiện hơn"
+                  },
+                  {
+                    "en": "choose this way of ordering food",
+                    "vi": "chọn cách đặt thức ăn này"
                   }
                 ],
                 "point_vi": "Công nghệ hiện đại giúp việc đặt đồ ăn trở nên dễ dàng hơn.",
@@ -4018,6 +4302,22 @@ const ESSAY_DATA = [
                   {
                     "en": "delivery applications",
                     "vi": "ứng dụng giao hàng"
+                  },
+                  {
+                    "en": "increase expenses",
+                    "vi": "làm tăng chi phí"
+                  },
+                  {
+                    "en": "spend much more money",
+                    "vi": "chi tiêu nhiều tiền hơn"
+                  },
+                  {
+                    "en": "use these services regularly",
+                    "vi": "sử dụng các dịch vụ này thường xuyên"
+                  },
+                  {
+                    "en": "financial burden",
+                    "vi": "gánh nặng tài chính"
                   }
                 ],
                 "point_vi": "Dịch vụ giao đồ ăn có thể làm tăng chi phí sinh hoạt.",
@@ -4038,7 +4338,23 @@ const ESSAY_DATA = [
                   },
                   {
                     "en": "risk of health problems",
-                    "vi": "nguy cơ gặp vấn đề sức khỏe"
+                    "vi": "nguy cơ mắc các vấn đề sức khỏe"
+                  },
+                  {
+                    "en": "prepare healthy meals",
+                    "vi": "chuẩn bị các bữa ăn lành mạnh"
+                  },
+                  {
+                    "en": "in the long term",
+                    "vi": "trong dài hạn"
+                  },
+                  {
+                    "en": "sedentary lifestyle",
+                    "vi": "lối sống ít vận động"
+                  },
+                  {
+                    "en": "lack of physical activity",
+                    "vi": "thiếu hoạt động thể chất"
                   }
                 ],
                 "point_vi": "Dịch vụ giao đồ ăn có thể dẫn đến thói quen ăn uống không lành mạnh.",
@@ -4064,6 +4380,18 @@ const ESSAY_DATA = [
                   {
                     "en": "environmental pollution",
                     "vi": "ô nhiễm môi trường"
+                  },
+                  {
+                    "en": "utensils",
+                    "vi": "dụng cụ ăn uống (dao, nĩa, muỗng)"
+                  },
+                  {
+                    "en": "contribute to",
+                    "vi": "góp phần vào"
+                  },
+                  {
+                    "en": "a further concern is that",
+                    "vi": "một mối lo ngại nữa là"
                   }
                 ],
                 "point_vi": "Dịch vụ giao đồ ăn có thể gây ra các vấn đề về môi trường.",
