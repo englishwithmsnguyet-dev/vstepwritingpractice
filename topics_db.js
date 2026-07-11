@@ -13421,7 +13421,311 @@ const ESSAY_DATA = [
         "title_vi": "Hôn nhân sắp đặt so với hôn nhân tình yêu tự nguyện.",
         "context": "Marriage customs vary across cultures and societies. In some countries, such as India, arranged marriages remain a common tradition, with parents and families playing an important role in selecting suitable partners. However, many people believe that individuals should have the freedom to choose their own life partners based on love and personal compatibility. As a result, there is ongoing debate about which approach leads to more successful and satisfying marriages. Some people believe that parents should arrange marriages because they have more experience and can help ensure stability. Others argue that people should choose their own partners based on love and compatibility.",
         "prompt": "Discuss both views and give your own opinion. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "VIEW 01",
+                "point_vi": "Hôn nhân sắp đặt mang lại sự ổn định và hỗ trợ từ gia đình.",
+                "point_en": "Arranged marriages bring stability and family support.",
+                "evidence_vi": "Cha mẹ có nhiều kinh nghiệm sống hơn. Vì vậy, họ có thể chọn một người bạn đời phù hợp cho con cái của họ. Ngoài ra, hai gia đình có thể hỗ trợ cặp đôi khi họ gặp khó khăn. Do đó, cuộc sống hôn nhân thường ổn định và ít xảy ra ly hôn hơn.",
+                "evidence_en": "Parents have more life experience. Therefore, they can choose a suitable partner for their children. In addition, both families can support the couple when they face difficulties. As a result, married life is often stable and less likely to end in divorce.",
+                "collocations": [
+                  {
+                    "en": "bring stability",
+                    "vi": "mang lại sự ổn định"
+                  },
+                  {
+                    "en": "family support",
+                    "vi": "sự hỗ trợ từ gia đình"
+                  },
+                  {
+                    "en": "life experience",
+                    "vi": "kinh nghiệm sống"
+                  },
+                  {
+                    "en": "suitable partner",
+                    "vi": "người bạn đời phù hợp"
+                  },
+                  {
+                    "en": "face difficulties",
+                    "vi": "gặp khó khăn"
+                  },
+                  {
+                    "en": "stable",
+                    "vi": "ổn định"
+                  },
+                  {
+                    "en": "end in divorce",
+                    "vi": "dẫn đến ly hôn"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "VIEW 02",
+                "point_vi": "Hôn nhân tự nguyện giúp các cặp đôi hạnh phúc hơn.",
+                "point_en": "Love marriages help couples be happier.",
+                "evidence_vi": "Mọi người có quyền tự do lựa chọn người bạn đời của mình. Điều này giúp họ hiểu rõ tính cách và sở thích của nhau trước khi kết hôn. Hơn nữa, tình yêu là nền tảng quan trọng của một cuộc hôn nhân hạnh phúc. Nhờ đó, họ có thể dễ dàng cùng nhau giải quyết các vấn đề.",
+                "evidence_en": "People have the freedom to choose their own partners. This helps them understand each other's personalities and interests before getting married. Moreover, love is an important foundation of a happy marriage. As a result, they can easily solve problems together.",
+                "collocations": [
+                  {
+                    "en": "freedom to choose",
+                    "vi": "quyền tự do lựa chọn"
+                  },
+                  {
+                    "en": "understand each other",
+                    "vi": "hiểu nhau"
+                  },
+                  {
+                    "en": "personalities and interests",
+                    "vi": "tính cách và sở thích"
+                  },
+                  {
+                    "en": "important foundation",
+                    "vi": "nền tảng quan trọng"
+                  },
+                  {
+                    "en": "happy marriage",
+                    "vi": "cuộc hôn nhân hạnh phúc"
+                  },
+                  {
+                    "en": "solve problems",
+                    "vi": "giải quyết vấn đề"
+                  },
+                  {
+                    "en": "share responsibilities",
+                    "vi": "chia sẻ trách nhiệm"
+                  }
+                ]
+              }
+            ]
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "VIEW 01",
+                "point_vi": "Hôn nhân sắp đặt đảm bảo sự hòa hợp về mặt xã hội và tài chính.",
+                "point_en": "Arranged marriages ensure social and financial compatibility.",
+                "evidence_vi": "Cha mẹ thường xem xét kỹ lưỡng về nền tảng gia đình, giáo dục và tài chính. Điều này làm giảm nguy cơ xảy ra mâu thuẫn liên quan đến tiền bạc hoặc lối sống trong tương lai. Ngoài ra, sự ủng hộ mạnh mẽ từ cả hai gia đình tạo ra một mạng lưới hỗ trợ vững chắc. Nhờ đó, các cặp đôi có thể vượt qua những giai đoạn khó khăn trong cuộc sống dễ dàng hơn.",
+                "evidence_en": "Parents usually carefully consider family background, education, and financial status. This reduces the risk of conflicts related to money or lifestyle differences in the future. In addition, strong support from both families creates a solid support network. As a result, couples can overcome difficult periods in life more easily.",
+                "collocations": [
+                  {
+                    "en": "social and financial compatibility",
+                    "vi": "sự hòa hợp về mặt xã hội và tài chính"
+                  },
+                  {
+                    "en": "carefully consider",
+                    "vi": "xem xét kỹ lưỡng"
+                  },
+                  {
+                    "en": "family background",
+                    "vi": "nền tảng gia đình"
+                  },
+                  {
+                    "en": "financial status",
+                    "vi": "tình trạng tài chính"
+                  },
+                  {
+                    "en": "reduce the risk of conflicts",
+                    "vi": "làm giảm nguy cơ xung đột"
+                  },
+                  {
+                    "en": "solid support network",
+                    "vi": "mạng lưới hỗ trợ vững chắc"
+                  },
+                  {
+                    "en": "overcome difficult periods",
+                    "vi": "vượt qua những giai đoạn khó khăn"
+                  },
+                  {
+                    "en": "financial and emotional assistance",
+                    "vi": "hỗ trợ tài chính và tinh thần"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "VIEW 02",
+                "point_vi": "Hôn nhân dựa trên tình yêu mang lại sự gắn kết cảm xúc sâu sắc và sự thấu hiểu lẫn nhau.",
+                "point_en": "Marriages based on love bring deep emotional connection and mutual understanding.",
+                "evidence_vi": "Các cá nhân có cơ hội tìm hiểu kỹ lưỡng về đối tác của mình trước khi đưa ra cam kết cả đời. Tình yêu chân chính giúp họ dễ dàng chấp nhận những khuyết điểm của nhau. Hơn nữa, khi đối mặt với thử thách, tình cảm gắn bó giúp họ hợp tác và tìm ra giải pháp tốt hơn. Cuối cùng, sự tự chủ trong quyết định kết hôn dẫn đến mức độ hài lòng cá nhân cao hơn.",
+                "evidence_en": "Individuals have the opportunity to learn thoroughly about their partners before making a lifelong commitment. Genuine love helps them easily accept each other's flaws. Furthermore, when facing challenges, their strong emotional bond helps them cooperate and find better solutions. Ultimately, autonomy in marriage decisions leads to higher levels of personal satisfaction.",
+                "collocations": [
+                  {
+                    "en": "deep emotional connection",
+                    "vi": "sự gắn kết cảm xúc sâu sắc"
+                  },
+                  {
+                    "en": "mutual understanding",
+                    "vi": "sự thấu hiểu lẫn nhau"
+                  },
+                  {
+                    "en": "lifelong commitment",
+                    "vi": "cam kết cả đời"
+                  },
+                  {
+                    "en": "genuine love",
+                    "vi": "tình yêu chân chính"
+                  },
+                  {
+                    "en": "accept each other's flaws",
+                    "vi": "chấp nhận những khuyết điểm của nhau"
+                  },
+                  {
+                    "en": "face challenges",
+                    "vi": "đối mặt với thử thách"
+                  },
+                  {
+                    "en": "strong emotional bond",
+                    "vi": "mối liên kết tình cảm bền chặt"
+                  },
+                  {
+                    "en": "autonomy in marriage decisions",
+                    "vi": "sự tự chủ trong quyết định kết hôn"
+                  },
+                  {
+                    "en": "personal satisfaction",
+                    "vi": "mức độ hài lòng cá nhân"
+                  }
+                ]
+              }
+            ]
+          },
+          "model_b1": "In recent years, marriage has become a common topic of discussion. Some people believe that parents should arrange marriages, while others argue that individuals should choose their own partners. **This essay will discuss both views and give my own opinion.**\n\nOn the one hand, arranged marriages bring stability and family support. This is because parents have more life experience. As a result, they can choose a suitable partner for their children based on their background and education. In addition, both families can support the couple when they face difficulties in life. Therefore, married life is often stable and less likely to end in divorce. For example, in many Asian countries, arranged marriages still play an important role in building strong families.\n\nOn the other hand, love marriages help couples be happier. The main reason is that people have the freedom to choose their own partners. This means they can understand each other's personalities and interests before getting married. Moreover, love is an important foundation of a happy marriage. When they love each other, they can easily solve problems and share responsibilities together. Consequently, couples can build a long-lasting relationship based on true feelings.\n\nIn conclusion, both views have their own reasons. However, I believe that people should choose their own partners because true love brings true happiness. Therefore, individuals should have the right to make their own choices in marriage.",
+          "model_b1_vi": "Trong những năm gần đây, hôn nhân đã trở thành một chủ đề thảo luận phổ biến. Một số người tin rằng cha mẹ nên sắp đặt hôn nhân, trong khi những người khác cho rằng các cá nhân nên tự chọn bạn đời của mình. **Bài tiểu luận này sẽ thảo luận về cả hai quan điểm và đưa ra ý kiến của riêng tôi.**\n\nMột mặt, hôn nhân sắp đặt mang lại sự ổn định và hỗ trợ từ gia đình. Điều này là do cha mẹ có nhiều kinh nghiệm sống hơn. Kết quả là, họ có thể chọn một người bạn đời phù hợp cho con cái của họ dựa trên nền tảng và giáo dục. Ngoài ra, cả hai gia đình đều có thể hỗ trợ cặp đôi khi họ gặp khó khăn trong cuộc sống. Do đó, cuộc sống hôn nhân thường ổn định và ít có khả năng dẫn đến ly hôn. Ví dụ, ở nhiều quốc gia châu Á, hôn nhân sắp đặt vẫn đóng một vai trò quan trọng trong việc xây dựng các gia đình bền vững.\n\nMặt khác, hôn nhân tình yêu giúp các cặp đôi hạnh phúc hơn. Lý do chính là mọi người có quyền tự do lựa chọn bạn đời của riêng mình. Điều này có nghĩa là họ có thể hiểu rõ tính cách và sở thích của nhau trước khi kết hôn. Hơn nữa, tình yêu là nền tảng quan trọng của một cuộc hôn nhân hạnh phúc. Khi yêu nhau, họ có thể dễ dàng cùng nhau giải quyết các vấn đề và chia sẻ trách nhiệm. Hậu quả là, các cặp đôi có thể xây dựng một mối quan hệ lâu dài dựa trên những cảm xúc chân thật.\n\nTóm lại, cả hai quan điểm đều có những lý do riêng. Tuy nhiên, tôi tin rằng mọi người nên tự chọn bạn đời của mình vì tình yêu đích thực mang lại hạnh phúc đích thực. Do đó, các cá nhân nên có quyền đưa ra lựa chọn của riêng mình trong hôn nhân.",
+          "model_b2": "Marriage customs have always been a subject of considerable debate across different cultures. While some people argue that arranged marriages are more stable and successful, others strongly believe that individuals should have the freedom to choose their own partners based on love. **This essay will discuss both perspectives and present my personal viewpoint.**\n\nOn the one hand, it is argued that arranged marriages ensure social and financial compatibility. First of all, parents usually carefully consider family background, education, and financial status before selecting a partner for their children. This careful selection process reduces the risk of conflicts related to money or lifestyle differences in the future. In addition, a significant advantage of arranged marriages is the strong support from both families. This creates a solid support network, allowing couples to overcome difficult periods in life more easily. For instance, in traditional societies, families often provide financial and emotional assistance, which helps maintain a stable marriage.\n\nOn the other hand, it is believed that marriages based on love bring deep emotional connection and mutual understanding. Before making a lifelong commitment, individuals have the opportunity to learn thoroughly about their partners. Because the relationship is built on genuine love, couples can easily accept each other's flaws and differences. Furthermore, when facing challenges, their strong emotional bond helps them cooperate and find better solutions together. Ultimately, autonomy in marriage decisions leads to higher levels of personal satisfaction and happiness.\n\nIn conclusion, both sides of the argument present valid points. However, I personally believe that love marriages are better because mutual understanding and emotional connection are the most essential factors for a successful relationship. Therefore, people should be encouraged to make their own choices regarding marriage.",
+          "model_b2_vi": "Phong tục hôn nhân luôn là một chủ đề được tranh luận đáng kể ở các nền văn hóa khác nhau. Mặc dù một số người lập luận rằng hôn nhân sắp đặt ổn định và thành công hơn, những người khác lại tin tưởng mạnh mẽ rằng các cá nhân nên có quyền tự do lựa chọn bạn đời dựa trên tình yêu. **Bài tiểu luận này sẽ thảo luận về cả hai khía cạnh và trình bày quan điểm cá nhân của tôi.**\n\nMột mặt, có ý kiến cho rằng hôn nhân sắp đặt đảm bảo sự hòa hợp về mặt xã hội và tài chính. Trước hết, cha mẹ thường xem xét kỹ lưỡng nền tảng gia đình, học vấn và tình trạng tài chính trước khi chọn bạn đời cho con cái. Quá trình lựa chọn cẩn thận này làm giảm nguy cơ xung đột liên quan đến sự khác biệt về tiền bạc hoặc lối sống trong tương lai. Ngoài ra, một lợi thế đáng kể của hôn nhân sắp đặt là sự hỗ trợ mạnh mẽ từ cả hai gia đình. Điều này tạo ra một mạng lưới hỗ trợ vững chắc, cho phép các cặp vợ chồng vượt qua những giai đoạn khó khăn trong cuộc sống dễ dàng hơn. Ví dụ, trong các xã hội truyền thống, các gia đình thường cung cấp hỗ trợ tài chính và tinh thần, điều này giúp duy trì một cuộc hôn nhân ổn định.\n\nMặt khác, người ta tin rằng hôn nhân dựa trên tình yêu mang lại sự gắn kết cảm xúc sâu sắc và sự thấu hiểu lẫn nhau. Trước khi đưa ra cam kết cả đời, các cá nhân có cơ hội tìm hiểu kỹ lưỡng về đối tác của mình. Vì mối quan hệ được xây dựng trên tình yêu chân chính, các cặp đôi có thể dễ dàng chấp nhận những khuyết điểm và sự khác biệt của nhau. Hơn nữa, khi đối mặt với thử thách, mối liên kết tình cảm bền chặt giúp họ hợp tác và cùng nhau tìm ra giải pháp tốt hơn. Cuối cùng, sự tự chủ trong các quyết định kết hôn dẫn đến mức độ hài lòng và hạnh phúc cá nhân cao hơn.\n\nTóm lại, cả hai khía cạnh của cuộc tranh luận đều đưa ra những luận điểm hợp lý. Tuy nhiên, cá nhân tôi tin rằng hôn nhân tình yêu tốt hơn vì sự thấu hiểu lẫn nhau và sự gắn kết tình cảm là những yếu tố cốt lõi nhất cho một mối quan hệ thành công. Do đó, mọi người nên được khuyến khích đưa ra lựa chọn của riêng mình liên quan đến hôn nhân.",
+          "vocab": [
+            {
+              "en": "bring stability",
+              "vi": "mang lại sự ổn định"
+            },
+            {
+              "en": "family support",
+              "vi": "sự hỗ trợ từ gia đình"
+            },
+            {
+              "en": "life experience",
+              "vi": "kinh nghiệm sống"
+            },
+            {
+              "en": "suitable partner",
+              "vi": "người bạn đời phù hợp"
+            },
+            {
+              "en": "face difficulties",
+              "vi": "gặp khó khăn"
+            },
+            {
+              "en": "stable",
+              "vi": "ổn định"
+            },
+            {
+              "en": "end in divorce",
+              "vi": "dẫn đến ly hôn"
+            },
+            {
+              "en": "freedom to choose",
+              "vi": "quyền tự do lựa chọn"
+            },
+            {
+              "en": "understand each other",
+              "vi": "hiểu nhau"
+            },
+            {
+              "en": "personalities and interests",
+              "vi": "tính cách và sở thích"
+            },
+            {
+              "en": "important foundation",
+              "vi": "nền tảng quan trọng"
+            },
+            {
+              "en": "happy marriage",
+              "vi": "cuộc hôn nhân hạnh phúc"
+            },
+            {
+              "en": "solve problems",
+              "vi": "giải quyết vấn đề"
+            },
+            {
+              "en": "share responsibilities",
+              "vi": "chia sẻ trách nhiệm"
+            },
+            {
+              "en": "social and financial compatibility",
+              "vi": "sự hòa hợp về mặt xã hội và tài chính"
+            },
+            {
+              "en": "carefully consider",
+              "vi": "xem xét kỹ lưỡng"
+            },
+            {
+              "en": "family background",
+              "vi": "nền tảng gia đình"
+            },
+            {
+              "en": "financial status",
+              "vi": "tình trạng tài chính"
+            },
+            {
+              "en": "reduce the risk of conflicts",
+              "vi": "làm giảm nguy cơ xung đột"
+            },
+            {
+              "en": "solid support network",
+              "vi": "mạng lưới hỗ trợ vững chắc"
+            },
+            {
+              "en": "overcome difficult periods",
+              "vi": "vượt qua những giai đoạn khó khăn"
+            },
+            {
+              "en": "financial and emotional assistance",
+              "vi": "hỗ trợ tài chính và tinh thần"
+            },
+            {
+              "en": "deep emotional connection",
+              "vi": "sự gắn kết cảm xúc sâu sắc"
+            },
+            {
+              "en": "mutual understanding",
+              "vi": "sự thấu hiểu lẫn nhau"
+            },
+            {
+              "en": "lifelong commitment",
+              "vi": "cam kết cả đời"
+            },
+            {
+              "en": "genuine love",
+              "vi": "tình yêu chân chính"
+            },
+            {
+              "en": "accept each other's flaws",
+              "vi": "chấp nhận những khuyết điểm của nhau"
+            },
+            {
+              "en": "face challenges",
+              "vi": "đối mặt với thử thách"
+            },
+            {
+              "en": "strong emotional bond",
+              "vi": "mối liên kết tình cảm bền chặt"
+            },
+            {
+              "en": "autonomy in marriage decisions",
+              "vi": "sự tự chủ trong quyết định kết hôn"
+            },
+            {
+              "en": "personal satisfaction",
+              "vi": "mức độ hài lòng cá nhân"
+            }
+          ]
+        }
       },
       {
         "id": 7,
