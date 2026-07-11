@@ -12064,7 +12064,56 @@ const ESSAY_DATA = [
             "benefits": [
               {
                 "title": "VIEW 01",
-                "collocations": [],
+                "collocations": [
+                  {
+                    "en": "true friendship",
+                    "vi": "tình bạn thật sự"
+                  },
+                  {
+                    "en": "last a lifetime",
+                    "vi": "kéo dài suốt cuộc đời"
+                  },
+                  {
+                    "en": "trust each other",
+                    "vi": "tin tưởng lẫn nhau"
+                  },
+                  {
+                    "en": "be willing to help",
+                    "vi": "sẵn sàng giúp đỡ"
+                  },
+                  {
+                    "en": "difficult times",
+                    "vi": "những giai đoạn khó khăn"
+                  },
+                  {
+                    "en": "become stronger",
+                    "vi": "trở nên bền chặt hơn"
+                  },
+                  {
+                    "en": "happy memories",
+                    "vi": "những kỷ niệm đẹp"
+                  },
+                  {
+                    "en": "throughout life",
+                    "vi": "suốt cuộc đời"
+                  },
+                  {
+                    "en": "valuable",
+                    "vi": "đáng quý"
+                  },
+                  {
+                    "en": "be willing to + Vo",
+                    "vi": "sẵn sàng làm gì"
+                  },
+                  {
+                    "en": "create + N",
+                    "vi": "tạo ra"
+                  },
+                  {
+                    "en": "over time",
+                    "vi": "theo thời gian"
+                  }
+                ],
                 "point_vi": "Bạn bè thật sự mang lại những giá trị vô giá trong cuộc đời.",
                 "point_en": "True friends bring priceless values to our lives.",
                 "evidence_vi": "Bạn bè thật sự luôn tin tưởng lẫn nhau. Họ luôn sẵn sàng giúp đỡ nhau khi gặp khó khăn. Điều này giúp mối quan hệ của họ ngày càng bền chặt hơn. Họ cũng tạo ra nhiều kỷ niệm đẹp cùng nhau. Vì vậy, những người bạn thật sự rất đáng quý và có thể đồng hành suốt cuộc đời.",
@@ -12074,7 +12123,44 @@ const ESSAY_DATA = [
             "drawbacks": [
               {
                 "title": "VIEW 02",
-                "collocations": [],
+                "collocations": [
+                  {
+                    "en": "temporary friendships",
+                    "vi": "những tình bạn tạm thời"
+                  },
+                  {
+                    "en": "a period of time",
+                    "vi": "một khoảng thời gian"
+                  },
+                  {
+                    "en": "places of living",
+                    "vi": "nơi sinh sống"
+                  },
+                  {
+                    "en": "chances to meet",
+                    "vi": "cơ hội gặp nhau"
+                  },
+                  {
+                    "en": "different interests",
+                    "vi": "sở thích khác nhau"
+                  },
+                  {
+                    "en": "goals",
+                    "vi": "mục tiêu"
+                  },
+                  {
+                    "en": "spend time together",
+                    "vi": "dành thời gian cùng nhau"
+                  },
+                  {
+                    "en": "come to an end",
+                    "vi": "kết thúc"
+                  },
+                  {
+                    "en": "over time",
+                    "vi": "theo thời gian"
+                  }
+                ],
                 "point_vi": "Một số tình bạn thường không bền vững do hoàn cảnh thay đổi.",
                 "point_en": "Some friendships are often unstable due to changing circumstances.",
                 "evidence_vi": "Mọi người có thể thay đổi trường học, công việc hoặc nơi sinh sống. Điều này khiến họ ít có cơ hội gặp nhau hơn. Họ cũng có thể có những sở thích hoặc mục tiêu khác nhau. Dần dần, họ dành ít thời gian cho nhau hơn. Do đó, một số tình bạn có thể suy yếu hoặc kết thúc theo thời gian.",
@@ -12086,7 +12172,40 @@ const ESSAY_DATA = [
             "benefits": [
               {
                 "title": "VIEW 01",
-                "collocations": [],
+                "collocations": [
+                  {
+                    "en": "genuine friendship",
+                    "vi": "tình bạn chân thành"
+                  },
+                  {
+                    "en": "mutual trust and respect",
+                    "vi": "sự tin tưởng và tôn trọng lẫn nhau"
+                  },
+                  {
+                    "en": "shared experiences",
+                    "vi": "những trải nghiệm chung"
+                  },
+                  {
+                    "en": "stay in touch",
+                    "vi": "giữ liên lạc"
+                  },
+                  {
+                    "en": "last a lifetime",
+                    "vi": "kéo dài suốt cuộc đời"
+                  },
+                  {
+                    "en": "invaluable",
+                    "vi": "vô giá, vô cùng quý giá"
+                  },
+                  {
+                    "en": "build relationships on",
+                    "vi": "xây dựng mối quan hệ dựa trên"
+                  },
+                  {
+                    "en": "be willing to + Vo",
+                    "vi": "sẵn sàng làm gì"
+                  }
+                ],
                 "point_vi": "Tình bạn thật sự là một kết nối vô giá mang lại sự hỗ trợ trọn đời.",
                 "point_en": "True friendship is a priceless connection providing lifelong support.",
                 "evidence_vi": "Bạn bè thật sự xây dựng mối quan hệ dựa trên sự tin tưởng và tôn trọng lẫn nhau. Họ luôn sẵn sàng hỗ trợ nhau trong những giai đoạn khó khăn. Những trải nghiệm cùng nhau giúp mối quan hệ ngày càng bền vững. Ngoài ra, họ vẫn giữ liên lạc ngay cả khi sống ở những nơi khác nhau. Vì vậy, nhiều người coi những người bạn thật sự là vô cùng quý giá.",
@@ -12096,7 +12215,44 @@ const ESSAY_DATA = [
             "drawbacks": [
               {
                 "title": "VIEW 02",
-                "collocations": [],
+                "collocations": [
+                  {
+                    "en": "similar circumstances",
+                    "vi": "hoàn cảnh tương tự"
+                  },
+                  {
+                    "en": "workplaces",
+                    "vi": "nơi làm việc"
+                  },
+                  {
+                    "en": "priorities",
+                    "vi": "ưu tiên"
+                  },
+                  {
+                    "en": "have ... in common",
+                    "vi": "có điểm chung"
+                  },
+                  {
+                    "en": "become distant",
+                    "vi": "trở nên xa cách"
+                  },
+                  {
+                    "en": "come to an end",
+                    "vi": "kết thúc"
+                  },
+                  {
+                    "en": "eventually",
+                    "vi": "cuối cùng"
+                  },
+                  {
+                    "en": "have opportunities to + Vo",
+                    "vi": "có cơ hội làm gì"
+                  },
+                  {
+                    "en": "no longer",
+                    "vi": "không còn"
+                  }
+                ],
                 "point_vi": "Nhiều tình bạn vốn không bền vững khi mọi người không còn điểm chung.",
                 "point_en": "Many friendships are inherently unstable when people lack common ground.",
                 "evidence_vi": "Mọi người thường thay đổi nơi học tập, làm việc hoặc sinh sống theo thời gian. Điều này khiến họ có ít cơ hội gặp gỡ và trò chuyện với nhau hơn. Sở thích và ưu tiên của mỗi người cũng có thể thay đổi. Khi không còn nhiều điểm chung, mối quan hệ có thể dần trở nên xa cách. Cuối cùng, sự thay đổi hoàn cảnh khiến tình bạn trở nên thiếu bền vững.",
@@ -12299,7 +12455,56 @@ const ESSAY_DATA = [
             "benefits": [
               {
                 "title": "VIEW 01",
-                "collocations": [],
+                "collocations": [
+                  {
+                    "en": "true friendship",
+                    "vi": "tình bạn thật sự"
+                  },
+                  {
+                    "en": "last a lifetime",
+                    "vi": "kéo dài suốt cuộc đời"
+                  },
+                  {
+                    "en": "trust each other",
+                    "vi": "tin tưởng lẫn nhau"
+                  },
+                  {
+                    "en": "be willing to help",
+                    "vi": "sẵn sàng giúp đỡ"
+                  },
+                  {
+                    "en": "difficult times",
+                    "vi": "những giai đoạn khó khăn"
+                  },
+                  {
+                    "en": "become stronger",
+                    "vi": "trở nên bền chặt hơn"
+                  },
+                  {
+                    "en": "happy memories",
+                    "vi": "những kỷ niệm đẹp"
+                  },
+                  {
+                    "en": "throughout life",
+                    "vi": "suốt cuộc đời"
+                  },
+                  {
+                    "en": "valuable",
+                    "vi": "đáng quý"
+                  },
+                  {
+                    "en": "be willing to + Vo",
+                    "vi": "sẵn sàng làm gì"
+                  },
+                  {
+                    "en": "create + N",
+                    "vi": "tạo ra"
+                  },
+                  {
+                    "en": "over time",
+                    "vi": "theo thời gian"
+                  }
+                ],
                 "point_vi": "Bạn bè thật sự có thể duy trì tình bạn trong suốt cuộc đời.",
                 "point_en": "True friendship can last a lifetime.",
                 "evidence_vi": "Bạn bè thật sự luôn tin tưởng lẫn nhau. Họ luôn sẵn sàng giúp đỡ nhau khi gặp khó khăn. Điều này giúp mối quan hệ của họ ngày càng bền chặt hơn. Họ cũng tạo ra nhiều kỷ niệm đẹp cùng nhau. Vì vậy, những người bạn thật sự rất đáng quý và có thể đồng hành suốt cuộc đời.",
@@ -12309,7 +12514,44 @@ const ESSAY_DATA = [
             "drawbacks": [
               {
                 "title": "VIEW 02",
-                "collocations": [],
+                "collocations": [
+                  {
+                    "en": "temporary friendships",
+                    "vi": "những tình bạn tạm thời"
+                  },
+                  {
+                    "en": "a period of time",
+                    "vi": "một khoảng thời gian"
+                  },
+                  {
+                    "en": "places of living",
+                    "vi": "nơi sinh sống"
+                  },
+                  {
+                    "en": "chances to meet",
+                    "vi": "cơ hội gặp nhau"
+                  },
+                  {
+                    "en": "different interests",
+                    "vi": "sở thích khác nhau"
+                  },
+                  {
+                    "en": "goals",
+                    "vi": "mục tiêu"
+                  },
+                  {
+                    "en": "spend time together",
+                    "vi": "dành thời gian cùng nhau"
+                  },
+                  {
+                    "en": "come to an end",
+                    "vi": "kết thúc"
+                  },
+                  {
+                    "en": "over time",
+                    "vi": "theo thời gian"
+                  }
+                ],
                 "point_vi": "Một số tình bạn chỉ kéo dài trong một khoảng thời gian.",
                 "point_en": "Some friendships only last for a period of time.",
                 "evidence_vi": "Mọi người có thể thay đổi trường học, công việc hoặc nơi sinh sống. Điều này khiến họ ít có cơ hội gặp nhau hơn. Họ cũng có thể có những sở thích hoặc mục tiêu khác nhau. Dần dần, họ dành ít thời gian cho nhau hơn. Do đó, một số tình bạn có thể kết thúc theo thời gian.",
@@ -12321,7 +12563,40 @@ const ESSAY_DATA = [
             "benefits": [
               {
                 "title": "VIEW 01",
-                "collocations": [],
+                "collocations": [
+                  {
+                    "en": "genuine friendship",
+                    "vi": "tình bạn chân thành"
+                  },
+                  {
+                    "en": "mutual trust and respect",
+                    "vi": "sự tin tưởng và tôn trọng lẫn nhau"
+                  },
+                  {
+                    "en": "shared experiences",
+                    "vi": "những trải nghiệm chung"
+                  },
+                  {
+                    "en": "stay in touch",
+                    "vi": "giữ liên lạc"
+                  },
+                  {
+                    "en": "last a lifetime",
+                    "vi": "kéo dài suốt cuộc đời"
+                  },
+                  {
+                    "en": "invaluable",
+                    "vi": "vô giá, vô cùng quý giá"
+                  },
+                  {
+                    "en": "build relationships on",
+                    "vi": "xây dựng mối quan hệ dựa trên"
+                  },
+                  {
+                    "en": "be willing to + Vo",
+                    "vi": "sẵn sàng làm gì"
+                  }
+                ],
                 "point_vi": "Bạn bè thật sự có thể duy trì mối quan hệ bền vững trong suốt cuộc đời.",
                 "point_en": "True friendship can remain strong throughout a person's life.",
                 "evidence_vi": "Bạn bè thật sự xây dựng mối quan hệ dựa trên sự tin tưởng và tôn trọng lẫn nhau. Họ luôn sẵn sàng hỗ trợ nhau trong những giai đoạn khó khăn. Những trải nghiệm cùng nhau giúp mối quan hệ ngày càng bền chặt. Ngoài ra, họ vẫn giữ liên lạc ngay cả khi sống ở những nơi khác nhau. Vì vậy, tình bạn thật sự có thể kéo dài suốt cuộc đời. Đây là lý do nhiều người coi những người bạn thật sự là vô cùng quý giá.",
@@ -12331,7 +12606,44 @@ const ESSAY_DATA = [
             "drawbacks": [
               {
                 "title": "VIEW 02",
-                "collocations": [],
+                "collocations": [
+                  {
+                    "en": "similar circumstances",
+                    "vi": "hoàn cảnh tương tự"
+                  },
+                  {
+                    "en": "workplaces",
+                    "vi": "nơi làm việc"
+                  },
+                  {
+                    "en": "priorities",
+                    "vi": "ưu tiên"
+                  },
+                  {
+                    "en": "have ... in common",
+                    "vi": "có điểm chung"
+                  },
+                  {
+                    "en": "become distant",
+                    "vi": "trở nên xa cách"
+                  },
+                  {
+                    "en": "come to an end",
+                    "vi": "kết thúc"
+                  },
+                  {
+                    "en": "eventually",
+                    "vi": "cuối cùng"
+                  },
+                  {
+                    "en": "have opportunities to + Vo",
+                    "vi": "có cơ hội làm gì"
+                  },
+                  {
+                    "en": "no longer",
+                    "vi": "không còn"
+                  }
+                ],
                 "point_vi": "Nhiều tình bạn chỉ tồn tại khi mọi người còn có chung hoàn cảnh hoặc mục tiêu.",
                 "point_en": "Many friendships only last while people share similar circumstances or goals.",
                 "evidence_vi": "Mọi người thường thay đổi nơi học tập, làm việc hoặc sinh sống theo thời gian. Điều này khiến họ có ít cơ hội gặp gỡ và trò chuyện với nhau hơn. Sở thích và ưu tiên của mỗi người cũng có thể thay đổi. Khi không còn nhiều điểm chung, mối quan hệ có thể dần trở nên xa cách. Cuối cùng, một số tình bạn tự nhiên kết thúc mà không xảy ra mâu thuẫn. Vì vậy, không phải mọi tình bạn đều có thể kéo dài mãi mãi.",
