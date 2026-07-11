@@ -679,7 +679,7 @@ function buildTranslationExercises(topic, transLevel, category) {
       // 1. Point
       exercises.push({
         type: 'benefit_point',
-        title: `${baseTitle}: Luận điểm`,
+        title: `${baseTitle}<br/>Luận điểm`,
         vi: item.point_vi,
         en: item.point_en,
         collocations: item.collocations || []
@@ -692,7 +692,7 @@ function buildTranslationExercises(topic, transLevel, category) {
         const sNum = String(sIdx + 1).padStart(2, '0');
         exercises.push({
           type: 'benefit_evidence',
-          title: `${baseTitle}: Luận cứ ${sNum}`,
+          title: `${baseTitle}<br/>Luận cứ ${sNum}`,
           vi: viS,
           en: enS,
           collocations: item.collocations || []
@@ -708,7 +708,7 @@ function buildTranslationExercises(topic, transLevel, category) {
       // 1. Point
       exercises.push({
         type: 'drawback_point',
-        title: `${baseTitle}: Luận điểm`,
+        title: `${baseTitle}<br/>Luận điểm`,
         vi: item.point_vi,
         en: item.point_en,
         collocations: item.collocations || []
@@ -721,7 +721,7 @@ function buildTranslationExercises(topic, transLevel, category) {
         const sNum = String(sIdx + 1).padStart(2, '0');
         exercises.push({
           type: 'drawback_evidence',
-          title: `${baseTitle}: Luận cứ ${sNum}`,
+          title: `${baseTitle}<br/>Luận cứ ${sNum}`,
           vi: viS,
           en: enS,
           collocations: item.collocations || []
