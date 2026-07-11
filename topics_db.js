@@ -7765,7 +7765,184 @@ const ESSAY_DATA = [
           }
         ],
         "details": {
-          "vocab": [],
+          "vocab": [
+            {
+              "en": "online shopping",
+              "vi": "mua sắm trực tuyến"
+            },
+            {
+              "en": "consumers",
+              "vi": "người tiêu dùng"
+            },
+            {
+              "en": "physical stores",
+              "vi": "cửa hàng truyền thống"
+            },
+            {
+              "en": "save time and effort",
+              "vi": "tiết kiệm thời gian và công sức"
+            },
+            {
+              "en": "convenient",
+              "vi": "thuận tiện"
+            },
+            {
+              "en": "choose online shopping",
+              "vi": "lựa chọn mua sắm trực tuyến"
+            },
+            {
+              "en": "save + N",
+              "vi": "tiết kiệm cái gì"
+            },
+            {
+              "en": "need to + Vo",
+              "vi": "cần làm gì"
+            },
+            {
+              "en": "a wider variety of products",
+              "vi": "nhiều loại sản phẩm hơn"
+            },
+            {
+              "en": "customers",
+              "vi": "khách hàng"
+            },
+            {
+              "en": "compare prices",
+              "vi": "so sánh giá"
+            },
+            {
+              "en": "suitable products",
+              "vi": "sản phẩm phù hợp"
+            },
+            {
+              "en": "different stores",
+              "vi": "các cửa hàng khác nhau"
+            },
+            {
+              "en": "find products",
+              "vi": "tìm sản phẩm"
+            },
+            {
+              "en": "compare + N",
+              "vi": "so sánh"
+            },
+            {
+              "en": "help + O + Vo",
+              "vi": "giúp ai làm gì"
+            },
+            {
+              "en": "modern technology",
+              "vi": "công nghệ hiện đại"
+            },
+            {
+              "en": "shopping applications",
+              "vi": "ứng dụng mua sắm"
+            },
+            {
+              "en": "online payment",
+              "vi": "thanh toán trực tuyến"
+            },
+            {
+              "en": "delivery services",
+              "vi": "dịch vụ giao hàng"
+            },
+            {
+              "en": "easy to use",
+              "vi": "dễ sử dụng"
+            },
+            {
+              "en": "become + adj",
+              "vi": "trở nên"
+            },
+            {
+              "en": "greater convenience",
+              "vi": "sự thuận tiện hơn"
+            },
+            {
+              "en": "busy schedules",
+              "vi": "lịch trình bận rộn"
+            },
+            {
+              "en": "physical stores",
+              "vi": "cửa hàng truyền thống"
+            },
+            {
+              "en": "save both time and effort",
+              "vi": "tiết kiệm cả thời gian và công sức"
+            },
+            {
+              "en": "beneficial",
+              "vi": "có lợi"
+            },
+            {
+              "en": "provide + N",
+              "vi": "mang lại"
+            },
+            {
+              "en": "spend time + V-ing",
+              "vi": "dành thời gian làm gì"
+            },
+            {
+              "en": "competitive prices",
+              "vi": "giá cạnh tranh"
+            },
+            {
+              "en": "different sellers",
+              "vi": "những người bán khác nhau"
+            },
+            {
+              "en": "product quality",
+              "vi": "chất lượng sản phẩm"
+            },
+            {
+              "en": "purchasing decisions",
+              "vi": "quyết định mua hàng"
+            },
+            {
+              "en": "discounts and promotions",
+              "vi": "giảm giá và khuyến mãi"
+            },
+            {
+              "en": "attractive to consumers",
+              "vi": "hấp dẫn đối với người tiêu dùng"
+            },
+            {
+              "en": "make decisions",
+              "vi": "đưa ra quyết định"
+            },
+            {
+              "en": "offer + N",
+              "vi": "cung cấp"
+            },
+            {
+              "en": "technological development",
+              "vi": "sự phát triển công nghệ"
+            },
+            {
+              "en": "digital payment systems",
+              "vi": "hệ thống thanh toán kỹ thuật số"
+            },
+            {
+              "en": "e-commerce platforms",
+              "vi": "nền tảng thương mại điện tử"
+            },
+            {
+              "en": "accessibility",
+              "vi": "khả năng tiếp cận"
+            },
+            {
+              "en": "transform the way people shop",
+              "vi": "thay đổi cách mọi người mua sắm"
+            },
+            {
+              "en": "secure",
+              "vi": "an toàn"
+            },
+            {
+              "en": "encourage + O + to Vo",
+              "vi": "khuyến khích ai làm gì"
+            }
+          ],
           "ideas_b1": {
             "benefits": [
               {
@@ -8095,7 +8272,184 @@ const ESSAY_DATA = [
           }
         ],
         "details": {
-          "vocab": [],
+          "vocab": [
+            {
+              "en": "online shopping",
+              "vi": "mua sắm trực tuyến"
+            },
+            {
+              "en": "consumers",
+              "vi": "người tiêu dùng"
+            },
+            {
+              "en": "physical stores",
+              "vi": "cửa hàng truyền thống"
+            },
+            {
+              "en": "save time and effort",
+              "vi": "tiết kiệm thời gian và công sức"
+            },
+            {
+              "en": "convenient",
+              "vi": "thuận tiện"
+            },
+            {
+              "en": "choose online shopping",
+              "vi": "lựa chọn mua sắm trực tuyến"
+            },
+            {
+              "en": "save + N",
+              "vi": "tiết kiệm cái gì"
+            },
+            {
+              "en": "need to + Vo",
+              "vi": "cần làm gì"
+            },
+            {
+              "en": "a wider variety of products",
+              "vi": "nhiều loại sản phẩm hơn"
+            },
+            {
+              "en": "customers",
+              "vi": "khách hàng"
+            },
+            {
+              "en": "compare prices",
+              "vi": "so sánh giá"
+            },
+            {
+              "en": "suitable products",
+              "vi": "sản phẩm phù hợp"
+            },
+            {
+              "en": "different stores",
+              "vi": "các cửa hàng khác nhau"
+            },
+            {
+              "en": "find products",
+              "vi": "tìm sản phẩm"
+            },
+            {
+              "en": "compare + N",
+              "vi": "so sánh"
+            },
+            {
+              "en": "help + O + Vo",
+              "vi": "giúp ai làm gì"
+            },
+            {
+              "en": "modern technology",
+              "vi": "công nghệ hiện đại"
+            },
+            {
+              "en": "shopping applications",
+              "vi": "ứng dụng mua sắm"
+            },
+            {
+              "en": "online payment",
+              "vi": "thanh toán trực tuyến"
+            },
+            {
+              "en": "delivery services",
+              "vi": "dịch vụ giao hàng"
+            },
+            {
+              "en": "easy to use",
+              "vi": "dễ sử dụng"
+            },
+            {
+              "en": "become + adj",
+              "vi": "trở nên"
+            },
+            {
+              "en": "greater convenience",
+              "vi": "sự thuận tiện hơn"
+            },
+            {
+              "en": "busy schedules",
+              "vi": "lịch trình bận rộn"
+            },
+            {
+              "en": "physical stores",
+              "vi": "cửa hàng truyền thống"
+            },
+            {
+              "en": "save both time and effort",
+              "vi": "tiết kiệm cả thời gian và công sức"
+            },
+            {
+              "en": "beneficial",
+              "vi": "có lợi"
+            },
+            {
+              "en": "provide + N",
+              "vi": "mang lại"
+            },
+            {
+              "en": "spend time + V-ing",
+              "vi": "dành thời gian làm gì"
+            },
+            {
+              "en": "competitive prices",
+              "vi": "giá cạnh tranh"
+            },
+            {
+              "en": "different sellers",
+              "vi": "những người bán khác nhau"
+            },
+            {
+              "en": "product quality",
+              "vi": "chất lượng sản phẩm"
+            },
+            {
+              "en": "purchasing decisions",
+              "vi": "quyết định mua hàng"
+            },
+            {
+              "en": "discounts and promotions",
+              "vi": "giảm giá và khuyến mãi"
+            },
+            {
+              "en": "attractive to consumers",
+              "vi": "hấp dẫn đối với người tiêu dùng"
+            },
+            {
+              "en": "make decisions",
+              "vi": "đưa ra quyết định"
+            },
+            {
+              "en": "offer + N",
+              "vi": "cung cấp"
+            },
+            {
+              "en": "technological development",
+              "vi": "sự phát triển công nghệ"
+            },
+            {
+              "en": "digital payment systems",
+              "vi": "hệ thống thanh toán kỹ thuật số"
+            },
+            {
+              "en": "e-commerce platforms",
+              "vi": "nền tảng thương mại điện tử"
+            },
+            {
+              "en": "accessibility",
+              "vi": "khả năng tiếp cận"
+            },
+            {
+              "en": "transform the way people shop",
+              "vi": "thay đổi cách mọi người mua sắm"
+            },
+            {
+              "en": "secure",
+              "vi": "an toàn"
+            },
+            {
+              "en": "encourage + O + to Vo",
+              "vi": "khuyến khích ai làm gì"
+            }
+          ],
           "ideas_b1": {
             "benefits": [
               {
@@ -10321,7 +10675,36 @@ const ESSAY_DATA = [
             "benefits": [
               {
                 "title": "LÝ DO 01",
-                "collocations": [],
+                "collocations": [
+                  {
+                    "en": "provide a clear structure",
+                    "vi": "cung cấp một cấu trúc rõ ràng"
+                  },
+                  {
+                    "en": "language learning",
+                    "vi": "việc học ngôn ngữ"
+                  },
+                  {
+                    "en": "organize lessons",
+                    "vi": "sắp xếp bài học"
+                  },
+                  {
+                    "en": "from easy to difficult",
+                    "vi": "từ dễ đến khó"
+                  },
+                  {
+                    "en": "learning progress",
+                    "vi": "tiến độ học tập"
+                  },
+                  {
+                    "en": "systematic",
+                    "vi": "có hệ thống"
+                  },
+                  {
+                    "en": "organize + N",
+                    "vi": "sắp xếp"
+                  }
+                ],
                 "point_vi": "Sách giáo khoa giúp việc học ngôn ngữ có cấu trúc rõ ràng.",
                 "point_en": "Textbooks provide a clear structure for language learning.",
                 "evidence_vi": "Các bài học được sắp xếp theo trình tự từ dễ đến khó. Điều này giúp học sinh học từng bước một cách hiệu quả hơn. Học sinh cũng dễ theo dõi tiến độ học tập của mình. Vì vậy, sách giáo khoa giúp quá trình học trở nên có hệ thống hơn.",
@@ -10329,7 +10712,40 @@ const ESSAY_DATA = [
               },
               {
                 "title": "LÝ DO 02",
-                "collocations": [],
+                "collocations": [
+                  {
+                    "en": "essential language knowledge",
+                    "vi": "kiến thức ngôn ngữ thiết yếu"
+                  },
+                  {
+                    "en": "vocabulary",
+                    "vi": "từ vựng"
+                  },
+                  {
+                    "en": "grammar",
+                    "vi": "ngữ pháp"
+                  },
+                  {
+                    "en": "practice exercises",
+                    "vi": "bài luyện tập"
+                  },
+                  {
+                    "en": "language skills",
+                    "vi": "các kỹ năng ngôn ngữ"
+                  },
+                  {
+                    "en": "a strong foundation",
+                    "vi": "nền tảng vững chắc"
+                  },
+                  {
+                    "en": "include + N",
+                    "vi": "bao gồm"
+                  },
+                  {
+                    "en": "build + N",
+                    "vi": "xây dựng"
+                  }
+                ],
                 "point_vi": "Sách giáo khoa cung cấp những kiến thức ngôn ngữ cần thiết.",
                 "point_en": "Textbooks provide essential language knowledge.",
                 "evidence_vi": "Chúng bao gồm từ vựng, ngữ pháp và các bài luyện tập. Học sinh có thể luyện tập tất cả các kỹ năng ngôn ngữ. Điều này giúp các em xây dựng nền tảng tiếng Anh vững chắc. Do đó, sách giáo khoa đóng vai trò quan trọng trong việc học ngôn ngữ.",
@@ -10337,7 +10753,32 @@ const ESSAY_DATA = [
               },
               {
                 "title": "LÝ DO 03",
-                "collocations": [],
+                "collocations": [
+                  {
+                    "en": "prepare lessons",
+                    "vi": "chuẩn bị bài giảng"
+                  },
+                  {
+                    "en": "teaching and learning",
+                    "vi": "việc dạy và học"
+                  },
+                  {
+                    "en": "effective",
+                    "vi": "hiệu quả"
+                  },
+                  {
+                    "en": "remain",
+                    "vi": "vẫn là (duy trì trạng thái nào đó)"
+                  },
+                  {
+                    "en": "an important part",
+                    "vi": "một phần quan trọng"
+                  },
+                  {
+                    "en": "prepare + N",
+                    "vi": "chuẩn bị"
+                  }
+                ],
                 "point_vi": "Sách giáo khoa hỗ trợ cả giáo viên và học sinh.",
                 "point_en": "Textbooks support both teachers and students.",
                 "evidence_vi": "Giáo viên có thể chuẩn bị bài giảng dễ dàng hơn. Học sinh biết mình cần học gì trước và sau mỗi bài học. Điều này giúp việc dạy và học trở nên hiệu quả hơn. Vì lý do đó, sách giáo khoa vẫn là một phần quan trọng của lớp học.",
@@ -10350,7 +10791,40 @@ const ESSAY_DATA = [
             "benefits": [
               {
                 "title": "LÝ DO 01",
-                "collocations": [],
+                "collocations": [
+                  {
+                    "en": "a well-organized learning framework",
+                    "vi": "khung học tập có tổ chức"
+                  },
+                  {
+                    "en": "logical sequence",
+                    "vi": "trình tự hợp lý"
+                  },
+                  {
+                    "en": "advanced knowledge",
+                    "vi": "kiến thức nâng cao"
+                  },
+                  {
+                    "en": "systematically",
+                    "vi": "một cách có hệ thống"
+                  },
+                  {
+                    "en": "structured curriculum",
+                    "vi": "chương trình học có cấu trúc"
+                  },
+                  {
+                    "en": "the foundation of",
+                    "vi": "nền tảng của"
+                  },
+                  {
+                    "en": "design in a sequence",
+                    "vi": "thiết kế theo trình tự"
+                  },
+                  {
+                    "en": "monitor learning progress",
+                    "vi": "theo dõi tiến độ học tập"
+                  }
+                ],
                 "point_vi": "Sách giáo khoa cung cấp một lộ trình học tập có hệ thống cho người học.",
                 "point_en": "Textbooks provide a well-organized learning framework for language learners.",
                 "evidence_vi": "Các bài học được thiết kế theo trình tự hợp lý từ kiến thức cơ bản đến nâng cao. Điều này giúp người học phát triển kỹ năng ngôn ngữ một cách có hệ thống. Họ cũng dễ dàng theo dõi tiến độ học tập của mình. Ngoài ra, một chương trình học thống nhất giúp giáo viên tổ chức bài giảng thuận lợi hơn. Vì vậy, sách giáo khoa vẫn giữ vai trò nền tảng trong lớp học ngoại ngữ.",
@@ -10358,7 +10832,40 @@ const ESSAY_DATA = [
               },
               {
                 "title": "LÝ DO 02",
-                "collocations": [],
+                "collocations": [
+                  {
+                    "en": "comprehensive language content",
+                    "vi": "nội dung ngôn ngữ toàn diện"
+                  },
+                  {
+                    "en": "pronunciation",
+                    "vi": "phát âm"
+                  },
+                  {
+                    "en": "practice activities",
+                    "vi": "hoạt động luyện tập"
+                  },
+                  {
+                    "en": "reinforce knowledge",
+                    "vi": "củng cố kiến thức"
+                  },
+                  {
+                    "en": "a solid language foundation",
+                    "vi": "nền tảng ngôn ngữ vững chắc"
+                  },
+                  {
+                    "en": "reliable learning resource",
+                    "vi": "nguồn học liệu đáng tin cậy"
+                  },
+                  {
+                    "en": "reinforce + N",
+                    "vi": "củng cố"
+                  },
+                  {
+                    "en": "develop",
+                    "vi": "biên soạn, phát triển"
+                  }
+                ],
                 "point_vi": "Sách giáo khoa cung cấp đầy đủ các nội dung cần thiết để học ngôn ngữ.",
                 "point_en": "Textbooks provide comprehensive language content.",
                 "evidence_vi": "Chúng bao gồm từ vựng, ngữ pháp, phát âm và các kỹ năng ngôn ngữ. Các bài luyện tập giúp học sinh củng cố kiến thức đã học. Điều này giúp người học xây dựng nền tảng ngôn ngữ vững chắc. Ngoài ra, nội dung thường được biên soạn bởi các chuyên gia giáo dục. Do đó, sách giáo khoa vẫn là nguồn tài liệu học tập đáng tin cậy.",
@@ -10366,7 +10873,44 @@ const ESSAY_DATA = [
               },
               {
                 "title": "LÝ DO 03",
-                "collocations": [],
+                "collocations": [
+                  {
+                    "en": "effective teaching and learning",
+                    "vi": "dạy và học hiệu quả"
+                  },
+                  {
+                    "en": "plan lessons",
+                    "vi": "lập kế hoạch bài giảng"
+                  },
+                  {
+                    "en": "lesson objectives",
+                    "vi": "mục tiêu bài học"
+                  },
+                  {
+                    "en": "consistent",
+                    "vi": "thống nhất"
+                  },
+                  {
+                    "en": "revision",
+                    "vi": "ôn tập"
+                  },
+                  {
+                    "en": "self-study",
+                    "vi": "tự học"
+                  },
+                  {
+                    "en": "a key component",
+                    "vi": "thành phần chủ chốt"
+                  },
+                  {
+                    "en": "plan + N",
+                    "vi": "lập kế hoạch"
+                  },
+                  {
+                    "en": "make + N + adj",
+                    "vi": "làm cho... trở nên..."
+                  }
+                ],
                 "point_vi": "Sách giáo khoa giúp nâng cao hiệu quả dạy và học.",
                 "point_en": "Textbooks support effective teaching and learning.",
                 "evidence_vi": "Giáo viên có thể lập kế hoạch bài giảng dễ dàng hơn. Học sinh biết rõ mục tiêu của từng bài học. Điều này giúp quá trình học tập diễn ra thống nhất hơn. Ngoài ra, sách giáo khoa tạo điều kiện thuận lợi cho việc ôn tập và tự học. Vì lý do đó, chúng vẫn là thành phần quan trọng của lớp học ngoại ngữ.",
