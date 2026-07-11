@@ -13725,7 +13725,21 @@ const ESSAY_DATA = [
               "vi": "mức độ hài lòng cá nhân"
             }
           ]
-        }
+        },
+        "paraphrases": [
+          {
+            "en": "The debate between arranged marriages and love marriages...",
+            "vi": "Cuộc tranh luận giữa hôn nhân sắp đặt và hôn nhân dựa trên tình yêu..."
+          },
+          {
+            "en": "Whether individuals should choose their own partners or rely on their parents' arrangements...",
+            "vi": "Liệu các cá nhân nên tự chọn bạn đời hay dựa vào sự sắp xếp của cha mẹ..."
+          },
+          {
+            "en": "The choice between marrying for love and accepting an arranged marriage...",
+            "vi": "Sự lựa chọn giữa kết hôn vì tình yêu và chấp nhận một cuộc hôn nhân sắp đặt..."
+          }
+        ]
       },
       {
         "id": 7,
