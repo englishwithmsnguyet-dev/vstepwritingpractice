@@ -675,10 +675,11 @@ function buildTranslationExercises(topic, transLevel, category) {
   // Push benefits
   if (ideasObj.benefits) {
     ideasObj.benefits.forEach((item, idx) => {
+      const baseTitle = item.title ? item.title : (isDiscussion ? benefitLabel : `${benefitLabel} 0${idx+1}`);
       // 1. Point
       exercises.push({
         type: 'benefit_point',
-        title: `${benefitLabel} 0${idx+1}: Luận điểm`,
+        title: `${baseTitle}: Luận điểm`,
         vi: item.point_vi,
         en: item.point_en,
         collocations: item.collocations || []
@@ -691,7 +692,7 @@ function buildTranslationExercises(topic, transLevel, category) {
         const sNum = String(sIdx + 1).padStart(2, '0');
         exercises.push({
           type: 'benefit_evidence',
-          title: `${benefitLabel} 0${idx+1}: Luận cứ ${sNum}`,
+          title: `${baseTitle}: Luận cứ ${sNum}`,
           vi: viS,
           en: enS,
           collocations: item.collocations || []
@@ -703,10 +704,11 @@ function buildTranslationExercises(topic, transLevel, category) {
   // Push drawbacks
   if (ideasObj.drawbacks) {
     ideasObj.drawbacks.forEach((item, idx) => {
+      const baseTitle = item.title ? item.title : (isDiscussion ? drawbackLabel : `${drawbackLabel} 0${idx+1}`);
       // 1. Point
       exercises.push({
         type: 'drawback_point',
-        title: `${drawbackLabel} 0${idx+1}: Luận điểm`,
+        title: `${baseTitle}: Luận điểm`,
         vi: item.point_vi,
         en: item.point_en,
         collocations: item.collocations || []
@@ -719,7 +721,7 @@ function buildTranslationExercises(topic, transLevel, category) {
         const sNum = String(sIdx + 1).padStart(2, '0');
         exercises.push({
           type: 'drawback_evidence',
-          title: `${drawbackLabel} 0${idx+1}: Luận cứ ${sNum}`,
+          title: `${baseTitle}: Luận cứ ${sNum}`,
           vi: viS,
           en: enS,
           collocations: item.collocations || []
