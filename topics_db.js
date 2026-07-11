@@ -13726,20 +13726,44 @@ const ESSAY_DATA = [
             }
           ]
         },
-        "paraphrases": [
-          {
-            "en": "The debate between arranged marriages and love marriages...",
-            "vi": "Cuộc tranh luận giữa hôn nhân sắp đặt và hôn nhân dựa trên tình yêu..."
+        "paraphrases": {
+          "view1": {
+            "title_en": "Parents should arrange marriages",
+            "title_vi": "Cha mẹ nên sắp đặt hôn nhân",
+            "items": [
+              {
+                "en": "parents should arrange marriages",
+                "vi": "cha mẹ nên sắp đặt hôn nhân"
+              },
+              {
+                "en": "arranged marriages are highly recommended",
+                "vi": "hôn nhân sắp đặt rất được khuyến khích"
+              },
+              {
+                "en": "parents play a crucial role in selecting suitable partners",
+                "vi": "cha mẹ đóng vai trò quan trọng trong việc chọn bạn đời phù hợp"
+              }
+            ]
           },
-          {
-            "en": "Whether individuals should choose their own partners or rely on their parents' arrangements...",
-            "vi": "Liệu các cá nhân nên tự chọn bạn đời hay dựa vào sự sắp xếp của cha mẹ..."
-          },
-          {
-            "en": "The choice between marrying for love and accepting an arranged marriage...",
-            "vi": "Sự lựa chọn giữa kết hôn vì tình yêu và chấp nhận một cuộc hôn nhân sắp đặt..."
+          "view2": {
+            "title_en": "People should choose their own partners based on love",
+            "title_vi": "Mọi người nên chọn bạn đời dựa trên tình yêu",
+            "items": [
+              {
+                "en": "people should choose their own partners based on love",
+                "vi": "mọi người nên chọn bạn đời dựa trên tình yêu"
+              },
+              {
+                "en": "individuals should have the freedom to select their spouses",
+                "vi": "cá nhân nên có quyền tự do chọn vợ/chồng"
+              },
+              {
+                "en": "love marriages by personal choice are more beneficial",
+                "vi": "hôn nhân tình yêu tự nguyện mang lại nhiều lợi ích hơn"
+              }
+            ]
           }
-        ]
+        }
       },
       {
         "id": 7,
