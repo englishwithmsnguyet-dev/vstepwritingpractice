@@ -3615,12 +3615,198 @@ const ESSAY_DATA = [
           }
         ],
         "details": {
-          "vocab": [],
+          "vocab": [
+            {
+              "en": "food delivery services",
+              "vi": "dịch vụ giao đồ ăn"
+            },
+            {
+              "en": "save time",
+              "vi": "tiết kiệm thời gian"
+            },
+            {
+              "en": "visit restaurants",
+              "vi": "đến nhà hàng"
+            },
+            {
+              "en": "order meals",
+              "vi": "đặt món ăn"
+            },
+            {
+              "en": "convenient",
+              "vi": "thuận tiện"
+            },
+            {
+              "en": "anytime",
+              "vi": "bất cứ lúc nào"
+            },
+            {
+              "en": "mobile phone",
+              "vi": "điện thoại di động"
+            },
+            {
+              "en": "application",
+              "vi": "ứng dụng"
+            },
+            {
+              "en": "a wider variety of meals",
+              "vi": "nhiều lựa chọn món ăn hơn"
+            },
+            {
+              "en": "choose meals",
+              "vi": "chọn món ăn"
+            },
+            {
+              "en": "different restaurants",
+              "vi": "nhiều nhà hàng khác nhau"
+            },
+            {
+              "en": "expensive",
+              "vi": "tốn kém"
+            },
+            {
+              "en": "pay delivery and service fees",
+              "vi": "trả phí giao hàng và dịch vụ"
+            },
+            {
+              "en": "in addition to",
+              "vi": "ngoài ra"
+            },
+            {
+              "en": "unhealthy eating habits",
+              "vi": "thói quen ăn uống không lành mạnh"
+            },
+            {
+              "en": "encourage",
+              "vi": "khuyến khích"
+            },
+            {
+              "en": "order fast food",
+              "vi": "gọi đồ ăn nhanh"
+            },
+            {
+              "en": "cook at home",
+              "vi": "tự nấu ăn ở nhà"
+            },
+            {
+              "en": "create more waste",
+              "vi": "tạo ra nhiều rác thải hơn"
+            },
+            {
+              "en": "disposable plastic boxes",
+              "vi": "hộp nhựa dùng một lần"
+            },
+            {
+              "en": "plastic bags",
+              "vi": "túi nhựa"
+            },
+            {
+              "en": "save both time and effort",
+              "vi": "tiết kiệm cả thời gian và công sức"
+            },
+            {
+              "en": "prepare meals",
+              "vi": "chuẩn bị bữa ăn"
+            },
+            {
+              "en": "beneficial",
+              "vi": "có lợi"
+            },
+            {
+              "en": "busy schedules",
+              "vi": "lịch trình bận rộn"
+            },
+            {
+              "en": "provide consumers with",
+              "vi": "cung cấp cho người tiêu dùng"
+            },
+            {
+              "en": "compare prices and menus",
+              "vi": "so sánh giá cả và thực đơn"
+            },
+            {
+              "en": "place an order",
+              "vi": "đặt món"
+            },
+            {
+              "en": "modern technology",
+              "vi": "công nghệ hiện đại"
+            },
+            {
+              "en": "accessible",
+              "vi": "dễ tiếp cận"
+            },
+            {
+              "en": "user-friendly",
+              "vi": "thân thiện với người dùng"
+            },
+            {
+              "en": "online payment",
+              "vi": "thanh toán trực tuyến"
+            },
+            {
+              "en": "daily living expenses",
+              "vi": "chi phí sinh hoạt hàng ngày"
+            },
+            {
+              "en": "meal prices",
+              "vi": "giá bữa ăn"
+            },
+            {
+              "en": "delivery applications",
+              "vi": "ứng dụng giao hàng"
+            },
+            {
+              "en": "lead to",
+              "vi": "dẫn đến"
+            },
+            {
+              "en": "frequently",
+              "vi": "thường xuyên"
+            },
+            {
+              "en": "risk of health problems",
+              "vi": "nguy cơ gặp vấn đề sức khỏe"
+            },
+            {
+              "en": "environmental problems",
+              "vi": "vấn đề môi trường"
+            },
+            {
+              "en": "a large amount of",
+              "vi": "một lượng lớn"
+            },
+            {
+              "en": "disposable plastic packaging",
+              "vi": "bao bì nhựa dùng một lần"
+            },
+            {
+              "en": "environmental pollution",
+              "vi": "ô nhiễm môi trường"
+            }
+          ],
           "ideas_b1": {
             "benefits": [
               {
                 "title": "ADVANTAGE 01",
-                "collocations": [],
+                "collocations": [
+                  {
+                    "en": "food delivery services",
+                    "vi": "dịch vụ giao đồ ăn"
+                  },
+                  {
+                    "en": "save time",
+                    "vi": "tiết kiệm thời gian"
+                  },
+                  {
+                    "en": "visit restaurants",
+                    "vi": "đến nhà hàng"
+                  },
+                  {
+                    "en": "order meals",
+                    "vi": "đặt món ăn"
+                  }
+                ],
                 "point_vi": "Dịch vụ giao đồ ăn giúp mọi người tiết kiệm thời gian.",
                 "point_en": "Food delivery services help people save time.",
                 "evidence_vi": "Mọi người không cần đến nhà hàng vì có thể đặt món ngay tại nhà hoặc nơi làm việc.",
@@ -3628,7 +3814,24 @@ const ESSAY_DATA = [
               },
               {
                 "title": "ADVANTAGE 02",
-                "collocations": [],
+                "collocations": [
+                  {
+                    "en": "convenient",
+                    "vi": "thuận tiện"
+                  },
+                  {
+                    "en": "anytime",
+                    "vi": "bất cứ lúc nào"
+                  },
+                  {
+                    "en": "mobile phone",
+                    "vi": "điện thoại di động"
+                  },
+                  {
+                    "en": "application",
+                    "vi": "ứng dụng"
+                  }
+                ],
                 "point_vi": "Dịch vụ giao đồ ăn rất thuận tiện.",
                 "point_en": "Food delivery services are very convenient.",
                 "evidence_vi": "Mọi người có thể đặt đồ ăn bất cứ lúc nào chỉ bằng điện thoại hoặc ứng dụng.",
@@ -3636,7 +3839,20 @@ const ESSAY_DATA = [
               },
               {
                 "title": "ADVANTAGE 03",
-                "collocations": [],
+                "collocations": [
+                  {
+                    "en": "a wider variety of meals",
+                    "vi": "nhiều lựa chọn món ăn hơn"
+                  },
+                  {
+                    "en": "choose meals",
+                    "vi": "chọn món ăn"
+                  },
+                  {
+                    "en": "different restaurants",
+                    "vi": "nhiều nhà hàng khác nhau"
+                  }
+                ],
                 "point_vi": "Dịch vụ giao đồ ăn mang đến nhiều lựa chọn hơn.",
                 "point_en": "Food delivery services offer a wider variety of meals.",
                 "evidence_vi": "Khách hàng có thể lựa chọn món ăn từ nhiều nhà hàng khác nhau.",
@@ -3646,7 +3862,20 @@ const ESSAY_DATA = [
             "drawbacks": [
               {
                 "title": "DISADVANTAGE 01",
-                "collocations": [],
+                "collocations": [
+                  {
+                    "en": "expensive",
+                    "vi": "tốn kém"
+                  },
+                  {
+                    "en": "pay delivery and service fees",
+                    "vi": "trả phí giao hàng và dịch vụ"
+                  },
+                  {
+                    "en": "in addition to",
+                    "vi": "ngoài ra"
+                  }
+                ],
                 "point_vi": "Dịch vụ giao đồ ăn có thể tốn kém.",
                 "point_en": "Food delivery services can be expensive.",
                 "evidence_vi": "Khách hàng thường phải trả thêm phí giao hàng và phí dịch vụ.",
@@ -3654,7 +3883,24 @@ const ESSAY_DATA = [
               },
               {
                 "title": "DISADVANTAGE 02",
-                "collocations": [],
+                "collocations": [
+                  {
+                    "en": "unhealthy eating habits",
+                    "vi": "thói quen ăn uống không lành mạnh"
+                  },
+                  {
+                    "en": "encourage",
+                    "vi": "khuyến khích"
+                  },
+                  {
+                    "en": "order fast food",
+                    "vi": "gọi đồ ăn nhanh"
+                  },
+                  {
+                    "en": "cook at home",
+                    "vi": "tự nấu ăn ở nhà"
+                  }
+                ],
                 "point_vi": "Dịch vụ giao đồ ăn có thể khuyến khích thói quen ăn uống không lành mạnh.",
                 "point_en": "Food delivery services may encourage unhealthy eating habits.",
                 "evidence_vi": "Nhiều người thường gọi đồ ăn nhanh thay vì tự nấu ăn.",
@@ -3662,7 +3908,20 @@ const ESSAY_DATA = [
               },
               {
                 "title": "DISADVANTAGE 03",
-                "collocations": [],
+                "collocations": [
+                  {
+                    "en": "create more waste",
+                    "vi": "tạo ra nhiều rác thải hơn"
+                  },
+                  {
+                    "en": "disposable plastic boxes",
+                    "vi": "hộp nhựa dùng một lần"
+                  },
+                  {
+                    "en": "plastic bags",
+                    "vi": "túi nhựa"
+                  }
+                ],
                 "point_vi": "Dịch vụ giao đồ ăn tạo ra nhiều rác thải.",
                 "point_en": "Food delivery services create more waste.",
                 "evidence_vi": "Mỗi đơn hàng thường sử dụng nhiều hộp và túi nhựa dùng một lần.",
@@ -3674,7 +3933,24 @@ const ESSAY_DATA = [
             "benefits": [
               {
                 "title": "ADVANTAGE 01",
-                "collocations": [],
+                "collocations": [
+                  {
+                    "en": "save both time and effort",
+                    "vi": "tiết kiệm cả thời gian và công sức"
+                  },
+                  {
+                    "en": "prepare meals",
+                    "vi": "chuẩn bị bữa ăn"
+                  },
+                  {
+                    "en": "beneficial",
+                    "vi": "có lợi"
+                  },
+                  {
+                    "en": "busy schedules",
+                    "vi": "lịch trình bận rộn"
+                  }
+                ],
                 "point_vi": "Dịch vụ giao đồ ăn giúp mọi người tiết kiệm thời gian và công sức.",
                 "point_en": "Food delivery services help people save both time and effort.",
                 "evidence_vi": "Người dùng không cần đến nhà hàng hoặc tự chuẩn bị bữa ăn. Điều này đặc biệt thuận tiện đối với những người có lịch trình bận rộn.",
@@ -3682,7 +3958,20 @@ const ESSAY_DATA = [
               },
               {
                 "title": "ADVANTAGE 02",
-                "collocations": [],
+                "collocations": [
+                  {
+                    "en": "provide consumers with",
+                    "vi": "cung cấp cho người tiêu dùng"
+                  },
+                  {
+                    "en": "compare prices and menus",
+                    "vi": "so sánh giá cả và thực đơn"
+                  },
+                  {
+                    "en": "place an order",
+                    "vi": "đặt món"
+                  }
+                ],
                 "point_vi": "Dịch vụ giao đồ ăn mang đến nhiều lựa chọn hơn cho người tiêu dùng.",
                 "point_en": "Food delivery services provide consumers with a wider variety of meals.",
                 "evidence_vi": "Khách hàng có thể đặt món từ nhiều nhà hàng khác nhau. Họ cũng có thể dễ dàng so sánh giá cả và thực đơn trước khi đặt món.",
@@ -3690,7 +3979,24 @@ const ESSAY_DATA = [
               },
               {
                 "title": "ADVANTAGE 03",
-                "collocations": [],
+                "collocations": [
+                  {
+                    "en": "modern technology",
+                    "vi": "công nghệ hiện đại"
+                  },
+                  {
+                    "en": "accessible",
+                    "vi": "dễ tiếp cận"
+                  },
+                  {
+                    "en": "user-friendly",
+                    "vi": "thân thiện với người dùng"
+                  },
+                  {
+                    "en": "online payment",
+                    "vi": "thanh toán trực tuyến"
+                  }
+                ],
                 "point_vi": "Công nghệ hiện đại giúp việc đặt đồ ăn trở nên dễ dàng hơn.",
                 "point_en": "Modern technology makes food delivery services more accessible.",
                 "evidence_vi": "Các ứng dụng đặt đồ ăn rất dễ sử dụng. Thanh toán trực tuyến và dịch vụ giao hàng ngày càng nhanh và thuận tiện.",
@@ -3700,7 +4006,20 @@ const ESSAY_DATA = [
             "drawbacks": [
               {
                 "title": "DISADVANTAGE 01",
-                "collocations": [],
+                "collocations": [
+                  {
+                    "en": "daily living expenses",
+                    "vi": "chi phí sinh hoạt hàng ngày"
+                  },
+                  {
+                    "en": "meal prices",
+                    "vi": "giá bữa ăn"
+                  },
+                  {
+                    "en": "delivery applications",
+                    "vi": "ứng dụng giao hàng"
+                  }
+                ],
                 "point_vi": "Dịch vụ giao đồ ăn có thể làm tăng chi phí sinh hoạt.",
                 "point_en": "Food delivery services can increase daily living expenses.",
                 "evidence_vi": "Người dùng thường phải trả thêm phí giao hàng và phí dịch vụ. Giá món ăn trên ứng dụng đôi khi cao hơn tại nhà hàng.",
@@ -3708,7 +4027,20 @@ const ESSAY_DATA = [
               },
               {
                 "title": "DISADVANTAGE 02",
-                "collocations": [],
+                "collocations": [
+                  {
+                    "en": "lead to",
+                    "vi": "dẫn đến"
+                  },
+                  {
+                    "en": "frequently",
+                    "vi": "thường xuyên"
+                  },
+                  {
+                    "en": "risk of health problems",
+                    "vi": "nguy cơ gặp vấn đề sức khỏe"
+                  }
+                ],
                 "point_vi": "Dịch vụ giao đồ ăn có thể dẫn đến thói quen ăn uống không lành mạnh.",
                 "point_en": "Food delivery services may lead to unhealthy eating habits.",
                 "evidence_vi": "Nhiều người thường xuyên gọi đồ ăn nhanh. Điều này có thể làm tăng nguy cơ gặp các vấn đề về sức khỏe.",
@@ -3716,7 +4048,24 @@ const ESSAY_DATA = [
               },
               {
                 "title": "DISADVANTAGE 03",
-                "collocations": [],
+                "collocations": [
+                  {
+                    "en": "environmental problems",
+                    "vi": "vấn đề môi trường"
+                  },
+                  {
+                    "en": "a large amount of",
+                    "vi": "một lượng lớn"
+                  },
+                  {
+                    "en": "disposable plastic packaging",
+                    "vi": "bao bì nhựa dùng một lần"
+                  },
+                  {
+                    "en": "environmental pollution",
+                    "vi": "ô nhiễm môi trường"
+                  }
+                ],
                 "point_vi": "Dịch vụ giao đồ ăn có thể gây ra các vấn đề về môi trường.",
                 "point_en": "Food delivery services may create environmental problems.",
                 "evidence_vi": "Mỗi đơn hàng thường sử dụng nhiều bao bì nhựa dùng một lần. Điều này làm tăng lượng rác thải và gây ô nhiễm môi trường.",
@@ -3897,12 +4246,230 @@ const ESSAY_DATA = [
           }
         ],
         "details": {
-          "vocab": [],
+          "vocab": [
+            {
+              "en": "share housework",
+              "vi": "chia sẻ việc nhà"
+            },
+            {
+              "en": "reduce the workload",
+              "vi": "giảm khối lượng công việc"
+            },
+            {
+              "en": "family members",
+              "vi": "các thành viên trong gia đình"
+            },
+            {
+              "en": "part of the housework",
+              "vi": "một phần việc nhà"
+            },
+            {
+              "en": "family life",
+              "vi": "cuộc sống gia đình"
+            },
+            {
+              "en": "balanced",
+              "vi": "cân bằng"
+            },
+            {
+              "en": "reduce + N",
+              "vi": "giảm..."
+            },
+            {
+              "en": "have time to + Vo",
+              "vi": "có thời gian làm gì"
+            },
+            {
+              "en": "strengthen family relationships",
+              "vi": "tăng cường mối quan hệ gia đình"
+            },
+            {
+              "en": "work together",
+              "vi": "cùng nhau làm việc"
+            },
+            {
+              "en": "talk to one another",
+              "vi": "trò chuyện với nhau"
+            },
+            {
+              "en": "understand each other",
+              "vi": "hiểu nhau"
+            },
+            {
+              "en": "happier families",
+              "vi": "gia đình hạnh phúc hơn"
+            },
+            {
+              "en": "spend time + V-ing",
+              "vi": "dành thời gian làm gì"
+            },
+            {
+              "en": "responsibility",
+              "vi": "trách nhiệm"
+            },
+            {
+              "en": "complete tasks",
+              "vi": "hoàn thành công việc"
+            },
+            {
+              "en": "help parents",
+              "vi": "giúp cha mẹ"
+            },
+            {
+              "en": "independent",
+              "vi": "tự lập"
+            },
+            {
+              "en": "future life",
+              "vi": "cuộc sống tương lai"
+            },
+            {
+              "en": "learn to + Vo",
+              "vi": "học cách làm gì"
+            },
+            {
+              "en": "become + adj",
+              "vi": "trở nên"
+            },
+            {
+              "en": "workload",
+              "vi": "khối lượng công việc"
+            },
+            {
+              "en": "household tasks",
+              "vi": "công việc nhà"
+            },
+            {
+              "en": "share fairly",
+              "vi": "chia sẻ công bằng"
+            },
+            {
+              "en": "responsibilities",
+              "vi": "trách nhiệm"
+            },
+            {
+              "en": "achieve a better balance",
+              "vi": "cân bằng tốt hơn"
+            },
+            {
+              "en": "personal life",
+              "vi": "cuộc sống cá nhân"
+            },
+            {
+              "en": "quality of family life",
+              "vi": "chất lượng cuộc sống gia đình"
+            },
+            {
+              "en": "take on",
+              "vi": "đảm nhận"
+            },
+            {
+              "en": "achieve + N",
+              "vi": "đạt được"
+            },
+            {
+              "en": "cooperate with",
+              "vi": "hợp tác với"
+            },
+            {
+              "en": "support each other",
+              "vi": "hỗ trợ lẫn nhau"
+            },
+            {
+              "en": "mutual understanding",
+              "vi": "sự thấu hiểu lẫn nhau"
+            },
+            {
+              "en": "respect",
+              "vi": "sự tôn trọng"
+            },
+            {
+              "en": "family environment",
+              "vi": "môi trường gia đình"
+            },
+            {
+              "en": "united",
+              "vi": "gắn kết"
+            },
+            {
+              "en": "build + N",
+              "vi": "xây dựng"
+            },
+            {
+              "en": "solve problems",
+              "vi": "giải quyết vấn đề"
+            },
+            {
+              "en": "life skills",
+              "vi": "kỹ năng sống"
+            },
+            {
+              "en": "take responsibility for",
+              "vi": "chịu trách nhiệm về"
+            },
+            {
+              "en": "time management skills",
+              "vi": "kỹ năng quản lý thời gian"
+            },
+            {
+              "en": "adult life",
+              "vi": "cuộc sống trưởng thành"
+            },
+            {
+              "en": "prepare somebody for",
+              "vi": "chuẩn bị cho ai"
+            },
+            {
+              "en": "a better future",
+              "vi": "một tương lai tốt đẹp hơn"
+            },
+            {
+              "en": "develop + N",
+              "vi": "phát triển"
+            },
+            {
+              "en": "help + O + Vo",
+              "vi": "giúp ai làm gì"
+            }
+          ],
           "ideas_b1": {
             "benefits": [
               {
                 "title": "ADVANTAGE 01",
-                "collocations": [],
+                "collocations": [
+                  {
+                    "en": "share housework",
+                    "vi": "chia sẻ việc nhà"
+                  },
+                  {
+                    "en": "reduce the workload",
+                    "vi": "giảm khối lượng công việc"
+                  },
+                  {
+                    "en": "family members",
+                    "vi": "các thành viên trong gia đình"
+                  },
+                  {
+                    "en": "part of the housework",
+                    "vi": "một phần việc nhà"
+                  },
+                  {
+                    "en": "family life",
+                    "vi": "cuộc sống gia đình"
+                  },
+                  {
+                    "en": "balanced",
+                    "vi": "cân bằng"
+                  },
+                  {
+                    "en": "reduce + N",
+                    "vi": "giảm..."
+                  },
+                  {
+                    "en": "have time to + Vo",
+                    "vi": "có thời gian làm gì"
+                  }
+                ],
                 "point_vi": "Chia sẻ việc nhà giúp giảm khối lượng công việc cho mỗi thành viên trong gia đình.",
                 "point_en": "Sharing housework reduces the workload for each family member.",
                 "evidence_vi": "Mỗi người chỉ cần làm một phần công việc. Điều này giúp họ cảm thấy bớt mệt mỏi hơn. Họ cũng có thêm thời gian để nghỉ ngơi hoặc làm những việc khác. Vì vậy, cuộc sống gia đình trở nên cân bằng hơn.",
@@ -3910,7 +4477,32 @@ const ESSAY_DATA = [
               },
               {
                 "title": "ADVANTAGE 02",
-                "collocations": [],
+                "collocations": [
+                  {
+                    "en": "strengthen family relationships",
+                    "vi": "tăng cường mối quan hệ gia đình"
+                  },
+                  {
+                    "en": "work together",
+                    "vi": "cùng nhau làm việc"
+                  },
+                  {
+                    "en": "talk to one another",
+                    "vi": "trò chuyện với nhau"
+                  },
+                  {
+                    "en": "understand each other",
+                    "vi": "hiểu nhau"
+                  },
+                  {
+                    "en": "happier families",
+                    "vi": "gia đình hạnh phúc hơn"
+                  },
+                  {
+                    "en": "spend time + V-ing",
+                    "vi": "dành thời gian làm gì"
+                  }
+                ],
                 "point_vi": "Chia sẻ việc nhà giúp các thành viên trong gia đình gắn kết hơn.",
                 "point_en": "Sharing housework strengthens family relationships.",
                 "evidence_vi": "Các thành viên có cơ hội làm việc cùng nhau. Họ cũng dành nhiều thời gian trò chuyện và hỗ trợ nhau hơn. Điều này giúp mọi người hiểu nhau hơn. Nhờ đó, gia đình trở nên hạnh phúc hơn.",
@@ -3918,7 +4510,36 @@ const ESSAY_DATA = [
               },
               {
                 "title": "ADVANTAGE 03",
-                "collocations": [],
+                "collocations": [
+                  {
+                    "en": "responsibility",
+                    "vi": "trách nhiệm"
+                  },
+                  {
+                    "en": "complete tasks",
+                    "vi": "hoàn thành công việc"
+                  },
+                  {
+                    "en": "help parents",
+                    "vi": "giúp cha mẹ"
+                  },
+                  {
+                    "en": "independent",
+                    "vi": "tự lập"
+                  },
+                  {
+                    "en": "future life",
+                    "vi": "cuộc sống tương lai"
+                  },
+                  {
+                    "en": "learn to + Vo",
+                    "vi": "học cách làm gì"
+                  },
+                  {
+                    "en": "become + adj",
+                    "vi": "trở nên"
+                  }
+                ],
                 "point_vi": "Chia sẻ việc nhà giúp trẻ em học cách có trách nhiệm.",
                 "point_en": "Sharing housework teaches children responsibility.",
                 "evidence_vi": "Trẻ em học cách hoàn thành công việc của mình. Các em cũng biết giúp đỡ cha mẹ nhiều hơn. Điều này giúp các em trở nên tự lập hơn. Vì vậy, các em được chuẩn bị tốt hơn cho cuộc sống trong tương lai.",
@@ -3931,7 +4552,44 @@ const ESSAY_DATA = [
             "benefits": [
               {
                 "title": "ADVANTAGE 01",
-                "collocations": [],
+                "collocations": [
+                  {
+                    "en": "workload",
+                    "vi": "khối lượng công việc"
+                  },
+                  {
+                    "en": "household tasks",
+                    "vi": "công việc nhà"
+                  },
+                  {
+                    "en": "share fairly",
+                    "vi": "chia sẻ công bằng"
+                  },
+                  {
+                    "en": "responsibilities",
+                    "vi": "trách nhiệm"
+                  },
+                  {
+                    "en": "achieve a better balance",
+                    "vi": "cân bằng tốt hơn"
+                  },
+                  {
+                    "en": "personal life",
+                    "vi": "cuộc sống cá nhân"
+                  },
+                  {
+                    "en": "quality of family life",
+                    "vi": "chất lượng cuộc sống gia đình"
+                  },
+                  {
+                    "en": "take on",
+                    "vi": "đảm nhận"
+                  },
+                  {
+                    "en": "achieve + N",
+                    "vi": "đạt được"
+                  }
+                ],
                 "point_vi": "Chia sẻ việc nhà giúp giảm khối lượng công việc cho tất cả các thành viên trong gia đình.",
                 "point_en": "Sharing housework reduces the workload for all family members.",
                 "evidence_vi": "Các công việc được phân chia công bằng giữa mọi người. Không ai phải chịu quá nhiều trách nhiệm. Điều này giúp mọi người cân bằng tốt hơn giữa công việc, học tập và cuộc sống. Họ cũng có thêm thời gian để nghỉ ngơi và chăm sóc bản thân. Vì vậy, chất lượng cuộc sống của cả gia đình được cải thiện.",
@@ -3939,7 +4597,44 @@ const ESSAY_DATA = [
               },
               {
                 "title": "ADVANTAGE 02",
-                "collocations": [],
+                "collocations": [
+                  {
+                    "en": "strengthen family relationships",
+                    "vi": "tăng cường mối quan hệ gia đình"
+                  },
+                  {
+                    "en": "cooperate with",
+                    "vi": "hợp tác với"
+                  },
+                  {
+                    "en": "support each other",
+                    "vi": "hỗ trợ lẫn nhau"
+                  },
+                  {
+                    "en": "mutual understanding",
+                    "vi": "sự thấu hiểu lẫn nhau"
+                  },
+                  {
+                    "en": "respect",
+                    "vi": "sự tôn trọng"
+                  },
+                  {
+                    "en": "family environment",
+                    "vi": "môi trường gia đình"
+                  },
+                  {
+                    "en": "united",
+                    "vi": "gắn kết"
+                  },
+                  {
+                    "en": "build + N",
+                    "vi": "xây dựng"
+                  },
+                  {
+                    "en": "solve problems",
+                    "vi": "giải quyết vấn đề"
+                  }
+                ],
                 "point_vi": "Chia sẻ việc nhà giúp tăng cường mối quan hệ giữa các thành viên trong gia đình.",
                 "point_en": "Sharing housework strengthens family relationships.",
                 "evidence_vi": "Các thành viên có nhiều cơ hội hợp tác với nhau hơn. Họ cũng dành nhiều thời gian trò chuyện và hỗ trợ nhau. Điều này giúp xây dựng sự thấu hiểu và tôn trọng lẫn nhau. Gia đình có thể giải quyết các vấn đề cùng nhau hiệu quả hơn. Nhờ đó, môi trường gia đình trở nên tích cực và gắn kết hơn.",
@@ -3947,7 +4642,44 @@ const ESSAY_DATA = [
               },
               {
                 "title": "ADVANTAGE 03",
-                "collocations": [],
+                "collocations": [
+                  {
+                    "en": "life skills",
+                    "vi": "kỹ năng sống"
+                  },
+                  {
+                    "en": "take responsibility for",
+                    "vi": "chịu trách nhiệm về"
+                  },
+                  {
+                    "en": "time management skills",
+                    "vi": "kỹ năng quản lý thời gian"
+                  },
+                  {
+                    "en": "independent",
+                    "vi": "tự lập"
+                  },
+                  {
+                    "en": "adult life",
+                    "vi": "cuộc sống trưởng thành"
+                  },
+                  {
+                    "en": "prepare somebody for",
+                    "vi": "chuẩn bị cho ai"
+                  },
+                  {
+                    "en": "a better future",
+                    "vi": "một tương lai tốt đẹp hơn"
+                  },
+                  {
+                    "en": "develop + N",
+                    "vi": "phát triển"
+                  },
+                  {
+                    "en": "help + O + Vo",
+                    "vi": "giúp ai làm gì"
+                  }
+                ],
                 "point_vi": "Chia sẻ việc nhà giúp trẻ em phát triển những kỹ năng sống quan trọng.",
                 "point_en": "Sharing housework helps children develop important life skills.",
                 "evidence_vi": "Các em học cách chịu trách nhiệm về công việc của mình. Các em cũng phát triển kỹ năng quản lý thời gian. Điều này giúp các em trở nên tự lập hơn. Các kỹ năng này rất hữu ích khi các em trưởng thành. Vì vậy, chia sẻ việc nhà góp phần chuẩn bị cho các em một tương lai tốt hơn.",
