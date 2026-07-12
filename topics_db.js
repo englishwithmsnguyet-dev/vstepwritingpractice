@@ -15938,13 +15938,446 @@ const ESSAY_DATA = [
         "title_en": "Children, especially girls, do not need to learn how to cook and do housework.",
         "title_vi": "Trẻ em, đặc biệt là các bé gái, không cần học nấu ăn và làm việc nhà.",
         "paraphrases": [
-          "Children, especially girls, no longer need to learn how to cook and do housework [hoặc learn domestic skillsơ.",
-          "Children, particularly girls, no longer need to be taught cooking and household chores.",
-          "Cooking and housework are unnecessary skills for children, especially girls."
+          {
+            "en": "doing household chores",
+            "vi": "làm việc nhà"
+          },
+          {
+            "en": "sharing domestic duties",
+            "vi": "chia sẻ trách nhiệm gia đình"
+          },
+          {
+            "en": "acquiring life skills",
+            "vi": "trang bị kỹ năng sống"
+          }
         ],
         "context": "In modern society, many household appliances and services have made daily chores easier and more convenient than in the past. As a result, some people believe that children, especially girls, no longer need to learn how to cook or do housework because these skills are less important today. Others, however, argue that domestic skills remain essential for children's personal development and future independence.",
         "prompt": "Do you agree or disagree that children, especially girls, do not need to learn how to cook and do housework? Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "REASON 01",
+                "collocations": [
+                  {
+                    "en": "essential life skills",
+                    "vi": "kỹ năng sống thiết yếu"
+                  },
+                  {
+                    "en": "prepare simple meals",
+                    "vi": "chuẩn bị những bữa ăn đơn giản"
+                  },
+                  {
+                    "en": "take care of the home",
+                    "vi": "chăm sóc nhà cửa"
+                  },
+                  {
+                    "en": "daily life",
+                    "vi": "cuộc sống hằng ngày"
+                  },
+                  {
+                    "en": "future life",
+                    "vi": "cuộc sống tương lai"
+                  },
+                  {
+                    "en": "learn how to",
+                    "vi": "học cách làm gì"
+                  },
+                  {
+                    "en": "prepare for",
+                    "vi": "chuẩn bị cho"
+                  },
+                  {
+                    "en": "be useful",
+                    "vi": "hữu ích"
+                  }
+                ],
+                "point_vi": "Học nấu ăn và làm việc nhà giúp trẻ em phát triển những kỹ năng sống thiết yếu.",
+                "point_en": "Learning to cook and do housework helps children develop essential life skills.",
+                "evidence_vi": "Các em học cách chuẩn bị những bữa ăn đơn giản. Các em biết cách dọn dẹp và chăm sóc ngôi nhà. Những kỹ năng này rất hữu ích trong cuộc sống hằng ngày. Nhờ đó, các em sẽ chuẩn bị tốt hơn cho cuộc sống trong tương lai.",
+                "evidence_en": "They learn how to prepare simple meals. They know how to clean and take care of the home. These skills are useful in daily life. As a result, they will be better prepared for future life."
+              },
+              {
+                "title": "REASON 02",
+                "collocations": [
+                  {
+                    "en": "a sense of responsibility",
+                    "vi": "tinh thần trách nhiệm"
+                  },
+                  {
+                    "en": "household chores",
+                    "vi": "việc nhà"
+                  },
+                  {
+                    "en": "complete tasks",
+                    "vi": "hoàn thành công việc"
+                  },
+                  {
+                    "en": "good habits",
+                    "vi": "thói quen tốt"
+                  },
+                  {
+                    "en": "teach",
+                    "vi": "dạy"
+                  },
+                  {
+                    "en": "become",
+                    "vi": "trở nên"
+                  },
+                  {
+                    "en": "develop",
+                    "vi": "hình thành"
+                  }
+                ],
+                "point_vi": "Làm việc nhà giúp trẻ em học được tinh thần trách nhiệm.",
+                "point_en": "Doing housework teaches children a sense of responsibility.",
+                "evidence_vi": "Các em hiểu rằng mọi thành viên đều nên chia sẻ việc nhà. Các em học cách hoàn thành những công việc được giao. Điều này giúp các em trở nên có trách nhiệm hơn. Nhờ đó, các em hình thành những thói quen tốt.",
+                "evidence_en": "They learn that every family member should share household chores. They learn to complete the tasks they are given. This helps them become more responsible. As a result, they develop good habits."
+              },
+              {
+                "title": "REASON 03",
+                "collocations": [
+                  {
+                    "en": "strengthen family bonds",
+                    "vi": "gắn kết các thành viên trong gia đình"
+                  },
+                  {
+                    "en": "work together",
+                    "vi": "làm việc cùng nhau"
+                  },
+                  {
+                    "en": "help each other",
+                    "vi": "giúp đỡ lẫn nhau"
+                  },
+                  {
+                    "en": "daily chores",
+                    "vi": "việc nhà hằng ngày"
+                  },
+                  {
+                    "en": "become closer",
+                    "vi": "trở nên gắn bó hơn"
+                  },
+                  {
+                    "en": "have opportunities to",
+                    "vi": "có cơ hội làm gì"
+                  },
+                  {
+                    "en": "understand each other",
+                    "vi": "hiểu nhau"
+                  },
+                  {
+                    "en": "strengthen",
+                    "vi": "tăng cường"
+                  }
+                ],
+                "point_vi": "Làm việc nhà giúp gắn kết các thành viên trong gia đình.",
+                "point_en": "Doing housework helps strengthen family bonds.",
+                "evidence_vi": "Cha mẹ và con cái có nhiều cơ hội làm việc cùng nhau. Các thành viên trong gia đình có thể giúp đỡ lẫn nhau trong công việc hằng ngày. Điều này giúp mọi người hiểu nhau hơn. Vì vậy, gia đình có thể trở nên gắn bó hơn.",
+                "evidence_en": "Parents and children have more opportunities to work together. Family members can help each other with daily chores. This helps them understand each other better. Therefore, families can become closer."
+              }
+            ],
+            "drawbacks": []
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "REASON 01",
+                "collocations": [
+                  {
+                    "en": "essential life skills",
+                    "vi": "kỹ năng sống thiết yếu"
+                  },
+                  {
+                    "en": "prepare meals",
+                    "vi": "chuẩn bị bữa ăn"
+                  },
+                  {
+                    "en": "take care of themselves",
+                    "vi": "tự chăm sóc bản thân"
+                  },
+                  {
+                    "en": "clean and tidy",
+                    "vi": "sạch sẽ và ngăn nắp"
+                  },
+                  {
+                    "en": "everyday life",
+                    "vi": "cuộc sống hằng ngày"
+                  },
+                  {
+                    "en": "living independently",
+                    "vi": "sống tự lập"
+                  },
+                  {
+                    "en": "adult life",
+                    "vi": "cuộc sống trưởng thành"
+                  },
+                  {
+                    "en": "learn how to",
+                    "vi": "học cách làm gì"
+                  },
+                  {
+                    "en": "keep",
+                    "vi": "giữ"
+                  },
+                  {
+                    "en": "prepare for",
+                    "vi": "chuẩn bị cho"
+                  }
+                ],
+                "point_vi": "Học nấu ăn và làm việc nhà giúp trẻ em phát triển những kỹ năng sống thiết yếu.",
+                "point_en": "Learning to cook and do housework helps children develop essential life skills.",
+                "evidence_vi": "Các em học cách chuẩn bị bữa ăn và chăm sóc bản thân. Các em cũng biết cách giữ gìn nhà cửa sạch sẽ và ngăn nắp. Những kỹ năng này rất hữu ích trong cuộc sống hằng ngày. Điều này giúp các em tự tin hơn khi sống tự lập trong tương lai. Vì vậy, các em sẽ chuẩn bị tốt hơn cho cuộc sống trưởng thành.",
+                "evidence_en": "They learn how to prepare meals and take care of themselves. They also learn how to keep their home clean and tidy. These skills are highly useful in everyday life. This helps them become more confident when living independently in the future. Therefore, they will be better prepared for adult life."
+              },
+              {
+                "title": "REASON 02",
+                "collocations": [
+                  {
+                    "en": "a sense of responsibility",
+                    "vi": "tinh thần trách nhiệm"
+                  },
+                  {
+                    "en": "reliable",
+                    "vi": "đáng tin cậy"
+                  },
+                  {
+                    "en": "appreciate",
+                    "vi": "trân trọng"
+                  },
+                  {
+                    "en": "parents' efforts",
+                    "vi": "công sức của cha mẹ"
+                  },
+                  {
+                    "en": "good habits",
+                    "vi": "thói quen tốt"
+                  },
+                  {
+                    "en": "complete",
+                    "vi": "hoàn thành"
+                  },
+                  {
+                    "en": "develop",
+                    "vi": "hình thành"
+                  }
+                ],
+                "point_vi": "Làm việc nhà giúp trẻ em học được tinh thần trách nhiệm.",
+                "point_en": "Doing housework teaches children a sense of responsibility.",
+                "evidence_vi": "Các em hiểu rằng mọi thành viên đều nên chia sẻ việc nhà. Các em học cách hoàn thành công việc đúng thời hạn. Điều này giúp các em trở nên đáng tin cậy hơn. Các em cũng biết trân trọng công sức của cha mẹ hơn. Nhờ đó, các em hình thành những thói quen tốt cho tương lai.",
+                "evidence_en": "They learn that every family member should share household chores. They learn to complete their tasks on time. This helps them become more responsible and reliable. They also learn to appreciate their parents' efforts. As a result, they develop good habits for the future."
+              },
+              {
+                "title": "REASON 03",
+                "collocations": [
+                  {
+                    "en": "strengthen family bonds",
+                    "vi": "gắn kết các thành viên trong gia đình"
+                  },
+                  {
+                    "en": "work together",
+                    "vi": "cùng nhau làm việc"
+                  },
+                  {
+                    "en": "support each other",
+                    "vi": "hỗ trợ lẫn nhau"
+                  },
+                  {
+                    "en": "communicate",
+                    "vi": "giao tiếp"
+                  },
+                  {
+                    "en": "respect each other",
+                    "vi": "tôn trọng lẫn nhau"
+                  },
+                  {
+                    "en": "closer",
+                    "vi": "gắn bó hơn"
+                  },
+                  {
+                    "en": "have opportunities to",
+                    "vi": "có cơ hội làm gì"
+                  },
+                  {
+                    "en": "communicate with",
+                    "vi": "giao tiếp với"
+                  },
+                  {
+                    "en": "strengthen",
+                    "vi": "tăng cường"
+                  }
+                ],
+                "point_vi": "Làm việc nhà giúp gắn kết các thành viên trong gia đình.",
+                "point_en": "Doing housework helps strengthen family bonds.",
+                "evidence_vi": "Cha mẹ và con cái có nhiều cơ hội làm việc cùng nhau. Các thành viên trong gia đình có thể giúp đỡ và hỗ trợ lẫn nhau. Điều này giúp mọi người giao tiếp với nhau nhiều hơn. Nhờ đó, các thành viên hiểu và tôn trọng nhau hơn. Vì vậy, gia đình có thể trở nên gắn bó và hạnh phúc hơn.",
+                "evidence_en": "Parents and children have more opportunities to work together. Family members can help and support each other. This encourages family members to communicate more often. As a result, they understand and respect each other better. Therefore, families can become closer and happier."
+              }
+            ],
+            "drawbacks": []
+          },
+          "vocab": [
+            {
+              "en": "essential life skills",
+              "vi": "kỹ năng sống thiết yếu"
+            },
+            {
+              "en": "prepare simple meals",
+              "vi": "chuẩn bị những bữa ăn đơn giản"
+            },
+            {
+              "en": "take care of the home",
+              "vi": "chăm sóc nhà cửa"
+            },
+            {
+              "en": "daily life",
+              "vi": "cuộc sống hằng ngày"
+            },
+            {
+              "en": "future life",
+              "vi": "cuộc sống tương lai"
+            },
+            {
+              "en": "learn how to",
+              "vi": "học cách làm gì"
+            },
+            {
+              "en": "prepare for",
+              "vi": "chuẩn bị cho"
+            },
+            {
+              "en": "be useful",
+              "vi": "hữu ích"
+            },
+            {
+              "en": "a sense of responsibility",
+              "vi": "tinh thần trách nhiệm"
+            },
+            {
+              "en": "household chores",
+              "vi": "việc nhà"
+            },
+            {
+              "en": "complete tasks",
+              "vi": "hoàn thành công việc"
+            },
+            {
+              "en": "good habits",
+              "vi": "thói quen tốt"
+            },
+            {
+              "en": "teach",
+              "vi": "dạy"
+            },
+            {
+              "en": "become",
+              "vi": "trở nên"
+            },
+            {
+              "en": "develop",
+              "vi": "hình thành"
+            },
+            {
+              "en": "strengthen family bonds",
+              "vi": "gắn kết các thành viên trong gia đình"
+            },
+            {
+              "en": "work together",
+              "vi": "làm việc cùng nhau"
+            },
+            {
+              "en": "help each other",
+              "vi": "giúp đỡ lẫn nhau"
+            },
+            {
+              "en": "daily chores",
+              "vi": "việc nhà hằng ngày"
+            },
+            {
+              "en": "become closer",
+              "vi": "trở nên gắn bó hơn"
+            },
+            {
+              "en": "have opportunities to",
+              "vi": "có cơ hội làm gì"
+            },
+            {
+              "en": "understand each other",
+              "vi": "hiểu nhau"
+            },
+            {
+              "en": "strengthen",
+              "vi": "tăng cường"
+            },
+            {
+              "en": "prepare meals",
+              "vi": "chuẩn bị bữa ăn"
+            },
+            {
+              "en": "take care of themselves",
+              "vi": "tự chăm sóc bản thân"
+            },
+            {
+              "en": "clean and tidy",
+              "vi": "sạch sẽ và ngăn nắp"
+            },
+            {
+              "en": "everyday life",
+              "vi": "cuộc sống hằng ngày"
+            },
+            {
+              "en": "living independently",
+              "vi": "sống tự lập"
+            },
+            {
+              "en": "adult life",
+              "vi": "cuộc sống trưởng thành"
+            },
+            {
+              "en": "keep",
+              "vi": "giữ"
+            },
+            {
+              "en": "reliable",
+              "vi": "đáng tin cậy"
+            },
+            {
+              "en": "appreciate",
+              "vi": "trân trọng"
+            },
+            {
+              "en": "parents' efforts",
+              "vi": "công sức của cha mẹ"
+            },
+            {
+              "en": "complete",
+              "vi": "hoàn thành"
+            },
+            {
+              "en": "support each other",
+              "vi": "hỗ trợ lẫn nhau"
+            },
+            {
+              "en": "communicate",
+              "vi": "giao tiếp"
+            },
+            {
+              "en": "respect each other",
+              "vi": "tôn trọng lẫn nhau"
+            },
+            {
+              "en": "closer",
+              "vi": "gắn bó hơn"
+            },
+            {
+              "en": "communicate with",
+              "vi": "giao tiếp với"
+            }
+          ],
+          "sample_b1": "In today's society, some people believe that children, especially girls, do not need to learn how to cook and do housework. However, I completely disagree with this opinion. <strong>This essay will discuss the reasons why children should learn these skills.</strong>\n\n<strong>First of all, learning to cook and do housework helps children develop essential life skills.</strong> This is because they learn how to prepare simple meals. Furthermore, they know how to clean and take care of the home. In fact, these skills are useful in daily life. As a result, they will be better prepared for future life.\n\n<strong>Secondly, doing housework teaches children a sense of responsibility.</strong> The main reason is that they learn that every family member should share household chores. In addition, they learn to complete the tasks they are given. This helps them become more responsible. Consequently, they develop good habits.\n\n<strong>Finally, doing housework helps strengthen family bonds.</strong> Specifically, parents and children have more opportunities to work together. Moreover, family members can help each other with daily chores. This helps them understand each other better. Therefore, families can become closer.\n\nIn conclusion, I strongly disagree with the idea that children do not need to learn housework. Learning these skills helps them develop life skills, teaches responsibility, and strengthens family bonds. Therefore, parents should encourage their children to share household chores.",
+          "translation_b1": "Trong xã hội ngày nay, một số người tin rằng trẻ em, đặc biệt là các bé gái, không cần học cách nấu ăn và làm việc nhà. Tuy nhiên, tôi hoàn toàn không đồng ý với quan điểm này. <strong>Bài luận này sẽ thảo luận về những lý do tại sao trẻ em nên học những kỹ năng này.</strong>\n\n<strong>Trước hết, học nấu ăn và làm việc nhà giúp trẻ em phát triển những kỹ năng sống thiết yếu.</strong> Điều này là do các em học cách chuẩn bị những bữa ăn đơn giản. Hơn nữa, các em biết cách dọn dẹp và chăm sóc ngôi nhà. Trên thực tế, những kỹ năng này rất hữu ích trong cuộc sống hằng ngày. Nhờ đó, các em sẽ chuẩn bị tốt hơn cho cuộc sống trong tương lai.\n\n<strong>Thứ hai, làm việc nhà giúp trẻ em học được tinh thần trách nhiệm.</strong> Lý do chính là các em hiểu rằng mọi thành viên đều nên chia sẻ việc nhà. Ngoài ra, các em học cách hoàn thành những công việc được giao. Điều này giúp các em trở nên có trách nhiệm hơn. Hậu quả là, các em hình thành những thói quen tốt.\n\n<strong>Cuối cùng, làm việc nhà giúp gắn kết các thành viên trong gia đình.</strong> Cụ thể, cha mẹ và con cái có nhiều cơ hội làm việc cùng nhau. Hơn nữa, các thành viên trong gia đình có thể giúp đỡ lẫn nhau trong công việc hằng ngày. Điều này giúp mọi người hiểu nhau hơn. Vì vậy, gia đình có thể trở nên gắn bó hơn.\n\nTóm lại, tôi kịch liệt phản đối ý kiến cho rằng trẻ em không cần học làm việc nhà. Việc học những kỹ năng này giúp các em phát triển kỹ năng sống, dạy tinh thần trách nhiệm và củng cố sự gắn kết gia đình. Vì vậy, cha mẹ nên khuyến khích con cái chia sẻ việc nhà.",
+          "sample_b2": "In contemporary society, it is argued by some that children, particularly girls, do not need to learn how to cook and do household chores. However, I completely disagree with this perspective. <strong>This essay will explain the reasons why acquiring these skills is essential for all children.</strong>\n\n<strong>First and foremost, learning to cook and do housework helps children develop essential life skills.</strong> This is primarily because they learn how to prepare meals and take care of themselves. Furthermore, they also learn how to keep their home clean and tidy. In reality, these skills are highly useful in everyday life, which helps them become more confident when living independently in the future. Therefore, they will be better prepared for adult life.\n\n<strong>Secondly, doing housework teaches children a sense of responsibility.</strong> The underlying reason is that they learn that every family member should share household chores. Additionally, they learn to complete their tasks on time, which helps them become more responsible and reliable. Furthermore, they also learn to appreciate their parents' efforts. As a result, they develop good habits for the future.\n\n<strong>Finally, doing housework helps strengthen family bonds.</strong> Specifically, parents and children have more opportunities to work together. Moreover, family members can help and support each other. This encourages family members to communicate more often, and as a result, they understand and respect each other better. Therefore, families can become closer and happier.\n\nIn conclusion, I strongly disagree with the notion that learning to cook and do housework is unnecessary for children. These activities not only equip them with essential life skills and a sense of responsibility but also foster stronger family connections. Therefore, it is crucial for parents to involve their children in daily household duties.",
+          "translation_b2": "Trong xã hội đương đại, một số người cho rằng trẻ em, đặc biệt là các bé gái, không cần học cách nấu ăn và làm việc nhà. Tuy nhiên, tôi hoàn toàn không đồng ý với góc nhìn này. <strong>Bài luận này sẽ giải thích những lý do tại sao việc trang bị những kỹ năng này là điều cần thiết đối với tất cả trẻ em.</strong>\n\n<strong>Đầu tiên và quan trọng nhất, học nấu ăn và làm việc nhà giúp trẻ em phát triển những kỹ năng sống thiết yếu.</strong> Điều này chủ yếu là do các em học cách chuẩn bị bữa ăn và chăm sóc bản thân. Hơn nữa, các em cũng biết cách giữ gìn nhà cửa sạch sẽ và ngăn nắp. Trên thực tế, những kỹ năng này rất hữu ích trong cuộc sống hằng ngày, điều này giúp các em tự tin hơn khi sống tự lập trong tương lai. Vì vậy, các em sẽ chuẩn bị tốt hơn cho cuộc sống trưởng thành.\n\n<strong>Thứ hai, làm việc nhà giúp trẻ em học được tinh thần trách nhiệm.</strong> Lý do sâu xa là các em hiểu rằng mọi thành viên đều nên chia sẻ việc nhà. Ngoài ra, các em học cách hoàn thành công việc đúng thời hạn, điều này giúp các em trở nên có trách nhiệm và đáng tin cậy hơn. Hơn nữa, các em cũng biết trân trọng công sức của cha mẹ hơn. Nhờ đó, các em hình thành những thói quen tốt cho tương lai.\n\n<strong>Cuối cùng, làm việc nhà giúp gắn kết các thành viên trong gia đình.</strong> Cụ thể, cha mẹ và con cái có nhiều cơ hội làm việc cùng nhau. Hơn nữa, các thành viên trong gia đình có thể giúp đỡ và hỗ trợ lẫn nhau. Điều này khuyến khích các thành viên trong gia đình giao tiếp với nhau nhiều hơn, và nhờ đó, các thành viên hiểu và tôn trọng nhau hơn. Vì vậy, gia đình có thể trở nên gắn bó và hạnh phúc hơn.\n\nTóm lại, tôi kịch liệt phản đối quan niệm cho rằng việc học nấu ăn và làm việc nhà là không cần thiết đối với trẻ em. Những hoạt động này không chỉ trang bị cho các em những kỹ năng sống thiết yếu và tinh thần trách nhiệm mà còn nuôi dưỡng những mối liên kết gia đình bền chặt hơn. Vì vậy, điều tối quan trọng là cha mẹ phải cho con cái tham gia vào các công việc nhà hằng ngày."
+        }
       },
       {
         "id": 5,
