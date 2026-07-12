@@ -5070,6 +5070,17 @@ function renderStep4ModelEssay() {
   const essayText = currentSampleLevel === 'B1' ? topic.details.sample_b1 : topic.details.sample_b2;
   const translationText = currentSampleLevel === 'B1' ? topic.details.translation_b1 : topic.details.translation_b2;
   
+  const parseMarkdown = (txt) => {
+    if (!txt) return '';
+    return txt
+      .replace(/\*\*\*(.*?)\*\*\*/g, '<strong><em>$1</em></strong>')
+      .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+      .replace(/\*(.*?)\*/g, '<em>$1</em>');
+  };
+  
+  const formattedEssay = parseMarkdown(essayText);
+  const formattedTrans = parseMarkdown(translationText || 'Đang tải bản dịch...');
+  
   let vocabNotesHtml = '';
   if (topic.details.key_vocab_notes && topic.details.key_vocab_notes.length > 0) {
     const listItems = topic.details.key_vocab_notes.map(v => `
@@ -5089,11 +5100,11 @@ function renderStep4ModelEssay() {
     <div class="essay-comparison-grid">
       <div class="essay-col">
         <h4>BÀI LUẬN TIẾNG ANH (${currentSampleLevel})</h4>
-        <div class="essay-text-content" style="white-space: pre-wrap; font-family: inherit; font-size: 1rem; line-height: 1.7; color: var(--text-primary); text-align: justify;">${essayText}</div>
+        <div class="essay-text-content" style="white-space: pre-wrap; font-family: inherit; font-size: 1rem; line-height: 1.7; color: var(--text-primary); text-align: justify;">${formattedEssay}</div>
       </div>
       <div class="essay-col">
         <h4>BẢN DỊCH TIẾNG VIỆT</h4>
-        <div class="essay-text-content" style="white-space: pre-wrap; font-family: inherit; font-size: 1rem; line-height: 1.7; color: var(--text-primary); text-align: justify;">${translationText || 'Đang tải bản dịch...'}</div>
+        <div class="essay-text-content" style="white-space: pre-wrap; font-family: inherit; font-size: 1rem; line-height: 1.7; color: var(--text-primary); text-align: justify;">${formattedTrans}</div>
       </div>
     </div>
     ${vocabNotesHtml}
