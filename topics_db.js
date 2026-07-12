@@ -3988,7 +3988,593 @@ const ESSAY_DATA = [
         "title_vi": "Sống trong gia đình hạt nhân",
         "context": "Nowadays, living in a nuclear family has become common in many countries. A nuclear family usually includes parents and their children, without grandparents or other relatives living in the same house. Some people believe that this family type gives members more privacy and independence, while others argue that it may also create several difficulties in daily life.",
         "prompt": "Write an essay to an educated reader to discuss the advantages and disadvantages of living in a nuclear family. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "paraphrases": [
+          {
+            "en": "living in a nuclear family",
+            "vi": "sống trong một gia đình hạt nhân"
+          },
+          {
+            "en": "having a small family structure",
+            "vi": "có một cấu trúc gia đình nhỏ"
+          },
+          {
+            "en": "a family with only parents and children",
+            "vi": "một gia đình chỉ có cha mẹ và con cái"
+          }
+        ],
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "ADVANTAGE 01",
+                "collocations": [
+                  {
+                    "en": "nuclear families",
+                    "vi": "gia đình hạt nhân"
+                  },
+                  {
+                    "en": "provide more privacy",
+                    "vi": "mang lại nhiều sự riêng tư hơn"
+                  },
+                  {
+                    "en": "make their own decisions",
+                    "vi": "tự đưa ra quyết định"
+                  },
+                  {
+                    "en": "private living space",
+                    "vi": "không gian sống riêng"
+                  },
+                  {
+                    "en": "without being influenced",
+                    "vi": "mà không bị ảnh hưởng"
+                  },
+                  {
+                    "en": "other relatives",
+                    "vi": "những người thân khác"
+                  }
+                ],
+                "point_vi": "Gia đình hạt nhân mang lại nhiều sự riêng tư hơn cho các thành viên.",
+                "point_en": "Nuclear families provide more privacy for family members.",
+                "evidence_vi": "Cha mẹ có thể tự đưa ra các quyết định và tận hưởng không gian sống riêng mà không bị ảnh hưởng bởi những người thân khác.",
+                "evidence_en": "Parents can make their own decisions and enjoy their private living space without being influenced by other relatives."
+              },
+              {
+                "title": "ADVANTAGE 02",
+                "collocations": [
+                  {
+                    "en": "encourage independence",
+                    "vi": "khuyến khích sự tự lập"
+                  },
+                  {
+                    "en": "be responsible for",
+                    "vi": "chịu trách nhiệm về"
+                  },
+                  {
+                    "en": "take care of themselves",
+                    "vi": "tự chăm sóc bản thân"
+                  },
+                  {
+                    "en": "from an early age",
+                    "vi": "từ nhỏ"
+                  }
+                ],
+                "point_vi": "Gia đình hạt nhân giúp các thành viên trở nên tự lập hơn.",
+                "point_en": "Nuclear families encourage family members to become more independent.",
+                "evidence_vi": "Mỗi người đều có trách nhiệm với công việc của mình và học cách chăm sóc bản thân từ sớm.",
+                "evidence_en": "Each person is responsible for their own tasks and learns to take care of themselves from an early age."
+              },
+              {
+                "title": "ADVANTAGE 03",
+                "collocations": [
+                  {
+                    "en": "easier to manage",
+                    "vi": "dễ quản lý hơn"
+                  },
+                  {
+                    "en": "daily life",
+                    "vi": "cuộc sống hằng ngày"
+                  },
+                  {
+                    "en": "fewer family members",
+                    "vi": "ít thành viên hơn"
+                  },
+                  {
+                    "en": "take care of children",
+                    "vi": "chăm sóc con cái"
+                  },
+                  {
+                    "en": "family activities",
+                    "vi": "hoạt động gia đình"
+                  }
+                ],
+                "point_vi": "Gia đình hạt nhân giúp việc quản lý cuộc sống hằng ngày trở nên dễ dàng hơn.",
+                "point_en": "Nuclear families make daily life easier to manage.",
+                "evidence_vi": "Vì có ít thành viên hơn nên việc chăm sóc con cái và tổ chức các hoạt động trong gia đình cũng đơn giản hơn.",
+                "evidence_en": "Because there are fewer family members, it is easier to take care of children and organize family activities."
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "DISADVANTAGE 01",
+                "collocations": [
+                  {
+                    "en": "receive less support",
+                    "vi": "nhận được ít sự hỗ trợ hơn"
+                  },
+                  {
+                    "en": "deal with",
+                    "vi": "giải quyết"
+                  },
+                  {
+                    "en": "household responsibilities",
+                    "vi": "trách nhiệm trong gia đình"
+                  },
+                  {
+                    "en": "without support",
+                    "vi": "mà không có sự hỗ trợ"
+                  },
+                  {
+                    "en": "grandparents",
+                    "vi": "ông bà"
+                  }
+                ],
+                "point_vi": "Các thành viên trong gia đình có thể nhận được ít sự hỗ trợ hơn.",
+                "point_en": "Family members may receive less support.",
+                "evidence_vi": "Cha mẹ thường phải tự chăm sóc con cái và giải quyết các công việc gia đình mà không có ông bà giúp đỡ.",
+                "evidence_en": "Parents often have to take care of their children and deal with household responsibilities without support from grandparents."
+              },
+              {
+                "title": "DISADVANTAGE 02",
+                "collocations": [
+                  {
+                    "en": "have less contact with",
+                    "vi": "ít tiếp xúc với"
+                  },
+                  {
+                    "en": "miss",
+                    "vi": "bỏ lỡ"
+                  },
+                  {
+                    "en": "valuable life experiences",
+                    "vi": "kinh nghiệm sống quý báu"
+                  },
+                  {
+                    "en": "family traditions",
+                    "vi": "truyền thống gia đình"
+                  }
+                ],
+                "point_vi": "Trẻ em có ít cơ hội gần gũi với ông bà hơn.",
+                "point_en": "Children have less contact with their grandparents.",
+                "evidence_vi": "Điều này có thể khiến các em bỏ lỡ nhiều kinh nghiệm sống và truyền thống gia đình.",
+                "evidence_en": "This may cause them to miss valuable life experiences and family traditions."
+              },
+              {
+                "title": "DISADVANTAGE 03",
+                "collocations": [
+                  {
+                    "en": "have more responsibilities",
+                    "vi": "chịu nhiều trách nhiệm hơn"
+                  },
+                  {
+                    "en": "balance work",
+                    "vi": "cân bằng công việc"
+                  },
+                  {
+                    "en": "childcare",
+                    "vi": "việc chăm sóc con cái"
+                  },
+                  {
+                    "en": "household chores",
+                    "vi": "việc nhà"
+                  },
+                  {
+                    "en": "without much support",
+                    "vi": "không có nhiều sự hỗ trợ"
+                  }
+                ],
+                "point_vi": "Cha mẹ có thể phải chịu nhiều trách nhiệm hơn.",
+                "point_en": "Parents may have more responsibilities.",
+                "evidence_vi": "Họ phải cân bằng giữa công việc, chăm sóc con cái và làm việc nhà mà không có nhiều sự hỗ trợ.",
+                "evidence_en": "They have to balance work, childcare, and household chores without much support."
+              }
+            ]
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "ADVANTAGE 01",
+                "collocations": [
+                  {
+                    "en": "greater privacy",
+                    "vi": "sự riêng tư cao hơn"
+                  },
+                  {
+                    "en": "independence",
+                    "vi": "sự tự chủ"
+                  },
+                  {
+                    "en": "important family decisions",
+                    "vi": "quyết định quan trọng trong gia đình"
+                  },
+                  {
+                    "en": "lifestyle",
+                    "vi": "lối sống"
+                  },
+                  {
+                    "en": "suits their family's needs",
+                    "vi": "phù hợp với nhu cầu gia đình"
+                  },
+                  {
+                    "en": "preferences",
+                    "vi": "sở thích"
+                  }
+                ],
+                "point_vi": "Gia đình hạt nhân mang lại nhiều sự riêng tư và quyền tự quyết hơn cho các thành viên.",
+                "point_en": "Nuclear families provide greater privacy and independence for family members.",
+                "evidence_vi": "Cha mẹ có thể tự đưa ra các quyết định quan trọng mà không bị ảnh hưởng bởi những người thân khác. Điều này giúp họ xây dựng lối sống phù hợp với nhu cầu và sở thích của gia đình mình.",
+                "evidence_en": "Parents can make important family decisions without being influenced by other relatives. This allows them to create a lifestyle that suits their family's needs and preferences."
+              },
+              {
+                "title": "ADVANTAGE 02",
+                "collocations": [
+                  {
+                    "en": "encourage responsibility",
+                    "vi": "khuyến khích trách nhiệm"
+                  },
+                  {
+                    "en": "share household duties",
+                    "vi": "chia sẻ việc nhà"
+                  },
+                  {
+                    "en": "complete their own responsibilities",
+                    "vi": "hoàn thành trách nhiệm của mình"
+                  },
+                  {
+                    "en": "develop important life skills",
+                    "vi": "phát triển kỹ năng sống quan trọng"
+                  }
+                ],
+                "point_vi": "Gia đình hạt nhân giúp các thành viên trở nên có trách nhiệm và tự lập hơn.",
+                "point_en": "Nuclear families encourage responsibility and independence.",
+                "evidence_vi": "Mỗi thành viên đều phải chia sẻ công việc và hoàn thành trách nhiệm của mình. Điều này giúp trẻ phát triển các kỹ năng sống quan trọng từ khi còn nhỏ.",
+                "evidence_en": "Each family member needs to share household duties and complete their own responsibilities. This helps children develop important life skills from an early age."
+              },
+              {
+                "title": "ADVANTAGE 03",
+                "collocations": [
+                  {
+                    "en": "easier to organize",
+                    "vi": "dễ sắp xếp hơn"
+                  },
+                  {
+                    "en": "daily activities",
+                    "vi": "hoạt động hằng ngày"
+                  },
+                  {
+                    "en": "make family life",
+                    "vi": "làm cho cuộc sống gia đình"
+                  },
+                  {
+                    "en": "more organized and efficient",
+                    "vi": "có tổ chức và hiệu quả hơn"
+                  }
+                ],
+                "point_vi": "Gia đình hạt nhân giúp việc quản lý cuộc sống gia đình trở nên đơn giản hơn.",
+                "point_en": "Nuclear families are easier to manage.",
+                "evidence_vi": "Có ít thành viên hơn nên việc chăm sóc con cái và sắp xếp các hoạt động hằng ngày dễ dàng hơn. Điều này giúp cuộc sống gia đình diễn ra hiệu quả và có tổ chức hơn.",
+                "evidence_en": "Having fewer family members makes childcare and daily activities easier to organize. This makes family life more organized and efficient."
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "DISADVANTAGE 01",
+                "collocations": [
+                  {
+                    "en": "raise their children",
+                    "vi": "nuôi dạy con cái"
+                  },
+                  {
+                    "en": "handle household responsibilities",
+                    "vi": "giải quyết công việc gia đình"
+                  },
+                  {
+                    "en": "on their own",
+                    "vi": "tự mình"
+                  },
+                  {
+                    "en": "increase stress and pressure",
+                    "vi": "làm tăng áp lực và căng thẳng"
+                  }
+                ],
+                "point_vi": "Các thành viên trong gia đình có thể nhận được ít sự hỗ trợ hơn.",
+                "point_en": "Family members may receive less support.",
+                "evidence_vi": "Cha mẹ thường phải tự chăm sóc con cái và giải quyết mọi công việc trong gia đình. Điều này có thể làm tăng áp lực và căng thẳng trong cuộc sống hằng ngày.",
+                "evidence_en": "Parents often have to raise their children and handle household responsibilities on their own. This may increase stress and pressure in daily life."
+              },
+              {
+                "title": "DISADVANTAGE 02",
+                "collocations": [
+                  {
+                    "en": "fewer opportunities",
+                    "vi": "ít cơ hội hơn"
+                  },
+                  {
+                    "en": "learn from",
+                    "vi": "học hỏi từ"
+                  },
+                  {
+                    "en": "spend less time with",
+                    "vi": "dành ít thời gian hơn với"
+                  },
+                  {
+                    "en": "valuable advice",
+                    "vi": "lời khuyên quý báu"
+                  },
+                  {
+                    "en": "limits their understanding",
+                    "vi": "hạn chế sự hiểu biết của các em"
+                  }
+                ],
+                "point_vi": "Trẻ em có ít cơ hội học hỏi từ ông bà hơn.",
+                "point_en": "Children have fewer opportunities to learn from their grandparents.",
+                "evidence_vi": "Các em ít dành thời gian với ông bà nên có thể bỏ lỡ nhiều lời khuyên và kinh nghiệm sống. Điều này cũng khiến các em hiểu ít hơn về truyền thống gia đình.",
+                "evidence_en": "They spend less time with their grandparents and may miss valuable advice and life experiences. This also limits their understanding of family traditions."
+              },
+              {
+                "title": "DISADVANTAGE 03",
+                "collocations": [
+                  {
+                    "en": "face greater responsibilities",
+                    "vi": "đối mặt với nhiều trách nhiệm hơn"
+                  },
+                  {
+                    "en": "balance work",
+                    "vi": "cân bằng công việc"
+                  },
+                  {
+                    "en": "affect their health",
+                    "vi": "ảnh hưởng đến sức khỏe của họ"
+                  },
+                  {
+                    "en": "overall quality of life",
+                    "vi": "chất lượng cuộc sống nói chung"
+                  }
+                ],
+                "point_vi": "Cha mẹ có thể phải đối mặt với nhiều trách nhiệm hơn.",
+                "point_en": "Parents may face greater responsibilities.",
+                "evidence_vi": "Họ phải cân bằng giữa công việc, việc nhà và chăm sóc con cái mà không có nhiều sự hỗ trợ. Điều này có thể ảnh hưởng đến sức khỏe và chất lượng cuộc sống của họ.",
+                "evidence_en": "They have to balance work, household chores, and childcare without much support. This may affect their health and overall quality of life."
+              }
+            ]
+          },
+          "vocab": [
+            {
+              "en": "nuclear families",
+              "vi": "gia đình hạt nhân"
+            },
+            {
+              "en": "provide more privacy",
+              "vi": "mang lại nhiều sự riêng tư hơn"
+            },
+            {
+              "en": "make their own decisions",
+              "vi": "tự đưa ra quyết định"
+            },
+            {
+              "en": "private living space",
+              "vi": "không gian sống riêng"
+            },
+            {
+              "en": "without being influenced",
+              "vi": "mà không bị ảnh hưởng"
+            },
+            {
+              "en": "other relatives",
+              "vi": "những người thân khác"
+            },
+            {
+              "en": "encourage independence",
+              "vi": "khuyến khích sự tự lập"
+            },
+            {
+              "en": "be responsible for",
+              "vi": "chịu trách nhiệm về"
+            },
+            {
+              "en": "take care of themselves",
+              "vi": "tự chăm sóc bản thân"
+            },
+            {
+              "en": "from an early age",
+              "vi": "từ nhỏ"
+            },
+            {
+              "en": "easier to manage",
+              "vi": "dễ quản lý hơn"
+            },
+            {
+              "en": "daily life",
+              "vi": "cuộc sống hằng ngày"
+            },
+            {
+              "en": "fewer family members",
+              "vi": "ít thành viên hơn"
+            },
+            {
+              "en": "take care of children",
+              "vi": "chăm sóc con cái"
+            },
+            {
+              "en": "family activities",
+              "vi": "hoạt động gia đình"
+            },
+            {
+              "en": "receive less support",
+              "vi": "nhận được ít sự hỗ trợ hơn"
+            },
+            {
+              "en": "deal with",
+              "vi": "giải quyết"
+            },
+            {
+              "en": "household responsibilities",
+              "vi": "trách nhiệm trong gia đình"
+            },
+            {
+              "en": "without support",
+              "vi": "mà không có sự hỗ trợ"
+            },
+            {
+              "en": "grandparents",
+              "vi": "ông bà"
+            },
+            {
+              "en": "have less contact with",
+              "vi": "ít tiếp xúc với"
+            },
+            {
+              "en": "miss",
+              "vi": "bỏ lỡ"
+            },
+            {
+              "en": "valuable life experiences",
+              "vi": "kinh nghiệm sống quý báu"
+            },
+            {
+              "en": "family traditions",
+              "vi": "truyền thống gia đình"
+            },
+            {
+              "en": "have more responsibilities",
+              "vi": "chịu nhiều trách nhiệm hơn"
+            },
+            {
+              "en": "balance work",
+              "vi": "cân bằng công việc"
+            },
+            {
+              "en": "childcare",
+              "vi": "việc chăm sóc con cái"
+            },
+            {
+              "en": "household chores",
+              "vi": "việc nhà"
+            },
+            {
+              "en": "without much support",
+              "vi": "không có nhiều sự hỗ trợ"
+            },
+            {
+              "en": "greater privacy",
+              "vi": "sự riêng tư cao hơn"
+            },
+            {
+              "en": "independence",
+              "vi": "sự tự chủ"
+            },
+            {
+              "en": "important family decisions",
+              "vi": "quyết định quan trọng trong gia đình"
+            },
+            {
+              "en": "lifestyle",
+              "vi": "lối sống"
+            },
+            {
+              "en": "suits their family's needs",
+              "vi": "phù hợp với nhu cầu gia đình"
+            },
+            {
+              "en": "preferences",
+              "vi": "sở thích"
+            },
+            {
+              "en": "encourage responsibility",
+              "vi": "khuyến khích trách nhiệm"
+            },
+            {
+              "en": "share household duties",
+              "vi": "chia sẻ việc nhà"
+            },
+            {
+              "en": "complete their own responsibilities",
+              "vi": "hoàn thành trách nhiệm của mình"
+            },
+            {
+              "en": "develop important life skills",
+              "vi": "phát triển kỹ năng sống quan trọng"
+            },
+            {
+              "en": "easier to organize",
+              "vi": "dễ sắp xếp hơn"
+            },
+            {
+              "en": "daily activities",
+              "vi": "hoạt động hằng ngày"
+            },
+            {
+              "en": "make family life",
+              "vi": "làm cho cuộc sống gia đình"
+            },
+            {
+              "en": "more organized and efficient",
+              "vi": "có tổ chức và hiệu quả hơn"
+            },
+            {
+              "en": "raise their children",
+              "vi": "nuôi dạy con cái"
+            },
+            {
+              "en": "handle household responsibilities",
+              "vi": "giải quyết công việc gia đình"
+            },
+            {
+              "en": "on their own",
+              "vi": "tự mình"
+            },
+            {
+              "en": "increase stress and pressure",
+              "vi": "làm tăng áp lực và căng thẳng"
+            },
+            {
+              "en": "fewer opportunities",
+              "vi": "ít cơ hội hơn"
+            },
+            {
+              "en": "learn from",
+              "vi": "học hỏi từ"
+            },
+            {
+              "en": "spend less time with",
+              "vi": "dành ít thời gian hơn với"
+            },
+            {
+              "en": "valuable advice",
+              "vi": "lời khuyên quý báu"
+            },
+            {
+              "en": "limits their understanding",
+              "vi": "hạn chế sự hiểu biết của các em"
+            },
+            {
+              "en": "face greater responsibilities",
+              "vi": "đối mặt với nhiều trách nhiệm hơn"
+            },
+            {
+              "en": "affect their health",
+              "vi": "ảnh hưởng đến sức khỏe của họ"
+            },
+            {
+              "en": "overall quality of life",
+              "vi": "chất lượng cuộc sống nói chung"
+            }
+          ],
+          "sample_b1": "In recent years, living in a <strong>nuclear family</strong> has become more common in modern society. Although it has some benefits, there are also some drawbacks. <strong>This essay will discuss both sides of this topic.</strong>\n\n<strong>On the one hand, a small family structure has several advantages.</strong> One major benefit is that <strong><em>nuclear families provide more privacy for family members</em></strong>. This is because parents can make their own decisions and enjoy their private living space without being influenced by other relatives. Another positive aspect is that <strong><em>nuclear families encourage family members to become more independent</em></strong>. The main reason is that each person is responsible for their own tasks and learns to take care of themselves from an early age. A further good point is that <strong><em>nuclear families make daily life easier to manage</em></strong>. This means that because there are fewer family members, it is easier to take care of children and organize family activities.\n\n<strong>On the other hand, there are also several disadvantages.</strong> One possible drawback is that <strong><em>family members may receive less support</em></strong>. This is because parents often have to take care of their children and deal with household responsibilities without support from grandparents. Another negative aspect is that <strong><em>children have less contact with their grandparents</em></strong>. In fact, this may cause them to miss valuable life experiences and family traditions. Finally, <strong><em>parents may have more responsibilities</em></strong>. As a result, they have to balance work, childcare, and household chores without much support.\n\nIn conclusion, <strong>living in a nuclear family</strong> has both advantages and disadvantages. These points show that it has different effects on people’s lives. Therefore, it is important to consider both sides before making a decision.",
+          "translation_b1": "Trong những năm gần đây, việc sống trong một <strong>gia đình hạt nhân</strong> đã trở nên phổ biến hơn trong xã hội hiện đại. Mặc dù nó có một số lợi ích, cũng có một số hạn chế. <strong>Bài luận này sẽ thảo luận về cả hai khía cạnh của chủ đề này.</strong>\n\n<strong>Một mặt, cấu trúc gia đình nhỏ có một vài lợi ích.</strong> Một lợi ích chính là <strong><em>gia đình hạt nhân mang lại nhiều sự riêng tư hơn cho các thành viên</em></strong>. Điều này là do cha mẹ có thể tự đưa ra các quyết định và tận hưởng không gian sống riêng mà không bị ảnh hưởng bởi những người thân khác. Một khía cạnh tích cực khác là <strong><em>gia đình hạt nhân giúp các thành viên trở nên tự lập hơn</em></strong>. Lý do chính là mỗi người đều có trách nhiệm với công việc của mình và học cách chăm sóc bản thân từ sớm. Một điểm tốt nữa là <strong><em>gia đình hạt nhân giúp việc quản lý cuộc sống hằng ngày trở nên dễ dàng hơn</em></strong>. Điều này có nghĩa là vì có ít thành viên hơn nên việc chăm sóc con cái và tổ chức các hoạt động trong gia đình cũng đơn giản hơn.\n\n<strong>Mặt khác, cũng có một vài bất lợi.</strong> Một hạn chế có thể xảy ra là <strong><em>các thành viên trong gia đình có thể nhận được ít sự hỗ trợ hơn</em></strong>. Điều này là do cha mẹ thường phải tự chăm sóc con cái và giải quyết các công việc gia đình mà không có ông bà giúp đỡ. Một khía cạnh tiêu cực khác là <strong><em>trẻ em có ít cơ hội gần gũi với ông bà hơn</em></strong>. Trên thực tế, điều này có thể khiến các em bỏ lỡ nhiều kinh nghiệm sống và truyền thống gia đình. Cuối cùng, <strong><em>cha mẹ có thể phải chịu nhiều trách nhiệm hơn</em></strong>. Kết quả là, họ phải cân bằng giữa công việc, chăm sóc con cái và làm việc nhà mà không có nhiều sự hỗ trợ.\n\nTóm lại, <strong>việc sống trong một gia đình hạt nhân</strong> có cả lợi ích và bất lợi. Những điểm này cho thấy nó có những tác động khác nhau đến cuộc sống của con người. Vì vậy, điều quan trọng là phải xem xét cả hai khía cạnh trước khi đưa ra quyết định.",
+          "sample_b2": "In recent years, living in a <strong>nuclear family</strong> has become increasingly prevalent in modern society. While it offers undeniable benefits, there are also significant drawbacks. <strong>This essay will analyze both sides of this issue.</strong>\n\n<strong>On the one hand, a small family structure provides several major advantages.</strong> One significant benefit is that <strong><em>nuclear families provide greater privacy and independence for family members</em></strong>. This is primarily because parents can make important family decisions without being influenced by other relatives, which allows them to create a lifestyle that suits their family's needs and preferences. Another positive aspect is that <strong><em>nuclear families encourage responsibility and independence</em></strong>. The underlying reason is that each family member needs to share household duties and complete their own responsibilities, which helps children develop important life skills from an early age. A further merit is that <strong><em>nuclear families are easier to manage</em></strong>. Specifically, having fewer family members makes childcare and daily activities easier to organize, which makes family life more organized and efficient.\n\n<strong>On the other hand, there are also notable disadvantages.</strong> One potential drawback is that <strong><em>family members may receive less support</em></strong>. Since parents often have to raise their children and handle household responsibilities on their own, this may increase stress and pressure in daily life. Another negative aspect is that <strong><em>children have fewer opportunities to learn from their grandparents</em></strong>. In reality, they spend less time with their grandparents and may miss valuable advice and life experiences, which also limits their understanding of family traditions. Lastly, <strong><em>parents may face greater responsibilities</em></strong>. Consequently, they have to balance work, household chores, and childcare without much support, which may affect their health and overall quality of life.\n\nIn conclusion, <strong>living in a nuclear family</strong> presents both advantages and disadvantages. These points demonstrate that it has diverse impacts on family members. Therefore, it is crucial to carefully weigh both perspectives before adopting this family model.",
+          "translation_b2": "Trong những năm gần đây, việc sống trong một <strong>gia đình hạt nhân</strong> đã trở nên ngày càng thịnh hành trong xã hội hiện đại. Mặc dù nó mang lại những lợi ích không thể phủ nhận, cũng có những hạn chế đáng kể. <strong>Bài luận này sẽ phân tích cả hai khía cạnh của vấn đề này.</strong>\n\n<strong>Một mặt, cấu trúc gia đình nhỏ cung cấp một vài lợi thế lớn.</strong> Một lợi ích quan trọng là <strong><em>gia đình hạt nhân mang lại nhiều sự riêng tư và quyền tự quyết hơn cho các thành viên</em></strong>. Điều này chủ yếu là do cha mẹ có thể tự đưa ra các quyết định quan trọng mà không bị ảnh hưởng bởi những người thân khác, điều này giúp họ xây dựng lối sống phù hợp với nhu cầu và sở thích của gia đình mình. Một khía cạnh tích cực khác là <strong><em>gia đình hạt nhân giúp các thành viên trở nên có trách nhiệm và tự lập hơn</em></strong>. Lý do sâu xa là mỗi thành viên đều phải chia sẻ công việc và hoàn thành trách nhiệm của mình, điều này giúp trẻ phát triển các kỹ năng sống quan trọng từ khi còn nhỏ. Một điểm mạnh nữa là <strong><em>gia đình hạt nhân giúp việc quản lý cuộc sống gia đình trở nên đơn giản hơn</em></strong>. Cụ thể, có ít thành viên hơn nên việc chăm sóc con cái và sắp xếp các hoạt động hằng ngày dễ dàng hơn, điều này giúp cuộc sống gia đình diễn ra hiệu quả và có tổ chức hơn.\n\n<strong>Mặt khác, cũng có những bất lợi đáng chú ý.</strong> Một hạn chế tiềm tàng là <strong><em>các thành viên trong gia đình có thể nhận được ít sự hỗ trợ hơn</em></strong>. Vì cha mẹ thường phải tự chăm sóc con cái và giải quyết mọi công việc trong gia đình, điều này có thể làm tăng áp lực và căng thẳng trong cuộc sống hằng ngày. Một khía cạnh tiêu cực khác là <strong><em>trẻ em có ít cơ hội học hỏi từ ông bà hơn</em></strong>. Trên thực tế, các em ít dành thời gian với ông bà nên có thể bỏ lỡ nhiều lời khuyên và kinh nghiệm sống, điều này cũng khiến các em hiểu ít hơn về truyền thống gia đình. Cuối cùng, <strong><em>cha mẹ có thể phải đối mặt với nhiều trách nhiệm hơn</em></strong>. Hậu quả là, họ phải cân bằng giữa công việc, việc nhà và chăm sóc con cái mà không có nhiều sự hỗ trợ, điều này có thể ảnh hưởng đến sức khỏe và chất lượng cuộc sống của họ.\n\nTóm lại, <strong>việc sống trong một gia đình hạt nhân</strong> đưa ra cả lợi thế và bất lợi. Những điểm này chứng minh rằng nó có những tác động đa dạng đến các thành viên trong gia đình. Vì vậy, điều tối quan trọng là phải cân nhắc kỹ lưỡng cả hai góc nhìn trước khi áp dụng mô hình gia đình này."
+        }
       },
       {
         "id": 8,
