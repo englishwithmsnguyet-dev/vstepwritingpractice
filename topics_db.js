@@ -11131,12 +11131,302 @@ const ESSAY_DATA = [
         "title_en": "Buses should be chosen as the primary mode of transportation.",
         "title_vi": "Ô tô buýt nên được chọn làm phương tiện giao thông chính.",
         "paraphrases": [
-          "Buses should play a central role in public transportation.",
-          "Buses should be prioritized over other means of transportation."
+          {
+            "en": "Choosing buses as the main means of transport...",
+            "vi": "Việc chọn xe buýt làm phương tiện giao thông chính..."
+          },
+          {
+            "en": "Prioritizing public buses over other forms of transportation...",
+            "vi": "Việc ưu tiên xe buýt công cộng hơn các hình thức giao thông khác..."
+          },
+          {
+            "en": "Making buses the primary mode of commuting...",
+            "vi": "Việc biến xe buýt thành phương thức đi lại chủ yếu..."
+          }
         ],
         "context": "Traffic congestion, air pollution, and increasing transportation demands have become major challenges in many cities around the world. As governments seek sustainable solutions to these problems, public transportation has received growing attention. Some people believe that buses should be chosen as the primary mode of transportation because they are affordable, convenient, and environmentally friendly.",
         "prompt": "Do you agree or disagree that buses should be chosen as the primary mode of transportation? Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "point_vi": "Việc đi lại bằng ô tô buýt giúp bảo vệ môi trường.",
+                "point_en": "Traveling by bus helps protect the environment.",
+                "evidence_vi": "Ô tô buýt có thể chở nhiều hành khách cùng lúc. Điều này có nghĩa là sẽ có ít ô tô và xe máy hơn trên đường. Nhờ đó, lượng khí thải được giảm thiểu đáng kể. Do vậy, chất lượng không khí sẽ được cải thiện.",
+                "evidence_en": "Buses can carry many passengers at the same time. This means there are fewer cars and motorbikes on the road. As a result, the amount of exhaust fumes is significantly reduced. Therefore, air quality will improve.",
+                "collocations": [
+                  {
+                    "en": "protect the environment",
+                    "vi": "bảo vệ môi trường"
+                  },
+                  {
+                    "en": "carry many passengers",
+                    "vi": "chở nhiều hành khách"
+                  },
+                  {
+                    "en": "exhaust fumes",
+                    "vi": "khí thải"
+                  },
+                  {
+                    "en": "air quality",
+                    "vi": "chất lượng không khí"
+                  }
+                ]
+              },
+              {
+                "point_vi": "Ô tô buýt giúp mọi người tiết kiệm rất nhiều tiền.",
+                "point_en": "Buses help people save a lot of money.",
+                "evidence_vi": "Vé xe buýt thường rất rẻ so với chi phí lái xe cá nhân. Những người sử dụng xe buýt không phải trả tiền xăng, phí đỗ xe hoặc bảo dưỡng xe. Kết quả là, họ có thể tiết kiệm được một khoản tiền lớn mỗi tháng.",
+                "evidence_en": "Bus tickets are usually very cheap compared to the cost of driving a private car. People who use buses do not have to pay for petrol, parking, or vehicle maintenance. As a result, they can save a large amount of money every month.",
+                "collocations": [
+                  {
+                    "en": "save a lot of money",
+                    "vi": "tiết kiệm nhiều tiền"
+                  },
+                  {
+                    "en": "private car",
+                    "vi": "xe cá nhân"
+                  },
+                  {
+                    "en": "vehicle maintenance",
+                    "vi": "bảo dưỡng xe"
+                  },
+                  {
+                    "en": "parking fees",
+                    "vi": "phí đỗ xe"
+                  }
+                ]
+              },
+              {
+                "point_vi": "Việc đi lại bằng xe buýt làm giảm ùn tắc giao thông ở các thành phố lớn.",
+                "point_en": "Traveling by bus reduces traffic jams in big cities.",
+                "evidence_vi": "Khi có nhiều người sử dụng phương tiện công cộng hơn, số lượng xe cá nhân trên đường phố sẽ giảm xuống. Điều này làm cho đường phố bớt đông đúc hơn. Nhờ đó, mọi người có thể tránh lãng phí thời gian trong giờ cao điểm.",
+                "evidence_en": "When more people use public transportation, the number of private vehicles on the streets decreases. This makes the roads less crowded. As a result, people can avoid wasting time during rush hours.",
+                "collocations": [
+                  {
+                    "en": "reduce traffic jams",
+                    "vi": "giảm ùn tắc giao thông"
+                  },
+                  {
+                    "en": "public transportation",
+                    "vi": "phương tiện công cộng"
+                  },
+                  {
+                    "en": "less crowded",
+                    "vi": "bớt đông đúc hơn"
+                  },
+                  {
+                    "en": "rush hours",
+                    "vi": "giờ cao điểm"
+                  }
+                ]
+              }
+            ]
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "point_vi": "Xe buýt là một phương tiện giao thông thân thiện với môi trường giúp chống lại ô nhiễm không khí.",
+                "point_en": "Buses are an eco-friendly mode of transportation that helps combat air pollution.",
+                "evidence_vi": "Một chiếc xe buýt có thể vận chuyển hàng chục hành khách cùng lúc, làm giảm đáng kể số lượng ô tô cá nhân trên đường. Điều này dẫn đến sự sụt giảm lớn về lượng khí thải nhà kính và khói xả độc hại. Do đó, sử dụng xe buýt cải thiện đáng kể chất lượng không khí đô thị.",
+                "evidence_en": "A single bus can transport dozens of passengers simultaneously, significantly reducing the number of private cars on the road. This leads to a substantial decrease in greenhouse gas emissions and harmful exhaust fumes. Therefore, using buses greatly improves urban air quality.",
+                "collocations": [
+                  {
+                    "en": "eco-friendly mode of transportation",
+                    "vi": "phương tiện giao thông thân thiện với môi trường"
+                  },
+                  {
+                    "en": "combat air pollution",
+                    "vi": "chống lại ô nhiễm không khí"
+                  },
+                  {
+                    "en": "greenhouse gas emissions",
+                    "vi": "lượng khí thải nhà kính"
+                  },
+                  {
+                    "en": "harmful exhaust fumes",
+                    "vi": "khói xả độc hại"
+                  },
+                  {
+                    "en": "urban air quality",
+                    "vi": "chất lượng không khí đô thị"
+                  }
+                ]
+              },
+              {
+                "point_vi": "Sử dụng xe buýt là một lựa chọn mang tính tiết kiệm chi phí cao cho việc đi lại hàng ngày.",
+                "point_en": "Using buses is a highly cost-effective option for daily commuting.",
+                "evidence_vi": "Giá vé phương tiện công cộng thường được chính phủ trợ giá rất nhiều, khiến chúng trở nên phải chăng. Bằng cách đi xe buýt, hành khách được giải phóng khỏi gánh nặng tài chính về nhiên liệu và bảo dưỡng xe. Do đó, họ có thể phân bổ nguồn lực của mình cho các nhu cầu thiết yếu khác.",
+                "evidence_en": "Public transportation fares are often heavily subsidized by the government, making them affordable. By taking buses, passengers are relieved from the financial burdens of fuel and vehicle maintenance. As a result, they can allocate their resources to other essential needs.",
+                "collocations": [
+                  {
+                    "en": "cost-effective option",
+                    "vi": "lựa chọn tiết kiệm chi phí"
+                  },
+                  {
+                    "en": "daily commuting",
+                    "vi": "việc đi lại hàng ngày"
+                  },
+                  {
+                    "en": "heavily subsidized",
+                    "vi": "được trợ giá rất nhiều"
+                  },
+                  {
+                    "en": "financial burdens",
+                    "vi": "gánh nặng tài chính"
+                  },
+                  {
+                    "en": "allocate resources",
+                    "vi": "phân bổ nguồn lực"
+                  }
+                ]
+              },
+              {
+                "point_vi": "Việc thúc đẩy sử dụng xe buýt đóng một vai trò quan trọng trong việc làm giảm ùn tắc giao thông.",
+                "point_en": "Promoting bus usage plays a crucial role in alleviating traffic congestion.",
+                "evidence_vi": "Sự sử dụng rộng rãi phương tiện công cộng giảm thiểu khối lượng giao thông cá nhân, ngăn chặn tình trạng kẹt xe cứng nhắc ở các trung tâm thành phố. Điều này dẫn đến luồng giao thông trôi chảy hơn và thời gian di chuyển ngắn hơn. Xét cho cùng, mạng lưới xe buýt nâng cao hiệu quả tổng thể của giao thông đô thị.",
+                "evidence_en": "The widespread use of public transportation minimizes the volume of private traffic, preventing gridlock in city centers. This results in smoother traffic flow and shorter travel times. Ultimately, bus networks enhance the overall efficiency of urban transportation.",
+                "collocations": [
+                  {
+                    "en": "alleviate traffic congestion",
+                    "vi": "làm giảm ùn tắc giao thông"
+                  },
+                  {
+                    "en": "widespread use",
+                    "vi": "sự sử dụng rộng rãi"
+                  },
+                  {
+                    "en": "prevent gridlock",
+                    "vi": "ngăn chặn tình trạng kẹt xe cứng nhắc"
+                  },
+                  {
+                    "en": "smoother traffic flow",
+                    "vi": "luồng giao thông trôi chảy hơn"
+                  },
+                  {
+                    "en": "overall efficiency",
+                    "vi": "hiệu quả tổng thể"
+                  }
+                ]
+              }
+            ]
+          },
+          "model_b1": "In recent years, the choice of transportation has become an important topic. Some people believe that buses should be chosen as the primary mode of transportation. **I completely agree with this opinion because buses help protect the environment, save money, and reduce traffic jams.**\n\nFirst of all, traveling by bus helps protect the environment. This is because buses can carry many passengers at the same time. This means there are fewer cars and motorbikes on the road. As a result, the amount of exhaust fumes is significantly reduced. Therefore, air quality will improve, which is good for public health.\n\nSecondly, buses help people save a lot of money. Bus tickets are usually very cheap compared to the cost of driving a private car. In addition, people who use buses do not have to pay for petrol, parking, or vehicle maintenance. As a result, they can save a large amount of money every month for other important needs.\n\nFinally, traveling by bus reduces traffic jams in big cities. When more people use public transportation, the number of private vehicles on the streets decreases. This makes the roads less crowded and prevents serious traffic congestion. As a result, people can travel faster and avoid wasting time during rush hours.\n\nIn conclusion, I strongly believe that buses should be chosen as the main mode of transportation. They not only bring benefits to the environment but also help individuals save money and reduce traffic problems. Therefore, governments should encourage more people to use buses.",
+          "model_b1_vi": "Trong những năm gần đây, việc lựa chọn phương tiện giao thông đã trở thành một chủ đề quan trọng. Một số người tin rằng ô tô buýt nên được chọn làm phương tiện giao thông chính. **Tôi hoàn toàn đồng ý với ý kiến này vì ô tô buýt giúp bảo vệ môi trường, tiết kiệm tiền bạc và giảm ùn tắc giao thông.**\n\nTrước hết, việc đi lại bằng ô tô buýt giúp bảo vệ môi trường. Điều này là do ô tô buýt có thể chở nhiều hành khách cùng một lúc. Điều này có nghĩa là có ít ô tô và xe máy hơn trên đường. Nhờ đó, lượng khí thải được giảm thiểu đáng kể. Do vậy, chất lượng không khí sẽ được cải thiện, rất tốt cho sức khỏe cộng đồng.\n\nThứ hai, ô tô buýt giúp mọi người tiết kiệm rất nhiều tiền. Vé xe buýt thường rất rẻ so với chi phí lái xe cá nhân. Ngoài ra, những người sử dụng xe buýt không phải trả tiền xăng, phí đỗ xe hoặc bảo dưỡng xe. Kết quả là, họ có thể tiết kiệm được một khoản tiền lớn mỗi tháng cho những nhu cầu quan trọng khác.\n\nCuối cùng, việc đi lại bằng xe buýt làm giảm ùn tắc giao thông ở các thành phố lớn. Khi có nhiều người sử dụng phương tiện công cộng hơn, số lượng xe cá nhân trên đường phố sẽ giảm xuống. Điều này làm cho đường phố bớt đông đúc hơn và ngăn chặn tình trạng kẹt xe nghiêm trọng. Nhờ đó, mọi người có thể di chuyển nhanh hơn và tránh lãng phí thời gian trong giờ cao điểm.\n\nTóm lại, tôi tin tưởng mạnh mẽ rằng ô tô buýt nên được chọn làm phương tiện giao thông chính. Chúng không chỉ mang lại lợi ích cho môi trường mà còn giúp cá nhân tiết kiệm tiền và giảm thiểu các vấn đề giao thông. Do đó, chính phủ nên khuyến khích nhiều người sử dụng ô tô buýt hơn.",
+          "model_b2": "In modern society, traffic congestion and air pollution have become pressing issues in many major cities. As a result, there is a growing debate about whether public transportation, particularly buses, should be prioritized. **From my perspective, I strongly agree that buses should be chosen as the primary mode of transportation because of their environmental, financial, and infrastructural benefits.**\n\nFirst and foremost, buses are an eco-friendly mode of transportation that helps combat air pollution. A single bus can transport dozens of passengers simultaneously, which significantly reduces the number of private cars on the road. This leads to a substantial decrease in greenhouse gas emissions and harmful exhaust fumes. Consequently, encouraging people to choose buses over private vehicles can greatly improve urban air quality and address the challenges of climate change.\n\nIn addition to environmental benefits, using buses is a highly cost-effective option for daily commuting. In most cities, public transportation fares are heavily subsidized by the government, making them affordable for citizens of all income levels. By relying on buses, passengers are relieved from the heavy financial burdens of fuel costs, parking fees, and regular vehicle maintenance. Therefore, regular bus commuters can save a considerable amount of money over time, allowing them to allocate their resources to other essential needs.\n\nFinally, promoting bus usage plays a crucial role in alleviating traffic congestion. The widespread use of public transportation minimizes the volume of private traffic, preventing gridlock in densely populated city centers. This results in smoother traffic flow and shorter travel times, especially during peak hours. Ultimately, a well-organized and efficient bus network can enhance the overall efficiency of urban transportation systems.\n\nIn conclusion, I completely support the idea of making buses the primary mode of transportation. The transition from private vehicles to buses offers significant advantages, including environmental protection, financial savings, and reduced traffic congestion. Therefore, city planners should invest more heavily in public transportation infrastructure to encourage its widespread adoption.",
+          "model_b2_vi": "Trong xã hội hiện đại, ùn tắc giao thông và ô nhiễm không khí đã trở thành những vấn đề cấp bách ở nhiều thành phố lớn. Do đó, ngày càng có nhiều tranh luận về việc liệu phương tiện giao thông công cộng, đặc biệt là xe buýt, có nên được ưu tiên hay không. **Từ góc độ của mình, tôi hoàn toàn đồng ý rằng xe buýt nên được chọn làm phương tiện giao thông chính vì những lợi ích về môi trường, tài chính và cơ sở hạ tầng của chúng.**\n\nĐầu tiên và quan trọng nhất, xe buýt là một phương tiện giao thông thân thiện với môi trường giúp chống lại ô nhiễm không khí. Một chiếc xe buýt có thể vận chuyển hàng chục hành khách cùng một lúc, điều này làm giảm đáng kể số lượng ô tô cá nhân trên đường. Điều này dẫn đến sự sụt giảm đáng kể lượng khí thải nhà kính và khói xả độc hại. Do đó, việc khuyến khích người dân chọn xe buýt thay vì phương tiện cá nhân có thể cải thiện đáng kể chất lượng không khí đô thị và giải quyết các thách thức của biến đổi khí hậu.\n\nNgoài những lợi ích về môi trường, sử dụng xe buýt là một lựa chọn mang tính tiết kiệm chi phí cao cho việc đi lại hàng ngày. Ở hầu hết các thành phố, giá vé phương tiện công cộng được chính phủ trợ giá rất nhiều, khiến chúng trở nên phải chăng đối với công dân ở mọi mức thu nhập. Bằng cách dựa vào xe buýt, hành khách được giải phóng khỏi gánh nặng tài chính nặng nề về chi phí nhiên liệu, phí đỗ xe và bảo dưỡng xe thường xuyên. Do đó, những người thường xuyên đi xe buýt có thể tiết kiệm được một khoản tiền đáng kể theo thời gian, cho phép họ phân bổ nguồn lực của mình cho các nhu cầu thiết yếu khác.\n\nCuối cùng, việc thúc đẩy sử dụng xe buýt đóng một vai trò quan trọng trong việc làm giảm ùn tắc giao thông. Sự sử dụng rộng rãi phương tiện giao thông công cộng giảm thiểu khối lượng giao thông cá nhân, ngăn chặn tình trạng kẹt xe cứng nhắc ở các trung tâm thành phố đông dân cư. Điều này dẫn đến luồng giao thông trôi chảy hơn và thời gian di chuyển ngắn hơn, đặc biệt là trong những giờ cao điểm. Xét cho cùng, một mạng lưới xe buýt hiệu quả và được tổ chức tốt có thể nâng cao hiệu quả tổng thể của các hệ thống giao thông đô thị.\n\nTóm lại, tôi hoàn toàn ủng hộ ý tưởng biến xe buýt thành phương tiện giao thông chính. Sự chuyển đổi từ phương tiện cá nhân sang xe buýt mang lại những lợi thế đáng kể, bao gồm bảo vệ môi trường, tiết kiệm tài chính và giảm ùn tắc giao thông. Do đó, các nhà quy hoạch thành phố nên đầu tư mạnh mẽ hơn vào cơ sở hạ tầng giao thông công cộng để khuyến khích sự chấp nhận rộng rãi của nó.",
+          "vocab": [
+            {
+              "en": "protect the environment",
+              "vi": "bảo vệ môi trường"
+            },
+            {
+              "en": "carry many passengers",
+              "vi": "chở nhiều hành khách"
+            },
+            {
+              "en": "exhaust fumes",
+              "vi": "khí thải"
+            },
+            {
+              "en": "air quality",
+              "vi": "chất lượng không khí"
+            },
+            {
+              "en": "save a lot of money",
+              "vi": "tiết kiệm nhiều tiền"
+            },
+            {
+              "en": "private car",
+              "vi": "xe cá nhân"
+            },
+            {
+              "en": "vehicle maintenance",
+              "vi": "bảo dưỡng xe"
+            },
+            {
+              "en": "parking fees",
+              "vi": "phí đỗ xe"
+            },
+            {
+              "en": "reduce traffic jams",
+              "vi": "giảm ùn tắc giao thông"
+            },
+            {
+              "en": "public transportation",
+              "vi": "phương tiện công cộng"
+            },
+            {
+              "en": "less crowded",
+              "vi": "bớt đông đúc hơn"
+            },
+            {
+              "en": "rush hours",
+              "vi": "giờ cao điểm"
+            },
+            {
+              "en": "eco-friendly mode of transportation",
+              "vi": "phương tiện giao thông thân thiện với môi trường"
+            },
+            {
+              "en": "combat air pollution",
+              "vi": "chống lại ô nhiễm không khí"
+            },
+            {
+              "en": "greenhouse gas emissions",
+              "vi": "lượng khí thải nhà kính"
+            },
+            {
+              "en": "harmful exhaust fumes",
+              "vi": "khói xả độc hại"
+            },
+            {
+              "en": "urban air quality",
+              "vi": "chất lượng không khí đô thị"
+            },
+            {
+              "en": "cost-effective option",
+              "vi": "lựa chọn tiết kiệm chi phí"
+            },
+            {
+              "en": "daily commuting",
+              "vi": "việc đi lại hàng ngày"
+            },
+            {
+              "en": "heavily subsidized",
+              "vi": "được trợ giá rất nhiều"
+            },
+            {
+              "en": "financial burdens",
+              "vi": "gánh nặng tài chính"
+            },
+            {
+              "en": "allocate resources",
+              "vi": "phân bổ nguồn lực"
+            },
+            {
+              "en": "alleviate traffic congestion",
+              "vi": "làm giảm ùn tắc giao thông"
+            },
+            {
+              "en": "widespread use",
+              "vi": "sự sử dụng rộng rãi"
+            },
+            {
+              "en": "prevent gridlock",
+              "vi": "ngăn chặn tình trạng kẹt xe cứng nhắc"
+            },
+            {
+              "en": "smoother traffic flow",
+              "vi": "luồng giao thông trôi chảy hơn"
+            },
+            {
+              "en": "overall efficiency",
+              "vi": "hiệu quả tổng thể"
+            }
+          ]
+        }
       },
       {
         "id": 4,
