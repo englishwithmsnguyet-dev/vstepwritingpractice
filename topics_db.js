@@ -3594,8 +3594,32 @@ const ESSAY_DATA = [
                 "title": "ADVANTAGE 01",
                 "collocations": [
                   {
+                    "en": "working from home",
+                    "vi": "làm việc tại nhà"
+                  },
+                  {
+                    "en": "help employees",
+                    "vi": "giúp nhân viên"
+                  },
+                  {
                     "en": "save time and money",
                     "vi": "tiết kiệm thời gian và tiền bạc"
+                  },
+                  {
+                    "en": "workers",
+                    "vi": "người lao động"
+                  },
+                  {
+                    "en": "do not need to",
+                    "vi": "không cần phải"
+                  },
+                  {
+                    "en": "commute to the office",
+                    "vi": "đi lại đến văn phòng"
+                  },
+                  {
+                    "en": "every day",
+                    "vi": "mỗi ngày"
                   }
                 ],
                 "point_vi": "Làm việc tại nhà giúp nhân viên tiết kiệm thời gian và tiền bạc.",
@@ -3607,8 +3631,24 @@ const ESSAY_DATA = [
                 "title": "ADVANTAGE 02",
                 "collocations": [
                   {
+                    "en": "remote work",
+                    "vi": "làm việc từ xa"
+                  },
+                  {
+                    "en": "offer",
+                    "vi": "mang lại / cung cấp"
+                  },
+                  {
                     "en": "flexibility and convenience",
                     "vi": "sự linh hoạt và thuận tiện"
+                  },
+                  {
+                    "en": "manage their own schedules",
+                    "vi": "quản lý lịch trình của riêng mình"
+                  },
+                  {
+                    "en": "comfortable environment",
+                    "vi": "môi trường thoải mái"
                   }
                 ],
                 "point_vi": "Làm việc từ xa mang lại sự linh hoạt và thuận tiện.",
@@ -3620,12 +3660,20 @@ const ESSAY_DATA = [
                 "title": "ADVANTAGE 03",
                 "collocations": [
                   {
-                    "en": "improve productivity",
-                    "vi": "cải thiện năng suất"
+                    "en": "improve work productivity",
+                    "vi": "cải thiện năng suất công việc"
                   },
                   {
-                    "en": "work independently",
-                    "vi": "làm việc độc lập"
+                    "en": "quiet space",
+                    "vi": "không gian yên tĩnh"
+                  },
+                  {
+                    "en": "avoid interruptions",
+                    "vi": "tránh được sự gián đoạn"
+                  },
+                  {
+                    "en": "colleagues",
+                    "vi": "đồng nghiệp"
                   }
                 ],
                 "point_vi": "Làm việc tại nhà có thể giúp cải thiện năng suất công việc.",
@@ -3640,7 +3688,31 @@ const ESSAY_DATA = [
                 "collocations": [
                   {
                     "en": "reduce interaction",
-                    "vi": "giảm sự tương tác"
+                    "vi": "làm giảm sự tương tác"
+                  },
+                  {
+                    "en": "between colleagues",
+                    "vi": "giữa các đồng nghiệp"
+                  },
+                  {
+                    "en": "communication",
+                    "vi": "giao tiếp"
+                  },
+                  {
+                    "en": "take place",
+                    "vi": "diễn ra"
+                  },
+                  {
+                    "en": "through screens",
+                    "vi": "qua màn hình"
+                  },
+                  {
+                    "en": "make someone feel",
+                    "vi": "khiến ai đó cảm thấy"
+                  },
+                  {
+                    "en": "isolated",
+                    "vi": "bị cô lập"
                   }
                 ],
                 "point_vi": "Làm việc tại nhà có thể làm giảm sự tương tác giữa các đồng nghiệp.",
@@ -3652,8 +3724,32 @@ const ESSAY_DATA = [
                 "title": "DISADVANTAGE 02",
                 "collocations": [
                   {
+                    "en": "find it difficult to",
+                    "vi": "thấy khó khăn trong việc"
+                  },
+                  {
                     "en": "stay focused",
-                    "vi": "giữ sự tập trung"
+                    "vi": "giữ tập trung"
+                  },
+                  {
+                    "en": "at home",
+                    "vi": "khi ở nhà"
+                  },
+                  {
+                    "en": "many distractions",
+                    "vi": "nhiều sự xao nhãng"
+                  },
+                  {
+                    "en": "such as",
+                    "vi": "như là"
+                  },
+                  {
+                    "en": "television",
+                    "vi": "ti vi"
+                  },
+                  {
+                    "en": "housework",
+                    "vi": "việc nhà"
                   }
                 ],
                 "point_vi": "Nhiều người thấy khó giữ tập trung khi ở nhà.",
@@ -3665,12 +3761,32 @@ const ESSAY_DATA = [
                 "title": "DISADVANTAGE 03",
                 "collocations": [
                   {
-                    "en": "blur the line",
-                    "vi": "làm mờ ranh giới"
+                    "en": "very difficult",
+                    "vi": "rất khó"
                   },
                   {
-                    "en": "overworked",
-                    "vi": "làm việc quá sức"
+                    "en": "separate",
+                    "vi": "tách bạch / phân tách"
+                  },
+                  {
+                    "en": "work and rest time",
+                    "vi": "công việc và thời gian nghỉ ngơi"
+                  },
+                  {
+                    "en": "many people",
+                    "vi": "nhiều người"
+                  },
+                  {
+                    "en": "work overtime",
+                    "vi": "làm việc quá giờ"
+                  },
+                  {
+                    "en": "because",
+                    "vi": "bởi vì"
+                  },
+                  {
+                    "en": "leave their workplace",
+                    "vi": "rời khỏi nơi làm việc"
                   }
                 ],
                 "point_vi": "Rất khó để tách bạch giữa công việc và thời gian nghỉ ngơi.",
@@ -3686,8 +3802,36 @@ const ESSAY_DATA = [
                 "title": "ADVANTAGE 01",
                 "collocations": [
                   {
-                    "en": "reduce commuting time and expenses",
-                    "vi": "giảm thiểu thời gian và chi phí đi lại"
+                    "en": "telecommuting",
+                    "vi": "làm việc qua mạng"
+                  },
+                  {
+                    "en": "significantly reduce",
+                    "vi": "giảm thiểu đáng kể"
+                  },
+                  {
+                    "en": "commuting time and expenses",
+                    "vi": "thời gian và chi phí đi lại"
+                  },
+                  {
+                    "en": "employees",
+                    "vi": "nhân viên"
+                  },
+                  {
+                    "en": "no longer need to",
+                    "vi": "không còn cần phải"
+                  },
+                  {
+                    "en": "travel to",
+                    "vi": "di chuyển đến"
+                  },
+                  {
+                    "en": "traditional workplaces",
+                    "vi": "các nơi làm việc truyền thống"
+                  },
+                  {
+                    "en": "on a daily basis",
+                    "vi": "hàng ngày"
                   }
                 ],
                 "point_vi": "Làm việc qua mạng giảm thiểu đáng kể thời gian và chi phí đi lại.",
@@ -3699,8 +3843,32 @@ const ESSAY_DATA = [
                 "title": "ADVANTAGE 02",
                 "collocations": [
                   {
+                    "en": "offer a high degree of",
+                    "vi": "mang lại mức độ ... cao"
+                  },
+                  {
                     "en": "flexibility and convenience",
                     "vi": "linh hoạt và thuận tiện"
+                  },
+                  {
+                    "en": "individuals",
+                    "vi": "các cá nhân"
+                  },
+                  {
+                    "en": "create",
+                    "vi": "tạo ra"
+                  },
+                  {
+                    "en": "comfortable workspaces",
+                    "vi": "không gian làm việc thoải mái"
+                  },
+                  {
+                    "en": "manage schedules",
+                    "vi": "quản lý lịch trình"
+                  },
+                  {
+                    "en": "effectively",
+                    "vi": "một cách hiệu quả"
                   }
                 ],
                 "point_vi": "Nó mang lại mức độ linh hoạt và thuận tiện cao.",
@@ -3712,12 +3880,32 @@ const ESSAY_DATA = [
                 "title": "ADVANTAGE 03",
                 "collocations": [
                   {
-                    "en": "boost overall efficiency",
-                    "vi": "thúc đẩy hiệu quả tổng thể"
+                    "en": "this model",
+                    "vi": "mô hình này"
                   },
                   {
-                    "en": "autonomous work environment",
-                    "vi": "môi trường làm việc tự chủ"
+                    "en": "significantly boost",
+                    "vi": "thúc đẩy đáng kể"
+                  },
+                  {
+                    "en": "overall efficiency",
+                    "vi": "hiệu quả tổng thể"
+                  },
+                  {
+                    "en": "quiet working environment",
+                    "vi": "môi trường làm việc yên tĩnh"
+                  },
+                  {
+                    "en": "allow someone to",
+                    "vi": "cho phép ai đó làm gì"
+                  },
+                  {
+                    "en": "perform tasks",
+                    "vi": "thực hiện nhiệm vụ"
+                  },
+                  {
+                    "en": "without interruptions",
+                    "vi": "mà không bị gián đoạn"
                   }
                 ],
                 "point_vi": "Mô hình này có thể thúc đẩy đáng kể hiệu quả tổng thể.",
@@ -3731,8 +3919,32 @@ const ESSAY_DATA = [
                 "title": "DISADVANTAGE 01",
                 "collocations": [
                   {
+                    "en": "severely limit",
+                    "vi": "hạn chế nghiêm trọng"
+                  },
+                  {
                     "en": "face-to-face interaction",
                     "vi": "sự tương tác trực tiếp"
+                  },
+                  {
+                    "en": "remote workers",
+                    "vi": "những người làm việc từ xa"
+                  },
+                  {
+                    "en": "experience feelings of",
+                    "vi": "trải qua cảm giác"
+                  },
+                  {
+                    "en": "isolation",
+                    "vi": "sự cô lập"
+                  },
+                  {
+                    "en": "struggle to",
+                    "vi": "gặp khó khăn trong việc"
+                  },
+                  {
+                    "en": "foster strong relationships",
+                    "vi": "nuôi dưỡng các mối quan hệ vững chắc"
                   }
                 ],
                 "point_vi": "Làm việc tại nhà có thể hạn chế nghiêm trọng sự tương tác trực tiếp.",
@@ -3744,8 +3956,36 @@ const ESSAY_DATA = [
                 "title": "DISADVANTAGE 02",
                 "collocations": [
                   {
+                    "en": "numerous individuals",
+                    "vi": "nhiều cá nhân"
+                  },
+                  {
+                    "en": "find it challenging to",
+                    "vi": "thấy khó khăn trong việc"
+                  },
+                  {
                     "en": "maintain focus",
                     "vi": "duy trì sự tập trung"
+                  },
+                  {
+                    "en": "home environment",
+                    "vi": "môi trường ở nhà"
+                  },
+                  {
+                    "en": "present",
+                    "vi": "đưa ra / gây ra"
+                  },
+                  {
+                    "en": "various distractions",
+                    "vi": "nhiều sự xao nhãng khác nhau"
+                  },
+                  {
+                    "en": "negatively impact",
+                    "vi": "tác động tiêu cực đến"
+                  },
+                  {
+                    "en": "productivity",
+                    "vi": "năng suất"
                   }
                 ],
                 "point_vi": "Nhiều cá nhân thấy khó khăn trong việc duy trì sự tập trung.",
@@ -3759,6 +3999,34 @@ const ESSAY_DATA = [
                   {
                     "en": "blur the boundaries",
                     "vi": "làm mờ ranh giới"
+                  },
+                  {
+                    "en": "between",
+                    "vi": "giữa"
+                  },
+                  {
+                    "en": "professional and personal life",
+                    "vi": "đời sống công sở và cá nhân"
+                  },
+                  {
+                    "en": "individuals",
+                    "vi": "các cá nhân"
+                  },
+                  {
+                    "en": "may end up",
+                    "vi": "có thể phải"
+                  },
+                  {
+                    "en": "working longer hours",
+                    "vi": "làm việc nhiều giờ hơn"
+                  },
+                  {
+                    "en": "leading to",
+                    "vi": "dẫn đến"
+                  },
+                  {
+                    "en": "prolonged stress",
+                    "vi": "căng thẳng kéo dài"
                   },
                   {
                     "en": "burnout",
