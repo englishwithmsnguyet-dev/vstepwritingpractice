@@ -5172,7 +5172,7 @@ function submitGatewayAccess() {
     return;
   }
   
-  const validClasses = ['CB196', 'CB201', 'CB202', 'B209'];
+  const validClasses = ['CB196', 'CB201', 'CB202', 'B209', 'ONB103'];
   if (!validClasses.includes(classInput)) {
     errorEl.textContent = 'Mã lớp không hợp lệ. Vui lòng kiểm tra lại!';
     errorEl.style.display = 'block';
