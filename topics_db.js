@@ -7046,7 +7046,609 @@ const ESSAY_DATA = [
         "title_vi": "Thói quen xem TV của trẻ em",
         "context": "Nowadays, children’s television viewing habits have become a common concern for many parents and teachers. Many children spend a lot of time watching cartoons, films, game shows, or online TV programs every day. Some people believe that watching television can bring several benefits to children, while others argue that it may also have negative effects on their development.",
         "prompt": "Write an essay to an educated reader to discuss the advantages and disadvantages of children’s television viewing habits. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "paraphrases": [
+          {
+            "en": "children watching TV",
+            "vi": "trẻ em xem TV"
+          },
+          {
+            "en": "kids spending time on television",
+            "vi": "trẻ em dành thời gian cho truyền hình"
+          },
+          {
+            "en": "television viewing among young people",
+            "vi": "việc xem truyền hình ở những người trẻ tuổi"
+          }
+        ],
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "ADVANTAGE 01",
+                "collocations": [
+                  {
+                    "en": "educational",
+                    "vi": "mang tính giáo dục"
+                  },
+                  {
+                    "en": "television programmes",
+                    "vi": "chương trình truyền hình"
+                  },
+                  {
+                    "en": "science",
+                    "vi": "khoa học"
+                  },
+                  {
+                    "en": "nature",
+                    "vi": "thiên nhiên"
+                  },
+                  {
+                    "en": "history",
+                    "vi": "lịch sử"
+                  },
+                  {
+                    "en": "life skills",
+                    "vi": "kỹ năng sống"
+                  },
+                  {
+                    "en": "teach somebody about",
+                    "vi": "dạy ai về"
+                  },
+                  {
+                    "en": "learn about",
+                    "vi": "học về"
+                  }
+                ],
+                "point_vi": "Xem truyền hình có thể giúp trẻ em học được nhiều điều bổ ích.",
+                "point_en": "Watching television can be educational for children.",
+                "evidence_vi": "Nhiều chương trình dạy trẻ em về khoa học, thiên nhiên, lịch sử và các kỹ năng sống.",
+                "evidence_en": "Many television programmes teach children about science, nature, history, and life skills."
+              },
+              {
+                "title": "ADVANTAGE 02",
+                "collocations": [
+                  {
+                    "en": "relax",
+                    "vi": "thư giãn"
+                  },
+                  {
+                    "en": "after school",
+                    "vi": "sau giờ học"
+                  },
+                  {
+                    "en": "entertainment programmes",
+                    "vi": "chương trình giải trí"
+                  },
+                  {
+                    "en": "reduce stress",
+                    "vi": "giảm căng thẳng"
+                  },
+                  {
+                    "en": "feel happier",
+                    "vi": "cảm thấy vui vẻ hơn"
+                  }
+                ],
+                "point_vi": "Xem truyền hình giúp trẻ em thư giãn sau giờ học.",
+                "point_en": "Watching television helps children relax after school.",
+                "evidence_vi": "Các chương trình giải trí có thể giúp các em giảm căng thẳng và cảm thấy vui vẻ hơn.",
+                "evidence_en": "Entertainment programmes can help them reduce stress and feel happier."
+              },
+              {
+                "title": "ADVANTAGE 03",
+                "collocations": [
+                  {
+                    "en": "language skills",
+                    "vi": "kỹ năng ngôn ngữ"
+                  },
+                  {
+                    "en": "vocabulary",
+                    "vi": "từ vựng"
+                  },
+                  {
+                    "en": "pronunciation",
+                    "vi": "phát âm"
+                  },
+                  {
+                    "en": "suitable programmes",
+                    "vi": "chương trình phù hợp"
+                  },
+                  {
+                    "en": "improve",
+                    "vi": "cải thiện"
+                  }
+                ],
+                "point_vi": "Xem truyền hình có thể giúp trẻ cải thiện kỹ năng ngôn ngữ.",
+                "point_en": "Watching television can improve children's language skills.",
+                "evidence_vi": "Các em có thể học thêm từ vựng và cách phát âm thông qua các chương trình phù hợp.",
+                "evidence_en": "They can learn new vocabulary and pronunciation through suitable programmes."
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "DISADVANTAGE 01",
+                "collocations": [
+                  {
+                    "en": "waste time",
+                    "vi": "lãng phí thời gian"
+                  },
+                  {
+                    "en": "useful activities",
+                    "vi": "hoạt động bổ ích"
+                  },
+                  {
+                    "en": "spend time",
+                    "vi": "dành thời gian"
+                  },
+                  {
+                    "en": "study",
+                    "vi": "học tập"
+                  },
+                  {
+                    "en": "waste",
+                    "vi": "lãng phí"
+                  }
+                ],
+                "point_vi": "Xem truyền hình quá nhiều có thể làm trẻ em lãng phí thời gian.",
+                "point_en": "Watching too much television can waste children's time.",
+                "evidence_vi": "Các em có thể dành ít thời gian hơn cho việc học và các hoạt động hữu ích khác.",
+                "evidence_en": "They may spend less time studying and doing other useful activities."
+              },
+              {
+                "title": "DISADVANTAGE 02",
+                "collocations": [
+                  {
+                    "en": "affect health",
+                    "vi": "ảnh hưởng đến sức khỏe"
+                  },
+                  {
+                    "en": "screen",
+                    "vi": "màn hình"
+                  },
+                  {
+                    "en": "eye strain",
+                    "vi": "mỏi mắt"
+                  },
+                  {
+                    "en": "physical activity",
+                    "vi": "hoạt động thể chất"
+                  },
+                  {
+                    "en": "affect",
+                    "vi": "ảnh hưởng"
+                  }
+                ],
+                "point_vi": "Xem truyền hình quá nhiều có thể ảnh hưởng đến sức khỏe của trẻ em.",
+                "point_en": "Watching too much television may affect children's health.",
+                "evidence_vi": "Việc ngồi trước màn hình trong thời gian dài có thể gây mỏi mắt và ít vận động hơn.",
+                "evidence_en": "Sitting in front of the screen for a long time may cause eye strain and less physical activity."
+              },
+              {
+                "title": "DISADVANTAGE 03",
+                "collocations": [
+                  {
+                    "en": "inappropriate content",
+                    "vi": "nội dung không phù hợp"
+                  },
+                  {
+                    "en": "parental guidance",
+                    "vi": "sự hướng dẫn của cha mẹ"
+                  },
+                  {
+                    "en": "behaviour",
+                    "vi": "hành vi"
+                  },
+                  {
+                    "en": "contain",
+                    "vi": "chứa"
+                  }
+                ],
+                "point_vi": "Một số chương trình truyền hình có thể chứa nội dung không phù hợp.",
+                "point_en": "Some television programmes may contain inappropriate content.",
+                "evidence_vi": "Nếu không có sự hướng dẫn của cha mẹ, trẻ em có thể học những hành vi không tốt.",
+                "evidence_en": "Without parental guidance, children may learn inappropriate behaviour."
+              }
+            ]
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "ADVANTAGE 01",
+                "collocations": [
+                  {
+                    "en": "educational programmes",
+                    "vi": "chương trình giáo dục"
+                  },
+                  {
+                    "en": "the natural world",
+                    "vi": "thế giới tự nhiên"
+                  },
+                  {
+                    "en": "broaden knowledge",
+                    "vi": "mở rộng kiến thức"
+                  },
+                  {
+                    "en": "beyond the classroom",
+                    "vi": "ngoài lớp học"
+                  },
+                  {
+                    "en": "broaden",
+                    "vi": "mở rộng"
+                  }
+                ],
+                "point_vi": "Xem truyền hình có thể hỗ trợ việc học tập của trẻ em.",
+                "point_en": "Watching television can support children's learning.",
+                "evidence_vi": "Nhiều chương trình giáo dục cung cấp kiến thức về khoa học, lịch sử và thế giới tự nhiên. Điều này giúp trẻ mở rộng kiến thức ngoài những gì được học ở trường.",
+                "evidence_en": "Many educational programmes provide knowledge about science, history, and the natural world. This helps children broaden their knowledge beyond the classroom."
+              },
+              {
+                "title": "ADVANTAGE 02",
+                "collocations": [
+                  {
+                    "en": "entertainment programmes",
+                    "vi": "chương trình giải trí"
+                  },
+                  {
+                    "en": "improve mood",
+                    "vi": "cải thiện tâm trạng"
+                  },
+                  {
+                    "en": "reduce stress",
+                    "vi": "giảm căng thẳng"
+                  },
+                  {
+                    "en": "busy school day",
+                    "vi": "một ngày học bận rộn"
+                  },
+                  {
+                    "en": "feel relaxed",
+                    "vi": "cảm thấy thư giãn"
+                  }
+                ],
+                "point_vi": "Xem truyền hình giúp trẻ thư giãn sau khi học tập.",
+                "point_en": "Watching television helps children relax after studying.",
+                "evidence_vi": "Các chương trình giải trí giúp giảm căng thẳng sau một ngày học. Điều này có thể cải thiện tâm trạng và giúp các em cảm thấy thoải mái hơn.",
+                "evidence_en": "Entertainment programmes help reduce stress after a busy school day. This can improve their mood and help them feel more relaxed."
+              },
+              {
+                "title": "ADVANTAGE 03",
+                "collocations": [
+                  {
+                    "en": "language skills",
+                    "vi": "kỹ năng ngôn ngữ"
+                  },
+                  {
+                    "en": "expressions",
+                    "vi": "cách diễn đạt"
+                  },
+                  {
+                    "en": "pronunciation",
+                    "vi": "phát âm"
+                  },
+                  {
+                    "en": "communicate effectively",
+                    "vi": "giao tiếp hiệu quả"
+                  },
+                  {
+                    "en": "foreign language",
+                    "vi": "ngoại ngữ"
+                  },
+                  {
+                    "en": "communicate",
+                    "vi": "giao tiếp"
+                  }
+                ],
+                "point_vi": "Xem truyền hình có thể giúp trẻ phát triển kỹ năng ngôn ngữ.",
+                "point_en": "Watching television can improve children's language skills.",
+                "evidence_vi": "Các em có thể học thêm từ vựng, cách phát âm và các cách diễn đạt mới. Điều này giúp các em giao tiếp hiệu quả hơn, đặc biệt khi học ngoại ngữ.",
+                "evidence_en": "Children can learn new vocabulary, pronunciation, and expressions. This helps them communicate more effectively, especially when learning a foreign language."
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "DISADVANTAGE 01",
+                "collocations": [
+                  {
+                    "en": "valuable time",
+                    "vi": "thời gian quý giá"
+                  },
+                  {
+                    "en": "academic performance",
+                    "vi": "kết quả học tập"
+                  },
+                  {
+                    "en": "reading books",
+                    "vi": "đọc sách"
+                  }
+                ],
+                "point_vi": "Xem truyền hình quá nhiều có thể làm trẻ em lãng phí thời gian.",
+                "point_en": "Watching too much television can waste children's valuable time.",
+                "evidence_vi": "Các em có thể dành ít thời gian hơn cho việc học và đọc sách. Điều này có thể ảnh hưởng đến kết quả học tập của các em.",
+                "evidence_en": "They may spend less time studying and reading books. This may affect their academic performance."
+              },
+              {
+                "title": "DISADVANTAGE 02",
+                "collocations": [
+                  {
+                    "en": "harm health",
+                    "vi": "gây hại cho sức khỏe"
+                  },
+                  {
+                    "en": "eye strain",
+                    "vi": "mỏi mắt"
+                  },
+                  {
+                    "en": "physical activity",
+                    "vi": "hoạt động thể chất"
+                  },
+                  {
+                    "en": "health problems",
+                    "vi": "vấn đề sức khỏe"
+                  },
+                  {
+                    "en": "increase the risk of",
+                    "vi": "làm tăng nguy cơ"
+                  }
+                ],
+                "point_vi": "Xem truyền hình quá nhiều có thể gây ảnh hưởng xấu đến sức khỏe của trẻ em.",
+                "point_en": "Watching too much television may harm children's health.",
+                "evidence_vi": "Ngồi trước màn hình quá lâu có thể gây mỏi mắt và giảm hoạt động thể chất. Điều này có thể làm tăng nguy cơ mắc các vấn đề về sức khỏe.",
+                "evidence_en": "Sitting in front of screens for long periods may cause eye strain and reduce physical activity. This may increase the risk of health problems."
+              },
+              {
+                "title": "DISADVANTAGE 03",
+                "collocations": [
+                  {
+                    "en": "negative influences",
+                    "vi": "ảnh hưởng tiêu cực"
+                  },
+                  {
+                    "en": "violence",
+                    "vi": "bạo lực"
+                  },
+                  {
+                    "en": "inappropriate behaviour",
+                    "vi": "hành vi không phù hợp"
+                  },
+                  {
+                    "en": "parental guidance",
+                    "vi": "sự hướng dẫn của cha mẹ"
+                  },
+                  {
+                    "en": "imitate",
+                    "vi": "bắt chước"
+                  }
+                ],
+                "point_vi": "Một số chương trình truyền hình có thể ảnh hưởng tiêu cực đến trẻ em.",
+                "point_en": "Some television programmes may have negative influences on children.",
+                "evidence_vi": "Một số nội dung có thể chứa bạo lực hoặc những hành vi không phù hợp. Nếu không có sự hướng dẫn của cha mẹ, trẻ em có thể bắt chước những hành vi đó.",
+                "evidence_en": "Some programmes may contain violence or inappropriate behaviour. Without parental guidance, children may imitate such behaviour."
+              }
+            ]
+          },
+          "vocab": [
+            {
+              "en": "educational",
+              "vi": "mang tính giáo dục"
+            },
+            {
+              "en": "television programmes",
+              "vi": "chương trình truyền hình"
+            },
+            {
+              "en": "science",
+              "vi": "khoa học"
+            },
+            {
+              "en": "nature",
+              "vi": "thiên nhiên"
+            },
+            {
+              "en": "history",
+              "vi": "lịch sử"
+            },
+            {
+              "en": "life skills",
+              "vi": "kỹ năng sống"
+            },
+            {
+              "en": "teach somebody about",
+              "vi": "dạy ai về"
+            },
+            {
+              "en": "learn about",
+              "vi": "học về"
+            },
+            {
+              "en": "relax",
+              "vi": "thư giãn"
+            },
+            {
+              "en": "after school",
+              "vi": "sau giờ học"
+            },
+            {
+              "en": "entertainment programmes",
+              "vi": "chương trình giải trí"
+            },
+            {
+              "en": "reduce stress",
+              "vi": "giảm căng thẳng"
+            },
+            {
+              "en": "feel happier",
+              "vi": "cảm thấy vui vẻ hơn"
+            },
+            {
+              "en": "language skills",
+              "vi": "kỹ năng ngôn ngữ"
+            },
+            {
+              "en": "vocabulary",
+              "vi": "từ vựng"
+            },
+            {
+              "en": "pronunciation",
+              "vi": "phát âm"
+            },
+            {
+              "en": "suitable programmes",
+              "vi": "chương trình phù hợp"
+            },
+            {
+              "en": "improve",
+              "vi": "cải thiện"
+            },
+            {
+              "en": "waste time",
+              "vi": "lãng phí thời gian"
+            },
+            {
+              "en": "useful activities",
+              "vi": "hoạt động bổ ích"
+            },
+            {
+              "en": "spend time",
+              "vi": "dành thời gian"
+            },
+            {
+              "en": "study",
+              "vi": "học tập"
+            },
+            {
+              "en": "waste",
+              "vi": "lãng phí"
+            },
+            {
+              "en": "affect health",
+              "vi": "ảnh hưởng đến sức khỏe"
+            },
+            {
+              "en": "screen",
+              "vi": "màn hình"
+            },
+            {
+              "en": "eye strain",
+              "vi": "mỏi mắt"
+            },
+            {
+              "en": "physical activity",
+              "vi": "hoạt động thể chất"
+            },
+            {
+              "en": "affect",
+              "vi": "ảnh hưởng"
+            },
+            {
+              "en": "inappropriate content",
+              "vi": "nội dung không phù hợp"
+            },
+            {
+              "en": "parental guidance",
+              "vi": "sự hướng dẫn của cha mẹ"
+            },
+            {
+              "en": "behaviour",
+              "vi": "hành vi"
+            },
+            {
+              "en": "contain",
+              "vi": "chứa"
+            },
+            {
+              "en": "educational programmes",
+              "vi": "chương trình giáo dục"
+            },
+            {
+              "en": "the natural world",
+              "vi": "thế giới tự nhiên"
+            },
+            {
+              "en": "broaden knowledge",
+              "vi": "mở rộng kiến thức"
+            },
+            {
+              "en": "beyond the classroom",
+              "vi": "ngoài lớp học"
+            },
+            {
+              "en": "broaden",
+              "vi": "mở rộng"
+            },
+            {
+              "en": "improve mood",
+              "vi": "cải thiện tâm trạng"
+            },
+            {
+              "en": "busy school day",
+              "vi": "một ngày học bận rộn"
+            },
+            {
+              "en": "feel relaxed",
+              "vi": "cảm thấy thư giãn"
+            },
+            {
+              "en": "expressions",
+              "vi": "cách diễn đạt"
+            },
+            {
+              "en": "communicate effectively",
+              "vi": "giao tiếp hiệu quả"
+            },
+            {
+              "en": "foreign language",
+              "vi": "ngoại ngữ"
+            },
+            {
+              "en": "communicate",
+              "vi": "giao tiếp"
+            },
+            {
+              "en": "valuable time",
+              "vi": "thời gian quý giá"
+            },
+            {
+              "en": "academic performance",
+              "vi": "kết quả học tập"
+            },
+            {
+              "en": "reading books",
+              "vi": "đọc sách"
+            },
+            {
+              "en": "harm health",
+              "vi": "gây hại cho sức khỏe"
+            },
+            {
+              "en": "health problems",
+              "vi": "vấn đề sức khỏe"
+            },
+            {
+              "en": "increase the risk of",
+              "vi": "làm tăng nguy cơ"
+            },
+            {
+              "en": "negative influences",
+              "vi": "ảnh hưởng tiêu cực"
+            },
+            {
+              "en": "violence",
+              "vi": "bạo lực"
+            },
+            {
+              "en": "inappropriate behaviour",
+              "vi": "hành vi không phù hợp"
+            },
+            {
+              "en": "imitate",
+              "vi": "bắt chước"
+            }
+          ],
+          "sample_b1": "In recent years, children watching TV has become a common habit in modern society. Although it has some benefits, there are also some drawbacks. <strong>This essay will discuss both sides of this topic.</strong>\n\n<strong>On the one hand, television viewing among young people has several advantages.</strong> One major benefit is that <strong><em>watching television can be educational for children</em></strong>. This is because many television programmes teach children about science, nature, history, and life skills. Another positive aspect is that <strong><em>watching television helps children relax after school</em></strong>. The main reason is that entertainment programmes can help them reduce stress and feel happier. A further good point is that <strong><em>watching television can improve children's language skills</em></strong>. This means that they can learn new vocabulary and pronunciation through suitable programmes.\n\n<strong>On the other hand, there are also several disadvantages.</strong> One possible drawback is that <strong><em>watching too much television can waste children's time</em></strong>. This is because they may spend less time studying and doing other useful activities. Another negative aspect is that <strong><em>watching too much television may affect children's health</em></strong>. In fact, sitting in front of the screen for a long time may cause eye strain and less physical activity. Finally, <strong><em>some television programmes may contain inappropriate content</em></strong>. As a result, without parental guidance, children may learn inappropriate behaviour.\n\nIn conclusion, <strong>kids spending time on television</strong> has both advantages and disadvantages. These points show that it has different effects on children’s lives. Therefore, it is important to consider both sides before making a decision.",
+          "translation_b1": "Trong những năm gần đây, việc trẻ em xem TV đã trở thành một thói quen phổ biến trong xã hội hiện đại. Mặc dù nó có một số lợi ích, cũng có một số hạn chế. <strong>Bài luận này sẽ thảo luận về cả hai khía cạnh của chủ đề này.</strong>\n\n<strong>Một mặt, việc xem truyền hình ở những người trẻ tuổi có một vài lợi ích.</strong> Một lợi ích chính là <strong><em>xem truyền hình có thể giúp trẻ em học được nhiều điều bổ ích</em></strong>. Điều này là do nhiều chương trình dạy trẻ em về khoa học, thiên nhiên, lịch sử và các kỹ năng sống. Một khía cạnh tích cực khác là <strong><em>xem truyền hình giúp trẻ em thư giãn sau giờ học</em></strong>. Lý do chính là các chương trình giải trí có thể giúp các em giảm căng thẳng và cảm thấy vui vẻ hơn. Một điểm tốt nữa là <strong><em>xem truyền hình có thể giúp trẻ cải thiện kỹ năng ngôn ngữ</em></strong>. Điều này có nghĩa là các em có thể học thêm từ vựng và cách phát âm thông qua các chương trình phù hợp.\n\n<strong>Mặt khác, cũng có một vài bất lợi.</strong> Một hạn chế có thể xảy ra là <strong><em>xem truyền hình quá nhiều có thể làm trẻ em lãng phí thời gian</em></strong>. Điều này là do các em có thể dành ít thời gian hơn cho việc học và các hoạt động hữu ích khác. Một khía cạnh tiêu cực khác là <strong><em>xem truyền hình quá nhiều có thể ảnh hưởng đến sức khỏe của trẻ em</em></strong>. Trên thực tế, việc ngồi trước màn hình trong thời gian dài có thể gây mỏi mắt và ít vận động hơn. Cuối cùng, <strong><em>một số chương trình truyền hình có thể chứa nội dung không phù hợp</em></strong>. Kết quả là, nếu không có sự hướng dẫn của cha mẹ, trẻ em có thể học những hành vi không tốt.\n\nTóm lại, <strong>việc trẻ em dành thời gian cho truyền hình</strong> có cả lợi ích và bất lợi. Những điểm này cho thấy nó có những tác động khác nhau đến cuộc sống của trẻ em. Vì vậy, điều quan trọng là phải xem xét cả hai khía cạnh trước khi đưa ra quyết định.",
+          "sample_b2": "In recent years, children watching TV has become an increasingly debated topic in modern society. While it offers undeniable benefits, there are also significant drawbacks. <strong>This essay will analyze both sides of this issue.</strong>\n\n<strong>On the one hand, television viewing among young people provides several major advantages.</strong> One significant benefit is that <strong><em>watching television can support children's learning</em></strong>. This is primarily because many educational programmes provide knowledge about science, history, and the natural world, which helps children broaden their knowledge beyond the classroom. Another positive aspect is that <strong><em>watching television helps children relax after studying</em></strong>. The underlying reason is that entertainment programmes help reduce stress after a busy school day, which can improve their mood and help them feel more relaxed. A further merit is that <strong><em>watching television can improve children's language skills</em></strong>. Specifically, children can learn new vocabulary, pronunciation, and expressions, which helps them communicate more effectively, especially when learning a foreign language.\n\n<strong>On the other hand, there are also notable disadvantages.</strong> One potential drawback is that <strong><em>watching too much television can waste children's valuable time</em></strong>. Since they may spend less time studying and reading books, this may affect their academic performance. Another negative aspect is that <strong><em>watching too much television may harm children's health</em></strong>. In reality, sitting in front of screens for long periods may cause eye strain and reduce physical activity, which may increase the risk of health problems. Lastly, <strong><em>some television programmes may have negative influences on children</em></strong>. Consequently, some programmes may contain violence or inappropriate behaviour, and without parental guidance, children may imitate such behaviour.\n\nIn conclusion, <strong>kids spending time on television</strong> presents both advantages and disadvantages. These points demonstrate that it has diverse impacts on children's development. Therefore, it is crucial for parents to carefully weigh both perspectives before allowing children to watch television freely.",
+          "translation_b2": "Trong những năm gần đây, việc trẻ em xem TV đã trở thành một chủ đề ngày càng được tranh luận nhiều trong xã hội hiện đại. Mặc dù nó mang lại những lợi ích không thể phủ nhận, cũng có những hạn chế đáng kể. <strong>Bài luận này sẽ phân tích cả hai khía cạnh của vấn đề này.</strong>\n\n<strong>Một mặt, việc xem truyền hình ở những người trẻ tuổi cung cấp một vài lợi thế lớn.</strong> Một lợi ích quan trọng là <strong><em>xem truyền hình có thể hỗ trợ việc học tập của trẻ em</em></strong>. Điều này chủ yếu là do nhiều chương trình giáo dục cung cấp kiến thức về khoa học, lịch sử và thế giới tự nhiên, điều này giúp trẻ mở rộng kiến thức ngoài những gì được học ở trường. Một khía cạnh tích cực khác là <strong><em>xem truyền hình giúp trẻ thư giãn sau khi học tập</em></strong>. Lý do sâu xa là các chương trình giải trí giúp giảm căng thẳng sau một ngày học, điều này có thể cải thiện tâm trạng và giúp các em cảm thấy thoải mái hơn. Một điểm mạnh nữa là <strong><em>xem truyền hình có thể giúp trẻ phát triển kỹ năng ngôn ngữ</em></strong>. Cụ thể, các em có thể học thêm từ vựng, cách phát âm và các cách diễn đạt mới, điều này giúp các em giao tiếp hiệu quả hơn, đặc biệt khi học ngoại ngữ.\n\n<strong>Mặt khác, cũng có những bất lợi đáng chú ý.</strong> Một hạn chế tiềm tàng là <strong><em>xem truyền hình quá nhiều có thể làm trẻ em lãng phí thời gian</em></strong>. Vì các em có thể dành ít thời gian hơn cho việc học và đọc sách, điều này có thể ảnh hưởng đến kết quả học tập của các em. Một khía cạnh tiêu cực khác là <strong><em>xem truyền hình quá nhiều có thể gây ảnh hưởng xấu đến sức khỏe của trẻ em</em></strong>. Trên thực tế, ngồi trước màn hình quá lâu có thể gây mỏi mắt và giảm hoạt động thể chất, điều này có thể làm tăng nguy cơ mắc các vấn đề về sức khỏe. Cuối cùng, <strong><em>một số chương trình truyền hình có thể ảnh hưởng tiêu cực đến trẻ em</em></strong>. Hậu quả là, một số nội dung có thể chứa bạo lực hoặc những hành vi không phù hợp, và nếu không có sự hướng dẫn của cha mẹ, trẻ em có thể bắt chước những hành vi đó.\n\nTóm lại, <strong>việc trẻ em dành thời gian cho truyền hình</strong> đưa ra cả lợi thế và bất lợi. Những điểm này chứng minh rằng nó có những tác động đa dạng đến sự phát triển của trẻ em. Vì vậy, điều tối quan trọng là cha mẹ phải cân nhắc kỹ lưỡng cả hai góc nhìn trước khi cho phép trẻ em xem truyền hình một cách tự do."
+        }
       },
       {
         "id": 13,
