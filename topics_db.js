@@ -4582,7 +4582,649 @@ const ESSAY_DATA = [
         "title_vi": "Sống trong gia đình nhiều thế hệ",
         "context": "Nowadays, living in an extended family is still common in many cultures. An extended family usually includes grandparents, parents, children, and sometimes other relatives living together in the same house. Some people believe that this family type gives family members more support and stronger relationships, while others argue that it may also lead to several difficulties in daily life.",
         "prompt": "Write an essay to an educated reader to discuss the advantages and disadvantages of living in an extended family. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "paraphrases": [
+          {
+            "en": "living in an extended family",
+            "vi": "sống trong một gia đình nhiều thế hệ"
+          },
+          {
+            "en": "living with relatives",
+            "vi": "sống cùng với họ hàng"
+          },
+          {
+            "en": "multigenerational family living",
+            "vi": "việc sống trong gia đình nhiều thế hệ"
+          }
+        ],
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "ADVANTAGE 01",
+                "collocations": [
+                  {
+                    "en": "extended families",
+                    "vi": "gia đình nhiều thế hệ"
+                  },
+                  {
+                    "en": "provide more support",
+                    "vi": "mang lại nhiều sự hỗ trợ hơn"
+                  },
+                  {
+                    "en": "family members",
+                    "vi": "các thành viên trong gia đình"
+                  },
+                  {
+                    "en": "help each other",
+                    "vi": "giúp đỡ lẫn nhau"
+                  },
+                  {
+                    "en": "childcare",
+                    "vi": "chăm sóc trẻ em"
+                  },
+                  {
+                    "en": "household chores",
+                    "vi": "việc nhà"
+                  },
+                  {
+                    "en": "daily problems",
+                    "vi": "những khó khăn hằng ngày"
+                  }
+                ],
+                "point_vi": "Gia đình nhiều thế hệ mang lại nhiều sự hỗ trợ hơn cho các thành viên.",
+                "point_en": "Extended families provide more support for family members.",
+                "evidence_vi": "Các thành viên có thể giúp đỡ nhau trong việc chăm sóc trẻ em, làm việc nhà và giải quyết những khó khăn hằng ngày.",
+                "evidence_en": "Family members can help each other with childcare, household chores, and daily problems."
+              },
+              {
+                "title": "ADVANTAGE 02",
+                "collocations": [
+                  {
+                    "en": "strengthen family relationships",
+                    "vi": "tăng cường mối quan hệ gia đình"
+                  },
+                  {
+                    "en": "live together",
+                    "vi": "sống cùng nhau"
+                  },
+                  {
+                    "en": "spend more time",
+                    "vi": "dành nhiều thời gian hơn"
+                  },
+                  {
+                    "en": "talking and sharing",
+                    "vi": "trò chuyện và chia sẻ"
+                  },
+                  {
+                    "en": "close relationships",
+                    "vi": "mối quan hệ gắn bó"
+                  }
+                ],
+                "point_vi": "Gia đình nhiều thế hệ giúp các thành viên gắn kết hơn.",
+                "point_en": "Extended families strengthen family relationships.",
+                "evidence_vi": "Sống cùng nhau giúp các thành viên dành nhiều thời gian trò chuyện và chia sẻ với nhau hơn.",
+                "evidence_en": "Living together allows family members to spend more time talking and sharing with one another."
+              },
+              {
+                "title": "ADVANTAGE 03",
+                "collocations": [
+                  {
+                    "en": "learn from",
+                    "vi": "học hỏi từ"
+                  },
+                  {
+                    "en": "older family members",
+                    "vi": "những người lớn tuổi trong gia đình"
+                  },
+                  {
+                    "en": "grandparents",
+                    "vi": "ông bà"
+                  },
+                  {
+                    "en": "share life experiences",
+                    "vi": "chia sẻ kinh nghiệm sống"
+                  },
+                  {
+                    "en": "teach children",
+                    "vi": "dạy trẻ em"
+                  },
+                  {
+                    "en": "traditional values",
+                    "vi": "giá trị truyền thống"
+                  }
+                ],
+                "point_vi": "Trẻ em có thể học hỏi từ những người lớn tuổi trong gia đình.",
+                "point_en": "Children can learn from older family members.",
+                "evidence_vi": "Ông bà có thể chia sẻ kinh nghiệm sống và dạy các em những giá trị truyền thống.",
+                "evidence_en": "Grandparents can share life experiences and teach children traditional values."
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "DISADVANTAGE 01",
+                "collocations": [
+                  {
+                    "en": "have disagreements",
+                    "vi": "xảy ra bất đồng"
+                  },
+                  {
+                    "en": "different generations",
+                    "vi": "các thế hệ khác nhau"
+                  },
+                  {
+                    "en": "different opinions",
+                    "vi": "những quan điểm khác nhau"
+                  },
+                  {
+                    "en": "lifestyles",
+                    "vi": "lối sống"
+                  }
+                ],
+                "point_vi": "Gia đình nhiều thế hệ có thể xảy ra nhiều bất đồng.",
+                "point_en": "Extended families may have more disagreements.",
+                "evidence_vi": "Các thế hệ khác nhau thường có những quan điểm và lối sống khác nhau.",
+                "evidence_en": "Different generations often have different opinions and lifestyles."
+              },
+              {
+                "title": "DISADVANTAGE 02",
+                "collocations": [
+                  {
+                    "en": "have less privacy",
+                    "vi": "có ít sự riêng tư hơn"
+                  },
+                  {
+                    "en": "many people",
+                    "vi": "nhiều người"
+                  },
+                  {
+                    "en": "live in the same house",
+                    "vi": "sống trong cùng một ngôi nhà"
+                  },
+                  {
+                    "en": "difficult to have",
+                    "vi": "khó để có"
+                  },
+                  {
+                    "en": "private space",
+                    "vi": "không gian riêng"
+                  }
+                ],
+                "point_vi": "Các thành viên có thể có ít sự riêng tư hơn.",
+                "point_en": "Family members may have less privacy.",
+                "evidence_vi": "Nhiều người sống trong cùng một ngôi nhà nên rất khó có không gian riêng.",
+                "evidence_en": "Many people live in the same house, so it is difficult to have private space."
+              },
+              {
+                "title": "DISADVANTAGE 03",
+                "collocations": [
+                  {
+                    "en": "living costs",
+                    "vi": "chi phí sinh hoạt"
+                  },
+                  {
+                    "en": "may be higher",
+                    "vi": "có thể cao hơn"
+                  },
+                  {
+                    "en": "large families",
+                    "vi": "gia đình đông người"
+                  },
+                  {
+                    "en": "need more money",
+                    "vi": "cần nhiều tiền hơn"
+                  },
+                  {
+                    "en": "electricity and water",
+                    "vi": "điện nước"
+                  },
+                  {
+                    "en": "other expenses",
+                    "vi": "các chi phí khác"
+                  }
+                ],
+                "point_vi": "Chi phí sinh hoạt có thể cao hơn.",
+                "point_en": "Living costs may be higher.",
+                "evidence_vi": "Gia đình đông người cần nhiều tiền hơn cho thực phẩm, điện nước và các chi phí khác.",
+                "evidence_en": "Large families need more money for food, electricity, water, and other expenses."
+              }
+            ]
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "ADVANTAGE 01",
+                "collocations": [
+                  {
+                    "en": "provide stronger support",
+                    "vi": "mang lại sự hỗ trợ lớn hơn"
+                  },
+                  {
+                    "en": "share responsibilities",
+                    "vi": "chia sẻ trách nhiệm"
+                  },
+                  {
+                    "en": "childcare and elderly care",
+                    "vi": "chăm sóc trẻ em và người cao tuổi"
+                  },
+                  {
+                    "en": "reduces pressure",
+                    "vi": "giảm áp lực"
+                  },
+                  {
+                    "en": "balanced family life",
+                    "vi": "cuộc sống gia đình cân bằng"
+                  }
+                ],
+                "point_vi": "Gia đình nhiều thế hệ mang lại sự hỗ trợ toàn diện hơn cho các thành viên.",
+                "point_en": "Extended families provide stronger support for family members.",
+                "evidence_vi": "Các thành viên có thể chia sẻ trách nhiệm chăm sóc trẻ em và người cao tuổi. Điều này giúp giảm áp lực và tạo nên cuộc sống gia đình cân bằng hơn.",
+                "evidence_en": "Family members can share responsibilities for childcare and elderly care. This reduces pressure and creates a more balanced family life."
+              },
+              {
+                "title": "ADVANTAGE 02",
+                "collocations": [
+                  {
+                    "en": "strengthen family bonds",
+                    "vi": "tăng cường sự gắn kết gia đình"
+                  },
+                  {
+                    "en": "opportunities to communicate",
+                    "vi": "cơ hội giao tiếp"
+                  },
+                  {
+                    "en": "support one another",
+                    "vi": "hỗ trợ lẫn nhau"
+                  },
+                  {
+                    "en": "build mutual trust",
+                    "vi": "xây dựng sự tin tưởng lẫn nhau"
+                  },
+                  {
+                    "en": "understanding",
+                    "vi": "sự thấu hiểu"
+                  }
+                ],
+                "point_vi": "Gia đình nhiều thế hệ giúp tăng cường sự gắn kết giữa các thành viên.",
+                "point_en": "Extended families strengthen family bonds.",
+                "evidence_vi": "Sống cùng nhau giúp các thành viên có nhiều thời gian giao tiếp và hỗ trợ nhau. Điều này giúp xây dựng sự tin tưởng và thấu hiểu lẫn nhau.",
+                "evidence_en": "Living together gives family members more opportunities to communicate and support one another. This helps build mutual trust and understanding."
+              },
+              {
+                "title": "ADVANTAGE 03",
+                "collocations": [
+                  {
+                    "en": "benefit from",
+                    "vi": "hưởng lợi từ"
+                  },
+                  {
+                    "en": "older generations",
+                    "vi": "thế hệ lớn tuổi"
+                  },
+                  {
+                    "en": "pass on",
+                    "vi": "truyền lại"
+                  },
+                  {
+                    "en": "life experiences",
+                    "vi": "kinh nghiệm sống"
+                  },
+                  {
+                    "en": "traditional values",
+                    "vi": "giá trị truyền thống"
+                  },
+                  {
+                    "en": "develop good character",
+                    "vi": "phát triển nhân cách tốt"
+                  },
+                  {
+                    "en": "respect for others",
+                    "vi": "sự tôn trọng đối với người khác"
+                  }
+                ],
+                "point_vi": "Trẻ em có thể nhận được nhiều lợi ích từ những người lớn tuổi trong gia đình.",
+                "point_en": "Children can benefit from older generations.",
+                "evidence_vi": "Ông bà có thể truyền đạt kinh nghiệm sống và những giá trị truyền thống. Điều này giúp trẻ phát triển nhân cách và có sự tôn trọng đối với người khác.",
+                "evidence_en": "Grandparents can pass on life experiences and traditional values. This helps children develop good character and respect for others."
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "DISADVANTAGE 01",
+                "collocations": [
+                  {
+                    "en": "experience conflicts",
+                    "vi": "trải qua mâu thuẫn"
+                  },
+                  {
+                    "en": "different generations",
+                    "vi": "các thế hệ khác nhau"
+                  },
+                  {
+                    "en": "different opinions and lifestyles",
+                    "vi": "những quan điểm và lối sống khác nhau"
+                  },
+                  {
+                    "en": "lead to arguments",
+                    "vi": "dẫn đến tranh cãi"
+                  },
+                  {
+                    "en": "within the family",
+                    "vi": "trong gia đình"
+                  }
+                ],
+                "point_vi": "Các thế hệ khác nhau có thể xảy ra mâu thuẫn.",
+                "point_en": "Different generations may experience conflicts.",
+                "evidence_vi": "Họ thường có những quan điểm và thói quen sống khác nhau. Điều này có thể dẫn đến các cuộc tranh cãi trong gia đình.",
+                "evidence_en": "They often have different opinions and lifestyles. This may lead to arguments within the family."
+              },
+              {
+                "title": "DISADVANTAGE 02",
+                "collocations": [
+                  {
+                    "en": "have less privacy",
+                    "vi": "có ít sự riêng tư hơn"
+                  },
+                  {
+                    "en": "many people",
+                    "vi": "nhiều người"
+                  },
+                  {
+                    "en": "live in the same house",
+                    "vi": "sống trong cùng một ngôi nhà"
+                  },
+                  {
+                    "en": "makes it difficult",
+                    "vi": "khó khăn trong việc"
+                  },
+                  {
+                    "en": "enjoy personal time",
+                    "vi": "tận hưởng thời gian riêng"
+                  },
+                  {
+                    "en": "private space",
+                    "vi": "không gian riêng"
+                  }
+                ],
+                "point_vi": "Các thành viên có thể có ít không gian riêng hơn.",
+                "point_en": "Family members may have less privacy.",
+                "evidence_vi": "Nhiều người cùng sống trong một ngôi nhà. Điều này khiến họ khó có thời gian và không gian riêng.",
+                "evidence_en": "Many people live in the same house. This makes it difficult for them to enjoy personal time and private space."
+              },
+              {
+                "title": "DISADVANTAGE 03",
+                "collocations": [
+                  {
+                    "en": "living expenses",
+                    "vi": "chi phí sinh hoạt"
+                  },
+                  {
+                    "en": "increase",
+                    "vi": "tăng lên"
+                  },
+                  {
+                    "en": "large families",
+                    "vi": "gia đình đông người"
+                  },
+                  {
+                    "en": "monthly bills",
+                    "vi": "hóa đơn hằng tháng"
+                  },
+                  {
+                    "en": "place financial pressure on",
+                    "vi": "tạo áp lực tài chính lên"
+                  }
+                ],
+                "point_vi": "Chi phí sinh hoạt của gia đình có thể cao hơn.",
+                "point_en": "Living expenses may increase in extended families.",
+                "evidence_vi": "Gia đình đông người cần nhiều tiền hơn cho thực phẩm và các hóa đơn hằng tháng. Điều này có thể tạo áp lực tài chính cho các thành viên.",
+                "evidence_en": "Large families need more money for food and monthly bills. This may place financial pressure on family members."
+              }
+            ]
+          },
+          "vocab": [
+            {
+              "en": "extended families",
+              "vi": "gia đình nhiều thế hệ"
+            },
+            {
+              "en": "provide more support",
+              "vi": "mang lại nhiều sự hỗ trợ hơn"
+            },
+            {
+              "en": "family members",
+              "vi": "các thành viên trong gia đình"
+            },
+            {
+              "en": "help each other",
+              "vi": "giúp đỡ lẫn nhau"
+            },
+            {
+              "en": "childcare",
+              "vi": "chăm sóc trẻ em"
+            },
+            {
+              "en": "household chores",
+              "vi": "việc nhà"
+            },
+            {
+              "en": "daily problems",
+              "vi": "những khó khăn hằng ngày"
+            },
+            {
+              "en": "strengthen family relationships",
+              "vi": "tăng cường mối quan hệ gia đình"
+            },
+            {
+              "en": "live together",
+              "vi": "sống cùng nhau"
+            },
+            {
+              "en": "spend more time",
+              "vi": "dành nhiều thời gian hơn"
+            },
+            {
+              "en": "talking and sharing",
+              "vi": "trò chuyện và chia sẻ"
+            },
+            {
+              "en": "close relationships",
+              "vi": "mối quan hệ gắn bó"
+            },
+            {
+              "en": "learn from",
+              "vi": "học hỏi từ"
+            },
+            {
+              "en": "older family members",
+              "vi": "những người lớn tuổi trong gia đình"
+            },
+            {
+              "en": "grandparents",
+              "vi": "ông bà"
+            },
+            {
+              "en": "share life experiences",
+              "vi": "chia sẻ kinh nghiệm sống"
+            },
+            {
+              "en": "teach children",
+              "vi": "dạy trẻ em"
+            },
+            {
+              "en": "traditional values",
+              "vi": "giá trị truyền thống"
+            },
+            {
+              "en": "have disagreements",
+              "vi": "xảy ra bất đồng"
+            },
+            {
+              "en": "different generations",
+              "vi": "các thế hệ khác nhau"
+            },
+            {
+              "en": "different opinions",
+              "vi": "những quan điểm khác nhau"
+            },
+            {
+              "en": "lifestyles",
+              "vi": "lối sống"
+            },
+            {
+              "en": "have less privacy",
+              "vi": "có ít sự riêng tư hơn"
+            },
+            {
+              "en": "many people",
+              "vi": "nhiều người"
+            },
+            {
+              "en": "live in the same house",
+              "vi": "sống trong cùng một ngôi nhà"
+            },
+            {
+              "en": "difficult to have",
+              "vi": "khó để có"
+            },
+            {
+              "en": "private space",
+              "vi": "không gian riêng"
+            },
+            {
+              "en": "living costs",
+              "vi": "chi phí sinh hoạt"
+            },
+            {
+              "en": "may be higher",
+              "vi": "có thể cao hơn"
+            },
+            {
+              "en": "large families",
+              "vi": "gia đình đông người"
+            },
+            {
+              "en": "need more money",
+              "vi": "cần nhiều tiền hơn"
+            },
+            {
+              "en": "electricity and water",
+              "vi": "điện nước"
+            },
+            {
+              "en": "other expenses",
+              "vi": "các chi phí khác"
+            },
+            {
+              "en": "provide stronger support",
+              "vi": "mang lại sự hỗ trợ lớn hơn"
+            },
+            {
+              "en": "share responsibilities",
+              "vi": "chia sẻ trách nhiệm"
+            },
+            {
+              "en": "childcare and elderly care",
+              "vi": "chăm sóc trẻ em và người cao tuổi"
+            },
+            {
+              "en": "reduces pressure",
+              "vi": "giảm áp lực"
+            },
+            {
+              "en": "balanced family life",
+              "vi": "cuộc sống gia đình cân bằng"
+            },
+            {
+              "en": "strengthen family bonds",
+              "vi": "tăng cường sự gắn kết gia đình"
+            },
+            {
+              "en": "opportunities to communicate",
+              "vi": "cơ hội giao tiếp"
+            },
+            {
+              "en": "support one another",
+              "vi": "hỗ trợ lẫn nhau"
+            },
+            {
+              "en": "build mutual trust",
+              "vi": "xây dựng sự tin tưởng lẫn nhau"
+            },
+            {
+              "en": "understanding",
+              "vi": "sự thấu hiểu"
+            },
+            {
+              "en": "benefit from",
+              "vi": "hưởng lợi từ"
+            },
+            {
+              "en": "older generations",
+              "vi": "thế hệ lớn tuổi"
+            },
+            {
+              "en": "pass on",
+              "vi": "truyền lại"
+            },
+            {
+              "en": "life experiences",
+              "vi": "kinh nghiệm sống"
+            },
+            {
+              "en": "develop good character",
+              "vi": "phát triển nhân cách tốt"
+            },
+            {
+              "en": "respect for others",
+              "vi": "sự tôn trọng đối với người khác"
+            },
+            {
+              "en": "experience conflicts",
+              "vi": "trải qua mâu thuẫn"
+            },
+            {
+              "en": "different opinions and lifestyles",
+              "vi": "những quan điểm và lối sống khác nhau"
+            },
+            {
+              "en": "lead to arguments",
+              "vi": "dẫn đến tranh cãi"
+            },
+            {
+              "en": "within the family",
+              "vi": "trong gia đình"
+            },
+            {
+              "en": "makes it difficult",
+              "vi": "khó khăn trong việc"
+            },
+            {
+              "en": "enjoy personal time",
+              "vi": "tận hưởng thời gian riêng"
+            },
+            {
+              "en": "living expenses",
+              "vi": "chi phí sinh hoạt"
+            },
+            {
+              "en": "increase",
+              "vi": "tăng lên"
+            },
+            {
+              "en": "monthly bills",
+              "vi": "hóa đơn hằng tháng"
+            },
+            {
+              "en": "place financial pressure on",
+              "vi": "tạo áp lực tài chính lên"
+            }
+          ],
+          "sample_b1": "In recent years, living in an <strong>extended family</strong> has become a topic of interest in modern society. Although it has some benefits, there are also some drawbacks. <strong>This essay will discuss both sides of this topic.</strong>\n\n<strong>On the one hand, a multigenerational family has several advantages.</strong> One major benefit is that <strong><em>extended families provide more support for family members</em></strong>. This is because family members can help each other with childcare, household chores, and daily problems. Another positive aspect is that <strong><em>extended families strengthen family relationships</em></strong>. The main reason is that living together allows family members to spend more time talking and sharing with one another. A further good point is that <strong><em>children can learn from older family members</em></strong>. This means that grandparents can share life experiences and teach children traditional values.\n\n<strong>On the other hand, there are also several disadvantages.</strong> One possible drawback is that <strong><em>extended families may have more disagreements</em></strong>. This is because different generations often have different opinions and lifestyles. Another negative aspect is that <strong><em>family members may have less privacy</em></strong>. In fact, many people live in the same house, so it is difficult to have private space. Finally, <strong><em>living costs may be higher</em></strong>. As a result, large families need more money for food, electricity, water, and other expenses.\n\nIn conclusion, <strong>living with relatives</strong> has both advantages and disadvantages. These points show that it has different effects on people’s lives. Therefore, it is important to consider both sides before making a decision.",
+          "translation_b1": "Trong những năm gần đây, việc sống trong một <strong>gia đình nhiều thế hệ</strong> đã trở thành một chủ đề được quan tâm trong xã hội hiện đại. Mặc dù nó có một số lợi ích, cũng có một số hạn chế. <strong>Bài luận này sẽ thảo luận về cả hai khía cạnh của chủ đề này.</strong>\n\n<strong>Một mặt, gia đình nhiều thế hệ có một vài lợi ích.</strong> Một lợi ích chính là <strong><em>gia đình nhiều thế hệ mang lại nhiều sự hỗ trợ hơn cho các thành viên</em></strong>. Điều này là do các thành viên có thể giúp đỡ nhau trong việc chăm sóc trẻ em, làm việc nhà và giải quyết những khó khăn hằng ngày. Một khía cạnh tích cực khác là <strong><em>gia đình nhiều thế hệ giúp các thành viên gắn kết hơn</em></strong>. Lý do chính là sống cùng nhau giúp các thành viên dành nhiều thời gian trò chuyện và chia sẻ với nhau hơn. Một điểm tốt nữa là <strong><em>trẻ em có thể học hỏi từ những người lớn tuổi trong gia đình</em></strong>. Điều này có nghĩa là ông bà có thể chia sẻ kinh nghiệm sống và dạy các em những giá trị truyền thống.\n\n<strong>Mặt khác, cũng có một vài bất lợi.</strong> Một hạn chế có thể xảy ra là <strong><em>gia đình nhiều thế hệ có thể xảy ra nhiều bất đồng</em></strong>. Điều này là do các thế hệ khác nhau thường có những quan điểm và lối sống khác nhau. Một khía cạnh tiêu cực khác là <strong><em>các thành viên có thể có ít sự riêng tư hơn</em></strong>. Trên thực tế, nhiều người sống trong cùng một ngôi nhà nên rất khó có không gian riêng. Cuối cùng, <strong><em>chi phí sinh hoạt có thể cao hơn</em></strong>. Kết quả là, gia đình đông người cần nhiều tiền hơn cho thực phẩm, điện nước và các chi phí khác.\n\nTóm lại, <strong>việc sống cùng họ hàng</strong> có cả lợi ích và bất lợi. Những điểm này cho thấy nó có những tác động khác nhau đến cuộc sống của con người. Vì vậy, điều quan trọng là phải xem xét cả hai khía cạnh trước khi đưa ra quyết định.",
+          "sample_b2": "In recent years, living in an <strong>extended family</strong> has become an increasingly debated topic in modern society. While it offers undeniable benefits, there are also significant drawbacks. <strong>This essay will analyze both sides of this issue.</strong>\n\n<strong>On the one hand, a multigenerational living arrangement provides several major advantages.</strong> One significant benefit is that <strong><em>extended families provide stronger support for family members</em></strong>. This is primarily because family members can share responsibilities for childcare and elderly care, which reduces pressure and creates a more balanced family life. Another positive aspect is that <strong><em>extended families strengthen family bonds</em></strong>. The underlying reason is that living together gives family members more opportunities to communicate and support one another, which helps build mutual trust and understanding. A further merit is that <strong><em>children can benefit from older generations</em></strong>. Specifically, grandparents can pass on life experiences and traditional values, helping children develop good character and respect for others.\n\n<strong>On the other hand, there are also notable disadvantages.</strong> One potential drawback is that <strong><em>different generations may experience conflicts</em></strong>. Since they often have different opinions and lifestyles, this may lead to arguments within the family. Another negative aspect is that <strong><em>family members may have less privacy</em></strong>. In reality, since many people live in the same house, this makes it difficult for them to enjoy personal time and private space. Lastly, <strong><em>living expenses may increase in extended families</em></strong>. Consequently, large families need more money for food and monthly bills, which may place financial pressure on family members.\n\nIn conclusion, <strong>living with relatives</strong> presents both advantages and disadvantages. These points demonstrate that it has diverse impacts on family members. Therefore, it is crucial to carefully weigh both perspectives before adopting this family model.",
+          "translation_b2": "Trong những năm gần đây, việc sống trong một <strong>gia đình nhiều thế hệ</strong> đã trở thành một chủ đề ngày càng được tranh luận nhiều trong xã hội hiện đại. Mặc dù nó mang lại những lợi ích không thể phủ nhận, cũng có những hạn chế đáng kể. <strong>Bài luận này sẽ phân tích cả hai khía cạnh của vấn đề này.</strong>\n\n<strong>Một mặt, việc sống trong gia đình nhiều thế hệ cung cấp một vài lợi thế lớn.</strong> Một lợi ích quan trọng là <strong><em>gia đình nhiều thế hệ mang lại sự hỗ trợ toàn diện hơn cho các thành viên</em></strong>. Điều này chủ yếu là do các thành viên có thể chia sẻ trách nhiệm chăm sóc trẻ em và người cao tuổi, điều này giúp giảm áp lực và tạo nên cuộc sống gia đình cân bằng hơn. Một khía cạnh tích cực khác là <strong><em>gia đình nhiều thế hệ giúp tăng cường sự gắn kết giữa các thành viên</em></strong>. Lý do sâu xa là sống cùng nhau giúp các thành viên có nhiều thời gian giao tiếp và hỗ trợ nhau, điều này giúp xây dựng sự tin tưởng và thấu hiểu lẫn nhau. Một điểm mạnh nữa là <strong><em>trẻ em có thể nhận được nhiều lợi ích từ những người lớn tuổi trong gia đình</em></strong>. Cụ thể, ông bà có thể truyền đạt kinh nghiệm sống và những giá trị truyền thống, giúp trẻ phát triển nhân cách và có sự tôn trọng đối với người khác.\n\n<strong>Mặt khác, cũng có những bất lợi đáng chú ý.</strong> Một hạn chế tiềm tàng là <strong><em>các thế hệ khác nhau có thể xảy ra mâu thuẫn</em></strong>. Vì họ thường có những quan điểm và thói quen sống khác nhau, điều này có thể dẫn đến các cuộc tranh cãi trong gia đình. Một khía cạnh tiêu cực khác là <strong><em>các thành viên có thể có ít không gian riêng hơn</em></strong>. Trên thực tế, vì nhiều người cùng sống trong một ngôi nhà, điều này khiến họ khó có thời gian và không gian riêng. Cuối cùng, <strong><em>chi phí sinh hoạt của gia đình có thể cao hơn</em></strong>. Hậu quả là, gia đình đông người cần nhiều tiền hơn cho thực phẩm và các hóa đơn hằng tháng, điều này có thể tạo áp lực tài chính cho các thành viên.\n\nTóm lại, <strong>việc sống cùng họ hàng</strong> đưa ra cả lợi thế và bất lợi. Những điểm này chứng minh rằng nó có những tác động đa dạng đến các thành viên trong gia đình. Vì vậy, điều tối quan trọng là phải cân nhắc kỹ lưỡng cả hai góc nhìn trước khi áp dụng mô hình gia đình này."
+        }
       },
       {
         "id": 9,
