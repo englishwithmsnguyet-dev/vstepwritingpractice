@@ -537,6 +537,31 @@
     </div>
   </div>
 
+  <!-- ATTENDANCE MODAL -->
+  <div class="modal-overlay" id="attendance-modal">
+    <div class="modal-content" style="max-width: 450px;">
+      <div class="modal-header">
+        <h3 class="modal-title">Ghi nhận tiến độ học tập</h3>
+        <button class="modal-close" onclick="closeAttendanceModal()">✕</button>
+      </div>
+      <div class="modal-body" style="padding: 1.5rem;">
+        <p style="margin-bottom: 1.5rem; color: var(--text-secondary); line-height: 1.5;">Vui lòng nhập thông tin để hệ thống ghi nhận bài học bạn vừa hoàn thành.</p>
+        <div class="form-group" style="margin-bottom: 1.25rem;">
+          <label style="display: block; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-primary);">Họ và tên của bạn</label>
+          <input type="text" id="attendance-name" placeholder="Ví dụ: Nguyễn Văn A" style="width: 100%; padding: 0.75rem; border: 1px solid var(--border-color); border-radius: 8px; font-family: inherit; font-size: 1rem; box-sizing: border-box; background: var(--bg-primary); color: var(--text-primary);" />
+        </div>
+        <div class="form-group" style="margin-bottom: 1rem;">
+          <label style="display: block; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-primary);">Mã lớp</label>
+          <input type="text" id="attendance-class" placeholder="Nhập mã lớp..." style="width: 100%; padding: 0.75rem; border: 1px solid var(--border-color); border-radius: 8px; font-family: inherit; font-size: 1rem; box-sizing: border-box; text-transform: uppercase; background: var(--bg-primary); color: var(--text-primary);" />
+          <p id="attendance-error" style="color: #ef4444; font-size: 0.875rem; margin-top: 0.5rem; display: none;">Mã lớp không hợp lệ. Vui lòng kiểm tra lại!</p>
+        </div>
+        <div style="margin-top: 2rem; text-align: center;">
+          <button class="btn btn-primary" style="width: 100%; padding: 0.75rem; font-size: 1rem; border-radius: 8px;" onclick="submitAttendance()" id="btn-submit-attendance">XÁC NHẬN HOÀN THÀNH</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- Notification Toast Container -->
   <div id="toast-container"></div>
 

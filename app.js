@@ -5108,6 +5108,11 @@ function renderStep4ModelEssay() {
       </div>
     </div>
     ${vocabNotesHtml}
+    <div style="text-align: center; margin-top: 2.5rem; margin-bottom: 2rem;">
+      <button class="btn btn-primary" style="padding: 1rem 3rem; font-size: 1.1rem; box-shadow: var(--shadow-glow); background: linear-gradient(135deg, #10b981 0%, #059669 100%); border-color: #059669;" onclick="openAttendanceModal()">
+        HOÀN THÀNH & ĐIỂM DANH
+      </button>
+    </div>
   `;
 }
 
@@ -5120,4 +5125,65 @@ function switchModelEssayLevel(level) {
   document.getElementById(`ws-model-level-${level.toLowerCase()}`).classList.add('active');
   
   renderStep4ModelEssay();
+}
+
+// Function to handle Attendance Form
+function openAttendanceModal() {
+  document.getElementById('attendance-modal').classList.add('active');
+  document.getElementById('attendance-error').style.display = 'none';
+  document.getElementById('attendance-name').value = '';
+  document.getElementById('attendance-class').value = '';
+}
+
+function closeAttendanceModal() {
+  document.getElementById('attendance-modal').classList.remove('active');
+}
+
+function submitAttendance() {
+  const nameInput = document.getElementById('attendance-name').value.trim();
+  let classInput = document.getElementById('attendance-class').value.trim().toUpperCase();
+  const errorEl = document.getElementById('attendance-error');
+  const btnSubmit = document.getElementById('btn-submit-attendance');
+  
+  if (!nameInput || !classInput) {
+    errorEl.textContent = 'Vui lòng nhập đầy đủ Họ tên và Mã lớp!';
+    errorEl.style.display = 'block';
+    return;
+  }
+  
+  const validClasses = ['CB196', 'CB201', 'CB202', 'B209'];
+  if (!validClasses.includes(classInput)) {
+    errorEl.textContent = 'Mã lớp không hợp lệ. Vui lòng nhập đúng lớp CB196, CB201, CB202, hoặc B209.';
+    errorEl.style.display = 'block';
+    return;
+  }
+  
+  errorEl.style.display = 'none';
+  btnSubmit.textContent = 'ĐANG XỬ LÝ...';
+  btnSubmit.disabled = true;
+  
+  // Format Data: Name - Class - Topic Title
+  const topicTitle = currentTopic ? currentTopic.title_en : 'Unknown Topic';
+  const finalData = `${nameInput} - Lớp ${classInput} - Đã hoàn thành Đề: ${topicTitle}`;
+  
+  // Google Form POST URL and Entry ID
+  const formUrl = 'https://docs.google.com/forms/d/e/1FAIpQLSfB9UgCMgYhwLVvjiXnGZTFlj6IwCJfjqwpBfd1qHpeOm4Lvw/formResponse';
+  const formData = new FormData();
+  formData.append('entry.1205151935', finalData);
+  
+  fetch(formUrl, {
+    method: 'POST',
+    mode: 'no-cors',
+    body: formData
+  }).then(() => {
+    closeAttendanceModal();
+    showToast('Ghi nhận tiến độ học tập thành công! Chúc mừng bạn đã hoàn thành bài học.', 'success');
+    btnSubmit.textContent = 'XÁC NHẬN HOÀN THÀNH';
+    btnSubmit.disabled = false;
+  }).catch((error) => {
+    console.error('Error submitting attendance:', error);
+    showToast('Có lỗi xảy ra khi ghi nhận. Vui lòng thử lại!', 'error');
+    btnSubmit.textContent = 'XÁC NHẬN HOÀN THÀNH';
+    btnSubmit.disabled = false;
+  });
 }
