@@ -3427,44 +3427,116 @@ const ESSAY_DATA = [
           "ideas_b1": {
             "benefits": [
               {
-                "en": "Save time and money",
-                "vi": "Tiết kiệm thời gian và tiền bạc"
+                "title": "ADVANTAGE 01",
+                "collocations": [
+                  {
+                    "en": "save time and money",
+                    "vi": "tiết kiệm thời gian và tiền bạc"
+                  }
+                ],
+                "point_vi": "Làm việc tại nhà giúp nhân viên tiết kiệm thời gian và tiền bạc.",
+                "point_en": "Working from home helps employees save time and money.",
+                "evidence_vi": "Người lao động không cần phải đi lại đến văn phòng mỗi ngày.",
+                "evidence_en": "Workers do not need to commute to the office every day."
               },
               {
-                "en": "Flexibility and convenience",
-                "vi": "Sự linh hoạt và thuận tiện"
+                "title": "ADVANTAGE 02",
+                "collocations": [
+                  {
+                    "en": "flexibility and convenience",
+                    "vi": "sự linh hoạt và thuận tiện"
+                  }
+                ],
+                "point_vi": "Làm việc từ xa mang lại sự linh hoạt và thuận tiện.",
+                "point_en": "Remote work offers flexibility and convenience.",
+                "evidence_vi": "Mọi người có thể quản lý lịch trình của riêng mình trong một môi trường thoải mái.",
+                "evidence_en": "People can manage their own schedules in a comfortable environment."
               }
             ],
             "drawbacks": [
               {
-                "en": "Reduce interaction between colleagues",
-                "vi": "Giảm sự tương tác giữa các đồng nghiệp"
+                "title": "DISADVANTAGE 01",
+                "collocations": [
+                  {
+                    "en": "reduce interaction",
+                    "vi": "giảm sự tương tác"
+                  }
+                ],
+                "point_vi": "Làm việc tại nhà có thể làm giảm sự tương tác giữa các đồng nghiệp.",
+                "point_en": "Working from home may reduce interaction between colleagues.",
+                "evidence_vi": "Giao tiếp chủ yếu diễn ra qua màn hình, khiến nhân viên cảm thấy bị cô lập.",
+                "evidence_en": "Communication mainly takes place through screens, making employees feel isolated."
               },
               {
-                "en": "Difficult to stay focused",
-                "vi": "Khó giữ tập trung"
+                "title": "DISADVANTAGE 02",
+                "collocations": [
+                  {
+                    "en": "stay focused",
+                    "vi": "giữ sự tập trung"
+                  }
+                ],
+                "point_vi": "Nhiều người thấy khó giữ tập trung khi ở nhà.",
+                "point_en": "Many people find it difficult to stay focused at home.",
+                "evidence_vi": "Có rất nhiều sự xao nhãng như ti vi và việc nhà.",
+                "evidence_en": "There are many distractions such as television and housework."
               }
             ]
           },
           "ideas_b2": {
             "benefits": [
               {
-                "en": "Reduce commuting time and expenses",
-                "vi": "Giảm thiểu thời gian và chi phí đi lại"
+                "title": "ADVANTAGE 01",
+                "collocations": [
+                  {
+                    "en": "reduce commuting time and expenses",
+                    "vi": "giảm thiểu thời gian và chi phí đi lại"
+                  }
+                ],
+                "point_vi": "Làm việc qua mạng giảm thiểu đáng kể thời gian và chi phí đi lại.",
+                "point_en": "Telecommuting significantly reduces commuting time and expenses.",
+                "evidence_vi": "Nhân viên không còn cần phải di chuyển đến các nơi làm việc truyền thống hàng ngày.",
+                "evidence_en": "Employees no longer need to travel to traditional workplaces on a daily basis."
               },
               {
-                "en": "Offer a high degree of flexibility and convenience",
-                "vi": "Mang lại mức độ linh hoạt và thuận tiện cao"
+                "title": "ADVANTAGE 02",
+                "collocations": [
+                  {
+                    "en": "flexibility and convenience",
+                    "vi": "linh hoạt và thuận tiện"
+                  }
+                ],
+                "point_vi": "Nó mang lại mức độ linh hoạt và thuận tiện cao.",
+                "point_en": "It offers a high degree of flexibility and convenience.",
+                "evidence_vi": "Các cá nhân có thể tạo không gian làm việc thoải mái và quản lý lịch trình hiệu quả.",
+                "evidence_en": "Individuals can create comfortable workspaces and manage their schedules effectively."
               }
             ],
             "drawbacks": [
               {
-                "en": "Limit face-to-face interaction",
-                "vi": "Hạn chế sự tương tác trực tiếp"
+                "title": "DISADVANTAGE 01",
+                "collocations": [
+                  {
+                    "en": "face-to-face interaction",
+                    "vi": "sự tương tác trực tiếp"
+                  }
+                ],
+                "point_vi": "Làm việc tại nhà có thể hạn chế nghiêm trọng sự tương tác trực tiếp.",
+                "point_en": "Working from home can severely limit face-to-face interaction.",
+                "evidence_vi": "Những người làm việc từ xa có thể trải qua cảm giác bị cô lập và gặp khó khăn trong việc nuôi dưỡng các mối quan hệ vững chắc.",
+                "evidence_en": "Remote workers may experience feelings of isolation and struggle to foster strong relationships."
               },
               {
-                "en": "Challenging to maintain focus",
-                "vi": "Khó khăn trong việc duy trì sự tập trung"
+                "title": "DISADVANTAGE 02",
+                "collocations": [
+                  {
+                    "en": "maintain focus",
+                    "vi": "duy trì sự tập trung"
+                  }
+                ],
+                "point_vi": "Nhiều cá nhân thấy khó khăn trong việc duy trì sự tập trung.",
+                "point_en": "Numerous individuals find it challenging to maintain focus.",
+                "evidence_vi": "Môi trường ở nhà đưa ra nhiều sự xao nhãng có thể tác động tiêu cực đến năng suất.",
+                "evidence_en": "The home environment presents various distractions that can negatively impact productivity."
               }
             ]
           }
