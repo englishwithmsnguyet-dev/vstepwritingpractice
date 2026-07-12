@@ -5854,7 +5854,525 @@ const ESSAY_DATA = [
         "title_vi": "Xây dựng tàu điện trên cao ở thành phố lớn",
         "context": "Nowadays, many big cities are building skytrains to improve their public transport systems. Skytrains can help people travel around the city more quickly and reduce pressure on roads. However, some people argue that building skytrains may also create several problems, such as high construction costs and inconvenience during the building process.",
         "prompt": "Write an essay to an educated reader to discuss the advantages and disadvantages of building skytrains in big cities. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "paraphrases": [
+          {
+            "en": "constructing elevated railways",
+            "vi": "xây dựng hệ thống đường sắt trên cao"
+          },
+          {
+            "en": "building sky-train systems",
+            "vi": "xây dựng hệ thống tàu điện trên cao"
+          },
+          {
+            "en": "investing in elevated transit",
+            "vi": "đầu tư vào giao thông công cộng trên cao"
+          }
+        ],
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "ADVANTAGE 01",
+                "collocations": [
+                  {
+                    "en": "skytrains",
+                    "vi": "tàu điện trên cao"
+                  },
+                  {
+                    "en": "reduce traffic congestion",
+                    "vi": "giảm ùn tắc giao thông"
+                  },
+                  {
+                    "en": "big cities",
+                    "vi": "thành phố lớn"
+                  },
+                  {
+                    "en": "public transport",
+                    "vi": "phương tiện giao thông công cộng"
+                  },
+                  {
+                    "en": "private vehicles",
+                    "vi": "phương tiện cá nhân"
+                  },
+                  {
+                    "en": "instead of",
+                    "vi": "thay vì"
+                  }
+                ],
+                "point_vi": "Tàu điện trên cao giúp giảm ùn tắc giao thông ở các thành phố lớn.",
+                "point_en": "Skytrains help reduce traffic congestion in big cities.",
+                "evidence_vi": "Nhiều người sẽ sử dụng phương tiện giao thông công cộng thay vì phương tiện cá nhân.",
+                "evidence_en": "More people will use public transport instead of private vehicles."
+              },
+              {
+                "title": "ADVANTAGE 02",
+                "collocations": [
+                  {
+                    "en": "travel more quickly",
+                    "vi": "di chuyển nhanh hơn"
+                  },
+                  {
+                    "en": "traffic jams",
+                    "vi": "kẹt xe"
+                  },
+                  {
+                    "en": "travel around the city",
+                    "vi": "di chuyển trong thành phố"
+                  },
+                  {
+                    "en": "save travel time",
+                    "vi": "tiết kiệm thời gian đi lại"
+                  },
+                  {
+                    "en": "be affected by",
+                    "vi": "bị ảnh hưởng bởi"
+                  }
+                ],
+                "point_vi": "Tàu điện trên cao giúp việc đi lại nhanh hơn.",
+                "point_en": "Skytrains help people travel more quickly.",
+                "evidence_vi": "Tàu điện trên cao không bị ảnh hưởng bởi tình trạng kẹt xe.",
+                "evidence_en": "Skytrains are not affected by traffic jams."
+              },
+              {
+                "title": "ADVANTAGE 03",
+                "collocations": [
+                  {
+                    "en": "environmentally friendly",
+                    "vi": "thân thiện với môi trường"
+                  },
+                  {
+                    "en": "air pollution",
+                    "vi": "ô nhiễm không khí"
+                  },
+                  {
+                    "en": "reduce air pollution",
+                    "vi": "giảm ô nhiễm không khí"
+                  },
+                  {
+                    "en": "the number of",
+                    "vi": "số lượng"
+                  }
+                ],
+                "point_vi": "Tàu điện trên cao thân thiện hơn với môi trường.",
+                "point_en": "Skytrains are more environmentally friendly.",
+                "evidence_vi": "Việc giảm số lượng phương tiện cá nhân có thể giúp giảm ô nhiễm không khí.",
+                "evidence_en": "Reducing the number of private vehicles can help reduce air pollution."
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "DISADVANTAGE 01",
+                "collocations": [
+                  {
+                    "en": "financial investment",
+                    "vi": "nguồn vốn đầu tư"
+                  },
+                  {
+                    "en": "railway lines",
+                    "vi": "đường ray"
+                  },
+                  {
+                    "en": "stations",
+                    "vi": "nhà ga"
+                  },
+                  {
+                    "en": "a large amount of money",
+                    "vi": "một khoản tiền lớn"
+                  },
+                  {
+                    "en": "invest in",
+                    "vi": "đầu tư vào"
+                  },
+                  {
+                    "en": "require",
+                    "vi": "đòi hỏi"
+                  }
+                ],
+                "point_vi": "Việc xây dựng tàu điện trên cao đòi hỏi chi phí rất lớn.",
+                "point_en": "Building skytrains requires a large financial investment.",
+                "evidence_vi": "Chính phủ phải đầu tư rất nhiều tiền để xây dựng hệ thống đường ray và nhà ga.",
+                "evidence_en": "The government has to invest a large amount of money in railway lines and stations."
+              },
+              {
+                "title": "DISADVANTAGE 02",
+                "collocations": [
+                  {
+                    "en": "inconvenience",
+                    "vi": "sự bất tiện"
+                  },
+                  {
+                    "en": "construction work",
+                    "vi": "công trình xây dựng"
+                  },
+                  {
+                    "en": "construction period",
+                    "vi": "giai đoạn xây dựng"
+                  },
+                  {
+                    "en": "noise",
+                    "vi": "tiếng ồn"
+                  }
+                ],
+                "point_vi": "Việc xây dựng tàu điện trên cao có thể gây nhiều bất tiện.",
+                "point_en": "Building skytrains may cause inconvenience during the construction period.",
+                "evidence_vi": "Các công trình có thể gây kẹt xe và tiếng ồn trong thời gian xây dựng.",
+                "evidence_en": "Construction work may cause traffic jams and noise during the construction period."
+              },
+              {
+                "title": "DISADVANTAGE 03",
+                "collocations": [
+                  {
+                    "en": "conveniently",
+                    "vi": "một cách thuận tiện"
+                  },
+                  {
+                    "en": "train stations",
+                    "vi": "nhà ga"
+                  },
+                  {
+                    "en": "forms of transport",
+                    "vi": "phương tiện giao thông"
+                  },
+                  {
+                    "en": "live far from",
+                    "vi": "sống xa"
+                  }
+                ],
+                "point_vi": "Không phải ai cũng có thể sử dụng tàu điện trên cao một cách thuận tiện.",
+                "point_en": "Not everyone can use skytrains conveniently.",
+                "evidence_vi": "Một số người sống quá xa nhà ga nên vẫn phải sử dụng các phương tiện khác.",
+                "evidence_en": "Some people live too far from train stations, so they still need to use other forms of transport."
+              }
+            ]
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "ADVANTAGE 01",
+                "collocations": [
+                  {
+                    "en": "rush hours",
+                    "vi": "giờ cao điểm"
+                  },
+                  {
+                    "en": "switch from",
+                    "vi": "chuyển từ"
+                  },
+                  {
+                    "en": "make roads less crowded",
+                    "vi": "làm cho đường bớt đông đúc"
+                  }
+                ],
+                "point_vi": "Tàu điện trên cao góp phần giảm ùn tắc giao thông ở các thành phố lớn.",
+                "point_en": "Skytrains help reduce traffic congestion in big cities.",
+                "evidence_vi": "Nhiều người sẽ chuyển từ phương tiện cá nhân sang giao thông công cộng. Điều này giúp các tuyến đường bớt đông đúc hơn, đặc biệt vào giờ cao điểm.",
+                "evidence_en": "More people will switch from private vehicles to public transport. This makes roads less crowded, especially during rush hours."
+              },
+              {
+                "title": "ADVANTAGE 02",
+                "collocations": [
+                  {
+                    "en": "passengers",
+                    "vi": "hành khách"
+                  },
+                  {
+                    "en": "save time",
+                    "vi": "tiết kiệm thời gian"
+                  }
+                ],
+                "point_vi": "Tàu điện trên cao giúp việc đi lại nhanh hơn và thuận tiện hơn.",
+                "point_en": "Skytrains make travelling faster and more convenient.",
+                "evidence_vi": "Tàu điện trên cao không bị ảnh hưởng bởi tình trạng kẹt xe. Nhờ đó, hành khách có thể tiết kiệm thời gian khi di chuyển trong thành phố.",
+                "evidence_en": "Skytrains are not affected by traffic congestion. As a result, passengers can save time when travelling around the city."
+              },
+              {
+                "title": "ADVANTAGE 03",
+                "collocations": [
+                  {
+                    "en": "emissions",
+                    "vi": "khí thải"
+                  },
+                  {
+                    "en": "air quality",
+                    "vi": "chất lượng không khí"
+                  },
+                  {
+                    "en": "urban areas",
+                    "vi": "khu vực đô thị"
+                  },
+                  {
+                    "en": "contribute to",
+                    "vi": "góp phần vào"
+                  },
+                  {
+                    "en": "improve",
+                    "vi": "cải thiện"
+                  }
+                ],
+                "point_vi": "Tàu điện trên cao góp phần bảo vệ môi trường.",
+                "point_en": "Skytrains are more environmentally friendly.",
+                "evidence_vi": "Việc giảm số lượng phương tiện cá nhân giúp giảm lượng khí thải. Điều này góp phần cải thiện chất lượng không khí ở các thành phố lớn.",
+                "evidence_en": "Reducing the number of private vehicles helps reduce emissions. This contributes to improving air quality in urban areas."
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "DISADVANTAGE 01",
+                "collocations": [
+                  {
+                    "en": "infrastructure",
+                    "vi": "cơ sở hạ tầng"
+                  },
+                  {
+                    "en": "public services",
+                    "vi": "dịch vụ công"
+                  },
+                  {
+                    "en": "budget",
+                    "vi": "ngân sách"
+                  }
+                ],
+                "point_vi": "Việc xây dựng tàu điện trên cao đòi hỏi nguồn vốn đầu tư rất lớn.",
+                "point_en": "Building skytrains requires a large financial investment.",
+                "evidence_vi": "Chính phủ phải chi rất nhiều tiền để xây dựng đường ray, nhà ga và các cơ sở hạ tầng liên quan. Điều này có thể làm giảm ngân sách dành cho các dịch vụ công khác.",
+                "evidence_en": "The government must spend a large amount of money on railway lines, stations, and related infrastructure. This may reduce the budget available for other public services."
+              },
+              {
+                "title": "DISADVANTAGE 02",
+                "collocations": [
+                  {
+                    "en": "disrupt daily life",
+                    "vi": "làm gián đoạn cuộc sống hằng ngày"
+                  },
+                  {
+                    "en": "daily activities",
+                    "vi": "sinh hoạt hằng ngày"
+                  }
+                ],
+                "point_vi": "Việc xây dựng tàu điện trên cao có thể làm gián đoạn cuộc sống hằng ngày.",
+                "point_en": "Building skytrains may disrupt daily life.",
+                "evidence_vi": "Các công trình có thể gây ùn tắc giao thông và tiếng ồn trong thời gian dài. Điều này có thể ảnh hưởng đến việc đi lại và sinh hoạt của người dân.",
+                "evidence_en": "Construction work may cause traffic congestion and noise for a long period. This may affect people's travel and daily activities."
+              },
+              {
+                "title": "DISADVANTAGE 03",
+                "collocations": [
+                  {
+                    "en": "benefit",
+                    "vi": "mang lại lợi ích"
+                  },
+                  {
+                    "en": "access",
+                    "vi": "tiếp cận"
+                  },
+                  {
+                    "en": "make something difficult",
+                    "vi": "khiến việc gì trở nên khó khăn"
+                  }
+                ],
+                "point_vi": "Không phải mọi người đều có thể hưởng lợi từ tàu điện trên cao.",
+                "point_en": "Skytrains may not benefit everyone.",
+                "evidence_vi": "Một số khu vực không có nhà ga nên người dân khó tiếp cận hệ thống này. Những người sống xa nhà ga vẫn phải sử dụng các phương tiện giao thông khác.",
+                "evidence_en": "Some areas do not have train stations, making the system difficult to access. People living far from stations still need to use other forms of transport."
+              }
+            ]
+          },
+          "vocab": [
+            {
+              "en": "skytrains",
+              "vi": "tàu điện trên cao"
+            },
+            {
+              "en": "reduce traffic congestion",
+              "vi": "giảm ùn tắc giao thông"
+            },
+            {
+              "en": "big cities",
+              "vi": "thành phố lớn"
+            },
+            {
+              "en": "public transport",
+              "vi": "phương tiện giao thông công cộng"
+            },
+            {
+              "en": "private vehicles",
+              "vi": "phương tiện cá nhân"
+            },
+            {
+              "en": "instead of",
+              "vi": "thay vì"
+            },
+            {
+              "en": "travel more quickly",
+              "vi": "di chuyển nhanh hơn"
+            },
+            {
+              "en": "traffic jams",
+              "vi": "kẹt xe"
+            },
+            {
+              "en": "travel around the city",
+              "vi": "di chuyển trong thành phố"
+            },
+            {
+              "en": "save travel time",
+              "vi": "tiết kiệm thời gian đi lại"
+            },
+            {
+              "en": "be affected by",
+              "vi": "bị ảnh hưởng bởi"
+            },
+            {
+              "en": "environmentally friendly",
+              "vi": "thân thiện với môi trường"
+            },
+            {
+              "en": "air pollution",
+              "vi": "ô nhiễm không khí"
+            },
+            {
+              "en": "reduce air pollution",
+              "vi": "giảm ô nhiễm không khí"
+            },
+            {
+              "en": "the number of",
+              "vi": "số lượng"
+            },
+            {
+              "en": "financial investment",
+              "vi": "nguồn vốn đầu tư"
+            },
+            {
+              "en": "railway lines",
+              "vi": "đường ray"
+            },
+            {
+              "en": "stations",
+              "vi": "nhà ga"
+            },
+            {
+              "en": "a large amount of money",
+              "vi": "một khoản tiền lớn"
+            },
+            {
+              "en": "invest in",
+              "vi": "đầu tư vào"
+            },
+            {
+              "en": "require",
+              "vi": "đòi hỏi"
+            },
+            {
+              "en": "inconvenience",
+              "vi": "sự bất tiện"
+            },
+            {
+              "en": "construction work",
+              "vi": "công trình xây dựng"
+            },
+            {
+              "en": "construction period",
+              "vi": "giai đoạn xây dựng"
+            },
+            {
+              "en": "noise",
+              "vi": "tiếng ồn"
+            },
+            {
+              "en": "conveniently",
+              "vi": "một cách thuận tiện"
+            },
+            {
+              "en": "train stations",
+              "vi": "nhà ga"
+            },
+            {
+              "en": "forms of transport",
+              "vi": "phương tiện giao thông"
+            },
+            {
+              "en": "live far from",
+              "vi": "sống xa"
+            },
+            {
+              "en": "rush hours",
+              "vi": "giờ cao điểm"
+            },
+            {
+              "en": "switch from",
+              "vi": "chuyển từ"
+            },
+            {
+              "en": "make roads less crowded",
+              "vi": "làm cho đường bớt đông đúc"
+            },
+            {
+              "en": "passengers",
+              "vi": "hành khách"
+            },
+            {
+              "en": "save time",
+              "vi": "tiết kiệm thời gian"
+            },
+            {
+              "en": "emissions",
+              "vi": "khí thải"
+            },
+            {
+              "en": "air quality",
+              "vi": "chất lượng không khí"
+            },
+            {
+              "en": "urban areas",
+              "vi": "khu vực đô thị"
+            },
+            {
+              "en": "contribute to",
+              "vi": "góp phần vào"
+            },
+            {
+              "en": "improve",
+              "vi": "cải thiện"
+            },
+            {
+              "en": "infrastructure",
+              "vi": "cơ sở hạ tầng"
+            },
+            {
+              "en": "public services",
+              "vi": "dịch vụ công"
+            },
+            {
+              "en": "budget",
+              "vi": "ngân sách"
+            },
+            {
+              "en": "disrupt daily life",
+              "vi": "làm gián đoạn cuộc sống hằng ngày"
+            },
+            {
+              "en": "daily activities",
+              "vi": "sinh hoạt hằng ngày"
+            },
+            {
+              "en": "benefit",
+              "vi": "mang lại lợi ích"
+            },
+            {
+              "en": "access",
+              "vi": "tiếp cận"
+            },
+            {
+              "en": "make something difficult",
+              "vi": "khiến việc gì trở nên khó khăn"
+            }
+          ],
+          "sample_b1": "In recent years, building <strong>skytrains</strong> has become a popular trend in modern society. Although it has some benefits, there are also some drawbacks. <strong>This essay will discuss both sides of this topic.</strong>\n\n<strong>On the one hand, constructing elevated railways has several advantages.</strong> One major benefit is that <strong><em>skytrains help reduce traffic congestion in big cities</em></strong>. This is because more people will use public transport instead of private vehicles, which can help them avoid traffic jams. Another positive aspect is that <strong><em>skytrains help people travel more quickly</em></strong>. The main reason is that skytrains are not affected by traffic jams, so passengers can save travel time. A further good point is that <strong><em>skytrains are more environmentally friendly</em></strong>. This means that reducing the number of private vehicles can help reduce air pollution.\n\n<strong>On the other hand, there are also several disadvantages.</strong> One possible drawback is that <strong><em>building skytrains requires a large financial investment</em></strong>. This is because the government has to invest a large amount of money in railway lines and stations. Another negative aspect is that <strong><em>building skytrains may cause inconvenience during the construction period</em></strong>. In fact, construction work may cause traffic jams and noise during the construction period. Finally, <strong><em>not everyone can use skytrains conveniently</em></strong>. As a result, some people live too far from train stations, so they still need to use other forms of transport.\n\nIn conclusion, <strong>building sky-train systems</strong> has both advantages and disadvantages. These points show that it has different effects on people’s lives. Therefore, it is important to consider both sides before making a decision.",
+          "translation_b1": "Trong những năm gần đây, việc xây dựng <strong>tàu điện trên cao</strong> đã trở thành một xu hướng phổ biến trong xã hội hiện đại. Mặc dù nó có một số lợi ích, cũng có một số hạn chế. <strong>Bài luận này sẽ thảo luận về cả hai khía cạnh của chủ đề này.</strong>\n\n<strong>Một mặt, việc xây dựng đường sắt trên cao có một vài lợi ích.</strong> Một lợi ích chính là <strong><em>tàu điện trên cao giúp giảm ùn tắc giao thông ở các thành phố lớn</em></strong>. Điều này là do nhiều người sẽ sử dụng phương tiện giao thông công cộng thay vì phương tiện cá nhân, điều này có thể giúp họ tránh kẹt xe. Một khía cạnh tích cực khác là <strong><em>tàu điện trên cao giúp việc đi lại nhanh hơn</em></strong>. Lý do chính là tàu điện trên cao không bị ảnh hưởng bởi tình trạng kẹt xe, nên hành khách có thể tiết kiệm thời gian đi lại. Một điểm tốt nữa là <strong><em>tàu điện trên cao thân thiện hơn với môi trường</em></strong>. Điều này có nghĩa là việc giảm số lượng phương tiện cá nhân có thể giúp giảm ô nhiễm không khí.\n\n<strong>Mặt khác, cũng có một vài bất lợi.</strong> Một hạn chế có thể xảy ra là <strong><em>việc xây dựng tàu điện trên cao đòi hỏi chi phí rất lớn</em></strong>. Điều này là do chính phủ phải đầu tư rất nhiều tiền để xây dựng hệ thống đường ray và nhà ga. Một khía cạnh tiêu cực khác là <strong><em>việc xây dựng tàu điện trên cao có thể gây nhiều bất tiện</em></strong>. Trên thực tế, các công trình có thể gây kẹt xe và tiếng ồn trong thời gian xây dựng. Cuối cùng, <strong><em>không phải ai cũng có thể sử dụng tàu điện trên cao một cách thuận tiện</em></strong>. Kết quả là, một số người sống quá xa nhà ga nên vẫn phải sử dụng các phương tiện khác.\n\nTóm lại, <strong>việc xây dựng hệ thống tàu điện trên cao</strong> có cả lợi ích và bất lợi. Những điểm này cho thấy nó có những tác động khác nhau đến cuộc sống của con người. Vì vậy, điều quan trọng là phải xem xét cả hai khía cạnh trước khi đưa ra quyết định.",
+          "sample_b2": "In recent years, the construction of <strong>skytrains</strong> has become an increasingly debated topic in modern society. While it offers undeniable benefits, there are also significant drawbacks. <strong>This essay will analyze both sides of this issue.</strong>\n\n<strong>On the one hand, investing in elevated transit provides several major advantages.</strong> One significant benefit is that <strong><em>skytrains help reduce traffic congestion in big cities</em></strong>. This is primarily because more people will switch from private vehicles to public transport, which makes roads less crowded, especially during rush hours. Another positive aspect is that <strong><em>skytrains make travelling faster and more convenient</em></strong>. The underlying reason is that skytrains are not affected by traffic congestion, so as a result, passengers can save time when travelling around the city. A further merit is that <strong><em>skytrains are more environmentally friendly</em></strong>. Specifically, reducing the number of private vehicles helps reduce emissions, which contributes to improving air quality in urban areas.\n\n<strong>On the other hand, there are also notable disadvantages.</strong> One potential drawback is that <strong><em>building skytrains requires a large financial investment</em></strong>. Since the government must spend a large amount of money on railway lines, stations, and related infrastructure, this may reduce the budget available for other public services. Another negative aspect is that <strong><em>building skytrains may disrupt daily life</em></strong>. In reality, construction work may cause traffic congestion and noise for a long period, which may affect people's travel and daily activities. Lastly, <strong><em>skytrains may not benefit everyone</em></strong>. Consequently, some areas do not have train stations, making the system difficult to access, and people living far from stations still need to use other forms of transport.\n\nIn conclusion, <strong>constructing elevated railways</strong> presents both advantages and disadvantages. These points demonstrate that it has diverse impacts on urban development. Therefore, it is crucial to carefully weigh both perspectives before adopting this transport model.",
+          "translation_b2": "Trong những năm gần đây, việc xây dựng <strong>tàu điện trên cao</strong> đã trở thành một chủ đề ngày càng được tranh luận nhiều trong xã hội hiện đại. Mặc dù nó mang lại những lợi ích không thể phủ nhận, cũng có những hạn chế đáng kể. <strong>Bài luận này sẽ phân tích cả hai khía cạnh của vấn đề này.</strong>\n\n<strong>Một mặt, việc đầu tư vào giao thông trên cao cung cấp một vài lợi thế lớn.</strong> Một lợi ích quan trọng là <strong><em>tàu điện trên cao góp phần giảm ùn tắc giao thông ở các thành phố lớn</em></strong>. Điều này chủ yếu là do nhiều người sẽ chuyển từ phương tiện cá nhân sang giao thông công cộng, điều này giúp các tuyến đường bớt đông đúc hơn, đặc biệt vào giờ cao điểm. Một khía cạnh tích cực khác là <strong><em>tàu điện trên cao giúp việc đi lại nhanh hơn và thuận tiện hơn</em></strong>. Lý do sâu xa là tàu điện trên cao không bị ảnh hưởng bởi tình trạng kẹt xe, nên nhờ đó, hành khách có thể tiết kiệm thời gian khi di chuyển trong thành phố. Một điểm mạnh nữa là <strong><em>tàu điện trên cao góp phần bảo vệ môi trường</em></strong>. Cụ thể, việc giảm số lượng phương tiện cá nhân giúp giảm lượng khí thải, điều này góp phần cải thiện chất lượng không khí ở các khu vực đô thị.\n\n<strong>Mặt khác, cũng có những bất lợi đáng chú ý.</strong> Một hạn chế tiềm tàng là <strong><em>việc xây dựng tàu điện trên cao đòi hỏi nguồn vốn đầu tư rất lớn</em></strong>. Vì chính phủ phải chi rất nhiều tiền để xây dựng đường ray, nhà ga và các cơ sở hạ tầng liên quan, điều này có thể làm giảm ngân sách dành cho các dịch vụ công khác. Một khía cạnh tiêu cực khác là <strong><em>việc xây dựng tàu điện trên cao có thể làm gián đoạn cuộc sống hằng ngày</em></strong>. Trên thực tế, các công trình có thể gây ùn tắc giao thông và tiếng ồn trong thời gian dài, điều này có thể ảnh hưởng đến việc đi lại và sinh hoạt của người dân. Cuối cùng, <strong><em>không phải mọi người đều có thể hưởng lợi từ tàu điện trên cao</em></strong>. Hậu quả là, một số khu vực không có nhà ga, khiến hệ thống này khó tiếp cận, và những người sống xa nhà ga vẫn phải sử dụng các phương tiện giao thông khác.\n\nTóm lại, <strong>việc xây dựng đường sắt trên cao</strong> đưa ra cả lợi thế và bất lợi. Những điểm này chứng minh rằng nó có những tác động đa dạng đến sự phát triển đô thị. Vì vậy, điều tối quan trọng là phải cân nhắc kỹ lưỡng cả hai góc nhìn trước khi áp dụng mô hình giao thông này."
+        }
       },
       {
         "id": 11,
