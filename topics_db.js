@@ -13442,26 +13442,22 @@ const ESSAY_DATA = [
                     "vi": "một lượng lớn"
                   },
                   {
-                    "en": "leave taps running",
-                    "vi": "để vòi nước chảy"
+                    "en": "forget to turn off",
+                    "vi": "quên tắt"
                   },
                   {
-                    "en": "unnecessarily",
-                    "vi": "không cần thiết"
+                    "en": "the tap",
+                    "vi": "vòi nước"
                   },
                   {
-                    "en": "waste",
-                    "vi": "lãng phí"
-                  },
-                  {
-                    "en": "leave + O + V-ing",
-                    "vi": "để..."
+                    "en": "use too much water",
+                    "vi": "sử dụng quá nhiều nước"
                   }
                 ],
                 "point_vi": "Việc sử dụng nước thiếu ý thức làm lãng phí một lượng lớn nước.",
                 "point_en": "Careless water use wastes a large amount of water.",
-                "evidence_vi": "Nhiều người để vòi nước chảy hoặc sử dụng nước không cần thiết.",
-                "evidence_en": "Many people leave taps running or use water unnecessarily."
+                "evidence_vi": "Nhiều người quên tắt vòi nước hoặc sử dụng quá nhiều nước.",
+                "evidence_en": "Many people forget to turn off the tap or use too much water."
               },
               {
                 "title": "CAUSE 03",
@@ -13825,20 +13821,16 @@ const ESSAY_DATA = [
               "vi": "một lượng lớn"
             },
             {
-              "en": "leave taps running",
-              "vi": "để vòi nước chảy"
+              "en": "forget to turn off",
+              "vi": "quên tắt"
             },
             {
-              "en": "unnecessarily",
-              "vi": "không cần thiết"
+              "en": "the tap",
+              "vi": "vòi nước"
             },
             {
-              "en": "waste",
-              "vi": "lãng phí"
-            },
-            {
-              "en": "leave + O + V-ing",
-              "vi": "để..."
+              "en": "use too much water",
+              "vi": "sử dụng quá nhiều nước"
             },
             {
               "en": "population growth",
@@ -13945,6 +13937,10 @@ const ESSAY_DATA = [
               "vi": "không hiệu quả"
             },
             {
+              "en": "waste",
+              "vi": "lãng phí"
+            },
+            {
               "en": "existing water resources",
               "vi": "nguồn nước hiện có"
             },
@@ -13997,8 +13993,8 @@ const ESSAY_DATA = [
               "vi": "hình thành"
             }
           ],
-          "sample_b1": "In today's society, <strong>water shortages</strong> have become a serious problem in many parts of the world. There are several causes of this issue, and some effective solutions can be implemented to address it. <strong>This essay will discuss the causes of water shortages and suggest some solutions.</strong>\n\n<strong>There are several reasons why water shortages occur.</strong> First of all, <strong><em>climate change reduces the amount of available freshwater</em></strong>. This is because long periods of drought and irregular rainfall leave many areas with less clean water. Secondly, <strong><em>careless water use wastes a large amount of water</em></strong>. The main reason is that many people leave taps running or use water unnecessarily. Finally, <strong><em>population growth increases the demand for water</em></strong>. This means that more people need water for daily life, farming, and industry.\n\n<strong>However, there are some effective solutions to solve this problem.</strong> One possible solution is that <strong><em>people should use water more responsibly</em></strong>. This is because turning off taps when they are not in use can reduce water waste. Another practical measure is that <strong><em>governments should improve water management</em></strong>. In fact, they can build more water storage and distribution systems. Finally, <strong><em>people should be educated about water conservation</em></strong>. As a result, educational campaigns can encourage people to use water more responsibly.\n\nIn conclusion, <strong>lack of freshwater</strong> is caused by climate change, careless water use, and population growth. Nevertheless, using water responsibly, improving water management, and educating people are effective ways to address this issue. Therefore, everyone should work together to protect water resources.",
-          "translation_b1": "Trong xã hội ngày nay, <strong>tình trạng thiếu nước</strong> đã trở thành một vấn đề nghiêm trọng ở nhiều nơi trên thế giới. Có một vài nguyên nhân gây ra vấn đề này, và một số giải pháp hiệu quả có thể được thực hiện để giải quyết nó. <strong>Bài luận này sẽ thảo luận về nguyên nhân của tình trạng thiếu nước và đề xuất một số giải pháp.</strong>\n\n<strong>Có một vài lý do tại sao tình trạng thiếu nước lại xảy ra.</strong> Trước hết, <strong><em>biến đổi khí hậu làm giảm lượng nước ngọt sẵn có</em></strong>. Điều này là do hạn hán kéo dài và lượng mưa thất thường khiến nhiều khu vực thiếu nước sạch. Thứ hai, <strong><em>việc sử dụng nước thiếu ý thức làm lãng phí một lượng lớn nước</em></strong>. Lý do chính là nhiều người để vòi nước chảy hoặc sử dụng nước không cần thiết. Cuối cùng, <strong><em>sự gia tăng dân số làm tăng nhu cầu sử dụng nước</em></strong>. Điều này có nghĩa là nhiều người hơn cần nước cho sinh hoạt, nông nghiệp và công nghiệp.\n\n<strong>Tuy nhiên, có một số giải pháp hiệu quả để giải quyết vấn đề này.</strong> Một giải pháp có thể thực hiện là <strong><em>mọi người nên sử dụng nước tiết kiệm và có trách nhiệm hơn</em></strong>. Điều này là do việc tắt vòi nước khi không sử dụng có thể giảm lãng phí nước. Một biện pháp thiết thực khác là <strong><em>chính phủ nên quản lý nguồn nước hiệu quả hơn</em></strong>. Trên thực tế, họ có thể xây dựng thêm các hệ thống lưu trữ và phân phối nước. Cuối cùng, <strong><em>người dân nên được giáo dục về việc tiết kiệm và bảo vệ nguồn nước</em></strong>. Kết quả là, các chiến dịch giáo dục có thể khuyến khích mọi người sử dụng nước có trách nhiệm hơn.\n\nTóm lại, <strong>sự thiếu hụt nước ngọt</strong> được gây ra bởi biến đổi khí hậu, việc sử dụng nước thiếu ý thức và sự gia tăng dân số. Mặc dù vậy, việc sử dụng nước có trách nhiệm, cải thiện quản lý nguồn nước và giáo dục người dân là những cách hiệu quả để giải quyết vấn đề này. Vì vậy, mọi người nên cùng nhau hợp tác để bảo vệ nguồn tài nguyên nước.",
+          "sample_b1": "In today's society, <strong>water shortages</strong> have become a serious problem in many parts of the world. There are several causes of this issue, and some effective solutions can be implemented to address it. <strong>This essay will discuss the causes of water shortages and suggest some solutions.</strong>\n\n<strong>There are several reasons why water shortages occur.</strong> First of all, <strong><em>climate change reduces the amount of available freshwater</em></strong>. This is because long periods of drought and irregular rainfall leave many areas with less clean water. Secondly, <strong><em>careless water use wastes a large amount of water</em></strong>. The main reason is that many people forget to turn off the tap or use too much water. Finally, <strong><em>population growth increases the demand for water</em></strong>. This means that more people need water for daily life, farming, and industry.\n\n<strong>However, there are some effective solutions to solve this problem.</strong> One possible solution is that <strong><em>people should use water more responsibly</em></strong>. This is because turning off taps when they are not in use can reduce water waste. Another practical measure is that <strong><em>governments should improve water management</em></strong>. In fact, they can build more water storage and distribution systems. Finally, <strong><em>people should be educated about water conservation</em></strong>. As a result, educational campaigns can encourage people to use water more responsibly.\n\nIn conclusion, <strong>lack of freshwater</strong> is caused by climate change, careless water use, and population growth. Nevertheless, using water responsibly, improving water management, and educating people are effective ways to address this issue. Therefore, everyone should work together to protect water resources.",
+          "translation_b1": "Trong xã hội ngày nay, <strong>tình trạng thiếu nước</strong> đã trở thành một vấn đề nghiêm trọng ở nhiều nơi trên thế giới. Có một vài nguyên nhân gây ra vấn đề này, và một số giải pháp hiệu quả có thể được thực hiện để giải quyết nó. <strong>Bài luận này sẽ thảo luận về nguyên nhân của tình trạng thiếu nước và đề xuất một số giải pháp.</strong>\n\n<strong>Có một vài lý do tại sao tình trạng thiếu nước lại xảy ra.</strong> Trước hết, <strong><em>biến đổi khí hậu làm giảm lượng nước ngọt sẵn có</em></strong>. Điều này là do hạn hán kéo dài và lượng mưa thất thường khiến nhiều khu vực thiếu nước sạch. Thứ hai, <strong><em>việc sử dụng nước thiếu ý thức làm lãng phí một lượng lớn nước</em></strong>. Lý do chính là nhiều người quên tắt vòi nước hoặc sử dụng quá nhiều nước. Cuối cùng, <strong><em>sự gia tăng dân số làm tăng nhu cầu sử dụng nước</em></strong>. Điều này có nghĩa là nhiều người hơn cần nước cho sinh hoạt, nông nghiệp và công nghiệp.\n\n<strong>Tuy nhiên, có một số giải pháp hiệu quả để giải quyết vấn đề này.</strong> Một giải pháp có thể thực hiện là <strong><em>mọi người nên sử dụng nước tiết kiệm và có trách nhiệm hơn</em></strong>. Điều này là do việc tắt vòi nước khi không sử dụng có thể giảm lãng phí nước. Một biện pháp thiết thực khác là <strong><em>chính phủ nên quản lý nguồn nước hiệu quả hơn</em></strong>. Trên thực tế, họ có thể xây dựng thêm các hệ thống lưu trữ và phân phối nước. Cuối cùng, <strong><em>người dân nên được giáo dục về việc tiết kiệm và bảo vệ nguồn nước</em></strong>. Kết quả là, các chiến dịch giáo dục có thể khuyến khích mọi người sử dụng nước có trách nhiệm hơn.\n\nTóm lại, <strong>sự thiếu hụt nước ngọt</strong> được gây ra bởi biến đổi khí hậu, việc sử dụng nước thiếu ý thức và sự gia tăng dân số. Mặc dù vậy, việc sử dụng nước có trách nhiệm, cải thiện quản lý nguồn nước và giáo dục người dân là những cách hiệu quả để giải quyết vấn đề này. Vì vậy, mọi người nên cùng nhau hợp tác để bảo vệ nguồn tài nguyên nước.",
           "sample_b2": "In contemporary society, <strong>water shortages</strong> have become an increasingly severe problem in many regions worldwide. There are various underlying causes of this phenomenon, and several effective measures should be implemented to mitigate it. <strong>This essay will analyze the root causes of water shortages and propose viable solutions.</strong>\n\n<strong>There are several primary factors contributing to this alarming issue.</strong> First and foremost, <strong><em>climate change reduces the amount of available freshwater</em></strong>. This is primarily because long periods of drought and irregular rainfall reduce natural water supplies, and as a result, many regions regularly face water shortages. Secondly, <strong><em>excessive water consumption wastes valuable water resources</em></strong>. The underlying reason is that many households and businesses use water inefficiently, which reduces the amount of clean water available for use. Lastly, <strong><em>population growth increases the demand for water</em></strong>. Specifically, more people require water for daily life, agriculture, and industry, which places greater pressure on existing water resources.\n\n<strong>Nevertheless, several practical solutions can be adopted to tackle this problem.</strong> One viable solution is that <strong><em>people should use water more responsibly</em></strong>. Since they should avoid wasting water in their daily lives, this helps reduce unnecessary water waste. Another effective measure is that <strong><em>governments should improve water management systems</em></strong>. In reality, they can invest in modern water storage and distribution systems, which helps supply water more efficiently to local communities. Finally, <strong><em>people should be educated about water conservation</em></strong>. Consequently, public campaigns can encourage people to use water more responsibly, and this helps develop long-term water-saving habits.\n\nIn conclusion, climate change, excessive water consumption, and population growth are the main culprits behind <strong>water scarcity</strong>. However, by using water responsibly, enhancing management systems, and promoting conservation education, this global crisis can be effectively managed. Therefore, it is imperative for governments and individuals to collaborate in preserving water resources.",
           "translation_b2": "Trong xã hội đương đại, <strong>tình trạng thiếu nước</strong> đã trở thành một vấn đề ngày càng nghiêm trọng ở nhiều khu vực trên toàn thế giới. Có nhiều nguyên nhân sâu xa khác nhau của hiện tượng này, và một vài biện pháp hiệu quả nên được thực hiện để giảm nhẹ nó. <strong>Bài luận này sẽ phân tích những nguyên nhân gốc rễ của tình trạng thiếu nước và đề xuất những giải pháp khả thi.</strong>\n\n<strong>Có một vài yếu tố chính góp phần vào vấn đề đáng báo động này.</strong> Đầu tiên và quan trọng nhất, <strong><em>biến đổi khí hậu làm giảm lượng nước ngọt sẵn có</em></strong>. Điều này chủ yếu là do hạn hán kéo dài và lượng mưa thất thường làm giảm nguồn nước tự nhiên, và hậu quả là, nhiều khu vực thường xuyên đối mặt với tình trạng thiếu nước. Thứ hai, <strong><em>việc sử dụng nước quá mức làm lãng phí nguồn nước quý giá</em></strong>. Lý do sâu xa là nhiều hộ gia đình và doanh nghiệp sử dụng nước không hiệu quả, điều này làm giảm lượng nước sạch có thể sử dụng. Cuối cùng, <strong><em>sự gia tăng dân số làm tăng nhu cầu sử dụng nước</em></strong>. Cụ thể, nhiều người hơn cần nước cho sinh hoạt, nông nghiệp và công nghiệp, điều này tạo thêm áp lực lên nguồn nước hiện có.\n\n<strong>Tuy nhiên, một số giải pháp thiết thực có thể được áp dụng để giải quyết vấn đề này.</strong> Một giải pháp khả thi là <strong><em>mọi người nên sử dụng nước tiết kiệm và có trách nhiệm hơn</em></strong>. Vì họ nên tránh lãng phí nước trong sinh hoạt hằng ngày, điều này giúp giảm lượng nước bị lãng phí. Một biện pháp hiệu quả khác là <strong><em>chính phủ nên cải thiện hệ thống quản lý nguồn nước</em></strong>. Trên thực tế, họ có thể đầu tư vào các hệ thống lưu trữ và phân phối nước hiện đại, điều này giúp cung cấp nước hiệu quả hơn cho người dân. Cuối cùng, <strong><em>người dân nên được giáo dục về việc tiết kiệm và bảo vệ nguồn nước</em></strong>. Hậu quả là, các chiến dịch truyền thông có thể khuyến khích mọi người sử dụng nước có trách nhiệm hơn, và điều này giúp hình thành những thói quen tiết kiệm nước lâu dài.\n\nTóm lại, biến đổi khí hậu, việc sử dụng nước quá mức và sự gia tăng dân số là những thủ phạm chính đằng sau <strong>sự khan hiếm nước</strong>. Tuy nhiên, bằng cách sử dụng nước có trách nhiệm, nâng cao các hệ thống quản lý và thúc đẩy giáo dục bảo tồn, cuộc khủng hoảng toàn cầu này có thể được quản lý một cách hiệu quả. Vì vậy, điều cấp bách là các chính phủ và cá nhân phải hợp tác trong việc bảo vệ nguồn tài nguyên nước."
         }
