@@ -4901,12 +4901,36 @@ function getTopicParaphrases(topic) {
     ];
   }
 
-  // Fallback templates with keywords from the topic title
+  // Fallback templates with keywords from the topic title based on Category
   const cleanTitle = topic.title_en.replace(/advantages\s*&\s*disadvantages\s*of\s*/i, "").replace(/pros\s*&\s*cons\s*of\s*/i, "");
+  const titleEn = cleanTitle.toLowerCase();
+  const titleVi = topic.title_vi.toLowerCase();
+  const capTitleEn = titleEn.charAt(0).toUpperCase() + titleEn.slice(1);
+  const capTitleVi = titleVi.charAt(0).toUpperCase() + titleVi.slice(1);
+
+  // Category 2 is Problem & Solution
+  if (currentCategory && currentCategory.id === 2) {
+    return [
+      { en: `${capTitleEn} has become a growing concern in today's society...`, vi: `${capTitleVi} đã trở thành một mối lo ngại ngày càng tăng trong xã hội ngày nay...` },
+      { en: `One of the most pressing issues that modern society faces is ${titleEn}...`, vi: `Một trong những vấn đề cấp bách nhất mà xã hội hiện đại phải đối mặt là ${titleVi}...` },
+      { en: `There is a growing concern about the negative impacts of ${titleEn}...`, vi: `Ngày càng có nhiều lo ngại về những tác động tiêu cực của ${titleVi}...` }
+    ];
+  }
+  
+  // Category 1 is Advantages & Disadvantages
+  if (currentCategory && currentCategory.id === 1) {
+    return [
+      { en: `It is undeniable that ${titleEn} brings both benefits and drawbacks...`, vi: `Không thể phủ nhận rằng ${titleVi} mang lại cả lợi ích lẫn bất lợi...` },
+      { en: `A highly controversial topic is whether the advantages of ${titleEn} outweigh its disadvantages...`, vi: `Một chủ đề gây nhiều tranh cãi là liệu lợi ích của ${titleVi} có vượt trội hơn bất lợi của nó hay không...` },
+      { en: `Opinions are divided on whether ${titleEn} is a positive or negative development...`, vi: `Các ý kiến bị chia rẽ về việc liệu ${titleVi} là một sự phát triển tích cực hay tiêu cực...` }
+    ];
+  }
+
+  // Default fallback for Opinion (Category 3) and Discussion (Category 4)
   return [
-    { en: `It is believed by many that ${cleanTitle.toLowerCase()}...`, vi: `Nhiều người tin rằng ${topic.title_vi.toLowerCase()}...` },
-    { en: `A highly controversial topic is whether ${cleanTitle.toLowerCase()} is beneficial...`, vi: `Một chủ đề gây nhiều tranh cãi là liệu ${topic.title_vi.toLowerCase()} có mang lại lợi ích...` },
-    { en: `There is a growing concern about the impacts of ${cleanTitle.toLowerCase()}...`, vi: `Ngày càng có nhiều sự lo ngại về những tác động của ${topic.title_vi.toLowerCase()}...` }
+    { en: `It is believed by many that ${titleEn}...`, vi: `Nhiều người tin rằng ${titleVi}...` },
+    { en: `A highly controversial topic is whether ${titleEn}...`, vi: `Một chủ đề gây nhiều tranh cãi là liệu ${titleVi}...` },
+    { en: `Opinions are divided on whether ${titleEn}...`, vi: `Các ý kiến bị chia rẽ về việc liệu ${titleVi}...` }
   ];
 }
 
