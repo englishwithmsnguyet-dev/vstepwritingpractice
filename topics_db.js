@@ -3598,28 +3598,12 @@ const ESSAY_DATA = [
                     "vi": "làm việc tại nhà"
                   },
                   {
-                    "en": "help employees",
-                    "vi": "giúp nhân viên"
-                  },
-                  {
                     "en": "save time and money",
                     "vi": "tiết kiệm thời gian và tiền bạc"
                   },
                   {
-                    "en": "workers",
-                    "vi": "người lao động"
-                  },
-                  {
-                    "en": "do not need to",
-                    "vi": "không cần phải"
-                  },
-                  {
                     "en": "commute to the office",
                     "vi": "đi lại đến văn phòng"
-                  },
-                  {
-                    "en": "every day",
-                    "vi": "mỗi ngày"
                   }
                 ],
                 "point_vi": "Làm việc tại nhà giúp nhân viên tiết kiệm thời gian và tiền bạc.",
@@ -3633,10 +3617,6 @@ const ESSAY_DATA = [
                   {
                     "en": "remote work",
                     "vi": "làm việc từ xa"
-                  },
-                  {
-                    "en": "offer",
-                    "vi": "mang lại / cung cấp"
                   },
                   {
                     "en": "flexibility and convenience",
@@ -3707,10 +3687,6 @@ const ESSAY_DATA = [
                     "vi": "qua màn hình"
                   },
                   {
-                    "en": "make someone feel",
-                    "vi": "khiến ai đó cảm thấy"
-                  },
-                  {
                     "en": "isolated",
                     "vi": "bị cô lập"
                   }
@@ -3732,20 +3708,8 @@ const ESSAY_DATA = [
                     "vi": "giữ tập trung"
                   },
                   {
-                    "en": "at home",
-                    "vi": "khi ở nhà"
-                  },
-                  {
                     "en": "many distractions",
                     "vi": "nhiều sự xao nhãng"
-                  },
-                  {
-                    "en": "such as",
-                    "vi": "như là"
-                  },
-                  {
-                    "en": "television",
-                    "vi": "ti vi"
                   },
                   {
                     "en": "housework",
@@ -3761,10 +3725,6 @@ const ESSAY_DATA = [
                 "title": "DISADVANTAGE 03",
                 "collocations": [
                   {
-                    "en": "very difficult",
-                    "vi": "rất khó"
-                  },
-                  {
                     "en": "separate",
                     "vi": "tách bạch / phân tách"
                   },
@@ -3773,16 +3733,8 @@ const ESSAY_DATA = [
                     "vi": "công việc và thời gian nghỉ ngơi"
                   },
                   {
-                    "en": "many people",
-                    "vi": "nhiều người"
-                  },
-                  {
                     "en": "work overtime",
                     "vi": "làm việc quá giờ"
-                  },
-                  {
-                    "en": "because",
-                    "vi": "bởi vì"
                   },
                   {
                     "en": "leave their workplace",
@@ -3849,10 +3801,6 @@ const ESSAY_DATA = [
                   {
                     "en": "flexibility and convenience",
                     "vi": "linh hoạt và thuận tiện"
-                  },
-                  {
-                    "en": "individuals",
-                    "vi": "các cá nhân"
                   },
                   {
                     "en": "create",
@@ -4001,16 +3949,8 @@ const ESSAY_DATA = [
                     "vi": "làm mờ ranh giới"
                   },
                   {
-                    "en": "between",
-                    "vi": "giữa"
-                  },
-                  {
                     "en": "professional and personal life",
                     "vi": "đời sống công sở và cá nhân"
-                  },
-                  {
-                    "en": "individuals",
-                    "vi": "các cá nhân"
                   },
                   {
                     "en": "may end up",
