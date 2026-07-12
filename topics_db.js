@@ -13390,111 +13390,6 @@ const ESSAY_DATA = [
           "ideas_b1": {
             "benefits": [
               {
-                "title": "CAUSE 01",
-                "collocations": [
-                  {
-                    "en": "climate change",
-                    "vi": "biến đổi khí hậu"
-                  },
-                  {
-                    "en": "available freshwater",
-                    "vi": "lượng nước ngọt sẵn có"
-                  },
-                  {
-                    "en": "drought",
-                    "vi": "hạn hán"
-                  },
-                  {
-                    "en": "irregular rainfall",
-                    "vi": "lượng mưa thất thường"
-                  },
-                  {
-                    "en": "clean water",
-                    "vi": "nước sạch"
-                  },
-                  {
-                    "en": "reduce",
-                    "vi": "làm giảm"
-                  },
-                  {
-                    "en": "leave + O + with + N",
-                    "vi": "khiến... rơi vào tình trạng..."
-                  }
-                ],
-                "point_vi": "Biến đổi khí hậu làm giảm lượng nước ngọt sẵn có.",
-                "point_en": "Climate change reduces the amount of available freshwater.",
-                "evidence_vi": "Hạn hán kéo dài và lượng mưa thất thường khiến nhiều khu vực thiếu nước sạch.",
-                "evidence_en": "Long periods of drought and irregular rainfall leave many areas with less clean water."
-              },
-              {
-                "title": "CAUSE 02",
-                "collocations": [
-                  {
-                    "en": "careless water use",
-                    "vi": "việc sử dụng nước thiếu ý thức"
-                  },
-                  {
-                    "en": "waste water",
-                    "vi": "lãng phí nước"
-                  },
-                  {
-                    "en": "a large amount of",
-                    "vi": "một lượng lớn"
-                  },
-                  {
-                    "en": "forget to turn off",
-                    "vi": "quên tắt"
-                  },
-                  {
-                    "en": "the tap",
-                    "vi": "vòi nước"
-                  },
-                  {
-                    "en": "use too much water",
-                    "vi": "sử dụng quá nhiều nước"
-                  }
-                ],
-                "point_vi": "Việc sử dụng nước thiếu ý thức làm lãng phí một lượng lớn nước.",
-                "point_en": "Careless water use wastes a large amount of water.",
-                "evidence_vi": "Nhiều người quên tắt vòi nước hoặc sử dụng quá nhiều nước.",
-                "evidence_en": "Many people forget to turn off the tap or use too much water."
-              },
-              {
-                "title": "CAUSE 03",
-                "collocations": [
-                  {
-                    "en": "population growth",
-                    "vi": "sự gia tăng dân số"
-                  },
-                  {
-                    "en": "demand for water",
-                    "vi": "nhu cầu về nước"
-                  },
-                  {
-                    "en": "farming",
-                    "vi": "nông nghiệp"
-                  },
-                  {
-                    "en": "industry",
-                    "vi": "công nghiệp"
-                  },
-                  {
-                    "en": "increase",
-                    "vi": "làm tăng"
-                  },
-                  {
-                    "en": "demand for",
-                    "vi": "nhu cầu về"
-                  }
-                ],
-                "point_vi": "Sự gia tăng dân số làm tăng nhu cầu sử dụng nước.",
-                "point_en": "Population growth increases the demand for water.",
-                "evidence_vi": "Nhiều người hơn cần nước cho sinh hoạt, nông nghiệp và công nghiệp.",
-                "evidence_en": "More people need water for daily life, farming, and industry."
-              }
-            ],
-            "drawbacks": [
-              {
                 "title": "SOLUTION 01",
                 "collocations": [
                   {
@@ -13577,111 +13472,11 @@ const ESSAY_DATA = [
                 "evidence_vi": "Các chiến dịch giáo dục có thể khuyến khích mọi người sử dụng nước có trách nhiệm hơn.",
                 "evidence_en": "Educational campaigns can encourage people to use water more responsibly."
               }
-            ]
+            ],
+            "drawbacks": []
           },
           "ideas_b2": {
             "benefits": [
-              {
-                "title": "CAUSE 01",
-                "collocations": [
-                  {
-                    "en": "climate change",
-                    "vi": "biến đổi khí hậu"
-                  },
-                  {
-                    "en": "available freshwater",
-                    "vi": "lượng nước ngọt sẵn có"
-                  },
-                  {
-                    "en": "natural water supplies",
-                    "vi": "nguồn nước tự nhiên"
-                  },
-                  {
-                    "en": "drought",
-                    "vi": "hạn hán"
-                  },
-                  {
-                    "en": "water shortages",
-                    "vi": "tình trạng thiếu nước"
-                  },
-                  {
-                    "en": "reduce",
-                    "vi": "làm giảm"
-                  },
-                  {
-                    "en": "face",
-                    "vi": "đối mặt với"
-                  }
-                ],
-                "point_vi": "Biến đổi khí hậu làm giảm lượng nước ngọt sẵn có.",
-                "point_en": "Climate change reduces the amount of available freshwater.",
-                "evidence_vi": "Hạn hán kéo dài và lượng mưa thất thường làm giảm nguồn nước tự nhiên. Điều này khiến nhiều khu vực thường xuyên đối mặt với tình trạng thiếu nước.",
-                "evidence_en": "Long periods of drought and irregular rainfall reduce natural water supplies. As a result, many regions regularly face water shortages."
-              },
-              {
-                "title": "CAUSE 02",
-                "collocations": [
-                  {
-                    "en": "excessive water consumption",
-                    "vi": "việc sử dụng nước quá mức"
-                  },
-                  {
-                    "en": "valuable water resources",
-                    "vi": "nguồn nước quý giá"
-                  },
-                  {
-                    "en": "households",
-                    "vi": "hộ gia đình"
-                  },
-                  {
-                    "en": "inefficiently",
-                    "vi": "không hiệu quả"
-                  },
-                  {
-                    "en": "waste",
-                    "vi": "lãng phí"
-                  }
-                ],
-                "point_vi": "Việc sử dụng nước quá mức làm lãng phí nguồn nước quý giá.",
-                "point_en": "Excessive water consumption wastes valuable water resources.",
-                "evidence_vi": "Nhiều hộ gia đình và doanh nghiệp sử dụng nước không hiệu quả. Điều này làm giảm lượng nước sạch có thể sử dụng.",
-                "evidence_en": "Many households and businesses use water inefficiently. This reduces the amount of clean water available for use."
-              },
-              {
-                "title": "CAUSE 03",
-                "collocations": [
-                  {
-                    "en": "population growth",
-                    "vi": "sự gia tăng dân số"
-                  },
-                  {
-                    "en": "demand for water",
-                    "vi": "nhu cầu về nước"
-                  },
-                  {
-                    "en": "existing water resources",
-                    "vi": "nguồn nước hiện có"
-                  },
-                  {
-                    "en": "agriculture",
-                    "vi": "nông nghiệp"
-                  },
-                  {
-                    "en": "place pressure on",
-                    "vi": "tạo áp lực lên"
-                  },
-                  {
-                    "en": "require",
-                    "vi": "cần"
-                  }
-                ],
-                "point_vi": "Sự gia tăng dân số làm tăng nhu cầu sử dụng nước.",
-                "point_en": "Population growth increases the demand for water.",
-                "evidence_vi": "Nhiều người hơn cần nước cho sinh hoạt, nông nghiệp và công nghiệp. Điều này tạo thêm áp lực lên nguồn nước hiện có.",
-                "evidence_en": "More people require water for daily life, agriculture, and industry. This places greater pressure on existing water resources."
-              }
-            ],
-            "drawbacks": [
               {
                 "title": "SOLUTION 01",
                 "collocations": [
@@ -13777,85 +13572,10 @@ const ESSAY_DATA = [
                 "evidence_vi": "Các chiến dịch truyền thông có thể khuyến khích mọi người sử dụng nước có trách nhiệm hơn. Điều này giúp hình thành những thói quen tiết kiệm nước lâu dài.",
                 "evidence_en": "Public campaigns can encourage people to use water more responsibly. This helps develop long-term water-saving habits."
               }
-            ]
+            ],
+            "drawbacks": []
           },
           "vocab": [
-            {
-              "en": "climate change",
-              "vi": "biến đổi khí hậu"
-            },
-            {
-              "en": "available freshwater",
-              "vi": "lượng nước ngọt sẵn có"
-            },
-            {
-              "en": "drought",
-              "vi": "hạn hán"
-            },
-            {
-              "en": "irregular rainfall",
-              "vi": "lượng mưa thất thường"
-            },
-            {
-              "en": "clean water",
-              "vi": "nước sạch"
-            },
-            {
-              "en": "reduce",
-              "vi": "làm giảm"
-            },
-            {
-              "en": "leave + O + with + N",
-              "vi": "khiến... rơi vào tình trạng..."
-            },
-            {
-              "en": "careless water use",
-              "vi": "việc sử dụng nước thiếu ý thức"
-            },
-            {
-              "en": "waste water",
-              "vi": "lãng phí nước"
-            },
-            {
-              "en": "a large amount of",
-              "vi": "một lượng lớn"
-            },
-            {
-              "en": "forget to turn off",
-              "vi": "quên tắt"
-            },
-            {
-              "en": "the tap",
-              "vi": "vòi nước"
-            },
-            {
-              "en": "use too much water",
-              "vi": "sử dụng quá nhiều nước"
-            },
-            {
-              "en": "population growth",
-              "vi": "sự gia tăng dân số"
-            },
-            {
-              "en": "demand for water",
-              "vi": "nhu cầu về nước"
-            },
-            {
-              "en": "farming",
-              "vi": "nông nghiệp"
-            },
-            {
-              "en": "industry",
-              "vi": "công nghiệp"
-            },
-            {
-              "en": "increase",
-              "vi": "làm tăng"
-            },
-            {
-              "en": "demand for",
-              "vi": "nhu cầu về"
-            },
             {
               "en": "use water responsibly",
               "vi": "sử dụng nước có trách nhiệm"
@@ -13867,6 +13587,10 @@ const ESSAY_DATA = [
             {
               "en": "water waste",
               "vi": "sự lãng phí nước"
+            },
+            {
+              "en": "reduce",
+              "vi": "giảm"
             },
             {
               "en": "water management",
@@ -13909,54 +13633,6 @@ const ESSAY_DATA = [
               "vi": "khuyến khích"
             },
             {
-              "en": "natural water supplies",
-              "vi": "nguồn nước tự nhiên"
-            },
-            {
-              "en": "water shortages",
-              "vi": "tình trạng thiếu nước"
-            },
-            {
-              "en": "face",
-              "vi": "đối mặt với"
-            },
-            {
-              "en": "excessive water consumption",
-              "vi": "việc sử dụng nước quá mức"
-            },
-            {
-              "en": "valuable water resources",
-              "vi": "nguồn nước quý giá"
-            },
-            {
-              "en": "households",
-              "vi": "hộ gia đình"
-            },
-            {
-              "en": "inefficiently",
-              "vi": "không hiệu quả"
-            },
-            {
-              "en": "waste",
-              "vi": "lãng phí"
-            },
-            {
-              "en": "existing water resources",
-              "vi": "nguồn nước hiện có"
-            },
-            {
-              "en": "agriculture",
-              "vi": "nông nghiệp"
-            },
-            {
-              "en": "place pressure on",
-              "vi": "tạo áp lực lên"
-            },
-            {
-              "en": "require",
-              "vi": "cần"
-            },
-            {
               "en": "avoid wasting water",
               "vi": "tránh lãng phí nước"
             },
@@ -13993,10 +13669,10 @@ const ESSAY_DATA = [
               "vi": "hình thành"
             }
           ],
-          "sample_b1": "In today's society, <strong>water shortages</strong> have become a serious problem in many parts of the world. There are several causes of this issue, and some effective solutions can be implemented to address it. <strong>This essay will discuss the causes of water shortages and suggest some solutions.</strong>\n\n<strong>There are several reasons why water shortages occur.</strong> First of all, <strong><em>climate change reduces the amount of available freshwater</em></strong>. This is because long periods of drought and irregular rainfall leave many areas with less clean water. Secondly, <strong><em>careless water use wastes a large amount of water</em></strong>. The main reason is that many people forget to turn off the tap or use too much water. Finally, <strong><em>population growth increases the demand for water</em></strong>. This means that more people need water for daily life, farming, and industry.\n\n<strong>However, there are some effective solutions to solve this problem.</strong> One possible solution is that <strong><em>people should use water more responsibly</em></strong>. This is because turning off taps when they are not in use can reduce water waste. Another practical measure is that <strong><em>governments should improve water management</em></strong>. In fact, they can build more water storage and distribution systems. Finally, <strong><em>people should be educated about water conservation</em></strong>. As a result, educational campaigns can encourage people to use water more responsibly.\n\nIn conclusion, <strong>lack of freshwater</strong> is caused by climate change, careless water use, and population growth. Nevertheless, using water responsibly, improving water management, and educating people are effective ways to address this issue. Therefore, everyone should work together to protect water resources.",
-          "translation_b1": "Trong xã hội ngày nay, <strong>tình trạng thiếu nước</strong> đã trở thành một vấn đề nghiêm trọng ở nhiều nơi trên thế giới. Có một vài nguyên nhân gây ra vấn đề này, và một số giải pháp hiệu quả có thể được thực hiện để giải quyết nó. <strong>Bài luận này sẽ thảo luận về nguyên nhân của tình trạng thiếu nước và đề xuất một số giải pháp.</strong>\n\n<strong>Có một vài lý do tại sao tình trạng thiếu nước lại xảy ra.</strong> Trước hết, <strong><em>biến đổi khí hậu làm giảm lượng nước ngọt sẵn có</em></strong>. Điều này là do hạn hán kéo dài và lượng mưa thất thường khiến nhiều khu vực thiếu nước sạch. Thứ hai, <strong><em>việc sử dụng nước thiếu ý thức làm lãng phí một lượng lớn nước</em></strong>. Lý do chính là nhiều người quên tắt vòi nước hoặc sử dụng quá nhiều nước. Cuối cùng, <strong><em>sự gia tăng dân số làm tăng nhu cầu sử dụng nước</em></strong>. Điều này có nghĩa là nhiều người hơn cần nước cho sinh hoạt, nông nghiệp và công nghiệp.\n\n<strong>Tuy nhiên, có một số giải pháp hiệu quả để giải quyết vấn đề này.</strong> Một giải pháp có thể thực hiện là <strong><em>mọi người nên sử dụng nước tiết kiệm và có trách nhiệm hơn</em></strong>. Điều này là do việc tắt vòi nước khi không sử dụng có thể giảm lãng phí nước. Một biện pháp thiết thực khác là <strong><em>chính phủ nên quản lý nguồn nước hiệu quả hơn</em></strong>. Trên thực tế, họ có thể xây dựng thêm các hệ thống lưu trữ và phân phối nước. Cuối cùng, <strong><em>người dân nên được giáo dục về việc tiết kiệm và bảo vệ nguồn nước</em></strong>. Kết quả là, các chiến dịch giáo dục có thể khuyến khích mọi người sử dụng nước có trách nhiệm hơn.\n\nTóm lại, <strong>sự thiếu hụt nước ngọt</strong> được gây ra bởi biến đổi khí hậu, việc sử dụng nước thiếu ý thức và sự gia tăng dân số. Mặc dù vậy, việc sử dụng nước có trách nhiệm, cải thiện quản lý nguồn nước và giáo dục người dân là những cách hiệu quả để giải quyết vấn đề này. Vì vậy, mọi người nên cùng nhau hợp tác để bảo vệ nguồn tài nguyên nước.",
-          "sample_b2": "In contemporary society, <strong>water shortages</strong> have become an increasingly severe problem in many regions worldwide. There are various underlying causes of this phenomenon, and several effective measures should be implemented to mitigate it. <strong>This essay will analyze the root causes of water shortages and propose viable solutions.</strong>\n\n<strong>There are several primary factors contributing to this alarming issue.</strong> First and foremost, <strong><em>climate change reduces the amount of available freshwater</em></strong>. This is primarily because long periods of drought and irregular rainfall reduce natural water supplies, and as a result, many regions regularly face water shortages. Secondly, <strong><em>excessive water consumption wastes valuable water resources</em></strong>. The underlying reason is that many households and businesses use water inefficiently, which reduces the amount of clean water available for use. Lastly, <strong><em>population growth increases the demand for water</em></strong>. Specifically, more people require water for daily life, agriculture, and industry, which places greater pressure on existing water resources.\n\n<strong>Nevertheless, several practical solutions can be adopted to tackle this problem.</strong> One viable solution is that <strong><em>people should use water more responsibly</em></strong>. Since they should avoid wasting water in their daily lives, this helps reduce unnecessary water waste. Another effective measure is that <strong><em>governments should improve water management systems</em></strong>. In reality, they can invest in modern water storage and distribution systems, which helps supply water more efficiently to local communities. Finally, <strong><em>people should be educated about water conservation</em></strong>. Consequently, public campaigns can encourage people to use water more responsibly, and this helps develop long-term water-saving habits.\n\nIn conclusion, climate change, excessive water consumption, and population growth are the main culprits behind <strong>water scarcity</strong>. However, by using water responsibly, enhancing management systems, and promoting conservation education, this global crisis can be effectively managed. Therefore, it is imperative for governments and individuals to collaborate in preserving water resources.",
-          "translation_b2": "Trong xã hội đương đại, <strong>tình trạng thiếu nước</strong> đã trở thành một vấn đề ngày càng nghiêm trọng ở nhiều khu vực trên toàn thế giới. Có nhiều nguyên nhân sâu xa khác nhau của hiện tượng này, và một vài biện pháp hiệu quả nên được thực hiện để giảm nhẹ nó. <strong>Bài luận này sẽ phân tích những nguyên nhân gốc rễ của tình trạng thiếu nước và đề xuất những giải pháp khả thi.</strong>\n\n<strong>Có một vài yếu tố chính góp phần vào vấn đề đáng báo động này.</strong> Đầu tiên và quan trọng nhất, <strong><em>biến đổi khí hậu làm giảm lượng nước ngọt sẵn có</em></strong>. Điều này chủ yếu là do hạn hán kéo dài và lượng mưa thất thường làm giảm nguồn nước tự nhiên, và hậu quả là, nhiều khu vực thường xuyên đối mặt với tình trạng thiếu nước. Thứ hai, <strong><em>việc sử dụng nước quá mức làm lãng phí nguồn nước quý giá</em></strong>. Lý do sâu xa là nhiều hộ gia đình và doanh nghiệp sử dụng nước không hiệu quả, điều này làm giảm lượng nước sạch có thể sử dụng. Cuối cùng, <strong><em>sự gia tăng dân số làm tăng nhu cầu sử dụng nước</em></strong>. Cụ thể, nhiều người hơn cần nước cho sinh hoạt, nông nghiệp và công nghiệp, điều này tạo thêm áp lực lên nguồn nước hiện có.\n\n<strong>Tuy nhiên, một số giải pháp thiết thực có thể được áp dụng để giải quyết vấn đề này.</strong> Một giải pháp khả thi là <strong><em>mọi người nên sử dụng nước tiết kiệm và có trách nhiệm hơn</em></strong>. Vì họ nên tránh lãng phí nước trong sinh hoạt hằng ngày, điều này giúp giảm lượng nước bị lãng phí. Một biện pháp hiệu quả khác là <strong><em>chính phủ nên cải thiện hệ thống quản lý nguồn nước</em></strong>. Trên thực tế, họ có thể đầu tư vào các hệ thống lưu trữ và phân phối nước hiện đại, điều này giúp cung cấp nước hiệu quả hơn cho người dân. Cuối cùng, <strong><em>người dân nên được giáo dục về việc tiết kiệm và bảo vệ nguồn nước</em></strong>. Hậu quả là, các chiến dịch truyền thông có thể khuyến khích mọi người sử dụng nước có trách nhiệm hơn, và điều này giúp hình thành những thói quen tiết kiệm nước lâu dài.\n\nTóm lại, biến đổi khí hậu, việc sử dụng nước quá mức và sự gia tăng dân số là những thủ phạm chính đằng sau <strong>sự khan hiếm nước</strong>. Tuy nhiên, bằng cách sử dụng nước có trách nhiệm, nâng cao các hệ thống quản lý và thúc đẩy giáo dục bảo tồn, cuộc khủng hoảng toàn cầu này có thể được quản lý một cách hiệu quả. Vì vậy, điều cấp bách là các chính phủ và cá nhân phải hợp tác trong việc bảo vệ nguồn tài nguyên nước."
+          "sample_b1": "In today's society, freshwater is one of the most important natural resources for human life. However, water shortages have become a serious problem in many parts of the world. <strong>This essay will suggest some effective measures to save and protect freshwater resources.</strong>\n\n<strong>First of all, one possible solution is that people should use water more responsibly.</strong> This is because turning off taps when they are not in use can reduce water waste. If individuals change their daily habits, they can save a large amount of clean water for the community.\n\n<strong>Secondly, another practical measure is that governments should improve water management.</strong> In fact, they can build more water storage and distribution systems. This means that water can be supplied more efficiently to local communities, especially during dry seasons.\n\n<strong>Finally, people should be educated about water conservation.</strong> As a result, educational campaigns can encourage people to use water more responsibly. When people understand the importance of water, they will take action to protect this valuable resource.\n\nIn conclusion, protecting freshwater resources is extremely important. By using water responsibly, improving water management, and educating people, we can effectively address this issue. Therefore, everyone should work together to save water for future generations.",
+          "translation_b1": "Trong xã hội ngày nay, nước ngọt là một trong những nguồn tài nguyên thiên nhiên quan trọng nhất đối với cuộc sống con người. Tuy nhiên, tình trạng thiếu nước đã trở thành một vấn đề nghiêm trọng ở nhiều nơi trên thế giới. <strong>Bài luận này sẽ đề xuất một số biện pháp hiệu quả để tiết kiệm và bảo vệ nguồn tài nguyên nước ngọt.</strong>\n\n<strong>Trước hết, một giải pháp có thể thực hiện là mọi người nên sử dụng nước tiết kiệm và có trách nhiệm hơn.</strong> Điều này là do việc tắt vòi nước khi không sử dụng có thể giảm lãng phí nước. Nếu các cá nhân thay đổi thói quen hằng ngày, họ có thể tiết kiệm một lượng lớn nước sạch cho cộng đồng.\n\n<strong>Thứ hai, một biện pháp thiết thực khác là chính phủ nên quản lý nguồn nước hiệu quả hơn.</strong> Trên thực tế, họ có thể xây dựng thêm các hệ thống lưu trữ và phân phối nước. Điều này có nghĩa là nước có thể được cung cấp hiệu quả hơn cho các cộng đồng địa phương, đặc biệt là trong mùa khô.\n\n<strong>Cuối cùng, người dân nên được giáo dục về việc tiết kiệm và bảo vệ nguồn nước.</strong> Kết quả là, các chiến dịch giáo dục có thể khuyến khích mọi người sử dụng nước có trách nhiệm hơn. Khi mọi người hiểu được tầm quan trọng của nước, họ sẽ hành động để bảo vệ nguồn tài nguyên quý giá này.\n\nTóm lại, việc bảo vệ nguồn tài nguyên nước ngọt là cực kỳ quan trọng. Bằng cách sử dụng nước có trách nhiệm, cải thiện quản lý nguồn nước và giáo dục người dân, chúng ta có thể giải quyết hiệu quả vấn đề này. Vì vậy, mọi người nên cùng nhau hợp tác để tiết kiệm nước cho các thế hệ tương lai.",
+          "sample_b2": "In contemporary society, freshwater is undoubtedly one of the most vital natural resources for human survival and sustainable development. However, increasing population growth and climate change have placed significant pressure on freshwater supplies globally. <strong>This essay will propose viable measures to conserve and protect this invaluable resource.</strong>\n\n<strong>First and foremost, a practical solution is that people should use water more responsibly.</strong> Since individuals should avoid wasting water in their daily lives, this helps reduce unnecessary water waste. By adopting simple yet effective habits, such as turning off taps while brushing teeth, every household can make a substantial contribution to water conservation.\n\n<strong>Secondly, another effective measure is that governments should improve water management systems.</strong> In reality, authorities can invest in modern water storage and distribution systems, which helps supply water more efficiently to local communities. Furthermore, upgrading aging infrastructure can prevent water leakage, ensuring that clean water reaches those who need it most.\n\n<strong>Finally, people should be educated about water conservation to ensure long-term sustainability.</strong> Consequently, public campaigns can encourage people to use water more responsibly, and this helps develop long-term water-saving habits. When communities are well-informed about the severity of water scarcity, they are more likely to participate in preservation efforts.\n\nIn conclusion, protecting freshwater supplies is an urgent global priority. By promoting responsible water usage, enhancing government management systems, and raising public awareness through education, this crisis can be effectively managed. Therefore, it is imperative for both individuals and governments to collaborate in preserving water resources.",
+          "translation_b2": "Trong xã hội đương đại, nước ngọt chắc chắn là một trong những nguồn tài nguyên thiên nhiên quan trọng nhất cho sự sinh tồn của con người và sự phát triển bền vững. Tuy nhiên, sự gia tăng dân số và biến đổi khí hậu đã đặt áp lực đáng kể lên nguồn cung cấp nước ngọt trên toàn cầu. <strong>Bài luận này sẽ đề xuất các biện pháp khả thi để bảo tồn và bảo vệ nguồn tài nguyên vô giá này.</strong>\n\n<strong>Đầu tiên và quan trọng nhất, một giải pháp thiết thực là mọi người nên sử dụng nước có trách nhiệm hơn.</strong> Vì các cá nhân nên tránh lãng phí nước trong sinh hoạt hằng ngày, điều này giúp giảm lượng nước bị lãng phí không cần thiết. Bằng cách áp dụng những thói quen đơn giản nhưng hiệu quả, chẳng hạn như tắt vòi nước khi đánh răng, mỗi hộ gia đình có thể đóng góp đáng kể vào việc bảo tồn nước.\n\n<strong>Thứ hai, một biện pháp hiệu quả khác là chính phủ nên cải thiện hệ thống quản lý nguồn nước.</strong> Trên thực tế, các nhà chức trách có thể đầu tư vào các hệ thống lưu trữ và phân phối nước hiện đại, điều này giúp cung cấp nước hiệu quả hơn cho các cộng đồng địa phương. Hơn nữa, việc nâng cấp cơ sở hạ tầng cũ kỹ có thể ngăn ngừa rò rỉ nước, đảm bảo rằng nước sạch đến được với những người cần nó nhất.\n\n<strong>Cuối cùng, người dân nên được giáo dục về bảo tồn nước để đảm bảo tính bền vững lâu dài.</strong> Hậu quả là, các chiến dịch truyền thông có thể khuyến khích mọi người sử dụng nước có trách nhiệm hơn, và điều này giúp hình thành những thói quen tiết kiệm nước lâu dài. Khi các cộng đồng được thông tin đầy đủ về mức độ nghiêm trọng của tình trạng khan hiếm nước, họ có nhiều khả năng sẽ tham gia vào các nỗ lực bảo tồn.\n\nTóm lại, bảo vệ nguồn cung cấp nước ngọt là một ưu tiên cấp bách toàn cầu. Bằng cách thúc đẩy việc sử dụng nước có trách nhiệm, nâng cao hệ thống quản lý của chính phủ và nâng cao nhận thức cộng đồng thông qua giáo dục, cuộc khủng hoảng này có thể được quản lý hiệu quả. Vì vậy, điều cấp bách là cả cá nhân và chính phủ phải hợp tác trong việc bảo vệ tài nguyên nước."
         }
       },
       {
