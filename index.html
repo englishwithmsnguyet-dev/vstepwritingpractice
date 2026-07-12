@@ -9,7 +9,7 @@
 </head>
 <body>
 
-  <div id="app-container">
+  <div id="app-container" style="display: none;">
     <!-- Sidebar Navigation -->
     <aside class="sidebar">
       <div class="brand">
@@ -537,27 +537,33 @@
     </div>
   </div>
 
-  <!-- ATTENDANCE MODAL -->
-  <div class="modal-overlay" id="attendance-modal">
-    <div class="modal-content" style="max-width: 450px;">
-      <div class="modal-header">
-        <h3 class="modal-title">Ghi nhận tiến độ học tập</h3>
-        <button class="modal-close" onclick="closeAttendanceModal()">✕</button>
+  <!-- ACCESS GATEWAY (FULL SCREEN LOGIN) -->
+  <div id="access-gateway" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: #2D333B; z-index: 99999; display: flex; align-items: center; justify-content: center; padding: 20px; box-sizing: border-box;">
+    <div style="background-color: white; width: 100%; max-width: 480px; border-radius: 24px; padding: 40px 30px; box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04); display: flex; flex-direction: column; align-items: center; box-sizing: border-box;">
+      
+      <!-- Icon -->
+      <div style="width: 64px; height: 64px; border-radius: 50%; background: linear-gradient(135deg, #3B82F6 0%, #2563EB 100%); display: flex; align-items: center; justify-content: center; margin-bottom: 24px; box-shadow: 0 10px 15px -3px rgba(59, 130, 246, 0.3);">
+        <span class="material-icons-round" style="color: white; font-size: 32px;">mic</span>
       </div>
-      <div class="modal-body" style="padding: 1.5rem;">
-        <p style="margin-bottom: 1.5rem; color: var(--text-secondary); line-height: 1.5;">Vui lòng nhập thông tin để hệ thống ghi nhận bài học bạn vừa hoàn thành.</p>
-        <div class="form-group" style="margin-bottom: 1.25rem;">
-          <label style="display: block; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-primary);">Họ và tên của bạn</label>
-          <input type="text" id="attendance-name" placeholder="Ví dụ: Nguyễn Văn A" style="width: 100%; padding: 0.75rem; border: 1px solid var(--border-color); border-radius: 8px; font-family: inherit; font-size: 1rem; box-sizing: border-box; background: var(--bg-primary); color: var(--text-primary);" />
-        </div>
-        <div class="form-group" style="margin-bottom: 1rem;">
-          <label style="display: block; font-weight: 500; margin-bottom: 0.5rem; color: var(--text-primary);">Mã lớp</label>
-          <input type="text" id="attendance-class" placeholder="Nhập mã lớp..." style="width: 100%; padding: 0.75rem; border: 1px solid var(--border-color); border-radius: 8px; font-family: inherit; font-size: 1rem; box-sizing: border-box; text-transform: uppercase; background: var(--bg-primary); color: var(--text-primary);" />
-          <p id="attendance-error" style="color: #ef4444; font-size: 0.875rem; margin-top: 0.5rem; display: none;">Mã lớp không hợp lệ. Vui lòng kiểm tra lại!</p>
-        </div>
-        <div style="margin-top: 2rem; text-align: center;">
-          <button class="btn btn-primary" style="width: 100%; padding: 0.75rem; font-size: 1rem; border-radius: 8px;" onclick="submitAttendance()" id="btn-submit-attendance">XÁC NHẬN HOÀN THÀNH</button>
-        </div>
+      
+      <!-- Title & Subtitle -->
+      <h2 style="font-family: var(--font-display); font-size: 1.5rem; font-weight: 800; color: #111827; text-align: center; margin-bottom: 16px; line-height: 1.4; text-transform: uppercase;">CHÀO MỪNG BẠN ĐẾN VỚI LỚP<br>HỌC CỦA MISS NGUYET</h2>
+      <p style="color: #6B7280; text-align: center; font-size: 0.95rem; line-height: 1.6; margin-bottom: 32px; max-width: 90%;">Vui lòng điền Họ tên và Lớp học của bạn để bắt đầu học. Kết quả luyện tập sẽ được ghi nhận và gửi báo cáo cho giáo viên.</p>
+      
+      <!-- Inputs -->
+      <div style="width: 100%; margin-bottom: 16px;">
+        <input type="text" id="gateway-name" placeholder="Họ và tên (Ví dụ: Phạm Minh Nguyệt)" style="width: 100%; padding: 16px 20px; background-color: #F3F4F6; border: 1px solid #E5E7EB; border-radius: 12px; font-family: inherit; font-size: 1rem; color: #1F2937; box-sizing: border-box; outline: none; transition: border-color 0.2s;" onfocus="this.style.borderColor='#4F46E5'" onblur="this.style.borderColor='#E5E7EB'" />
+      </div>
+      
+      <div style="width: 100%; margin-bottom: 8px;">
+        <input type="text" id="gateway-class" placeholder="Lớp học (Ví dụ: ONB103)" style="width: 100%; padding: 16px 20px; background-color: #F3F4F6; border: 1px solid #E5E7EB; border-radius: 12px; font-family: inherit; font-size: 1rem; color: #1F2937; box-sizing: border-box; text-transform: uppercase; outline: none; transition: border-color 0.2s;" onfocus="this.style.borderColor='#4F46E5'" onblur="this.style.borderColor='#E5E7EB'" />
+      </div>
+      <p id="gateway-error" style="color: #EF4444; font-size: 0.85rem; width: 100%; text-align: center; margin-bottom: 16px; display: none; margin-top: 8px;">Mã lớp không hợp lệ. Vui lòng kiểm tra lại!</p>
+      
+      <div style="width: 100%; margin-top: 24px;">
+        <button id="btn-gateway-submit" onclick="submitGatewayAccess()" style="width: 100%; padding: 16px 20px; background-color: #5A67D8; color: white; border: none; border-radius: 12px; font-family: inherit; font-weight: 700; font-size: 1rem; text-transform: uppercase; cursor: pointer; transition: background-color 0.2s, transform 0.1s;" onmouseover="this.style.backgroundColor='#4C51BF'" onmouseout="this.style.backgroundColor='#5A67D8'" onmousedown="this.style.transform='scale(0.98)'" onmouseup="this.style.transform='scale(1)'">
+          BẮT ĐẦU HỌC NGAY
+        </button>
       </div>
     </div>
   </div>

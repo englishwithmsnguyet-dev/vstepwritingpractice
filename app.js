@@ -5130,13 +5130,7 @@ function renderStep4ModelEssay() {
         <h4>BẢN DỊCH TIẾNG VIỆT</h4>
         <div class="essay-text-content" style="white-space: pre-wrap; font-family: inherit; font-size: 1rem; line-height: 1.7; color: var(--text-primary); text-align: justify;">${formattedTrans}</div>
       </div>
-    </div>
     ${vocabNotesHtml}
-    <div style="text-align: center; margin-top: 2.5rem; margin-bottom: 2rem;">
-      <button class="btn btn-primary" style="padding: 1rem 3rem; font-size: 1.1rem; box-shadow: var(--shadow-glow); background: linear-gradient(135deg, #10b981 0%, #059669 100%); border-color: #059669;" onclick="openAttendanceModal()">
-        HOÀN THÀNH & ĐIỂM DANH
-      </button>
-    </div>
   `;
 }
 
@@ -5151,44 +5145,47 @@ function switchModelEssayLevel(level) {
   renderStep4ModelEssay();
 }
 
-// Function to handle Attendance Form
-function openAttendanceModal() {
-  document.getElementById('attendance-modal').classList.add('active');
-  document.getElementById('attendance-error').style.display = 'none';
-  document.getElementById('attendance-name').value = '';
-  document.getElementById('attendance-class').value = '';
-}
+// Function to handle Access Gateway
+document.addEventListener('DOMContentLoaded', () => {
+  const isAuth = sessionStorage.getItem('vstep_authenticated');
+  const gateway = document.getElementById('access-gateway');
+  const appContainer = document.getElementById('app-container');
+  
+  if (isAuth === 'true') {
+    if (gateway) gateway.style.display = 'none';
+    if (appContainer) appContainer.style.display = 'flex';
+  } else {
+    if (gateway) gateway.style.display = 'flex';
+    if (appContainer) appContainer.style.display = 'none';
+  }
+});
 
-function closeAttendanceModal() {
-  document.getElementById('attendance-modal').classList.remove('active');
-}
-
-function submitAttendance() {
-  const nameInput = document.getElementById('attendance-name').value.trim();
-  let classInput = document.getElementById('attendance-class').value.trim().toUpperCase();
-  const errorEl = document.getElementById('attendance-error');
-  const btnSubmit = document.getElementById('btn-submit-attendance');
+function submitGatewayAccess() {
+  const nameInput = document.getElementById('gateway-name').value.trim();
+  let classInput = document.getElementById('gateway-class').value.trim().toUpperCase();
+  const errorEl = document.getElementById('gateway-error');
+  const btnSubmit = document.getElementById('btn-gateway-submit');
   
   if (!nameInput || !classInput) {
-    errorEl.textContent = 'Vui lòng nhập đầy đủ Họ tên và Mã lớp!';
+    errorEl.textContent = 'Vui lòng nhập đầy đủ Họ tên và Lớp học!';
     errorEl.style.display = 'block';
     return;
   }
   
   const validClasses = ['CB196', 'CB201', 'CB202', 'B209'];
   if (!validClasses.includes(classInput)) {
-    errorEl.textContent = 'Mã lớp không hợp lệ. Vui lòng nhập đúng lớp CB196, CB201, CB202, hoặc B209.';
+    errorEl.textContent = 'Mã lớp không hợp lệ. Vui lòng kiểm tra lại!';
     errorEl.style.display = 'block';
     return;
   }
   
   errorEl.style.display = 'none';
-  btnSubmit.textContent = 'ĐANG XỬ LÝ...';
+  btnSubmit.textContent = 'ĐANG ĐĂNG NHẬP...';
   btnSubmit.disabled = true;
   
-  // Format Data: Name - Class - Topic Title
-  const topicTitle = currentTopic ? currentTopic.title_en : 'Unknown Topic';
-  const finalData = `${nameInput} - Lớp ${classInput} - Đã hoàn thành Đề: ${topicTitle}`;
+  const now = new Date();
+  const timeString = now.toLocaleTimeString('vi-VN') + ' ' + now.toLocaleDateString('vi-VN');
+  const finalData = `${nameInput} - Lớp ${classInput} - Đã truy cập hệ thống lúc ${timeString}`;
   
   // Google Form POST URL and Entry ID
   const formUrl = 'https://docs.google.com/forms/d/e/1FAIpQLSfB9UgCMgYhwLVvjiXnGZTFlj6IwCJfjqwpBfd1qHpeOm4Lvw/formResponse';
@@ -5200,14 +5197,17 @@ function submitAttendance() {
     mode: 'no-cors',
     body: formData
   }).then(() => {
-    closeAttendanceModal();
-    showToast('Ghi nhận tiến độ học tập thành công! Chúc mừng bạn đã hoàn thành bài học.', 'success');
-    btnSubmit.textContent = 'XÁC NHẬN HOÀN THÀNH';
-    btnSubmit.disabled = false;
+    // Success! Let them in
+    sessionStorage.setItem('vstep_authenticated', 'true');
+    document.getElementById('access-gateway').style.display = 'none';
+    document.getElementById('app-container').style.display = 'flex';
+    showToast(`Chào mừng ${nameInput} đã đến với lớp học!`, 'success');
   }).catch((error) => {
-    console.error('Error submitting attendance:', error);
-    showToast('Có lỗi xảy ra khi ghi nhận. Vui lòng thử lại!', 'error');
-    btnSubmit.textContent = 'XÁC NHẬN HOÀN THÀNH';
-    btnSubmit.disabled = false;
+    console.error('Error submitting access:', error);
+    // Even if there's a network error with Google Forms, we still let them in to avoid blocking legitimate students due to temporary connectivity issues.
+    sessionStorage.setItem('vstep_authenticated', 'true');
+    document.getElementById('access-gateway').style.display = 'none';
+    document.getElementById('app-container').style.display = 'flex';
+    showToast(`Chào mừng ${nameInput} đã đến với lớp học!`, 'success');
   });
 }
