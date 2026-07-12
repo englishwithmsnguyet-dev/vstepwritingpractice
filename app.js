@@ -5147,17 +5147,12 @@ function switchModelEssayLevel(level) {
 
 // Function to handle Access Gateway
 document.addEventListener('DOMContentLoaded', () => {
-  const isAuth = sessionStorage.getItem('vstep_authenticated');
   const gateway = document.getElementById('access-gateway');
   const appContainer = document.getElementById('app-container');
   
-  if (isAuth === 'true') {
-    if (gateway) gateway.style.display = 'none';
-    if (appContainer) appContainer.style.display = 'flex';
-  } else {
-    if (gateway) gateway.style.display = 'flex';
-    if (appContainer) appContainer.style.display = 'none';
-  }
+  // Force login on every page load/refresh
+  if (gateway) gateway.style.display = 'flex';
+  if (appContainer) appContainer.style.display = 'none';
 });
 
 function submitGatewayAccess() {
@@ -5198,14 +5193,12 @@ function submitGatewayAccess() {
     body: formData
   }).then(() => {
     // Success! Let them in
-    sessionStorage.setItem('vstep_authenticated', 'true');
     document.getElementById('access-gateway').style.display = 'none';
     document.getElementById('app-container').style.display = 'flex';
     showToast(`Chào mừng ${nameInput} đã đến với lớp học!`, 'success');
   }).catch((error) => {
     console.error('Error submitting access:', error);
     // Even if there's a network error with Google Forms, we still let them in to avoid blocking legitimate students due to temporary connectivity issues.
-    sessionStorage.setItem('vstep_authenticated', 'true');
     document.getElementById('access-gateway').style.display = 'none';
     document.getElementById('app-container').style.display = 'flex';
     showToast(`Chào mừng ${nameInput} đã đến với lớp học!`, 'success');
