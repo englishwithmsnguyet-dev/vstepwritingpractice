@@ -13417,8 +13417,8 @@ const ESSAY_DATA = [
                     "vi": "làm giảm"
                   },
                   {
-                    "en": "leave",
-                    "vi": "khiến"
+                    "en": "leave + O + with + N",
+                    "vi": "khiến... rơi vào tình trạng..."
                   }
                 ],
                 "point_vi": "Biến đổi khí hậu làm giảm lượng nước ngọt sẵn có.",
@@ -13452,6 +13452,10 @@ const ESSAY_DATA = [
                   {
                     "en": "waste",
                     "vi": "lãng phí"
+                  },
+                  {
+                    "en": "leave + O + V-ing",
+                    "vi": "để..."
                   }
                 ],
                 "point_vi": "Việc sử dụng nước thiếu ý thức làm lãng phí một lượng lớn nước.",
@@ -13805,8 +13809,8 @@ const ESSAY_DATA = [
               "vi": "làm giảm"
             },
             {
-              "en": "leave",
-              "vi": "khiến"
+              "en": "leave + O + with + N",
+              "vi": "khiến... rơi vào tình trạng..."
             },
             {
               "en": "careless water use",
@@ -13831,6 +13835,10 @@ const ESSAY_DATA = [
             {
               "en": "waste",
               "vi": "lãng phí"
+            },
+            {
+              "en": "leave + O + V-ing",
+              "vi": "để..."
             },
             {
               "en": "population growth",
