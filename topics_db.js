@@ -3418,12 +3418,176 @@ const ESSAY_DATA = [
             {
               "en": "negatively impact",
               "vi": "tác động tiêu cực"
+            },
+            {
+              "en": "commute to work",
+              "vi": "đi làm"
+            },
+            {
+              "en": "rush hour traffic",
+              "vi": "tắc đường giờ cao điểm"
+            },
+            {
+              "en": "transportation expenses",
+              "vi": "chi phí đi lại"
+            },
+            {
+              "en": "flexible schedule",
+              "vi": "lịch trình linh hoạt"
+            },
+            {
+              "en": "boost productivity",
+              "vi": "thúc đẩy năng suất"
+            },
+            {
+              "en": "improve efficiency",
+              "vi": "cải thiện hiệu quả"
+            },
+            {
+              "en": "work independently",
+              "vi": "làm việc độc lập"
+            },
+            {
+              "en": "autonomous",
+              "vi": "tự chủ"
+            },
+            {
+              "en": "quiet space",
+              "vi": "không gian yên tĩnh"
+            },
+            {
+              "en": "avoid interruptions",
+              "vi": "tránh bị gián đoạn"
+            },
+            {
+              "en": "coworkers",
+              "vi": "đồng nghiệp"
+            },
+            {
+              "en": "loneliness",
+              "vi": "sự cô đơn"
+            },
+            {
+              "en": "build relationships",
+              "vi": "xây dựng các mối quan hệ"
+            },
+            {
+              "en": "teamwork",
+              "vi": "làm việc nhóm"
+            },
+            {
+              "en": "distractions",
+              "vi": "những sự xao nhãng"
+            },
+            {
+              "en": "blur the line",
+              "vi": "làm mờ ranh giới"
+            },
+            {
+              "en": "separate work and rest time",
+              "vi": "tách biệt thời gian làm việc và nghỉ ngơi"
+            },
+            {
+              "en": "overworked",
+              "vi": "làm việc quá sức"
+            },
+            {
+              "en": "burnout",
+              "vi": "sự kiệt sức"
+            },
+            {
+              "en": "prolonged stress",
+              "vi": "căng thẳng kéo dài"
+            },
+            {
+              "en": "working hours",
+              "vi": "giờ làm việc"
+            },
+            {
+              "en": "technology dependence",
+              "vi": "sự phụ thuộc vào công nghệ"
+            },
+            {
+              "en": "internet access",
+              "vi": "kết nối internet"
+            },
+            {
+              "en": "digital platforms",
+              "vi": "các nền tảng kỹ thuật số"
+            },
+            {
+              "en": "virtual meetings",
+              "vi": "các cuộc họp ảo"
+            },
+            {
+              "en": "online communication",
+              "vi": "giao tiếp trực tuyến"
+            },
+            {
+              "en": "technical problems",
+              "vi": "các vấn đề kỹ thuật"
+            },
+            {
+              "en": "workplaces",
+              "vi": "nơi làm việc"
+            },
+            {
+              "en": "allocate time",
+              "vi": "phân bổ thời gian"
+            },
+            {
+              "en": "personal activities",
+              "vi": "các hoạt động cá nhân"
+            },
+            {
+              "en": "foster",
+              "vi": "nuôi dưỡng"
+            },
+            {
+              "en": "collaborate",
+              "vi": "hợp tác"
+            },
+            {
+              "en": "professional relationships",
+              "vi": "các mối quan hệ chuyên nghiệp"
+            },
+            {
+              "en": "mental health",
+              "vi": "sức khỏe tinh thần"
+            },
+            {
+              "en": "well-being",
+              "vi": "sự khỏe mạnh"
+            },
+            {
+              "en": "motivation",
+              "vi": "động lực"
+            },
+            {
+              "en": "discipline",
+              "vi": "kỷ luật"
+            },
+            {
+              "en": "self-management",
+              "vi": "sự tự quản lý"
+            },
+            {
+              "en": "time management",
+              "vi": "quản lý thời gian"
+            },
+            {
+              "en": "procrastination",
+              "vi": "sự trì hoãn"
+            },
+            {
+              "en": "concentration",
+              "vi": "sự tập trung"
             }
           ],
-          "sample_b1": "In recent years, <strong>working from home</strong> has become more common in modern society. Although it has some benefits, there are also some drawbacks. <strong>This essay will discuss both sides of this topic.</strong>\n\n<strong>On the one hand, remote work has several advantages.</strong> One major benefit is that <strong><em>it helps employees save time and money</em></strong>. This is because workers do not need to commute to the office every day, so they can reduce transportation costs and have more time for their families. Another positive aspect is that <strong><em>it offers flexibility and convenience</em></strong>. The main reason is that people can work in a comfortable environment and manage their own schedules, so they can reduce stress and improve their work-life balance.\n\n<strong>On the other hand, there are also several disadvantages.</strong> One possible drawback is that <strong><em>working from home may reduce interaction between colleagues</em></strong>. This is because communication mainly takes place through screens, so employees may feel isolated and find it difficult to build strong relationships. Another negative aspect is that <strong><em>many people find it difficult to stay focused during working hours</em></strong>. In fact, there are many distractions at home such as television, housework, and surrounding noise, so their work performance may be affected.\n\nIn conclusion, <strong>telecommuting</strong> has both advantages and disadvantages. These points show that it has different effects on people’s lives. Therefore, it is important to consider both sides before making a decision.",
-          "sample_b2": "In recent years, <strong>remote working</strong> has become increasingly prevalent in modern society. While it offers undeniable benefits, there are also significant drawbacks. <strong>This essay will analyze both sides of this issue.</strong>\n\n<strong>On the one hand, telecommuting provides several major advantages.</strong> One significant benefit is that <strong><em>it significantly reduces commuting time and expenses</em></strong>. This is primarily because employees no longer need to travel to traditional workplaces on a daily basis, enabling them to save on transportation costs and allocate more time to personal activities. Another positive aspect is that <strong><em>it offers a high degree of flexibility and convenience</em></strong>. The underlying reason is that individuals can create comfortable workspaces and manage their schedules effectively, which helps to alleviate stress and achieve a better work-life balance.\n\n<strong>On the other hand, there are also notable disadvantages.</strong> One potential drawback is that <strong><em>working from home can severely limit face-to-face interaction among colleagues</em></strong>. Since communication predominantly occurs through digital platforms, remote workers may experience feelings of isolation and struggle to foster strong professional relationships. Another negative aspect is that <strong><em>numerous individuals find it challenging to maintain focus during working hours</em></strong>. In reality, the home environment presents various distractions, such as household chores and family members, which can negatively impact overall productivity and work performance.\n\nIn conclusion, <strong>working remotely</strong> presents both advantages and disadvantages. These points demonstrate that it has diverse impacts on employees and organizations. Therefore, it is crucial to carefully weigh both perspectives before adopting this working model.",
-          "translation_b1": "Trong những năm gần đây, <strong>làm việc tại nhà</strong> đã trở nên phổ biến hơn trong xã hội hiện đại. Mặc dù nó có một số lợi ích, cũng có một số hạn chế. <strong>Bài luận này sẽ thảo luận về cả hai khía cạnh của chủ đề này.</strong>\n\n<strong>Một mặt, làm việc từ xa có một vài lợi ích.</strong> Một lợi ích chính là <strong><em>nó giúp nhân viên tiết kiệm thời gian và tiền bạc</em></strong>. Điều này là do người lao động không cần phải đi lại đến văn phòng mỗi ngày, vì vậy họ có thể giảm chi phí đi lại và có nhiều thời gian hơn cho gia đình. Một khía cạnh tích cực khác là <strong><em>nó mang lại sự linh hoạt và thuận tiện</em></strong>. Lý do chính là mọi người có thể làm việc trong một môi trường thoải mái và tự quản lý lịch trình của mình, vì vậy họ có thể giảm căng thẳng và cải thiện sự cân bằng giữa công việc và cuộc sống.\n\n<strong>Mặt khác, cũng có một vài bất lợi.</strong> Một hạn chế có thể xảy ra là <strong><em>làm việc tại nhà có thể làm giảm sự tương tác giữa các đồng nghiệp</em></strong>. Điều này là do giao tiếp chủ yếu diễn ra qua màn hình, vì vậy nhân viên có thể cảm thấy bị cô lập và thấy khó khăn trong việc xây dựng các mối quan hệ bền vững. Một khía cạnh tiêu cực khác là <strong><em>nhiều người thấy khó khăn trong việc giữ tập trung trong giờ làm việc</em></strong>. Trên thực tế, có nhiều sự xao nhãng ở nhà như tivi, việc nhà và tiếng ồn xung quanh, vì vậy hiệu suất công việc của họ có thể bị ảnh hưởng.\n\nTóm lại, <strong>làm việc qua mạng</strong> có cả lợi ích và bất lợi. Những điểm này cho thấy nó có những tác động khác nhau đến cuộc sống của con người. Vì vậy, điều quan trọng là phải xem xét cả hai khía cạnh trước khi đưa ra quyết định.",
-          "translation_b2": "Trong những năm gần đây, <strong>làm việc từ xa</strong> đã trở nên ngày càng thịnh hành trong xã hội hiện đại. Mặc dù nó mang lại những lợi ích không thể phủ nhận, cũng có những hạn chế đáng kể. <strong>Bài luận này sẽ phân tích cả hai khía cạnh của vấn đề này.</strong>\n\n<strong>Một mặt, làm việc qua mạng cung cấp một vài lợi thế lớn.</strong> Một lợi ích quan trọng là <strong><em>nó giảm thiểu đáng kể thời gian và chi phí đi lại</em></strong>. Điều này chủ yếu là do nhân viên không còn cần phải di chuyển đến các nơi làm việc truyền thống hàng ngày, cho phép họ tiết kiệm chi phí đi lại và phân bổ nhiều thời gian hơn cho các hoạt động cá nhân. Một khía cạnh tích cực khác là <strong><em>nó mang lại mức độ linh hoạt và thuận tiện cao</em></strong>. Lý do sâu xa là các cá nhân có thể tạo ra không gian làm việc thoải mái và quản lý lịch trình của họ một cách hiệu quả, điều này giúp làm giảm căng thẳng và đạt được sự cân bằng tốt hơn giữa công việc và cuộc sống.\n\n<strong>Mặt khác, cũng có những bất lợi đáng chú ý.</strong> Một hạn chế tiềm tàng là <strong><em>làm việc tại nhà có thể hạn chế nghiêm trọng sự tương tác trực tiếp giữa các đồng nghiệp</em></strong>. Vì giao tiếp chủ yếu diễn ra qua các nền tảng kỹ thuật số, những người làm việc từ xa có thể trải qua cảm giác bị cô lập và gặp khó khăn trong việc nuôi dưỡng các mối quan hệ chuyên nghiệp vững chắc. Một khía cạnh tiêu cực khác là <strong><em>nhiều cá nhân thấy khó khăn trong việc duy trì sự tập trung trong giờ làm việc</em></strong>. Trên thực tế, môi trường ở nhà đưa ra nhiều sự xao nhãng khác nhau, chẳng hạn như việc nhà và các thành viên trong gia đình, những điều này có thể tác động tiêu cực đến năng suất tổng thể và hiệu suất công việc.\n\nTóm lại, <strong>làm việc từ xa</strong> đưa ra cả lợi thế và bất lợi. Những điểm này chứng minh rằng nó có những tác động đa dạng đến người lao động và các tổ chức. Vì vậy, điều tối quan trọng là phải cân nhắc kỹ lưỡng cả hai góc nhìn trước khi áp dụng mô hình làm việc này.",
+          "sample_b1": "In recent years, <strong>working from home</strong> has become more common in modern society. Although it has some benefits, there are also some drawbacks. <strong>This essay will discuss both sides of this topic.</strong>\n\n<strong>On the one hand, remote work has several advantages.</strong> One major benefit is that <strong><em>it helps employees save time and money</em></strong>. This is because workers do not need to commute to the office every day, so they can reduce transportation costs and have more time for their families. Another positive aspect is that <strong><em>it offers flexibility and convenience</em></strong>. The main reason is that people can work in a comfortable environment and manage their own schedules, so they can reduce stress and improve their work-life balance. A further good point is that <strong><em>it can help improve work productivity</em></strong>. This means that people can work in a quiet space and avoid interruptions from colleagues, so they can complete their tasks faster.\n\n<strong>On the other hand, there are also several disadvantages.</strong> One possible drawback is that <strong><em>working from home may reduce interaction between colleagues</em></strong>. This is because communication mainly takes place through screens, so employees may feel isolated and find it difficult to build strong relationships. Another negative aspect is that <strong><em>many people find it difficult to stay focused during working hours</em></strong>. In fact, there are many distractions at home such as television, housework, and surrounding noise, so their work performance may be affected. Finally, <strong><em>it is very difficult to separate work and rest time</em></strong>. As a result, many people work overtime because they do not leave their workplace, which can lead to stress.\n\nIn conclusion, <strong>telecommuting</strong> has both advantages and disadvantages. These points show that it has different effects on people’s lives. Therefore, it is important to consider both sides before making a decision.",
+          "sample_b2": "In recent years, <strong>remote working</strong> has become increasingly prevalent in modern society. While it offers undeniable benefits, there are also significant drawbacks. <strong>This essay will analyze both sides of this issue.</strong>\n\n<strong>On the one hand, telecommuting provides several major advantages.</strong> One significant benefit is that <strong><em>it significantly reduces commuting time and expenses</em></strong>. This is primarily because employees no longer need to travel to traditional workplaces on a daily basis, enabling them to save on transportation costs and allocate more time to personal activities. Another positive aspect is that <strong><em>it offers a high degree of flexibility and convenience</em></strong>. The underlying reason is that individuals can create comfortable workspaces and manage their schedules effectively, which helps to alleviate stress and achieve a better work-life balance. A further merit is that <strong><em>this model can significantly boost overall efficiency</em></strong>. Specifically, a quiet working environment allows employees to perform tasks without interruptions, ultimately leading to better work outcomes.\n\n<strong>On the other hand, there are also notable disadvantages.</strong> One potential drawback is that <strong><em>working from home can severely limit face-to-face interaction among colleagues</em></strong>. Since communication predominantly occurs through digital platforms, remote workers may experience feelings of isolation and struggle to foster strong professional relationships. Another negative aspect is that <strong><em>numerous individuals find it challenging to maintain focus during working hours</em></strong>. In reality, the home environment presents various distractions, such as household chores and family members, which can negatively impact overall productivity and work performance. Lastly, <strong><em>remote work can blur the boundaries between professional and personal life</em></strong>. Consequently, individuals may end up working longer hours since they do not physically leave the office, leading to prolonged stress and burnout.\n\nIn conclusion, <strong>working remotely</strong> presents both advantages and disadvantages. These points demonstrate that it has diverse impacts on employees and organizations. Therefore, it is crucial to carefully weigh both perspectives before adopting this working model.",
+          "translation_b1": "Trong những năm gần đây, <strong>làm việc tại nhà</strong> đã trở nên phổ biến hơn trong xã hội hiện đại. Mặc dù nó có một số lợi ích, cũng có một số hạn chế. <strong>Bài luận này sẽ thảo luận về cả hai khía cạnh của chủ đề này.</strong>\n\n<strong>Một mặt, làm việc từ xa có một vài lợi ích.</strong> Một lợi ích chính là <strong><em>nó giúp nhân viên tiết kiệm thời gian và tiền bạc</em></strong>. Điều này là do người lao động không cần phải đi lại đến văn phòng mỗi ngày, vì vậy họ có thể giảm chi phí đi lại và có nhiều thời gian hơn cho gia đình. Một khía cạnh tích cực khác là <strong><em>nó mang lại sự linh hoạt và thuận tiện</em></strong>. Lý do chính là mọi người có thể làm việc trong một môi trường thoải mái và tự quản lý lịch trình của mình, vì vậy họ có thể giảm căng thẳng và cải thiện sự cân bằng giữa công việc và cuộc sống. Một điểm tốt nữa là <strong><em>nó có thể giúp cải thiện năng suất công việc</em></strong>. Điều này có nghĩa là mọi người có thể làm việc trong không gian yên tĩnh và tránh bị gián đoạn từ đồng nghiệp, do đó họ có thể hoàn thành nhiệm vụ nhanh hơn.\n\n<strong>Mặt khác, cũng có một vài bất lợi.</strong> Một hạn chế có thể xảy ra là <strong><em>làm việc tại nhà có thể làm giảm sự tương tác giữa các đồng nghiệp</em></strong>. Điều này là do giao tiếp chủ yếu diễn ra qua màn hình, vì vậy nhân viên có thể cảm thấy bị cô lập và thấy khó khăn trong việc xây dựng các mối quan hệ bền vững. Một khía cạnh tiêu cực khác là <strong><em>nhiều người thấy khó khăn trong việc giữ tập trung trong giờ làm việc</em></strong>. Trên thực tế, có nhiều sự xao nhãng ở nhà như tivi, việc nhà và tiếng ồn xung quanh, vì vậy hiệu suất công việc của họ có thể bị ảnh hưởng. Cuối cùng, <strong><em>rất khó để tách bạch giữa công việc và thời gian nghỉ ngơi</em></strong>. Kết quả là, nhiều người làm việc quá giờ vì họ không rời khỏi nơi làm việc, điều này có thể dẫn đến căng thẳng.\n\nTóm lại, <strong>làm việc qua mạng</strong> có cả lợi ích và bất lợi. Những điểm này cho thấy nó có những tác động khác nhau đến cuộc sống của con người. Vì vậy, điều quan trọng là phải xem xét cả hai khía cạnh trước khi đưa ra quyết định.",
+          "translation_b2": "Trong những năm gần đây, <strong>làm việc từ xa</strong> đã trở nên ngày càng thịnh hành trong xã hội hiện đại. Mặc dù nó mang lại những lợi ích không thể phủ nhận, cũng có những hạn chế đáng kể. <strong>Bài luận này sẽ phân tích cả hai khía cạnh của vấn đề này.</strong>\n\n<strong>Một mặt, làm việc qua mạng cung cấp một vài lợi thế lớn.</strong> Một lợi ích quan trọng là <strong><em>nó giảm thiểu đáng kể thời gian và chi phí đi lại</em></strong>. Điều này chủ yếu là do nhân viên không còn cần phải di chuyển đến các nơi làm việc truyền thống hàng ngày, cho phép họ tiết kiệm chi phí đi lại và phân bổ nhiều thời gian hơn cho các hoạt động cá nhân. Một khía cạnh tích cực khác là <strong><em>nó mang lại mức độ linh hoạt và thuận tiện cao</em></strong>. Lý do sâu xa là các cá nhân có thể tạo ra không gian làm việc thoải mái và quản lý lịch trình của họ một cách hiệu quả, điều này giúp làm giảm căng thẳng và đạt được sự cân bằng tốt hơn giữa công việc và cuộc sống. Một điểm mạnh nữa là <strong><em>mô hình này có thể thúc đẩy đáng kể hiệu quả tổng thể</em></strong>. Cụ thể, một môi trường làm việc yên tĩnh cho phép nhân viên thực hiện nhiệm vụ mà không bị gián đoạn, cuối cùng dẫn đến kết quả công việc tốt hơn.\n\n<strong>Mặt khác, cũng có những bất lợi đáng chú ý.</strong> Một hạn chế tiềm tàng là <strong><em>làm việc tại nhà có thể hạn chế nghiêm trọng sự tương tác trực tiếp giữa các đồng nghiệp</em></strong>. Vì giao tiếp chủ yếu diễn ra qua các nền tảng kỹ thuật số, những người làm việc từ xa có thể trải qua cảm giác bị cô lập và gặp khó khăn trong việc nuôi dưỡng các mối quan hệ chuyên nghiệp vững chắc. Một khía cạnh tiêu cực khác là <strong><em>nhiều cá nhân thấy khó khăn trong việc duy trì sự tập trung trong giờ làm việc</em></strong>. Trên thực tế, môi trường ở nhà đưa ra nhiều sự xao nhãng khác nhau, chẳng hạn như việc nhà và các thành viên trong gia đình, những điều này có thể tác động tiêu cực đến năng suất tổng thể và hiệu suất công việc. Cuối cùng, <strong><em>làm việc từ xa có thể làm mờ ranh giới giữa đời sống công sở và cá nhân</em></strong>. Hậu quả là, các cá nhân có thể phải làm việc nhiều giờ hơn vì họ không rời khỏi văn phòng về mặt thể chất, dẫn đến căng thẳng và kiệt sức kéo dài.\n\nTóm lại, <strong>làm việc từ xa</strong> đưa ra cả lợi thế và bất lợi. Những điểm này chứng minh rằng nó có những tác động đa dạng đến người lao động và các tổ chức. Vì vậy, điều tối quan trọng là phải cân nhắc kỹ lưỡng cả hai góc nhìn trước khi áp dụng mô hình làm việc này.",
           "ideas_b1": {
             "benefits": [
               {
@@ -3451,6 +3615,23 @@ const ESSAY_DATA = [
                 "point_en": "Remote work offers flexibility and convenience.",
                 "evidence_vi": "Mọi người có thể quản lý lịch trình của riêng mình trong một môi trường thoải mái.",
                 "evidence_en": "People can manage their own schedules in a comfortable environment."
+              },
+              {
+                "title": "ADVANTAGE 03",
+                "collocations": [
+                  {
+                    "en": "improve productivity",
+                    "vi": "cải thiện năng suất"
+                  },
+                  {
+                    "en": "work independently",
+                    "vi": "làm việc độc lập"
+                  }
+                ],
+                "point_vi": "Làm việc tại nhà có thể giúp cải thiện năng suất công việc.",
+                "point_en": "Working from home can help improve work productivity.",
+                "evidence_vi": "Mọi người có thể làm việc trong không gian yên tĩnh và tránh được sự gián đoạn từ đồng nghiệp.",
+                "evidence_en": "People can work in a quiet space and avoid interruptions from colleagues."
               }
             ],
             "drawbacks": [
@@ -3479,6 +3660,23 @@ const ESSAY_DATA = [
                 "point_en": "Many people find it difficult to stay focused at home.",
                 "evidence_vi": "Có rất nhiều sự xao nhãng như ti vi và việc nhà.",
                 "evidence_en": "There are many distractions such as television and housework."
+              },
+              {
+                "title": "DISADVANTAGE 03",
+                "collocations": [
+                  {
+                    "en": "blur the line",
+                    "vi": "làm mờ ranh giới"
+                  },
+                  {
+                    "en": "overworked",
+                    "vi": "làm việc quá sức"
+                  }
+                ],
+                "point_vi": "Rất khó để tách bạch giữa công việc và thời gian nghỉ ngơi.",
+                "point_en": "It is very difficult to separate work and rest time.",
+                "evidence_vi": "Nhiều người làm việc quá giờ vì họ không rời khỏi nơi làm việc.",
+                "evidence_en": "Many people work overtime because they do not leave their workplace."
               }
             ]
           },
@@ -3509,6 +3707,23 @@ const ESSAY_DATA = [
                 "point_en": "It offers a high degree of flexibility and convenience.",
                 "evidence_vi": "Các cá nhân có thể tạo không gian làm việc thoải mái và quản lý lịch trình hiệu quả.",
                 "evidence_en": "Individuals can create comfortable workspaces and manage their schedules effectively."
+              },
+              {
+                "title": "ADVANTAGE 03",
+                "collocations": [
+                  {
+                    "en": "boost overall efficiency",
+                    "vi": "thúc đẩy hiệu quả tổng thể"
+                  },
+                  {
+                    "en": "autonomous work environment",
+                    "vi": "môi trường làm việc tự chủ"
+                  }
+                ],
+                "point_vi": "Mô hình này có thể thúc đẩy đáng kể hiệu quả tổng thể.",
+                "point_en": "This model can significantly boost overall efficiency.",
+                "evidence_vi": "Một môi trường làm việc yên tĩnh cho phép nhân viên thực hiện nhiệm vụ mà không bị gián đoạn.",
+                "evidence_en": "A quiet working environment allows employees to perform tasks without interruptions."
               }
             ],
             "drawbacks": [
@@ -3537,6 +3752,23 @@ const ESSAY_DATA = [
                 "point_en": "Numerous individuals find it challenging to maintain focus.",
                 "evidence_vi": "Môi trường ở nhà đưa ra nhiều sự xao nhãng có thể tác động tiêu cực đến năng suất.",
                 "evidence_en": "The home environment presents various distractions that can negatively impact productivity."
+              },
+              {
+                "title": "DISADVANTAGE 03",
+                "collocations": [
+                  {
+                    "en": "blur the boundaries",
+                    "vi": "làm mờ ranh giới"
+                  },
+                  {
+                    "en": "burnout",
+                    "vi": "kiệt sức"
+                  }
+                ],
+                "point_vi": "Làm việc từ xa có thể làm mờ ranh giới giữa đời sống công sở và cá nhân.",
+                "point_en": "Remote work can blur the boundaries between professional and personal life.",
+                "evidence_vi": "Các cá nhân có thể phải làm việc nhiều giờ hơn, dẫn đến căng thẳng và kiệt sức kéo dài.",
+                "evidence_en": "Individuals may end up working longer hours, leading to prolonged stress and burnout."
               }
             ]
           }
