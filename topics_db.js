@@ -14212,7 +14212,665 @@ const ESSAY_DATA = [
         "tags": "[Causes & Effects]",
         "context": "Climate change has become one of the most pressing global challenges of the 21st century. Rising temperatures, changing weather patterns, melting ice caps, and more frequent natural disasters are affecting people and ecosystems around the world. Governments, scientists, and environmental organizations have expressed growing concern about the long-term consequences of this issue.",
         "prompt": "Write an essay to an educated reader to discuss the causes and effects of climate change. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "paraphrases": [
+          {
+            "en": "global warming",
+            "vi": "sự nóng lên toàn cầu"
+          },
+          {
+            "en": "environmental degradation",
+            "vi": "sự suy thoái môi trường"
+          },
+          {
+            "en": "rising global temperatures",
+            "vi": "sự gia tăng nhiệt độ toàn cầu"
+          }
+        ],
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "CAUSE 01",
+                "collocations": [
+                  {
+                    "en": "rely on",
+                    "vi": "phụ thuộc vào"
+                  },
+                  {
+                    "en": "fossil fuels",
+                    "vi": "nhiên liệu hóa thạch"
+                  },
+                  {
+                    "en": "coal",
+                    "vi": "than đá"
+                  },
+                  {
+                    "en": "oil",
+                    "vi": "dầu mỏ"
+                  },
+                  {
+                    "en": "natural gas",
+                    "vi": "khí đốt"
+                  },
+                  {
+                    "en": "carbon dioxide",
+                    "vi": "khí carbon dioxide"
+                  },
+                  {
+                    "en": "produce energy",
+                    "vi": "sản xuất năng lượng"
+                  },
+                  {
+                    "en": "create",
+                    "vi": "tạo ra"
+                  }
+                ],
+                "point_vi": "Con người phụ thuộc quá nhiều vào nhiên liệu hóa thạch.",
+                "point_en": "People rely too much on fossil fuels.",
+                "evidence_vi": "Việc đốt than, dầu và khí đốt để sản xuất năng lượng tạo ra một lượng lớn khí carbon dioxide.",
+                "evidence_en": "Burning coal, oil, and natural gas to produce energy creates a large amount of carbon dioxide."
+              },
+              {
+                "title": "CAUSE 02",
+                "collocations": [
+                  {
+                    "en": "deforestation",
+                    "vi": "nạn phá rừng"
+                  },
+                  {
+                    "en": "reduce the number of",
+                    "vi": "làm giảm số lượng"
+                  },
+                  {
+                    "en": "absorb",
+                    "vi": "hấp thụ"
+                  },
+                  {
+                    "en": "cut down trees",
+                    "vi": "chặt cây"
+                  },
+                  {
+                    "en": "fewer",
+                    "vi": "ít hơn"
+                  }
+                ],
+                "point_vi": "Việc chặt phá rừng làm giảm số lượng cây xanh trên toàn thế giới.",
+                "point_en": "Deforestation reduces the number of trees around the world.",
+                "evidence_vi": "Ít cây hơn sẽ hấp thụ ít khí carbon dioxide hơn.",
+                "evidence_en": "Fewer trees absorb less carbon dioxide."
+              },
+              {
+                "title": "CAUSE 03",
+                "collocations": [
+                  {
+                    "en": "private vehicles",
+                    "vi": "phương tiện cá nhân"
+                  },
+                  {
+                    "en": "air pollution",
+                    "vi": "ô nhiễm không khí"
+                  },
+                  {
+                    "en": "cars and motorbikes",
+                    "vi": "ô tô và xe máy"
+                  },
+                  {
+                    "en": "increase",
+                    "vi": "làm tăng"
+                  },
+                  {
+                    "en": "produce",
+                    "vi": "tạo ra"
+                  }
+                ],
+                "point_vi": "Việc sử dụng phương tiện cá nhân quá nhiều làm gia tăng ô nhiễm không khí.",
+                "point_en": "Using private vehicles too much increases air pollution.",
+                "evidence_vi": "Ô tô và xe máy tạo ra một lượng lớn khí carbon dioxide.",
+                "evidence_en": "Cars and motorbikes produce a large amount of carbon dioxide."
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "EFFECT 01",
+                "collocations": [
+                  {
+                    "en": "become hotter",
+                    "vi": "nóng lên"
+                  },
+                  {
+                    "en": "heatwaves",
+                    "vi": "các đợt nắng nóng"
+                  },
+                  {
+                    "en": "experience",
+                    "vi": "trải qua"
+                  }
+                ],
+                "point_vi": "Biến đổi khí hậu khiến Trái Đất ngày càng nóng lên.",
+                "point_en": "Climate change makes the Earth become hotter.",
+                "evidence_vi": "Nhiều nơi trên thế giới đang trải qua các đợt nắng nóng kéo dài.",
+                "evidence_en": "Many places are experiencing longer heatwaves."
+              },
+              {
+                "title": "EFFECT 02",
+                "collocations": [
+                  {
+                    "en": "natural disasters",
+                    "vi": "thiên tai"
+                  },
+                  {
+                    "en": "floods",
+                    "vi": "lũ lụt"
+                  },
+                  {
+                    "en": "storms",
+                    "vi": "bão"
+                  },
+                  {
+                    "en": "droughts",
+                    "vi": "hạn hán"
+                  },
+                  {
+                    "en": "occur",
+                    "vi": "xảy ra"
+                  },
+                  {
+                    "en": "cause",
+                    "vi": "khiến"
+                  }
+                ],
+                "point_vi": "Biến đổi khí hậu làm cho thiên tai xảy ra thường xuyên hơn.",
+                "point_en": "Climate change causes natural disasters to happen more often.",
+                "evidence_vi": "Lũ lụt, bão và hạn hán xảy ra ở nhiều quốc gia hơn.",
+                "evidence_en": "Floods, storms, and droughts occur in more countries."
+              },
+              {
+                "title": "EFFECT 03",
+                "collocations": [
+                  {
+                    "en": "negative effects",
+                    "vi": "ảnh hưởng tiêu cực"
+                  },
+                  {
+                    "en": "people's lives",
+                    "vi": "cuộc sống của con người"
+                  },
+                  {
+                    "en": "lose homes",
+                    "vi": "mất nhà cửa"
+                  },
+                  {
+                    "en": "farming",
+                    "vi": "nông nghiệp"
+                  },
+                  {
+                    "en": "have effects on",
+                    "vi": "có ảnh hưởng đến"
+                  },
+                  {
+                    "en": "face difficulties",
+                    "vi": "gặp khó khăn"
+                  }
+                ],
+                "point_vi": "Biến đổi khí hậu gây ra nhiều ảnh hưởng tiêu cực đến cuộc sống của con người.",
+                "point_en": "Climate change has many negative effects on people's lives.",
+                "evidence_vi": "Nhiều người mất nhà cửa hoặc gặp khó khăn trong sản xuất nông nghiệp.",
+                "evidence_en": "Many people lose their homes or face difficulties in farming."
+              }
+            ]
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "CAUSE 01",
+                "collocations": [
+                  {
+                    "en": "greenhouse gases",
+                    "vi": "khí nhà kính"
+                  },
+                  {
+                    "en": "fossil fuels",
+                    "vi": "nhiên liệu hóa thạch"
+                  },
+                  {
+                    "en": "carbon dioxide",
+                    "vi": "khí carbon dioxide"
+                  },
+                  {
+                    "en": "greenhouse effect",
+                    "vi": "hiệu ứng nhà kính"
+                  },
+                  {
+                    "en": "global temperatures",
+                    "vi": "nhiệt độ toàn cầu"
+                  },
+                  {
+                    "en": "release",
+                    "vi": "thải ra"
+                  },
+                  {
+                    "en": "strengthen",
+                    "vi": "làm tăng"
+                  },
+                  {
+                    "en": "raise",
+                    "vi": "làm tăng"
+                  }
+                ],
+                "point_vi": "Các hoạt động của con người thải ra quá nhiều khí nhà kính.",
+                "point_en": "Human activities release too many greenhouse gases.",
+                "evidence_vi": "Việc đốt nhiên liệu hóa thạch tạo ra lượng lớn khí carbon dioxide. Điều này làm tăng hiệu ứng nhà kính và khiến nhiệt độ toàn cầu tăng lên.",
+                "evidence_en": "Burning fossil fuels releases large amounts of carbon dioxide. This strengthens the greenhouse effect and raises global temperatures."
+              },
+              {
+                "title": "CAUSE 02",
+                "collocations": [
+                  {
+                    "en": "deforestation",
+                    "vi": "nạn phá rừng"
+                  },
+                  {
+                    "en": "absorb carbon dioxide",
+                    "vi": "hấp thụ khí carbon dioxide"
+                  },
+                  {
+                    "en": "atmosphere",
+                    "vi": "khí quyển"
+                  },
+                  {
+                    "en": "agriculture",
+                    "vi": "nông nghiệp"
+                  },
+                  {
+                    "en": "construction",
+                    "vi": "xây dựng"
+                  },
+                  {
+                    "en": "cut down",
+                    "vi": "chặt phá"
+                  },
+                  {
+                    "en": "increase",
+                    "vi": "làm tăng"
+                  }
+                ],
+                "point_vi": "Việc phá rừng làm giảm khả năng hấp thụ khí carbon dioxide của Trái Đất.",
+                "point_en": "Deforestation reduces the Earth's ability to absorb carbon dioxide.",
+                "evidence_vi": "Nhiều khu rừng bị chặt phá để phục vụ nông nghiệp và xây dựng. Điều này làm tăng lượng khí nhà kính trong khí quyển.",
+                "evidence_en": "Many forests are cut down for agriculture and construction. This increases the amount of greenhouse gases in the atmosphere."
+              },
+              {
+                "title": "CAUSE 03",
+                "collocations": [
+                  {
+                    "en": "excessive use",
+                    "vi": "việc sử dụng quá mức"
+                  },
+                  {
+                    "en": "private vehicles",
+                    "vi": "phương tiện cá nhân"
+                  },
+                  {
+                    "en": "carbon emissions",
+                    "vi": "khí thải carbon"
+                  },
+                  {
+                    "en": "contribute to",
+                    "vi": "góp phần vào"
+                  },
+                  {
+                    "en": "air pollution",
+                    "vi": "ô nhiễm không khí"
+                  },
+                  {
+                    "en": "increase",
+                    "vi": "làm tăng"
+                  }
+                ],
+                "point_vi": "Việc sử dụng phương tiện cá nhân quá nhiều làm tăng lượng khí thải carbon.",
+                "point_en": "The excessive use of private vehicles increases carbon emissions.",
+                "evidence_vi": "Ô tô và xe máy thải ra một lượng lớn khí carbon dioxide mỗi ngày. Điều này làm ô nhiễm không khí và góp phần vào biến đổi khí hậu.",
+                "evidence_en": "Cars and motorbikes produce a large amount of carbon dioxide every day. This pollutes the air and contributes to climate change."
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "EFFECT 01",
+                "collocations": [
+                  {
+                    "en": "global temperatures",
+                    "vi": "nhiệt độ toàn cầu"
+                  },
+                  {
+                    "en": "heatwaves",
+                    "vi": "các đợt nắng nóng"
+                  },
+                  {
+                    "en": "daily lives",
+                    "vi": "cuộc sống hằng ngày"
+                  },
+                  {
+                    "en": "continue to rise",
+                    "vi": "tiếp tục tăng"
+                  },
+                  {
+                    "en": "affect",
+                    "vi": "ảnh hưởng"
+                  }
+                ],
+                "point_vi": "Nhiệt độ toàn cầu tiếp tục tăng.",
+                "point_en": "Global temperatures continue to rise.",
+                "evidence_vi": "Các đợt nắng nóng xảy ra thường xuyên và kéo dài hơn. Điều này ảnh hưởng đến sức khỏe và cuộc sống của nhiều người.",
+                "evidence_en": "Heatwaves become more frequent and last longer. This affects people's health and daily lives."
+              },
+              {
+                "title": "EFFECT 02",
+                "collocations": [
+                  {
+                    "en": "severe",
+                    "vi": "nghiêm trọng"
+                  },
+                  {
+                    "en": "property",
+                    "vi": "tài sản"
+                  },
+                  {
+                    "en": "damage",
+                    "vi": "thiệt hại"
+                  },
+                  {
+                    "en": "cause damage",
+                    "vi": "gây thiệt hại"
+                  }
+                ],
+                "point_vi": "Thiên tai trở nên nghiêm trọng hơn.",
+                "point_en": "Natural disasters become more severe.",
+                "evidence_vi": "Lũ lụt, bão và hạn hán xảy ra với cường độ mạnh hơn. Điều này gây thiệt hại lớn về người và tài sản.",
+                "evidence_en": "Floods, storms, and droughts occur more intensely. This causes serious damage to people and property."
+              },
+              {
+                "title": "EFFECT 03",
+                "collocations": [
+                  {
+                    "en": "sustainable development",
+                    "vi": "phát triển bền vững"
+                  },
+                  {
+                    "en": "agriculture",
+                    "vi": "nông nghiệp"
+                  },
+                  {
+                    "en": "water resources",
+                    "vi": "nguồn nước"
+                  },
+                  {
+                    "en": "ecosystems",
+                    "vi": "hệ sinh thái"
+                  },
+                  {
+                    "en": "quality of life",
+                    "vi": "chất lượng cuộc sống"
+                  },
+                  {
+                    "en": "threaten",
+                    "vi": "đe dọa"
+                  },
+                  {
+                    "en": "affect",
+                    "vi": "ảnh hưởng"
+                  }
+                ],
+                "point_vi": "Biến đổi khí hậu đe dọa sự phát triển bền vững.",
+                "point_en": "Climate change threatens sustainable development.",
+                "evidence_vi": "Nó ảnh hưởng đến nông nghiệp, nguồn nước và hệ sinh thái. Điều này làm giảm chất lượng cuộc sống trong tương lai.",
+                "evidence_en": "It affects agriculture, water resources, and ecosystems. This reduces people's quality of life in the future."
+              }
+            ]
+          },
+          "vocab": [
+            {
+              "en": "rely on",
+              "vi": "phụ thuộc vào"
+            },
+            {
+              "en": "fossil fuels",
+              "vi": "nhiên liệu hóa thạch"
+            },
+            {
+              "en": "coal",
+              "vi": "than đá"
+            },
+            {
+              "en": "oil",
+              "vi": "dầu mỏ"
+            },
+            {
+              "en": "natural gas",
+              "vi": "khí đốt"
+            },
+            {
+              "en": "carbon dioxide",
+              "vi": "khí carbon dioxide"
+            },
+            {
+              "en": "produce energy",
+              "vi": "sản xuất năng lượng"
+            },
+            {
+              "en": "create",
+              "vi": "tạo ra"
+            },
+            {
+              "en": "deforestation",
+              "vi": "nạn phá rừng"
+            },
+            {
+              "en": "reduce the number of",
+              "vi": "làm giảm số lượng"
+            },
+            {
+              "en": "absorb",
+              "vi": "hấp thụ"
+            },
+            {
+              "en": "cut down trees",
+              "vi": "chặt cây"
+            },
+            {
+              "en": "fewer",
+              "vi": "ít hơn"
+            },
+            {
+              "en": "private vehicles",
+              "vi": "phương tiện cá nhân"
+            },
+            {
+              "en": "air pollution",
+              "vi": "ô nhiễm không khí"
+            },
+            {
+              "en": "cars and motorbikes",
+              "vi": "ô tô và xe máy"
+            },
+            {
+              "en": "increase",
+              "vi": "làm tăng"
+            },
+            {
+              "en": "produce",
+              "vi": "tạo ra"
+            },
+            {
+              "en": "become hotter",
+              "vi": "nóng lên"
+            },
+            {
+              "en": "heatwaves",
+              "vi": "các đợt nắng nóng"
+            },
+            {
+              "en": "experience",
+              "vi": "trải qua"
+            },
+            {
+              "en": "natural disasters",
+              "vi": "thiên tai"
+            },
+            {
+              "en": "floods",
+              "vi": "lũ lụt"
+            },
+            {
+              "en": "storms",
+              "vi": "bão"
+            },
+            {
+              "en": "droughts",
+              "vi": "hạn hán"
+            },
+            {
+              "en": "occur",
+              "vi": "xảy ra"
+            },
+            {
+              "en": "cause",
+              "vi": "khiến"
+            },
+            {
+              "en": "negative effects",
+              "vi": "ảnh hưởng tiêu cực"
+            },
+            {
+              "en": "people's lives",
+              "vi": "cuộc sống của con người"
+            },
+            {
+              "en": "lose homes",
+              "vi": "mất nhà cửa"
+            },
+            {
+              "en": "farming",
+              "vi": "nông nghiệp"
+            },
+            {
+              "en": "have effects on",
+              "vi": "có ảnh hưởng đến"
+            },
+            {
+              "en": "face difficulties",
+              "vi": "gặp khó khăn"
+            },
+            {
+              "en": "greenhouse gases",
+              "vi": "khí nhà kính"
+            },
+            {
+              "en": "greenhouse effect",
+              "vi": "hiệu ứng nhà kính"
+            },
+            {
+              "en": "global temperatures",
+              "vi": "nhiệt độ toàn cầu"
+            },
+            {
+              "en": "release",
+              "vi": "thải ra"
+            },
+            {
+              "en": "strengthen",
+              "vi": "làm tăng"
+            },
+            {
+              "en": "raise",
+              "vi": "làm tăng"
+            },
+            {
+              "en": "absorb carbon dioxide",
+              "vi": "hấp thụ khí carbon dioxide"
+            },
+            {
+              "en": "atmosphere",
+              "vi": "khí quyển"
+            },
+            {
+              "en": "agriculture",
+              "vi": "nông nghiệp"
+            },
+            {
+              "en": "construction",
+              "vi": "xây dựng"
+            },
+            {
+              "en": "cut down",
+              "vi": "chặt phá"
+            },
+            {
+              "en": "excessive use",
+              "vi": "việc sử dụng quá mức"
+            },
+            {
+              "en": "carbon emissions",
+              "vi": "khí thải carbon"
+            },
+            {
+              "en": "contribute to",
+              "vi": "góp phần vào"
+            },
+            {
+              "en": "daily lives",
+              "vi": "cuộc sống hằng ngày"
+            },
+            {
+              "en": "continue to rise",
+              "vi": "tiếp tục tăng"
+            },
+            {
+              "en": "affect",
+              "vi": "ảnh hưởng"
+            },
+            {
+              "en": "severe",
+              "vi": "nghiêm trọng"
+            },
+            {
+              "en": "property",
+              "vi": "tài sản"
+            },
+            {
+              "en": "damage",
+              "vi": "thiệt hại"
+            },
+            {
+              "en": "cause damage",
+              "vi": "gây thiệt hại"
+            },
+            {
+              "en": "sustainable development",
+              "vi": "phát triển bền vững"
+            },
+            {
+              "en": "water resources",
+              "vi": "nguồn nước"
+            },
+            {
+              "en": "ecosystems",
+              "vi": "hệ sinh thái"
+            },
+            {
+              "en": "quality of life",
+              "vi": "chất lượng cuộc sống"
+            },
+            {
+              "en": "threaten",
+              "vi": "đe dọa"
+            }
+          ],
+          "sample_b1": "In today's society, <strong>climate change</strong> has become a serious problem in many parts of the world. There are several causes of this issue, and it has many negative effects on our planet. <strong>This essay will discuss the causes of climate change and its major effects.</strong>\n\n<strong>There are several reasons why climate change occurs.</strong> First of all, <strong><em>people rely too much on fossil fuels</em></strong>. This is because burning coal, oil, and natural gas to produce energy creates a large amount of carbon dioxide. Secondly, <strong><em>deforestation reduces the number of trees around the world</em></strong>. The main reason is that fewer trees absorb less carbon dioxide. Finally, <strong><em>using private vehicles too much increases air pollution</em></strong>. This means that cars and motorbikes produce a large amount of carbon dioxide.\n\n<strong>As a result, climate change has caused several negative effects.</strong> One major consequence is that <strong><em>climate change makes the Earth become hotter</em></strong>. In fact, many places are experiencing longer heatwaves. Another negative impact is that <strong><em>climate change causes natural disasters to happen more often</em></strong>. Specifically, floods, storms, and droughts occur in more countries. Finally, <strong><em>climate change has many negative effects on people's lives</em></strong>. As a result, many people lose their homes or face difficulties in farming.\n\nIn conclusion, <strong>global warming</strong> is caused by fossil fuels, deforestation, and private vehicles, and it results in higher temperatures, more natural disasters, and negative impacts on human life. Therefore, everyone should work together to protect the environment.",
+          "translation_b1": "Trong xã hội ngày nay, <strong>biến đổi khí hậu</strong> đã trở thành một vấn đề nghiêm trọng ở nhiều nơi trên thế giới. Có một vài nguyên nhân gây ra vấn đề này, và nó có nhiều tác động tiêu cực đến hành tinh của chúng ta. <strong>Bài luận này sẽ thảo luận về các nguyên nhân của biến đổi khí hậu và những hậu quả chính của nó.</strong>\n\n<strong>Có một vài lý do giải thích tại sao biến đổi khí hậu xảy ra.</strong> Trước hết, <strong><em>con người phụ thuộc quá nhiều vào nhiên liệu hóa thạch</em></strong>. Điều này là do việc đốt than, dầu và khí đốt để sản xuất năng lượng tạo ra một lượng lớn khí carbon dioxide. Thứ hai, <strong><em>việc chặt phá rừng làm giảm số lượng cây xanh trên toàn thế giới</em></strong>. Lý do chính là ít cây hơn sẽ hấp thụ ít khí carbon dioxide hơn. Cuối cùng, <strong><em>việc sử dụng phương tiện cá nhân quá nhiều làm gia tăng ô nhiễm không khí</em></strong>. Điều này có nghĩa là ô tô và xe máy tạo ra một lượng lớn khí carbon dioxide.\n\n<strong>Kết quả là, biến đổi khí hậu đã gây ra một vài ảnh hưởng tiêu cực.</strong> Một hậu quả lớn là <strong><em>biến đổi khí hậu khiến Trái Đất ngày càng nóng lên</em></strong>. Trên thực tế, nhiều nơi trên thế giới đang trải qua các đợt nắng nóng kéo dài. Một tác động tiêu cực khác là <strong><em>biến đổi khí hậu làm cho thiên tai xảy ra thường xuyên hơn</em></strong>. Cụ thể, lũ lụt, bão và hạn hán xảy ra ở nhiều quốc gia hơn. Cuối cùng, <strong><em>biến đổi khí hậu gây ra nhiều ảnh hưởng tiêu cực đến cuộc sống của con người</em></strong>. Kết quả là, nhiều người mất nhà cửa hoặc gặp khó khăn trong sản xuất nông nghiệp.\n\nTóm lại, <strong>sự nóng lên toàn cầu</strong> được gây ra bởi nhiên liệu hóa thạch, nạn phá rừng và phương tiện cá nhân, và nó dẫn đến nhiệt độ cao hơn, nhiều thiên tai hơn và những tác động tiêu cực đến cuộc sống con người. Vì vậy, mọi người nên cùng nhau hợp tác để bảo vệ môi trường.",
+          "sample_b2": "In contemporary society, <strong>climate change</strong> has become an increasingly severe problem worldwide. There are various underlying causes of this phenomenon, and it has brought about significant detrimental effects on our planet. <strong>This essay will analyze the root causes of climate change and discuss its major consequences.</strong>\n\n<strong>There are several primary factors contributing to this alarming issue.</strong> First and foremost, <strong><em>human activities release too many greenhouse gases</em></strong>. This is primarily because burning fossil fuels releases large amounts of carbon dioxide, which strengthens the greenhouse effect and raises global temperatures. Secondly, <strong><em>deforestation reduces the Earth's ability to absorb carbon dioxide</em></strong>. The underlying reason is that many forests are cut down for agriculture and construction, increasing the amount of greenhouse gases in the atmosphere. Lastly, <strong><em>the excessive use of private vehicles increases carbon emissions</em></strong>. Specifically, cars and motorbikes produce a large amount of carbon dioxide every day, which pollutes the air and contributes to climate change.\n\n<strong>Consequently, climate change has led to several severe impacts on a global scale.</strong> One significant effect is that <strong><em>global temperatures continue to rise</em></strong>. In reality, heatwaves become more frequent and last longer, affecting people's health and daily lives. Another devastating consequence is that <strong><em>natural disasters become more severe</em></strong>. Floods, storms, and droughts occur more intensely, causing serious damage to people and property. Finally, <strong><em>climate change threatens sustainable development</em></strong>. Specifically, it affects agriculture, water resources, and ecosystems, which eventually reduces people's quality of life in the future.\n\nIn conclusion, excessive greenhouse gas emissions, deforestation, and the overuse of private vehicles are the main culprits behind <strong>global warming</strong>, leading to rising temperatures, severe natural disasters, and threats to sustainability. Therefore, it is imperative for governments and individuals to collaborate in combating this global crisis.",
+          "translation_b2": "Trong xã hội đương đại, <strong>biến đổi khí hậu</strong> đã trở thành một vấn đề ngày càng nghiêm trọng trên toàn thế giới. Có nhiều nguyên nhân sâu xa khác nhau của hiện tượng này, và nó đã mang lại những tác động có hại đáng kể cho hành tinh của chúng ta. <strong>Bài luận này sẽ phân tích những nguyên nhân gốc rễ của biến đổi khí hậu và thảo luận về những hậu quả chính của nó.</strong>\n\n<strong>Có một vài yếu tố chính góp phần vào vấn đề đáng báo động này.</strong> Đầu tiên và quan trọng nhất, <strong><em>các hoạt động của con người thải ra quá nhiều khí nhà kính</em></strong>. Điều này chủ yếu là do việc đốt nhiên liệu hóa thạch tạo ra lượng lớn khí carbon dioxide, điều này làm tăng hiệu ứng nhà kính và khiến nhiệt độ toàn cầu tăng lên. Thứ hai, <strong><em>việc phá rừng làm giảm khả năng hấp thụ khí carbon dioxide của Trái Đất</em></strong>. Lý do sâu xa là nhiều khu rừng bị chặt phá để phục vụ nông nghiệp và xây dựng, làm tăng lượng khí nhà kính trong khí quyển. Cuối cùng, <strong><em>việc sử dụng phương tiện cá nhân quá mức làm tăng lượng khí thải carbon</em></strong>. Cụ thể, ô tô và xe máy thải ra một lượng lớn khí carbon dioxide mỗi ngày, điều này làm ô nhiễm không khí và góp phần vào biến đổi khí hậu.\n\n<strong>Hậu quả là, biến đổi khí hậu đã dẫn đến một số tác động nghiêm trọng trên quy mô toàn cầu.</strong> Một tác động đáng kể là <strong><em>nhiệt độ toàn cầu tiếp tục tăng</em></strong>. Trên thực tế, các đợt nắng nóng xảy ra thường xuyên và kéo dài hơn, ảnh hưởng đến sức khỏe và cuộc sống hằng ngày của con người. Một hậu quả tàn khốc khác là <strong><em>thiên tai trở nên nghiêm trọng hơn</em></strong>. Lũ lụt, bão và hạn hán xảy ra với cường độ mạnh hơn, gây thiệt hại nghiêm trọng về người và tài sản. Cuối cùng, <strong><em>biến đổi khí hậu đe dọa sự phát triển bền vững</em></strong>. Cụ thể, nó ảnh hưởng đến nông nghiệp, nguồn nước và hệ sinh thái, điều cuối cùng sẽ làm giảm chất lượng cuộc sống của con người trong tương lai.\n\nTóm lại, lượng khí thải nhà kính quá mức, nạn phá rừng và việc lạm dụng phương tiện cá nhân là những thủ phạm chính đằng sau <strong>sự nóng lên toàn cầu</strong>, dẫn đến nhiệt độ tăng cao, thiên tai nghiêm trọng và những mối đe dọa đối với tính bền vững. Vì vậy, điều cấp bách là các chính phủ và cá nhân phải hợp tác trong việc chống lại cuộc khủng hoảng toàn cầu này."
+        }
       },
       {
         "id": 14,
