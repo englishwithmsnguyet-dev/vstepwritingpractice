@@ -13682,7 +13682,453 @@ const ESSAY_DATA = [
         "tags": "[Measures]",
         "context": "Freshwater is one of the most important natural resources for human life, agriculture, industry, and environmental sustainability. However, increasing population growth, climate change, pollution, and excessive water consumption have placed significant pressure on freshwater supplies in many parts of the world. As a result, protecting and conserving freshwater resources has become a major concern for governments and communities.",
         "prompt": "Write an essay to an educated reader to suggest possible measures for saving freshwater resources. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "paraphrases": [
+          {
+            "en": "conserving water resources",
+            "vi": "bảo tồn nguồn tài nguyên nước"
+          },
+          {
+            "en": "protecting freshwater supplies",
+            "vi": "bảo vệ nguồn cung cấp nước ngọt"
+          },
+          {
+            "en": "preventing water waste",
+            "vi": "ngăn chặn sự lãng phí nước"
+          }
+        ],
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "SOLUTION 01",
+                "collocations": [
+                  {
+                    "en": "freshwater",
+                    "vi": "nước ngọt"
+                  },
+                  {
+                    "en": "use freshwater responsibly",
+                    "vi": "sử dụng nước ngọt có trách nhiệm"
+                  },
+                  {
+                    "en": "turn off taps",
+                    "vi": "tắt vòi nước"
+                  },
+                  {
+                    "en": "avoid wasting water",
+                    "vi": "tránh lãng phí nước"
+                  },
+                  {
+                    "en": "water waste",
+                    "vi": "sự lãng phí nước"
+                  },
+                  {
+                    "en": "daily activities",
+                    "vi": "hoạt động hằng ngày"
+                  },
+                  {
+                    "en": "be available",
+                    "vi": "có sẵn"
+                  },
+                  {
+                    "en": "avoid",
+                    "vi": "tránh"
+                  },
+                  {
+                    "en": "reduce",
+                    "vi": "giảm"
+                  },
+                  {
+                    "en": "turn off",
+                    "vi": "tắt"
+                  }
+                ],
+                "point_vi": "Mọi người nên sử dụng nước ngọt một cách tiết kiệm và có trách nhiệm hơn.",
+                "point_en": "People should use freshwater more responsibly.",
+                "evidence_vi": "Mọi người nên tắt vòi nước khi không sử dụng. Họ nên tránh lãng phí nước trong các hoạt động hằng ngày. Điều này giúp giảm lượng nước bị lãng phí. Nhờ đó, nhiều nước sạch hơn sẽ được giữ lại cho tương lai.",
+                "evidence_en": "People should turn off taps when they are not in use. They should avoid wasting water in their daily activities. This helps reduce water waste. As a result, more clean water will be available for the future."
+              },
+              {
+                "title": "SOLUTION 02",
+                "collocations": [
+                  {
+                    "en": "water management",
+                    "vi": "quản lý nguồn nước"
+                  },
+                  {
+                    "en": "leaking water pipes",
+                    "vi": "đường ống nước bị rò rỉ"
+                  },
+                  {
+                    "en": "water storage systems",
+                    "vi": "hệ thống lưu trữ nước"
+                  },
+                  {
+                    "en": "water loss",
+                    "vi": "thất thoát nước"
+                  },
+                  {
+                    "en": "repair",
+                    "vi": "sửa chữa"
+                  },
+                  {
+                    "en": "build",
+                    "vi": "xây dựng"
+                  }
+                ],
+                "point_vi": "Chính phủ nên quản lý nguồn nước hiệu quả hơn.",
+                "point_en": "Governments should improve water management.",
+                "evidence_vi": "Chính phủ có thể sửa chữa các đường ống nước bị rò rỉ. Họ cũng có thể xây dựng thêm các hệ thống lưu trữ nước. Điều này giúp giảm thất thoát nước. Nhờ đó, nhiều người sẽ có đủ nước sạch để sử dụng.",
+                "evidence_en": "Governments can repair leaking water pipes. They can also build more water storage systems. This helps reduce water loss. As a result, more people will have enough clean water."
+              },
+              {
+                "title": "SOLUTION 03",
+                "collocations": [
+                  {
+                    "en": "the importance of",
+                    "vi": "tầm quan trọng của"
+                  },
+                  {
+                    "en": "water conservation",
+                    "vi": "bảo tồn nguồn nước"
+                  },
+                  {
+                    "en": "educational programmes",
+                    "vi": "chương trình giáo dục"
+                  },
+                  {
+                    "en": "the media",
+                    "vi": "phương tiện truyền thông"
+                  },
+                  {
+                    "en": "wasteful habits",
+                    "vi": "thói quen lãng phí"
+                  },
+                  {
+                    "en": "freshwater resources",
+                    "vi": "nguồn nước ngọt"
+                  },
+                  {
+                    "en": "understand",
+                    "vi": "hiểu"
+                  },
+                  {
+                    "en": "change",
+                    "vi": "thay đổi"
+                  },
+                  {
+                    "en": "protect",
+                    "vi": "bảo vệ"
+                  }
+                ],
+                "point_vi": "Mọi người nên hiểu rõ hơn tầm quan trọng của việc bảo vệ nguồn nước.",
+                "point_en": "People should better understand the importance of water conservation.",
+                "evidence_vi": "Các trường học và phương tiện truyền thông có thể tổ chức các chương trình tuyên truyền. Điều này giúp mọi người hiểu rõ hơn cách tiết kiệm nước. Nhờ đó, họ có thể thay đổi những thói quen lãng phí nước. Điều này sẽ góp phần bảo vệ nguồn nước trong tương lai.",
+                "evidence_en": "Schools and the media can organise educational programmes. This helps people understand how to save water. As a result, they can change their wasteful habits. This will help protect freshwater resources in the future."
+              }
+            ],
+            "drawbacks": []
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "SOLUTION 01",
+                "collocations": [
+                  {
+                    "en": "freshwater",
+                    "vi": "nước ngọt"
+                  },
+                  {
+                    "en": "freshwater resources",
+                    "vi": "nguồn nước ngọt"
+                  },
+                  {
+                    "en": "future generations",
+                    "vi": "các thế hệ tương lai"
+                  },
+                  {
+                    "en": "sustainably",
+                    "vi": "một cách bền vững"
+                  },
+                  {
+                    "en": "water waste",
+                    "vi": "sự lãng phí nước"
+                  },
+                  {
+                    "en": "avoid",
+                    "vi": "tránh"
+                  },
+                  {
+                    "en": "protect",
+                    "vi": "bảo vệ"
+                  },
+                  {
+                    "en": "use",
+                    "vi": "sử dụng"
+                  }
+                ],
+                "point_vi": "Mọi người nên sử dụng nước ngọt một cách tiết kiệm và có trách nhiệm hơn.",
+                "point_en": "People should use freshwater more responsibly.",
+                "evidence_vi": "Họ nên tắt vòi nước khi không sử dụng. Họ cũng nên tránh lãng phí nước trong sinh hoạt hằng ngày. Điều này giúp giảm lượng nước bị lãng phí. Nó cũng góp phần bảo vệ nguồn nước cho các thế hệ tương lai. Nhờ đó, nguồn nước sẽ được sử dụng bền vững hơn.",
+                "evidence_en": "They should turn off taps when they are not in use. They should also avoid wasting water in their daily lives. This helps reduce water waste. It also helps protect freshwater resources for future generations. As a result, freshwater resources can be used more sustainably."
+              },
+              {
+                "title": "SOLUTION 02",
+                "collocations": [
+                  {
+                    "en": "water management",
+                    "vi": "quản lý nguồn nước"
+                  },
+                  {
+                    "en": "freshwater resources",
+                    "vi": "nguồn nước ngọt"
+                  },
+                  {
+                    "en": "leaking water pipes",
+                    "vi": "đường ống nước bị rò rỉ"
+                  },
+                  {
+                    "en": "water storage",
+                    "vi": "hệ thống lưu trữ nước"
+                  },
+                  {
+                    "en": "distribution systems",
+                    "vi": "hệ thống phân phối nước"
+                  },
+                  {
+                    "en": "reliable supply",
+                    "vi": "nguồn cung ổn định"
+                  },
+                  {
+                    "en": "water loss",
+                    "vi": "thất thoát nước"
+                  },
+                  {
+                    "en": "invest in",
+                    "vi": "đầu tư vào"
+                  },
+                  {
+                    "en": "manage",
+                    "vi": "quản lý"
+                  }
+                ],
+                "point_vi": "Chính phủ nên cải thiện việc quản lý và bảo vệ nguồn nước.",
+                "point_en": "Governments should improve water management and protect freshwater resources.",
+                "evidence_vi": "Họ có thể sửa chữa các đường ống nước bị rò rỉ. Họ cũng nên đầu tư vào các hệ thống lưu trữ và phân phối nước hiện đại. Điều này giúp giảm thất thoát nước. Nhiều người sẽ được cung cấp nước sạch ổn định hơn. Nhờ đó, việc sử dụng nguồn nước sẽ hiệu quả hơn.",
+                "evidence_en": "They can repair leaking water pipes. They should also invest in modern water storage and distribution systems. This helps reduce water loss. More people will have a more reliable supply of clean water. As a result, water resources will be managed more efficiently."
+              },
+              {
+                "title": "SOLUTION 03",
+                "collocations": [
+                  {
+                    "en": "the importance of",
+                    "vi": "tầm quan trọng của"
+                  },
+                  {
+                    "en": "water conservation",
+                    "vi": "bảo tồn nguồn nước"
+                  },
+                  {
+                    "en": "educational campaigns",
+                    "vi": "chiến dịch giáo dục"
+                  },
+                  {
+                    "en": "the media",
+                    "vi": "phương tiện truyền thông"
+                  },
+                  {
+                    "en": "use water wisely",
+                    "vi": "sử dụng nước hợp lý"
+                  },
+                  {
+                    "en": "wasteful habits",
+                    "vi": "thói quen lãng phí"
+                  },
+                  {
+                    "en": "freshwater resources",
+                    "vi": "nguồn nước ngọt"
+                  },
+                  {
+                    "en": "future generations",
+                    "vi": "các thế hệ tương lai"
+                  },
+                  {
+                    "en": "understand",
+                    "vi": "hiểu"
+                  },
+                  {
+                    "en": "change",
+                    "vi": "thay đổi"
+                  },
+                  {
+                    "en": "protect",
+                    "vi": "bảo vệ"
+                  },
+                  {
+                    "en": "contribute to",
+                    "vi": "góp phần vào việc"
+                  }
+                ],
+                "point_vi": "Mọi người nên hiểu rõ hơn tầm quan trọng của việc bảo vệ nguồn nước.",
+                "point_en": "People should better understand the importance of water conservation.",
+                "evidence_vi": "Các trường học và phương tiện truyền thông có thể tổ chức nhiều chiến dịch tuyên truyền hơn. Điều này giúp mọi người hiểu rõ hơn cách sử dụng nước một cách hợp lý. Nhờ đó, họ có thể thay đổi những thói quen lãng phí nước. Nhiều người sẽ sử dụng nước có trách nhiệm hơn trong cuộc sống hằng ngày. Điều này góp phần bảo vệ nguồn nước ngọt cho các thế hệ tương lai.",
+                "evidence_en": "Schools and the media can organise more educational campaigns. This helps people understand how to use water wisely. As a result, they can change their wasteful habits. More people will use freshwater more responsibly in their daily lives. This helps protect freshwater resources for future generations."
+              }
+            ],
+            "drawbacks": []
+          },
+          "vocab": [
+            {
+              "en": "freshwater",
+              "vi": "nước ngọt"
+            },
+            {
+              "en": "use freshwater responsibly",
+              "vi": "sử dụng nước ngọt có trách nhiệm"
+            },
+            {
+              "en": "turn off taps",
+              "vi": "tắt vòi nước"
+            },
+            {
+              "en": "avoid wasting water",
+              "vi": "tránh lãng phí nước"
+            },
+            {
+              "en": "water waste",
+              "vi": "sự lãng phí nước"
+            },
+            {
+              "en": "daily activities",
+              "vi": "hoạt động hằng ngày"
+            },
+            {
+              "en": "be available",
+              "vi": "có sẵn"
+            },
+            {
+              "en": "avoid",
+              "vi": "tránh"
+            },
+            {
+              "en": "reduce",
+              "vi": "giảm"
+            },
+            {
+              "en": "turn off",
+              "vi": "tắt"
+            },
+            {
+              "en": "water management",
+              "vi": "quản lý nguồn nước"
+            },
+            {
+              "en": "leaking water pipes",
+              "vi": "đường ống nước bị rò rỉ"
+            },
+            {
+              "en": "water storage systems",
+              "vi": "hệ thống lưu trữ nước"
+            },
+            {
+              "en": "water loss",
+              "vi": "thất thoát nước"
+            },
+            {
+              "en": "repair",
+              "vi": "sửa chữa"
+            },
+            {
+              "en": "build",
+              "vi": "xây dựng"
+            },
+            {
+              "en": "the importance of",
+              "vi": "tầm quan trọng của"
+            },
+            {
+              "en": "water conservation",
+              "vi": "bảo tồn nguồn nước"
+            },
+            {
+              "en": "educational programmes",
+              "vi": "chương trình giáo dục"
+            },
+            {
+              "en": "the media",
+              "vi": "phương tiện truyền thông"
+            },
+            {
+              "en": "wasteful habits",
+              "vi": "thói quen lãng phí"
+            },
+            {
+              "en": "freshwater resources",
+              "vi": "nguồn nước ngọt"
+            },
+            {
+              "en": "understand",
+              "vi": "hiểu"
+            },
+            {
+              "en": "change",
+              "vi": "thay đổi"
+            },
+            {
+              "en": "protect",
+              "vi": "bảo vệ"
+            },
+            {
+              "en": "future generations",
+              "vi": "các thế hệ tương lai"
+            },
+            {
+              "en": "sustainably",
+              "vi": "một cách bền vững"
+            },
+            {
+              "en": "use",
+              "vi": "sử dụng"
+            },
+            {
+              "en": "water storage",
+              "vi": "hệ thống lưu trữ nước"
+            },
+            {
+              "en": "distribution systems",
+              "vi": "hệ thống phân phối nước"
+            },
+            {
+              "en": "reliable supply",
+              "vi": "nguồn cung ổn định"
+            },
+            {
+              "en": "invest in",
+              "vi": "đầu tư vào"
+            },
+            {
+              "en": "manage",
+              "vi": "quản lý"
+            },
+            {
+              "en": "educational campaigns",
+              "vi": "chiến dịch giáo dục"
+            },
+            {
+              "en": "use water wisely",
+              "vi": "sử dụng nước hợp lý"
+            },
+            {
+              "en": "contribute to",
+              "vi": "góp phần vào việc"
+            }
+          ],
+          "sample_b1": "In today's society, freshwater is one of the most important natural resources for human life. However, clean water is becoming scarce in many parts of the world. <strong>This essay will suggest some effective measures to save and protect freshwater resources.</strong>\n\n<strong>First of all, one possible solution is that people should use freshwater more responsibly.</strong> This is because people should turn off taps when they are not in use. Furthermore, they should avoid wasting water in their daily activities. This helps reduce water waste. As a result, more clean water will be available for the future.\n\n<strong>Secondly, another practical measure is that governments should improve water management.</strong> In fact, governments can repair leaking water pipes. In addition, they can also build more water storage systems. This helps reduce water loss. As a result, more people will have enough clean water.\n\n<strong>Finally, people should better understand the importance of water conservation.</strong> Specifically, schools and the media can organise educational programmes. This helps people understand how to save water. As a result, they can change their wasteful habits. This will help protect freshwater resources in the future.\n\nIn conclusion, protecting freshwater resources is extremely important. By using water responsibly, improving water management, and understanding water conservation, we can effectively address this issue. Therefore, everyone should work together to save water for future generations.",
+          "translation_b1": "Trong xã hội ngày nay, nước ngọt là một trong những nguồn tài nguyên thiên nhiên quan trọng nhất đối với cuộc sống con người. Tuy nhiên, nước sạch đang trở nên khan hiếm ở nhiều nơi trên thế giới. <strong>Bài luận này sẽ đề xuất một số biện pháp hiệu quả để tiết kiệm và bảo vệ nguồn tài nguyên nước ngọt.</strong>\n\n<strong>Trước hết, một giải pháp có thể thực hiện là mọi người nên sử dụng nước ngọt một cách tiết kiệm và có trách nhiệm hơn.</strong> Điều này là do mọi người nên tắt vòi nước khi không sử dụng. Hơn nữa, họ nên tránh lãng phí nước trong các hoạt động hằng ngày. Điều này giúp giảm lượng nước bị lãng phí. Nhờ đó, nhiều nước sạch hơn sẽ được giữ lại cho tương lai.\n\n<strong>Thứ hai, một biện pháp thiết thực khác là chính phủ nên quản lý nguồn nước hiệu quả hơn.</strong> Trên thực tế, chính phủ có thể sửa chữa các đường ống nước bị rò rỉ. Ngoài ra, họ cũng có thể xây dựng thêm các hệ thống lưu trữ nước. Điều này giúp giảm thất thoát nước. Nhờ đó, nhiều người sẽ có đủ nước sạch để sử dụng.\n\n<strong>Cuối cùng, mọi người nên hiểu rõ hơn tầm quan trọng của việc bảo vệ nguồn nước.</strong> Cụ thể, các trường học và phương tiện truyền thông có thể tổ chức các chương trình tuyên truyền. Điều này giúp mọi người hiểu rõ hơn cách tiết kiệm nước. Nhờ đó, họ có thể thay đổi những thói quen lãng phí nước. Điều này sẽ góp phần bảo vệ nguồn nước trong tương lai.\n\nTóm lại, việc bảo vệ nguồn tài nguyên nước ngọt là cực kỳ quan trọng. Bằng cách sử dụng nước có trách nhiệm, cải thiện quản lý nguồn nước và hiểu về bảo tồn nguồn nước, chúng ta có thể giải quyết hiệu quả vấn đề này. Vì vậy, mọi người nên cùng nhau hợp tác để tiết kiệm nước cho các thế hệ tương lai.",
+          "sample_b2": "In contemporary society, freshwater is undoubtedly one of the most vital natural resources for human survival and sustainable development. However, increasing population growth and climate change have placed significant pressure on freshwater supplies globally. <strong>This essay will propose viable measures to conserve and protect this invaluable resource.</strong>\n\n<strong>First and foremost, a practical solution is that people should use freshwater more responsibly.</strong> Specifically, they should turn off taps when they are not in use. Furthermore, they should also avoid wasting water in their daily lives. This helps reduce water waste, and it also helps protect freshwater resources for future generations. As a result, freshwater resources can be used more sustainably.\n\n<strong>Secondly, another effective measure is that governments should improve water management and protect freshwater resources.</strong> In reality, they can repair leaking water pipes. Additionally, they should also invest in modern water storage and distribution systems. This helps reduce water loss, ensuring that more people will have a more reliable supply of clean water. As a result, water resources will be managed more efficiently.\n\n<strong>Finally, people should better understand the importance of water conservation to ensure long-term sustainability.</strong> Consequently, schools and the media can organise more educational campaigns. This helps people understand how to use water wisely, and as a result, they can change their wasteful habits. Since more people will use freshwater more responsibly in their daily lives, this helps protect freshwater resources for future generations.\n\nIn conclusion, protecting freshwater supplies is an urgent global priority. By promoting responsible water usage, enhancing government management systems, and raising public awareness through education, this crisis can be effectively managed. Therefore, it is imperative for both individuals and governments to collaborate in preserving water resources.",
+          "translation_b2": "Trong xã hội đương đại, nước ngọt chắc chắn là một trong những nguồn tài nguyên thiên nhiên quan trọng nhất cho sự sinh tồn của con người và sự phát triển bền vững. Tuy nhiên, sự gia tăng dân số và biến đổi khí hậu đã đặt áp lực đáng kể lên nguồn cung cấp nước ngọt trên toàn cầu. <strong>Bài luận này sẽ đề xuất các biện pháp khả thi để bảo tồn và bảo vệ nguồn tài nguyên vô giá này.</strong>\n\n<strong>Đầu tiên và quan trọng nhất, một giải pháp thiết thực là mọi người nên sử dụng nước ngọt một cách tiết kiệm và có trách nhiệm hơn.</strong> Cụ thể, họ nên tắt vòi nước khi không sử dụng. Hơn nữa, họ cũng nên tránh lãng phí nước trong sinh hoạt hằng ngày. Điều này giúp giảm lượng nước bị lãng phí, và nó cũng góp phần bảo vệ nguồn nước cho các thế hệ tương lai. Nhờ đó, nguồn nước sẽ được sử dụng bền vững hơn.\n\n<strong>Thứ hai, một biện pháp hiệu quả khác là chính phủ nên cải thiện việc quản lý và bảo vệ nguồn nước.</strong> Trên thực tế, họ có thể sửa chữa các đường ống nước bị rò rỉ. Ngoài ra, họ cũng nên đầu tư vào các hệ thống lưu trữ và phân phối nước hiện đại. Điều này giúp giảm thất thoát nước, đảm bảo rằng nhiều người sẽ được cung cấp nước sạch ổn định hơn. Nhờ đó, việc sử dụng nguồn nước sẽ hiệu quả hơn.\n\n<strong>Cuối cùng, mọi người nên hiểu rõ hơn tầm quan trọng của việc bảo vệ nguồn nước để đảm bảo tính bền vững lâu dài.</strong> Hậu quả là, các trường học và phương tiện truyền thông có thể tổ chức nhiều chiến dịch tuyên truyền hơn. Điều này giúp mọi người hiểu rõ hơn cách sử dụng nước một cách hợp lý, và nhờ đó, họ có thể thay đổi những thói quen lãng phí nước. Vì nhiều người sẽ sử dụng nước có trách nhiệm hơn trong cuộc sống hằng ngày, điều này góp phần bảo vệ nguồn nước ngọt cho các thế hệ tương lai.\n\nTóm lại, bảo vệ nguồn cung cấp nước ngọt là một ưu tiên cấp bách toàn cầu. Bằng cách thúc đẩy việc sử dụng nước có trách nhiệm, nâng cao hệ thống quản lý của chính phủ và nâng cao nhận thức cộng đồng thông qua giáo dục, cuộc khủng hoảng này có thể được quản lý hiệu quả. Vì vậy, điều cấp bách là cả cá nhân và chính phủ phải hợp tác trong việc bảo vệ tài nguyên nước."
+        }
       },
       {
         "id": 8,
