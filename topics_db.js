@@ -15029,7 +15029,389 @@ const ESSAY_DATA = [
         "tags": "[Factors]",
         "context": "Job satisfaction is an important factor in employees’ well-being and professional success. People who are satisfied with their jobs are often more motivated, productive, and committed to their work. However, the level of job satisfaction can vary greatly from one person to another depending on different personal and workplace conditions.",
         "prompt": "Write an essay to an educated reader to discuss the factors that influence job satisfaction. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "paraphrases": [
+          {
+            "en": "job fulfillment",
+            "vi": "sự thỏa mãn trong công việc"
+          },
+          {
+            "en": "workplace happiness",
+            "vi": "sự hạnh phúc nơi làm việc"
+          },
+          {
+            "en": "career satisfaction",
+            "vi": "sự hài lòng về sự nghiệp"
+          }
+        ],
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "FACTOR 01",
+                "collocations": [
+                  {
+                    "en": "job satisfaction",
+                    "vi": "sự hài lòng trong công việc"
+                  },
+                  {
+                    "en": "salary",
+                    "vi": "mức lương"
+                  },
+                  {
+                    "en": "living expenses",
+                    "vi": "chi phí sinh hoạt"
+                  },
+                  {
+                    "en": "appreciate",
+                    "vi": "ghi nhận"
+                  },
+                  {
+                    "en": "motivation",
+                    "vi": "động lực"
+                  },
+                  {
+                    "en": "pay for",
+                    "vi": "chi trả cho"
+                  },
+                  {
+                    "en": "become satisfied with",
+                    "vi": "hài lòng với"
+                  }
+                ],
+                "point_vi": "Mức lương tốt giúp nhân viên hài lòng hơn với công việc.",
+                "point_en": "A good salary improves job satisfaction.",
+                "evidence_vi": "Nhân viên có thể đáp ứng các chi phí sinh hoạt hằng ngày. Họ cảm thấy công sức của mình được ghi nhận. Điều này giúp họ có thêm động lực làm việc. Nhờ đó, họ hài lòng hơn với công việc.",
+                "evidence_en": "Employees can pay for their daily living expenses. They feel that their work is appreciated. This gives them more motivation to work. As a result, they become more satisfied with their jobs."
+              },
+              {
+                "title": "FACTOR 02",
+                "collocations": [
+                  {
+                    "en": "working environment",
+                    "vi": "môi trường làm việc"
+                  },
+                  {
+                    "en": "friendly colleagues",
+                    "vi": "đồng nghiệp thân thiện"
+                  },
+                  {
+                    "en": "work together",
+                    "vi": "làm việc cùng nhau"
+                  },
+                  {
+                    "en": "reduce stress",
+                    "vi": "giảm căng thẳng"
+                  },
+                  {
+                    "en": "enjoy their jobs",
+                    "vi": "yêu thích công việc"
+                  },
+                  {
+                    "en": "work well together",
+                    "vi": "hợp tác tốt"
+                  }
+                ],
+                "point_vi": "Môi trường làm việc tích cực giúp nhân viên cảm thấy thoải mái hơn.",
+                "point_en": "A positive working environment makes employees feel happier.",
+                "evidence_vi": "Đồng nghiệp thân thiện giúp công việc trở nên dễ dàng hơn. Nhân viên có thể hợp tác hiệu quả với nhau. Điều này làm giảm căng thẳng trong công việc. Nhờ đó, họ cảm thấy hài lòng hơn với công việc.",
+                "evidence_en": "Friendly colleagues make work easier. Employees can work well together. This reduces stress at work. As a result, they enjoy their jobs more."
+              },
+              {
+                "title": "FACTOR 03",
+                "collocations": [
+                  {
+                    "en": "career development",
+                    "vi": "phát triển nghề nghiệp"
+                  },
+                  {
+                    "en": "new skills",
+                    "vi": "kỹ năng mới"
+                  },
+                  {
+                    "en": "promotion",
+                    "vi": "sự thăng chức"
+                  },
+                  {
+                    "en": "career goals",
+                    "vi": "mục tiêu nghề nghiệp"
+                  },
+                  {
+                    "en": "opportunities for",
+                    "vi": "cơ hội"
+                  },
+                  {
+                    "en": "achieve",
+                    "vi": "đạt được"
+                  },
+                  {
+                    "en": "be willing to",
+                    "vi": "sẵn sàng"
+                  }
+                ],
+                "point_vi": "Cơ hội phát triển nghề nghiệp giúp nhân viên hài lòng hơn với công việc.",
+                "point_en": "Opportunities for career development increase job satisfaction.",
+                "evidence_vi": "Nhân viên có thể học thêm những kỹ năng mới. Họ có nhiều cơ hội được thăng chức hơn. Điều này giúp họ đạt được các mục tiêu nghề nghiệp. Nhờ đó, họ muốn gắn bó lâu dài với công ty.",
+                "evidence_en": "Employees can learn new skills. They have more opportunities for promotion. This helps them achieve their career goals. As a result, they are more willing to stay with the company."
+              }
+            ],
+            "drawbacks": []
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "FACTOR 01",
+                "collocations": [
+                  {
+                    "en": "competitive salary",
+                    "vi": "mức lương cạnh tranh"
+                  },
+                  {
+                    "en": "financial needs",
+                    "vi": "nhu cầu tài chính"
+                  },
+                  {
+                    "en": "contributions",
+                    "vi": "đóng góp"
+                  },
+                  {
+                    "en": "fairly rewarded",
+                    "vi": "được đền đáp xứng đáng"
+                  },
+                  {
+                    "en": "remain with",
+                    "vi": "gắn bó với"
+                  }
+                ],
+                "point_vi": "Mức lương cạnh tranh là một trong những yếu tố quan trọng ảnh hưởng đến sự hài lòng trong công việc.",
+                "point_en": "A competitive salary is one of the most important factors influencing job satisfaction.",
+                "evidence_vi": "Nhân viên có thể đáp ứng các nhu cầu tài chính của mình. Họ cảm thấy những đóng góp của mình được ghi nhận xứng đáng. Điều này giúp họ có thêm động lực làm việc. Họ cũng có xu hướng gắn bó lâu dài với công ty. Nhờ đó, họ cảm thấy hài lòng hơn với công việc.",
+                "evidence_en": "Employees can meet their financial needs. They feel that their contributions are fairly rewarded. This gives them greater motivation to work. They are also more likely to remain with the company. As a result, they experience higher job satisfaction."
+              },
+              {
+                "title": "FACTOR 02",
+                "collocations": [
+                  {
+                    "en": "working atmosphere",
+                    "vi": "bầu không khí làm việc"
+                  },
+                  {
+                    "en": "cooperate",
+                    "vi": "hợp tác"
+                  },
+                  {
+                    "en": "support each other",
+                    "vi": "hỗ trợ lẫn nhau"
+                  },
+                  {
+                    "en": "pressure",
+                    "vi": "áp lực"
+                  },
+                  {
+                    "en": "employee satisfaction",
+                    "vi": "sự hài lòng của nhân viên"
+                  }
+                ],
+                "point_vi": "Môi trường làm việc tích cực giúp nhân viên cảm thấy hài lòng hơn.",
+                "point_en": "A positive working environment supports employee satisfaction.",
+                "evidence_vi": "Đồng nghiệp và quản lý thân thiện tạo ra bầu không khí làm việc thoải mái. Nhân viên có thể hợp tác và hỗ trợ lẫn nhau hiệu quả. Điều này giúp giảm áp lực trong công việc. Nhân viên sẽ cảm thấy vui vẻ hơn khi đi làm. Nhờ đó, họ có nhiều sự hài lòng hơn với công việc.",
+                "evidence_en": "Friendly colleagues and managers create a comfortable working atmosphere. Employees can cooperate and support each other effectively. This reduces pressure at work. Employees feel happier at work. As a result, they enjoy greater job satisfaction."
+              },
+              {
+                "title": "FACTOR 03",
+                "collocations": [
+                  {
+                    "en": "career development opportunities",
+                    "vi": "cơ hội phát triển nghề nghiệp"
+                  },
+                  {
+                    "en": "long-term commitment",
+                    "vi": "sự gắn bó lâu dài"
+                  },
+                  {
+                    "en": "gain knowledge",
+                    "vi": "tiếp thu kiến thức"
+                  },
+                  {
+                    "en": "career advancement",
+                    "vi": "sự thăng tiến"
+                  },
+                  {
+                    "en": "career goals",
+                    "vi": "mục tiêu nghề nghiệp"
+                  },
+                  {
+                    "en": "organisation",
+                    "vi": "tổ chức"
+                  },
+                  {
+                    "en": "encourage",
+                    "vi": "khuyến khích"
+                  },
+                  {
+                    "en": "achieve",
+                    "vi": "đạt được"
+                  }
+                ],
+                "point_vi": "Cơ hội phát triển nghề nghiệp giúp nhân viên gắn bó hơn với công việc.",
+                "point_en": "Career development opportunities encourage long-term commitment.",
+                "evidence_vi": "Nhân viên có thể học thêm kiến thức và kỹ năng mới. Họ có nhiều cơ hội được thăng tiến trong sự nghiệp. Điều này giúp họ đạt được mục tiêu nghề nghiệp. Họ cảm thấy tự tin hơn về tương lai của mình. Nhờ đó, họ có xu hướng gắn bó lâu dài với tổ chức.",
+                "evidence_en": "Employees can gain new knowledge and skills. They have better opportunities for career advancement. This helps them achieve their career goals. They feel more confident about their future. As a result, they are more likely to stay with the organisation."
+              }
+            ],
+            "drawbacks": []
+          },
+          "vocab": [
+            {
+              "en": "job satisfaction",
+              "vi": "sự hài lòng trong công việc"
+            },
+            {
+              "en": "salary",
+              "vi": "mức lương"
+            },
+            {
+              "en": "living expenses",
+              "vi": "chi phí sinh hoạt"
+            },
+            {
+              "en": "appreciate",
+              "vi": "ghi nhận"
+            },
+            {
+              "en": "motivation",
+              "vi": "động lực"
+            },
+            {
+              "en": "pay for",
+              "vi": "chi trả cho"
+            },
+            {
+              "en": "become satisfied with",
+              "vi": "hài lòng với"
+            },
+            {
+              "en": "working environment",
+              "vi": "môi trường làm việc"
+            },
+            {
+              "en": "friendly colleagues",
+              "vi": "đồng nghiệp thân thiện"
+            },
+            {
+              "en": "work together",
+              "vi": "làm việc cùng nhau"
+            },
+            {
+              "en": "reduce stress",
+              "vi": "giảm căng thẳng"
+            },
+            {
+              "en": "enjoy their jobs",
+              "vi": "yêu thích công việc"
+            },
+            {
+              "en": "work well together",
+              "vi": "hợp tác tốt"
+            },
+            {
+              "en": "career development",
+              "vi": "phát triển nghề nghiệp"
+            },
+            {
+              "en": "new skills",
+              "vi": "kỹ năng mới"
+            },
+            {
+              "en": "promotion",
+              "vi": "sự thăng chức"
+            },
+            {
+              "en": "career goals",
+              "vi": "mục tiêu nghề nghiệp"
+            },
+            {
+              "en": "opportunities for",
+              "vi": "cơ hội"
+            },
+            {
+              "en": "achieve",
+              "vi": "đạt được"
+            },
+            {
+              "en": "be willing to",
+              "vi": "sẵn sàng"
+            },
+            {
+              "en": "competitive salary",
+              "vi": "mức lương cạnh tranh"
+            },
+            {
+              "en": "financial needs",
+              "vi": "nhu cầu tài chính"
+            },
+            {
+              "en": "contributions",
+              "vi": "đóng góp"
+            },
+            {
+              "en": "fairly rewarded",
+              "vi": "được đền đáp xứng đáng"
+            },
+            {
+              "en": "remain with",
+              "vi": "gắn bó với"
+            },
+            {
+              "en": "working atmosphere",
+              "vi": "bầu không khí làm việc"
+            },
+            {
+              "en": "cooperate",
+              "vi": "hợp tác"
+            },
+            {
+              "en": "support each other",
+              "vi": "hỗ trợ lẫn nhau"
+            },
+            {
+              "en": "pressure",
+              "vi": "áp lực"
+            },
+            {
+              "en": "employee satisfaction",
+              "vi": "sự hài lòng của nhân viên"
+            },
+            {
+              "en": "career development opportunities",
+              "vi": "cơ hội phát triển nghề nghiệp"
+            },
+            {
+              "en": "long-term commitment",
+              "vi": "sự gắn bó lâu dài"
+            },
+            {
+              "en": "gain knowledge",
+              "vi": "tiếp thu kiến thức"
+            },
+            {
+              "en": "career advancement",
+              "vi": "sự thăng tiến"
+            },
+            {
+              "en": "organisation",
+              "vi": "tổ chức"
+            },
+            {
+              "en": "encourage",
+              "vi": "khuyến khích"
+            }
+          ],
+          "sample_b1": "In today's society, <strong>job satisfaction</strong> is very important for all workers. There are several factors that affect how happy people are at work. <strong>This essay will discuss the main factors that influence job satisfaction.</strong>\n\n<strong>First of all, a good salary improves job satisfaction.</strong> This is because employees can pay for their daily living expenses. Furthermore, they feel that their work is appreciated. This gives them more motivation to work. As a result, they become more satisfied with their jobs.\n\n<strong>Secondly, a positive working environment makes employees feel happier.</strong> In fact, friendly colleagues make work easier. In addition, employees can work well together. This reduces stress at work. As a result, they enjoy their jobs more.\n\n<strong>Finally, opportunities for career development increase job satisfaction.</strong> Specifically, employees can learn new skills. Moreover, they have more opportunities for promotion. This helps them achieve their career goals. As a result, they are more willing to stay with the company.\n\nIn conclusion, <strong>workplace happiness</strong> is influenced by many factors, such as a good salary, a positive working environment, and career development. Therefore, companies should provide these conditions to make their employees happier and more productive.",
+          "translation_b1": "Trong xã hội ngày nay, <strong>sự hài lòng trong công việc</strong> rất quan trọng đối với tất cả người lao động. Có một vài yếu tố ảnh hưởng đến mức độ hạnh phúc của mọi người tại nơi làm việc. <strong>Bài luận này sẽ thảo luận về những yếu tố chính ảnh hưởng đến sự hài lòng trong công việc.</strong>\n\n<strong>Trước hết, mức lương tốt giúp nhân viên hài lòng hơn với công việc.</strong> Điều này là do nhân viên có thể đáp ứng các chi phí sinh hoạt hằng ngày. Hơn nữa, họ cảm thấy công sức của mình được ghi nhận. Điều này giúp họ có thêm động lực làm việc. Nhờ đó, họ hài lòng hơn với công việc.\n\n<strong>Thứ hai, môi trường làm việc tích cực giúp nhân viên cảm thấy thoải mái hơn.</strong> Trên thực tế, đồng nghiệp thân thiện giúp công việc trở nên dễ dàng hơn. Ngoài ra, nhân viên có thể hợp tác hiệu quả với nhau. Điều này làm giảm căng thẳng trong công việc. Nhờ đó, họ cảm thấy hài lòng hơn với công việc.\n\n<strong>Cuối cùng, cơ hội phát triển nghề nghiệp giúp nhân viên hài lòng hơn với công việc.</strong> Cụ thể, nhân viên có thể học thêm những kỹ năng mới. Hơn nữa, họ có nhiều cơ hội được thăng chức hơn. Điều này giúp họ đạt được các mục tiêu nghề nghiệp. Nhờ đó, họ muốn gắn bó lâu dài với công ty.\n\nTóm lại, <strong>sự hạnh phúc nơi làm việc</strong> bị ảnh hưởng bởi nhiều yếu tố, chẳng hạn như mức lương tốt, môi trường làm việc tích cực và sự phát triển nghề nghiệp. Vì vậy, các công ty nên cung cấp những điều kiện này để làm cho nhân viên của họ hạnh phúc hơn và làm việc năng suất hơn.",
+          "sample_b2": "In contemporary society, <strong>job satisfaction</strong> plays a crucial role in the success of any organisation. There are various factors that significantly affect how content employees are with their careers. <strong>This essay will analyze the primary factors that contribute to job satisfaction.</strong>\n\n<strong>First and foremost, a competitive salary is one of the most important factors influencing job satisfaction.</strong> This is primarily because employees can meet their financial needs and feel that their contributions are fairly rewarded. Furthermore, this financial security gives them greater motivation to work, and they are also more likely to remain with the company. As a result, they experience higher job satisfaction.\n\n<strong>Secondly, a positive working environment supports employee satisfaction.</strong> Specifically, friendly colleagues and managers create a comfortable working atmosphere where employees can cooperate and support each other effectively. This cooperative environment significantly reduces pressure at work, ensuring that employees feel happier at work. As a result, they enjoy greater job satisfaction.\n\n<strong>Finally, career development opportunities encourage long-term commitment.</strong> In reality, when companies provide learning opportunities, employees can gain new knowledge and skills. Additionally, they have better opportunities for career advancement, which helps them achieve their career goals. Consequently, they feel more confident about their future, and as a result, they are more likely to stay with the organisation.\n\nIn conclusion, a competitive salary, a positive working environment, and career advancement opportunities are the main determinants of <strong>career satisfaction</strong>. Therefore, it is imperative for businesses to prioritise these factors to retain talent and boost overall productivity.",
+          "translation_b2": "Trong xã hội đương đại, <strong>sự hài lòng trong công việc</strong> đóng một vai trò quan trọng trong sự thành công của bất kỳ tổ chức nào. Có nhiều yếu tố khác nhau ảnh hưởng đáng kể đến mức độ hài lòng của nhân viên với sự nghiệp của họ. <strong>Bài luận này sẽ phân tích những yếu tố chính đóng góp vào sự hài lòng trong công việc.</strong>\n\n<strong>Đầu tiên và quan trọng nhất, mức lương cạnh tranh là một trong những yếu tố quan trọng nhất ảnh hưởng đến sự hài lòng trong công việc.</strong> Điều này chủ yếu là do nhân viên có thể đáp ứng các nhu cầu tài chính của mình và cảm thấy những đóng góp của họ được đền đáp xứng đáng. Hơn nữa, sự an toàn tài chính này mang lại cho họ động lực làm việc lớn hơn, và họ cũng có nhiều khả năng sẽ gắn bó lâu dài với công ty hơn. Nhờ đó, họ trải nghiệm sự hài lòng trong công việc cao hơn.\n\n<strong>Thứ hai, môi trường làm việc tích cực hỗ trợ sự hài lòng của nhân viên.</strong> Cụ thể, đồng nghiệp và quản lý thân thiện tạo ra một bầu không khí làm việc thoải mái, nơi nhân viên có thể hợp tác và hỗ trợ lẫn nhau một cách hiệu quả. Môi trường hợp tác này làm giảm đáng kể áp lực trong công việc, đảm bảo rằng nhân viên cảm thấy vui vẻ hơn khi làm việc. Nhờ đó, họ có nhiều sự hài lòng hơn với công việc.\n\n<strong>Cuối cùng, cơ hội phát triển nghề nghiệp khuyến khích sự gắn bó lâu dài.</strong> Trên thực tế, khi các công ty cung cấp cơ hội học tập, nhân viên có thể tiếp thu kiến thức và kỹ năng mới. Ngoài ra, họ có nhiều cơ hội tốt hơn để thăng tiến trong sự nghiệp, điều này giúp họ đạt được các mục tiêu nghề nghiệp. Hậu quả là, họ cảm thấy tự tin hơn về tương lai của mình, và nhờ đó, họ có xu hướng gắn bó lâu dài với tổ chức.\n\nTóm lại, mức lương cạnh tranh, môi trường làm việc tích cực và cơ hội thăng tiến nghề nghiệp là những yếu tố quyết định chính đến <strong>sự hài lòng về sự nghiệp</strong>. Vì vậy, điều cấp bách là các doanh nghiệp phải ưu tiên những yếu tố này để giữ chân nhân tài và thúc đẩy năng suất tổng thể."
+        }
       },
       {
         "id": 30,
