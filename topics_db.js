@@ -21189,7 +21189,277 @@ const ESSAY_DATA = [
         "title_vi": "AI): benefits or drawbacks? (Trí tuệ nhân tạo: lợi ích hay tác hại?",
         "context": "Artificial intelligence (AI) is becoming increasingly common in many areas of life, including education, healthcare, business, transportation, and entertainment. As AI technology continues to develop, people have different opinions about its impact on society. Some people believe that AI improves efficiency, supports decision-making, and makes daily life more convenient. Others argue that AI may lead to job losses, increase people's dependence on technology, and raise important ethical concerns.",
         "prompt": "Discuss both views and give your own opinion. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "paraphrases": [
+          {
+            "en": "AI technology",
+            "vi": "công nghệ AI"
+          },
+          {
+            "en": "machine intelligence",
+            "vi": "trí tuệ máy móc"
+          },
+          {
+            "en": "automated systems",
+            "vi": "hệ thống tự động"
+          }
+        ],
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "VIEW 01",
+                "collocations": [
+                  {
+                    "en": "artificial intelligence",
+                    "vi": "trí tuệ nhân tạo"
+                  },
+                  {
+                    "en": "complete work",
+                    "vi": "hoàn thành công việc"
+                  },
+                  {
+                    "en": "process data",
+                    "vi": "xử lý dữ liệu"
+                  },
+                  {
+                    "en": "make decisions",
+                    "vi": "đưa ra quyết định"
+                  },
+                  {
+                    "en": "healthcare",
+                    "vi": "chăm sóc sức khỏe"
+                  },
+                  {
+                    "en": "transportation",
+                    "vi": "giao thông"
+                  },
+                  {
+                    "en": "daily life",
+                    "vi": "cuộc sống hằng ngày"
+                  },
+                  {
+                    "en": "convenient",
+                    "vi": "thuận tiện"
+                  }
+                ],
+                "point_vi": "Nhiều người cho rằng AI mang lại nhiều lợi ích cho con người và xã hội.",
+                "point_en": "Many people believe that AI brings many benefits to people and society.",
+                "evidence_vi": "Đầu tiên, AI giúp mọi người hoàn thành công việc nhanh hơn. Thứ hai, nó có thể xử lý một lượng lớn dữ liệu trong thời gian ngắn. Điều này giúp mọi người đưa ra quyết định nhanh hơn và chính xác hơn. Ngoài ra, AI được sử dụng rộng rãi trong giáo dục, chăm sóc sức khỏe và giao thông. Nhờ đó, cuộc sống hằng ngày trở nên thuận tiện hơn.",
+                "evidence_en": "First, AI helps people complete their work more quickly. Second, it can process a large amount of data in a short time. This helps people make faster and more accurate decisions. In addition, AI is widely used in education, healthcare, and transportation. As a result, daily life becomes more convenient."
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "VIEW 02",
+                "collocations": [
+                  {
+                    "en": "replace",
+                    "vi": "thay thế"
+                  },
+                  {
+                    "en": "unemployment",
+                    "vi": "thất nghiệp"
+                  },
+                  {
+                    "en": "depend on",
+                    "vi": "phụ thuộc vào"
+                  },
+                  {
+                    "en": "ethical concerns",
+                    "vi": "vấn đề đạo đức"
+                  },
+                  {
+                    "en": "privacy concerns",
+                    "vi": "vấn đề quyền riêng tư"
+                  },
+                  {
+                    "en": "solve problems",
+                    "vi": "giải quyết vấn đề"
+                  }
+                ],
+                "point_vi": "Tuy nhiên, nhiều người cho rằng AI cũng gây ra một số vấn đề nghiêm trọng.",
+                "point_en": "However, many people believe that AI also creates several serious problems.",
+                "evidence_vi": "Đầu tiên, AI có thể thay thế nhiều công việc của con người. Điều này có thể làm tăng tỷ lệ thất nghiệp. Hơn nữa, con người cũng có thể trở nên quá phụ thuộc vào AI. Điều này có thể làm giảm khả năng suy nghĩ và giải quyết vấn đề của họ. Cuối cùng, AI cũng đặt ra nhiều vấn đề về đạo đức và quyền riêng tư.",
+                "evidence_en": "First, AI may replace many human jobs. This may increase unemployment. Furthermore, people may become too dependent on AI. This may reduce their ability to think and solve problems. Finally, AI also raises ethical and privacy concerns."
+              }
+            ]
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "VIEW 01",
+                "collocations": [
+                  {
+                    "en": "artificial intelligence",
+                    "vi": "trí tuệ nhân tạo"
+                  },
+                  {
+                    "en": "boost productivity",
+                    "vi": "tăng năng suất"
+                  },
+                  {
+                    "en": "process massive amounts of data",
+                    "vi": "xử lý lượng dữ liệu khổng lồ"
+                  },
+                  {
+                    "en": "informed decisions",
+                    "vi": "quyết định sáng suốt"
+                  },
+                  {
+                    "en": "healthcare",
+                    "vi": "chăm sóc sức khỏe"
+                  },
+                  {
+                    "en": "transportation",
+                    "vi": "giao thông"
+                  },
+                  {
+                    "en": "convenient",
+                    "vi": "thuận tiện"
+                  }
+                ],
+                "point_vi": "Nhiều người lập luận rằng AI mang lại những lợi thế vô cùng to lớn cho cá nhân và xã hội.",
+                "point_en": "Many people argue that AI brings tremendous advantages to individuals and society.",
+                "evidence_vi": "Đầu tiên, các hệ thống tự động giúp các chuyên gia tăng năng suất làm việc một cách đáng kể. Thứ hai, AI có khả năng xử lý lượng dữ liệu khổng lồ trong tích tắc. Khả năng này cho phép các nhà lãnh đạo đưa ra những quyết định sáng suốt và chính xác hơn. Thêm vào đó, công nghệ này đang được ứng dụng rộng rãi trong các lĩnh vực thiết yếu như giáo dục, y tế và giao thông vận tải. Kết quả là, chất lượng cuộc sống hằng ngày của chúng ta đã được nâng cao đáng kể.",
+                "evidence_en": "Firstly, automated systems help professionals boost their productivity significantly. Secondly, AI has the capacity to process massive amounts of data in a fraction of a second. This capability enables leaders to make more informed and accurate decisions. Additionally, this technology is being widely applied in essential sectors such as education, healthcare, and transportation. As a result, the quality of our daily lives has been greatly enhanced."
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "VIEW 02",
+                "collocations": [
+                  {
+                    "en": "displace",
+                    "vi": "thay thế"
+                  },
+                  {
+                    "en": "job displacement",
+                    "vi": "sự mất việc làm"
+                  },
+                  {
+                    "en": "overly reliant",
+                    "vi": "quá phụ thuộc"
+                  },
+                  {
+                    "en": "ethical dilemmas",
+                    "vi": "vấn đề đạo đức"
+                  },
+                  {
+                    "en": "privacy infringement",
+                    "vi": "vi phạm quyền riêng tư"
+                  },
+                  {
+                    "en": "cognitive abilities",
+                    "vi": "khả năng nhận thức"
+                  }
+                ],
+                "point_vi": "Ngược lại, một bộ phận khác lại lo ngại rằng AI tạo ra những rủi ro đáng kể.",
+                "point_en": "Conversely, others are concerned that AI poses significant risks.",
+                "evidence_vi": "Đầu tiên, trí tuệ máy móc có thể thay thế con người trong nhiều ngành nghề khác nhau. Điều này có nguy cơ dẫn đến tình trạng mất việc làm hàng loạt. Hơn nữa, xã hội có thể trở nên quá phụ thuộc vào công nghệ thông minh. Sự phụ thuộc này có khả năng làm suy giảm các kỹ năng nhận thức và khả năng giải quyết vấn đề độc lập của con người. Cuối cùng, việc phát triển AI làm nảy sinh vô số vấn đề phức tạp liên quan đến đạo đức và vi phạm quyền riêng tư.",
+                "evidence_en": "First, machine intelligence could displace humans in various professions. This runs the risk of leading to mass job displacement. Furthermore, society might become overly reliant on smart technologies. This dependence could potentially diminish people's cognitive abilities and independent problem-solving skills. Finally, the development of AI gives rise to numerous complex issues regarding ethical dilemmas and privacy infringement."
+              }
+            ]
+          },
+          "vocab": [
+            {
+              "en": "artificial intelligence",
+              "vi": "trí tuệ nhân tạo"
+            },
+            {
+              "en": "complete work",
+              "vi": "hoàn thành công việc"
+            },
+            {
+              "en": "process data",
+              "vi": "xử lý dữ liệu"
+            },
+            {
+              "en": "make decisions",
+              "vi": "đưa ra quyết định"
+            },
+            {
+              "en": "healthcare",
+              "vi": "chăm sóc sức khỏe"
+            },
+            {
+              "en": "transportation",
+              "vi": "giao thông"
+            },
+            {
+              "en": "daily life",
+              "vi": "cuộc sống hằng ngày"
+            },
+            {
+              "en": "convenient",
+              "vi": "thuận tiện"
+            },
+            {
+              "en": "replace",
+              "vi": "thay thế"
+            },
+            {
+              "en": "unemployment",
+              "vi": "thất nghiệp"
+            },
+            {
+              "en": "depend on",
+              "vi": "phụ thuộc vào"
+            },
+            {
+              "en": "ethical concerns",
+              "vi": "vấn đề đạo đức"
+            },
+            {
+              "en": "privacy concerns",
+              "vi": "vấn đề quyền riêng tư"
+            },
+            {
+              "en": "solve problems",
+              "vi": "giải quyết vấn đề"
+            },
+            {
+              "en": "boost productivity",
+              "vi": "tăng năng suất"
+            },
+            {
+              "en": "process massive amounts of data",
+              "vi": "xử lý lượng dữ liệu khổng lồ"
+            },
+            {
+              "en": "informed decisions",
+              "vi": "quyết định sáng suốt"
+            },
+            {
+              "en": "displace",
+              "vi": "thay thế"
+            },
+            {
+              "en": "job displacement",
+              "vi": "sự mất việc làm"
+            },
+            {
+              "en": "overly reliant",
+              "vi": "quá phụ thuộc"
+            },
+            {
+              "en": "ethical dilemmas",
+              "vi": "vấn đề đạo đức"
+            },
+            {
+              "en": "privacy infringement",
+              "vi": "vi phạm quyền riêng tư"
+            },
+            {
+              "en": "cognitive abilities",
+              "vi": "khả năng nhận thức"
+            }
+          ],
+          "sample_b1": "In recent years, artificial intelligence has become a common topic of discussion. Some people believe that AI brings many benefits to people and society, while others argue that AI also creates several serious problems. This essay will discuss both views and give my own opinion.\n\n<strong>On the one hand, it is argued that AI brings many benefits to people and society.</strong> First, AI helps people complete their work more quickly. Second, it can process a large amount of data in a short time. This helps people make faster and more accurate decisions. In addition, AI is widely used in education, healthcare, and transportation. As a result, daily life becomes more convenient.\n\n<strong>On the other hand, it is believed that AI also creates several serious problems.</strong> First, AI may replace many human jobs. This may increase unemployment. Furthermore, people may become too dependent on AI. This may reduce their ability to think and solve problems. Finally, AI also raises ethical and privacy concerns.\n\nIn conclusion, both views have their own reasons. However, I believe that AI brings more benefits than drawbacks because it can improve people's quality of life when it is used responsibly. Therefore, people should think carefully before forming an opinion.",
+          "translation_b1": "Trong những năm gần đây, trí tuệ nhân tạo đã trở thành một chủ đề thảo luận phổ biến. Một số người tin rằng AI mang lại nhiều lợi ích cho con người và xã hội, trong khi những người khác lập luận rằng AI cũng gây ra một số vấn đề nghiêm trọng. Bài tiểu luận này sẽ thảo luận về cả hai quan điểm và đưa ra ý kiến của riêng tôi.\n\n<strong>Một mặt, người ta lập luận rằng AI mang lại nhiều lợi ích cho con người và xã hội.</strong> Đầu tiên, AI giúp mọi người hoàn thành công việc nhanh hơn. Thứ hai, nó có thể xử lý một lượng lớn dữ liệu trong thời gian ngắn. Điều này giúp mọi người đưa ra quyết định nhanh hơn và chính xác hơn. Ngoài ra, AI được sử dụng rộng rãi trong giáo dục, chăm sóc sức khỏe và giao thông. Nhờ đó, cuộc sống hằng ngày trở nên thuận tiện hơn.\n\n<strong>Mặt khác, người ta tin rằng AI cũng gây ra một số vấn đề nghiêm trọng.</strong> Đầu tiên, AI có thể thay thế nhiều công việc của con người. Điều này có thể làm tăng tỷ lệ thất nghiệp. Hơn nữa, con người cũng có thể trở nên quá phụ thuộc vào AI. Điều này có thể làm giảm khả năng suy nghĩ và giải quyết vấn đề của họ. Cuối cùng, AI cũng đặt ra nhiều vấn đề về đạo đức và quyền riêng tư.\n\nTóm lại, cả hai quan điểm đều có những lý do riêng. Tuy nhiên, tôi tin rằng AI mang lại nhiều lợi ích hơn bất lợi bởi vì nó có thể cải thiện chất lượng cuộc sống của con người nếu được sử dụng đúng cách. Vì vậy, mọi người nên suy nghĩ cẩn thận trước khi hình thành ý kiến.",
+          "sample_b2": "In recent years, artificial intelligence has become a subject of considerable debate. Some people believe that AI brings tremendous advantages to individuals and society, while others argue that this advanced technology poses significant risks. This essay will discuss both perspectives and present my personal viewpoint.\n\n<strong>On the one hand, it is argued that AI brings tremendous advantages to individuals and society.</strong> Firstly, automated systems help professionals boost their productivity significantly. Secondly, AI has the capacity to process massive amounts of data in a fraction of a second. This capability enables leaders to make more informed and accurate decisions. Additionally, this technology is being widely applied in essential sectors such as education, healthcare, and transportation. As a result, the quality of our daily lives has been greatly enhanced.\n\n<strong>On the other hand, it is believed that this advanced technology poses significant risks.</strong> First, machine intelligence could displace humans in various professions. This runs the risk of leading to mass job displacement. Furthermore, society might become overly reliant on smart technologies. This dependence could potentially diminish people's cognitive abilities and independent problem-solving skills. Finally, the development of AI gives rise to numerous complex issues regarding ethical dilemmas and privacy infringement.\n\nIn conclusion, both sides of the argument present valid points. However, I personally believe that AI brings more benefits than drawbacks because it can dramatically improve people's quality of life when developed and utilized responsibly. Therefore, people should carefully consider both perspectives before forming a final opinion.",
+          "translation_b2": "Trong những năm gần đây, trí tuệ nhân tạo đã trở thành một chủ đề tranh luận đáng kể. Một số người tin rằng AI mang lại những lợi thế vô cùng to lớn cho cá nhân và xã hội, trong khi những người khác lập luận rằng công nghệ tiên tiến này tạo ra những rủi ro đáng kể. Bài tiểu luận này sẽ thảo luận về cả hai quan điểm và trình bày quan điểm cá nhân của tôi.\n\n<strong>Một mặt, người ta lập luận rằng AI mang lại những lợi thế vô cùng to lớn cho cá nhân và xã hội.</strong> Đầu tiên, các hệ thống tự động giúp các chuyên gia tăng năng suất làm việc một cách đáng kể. Thứ hai, AI có khả năng xử lý lượng dữ liệu khổng lồ trong tích tắc. Khả năng này cho phép các nhà lãnh đạo đưa ra những quyết định sáng suốt và chính xác hơn. Thêm vào đó, công nghệ này đang được ứng dụng rộng rãi trong các lĩnh vực thiết yếu như giáo dục, y tế và giao thông vận tải. Kết quả là, chất lượng cuộc sống hằng ngày của chúng ta đã được nâng cao đáng kể.\n\n<strong>Mặt khác, người ta tin rằng công nghệ tiên tiến này tạo ra những rủi ro đáng kể.</strong> Đầu tiên, trí tuệ máy móc có thể thay thế con người trong nhiều ngành nghề khác nhau. Điều này có nguy cơ dẫn đến tình trạng mất việc làm hàng loạt. Hơn nữa, xã hội có thể trở nên quá phụ thuộc vào công nghệ thông minh. Sự phụ thuộc này có khả năng làm suy giảm các kỹ năng nhận thức và khả năng giải quyết vấn đề độc lập của con người. Cuối cùng, việc phát triển AI làm nảy sinh vô số vấn đề phức tạp liên quan đến đạo đức và vi phạm quyền riêng tư.\n\nTóm lại, cả hai khía cạnh của cuộc tranh luận đều đưa ra những điểm hợp lý. Tuy nhiên, cá nhân tôi tin rằng AI mang lại nhiều lợi ích hơn là bất lợi bởi vì nó có thể cải thiện đáng kể chất lượng cuộc sống của con người khi được phát triển và sử dụng một cách có trách nhiệm. Vì vậy, mọi người nên cẩn thận xem xét cả hai quan điểm trước khi hình thành ý kiến cuối cùng."
+        }
       },
       {
         "id": 12,
