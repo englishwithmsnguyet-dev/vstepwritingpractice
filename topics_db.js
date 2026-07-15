@@ -21190,20 +21190,44 @@ const ESSAY_DATA = [
         "context": "Artificial intelligence (AI) is becoming increasingly common in many areas of life, including education, healthcare, business, transportation, and entertainment. As AI technology continues to develop, people have different opinions about its impact on society. Some people believe that AI improves efficiency, supports decision-making, and makes daily life more convenient. Others argue that AI may lead to job losses, increase people's dependence on technology, and raise important ethical concerns.",
         "prompt": "Discuss both views and give your own opinion. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
         "has_full_details": true,
-        "paraphrases": [
-          {
-            "en": "AI technology",
-            "vi": "công nghệ AI"
+        "paraphrases": {
+          "view1": {
+            "title_en": "AI brings many benefits to people and society",
+            "title_vi": "AI mang lại nhiều lợi ích cho con người và xã hội",
+            "items": [
+              {
+                "en": "artificial intelligence provides tremendous advantages",
+                "vi": "trí tuệ nhân tạo cung cấp những lợi thế to lớn"
+              },
+              {
+                "en": "AI has a positive impact on our daily lives",
+                "vi": "AI có tác động tích cực đến cuộc sống hằng ngày của chúng ta"
+              },
+              {
+                "en": "automated systems are highly beneficial to humanity",
+                "vi": "các hệ thống tự động mang lại lợi ích cao cho nhân loại"
+              }
+            ]
           },
-          {
-            "en": "machine intelligence",
-            "vi": "trí tuệ máy móc"
-          },
-          {
-            "en": "automated systems",
-            "vi": "hệ thống tự động"
+          "view2": {
+            "title_en": "AI also creates several serious problems",
+            "title_vi": "AI cũng gây ra một số vấn đề nghiêm trọng",
+            "items": [
+              {
+                "en": "the rise of AI poses significant risks",
+                "vi": "sự trỗi dậy của AI gây ra những rủi ro đáng kể"
+              },
+              {
+                "en": "machine intelligence can lead to serious consequences",
+                "vi": "trí tuệ máy móc có thể dẫn đến những hậu quả nghiêm trọng"
+              },
+              {
+                "en": "there are major drawbacks associated with AI development",
+                "vi": "có những hạn chế lớn liên quan đến sự phát triển của AI"
+              }
+            ]
           }
-        ],
+        },
         "details": {
           "ideas_b1": {
             "benefits": [
