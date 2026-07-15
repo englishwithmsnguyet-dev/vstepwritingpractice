@@ -5012,8 +5012,22 @@ function renderStep1Reading() {
       return `<li><strong>${label}:</strong> ${p.point_vi}</li>`;
     };
 
-    const b1Benefits = (topic.details.ideas_b1.benefits || []).map(b => formatPoint(b, 'LỢI ÍCH')).join('');
-    const b1Drawbacks = (topic.details.ideas_b1.drawbacks || []).map(d => formatPoint(d, 'BẤT LỢI')).join('');
+    let defaultLabel1 = 'LỢI ÍCH';
+    let defaultLabel2 = 'BẤT LỢI';
+    if (category.id === 2) {
+      const isCausesSolutions = topic.type === 'causes_solutions';
+      defaultLabel1 = isCausesSolutions ? 'NGUYÊN NHÂN' : 'NGUYÊN NHÂN';
+      defaultLabel2 = isCausesSolutions ? 'GIẢI PHÁP' : 'HẬU QUẢ';
+    } else if (category.id === 3) {
+      defaultLabel1 = 'LÝ DO';
+      defaultLabel2 = 'LÝ DO';
+    } else if (category.id === 4) {
+      defaultLabel1 = 'QUAN ĐIỂM 1';
+      defaultLabel2 = 'QUAN ĐIỂM 2';
+    }
+
+    const b1Benefits = (topic.details.ideas_b1.benefits || []).map(b => formatPoint(b, defaultLabel1)).join('');
+    const b1Drawbacks = (topic.details.ideas_b1.drawbacks || []).map(d => formatPoint(d, defaultLabel2)).join('');
     
     outlineSummaryHtml = `
       <ul class="outline-summary-list">
