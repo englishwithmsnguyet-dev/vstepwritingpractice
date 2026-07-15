@@ -9932,7 +9932,377 @@ const ESSAY_DATA = [
         "title_vi": "Chơi một nhạc cụ",
         "context": "Learning to play a musical instrument is a popular activity among people of different ages. Instruments such as the piano, guitar, violin, and flute are widely learned for both educational and recreational purposes. Besides providing enjoyment, playing a musical instrument is believed to contribute to personal development in many ways. Many people believe that learning to play a musical instrument brings important benefits to individuals.",
         "prompt": "Write an essay to an educated reader to discuss the importance of learning to play a musical instrument. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "paraphrases": [
+          {
+            "en": "acquiring musical skills",
+            "vi": "đạt được kỹ năng âm nhạc"
+          },
+          {
+            "en": "mastering an instrument",
+            "vi": "thành thạo một loại nhạc cụ"
+          },
+          {
+            "en": "musical education",
+            "vi": "giáo dục âm nhạc"
+          }
+        ],
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "BENEFIT 01",
+                "collocations": [
+                  {
+                    "en": "musical instrument",
+                    "vi": "nhạc cụ"
+                  },
+                  {
+                    "en": "thinking skills",
+                    "vi": "khả năng tư duy"
+                  },
+                  {
+                    "en": "memory skills",
+                    "vi": "khả năng ghi nhớ"
+                  },
+                  {
+                    "en": "musical notes",
+                    "vi": "nốt nhạc"
+                  },
+                  {
+                    "en": "playing techniques",
+                    "vi": "kỹ thuật chơi"
+                  },
+                  {
+                    "en": "keep the brain active",
+                    "vi": "giúp não bộ hoạt động tích cực"
+                  },
+                  {
+                    "en": "concentrate",
+                    "vi": "tập trung"
+                  },
+                  {
+                    "en": "improve",
+                    "vi": "cải thiện"
+                  },
+                  {
+                    "en": "learn effectively",
+                    "vi": "học hiệu quả"
+                  }
+                ],
+                "point_vi": "Học chơi một loại nhạc cụ giúp cải thiện khả năng tư duy và ghi nhớ.",
+                "point_en": "Learning to play a musical instrument improves thinking and memory skills.",
+                "evidence_vi": "Người học phải ghi nhớ các nốt nhạc và cách chơi. Điều này giúp não bộ hoạt động tích cực hơn. Họ cũng có thể tập trung tốt hơn khi học hoặc làm việc. Nhờ đó, họ có thể học tập hiệu quả hơn.",
+                "evidence_en": "Learners need to remember musical notes and playing techniques. This helps keep the brain active. They can also concentrate better while studying or working. As a result, they can learn more effectively."
+              },
+              {
+                "title": "BENEFIT 02",
+                "collocations": [
+                  {
+                    "en": "reduce stress",
+                    "vi": "giảm căng thẳng"
+                  },
+                  {
+                    "en": "relax",
+                    "vi": "thư giãn"
+                  },
+                  {
+                    "en": "mental health",
+                    "vi": "sức khỏe tinh thần"
+                  },
+                  {
+                    "en": "daily life",
+                    "vi": "cuộc sống hằng ngày"
+                  },
+                  {
+                    "en": "a sense of peace",
+                    "vi": "cảm giác bình yên"
+                  },
+                  {
+                    "en": "feel happier",
+                    "vi": "cảm thấy hạnh phúc hơn"
+                  }
+                ],
+                "point_vi": "Chơi nhạc cụ giúp mọi người thư giãn và giảm căng thẳng.",
+                "point_en": "Playing a musical instrument helps people relax and reduce stress.",
+                "evidence_vi": "Âm nhạc mang lại cảm giác bình yên và thoải mái. Người học có thể quên đi những áp lực trong cuộc sống. Điều này giúp cải thiện sức khỏe tinh thần. Nhờ đó, họ cảm thấy hạnh phúc hơn.",
+                "evidence_en": "Music brings a sense of peace and relaxation. They can forget about the pressures of daily life. This improves their mental health. As a result, they feel happier."
+              },
+              {
+                "title": "BENEFIT 03",
+                "collocations": [
+                  {
+                    "en": "self-confidence",
+                    "vi": "sự tự tin"
+                  },
+                  {
+                    "en": "perform",
+                    "vi": "biểu diễn"
+                  },
+                  {
+                    "en": "abilities",
+                    "vi": "khả năng"
+                  },
+                  {
+                    "en": "practise",
+                    "vi": "luyện tập"
+                  },
+                  {
+                    "en": "believe in",
+                    "vi": "tin vào"
+                  },
+                  {
+                    "en": "encourage",
+                    "vi": "khuyến khích"
+                  }
+                ],
+                "point_vi": "Học chơi nhạc cụ giúp mọi người trở nên tự tin hơn.",
+                "point_en": "Learning to play a musical instrument builds self-confidence.",
+                "evidence_vi": "Người học có thể biểu diễn trước người khác. Mỗi lần tiến bộ giúp họ tin vào khả năng của mình hơn. Điều này khuyến khích họ tiếp tục luyện tập. Nhờ đó, họ trở nên tự tin hơn trong cuộc sống.",
+                "evidence_en": "Learners can perform in front of other people. Every improvement makes them believe in their abilities. This encourages them to keep practising. As a result, they become more confident in daily life."
+              }
+            ],
+            "drawbacks": []
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "BENEFIT 01",
+                "collocations": [
+                  {
+                    "en": "cognitive skills",
+                    "vi": "kỹ năng nhận thức"
+                  },
+                  {
+                    "en": "memory skills",
+                    "vi": "khả năng ghi nhớ"
+                  },
+                  {
+                    "en": "coordinate",
+                    "vi": "phối hợp"
+                  },
+                  {
+                    "en": "concentration",
+                    "vi": "sự tập trung"
+                  },
+                  {
+                    "en": "performance techniques",
+                    "vi": "kỹ thuật biểu diễn"
+                  }
+                ],
+                "point_vi": "Học chơi một loại nhạc cụ giúp phát triển khả năng tư duy và ghi nhớ.",
+                "point_en": "Learning to play a musical instrument develops cognitive and memory skills.",
+                "evidence_vi": "Người học phải ghi nhớ các nốt nhạc và kỹ thuật biểu diễn. Họ cũng phải phối hợp tay, mắt và tai trong khi chơi. Điều này giúp cải thiện khả năng tập trung. Họ có thể học tập và giải quyết vấn đề hiệu quả hơn. Nhờ đó, khả năng tư duy của họ được phát triển.",
+                "evidence_en": "Learners need to remember musical notes and performance techniques. They also need to coordinate their hands, eyes, and ears while playing. This improves their concentration. They can study and solve problems more effectively. As a result, their thinking skills become stronger."
+              },
+              {
+                "title": "BENEFIT 02",
+                "collocations": [
+                  {
+                    "en": "mental well-being",
+                    "vi": "sức khỏe tinh thần"
+                  },
+                  {
+                    "en": "anxiety",
+                    "vi": "lo âu"
+                  },
+                  {
+                    "en": "quality of life",
+                    "vi": "chất lượng cuộc sống"
+                  },
+                  {
+                    "en": "maintain",
+                    "vi": "duy trì"
+                  },
+                  {
+                    "en": "positive",
+                    "vi": "tích cực"
+                  }
+                ],
+                "point_vi": "Chơi nhạc cụ giúp cải thiện sức khỏe tinh thần.",
+                "point_en": "Playing a musical instrument supports mental well-being.",
+                "evidence_vi": "Âm nhạc giúp mọi người thư giãn sau giờ học hoặc làm việc. Nó giúp giảm căng thẳng và lo âu. Điều này giúp mọi người cảm thấy tích cực hơn. Họ có thể duy trì trạng thái tinh thần tốt hơn. Nhờ đó, chất lượng cuộc sống cũng được cải thiện.",
+                "evidence_en": "Music helps people relax after school or work. It reduces stress and anxiety. This helps people feel more positive. They can maintain better mental health. As a result, their quality of life improves."
+              },
+              {
+                "title": "BENEFIT 03",
+                "collocations": [
+                  {
+                    "en": "self-confidence",
+                    "vi": "sự tự tin"
+                  },
+                  {
+                    "en": "self-discipline",
+                    "vi": "tính kỷ luật"
+                  },
+                  {
+                    "en": "perseverance",
+                    "vi": "sự kiên trì"
+                  },
+                  {
+                    "en": "practise regularly",
+                    "vi": "luyện tập thường xuyên"
+                  },
+                  {
+                    "en": "perform",
+                    "vi": "biểu diễn"
+                  },
+                  {
+                    "en": "succeed",
+                    "vi": "thành công"
+                  }
+                ],
+                "point_vi": "Học chơi nhạc cụ giúp mọi người trở nên tự tin và có tính kỷ luật hơn.",
+                "point_en": "Learning to play a musical instrument improves self-confidence and self-discipline.",
+                "evidence_vi": "Người học cần luyện tập thường xuyên để tiến bộ. Họ có thể biểu diễn trước người khác. Điều này giúp họ tự tin hơn vào khả năng của mình. Việc luyện tập đều đặn cũng giúp họ hình thành tính kiên trì. Nhờ đó, họ có thể thành công hơn trong nhiều lĩnh vực của cuộc sống.",
+                "evidence_en": "Learners need to practise regularly to improve. They can perform in front of other people. This helps them become more confident in their abilities. Regular practice also helps them develop perseverance. As a result, they are more likely to succeed in different areas of life."
+              }
+            ],
+            "drawbacks": []
+          },
+          "vocab": [
+            {
+              "en": "musical instrument",
+              "vi": "nhạc cụ"
+            },
+            {
+              "en": "thinking skills",
+              "vi": "khả năng tư duy"
+            },
+            {
+              "en": "memory skills",
+              "vi": "khả năng ghi nhớ"
+            },
+            {
+              "en": "musical notes",
+              "vi": "nốt nhạc"
+            },
+            {
+              "en": "playing techniques",
+              "vi": "kỹ thuật chơi"
+            },
+            {
+              "en": "keep the brain active",
+              "vi": "giúp não bộ hoạt động tích cực"
+            },
+            {
+              "en": "concentrate",
+              "vi": "tập trung"
+            },
+            {
+              "en": "improve",
+              "vi": "cải thiện"
+            },
+            {
+              "en": "learn effectively",
+              "vi": "học hiệu quả"
+            },
+            {
+              "en": "reduce stress",
+              "vi": "giảm căng thẳng"
+            },
+            {
+              "en": "relax",
+              "vi": "thư giãn"
+            },
+            {
+              "en": "mental health",
+              "vi": "sức khỏe tinh thần"
+            },
+            {
+              "en": "daily life",
+              "vi": "cuộc sống hằng ngày"
+            },
+            {
+              "en": "a sense of peace",
+              "vi": "cảm giác bình yên"
+            },
+            {
+              "en": "feel happier",
+              "vi": "cảm thấy hạnh phúc hơn"
+            },
+            {
+              "en": "self-confidence",
+              "vi": "sự tự tin"
+            },
+            {
+              "en": "perform",
+              "vi": "biểu diễn"
+            },
+            {
+              "en": "abilities",
+              "vi": "khả năng"
+            },
+            {
+              "en": "practise",
+              "vi": "luyện tập"
+            },
+            {
+              "en": "believe in",
+              "vi": "tin vào"
+            },
+            {
+              "en": "encourage",
+              "vi": "khuyến khích"
+            },
+            {
+              "en": "cognitive skills",
+              "vi": "kỹ năng nhận thức"
+            },
+            {
+              "en": "coordinate",
+              "vi": "phối hợp"
+            },
+            {
+              "en": "concentration",
+              "vi": "sự tập trung"
+            },
+            {
+              "en": "performance techniques",
+              "vi": "kỹ thuật biểu diễn"
+            },
+            {
+              "en": "mental well-being",
+              "vi": "sức khỏe tinh thần"
+            },
+            {
+              "en": "anxiety",
+              "vi": "lo âu"
+            },
+            {
+              "en": "quality of life",
+              "vi": "chất lượng cuộc sống"
+            },
+            {
+              "en": "maintain",
+              "vi": "duy trì"
+            },
+            {
+              "en": "positive",
+              "vi": "tích cực"
+            },
+            {
+              "en": "self-discipline",
+              "vi": "tính kỷ luật"
+            },
+            {
+              "en": "perseverance",
+              "vi": "sự kiên trì"
+            },
+            {
+              "en": "practise regularly",
+              "vi": "luyện tập thường xuyên"
+            },
+            {
+              "en": "succeed",
+              "vi": "thành công"
+            }
+          ],
+          "sample_b1": "In today's society, learning to play a musical instrument has become very popular. There are many reasons why people choose to play music. <strong>This essay will discuss the main benefits of learning a musical instrument.</strong>\n\n<strong>First of all, learning a musical instrument improves thinking and memory skills.</strong> This is because learners need to remember musical notes and playing techniques. Furthermore, this helps keep the brain active. In fact, they can also concentrate better while studying or working. As a result, they can learn more effectively.\n\n<strong>Secondly, playing a musical instrument helps people relax and reduce stress.</strong> The main reason is that music brings a sense of peace and relaxation. In addition, they can forget about the pressures of daily life. This improves their mental health. As a result, they feel happier.\n\n<strong>Finally, learning to play a musical instrument builds self-confidence.</strong> Specifically, learners can perform in front of other people. Moreover, every improvement makes them believe in their abilities. This encourages them to keep practising. As a result, they become more confident in daily life.\n\nIn conclusion, playing music offers many advantages. It improves mental skills, reduces stress, and builds self-confidence. Therefore, everyone should try to learn a musical instrument in their free time.",
+          "translation_b1": "Trong xã hội ngày nay, việc học chơi một loại nhạc cụ đã trở nên rất phổ biến. Có nhiều lý do tại sao mọi người chọn chơi nhạc. <strong>Bài luận này sẽ thảo luận về những lợi ích chính của việc học một loại nhạc cụ.</strong>\n\n<strong>Trước hết, học chơi một loại nhạc cụ giúp cải thiện khả năng tư duy và ghi nhớ.</strong> Điều này là do người học phải ghi nhớ các nốt nhạc và cách chơi. Hơn nữa, điều này giúp não bộ hoạt động tích cực hơn. Trên thực tế, họ cũng có thể tập trung tốt hơn khi học hoặc làm việc. Nhờ đó, họ có thể học tập hiệu quả hơn.\n\n<strong>Thứ hai, chơi nhạc cụ giúp mọi người thư giãn và giảm căng thẳng.</strong> Lý do chính là âm nhạc mang lại cảm giác bình yên và thoải mái. Ngoài ra, họ có thể quên đi những áp lực trong cuộc sống hằng ngày. Điều này giúp cải thiện sức khỏe tinh thần. Nhờ đó, họ cảm thấy hạnh phúc hơn.\n\n<strong>Cuối cùng, học chơi nhạc cụ giúp mọi người trở nên tự tin hơn.</strong> Cụ thể, người học có thể biểu diễn trước người khác. Hơn nữa, mỗi lần tiến bộ giúp họ tin vào khả năng của mình hơn. Điều này khuyến khích họ tiếp tục luyện tập. Nhờ đó, họ trở nên tự tin hơn trong cuộc sống.\n\nTóm lại, việc chơi nhạc mang lại nhiều lợi thế. Nó cải thiện các kỹ năng tinh thần, giảm căng thẳng và xây dựng sự tự tin. Vì vậy, mọi người nên cố gắng học một loại nhạc cụ vào thời gian rảnh rỗi.",
+          "sample_b2": "In contemporary society, learning to play a musical instrument has become an increasingly popular pursuit for people of all ages. This engaging activity offers numerous profound benefits that extend beyond mere entertainment. <strong>This essay will discuss the primary advantages of acquiring musical skills.</strong>\n\n<strong>First and foremost, learning to play a musical instrument develops cognitive and memory skills.</strong> This is primarily because learners need to remember musical notes and performance techniques. Furthermore, they also need to coordinate their hands, eyes, and ears while playing. In reality, this improves their concentration, allowing them to study and solve problems more effectively. As a result, their thinking skills become stronger.\n\n<strong>Secondly, playing a musical instrument supports mental well-being.</strong> The underlying reason is that music helps people relax after school or work. Additionally, it significantly reduces stress and anxiety, which helps people feel more positive. Therefore, they can maintain better mental health. As a result, their quality of life improves.\n\n<strong>Finally, learning to play a musical instrument improves self-confidence and self-discipline.</strong> Specifically, learners need to practise regularly to improve, and they can perform in front of other people. This helps them become more confident in their abilities. Moreover, regular practice also helps them develop perseverance. As a result, they are more likely to succeed in different areas of life.\n\nIn conclusion, the decision to learn a musical instrument provides undeniably significant benefits. It not only enhances cognitive development and mental well-being but also fosters vital personal traits such as self-confidence and discipline. Therefore, it is highly recommended that individuals engage in musical education to enrich their lives.",
+          "translation_b2": "Trong xã hội đương đại, việc học chơi một loại nhạc cụ đã trở thành một theo đuổi ngày càng phổ biến đối với mọi người ở mọi lứa tuổi. Hoạt động hấp dẫn này mang lại vô số lợi ích sâu sắc vượt ra ngoài việc giải trí đơn thuần. <strong>Bài luận này sẽ thảo luận về những lợi thế chính của việc đạt được các kỹ năng âm nhạc.</strong>\n\n<strong>Đầu tiên và quan trọng nhất, học chơi một loại nhạc cụ giúp phát triển khả năng tư duy và ghi nhớ.</strong> Điều này chủ yếu là do người học phải ghi nhớ các nốt nhạc và kỹ thuật biểu diễn. Hơn nữa, họ cũng phải phối hợp tay, mắt và tai trong khi chơi. Trên thực tế, điều này giúp cải thiện khả năng tập trung, cho phép họ học tập và giải quyết vấn đề hiệu quả hơn. Nhờ đó, khả năng tư duy của họ được phát triển.\n\n<strong>Thứ hai, chơi nhạc cụ giúp cải thiện sức khỏe tinh thần.</strong> Lý do sâu xa là âm nhạc giúp mọi người thư giãn sau giờ học hoặc làm việc. Ngoài ra, nó làm giảm đáng kể căng thẳng và lo âu, điều này giúp mọi người cảm thấy tích cực hơn. Vì vậy, họ có thể duy trì trạng thái tinh thần tốt hơn. Nhờ đó, chất lượng cuộc sống cũng được cải thiện.\n\n<strong>Cuối cùng, học chơi nhạc cụ giúp mọi người trở nên tự tin và có tính kỷ luật hơn.</strong> Cụ thể, người học cần luyện tập thường xuyên để tiến bộ, và họ có thể biểu diễn trước người khác. Điều này giúp họ tự tin hơn vào khả năng của mình. Hơn nữa, việc luyện tập đều đặn cũng giúp họ hình thành tính kiên trì. Nhờ đó, họ có thể thành công hơn trong nhiều lĩnh vực của cuộc sống.\n\nTóm lại, quyết định học một loại nhạc cụ mang lại những lợi ích đáng kể không thể phủ nhận. Nó không chỉ nâng cao sự phát triển nhận thức và sức khỏe tinh thần mà còn nuôi dưỡng những đặc điểm cá nhân quan trọng như sự tự tin và tính kỷ luật. Vì vậy, người ta rất khuyến khích các cá nhân tham gia vào giáo dục âm nhạc để làm phong phú thêm cuộc sống của họ."
+        }
       },
       {
         "id": 63,
