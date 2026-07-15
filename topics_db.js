@@ -21226,6 +21226,24 @@ const ESSAY_DATA = [
                 "vi": "có những hạn chế lớn liên quan đến sự phát triển của AI"
               }
             ]
+          },
+          "topic": {
+            "title_en": "Artificial Intelligence",
+            "title_vi": "Trí tuệ nhân tạo",
+            "items": [
+              {
+                "en": "AI technology",
+                "vi": "công nghệ AI"
+              },
+              {
+                "en": "machine intelligence",
+                "vi": "trí tuệ máy móc"
+              },
+              {
+                "en": "automated systems",
+                "vi": "hệ thống tự động"
+              }
+            ]
           }
         },
         "details": {

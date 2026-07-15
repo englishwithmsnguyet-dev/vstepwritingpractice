@@ -4958,6 +4958,22 @@ function renderStep1Reading() {
       `;
     } else if (typeof paraphrases === 'object' && !Array.isArray(paraphrases)) {
       let partsHtml = [];
+      if (paraphrases.topic) {
+        partsHtml.push(`
+          <div class="viewpoint-paraphrase-section" style="margin-bottom: 1.25rem;">
+            <div style="font-weight: 600; color: var(--accent-primary); margin-bottom: 0.5rem; font-size: 0.95rem; display: flex; align-items: flex-start; gap: 0.5rem;">
+              <div style="display: flex; align-items: center; gap: 0.5rem; flex-shrink: 0; white-space: nowrap; padding-top: 2px;">
+                <span class="badge" style="background-color: rgba(99, 102, 241, 0.15); color: var(--accent-primary); padding: 0.2rem 0.5rem; border-radius: 4px; font-size: 0.75rem; font-weight: 600;">TOPIC</span>
+                <span>Chủ đề:</span>
+              </div>
+              <span style="color: var(--text-primary); font-weight: 500;">"${paraphrases.topic.title_en}" (${paraphrases.topic.title_vi})</span>
+            </div>
+            <ul class="paraphrase-list">
+              ${paraphrases.topic.items.map(p => `<li><strong>${p.en}</strong>${p.vi ? ` (${p.vi})` : ''}</li>`).join('')}
+            </ul>
+          </div>
+        `);
+      }
       if (paraphrases.view1) {
         partsHtml.push(`
           <div class="viewpoint-paraphrase-section" style="margin-bottom: 1.25rem;">
