@@ -14517,7 +14517,305 @@ const ESSAY_DATA = [
             "prompt": "Write an essay to an educated reader to discuss the causes of overpopulation and suggest possible solutions to this problem. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar."
           }
         ],
-        "has_full_details": false
+        "has_full_details": true,
+        "paraphrases": [
+          {
+            "en": "rapid population growth",
+            "vi": "sự gia tăng dân số nhanh chóng"
+          },
+          {
+            "en": "population explosion",
+            "vi": "bùng nổ dân số"
+          },
+          {
+            "en": "overcrowding",
+            "vi": "tình trạng quá đông đúc"
+          }
+        ],
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "CAUSE 01",
+                "collocations": [
+                  {
+                    "en": "high birth rates",
+                    "vi": "tỷ lệ sinh cao"
+                  },
+                  {
+                    "en": "developing countries",
+                    "vi": "các nước đang phát triển"
+                  },
+                  {
+                    "en": "rural areas",
+                    "vi": "khu vực nông thôn"
+                  }
+                ],
+                "point_vi": "Tỷ lệ sinh cao ở các nước đang phát triển là một nguyên nhân chính.",
+                "point_en": "High birth rates in developing countries are a major cause.",
+                "evidence_vi": "Nhiều gia đình ở các vùng nông thôn muốn có nhiều con để hỗ trợ công việc gia đình.",
+                "evidence_en": "Many families in rural areas want to have more children to help with family work."
+              },
+              {
+                "title": "CAUSE 02",
+                "collocations": [
+                  {
+                    "en": "improved healthcare",
+                    "vi": "chăm sóc y tế cải thiện"
+                  },
+                  {
+                    "en": "extend life expectancy",
+                    "vi": "kéo dài tuổi thọ"
+                  },
+                  {
+                    "en": "modern treatments",
+                    "vi": "phương pháp điều trị hiện đại"
+                  }
+                ],
+                "point_vi": "Cải thiện chăm sóc y tế giúp kéo dài tuổi thọ của con người.",
+                "point_en": "Improved healthcare helps extend human life expectancy.",
+                "evidence_vi": "Mọi người sống lâu hơn nhờ các phương pháp điều trị và vắc xin hiện đại.",
+                "evidence_en": "People live longer thanks to modern treatments and vaccines."
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "EFFECT 01",
+                "collocations": [
+                  {
+                    "en": "shortage of resources",
+                    "vi": "thiếu hụt tài nguyên"
+                  },
+                  {
+                    "en": "public services",
+                    "vi": "dịch vụ công cộng"
+                  },
+                  {
+                    "en": "large cities",
+                    "vi": "các thành phố lớn"
+                  }
+                ],
+                "point_vi": "Sự gia tăng dân số gây ra tình trạng thiếu hụt tài nguyên và dịch vụ công.",
+                "point_en": "Population growth creates shortages of resources and public services.",
+                "evidence_vi": "Các thành phố lớn phải đối mặt với tình trạng thiếu nhà ở, trường học và bệnh viện.",
+                "evidence_en": "Large cities face shortages of housing, schools, and hospitals."
+              },
+              {
+                "title": "EFFECT 02",
+                "collocations": [
+                  {
+                    "en": "overpopulation",
+                    "vi": "dân số quá đông"
+                  },
+                  {
+                    "en": "environmental pollution",
+                    "vi": "ô nhiễm môi trường"
+                  },
+                  {
+                    "en": "create waste",
+                    "vi": "tạo ra rác thải"
+                  }
+                ],
+                "point_vi": "Dân số quá đông dẫn đến ô nhiễm môi trường nghiêm trọng.",
+                "point_en": "Overpopulation leads to serious environmental pollution.",
+                "evidence_vi": "Việc sử dụng nhiều năng lượng và tạo ra nhiều rác thải làm tổn hại đến thiên nhiên.",
+                "evidence_en": "Using more energy and creating more waste harms nature."
+              }
+            ]
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "CAUSE 01",
+                "collocations": [
+                  {
+                    "en": "high fertility rates",
+                    "vi": "tỷ lệ sinh cao"
+                  },
+                  {
+                    "en": "family planning",
+                    "vi": "kế hoạch hóa gia đình"
+                  },
+                  {
+                    "en": "cultural beliefs",
+                    "vi": "quan niệm văn hóa"
+                  }
+                ],
+                "point_vi": "Tỷ lệ sinh cao ở các khu vực nông thôn đóng góp đáng kể vào sự gia tăng dân số.",
+                "point_en": "High fertility rates in rural areas contribute significantly to population growth.",
+                "evidence_vi": "Quan niệm văn hóa truyền thống và sự thiếu hiểu biết về kế hoạch hóa gia đình khuyến khích quy mô gia đình lớn hơn.",
+                "evidence_en": "Traditional cultural beliefs and lack of family planning knowledge encourage larger family sizes."
+              },
+              {
+                "title": "CAUSE 02",
+                "collocations": [
+                  {
+                    "en": "advancements in medicine",
+                    "vi": "tiến bộ y học"
+                  },
+                  {
+                    "en": "reduce mortality rates",
+                    "vi": "giảm tỷ lệ tử vong"
+                  },
+                  {
+                    "en": "better sanitation",
+                    "vi": "điều kiện vệ sinh tốt hơn"
+                  }
+                ],
+                "point_vi": "Tiến bộ công nghệ trong y tế đã làm giảm đáng kể tỷ lệ tử vong.",
+                "point_en": "Technological progress in healthcare has significantly reduced mortality rates.",
+                "evidence_vi": "Điều kiện vệ sinh tốt hơn, kiểm soát dịch bệnh và chăm sóc y tế cho phép con người sống lâu hơn nhiều.",
+                "evidence_en": "Better sanitation, disease control, and medical care allow people to live much longer lives."
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "EFFECT 01",
+                "collocations": [
+                  {
+                    "en": "immense pressure",
+                    "vi": "áp lực khổng lồ"
+                  },
+                  {
+                    "en": "urban infrastructure",
+                    "vi": "hạ tầng đô thị"
+                  },
+                  {
+                    "en": "public amenities",
+                    "vi": "tiện ích công cộng"
+                  }
+                ],
+                "point_vi": "Sự gia tăng dân số nhanh chóng gây áp lực khổng lồ lên hạ tầng đô thị và các tiện ích công cộng.",
+                "point_en": "Rapid population growth exerts immense pressure on urban infrastructure and public amenities.",
+                "evidence_vi": "Các thành phố quá đông đúc gặp khó khăn trong việc cung cấp đủ nhà ở, hệ thống y tế và cơ sở giáo dục.",
+                "evidence_en": "Overcrowded cities struggle to provide adequate housing, healthcare systems, and educational facilities."
+              },
+              {
+                "title": "EFFECT 02",
+                "collocations": [
+                  {
+                    "en": "environmental degradation",
+                    "vi": "suy thoái môi trường"
+                  },
+                  {
+                    "en": "resource depletion",
+                    "vi": "cạn kiệt tài nguyên"
+                  },
+                  {
+                    "en": "ecological damage",
+                    "vi": "tổn hại sinh thái"
+                  }
+                ],
+                "point_vi": "Dân số quá đông làm gia tăng sự suy thoái môi trường và cạn kiệt tài nguyên thiên nhiên.",
+                "point_en": "Overpopulation accelerates environmental degradation and resource depletion.",
+                "evidence_vi": "Việc tiêu thụ nhiều nhiên liệu hóa thạch và chặt phá rừng dẫn đến tổn hại sinh thái nghiêm trọng và biến đổi khí hậu.",
+                "evidence_en": "Increased consumption of fossil fuels and deforestation lead to severe ecological damage and climate change."
+              }
+            ]
+          },
+          "vocab": [
+            {
+              "en": "high birth rates",
+              "vi": "tỷ lệ sinh cao"
+            },
+            {
+              "en": "developing countries",
+              "vi": "các nước đang phát triển"
+            },
+            {
+              "en": "rural areas",
+              "vi": "khu vực nông thôn"
+            },
+            {
+              "en": "improved healthcare",
+              "vi": "chăm sóc y tế cải thiện"
+            },
+            {
+              "en": "extend life expectancy",
+              "vi": "kéo dài tuổi thọ"
+            },
+            {
+              "en": "modern treatments",
+              "vi": "phương pháp điều trị hiện đại"
+            },
+            {
+              "en": "shortage of resources",
+              "vi": "thiếu hụt tài nguyên"
+            },
+            {
+              "en": "public services",
+              "vi": "dịch vụ công cộng"
+            },
+            {
+              "en": "large cities",
+              "vi": "các thành phố lớn"
+            },
+            {
+              "en": "overpopulation",
+              "vi": "dân số quá đông"
+            },
+            {
+              "en": "environmental pollution",
+              "vi": "ô nhiễm môi trường"
+            },
+            {
+              "en": "create waste",
+              "vi": "tạo ra rác thải"
+            },
+            {
+              "en": "high fertility rates",
+              "vi": "tỷ lệ sinh cao"
+            },
+            {
+              "en": "family planning",
+              "vi": "kế hoạch hóa gia đình"
+            },
+            {
+              "en": "cultural beliefs",
+              "vi": "quan niệm văn hóa"
+            },
+            {
+              "en": "advancements in medicine",
+              "vi": "tiến bộ y học"
+            },
+            {
+              "en": "reduce mortality rates",
+              "vi": "giảm tỷ lệ tử vong"
+            },
+            {
+              "en": "better sanitation",
+              "vi": "điều kiện vệ sinh tốt hơn"
+            },
+            {
+              "en": "immense pressure",
+              "vi": "áp lực khổng lồ"
+            },
+            {
+              "en": "urban infrastructure",
+              "vi": "hạ tầng đô thị"
+            },
+            {
+              "en": "public amenities",
+              "vi": "tiện ích công cộng"
+            },
+            {
+              "en": "environmental degradation",
+              "vi": "suy thoái môi trường"
+            },
+            {
+              "en": "resource depletion",
+              "vi": "cạn kiệt tài nguyên"
+            },
+            {
+              "en": "ecological damage",
+              "vi": "tổn hại sinh thái"
+            }
+          ],
+          "sample_b1": "In recent years, overpopulation has become a growing concern in many parts of the world. This issue affects both individuals and society in different ways. This essay will discuss the main causes of this problem and its possible effects.\n\n<strong>This issue can be caused by several factors. </strong><strong>One major cause is that high birth rates in developing countries contribute to population growth.</strong> Many families in rural areas want to have more children to help with family work. <strong>Another contributing factor is that improved healthcare helps extend human life expectancy.</strong> People live longer thanks to modern treatments and vaccines.\n\n<strong>This problem can lead to several negative effects. </strong><strong>One serious impact is that population growth creates shortages of resources and public services.</strong> Large cities face shortages of housing, schools, and hospitals. <strong>Another consequence is that overpopulation leads to serious environmental pollution.</strong> Using more energy and creating more waste harms nature.\n\nIn conclusion, overpopulation is caused by several factors and can lead to many negative effects. By understanding the causes and paying more attention to this issue, the situation can be improved in the future. These actions can help create a better environment for both individuals and society.",
+          "translation_b1": "Trong những năm gần đây, dân số quá đông đã trở thành một mối quan tâm ngày càng tăng ở nhiều nơi trên thế giới. Vấn đề này ảnh hưởng đến cả cá nhân và xã hội theo những cách khác nhau. Bài tiểu luận này sẽ thảo luận về những nguyên nhân chính của vấn đề này và những tác động có thể có của nó.\n\n<strong>Vấn đề này có thể do một số yếu tố gây ra. </strong><strong>Một nguyên nhân chính là tỷ lệ sinh cao ở các nước đang phát triển đóng góp vào sự gia tăng dân số.</strong> Nhiều gia đình ở các vùng nông thôn muốn có nhiều con để hỗ trợ công việc gia đình. <strong>Một yếu tố góp phần khác là cải thiện chăm sóc y tế giúp kéo dài tuổi thọ của con người.</strong> Mọi người sống lâu hơn nhờ các phương pháp điều trị và vắc xin hiện đại.\n\n<strong>Vấn đề này có thể dẫn đến một số tác động tiêu cực. </strong><strong>Một tác động nghiêm trọng là sự gia tăng dân số gây ra tình trạng thiếu hụt tài nguyên và dịch vụ công.</strong> Các thành phố lớn phải đối mặt với tình trạng thiếu nhà ở, trường học và bệnh viện. <strong>Một hậu quả khác là dân số quá đông dẫn đến ô nhiễm môi trường nghiêm trọng.</strong> Việc sử dụng nhiều năng lượng và tạo ra nhiều rác thải làm tổn hại đến thiên nhiên.\n\nTóm lại, dân số quá đông do một số yếu tố gây ra và có thể dẫn đến nhiều tác động tiêu cực. Bằng cách hiểu các nguyên nhân và chú ý nhiều hơn đến vấn đề này, tình hình có thể được cải thiện trong tương lai. Những hành động này có thể giúp tạo ra một môi trường tốt hơn cho cả cá nhân và xã hội.",
+          "sample_b2": "In recent years, overpopulation has become a growing concern in many parts of the world. This issue has created several challenges for both individuals and society. This essay will examine the main causes of this problem and discuss its possible effects.\n\n<strong>This issue can be attributed to several key factors. </strong><strong>One major cause is that high fertility rates in rural and developing regions drive rapid growth.</strong> Traditional cultural beliefs and lack of family planning knowledge encourage larger family sizes. <strong>Another contributing factor is that advancements in medicine and healthcare infrastructure significantly reduce mortality rates.</strong> Better sanitation, disease control, and medical care allow people to live much longer lives.\n\n<strong>This problem can lead to several significant consequences. </strong><strong>One negative effect is that rapid population growth exerts immense pressure on urban infrastructure and public amenities.</strong> Overcrowded cities struggle to provide adequate housing, healthcare systems, and educational facilities. <strong>Another serious impact is that overpopulation accelerates environmental degradation and resource depletion.</strong> Increased consumption of fossil fuels and deforestation lead to severe ecological damage and climate change.\n\nIn conclusion, overpopulation is caused by several factors and leads to a range of negative effects on individuals and society. Addressing these underlying causes is essential to improve the situation in the future. With greater attention, this issue can be better managed over time.",
+          "translation_b2": "Trong những năm gần đây, dân số quá đông đã trở thành một mối quan tâm ngày càng tăng ở nhiều nơi trên thế giới. Vấn đề này đã tạo ra một số thách thức cho cả cá nhân và xã hội. Bài tiểu luận này sẽ xem xét những nguyên nhân chính của vấn đề này và thảo luận về những tác động có thể có của nó.\n\n<strong>Vấn đề này có thể bắt nguồn từ một số yếu tố chính. </strong><strong>Một nguyên nhân chính là tỷ lệ sinh cao ở các khu vực nông thôn và đang phát triển thúc đẩy sự gia tăng nhanh chóng.</strong> Quan niệm văn hóa truyền thống và sự thiếu hiểu biết về kế hoạch hóa gia đình khuyến khích quy mô gia đình lớn hơn. <strong>Một yếu tố góp phần khác là sự tiến bộ trong y tế và hạ tầng chăm sóc sức khỏe làm giảm đáng kể tỷ lệ tử vong.</strong> Điều kiện vệ sinh tốt hơn, kiểm soát dịch bệnh và chăm sóc y tế cho phép con người sống lâu hơn nhiều.\n\n<strong>Vấn đề này có thể dẫn đến một số hậu quả đáng kể. </strong><strong>Một tác động tiêu cực là sự gia tăng dân số nhanh chóng gây áp lực khổng lồ lên hạ tầng đô thị và các tiện ích công cộng.</strong> Các thành phố quá đông đúc gặp khó khăn trong việc cung cấp đủ nhà ở, hệ thống y tế và cơ sở giáo dục. <strong>Một ảnh hưởng nghiêm trọng khác là dân số quá đông làm gia tăng sự suy thoái môi trường và cạn kiệt tài nguyên.</strong> Việc tiêu thụ nhiều nhiên liệu hóa thạch và chặt phá rừng dẫn đến tổn hại sinh thái nghiêm trọng và biến đổi khí hậu.\n\nTóm lại, dân số quá đông do một số yếu tố gây ra và dẫn đến một loạt các tác động tiêu cực đối với cá nhân và xã hội. Việc giải quyết những nguyên nhân cơ bản này là cần thiết để cải thiện tình hình trong tương lai. Với sự chú ý lớn hơn, vấn đề này có thể được quản lý tốt hơn theo thời gian."
+        }
       },
       {
         "id": 9,
