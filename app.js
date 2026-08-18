@@ -628,7 +628,13 @@ function startPractice(catId, topicId) {
   // Populate Left Resource Pane if elements exist (Optional reference)
   const wsPromptEn = document.getElementById('ws-prompt-en');
   if (wsPromptEn) {
-    wsPromptEn.innerText = topic.context ? `${topic.context}\n\n${topic.prompt}` : topic.prompt;
+    let ctx = topic.context;
+    let prm = topic.prompt;
+    if (!prm && topic.subtopics && topic.subtopics.length > 0) {
+      ctx = topic.subtopics[0].context || '';
+      prm = topic.subtopics[0].prompt || '';
+    }
+    wsPromptEn.innerText = ctx ? `${ctx}\n\n${prm}` : (prm || '');
   }
   const wsPromptVi = document.getElementById('ws-prompt-vi');
   if (wsPromptVi) {
@@ -5097,7 +5103,13 @@ function renderStep1Reading() {
   const category = currentCategory;
   if (!topic) return;
   
-  const promptEn = topic.context ? `${topic.context}\n\n${topic.prompt}` : topic.prompt;
+  let ctx = topic.context;
+  let prm = topic.prompt;
+  if (!prm && topic.subtopics && topic.subtopics.length > 0) {
+    ctx = topic.subtopics[0].context || '';
+    prm = topic.subtopics[0].prompt || '';
+  }
+  const promptEn = ctx ? `${ctx}\n\n${prm}` : (prm || '');
   const promptVi = getPromptTranslation(topic, category);
   
   const paraphrases = getTopicParaphrases(topic);
