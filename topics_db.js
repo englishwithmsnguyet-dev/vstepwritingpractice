@@ -20168,7 +20168,633 @@ const ESSAY_DATA = [
         "tags": "[Causes & Solutions]",
         "context": "Conflicts between parents and children are common in many families. Differences in opinions, lifestyles, values, and expectations can sometimes lead to misunderstandings and disagreements between family members. If these conflicts are not addressed properly, they may affect family relationships and the well-being of both parents and children.",
         "prompt": "Write an essay to an educated reader to discuss the causes of conflicts between parents and children and suggest possible solutions to this problem. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "paraphrases": [
+          {
+            "en": "parent-child conflicts",
+            "vi": "mâu thuẫn giữa cha mẹ và con cái"
+          },
+          {
+            "en": "intergenerational friction in families",
+            "vi": "sự bất đồng giữa các thế hệ trong gia đình"
+          },
+          {
+            "en": "disagreements between parents and offspring",
+            "vi": "những bất đồng giữa cha mẹ và con cái"
+          },
+          {
+            "en": "family tensions between generations",
+            "vi": "căng thẳng gia đình giữa các thế hệ"
+          }
+        ],
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "CAUSE 01",
+                "collocations": [
+                  {
+                    "en": "different views about life",
+                    "vi": "cách nhìn khác nhau về cuộc sống"
+                  },
+                  {
+                    "en": "opinions and lifestyles",
+                    "vi": "quan điểm và lối sống"
+                  },
+                  {
+                    "en": "disagree about education",
+                    "vi": "không đồng ý về học tập"
+                  },
+                  {
+                    "en": "career choices",
+                    "vi": "lựa chọn nghề nghiệp"
+                  },
+                  {
+                    "en": "daily disagreements",
+                    "vi": "bất đồng hằng ngày"
+                  }
+                ],
+                "point_vi": "Cha mẹ và con cái có thể có cách nhìn khác nhau về cuộc sống.",
+                "point_en": "Parents and children may have different views about life.",
+                "evidence_vi": "Họ có thể không đồng ý về việc học tập, công việc hoặc cách sống.",
+                "evidence_en": "They may disagree about education, work, or lifestyle."
+              },
+              {
+                "title": "CAUSE 02",
+                "collocations": [
+                  {
+                    "en": "lack of communication",
+                    "vi": "thiếu giao tiếp"
+                  },
+                  {
+                    "en": "spend time talking",
+                    "vi": "dành thời gian trò chuyện"
+                  },
+                  {
+                    "en": "understand thoughts and feelings",
+                    "vi": "hiểu suy nghĩ và cảm xúc"
+                  },
+                  {
+                    "en": "share concerns",
+                    "vi": "chia sẻ nỗi lo lắng"
+                  },
+                  {
+                    "en": "emotional barrier",
+                    "vi": "rào cản cảm xúc"
+                  }
+                ],
+                "point_vi": "Cha mẹ và con cái đôi khi không dành đủ thời gian để trò chuyện.",
+                "point_en": "Parents and children sometimes do not spend enough time talking to each other.",
+                "evidence_vi": "Vì vậy, họ có thể không hiểu suy nghĩ và cảm xúc của nhau.",
+                "evidence_en": "As a result, they may not understand each other's thoughts and feelings."
+              },
+              {
+                "title": "CAUSE 03",
+                "collocations": [
+                  {
+                    "en": "different expectations",
+                    "vi": "kỳ vọng khác nhau"
+                  },
+                  {
+                    "en": "plans for the future",
+                    "vi": "kế hoạch cho tương lai"
+                  },
+                  {
+                    "en": "stable job",
+                    "vi": "công việc ổn định"
+                  },
+                  {
+                    "en": "follow own interests",
+                    "vi": "theo đuổi sở thích riêng"
+                  },
+                  {
+                    "en": "personal ambitions",
+                    "vi": "hoài bão cá nhân"
+                  }
+                ],
+                "point_vi": "Cha mẹ và con cái có thể mong muốn những điều khác nhau cho tương lai.",
+                "point_en": "Parents and children may want different things for the future.",
+                "evidence_vi": "Cha mẹ có thể muốn con chọn một công việc ổn định, trong khi con muốn theo đuổi sở thích riêng.",
+                "evidence_en": "Parents may want their children to choose a stable job, while children want to follow their own interests."
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "SOLUTION 01",
+                "collocations": [
+                  {
+                    "en": "improve communication",
+                    "vi": "cải thiện sự giao tiếp"
+                  },
+                  {
+                    "en": "create opportunities to talk",
+                    "vi": "tạo cơ hội trò chuyện"
+                  },
+                  {
+                    "en": "share thoughts and feelings",
+                    "vi": "chia sẻ suy nghĩ và cảm xúc"
+                  },
+                  {
+                    "en": "open conversations",
+                    "vi": "cuộc trò chuyện cởi mở"
+                  },
+                  {
+                    "en": "strengthen family bond",
+                    "vi": "gắn kết tình cảm gia đình"
+                  }
+                ],
+                "point_vi": "Gia đình nên tạo thêm cơ hội để cha mẹ và con cái trò chuyện với nhau.",
+                "point_en": "Families should create more opportunities for parents and children to talk to each other.",
+                "evidence_vi": "Họ có thể chia sẻ suy nghĩ và cảm xúc thường xuyên hơn.",
+                "evidence_en": "They can share their thoughts and feelings more often."
+              },
+              {
+                "title": "SOLUTION 02",
+                "collocations": [
+                  {
+                    "en": "respect different opinions",
+                    "vi": "tôn trọng các ý kiến khác nhau"
+                  },
+                  {
+                    "en": "accept different views",
+                    "vi": "chấp nhận cách nhìn khác nhau"
+                  },
+                  {
+                    "en": "reduce unnecessary arguments",
+                    "vi": "giảm tranh cãi không cần thiết"
+                  },
+                  {
+                    "en": "mutual understanding",
+                    "vi": "sự thấu hiểu lẫn nhau"
+                  },
+                  {
+                    "en": "peaceful family life",
+                    "vi": "cuộc sống gia đình êm ấm"
+                  }
+                ],
+                "point_vi": "Các thành viên trong gia đình nên học cách chấp nhận những cách nhìn khác nhau.",
+                "point_en": "Family members should learn to accept different views.",
+                "evidence_vi": "Điều này có thể giúp họ giảm những tranh cãi không cần thiết.",
+                "evidence_en": "This can help them reduce unnecessary arguments."
+              },
+              {
+                "title": "SOLUTION 03",
+                "collocations": [
+                  {
+                    "en": "set realistic expectations",
+                    "vi": "đặt kỳ vọng thực tế"
+                  },
+                  {
+                    "en": "suitable demands",
+                    "vi": "những yêu cầu phù hợp"
+                  },
+                  {
+                    "en": "consider children's abilities",
+                    "vi": "xem xét khả năng của con"
+                  },
+                  {
+                    "en": "listen to interests",
+                    "vi": "lắng nghe sở thích"
+                  },
+                  {
+                    "en": "reduce parental pressure",
+                    "vi": "giảm bớt áp lực từ cha mẹ"
+                  }
+                ],
+                "point_vi": "Cha mẹ nên đưa ra những yêu cầu phù hợp với con cái.",
+                "point_en": "Parents should make demands that are suitable for their children.",
+                "evidence_vi": "Họ nên xem xét khả năng và sở thích của con trước khi đưa ra quyết định.",
+                "evidence_en": "They should consider their children's abilities and interests before making decisions."
+              }
+            ]
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "CAUSE 01",
+                "collocations": [
+                  {
+                    "en": "generation gap",
+                    "vi": "khoảng cách thế hệ"
+                  },
+                  {
+                    "en": "divergent perspectives on life",
+                    "vi": "góc nhìn cuộc sống khác biệt"
+                  },
+                  {
+                    "en": "misunderstandings and disagreements",
+                    "vi": "hiểu lầm và bất đồng"
+                  },
+                  {
+                    "en": "intergenerational friction",
+                    "vi": "ma sát giữa các thế hệ"
+                  },
+                  {
+                    "en": "conflicting value systems",
+                    "vi": "hệ giá trị xung đột"
+                  }
+                ],
+                "point_vi": "Khoảng cách giữa các thế hệ có thể khiến cha mẹ và con cái nhìn nhận cuộc sống theo những cách khác nhau.",
+                "point_en": "The generation gap can make parents and children view life in different ways.",
+                "evidence_vi": "Họ có thể có quan điểm khác nhau về học tập, công việc và các mối quan hệ. Những khác biệt này có thể dẫn đến hiểu lầm và bất đồng trong cuộc sống hằng ngày.",
+                "evidence_en": "They may have different views on education, work, and relationships. These differences can lead to misunderstandings and disagreements in daily life."
+              },
+              {
+                "title": "CAUSE 02",
+                "collocations": [
+                  {
+                    "en": "communication breakdown",
+                    "vi": "sự đứt gãy giao tiếp"
+                  },
+                  {
+                    "en": "deficiency in meaningful dialogue",
+                    "vi": "thiếu hụt đối thoại ý nghĩa"
+                  },
+                  {
+                    "en": "misinterpret words and actions",
+                    "vi": "hiểu sai lời nói và hành động"
+                  },
+                  {
+                    "en": "emotional alienation",
+                    "vi": "sự xa cách về tình cảm"
+                  },
+                  {
+                    "en": "unaddressed grievances",
+                    "vi": "những bức bối chưa được giải quyết"
+                  }
+                ],
+                "point_vi": "Việc thiếu những cuộc trò chuyện thường xuyên có thể khiến các vấn đề trong gia đình trở nên nghiêm trọng hơn.",
+                "point_en": "A lack of regular conversations can make family problems more serious.",
+                "evidence_vi": "Cha mẹ và con cái có thể không có đủ thời gian để chia sẻ những điều họ đang lo lắng. Khi không hiểu nhau, họ có thể dễ dàng hiểu sai lời nói hoặc hành động của nhau.",
+                "evidence_en": "Parents and children may not have enough time to share their concerns. When they do not understand each other, they may easily misunderstand each other's words or actions."
+              },
+              {
+                "title": "CAUSE 03",
+                "collocations": [
+                  {
+                    "en": "disparate life aspirations",
+                    "vi": "nguyện vọng cuộc sống khác nhau"
+                  },
+                  {
+                    "en": "career trajectory expectations",
+                    "vi": "kỳ vọng về lộ trình sự nghiệp"
+                  },
+                  {
+                    "en": "parental desire for stability",
+                    "vi": "mong muốn ổn định của cha mẹ"
+                  },
+                  {
+                    "en": "autonomous personal pursuits",
+                    "vi": "sự theo đuổi cá nhân tự chủ"
+                  },
+                  {
+                    "en": "unrealistic expectations",
+                    "vi": "kỳ vọng thiếu thực tế"
+                  }
+                ],
+                "point_vi": "Cha mẹ và con cái đôi khi có những kế hoạch rất khác nhau cho tương lai.",
+                "point_en": "Parents and children sometimes have very different plans for the future.",
+                "evidence_vi": "Cha mẹ thường muốn con có một công việc ổn định và cuộc sống an toàn. Trong khi đó, con cái có thể muốn tự lựa chọn con đường dựa trên sở thích cá nhân.",
+                "evidence_en": "Parents often want their children to have a stable job and a secure life. Meanwhile, children may want to choose their own path based on their personal interests."
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "SOLUTION 01",
+                "collocations": [
+                  {
+                    "en": "foster open dialogue",
+                    "vi": "thúc đẩy đối thoại cởi mở"
+                  },
+                  {
+                    "en": "proactive communication channels",
+                    "vi": "kênh giao tiếp chủ động"
+                  },
+                  {
+                    "en": "early conflict resolution",
+                    "vi": "giải quyết mâu thuẫn sớm"
+                  },
+                  {
+                    "en": "facilitate emotional sharing",
+                    "vi": "tạo điều kiện chia sẻ cảm xúc"
+                  },
+                  {
+                    "en": "constructive family discussions",
+                    "vi": "thảo luận gia đình mang tính xây dựng"
+                  }
+                ],
+                "point_vi": "Gia đình nên tạo ra nhiều cơ hội hơn để các thành viên trao đổi với nhau.",
+                "point_en": "Families should create more opportunities for family members to communicate with each other.",
+                "evidence_vi": "Cha mẹ và con cái có thể thường xuyên chia sẻ những vấn đề và cảm xúc của mình. Nhờ đó, các vấn đề có thể được phát hiện và giải quyết trước khi trở nên nghiêm trọng.",
+                "evidence_en": "Parents and children can regularly share their problems and feelings. As a result, problems can be identified and solved before they become serious."
+              },
+              {
+                "title": "SOLUTION 02",
+                "collocations": [
+                  {
+                    "en": "empathetic listening",
+                    "vi": "lắng nghe thấu cảm"
+                  },
+                  {
+                    "en": "mutual respect and tolerance",
+                    "vi": "tôn trọng và khoan dung lẫn nhau"
+                  },
+                  {
+                    "en": "respect diverse viewpoints",
+                    "vi": "tôn trọng các góc nhìn đa dạng"
+                  },
+                  {
+                    "en": "accommodate generational differences",
+                    "vi": "hòa giải khác biệt thế hệ"
+                  },
+                  {
+                    "en": "harmonious coexistence",
+                    "vi": "sự chung sống hòa thuận"
+                  }
+                ],
+                "point_vi": "Mỗi thành viên nên học cách lắng nghe và chấp nhận cách nhìn của người khác.",
+                "point_en": "Each family member should learn to listen to and accept other people's views.",
+                "evidence_vi": "Cha mẹ nên lắng nghe mong muốn của con thay vì luôn yêu cầu con làm theo ý mình. Con cái cũng nên hiểu rằng cha mẹ đưa ra lời khuyên dựa trên kinh nghiệm của họ.",
+                "evidence_en": "Parents should listen to their children's wishes instead of always asking them to follow their own ideas. Children should also understand that their parents give advice based on their experience."
+              },
+              {
+                "title": "SOLUTION 03",
+                "collocations": [
+                  {
+                    "en": "calibrate realistic expectations",
+                    "vi": "điều chỉnh kỳ vọng thực tế"
+                  },
+                  {
+                    "en": "align demands with abilities",
+                    "vi": "gắn yêu cầu với năng lực"
+                  },
+                  {
+                    "en": "alleviate psychological pressure",
+                    "vi": "giảm bớt áp lực tâm lý"
+                  },
+                  {
+                    "en": "nurture supportive family dynamics",
+                    "vi": "nuôi dưỡng môi trường gia đình tương trợ"
+                  },
+                  {
+                    "en": "individualized guidance",
+                    "vi": "sự định hướng mang tính cá nhân"
+                  }
+                ],
+                "point_vi": "Cha mẹ nên điều chỉnh những yêu cầu của mình dựa trên hoàn cảnh của con.",
+                "point_en": "Parents should adjust their demands according to their children's circumstances.",
+                "evidence_vi": "Họ nên cân nhắc khả năng, sở thích và mục tiêu của con. Điều này có thể giảm áp lực và tạo ra mối quan hệ tốt hơn trong gia đình.",
+                "evidence_en": "They should consider their children's abilities, interests, and goals. This can reduce pressure and create a better relationship within the family."
+              }
+            ]
+          },
+          "vocab": [
+            {
+              "en": "different views about life",
+              "vi": "cách nhìn khác nhau về cuộc sống"
+            },
+            {
+              "en": "opinions and lifestyles",
+              "vi": "quan điểm và lối sống"
+            },
+            {
+              "en": "disagree about education",
+              "vi": "không đồng ý về học tập"
+            },
+            {
+              "en": "career choices",
+              "vi": "lựa chọn nghề nghiệp"
+            },
+            {
+              "en": "daily disagreements",
+              "vi": "bất đồng hằng ngày"
+            },
+            {
+              "en": "lack of communication",
+              "vi": "thiếu giao tiếp"
+            },
+            {
+              "en": "spend time talking",
+              "vi": "dành thời gian trò chuyện"
+            },
+            {
+              "en": "understand thoughts and feelings",
+              "vi": "hiểu suy nghĩ và cảm xúc"
+            },
+            {
+              "en": "share concerns",
+              "vi": "chia sẻ nỗi lo lắng"
+            },
+            {
+              "en": "emotional barrier",
+              "vi": "rào cản cảm xúc"
+            },
+            {
+              "en": "different expectations",
+              "vi": "kỳ vọng khác nhau"
+            },
+            {
+              "en": "plans for the future",
+              "vi": "kế hoạch cho tương lai"
+            },
+            {
+              "en": "stable job",
+              "vi": "công việc ổn định"
+            },
+            {
+              "en": "follow own interests",
+              "vi": "theo đuổi sở thích riêng"
+            },
+            {
+              "en": "personal ambitions",
+              "vi": "hoài bão cá nhân"
+            },
+            {
+              "en": "improve communication",
+              "vi": "cải thiện sự giao tiếp"
+            },
+            {
+              "en": "create opportunities to talk",
+              "vi": "tạo cơ hội trò chuyện"
+            },
+            {
+              "en": "share thoughts and feelings",
+              "vi": "chia sẻ suy nghĩ và cảm xúc"
+            },
+            {
+              "en": "open conversations",
+              "vi": "cuộc trò chuyện cởi mở"
+            },
+            {
+              "en": "strengthen family bond",
+              "vi": "gắn kết tình cảm gia đình"
+            },
+            {
+              "en": "respect different opinions",
+              "vi": "tôn trọng các ý kiến khác nhau"
+            },
+            {
+              "en": "accept different views",
+              "vi": "chấp nhận cách nhìn khác nhau"
+            },
+            {
+              "en": "reduce unnecessary arguments",
+              "vi": "giảm tranh cãi không cần thiết"
+            },
+            {
+              "en": "mutual understanding",
+              "vi": "sự thấu hiểu lẫn nhau"
+            },
+            {
+              "en": "peaceful family life",
+              "vi": "cuộc sống gia đình êm ấm"
+            },
+            {
+              "en": "set realistic expectations",
+              "vi": "đặt kỳ vọng thực tế"
+            },
+            {
+              "en": "suitable demands",
+              "vi": "những yêu cầu phù hợp"
+            },
+            {
+              "en": "consider children's abilities",
+              "vi": "xem xét khả năng của con"
+            },
+            {
+              "en": "listen to interests",
+              "vi": "lắng nghe sở thích"
+            },
+            {
+              "en": "reduce parental pressure",
+              "vi": "giảm bớt áp lực từ cha mẹ"
+            },
+            {
+              "en": "generation gap",
+              "vi": "khoảng cách thế hệ"
+            },
+            {
+              "en": "divergent perspectives on life",
+              "vi": "góc nhìn cuộc sống khác biệt"
+            },
+            {
+              "en": "misunderstandings and disagreements",
+              "vi": "hiểu lầm và bất đồng"
+            },
+            {
+              "en": "intergenerational friction",
+              "vi": "ma sát giữa các thế hệ"
+            },
+            {
+              "en": "conflicting value systems",
+              "vi": "hệ giá trị xung đột"
+            },
+            {
+              "en": "communication breakdown",
+              "vi": "sự đứt gãy giao tiếp"
+            },
+            {
+              "en": "deficiency in meaningful dialogue",
+              "vi": "thiếu hụt đối thoại ý nghĩa"
+            },
+            {
+              "en": "misinterpret words and actions",
+              "vi": "hiểu sai lời nói và hành động"
+            },
+            {
+              "en": "emotional alienation",
+              "vi": "sự xa cách về tình cảm"
+            },
+            {
+              "en": "unaddressed grievances",
+              "vi": "những bức bối chưa được giải quyết"
+            },
+            {
+              "en": "disparate life aspirations",
+              "vi": "nguyện vọng cuộc sống khác nhau"
+            },
+            {
+              "en": "career trajectory expectations",
+              "vi": "kỳ vọng về lộ trình sự nghiệp"
+            },
+            {
+              "en": "parental desire for stability",
+              "vi": "mong muốn ổn định của cha mẹ"
+            },
+            {
+              "en": "autonomous personal pursuits",
+              "vi": "sự theo đuổi cá nhân tự chủ"
+            },
+            {
+              "en": "unrealistic expectations",
+              "vi": "kỳ vọng thiếu thực tế"
+            },
+            {
+              "en": "foster open dialogue",
+              "vi": "thúc đẩy đối thoại cởi mở"
+            },
+            {
+              "en": "proactive communication channels",
+              "vi": "kênh giao tiếp chủ động"
+            },
+            {
+              "en": "early conflict resolution",
+              "vi": "giải quyết mâu thuẫn sớm"
+            },
+            {
+              "en": "facilitate emotional sharing",
+              "vi": "tạo điều kiện chia sẻ cảm xúc"
+            },
+            {
+              "en": "constructive family discussions",
+              "vi": "thảo luận gia đình mang tính xây dựng"
+            },
+            {
+              "en": "empathetic listening",
+              "vi": "lắng nghe thấu cảm"
+            },
+            {
+              "en": "mutual respect and tolerance",
+              "vi": "tôn trọng và khoan dung lẫn nhau"
+            },
+            {
+              "en": "respect diverse viewpoints",
+              "vi": "tôn trọng các góc nhìn đa dạng"
+            },
+            {
+              "en": "accommodate generational differences",
+              "vi": "hòa giải khác biệt thế hệ"
+            },
+            {
+              "en": "harmonious coexistence",
+              "vi": "sự chung sống hòa thuận"
+            },
+            {
+              "en": "calibrate realistic expectations",
+              "vi": "điều chỉnh kỳ vọng thực tế"
+            },
+            {
+              "en": "align demands with abilities",
+              "vi": "gắn yêu cầu với năng lực"
+            },
+            {
+              "en": "alleviate psychological pressure",
+              "vi": "giảm bớt áp lực tâm lý"
+            },
+            {
+              "en": "nurture supportive family dynamics",
+              "vi": "nuôi dưỡng môi trường gia đình tương trợ"
+            },
+            {
+              "en": "individualized guidance",
+              "vi": "sự định hướng mang tính cá nhân"
+            }
+          ],
+          "sample_b1": "In recent years, <strong>conflicts between parents and children</strong> have become an important topic in modern society. This issue has drawn significant attention. <strong>This essay will explore both the causes and the solutions to this problem.</strong>\n\n<strong>This problem can be caused by several factors.</strong> One primary cause is that <strong><em>parents and children may have different views about life.</em></strong> They may disagree about education, work, or lifestyle. Another factor is that <strong><em>parents and children sometimes do not spend enough time talking to each other.</em></strong> As a result, they may not understand each other's thoughts and feelings. A further reason is that <strong><em>parents and children may want different things for the future.</em></strong> Parents may want their children to choose a stable job, while children want to follow their own interests.\n\n<strong>Several solutions can be implemented to address this issue.</strong> One practical measure is that <strong><em>families should create more opportunities for parents and children to talk to each other.</em></strong> They can share their thoughts and feelings more often. Another effective solution is that <strong><em>family members should learn to accept different views.</em></strong> This can help them reduce unnecessary arguments. A further approach is that <strong><em>parents should make demands that are suitable for their children.</em></strong> They should consider their children's abilities and interests before making decisions.\n\nIn conclusion, <strong>conflicts between parents and children</strong> are caused by various factors, but practical solutions can help resolve them. Taking these actions can improve family relationships. Therefore, individuals and families should work together to build a harmonious environment.",
+          "translation_b1": "Trong những năm gần đây, <strong>mâu thuẫn giữa cha mẹ và con cái</strong> đã trở thành một chủ đề quan trọng trong xã hội hiện đại. Vấn đề này đã thu hút sự chú ý đáng kể. <strong>Bài tiểu luận này sẽ tìm hiểu cả nguyên nhân và giải pháp cho vấn đề này.</strong>\n\n<strong>Vấn đề này có thể do một số yếu tố gây ra.</strong> Một nguyên nhân chính là <strong><em>cha mẹ và con cái có thể có cách nhìn khác nhau về cuộc sống.</em></strong> Họ có thể không đồng ý về việc học tập, công việc hoặc cách sống. Một yếu tố khác là <strong><em>cha mẹ và con cái đôi khi không dành đủ thời gian để trò chuyện.</em></strong> Vì vậy, họ có thể không hiểu suy nghĩ và cảm xúc của nhau. Một lý do nữa là <strong><em>cha mẹ và con cái có thể mong muốn những điều khác nhau cho tương lai.</em></strong> Cha mẹ có thể muốn con chọn một công việc ổn định, trong khi con muốn theo đuổi sở thích riêng.\n\n<strong>Một số giải pháp có thể được thực hiện để giải quyết vấn đề này.</strong> Một biện pháp thiết thực là <strong><em>gia đình nên tạo thêm cơ hội để cha mẹ và con cái trò chuyện với nhau.</em></strong> Họ có thể chia sẻ suy nghĩ và cảm xúc thường xuyên hơn. Một giải pháp hiệu quả khác là <strong><em>các thành viên trong gia đình nên học cách chấp nhận những cách nhìn khác nhau.</em></strong> Điều này có thể giúp họ giảm những tranh cãi không cần thiết. Một cách tiếp cận nữa là <strong><em>cha mẹ nên đưa ra những yêu cầu phù hợp với con cái.</em></strong> Họ nên xem xét khả năng và sở thích của con trước khi đưa ra quyết định.\n\nTóm lại, <strong>mâu thuẫn giữa cha mẹ và con cái</strong> do nhiều yếu tố gây ra, nhưng các giải pháp thiết thực có thể giúp giải quyết chúng. Việc thực hiện các hành động này có thể cải thiện các mối quan hệ gia đình. Vì vậy, các cá nhân và gia đình nên cùng nhau hợp tác để xây dựng một môi trường hòa thuận.",
+          "sample_b2": "In recent years, <strong>the issue of conflicts between parents and children</strong> has become an increasingly significant topic in modern society. This problem has raised concerns among educators, psychologists, and families. <strong>This essay will examine both the causes and the solutions to this issue.</strong>\n\n<strong>This conflict stems from several underlying factors.</strong> One primary cause is that <strong><em>the generation gap can make parents and children view life in different ways.</em></strong> They may have different views on education, work, and relationships. These differences can lead to misunderstandings and disagreements in daily life. Another contributing factor is that <strong><em>a lack of regular conversations can make family problems more serious.</em></strong> Parents and children may not have enough time to share their concerns. When they do not understand each other, they may easily misunderstand each other's words or actions. A further aspect to consider is that <strong><em>parents and children sometimes have very different plans for the future.</em></strong> Parents often want their children to have a stable job and a secure life. Meanwhile, children may want to choose their own path based on their personal interests.\n\n<strong>Several comprehensive measures can be implemented to address these challenges.</strong> One essential strategy is that <strong><em>families should create more opportunities for family members to communicate with each other.</em></strong> Parents and children can regularly share their problems and feelings. As a result, problems can be identified and solved before they become serious. Another effective approach is that <strong><em>each family member should learn to listen to and accept other people's views.</em></strong> Parents should listen to their children's wishes instead of always asking them to follow their own ideas. Children should also understand that their parents give advice based on their experience. A further critical measure is that <strong><em>parents should adjust their demands according to their children's circumstances.</em></strong> They should consider their children's abilities, interests, and goals. This can reduce pressure and create a better relationship within the family.\n\nIn conclusion, <strong>conflicts between parents and children</strong> arise from multiple complex causes, but they can be mitigated through targeted solutions. Addressing these issues effectively requires mutual understanding and open dialogue. By adopting these measures, families can foster healthier and more supportive bonds.",
+          "translation_b2": "Trong những năm gần đây, <strong>vấn đề mâu thuẫn giữa cha mẹ và con cái</strong> đã trở thành một chủ đề ngày càng đáng kể trong xã hội hiện đại. Vấn đề này đã làm dấy lên mối lo ngại trong giới giáo dục, tâm lý học và các gia đình. <strong>Bài tiểu luận này sẽ xem xét cả nguyên nhân và giải pháp cho vấn đề này.</strong>\n\n<strong>Mâu thuẫn này bắt nguồn từ một số yếu tố tiềm ẩn.</strong> Một nguyên nhân chính là <strong><em>khoảng cách giữa các thế hệ có thể khiến cha mẹ và con cái nhìn nhận cuộc sống theo những cách khác nhau.</em></strong> Họ có thể có quan điểm khác nhau về học tập, công việc và các mối quan hệ. Những khác biệt này có thể dẫn đến hiểu lầm và bất đồng trong cuộc sống hằng ngày. Một yếu tố đóng góp khác là <strong><em>việc thiếu những cuộc trò chuyện thường xuyên có thể khiến các vấn đề trong gia đình trở nên nghiêm trọng hơn.</em></strong> Cha mẹ và con cái có thể không có đủ thời gian để chia sẻ những điều họ đang lo lắng. Khi không hiểu nhau, họ có thể dễ dàng hiểu sai lời nói hoặc hành động của nhau. Một khía cạnh nữa cần xem xét là <strong><em>cha mẹ và con cái đôi khi có những kế hoạch rất khác nhau cho tương lai.</em></strong> Cha mẹ thường muốn con có một công việc ổn định và cuộc sống an toàn. Trong khi đó, con cái có thể muốn tự lựa chọn con đường dựa trên sở thích cá nhân.\n\n<strong>Một số biện pháp toàn diện có thể được thực hiện để giải quyết những thách thức này.</strong> Một chiến lược thiết yếu là <strong><em>gia đình nên tạo ra nhiều cơ hội hơn để các thành viên trao đổi với nhau.</em></strong> Cha mẹ và con cái có thể thường xuyên chia sẻ những vấn đề và cảm xúc của mình. Nhờ đó, các vấn đề có thể được phát hiện và giải quyết trước khi trở nên nghiêm trọng. Một cách tiếp cận hiệu quả khác là <strong><em>mỗi thành viên nên học cách lắng nghe và chấp nhận cách nhìn của người khác.</em></strong> Cha mẹ nên lắng nghe mong muốn của con thay vì luôn yêu cầu con làm theo ý mình. Con cái cũng nên hiểu rằng cha mẹ đưa ra lời khuyên dựa trên kinh nghiệm của họ. Một biện pháp quan trọng nữa là <strong><em>cha mẹ nên điều chỉnh những yêu cầu của mình dựa trên hoàn cảnh của con.</em></strong> Họ nên cân nhắc khả năng, sở thích và mục tiêu của con. Điều này có thể giảm áp lực và tạo ra mối quan hệ tốt hơn trong gia đình.\n\nTóm lại, <strong>mâu thuẫn giữa cha mẹ và con cái</strong> phát sinh từ nhiều nguyên nhân phức tạp, nhưng chúng có thể được giảm thiểu thông qua các giải pháp có mục tiêu. Việc giải quyết các vấn đề này một cách hiệu quả đòi hỏi sự thấu hiểu lẫn nhau và đối thoại cởi mở. Bằng cách áp dụng các biện pháp này, các gia đình có thể nuôi dưỡng những mối gắn kết lành mạnh và hỗ trợ hơn."
+        }
       },
       {
         "id": 12,
