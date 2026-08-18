@@ -28922,14 +28922,337 @@ const ESSAY_DATA = [
         "title_en": "Parents are the best teachers.",
         "title_vi": "Cha mẹ là những người thầy tốt nhất.",
         "paraphrases": [
-          "Parents play the most important role in educating/teaching their children.",
-          "Parents are the most influential educators/teachers in a child’s life.",
-          "No teachers have a greater impact on children than their parents.",
-          "Parents have the greatest impact on children."
+          {
+            "en": "parents play the most critical role in raising their children",
+            "vi": "cha mẹ đóng vai trò quan trọng nhất trong việc nuôi dạy con cái"
+          },
+          {
+            "en": "parents are the most influential educators in a child's life",
+            "vi": "cha mẹ là những nhà giáo dục có ảnh hưởng nhất trong cuộc đời của trẻ"
+          },
+          {
+            "en": "no educators have a greater impact on youth than their parents",
+            "vi": "không có người thầy nào có tầm ảnh hưởng lên con cái lớn hơn cha mẹ"
+          },
+          {
+            "en": "parental mentorship shapes children more profoundly than formal teaching",
+            "vi": "sự dạy dỗ của cha mẹ định hình con cái sâu sắc hơn trường lớp"
+          }
         ],
         "context": "Parents play a central role in raising and educating their children. From an early age, children learn values, behaviour, communication skills, and life lessons from their parents. Because parents spend a significant amount of time with their children and influence many aspects of their development, some people believe that parents are the best teachers in a child's life.",
         "prompt": "What is your opinion on the view that parents are the best teachers? Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "tags": "[Opinion / Agree]",
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "LÝ DO 01",
+                "collocations": [
+                  {
+                    "en": "character and behaviour",
+                    "vi": "nhân cách và hành vi"
+                  },
+                  {
+                    "en": "teach important values",
+                    "vi": "dạy các giá trị quan trọng"
+                  },
+                  {
+                    "en": "honesty and respect",
+                    "vi": "sự trung thực và tôn trọng"
+                  },
+                  {
+                    "en": "behave properly",
+                    "vi": "cư xử phù hợp"
+                  },
+                  {
+                    "en": "parental influence",
+                    "vi": "ảnh hưởng từ cha mẹ"
+                  }
+                ],
+                "point_vi": "Cha mẹ có ảnh hưởng lớn đến cách trẻ hình thành nhân cách và cư xử.",
+                "point_en": "Parents have a strong influence on children's character and behaviour.",
+                "evidence_vi": "Trẻ thường quan sát và học theo cách cha mẹ cư xử với người khác. Cha mẹ có thể dạy con những giá trị quan trọng như sự trung thực, tôn trọng và trách nhiệm. Những bài học này giúp trẻ biết cách cư xử phù hợp trong gia đình và xã hội. Vì vậy, những gì trẻ học từ cha mẹ có thể ảnh hưởng đến hành vi của chúng khi trưởng thành.",
+                "evidence_en": "Children often watch and learn from the way their parents treat other people. Parents can teach children important values such as honesty, respect, and responsibility. These lessons help children behave properly at home and in society. Therefore, what children learn from their parents can influence their behaviour as they grow up."
+              },
+              {
+                "title": "LÝ DO 02",
+                "collocations": [
+                  {
+                    "en": "practical life skills",
+                    "vi": "kỹ năng sống thực tế"
+                  },
+                  {
+                    "en": "take care of themselves",
+                    "vi": "tự chăm sóc bản thân"
+                  },
+                  {
+                    "en": "cook and clean",
+                    "vi": "nấu ăn và dọn dẹp"
+                  },
+                  {
+                    "en": "manage money",
+                    "vi": "quản lý tiền bạc"
+                  },
+                  {
+                    "en": "independent living",
+                    "vi": "cuộc sống tự lập"
+                  }
+                ],
+                "point_vi": "Cha mẹ có thể giúp trẻ học những kỹ năng cần thiết cho cuộc sống hằng ngày.",
+                "point_en": "Parents can help children learn important skills for daily life.",
+                "evidence_vi": "Họ có thể hướng dẫn con tự chăm sóc bản thân và làm những công việc đơn giản. Trẻ có thể học nấu ăn, dọn dẹp nhà cửa và quản lý tiền bạc từ cha mẹ. Những kỹ năng này giúp trẻ không phải phụ thuộc quá nhiều vào người khác. Nhờ đó, trẻ có thể trở nên tự lập hơn khi bước vào cuộc sống trưởng thành.",
+                "evidence_en": "They can teach children to take care of themselves and do simple tasks. Children can learn to cook, clean the house, and manage money from their parents. These skills help children avoid depending too much on other people. As a result, children can become more independent when they enter adult life."
+              },
+              {
+                "title": "LÝ DO 03",
+                "collocations": [
+                  {
+                    "en": "understand children well",
+                    "vi": "hiểu rõ con cái"
+                  },
+                  {
+                    "en": "interests and strengths",
+                    "vi": "sở thích và điểm mạnh"
+                  },
+                  {
+                    "en": "give suitable advice",
+                    "vi": "đưa ra lời khuyên phù hợp"
+                  },
+                  {
+                    "en": "feel cared for",
+                    "vi": "cảm thấy được quan tâm"
+                  },
+                  {
+                    "en": "personal support",
+                    "vi": "sự hỗ trợ mang tính cá nhân"
+                  }
+                ],
+                "point_vi": "Cha mẹ thường hiểu con mình rõ hơn nhiều người khác.",
+                "point_en": "Parents usually understand their children better than many other people.",
+                "evidence_vi": "Họ biết sở thích, điểm mạnh và điểm yếu của con. Họ cũng dành nhiều thời gian để quan sát sự thay đổi của con. Vì vậy, cha mẹ có thể đưa ra lời khuyên phù hợp khi con gặp khó khăn. Sự hỗ trợ này giúp trẻ cảm thấy được quan tâm và có thêm sự tự tin.",
+                "evidence_en": "They know their children's interests, strengths, and weaknesses. They also spend a lot of time observing changes in their children. Therefore, parents can give suitable advice when their children have problems. This support helps children feel cared for and become more confident."
+              }
+            ],
+            "drawbacks": []
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "LÝ DO 01",
+                "collocations": [
+                  {
+                    "en": "profound character development",
+                    "vi": "sự phát triển nhân cách sâu sắc"
+                  },
+                  {
+                    "en": "imitate parental communication",
+                    "vi": "bắt chước giao tiếp của cha mẹ"
+                  },
+                  {
+                    "en": "instill foundational values",
+                    "vi": "thấm nhuần các giá trị nền tảng"
+                  },
+                  {
+                    "en": "positive interpersonal dynamics",
+                    "vi": "mối quan hệ tương tác tích cực"
+                  },
+                  {
+                    "en": "lifelong moral grounding",
+                    "vi": "nền tảng đạo đức suốt đời"
+                  }
+                ],
+                "point_vi": "Cha mẹ có ảnh hưởng sâu sắc đến quá trình hình thành nhân cách và cách cư xử của trẻ.",
+                "point_en": "Parents have a profound influence on the development of children's character and behaviour.",
+                "evidence_vi": "Trẻ thường quan sát và bắt chước cách cha mẹ giao tiếp và đối xử với những người xung quanh. Cha mẹ có thể trực tiếp dạy con những giá trị như sự trung thực, tôn trọng và trách nhiệm. Những giá trị này giúp trẻ hình thành cách ứng xử phù hợp trong các mối quan hệ. Ví dụ, một đứa trẻ thường được cha mẹ dạy phải tôn trọng người khác có thể dễ dàng xây dựng những mối quan hệ tích cực hơn. Do những bài học này được hình thành từ rất sớm, ảnh hưởng của cha mẹ có thể kéo dài đến tuổi trưởng thành.",
+                "evidence_en": "Children often observe and imitate the way their parents communicate and treat people around them. Parents can directly teach their children values such as honesty, respect, and responsibility. These values help children develop appropriate behaviour in their relationships. For example, a child who is regularly taught to respect others may find it easier to build positive relationships. Since these lessons are developed from an early age, parental influence can continue into adulthood."
+              },
+              {
+                "title": "LÝ DO 02",
+                "collocations": [
+                  {
+                    "en": "practical life skill transmission",
+                    "vi": "truyền dạy kỹ năng sống thực tế"
+                  },
+                  {
+                    "en": "independent household management",
+                    "vi": "quản lý việc nhà tự lập"
+                  },
+                  {
+                    "en": "foster self-reliance",
+                    "vi": "nuôi dưỡng tính tự lực"
+                  },
+                  {
+                    "en": "autonomous adult functioning",
+                    "vi": "vận hành tự chủ khi trưởng thành"
+                  },
+                  {
+                    "en": "early responsibility acquisition",
+                    "vi": "tiếp nhận trách nhiệm từ sớm"
+                  }
+                ],
+                "point_vi": "Cha mẹ có thể chuẩn bị cho con những kỹ năng thực tế cần thiết để sống tự lập.",
+                "point_en": "Parents can prepare their children with practical skills needed for independent living.",
+                "evidence_vi": "Họ có thể hướng dẫn con thực hiện những công việc hằng ngày như nấu ăn, dọn dẹp và quản lý tiền bạc. Việc thực hành những công việc này giúp trẻ học cách tự giải quyết các vấn đề trong cuộc sống. Nhờ đó, trẻ có thể giảm sự phụ thuộc vào cha mẹ hoặc những người khác. Ví dụ, một người trẻ sống xa gia đình sẽ dễ thích nghi hơn nếu đã biết tự nấu ăn và quản lý chi tiêu. Vì vậy, sự hướng dẫn của cha mẹ đóng vai trò quan trọng trong việc chuẩn bị cho trẻ bước vào cuộc sống trưởng thành.",
+                "evidence_en": "They can teach children to handle daily tasks such as cooking, cleaning, and managing money. Practising these tasks helps children learn to deal with problems in daily life. As a result, children can become less dependent on their parents or other people. For example, a young person living away from home can adapt more easily if they already know how to cook and manage their spending. Therefore, parental guidance plays an important role in preparing children for adult life."
+              },
+              {
+                "title": "LÝ DO 03",
+                "collocations": [
+                  {
+                    "en": "individualized emotional mentorship",
+                    "vi": "sự cố vấn cảm xúc mang tính cá nhân hóa"
+                  },
+                  {
+                    "en": "longitudinal observation",
+                    "vi": "sự quan sát lâu dài theo thời gian"
+                  },
+                  {
+                    "en": "tailored guidance and counsel",
+                    "vi": "lời khuyên và định hướng phù hợp"
+                  },
+                  {
+                    "en": "emotional security and affirmation",
+                    "vi": "sự an toàn và củng cố cảm xúc"
+                  },
+                  {
+                    "en": "timely crisis intervention",
+                    "vi": "sự can thiệp hỗ trợ kịp thời"
+                  }
+                ],
+                "point_vi": "Cha mẹ có lợi thế trong việc đưa ra sự hướng dẫn cá nhân vì họ hiểu con trong thời gian dài.",
+                "point_en": "Parents have an advantage in providing personal guidance because they know their children over a long period of time.",
+                "evidence_vi": "Họ hiểu sở thích, khả năng, điểm yếu và những khó khăn riêng của con. Họ cũng có thể nhận ra những thay đổi trong cảm xúc và hành vi của con. Điều này cho phép cha mẹ đưa ra lời khuyên phù hợp với hoàn cảnh cụ thể của từng đứa trẻ. Ví dụ, cha mẹ có thể nhận ra khi con đang gặp khó khăn trong học tập hoặc các mối quan hệ và hỗ trợ kịp thời. Sự hướng dẫn và hỗ trợ này có thể giúp trẻ cảm thấy an toàn, được thấu hiểu và tự tin hơn khi giải quyết vấn đề.",
+                "evidence_en": "They understand their children's interests, abilities, weaknesses, and personal difficulties. They can also notice changes in their children's emotions and behaviour. This allows parents to give advice that suits each child's particular situation. For example, parents may notice when their children are having difficulties with their studies or relationships and provide timely support. This guidance and support can help children feel secure, understood, and more confident when dealing with problems."
+              }
+            ],
+            "drawbacks": []
+          },
+          "vocab": [
+            {
+              "en": "character and behaviour",
+              "vi": "nhân cách và hành vi"
+            },
+            {
+              "en": "teach important values",
+              "vi": "dạy các giá trị quan trọng"
+            },
+            {
+              "en": "honesty and respect",
+              "vi": "sự trung thực và tôn trọng"
+            },
+            {
+              "en": "behave properly",
+              "vi": "cư xử phù hợp"
+            },
+            {
+              "en": "parental influence",
+              "vi": "ảnh hưởng từ cha mẹ"
+            },
+            {
+              "en": "practical life skills",
+              "vi": "kỹ năng sống thực tế"
+            },
+            {
+              "en": "take care of themselves",
+              "vi": "tự chăm sóc bản thân"
+            },
+            {
+              "en": "cook and clean",
+              "vi": "nấu ăn và dọn dẹp"
+            },
+            {
+              "en": "manage money",
+              "vi": "quản lý tiền bạc"
+            },
+            {
+              "en": "independent living",
+              "vi": "cuộc sống tự lập"
+            },
+            {
+              "en": "understand children well",
+              "vi": "hiểu rõ con cái"
+            },
+            {
+              "en": "interests and strengths",
+              "vi": "sở thích và điểm mạnh"
+            },
+            {
+              "en": "give suitable advice",
+              "vi": "đưa ra lời khuyên phù hợp"
+            },
+            {
+              "en": "feel cared for",
+              "vi": "cảm thấy được quan tâm"
+            },
+            {
+              "en": "personal support",
+              "vi": "sự hỗ trợ mang tính cá nhân"
+            },
+            {
+              "en": "profound character development",
+              "vi": "sự phát triển nhân cách sâu sắc"
+            },
+            {
+              "en": "imitate parental communication",
+              "vi": "bắt chước giao tiếp của cha mẹ"
+            },
+            {
+              "en": "instill foundational values",
+              "vi": "thấm nhuần các giá trị nền tảng"
+            },
+            {
+              "en": "positive interpersonal dynamics",
+              "vi": "mối quan hệ tương tác tích cực"
+            },
+            {
+              "en": "lifelong moral grounding",
+              "vi": "nền tảng đạo đức suốt đời"
+            },
+            {
+              "en": "practical life skill transmission",
+              "vi": "truyền dạy kỹ năng sống thực tế"
+            },
+            {
+              "en": "independent household management",
+              "vi": "quản lý việc nhà tự lập"
+            },
+            {
+              "en": "foster self-reliance",
+              "vi": "nuôi dưỡng tính tự lực"
+            },
+            {
+              "en": "autonomous adult functioning",
+              "vi": "vận hành tự chủ khi trưởng thành"
+            },
+            {
+              "en": "early responsibility acquisition",
+              "vi": "tiếp nhận trách nhiệm từ sớm"
+            },
+            {
+              "en": "individualized emotional mentorship",
+              "vi": "sự cố vấn cảm xúc mang tính cá nhân hóa"
+            },
+            {
+              "en": "longitudinal observation",
+              "vi": "sự quan sát lâu dài theo thời gian"
+            },
+            {
+              "en": "tailored guidance and counsel",
+              "vi": "lời khuyên và định hướng phù hợp"
+            },
+            {
+              "en": "emotional security and affirmation",
+              "vi": "sự an toàn và củng cố cảm xúc"
+            },
+            {
+              "en": "timely crisis intervention",
+              "vi": "sự can thiệp hỗ trợ kịp thời"
+            }
+          ],
+          "sample_b1": "In recent years, the idea that <strong><em>parents are the best teachers</em></strong> has become a common topic of discussion. From my perspective, <strong>I completely agree with this opinion for several important reasons.</strong> This essay will present the main arguments supporting my viewpoint.\n\nThe first reason why I agree with this opinion is that <strong><em>parents have a strong influence on children's character and behaviour.</em></strong> Children often watch and learn from the way their parents treat other people. Parents can teach children important values such as honesty, respect, and responsibility. These lessons help children behave properly at home and in society. Therefore, what children learn from their parents can influence their behaviour as they grow up.\n\nAnother important reason is that <strong><em>parents can help children learn important skills for daily life.</em></strong> They can teach children to take care of themselves and do simple tasks. Children can learn to cook, clean the house, and manage money from their parents. These skills help children avoid depending too much on other people. As a result, children can become more independent when they enter adult life.\n\nA further reason supporting my viewpoint is that <strong><em>parents usually understand their children better than many other people.</em></strong> They know their children's interests, strengths, and weaknesses. They also spend a lot of time observing changes in their children. Therefore, parents can give suitable advice when their children have problems. This support helps children feel cared for and become more confident.\n\nIn conclusion, <strong>I strongly agree with the idea</strong> that <strong><em>parents are the best teachers.</em></strong> The reasons above clearly explain why I support this viewpoint. Therefore, the essential role of parents in educating their children should always be valued.",
+          "translation_b1": "Trong những năm gần đây, quan điểm cho rằng <strong><em>cha mẹ là những người thầy tốt nhất</em></strong> đã trở thành một chủ đề thảo luận phổ biến. Theo quan điểm của tôi, <strong>tôi hoàn toàn đồng ý với ý kiến này vì một số lý do quan trọng.</strong> Bài tiểu luận này sẽ trình bày những lập luận chính ủng hộ quan điểm của tôi.\n\nLý do đầu tiên khiến tôi đồng ý với ý kiến này là <strong><em>cha mẹ có ảnh hưởng lớn đến cách trẻ hình thành nhân cách và cư xử.</em></strong> Trẻ thường quan sát và học theo cách cha mẹ cư xử với người khác. Cha mẹ có thể dạy con những giá trị quan trọng như sự trung thực, tôn trọng và trách nhiệm. Những bài học này giúp trẻ biết cách cư xử phù hợp trong gia đình và xã hội. Vì vậy, những gì trẻ học từ cha mẹ có thể ảnh hưởng đến hành vi của chúng khi trưởng thành.\n\nMột lý do quan trọng khác là <strong><em>cha mẹ có thể giúp trẻ học những kỹ năng cần thiết cho cuộc sống hằng ngày.</em></strong> Họ có thể hướng dẫn con tự chăm sóc bản thân và làm những công việc đơn giản. Trẻ có thể học nấu ăn, dọn dẹp nhà cửa và quản lý tiền bạc từ cha mẹ. Những kỹ năng này giúp trẻ không phải phụ thuộc quá nhiều vào người khác. Nhờ đó, trẻ có thể trở nên tự lập hơn khi bước vào cuộc sống trưởng thành.\n\nMột lý do nữa ủng hộ quan điểm của tôi là <strong><em>cha mẹ thường hiểu con mình rõ hơn nhiều người khác.</em></strong> Họ biết sở thích, điểm mạnh và điểm yếu của con. Họ cũng dành nhiều thời gian để quan sát sự thay đổi của con. Vì vậy, cha mẹ có thể đưa ra lời khuyên phù hợp khi con gặp khó khăn. Sự hỗ trợ này giúp trẻ cảm thấy được quan tâm và có thêm sự tự tin.\n\nTóm lại, <strong>tôi hoàn toàn đồng ý với ý kiến</strong> cho rằng <strong><em>cha mẹ là những người thầy tốt nhất.</em></strong> Những lý do trên giải thích rõ ràng tại sao tôi ủng hộ quan điểm này. Vì vậy, vai trò thiết yếu của cha mẹ trong việc giáo dục con cái nên luôn được coi trọng."
+        }
       },
       {
         "id": 6,
