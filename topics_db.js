@@ -33170,7 +33170,240 @@ const ESSAY_DATA = [
         "title_vi": "Vai trò giới truyền thống so với việc chia sẻ công việc nhà bình đẳng.",
         "context": "Family roles have changed significantly in many societies over the past few decades. While some people believe that the traditional family structure, in which the father earns money and the mother stays at home to take care of the family, is the most effective arrangement, others argue that men and women should share household responsibilities equally regardless of gender. This issue continues to be widely debated in modern society.",
         "prompt": "Discuss both views and give your own opinion. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "tags": "[Discuss Both Views]",
+        "paraphrases": [
+          {
+            "en": "traditional gender roles vs equal sharing of housework",
+            "vi": "vai trò giới truyền thống so với chia sẻ việc nhà bình đẳng"
+          },
+          {
+            "en": "conventional family division of labour versus gender equality at home",
+            "vi": "phân công lao động truyền thống so với bình đẳng giới tại nhà"
+          },
+          {
+            "en": "the breadwinner-homemaker model compared to shared domestic duties",
+            "vi": "mô hình trụ cột - nội trợ so với cùng gánh vác việc nhà"
+          },
+          {
+            "en": "traditional parenting structures versus egalitarian household roles",
+            "vi": "cấu trúc nuôi dạy truyền thống so với vai trò gia đình bình đẳng"
+          }
+        ],
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "VIEW 01: TRADITIONAL FAMILY ROLES",
+                "collocations": [
+                  {
+                    "en": "traditional family roles",
+                    "vi": "vai trò gia đình truyền thống"
+                  },
+                  {
+                    "en": "earn money for the family",
+                    "vi": "kiếm tiền cho gia đình"
+                  },
+                  {
+                    "en": "take care of children",
+                    "vi": "chăm sóc con cái"
+                  },
+                  {
+                    "en": "household tasks",
+                    "vi": "công việc nhà"
+                  },
+                  {
+                    "en": "family stability",
+                    "vi": "sự ổn định của gia đình"
+                  }
+                ],
+                "point_vi": "Một số người cho rằng việc phân chia vai trò truyền thống có thể giúp gia đình hoạt động ổn định hơn.",
+                "point_en": "Some people believe that traditional family roles can help families function more effectively.",
+                "evidence_vi": "Người cha có thể tập trung vào công việc để kiếm thu nhập cho gia đình. Trong khi đó, người mẹ có thể dành nhiều thời gian hơn để chăm sóc con cái. Cách phân chia này giúp mỗi người tập trung vào một nhóm trách nhiệm cụ thể. Ví dụ, người mẹ có thể chăm sóc con nhỏ và quản lý các công việc trong nhà trong khi người cha đi làm. Vì vậy, một số người cho rằng mô hình truyền thống có thể tạo ra sự ổn định trong gia đình.",
+                "evidence_en": "The father can focus on his job to earn money for the family. Meanwhile, the mother can spend more time taking care of the children. This arrangement allows each person to focus on a specific set of responsibilities. For example, the mother can look after young children and manage household tasks while the father works. Therefore, some people believe that the traditional model can create stability in family life."
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "VIEW 02: EQUAL SHARING OF HOUSEHOLD TASKS",
+                "collocations": [
+                  {
+                    "en": "share responsibility",
+                    "vi": "chia sẻ trách nhiệm"
+                  },
+                  {
+                    "en": "contribute to family income",
+                    "vi": "đóng góp thu nhập gia đình"
+                  },
+                  {
+                    "en": "reduce pressure",
+                    "vi": "giảm áp lực"
+                  },
+                  {
+                    "en": "support each other",
+                    "vi": "hỗ trợ lẫn nhau"
+                  },
+                  {
+                    "en": "cook and clean together",
+                    "vi": "cùng nấu ăn và dọn dẹp"
+                  }
+                ],
+                "point_vi": "Những người khác cho rằng cả nam và nữ nên cùng chịu trách nhiệm về công việc gia đình.",
+                "point_en": "Others argue that both men and women should share responsibility for household tasks.",
+                "evidence_vi": "Ngày nay, cả nam và nữ đều có thể đi làm và đóng góp thu nhập cho gia đình. Vì vậy, việc nhà không nên chỉ thuộc về một người. Chia sẻ công việc giúp giảm áp lực cho mỗi thành viên trong gia đình. Ngoài ra, các thành viên có thể dành nhiều thời gian hơn để chăm sóc và hỗ trợ nhau. Ví dụ, cả hai vợ chồng có thể cùng nấu ăn, dọn dẹp và chăm sóc con cái.",
+                "evidence_en": "Nowadays, both men and women can work and contribute to the family income. Therefore, household work should not be the responsibility of only one person. Sharing household tasks reduces pressure on each family member. In addition, family members can spend more time caring for and supporting each other. For example, both parents can cook, clean, and take care of their children together."
+              }
+            ]
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "VIEW 01: TRADITIONAL FAMILY ROLES",
+                "collocations": [
+                  {
+                    "en": "clear division of responsibilities",
+                    "vi": "phân chia trách nhiệm rõ ràng"
+                  },
+                  {
+                    "en": "stable source of income",
+                    "vi": "nguồn thu nhập ổn định"
+                  },
+                  {
+                    "en": "devote time to childcare",
+                    "vi": "dành thời gian chăm sóc con"
+                  },
+                  {
+                    "en": "balance multiple duties",
+                    "vi": "cân bằng nhiều nhiệm vụ"
+                  },
+                  {
+                    "en": "domestic stability",
+                    "vi": "sự ổn định gia đình"
+                  }
+                ],
+                "point_vi": "Những người ủng hộ mô hình truyền thống cho rằng việc phân chia vai trò rõ ràng có thể giúp gia đình vận hành hiệu quả.",
+                "point_en": "Those who support traditional family roles argue that a clear division of responsibilities can help a family function effectively.",
+                "evidence_vi": "Người cha có thể tập trung vào công việc và tạo nguồn thu nhập ổn định cho gia đình. Trong khi đó, người mẹ có thể dành nhiều thời gian hơn cho việc chăm sóc con cái. Điều này đặc biệt hữu ích khi gia đình có trẻ nhỏ cần được chăm sóc thường xuyên. Mỗi người có thể tập trung vào những nhiệm vụ cụ thể thay vì phải cân bằng quá nhiều trách nhiệm cùng lúc. Ví dụ, một người mẹ ở nhà có thể chuẩn bị bữa ăn, chăm sóc con và quản lý công việc gia đình trong ngày. Do đó, một số người tin rằng mô hình này có thể tạo ra sự ổn định và phân công trách nhiệm rõ ràng trong gia đình.",
+                "evidence_en": "The father can focus on his career and provide a stable source of income for the family. Meanwhile, the mother can devote more time to caring for the children. This can be particularly useful when a family has young children who need regular care. Each person can focus on specific responsibilities instead of having to balance too many duties at the same time. For example, a mother who stays at home can prepare meals, care for the children, and manage household tasks during the day. Therefore, some people believe that this model can create stability and a clear division of responsibilities within the family."
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "VIEW 02: EQUAL SHARING OF HOUSEHOLD RESPONSIBILITIES",
+                "collocations": [
+                  {
+                    "en": "participate in workforce",
+                    "vi": "tham gia lực lượng lao động"
+                  },
+                  {
+                    "en": "eliminate domestic inequality",
+                    "vi": "xóa bỏ bất bình đẳng gia đình"
+                  },
+                  {
+                    "en": "reduce workload and stress",
+                    "vi": "giảm khối lượng việc và căng thẳng"
+                  },
+                  {
+                    "en": "co-parenting involvement",
+                    "vi": "cùng tham gia nuôi dạy con"
+                  },
+                  {
+                    "en": "shared accountability",
+                    "vi": "trách nhiệm chung"
+                  }
+                ],
+                "point_vi": "Ngược lại, nhiều người cho rằng trách nhiệm gia đình nên được chia sẻ dựa trên khả năng và hoàn cảnh thay vì giới tính.",
+                "point_en": "In contrast, many people believe that family responsibilities should be shared according to abilities and circumstances rather than gender.",
+                "evidence_vi": "Trong xã hội hiện đại, cả nam và nữ đều có thể tham gia lực lượng lao động. Khi cả hai cùng làm việc, việc chỉ một người chịu trách nhiệm về công việc nhà có thể tạo ra sự bất bình đẳng. Chia sẻ việc nhà có thể giúp giảm căng thẳng và khối lượng công việc của mỗi người. Ngoài ra, cả cha và mẹ đều có cơ hội tham gia trực tiếp vào quá trình nuôi dạy con. Ví dụ, một cặp vợ chồng có thể thay phiên nhau nấu ăn, dọn dẹp và đưa con đi học. Cách này cũng có thể giúp trẻ hiểu rằng công việc gia đình là trách nhiệm chung của các thành viên. Vì vậy, việc chia sẻ trách nhiệm không chỉ tạo sự công bằng mà còn có thể tăng cường sự hợp tác trong gia đình.",
+                "evidence_en": "In modern society, both men and women can participate in the workforce. When both partners work, expecting only one person to handle household tasks can create inequality. Sharing household tasks can reduce the stress and workload of each person. Moreover, both parents have opportunities to become directly involved in raising their children. For example, a couple can take turns cooking, cleaning, and taking their children to school. This approach can also teach children that household work is a shared responsibility among family members. Therefore, sharing responsibilities can not only create greater equality but also strengthen cooperation within the family."
+              }
+            ]
+          },
+          "vocab": [
+            {
+              "en": "traditional family roles",
+              "vi": "vai trò gia đình truyền thống"
+            },
+            {
+              "en": "earn money for the family",
+              "vi": "kiếm tiền cho gia đình"
+            },
+            {
+              "en": "take care of children",
+              "vi": "chăm sóc con cái"
+            },
+            {
+              "en": "household tasks",
+              "vi": "công việc nhà"
+            },
+            {
+              "en": "family stability",
+              "vi": "sự ổn định của gia đình"
+            },
+            {
+              "en": "share responsibility",
+              "vi": "chia sẻ trách nhiệm"
+            },
+            {
+              "en": "contribute to family income",
+              "vi": "đóng góp thu nhập gia đình"
+            },
+            {
+              "en": "reduce pressure",
+              "vi": "giảm áp lực"
+            },
+            {
+              "en": "support each other",
+              "vi": "hỗ trợ lẫn nhau"
+            },
+            {
+              "en": "cook and clean together",
+              "vi": "cùng nấu ăn và dọn dẹp"
+            },
+            {
+              "en": "clear division of responsibilities",
+              "vi": "phân chia trách nhiệm rõ ràng"
+            },
+            {
+              "en": "stable source of income",
+              "vi": "nguồn thu nhập ổn định"
+            },
+            {
+              "en": "devote time to childcare",
+              "vi": "dành thời gian chăm sóc con"
+            },
+            {
+              "en": "balance multiple duties",
+              "vi": "cân bằng nhiều nhiệm vụ"
+            },
+            {
+              "en": "domestic stability",
+              "vi": "sự ổn định gia đình"
+            },
+            {
+              "en": "participate in workforce",
+              "vi": "tham gia lực lượng lao động"
+            },
+            {
+              "en": "eliminate domestic inequality",
+              "vi": "xóa bỏ bất bình đẳng gia đình"
+            },
+            {
+              "en": "reduce workload and stress",
+              "vi": "giảm khối lượng việc và căng thẳng"
+            },
+            {
+              "en": "co-parenting involvement",
+              "vi": "cùng tham gia nuôi dạy con"
+            },
+            {
+              "en": "shared accountability",
+              "vi": "trách nhiệm chung"
+            }
+          ],
+          "sample_b1": "In recent years, <strong>the division of family roles between men and women</strong> has become a common topic of discussion. Some people believe that <strong><em>traditional family roles can help families function more effectively</em></strong>, while others argue that <strong><em>both men and women should share responsibility for household tasks</em></strong>. <strong>This essay will discuss both views and give my own opinion.</strong>\n\n<strong>On the one hand, it is argued that traditional family roles can help families function more effectively.</strong> The father can focus on his job to earn money for the family. Meanwhile, the mother can spend more time taking care of the children. This arrangement allows each person to focus on a specific set of responsibilities. For example, the mother can look after young children and manage household tasks while the father works. Therefore, some people believe that the traditional model can create stability in family life.\n\n<strong>On the other hand, it is believed that both men and women should share responsibility for household tasks.</strong> Nowadays, both men and women can work and contribute to the family income. Therefore, household work should not be the responsibility of only one person. Sharing household tasks reduces pressure on each family member. In addition, family members can spend more time caring for and supporting each other. For example, both parents can cook, clean, and take care of their children together.\n\nIn conclusion, both views have valid reasons. However, <strong><em>I believe that men and women should share household responsibilities</em></strong> because <strong><em>this arrangement is fairer and helps reduce pressure on each person</em></strong>. Therefore, sharing domestic duties can foster happier and more harmonious modern families.",
+          "translation_b1": "Trong những năm gần đây, <strong>sự phân chia vai trò gia đình giữa nam và nữ</strong> đã trở thành một chủ đề thảo luận phổ biến. Một số người tin rằng <strong><em>việc phân chia vai trò truyền thống có thể giúp gia đình hoạt động ổn định hơn</em></strong>, trong khi những người khác cho rằng <strong><em>cả nam và nữ nên cùng chịu trách nhiệm về công việc gia đình</em></strong>. <strong>Bài tiểu luận này sẽ thảo luận về cả hai quan điểm và đưa ra ý kiến của riêng tôi.</strong>\n\n<strong>Một mặt, có ý kiến cho rằng việc phân chia vai trò truyền thống có thể giúp gia đình hoạt động ổn định hơn.</strong> Người cha có thể tập trung vào công việc để kiếm thu nhập cho gia đình. Trong khi đó, người mẹ có thể dành nhiều thời gian hơn để chăm sóc con cái. Cách phân chia này giúp mỗi người tập trung vào một nhóm trách nhiệm cụ thể. Ví dụ, người mẹ có thể chăm sóc con nhỏ và quản lý các công việc trong nhà trong khi người cha đi làm. Vì vậy, một số người cho rằng mô hình truyền thống có thể tạo ra sự ổn định trong gia đình.\n\n<strong>Mặt khác, người ta tin rằng cả nam và nữ nên cùng chịu trách nhiệm về công việc gia đình.</strong> Ngày nay, cả nam và nữ đều có thể đi làm và đóng góp thu nhập cho gia đình. Vì vậy, việc nhà không nên chỉ thuộc về một người. Chia sẻ công việc giúp giảm áp lực cho mỗi thành viên trong gia đình. Ngoài ra, các thành viên có thể dành nhiều thời gian hơn để chăm sóc và hỗ trợ nhau. Ví dụ, cả hai vợ chồng có thể cùng nấu ăn, dọn dẹp và chăm sóc con cái.\n\nTóm lại, cả hai quan điểm đều có những lý do hợp lý. Tuy nhiên, <strong><em>tôi tin rằng nam và nữ nên chia sẻ trách nhiệm gia đình</em></strong> vì <strong><em>cách này công bằng hơn và giúp giảm áp lực cho mỗi người</em></strong>. Vì vậy, việc cùng nhau gánh vác việc nhà có thể nuôi dưỡng những gia đình hiện đại hạnh phúc và hòa thuận hơn."
+        }
       },
       {
         "id": 9,
