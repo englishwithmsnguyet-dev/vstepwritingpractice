@@ -8294,7 +8294,237 @@ const ESSAY_DATA = [
         "title_vi": "Cho phép trường học tự chọn sách giáo khoa ngôn ngữ",
         "context": "Nowadays, some schools are allowed to choose their own language textbooks instead of using only one fixed textbook for all students. This policy gives schools more freedom to select materials that match their students’ levels, learning goals, and local teaching conditions. Some people believe that allowing schools to choose their own language textbooks brings many benefits to language education.",
         "prompt": "Write an essay to an educated reader to discuss the advantages of allowing schools to choose their own language textbooks. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "paraphrases": [
+          {
+            "en": "textbook selection autonomy",
+            "vi": "quyền tự chủ chọn sách giáo khoa"
+          },
+          {
+            "en": "selecting language learning materials",
+            "vi": "lựa chọn tài liệu học ngôn ngữ"
+          },
+          {
+            "en": "customized educational materials",
+            "vi": "tài liệu giáo dục tùy chỉnh"
+          }
+        ],
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "BENEFIT 01",
+                "collocations": [
+                  {
+                    "en": "different textbooks",
+                    "vi": "nhiều sách giáo khoa khác nhau"
+                  },
+                  {
+                    "en": "understand lessons deeply",
+                    "vi": "hiểu bài sâu hơn"
+                  },
+                  {
+                    "en": "language learning",
+                    "vi": "học ngôn ngữ"
+                  }
+                ],
+                "point_vi": "Việc sử dụng nhiều sách giáo khoa giúp học sinh hiểu bài sâu hơn.",
+                "point_en": "Using different textbooks helps students understand lessons more deeply.",
+                "evidence_vi": "Các sách khác nhau có thể giải thích cùng một nội dung theo những cách khác nhau. Học sinh có thể tiếp cận nhiều ví dụ hơn. Điều này giúp các em hiểu rõ hơn những kiến thức khó. Nhờ đó, việc học ngôn ngữ có thể trở nên hiệu quả hơn.",
+                "evidence_en": "Different textbooks can explain the same content in different ways. Students can access more examples. This helps them understand difficult knowledge better. As a result, language learning can become more effective."
+              },
+              {
+                "title": "BENEFIT 02",
+                "collocations": [
+                  {
+                    "en": "match learning needs",
+                    "vi": "phù hợp với nhu cầu học tập"
+                  },
+                  {
+                    "en": "differ in structure",
+                    "vi": "khác nhau về cấu trúc"
+                  },
+                  {
+                    "en": "learn confidently",
+                    "vi": "học tập tự tin"
+                  }
+                ],
+                "point_vi": "Các trường có thể lựa chọn sách phù hợp hơn với trình độ và nhu cầu học tập của học sinh.",
+                "point_en": "Schools can choose textbooks that better match students' levels and learning needs.",
+                "evidence_vi": "Các sách có thể khác nhau về ngôn ngữ, cấu trúc và độ khó. Giáo viên có thể chọn tài liệu phù hợp với khả năng học tập của từng nhóm học sinh. Điều này giúp học sinh dễ tiếp thu kiến thức hơn. Nhờ đó, học sinh có thể học tập tự tin và hiệu quả hơn.",
+                "evidence_en": "Textbooks can differ in language, structure, and difficulty. Teachers can choose materials that suit the abilities of different groups of students. This makes it easier for students to understand the lessons. As a result, students can learn more confidently and effectively."
+              },
+              {
+                "title": "BENEFIT 03",
+                "collocations": [
+                  {
+                    "en": "learning resources",
+                    "vi": "nguồn tài liệu học tập"
+                  },
+                  {
+                    "en": "review and reinforce",
+                    "vi": "ôn tập và củng cố"
+                  },
+                  {
+                    "en": "independent learning skills",
+                    "vi": "kỹ năng tự học"
+                  }
+                ],
+                "point_vi": "Việc sử dụng các sách giáo khoa khác nhau cung cấp cho học sinh nhiều nguồn tài liệu học tập hơn.",
+                "point_en": "Using different textbooks provides students with more learning resources.",
+                "evidence_vi": "Học sinh có thể sử dụng nhiều tài liệu để ôn tập và củng cố kiến thức. Các tài liệu bổ sung giúp các em lấp đầy những khoảng trống về kiến thức. Điều này hỗ trợ học sinh chuẩn bị tốt hơn cho các bài kiểm tra và bài tập. Nhờ đó, học sinh có thể phát triển khả năng tự học.",
+                "evidence_en": "Students can use different materials to review and reinforce their knowledge. Additional materials help them fill gaps in their knowledge. This helps students prepare better for tests and assignments. As a result, students can develop their independent learning skills."
+              }
+            ],
+            "drawbacks": []
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "BENEFIT 01",
+                "collocations": [
+                  {
+                    "en": "deeper understanding",
+                    "vi": "sự hiểu biết sâu sắc hơn"
+                  },
+                  {
+                    "en": "different perspectives",
+                    "vi": "nhiều góc độ khác nhau"
+                  },
+                  {
+                    "en": "complex content",
+                    "vi": "nội dung phức tạp"
+                  }
+                ],
+                "point_vi": "Việc sử dụng nhiều sách giáo khoa giúp học sinh hiểu kiến thức ngôn ngữ sâu sắc hơn.",
+                "point_en": "Using different textbooks helps students develop a deeper understanding of language knowledge.",
+                "evidence_vi": "Các sách khác nhau có thể trình bày cùng một nội dung bằng những cách giải thích khác nhau. Chúng cũng cung cấp nhiều ví dụ và cách tiếp cận khác nhau. Điều này giúp học sinh nhìn nhận kiến thức từ nhiều góc độ hơn. Nhờ đó, các em có thể hiểu rõ hơn những nội dung phức tạp. Điều này góp phần nâng cao hiệu quả học ngôn ngữ.",
+                "evidence_en": "Different textbooks can present the same content through different explanations. They also provide a wider range of examples and approaches. This allows students to understand knowledge from different perspectives. As a result, they can understand complex content more clearly. This contributes to more effective language learning."
+              },
+              {
+                "title": "BENEFIT 02",
+                "collocations": [
+                  {
+                    "en": "textbook choice",
+                    "vi": "sự lựa chọn sách giáo khoa"
+                  },
+                  {
+                    "en": "learning styles",
+                    "vi": "phong cách học tập"
+                  },
+                  {
+                    "en": "learning performance",
+                    "vi": "hiệu quả học tập"
+                  }
+                ],
+                "point_vi": "Việc lựa chọn sách giúp trường học đáp ứng tốt hơn sự khác biệt về trình độ và nhu cầu học tập của học sinh.",
+                "point_en": "Textbook choice allows schools to better meet differences in students' levels and learning needs.",
+                "evidence_vi": "Các sách có thể khác nhau về ngôn ngữ, cấu trúc, độ khó và cách trình bày. Giáo viên có thể chọn tài liệu phù hợp với khả năng và phong cách học tập của học sinh. Điều này giúp học sinh tiếp cận nội dung phù hợp hơn. Học sinh có thể cảm thấy tự tin hơn khi học. Nhờ đó, hiệu quả học tập có thể được cải thiện.",
+                "evidence_en": "Textbooks can differ in language, structure, difficulty, and presentation. Teachers can select materials that suit students' abilities and learning styles. This helps students access more suitable content. Students may feel more confident when learning. As a result, learning performance can be improved."
+              },
+              {
+                "title": "BENEFIT 03",
+                "collocations": [
+                  {
+                    "en": "additional resources",
+                    "vi": "nguồn tài liệu bổ sung"
+                  },
+                  {
+                    "en": "fill gaps in knowledge",
+                    "vi": "lấp đầy khoảng trống kiến thức"
+                  },
+                  {
+                    "en": "lifelong learning skills",
+                    "vi": "kỹ năng học tập suốt đời"
+                  }
+                ],
+                "point_vi": "Việc sử dụng nhiều sách giáo khoa cung cấp thêm nguồn tài liệu để học sinh học tập và chuẩn bị tốt hơn.",
+                "point_en": "Using different textbooks provides additional resources for students' learning and preparation.",
+                "evidence_vi": "Học sinh có thể sử dụng nhiều tài liệu để ôn tập và củng cố kiến thức. Các tài liệu khác nhau giúp các em lấp đầy những khoảng trống về kiến thức. Điều này giúp học sinh chuẩn bị tốt hơn cho các bài kiểm tra và bài tập. Các em có thể tiếp cận nhiều nguồn thông tin hơn trong quá trình học. Nhờ đó, học sinh có thể phát triển khả năng tự học và học tập lâu dài.",
+                "evidence_en": "Students can use different materials to review and reinforce their knowledge. Different materials help them fill gaps in their knowledge. This helps students prepare better for tests and assignments. They can access more sources of information during the learning process. As a result, students can develop independent and lifelong learning skills."
+              }
+            ],
+            "drawbacks": []
+          },
+          "vocab": [
+            {
+              "en": "different textbooks",
+              "vi": "nhiều sách giáo khoa khác nhau"
+            },
+            {
+              "en": "understand lessons deeply",
+              "vi": "hiểu bài sâu hơn"
+            },
+            {
+              "en": "language learning",
+              "vi": "học ngôn ngữ"
+            },
+            {
+              "en": "match learning needs",
+              "vi": "phù hợp với nhu cầu học tập"
+            },
+            {
+              "en": "differ in structure",
+              "vi": "khác nhau về cấu trúc"
+            },
+            {
+              "en": "learn confidently",
+              "vi": "học tập tự tin"
+            },
+            {
+              "en": "learning resources",
+              "vi": "nguồn tài liệu học tập"
+            },
+            {
+              "en": "review and reinforce",
+              "vi": "ôn tập và củng cố"
+            },
+            {
+              "en": "independent learning skills",
+              "vi": "kỹ năng tự học"
+            },
+            {
+              "en": "deeper understanding",
+              "vi": "sự hiểu biết sâu sắc hơn"
+            },
+            {
+              "en": "different perspectives",
+              "vi": "nhiều góc độ khác nhau"
+            },
+            {
+              "en": "complex content",
+              "vi": "nội dung phức tạp"
+            },
+            {
+              "en": "textbook choice",
+              "vi": "sự lựa chọn sách giáo khoa"
+            },
+            {
+              "en": "learning styles",
+              "vi": "phong cách học tập"
+            },
+            {
+              "en": "learning performance",
+              "vi": "hiệu quả học tập"
+            },
+            {
+              "en": "additional resources",
+              "vi": "nguồn tài liệu bổ sung"
+            },
+            {
+              "en": "fill gaps in knowledge",
+              "vi": "lấp đầy khoảng trống kiến thức"
+            },
+            {
+              "en": "lifelong learning skills",
+              "vi": "kỹ năng học tập suốt đời"
+            }
+          ],
+          "sample_b1": "In recent years, <strong>allowing schools to choose their own language textbooks</strong> has become more common in modern society. Many people see this as a positive development. <strong>This essay will discuss the main advantages of this topic.</strong>\n\nOne main advantage is that <strong><em>using different textbooks helps students understand lessons more deeply.</em></strong> Different textbooks can explain the same content in different ways. Students can access more examples. This helps them understand difficult knowledge better. As a result, language learning can become more effective.\n\nAnother positive aspect is that <strong><em>schools can choose textbooks that better match students' levels and learning needs.</em></strong> Textbooks can differ in language, structure, and difficulty. Teachers can choose materials that suit the abilities of different groups of students. This makes it easier for students to understand the lessons. As a result, students can learn more confidently and effectively.\n\nA further benefit is that <strong><em>using different textbooks provides students with more learning resources.</em></strong> Students can use different materials to review and reinforce their knowledge. Additional materials help them fill gaps in their knowledge. This helps students prepare better for tests and assignments. As a result, students can develop their independent learning skills.\n\nIn conclusion, <strong>allowing schools to choose their own language textbooks</strong> offers several benefits. These advantages make it useful for many people. Overall, it is a positive development in modern society.",
+          "translation_b1": "Trong những năm gần đây, <strong>việc cho phép các trường học tự chọn sách giáo khoa ngôn ngữ</strong> đã trở nên phổ biến hơn trong xã hội hiện đại. Nhiều người xem đây là một sự phát triển tích cực. <strong>Bài tiểu luận này sẽ thảo luận về những lợi thế chính của chủ đề này.</strong>\n\nMột lợi thế chính là <strong><em>việc sử dụng nhiều sách giáo khoa giúp học sinh hiểu bài sâu hơn.</em></strong> Các sách khác nhau có thể giải thích cùng một nội dung theo những cách khác nhau. Học sinh có thể tiếp cận nhiều ví dụ hơn. Điều này giúp các em hiểu rõ hơn những kiến thức khó. Nhờ đó, việc học ngôn ngữ có thể trở nên hiệu quả hơn.\n\nMột khía cạnh tích cực khác là <strong><em>các trường có thể lựa chọn sách phù hợp hơn với trình độ và nhu cầu học tập của học sinh.</em></strong> Các sách có thể khác nhau về ngôn ngữ, cấu trúc và độ khó. Giáo viên có thể chọn tài liệu phù hợp với khả năng học tập của từng nhóm học sinh. Điều này giúp học sinh dễ tiếp thu kiến thức hơn. Nhờ đó, học sinh có thể học tập tự tin và hiệu quả hơn.\n\nMột lợi ích nữa là <strong><em>việc sử dụng các sách giáo khoa khác nhau cung cấp cho học sinh nhiều nguồn tài liệu học tập hơn.</em></strong> Học sinh có thể sử dụng nhiều tài liệu để ôn tập và củng cố kiến thức. Các tài liệu bổ sung giúp các em lấp đầy những khoảng trống về kiến thức. Điều này hỗ trợ học sinh chuẩn bị tốt hơn cho các bài kiểm tra và bài tập. Nhờ đó, học sinh có thể phát triển khả năng tự học.\n\nTóm lại, <strong>việc cho phép các trường học tự chọn sách giáo khoa ngôn ngữ</strong> mang lại một số lợi ích. Những lợi thế này làm cho nó hữu ích cho nhiều người. Nhìn chung, đó là một sự phát triển tích cực trong xã hội hiện đại.",
+          "sample_b2": "In recent years, <strong>allowing schools to choose their own language textbooks</strong> has become increasingly prevalent in modern society. This has led to a range of benefits across different contexts. <strong>This essay will focus on the main advantages associated with it.</strong>\n\nOne major benefit is that <strong><em>using different textbooks helps students develop a deeper understanding of language knowledge.</em></strong> Different textbooks can present the same content through different explanations. They also provide a wider range of examples and approaches. This allows students to understand knowledge from different perspectives. As a result, they can understand complex content more clearly. This contributes to more effective language learning.\n\nAnother positive effect is that <strong><em>textbook choice allows schools to better meet differences in students' levels and learning needs.</em></strong> Textbooks can differ in language, structure, difficulty, and presentation. Teachers can select materials that suit students' abilities and learning styles. This helps students access more suitable content. Students may feel more confident when learning. As a result, learning performance can be improved.\n\nA further aspect to consider is that <strong><em>using different textbooks provides additional resources for students' learning and preparation.</em></strong> Students can use different materials to review and reinforce their knowledge. Different materials help them fill gaps in their knowledge. This helps students prepare better for tests and assignments. They can access more sources of information during the learning process. As a result, students can develop independent and lifelong learning skills.\n\nIn conclusion, <strong>allowing schools to choose their own language textbooks</strong> offers several notable advantages. These positive aspects highlight its value in various areas of life. Overall, examining these factors provides a clearer understanding of the topic.",
+          "translation_b2": "Trong những năm gần đây, <strong>việc cho phép các trường học tự chọn sách giáo khoa ngôn ngữ</strong> đã trở nên ngày càng phổ biến trong xã hội hiện đại. Điều này đã dẫn đến một loạt các lợi ích trong các bối cảnh khác nhau. <strong>Bài tiểu luận này sẽ tập trung vào những lợi thế chính liên quan đến nó.</strong>\n\nMột lợi ích lớn là <strong><em>việc sử dụng nhiều sách giáo khoa giúp học sinh hiểu kiến thức ngôn ngữ sâu sắc hơn.</em></strong> Các sách khác nhau có thể trình bày cùng một nội dung bằng những cách giải thích khác nhau. Chúng cũng cung cấp nhiều ví dụ và cách tiếp cận khác nhau. Điều này giúp học sinh nhìn nhận kiến thức từ nhiều góc độ hơn. Nhờ đó, các em có thể hiểu rõ hơn những nội dung phức tạp. Điều này góp phần nâng cao hiệu quả học ngôn ngữ.\n\nMột hiệu ứng tích cực khác là <strong><em>việc lựa chọn sách giúp trường học đáp ứng tốt hơn sự khác biệt về trình độ và nhu cầu học tập của học sinh.</em></strong> Các sách có thể khác nhau về ngôn ngữ, cấu trúc, độ khó và cách trình bày. Giáo viên có thể chọn tài liệu phù hợp với khả năng và phong cách học tập của học sinh. Điều này giúp học sinh tiếp cận nội dung phù hợp hơn. Học sinh có thể cảm thấy tự tin hơn khi học. Nhờ đó, hiệu quả học tập có thể được cải thiện.\n\nMột khía cạnh nữa cần xem xét là <strong><em>việc sử dụng nhiều sách giáo khoa cung cấp thêm nguồn tài liệu để học sinh học tập và chuẩn bị tốt hơn.</em></strong> Học sinh có thể sử dụng nhiều tài liệu để ôn tập và củng cố kiến thức. Các tài liệu khác nhau giúp các em lấp đầy những khoảng trống về kiến thức. Điều này giúp học sinh chuẩn bị tốt hơn cho các bài kiểm tra và bài tập. Các em có thể tiếp cận nhiều nguồn thông tin hơn trong quá trình học. Nhờ đó, học sinh có thể phát triển khả năng tự học và học tập lâu dài.\n\nTóm lại, <strong>việc cho phép các trường học tự chọn sách giáo khoa ngôn ngữ</strong> mang lại một số lợi thế đáng chú ý. Những khía cạnh tích cực này làm nổi bật giá trị của nó trong các lĩnh vực khác nhau của cuộc sống. Nhìn chung, việc xem xét các yếu tố này cung cấp một sự hiểu biết rõ ràng hơn về chủ đề."
+        }
       },
       {
         "id": 17,
