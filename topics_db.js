@@ -21424,7 +21424,7 @@ const ESSAY_DATA = [
         "id": 12,
         "title_en": "Air pollution",
         "title_vi": "Ô nhiễm không khí",
-        "tags": "[Causes & Effects] / [Causes & Solutions]",
+        "tags": "[Causes & Effects]",
         "subtopics": [
           {
             "sub_name": "ĐỀ 01",
@@ -21437,9 +21437,633 @@ const ESSAY_DATA = [
             "prompt": "Write an essay to an educated reader to discuss the causes of air pollution and suggest possible solutions to this problem. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar."
           }
         ],
-        "has_full_details": false,
+        "has_full_details": true,
         "context": "Air pollution has become one of the most serious environmental problems in many countries. Rapid industrialization, urbanization, and the increasing use of vehicles have contributed to declining air quality in both cities and rural areas. This issue has raised concerns about its impact on human health, the environment, and overall quality of life.",
-        "prompt": "Write an essay to an educated reader to discuss the causes and effects of air pollution. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar."
+        "prompt": "Write an essay to an educated reader to discuss the causes and effects of air pollution. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "paraphrases": [
+          {
+            "en": "air pollution",
+            "vi": "ô nhiễm không khí"
+          },
+          {
+            "en": "atmospheric contamination",
+            "vi": "sự ô nhiễm bầu khí quyển"
+          },
+          {
+            "en": "deteriorating air quality",
+            "vi": "chất lượng không khí ngày càng suy giảm"
+          },
+          {
+            "en": "toxic air emissions",
+            "vi": "khí thải độc hại vào không khí"
+          }
+        ],
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "CAUSE 01",
+                "collocations": [
+                  {
+                    "en": "industrial activities",
+                    "vi": "hoạt động công nghiệp"
+                  },
+                  {
+                    "en": "poorer air quality",
+                    "vi": "chất lượng không khí kém hơn"
+                  },
+                  {
+                    "en": "release smoke",
+                    "vi": "thải khói"
+                  },
+                  {
+                    "en": "harmful substances",
+                    "vi": "chất gây hại"
+                  },
+                  {
+                    "en": "industrial production",
+                    "vi": "sản xuất công nghiệp"
+                  }
+                ],
+                "point_vi": "Hoạt động sản xuất công nghiệp góp phần làm chất lượng không khí giảm sút.",
+                "point_en": "Industrial activities contribute to poorer air quality.",
+                "evidence_vi": "Các nhà máy có thể thải khói và các chất độc hại vào không khí trong quá trình sản xuất.",
+                "evidence_en": "Factories can release smoke and harmful substances into the air during production."
+              },
+              {
+                "title": "CAUSE 02",
+                "collocations": [
+                  {
+                    "en": "growing use of vehicles",
+                    "vi": "việc sử dụng xe cộ gia tăng"
+                  },
+                  {
+                    "en": "exhaust fumes",
+                    "vi": "khói thải phương tiện"
+                  },
+                  {
+                    "en": "use of fuel",
+                    "vi": "sử dụng nhiên liệu"
+                  },
+                  {
+                    "en": "traffic density",
+                    "vi": "mật độ giao thông"
+                  },
+                  {
+                    "en": "vehicle emissions",
+                    "vi": "khí thải từ xe cộ"
+                  }
+                ],
+                "point_vi": "Việc sử dụng phương tiện giao thông ngày càng nhiều cũng làm tình trạng này nghiêm trọng hơn.",
+                "point_en": "The growing use of vehicles also makes this problem more serious.",
+                "evidence_vi": "Ô tô và xe máy tạo ra khí thải khi sử dụng nhiên liệu.",
+                "evidence_en": "Cars and motorbikes produce exhaust fumes when they use fuel."
+              },
+              {
+                "title": "CAUSE 03",
+                "collocations": [
+                  {
+                    "en": "burning fuels and waste",
+                    "vi": "đốt nhiên liệu và rác thải"
+                  },
+                  {
+                    "en": "spread into the air",
+                    "vi": "lan tỏa vào không khí"
+                  },
+                  {
+                    "en": "burning coal and oil",
+                    "vi": "đốt than và dầu"
+                  },
+                  {
+                    "en": "air pollutants",
+                    "vi": "chất gây ô nhiễm không khí"
+                  },
+                  {
+                    "en": "waste burning",
+                    "vi": "đốt rác"
+                  }
+                ],
+                "point_vi": "Việc đốt nhiên liệu và rác thải cũng góp phần làm không khí bị ô nhiễm.",
+                "point_en": "Burning fuels and waste also contributes to poor air quality.",
+                "evidence_vi": "Khói từ việc đốt than, dầu hoặc rác có thể lan vào không khí xung quanh.",
+                "evidence_en": "Smoke from burning coal, oil, or waste can spread into the surrounding air."
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "EFFECT 01",
+                "collocations": [
+                  {
+                    "en": "health problems",
+                    "vi": "các vấn đề sức khỏe"
+                  },
+                  {
+                    "en": "polluted air",
+                    "vi": "không khí bị ô nhiễm"
+                  },
+                  {
+                    "en": "respiratory diseases",
+                    "vi": "bệnh về đường hô hấp"
+                  },
+                  {
+                    "en": "long-term exposure",
+                    "vi": "tiếp xúc lâu dài"
+                  },
+                  {
+                    "en": "breathing difficulties",
+                    "vi": "khó thở"
+                  }
+                ],
+                "point_vi": "Tình trạng này có thể gây ra nhiều vấn đề về sức khỏe cho con người.",
+                "point_en": "This problem can cause various health problems for people.",
+                "evidence_vi": "Hít phải không khí bẩn trong thời gian dài có thể gây ra các bệnh về đường hô hấp.",
+                "evidence_en": "Breathing polluted air for a long time can cause respiratory diseases."
+              },
+              {
+                "title": "EFFECT 02",
+                "collocations": [
+                  {
+                    "en": "natural environment",
+                    "vi": "môi trường tự nhiên"
+                  },
+                  {
+                    "en": "harm plants and ecosystems",
+                    "vi": "gây hại cho thực vật và hệ sinh thái"
+                  },
+                  {
+                    "en": "ecological damage",
+                    "vi": "tổn hại sinh thái"
+                  },
+                  {
+                    "en": "environmental degradation",
+                    "vi": "sự suy thoái môi trường"
+                  },
+                  {
+                    "en": "affect wildlife",
+                    "vi": "ảnh hưởng đến đời sống hoang dã"
+                  }
+                ],
+                "point_vi": "Môi trường tự nhiên cũng có thể bị ảnh hưởng nghiêm trọng.",
+                "point_en": "The natural environment can also be seriously affected.",
+                "evidence_vi": "Không khí bị ô nhiễm có thể gây hại cho cây cối và các hệ sinh thái.",
+                "evidence_en": "Polluted air can harm plants and ecosystems."
+              },
+              {
+                "title": "EFFECT 03",
+                "collocations": [
+                  {
+                    "en": "lower quality of life",
+                    "vi": "chất lượng cuộc sống suy giảm"
+                  },
+                  {
+                    "en": "less comfortable",
+                    "vi": "kém thoải mái hơn"
+                  },
+                  {
+                    "en": "smoke and dust",
+                    "vi": "khói bụi"
+                  },
+                  {
+                    "en": "unpleasant smells",
+                    "vi": "mùi khó chịu"
+                  },
+                  {
+                    "en": "outdoor activities",
+                    "vi": "các hoạt động ngoài trời"
+                  }
+                ],
+                "point_vi": "Cuộc sống hằng ngày của người dân có thể trở nên kém thoải mái hơn.",
+                "point_en": "People's daily lives can become less comfortable.",
+                "evidence_vi": "Khói bụi và mùi khó chịu có thể khiến người dân khó tham gia các hoạt động ngoài trời.",
+                "evidence_en": "Smoke, dust, and unpleasant smells can make it difficult for people to enjoy outdoor activities."
+              }
+            ]
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "CAUSE 01",
+                "collocations": [
+                  {
+                    "en": "industrial proliferation",
+                    "vi": "sự mở rộng công nghiệp nhanh chóng"
+                  },
+                  {
+                    "en": "excessive fuel consumption",
+                    "vi": "tiêu thụ nhiên liệu quá mức"
+                  },
+                  {
+                    "en": "industrial emission standards",
+                    "vi": "tiêu chuẩn khí thải công nghiệp"
+                  },
+                  {
+                    "en": "atmospheric pollutants",
+                    "vi": "chất gây ô nhiễm khí quyển"
+                  },
+                  {
+                    "en": "factory exhaust",
+                    "vi": "khí thải nhà máy"
+                  }
+                ],
+                "point_vi": "Sự phát triển mạnh của các ngành công nghiệp là một yếu tố quan trọng làm chất lượng không khí suy giảm.",
+                "point_en": "The rapid growth of industries is an important factor behind declining air quality.",
+                "evidence_vi": "Các nhà máy sử dụng nhiều nhiên liệu trong quá trình sản xuất và vận hành máy móc. Quá trình này tạo ra khói và các chất có hại có thể đi vào bầu không khí.",
+                "evidence_en": "Factories use large amounts of fuel for production and machinery. This process produces smoke and harmful substances that can enter the atmosphere."
+              },
+              {
+                "title": "CAUSE 02",
+                "collocations": [
+                  {
+                    "en": "rapid vehicular growth",
+                    "vi": "sự gia tăng xe cộ nhanh chóng"
+                  },
+                  {
+                    "en": "toxic vehicle emissions",
+                    "vi": "khí thải xe cộ độc hại"
+                  },
+                  {
+                    "en": "dense urban traffic",
+                    "vi": "giao thông đô thị dày đặc"
+                  },
+                  {
+                    "en": "fossil fuel combustion",
+                    "vi": "sự đốt cháy nhiên liệu hóa thạch"
+                  },
+                  {
+                    "en": "transportation exhaust",
+                    "vi": "khí thải từ giao thông"
+                  }
+                ],
+                "point_vi": "Sự gia tăng nhanh chóng của phương tiện giao thông cũng góp phần làm vấn đề trở nên nghiêm trọng hơn.",
+                "point_en": "The rapid increase in the number of vehicles also contributes to the seriousness of the problem.",
+                "evidence_vi": "Ô tô, xe máy và các phương tiện khác sử dụng nhiên liệu và tạo ra khí thải. Tình trạng này đặc biệt nghiêm trọng ở những thành phố có mật độ giao thông cao.",
+                "evidence_en": "Cars, motorbikes, and other vehicles use fuel and produce exhaust fumes. This is particularly serious in cities with heavy traffic."
+              },
+              {
+                "title": "CAUSE 03",
+                "collocations": [
+                  {
+                    "en": "open waste incineration",
+                    "vi": "đốt rác ngoài trời"
+                  },
+                  {
+                    "en": "combustion of solid fuels",
+                    "vi": "đốt nhiên liệu rắn"
+                  },
+                  {
+                    "en": "release of particulate matter",
+                    "vi": "phát thải bụi mịn"
+                  },
+                  {
+                    "en": "hazardous chemical dispersion",
+                    "vi": "sự phát tán hóa chất nguy hại"
+                  },
+                  {
+                    "en": "biomass burning",
+                    "vi": "đốt sinh khối"
+                  }
+                ],
+                "point_vi": "Các hoạt động đốt nhiên liệu và rác thải cũng làm gia tăng lượng chất gây ô nhiễm trong không khí.",
+                "point_en": "The burning of fuels and waste also increases the amount of pollutants in the air.",
+                "evidence_vi": "Than, dầu và các loại nhiên liệu khác tạo ra khói trong quá trình đốt. Việc đốt rác ngoài trời cũng có thể tạo ra các chất độc hại ảnh hưởng đến khu vực xung quanh.",
+                "evidence_en": "Coal, oil, and other fuels produce smoke when they are burned. Open waste burning can also produce harmful substances that affect surrounding areas."
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "EFFECT 01",
+                "collocations": [
+                  {
+                    "en": "adverse health ramifications",
+                    "vi": "hệ lụy sức khỏe tiêu cực"
+                  },
+                  {
+                    "en": "chronic respiratory illnesses",
+                    "vi": "bệnh hô hấp mãn tính"
+                  },
+                  {
+                    "en": "cardiovascular complications",
+                    "vi": "biến chứng tim mạch"
+                  },
+                  {
+                    "en": "vulnerable demographics",
+                    "vi": "nhóm dân số dễ bị tổn thương"
+                  },
+                  {
+                    "en": "prolonged airborne exposure",
+                    "vi": "tiếp xúc lâu dài trong không khí"
+                  }
+                ],
+                "point_vi": "Chất lượng không khí kém có thể gây ra những hậu quả nghiêm trọng đối với sức khỏe con người.",
+                "point_en": "Poor air quality can have serious consequences for human health.",
+                "evidence_vi": "Việc tiếp xúc lâu dài với không khí ô nhiễm có thể làm tăng nguy cơ mắc các bệnh về đường hô hấp. Những người có sức khỏe yếu, đặc biệt là trẻ em và người cao tuổi, có thể bị ảnh hưởng nhiều hơn.",
+                "evidence_en": "Long-term exposure to polluted air can increase the risk of respiratory diseases. People with weaker health, especially children and older adults, may be more seriously affected."
+              },
+              {
+                "title": "EFFECT 02",
+                "collocations": [
+                  {
+                    "en": "ecological deterioration",
+                    "vi": "sự suy thoái hệ sinh thái"
+                  },
+                  {
+                    "en": "degradation of natural ecosystems",
+                    "vi": "sự xuống cấp hệ sinh thái tự nhiên"
+                  },
+                  {
+                    "en": "biodiversity disruption",
+                    "vi": "sự gián đoạn đa dạng sinh học"
+                  },
+                  {
+                    "en": "acid rain precipitation",
+                    "vi": "hiện tượng mưa axit"
+                  },
+                  {
+                    "en": "damage to flora and fauna",
+                    "vi": "thiệt hại hệ động thực vật"
+                  }
+                ],
+                "point_vi": "Chất lượng không khí suy giảm có thể gây ra những tác động tiêu cực đối với môi trường tự nhiên.",
+                "point_en": "Declining air quality can have negative effects on the natural environment.",
+                "evidence_vi": "Các chất ô nhiễm trong không khí có thể ảnh hưởng đến cây cối và các loài sinh vật. Về lâu dài, những tác động này có thể làm suy giảm chất lượng của các hệ sinh thái.",
+                "evidence_en": "Air pollutants can affect plants and living organisms. In the long term, these effects can reduce the quality of ecosystems."
+              },
+              {
+                "title": "EFFECT 03",
+                "collocations": [
+                  {
+                    "en": "diminished quality of life",
+                    "vi": "suy giảm chất lượng sống"
+                  },
+                  {
+                    "en": "restricted outdoor recreation",
+                    "vi": "hạn chế giải trí ngoài trời"
+                  },
+                  {
+                    "en": "ambient particulate discomfort",
+                    "vi": "sự khó chịu do bụi mịn xung quanh"
+                  },
+                  {
+                    "en": "environmental anxiety",
+                    "vi": "lo âu về môi trường"
+                  },
+                  {
+                    "en": "urban livability erosion",
+                    "vi": "suy giảm mức độ đáng sống đô thị"
+                  }
+                ],
+                "point_vi": "Vấn đề này có thể làm giảm chất lượng cuộc sống của người dân.",
+                "point_en": "This problem can reduce people's quality of life.",
+                "evidence_vi": "Khói bụi và mùi khó chịu có thể khiến các hoạt động ngoài trời trở nên khó khăn và không thoải mái. Người dân có thể phải hạn chế thời gian ở ngoài trời và lo lắng hơn về môi trường sống.",
+                "evidence_en": "Smoke, dust, and unpleasant smells can make outdoor activities difficult and uncomfortable. People may spend less time outdoors and become more concerned about their living environment."
+              }
+            ]
+          },
+          "vocab": [
+            {
+              "en": "industrial activities",
+              "vi": "hoạt động công nghiệp"
+            },
+            {
+              "en": "poorer air quality",
+              "vi": "chất lượng không khí kém hơn"
+            },
+            {
+              "en": "release smoke",
+              "vi": "thải khói"
+            },
+            {
+              "en": "harmful substances",
+              "vi": "chất gây hại"
+            },
+            {
+              "en": "industrial production",
+              "vi": "sản xuất công nghiệp"
+            },
+            {
+              "en": "growing use of vehicles",
+              "vi": "việc sử dụng xe cộ gia tăng"
+            },
+            {
+              "en": "exhaust fumes",
+              "vi": "khói thải phương tiện"
+            },
+            {
+              "en": "use of fuel",
+              "vi": "sử dụng nhiên liệu"
+            },
+            {
+              "en": "traffic density",
+              "vi": "mật độ giao thông"
+            },
+            {
+              "en": "vehicle emissions",
+              "vi": "khí thải từ xe cộ"
+            },
+            {
+              "en": "burning fuels and waste",
+              "vi": "đốt nhiên liệu và rác thải"
+            },
+            {
+              "en": "spread into the air",
+              "vi": "lan tỏa vào không khí"
+            },
+            {
+              "en": "burning coal and oil",
+              "vi": "đốt than và dầu"
+            },
+            {
+              "en": "air pollutants",
+              "vi": "chất gây ô nhiễm không khí"
+            },
+            {
+              "en": "waste burning",
+              "vi": "đốt rác"
+            },
+            {
+              "en": "health problems",
+              "vi": "các vấn đề sức khỏe"
+            },
+            {
+              "en": "polluted air",
+              "vi": "không khí bị ô nhiễm"
+            },
+            {
+              "en": "respiratory diseases",
+              "vi": "bệnh về đường hô hấp"
+            },
+            {
+              "en": "long-term exposure",
+              "vi": "tiếp xúc lâu dài"
+            },
+            {
+              "en": "breathing difficulties",
+              "vi": "khó thở"
+            },
+            {
+              "en": "natural environment",
+              "vi": "môi trường tự nhiên"
+            },
+            {
+              "en": "harm plants and ecosystems",
+              "vi": "gây hại cho thực vật và hệ sinh thái"
+            },
+            {
+              "en": "ecological damage",
+              "vi": "tổn hại sinh thái"
+            },
+            {
+              "en": "environmental degradation",
+              "vi": "sự suy thoái môi trường"
+            },
+            {
+              "en": "affect wildlife",
+              "vi": "ảnh hưởng đến đời sống hoang dã"
+            },
+            {
+              "en": "lower quality of life",
+              "vi": "chất lượng cuộc sống suy giảm"
+            },
+            {
+              "en": "less comfortable",
+              "vi": "kém thoải mái hơn"
+            },
+            {
+              "en": "smoke and dust",
+              "vi": "khói bụi"
+            },
+            {
+              "en": "unpleasant smells",
+              "vi": "mùi khó chịu"
+            },
+            {
+              "en": "outdoor activities",
+              "vi": "các hoạt động ngoài trời"
+            },
+            {
+              "en": "industrial proliferation",
+              "vi": "sự mở rộng công nghiệp nhanh chóng"
+            },
+            {
+              "en": "excessive fuel consumption",
+              "vi": "tiêu thụ nhiên liệu quá mức"
+            },
+            {
+              "en": "industrial emission standards",
+              "vi": "tiêu chuẩn khí thải công nghiệp"
+            },
+            {
+              "en": "atmospheric pollutants",
+              "vi": "chất gây ô nhiễm khí quyển"
+            },
+            {
+              "en": "factory exhaust",
+              "vi": "khí thải nhà máy"
+            },
+            {
+              "en": "rapid vehicular growth",
+              "vi": "sự gia tăng xe cộ nhanh chóng"
+            },
+            {
+              "en": "toxic vehicle emissions",
+              "vi": "khí thải xe cộ độc hại"
+            },
+            {
+              "en": "dense urban traffic",
+              "vi": "giao thông đô thị dày đặc"
+            },
+            {
+              "en": "fossil fuel combustion",
+              "vi": "sự đốt cháy nhiên liệu hóa thạch"
+            },
+            {
+              "en": "transportation exhaust",
+              "vi": "khí thải từ giao thông"
+            },
+            {
+              "en": "open waste incineration",
+              "vi": "đốt rác ngoài trời"
+            },
+            {
+              "en": "combustion of solid fuels",
+              "vi": "đốt nhiên liệu rắn"
+            },
+            {
+              "en": "release of particulate matter",
+              "vi": "phát thải bụi mịn"
+            },
+            {
+              "en": "hazardous chemical dispersion",
+              "vi": "sự phát tán hóa chất nguy hại"
+            },
+            {
+              "en": "biomass burning",
+              "vi": "đốt sinh khối"
+            },
+            {
+              "en": "adverse health ramifications",
+              "vi": "hệ lụy sức khỏe tiêu cực"
+            },
+            {
+              "en": "chronic respiratory illnesses",
+              "vi": "bệnh hô hấp mãn tính"
+            },
+            {
+              "en": "cardiovascular complications",
+              "vi": "biến chứng tim mạch"
+            },
+            {
+              "en": "vulnerable demographics",
+              "vi": "nhóm dân số dễ bị tổn thương"
+            },
+            {
+              "en": "prolonged airborne exposure",
+              "vi": "tiếp xúc lâu dài trong không khí"
+            },
+            {
+              "en": "ecological deterioration",
+              "vi": "sự suy thoái hệ sinh thái"
+            },
+            {
+              "en": "degradation of natural ecosystems",
+              "vi": "sự xuống cấp hệ sinh thái tự nhiên"
+            },
+            {
+              "en": "biodiversity disruption",
+              "vi": "sự gián đoạn đa dạng sinh học"
+            },
+            {
+              "en": "acid rain precipitation",
+              "vi": "hiện tượng mưa axit"
+            },
+            {
+              "en": "damage to flora and fauna",
+              "vi": "thiệt hại hệ động thực vật"
+            },
+            {
+              "en": "diminished quality of life",
+              "vi": "suy giảm chất lượng sống"
+            },
+            {
+              "en": "restricted outdoor recreation",
+              "vi": "hạn chế giải trí ngoài trời"
+            },
+            {
+              "en": "ambient particulate discomfort",
+              "vi": "sự khó chịu do bụi mịn xung quanh"
+            },
+            {
+              "en": "environmental anxiety",
+              "vi": "lo âu về môi trường"
+            },
+            {
+              "en": "urban livability erosion",
+              "vi": "suy giảm mức độ đáng sống đô thị"
+            }
+          ],
+          "sample_b1": "In recent years, <strong>air pollution</strong> has become an important topic in modern society. This issue has drawn significant attention. <strong>This essay will explore both the causes and the effects of this issue.</strong>\n\n<strong>This issue can be caused by several factors.</strong> One primary cause is that <strong><em>industrial activities contribute to poorer air quality.</em></strong> Factories can release smoke and harmful substances into the air during production. Another factor is that <strong><em>the growing use of vehicles also makes this problem more serious.</em></strong> Cars and motorbikes produce exhaust fumes when they use fuel. A further reason is that <strong><em>burning fuels and waste also contributes to poor air quality.</em></strong> Smoke from burning coal, oil, or waste can spread into the surrounding air.\n\n<strong>This issue also leads to several consequences.</strong> One major effect is that <strong><em>this problem can cause various health problems for people.</em></strong> Breathing polluted air for a long time can cause respiratory diseases. Another consequence is that <strong><em>the natural environment can also be seriously affected.</em></strong> Polluted air can harm plants and ecosystems. A further impact is that <strong><em>people's daily lives can become less comfortable.</em></strong> Smoke, dust, and unpleasant smells can make it difficult for people to enjoy outdoor activities.\n\nIn conclusion, <strong>air pollution</strong> is influenced by various causes and has important effects. These factors show that it has significant impacts on society. Understanding them can help people find better ways to address this issue.",
+          "translation_b1": "Trong những năm gần đây, <strong>ô nhiễm không khí</strong> đã trở thành một chủ đề quan trọng trong xã hội hiện đại. Vấn đề này đã thu hút sự chú ý đáng kể. <strong>Bài tiểu luận này sẽ tìm hiểu cả nguyên nhân và tác động của vấn đề này.</strong>\n\n<strong>Vấn đề này có thể do một số yếu tố gây ra.</strong> Một nguyên nhân chính là <strong><em>hoạt động sản xuất công nghiệp góp phần làm chất lượng không khí giảm sút.</em></strong> Các nhà máy có thể thải khói và các chất độc hại vào không khí trong quá trình sản xuất. Một yếu tố khác là <strong><em>việc sử dụng phương tiện giao thông ngày càng nhiều cũng làm tình trạng này nghiêm trọng hơn.</em></strong> Ô tô và xe máy tạo ra khí thải khi sử dụng nhiên liệu. Một lý do nữa là <strong><em>việc đốt nhiên liệu và rác thải cũng góp phần làm không khí bị ô nhiễm.</em></strong> Khói từ việc đốt than, dầu hoặc rác có thể lan vào không khí xung quanh.\n\n<strong>Vấn đề này cũng dẫn đến một số hậu quả.</strong> Một tác động lớn là <strong><em>tình trạng này có thể gây ra nhiều vấn đề về sức khỏe cho con người.</em></strong> Hít phải không khí bẩn trong thời gian dài có thể gây ra các bệnh về đường hô hấp. Một hậu quả khác là <strong><em>môi trường tự nhiên cũng có thể bị ảnh hưởng nghiêm trọng.</em></strong> Không khí bị ô nhiễm có thể gây hại cho cây cối và các hệ sinh thái. Một tác động nữa là <strong><em>cuộc sống hằng ngày của người dân có thể trở nên kém thoải mái hơn.</em></strong> Khói bụi và mùi khó chịu có thể khiến người dân khó tham gia các hoạt động ngoài trời.\n\nTóm lại, <strong>ô nhiễm không khí</strong> chịu ảnh hưởng bởi nhiều nguyên nhân và gây ra những tác động quan trọng. Những yếu tố này cho thấy nó có ảnh hưởng đáng kể đến xã hội. Việc hiểu rõ chúng có thể giúp mọi người tìm ra những cách tốt hơn để giải quyết vấn đề này."
+        }
       },
       {
         "id": 13,
