@@ -19514,7 +19514,629 @@ const ESSAY_DATA = [
         "tags": "[Causes & Effects]",
         "context": "In recent years, single-parent families have become increasingly common in many societies. In these families, children are raised by only one parent due to various social, economic, or personal circumstances. This trend has attracted considerable attention because it may influence both family life and society in different ways.",
         "prompt": "Write an essay to an educated reader to discuss the causes and effects of single-parent families. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "paraphrases": [
+          {
+            "en": "one-parent households",
+            "vi": "hộ gia đình một cha hoặc mẹ"
+          },
+          {
+            "en": "raising children as a lone parent",
+            "vi": "nuôi dạy con cái như một phụ huynh đơn thân"
+          },
+          {
+            "en": "single-parent family structures",
+            "vi": "cấu trúc gia đình đơn thân"
+          },
+          {
+            "en": "the rise of solo parenting",
+            "vi": "sự gia tăng của việc làm cha mẹ đơn thân"
+          }
+        ],
+        "details": {
+          "ideas_b1": {
+            "causes": [
+              {
+                "title": "CAUSE 01",
+                "collocations": [
+                  {
+                    "en": "divorce rate",
+                    "vi": "tỷ lệ ly hôn"
+                  },
+                  {
+                    "en": "live with one parent",
+                    "vi": "sống với một phụ huynh"
+                  },
+                  {
+                    "en": "marital breakdown",
+                    "vi": "sự tan vỡ hôn nhân"
+                  },
+                  {
+                    "en": "parental separation",
+                    "vi": "sự ly thân của cha mẹ"
+                  },
+                  {
+                    "en": "family structure",
+                    "vi": "cấu trúc gia đình"
+                  }
+                ],
+                "point_vi": "Ly hôn là một nguyên nhân phổ biến dẫn đến gia đình đơn thân.",
+                "point_en": "Divorce is a common cause of single-parent families.",
+                "evidence_vi": "Sau khi cha mẹ ly hôn, con cái có thể sống chủ yếu với một trong hai người.",
+                "evidence_en": "After parents get divorced, children may live mainly with one parent."
+              },
+              {
+                "title": "CAUSE 02",
+                "collocations": [
+                  {
+                    "en": "financial difficulties",
+                    "vi": "khó khăn tài chính"
+                  },
+                  {
+                    "en": "maintain a stable life",
+                    "vi": "duy trì cuộc sống ổn định"
+                  },
+                  {
+                    "en": "economic pressure",
+                    "vi": "áp lực kinh tế"
+                  },
+                  {
+                    "en": "financial instability",
+                    "vi": "sự bất ổn tài chính"
+                  },
+                  {
+                    "en": "cost of living",
+                    "vi": "chi phí sinh hoạt"
+                  }
+                ],
+                "point_vi": "Khó khăn tài chính có thể dẫn đến gia đình đơn thân.",
+                "point_en": "Financial difficulties can lead to single-parent families.",
+                "evidence_vi": "Một số gia đình không đủ khả năng duy trì một cuộc sống gia đình ổn định do áp lực kinh tế.",
+                "evidence_en": "Some families cannot maintain a stable family life because of financial pressure."
+              },
+              {
+                "title": "CAUSE 03",
+                "collocations": [
+                  {
+                    "en": "personal choices",
+                    "vi": "lựa chọn cá nhân"
+                  },
+                  {
+                    "en": "changing family values",
+                    "vi": "quan niệm gia đình thay đổi"
+                  },
+                  {
+                    "en": "raise children alone",
+                    "vi": "nuôi con một mình"
+                  },
+                  {
+                    "en": "personal circumstances",
+                    "vi": "hoàn cảnh cá nhân"
+                  },
+                  {
+                    "en": "independent parenting",
+                    "vi": "nuôi dạy con tự lập"
+                  }
+                ],
+                "point_vi": "Những lựa chọn cá nhân và quan niệm gia đình thay đổi cũng có thể dẫn đến gia đình đơn thân.",
+                "point_en": "Personal choices and changing family values can also lead to single-parent families.",
+                "evidence_vi": "Một số người lựa chọn nuôi con một mình vì họ muốn có một cuộc sống phù hợp hơn với hoàn cảnh cá nhân.",
+                "evidence_en": "Some people choose to raise children alone because they want a life that better suits their personal circumstances."
+              }
+            ],
+            "effects": [
+              {
+                "title": "EFFECT 01",
+                "collocations": [
+                  {
+                    "en": "financial pressure",
+                    "vi": "áp lực tài chính"
+                  },
+                  {
+                    "en": "cover living costs",
+                    "vi": "chi trả chi phí sinh hoạt"
+                  },
+                  {
+                    "en": "single-income household",
+                    "vi": "hộ gia đình một nguồn thu nhập"
+                  },
+                  {
+                    "en": "daily expenses",
+                    "vi": "chi tiêu hằng ngày"
+                  },
+                  {
+                    "en": "childcare costs",
+                    "vi": "chi phí chăm sóc con cái"
+                  }
+                ],
+                "point_vi": "Gia đình đơn thân có thể tạo ra áp lực tài chính cho cha hoặc mẹ.",
+                "point_en": "Single-parent families can create financial pressure on parents.",
+                "evidence_vi": "Một người phải chịu phần lớn chi phí cho con cái và gia đình.",
+                "evidence_en": "One parent has to cover most of the costs for the children and the family."
+              },
+              {
+                "title": "EFFECT 02",
+                "collocations": [
+                  {
+                    "en": "less time for children",
+                    "vi": "ít thời gian cho con cái"
+                  },
+                  {
+                    "en": "work longer hours",
+                    "vi": "làm việc nhiều giờ hơn"
+                  },
+                  {
+                    "en": "earn a living",
+                    "vi": "kiếm sống"
+                  },
+                  {
+                    "en": "lack of parental care",
+                    "vi": "thiếu sự chăm sóc của cha mẹ"
+                  },
+                  {
+                    "en": "work-life imbalance",
+                    "vi": "mất cân bằng công việc - cuộc sống"
+                  }
+                ],
+                "point_vi": "Cha mẹ đơn thân có thể có ít thời gian dành cho con cái.",
+                "point_en": "Single parents may have less time for their children.",
+                "evidence_vi": "Họ thường phải làm việc nhiều hơn để kiếm đủ tiền trang trải cuộc sống.",
+                "evidence_en": "They often have to work more to earn enough money for daily life."
+              },
+              {
+                "title": "EFFECT 03",
+                "collocations": [
+                  {
+                    "en": "emotional difficulties",
+                    "vi": "khó khăn về cảm xúc"
+                  },
+                  {
+                    "en": "feel sad and lonely",
+                    "vi": "cảm thấy buồn và cô đơn"
+                  },
+                  {
+                    "en": "lack of parental attention",
+                    "vi": "thiếu sự quan tâm của cha mẹ"
+                  },
+                  {
+                    "en": "emotional support",
+                    "vi": "sự hỗ trợ về mặt tình cảm"
+                  },
+                  {
+                    "en": "psychological impact",
+                    "vi": "tác động tâm lý"
+                  }
+                ],
+                "point_vi": "Trẻ em trong gia đình đơn thân có thể gặp một số khó khăn về cảm xúc.",
+                "point_en": "Children in single-parent families may experience emotional difficulties.",
+                "evidence_vi": "Các em có thể cảm thấy buồn hoặc thiếu sự quan tâm từ cả cha và mẹ.",
+                "evidence_en": "They may feel sad or lack attention from both parents."
+              }
+            ]
+          },
+          "ideas_b2": {
+            "causes": [
+              {
+                "title": "CAUSE 01",
+                "collocations": [
+                  {
+                    "en": "divorce and family breakdown",
+                    "vi": "ly hôn và sự tan vỡ gia đình"
+                  },
+                  {
+                    "en": "long-term domestic conflicts",
+                    "vi": "mâu thuẫn gia đình kéo dài"
+                  },
+                  {
+                    "en": "marital breakdown",
+                    "vi": "sự đổ vỡ hôn nhân"
+                  },
+                  {
+                    "en": "custody arrangements",
+                    "vi": "sự sắp xếp quyền nuôi con"
+                  },
+                  {
+                    "en": "dissolve the marriage",
+                    "vi": "chấm dứt cuộc hôn nhân"
+                  }
+                ],
+                "point_vi": "Ly hôn và sự tan vỡ của gia đình là những nguyên nhân quan trọng dẫn đến gia đình đơn thân.",
+                "point_en": "Divorce and family breakdown are important causes of single-parent families.",
+                "evidence_vi": "Những mâu thuẫn kéo dài có thể khiến cha mẹ quyết định chấm dứt cuộc hôn nhân. Sau khi ly hôn, con cái thường sống chủ yếu với một trong hai người.",
+                "evidence_en": "Long-term conflicts may lead parents to end their marriage. After divorce, children often live mainly with one parent."
+              },
+              {
+                "title": "CAUSE 02",
+                "collocations": [
+                  {
+                    "en": "economic strain on households",
+                    "vi": "áp lực kinh tế lên hộ gia đình"
+                  },
+                  {
+                    "en": "financial disputes",
+                    "vi": "tranh cãi về tài chính"
+                  },
+                  {
+                    "en": "maintain family stability",
+                    "vi": "duy trì sự ổn định gia đình"
+                  },
+                  {
+                    "en": "socio-economic pressure",
+                    "vi": "áp lực kinh tế - xã hội"
+                  },
+                  {
+                    "en": "household financial burden",
+                    "vi": "gánh nặng tài chính hộ gia đình"
+                  }
+                ],
+                "point_vi": "Áp lực tài chính và kinh tế cũng có thể góp phần làm gia tăng các gia đình đơn thân.",
+                "point_en": "Financial and economic pressure can also contribute to the growth of single-parent families.",
+                "evidence_vi": "Khó khăn về tiền bạc có thể gây ra những mâu thuẫn nghiêm trọng giữa cha mẹ. Những vấn đề kéo dài có thể khiến gia đình không thể duy trì cuộc sống ổn định.",
+                "evidence_en": "Financial difficulties can create serious conflicts between parents. Long-term problems may make it difficult for families to maintain a stable life."
+              },
+              {
+                "title": "CAUSE 03",
+                "collocations": [
+                  {
+                    "en": "evolving societal norms",
+                    "vi": "chuẩn mực xã hội đang thay đổi"
+                  },
+                  {
+                    "en": "unsuitable relationships",
+                    "vi": "mối quan hệ không phù hợp"
+                  },
+                  {
+                    "en": "alternative family models",
+                    "vi": "các mô hình gia đình thay thế"
+                  },
+                  {
+                    "en": "autonomous parenting decisions",
+                    "vi": "quyết định nuôi con tự chủ"
+                  },
+                  {
+                    "en": "shifting cultural paradigms",
+                    "vi": "sự chuyển dịch hệ giá trị văn hóa"
+                  }
+                ],
+                "point_vi": "Những lựa chọn cá nhân và sự thay đổi trong quan niệm xã hội về gia đình cũng góp phần vào xu hướng này.",
+                "point_en": "Personal choices and changing social values also contribute to this trend.",
+                "evidence_vi": "Một số người lựa chọn nuôi con một mình thay vì duy trì một mối quan hệ không phù hợp. Xã hội hiện đại cũng chấp nhận nhiều hình thức gia đình khác nhau hơn trước.",
+                "evidence_en": "Some people choose to raise children alone rather than remain in an unsuitable relationship. Modern society also accepts different family structures more than in the past."
+              }
+            ],
+            "effects": [
+              {
+                "title": "EFFECT 01",
+                "collocations": [
+                  {
+                    "en": "significant financial pressure",
+                    "vi": "áp lực tài chính đáng kể"
+                  },
+                  {
+                    "en": "costs of housing and education",
+                    "vi": "chi phí nhà ở và giáo dục"
+                  },
+                  {
+                    "en": "sole breadwinner burden",
+                    "vi": "gánh nặng của trụ cột duy nhất"
+                  },
+                  {
+                    "en": "supplementary income sources",
+                    "vi": "các nguồn thu nhập bổ sung"
+                  },
+                  {
+                    "en": "economic vulnerability",
+                    "vi": "sự dễ bị tổn thương về kinh tế"
+                  }
+                ],
+                "point_vi": "Gia đình đơn thân có thể tạo ra áp lực tài chính đáng kể cho cha hoặc mẹ.",
+                "point_en": "Single-parent families can create significant financial pressure on parents.",
+                "evidence_vi": "Một người phải chịu phần lớn chi phí cho nhà ở, giáo dục và các nhu cầu hằng ngày của con cái. Điều này có thể khiến cha mẹ phải làm việc nhiều giờ hơn hoặc tìm thêm nguồn thu nhập.",
+                "evidence_en": "One parent has to cover most of the costs of housing, education, and children's daily needs. This may require parents to work longer hours or find additional sources of income."
+              },
+              {
+                "title": "EFFECT 02",
+                "collocations": [
+                  {
+                    "en": "compromised parental time",
+                    "vi": "thời gian dành cho con bị hạn chế"
+                  },
+                  {
+                    "en": "balance work and childcare",
+                    "vi": "cân bằng công việc và chăm con"
+                  },
+                  {
+                    "en": "deficit in parent-child interactions",
+                    "vi": "thiếu hụt tương tác cha mẹ - con cái"
+                  },
+                  {
+                    "en": "diminished parental supervision",
+                    "vi": "sự giám sát của phụ huynh bị giảm"
+                  },
+                  {
+                    "en": "work-family conflict",
+                    "vi": "xung đột công việc - gia đình"
+                  }
+                ],
+                "point_vi": "Gia đình đơn thân có thể làm giảm lượng thời gian và sự hỗ trợ mà trẻ nhận được từ cha mẹ.",
+                "point_en": "Single-parent families can reduce the amount of time and support children receive from their parents.",
+                "evidence_vi": "Cha mẹ đơn thân thường phải cân bằng giữa công việc và việc chăm sóc con cái. Vì vậy, họ có thể có ít thời gian hơn để trò chuyện, chăm sóc và hỗ trợ con.",
+                "evidence_en": "Single parents often have to balance work and childcare responsibilities. Therefore, they may have less time to talk to, care for, and support their children."
+              },
+              {
+                "title": "EFFECT 03",
+                "collocations": [
+                  {
+                    "en": "emotional and psychological distress",
+                    "vi": "nỗi đau tâm lý và cảm xúc"
+                  },
+                  {
+                    "en": "absence of dual-parental support",
+                    "vi": "sự thiếu vắng hỗ trợ từ cả hai phụ huynh"
+                  },
+                  {
+                    "en": "interpersonal communication",
+                    "vi": "giao tiếp giữa các cá nhân"
+                  },
+                  {
+                    "en": "social alienation",
+                    "vi": "sự xa lánh xã hội"
+                  },
+                  {
+                    "en": "developmental hurdles",
+                    "vi": "các rào cản phát triển"
+                  }
+                ],
+                "point_vi": "Trẻ em trong gia đình đơn thân có thể gặp một số khó khăn về cảm xúc và xã hội.",
+                "point_en": "Children in single-parent families may experience emotional and social difficulties.",
+                "evidence_vi": "Các em có thể cảm thấy buồn, cô đơn hoặc căng thẳng vì thiếu sự hiện diện của một phụ huynh. Những cảm xúc này có thể ảnh hưởng đến cách các em giao tiếp và hòa nhập với những người khác.",
+                "evidence_en": "They may feel sad, lonely, or stressed because one parent is not present. These feelings may affect how they communicate and interact with others."
+              }
+            ]
+          },
+          "vocab": [
+            {
+              "en": "divorce rate",
+              "vi": "tỷ lệ ly hôn"
+            },
+            {
+              "en": "live with one parent",
+              "vi": "sống với một phụ huynh"
+            },
+            {
+              "en": "marital breakdown",
+              "vi": "sự tan vỡ hôn nhân"
+            },
+            {
+              "en": "parental separation",
+              "vi": "sự ly thân của cha mẹ"
+            },
+            {
+              "en": "family structure",
+              "vi": "cấu trúc gia đình"
+            },
+            {
+              "en": "financial difficulties",
+              "vi": "khó khăn tài chính"
+            },
+            {
+              "en": "maintain a stable life",
+              "vi": "duy trì cuộc sống ổn định"
+            },
+            {
+              "en": "economic pressure",
+              "vi": "áp lực kinh tế"
+            },
+            {
+              "en": "financial instability",
+              "vi": "sự bất ổn tài chính"
+            },
+            {
+              "en": "cost of living",
+              "vi": "chi phí sinh hoạt"
+            },
+            {
+              "en": "personal choices",
+              "vi": "lựa chọn cá nhân"
+            },
+            {
+              "en": "changing family values",
+              "vi": "quan niệm gia đình thay đổi"
+            },
+            {
+              "en": "raise children alone",
+              "vi": "nuôi con một mình"
+            },
+            {
+              "en": "personal circumstances",
+              "vi": "hoàn cảnh cá nhân"
+            },
+            {
+              "en": "independent parenting",
+              "vi": "nuôi dạy con tự lập"
+            },
+            {
+              "en": "financial pressure",
+              "vi": "áp lực tài chính"
+            },
+            {
+              "en": "cover living costs",
+              "vi": "chi trả chi phí sinh hoạt"
+            },
+            {
+              "en": "single-income household",
+              "vi": "hộ gia đình một nguồn thu nhập"
+            },
+            {
+              "en": "daily expenses",
+              "vi": "chi tiêu hằng ngày"
+            },
+            {
+              "en": "childcare costs",
+              "vi": "chi phí chăm sóc con cái"
+            },
+            {
+              "en": "less time for children",
+              "vi": "ít thời gian cho con cái"
+            },
+            {
+              "en": "work longer hours",
+              "vi": "làm việc nhiều giờ hơn"
+            },
+            {
+              "en": "earn a living",
+              "vi": "kiếm sống"
+            },
+            {
+              "en": "lack of parental care",
+              "vi": "thiếu sự chăm sóc của cha mẹ"
+            },
+            {
+              "en": "work-life imbalance",
+              "vi": "mất cân bằng công việc - cuộc sống"
+            },
+            {
+              "en": "emotional difficulties",
+              "vi": "khó khăn về cảm xúc"
+            },
+            {
+              "en": "feel sad and lonely",
+              "vi": "cảm thấy buồn và cô đơn"
+            },
+            {
+              "en": "lack of parental attention",
+              "vi": "thiếu sự quan tâm của cha mẹ"
+            },
+            {
+              "en": "emotional support",
+              "vi": "sự hỗ trợ về mặt tình cảm"
+            },
+            {
+              "en": "psychological impact",
+              "vi": "tác động tâm lý"
+            },
+            {
+              "en": "divorce and family breakdown",
+              "vi": "ly hôn và sự tan vỡ gia đình"
+            },
+            {
+              "en": "long-term domestic conflicts",
+              "vi": "mâu thuẫn gia đình kéo dài"
+            },
+            {
+              "en": "custody arrangements",
+              "vi": "sự sắp xếp quyền nuôi con"
+            },
+            {
+              "en": "dissolve the marriage",
+              "vi": "chấm dứt cuộc hôn nhân"
+            },
+            {
+              "en": "economic strain on households",
+              "vi": "áp lực kinh tế lên hộ gia đình"
+            },
+            {
+              "en": "financial disputes",
+              "vi": "tranh cãi về tài chính"
+            },
+            {
+              "en": "maintain family stability",
+              "vi": "duy trì sự ổn định gia đình"
+            },
+            {
+              "en": "socio-economic pressure",
+              "vi": "áp lực kinh tế - xã hội"
+            },
+            {
+              "en": "household financial burden",
+              "vi": "gánh nặng tài chính hộ gia đình"
+            },
+            {
+              "en": "evolving societal norms",
+              "vi": "chuẩn mực xã hội đang thay đổi"
+            },
+            {
+              "en": "unsuitable relationships",
+              "vi": "mối quan hệ không phù hợp"
+            },
+            {
+              "en": "alternative family models",
+              "vi": "các mô hình gia đình thay thế"
+            },
+            {
+              "en": "autonomous parenting decisions",
+              "vi": "quyết định nuôi con tự chủ"
+            },
+            {
+              "en": "shifting cultural paradigms",
+              "vi": "sự chuyển dịch hệ giá trị văn hóa"
+            },
+            {
+              "en": "significant financial pressure",
+              "vi": "áp lực tài chính đáng kể"
+            },
+            {
+              "en": "costs of housing and education",
+              "vi": "chi phí nhà ở và giáo dục"
+            },
+            {
+              "en": "sole breadwinner burden",
+              "vi": "gánh nặng của trụ cột duy nhất"
+            },
+            {
+              "en": "supplementary income sources",
+              "vi": "các nguồn thu nhập bổ sung"
+            },
+            {
+              "en": "economic vulnerability",
+              "vi": "sự dễ bị tổn thương về kinh tế"
+            },
+            {
+              "en": "compromised parental time",
+              "vi": "thời gian dành cho con bị hạn chế"
+            },
+            {
+              "en": "balance work and childcare",
+              "vi": "cân bằng công việc và chăm con"
+            },
+            {
+              "en": "deficit in parent-child interactions",
+              "vi": "thiếu hụt tương tác cha mẹ - con cái"
+            },
+            {
+              "en": "diminished parental supervision",
+              "vi": "sự giám sát của phụ huynh bị giảm"
+            },
+            {
+              "en": "work-family conflict",
+              "vi": "xung đột công việc - gia đình"
+            },
+            {
+              "en": "emotional and psychological distress",
+              "vi": "nỗi đau tâm lý và cảm xúc"
+            },
+            {
+              "en": "absence of dual-parental support",
+              "vi": "sự thiếu vắng hỗ trợ từ cả hai phụ huynh"
+            },
+            {
+              "en": "interpersonal communication",
+              "vi": "giao tiếp giữa các cá nhân"
+            },
+            {
+              "en": "social alienation",
+              "vi": "sự xa lánh xã hội"
+            },
+            {
+              "en": "developmental hurdles",
+              "vi": "các rào cản phát triển"
+            }
+          ],
+          "sample_b1": "In recent years, <strong>the growth of single-parent families</strong> has become an important topic in modern society. This issue has drawn significant attention. <strong>This essay will explore both the causes and the effects of this issue.</strong>\n\n<strong>This issue can be caused by several factors.</strong> One primary cause is that <strong><em>divorce is a common cause of single-parent families.</em></strong> After parents get divorced, children may live mainly with one parent. Another factor is that <strong><em>financial difficulties can lead to single-parent families.</em></strong> Some families cannot maintain a stable family life because of financial pressure. A further reason is that <strong><em>personal choices and changing family values can also lead to single-parent families.</em></strong> Some people choose to raise children alone because they want a life that better suits their personal circumstances.\n\n<strong>This issue also leads to several consequences.</strong> One major effect is that <strong><em>single-parent families can create financial pressure on parents.</em></strong> One parent has to cover most of the costs for the children and the family. Another consequence is that <strong><em>single parents may have less time for their children.</em></strong> They often have to work more to earn enough money for daily life. A further impact is that <strong><em>children in single-parent families may experience emotional difficulties.</em></strong> They may feel sad or lack attention from both parents.\n\nIn conclusion, <strong>single-parent families</strong> are influenced by various causes and have important effects. These factors show that it has significant impacts on society. Understanding them can help people find better ways to address this issue.",
+          "translation_b1": "Trong những năm gần đây, <strong>sự gia tăng của các gia đình đơn thân</strong> đã trở thành một chủ đề quan trọng trong xã hội hiện đại. Vấn đề này đã thu hút sự chú ý đáng kể. <strong>Bài tiểu luận này sẽ tìm hiểu cả nguyên nhân và tác động của vấn đề này.</strong>\n\n<strong>Vấn đề này có thể do một số yếu tố gây ra.</strong> Một nguyên nhân chính là <strong><em>ly hôn là một nguyên nhân phổ biến dẫn đến gia đình đơn thân.</em></strong> Sau khi cha mẹ ly hôn, con cái có thể sống chủ yếu với một trong hai người. Một yếu tố khác là <strong><em>khó khăn tài chính có thể dẫn đến gia đình đơn thân.</em></strong> Một số gia đình không đủ khả năng duy trì một cuộc sống gia đình ổn định do áp lực kinh tế. Một lý do nữa là <strong><em>những lựa chọn cá nhân và quan niệm gia đình thay đổi cũng có thể dẫn đến gia đình đơn thân.</em></strong> Một số người lựa chọn nuôi con một mình vì họ muốn có một cuộc sống phù hợp hơn với hoàn cảnh cá nhân.\n\n<strong>Vấn đề này cũng dẫn đến một số hậu quả.</strong> Một tác động lớn là <strong><em>gia đình đơn thân có thể tạo ra áp lực tài chính cho cha hoặc mẹ.</em></strong> Một người phải chịu phần lớn chi phí cho con cái và gia đình. Một hậu quả khác là <strong><em>cha mẹ đơn thân có thể có ít thời gian dành cho con cái.</em></strong> Họ thường phải làm việc nhiều hơn để kiếm đủ tiền trang trải cuộc sống. Một tác động nữa là <strong><em>trẻ em trong gia đình đơn thân có thể gặp một số khó khăn về cảm xúc.</em></strong> Các em có thể cảm thấy buồn hoặc thiếu sự quan tâm từ cả cha và mẹ.\n\nTóm lại, <strong>gia đình đơn thân</strong> chịu ảnh hưởng bởi nhiều nguyên nhân và gây ra những tác động quan trọng. Những yếu tố này cho thấy nó có ảnh hưởng đáng kể đến xã hội. Việc hiểu rõ chúng có thể giúp mọi người tìm ra những cách tốt hơn để giải quyết vấn đề này.",
+          "sample_b2": "In recent years, <strong>the prevalence of single-parent families</strong> has become an increasingly significant issue in modern society. This trend has raised concerns among researchers and policymakers. <strong>This essay will examine both the causes and the effects of this issue.</strong>\n\n<strong>This trend is driven by several underlying factors.</strong> One primary cause is that <strong><em>divorce and family breakdown are important causes of single-parent families.</em></strong> Long-term conflicts may lead parents to end their marriage. After divorce, children often live mainly with one parent. Another contributing factor is that <strong><em>financial and economic pressure can also contribute to the growth of single-parent families.</em></strong> Financial difficulties can create serious conflicts between parents. Long-term problems may make it difficult for families to maintain a stable life. A further aspect to consider is that <strong><em>personal choices and changing social values also contribute to this trend.</em></strong> Some people choose to raise children alone rather than remain in an unsuitable relationship. Modern society also accepts different family structures more than in the past.\n\n<strong>This development produces several notable consequences.</strong> One major effect is that <strong><em>single-parent families can create significant financial pressure on parents.</em></strong> One parent has to cover most of the costs of housing, education, and children's daily needs. This may require parents to work longer hours or find additional sources of income. Another consequence is that <strong><em>single-parent families can reduce the amount of time and support children receive from their parents.</em></strong> Single parents often have to balance work and childcare responsibilities. Therefore, they may have less time to talk to, care for, and support their children. A further concern is that <strong><em>children in single-parent families may experience emotional and social difficulties.</em></strong> They may feel sad, lonely, or stressed because one parent is not present. These feelings may affect how they communicate and interact with others.\n\nIn conclusion, <strong>single-parent families</strong> stem from several key factors and result in far-reaching effects. These points highlight the complex nature of this issue. A comprehensive understanding of both aspects is essential for developing effective responses.",
+          "translation_b2": "Trong những năm gần đây, <strong>sự phổ biến của các gia đình đơn thân</strong> đã trở thành một vấn đề ngày càng đáng kể trong xã hội hiện đại. Xu hướng này đã làm dấy lên mối lo ngại trong giới nghiên cứu và các nhà hoạch định chính sách. <strong>Bài tiểu luận này sẽ xem xét cả nguyên nhân và tác động của vấn đề này.</strong>\n\n<strong>Xu hướng này được thúc đẩy bởi một số yếu tố tiềm ẩn.</strong> Một nguyên nhân chính là <strong><em>ly hôn và sự tan vỡ của gia đình là những nguyên nhân quan trọng dẫn đến gia đình đơn thân.</em></strong> Những mâu thuẫn kéo dài có thể khiến cha mẹ quyết định chấm dứt cuộc hôn nhân. Sau khi ly hôn, con cái thường sống chủ yếu với một trong hai người. Một yếu tố đóng góp khác là <strong><em>áp lực tài chính và kinh tế cũng có thể góp phần làm gia tăng các gia đình đơn thân.</em></strong> Khó khăn về tiền bạc có thể gây ra những mâu thuẫn nghiêm trọng giữa cha mẹ. Những vấn đề kéo dài có thể khiến gia đình không thể duy trì cuộc sống ổn định. Một khía cạnh nữa cần xem xét là <strong><em>những lựa chọn cá nhân và sự thay đổi trong quan niệm xã hội về gia đình cũng góp phần vào xu hướng này.</em></strong> Một số người lựa chọn nuôi con một mình thay vì duy trì một mối quan hệ không phù hợp. Xã hội hiện đại cũng chấp nhận nhiều hình thức gia đình khác nhau hơn trước.\n\n<strong>Sự phát triển này tạo ra một số hậu quả đáng chú ý.</strong> Một tác động lớn là <strong><em>gia đình đơn thân có thể tạo ra áp lực tài chính đáng kể cho cha hoặc mẹ.</em></strong> Một người phải chịu phần lớn chi phí cho nhà ở, giáo dục và các nhu cầu hằng ngày của con cái. Điều này có thể khiến cha mẹ phải làm việc nhiều giờ hơn hoặc tìm thêm nguồn thu nhập. Một hậu quả khác là <strong><em>gia đình đơn thân có thể làm giảm lượng thời gian và sự hỗ trợ mà trẻ nhận được từ cha mẹ.</em></strong> Cha mẹ đơn thân thường phải cân bằng giữa công việc và việc chăm sóc con cái. Vì vậy, họ có thể có ít thời gian hơn để trò chuyện, chăm sóc và hỗ trợ con. Một mối lo ngại nữa là <strong><em>trẻ em trong gia đình đơn thân có thể gặp một số khó khăn về cảm xúc và xã hội.</em></strong> Các em có thể cảm thấy buồn, cô đơn hoặc căng thẳng vì thiếu sự hiện diện của một phụ huynh. Những cảm xúc này có thể ảnh hưởng đến cách các em giao tiếp và hòa nhập với những người khác.\n\nTóm lại, <strong>gia đình đơn thân</strong> bắt nguồn từ một số yếu tố chính và dẫn đến những tác động sâu rộng. Những điểm này làm nổi bật tính chất phức tạp của vấn đề này. Việc hiểu biết toàn diện về cả hai khía cạnh là điều cần thiết để phát triển các giải pháp ứng phó hiệu quả."
+        }
       },
       {
         "id": 10,
