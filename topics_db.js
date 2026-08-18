@@ -30453,10 +30453,338 @@ const ESSAY_DATA = [
         "id": 21,
         "title_en": "Children should be allowed to use mobile phones at school.",
         "title_vi": "Trẻ em nên được phép sử dụng điện thoại di động ở trường học.",
-        "paraphrases": [],
+        "paraphrases": [
+          {
+            "en": "children should be allowed to use mobile phones at school",
+            "vi": "trẻ em nên được phép sử dụng điện thoại ở trường"
+          },
+          {
+            "en": "permitting students to use smartphones on school premises",
+            "vi": "cho phép học sinh sử dụng điện thoại trong khuôn viên trường"
+          },
+          {
+            "en": "integrating mobile devices into the classroom environment",
+            "vi": "tích hợp thiết bị di động vào môi trường lớp học"
+          },
+          {
+            "en": "authorizing phone usage for educational purposes in schools",
+            "vi": "cho phép dùng điện thoại vì mục đích giáo dục ở trường học"
+          }
+        ],
         "context": "Mobile phones have become an essential part of modern life and are widely used for communication, learning, and accessing information. In schools, some students use mobile phones for educational purposes, such as searching for information, using learning applications, and communicating with teachers or classmates. While some people believe that mobile phones can support learning, others are concerned that they may distract students and negatively affect their academic performance.",
         "prompt": "What is your opinion on the view that children should be allowed to use mobile phones at school? Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "tags": "[Opinion / Agree]",
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "LÝ DO 01",
+                "collocations": [
+                  {
+                    "en": "support learning",
+                    "vi": "hỗ trợ việc học"
+                  },
+                  {
+                    "en": "find necessary information",
+                    "vi": "tìm kiếm thông tin cần thiết"
+                  },
+                  {
+                    "en": "learning applications",
+                    "vi": "các ứng dụng học tập"
+                  },
+                  {
+                    "en": "understand lessons",
+                    "vi": "hiểu bài học"
+                  },
+                  {
+                    "en": "useful learning tools",
+                    "vi": "công cụ học tập hữu ích"
+                  }
+                ],
+                "point_vi": "Điện thoại có thể hỗ trợ học sinh trong quá trình học tập.",
+                "point_en": "Mobile phones can support students in their learning.",
+                "evidence_vi": "Học sinh có thể sử dụng điện thoại để tìm kiếm thông tin cần thiết. Các em cũng có thể sử dụng từ điển và các ứng dụng học tập. Những công cụ này giúp các em hiểu bài và học từ mới dễ hơn. Vì vậy, điện thoại có thể trở thành một công cụ học tập hữu ích nếu được sử dụng đúng cách.",
+                "evidence_en": "Students can use phones to find necessary information. They can also use dictionaries and learning applications. These tools help them understand lessons and learn new words more easily. Therefore, mobile phones can be useful learning tools if they are used properly."
+              },
+              {
+                "title": "LÝ DO 02",
+                "collocations": [
+                  {
+                    "en": "develop technology skills",
+                    "vi": "phát triển kỹ năng công nghệ"
+                  },
+                  {
+                    "en": "digital devices",
+                    "vi": "các thiết bị kỹ thuật số"
+                  },
+                  {
+                    "en": "controlled phone use",
+                    "vi": "sử dụng điện thoại có kiểm soát"
+                  },
+                  {
+                    "en": "prepare for the future",
+                    "vi": "chuẩn bị cho tương lai"
+                  },
+                  {
+                    "en": "future study and work",
+                    "vi": "học tập và công việc tương lai"
+                  }
+                ],
+                "point_vi": "Việc sử dụng điện thoại ở trường có thể giúp học sinh phát triển kỹ năng sử dụng công nghệ.",
+                "point_en": "Using mobile phones at school can help students develop technology skills.",
+                "evidence_vi": "Học sinh ngày càng cần sử dụng các thiết bị kỹ thuật số trong học tập và công việc. Sử dụng điện thoại cho các nhiệm vụ học tập giúp các em làm quen với công nghệ. Những kỹ năng này có thể hữu ích trong học tập và công việc sau này. Do đó, việc sử dụng điện thoại có kiểm soát có thể giúp học sinh chuẩn bị tốt hơn cho tương lai.",
+                "evidence_en": "Students increasingly need to use digital devices for study and work. Using phones for learning tasks helps them become familiar with technology. These skills can be useful for their future study and work. Therefore, controlled phone use can help students prepare better for the future."
+              },
+              {
+                "title": "LÝ DO 03",
+                "collocations": [
+                  {
+                    "en": "communicate with teachers",
+                    "vi": "giao tiếp với giáo viên"
+                  },
+                  {
+                    "en": "discuss homework",
+                    "vi": "thảo luận bài tập về nhà"
+                  },
+                  {
+                    "en": "group learning",
+                    "vi": "học nhóm"
+                  },
+                  {
+                    "en": "search for information",
+                    "vi": "tìm kiếm thông tin"
+                  },
+                  {
+                    "en": "support communication",
+                    "vi": "hỗ trợ giao tiếp"
+                  }
+                ],
+                "point_vi": "Điện thoại cũng giúp học sinh trao đổi thông tin với giáo viên và bạn bè dễ dàng hơn.",
+                "point_en": "Mobile phones also help students communicate with teachers and classmates more easily.",
+                "evidence_vi": "Học sinh có thể trao đổi về bài tập hoặc các hoạt động học tập. Các em có thể nhanh chóng tìm kiếm thông tin khi cần. Điều này giúp việc học nhóm trở nên thuận tiện hơn. Vì vậy, điện thoại có thể hỗ trợ cả giao tiếp và việc học ở trường.",
+                "evidence_en": "Students can discuss homework or learning activities. They can quickly search for information when necessary. This makes group learning more convenient. Therefore, mobile phones can support both communication and learning at school."
+              }
+            ],
+            "drawbacks": []
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "LÝ DO 01",
+                "collocations": [
+                  {
+                    "en": "pedagogical resources expansion",
+                    "vi": "mở rộng nguồn tài liệu sư phạm"
+                  },
+                  {
+                    "en": "instant information retrieval",
+                    "vi": "truy xuất thông tin tức thì"
+                  },
+                  {
+                    "en": "multimedia learning apps",
+                    "vi": "ứng dụng học tập đa phương tiện"
+                  },
+                  {
+                    "en": "interactive academic content",
+                    "vi": "nội dung học thuật tương tác"
+                  },
+                  {
+                    "en": "structured teacher guidance",
+                    "vi": "sự hướng dẫn có cấu trúc của giáo viên"
+                  }
+                ],
+                "point_vi": "Điện thoại thông minh có thể mở rộng các nguồn tài liệu mà học sinh có thể sử dụng trong quá trình học.",
+                "point_en": "Smartphones can expand the range of learning resources available to students.",
+                "evidence_vi": "Học sinh có thể nhanh chóng tìm kiếm thông tin liên quan đến bài học. Các em cũng có thể sử dụng từ điển trực tuyến, video giáo dục và các ứng dụng học tập. Những nguồn tài liệu này giúp học sinh hiểu những nội dung khó theo nhiều cách khác nhau. Ví dụ, trong một giờ học tiếng Anh, học sinh có thể sử dụng từ điển để kiểm tra cách phát âm hoặc nghĩa của từ mới. Vì vậy, khi được sử dụng dưới sự hướng dẫn của giáo viên, điện thoại có thể nâng cao hiệu quả học tập.",
+                "evidence_en": "Students can quickly search for information related to their lessons. They can also use online dictionaries, educational videos, and learning applications. These resources help students understand difficult content in different ways. For example, in an English lesson, students can use a dictionary to check the pronunciation or meaning of new words. Therefore, when used under teachers' guidance, mobile phones can improve learning effectiveness."
+              },
+              {
+                "title": "LÝ DO 02",
+                "collocations": [
+                  {
+                    "en": "digital literacy acquisition",
+                    "vi": "tiếp thu năng lực kỹ thuật số"
+                  },
+                  {
+                    "en": "technological fluency",
+                    "vi": "sự thành thạo công nghệ"
+                  },
+                  {
+                    "en": "digital workflow familiarization",
+                    "vi": "làm quen quy trình làm việc số"
+                  },
+                  {
+                    "en": "online academic tasks",
+                    "vi": "nhiệm vụ học thuật trực tuyến"
+                  },
+                  {
+                    "en": "future workplace readiness",
+                    "vi": "sự sẵn sàng cho nơi làm việc tương lai"
+                  }
+                ],
+                "point_vi": "Việc sử dụng thiết bị di động một cách có mục đích có thể giúp học sinh chuẩn bị cho môi trường học tập và làm việc hiện đại.",
+                "point_en": "Purposeful use of mobile devices can prepare students for modern study and work environments.",
+                "evidence_vi": "Công nghệ ngày càng được sử dụng phổ biến trong giáo dục và nơi làm việc. Học sinh cần biết cách tìm kiếm, xử lý và chia sẻ thông tin bằng các công cụ kỹ thuật số. Việc sử dụng điện thoại cho các nhiệm vụ học tập có thể giúp các em thực hành những kỹ năng này. Ví dụ, học sinh có thể sử dụng điện thoại để tìm tài liệu, tạo nội dung hoặc làm bài tập trực tuyến. Nhờ đó, các em có thể trở nên tự tin hơn khi sử dụng công nghệ trong học tập và công việc tương lai.",
+                "evidence_en": "Technology is increasingly used in education and the workplace. Students need to know how to find, process, and share information using digital tools. Using phones for academic tasks allows them to practise these skills. For example, students can use phones to find materials, create content, or complete online assignments. As a result, they can become more confident in using technology for future study and work."
+              },
+              {
+                "title": "LÝ DO 03",
+                "collocations": [
+                  {
+                    "en": "collaborative scholastic engagement",
+                    "vi": "gắn kết học thuật hợp tác"
+                  },
+                  {
+                    "en": "instant peer communication",
+                    "vi": "trao đổi tức thì với bạn cùng lớp"
+                  },
+                  {
+                    "en": "seamless resource sharing",
+                    "vi": "chia sẻ tài liệu liền mạch"
+                  },
+                  {
+                    "en": "group presentation coordination",
+                    "vi": "phối hợp thuyết trình nhóm"
+                  },
+                  {
+                    "en": "cooperative learning dynamics",
+                    "vi": "động lực học tập hợp tác"
+                  }
+                ],
+                "point_vi": "Điện thoại có thể tạo điều kiện thuận lợi cho việc trao đổi và hợp tác giữa học sinh với giáo viên và bạn bè.",
+                "point_en": "Mobile phones can facilitate communication and cooperation between students, teachers, and classmates.",
+                "evidence_vi": "Học sinh có thể trao đổi nhanh chóng về bài tập, dự án và các nhiệm vụ chung. Các em có thể chia sẻ tài liệu hoặc thông tin cần thiết với các thành viên trong nhóm. Điều này giúp việc học nhóm trở nên thuận tiện và hiệu quả hơn. Ví dụ, một nhóm học sinh có thể sử dụng điện thoại để chia sẻ tài liệu khi cùng chuẩn bị một bài thuyết trình. Do đó, điện thoại có thể tăng cường sự phối hợp trong học tập nếu học sinh tuân thủ các quy định của nhà trường.",
+                "evidence_en": "Students can communicate quickly about homework, projects, and shared tasks. They can share necessary materials or information with group members. This makes collaborative learning more convenient and effective. For example, a group of students can use their phones to share materials while preparing a presentation. Therefore, mobile phones can improve cooperation in learning if students follow school rules."
+              }
+            ],
+            "drawbacks": []
+          },
+          "vocab": [
+            {
+              "en": "support learning",
+              "vi": "hỗ trợ việc học"
+            },
+            {
+              "en": "find necessary information",
+              "vi": "tìm kiếm thông tin cần thiết"
+            },
+            {
+              "en": "learning applications",
+              "vi": "các ứng dụng học tập"
+            },
+            {
+              "en": "understand lessons",
+              "vi": "hiểu bài học"
+            },
+            {
+              "en": "useful learning tools",
+              "vi": "công cụ học tập hữu ích"
+            },
+            {
+              "en": "develop technology skills",
+              "vi": "phát triển kỹ năng công nghệ"
+            },
+            {
+              "en": "digital devices",
+              "vi": "các thiết bị kỹ thuật số"
+            },
+            {
+              "en": "controlled phone use",
+              "vi": "sử dụng điện thoại có kiểm soát"
+            },
+            {
+              "en": "prepare for the future",
+              "vi": "chuẩn bị cho tương lai"
+            },
+            {
+              "en": "future study and work",
+              "vi": "học tập và công việc tương lai"
+            },
+            {
+              "en": "communicate with teachers",
+              "vi": "giao tiếp với giáo viên"
+            },
+            {
+              "en": "discuss homework",
+              "vi": "thảo luận bài tập về nhà"
+            },
+            {
+              "en": "group learning",
+              "vi": "học nhóm"
+            },
+            {
+              "en": "search for information",
+              "vi": "tìm kiếm thông tin"
+            },
+            {
+              "en": "support communication",
+              "vi": "hỗ trợ giao tiếp"
+            },
+            {
+              "en": "pedagogical resources expansion",
+              "vi": "mở rộng nguồn tài liệu sư phạm"
+            },
+            {
+              "en": "instant information retrieval",
+              "vi": "truy xuất thông tin tức thì"
+            },
+            {
+              "en": "multimedia learning apps",
+              "vi": "ứng dụng học tập đa phương tiện"
+            },
+            {
+              "en": "interactive academic content",
+              "vi": "nội dung học thuật tương tác"
+            },
+            {
+              "en": "structured teacher guidance",
+              "vi": "sự hướng dẫn có cấu trúc của giáo viên"
+            },
+            {
+              "en": "digital literacy acquisition",
+              "vi": "tiếp thu năng lực kỹ thuật số"
+            },
+            {
+              "en": "technological fluency",
+              "vi": "sự thành thạo công nghệ"
+            },
+            {
+              "en": "digital workflow familiarization",
+              "vi": "làm quen quy trình làm việc số"
+            },
+            {
+              "en": "online academic tasks",
+              "vi": "nhiệm vụ học thuật trực tuyến"
+            },
+            {
+              "en": "future workplace readiness",
+              "vi": "sự sẵn sàng cho nơi làm việc tương lai"
+            },
+            {
+              "en": "collaborative scholastic engagement",
+              "vi": "gắn kết học thuật hợp tác"
+            },
+            {
+              "en": "instant peer communication",
+              "vi": "trao đổi tức thì với bạn cùng lớp"
+            },
+            {
+              "en": "seamless resource sharing",
+              "vi": "chia sẻ tài liệu liền mạch"
+            },
+            {
+              "en": "group presentation coordination",
+              "vi": "phối hợp thuyết trình nhóm"
+            },
+            {
+              "en": "cooperative learning dynamics",
+              "vi": "động lực học tập hợp tác"
+            }
+          ],
+          "sample_b1": "In recent years, the idea that <strong><em>children should be allowed to use mobile phones at school</em></strong> has become a common topic of discussion. From my perspective, <strong>I completely agree with this opinion for several important reasons.</strong> This essay will present the main arguments supporting my viewpoint.\n\nThe first reason why I agree with this opinion is that <strong><em>mobile phones can support students in their learning.</em></strong> Students can use phones to find necessary information. They can also use dictionaries and learning applications. These tools help them understand lessons and learn new words more easily. Therefore, mobile phones can be useful learning tools if they are used properly.\n\nAnother important reason is that <strong><em>using mobile phones at school can help students develop technology skills.</em></strong> Students increasingly need to use digital devices for study and work. Using phones for learning tasks helps them become familiar with technology. These skills can be useful for their future study and work. Therefore, controlled phone use can help students prepare better for the future.\n\nA further reason supporting my viewpoint is that <strong><em>mobile phones also help students communicate with teachers and classmates more easily.</em></strong> Students can discuss homework or learning activities. They can quickly search for information when necessary. This makes group learning more convenient. Therefore, mobile phones can support both communication and learning at school.\n\nIn conclusion, <strong>I strongly agree with the idea</strong> that <strong><em>children should be allowed to use mobile phones at school.</em></strong> The reasons above clearly explain why I support this viewpoint. With clear rules and proper guidance from teachers, mobile phones can become valuable educational aids.",
+          "translation_b1": "Trong những năm gần đây, quan điểm cho rằng <strong><em>trẻ em nên được phép sử dụng điện thoại di động ở trường học</em></strong> đã trở thành một chủ đề thảo luận phổ biến. Theo quan điểm của tôi, <strong>tôi hoàn toàn đồng ý với ý kiến này vì một số lý do quan trọng.</strong> Bài tiểu luận này sẽ trình bày những lập luận chính ủng hộ quan điểm của tôi.\n\nLý do đầu tiên khiến tôi đồng ý với ý kiến này là <strong><em>điện thoại có thể hỗ trợ học sinh trong quá trình học tập.</em></strong> Học sinh có thể sử dụng điện thoại để tìm kiếm thông tin cần thiết. Các em cũng có thể sử dụng từ điển và các ứng dụng học tập. Những công cụ này giúp các em hiểu bài và học từ mới dễ hơn. Vì vậy, điện thoại có thể trở thành một công cụ học tập hữu ích nếu được sử dụng đúng cách.\n\nMột lý do quan trọng khác là <strong><em>việc sử dụng điện thoại ở trường có thể giúp học sinh phát triển kỹ năng sử dụng công nghệ.</em></strong> Học sinh ngày càng cần sử dụng các thiết bị kỹ thuật số trong học tập và công việc. Sử dụng điện thoại cho các nhiệm vụ học tập giúp các em làm quen với công nghệ. Những kỹ năng này có thể hữu ích trong học tập và công việc sau này. Do đó, việc sử dụng điện thoại có kiểm soát có thể giúp học sinh chuẩn bị tốt hơn cho tương lai.\n\nMột lý do nữa ủng hộ quan điểm của tôi là <strong><em>điện thoại cũng giúp học sinh trao đổi thông tin với giáo viên và bạn bè dễ dàng hơn.</em></strong> Học sinh có thể trao đổi về bài tập hoặc các hoạt động học tập. Các em có thể nhanh chóng tìm kiếm thông tin khi cần. Điều này giúp việc học nhóm trở nên thuận tiện hơn. Vì vậy, điện thoại có thể hỗ trợ cả giao tiếp và việc học ở trường.\n\nTóm lại, <strong>tôi hoàn toàn đồng ý với ý kiến</strong> cho rằng <strong><em>trẻ em nên được phép sử dụng điện thoại di động ở trường học.</em></strong> Những lý do trên giải thích rõ ràng tại sao tôi ủng hộ quan điểm này. Với những quy định rõ ràng và sự hướng dẫn đúng đắn từ giáo viên, điện thoại có thể trở thành công cụ hỗ trợ giáo dục giá trị."
+        }
       },
       {
         "id": 22,
