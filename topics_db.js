@@ -24005,7 +24005,335 @@ const ESSAY_DATA = [
         "tags": "[Causes]",
         "context": "In recent years, an increasing number of young people have chosen to leave their companies and start their own businesses. Instead of pursuing long-term careers in established organizations, many young professionals are becoming entrepreneurs and creating their own career paths. This trend has become more common in many countries and has attracted considerable attention from both employers and policymakers.",
         "prompt": "Write an essay to an educated reader to discuss the causes of young people leaving their companies to start their own businesses. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "paraphrases": [
+          {
+            "en": "young people leaving companies to start businesses",
+            "vi": "người trẻ rời công ty để khởi nghiệp"
+          },
+          {
+            "en": "young professionals pursuing entrepreneurship",
+            "vi": "nhân sự trẻ theo đuổi con đường khởi nghiệp"
+          },
+          {
+            "en": "the rise of youth entrepreneurship",
+            "vi": "sự gia tăng tinh thần khởi nghiệp ở giới trẻ"
+          },
+          {
+            "en": "transitioning from corporate jobs to self-employment",
+            "vi": "chuyển từ làm thuê sang tự làm chủ"
+          }
+        ],
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "CAUSE 01",
+                "collocations": [
+                  {
+                    "en": "control over work",
+                    "vi": "quyền kiểm soát công việc"
+                  },
+                  {
+                    "en": "make own decisions",
+                    "vi": "tự đưa ra quyết định"
+                  },
+                  {
+                    "en": "flexible way of working",
+                    "vi": "cách làm việc linh hoạt"
+                  },
+                  {
+                    "en": "work satisfaction",
+                    "vi": "sự hài lòng với công việc"
+                  },
+                  {
+                    "en": "independent schedule",
+                    "vi": "lịch trình tự chủ"
+                  }
+                ],
+                "point_vi": "Nhiều người trẻ muốn có nhiều quyền chủ động hơn trong công việc.",
+                "point_en": "Many young people want to have more control over their work.",
+                "evidence_vi": "Họ có thể tự đưa ra quyết định thay vì phải làm theo yêu cầu của công ty. Điều này giúp họ có cách làm việc linh hoạt hơn. Vì vậy, họ có thể cảm thấy thoải mái và hài lòng hơn với công việc của mình.",
+                "evidence_en": "They can make their own decisions instead of following company rules. This gives them a more flexible way of working. As a result, they may feel more comfortable and satisfied with their work."
+              },
+              {
+                "title": "CAUSE 02",
+                "collocations": [
+                  {
+                    "en": "earn more money",
+                    "vi": "kiếm nhiều tiền hơn"
+                  },
+                  {
+                    "en": "financial expectations",
+                    "vi": "kỳ vọng tài chính"
+                  },
+                  {
+                    "en": "successful business",
+                    "vi": "doanh nghiệp thành công"
+                  },
+                  {
+                    "en": "self-employment",
+                    "vi": "tự làm chủ / tự kinh doanh"
+                  },
+                  {
+                    "en": "improve financial situation",
+                    "vi": "cải thiện tình hình tài chính"
+                  }
+                ],
+                "point_vi": "Một số người trẻ muốn có cơ hội kiếm được nhiều tiền hơn.",
+                "point_en": "Some young people want opportunities to earn more money.",
+                "evidence_vi": "Mức lương ở một số công ty có thể không đáp ứng được mong muốn tài chính của họ. Trong khi đó, một doanh nghiệp thành công có thể mang lại thu nhập cao hơn. Do đó, họ có thể lựa chọn tự kinh doanh để cải thiện tình hình tài chính.",
+                "evidence_en": "Salaries in some companies may not meet their financial expectations. Meanwhile, a successful business can provide a higher income. Therefore, they may choose self-employment to improve their financial situation."
+              },
+              {
+                "title": "CAUSE 03",
+                "collocations": [
+                  {
+                    "en": "development of technology",
+                    "vi": "sự phát triển công nghệ"
+                  },
+                  {
+                    "en": "promote and sell products",
+                    "vi": "quảng bá và bán sản phẩm"
+                  },
+                  {
+                    "en": "online business",
+                    "vi": "kinh doanh trực tuyến"
+                  },
+                  {
+                    "en": "traditional shop",
+                    "vi": "cửa hàng truyền thống"
+                  },
+                  {
+                    "en": "start a business",
+                    "vi": "bắt đầu kinh doanh"
+                  }
+                ],
+                "point_vi": "Sự phát triển của công nghệ đã làm việc bắt đầu một doanh nghiệp trở nên dễ dàng hơn.",
+                "point_en": "The development of technology has made it easier to start a business.",
+                "evidence_vi": "Người trẻ có thể quảng bá và bán sản phẩm thông qua Internet. Họ không nhất thiết phải có một cửa hàng truyền thống. Nhờ đó, việc bắt đầu kinh doanh trở nên thuận tiện hơn.",
+                "evidence_en": "Young people can promote and sell products through the Internet. They do not necessarily need a traditional shop. As a result, starting a business has become more convenient."
+              }
+            ],
+            "drawbacks": []
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "CAUSE 01",
+                "collocations": [
+                  {
+                    "en": "autonomy in the workplace",
+                    "vi": "sự tự chủ nơi làm việc"
+                  },
+                  {
+                    "en": "greater operational control",
+                    "vi": "quyền kiểm soát vận hành lớn hơn"
+                  },
+                  {
+                    "en": "flexible working arrangements",
+                    "vi": "sự sắp xếp công việc linh hoạt"
+                  },
+                  {
+                    "en": "entrepreneurial freedom",
+                    "vi": "sự tự do khởi nghiệp"
+                  },
+                  {
+                    "en": "autonomous decision-making",
+                    "vi": "tự chủ ra quyết định"
+                  }
+                ],
+                "point_vi": "Mong muốn được tự chủ hơn trong công việc là một động lực quan trọng khiến người trẻ rời các công ty.",
+                "point_en": "The desire for greater independence at work is an important motivation for young people to leave companies.",
+                "evidence_vi": "Làm chủ doanh nghiệp cho phép họ tự đưa ra quyết định về công việc và cách vận hành. Điều này mang lại nhiều quyền kiểm soát hơn đối với thời gian và cách làm việc của họ. Ví dụ, một người trẻ có thể tự quyết định thời gian làm việc hoặc lựa chọn dự án mà mình muốn thực hiện. Vì vậy, tự kinh doanh có thể trở thành một lựa chọn hấp dẫn đối với những người coi trọng sự linh hoạt.",
+                "evidence_en": "Running a business allows them to make their own decisions about their work and operations. This gives them greater control over their time and working methods. For example, a young entrepreneur can decide when to work or choose the projects they want to take on. Therefore, self-employment can be an attractive option for people who value flexibility."
+              },
+              {
+                "title": "CAUSE 02",
+                "collocations": [
+                  {
+                    "en": "financial advancement",
+                    "vi": "sự thăng tiến về tài chính"
+                  },
+                  {
+                    "en": "limited corporate remuneration",
+                    "vi": "thu nhập doanh nghiệp bị giới hạn"
+                  },
+                  {
+                    "en": "substantial profit margins",
+                    "vi": "tỷ suất lợi nhuận đáng kể"
+                  },
+                  {
+                    "en": "wealth generation potential",
+                    "vi": "tiềm năng tạo dựng của cải"
+                  },
+                  {
+                    "en": "escalating earning capacity",
+                    "vi": "năng lực gia tăng thu nhập"
+                  }
+                ],
+                "point_vi": "Mong muốn cải thiện thu nhập cũng thúc đẩy nhiều người trẻ chuyển sang tự kinh doanh.",
+                "point_en": "The desire for higher income also encourages many young people to become self-employed.",
+                "evidence_vi": "Một số nhân viên cảm thấy mức lương và cơ hội thăng tiến trong công ty hiện tại còn hạn chế. Do đó, họ tìm kiếm những cách khác để cải thiện tình hình tài chính. Chẳng hạn, một doanh nghiệp thành công có thể mang lại lợi nhuận cao hơn mức lương cố định. Điều này khiến việc sở hữu một doanh nghiệp trở nên hấp dẫn đối với những người muốn tăng thu nhập trong dài hạn.",
+                "evidence_en": "Some employees feel that their salaries and promotion opportunities in their current companies are limited. As a result, they look for other ways to improve their financial situation. For instance, a successful business can provide higher profits than a fixed salary. This makes business ownership attractive to people who want to increase their income in the long term."
+              },
+              {
+                "title": "CAUSE 03",
+                "collocations": [
+                  {
+                    "en": "digital commerce platforms",
+                    "vi": "các nền tảng thương mại số"
+                  },
+                  {
+                    "en": "low initial capital requirements",
+                    "vi": "yêu cầu vốn ban đầu thấp"
+                  },
+                  {
+                    "en": "e-commerce accessibility",
+                    "vi": "khả năng tiếp cận thương mại điện tử"
+                  },
+                  {
+                    "en": "social media marketing",
+                    "vi": "tiếp thị qua mạng xã hội"
+                  },
+                  {
+                    "en": "democratization of entrepreneurship",
+                    "vi": "sự phổ cập hóa việc khởi nghiệp"
+                  }
+                ],
+                "point_vi": "Những tiến bộ công nghệ đã làm giảm một số khó khăn khi bắt đầu kinh doanh.",
+                "point_en": "Technological advances have reduced some of the difficulties of starting a business.",
+                "evidence_vi": "Các nền tảng trực tuyến cho phép người trẻ quảng bá sản phẩm và tiếp cận khách hàng mà không cần đầu tư quá nhiều vào cửa hàng truyền thống. Nhờ đó, chi phí ban đầu có thể thấp hơn và việc tiếp cận thị trường trở nên dễ dàng hơn. Ví dụ, nhiều người trẻ có thể mở cửa hàng trực tuyến hoặc quảng bá dịch vụ thông qua mạng xã hội. Vì vậy, công nghệ đã tạo thêm cơ hội cho những người muốn rời công việc truyền thống và xây dựng sự nghiệp riêng.",
+                "evidence_en": "Online platforms allow young people to promote products and reach customers without investing heavily in traditional shops. As a result, initial costs can be lower and access to the market can become easier. For example, many young people can open online shops or promote services through social media. Therefore, technology has created more opportunities for people who want to leave traditional employment and build their own careers."
+              }
+            ],
+            "drawbacks": []
+          },
+          "vocab": [
+            {
+              "en": "control over work",
+              "vi": "quyền kiểm soát công việc"
+            },
+            {
+              "en": "make own decisions",
+              "vi": "tự đưa ra quyết định"
+            },
+            {
+              "en": "flexible way of working",
+              "vi": "cách làm việc linh hoạt"
+            },
+            {
+              "en": "work satisfaction",
+              "vi": "sự hài lòng với công việc"
+            },
+            {
+              "en": "independent schedule",
+              "vi": "lịch trình tự chủ"
+            },
+            {
+              "en": "earn more money",
+              "vi": "kiếm nhiều tiền hơn"
+            },
+            {
+              "en": "financial expectations",
+              "vi": "kỳ vọng tài chính"
+            },
+            {
+              "en": "successful business",
+              "vi": "doanh nghiệp thành công"
+            },
+            {
+              "en": "self-employment",
+              "vi": "tự làm chủ / tự kinh doanh"
+            },
+            {
+              "en": "improve financial situation",
+              "vi": "cải thiện tình hình tài chính"
+            },
+            {
+              "en": "development of technology",
+              "vi": "sự phát triển công nghệ"
+            },
+            {
+              "en": "promote and sell products",
+              "vi": "quảng bá và bán sản phẩm"
+            },
+            {
+              "en": "online business",
+              "vi": "kinh doanh trực tuyến"
+            },
+            {
+              "en": "traditional shop",
+              "vi": "cửa hàng truyền thống"
+            },
+            {
+              "en": "start a business",
+              "vi": "bắt đầu kinh doanh"
+            },
+            {
+              "en": "autonomy in the workplace",
+              "vi": "sự tự chủ nơi làm việc"
+            },
+            {
+              "en": "greater operational control",
+              "vi": "quyền kiểm soát vận hành lớn hơn"
+            },
+            {
+              "en": "flexible working arrangements",
+              "vi": "sự sắp xếp công việc linh hoạt"
+            },
+            {
+              "en": "entrepreneurial freedom",
+              "vi": "sự tự do khởi nghiệp"
+            },
+            {
+              "en": "autonomous decision-making",
+              "vi": "tự chủ ra quyết định"
+            },
+            {
+              "en": "financial advancement",
+              "vi": "sự thăng tiến về tài chính"
+            },
+            {
+              "en": "limited corporate remuneration",
+              "vi": "thu nhập doanh nghiệp bị giới hạn"
+            },
+            {
+              "en": "substantial profit margins",
+              "vi": "tỷ suất lợi nhuận đáng kể"
+            },
+            {
+              "en": "wealth generation potential",
+              "vi": "tiềm năng tạo dựng của cải"
+            },
+            {
+              "en": "escalating earning capacity",
+              "vi": "năng lực gia tăng thu nhập"
+            },
+            {
+              "en": "digital commerce platforms",
+              "vi": "các nền tảng thương mại số"
+            },
+            {
+              "en": "low initial capital requirements",
+              "vi": "yêu cầu vốn ban đầu thấp"
+            },
+            {
+              "en": "e-commerce accessibility",
+              "vi": "khả năng tiếp cận thương mại điện tử"
+            },
+            {
+              "en": "social media marketing",
+              "vi": "tiếp thị qua mạng xã hội"
+            },
+            {
+              "en": "democratization of entrepreneurship",
+              "vi": "sự phổ cập hóa việc khởi nghiệp"
+            }
+          ],
+          "sample_b1": "In recent years, <strong>young people leaving their companies to start their own businesses</strong> has become a common topic of discussion. This issue affects both individuals and society in different ways. <strong>This essay will discuss the main reasons for this trend.</strong>\n\nOne major reason is that <strong><em>many young people want to have more control over their work.</em></strong> They can make their own decisions instead of following company rules. This gives them a more flexible way of working. As a result, they may feel more comfortable and satisfied with their work.\n\nAnother contributing reason is that <strong><em>some young people want opportunities to earn more money.</em></strong> Salaries in some companies may not meet their financial expectations. Meanwhile, a successful business can provide a higher income. Therefore, they may choose self-employment to improve their financial situation.\n\nA further reason is that <strong><em>the development of technology has made it easier to start a business.</em></strong> Young people can promote and sell products through the Internet. They do not necessarily need a traditional shop. As a result, starting a business has become more convenient.\n\nIn conclusion, <strong>young people leaving their companies to start their own businesses</strong> is driven by several key reasons that affect both individuals and society. Understanding these reasons is important to understand the changing job market. With greater attention, this trend will continue to shape future careers.",
+          "translation_b1": "Trong những năm gần đây, <strong>việc người trẻ rời công ty để tự khởi nghiệp</strong> đã trở thành một chủ đề thảo luận phổ biến. Vấn đề này ảnh hưởng đến cả cá nhân và xã hội theo những cách khác nhau. <strong>Bài tiểu luận này sẽ thảo luận về những lý do chính dẫn đến xu hướng này.</strong>\n\nMột lý do chính là <strong><em>nhiều người trẻ muốn có nhiều quyền chủ động hơn trong công việc.</em></strong> Họ có thể tự đưa ra quyết định thay vì phải làm theo yêu cầu của công ty. Điều này giúp họ có cách làm việc linh hoạt hơn. Vì vậy, họ có thể cảm thấy thoải mái và hài lòng hơn với công việc của mình.\n\nMột lý do đóng góp khác là <strong><em>một số người trẻ muốn có cơ hội kiếm được nhiều tiền hơn.</em></strong> Mức lương ở một số công ty có thể không đáp ứng được mong muốn tài chính của họ. Trong khi đó, một doanh nghiệp thành công có thể mang lại thu nhập cao hơn. Do đó, họ có thể lựa chọn tự kinh doanh để cải thiện tình hình tài chính.\n\nMột lý do nữa là <strong><em>sự phát triển của công nghệ đã làm việc bắt đầu một doanh nghiệp trở nên dễ dàng hơn.</em></strong> Người trẻ có thể quảng bá và bán sản phẩm thông qua Internet. Họ không nhất thiết phải có một cửa hàng truyền thống. Nhờ đó, việc bắt đầu kinh doanh trở nên thuận tiện hơn.\n\nTóm lại, <strong>việc người trẻ rời công ty để tự khởi nghiệp</strong> được thúc đẩy bởi một số lý do chính ảnh hưởng đến cả cá nhân và xã hội. Việc hiểu rõ những lý do này là rất quan trọng để nắm bắt thị trường việc làm đang thay đổi. Với sự chú ý nhiều hơn, xu hướng này sẽ tiếp tục định hình sự nghiệp tương lai."
+        }
       },
       {
         "id": 17,
