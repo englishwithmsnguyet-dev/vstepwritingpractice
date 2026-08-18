@@ -9714,7 +9714,625 @@ const ESSAY_DATA = [
         "title_vi": "Nhảy việc",
         "context": "Nowadays, job hopping has become increasingly common, especially among young workers. Instead of staying with one company for a long time, many employees change jobs frequently to look for better salaries, new experiences, or more suitable working environments. Some people believe that job hopping can bring several benefits, while others argue that it may also create problems for both employees and companies.",
         "prompt": "Write an essay to an educated reader to discuss the advantages and disadvantages of job hopping. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "paraphrases": [
+          {
+            "en": "changing jobs frequently",
+            "vi": "thường xuyên thay đổi công việc"
+          },
+          {
+            "en": "shifting career paths regularly",
+            "vi": "chuyển đổi con đường sự nghiệp thường xuyên"
+          },
+          {
+            "en": "switching employers constantly",
+            "vi": "liên tục chuyển đổi người sử dụng lao động"
+          }
+        ],
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "ADVANTAGE 01",
+                "collocations": [
+                  {
+                    "en": "better salaries",
+                    "vi": "mức lương tốt hơn"
+                  },
+                  {
+                    "en": "offer higher salaries",
+                    "vi": "trả lương cao hơn"
+                  },
+                  {
+                    "en": "experience and skills",
+                    "vi": "kinh nghiệm và kỹ năng"
+                  },
+                  {
+                    "en": "increase income",
+                    "vi": "tăng thu nhập"
+                  },
+                  {
+                    "en": "financial rewards",
+                    "vi": "phần thưởng tài chính"
+                  }
+                ],
+                "point_vi": "Nhảy việc có thể giúp người lao động có mức lương tốt hơn.",
+                "point_en": "Job hopping can help workers get better salaries.",
+                "evidence_vi": "Nhân viên có thể tìm những công ty trả lương cao hơn cho kinh nghiệm và kỹ năng của họ.",
+                "evidence_en": "Employees can find companies that offer higher salaries for their experience and skills."
+              },
+              {
+                "title": "ADVANTAGE 02",
+                "collocations": [
+                  {
+                    "en": "new work experiences",
+                    "vi": "kinh nghiệm làm việc mới"
+                  },
+                  {
+                    "en": "different positions",
+                    "vi": "nhiều vị trí khác nhau"
+                  },
+                  {
+                    "en": "working environment",
+                    "vi": "môi trường làm việc"
+                  },
+                  {
+                    "en": "learn new skills",
+                    "vi": "học các kỹ năng mới"
+                  },
+                  {
+                    "en": "adapt to changes",
+                    "vi": "thích nghi với thay đổi"
+                  }
+                ],
+                "point_vi": "Nhảy việc giúp người lao động có thêm những kinh nghiệm làm việc mới.",
+                "point_en": "Job hopping gives workers new work experiences.",
+                "evidence_vi": "Họ có thể làm việc trong những vị trí hoặc môi trường khác nhau.",
+                "evidence_en": "They can work in different positions or environments."
+              },
+              {
+                "title": "ADVANTAGE 03",
+                "collocations": [
+                  {
+                    "en": "suit them better",
+                    "vi": "phù hợp hơn với bản thân"
+                  },
+                  {
+                    "en": "match career goals",
+                    "vi": "phù hợp với mục tiêu nghề nghiệp"
+                  },
+                  {
+                    "en": "personal interests",
+                    "vi": "sở thích cá nhân"
+                  },
+                  {
+                    "en": "suitable job",
+                    "vi": "công việc phù hợp"
+                  },
+                  {
+                    "en": "job satisfaction",
+                    "vi": "sự hài lòng trong công việc"
+                  }
+                ],
+                "point_vi": "Nhảy việc giúp người lao động tìm được công việc phù hợp hơn với bản thân.",
+                "point_en": "Job hopping helps workers find jobs that suit them better.",
+                "evidence_vi": "Họ có thể tìm một công việc phù hợp hơn với kỹ năng, sở thích và mục tiêu nghề nghiệp.",
+                "evidence_en": "They can find jobs that better match their skills, interests, and career goals."
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "DISADVANTAGE 01",
+                "collocations": [
+                  {
+                    "en": "financial instability",
+                    "vi": "sự thiếu ổn định về tài chính"
+                  },
+                  {
+                    "en": "lose income",
+                    "vi": "mất thu nhập"
+                  },
+                  {
+                    "en": "period between jobs",
+                    "vi": "khoảng thời gian giữa hai công việc"
+                  },
+                  {
+                    "en": "unemployment gap",
+                    "vi": "khoảng trống thất nghiệp"
+                  },
+                  {
+                    "en": "cover living costs",
+                    "vi": "chi trả chi phí sinh hoạt"
+                  }
+                ],
+                "point_vi": "Nhảy việc thường xuyên có thể gây ra sự thiếu ổn định về tài chính.",
+                "point_en": "Frequent job hopping may cause financial instability.",
+                "evidence_vi": "Người lao động có thể mất thu nhập trong thời gian giữa hai công việc.",
+                "evidence_en": "Workers may lose income during the period between two jobs."
+              },
+              {
+                "title": "DISADVANTAGE 02",
+                "collocations": [
+                  {
+                    "en": "limit career development",
+                    "vi": "hạn chế sự phát triển nghề nghiệp"
+                  },
+                  {
+                    "en": "develop expertise",
+                    "vi": "phát triển chuyên môn"
+                  },
+                  {
+                    "en": "reach higher positions",
+                    "vi": "đạt được các vị trí cao hơn"
+                  },
+                  {
+                    "en": "promotion opportunity",
+                    "vi": "cơ hội thăng tiến"
+                  },
+                  {
+                    "en": "short tenure",
+                    "vi": "thời gian làm việc ngắn"
+                  }
+                ],
+                "point_vi": "Nhảy việc quá thường xuyên có thể hạn chế sự phát triển nghề nghiệp.",
+                "point_en": "Job hopping too frequently may limit career development.",
+                "evidence_vi": "Người lao động có ít thời gian để phát triển chuyên môn và đạt được những vị trí cao hơn trong một công ty.",
+                "evidence_en": "Workers have less time to develop their expertise and reach higher positions in a company."
+              },
+              {
+                "title": "DISADVANTAGE 03",
+                "collocations": [
+                  {
+                    "en": "problems for companies",
+                    "vi": "vấn đề đối với các công ty"
+                  },
+                  {
+                    "en": "spend time and money",
+                    "vi": "tốn thời gian và tiền bạc"
+                  },
+                  {
+                    "en": "recruit new employees",
+                    "vi": "tuyển dụng nhân viên mới"
+                  },
+                  {
+                    "en": "training costs",
+                    "vi": "chi phí đào tạo"
+                  },
+                  {
+                    "en": "high staff turnover",
+                    "vi": "tỷ lệ luân chuyển nhân sự cao"
+                  }
+                ],
+                "point_vi": "Nhảy việc thường xuyên có thể gây ra nhiều vấn đề cho các công ty.",
+                "point_en": "Frequent job hopping can create several problems for companies.",
+                "evidence_vi": "Công ty phải mất thời gian và tiền bạc để tuyển dụng và đào tạo nhân viên mới.",
+                "evidence_en": "Companies have to spend time and money recruiting and training new employees."
+              }
+            ]
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "ADVANTAGE 01",
+                "collocations": [
+                  {
+                    "en": "financial rewards",
+                    "vi": "đãi ngộ tài chính"
+                  },
+                  {
+                    "en": "remuneration package",
+                    "vi": "gói đãi ngộ / lương thưởng"
+                  },
+                  {
+                    "en": "standard of living",
+                    "vi": "mức sống"
+                  },
+                  {
+                    "en": "willing to compensate",
+                    "vi": "sẵn sàng chi trả đãi ngộ"
+                  },
+                  {
+                    "en": "boost earning potential",
+                    "vi": "gia tăng tiềm năng thu nhập"
+                  }
+                ],
+                "point_vi": "Nhảy việc có thể mang lại mức lương và chế độ đãi ngộ tốt hơn.",
+                "point_en": "Job hopping can lead to better salaries and benefits.",
+                "evidence_vi": "Người lao động có thể tìm những công ty sẵn sàng trả nhiều tiền hơn cho kinh nghiệm và kỹ năng của họ. Điều này giúp họ cải thiện tình hình tài chính và mức sống.",
+                "evidence_en": "Workers can look for companies that are willing to pay more for their experience and skills. This can improve their financial situation and standard of living."
+              },
+              {
+                "title": "ADVANTAGE 02",
+                "collocations": [
+                  {
+                    "en": "diverse experience",
+                    "vi": "kinh nghiệm đa dạng"
+                  },
+                  {
+                    "en": "expand professional network",
+                    "vi": "mở rộng mạng lưới chuyên môn"
+                  },
+                  {
+                    "en": "ability to adapt",
+                    "vi": "khả năng thích nghi"
+                  },
+                  {
+                    "en": "broaden knowledge",
+                    "vi": "mở rộng kiến thức"
+                  },
+                  {
+                    "en": "versatile skill set",
+                    "vi": "bộ kỹ năng linh hoạt"
+                  }
+                ],
+                "point_vi": "Nhảy việc giúp người lao động tích lũy nhiều kinh nghiệm và kỹ năng đa dạng.",
+                "point_en": "Job hopping allows workers to gain diverse experience and skills.",
+                "evidence_vi": "Họ có thể làm việc ở nhiều vị trí và môi trường khác nhau. Điều này giúp họ mở rộng kiến thức và phát triển khả năng thích nghi.",
+                "evidence_en": "They can work in different positions and working environments. This broadens their knowledge and develops their ability to adapt."
+              },
+              {
+                "title": "ADVANTAGE 03",
+                "collocations": [
+                  {
+                    "en": "career opportunities",
+                    "vi": "cơ hội nghề nghiệp"
+                  },
+                  {
+                    "en": "career trajectory",
+                    "vi": "lộ trình phát triển nghề nghiệp"
+                  },
+                  {
+                    "en": "motivated at work",
+                    "vi": "có động lực làm việc"
+                  },
+                  {
+                    "en": "professional alignment",
+                    "vi": "sự tương thích về chuyên môn"
+                  },
+                  {
+                    "en": "workplace fulfillment",
+                    "vi": "sự thỏa mãn trong công việc"
+                  }
+                ],
+                "point_vi": "Nhảy việc giúp người lao động tìm được những cơ hội nghề nghiệp phù hợp hơn.",
+                "point_en": "Job hopping helps workers find better career opportunities.",
+                "evidence_vi": "Họ có thể lựa chọn những công việc phù hợp hơn với kỹ năng, sở thích và mục tiêu nghề nghiệp. Điều này có thể giúp họ cảm thấy hài lòng hơn và có động lực làm việc cao hơn.",
+                "evidence_en": "They can choose jobs that better match their skills, interests, and career goals. This can make them more satisfied and motivated at work."
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "DISADVANTAGE 01",
+                "collocations": [
+                  {
+                    "en": "financial vulnerability",
+                    "vi": "rủi ro tài chính"
+                  },
+                  {
+                    "en": "forfeit severance packages",
+                    "vi": "mất các gói trợ cấp thôi việc"
+                  },
+                  {
+                    "en": "long-term benefits",
+                    "vi": "phúc lợi lâu dài"
+                  },
+                  {
+                    "en": "intermittent cash flow",
+                    "vi": "dòng tiền bị gián đoạn"
+                  },
+                  {
+                    "en": "transitional period",
+                    "vi": "giai đoạn chuyển tiếp"
+                  }
+                ],
+                "point_vi": "Nhảy việc thường xuyên có thể khiến người lao động gặp khó khăn về tài chính.",
+                "point_en": "Frequent job hopping may create financial instability for workers.",
+                "evidence_vi": "Họ có thể mất một phần thu nhập trong thời gian tìm công việc mới. Họ cũng có thể không được hưởng đầy đủ các phúc lợi lâu dài từ một công ty.",
+                "evidence_en": "They may lose part of their income while looking for a new job. They may also miss out on long-term benefits from a company."
+              },
+              {
+                "title": "DISADVANTAGE 02",
+                "collocations": [
+                  {
+                    "en": "interrupt career trajectory",
+                    "vi": "làm gián đoạn lộ trình sự nghiệp"
+                  },
+                  {
+                    "en": "deep domain expertise",
+                    "vi": "chuyên môn sâu trong ngành"
+                  },
+                  {
+                    "en": "perceived lack of loyalty",
+                    "vi": "bị đánh giá thiếu lòng trung thành"
+                  },
+                  {
+                    "en": "stable leadership path",
+                    "vi": "lộ trình thăng tiến ổn định"
+                  },
+                  {
+                    "en": "superficial skill acquisition",
+                    "vi": "tích lũy kỹ năng hời hợt"
+                  }
+                ],
+                "point_vi": "Nhảy việc quá thường xuyên có thể làm gián đoạn quá trình phát triển nghề nghiệp.",
+                "point_en": "Job hopping too frequently may interrupt career development.",
+                "evidence_vi": "Người lao động có ít thời gian để phát triển chuyên môn sâu trong một lĩnh vực. Họ cũng có thể khó xây dựng một lộ trình thăng tiến ổn định.",
+                "evidence_en": "Workers have less time to develop deep expertise in one field. They may also find it difficult to build a stable career path."
+              },
+              {
+                "title": "DISADVANTAGE 03",
+                "collocations": [
+                  {
+                    "en": "corporate turnover costs",
+                    "vi": "chi phí thay thế nhân sự của DN"
+                  },
+                  {
+                    "en": "onboarding expenditures",
+                    "vi": "chi phí tuyển dụng và hội nhập"
+                  },
+                  {
+                    "en": "disrupt workforce stability",
+                    "vi": "làm gián đoạn sự ổn định nhân sự"
+                  },
+                  {
+                    "en": "diminish team productivity",
+                    "vi": "làm suy giảm năng suất làm việc nhóm"
+                  },
+                  {
+                    "en": "drain corporate resources",
+                    "vi": "làm tiêu hao nguồn lực doanh nghiệp"
+                  }
+                ],
+                "point_vi": "Nhảy việc thường xuyên có thể gây ra nhiều chi phí và khó khăn cho doanh nghiệp.",
+                "point_en": "Frequent job hopping can create costs and difficulties for companies.",
+                "evidence_vi": "Doanh nghiệp phải tuyển dụng và đào tạo nhân viên mới thường xuyên. Điều này có thể làm giảm năng suất và ảnh hưởng đến sự ổn định của đội ngũ.",
+                "evidence_en": "Companies have to recruit and train new employees frequently. This can reduce productivity and affect the stability of the workforce."
+              }
+            ]
+          },
+          "vocab": [
+            {
+              "en": "better salaries",
+              "vi": "mức lương tốt hơn"
+            },
+            {
+              "en": "offer higher salaries",
+              "vi": "trả lương cao hơn"
+            },
+            {
+              "en": "experience and skills",
+              "vi": "kinh nghiệm và kỹ năng"
+            },
+            {
+              "en": "increase income",
+              "vi": "tăng thu nhập"
+            },
+            {
+              "en": "financial rewards",
+              "vi": "phần thưởng tài chính"
+            },
+            {
+              "en": "new work experiences",
+              "vi": "kinh nghiệm làm việc mới"
+            },
+            {
+              "en": "different positions",
+              "vi": "nhiều vị trí khác nhau"
+            },
+            {
+              "en": "working environment",
+              "vi": "môi trường làm việc"
+            },
+            {
+              "en": "learn new skills",
+              "vi": "học các kỹ năng mới"
+            },
+            {
+              "en": "adapt to changes",
+              "vi": "thích nghi với thay đổi"
+            },
+            {
+              "en": "suit them better",
+              "vi": "phù hợp hơn với bản thân"
+            },
+            {
+              "en": "match career goals",
+              "vi": "phù hợp với mục tiêu nghề nghiệp"
+            },
+            {
+              "en": "personal interests",
+              "vi": "sở thích cá nhân"
+            },
+            {
+              "en": "suitable job",
+              "vi": "công việc phù hợp"
+            },
+            {
+              "en": "job satisfaction",
+              "vi": "sự hài lòng trong công việc"
+            },
+            {
+              "en": "financial instability",
+              "vi": "sự thiếu ổn định về tài chính"
+            },
+            {
+              "en": "lose income",
+              "vi": "mất thu nhập"
+            },
+            {
+              "en": "period between jobs",
+              "vi": "khoảng thời gian giữa hai công việc"
+            },
+            {
+              "en": "unemployment gap",
+              "vi": "khoảng trống thất nghiệp"
+            },
+            {
+              "en": "cover living costs",
+              "vi": "chi trả chi phí sinh hoạt"
+            },
+            {
+              "en": "limit career development",
+              "vi": "hạn chế sự phát triển nghề nghiệp"
+            },
+            {
+              "en": "develop expertise",
+              "vi": "phát triển chuyên môn"
+            },
+            {
+              "en": "reach higher positions",
+              "vi": "đạt được các vị trí cao hơn"
+            },
+            {
+              "en": "promotion opportunity",
+              "vi": "cơ hội thăng tiến"
+            },
+            {
+              "en": "short tenure",
+              "vi": "thời gian làm việc ngắn"
+            },
+            {
+              "en": "problems for companies",
+              "vi": "vấn đề đối với các công ty"
+            },
+            {
+              "en": "spend time and money",
+              "vi": "tốn thời gian và tiền bạc"
+            },
+            {
+              "en": "recruit new employees",
+              "vi": "tuyển dụng nhân viên mới"
+            },
+            {
+              "en": "training costs",
+              "vi": "chi phí đào tạo"
+            },
+            {
+              "en": "high staff turnover",
+              "vi": "tỷ lệ luân chuyển nhân sự cao"
+            },
+            {
+              "en": "remuneration package",
+              "vi": "gói đãi ngộ / lương thưởng"
+            },
+            {
+              "en": "standard of living",
+              "vi": "mức sống"
+            },
+            {
+              "en": "willing to compensate",
+              "vi": "sẵn sàng chi trả đãi ngộ"
+            },
+            {
+              "en": "boost earning potential",
+              "vi": "gia tăng tiềm năng thu nhập"
+            },
+            {
+              "en": "diverse experience",
+              "vi": "kinh nghiệm đa dạng"
+            },
+            {
+              "en": "expand professional network",
+              "vi": "mở rộng mạng lưới chuyên môn"
+            },
+            {
+              "en": "ability to adapt",
+              "vi": "khả năng thích nghi"
+            },
+            {
+              "en": "broaden knowledge",
+              "vi": "mở rộng kiến thức"
+            },
+            {
+              "en": "versatile skill set",
+              "vi": "bộ kỹ năng linh hoạt"
+            },
+            {
+              "en": "career opportunities",
+              "vi": "cơ hội nghề nghiệp"
+            },
+            {
+              "en": "career trajectory",
+              "vi": "lộ trình phát triển nghề nghiệp"
+            },
+            {
+              "en": "motivated at work",
+              "vi": "có động lực làm việc"
+            },
+            {
+              "en": "professional alignment",
+              "vi": "sự tương thích về chuyên môn"
+            },
+            {
+              "en": "workplace fulfillment",
+              "vi": "sự thỏa mãn trong công việc"
+            },
+            {
+              "en": "financial vulnerability",
+              "vi": "rủi ro tài chính"
+            },
+            {
+              "en": "forfeit severance packages",
+              "vi": "mất các gói trợ cấp thôi việc"
+            },
+            {
+              "en": "long-term benefits",
+              "vi": "phúc lợi lâu dài"
+            },
+            {
+              "en": "intermittent cash flow",
+              "vi": "dòng tiền bị gián đoạn"
+            },
+            {
+              "en": "transitional period",
+              "vi": "giai đoạn chuyển tiếp"
+            },
+            {
+              "en": "interrupt career trajectory",
+              "vi": "làm gián đoạn lộ trình sự nghiệp"
+            },
+            {
+              "en": "deep domain expertise",
+              "vi": "chuyên môn sâu trong ngành"
+            },
+            {
+              "en": "perceived lack of loyalty",
+              "vi": "bị đánh giá thiếu lòng trung thành"
+            },
+            {
+              "en": "stable leadership path",
+              "vi": "lộ trình thăng tiến ổn định"
+            },
+            {
+              "en": "superficial skill acquisition",
+              "vi": "tích lũy kỹ năng hời hợt"
+            },
+            {
+              "en": "corporate turnover costs",
+              "vi": "chi phí thay thế nhân sự của DN"
+            },
+            {
+              "en": "onboarding expenditures",
+              "vi": "chi phí tuyển dụng và hội nhập"
+            },
+            {
+              "en": "disrupt workforce stability",
+              "vi": "làm gián đoạn sự ổn định nhân sự"
+            },
+            {
+              "en": "diminish team productivity",
+              "vi": "làm suy giảm năng suất làm việc nhóm"
+            },
+            {
+              "en": "drain corporate resources",
+              "vi": "làm tiêu hao nguồn lực doanh nghiệp"
+            }
+          ],
+          "sample_b1": "In recent years, <strong>job hopping</strong> has become more common in modern society. Although it has some benefits, there are also some drawbacks. <strong>This essay will discuss both sides of this topic.</strong>\n\n<strong>On the one hand, this topic has several advantages.</strong> One major benefit is that <strong><em>job hopping can help workers get better salaries.</em></strong> Employees can find companies that offer higher salaries for their experience and skills. Another positive aspect is that <strong><em>job hopping gives workers new work experiences.</em></strong> They can work in different positions or environments. A further good point is that <strong><em>job hopping helps workers find jobs that suit them better.</em></strong> They can find jobs that better match their skills, interests, and career goals.\n\n<strong>On the other hand, there are also several disadvantages.</strong> One possible drawback is that <strong><em>frequent job hopping may cause financial instability.</em></strong> Workers may lose income during the period between two jobs. Another negative aspect is that <strong><em>job hopping too frequently may limit career development.</em></strong> Workers have less time to develop their expertise and reach higher positions in a company. A further problem is that <strong><em>frequent job hopping can create several problems for companies.</em></strong> Companies have to spend time and money recruiting and training new employees.\n\nIn conclusion, <strong>job hopping</strong> has both advantages and disadvantages. These points show that it has different effects on people's lives. Therefore, it is important to consider both sides before making a decision.",
+          "translation_b1": "Trong những năm gần đây, <strong>nhảy việc</strong> đã trở nên phổ biến hơn trong xã hội hiện đại. Mặc dù nó có một số lợi ích, cũng có một số hạn chế. <strong>Bài tiểu luận này sẽ thảo luận về cả hai khía cạnh của chủ đề này.</strong>\n\n<strong>Một mặt, chủ đề này có một số lợi thế.</strong> Một lợi ích lớn là <strong><em>nhảy việc có thể giúp người lao động có mức lương tốt hơn.</em></strong> Nhân viên có thể tìm những công ty trả lương cao hơn cho kinh nghiệm và kỹ năng của họ. Một khía cạnh tích cực khác là <strong><em>nhảy việc giúp người lao động có thêm những kinh nghiệm làm việc mới.</em></strong> Họ có thể làm việc trong những vị trí hoặc môi trường khác nhau. Một điểm tốt nữa là <strong><em>nhảy việc giúp người lao động tìm được công việc phù hợp hơn với bản thân.</em></strong> Họ có thể tìm một công việc phù hợp hơn với kỹ năng, sở thích và mục tiêu nghề nghiệp.\n\n<strong>Mặt khác, cũng có một số bất lợi.</strong> Một bất lợi có thể có là <strong><em>nhảy việc thường xuyên có thể gây ra sự thiếu ổn định về tài chính.</em></strong> Người lao động có thể mất thu nhập trong thời gian giữa hai công việc. Một khía cạnh tiêu cực khác là <strong><em>nhảy việc quá thường xuyên có thể hạn chế sự phát triển nghề nghiệp.</em></strong> Người lao động có ít thời gian để phát triển chuyên môn và đạt được những vị trí cao hơn trong một công ty. Một vấn đề nữa là <strong><em>nhảy việc thường xuyên có thể gây ra nhiều vấn đề cho các công ty.</em></strong> Công ty phải mất thời gian và tiền bạc để tuyển dụng và đào tạo nhân viên mới.\n\nTóm lại, <strong>nhảy việc</strong> có cả lợi thế và bất lợi. Những điểm này cho thấy nó có những tác động khác nhau đến cuộc sống của mọi người. Vì vậy, điều quan trọng là phải xem xét cả hai khía cạnh trước khi đưa ra quyết định.",
+          "sample_b2": "In recent years, <strong>job hopping</strong> has become increasingly prevalent in modern society. Although it brings certain benefits, there are also some negative aspects. <strong>This essay will examine both the advantages and disadvantages.</strong>\n\n<strong>On the one hand, this topic offers several advantages.</strong> One major benefit is that <strong><em>job hopping can lead to better salaries and benefits.</em></strong> Workers can look for companies that are willing to pay more for their experience and skills. This can improve their financial situation and standard of living. Another positive effect is that <strong><em>job hopping allows workers to gain diverse experience and skills.</em></strong> They can work in different positions and working environments. This broadens their knowledge and develops their ability to adapt. A further aspect to consider is that <strong><em>job hopping helps workers find better career opportunities.</em></strong> They can choose jobs that better match their skills, interests, and career goals. This can make them more satisfied and motivated at work.\n\n<strong>On the other hand, there are some disadvantages that should be considered.</strong> One possible drawback is that <strong><em>frequent job hopping may create financial instability for workers.</em></strong> They may lose part of their income while looking for a new job. They may also miss out on long-term benefits from a company. Another negative aspect is that <strong><em>job hopping too frequently may interrupt career development.</em></strong> Workers have less time to develop deep expertise in one field. They may also find it difficult to build a stable career path. A further concern is that <strong><em>frequent job hopping can create costs and difficulties for companies.</em></strong> Companies have to recruit and train new employees frequently. This can reduce productivity and affect the stability of the workforce.\n\nIn conclusion, <strong>job hopping</strong> presents both advantages and disadvantages. The points discussed above highlight its key aspects. Overall, understanding these factors helps provide a more balanced view of this topic.",
+          "translation_b2": "Trong những năm gần đây, <strong>nhảy việc</strong> đã trở nên ngày càng phổ biến trong xã hội hiện đại. Mặc dù nó mang lại những lợi ích nhất định, cũng có một số khía cạnh tiêu cực. <strong>Bài tiểu luận này sẽ xem xét cả lợi thế và bất lợi.</strong>\n\n<strong>Một mặt, chủ đề này mang lại một số lợi thế.</strong> Một lợi ích lớn là <strong><em>nhảy việc có thể mang lại mức lương và chế độ đãi ngộ tốt hơn.</em></strong> Người lao động có thể tìm những công ty sẵn sàng trả nhiều tiền hơn cho kinh nghiệm và kỹ năng của họ. Điều này giúp họ cải thiện tình hình tài chính và mức sống. Một hiệu ứng tích cực khác là <strong><em>nhảy việc giúp người lao động tích lũy nhiều kinh nghiệm và kỹ năng đa dạng.</em></strong> Họ có thể làm việc ở nhiều vị trí và môi trường khác nhau. Điều này giúp họ mở rộng kiến thức và phát triển khả năng thích nghi. Một khía cạnh nữa cần xem xét là <strong><em>nhảy việc giúp người lao động tìm được những cơ hội nghề nghiệp phù hợp hơn.</em></strong> Họ có thể lựa chọn những công việc phù hợp hơn với kỹ năng, sở thích và mục tiêu nghề nghiệp. Điều này có thể giúp họ cảm thấy hài lòng hơn và có động lực làm việc cao hơn.\n\n<strong>Mặt khác, có một số bất lợi cần được xem xét.</strong> Một hạn chế có thể xảy ra là <strong><em>nhảy việc thường xuyên có thể khiến người lao động gặp khó khăn về tài chính.</em></strong> Họ có thể mất một phần thu nhập trong thời gian tìm công việc mới. Họ cũng có thể không được hưởng đầy đủ các phúc lợi lâu dài từ một công ty. Một khía cạnh tiêu cực khác là <strong><em>nhảy việc quá thường xuyên có thể làm gián đoạn quá trình phát triển nghề nghiệp.</em></strong> Người lao động có ít thời gian để phát triển chuyên môn sâu trong một lĩnh vực. Họ cũng có thể khó xây dựng một lộ trình thăng tiến ổn định. Một mối lo ngại nữa là <strong><em>nhảy việc thường xuyên có thể gây ra nhiều chi phí và khó khăn cho doanh nghiệp.</em></strong> Doanh nghiệp phải tuyển dụng và đào tạo nhân viên mới thường xuyên. Điều này có thể làm giảm năng suất và ảnh hưởng đến sự ổn định của đội ngũ.\n\nTóm lại, <strong>nhảy việc</strong> có cả lợi thế và bất lợi. Những điểm được thảo luận ở trên làm nổi bật các khía cạnh chính của nó. Nhìn chung, việc hiểu các yếu tố này giúp cung cấp một cái nhìn cân bằng hơn về chủ đề này."
+        }
       },
       {
         "id": 21,
