@@ -25016,7 +25016,335 @@ const ESSAY_DATA = [
         "tags": "[Causes]",
         "context": "In today's media-rich environment, young people have access to a wide range of television programs and online content. While science and news programs provide valuable knowledge and information, many young people prefer watching entertainment shows such as reality programs, talent competitions, comedy shows, and celebrity-based content. This trend has become increasingly common in many countries.",
         "prompt": "Write an essay to an educated reader to discuss the causes of young people preferring entertainment shows over science or news programs. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "paraphrases": [
+          {
+            "en": "preferring entertainment shows over science programs",
+            "vi": "việc chuộng chương trình giải trí hơn khoa học"
+          },
+          {
+            "en": "favouring entertainment content over educational broadcasts",
+            "vi": "ưu tiên nội dung giải trí hơn chương trình giáo dục"
+          },
+          {
+            "en": "young audience inclination towards reality and comedy shows",
+            "vi": "xu hướng khán giả trẻ hướng đến các show thực tế và hài kịch"
+          },
+          {
+            "en": "prioritising leisure television over informational programming",
+            "vi": "ưu tiên truyền hình giải trí hơn truyền hình thông tin"
+          }
+        ],
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "CAUSE 01",
+                "collocations": [
+                  {
+                    "en": "entertainment programs",
+                    "vi": "các chương trình giải trí"
+                  },
+                  {
+                    "en": "relax after studying",
+                    "vi": "thư giãn sau khi học"
+                  },
+                  {
+                    "en": "fun and easy to watch",
+                    "vi": "vui nhộn và dễ xem"
+                  },
+                  {
+                    "en": "forget daily pressure",
+                    "vi": "quên đi áp lực hằng ngày"
+                  },
+                  {
+                    "en": "leisure time activity",
+                    "vi": "hoạt động trong thời gian rảnh"
+                  }
+                ],
+                "point_vi": "Các chương trình giải trí giúp người trẻ thư giãn sau những giờ học tập và làm việc.",
+                "point_en": "Entertainment programs help young people relax after studying or working.",
+                "evidence_vi": "Những chương trình này thường vui nhộn và dễ xem. Chúng giúp người trẻ tạm quên những áp lực hằng ngày. Người xem không cần suy nghĩ quá nhiều khi theo dõi những chương trình này. Vì vậy, chúng phù hợp với thời gian nghỉ ngơi của người trẻ.",
+                "evidence_en": "These programs are often fun and easy to watch. They help young people forget their daily pressure for a while. Viewers do not need to think too much when watching these programs. Therefore, they are suitable for young people's leisure time."
+              },
+              {
+                "title": "CAUSE 02",
+                "collocations": [
+                  {
+                    "en": "entertainment content",
+                    "vi": "nội dung giải trí"
+                  },
+                  {
+                    "en": "simple language",
+                    "vi": "ngôn ngữ đơn giản"
+                  },
+                  {
+                    "en": "attractive visuals",
+                    "vi": "hình ảnh hấp dẫn"
+                  },
+                  {
+                    "en": "familiar situations",
+                    "vi": "tình huống quen thuộc"
+                  },
+                  {
+                    "en": "watch without concentrating",
+                    "vi": "xem không cần tập trung cao"
+                  }
+                ],
+                "point_vi": "Nội dung giải trí thường dễ tiếp cận hơn đối với người trẻ.",
+                "point_en": "Entertainment content is often easier for young people to follow.",
+                "evidence_vi": "Các chương trình này thường sử dụng ngôn ngữ đơn giản và hình ảnh hấp dẫn. Nội dung thường xoay quanh những tình huống quen thuộc và dễ hiểu. Người trẻ có thể hiểu nội dung mà không cần tập trung quá nhiều. Do đó, họ có thể thưởng thức các chương trình này một cách thoải mái hơn.",
+                "evidence_en": "These programs often use simple language and attractive visuals. The content often focuses on familiar and easy-to-understand situations. Young people can understand the content without concentrating too much. Therefore, they can enjoy these programs more comfortably."
+              },
+              {
+                "title": "CAUSE 03",
+                "collocations": [
+                  {
+                    "en": "social media trends",
+                    "vi": "các xu hướng trên mạng xã hội"
+                  },
+                  {
+                    "en": "influence choices",
+                    "vi": "định hướng sự lựa chọn"
+                  },
+                  {
+                    "en": "share about celebrities",
+                    "vi": "chia sẻ về người nổi tiếng"
+                  },
+                  {
+                    "en": "popular content",
+                    "vi": "nội dung phổ biến"
+                  },
+                  {
+                    "en": "trending programs",
+                    "vi": "các chương trình đang thịnh hành"
+                  }
+                ],
+                "point_vi": "Bạn bè và các xu hướng trên mạng xã hội có thể định hướng lựa chọn của người trẻ.",
+                "point_en": "Friends and social media trends can influence young people's choices.",
+                "evidence_vi": "Người trẻ thường chia sẻ về những chương trình và người nổi tiếng mà họ yêu thích. Những cuộc trò chuyện này có thể khiến các chương trình trở nên hấp dẫn hơn. Các nội dung phổ biến cũng thường xuất hiện nhiều trên mạng xã hội. Vì vậy, người trẻ có xu hướng xem những chương trình đang được nhiều người quan tâm.",
+                "evidence_en": "Young people often share information about shows and celebrities they like. These conversations can make the programs more attractive. Popular content also often appears frequently on social media. Therefore, young people tend to watch programs that many people are interested in."
+              }
+            ],
+            "drawbacks": []
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "CAUSE 01",
+                "collocations": [
+                  {
+                    "en": "emotional decompression",
+                    "vi": "sự giải tỏa cảm xúc"
+                  },
+                  {
+                    "en": "escapism from academic stress",
+                    "vi": "trốn thoát khỏi áp lực học đường"
+                  },
+                  {
+                    "en": "humorous and lighthearted",
+                    "vi": "hài hước và nhẹ nhàng"
+                  },
+                  {
+                    "en": "recreational enjoyment",
+                    "vi": "sự tận hưởng giải trí"
+                  },
+                  {
+                    "en": "leisure time preference",
+                    "vi": "ưu tiên trong thời gian rảnh"
+                  }
+                ],
+                "point_vi": "Các chương trình giải trí đáp ứng nhu cầu thư giãn và giải tỏa cảm xúc của người trẻ.",
+                "point_en": "Entertainment programs meet young people's need for relaxation and emotional enjoyment.",
+                "evidence_vi": "Những chương trình này thường có nội dung hài hước, thú vị và dễ theo dõi. Chúng giúp người trẻ tạm thời thoát khỏi áp lực học tập và cuộc sống. Người xem có thể cảm thấy vui vẻ và thoải mái hơn sau khi xem. Ví dụ, một chương trình hài hoặc cuộc thi tài năng có thể giúp sinh viên thư giãn sau một ngày học tập căng thẳng. Vì vậy, các chương trình giải trí thường trở thành lựa chọn ưu tiên trong thời gian rảnh.",
+                "evidence_en": "These programs often contain humorous, enjoyable, and easy-to-follow content. They allow young people to temporarily escape from academic and daily pressure. Viewers can feel happier and more relaxed after watching them. For example, a comedy show or talent competition can help students relax after a stressful day of studying. Therefore, entertainment programs often become a preferred choice during leisure time."
+              },
+              {
+                "title": "CAUSE 02",
+                "collocations": [
+                  {
+                    "en": "low cognitive load",
+                    "vi": "tải trọng nhận thức thấp"
+                  },
+                  {
+                    "en": "visually stimulating",
+                    "vi": "kích thích thị giác"
+                  },
+                  {
+                    "en": "accessible narrative format",
+                    "vi": "định dạng câu chuyện dễ tiếp cận"
+                  },
+                  {
+                    "en": "effortless content consumption",
+                    "vi": "tiêu thụ nội dung không tốn sức"
+                  },
+                  {
+                    "en": "high-engagement visuals",
+                    "vi": "hình ảnh lôi cuốn cao"
+                  }
+                ],
+                "point_vi": "Nội dung giải trí thường dễ tiếp cận và hấp dẫn hơn đối với nhiều người trẻ.",
+                "point_en": "Entertainment content is often easier to access and more attractive to many young people.",
+                "evidence_vi": "Các chương trình thường sử dụng ngôn ngữ đơn giản và hình ảnh sinh động. Chúng thường trình bày những tình huống gần gũi và dễ hiểu. Người xem không cần dành quá nhiều thời gian để phân tích nội dung. Điều này đặc biệt phù hợp với những người muốn xem một chương trình để nghỉ ngơi. Do đó, người trẻ có thể ưu tiên nội dung giải trí hơn những chương trình đòi hỏi sự tập trung cao.",
+                "evidence_en": "These programs often use simple language and lively visuals. They often present familiar and easy-to-understand situations. Viewers do not need to spend much time analysing the content. This is particularly suitable for people who want to watch something while relaxing. Therefore, young people may prefer entertainment content to programs that require greater concentration."
+              },
+              {
+                "title": "CAUSE 03",
+                "collocations": [
+                  {
+                    "en": "peer discourse amplification",
+                    "vi": "sự khuếch đại qua thảo luận bạn bè"
+                  },
+                  {
+                    "en": "viral social media trends",
+                    "vi": "xu hướng lan truyền trên mạng xã hội"
+                  },
+                  {
+                    "en": "algorithmic recommendation",
+                    "vi": "gợi ý từ thuật toán"
+                  },
+                  {
+                    "en": "fear of missing out",
+                    "vi": "tâm lý sợ bỏ lỡ (FOMO)"
+                  },
+                  {
+                    "en": "cultural trend alignment",
+                    "vi": "sự bắt nhịp xu hướng văn hóa"
+                  }
+                ],
+                "point_vi": "Ảnh hưởng từ bạn bè và mạng xã hội có thể khiến người trẻ quan tâm nhiều hơn đến các chương trình giải trí.",
+                "point_en": "Influence from friends and social media can make young people more interested in entertainment programs.",
+                "evidence_vi": "Người trẻ thường trao đổi về các chương trình, người nổi tiếng và xu hướng đang phổ biến. Những cuộc thảo luận này có thể tạo cảm giác rằng họ nên biết về những nội dung đang thịnh hành. Mạng xã hội cũng liên tục đề xuất những video và chương trình được nhiều người xem. Ví dụ, một chương trình thực tế có thể nhanh chóng trở nên phổ biến sau khi các đoạn video của nó được chia sẻ rộng rãi. Vì vậy, xu hướng xã hội có thể làm tăng sự quan tâm của người trẻ đối với nội dung giải trí.",
+                "evidence_en": "Young people often discuss popular shows, celebrities, and current trends. These discussions can create a feeling that they should know about trending content. Social media also continuously recommends videos and programs that attract many viewers. For example, a reality show can quickly become popular after its videos are widely shared. Therefore, social trends can increase young people's interest in entertainment content."
+              }
+            ],
+            "drawbacks": []
+          },
+          "vocab": [
+            {
+              "en": "entertainment programs",
+              "vi": "các chương trình giải trí"
+            },
+            {
+              "en": "relax after studying",
+              "vi": "thư giãn sau khi học"
+            },
+            {
+              "en": "fun and easy to watch",
+              "vi": "vui nhộn và dễ xem"
+            },
+            {
+              "en": "forget daily pressure",
+              "vi": "quên đi áp lực hằng ngày"
+            },
+            {
+              "en": "leisure time activity",
+              "vi": "hoạt động trong thời gian rảnh"
+            },
+            {
+              "en": "entertainment content",
+              "vi": "nội dung giải trí"
+            },
+            {
+              "en": "simple language",
+              "vi": "ngôn ngữ đơn giản"
+            },
+            {
+              "en": "attractive visuals",
+              "vi": "hình ảnh hấp dẫn"
+            },
+            {
+              "en": "familiar situations",
+              "vi": "tình huống quen thuộc"
+            },
+            {
+              "en": "watch without concentrating",
+              "vi": "xem không cần tập trung cao"
+            },
+            {
+              "en": "social media trends",
+              "vi": "các xu hướng trên mạng xã hội"
+            },
+            {
+              "en": "influence choices",
+              "vi": "định hướng sự lựa chọn"
+            },
+            {
+              "en": "share about celebrities",
+              "vi": "chia sẻ về người nổi tiếng"
+            },
+            {
+              "en": "popular content",
+              "vi": "nội dung phổ biến"
+            },
+            {
+              "en": "trending programs",
+              "vi": "các chương trình đang thịnh hành"
+            },
+            {
+              "en": "emotional decompression",
+              "vi": "sự giải tỏa cảm xúc"
+            },
+            {
+              "en": "escapism from academic stress",
+              "vi": "trốn thoát khỏi áp lực học đường"
+            },
+            {
+              "en": "humorous and lighthearted",
+              "vi": "hài hước và nhẹ nhàng"
+            },
+            {
+              "en": "recreational enjoyment",
+              "vi": "sự tận hưởng giải trí"
+            },
+            {
+              "en": "leisure time preference",
+              "vi": "ưu tiên trong thời gian rảnh"
+            },
+            {
+              "en": "low cognitive load",
+              "vi": "tải trọng nhận thức thấp"
+            },
+            {
+              "en": "visually stimulating",
+              "vi": "kích thích thị giác"
+            },
+            {
+              "en": "accessible narrative format",
+              "vi": "định dạng câu chuyện dễ tiếp cận"
+            },
+            {
+              "en": "effortless content consumption",
+              "vi": "tiêu thụ nội dung không tốn sức"
+            },
+            {
+              "en": "high-engagement visuals",
+              "vi": "hình ảnh lôi cuốn cao"
+            },
+            {
+              "en": "peer discourse amplification",
+              "vi": "sự khuếch đại qua thảo luận bạn bè"
+            },
+            {
+              "en": "viral social media trends",
+              "vi": "xu hướng lan truyền trên mạng xã hội"
+            },
+            {
+              "en": "algorithmic recommendation",
+              "vi": "gợi ý từ thuật toán"
+            },
+            {
+              "en": "fear of missing out",
+              "vi": "tâm lý sợ bỏ lỡ (FOMO)"
+            },
+            {
+              "en": "cultural trend alignment",
+              "vi": "sự bắt nhịp xu hướng văn hóa"
+            }
+          ],
+          "sample_b1": "In recent years, <strong>young people preferring entertainment shows over science programs</strong> has become a common topic of discussion. This issue affects both individuals and society in different ways. <strong>This essay will discuss the main reasons for this trend.</strong>\n\nOne major reason is that <strong><em>entertainment programs help young people relax after studying or working.</em></strong> These programs are often fun and easy to watch. They help young people forget their daily pressure for a while. Viewers do not need to think too much when watching these programs. Therefore, they are suitable for young people's leisure time.\n\nAnother contributing reason is that <strong><em>entertainment content is often easier for young people to follow.</em></strong> These programs often use simple language and attractive visuals. The content often focuses on familiar and easy-to-understand situations. Young people can understand the content without concentrating too much. Therefore, they can enjoy these programs more comfortably.\n\nA further reason is that <strong><em>friends and social media trends can influence young people's choices.</em></strong> Young people often share information about shows and celebrities they like. These conversations can make the programs more attractive. Popular content also often appears frequently on social media. Therefore, young people tend to watch programs that many people are interested in.\n\nIn conclusion, <strong>young people preferring entertainment shows over science programs</strong> is driven by several key reasons that affect both individuals and society. Understanding these reasons is important to balance education and recreation. With greater attention, broadcasters can make scientific content more engaging for youth.",
+          "translation_b1": "Trong những năm gần đây, <strong>việc người trẻ thích các chương trình giải trí hơn các chương trình khoa học</strong> đã trở thành một chủ đề thảo luận phổ biến. Vấn đề này ảnh hưởng đến cả cá nhân và xã hội theo những cách khác nhau. <strong>Bài tiểu luận này sẽ thảo luận về những lý do chính dẫn đến xu hướng này.</strong>\n\nMột lý do chính là <strong><em>các chương trình giải trí giúp người trẻ thư giãn sau những giờ học tập và làm việc.</em></strong> Những chương trình này thường vui nhộn và dễ xem. Chúng giúp người trẻ tạm quên những áp lực hằng ngày. Người xem không cần suy nghĩ quá nhiều khi theo dõi những chương trình này. Vì vậy, chúng phù hợp với thời gian nghỉ ngơi của người trẻ.\n\nMột lý do đóng góp khác là <strong><em>nội dung giải trí thường dễ tiếp cận hơn đối với người trẻ.</em></strong> Các chương trình này thường sử dụng ngôn ngữ đơn giản và hình ảnh hấp dẫn. Nội dung thường xoay quanh những tình huống quen thuộc và dễ hiểu. Người trẻ có thể hiểu nội dung mà không cần tập trung quá nhiều. Do đó, họ có thể thưởng thức các chương trình này một cách thoải mái hơn.\n\nMột lý do nữa là <strong><em>bạn bè và các xu hướng trên mạng xã hội có thể định hướng lựa chọn của người trẻ.</em></strong> Người trẻ thường chia sẻ về những chương trình và người nổi tiếng mà họ yêu thích. Những cuộc trò chuyện này có thể khiến các chương trình trở nên hấp dẫn hơn. Các nội dung phổ biến cũng thường xuất hiện nhiều trên mạng xã hội. Vì vậy, người trẻ có xu hướng xem những chương trình đang được nhiều người quan tâm.\n\nTóm lại, <strong>việc người trẻ thích các chương trình giải trí hơn các chương trình khoa học</strong> được thúc đẩy bởi một số lý do chính ảnh hưởng đến cả cá nhân và xã hội. Việc hiểu rõ những lý do này là rất quan trọng để cân bằng giữa giáo dục và giải trí. Với sự quan tâm nhiều hơn, các nhà đài có thể làm cho nội dung khoa học trở nên lôi cuốn hơn đối với giới trẻ."
+        }
       },
       {
         "id": 20,
