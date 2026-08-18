@@ -10324,7 +10324,385 @@ const ESSAY_DATA = [
         "title_vi": "Đọc sách tranh",
         "context": "Nowadays, reading picture books is considered an important activity for children. Picture books combine simple stories with colourful illustrations, so they can attract children’s attention and make reading more enjoyable. Some people believe that reading picture books brings many benefits to children’s language development, imagination, and learning habits.",
         "prompt": "Write an essay to an educated reader to discuss the advantages of reading picture books. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "paraphrases": [
+          {
+            "en": "reading illustrated books",
+            "vi": "đọc sách có hình minh họa"
+          },
+          {
+            "en": "engaging with visual storybooks",
+            "vi": "tương tác với sách truyện tranh ảnh"
+          },
+          {
+            "en": "children's picture storybooks",
+            "vi": "sách truyện tranh cho trẻ em"
+          },
+          {
+            "en": "visual literacy and picture reading",
+            "vi": "đọc hiểu hình ảnh và sách tranh"
+          }
+        ],
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "ADVANTAGE 01",
+                "collocations": [
+                  {
+                    "en": "develop language skills",
+                    "vi": "phát triển kỹ năng ngôn ngữ"
+                  },
+                  {
+                    "en": "learn new words",
+                    "vi": "học từ mới"
+                  },
+                  {
+                    "en": "understand word meanings",
+                    "vi": "hiểu nghĩa của từ"
+                  },
+                  {
+                    "en": "use words in sentences",
+                    "vi": "sử dụng từ trong câu"
+                  },
+                  {
+                    "en": "communicate better",
+                    "vi": "giao tiếp tốt hơn"
+                  },
+                  {
+                    "en": "picture stories",
+                    "vi": "những câu chuyện bằng tranh"
+                  }
+                ],
+                "point_vi": "Đọc sách tranh giúp trẻ phát triển kỹ năng ngôn ngữ.",
+                "point_en": "Reading picture books helps children develop their language skills.",
+                "evidence_vi": "Trẻ có thể học thêm nhiều từ mới từ những câu chuyện. Hình ảnh giúp trẻ hiểu nghĩa của từ dễ hơn. Trẻ có thể học cách sử dụng các từ trong câu. Nhờ đó, trẻ có thể giao tiếp tốt hơn.",
+                "evidence_en": "Children can learn new words from the stories. Pictures help children understand the meanings of words more easily. Children can learn how to use words in sentences. As a result, they can communicate better."
+              },
+              {
+                "title": "ADVANTAGE 02",
+                "collocations": [
+                  {
+                    "en": "develop imagination",
+                    "vi": "phát triển trí tưởng tượng"
+                  },
+                  {
+                    "en": "imagine characters and events",
+                    "vi": "tưởng tượng về nhân vật và sự việc"
+                  },
+                  {
+                    "en": "create own ideas",
+                    "vi": "tạo ra ý tưởng riêng"
+                  },
+                  {
+                    "en": "think creatively",
+                    "vi": "suy nghĩ sáng tạo"
+                  },
+                  {
+                    "en": "creative abilities",
+                    "vi": "khả năng sáng tạo"
+                  },
+                  {
+                    "en": "visual stimulation",
+                    "vi": "kích thích thị giác"
+                  }
+                ],
+                "point_vi": "Đọc sách tranh giúp phát triển trí tưởng tượng của trẻ.",
+                "point_en": "Reading picture books develops children's imagination.",
+                "evidence_vi": "Những câu chuyện và hình ảnh giúp trẻ tưởng tượng về các nhân vật và sự việc. Trẻ có thể tạo ra những hình ảnh và ý tưởng của riêng mình. Điều này khuyến khích trẻ suy nghĩ sáng tạo hơn. Nhờ đó, trẻ có thể phát triển khả năng sáng tạo.",
+                "evidence_en": "Stories and pictures help children imagine characters and events. Children can create their own images and ideas. This encourages children to think more creatively. As a result, they can develop their creativity."
+              },
+              {
+                "title": "ADVANTAGE 03",
+                "collocations": [
+                  {
+                    "en": "good reading habits",
+                    "vi": "thói quen đọc sách tốt"
+                  },
+                  {
+                    "en": "colourful pictures",
+                    "vi": "hình ảnh nhiều màu sắc"
+                  },
+                  {
+                    "en": "make reading enjoyable",
+                    "vi": "làm việc đọc trở nên thú vị"
+                  },
+                  {
+                    "en": "interested in reading",
+                    "vi": "thích đọc sách hơn"
+                  },
+                  {
+                    "en": "regular habit",
+                    "vi": "thói quen thường xuyên"
+                  },
+                  {
+                    "en": "spend time reading",
+                    "vi": "dành thời gian đọc sách"
+                  }
+                ],
+                "point_vi": "Đọc sách tranh giúp trẻ hình thành thói quen đọc sách tốt.",
+                "point_en": "Reading picture books helps children develop good reading habits.",
+                "evidence_vi": "Những hình ảnh nhiều màu sắc làm cho việc đọc trở nên thú vị hơn. Trẻ có thể thích đọc sách hơn. Trẻ có thể dành nhiều thời gian hơn cho việc đọc. Nhờ đó, việc đọc có thể trở thành một thói quen thường xuyên.",
+                "evidence_en": "Colourful pictures make reading more enjoyable. Children may become more interested in reading. They can spend more time reading. As a result, reading can become a regular habit."
+              }
+            ],
+            "drawbacks": []
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "ADVANTAGE 01",
+                "collocations": [
+                  {
+                    "en": "language abilities",
+                    "vi": "khả năng ngôn ngữ"
+                  },
+                  {
+                    "en": "learn new vocabulary",
+                    "vi": "học từ vựng mới"
+                  },
+                  {
+                    "en": "specific contexts",
+                    "vi": "ngữ cảnh cụ thể"
+                  },
+                  {
+                    "en": "listening and communication skills",
+                    "vi": "kỹ năng nghe và giao tiếp"
+                  },
+                  {
+                    "en": "stronger language foundation",
+                    "vi": "nền tảng ngôn ngữ vững chắc hơn"
+                  },
+                  {
+                    "en": "comprehend story content",
+                    "vi": "thấu hiểu nội dung câu chuyện"
+                  }
+                ],
+                "point_vi": "Đọc sách tranh giúp trẻ phát triển khả năng ngôn ngữ.",
+                "point_en": "Reading picture books helps children develop their language abilities.",
+                "evidence_vi": "Trẻ có thể học thêm từ vựng mới thông qua những câu chuyện đơn giản. Hình ảnh giúp các em hiểu nghĩa của từ và nội dung dễ dàng hơn. Trẻ cũng có thể học cách sử dụng từ và câu trong những ngữ cảnh cụ thể. Điều này giúp các em cải thiện khả năng nghe và giao tiếp. Nhờ đó, nền tảng ngôn ngữ của trẻ có thể được phát triển tốt hơn.",
+                "evidence_en": "Children can learn new vocabulary through simple stories. Pictures help them understand word meanings and story content more easily. They can also learn how to use words and sentences in specific contexts. This helps them improve their listening and communication skills. As a result, children can develop a stronger language foundation."
+              },
+              {
+                "title": "ADVANTAGE 02",
+                "collocations": [
+                  {
+                    "en": "imagination and creativity",
+                    "vi": "trí tưởng tượng và sự sáng tạo"
+                  },
+                  {
+                    "en": "imagine places and events",
+                    "vi": "tưởng tượng địa điểm và sự kiện"
+                  },
+                  {
+                    "en": "think in different ways",
+                    "vi": "suy nghĩ theo những cách khác nhau"
+                  },
+                  {
+                    "en": "create new story endings",
+                    "vi": "tạo ra kết thúc mới cho câu chuyện"
+                  },
+                  {
+                    "en": "creative cognitive abilities",
+                    "vi": "khả năng nhận thức sáng tạo"
+                  },
+                  {
+                    "en": "interpret visual information",
+                    "vi": "diễn giải thông tin hình ảnh"
+                  }
+                ],
+                "point_vi": "Đọc sách tranh giúp phát triển trí tưởng tượng và khả năng sáng tạo của trẻ.",
+                "point_en": "Reading picture books develops children's imagination and creativity.",
+                "evidence_vi": "Các câu chuyện giúp trẻ tưởng tượng về nhân vật, địa điểm và sự việc. Hình ảnh cung cấp thêm thông tin để trẻ phát triển những ý tưởng riêng. Điều này khuyến khích trẻ suy nghĩ theo những cách khác nhau. Trẻ có thể tự tạo ra những câu chuyện hoặc kết thúc mới. Nhờ đó, khả năng sáng tạo của trẻ có thể được phát triển.",
+                "evidence_en": "Stories help children imagine characters, places, and events. Pictures provide additional information for children to develop their own ideas. This encourages children to think in different ways. Children can create their own stories or new endings. As a result, their creative abilities can be developed."
+              },
+              {
+                "title": "ADVANTAGE 03",
+                "collocations": [
+                  {
+                    "en": "positive reading habits",
+                    "vi": "thói quen đọc sách tích cực"
+                  },
+                  {
+                    "en": "colourful illustrations",
+                    "vi": "hình ảnh minh họa nhiều màu sắc"
+                  },
+                  {
+                    "en": "attractive to children",
+                    "vi": "hấp dẫn đối với trẻ em"
+                  },
+                  {
+                    "en": "interest in reading from an early age",
+                    "vi": "sở thích đọc sách từ nhỏ"
+                  },
+                  {
+                    "en": "support future learning",
+                    "vi": "hỗ trợ việc học tập tương lai"
+                  },
+                  {
+                    "en": "maintain lifelong reading habits",
+                    "vi": "duy trì thói quen đọc sách lâu dài"
+                  }
+                ],
+                "point_vi": "Đọc sách tranh giúp trẻ hình thành thói quen đọc sách tích cực.",
+                "point_en": "Reading picture books helps children develop positive reading habits.",
+                "evidence_vi": "Hình ảnh nhiều màu sắc khiến sách trở nên hấp dẫn hơn đối với trẻ. Điều này khuyến khích các em dành nhiều thời gian hơn cho việc đọc. Trẻ có thể dần hình thành sở thích đọc sách từ khi còn nhỏ. Thói quen này có thể hỗ trợ việc học các môn khác trong tương lai. Nhờ đó, trẻ có thể duy trì thói quen đọc sách lâu dài.",
+                "evidence_en": "Colourful illustrations make books more attractive to children. This encourages them to spend more time reading. Children can gradually develop an interest in reading from an early age. This habit can support their learning in other subjects in the future. As a result, children can maintain reading habits in the long term."
+              }
+            ],
+            "drawbacks": []
+          },
+          "vocab": [
+            {
+              "en": "develop language skills",
+              "vi": "phát triển kỹ năng ngôn ngữ"
+            },
+            {
+              "en": "learn new words",
+              "vi": "học từ mới"
+            },
+            {
+              "en": "understand word meanings",
+              "vi": "hiểu nghĩa của từ"
+            },
+            {
+              "en": "use words in sentences",
+              "vi": "sử dụng từ trong câu"
+            },
+            {
+              "en": "communicate better",
+              "vi": "giao tiếp tốt hơn"
+            },
+            {
+              "en": "picture stories",
+              "vi": "những câu chuyện bằng tranh"
+            },
+            {
+              "en": "develop imagination",
+              "vi": "phát triển trí tưởng tượng"
+            },
+            {
+              "en": "imagine characters and events",
+              "vi": "tưởng tượng về nhân vật và sự việc"
+            },
+            {
+              "en": "create own ideas",
+              "vi": "tạo ra ý tưởng riêng"
+            },
+            {
+              "en": "think creatively",
+              "vi": "suy nghĩ sáng tạo"
+            },
+            {
+              "en": "creative abilities",
+              "vi": "khả năng sáng tạo"
+            },
+            {
+              "en": "visual stimulation",
+              "vi": "kích thích thị giác"
+            },
+            {
+              "en": "good reading habits",
+              "vi": "thói quen đọc sách tốt"
+            },
+            {
+              "en": "colourful pictures",
+              "vi": "hình ảnh nhiều màu sắc"
+            },
+            {
+              "en": "make reading enjoyable",
+              "vi": "làm việc đọc trở nên thú vị"
+            },
+            {
+              "en": "interested in reading",
+              "vi": "thích đọc sách hơn"
+            },
+            {
+              "en": "regular habit",
+              "vi": "thói quen thường xuyên"
+            },
+            {
+              "en": "spend time reading",
+              "vi": "dành thời gian đọc sách"
+            },
+            {
+              "en": "language abilities",
+              "vi": "khả năng ngôn ngữ"
+            },
+            {
+              "en": "learn new vocabulary",
+              "vi": "học từ vựng mới"
+            },
+            {
+              "en": "specific contexts",
+              "vi": "ngữ cảnh cụ thể"
+            },
+            {
+              "en": "listening and communication skills",
+              "vi": "kỹ năng nghe và giao tiếp"
+            },
+            {
+              "en": "stronger language foundation",
+              "vi": "nền tảng ngôn ngữ vững chắc hơn"
+            },
+            {
+              "en": "comprehend story content",
+              "vi": "thấu hiểu nội dung câu chuyện"
+            },
+            {
+              "en": "imagination and creativity",
+              "vi": "trí tưởng tượng và sự sáng tạo"
+            },
+            {
+              "en": "imagine places and events",
+              "vi": "tưởng tượng địa điểm và sự kiện"
+            },
+            {
+              "en": "think in different ways",
+              "vi": "suy nghĩ theo những cách khác nhau"
+            },
+            {
+              "en": "create new story endings",
+              "vi": "tạo ra kết thúc mới cho câu chuyện"
+            },
+            {
+              "en": "creative cognitive abilities",
+              "vi": "khả năng nhận thức sáng tạo"
+            },
+            {
+              "en": "interpret visual information",
+              "vi": "diễn giải thông tin hình ảnh"
+            },
+            {
+              "en": "positive reading habits",
+              "vi": "thói quen đọc sách tích cực"
+            },
+            {
+              "en": "colourful illustrations",
+              "vi": "hình ảnh minh họa nhiều màu sắc"
+            },
+            {
+              "en": "attractive to children",
+              "vi": "hấp dẫn đối với trẻ em"
+            },
+            {
+              "en": "interest in reading from an early age",
+              "vi": "sở thích đọc sách từ nhỏ"
+            },
+            {
+              "en": "support future learning",
+              "vi": "hỗ trợ việc học tập tương lai"
+            },
+            {
+              "en": "maintain lifelong reading habits",
+              "vi": "duy trì thói quen đọc sách lâu dài"
+            }
+          ],
+          "sample_b1": "In recent years, <strong>reading picture books</strong> has become more common in modern society. Many people see this as a positive development. <strong>This essay will discuss the main advantages of this topic.</strong>\n\nOne main advantage is that <strong><em>reading picture books helps children develop their language skills.</em></strong> Children can learn new words from the stories. Pictures help children understand the meanings of words more easily. Children can learn how to use words in sentences. As a result, they can communicate better.\n\nAnother positive aspect is that <strong><em>reading picture books develops children's imagination.</em></strong> Stories and pictures help children imagine characters and events. Children can create their own images and ideas. This encourages children to think more creatively. As a result, they can develop their creativity.\n\nA further benefit is that <strong><em>reading picture books helps children develop good reading habits.</em></strong> Colourful pictures make reading more enjoyable. Children may become more interested in reading. They can spend more time reading. As a result, reading can become a regular habit.\n\nIn conclusion, <strong>reading picture books</strong> offers several benefits. These advantages make it useful for many people. Overall, it is a positive development in modern society.",
+          "translation_b1": "Trong những năm gần đây, <strong>việc đọc sách tranh</strong> đã trở nên phổ biến hơn trong xã hội hiện đại. Nhiều người xem đây là một sự phát triển tích cực. <strong>Bài tiểu luận này sẽ thảo luận về những lợi thế chính của chủ đề này.</strong>\n\nMột lợi thế chính là <strong><em>việc đọc sách tranh giúp trẻ phát triển kỹ năng ngôn ngữ.</em></strong> Trẻ có thể học thêm nhiều từ mới từ những câu chuyện. Hình ảnh giúp trẻ hiểu nghĩa của từ dễ hơn. Trẻ có thể học cách sử dụng các từ trong câu. Nhờ đó, trẻ có thể giao tiếp tốt hơn.\n\nMột khía cạnh tích cực khác là <strong><em>việc đọc sách tranh giúp phát triển trí tưởng tượng của trẻ.</em></strong> Những câu chuyện và hình ảnh giúp trẻ tưởng tượng về các nhân vật và sự việc. Trẻ có thể tạo ra những hình ảnh và ý tưởng của riêng mình. Điều này khuyến khích trẻ suy nghĩ sáng tạo hơn. Nhờ đó, trẻ có thể phát triển khả năng sáng tạo.\n\nMột lợi ích nữa là <strong><em>việc đọc sách tranh giúp trẻ hình thành thói quen đọc sách tốt.</em></strong> Những hình ảnh nhiều màu sắc làm cho việc đọc trở nên thú vị hơn. Trẻ có thể thích đọc sách hơn. Trẻ có thể dành nhiều thời gian hơn cho việc đọc. Nhờ đó, việc đọc có thể trở thành một thói quen thường xuyên.\n\nTóm lại, <strong>việc đọc sách tranh</strong> mang lại một số lợi ích. Những lợi thế này làm cho nó hữu ích cho nhiều người. Nhìn chung, đó là một sự phát triển tích cực trong xã hội hiện đại.",
+          "sample_b2": "In recent years, <strong>reading picture books</strong> has become increasingly prevalent in modern society. This has led to a range of benefits across different contexts. <strong>This essay will focus on the main advantages associated with it.</strong>\n\nOne major benefit is that <strong><em>reading picture books helps children develop their language abilities.</em></strong> Children can learn new vocabulary through simple stories. Pictures help them understand word meanings and story content more easily. They can also learn how to use words and sentences in specific contexts. This helps them improve their listening and communication skills. As a result, children can develop a stronger language foundation.\n\nAnother positive effect is that <strong><em>reading picture books develops children's imagination and creativity.</em></strong> Stories help children imagine characters, places, and events. Pictures provide additional information for children to develop their own ideas. This encourages children to think in different ways. Children can create their own stories or new endings. As a result, their creative abilities can be developed.\n\nA further aspect to consider is that <strong><em>reading picture books helps children develop positive reading habits.</em></strong> Colourful illustrations make books more attractive to children. This encourages them to spend more time reading. Children can gradually develop an interest in reading from an early age. This habit can support their learning in other subjects in the future. As a result, children can maintain reading habits in the long term.\n\nIn conclusion, <strong>reading picture books</strong> offers several notable advantages. These positive aspects highlight its value in various areas of life. Overall, examining these factors provides a clearer understanding of the topic.",
+          "translation_b2": "Trong những năm gần đây, <strong>việc đọc sách tranh</strong> đã trở nên ngày càng phổ biến trong xã hội hiện đại. Điều này đã dẫn đến một loạt các lợi ích trong các bối cảnh khác nhau. <strong>Bài tiểu luận này sẽ tập trung vào những lợi thế chính liên quan đến nó.</strong>\n\nMột lợi ích lớn là <strong><em>việc đọc sách tranh giúp trẻ phát triển khả năng ngôn ngữ.</em></strong> Trẻ có thể học thêm từ vựng mới thông qua những câu chuyện đơn giản. Hình ảnh giúp các em hiểu nghĩa của từ và nội dung dễ dàng hơn. Trẻ cũng có thể học cách sử dụng từ và câu trong những ngữ cảnh cụ thể. Điều này giúp các em cải thiện khả năng nghe và giao tiếp. Nhờ đó, nền tảng ngôn ngữ của trẻ có thể được phát triển tốt hơn.\n\nMột hiệu ứng tích cực khác là <strong><em>việc đọc sách tranh giúp phát triển trí tưởng tượng và khả năng sáng tạo của trẻ.</em></strong> Các câu chuyện giúp trẻ tưởng tượng về nhân vật, địa điểm và sự việc. Hình ảnh cung cấp thêm thông tin để trẻ phát triển những ý tưởng riêng. Điều này khuyến khích trẻ suy nghĩ theo những cách khác nhau. Trẻ có thể tự tạo ra những câu chuyện hoặc kết thúc mới. Nhờ đó, khả năng sáng tạo của trẻ có thể được phát triển.\n\nMột khía cạnh nữa cần xem xét là <strong><em>việc đọc sách tranh giúp trẻ hình thành thói quen đọc sách tích cực.</em></strong> Hình ảnh nhiều màu sắc khiến sách trở nên hấp dẫn hơn đối với trẻ. Điều này khuyến khích các em dành nhiều thời gian hơn cho việc đọc. Trẻ có thể dần hình thành sở thích đọc sách từ khi còn nhỏ. Thói quen này có thể hỗ trợ việc học các môn khác trong tương lai. Nhờ đó, trẻ có thể duy trì thói quen đọc sách lâu dài.\n\nTóm lại, <strong>việc đọc sách tranh</strong> mang lại một số lợi thế đáng chú ý. Những khía cạnh tích cực này làm nổi bật giá trị của nó trong các lĩnh vực khác nhau của cuộc sống. Nhìn chung, việc xem xét các yếu tố này cung cấp một sự hiểu biết rõ ràng hơn về chủ đề."
+        }
       },
       {
         "id": 19,
