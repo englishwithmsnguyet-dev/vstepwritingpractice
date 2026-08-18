@@ -8906,7 +8906,381 @@ const ESSAY_DATA = [
         "title_vi": "Sử dụng nhiều sách giáo khoa trong giáo dục [chỉ phân tích lợi ích]",
         "context": "Nowadays, having multiple textbooks in education has become a topic of discussion in many countries. Instead of using only one official textbook for each subject, schools may allow teachers and students to choose from different textbooks. Some people believe that this approach brings many benefits to teaching and learning.",
         "prompt": "Write an essay to an educated reader to discuss the advantages of having multiple textbooks in education. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "paraphrases": [
+          {
+            "en": "using diverse textbooks",
+            "vi": "sử dụng nhiều bộ sách giáo khoa đa dạng"
+          },
+          {
+            "en": "adopting multiple coursebooks in teaching",
+            "vi": "áp dụng nhiều giáo trình trong giảng dạy"
+          },
+          {
+            "en": "offering various textbook choices in education",
+            "vi": "cung cấp nhiều lựa chọn sách giáo khoa trong giáo dục"
+          }
+        ],
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "ADVANTAGE 01",
+                "collocations": [
+                  {
+                    "en": "multiple textbooks",
+                    "vi": "nhiều sách giáo khoa"
+                  },
+                  {
+                    "en": "understand lessons deeply",
+                    "vi": "hiểu bài sâu hơn"
+                  },
+                  {
+                    "en": "different explanations",
+                    "vi": "các cách giải thích khác nhau"
+                  },
+                  {
+                    "en": "access more examples",
+                    "vi": "tiếp cận nhiều ví dụ hơn"
+                  },
+                  {
+                    "en": "difficult content",
+                    "vi": "nội dung khó"
+                  },
+                  {
+                    "en": "effective learning",
+                    "vi": "việc học tập hiệu quả"
+                  }
+                ],
+                "point_vi": "Việc sử dụng nhiều sách giáo khoa giúp học sinh hiểu bài sâu hơn.",
+                "point_en": "Using multiple textbooks helps students understand lessons more deeply.",
+                "evidence_vi": "Các sách khác nhau có thể giải thích cùng một nội dung theo những cách khác nhau. Học sinh có thể tiếp cận nhiều ví dụ hơn. Điều này giúp các em hiểu rõ hơn những nội dung khó. Nhờ đó, việc học trở nên hiệu quả hơn.",
+                "evidence_en": "Different textbooks can explain the same content in different ways. Students can access more examples. This helps them understand difficult content better. As a result, learning becomes more effective."
+              },
+              {
+                "title": "ADVANTAGE 02",
+                "collocations": [
+                  {
+                    "en": "match students' levels",
+                    "vi": "phù hợp với trình độ học sinh"
+                  },
+                  {
+                    "en": "learning needs",
+                    "vi": "nhu cầu học tập"
+                  },
+                  {
+                    "en": "differ in difficulty",
+                    "vi": "khác nhau về độ khó"
+                  },
+                  {
+                    "en": "choose suitable books",
+                    "vi": "chọn sách phù hợp"
+                  },
+                  {
+                    "en": "understand lessons easily",
+                    "vi": "dễ tiếp thu bài học"
+                  },
+                  {
+                    "en": "learn confidently",
+                    "vi": "học tập tự tin"
+                  }
+                ],
+                "point_vi": "Nhiều sách giáo khoa giúp giáo viên lựa chọn tài liệu phù hợp hơn với trình độ và nhu cầu của học sinh.",
+                "point_en": "Multiple textbooks help teachers choose materials that better match students' levels and needs.",
+                "evidence_vi": "Các sách có thể khác nhau về độ khó và nội dung. Giáo viên có thể chọn sách phù hợp với từng nhóm học sinh. Điều này giúp học sinh dễ tiếp thu kiến thức hơn. Nhờ đó, các em có thể học tập tự tin và hiệu quả hơn.",
+                "evidence_en": "Textbooks can differ in difficulty and content. Teachers can choose suitable books for different groups of students. This makes it easier for students to understand the lessons. As a result, they can learn more confidently and effectively."
+              },
+              {
+                "title": "ADVANTAGE 03",
+                "collocations": [
+                  {
+                    "en": "learning resources",
+                    "vi": "nguồn tài liệu học tập"
+                  },
+                  {
+                    "en": "review knowledge",
+                    "vi": "ôn tập kiến thức"
+                  },
+                  {
+                    "en": "reinforce learned lessons",
+                    "vi": "củng cố bài đã học"
+                  },
+                  {
+                    "en": "find more information",
+                    "vi": "tìm thêm thông tin"
+                  },
+                  {
+                    "en": "independent learning skills",
+                    "vi": "kỹ năng tự học"
+                  },
+                  {
+                    "en": "self-study ability",
+                    "vi": "khả năng tự học"
+                  }
+                ],
+                "point_vi": "Việc sử dụng nhiều sách giáo khoa cung cấp cho học sinh nhiều nguồn tài liệu học tập hơn.",
+                "point_en": "Using multiple textbooks provides students with more learning resources.",
+                "evidence_vi": "Học sinh có thể sử dụng các sách khác nhau để ôn tập kiến thức. Các em có thể củng cố những nội dung đã học. Các tài liệu khác nhau giúp học sinh tìm thêm thông tin. Nhờ đó, các em có thể phát triển khả năng tự học.",
+                "evidence_en": "Students can use different books to review their knowledge. They can reinforce what they have learned. Different materials help students find more information. As a result, they can develop their independent learning skills."
+              }
+            ],
+            "drawbacks": []
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "ADVANTAGE 01",
+                "collocations": [
+                  {
+                    "en": "deeper understanding",
+                    "vi": "sự hiểu biết sâu sắc hơn"
+                  },
+                  {
+                    "en": "present the same content",
+                    "vi": "trình bày cùng một nội dung"
+                  },
+                  {
+                    "en": "wider range of approaches",
+                    "vi": "nhiều cách tiếp cận rộng hơn"
+                  },
+                  {
+                    "en": "different perspectives",
+                    "vi": "nhiều góc độ khác nhau"
+                  },
+                  {
+                    "en": "complex content",
+                    "vi": "nội dung phức tạp"
+                  },
+                  {
+                    "en": "learn more effectively",
+                    "vi": "học tập hiệu quả hơn"
+                  }
+                ],
+                "point_vi": "Việc sử dụng nhiều sách giáo khoa giúp học sinh có sự hiểu biết sâu hơn về kiến thức được học.",
+                "point_en": "Using multiple textbooks helps students develop a deeper understanding of the knowledge they learn.",
+                "evidence_vi": "Các sách khác nhau có thể trình bày cùng một nội dung bằng những cách giải thích khác nhau. Chúng cũng cung cấp nhiều ví dụ và cách tiếp cận khác nhau. Điều này giúp học sinh nhìn nhận kiến thức từ nhiều góc độ hơn. Nhờ đó, các em có thể hiểu rõ hơn những nội dung phức tạp. Điều này giúp học sinh học tập hiệu quả hơn.",
+                "evidence_en": "Different textbooks can present the same content through different explanations. They also provide a wider range of examples and approaches. This allows students to understand knowledge from different perspectives. As a result, they can understand complex content more clearly. This helps students learn more effectively."
+              },
+              {
+                "title": "ADVANTAGE 02",
+                "collocations": [
+                  {
+                    "en": "meet differences in levels",
+                    "vi": "đáp ứng sự khác biệt về trình độ"
+                  },
+                  {
+                    "en": "differ in presentation",
+                    "vi": "khác nhau về cách trình bày"
+                  },
+                  {
+                    "en": "suit student abilities",
+                    "vi": "phù hợp với khả năng học sinh"
+                  },
+                  {
+                    "en": "access suitable content",
+                    "vi": "tiếp cận nội dung phù hợp"
+                  },
+                  {
+                    "en": "feel more confident",
+                    "vi": "cảm thấy tự tin hơn"
+                  },
+                  {
+                    "en": "improve learning performance",
+                    "vi": "cải thiện hiệu quả học tập"
+                  }
+                ],
+                "point_vi": "Việc có nhiều sách giáo khoa giúp trường học đáp ứng tốt hơn sự khác biệt về trình độ và nhu cầu học tập của học sinh.",
+                "point_en": "Having multiple textbooks allows schools to better meet differences in students' levels and learning needs.",
+                "evidence_vi": "Các sách có thể khác nhau về nội dung, độ khó và cách trình bày. Giáo viên có thể lựa chọn tài liệu phù hợp với khả năng của từng nhóm học sinh. Điều này giúp học sinh tiếp cận nội dung phù hợp hơn. Học sinh có thể cảm thấy tự tin hơn khi học. Nhờ đó, hiệu quả học tập có thể được cải thiện.",
+                "evidence_en": "Textbooks can differ in content, difficulty, and presentation. Teachers can select materials that suit the abilities of different groups of students. This helps students access more suitable content. Students may feel more confident when learning. As a result, learning performance can be improved."
+              },
+              {
+                "title": "ADVANTAGE 03",
+                "collocations": [
+                  {
+                    "en": "additional resources",
+                    "vi": "nguồn tài liệu bổ sung"
+                  },
+                  {
+                    "en": "support the learning process",
+                    "vi": "hỗ trợ quá trình học tập"
+                  },
+                  {
+                    "en": "review and reinforce",
+                    "vi": "ôn tập và củng cố"
+                  },
+                  {
+                    "en": "fill gaps in knowledge",
+                    "vi": "lấp đầy khoảng trống kiến thức"
+                  },
+                  {
+                    "en": "diverse learning approaches",
+                    "vi": "các cách tiếp cận học tập đa dạng"
+                  },
+                  {
+                    "en": "autonomous learning skills",
+                    "vi": "kỹ năng tự học tự chủ"
+                  }
+                ],
+                "point_vi": "Việc sử dụng nhiều sách giáo khoa cung cấp thêm nguồn tài liệu để hỗ trợ quá trình học tập.",
+                "point_en": "Using multiple textbooks provides additional resources to support the learning process.",
+                "evidence_vi": "Học sinh có thể sử dụng nhiều sách để ôn tập và củng cố những kiến thức đã học. Các em có thể tìm thêm thông tin từ những tài liệu khác nhau. Điều này giúp các em lấp đầy những khoảng trống về kiến thức. Học sinh có thể tiếp cận nhiều cách học khác nhau. Nhờ đó, các em có thể phát triển khả năng tự học.",
+                "evidence_en": "Students can use different books to review and reinforce what they have learned. They can find more information from different materials. This helps them fill gaps in their knowledge. Students can access different learning approaches. As a result, they can develop their independent learning skills."
+              }
+            ],
+            "drawbacks": []
+          },
+          "vocab": [
+            {
+              "en": "multiple textbooks",
+              "vi": "nhiều sách giáo khoa"
+            },
+            {
+              "en": "understand lessons deeply",
+              "vi": "hiểu bài sâu hơn"
+            },
+            {
+              "en": "different explanations",
+              "vi": "các cách giải thích khác nhau"
+            },
+            {
+              "en": "access more examples",
+              "vi": "tiếp cận nhiều ví dụ hơn"
+            },
+            {
+              "en": "difficult content",
+              "vi": "nội dung khó"
+            },
+            {
+              "en": "effective learning",
+              "vi": "việc học tập hiệu quả"
+            },
+            {
+              "en": "match students' levels",
+              "vi": "phù hợp với trình độ học sinh"
+            },
+            {
+              "en": "learning needs",
+              "vi": "nhu cầu học tập"
+            },
+            {
+              "en": "differ in difficulty",
+              "vi": "khác nhau về độ khó"
+            },
+            {
+              "en": "choose suitable books",
+              "vi": "chọn sách phù hợp"
+            },
+            {
+              "en": "understand lessons easily",
+              "vi": "dễ tiếp thu bài học"
+            },
+            {
+              "en": "learn confidently",
+              "vi": "học tập tự tin"
+            },
+            {
+              "en": "learning resources",
+              "vi": "nguồn tài liệu học tập"
+            },
+            {
+              "en": "review knowledge",
+              "vi": "ôn tập kiến thức"
+            },
+            {
+              "en": "reinforce learned lessons",
+              "vi": "củng cố bài đã học"
+            },
+            {
+              "en": "find more information",
+              "vi": "tìm thêm thông tin"
+            },
+            {
+              "en": "independent learning skills",
+              "vi": "kỹ năng tự học"
+            },
+            {
+              "en": "self-study ability",
+              "vi": "khả năng tự học"
+            },
+            {
+              "en": "deeper understanding",
+              "vi": "sự hiểu biết sâu sắc hơn"
+            },
+            {
+              "en": "present the same content",
+              "vi": "trình bày cùng một nội dung"
+            },
+            {
+              "en": "wider range of approaches",
+              "vi": "nhiều cách tiếp cận rộng hơn"
+            },
+            {
+              "en": "different perspectives",
+              "vi": "nhiều góc độ khác nhau"
+            },
+            {
+              "en": "complex content",
+              "vi": "nội dung phức tạp"
+            },
+            {
+              "en": "learn more effectively",
+              "vi": "học tập hiệu quả hơn"
+            },
+            {
+              "en": "meet differences in levels",
+              "vi": "đáp ứng sự khác biệt về trình độ"
+            },
+            {
+              "en": "differ in presentation",
+              "vi": "khác nhau về cách trình bày"
+            },
+            {
+              "en": "suit student abilities",
+              "vi": "phù hợp với khả năng học sinh"
+            },
+            {
+              "en": "access suitable content",
+              "vi": "tiếp cận nội dung phù hợp"
+            },
+            {
+              "en": "feel more confident",
+              "vi": "cảm thấy tự tin hơn"
+            },
+            {
+              "en": "improve learning performance",
+              "vi": "cải thiện hiệu quả học tập"
+            },
+            {
+              "en": "additional resources",
+              "vi": "nguồn tài liệu bổ sung"
+            },
+            {
+              "en": "support the learning process",
+              "vi": "hỗ trợ quá trình học tập"
+            },
+            {
+              "en": "review and reinforce",
+              "vi": "ôn tập và củng cố"
+            },
+            {
+              "en": "fill gaps in knowledge",
+              "vi": "lấp đầy khoảng trống kiến thức"
+            },
+            {
+              "en": "diverse learning approaches",
+              "vi": "các cách tiếp cận học tập đa dạng"
+            },
+            {
+              "en": "autonomous learning skills",
+              "vi": "kỹ năng tự học tự chủ"
+            }
+          ],
+          "sample_b1": "In recent years, <strong>having multiple textbooks in education</strong> has become more common in modern society. Many people see this as a positive development. <strong>This essay will discuss the main advantages of this topic.</strong>\n\nOne main advantage is that <strong><em>using multiple textbooks helps students understand lessons more deeply.</em></strong> Different textbooks can explain the same content in different ways. Students can access more examples. This helps them understand difficult content better. As a result, learning becomes more effective.\n\nAnother positive aspect is that <strong><em>multiple textbooks help teachers choose materials that better match students' levels and needs.</em></strong> Textbooks can differ in difficulty and content. Teachers can choose suitable books for different groups of students. This makes it easier for students to understand the lessons. As a result, they can learn more confidently and effectively.\n\nA further benefit is that <strong><em>using multiple textbooks provides students with more learning resources.</em></strong> Students can use different books to review their knowledge. They can reinforce what they have learned. Different materials help students find more information. As a result, they can develop their independent learning skills.\n\nIn conclusion, <strong>having multiple textbooks in education</strong> offers several benefits. These advantages make it useful for many people. Overall, it is a positive development in modern society.",
+          "translation_b1": "Trong những năm gần đây, <strong>việc sử dụng nhiều sách giáo khoa trong giáo dục</strong> đã trở nên phổ biến hơn trong xã hội hiện đại. Nhiều người xem đây là một sự phát triển tích cực. <strong>Bài tiểu luận này sẽ thảo luận về những lợi thế chính của chủ đề này.</strong>\n\nMột lợi thế chính là <strong><em>việc sử dụng nhiều sách giáo khoa giúp học sinh hiểu bài sâu hơn.</em></strong> Các sách khác nhau có thể giải thích cùng một nội dung theo những cách khác nhau. Học sinh có thể tiếp cận nhiều ví dụ hơn. Điều này giúp các em hiểu rõ hơn những nội dung khó. Nhờ đó, việc học trở nên hiệu quả hơn.\n\nMột khía cạnh tích cực khác là <strong><em>nhiều sách giáo khoa giúp giáo viên lựa chọn tài liệu phù hợp hơn với trình độ và nhu cầu của học sinh.</em></strong> Các sách có thể khác nhau về độ khó và nội dung. Giáo viên có thể chọn sách phù hợp với từng nhóm học sinh. Điều này giúp học sinh dễ tiếp thu kiến thức hơn. Nhờ đó, các em có thể học tập tự tin và hiệu quả hơn.\n\nMột lợi ích nữa là <strong><em>việc sử dụng nhiều sách giáo khoa cung cấp cho học sinh nhiều nguồn tài liệu học tập hơn.</em></strong> Học sinh có thể sử dụng các sách khác nhau để ôn tập kiến thức. Các em có thể củng cố những nội dung đã học. Các tài liệu khác nhau giúp học sinh tìm thêm thông tin. Nhờ đó, các em có thể phát triển khả năng tự học.\n\nTóm lại, <strong>việc sử dụng nhiều sách giáo khoa trong giáo dục</strong> mang lại một số lợi ích. Những lợi thế này làm cho nó hữu ích cho nhiều người. Nhìn chung, đó là một sự phát triển tích cực trong xã hội hiện đại.",
+          "sample_b2": "In recent years, <strong>having multiple textbooks in education</strong> has become increasingly prevalent in modern society. This has led to a range of benefits across different contexts. <strong>This essay will focus on the main advantages associated with it.</strong>\n\nOne major benefit is that <strong><em>using multiple textbooks helps students develop a deeper understanding of the knowledge they learn.</em></strong> Different textbooks can present the same content through different explanations. They also provide a wider range of examples and approaches. This allows students to understand knowledge from different perspectives. As a result, they can understand complex content more clearly. This helps students learn more effectively.\n\nAnother positive effect is that <strong><em>having multiple textbooks allows schools to better meet differences in students' levels and learning needs.</em></strong> Textbooks can differ in content, difficulty, and presentation. Teachers can select materials that suit the abilities of different groups of students. This helps students access more suitable content. Students may feel more confident when learning. As a result, learning performance can be improved.\n\nA further aspect to consider is that <strong><em>using multiple textbooks provides additional resources to support the learning process.</em></strong> Students can use different books to review and reinforce what they have learned. They can find more information from different materials. This helps them fill gaps in their knowledge. Students can access different learning approaches. As a result, they can develop their independent learning skills.\n\nIn conclusion, <strong>having multiple textbooks in education</strong> offers several notable advantages. These positive aspects highlight its value in various areas of life. Overall, examining these factors provides a clearer understanding of the topic.",
+          "translation_b2": "Trong những năm gần đây, <strong>việc sử dụng nhiều sách giáo khoa trong giáo dục</strong> đã trở nên ngày càng phổ biến trong xã hội hiện đại. Điều này đã dẫn đến một loạt các lợi ích trong các bối cảnh khác nhau. <strong>Bài tiểu luận này sẽ tập trung vào những lợi thế chính liên quan đến nó.</strong>\n\nMột lợi ích lớn là <strong><em>việc sử dụng nhiều sách giáo khoa giúp học sinh có sự hiểu biết sâu hơn về kiến thức được học.</em></strong> Các sách khác nhau có thể trình bày cùng một nội dung bằng những cách giải thích khác nhau. Chúng cũng cung cấp nhiều ví dụ và cách tiếp cận khác nhau. Điều này giúp học sinh nhìn nhận kiến thức từ nhiều góc độ hơn. Nhờ đó, các em có thể hiểu rõ hơn những nội dung phức tạp. Điều này giúp học sinh học tập hiệu quả hơn.\n\nMột hiệu ứng tích cực khác là <strong><em>việc có nhiều sách giáo khoa giúp trường học đáp ứng tốt hơn sự khác biệt về trình độ và nhu cầu học tập của học sinh.</em></strong> Các sách có thể khác nhau về nội dung, độ khó và cách trình bày. Giáo viên có thể lựa chọn tài liệu phù hợp với khả năng của từng nhóm học sinh. Điều này giúp học sinh tiếp cận nội dung phù hợp hơn. Học sinh có thể cảm thấy tự tin hơn khi học. Nhờ đó, hiệu quả học tập có thể được cải thiện.\n\nMột khía cạnh nữa cần xem xét là <strong><em>việc sử dụng nhiều sách giáo khoa cung cấp thêm nguồn tài liệu để hỗ trợ quá trình học tập.</em></strong> Học sinh có thể sử dụng nhiều sách để ôn tập và củng cố những kiến thức đã học. Các em có thể tìm thêm thông tin từ những tài liệu khác nhau. Điều này giúp các em lấp đầy những khoảng trống về kiến thức. Học sinh có thể tiếp cận nhiều cách học khác nhau. Nhờ đó, các em có thể phát triển khả năng tự học.\n\nTóm lại, <strong>việc sử dụng nhiều sách giáo khoa trong giáo dục</strong> mang lại một số lợi thế đáng chú ý. Những khía cạnh tích cực này làm nổi bật giá trị của nó trong các lĩnh vực khác nhau của cuộc sống. Nhìn chung, việc xem xét các yếu tố này cung cấp một sự hiểu biết rõ ràng hơn về chủ đề."
+        }
       },
       {
         "id": 16,
