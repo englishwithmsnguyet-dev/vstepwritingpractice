@@ -24342,7 +24342,335 @@ const ESSAY_DATA = [
         "tags": "[Causes]",
         "context": "Stress among young people has become an increasingly common issue in modern society. Many teenagers and young adults face pressure from academic responsibilities, career expectations, social relationships, and personal challenges. As a result, stress can affect their mental well-being, physical health, and overall quality of life. This issue has become a growing concern for families, schools, and communities.",
         "prompt": "Write an essay to an educated reader to discuss the causes of stress among young people. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "paraphrases": [
+          {
+            "en": "stress among young people",
+            "vi": "căng thẳng ở giới trẻ"
+          },
+          {
+            "en": "youth psychological distress",
+            "vi": "căng thẳng tâm lý ở giới trẻ"
+          },
+          {
+            "en": "rising pressure on adolescents",
+            "vi": "áp lực gia tăng lên thanh thiếu niên"
+          },
+          {
+            "en": "mental strain in the younger generation",
+            "vi": "áp lực tinh thần ở thế hệ trẻ"
+          }
+        ],
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "CAUSE 01",
+                "collocations": [
+                  {
+                    "en": "study pressure",
+                    "vi": "áp lực học tập"
+                  },
+                  {
+                    "en": "complete homework",
+                    "vi": "hoàn thành bài tập về nhà"
+                  },
+                  {
+                    "en": "prepare for exams",
+                    "vi": "chuẩn bị cho các kỳ thi"
+                  },
+                  {
+                    "en": "less time to relax",
+                    "vi": "ít thời gian nghỉ ngơi"
+                  },
+                  {
+                    "en": "feel tired and stressed",
+                    "vi": "cảm thấy mệt mỏi và căng thẳng"
+                  }
+                ],
+                "point_vi": "Áp lực học tập tạo ra gánh nặng lớn cho người trẻ.",
+                "point_en": "Study pressure places heavy demands on young people.",
+                "evidence_vi": "Họ phải hoàn thành nhiều bài tập và chuẩn bị cho các kỳ thi. Điều này khiến họ có ít thời gian để nghỉ ngơi. Vì vậy, họ có thể cảm thấy mệt mỏi và căng thẳng.",
+                "evidence_en": "They have to complete a lot of homework and prepare for exams. This gives them less time to relax. As a result, they may feel tired and stressed."
+              },
+              {
+                "title": "CAUSE 02",
+                "collocations": [
+                  {
+                    "en": "worries about the future",
+                    "vi": "lo lắng về tương lai"
+                  },
+                  {
+                    "en": "choose a field of study",
+                    "vi": "chọn ngành học"
+                  },
+                  {
+                    "en": "find a good job",
+                    "vi": "tìm một công việc tốt"
+                  },
+                  {
+                    "en": "achieve personal goals",
+                    "vi": "đạt được mục tiêu cá nhân"
+                  },
+                  {
+                    "en": "uncertain future",
+                    "vi": "tương lai bấp bênh"
+                  }
+                ],
+                "point_vi": "Những lo lắng về tương lai cũng có thể khiến người trẻ chịu nhiều áp lực.",
+                "point_en": "Worries about the future can also put pressure on young people.",
+                "evidence_vi": "Họ phải suy nghĩ về việc chọn ngành học và tìm một công việc tốt. Họ có thể lo lắng rằng mình sẽ không đạt được mục tiêu mong muốn. Điều này có thể khiến họ cảm thấy không chắc chắn về tương lai.",
+                "evidence_en": "They have to think about choosing a field of study and finding a good job. They may worry that they will not achieve their goals. This can make them feel uncertain about the future."
+              },
+              {
+                "title": "CAUSE 03",
+                "collocations": [
+                  {
+                    "en": "problems in relationships",
+                    "vi": "vấn đề trong các mối quan hệ"
+                  },
+                  {
+                    "en": "personal life stress",
+                    "vi": "căng thẳng cuộc sống cá nhân"
+                  },
+                  {
+                    "en": "disagreements with friends",
+                    "vi": "bất đồng với bạn bè"
+                  },
+                  {
+                    "en": "feel lonely and misunderstood",
+                    "vi": "cảm thấy cô đơn và không được hiểu"
+                  },
+                  {
+                    "en": "emotional impact",
+                    "vi": "tác động cảm xúc"
+                  }
+                ],
+                "point_vi": "Các vấn đề trong các mối quan hệ và cuộc sống cá nhân cũng có thể gây căng thẳng.",
+                "point_en": "Problems in relationships and personal life can also cause stress.",
+                "evidence_vi": "Người trẻ có thể gặp vấn đề với bạn bè, gia đình hoặc các mối quan hệ khác. Họ có thể cảm thấy cô đơn hoặc không được người khác hiểu. Vì vậy, những vấn đề này có thể ảnh hưởng đến cảm xúc của họ.",
+                "evidence_en": "Young people may have problems with friends, family, or other relationships. They may feel lonely or misunderstood. Therefore, these problems can affect their emotions."
+              }
+            ],
+            "drawbacks": []
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "CAUSE 01",
+                "collocations": [
+                  {
+                    "en": "rigorous academic workloads",
+                    "vi": "khối lượng học tập khắt khe"
+                  },
+                  {
+                    "en": "performance expectations",
+                    "vi": "kỳ vọng về thành tích"
+                  },
+                  {
+                    "en": "cognitive overload",
+                    "vi": "quá tải nhận thức"
+                  },
+                  {
+                    "en": "time management deficit",
+                    "vi": "thiếu hụt quản lý thời gian"
+                  },
+                  {
+                    "en": "chronic academic stress",
+                    "vi": "căng thẳng học tập mãn tính"
+                  }
+                ],
+                "point_vi": "Khối lượng học tập lớn và áp lực thành tích có thể khiến người trẻ chịu căng thẳng đáng kể.",
+                "point_en": "Heavy workloads and academic expectations can place considerable pressure on young people.",
+                "evidence_vi": "Học sinh và sinh viên thường phải hoàn thành nhiều bài tập, dự án và kỳ thi. Khi phải đáp ứng nhiều yêu cầu cùng lúc, họ có thể cảm thấy quá tải và khó cân bằng thời gian. Chẳng hạn, sinh viên chuẩn bị cho các kỳ thi quan trọng có thể phải học nhiều giờ mỗi ngày. Áp lực kéo dài có thể khiến việc học trở thành một nguồn căng thẳng thường xuyên.",
+                "evidence_en": "Students often have to complete numerous assignments, projects, and exams. When they have to meet many demands at the same time, they may feel overwhelmed and struggle to manage their time. For example, students preparing for important exams may have to study for many hours a day. Prolonged pressure can make studying a constant source of stress."
+              },
+              {
+                "title": "CAUSE 02",
+                "collocations": [
+                  {
+                    "en": "future career anxiety",
+                    "vi": "lo âu sự nghiệp tương lai"
+                  },
+                  {
+                    "en": "post-graduation employment hurdles",
+                    "vi": "rào cản việc làm sau tốt nghiệp"
+                  },
+                  {
+                    "en": "competitive job market",
+                    "vi": "thị trường lao động cạnh tranh"
+                  },
+                  {
+                    "en": "fear of failure",
+                    "vi": "nỗi sợ thất bại"
+                  },
+                  {
+                    "en": "lofty expectations",
+                    "vi": "kỳ vọng cao"
+                  }
+                ],
+                "point_vi": "Những yêu cầu về nghề nghiệp và kỳ vọng đối với tương lai có thể tạo ra áp lực lớn cho người trẻ.",
+                "point_en": "Career demands and expectations about the future can create significant pressure for young people.",
+                "evidence_vi": "Họ phải đưa ra những quyết định quan trọng về ngành học, nghề nghiệp và con đường tương lai. Nỗi lo không đạt được mục tiêu có thể khiến họ cảm thấy bất an và thiếu tự tin. Ví dụ, một sinh viên năm cuối có thể lo lắng về việc tìm được một công việc phù hợp sau khi tốt nghiệp. Áp lực này có thể trở nên nghiêm trọng hơn khi người trẻ cảm thấy mình phải thành công trong thời gian ngắn.",
+                "evidence_en": "They have to make important decisions about their studies, careers, and future paths. Fear of failing to achieve their goals can make them feel anxious and insecure. For example, a final-year student may worry about finding a suitable job after graduation. This pressure can become more serious when young people feel that they must succeed within a short period."
+              },
+              {
+                "title": "CAUSE 03",
+                "collocations": [
+                  {
+                    "en": "interpersonal friction",
+                    "vi": "ma sát trong quan hệ cá nhân"
+                  },
+                  {
+                    "en": "social isolation",
+                    "vi": "sự cô lập xã hội"
+                  },
+                  {
+                    "en": "lack of emotional support",
+                    "vi": "thiếu hỗ trợ tình cảm"
+                  },
+                  {
+                    "en": "prolonged conflicts",
+                    "vi": "mâu thuẫn kéo dài"
+                  },
+                  {
+                    "en": "psychological vulnerability",
+                    "vi": "sự dễ tổn thương tâm lý"
+                  }
+                ],
+                "point_vi": "Những khó khăn trong các mối quan hệ và cuộc sống cá nhân cũng có thể làm gia tăng căng thẳng ở người trẻ.",
+                "point_en": "Difficulties in relationships and personal life can also increase stress among young people.",
+                "evidence_vi": "Họ có thể gặp bất đồng với cha mẹ, bạn bè hoặc những người quan trọng khác. Những vấn đề này có thể khiến họ cảm thấy cô đơn, buồn bã hoặc không được hỗ trợ. Chẳng hạn, một người trẻ gặp vấn đề nghiêm trọng với bạn bè có thể mất tập trung vào việc học. Khi các vấn đề cá nhân kéo dài, chúng có thể trở thành nguồn áp lực thường xuyên trong cuộc sống.",
+                "evidence_en": "They may experience disagreements with parents, friends, or other important people. These problems can make them feel lonely, unhappy, or unsupported. For instance, a young person who has serious problems with friends may find it difficult to concentrate on studying. When personal problems continue for a long time, they can become a constant source of pressure."
+              }
+            ],
+            "drawbacks": []
+          },
+          "vocab": [
+            {
+              "en": "study pressure",
+              "vi": "áp lực học tập"
+            },
+            {
+              "en": "complete homework",
+              "vi": "hoàn thành bài tập về nhà"
+            },
+            {
+              "en": "prepare for exams",
+              "vi": "chuẩn bị cho các kỳ thi"
+            },
+            {
+              "en": "less time to relax",
+              "vi": "ít thời gian nghỉ ngơi"
+            },
+            {
+              "en": "feel tired and stressed",
+              "vi": "cảm thấy mệt mỏi và căng thẳng"
+            },
+            {
+              "en": "worries about the future",
+              "vi": "lo lắng về tương lai"
+            },
+            {
+              "en": "choose a field of study",
+              "vi": "chọn ngành học"
+            },
+            {
+              "en": "find a good job",
+              "vi": "tìm một công việc tốt"
+            },
+            {
+              "en": "achieve personal goals",
+              "vi": "đạt được mục tiêu cá nhân"
+            },
+            {
+              "en": "uncertain future",
+              "vi": "tương lai bấp bênh"
+            },
+            {
+              "en": "problems in relationships",
+              "vi": "vấn đề trong các mối quan hệ"
+            },
+            {
+              "en": "personal life stress",
+              "vi": "căng thẳng cuộc sống cá nhân"
+            },
+            {
+              "en": "disagreements with friends",
+              "vi": "bất đồng với bạn bè"
+            },
+            {
+              "en": "feel lonely and misunderstood",
+              "vi": "cảm thấy cô đơn và không được hiểu"
+            },
+            {
+              "en": "emotional impact",
+              "vi": "tác động cảm xúc"
+            },
+            {
+              "en": "rigorous academic workloads",
+              "vi": "khối lượng học tập khắt khe"
+            },
+            {
+              "en": "performance expectations",
+              "vi": "kỳ vọng về thành tích"
+            },
+            {
+              "en": "cognitive overload",
+              "vi": "quá tải nhận thức"
+            },
+            {
+              "en": "time management deficit",
+              "vi": "thiếu hụt quản lý thời gian"
+            },
+            {
+              "en": "chronic academic stress",
+              "vi": "căng thẳng học tập mãn tính"
+            },
+            {
+              "en": "future career anxiety",
+              "vi": "lo âu sự nghiệp tương lai"
+            },
+            {
+              "en": "post-graduation employment hurdles",
+              "vi": "rào cản việc làm sau tốt nghiệp"
+            },
+            {
+              "en": "competitive job market",
+              "vi": "thị trường lao động cạnh tranh"
+            },
+            {
+              "en": "fear of failure",
+              "vi": "nỗi sợ thất bại"
+            },
+            {
+              "en": "lofty expectations",
+              "vi": "kỳ vọng cao"
+            },
+            {
+              "en": "interpersonal friction",
+              "vi": "ma sát trong quan hệ cá nhân"
+            },
+            {
+              "en": "social isolation",
+              "vi": "sự cô lập xã hội"
+            },
+            {
+              "en": "lack of emotional support",
+              "vi": "thiếu hỗ trợ tình cảm"
+            },
+            {
+              "en": "prolonged conflicts",
+              "vi": "mâu thuẫn kéo dài"
+            },
+            {
+              "en": "psychological vulnerability",
+              "vi": "sự dễ tổn thương tâm lý"
+            }
+          ],
+          "sample_b1": "In recent years, <strong>stress among young people</strong> has become a common topic of discussion. This issue affects both individuals and society in different ways. <strong>This essay will discuss the main reasons for this trend.</strong>\n\nOne major reason is that <strong><em>study pressure places heavy demands on young people.</em></strong> They have to complete a lot of homework and prepare for exams. This gives them less time to relax. As a result, they may feel tired and stressed.\n\nAnother contributing reason is that <strong><em>worries about the future can also put pressure on young people.</em></strong> They have to think about choosing a field of study and finding a good job. They may worry that they will not achieve their goals. This can make them feel uncertain about the future.\n\nA further reason is that <strong><em>problems in relationships and personal life can also cause stress.</em></strong> Young people may have problems with friends, family, or other relationships. They may feel lonely or misunderstood. Therefore, these problems can affect their emotions.\n\nIn conclusion, <strong>stress among young people</strong> is driven by several key reasons that affect both individuals and society. Understanding these reasons is important to improve the situation in the future. With greater attention, families and schools can better support young people.",
+          "translation_b1": "Trong những năm gần đây, <strong>căng thẳng ở giới trẻ</strong> đã trở thành một chủ đề thảo luận phổ biến. Vấn đề này ảnh hưởng đến cả cá nhân và xã hội theo những cách khác nhau. <strong>Bài tiểu luận này sẽ thảo luận về những lý do chính dẫn đến xu hướng này.</strong>\n\nMột lý do chính là <strong><em>áp lực học tập tạo ra gánh nặng lớn cho người trẻ.</em></strong> Họ phải hoàn thành nhiều bài tập và chuẩn bị cho các kỳ thi. Điều này khiến họ có ít thời gian để nghỉ ngơi. Vì vậy, họ có thể cảm thấy mệt mỏi và căng thẳng.\n\nMột lý do đóng góp khác là <strong><em>những lo lắng về tương lai cũng có thể khiến người trẻ chịu nhiều áp lực.</em></strong> Họ phải suy nghĩ về việc chọn ngành học và tìm một công việc tốt. Họ có thể lo lắng rằng mình sẽ không đạt được mục tiêu mong muốn. Điều này có thể khiến họ cảm thấy không chắc chắn về tương lai.\n\nMột lý do nữa là <strong><em>các vấn đề trong các mối quan hệ và cuộc sống cá nhân cũng có thể gây căng thẳng.</em></strong> Người trẻ có thể gặp vấn đề với bạn bè, gia đình hoặc các mối quan hệ khác. Họ có thể cảm thấy cô đơn hoặc không được người khác hiểu. Vì vậy, những vấn đề này có thể ảnh hưởng đến cảm xúc của họ.\n\nTóm lại, <strong>căng thẳng ở giới trẻ</strong> được thúc đẩy bởi một số lý do chính ảnh hưởng đến cả cá nhân và xã hội. Việc hiểu rõ những lý do này là rất quan trọng để cải thiện tình hình trong tương lai. Với sự quan tâm nhiều hơn, gia đình và nhà trường có thể hỗ trợ người trẻ tốt hơn."
+        }
       },
       {
         "id": 18,
