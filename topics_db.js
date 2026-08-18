@@ -24679,7 +24679,335 @@ const ESSAY_DATA = [
         "tags": "[Causes]",
         "context": "Television remains one of the most popular sources of information and entertainment in many countries. Today, viewers can choose from a wide range of programs, including news, documentaries, educational shows, reality shows, sports events, movies, and entertainment programs. The increasing variety of television content has changed the way people consume information and spend their leisure time.",
         "prompt": "Write an essay to an educated reader to discuss the causes of the wide variety of television programs. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "paraphrases": [
+          {
+            "en": "the wide variety of television programs",
+            "vi": "sự đa dạng của các chương trình truyền hình"
+          },
+          {
+            "en": "diverse broadcast programming",
+            "vi": "các chương trình phát sóng đa dạng"
+          },
+          {
+            "en": "a broad array of television content",
+            "vi": "hàng loạt nội dung truyền hình phong phú"
+          },
+          {
+            "en": "the proliferation of TV show genres",
+            "vi": "sự gia tăng nhanh chóng các thể loại chương trình TV"
+          }
+        ],
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "CAUSE 01",
+                "collocations": [
+                  {
+                    "en": "entertainment needs",
+                    "vi": "nhu cầu giải trí"
+                  },
+                  {
+                    "en": "different viewer preferences",
+                    "vi": "sở thích khán giả khác nhau"
+                  },
+                  {
+                    "en": "attract different audiences",
+                    "vi": "thu hút các nhóm khán giả khác nhau"
+                  },
+                  {
+                    "en": "educational shows",
+                    "vi": "chương trình giáo dục"
+                  },
+                  {
+                    "en": "suit personal interests",
+                    "vi": "phù hợp sở thích cá nhân"
+                  }
+                ],
+                "point_vi": "Khán giả có sở thích và nhu cầu giải trí khác nhau.",
+                "point_en": "Viewers have different interests and entertainment needs.",
+                "evidence_vi": "Một số người thích tin tức và chương trình giáo dục, trong khi những người khác thích phim ảnh hoặc thể thao. Vì vậy, các kênh truyền hình cần cung cấp nhiều nội dung khác nhau để thu hút nhiều nhóm khán giả. Nhờ đó, nhiều người có thể tìm được những chương trình phù hợp với sở thích của mình.",
+                "evidence_en": "Some people like news and educational shows, while others prefer movies or sports. Therefore, television channels need to provide different types of content to attract different audiences. As a result, more people can find programs that suit their interests."
+              },
+              {
+                "title": "CAUSE 02",
+                "collocations": [
+                  {
+                    "en": "competition between channels",
+                    "vi": "sự cạnh tranh giữa các kênh"
+                  },
+                  {
+                    "en": "attract more viewers",
+                    "vi": "thu hút thêm nhiều người xem"
+                  },
+                  {
+                    "en": "develop new programs",
+                    "vi": "phát triển các chương trình mới"
+                  },
+                  {
+                    "en": "diverse television content",
+                    "vi": "nội dung truyền hình đa dạng"
+                  },
+                  {
+                    "en": "broadcast industry",
+                    "vi": "ngành công nghiệp phát thanh truyền hình"
+                  }
+                ],
+                "point_vi": "Sự cạnh tranh giữa các kênh truyền hình thúc đẩy họ tạo ra nhiều chương trình khác nhau.",
+                "point_en": "Competition between television channels encourages them to create different programs.",
+                "evidence_vi": "Các kênh muốn thu hút nhiều người xem hơn. Họ thường phát triển những chương trình mới và hấp dẫn. Điều này làm cho nội dung truyền hình ngày càng đa dạng.",
+                "evidence_en": "Channels want to attract more viewers. They often develop new and attractive programs. This makes television content more diverse."
+              },
+              {
+                "title": "CAUSE 03",
+                "collocations": [
+                  {
+                    "en": "technological development",
+                    "vi": "sự phát triển công nghệ"
+                  },
+                  {
+                    "en": "filming and producing programs",
+                    "vi": "quay phim và sản xuất chương trình"
+                  },
+                  {
+                    "en": "create program formats",
+                    "vi": "tạo ra các định dạng chương trình"
+                  },
+                  {
+                    "en": "more choices for viewers",
+                    "vi": "nhiều lựa chọn hơn cho người xem"
+                  },
+                  {
+                    "en": "modern tools",
+                    "vi": "các công cụ hiện đại"
+                  }
+                ],
+                "point_vi": "Sự phát triển của công nghệ giúp các nhà sản xuất tạo ra nhiều loại chương trình hơn.",
+                "point_en": "Technological development helps producers create more types of programs.",
+                "evidence_vi": "Các công cụ hiện đại giúp việc quay và sản xuất chương trình trở nên dễ dàng hơn. Các chương trình có thể được tạo ra với nhiều hình thức và nội dung khác nhau. Vì vậy, khán giả có nhiều lựa chọn hơn khi xem truyền hình.",
+                "evidence_en": "Modern tools make filming and producing programs easier. Programs can be created with different formats and content. Therefore, viewers have more choices when watching television."
+              }
+            ],
+            "drawbacks": []
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "CAUSE 01",
+                "collocations": [
+                  {
+                    "en": "audience heterogeneity",
+                    "vi": "sự không đồng nhất của khán giả"
+                  },
+                  {
+                    "en": "diverse entertainment preferences",
+                    "vi": "sở thích giải trí đa dạng"
+                  },
+                  {
+                    "en": "broad spectrum of genres",
+                    "vi": "phổ thể loại rộng"
+                  },
+                  {
+                    "en": "niche audience demographics",
+                    "vi": "phân khúc khán giả ngách"
+                  },
+                  {
+                    "en": "differentiated viewer demands",
+                    "vi": "nhu cầu người xem khác biệt"
+                  }
+                ],
+                "point_vi": "Khán giả truyền hình ngày càng có những sở thích và nhu cầu giải trí đa dạng.",
+                "point_en": "Television audiences possess increasingly diverse interests and entertainment needs.",
+                "evidence_vi": "Mỗi nhóm khán giả có những mối quan tâm và mục đích xem truyền hình khác nhau. Các nhà đài cần cung cấp nhiều thể loại để đáp ứng những nhu cầu này. Chẳng hạn, trẻ em có thể thích hoạt hình, trong khi người lớn có thể quan tâm đến tin tức hoặc chương trình thời sự. Do đó, sự khác biệt giữa các nhóm người xem góp phần làm nội dung truyền hình ngày càng đa dạng.",
+                "evidence_en": "Different groups of viewers have different interests and purposes for watching television. Broadcasters need to offer a range of genres to meet these needs. For example, children may prefer cartoons, while adults may be interested in news or current-affairs programs. Therefore, differences among audiences contribute to greater variety in television content."
+              },
+              {
+                "title": "CAUSE 02",
+                "collocations": [
+                  {
+                    "en": "fierce broadcasting rivalry",
+                    "vi": "sự cạnh tranh phát sóng khốc liệt"
+                  },
+                  {
+                    "en": "audience retention strategies",
+                    "vi": "chiến lược giữ chân khán giả"
+                  },
+                  {
+                    "en": "continuous content innovation",
+                    "vi": "đổi mới nội dung liên tục"
+                  },
+                  {
+                    "en": "prime-time competition",
+                    "vi": "cạnh tranh khung giờ vàng"
+                  },
+                  {
+                    "en": "reality show investments",
+                    "vi": "đầu tư chương trình thực tế"
+                  }
+                ],
+                "point_vi": "Sự cạnh tranh mạnh mẽ giữa các nhà đài cũng thúc đẩy sự đa dạng của chương trình truyền hình.",
+                "point_en": "Strong competition among broadcasters also encourages greater variety in television programs.",
+                "evidence_vi": "Các kênh truyền hình cần thu hút và duy trì lượng khán giả lớn. Vì vậy, họ phải liên tục phát triển những chương trình mới và hấp dẫn. Ví dụ, các kênh có thể đầu tư vào chương trình thực tế, cuộc thi hoặc các chương trình giải trí mới để cạnh tranh. Cạnh tranh càng lớn thì các nhà đài càng có động lực đổi mới nội dung.",
+                "evidence_en": "Television channels need to attract and retain large audiences. As a result, they have to develop new and engaging programs continuously. For example, channels may invest in reality shows, competitions, or new entertainment programs to compete with one another. The stronger the competition, the greater the motivation for broadcasters to innovate their content."
+              },
+              {
+                "title": "CAUSE 03",
+                "collocations": [
+                  {
+                    "en": "cutting-edge production technologies",
+                    "vi": "công nghệ sản xuất tiên tiến"
+                  },
+                  {
+                    "en": "digital broadcasting distribution",
+                    "vi": "phân phối phát sóng số"
+                  },
+                  {
+                    "en": "specialized multimedia content",
+                    "vi": "nội dung đa phương tiện chuyên biệt"
+                  },
+                  {
+                    "en": "multi-platform reach",
+                    "vi": "độ tiếp cận đa nền tảng"
+                  },
+                  {
+                    "en": "high-definition transmission",
+                    "vi": "truyền phát độ nét cao"
+                  }
+                ],
+                "point_vi": "Những tiến bộ công nghệ đã mở rộng khả năng sản xuất và phân phối nội dung truyền hình.",
+                "point_en": "Technological advances have expanded the ability to produce and distribute television content.",
+                "evidence_vi": "Các công cụ kỹ thuật hiện đại giúp nhà sản xuất tạo ra chương trình với nhiều hình thức khác nhau. Điều này làm cho việc sản xuất những nội dung chuyên biệt trở nên dễ dàng hơn. Chẳng hạn, công nghệ hiện đại hỗ trợ việc sản xuất các chương trình thể thao, tài liệu và giải trí với chất lượng cao. Sự phát triển của các nền tảng kỹ thuật số cũng giúp nhiều loại nội dung tiếp cận khán giả rộng hơn.",
+                "evidence_en": "Modern technologies allow producers to create programs in a wider range of formats. This makes it easier to produce specialized content. For example, modern technology supports the production of high-quality sports, documentary, and entertainment programs. The growth of digital platforms also allows different types of content to reach wider audiences."
+              }
+            ],
+            "drawbacks": []
+          },
+          "vocab": [
+            {
+              "en": "entertainment needs",
+              "vi": "nhu cầu giải trí"
+            },
+            {
+              "en": "different viewer preferences",
+              "vi": "sở thích khán giả khác nhau"
+            },
+            {
+              "en": "attract different audiences",
+              "vi": "thu hút các nhóm khán giả khác nhau"
+            },
+            {
+              "en": "educational shows",
+              "vi": "chương trình giáo dục"
+            },
+            {
+              "en": "suit personal interests",
+              "vi": "phù hợp sở thích cá nhân"
+            },
+            {
+              "en": "competition between channels",
+              "vi": "sự cạnh tranh giữa các kênh"
+            },
+            {
+              "en": "attract more viewers",
+              "vi": "thu hút thêm nhiều người xem"
+            },
+            {
+              "en": "develop new programs",
+              "vi": "phát triển các chương trình mới"
+            },
+            {
+              "en": "diverse television content",
+              "vi": "nội dung truyền hình đa dạng"
+            },
+            {
+              "en": "broadcast industry",
+              "vi": "ngành công nghiệp phát thanh truyền hình"
+            },
+            {
+              "en": "technological development",
+              "vi": "sự phát triển công nghệ"
+            },
+            {
+              "en": "filming and producing programs",
+              "vi": "quay phim và sản xuất chương trình"
+            },
+            {
+              "en": "create program formats",
+              "vi": "tạo ra các định dạng chương trình"
+            },
+            {
+              "en": "more choices for viewers",
+              "vi": "nhiều lựa chọn hơn cho người xem"
+            },
+            {
+              "en": "modern tools",
+              "vi": "các công cụ hiện đại"
+            },
+            {
+              "en": "audience heterogeneity",
+              "vi": "sự không đồng nhất của khán giả"
+            },
+            {
+              "en": "diverse entertainment preferences",
+              "vi": "sở thích giải trí đa dạng"
+            },
+            {
+              "en": "broad spectrum of genres",
+              "vi": "phổ thể loại rộng"
+            },
+            {
+              "en": "niche audience demographics",
+              "vi": "phân khúc khán giả ngách"
+            },
+            {
+              "en": "differentiated viewer demands",
+              "vi": "nhu cầu người xem khác biệt"
+            },
+            {
+              "en": "fierce broadcasting rivalry",
+              "vi": "sự cạnh tranh phát sóng khốc liệt"
+            },
+            {
+              "en": "audience retention strategies",
+              "vi": "chiến lược giữ chân khán giả"
+            },
+            {
+              "en": "continuous content innovation",
+              "vi": "đổi mới nội dung liên tục"
+            },
+            {
+              "en": "prime-time competition",
+              "vi": "cạnh tranh khung giờ vàng"
+            },
+            {
+              "en": "reality show investments",
+              "vi": "đầu tư chương trình thực tế"
+            },
+            {
+              "en": "cutting-edge production technologies",
+              "vi": "công nghệ sản xuất tiên tiến"
+            },
+            {
+              "en": "digital broadcasting distribution",
+              "vi": "phân phối phát sóng số"
+            },
+            {
+              "en": "specialized multimedia content",
+              "vi": "nội dung đa phương tiện chuyên biệt"
+            },
+            {
+              "en": "multi-platform reach",
+              "vi": "độ tiếp cận đa nền tảng"
+            },
+            {
+              "en": "high-definition transmission",
+              "vi": "truyền phát độ nét cao"
+            }
+          ],
+          "sample_b1": "In recent years, <strong>the wide variety of television programs</strong> has become a common topic of discussion. This issue affects both individuals and society in different ways. <strong>This essay will discuss the main reasons for this trend.</strong>\n\nOne major reason is that <strong><em>viewers have different interests and entertainment needs.</em></strong> Some people like news and educational shows, while others prefer movies or sports. Therefore, television channels need to provide different types of content to attract different audiences. As a result, more people can find programs that suit their interests.\n\nAnother contributing reason is that <strong><em>competition between television channels encourages them to create different programs.</em></strong> Channels want to attract more viewers. They often develop new and attractive programs. This makes television content more diverse.\n\nA further reason is that <strong><em>technological development helps producers create more types of programs.</em></strong> Modern tools make filming and producing programs easier. Programs can be created with different formats and content. Therefore, viewers have more choices when watching television.\n\nIn conclusion, <strong>the wide variety of television programs</strong> is driven by several key reasons that affect both individuals and society. Understanding these reasons is important to understand the changing media industry. With greater attention, television programming will continue to evolve in the future.",
+          "translation_b1": "Trong những năm gần đây, <strong>sự đa dạng của các chương trình truyền hình</strong> đã trở thành một chủ đề thảo luận phổ biến. Vấn đề này ảnh hưởng đến cả cá nhân và xã hội theo những cách khác nhau. <strong>Bài tiểu luận này sẽ thảo luận về những lý do chính dẫn đến xu hướng này.</strong>\n\nMột lý do chính là <strong><em>khán giả có sở thích và nhu cầu giải trí khác nhau.</em></strong> Một số người thích tin tức và chương trình giáo dục, trong khi những người khác thích phim ảnh hoặc thể thao. Vì vậy, các kênh truyền hình cần cung cấp nhiều nội dung khác nhau để thu hút nhiều nhóm khán giả. Nhờ đó, nhiều người có thể tìm được những chương trình phù hợp với sở thích của mình.\n\nMột lý do đóng góp khác là <strong><em>sự cạnh tranh giữa các kênh truyền hình thúc đẩy họ tạo ra nhiều chương trình khác nhau.</em></strong> Các kênh muốn thu hút nhiều người xem hơn. Họ thường phát triển những chương trình mới và hấp dẫn. Điều này làm cho nội dung truyền hình ngày càng đa dạng.\n\nMột lý do nữa là <strong><em>sự phát triển của công nghệ giúp các nhà sản xuất tạo ra nhiều loại chương trình hơn.</em></strong> Các công cụ hiện đại giúp việc quay và sản xuất chương trình trở nên dễ dàng hơn. Các chương trình có thể được tạo ra với nhiều hình thức và nội dung khác nhau. Vì vậy, khán giả có nhiều lựa chọn hơn khi xem truyền hình.\n\nTóm lại, <strong>sự đa dạng của các chương trình truyền hình</strong> được thúc đẩy bởi một số lý do chính ảnh hưởng đến cả cá nhân và xã hội. Việc hiểu rõ những lý do này là rất quan trọng để nắm bắt ngành truyền thông đang thay đổi. Với sự quan tâm nhiều hơn, các chương trình truyền hình sẽ tiếp tục phát triển trong tương lai."
+        }
       },
       {
         "id": 19,
