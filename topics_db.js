@@ -8324,8 +8324,24 @@ const ESSAY_DATA = [
                     "vi": "hiểu bài sâu hơn"
                   },
                   {
-                    "en": "language learning",
-                    "vi": "học ngôn ngữ"
+                    "en": "explain the same content",
+                    "vi": "giải thích cùng một nội dung"
+                  },
+                  {
+                    "en": "explain in different ways",
+                    "vi": "giải thích theo những cách khác nhau"
+                  },
+                  {
+                    "en": "access more examples",
+                    "vi": "tiếp cận nhiều ví dụ hơn"
+                  },
+                  {
+                    "en": "difficult knowledge",
+                    "vi": "kiến thức khó"
+                  },
+                  {
+                    "en": "effective language learning",
+                    "vi": "việc học ngôn ngữ hiệu quả"
                   }
                 ],
                 "point_vi": "Việc sử dụng nhiều sách giáo khoa giúp học sinh hiểu bài sâu hơn.",
@@ -8337,16 +8353,28 @@ const ESSAY_DATA = [
                 "title": "BENEFIT 02",
                 "collocations": [
                   {
-                    "en": "match learning needs",
-                    "vi": "phù hợp với nhu cầu học tập"
+                    "en": "match students' levels",
+                    "vi": "phù hợp với trình độ học sinh"
                   },
                   {
-                    "en": "differ in structure",
-                    "vi": "khác nhau về cấu trúc"
+                    "en": "learning needs",
+                    "vi": "nhu cầu học tập"
                   },
                   {
-                    "en": "learn confidently",
-                    "vi": "học tập tự tin"
+                    "en": "differ in structure and difficulty",
+                    "vi": "khác nhau về cấu trúc và độ khó"
+                  },
+                  {
+                    "en": "suit student abilities",
+                    "vi": "phù hợp với khả năng của học sinh"
+                  },
+                  {
+                    "en": "understand the lessons",
+                    "vi": "tiếp thu / hiểu bài học"
+                  },
+                  {
+                    "en": "learn confidently and effectively",
+                    "vi": "học tập tự tin và hiệu quả"
                   }
                 ],
                 "point_vi": "Các trường có thể lựa chọn sách phù hợp hơn với trình độ và nhu cầu học tập của học sinh.",
@@ -8362,8 +8390,20 @@ const ESSAY_DATA = [
                     "vi": "nguồn tài liệu học tập"
                   },
                   {
-                    "en": "review and reinforce",
-                    "vi": "ôn tập và củng cố"
+                    "en": "review and reinforce knowledge",
+                    "vi": "ôn tập và củng cố kiến thức"
+                  },
+                  {
+                    "en": "additional materials",
+                    "vi": "tài liệu bổ sung"
+                  },
+                  {
+                    "en": "fill gaps in knowledge",
+                    "vi": "lấp đầy khoảng trống kiến thức"
+                  },
+                  {
+                    "en": "prepare for tests and assignments",
+                    "vi": "chuẩn bị cho bài kiểm tra và bài tập"
                   },
                   {
                     "en": "independent learning skills",
@@ -8388,12 +8428,28 @@ const ESSAY_DATA = [
                     "vi": "sự hiểu biết sâu sắc hơn"
                   },
                   {
+                    "en": "language knowledge",
+                    "vi": "kiến thức ngôn ngữ"
+                  },
+                  {
+                    "en": "different explanations",
+                    "vi": "các cách giải thích khác nhau"
+                  },
+                  {
+                    "en": "wider range of approaches",
+                    "vi": "nhiều cách tiếp cận rộng hơn"
+                  },
+                  {
                     "en": "different perspectives",
                     "vi": "nhiều góc độ khác nhau"
                   },
                   {
                     "en": "complex content",
                     "vi": "nội dung phức tạp"
+                  },
+                  {
+                    "en": "contribute to effective learning",
+                    "vi": "góp phần học tập hiệu quả"
                   }
                 ],
                 "point_vi": "Việc sử dụng nhiều sách giáo khoa giúp học sinh hiểu kiến thức ngôn ngữ sâu sắc hơn.",
@@ -8406,15 +8462,31 @@ const ESSAY_DATA = [
                 "collocations": [
                   {
                     "en": "textbook choice",
-                    "vi": "sự lựa chọn sách giáo khoa"
+                    "vi": "việc lựa chọn sách giáo khoa"
+                  },
+                  {
+                    "en": "meet differences in levels",
+                    "vi": "đáp ứng sự khác biệt về trình độ"
+                  },
+                  {
+                    "en": "differ in presentation",
+                    "vi": "khác nhau về cách trình bày"
                   },
                   {
                     "en": "learning styles",
                     "vi": "phong cách học tập"
                   },
                   {
-                    "en": "learning performance",
-                    "vi": "hiệu quả học tập"
+                    "en": "suitable content",
+                    "vi": "nội dung phù hợp"
+                  },
+                  {
+                    "en": "feel more confident",
+                    "vi": "cảm thấy tự tin hơn"
+                  },
+                  {
+                    "en": "improve learning performance",
+                    "vi": "cải thiện hiệu quả học tập"
                   }
                 ],
                 "point_vi": "Việc lựa chọn sách giúp trường học đáp ứng tốt hơn sự khác biệt về trình độ và nhu cầu học tập của học sinh.",
@@ -8430,8 +8502,24 @@ const ESSAY_DATA = [
                     "vi": "nguồn tài liệu bổ sung"
                   },
                   {
+                    "en": "learning and preparation",
+                    "vi": "học tập và sự chuẩn bị"
+                  },
+                  {
+                    "en": "review and reinforce knowledge",
+                    "vi": "ôn tập và củng cố kiến thức"
+                  },
+                  {
                     "en": "fill gaps in knowledge",
                     "vi": "lấp đầy khoảng trống kiến thức"
+                  },
+                  {
+                    "en": "prepare for tests and assignments",
+                    "vi": "chuẩn bị cho bài kiểm tra và bài tập"
+                  },
+                  {
+                    "en": "access multiple sources of information",
+                    "vi": "tiếp cận nhiều nguồn thông tin"
                   },
                   {
                     "en": "lifelong learning skills",
@@ -8448,40 +8536,32 @@ const ESSAY_DATA = [
           },
           "vocab": [
             {
-              "en": "choose textbooks",
-              "vi": "chọn sách giáo khoa"
+              "en": "different textbooks",
+              "vi": "nhiều sách giáo khoa khác nhau"
             },
             {
-              "en": "language textbooks",
-              "vi": "sách giáo khoa ngôn ngữ"
+              "en": "understand lessons deeply",
+              "vi": "hiểu bài sâu hơn"
             },
             {
-              "en": "educational materials",
-              "vi": "tài liệu giáo dục"
+              "en": "explain the same content",
+              "vi": "giải thích cùng một nội dung"
             },
             {
-              "en": "learning resources",
-              "vi": "nguồn tài liệu học tập"
+              "en": "explain in different ways",
+              "vi": "giải thích theo những cách khác nhau"
             },
             {
-              "en": "school autonomy",
-              "vi": "quyền tự chủ của nhà trường"
+              "en": "access more examples",
+              "vi": "tiếp cận nhiều ví dụ hơn"
             },
             {
-              "en": "teaching curriculum",
-              "vi": "chương trình giảng dạy"
+              "en": "difficult knowledge",
+              "vi": "kiến thức khó"
             },
             {
-              "en": "deep understanding",
-              "vi": "sự hiểu biết sâu sắc"
-            },
-            {
-              "en": "different explanations",
-              "vi": "các cách giải thích khác nhau"
-            },
-            {
-              "en": "wide range of examples",
-              "vi": "nhiều ví dụ đa dạng"
+              "en": "effective language learning",
+              "vi": "việc học ngôn ngữ hiệu quả"
             },
             {
               "en": "match students' levels",
@@ -8492,68 +8572,116 @@ const ESSAY_DATA = [
               "vi": "nhu cầu học tập"
             },
             {
-              "en": "learning styles",
-              "vi": "phong cách học tập"
+              "en": "differ in structure and difficulty",
+              "vi": "khác nhau về cấu trúc và độ khó"
             },
             {
-              "en": "independent learning skills",
-              "vi": "kỹ năng tự học"
+              "en": "suit student abilities",
+              "vi": "phù hợp với khả năng của học sinh"
             },
             {
-              "en": "lifelong learning",
-              "vi": "học tập suốt đời"
+              "en": "understand the lessons",
+              "vi": "tiếp thu / hiểu bài học"
             },
             {
-              "en": "learning performance",
-              "vi": "hiệu quả học tập"
+              "en": "learn confidently and effectively",
+              "vi": "học tập tự tin và hiệu quả"
             },
             {
-              "en": "explain in different ways",
-              "vi": "giải thích theo nhiều cách khác nhau"
+              "en": "learning resources",
+              "vi": "nguồn tài liệu học tập"
             },
             {
-              "en": "suit the abilities",
-              "vi": "phù hợp với khả năng"
+              "en": "review and reinforce knowledge",
+              "vi": "ôn tập và củng cố kiến thức"
             },
             {
-              "en": "review and reinforce",
-              "vi": "ôn tập và củng cố"
+              "en": "additional materials",
+              "vi": "tài liệu bổ sung"
             },
             {
               "en": "fill gaps in knowledge",
               "vi": "lấp đầy khoảng trống kiến thức"
             },
             {
-              "en": "prepare for tests",
-              "vi": "chuẩn bị cho các bài kiểm tra"
+              "en": "prepare for tests and assignments",
+              "vi": "chuẩn bị cho bài kiểm tra và bài tập"
             },
             {
-              "en": "boost confidence",
-              "vi": "tăng cường sự tự tin"
+              "en": "independent learning skills",
+              "vi": "kỹ năng tự học"
             },
             {
-              "en": "access information",
-              "vi": "tiếp cận thông tin"
+              "en": "deeper understanding",
+              "vi": "sự hiểu biết sâu sắc hơn"
             },
             {
-              "en": "one main advantage is that",
-              "vi": "một lợi thế chính là"
+              "en": "language knowledge",
+              "vi": "kiến thức ngôn ngữ"
             },
             {
-              "en": "another positive aspect is that",
-              "vi": "một khía cạnh tích cực khác là"
+              "en": "different explanations",
+              "vi": "các cách giải thích khác nhau"
             },
             {
-              "en": "a further benefit is that",
-              "vi": "một lợi ích nữa là"
+              "en": "wider range of approaches",
+              "vi": "nhiều cách tiếp cận rộng hơn"
             },
             {
-              "en": "as a result",
-              "vi": "kết quả là / nhờ đó"
+              "en": "different perspectives",
+              "vi": "nhiều góc độ khác nhau"
             },
             {
-              "en": "in addition",
-              "vi": "ngoài ra / thêm vào đó"
+              "en": "complex content",
+              "vi": "nội dung phức tạp"
+            },
+            {
+              "en": "contribute to effective learning",
+              "vi": "góp phần học tập hiệu quả"
+            },
+            {
+              "en": "textbook choice",
+              "vi": "việc lựa chọn sách giáo khoa"
+            },
+            {
+              "en": "meet differences in levels",
+              "vi": "đáp ứng sự khác biệt về trình độ"
+            },
+            {
+              "en": "differ in presentation",
+              "vi": "khác nhau về cách trình bày"
+            },
+            {
+              "en": "learning styles",
+              "vi": "phong cách học tập"
+            },
+            {
+              "en": "suitable content",
+              "vi": "nội dung phù hợp"
+            },
+            {
+              "en": "feel more confident",
+              "vi": "cảm thấy tự tin hơn"
+            },
+            {
+              "en": "improve learning performance",
+              "vi": "cải thiện hiệu quả học tập"
+            },
+            {
+              "en": "additional resources",
+              "vi": "nguồn tài liệu bổ sung"
+            },
+            {
+              "en": "learning and preparation",
+              "vi": "học tập và sự chuẩn bị"
+            },
+            {
+              "en": "access multiple sources of information",
+              "vi": "tiếp cận nhiều nguồn thông tin"
+            },
+            {
+              "en": "lifelong learning skills",
+              "vi": "kỹ năng học tập suốt đời"
             }
           ],
           "sample_b1": "In recent years, <strong>allowing schools to choose their own language textbooks</strong> has become more common in modern society. Many people see this as a positive development. <strong>This essay will discuss the main advantages of this topic.</strong>\n\nOne main advantage is that <strong><em>using different textbooks helps students understand lessons more deeply.</em></strong> Different textbooks can explain the same content in different ways. Students can access more examples. This helps them understand difficult knowledge better. As a result, language learning can become more effective.\n\nAnother positive aspect is that <strong><em>schools can choose textbooks that better match students' levels and learning needs.</em></strong> Textbooks can differ in language, structure, and difficulty. Teachers can choose materials that suit the abilities of different groups of students. This makes it easier for students to understand the lessons. As a result, students can learn more confidently and effectively.\n\nA further benefit is that <strong><em>using different textbooks provides students with more learning resources.</em></strong> Students can use different materials to review and reinforce their knowledge. Additional materials help them fill gaps in their knowledge. This helps students prepare better for tests and assignments. As a result, students can develop their independent learning skills.\n\nIn conclusion, <strong>allowing schools to choose their own language textbooks</strong> offers several benefits. These advantages make it useful for many people. Overall, it is a positive development in modern society.",
