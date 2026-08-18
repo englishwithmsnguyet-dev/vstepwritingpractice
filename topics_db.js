@@ -34545,7 +34545,240 @@ const ESSAY_DATA = [
         "title_vi": "Việc ăn ở nhà hàng hay ăn tại nhà.",
         "context": "Eating habits have changed significantly in modern society, with many people choosing between dining at restaurants and preparing meals at home. Some people believe that eating in restaurants is a more suitable choice for modern life. Others argue that eating at home is more beneficial for individuals and families.",
         "prompt": "Discuss both views and give your own opinion. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "tags": "[Discuss Both Views]",
+        "paraphrases": [
+          {
+            "en": "eating in restaurants vs eating at home",
+            "vi": "ăn ở nhà hàng so với ăn tại nhà"
+          },
+          {
+            "en": "dining out versus home cooking",
+            "vi": "ăn ngoài so với nấu ăn tại nhà"
+          },
+          {
+            "en": "eating at commercial food outlets compared to home-prepared meals",
+            "vi": "ăn tại hàng quán thương mại so với bữa ăn tự nấu ở nhà"
+          },
+          {
+            "en": "restaurant dining versus domestic meal preparation",
+            "vi": "dùng bữa tại nhà hàng so với chuẩn bị bữa ăn gia đình"
+          }
+        ],
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "VIEW 01: EATING AT RESTAURANTS IS MORE SUITABLE FOR MODERN LIFE",
+                "collocations": [
+                  {
+                    "en": "eating at restaurants",
+                    "vi": "ăn ở nhà hàng"
+                  },
+                  {
+                    "en": "save time",
+                    "vi": "tiết kiệm thời gian"
+                  },
+                  {
+                    "en": "busy with work",
+                    "vi": "bận rộn với công việc"
+                  },
+                  {
+                    "en": "different kinds of food",
+                    "vi": "nhiều loại đồ ăn khác nhau"
+                  },
+                  {
+                    "en": "food preferences",
+                    "vi": "sở thích ăn uống"
+                  }
+                ],
+                "point_vi": "Một số người cho rằng ăn ở nhà hàng phù hợp hơn với cuộc sống hiện đại vì nó thuận tiện.",
+                "point_en": "Some people believe that eating at restaurants is more suitable for modern life because it is convenient.",
+                "evidence_vi": "Mọi người không cần phải mua nguyên liệu và chuẩn bị thức ăn. Điều này giúp họ tiết kiệm thời gian, đặc biệt khi có công việc bận rộn. Nhà hàng cũng cung cấp nhiều món ăn khác nhau. Vì vậy, mọi người có thể dễ dàng lựa chọn món ăn theo sở thích. Ví dụ, những người làm việc nhiều giờ có thể ăn tối tại nhà hàng thay vì dành thời gian nấu ăn.",
+                "evidence_en": "People do not need to buy ingredients or prepare meals. This helps them save time, especially when they are busy with work. Restaurants also offer many different kinds of food. Therefore, people can easily choose food according to their preferences. For example, people who work long hours can have dinner at a restaurant instead of spending time cooking."
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "VIEW 02: EATING AT HOME IS MORE BENEFICIAL",
+                "collocations": [
+                  {
+                    "en": "preparing meals at home",
+                    "vi": "chuẩn bị bữa ăn tại nhà"
+                  },
+                  {
+                    "en": "choose ingredients",
+                    "vi": "lựa chọn nguyên liệu"
+                  },
+                  {
+                    "en": "healthier meals",
+                    "vi": "bữa ăn lành mạnh hơn"
+                  },
+                  {
+                    "en": "cheaper than restaurants",
+                    "vi": "rẻ hơn ở nhà hàng"
+                  },
+                  {
+                    "en": "cook and talk together",
+                    "vi": "cùng nấu ăn và trò chuyện"
+                  }
+                ],
+                "point_vi": "Những người khác cho rằng chuẩn bị bữa ăn tại nhà mang lại nhiều lợi ích hơn cho cá nhân và gia đình.",
+                "point_en": "Others argue that preparing meals at home is more beneficial for individuals and families.",
+                "evidence_vi": "Mọi người có thể lựa chọn nguyên liệu và kiểm soát cách chế biến thức ăn. Điều này giúp họ có những bữa ăn lành mạnh hơn. Nấu ăn tại nhà thường tốn ít tiền hơn ăn ở nhà hàng. Các thành viên trong gia đình cũng có thể dành thời gian cùng nhau trong khi chuẩn bị và ăn bữa ăn. Ví dụ, cha mẹ và con cái có thể cùng nấu bữa tối và trò chuyện với nhau.",
+                "evidence_en": "People can choose ingredients and control how food is prepared. This helps them have healthier meals. Cooking at home is often cheaper than eating at restaurants. Family members can also spend time together while preparing and eating meals. For example, parents and children can cook dinner together and talk to each other."
+              }
+            ]
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "VIEW 01: EATING AT RESTAURANTS SUITS MODERN CONVENIENCE",
+                "collocations": [
+                  {
+                    "en": "meet modern convenience",
+                    "vi": "đáp ứng sự tiện lợi hiện đại"
+                  },
+                  {
+                    "en": "long working hours",
+                    "vi": "giờ làm việc kéo dài"
+                  },
+                  {
+                    "en": "diverse culinary dishes",
+                    "vi": "món ăn ẩm thực đa dạng"
+                  },
+                  {
+                    "en": "socialize with colleagues",
+                    "vi": "giao lưu với đồng nghiệp"
+                  },
+                  {
+                    "en": "practical dining choice",
+                    "vi": "lựa chọn ăn uống thực tế"
+                  }
+                ],
+                "point_vi": "Những người ủng hộ việc ăn ngoài cho rằng nhà hàng đáp ứng tốt hơn nhu cầu về sự tiện lợi của cuộc sống hiện đại.",
+                "point_en": "Those who support eating out argue that restaurants better meet the need for convenience in modern life.",
+                "evidence_vi": "Những người bận rộn không cần dành nhiều thời gian để mua nguyên liệu, nấu ăn và dọn dẹp. Điều này đặc biệt hữu ích đối với những người có lịch làm việc dài hoặc không có nhiều thời gian rảnh. Ngoài ra, nhà hàng thường cung cấp nhiều món ăn thuộc các nền ẩm thực khác nhau. Khách hàng có thể lựa chọn món ăn mà không cần tự chuẩn bị. Ví dụ, một nhân viên văn phòng có thể ghé một nhà hàng sau giờ làm và dùng bữa ngay mà không phải nấu ăn. Ăn ở nhà hàng cũng có thể tạo cơ hội cho bạn bè hoặc đồng nghiệp gặp gỡ và giao lưu. Vì vậy, đối với những người có lối sống bận rộn, nhà hàng có thể là một lựa chọn thực tế và thuận tiện.",
+                "evidence_en": "Busy people do not need to spend much time buying ingredients, cooking, and cleaning up. This is particularly useful for people with long working hours or limited free time. In addition, restaurants often offer a wide range of dishes from different cuisines. Customers can choose meals without having to prepare them themselves. For example, an office worker can visit a restaurant after work and have a meal without having to cook. Eating at restaurants can also give friends or colleagues opportunities to meet and socialize. Therefore, for people with busy lifestyles, restaurants can be a practical and convenient choice."
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "VIEW 02: HOME COOKING OFFERS GREATER LONG-TERM BENEFITS",
+                "collocations": [
+                  {
+                    "en": "control nutritional intake",
+                    "vi": "kiểm soát lượng dinh dưỡng"
+                  },
+                  {
+                    "en": "fresh ingredients",
+                    "vi": "nguyên liệu tươi sạch"
+                  },
+                  {
+                    "en": "reduce meal expenses",
+                    "vi": "giảm chi phí bữa ăn"
+                  },
+                  {
+                    "en": "strengthen familial cohesion",
+                    "vi": "củng cố sự gắn kết gia đình"
+                  },
+                  {
+                    "en": "long-term health optimization",
+                    "vi": "tối ưu hóa sức khỏe dài hạn"
+                  }
+                ],
+                "point_vi": "Ngược lại, nhiều người cho rằng chuẩn bị thức ăn tại nhà mang lại nhiều lợi ích lâu dài hơn.",
+                "point_en": "In contrast, many people believe that preparing food at home provides greater long-term benefits.",
+                "evidence_vi": "Mọi người có thể lựa chọn nguyên liệu tươi và kiểm soát lượng dầu, muối hoặc đường trong món ăn. Nhờ đó, họ có thể xây dựng chế độ ăn phù hợp hơn với nhu cầu sức khỏe của mình. Nấu ăn tại nhà cũng thường giúp giảm chi phí cho các bữa ăn thường ngày. Khoản tiền tiết kiệm được có thể được sử dụng cho những nhu cầu khác của gia đình. Ví dụ, một gia đình có thể cùng mua nguyên liệu và chuẩn bị bữa tối thay vì mỗi người mua một bữa ăn bên ngoài. Quá trình nấu và ăn cùng nhau cũng tạo cơ hội để các thành viên trò chuyện và chia sẻ những việc xảy ra trong ngày. Do đó, ăn tại nhà không chỉ có lợi về sức khỏe và tài chính mà còn có thể củng cố mối quan hệ gia đình.",
+                "evidence_en": "People can choose fresh ingredients and control the amount of oil, salt, or sugar in their meals. As a result, they can develop a diet that is more suitable for their health needs. Cooking at home also usually reduces the cost of regular meals. The money saved can be used for other family needs. For example, a family can buy ingredients and prepare dinner together instead of each person buying a meal outside. Cooking and eating together also give family members opportunities to talk and share what happened during the day. Therefore, eating at home can benefit not only health and finances but also family relationships."
+              }
+            ]
+          },
+          "vocab": [
+            {
+              "en": "eating at restaurants",
+              "vi": "ăn ở nhà hàng"
+            },
+            {
+              "en": "save time",
+              "vi": "tiết kiệm thời gian"
+            },
+            {
+              "en": "busy with work",
+              "vi": "bận rộn với công việc"
+            },
+            {
+              "en": "different kinds of food",
+              "vi": "nhiều loại đồ ăn khác nhau"
+            },
+            {
+              "en": "food preferences",
+              "vi": "sở thích ăn uống"
+            },
+            {
+              "en": "preparing meals at home",
+              "vi": "chuẩn bị bữa ăn tại nhà"
+            },
+            {
+              "en": "choose ingredients",
+              "vi": "lựa chọn nguyên liệu"
+            },
+            {
+              "en": "healthier meals",
+              "vi": "bữa ăn lành mạnh hơn"
+            },
+            {
+              "en": "cheaper than restaurants",
+              "vi": "rẻ hơn ở nhà hàng"
+            },
+            {
+              "en": "cook and talk together",
+              "vi": "cùng nấu ăn và trò chuyện"
+            },
+            {
+              "en": "meet modern convenience",
+              "vi": "đáp ứng sự tiện lợi hiện đại"
+            },
+            {
+              "en": "long working hours",
+              "vi": "giờ làm việc kéo dài"
+            },
+            {
+              "en": "diverse culinary dishes",
+              "vi": "món ăn ẩm thực đa dạng"
+            },
+            {
+              "en": "socialize with colleagues",
+              "vi": "giao lưu với đồng nghiệp"
+            },
+            {
+              "en": "practical dining choice",
+              "vi": "lựa chọn ăn uống thực tế"
+            },
+            {
+              "en": "control nutritional intake",
+              "vi": "kiểm soát lượng dinh dưỡng"
+            },
+            {
+              "en": "fresh ingredients",
+              "vi": "nguyên liệu tươi sạch"
+            },
+            {
+              "en": "reduce meal expenses",
+              "vi": "giảm chi phí bữa ăn"
+            },
+            {
+              "en": "strengthen familial cohesion",
+              "vi": "củng cố sự gắn kết gia đình"
+            },
+            {
+              "en": "long-term health optimization",
+              "vi": "tối ưu hóa sức khỏe dài hạn"
+            }
+          ],
+          "sample_b1": "In recent years, <strong>the choice between eating at restaurants and preparing meals at home</strong> has become a common topic of discussion. Some people believe that <strong><em>eating at restaurants is more suitable for modern life because it is convenient</em></strong>, while others argue that <strong><em>preparing meals at home is more beneficial for individuals and families</em></strong>. <strong>This essay will discuss both views and give my own opinion.</strong>\n\n<strong>On the one hand, it is argued that eating at restaurants is more suitable for modern life because it is convenient.</strong> People do not need to buy ingredients or prepare meals. This helps them save time, especially when they are busy with work. Restaurants also offer many different kinds of food. Therefore, people can easily choose food according to their preferences. For example, people who work long hours can have dinner at a restaurant instead of spending time cooking.\n\n<strong>On the other hand, it is believed that preparing meals at home is more beneficial for individuals and families.</strong> People can choose ingredients and control how food is prepared. This helps them have healthier meals. Cooking at home is often cheaper than eating at restaurants. Family members can also spend time together while preparing and eating meals. For example, parents and children can cook dinner together and talk to each other.\n\nIn conclusion, both views have valid reasons. However, <strong><em>I believe that eating at home is more beneficial</em></strong> because <strong><em>it is healthier, cheaper, and provides more time for families to be together</em></strong>. Therefore, people should prioritize home-cooked meals whenever possible to maintain good health and strong family bonds.",
+          "translation_b1": "Trong những năm gần đây, <strong>sự lựa chọn giữa việc ăn ở nhà hàng và chuẩn bị bữa ăn tại nhà</strong> đã trở thành một chủ đề thảo luận phổ biến. Một số người tin rằng <strong><em>ăn ở nhà hàng phù hợp hơn với cuộc sống hiện đại vì nó thuận tiện</em></strong>, trong khi những người khác cho rằng <strong><em>chuẩn bị bữa ăn tại nhà mang lại nhiều lợi ích hơn cho cá nhân và gia đình</em></strong>. <strong>Bài tiểu luận này sẽ thảo luận về cả hai quan điểm và đưa ra ý kiến của riêng tôi.</strong>\n\n<strong>Một mặt, có ý kiến cho rằng ăn ở nhà hàng phù hợp hơn với cuộc sống hiện đại vì nó thuận tiện.</strong> Mọi người không cần phải mua nguyên liệu và chuẩn bị thức ăn. Điều này giúp họ tiết kiệm thời gian, đặc biệt khi có công việc bận rộn. Nhà hàng cũng cung cấp nhiều món ăn khác nhau. Vì vậy, mọi người có thể dễ dàng lựa chọn món ăn theo sở thích. Ví dụ, những người làm việc nhiều giờ có thể ăn tối tại nhà hàng thay vì dành thời gian nấu ăn.\n\n<strong>Mặt khác, người ta tin rằng chuẩn bị bữa ăn tại nhà mang lại nhiều lợi ích hơn cho cá nhân và gia đình.</strong> Mọi người có thể lựa chọn nguyên liệu và kiểm soát cách chế biến thức ăn. Điều này giúp họ có những bữa ăn lành mạnh hơn. Nấu ăn tại nhà thường tốn ít tiền hơn ăn ở nhà hàng. Các thành viên trong gia đình cũng có thể dành thời gian cùng nhau trong khi chuẩn bị và ăn bữa ăn. Ví dụ, cha mẹ và con cái có thể cùng nấu bữa tối và trò chuyện với nhau.\n\nTóm lại, cả hai quan điểm đều có những lý do hợp lý. Tuy nhiên, <strong><em>tôi tin rằng ăn ở nhà có lợi hơn</em></strong> vì <strong><em>nó giúp mọi người ăn uống lành mạnh, tiết kiệm tiền và có thêm thời gian bên gia đình</em></strong>. Vì vậy, mọi người nên ưu tiên các bữa ăn tự nấu tại nhà bất cứ khi nào có thể để duy trì sức khỏe tốt và tình cảm gia đình gắn bó."
+        }
       },
       {
         "id": 16,
