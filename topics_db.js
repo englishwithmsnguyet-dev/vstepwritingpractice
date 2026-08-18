@@ -8448,76 +8448,112 @@ const ESSAY_DATA = [
           },
           "vocab": [
             {
-              "en": "different textbooks",
-              "vi": "nhiều sách giáo khoa khác nhau"
+              "en": "choose textbooks",
+              "vi": "chọn sách giáo khoa"
             },
             {
-              "en": "understand lessons deeply",
-              "vi": "hiểu bài sâu hơn"
+              "en": "language textbooks",
+              "vi": "sách giáo khoa ngôn ngữ"
             },
             {
-              "en": "language learning",
-              "vi": "học ngôn ngữ"
-            },
-            {
-              "en": "match learning needs",
-              "vi": "phù hợp với nhu cầu học tập"
-            },
-            {
-              "en": "differ in structure",
-              "vi": "khác nhau về cấu trúc"
-            },
-            {
-              "en": "learn confidently",
-              "vi": "học tập tự tin"
+              "en": "educational materials",
+              "vi": "tài liệu giáo dục"
             },
             {
               "en": "learning resources",
               "vi": "nguồn tài liệu học tập"
             },
             {
-              "en": "review and reinforce",
-              "vi": "ôn tập và củng cố"
+              "en": "school autonomy",
+              "vi": "quyền tự chủ của nhà trường"
             },
             {
-              "en": "independent learning skills",
-              "vi": "kỹ năng tự học"
+              "en": "teaching curriculum",
+              "vi": "chương trình giảng dạy"
             },
             {
-              "en": "deeper understanding",
-              "vi": "sự hiểu biết sâu sắc hơn"
+              "en": "deep understanding",
+              "vi": "sự hiểu biết sâu sắc"
             },
             {
-              "en": "different perspectives",
-              "vi": "nhiều góc độ khác nhau"
+              "en": "different explanations",
+              "vi": "các cách giải thích khác nhau"
             },
             {
-              "en": "complex content",
-              "vi": "nội dung phức tạp"
+              "en": "wide range of examples",
+              "vi": "nhiều ví dụ đa dạng"
             },
             {
-              "en": "textbook choice",
-              "vi": "sự lựa chọn sách giáo khoa"
+              "en": "match students' levels",
+              "vi": "phù hợp với trình độ học sinh"
+            },
+            {
+              "en": "learning needs",
+              "vi": "nhu cầu học tập"
             },
             {
               "en": "learning styles",
               "vi": "phong cách học tập"
             },
             {
+              "en": "independent learning skills",
+              "vi": "kỹ năng tự học"
+            },
+            {
+              "en": "lifelong learning",
+              "vi": "học tập suốt đời"
+            },
+            {
               "en": "learning performance",
               "vi": "hiệu quả học tập"
             },
             {
-              "en": "additional resources",
-              "vi": "nguồn tài liệu bổ sung"
+              "en": "explain in different ways",
+              "vi": "giải thích theo nhiều cách khác nhau"
+            },
+            {
+              "en": "suit the abilities",
+              "vi": "phù hợp với khả năng"
+            },
+            {
+              "en": "review and reinforce",
+              "vi": "ôn tập và củng cố"
             },
             {
               "en": "fill gaps in knowledge",
               "vi": "lấp đầy khoảng trống kiến thức"
             },
             {
-              "en": "lifelong learning skills",
-              "vi": "kỹ năng học tập suốt đời"
+              "en": "prepare for tests",
+              "vi": "chuẩn bị cho các bài kiểm tra"
+            },
+            {
+              "en": "boost confidence",
+              "vi": "tăng cường sự tự tin"
+            },
+            {
+              "en": "access information",
+              "vi": "tiếp cận thông tin"
+            },
+            {
+              "en": "one main advantage is that",
+              "vi": "một lợi thế chính là"
+            },
+            {
+              "en": "another positive aspect is that",
+              "vi": "một khía cạnh tích cực khác là"
+            },
+            {
+              "en": "a further benefit is that",
+              "vi": "một lợi ích nữa là"
+            },
+            {
+              "en": "as a result",
+              "vi": "kết quả là / nhờ đó"
+            },
+            {
+              "en": "in addition",
+              "vi": "ngoài ra / thêm vào đó"
             }
           ],
           "sample_b1": "In recent years, <strong>allowing schools to choose their own language textbooks</strong> has become more common in modern society. Many people see this as a positive development. <strong>This essay will discuss the main advantages of this topic.</strong>\n\nOne main advantage is that <strong><em>using different textbooks helps students understand lessons more deeply.</em></strong> Different textbooks can explain the same content in different ways. Students can access more examples. This helps them understand difficult knowledge better. As a result, language learning can become more effective.\n\nAnother positive aspect is that <strong><em>schools can choose textbooks that better match students' levels and learning needs.</em></strong> Textbooks can differ in language, structure, and difficulty. Teachers can choose materials that suit the abilities of different groups of students. This makes it easier for students to understand the lessons. As a result, students can learn more confidently and effectively.\n\nA further benefit is that <strong><em>using different textbooks provides students with more learning resources.</em></strong> Students can use different materials to review and reinforce their knowledge. Additional materials help them fill gaps in their knowledge. This helps students prepare better for tests and assignments. As a result, students can develop their independent learning skills.\n\nIn conclusion, <strong>allowing schools to choose their own language textbooks</strong> offers several benefits. These advantages make it useful for many people. Overall, it is a positive development in modern society.",
