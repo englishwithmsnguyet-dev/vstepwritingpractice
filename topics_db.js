@@ -34360,7 +34360,240 @@ const ESSAY_DATA = [
         "title_vi": "Chương trình thí điểm đèn giao thông tại các ngã tư: hiệu quả hay tiềm ẩn rủi ro?",
         "context": "Traffic congestion and road safety are major concerns in many cities. To address these issues, some local authorities have introduced pilot programs involving traffic lights at busy intersections. Some people believe that installing traffic lights can improve traffic flow and reduce congestion by regulating vehicle movements more effectively. Others argue that such systems may confuse road users, increase the risk of accidents, and even create additional traffic delays if they are not properly designed or managed.",
         "prompt": "Discuss both views and give your own opinion. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "tags": "[Discuss Both Views]",
+        "paraphrases": [
+          {
+            "en": "installing traffic lights at intersections",
+            "vi": "việc lắp đặt đèn giao thông tại các giao lộ"
+          },
+          {
+            "en": "implementing traffic signal systems at junctions",
+            "vi": "triển khai hệ thống tín hiệu đèn giao thông tại nút giao"
+          },
+          {
+            "en": "regulating intersection traffic through automated lights",
+            "vi": "điều tiết giao thông ngã tư bằng đèn tự động"
+          },
+          {
+            "en": "introducing traffic lights to manage urban congestion",
+            "vi": "đưa đèn giao thông vào quản lý ùn tắc đô thị"
+          }
+        ],
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "VIEW 01: TRAFFIC LIGHTS IMPROVE FLOW AND REDUCE CONGESTION",
+                "collocations": [
+                  {
+                    "en": "control vehicles",
+                    "vi": "kiểm soát phương tiện"
+                  },
+                  {
+                    "en": "organized traffic",
+                    "vi": "giao thông có tổ chức"
+                  },
+                  {
+                    "en": "busy intersections",
+                    "vi": "giao lộ đông đúc"
+                  },
+                  {
+                    "en": "safely and smoothly",
+                    "vi": "an toàn và thuận lợi"
+                  },
+                  {
+                    "en": "compete for space",
+                    "vi": "tranh giành đường"
+                  }
+                ],
+                "point_vi": "Đèn giao thông có thể giúp kiểm soát phương tiện và làm giao thông trật tự hơn.",
+                "point_en": "Traffic lights can control vehicles and make traffic more organized.",
+                "evidence_vi": "Đèn giao thông quy định thời điểm mỗi nhóm phương tiện được di chuyển. Điều này giúp các phương tiện tránh di chuyển cùng lúc tại những giao lộ đông đúc. Nhờ đó, các phương tiện có thể di chuyển an toàn và thuận lợi hơn. Đèn giao thông cũng có thể giảm tình trạng xe phải tranh đường với nhau. Ví dụ, tại một giao lộ đông đúc, xe từ các hướng có thể lần lượt di chuyển theo tín hiệu đèn.",
+                "evidence_en": "Traffic lights show when each group of vehicles can move. This helps vehicles avoid moving at the same time at busy intersections. As a result, vehicles can move more safely and smoothly. Traffic lights can also reduce situations in which drivers compete for space. For example, at a busy intersection, vehicles from different directions can move one after another according to the lights."
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "VIEW 02: TRAFFIC LIGHTS MAY CAUSE CONFUSION AND DELAYS",
+                "collocations": [
+                  {
+                    "en": "properly designed",
+                    "vi": "thiết kế hợp lý"
+                  },
+                  {
+                    "en": "understand signals",
+                    "vi": "hiểu rõ tín hiệu"
+                  },
+                  {
+                    "en": "react incorrectly",
+                    "vi": "phản ứng sai"
+                  },
+                  {
+                    "en": "timed properly",
+                    "vi": "cài đặt thời gian phù hợp"
+                  },
+                  {
+                    "en": "traffic congestion",
+                    "vi": "ùn tắc giao thông"
+                  }
+                ],
+                "point_vi": "Đèn giao thông có thể gây ra một số vấn đề nếu không được thiết kế phù hợp.",
+                "point_en": "Traffic lights can cause some problems if they are not properly designed.",
+                "evidence_vi": "Một số tài xế có thể không hiểu rõ các tín hiệu hoặc thay đổi tín hiệu. Điều này có thể khiến họ phản ứng không đúng khi tham gia giao thông. Đèn giao thông cũng có thể khiến xe phải chờ lâu ở những giao lộ không quá đông. Nếu thời gian đèn được cài đặt không hợp lý, tình trạng ùn tắc có thể trở nên nghiêm trọng hơn. Ví dụ, một tuyến đường có ít xe vẫn có thể phải dừng lâu vì tín hiệu đèn không phù hợp với lượng phương tiện.",
+                "evidence_en": "Some drivers may not understand the signals or changes in the lights clearly. This can make them react incorrectly on the road. Traffic lights can also make vehicles wait for a long time at intersections that are not very busy. If the lights are not timed properly, traffic congestion may become worse. For example, vehicles on a road with little traffic may still have to wait for a long time because the signals are not suitable for traffic levels."
+              }
+            ]
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "VIEW 01: TRAFFIC LIGHTS REGULATE VEHICLES AND ENHANCE SAFETY",
+                "collocations": [
+                  {
+                    "en": "regulate vehicle movements",
+                    "vi": "điều tiết chuyển động phương tiện"
+                  },
+                  {
+                    "en": "predictable flow of traffic",
+                    "vi": "dòng giao thông có thể dự đoán"
+                  },
+                  {
+                    "en": "eliminate space competition",
+                    "vi": "loại bỏ việc tranh giành không gian"
+                  },
+                  {
+                    "en": "traffic efficiency and safety",
+                    "vi": "hiệu quả và an toàn giao thông"
+                  },
+                  {
+                    "en": "multi-directional intersections",
+                    "vi": "giao lộ nhiều hướng"
+                  }
+                ],
+                "point_vi": "Những người ủng hộ việc lắp đặt đèn giao thông cho rằng chúng có thể điều tiết phương tiện hiệu quả hơn tại các giao lộ đông đúc.",
+                "point_en": "Those who support traffic lights argue that they can regulate vehicle movements more effectively at busy intersections.",
+                "evidence_vi": "Đèn giao thông phân chia thời gian di chuyển cho các hướng khác nhau. Nhờ đó, các phương tiện không phải cùng lúc tranh giành không gian tại một giao lộ. Hệ thống này có thể tạo ra dòng giao thông có tổ chức và dễ dự đoán hơn. Khi phương tiện di chuyển theo thứ tự, thời gian chờ và tình trạng ùn tắc có thể được giảm bớt. Ngoài ra, tín hiệu rõ ràng có thể giúp người lái xe biết khi nào nên dừng và khi nào được phép di chuyển. Ví dụ, tại một giao lộ có nhiều dòng xe từ bốn hướng, tín hiệu đèn có thể lần lượt cho phép từng hướng di chuyển. Vì vậy, những người ủng hộ cho rằng đèn giao thông có thể cải thiện cả hiệu quả giao thông và sự an toàn.",
+                "evidence_en": "Traffic lights divide movement time among different directions. As a result, vehicles do not have to compete for space at an intersection at the same time. This system can create a more organized and predictable flow of traffic. When vehicles move in an organized order, waiting times and congestion can be reduced. In addition, clear signals can help drivers know when to stop and when they are allowed to move. For example, at an intersection with heavy traffic from four directions, signals can allow each direction to move in turn. Therefore, supporters believe that traffic lights can improve both traffic efficiency and road safety."
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "VIEW 02: TRAFFIC LIGHTS MAY CAUSE CONFUSION, DELAYS AND HAZARDS",
+                "collocations": [
+                  {
+                    "en": "poorly timed signals",
+                    "vi": "tín hiệu cài đặt thời gian kém"
+                  },
+                  {
+                    "en": "confusion and collisions",
+                    "vi": "sự bối rối và va chạm"
+                  },
+                  {
+                    "en": "impatience and red-light running",
+                    "vi": "thiếu kiên nhẫn và vượt đèn đỏ"
+                  },
+                  {
+                    "en": "unnecessary congestion",
+                    "vi": "ùn tắc không cần thiết"
+                  },
+                  {
+                    "en": "suboptimal traffic management",
+                    "vi": "quản lý giao thông chưa tối ưu"
+                  }
+                ],
+                "point_vi": "Những người phản đối lo ngại rằng hệ thống đèn giao thông có thể tạo thêm vấn đề nếu được thiết kế hoặc quản lý không phù hợp.",
+                "point_en": "Opponents are concerned that traffic-light systems may create additional problems if they are poorly designed or managed.",
+                "evidence_vi": "Các tín hiệu phức tạp hoặc không rõ ràng có thể khiến một số người tham gia giao thông bối rối. Sự nhầm lẫn này có thể dẫn đến những phản ứng sai và làm tăng nguy cơ va chạm. Ngoài ra, thời gian đèn không hợp lý có thể khiến phương tiện phải chờ lâu. Nếu thời gian chờ quá dài, tài xế có thể trở nên thiếu kiên nhẫn và cố vượt đèn. Điều này có thể làm giảm mức độ an toàn thay vì cải thiện nó. Ví dụ, nếu đèn đỏ kéo dài trong khi một hướng gần như không có xe, dòng phương tiện ở hướng còn lại có thể bị ùn lại không cần thiết. Do đó, việc lắp đặt đèn giao thông không tự động giải quyết được vấn đề nếu hệ thống không phù hợp với điều kiện giao thông thực tế.",
+                "evidence_en": "Complex or unclear signals may confuse some road users. This confusion can lead to incorrect reactions and increase the risk of collisions. Moreover, poorly timed signals can force vehicles to wait for long periods. If waiting times are too long, drivers may become impatient and try to go through red lights. This can reduce road safety rather than improve it. For example, if a red light lasts too long while there are very few vehicles in one direction, traffic in the other direction may become unnecessarily congested. Therefore, installing traffic lights does not automatically solve traffic problems if the system does not match actual traffic conditions."
+              }
+            ]
+          },
+          "vocab": [
+            {
+              "en": "control vehicles",
+              "vi": "kiểm soát phương tiện"
+            },
+            {
+              "en": "organized traffic",
+              "vi": "giao thông có tổ chức"
+            },
+            {
+              "en": "busy intersections",
+              "vi": "giao lộ đông đúc"
+            },
+            {
+              "en": "safely and smoothly",
+              "vi": "an toàn và thuận lợi"
+            },
+            {
+              "en": "compete for space",
+              "vi": "tranh giành đường"
+            },
+            {
+              "en": "properly designed",
+              "vi": "thiết kế hợp lý"
+            },
+            {
+              "en": "understand signals",
+              "vi": "hiểu rõ tín hiệu"
+            },
+            {
+              "en": "react incorrectly",
+              "vi": "phản ứng sai"
+            },
+            {
+              "en": "timed properly",
+              "vi": "cài đặt thời gian phù hợp"
+            },
+            {
+              "en": "traffic congestion",
+              "vi": "ùn tắc giao thông"
+            },
+            {
+              "en": "regulate vehicle movements",
+              "vi": "điều tiết chuyển động phương tiện"
+            },
+            {
+              "en": "predictable flow of traffic",
+              "vi": "dòng giao thông có thể dự đoán"
+            },
+            {
+              "en": "eliminate space competition",
+              "vi": "loại bỏ việc tranh giành không gian"
+            },
+            {
+              "en": "traffic efficiency and safety",
+              "vi": "hiệu quả và an toàn giao thông"
+            },
+            {
+              "en": "multi-directional intersections",
+              "vi": "giao lộ nhiều hướng"
+            },
+            {
+              "en": "poorly timed signals",
+              "vi": "tín hiệu cài đặt thời gian kém"
+            },
+            {
+              "en": "confusion and collisions",
+              "vi": "sự bối rối và va chạm"
+            },
+            {
+              "en": "impatience and red-light running",
+              "vi": "thiếu kiên nhẫn và vượt đèn đỏ"
+            },
+            {
+              "en": "unnecessary congestion",
+              "vi": "ùn tắc không cần thiết"
+            },
+            {
+              "en": "suboptimal traffic management",
+              "vi": "quản lý giao thông chưa tối ưu"
+            }
+          ],
+          "sample_b1": "In recent years, <strong>the installation of traffic lights at busy intersections</strong> has become a common topic of discussion. Some people believe that <strong><em>traffic lights can control vehicles and make traffic more organized</em></strong>, while others argue that <strong><em>traffic lights can cause problems if they are not properly designed</em></strong>. <strong>This essay will discuss both views and give my own opinion.</strong>\n\n<strong>On the one hand, it is argued that traffic lights can control vehicles and make traffic more organized.</strong> Traffic lights show when each group of vehicles can move. This helps vehicles avoid moving at the same time at busy intersections. As a result, vehicles can move more safely and smoothly. Traffic lights can also reduce situations in which drivers compete for space. For example, at a busy intersection, vehicles from different directions can move one after another according to the lights.\n\n<strong>On the other hand, it is believed that traffic lights can cause problems if they are not properly designed.</strong> Some drivers may not understand the signals or changes in the lights clearly. This can make them react incorrectly on the road. Traffic lights can also make vehicles wait for a long time at intersections that are not very busy. If the lights are not timed properly, traffic congestion may become worse. For example, vehicles on a road with little traffic may still have to wait for a long time because the signals are not suitable for traffic levels.\n\nIn conclusion, both views have valid reasons. However, <strong><em>I believe that traffic lights should be used</em></strong> because <strong><em>they can help control traffic and reduce the risk of accidents if they are properly managed</em></strong>. Therefore, city planners should design signal systems carefully to ensure safety and smooth traffic flow.",
+          "translation_b1": "Trong những năm gần đây, <strong>việc lắp đặt đèn giao thông tại các giao lộ đông đúc</strong> đã trở thành một chủ đề thảo luận phổ biến. Một số người tin rằng <strong><em>đèn giao thông có thể kiểm soát phương tiện và làm giao thông trật tự hơn</em></strong>, trong khi những người khác cho rằng <strong><em>đèn giao thông có thể gây ra vấn đề nếu không được thiết kế phù hợp</em></strong>. <strong>Bài tiểu luận này sẽ thảo luận về cả hai quan điểm và đưa ra ý kiến của riêng tôi.</strong>\n\n<strong>Một mặt, có ý kiến cho rằng đèn giao thông có thể kiểm soát phương tiện và làm giao thông trật tự hơn.</strong> Đèn giao thông quy định thời điểm mỗi nhóm phương tiện được di chuyển. Điều này giúp các phương tiện tránh di chuyển cùng lúc tại những giao lộ đông đúc. Nhờ đó, các phương tiện có thể di chuyển an toàn và thuận lợi hơn. Đèn giao thông cũng có thể giảm tình trạng xe phải tranh đường với nhau. Ví dụ, tại một giao lộ đông đúc, xe từ các hướng có thể lần lượt di chuyển theo tín hiệu đèn.\n\n<strong>Mặt khác, người ta tin rằng đèn giao thông có thể gây ra vấn đề nếu không được thiết kế phù hợp.</strong> Một số tài xế có thể không hiểu rõ các tín hiệu hoặc thay đổi tín hiệu. Điều này có thể khiến họ phản ứng không đúng khi tham gia giao thông. Đèn giao thông cũng có thể khiến xe phải chờ lâu ở những giao lộ không quá đông. Nếu thời gian đèn được cài đặt không hợp lý, tình trạng ùn tắc có thể trở nên nghiêm trọng hơn. Ví dụ, một tuyến đường có ít xe vẫn có thể phải dừng lâu vì tín hiệu đèn không phù hợp với lượng phương tiện.\n\nTóm lại, cả hai quan điểm đều có những lý do hợp lý. Tuy nhiên, <strong><em>tôi tin rằng nên sử dụng đèn giao thông</em></strong> vì <strong><em>chúng có thể giúp kiểm soát giao thông và giảm nguy cơ tai nạn nếu được quản lý tốt</em></strong>. Vì vậy, các nhà quy hoạch đô thị nên thiết kế hệ thống tín hiệu cẩn thận để đảm bảo an toàn và lưu thông thông suốt."
+        }
       },
       {
         "id": 22,
