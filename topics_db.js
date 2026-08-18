@@ -13952,7 +13952,7 @@ const ESSAY_DATA = [
       {
         "id": 53,
         "title_en": "Fashion",
-        "title_vi": "Thời trang [chỉ lợi ích]",
+        "title_vi": "Thời trang",
         "context": "Fashion is more than simply clothing and personal appearance. It reflects cultural values, social trends, and individual identity. Moreover, the fashion industry has become an important contributor to economic and creative development in many countries. As a result, fashion is considered an essential part of modern life.",
         "prompt": "Write an essay to an educated reader to discuss the importance of fashion. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
         "has_full_details": false
@@ -14000,7 +14000,7 @@ const ESSAY_DATA = [
       {
         "id": 59,
         "title_en": "Keeping a diary",
-        "title_vi": "Viết nhật ký [chỉ lợi ích]",
+        "title_vi": "Viết nhật ký",
         "context": "Keeping a diary has been a common habit for many people for a long time. By writing about their daily experiences, thoughts, feelings, and future plans, individuals can reflect on their lives and record important memories. In today's fast-paced world, many people believe that keeping a diary continues to bring valuable benefits to personal development and well-being.",
         "prompt": "Write an essay to an educated reader to discuss the benefits of keeping a diary. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
         "has_full_details": false
@@ -14881,7 +14881,7 @@ const ESSAY_DATA = [
       {
         "id": 65,
         "title_en": "Visiting historical exhibitions",
-        "title_vi": "Tham quan triển lãm lịch sử [chỉ lợi ích]",
+        "title_vi": "Tham quan triển lãm lịch sử",
         "context": "Historical exhibitions are organized in many museums, cultural centers, and public spaces to help people learn about important events, historical figures, and cultural heritage. By visiting these exhibitions, people can gain a deeper understanding of the past and develop a greater appreciation for their nation’s history and traditions. Many people believe that visiting historical exhibitions brings valuable benefits to individuals and society.",
         "prompt": "Write an essay to an educated reader to discuss the importance of visiting historical exhibitions. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
         "has_full_details": false
@@ -14897,7 +14897,7 @@ const ESSAY_DATA = [
       {
         "id": 67,
         "title_en": "Having a healthy lifestyle",
-        "title_vi": "Lối sống lành mạnh [chỉ lợi ích]",
+        "title_vi": "Lối sống lành mạnh",
         "context": "In today's fast-paced world, maintaining a healthy lifestyle has become increasingly important. A healthy lifestyle often includes regular physical exercise, a balanced diet, sufficient sleep, and the avoidance of harmful habits such as smoking and excessive alcohol consumption. Many people believe that adopting a healthy lifestyle brings significant benefits to individuals and society.",
         "prompt": "Write an essay to an educated reader to discuss the importance of having a healthy lifestyle. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
         "has_full_details": false
@@ -33423,8 +33423,8 @@ const ESSAY_DATA = [
       },
       {
         "id": 11,
-        "title_en": "Artificial Intelligence",
-        "title_vi": "AI): benefits or drawbacks? (Trí tuệ nhân tạo: lợi ích hay tác hại?",
+        "title_en": "Artificial Intelligence (AI): benefits or drawbacks?",
+        "title_vi": "Trí tuệ nhân tạo (AI): lợi ích hay tác hại?",
         "context": "Artificial intelligence (AI) is becoming increasingly common in many areas of life, including education, healthcare, business, transportation, and entertainment. As AI technology continues to develop, people have different opinions about its impact on society. Some people believe that AI improves efficiency, supports decision-making, and makes daily life more convenient. Others argue that AI may lead to job losses, increase people's dependence on technology, and raise important ethical concerns.",
         "prompt": "Discuss both views and give your own opinion. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
         "has_full_details": true,
