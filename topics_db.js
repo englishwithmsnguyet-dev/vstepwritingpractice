@@ -20157,9 +20157,633 @@ const ESSAY_DATA = [
             "prompt": "Write an essay to an educated reader to discuss the effects of the decline in reading habits and suggest possible solutions to this problem. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar."
           }
         ],
-        "has_full_details": false,
+        "has_full_details": true,
         "context": "Reading has long been considered an important activity for learning, personal development, and lifelong education. However, in recent years, many people, especially young people, have spent less time reading books and other printed materials. This decline in reading habits has become a growing concern in many countries.",
-        "prompt": "Write an essay to an educated reader to discuss the causes of the decline in reading habits and suggest possible solutions to this problem. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar."
+        "prompt": "Write an essay to an educated reader to discuss the causes of the decline in reading habits and suggest possible solutions to this problem. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "paraphrases": [
+          {
+            "en": "the decline in reading habits",
+            "vi": "sự suy giảm thói quen đọc sách"
+          },
+          {
+            "en": "falling readership among young people",
+            "vi": "lượng độc giả sụt giảm ở giới trẻ"
+          },
+          {
+            "en": "spending less time reading books",
+            "vi": "dành ít thời gian hơn cho việc đọc sách"
+          },
+          {
+            "en": "the erosion of traditional reading culture",
+            "vi": "sự mai một của văn hóa đọc truyền thống"
+          }
+        ],
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "CAUSE 01",
+                "collocations": [
+                  {
+                    "en": "digital entertainment",
+                    "vi": "giải trí kỹ thuật số"
+                  },
+                  {
+                    "en": "attractive forms of entertainment",
+                    "vi": "các hình thức giải trí hấp dẫn"
+                  },
+                  {
+                    "en": "spend time on social media",
+                    "vi": "dành thời gian cho mạng xã hội"
+                  },
+                  {
+                    "en": "video games",
+                    "vi": "trò chơi điện tử"
+                  },
+                  {
+                    "en": "digital distractions",
+                    "vi": "sự xao nhãng từ công nghệ số"
+                  }
+                ],
+                "point_vi": "Giới trẻ ngày nay có nhiều lựa chọn giải trí hấp dẫn khác.",
+                "point_en": "Young people nowadays have many other attractive forms of entertainment.",
+                "evidence_vi": "Họ thường dành thời gian cho mạng xã hội, video và trò chơi điện tử thay vì đọc sách.",
+                "evidence_en": "They often spend time on social media, videos, and video games instead of reading books."
+              },
+              {
+                "title": "CAUSE 02",
+                "collocations": [
+                  {
+                    "en": "busy schedules",
+                    "vi": "lịch trình bận rộn"
+                  },
+                  {
+                    "en": "study and work pressure",
+                    "vi": "áp lực học tập và công việc"
+                  },
+                  {
+                    "en": "less free time",
+                    "vi": "ít thời gian rảnh"
+                  },
+                  {
+                    "en": "hectic lifestyle",
+                    "vi": "lối sống bận rộn hối hả"
+                  },
+                  {
+                    "en": "lack of leisure time",
+                    "vi": "thiếu thời gian thư giãn"
+                  }
+                ],
+                "point_vi": "Nhiều người trẻ có lịch học tập và công việc khá bận rộn.",
+                "point_en": "Many young people have busy study and work schedules.",
+                "evidence_vi": "Vì vậy, họ có ít thời gian rảnh để đọc sách.",
+                "evidence_en": "Therefore, they have less free time to read books."
+              },
+              {
+                "title": "CAUSE 03",
+                "collocations": [
+                  {
+                    "en": "difficult or uninteresting",
+                    "vi": "khó hoặc không thú vị"
+                  },
+                  {
+                    "en": "long books",
+                    "vi": "những cuốn sách dài"
+                  },
+                  {
+                    "en": "complex content",
+                    "vi": "nội dung phức tạp"
+                  },
+                  {
+                    "en": "lose interest quickly",
+                    "vi": "nhanh chóng mất hứng thú"
+                  },
+                  {
+                    "en": "short attention span",
+                    "vi": "khả năng tập trung ngắn"
+                  }
+                ],
+                "point_vi": "Một số người trẻ có thể thấy việc đọc sách khó hoặc không thú vị.",
+                "point_en": "Some young people may find reading difficult or uninteresting.",
+                "evidence_vi": "Những cuốn sách dài và nhiều nội dung khó có thể khiến họ nhanh chóng mất hứng thú.",
+                "evidence_en": "Long books with difficult content can make them lose interest quickly."
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "SOLUTION 01",
+                "collocations": [
+                  {
+                    "en": "encourage reading in schools",
+                    "vi": "khuyến khích đọc sách trong nhà trường"
+                  },
+                  {
+                    "en": "regular reading activities",
+                    "vi": "hoạt động đọc sách thường xuyên"
+                  },
+                  {
+                    "en": "reading clubs",
+                    "vi": "câu lạc bộ đọc sách"
+                  },
+                  {
+                    "en": "reading sessions",
+                    "vi": "giờ đọc sách"
+                  },
+                  {
+                    "en": "foster love for books",
+                    "vi": "nuôi dưỡng tình yêu với sách"
+                  }
+                ],
+                "point_vi": "Các trường học nên tạo thêm cơ hội để học sinh đọc sách thường xuyên.",
+                "point_en": "Schools should create more opportunities for students to read regularly.",
+                "evidence_vi": "Giáo viên có thể tổ chức các hoạt động đọc sách hoặc câu lạc bộ đọc sách.",
+                "evidence_en": "Teachers can organize reading activities or reading clubs."
+              },
+              {
+                "title": "SOLUTION 02",
+                "collocations": [
+                  {
+                    "en": "set aside regular time",
+                    "vi": "dành ra thời gian cố định"
+                  },
+                  {
+                    "en": "daily reading routine",
+                    "vi": "thói quen đọc sách hằng ngày"
+                  },
+                  {
+                    "en": "develop reading habit",
+                    "vi": "hình thành thói quen đọc"
+                  },
+                  {
+                    "en": "time management",
+                    "vi": "quản lý thời gian"
+                  },
+                  {
+                    "en": "consistent practice",
+                    "vi": "luyện tập đều đặn"
+                  }
+                ],
+                "point_vi": "Người trẻ nên dành một khoảng thời gian cố định mỗi ngày cho việc đọc.",
+                "point_en": "Young people should set aside a regular time for reading each day.",
+                "evidence_vi": "Điều này giúp họ hình thành thói quen đọc sách.",
+                "evidence_en": "This helps them develop a regular reading habit."
+              },
+              {
+                "title": "SOLUTION 03",
+                "collocations": [
+                  {
+                    "en": "suitable reading materials",
+                    "vi": "tài liệu đọc phù hợp"
+                  },
+                  {
+                    "en": "match personal interests",
+                    "vi": "phù hợp với sở thích cá nhân"
+                  },
+                  {
+                    "en": "interesting content",
+                    "vi": "nội dung hấp dẫn"
+                  },
+                  {
+                    "en": "accessible books",
+                    "vi": "sách dễ tiếp cận"
+                  },
+                  {
+                    "en": "engaging topics",
+                    "vi": "các chủ đề lôi cuốn"
+                  }
+                ],
+                "point_vi": "Sách và tài liệu đọc nên phù hợp hơn với sở thích của người trẻ.",
+                "point_en": "Books and reading materials should be more suitable for young people's interests.",
+                "evidence_vi": "Những nội dung hấp dẫn có thể khiến họ muốn đọc nhiều hơn.",
+                "evidence_en": "Interesting content can encourage them to read more."
+              }
+            ]
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "CAUSE 01",
+                "collocations": [
+                  {
+                    "en": "digital entertainment proliferation",
+                    "vi": "sự phát triển nhanh của giải trí số"
+                  },
+                  {
+                    "en": "leisure time on digital devices",
+                    "vi": "thời gian giải trí trên thiết bị số"
+                  },
+                  {
+                    "en": "bite-sized multimedia content",
+                    "vi": "nội dung đa phương tiện ngắn gọn"
+                  },
+                  {
+                    "en": "digital media dominance",
+                    "vi": "sự thống trị của truyền thông số"
+                  },
+                  {
+                    "en": "diminishing book readership",
+                    "vi": "lượng độc giả đọc sách sụt giảm"
+                  }
+                ],
+                "point_vi": "Các thiết bị kỹ thuật số đã trở thành một phần quan trọng trong thời gian giải trí của giới trẻ.",
+                "point_en": "Digital devices have become an important part of young people's leisure time.",
+                "evidence_vi": "Mạng xã hội, video trực tuyến và trò chơi cung cấp nội dung nhanh và hấp dẫn. Vì vậy, nhiều người trẻ lựa chọn những hoạt động này thay vì dành thời gian cho sách.",
+                "evidence_en": "Social media, online videos, and games provide quick and entertaining content. As a result, many young people choose these activities instead of spending time with books."
+              },
+              {
+                "title": "CAUSE 02",
+                "collocations": [
+                  {
+                    "en": "hectic modern lifestyles",
+                    "vi": "lối sống hiện đại bận rộn"
+                  },
+                  {
+                    "en": "academic and professional pressures",
+                    "vi": "áp lực học tập và chuyên môn"
+                  },
+                  {
+                    "en": "demanding daily schedules",
+                    "vi": "lịch trình hằng ngày dày đặc"
+                  },
+                  {
+                    "en": "preference for instant gratification",
+                    "vi": "ưu tiên sự thỏa mãn tức thì"
+                  },
+                  {
+                    "en": "time poverty",
+                    "vi": "sự khan hiếm thời gian"
+                  }
+                ],
+                "point_vi": "Áp lực học tập và công việc khiến nhiều người trẻ có rất ít thời gian rảnh.",
+                "point_en": "Study and work pressures leave many young people with very little free time.",
+                "evidence_vi": "Họ phải dành nhiều thời gian cho bài tập, thi cử và các trách nhiệm khác. Sau một ngày bận rộn, họ thường ưu tiên những hoạt động giải trí ngắn và dễ tiếp cận.",
+                "evidence_en": "They have to spend a lot of time on assignments, exams, and other responsibilities. After a busy day, they often prefer short and easily accessible forms of entertainment."
+              },
+              {
+                "title": "CAUSE 03",
+                "collocations": [
+                  {
+                    "en": "disengagement from reading",
+                    "vi": "sự rời xa việc đọc sách"
+                  },
+                  {
+                    "en": "difficulty sustaining concentration",
+                    "vi": "khó duy trì sự tập trung"
+                  },
+                  {
+                    "en": "complex linguistic structures",
+                    "vi": "cấu trúc ngôn ngữ phức tạp"
+                  },
+                  {
+                    "en": "lack of literary engagement",
+                    "vi": "thiếu sự gắn bó với văn học"
+                  },
+                  {
+                    "en": "gradual loss of interest",
+                    "vi": "mất dần sự hứng thú"
+                  }
+                ],
+                "point_vi": "Một số người trẻ có thể cảm thấy sách không phù hợp với sở thích và khả năng của họ.",
+                "point_en": "Some young people may feel that books do not suit their interests or abilities.",
+                "evidence_vi": "Những cuốn sách dài hoặc có nội dung phức tạp có thể khiến họ khó duy trì sự tập trung. Nếu không tìm được tài liệu phù hợp, họ có thể dần mất hứng thú với việc đọc.",
+                "evidence_en": "Long books or complex content can make it difficult for them to maintain concentration. If they cannot find suitable materials, they may gradually lose interest in reading."
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "SOLUTION 01",
+                "collocations": [
+                  {
+                    "en": "integrate reading into curricula",
+                    "vi": "lồng ghép việc đọc vào chương trình học"
+                  },
+                  {
+                    "en": "extracurricular book clubs",
+                    "vi": "câu lạc bộ sách ngoại khóa"
+                  },
+                  {
+                    "en": "guided reading discussions",
+                    "vi": "thảo luận đọc sách có định hướng"
+                  },
+                  {
+                    "en": "stimulate reading motivation",
+                    "vi": "kích thích động lực đọc"
+                  },
+                  {
+                    "en": "cultivate literacy skills",
+                    "vi": "trau dồi kỹ năng đọc hiểu"
+                  }
+                ],
+                "point_vi": "Các trường học nên đưa thêm hoạt động đọc vào quá trình học tập.",
+                "point_en": "Schools should include more reading activities in the learning process.",
+                "evidence_vi": "Giáo viên có thể tổ chức câu lạc bộ đọc sách, giờ đọc tự do hoặc các hoạt động thảo luận về sách. Những hoạt động này có thể tạo động lực và giúp học sinh duy trì thói quen đọc.",
+                "evidence_en": "Teachers can organize reading clubs, free-reading sessions, or book discussions. These activities can motivate students and help them maintain a reading habit."
+              },
+              {
+                "title": "SOLUTION 02",
+                "collocations": [
+                  {
+                    "en": "dedicated daily reading time",
+                    "vi": "thời gian đọc sách chuyên biệt hằng ngày"
+                  },
+                  {
+                    "en": "structured reading schedule",
+                    "vi": "lịch đọc sách có cấu trúc"
+                  },
+                  {
+                    "en": "incremental reading habits",
+                    "vi": "thói quen đọc tích lũy từng bước"
+                  },
+                  {
+                    "en": "sustainable reading routines",
+                    "vi": "thói quen đọc sách bền vững"
+                  },
+                  {
+                    "en": "time allocation",
+                    "vi": "sự phân bổ thời gian"
+                  }
+                ],
+                "point_vi": "Người trẻ nên tạo một khoảng thời gian cố định cho việc đọc trong lịch trình hằng ngày.",
+                "point_en": "Young people should set aside a fixed period for reading in their daily schedules.",
+                "evidence_vi": "Họ có thể dành khoảng 20–30 phút mỗi ngày thay vì chờ đến khi có nhiều thời gian rảnh. Việc đọc thường xuyên trong thời gian ngắn có thể giúp hình thành thói quen lâu dài.",
+                "evidence_en": "They can spend 20–30 minutes a day instead of waiting for a large amount of free time. Regular short reading sessions can help develop a long-term habit."
+              },
+              {
+                "title": "SOLUTION 03",
+                "collocations": [
+                  {
+                    "en": "diverse literary genres",
+                    "vi": "các thể loại văn học đa dạng"
+                  },
+                  {
+                    "en": "age-appropriate reading materials",
+                    "vi": "tài liệu đọc phù hợp lứa tuổi"
+                  },
+                  {
+                    "en": "multimedia-rich libraries",
+                    "vi": "thư viện phong phú đa phương tiện"
+                  },
+                  {
+                    "en": "enhance reading accessibility",
+                    "vi": "nâng cao khả năng tiếp cận việc đọc"
+                  },
+                  {
+                    "en": "broaden literary choices",
+                    "vi": "mở rộng các lựa chọn sách"
+                  }
+                ],
+                "point_vi": "Các trường và thư viện nên cung cấp nhiều loại sách và tài liệu đọc khác nhau.",
+                "point_en": "Schools and libraries should provide a wider range of books and reading materials.",
+                "evidence_vi": "Người trẻ có thể lựa chọn nội dung phù hợp với sở thích và trình độ của mình. Điều này có thể khiến việc đọc trở nên dễ tiếp cận và thú vị hơn.",
+                "evidence_en": "Young people can choose materials that match their interests and reading levels. This can make reading more accessible and enjoyable."
+              }
+            ]
+          },
+          "vocab": [
+            {
+              "en": "digital entertainment",
+              "vi": "giải trí kỹ thuật số"
+            },
+            {
+              "en": "attractive forms of entertainment",
+              "vi": "các hình thức giải trí hấp dẫn"
+            },
+            {
+              "en": "spend time on social media",
+              "vi": "dành thời gian cho mạng xã hội"
+            },
+            {
+              "en": "video games",
+              "vi": "trò chơi điện tử"
+            },
+            {
+              "en": "digital distractions",
+              "vi": "sự xao nhãng từ công nghệ số"
+            },
+            {
+              "en": "busy schedules",
+              "vi": "lịch trình bận rộn"
+            },
+            {
+              "en": "study and work pressure",
+              "vi": "áp lực học tập và công việc"
+            },
+            {
+              "en": "less free time",
+              "vi": "ít thời gian rảnh"
+            },
+            {
+              "en": "hectic lifestyle",
+              "vi": "lối sống bận rộn hối hả"
+            },
+            {
+              "en": "lack of leisure time",
+              "vi": "thiếu thời gian thư giãn"
+            },
+            {
+              "en": "difficult or uninteresting",
+              "vi": "khó hoặc không thú vị"
+            },
+            {
+              "en": "long books",
+              "vi": "những cuốn sách dài"
+            },
+            {
+              "en": "complex content",
+              "vi": "nội dung phức tạp"
+            },
+            {
+              "en": "lose interest quickly",
+              "vi": "nhanh chóng mất hứng thú"
+            },
+            {
+              "en": "short attention span",
+              "vi": "khả năng tập trung ngắn"
+            },
+            {
+              "en": "encourage reading in schools",
+              "vi": "khuyến khích đọc sách trong nhà trường"
+            },
+            {
+              "en": "regular reading activities",
+              "vi": "hoạt động đọc sách thường xuyên"
+            },
+            {
+              "en": "reading clubs",
+              "vi": "câu lạc bộ đọc sách"
+            },
+            {
+              "en": "reading sessions",
+              "vi": "giờ đọc sách"
+            },
+            {
+              "en": "foster love for books",
+              "vi": "nuôi dưỡng tình yêu với sách"
+            },
+            {
+              "en": "set aside regular time",
+              "vi": "dành ra thời gian cố định"
+            },
+            {
+              "en": "daily reading routine",
+              "vi": "thói quen đọc sách hằng ngày"
+            },
+            {
+              "en": "develop reading habit",
+              "vi": "hình thành thói quen đọc"
+            },
+            {
+              "en": "time management",
+              "vi": "quản lý thời gian"
+            },
+            {
+              "en": "consistent practice",
+              "vi": "luyện tập đều đặn"
+            },
+            {
+              "en": "suitable reading materials",
+              "vi": "tài liệu đọc phù hợp"
+            },
+            {
+              "en": "match personal interests",
+              "vi": "phù hợp với sở thích cá nhân"
+            },
+            {
+              "en": "interesting content",
+              "vi": "nội dung hấp dẫn"
+            },
+            {
+              "en": "accessible books",
+              "vi": "sách dễ tiếp cận"
+            },
+            {
+              "en": "engaging topics",
+              "vi": "các chủ đề lôi cuốn"
+            },
+            {
+              "en": "digital entertainment proliferation",
+              "vi": "sự phát triển nhanh của giải trí số"
+            },
+            {
+              "en": "leisure time on digital devices",
+              "vi": "thời gian giải trí trên thiết bị số"
+            },
+            {
+              "en": "bite-sized multimedia content",
+              "vi": "nội dung đa phương tiện ngắn gọn"
+            },
+            {
+              "en": "digital media dominance",
+              "vi": "sự thống trị của truyền thông số"
+            },
+            {
+              "en": "diminishing book readership",
+              "vi": "lượng độc giả đọc sách sụt giảm"
+            },
+            {
+              "en": "hectic modern lifestyles",
+              "vi": "lối sống hiện đại bận rộn"
+            },
+            {
+              "en": "academic and professional pressures",
+              "vi": "áp lực học tập và chuyên môn"
+            },
+            {
+              "en": "demanding daily schedules",
+              "vi": "lịch trình hằng ngày dày đặc"
+            },
+            {
+              "en": "preference for instant gratification",
+              "vi": "ưu tiên sự thỏa mãn tức thì"
+            },
+            {
+              "en": "time poverty",
+              "vi": "sự khan hiếm thời gian"
+            },
+            {
+              "en": "disengagement from reading",
+              "vi": "sự rời xa việc đọc sách"
+            },
+            {
+              "en": "difficulty sustaining concentration",
+              "vi": "khó duy trì sự tập trung"
+            },
+            {
+              "en": "complex linguistic structures",
+              "vi": "cấu trúc ngôn ngữ phức tạp"
+            },
+            {
+              "en": "lack of literary engagement",
+              "vi": "thiếu sự gắn bó với văn học"
+            },
+            {
+              "en": "gradual loss of interest",
+              "vi": "mất dần sự hứng thú"
+            },
+            {
+              "en": "integrate reading into curricula",
+              "vi": "lồng ghép việc đọc vào chương trình học"
+            },
+            {
+              "en": "extracurricular book clubs",
+              "vi": "câu lạc bộ sách ngoại khóa"
+            },
+            {
+              "en": "guided reading discussions",
+              "vi": "thảo luận đọc sách có định hướng"
+            },
+            {
+              "en": "stimulate reading motivation",
+              "vi": "kích thích động lực đọc"
+            },
+            {
+              "en": "cultivate literacy skills",
+              "vi": "trau dồi kỹ năng đọc hiểu"
+            },
+            {
+              "en": "dedicated daily reading time",
+              "vi": "thời gian đọc sách chuyên biệt hằng ngày"
+            },
+            {
+              "en": "structured reading schedule",
+              "vi": "lịch đọc sách có cấu trúc"
+            },
+            {
+              "en": "incremental reading habits",
+              "vi": "thói quen đọc tích lũy từng bước"
+            },
+            {
+              "en": "sustainable reading routines",
+              "vi": "thói quen đọc sách bền vững"
+            },
+            {
+              "en": "time allocation",
+              "vi": "sự phân bổ thời gian"
+            },
+            {
+              "en": "diverse literary genres",
+              "vi": "các thể loại văn học đa dạng"
+            },
+            {
+              "en": "age-appropriate reading materials",
+              "vi": "tài liệu đọc phù hợp lứa tuổi"
+            },
+            {
+              "en": "multimedia-rich libraries",
+              "vi": "thư viện phong phú đa phương tiện"
+            },
+            {
+              "en": "enhance reading accessibility",
+              "vi": "nâng cao khả năng tiếp cận việc đọc"
+            },
+            {
+              "en": "broaden literary choices",
+              "vi": "mở rộng các lựa chọn sách"
+            }
+          ],
+          "sample_b1": "In recent years, <strong>the decline in reading habits among young people</strong> has become an important topic in modern society. This issue has drawn significant attention. <strong>This essay will explore both the causes and the solutions to this problem.</strong>\n\n<strong>This problem can be caused by several factors.</strong> One primary cause is that <strong><em>young people nowadays have many other attractive forms of entertainment.</em></strong> They often spend time on social media, videos, and video games instead of reading books. Another factor is that <strong><em>many young people have busy study and work schedules.</em></strong> Therefore, they have less free time to read books. A further reason is that <strong><em>some young people may find reading difficult or uninteresting.</em></strong> Long books with difficult content can make them lose interest quickly.\n\n<strong>Several solutions can be implemented to address this issue.</strong> One practical measure is that <strong><em>schools should create more opportunities for students to read regularly.</em></strong> Teachers can organize reading activities or reading clubs. Another effective solution is that <strong><em>young people should set aside a regular time for reading each day.</em></strong> This helps them develop a regular reading habit. A further approach is that <strong><em>books and reading materials should be more suitable for young people's interests.</em></strong> Interesting content can encourage them to read more.\n\nIn conclusion, <strong>the decline in reading habits among young people</strong> is caused by various factors, but practical solutions can help resolve it. Taking these actions can revive an interest in books. Therefore, individuals and schools should work together to build a strong reading culture.",
+          "translation_b1": "Trong những năm gần đây, <strong>sự suy giảm thói quen đọc sách ở giới trẻ</strong> đã trở nên phổ biến hơn trong xã hội hiện đại. Vấn đề này đã thu hút sự chú ý đáng kể. <strong>Bài tiểu luận này sẽ tìm hiểu cả nguyên nhân và giải pháp cho vấn đề này.</strong>\n\n<strong>Vấn đề này có thể do một số yếu tố gây ra.</strong> Một nguyên nhân chính là <strong><em>giới trẻ ngày nay có nhiều lựa chọn giải trí hấp dẫn khác.</em></strong> Họ thường dành thời gian cho mạng xã hội, video và trò chơi điện tử thay vì đọc sách. Một yếu tố khác là <strong><em>nhiều người trẻ có lịch học tập và công việc khá bận rộn.</em></strong> Vì vậy, họ có ít thời gian rảnh để đọc sách. Một lý do nữa là <strong><em>một số người trẻ có thể thấy việc đọc sách khó hoặc không thú vị.</em></strong> Những cuốn sách dài và nhiều nội dung khó có thể khiến họ nhanh chóng mất hứng thú.\n\n<strong>Một số giải pháp có thể được thực hiện để giải quyết vấn đề này.</strong> Một biện pháp thiết thực là <strong><em>các trường học nên tạo thêm cơ hội để học sinh đọc sách thường xuyên.</em></strong> Giáo viên có thể tổ chức các hoạt động đọc sách hoặc câu lạc bộ đọc sách. Một giải pháp hiệu quả khác là <strong><em>người trẻ nên dành một khoảng thời gian cố định mỗi ngày cho việc đọc.</em></strong> Điều này giúp họ hình thành thói quen đọc sách. Một cách tiếp cận nữa là <strong><em>sách và tài liệu đọc nên phù hợp hơn với sở thích của người trẻ.</em></strong> Những nội dung hấp dẫn có thể khiến họ muốn đọc nhiều hơn.\n\nTóm lại, <strong>sự suy giảm thói quen đọc sách ở giới trẻ</strong> do nhiều yếu tố gây ra, nhưng các giải pháp thiết thực có thể giúp giải quyết nó. Việc thực hiện các hành động này có thể khơi dậy niềm yêu thích sách. Vì vậy, các cá nhân và nhà trường nên cùng nhau hợp tác để xây dựng một văn hóa đọc vững mạnh."
+        }
       },
       {
         "id": 11,
