@@ -23372,7 +23372,631 @@ const ESSAY_DATA = [
         "tags": "[Causes & Effects]",
         "context": "Smoking among young people has become a growing concern in many countries. Despite widespread awareness of the health risks associated with smoking, a significant number of teenagers and young adults continue to use cigarettes and other tobacco products. This trend has raised concerns among parents, educators, healthcare professionals, and policymakers.",
         "prompt": "Write an essay to an educated reader to discuss the causes and effects of smoking among young people. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "paraphrases": [
+          {
+            "en": "smoking among young people",
+            "vi": "việc hút thuốc ở giới trẻ"
+          },
+          {
+            "en": "teenage tobacco consumption",
+            "vi": "việc tiêu thụ thuốc lá ở thanh thiếu niên"
+          },
+          {
+            "en": "youth smoking habits",
+            "vi": "thói quen hút thuốc của thanh thiếu niên"
+          },
+          {
+            "en": "cigarette use among adolescents",
+            "vi": "việc sử dụng thuốc lá ở lứa tuổi thanh thiếu niên"
+          }
+        ],
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "CAUSE 01",
+                "collocations": [
+                  {
+                    "en": "peer pressure",
+                    "vi": "áp lực từ bạn bè"
+                  },
+                  {
+                    "en": "influence decisions",
+                    "vi": "ảnh hưởng đến các quyết định"
+                  },
+                  {
+                    "en": "gain acceptance",
+                    "vi": "được chấp nhận"
+                  },
+                  {
+                    "en": "fit in with friends",
+                    "vi": "hòa nhập với bạn bè"
+                  },
+                  {
+                    "en": "social circles",
+                    "vi": "các vòng tròn bạn bè"
+                  }
+                ],
+                "point_vi": "Bạn bè có thể ảnh hưởng đến quyết định hút thuốc của người trẻ.",
+                "point_en": "Friends can influence young people's decision to smoke.",
+                "evidence_vi": "Một số thanh thiếu niên bắt đầu hút thuốc vì muốn được bạn bè chấp nhận.",
+                "evidence_en": "Some teenagers start smoking because they want to be accepted by their friends."
+              },
+              {
+                "title": "CAUSE 02",
+                "collocations": [
+                  {
+                    "en": "family environment",
+                    "vi": "môi trường gia đình"
+                  },
+                  {
+                    "en": "smoking parents",
+                    "vi": "cha mẹ hút thuốc"
+                  },
+                  {
+                    "en": "see as normal",
+                    "vi": "coi là bình thường"
+                  },
+                  {
+                    "en": "imitate family members",
+                    "vi": "bắt chước người thân"
+                  },
+                  {
+                    "en": "household habits",
+                    "vi": "thói quen trong nhà"
+                  }
+                ],
+                "point_vi": "Môi trường gia đình cũng có thể khiến người trẻ bắt đầu hút thuốc.",
+                "point_en": "The family environment can also encourage young people to start smoking.",
+                "evidence_vi": "Trẻ em có cha mẹ hoặc người thân hút thuốc có thể dễ coi việc hút thuốc là bình thường.",
+                "evidence_en": "Children with smoking parents or relatives may see smoking as a normal habit."
+              },
+              {
+                "title": "CAUSE 03",
+                "collocations": [
+                  {
+                    "en": "stress and emotional problems",
+                    "vi": "căng thẳng và vấn đề cảm xúc"
+                  },
+                  {
+                    "en": "feel relaxed",
+                    "vi": "cảm thấy thư giãn"
+                  },
+                  {
+                    "en": "reduce stress",
+                    "vi": "giảm căng thẳng"
+                  },
+                  {
+                    "en": "coping mechanism",
+                    "vi": "cơ chế đối phó"
+                  },
+                  {
+                    "en": "emotional relief",
+                    "vi": "sự giải tỏa cảm xúc"
+                  }
+                ],
+                "point_vi": "Áp lực và các vấn đề cảm xúc có thể khiến một số người trẻ tìm đến thuốc lá.",
+                "point_en": "Stress and emotional problems can lead some young people to smoking.",
+                "evidence_vi": "Họ có thể hút thuốc để cảm thấy thư giãn hoặc giảm căng thẳng.",
+                "evidence_en": "They may smoke to feel relaxed or reduce stress."
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "EFFECT 01",
+                "collocations": [
+                  {
+                    "en": "serious health problems",
+                    "vi": "vấn đề sức khỏe nghiêm trọng"
+                  },
+                  {
+                    "en": "damage the lungs",
+                    "vi": "làm tổn thương phổi"
+                  },
+                  {
+                    "en": "respiratory diseases",
+                    "vi": "các bệnh đường hô hấp"
+                  },
+                  {
+                    "en": "long-term harm",
+                    "vi": "tác hại lâu dài"
+                  },
+                  {
+                    "en": "physical illness",
+                    "vi": "bệnh tật thể chất"
+                  }
+                ],
+                "point_vi": "Hút thuốc có thể gây ra nhiều vấn đề nghiêm trọng đối với sức khỏe của người trẻ.",
+                "point_en": "Smoking can cause serious health problems for young people.",
+                "evidence_vi": "Việc hút thuốc thường xuyên có thể làm tổn thương phổi và gây ra các bệnh về đường hô hấp.",
+                "evidence_en": "Regular smoking can damage the lungs and cause respiratory diseases."
+              },
+              {
+                "title": "EFFECT 02",
+                "collocations": [
+                  {
+                    "en": "dependent on tobacco",
+                    "vi": "phụ thuộc vào thuốc lá"
+                  },
+                  {
+                    "en": "regular smoking",
+                    "vi": "hút thuốc thường xuyên"
+                  },
+                  {
+                    "en": "difficult to quit",
+                    "vi": "khó bỏ thuốc"
+                  },
+                  {
+                    "en": "nicotine addiction",
+                    "vi": "nghiện nicotine"
+                  },
+                  {
+                    "en": "habit formation",
+                    "vi": "hình thành thói quen"
+                  }
+                ],
+                "point_vi": "Người trẻ có thể trở nên phụ thuộc vào thuốc lá.",
+                "point_en": "Young people can become dependent on tobacco.",
+                "evidence_vi": "Nếu hút thuốc thường xuyên, họ có thể khó bỏ thuốc sau này.",
+                "evidence_en": "If they smoke regularly, they may find it difficult to quit later."
+              },
+              {
+                "title": "EFFECT 03",
+                "collocations": [
+                  {
+                    "en": "financial problems",
+                    "vi": "vấn đề tài chính"
+                  },
+                  {
+                    "en": "spend money on cigarettes",
+                    "vi": "chi tiền cho thuốc lá"
+                  },
+                  {
+                    "en": "daily allowance",
+                    "vi": "tiền tiêu vặt hằng ngày"
+                  },
+                  {
+                    "en": "cost of smoking",
+                    "vi": "chi phí hút thuốc"
+                  },
+                  {
+                    "en": "unnecessary spending",
+                    "vi": "chi tiêu không cần thiết"
+                  }
+                ],
+                "point_vi": "Thói quen này có thể tạo ra gánh nặng tài chính cho người trẻ.",
+                "point_en": "This habit can create financial problems for young people.",
+                "evidence_vi": "Họ phải dành tiền thường xuyên để mua thuốc lá.",
+                "evidence_en": "They have to spend money regularly on cigarettes."
+              }
+            ]
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "CAUSE 01",
+                "collocations": [
+                  {
+                    "en": "peer conformity pressure",
+                    "vi": "áp lực phải hòa nhập với bạn bè"
+                  },
+                  {
+                    "en": "social validation seeking",
+                    "vi": "tìm kiếm sự công nhận xã hội"
+                  },
+                  {
+                    "en": "adolescent peer influence",
+                    "vi": "ảnh hưởng bạn bè vị thành niên"
+                  },
+                  {
+                    "en": "perceived maturity",
+                    "vi": "sự trưởng thành tự cảm nhận"
+                  },
+                  {
+                    "en": "substance experimentation",
+                    "vi": "thử nghiệm chất gây nghiện"
+                  }
+                ],
+                "point_vi": "Ảnh hưởng từ bạn bè và môi trường xã hội có thể thúc đẩy người trẻ thử hút thuốc.",
+                "point_en": "Peer and social influence can encourage young people to try smoking.",
+                "evidence_vi": "Một số thanh thiếu niên muốn hòa nhập với nhóm bạn có thói quen hút thuốc. Họ có thể coi việc hút thuốc là một cách để thể hiện sự trưởng thành hoặc được chấp nhận.",
+                "evidence_en": "Some teenagers want to fit in with friends who smoke. They may see smoking as a way to appear mature or gain acceptance."
+              },
+              {
+                "title": "CAUSE 02",
+                "collocations": [
+                  {
+                    "en": "familial behavioral modeling",
+                    "vi": "học theo hành vi gia đình"
+                  },
+                  {
+                    "en": "domestic exposure to tobacco",
+                    "vi": "tiếp xúc với thuốc lá tại nhà"
+                  },
+                  {
+                    "en": "normalization of smoking",
+                    "vi": "sự bình thường hóa việc hút thuốc"
+                  },
+                  {
+                    "en": "habit transmission",
+                    "vi": "sự lây truyền thói quen"
+                  },
+                  {
+                    "en": "household smoking environment",
+                    "vi": "môi trường hút thuốc trong nhà"
+                  }
+                ],
+                "point_vi": "Thói quen của những người trong gia đình có thể ảnh hưởng đến cách người trẻ nhìn nhận việc hút thuốc.",
+                "point_en": "The habits of family members can influence how young people view smoking.",
+                "evidence_vi": "Những người thường xuyên nhìn thấy cha mẹ hoặc người thân hút thuốc có thể coi hành vi này là bình thường. Điều này có thể làm giảm sự lo ngại của họ về việc bắt đầu hút thuốc.",
+                "evidence_en": "Young people who regularly see their parents or relatives smoke may consider the habit normal. This can reduce their concerns about starting to smoke."
+              },
+              {
+                "title": "CAUSE 03",
+                "collocations": [
+                  {
+                    "en": "maladaptive coping mechanism",
+                    "vi": "cơ chế đối phó tiêu cực"
+                  },
+                  {
+                    "en": "psychological distress relief",
+                    "vi": "giải tỏa nỗi đau tâm lý"
+                  },
+                  {
+                    "en": "academic anxiety alleviation",
+                    "vi": "giảm bớt lo âu học tập"
+                  },
+                  {
+                    "en": "temporary emotional solace",
+                    "vi": "sự an ủi cảm xúc tạm thời"
+                  },
+                  {
+                    "en": "stress-induced smoking",
+                    "vi": "hút thuốc do căng thẳng"
+                  }
+                ],
+                "point_vi": "Áp lực học tập, công việc và các vấn đề cá nhân có thể khiến một số người trẻ tìm kiếm những cách tạm thời để đối phó với căng thẳng.",
+                "point_en": "Academic, work, and personal pressures can lead some young people to seek temporary ways to cope with stress.",
+                "evidence_vi": "Một số người cho rằng hút thuốc giúp họ cảm thấy bình tĩnh hoặc thư giãn trong thời gian ngắn. Vì vậy, họ có thể hình thành thói quen hút thuốc khi gặp áp lực.",
+                "evidence_en": "Some people believe that smoking helps them feel calm or relaxed for a short time. As a result, they may develop a smoking habit when facing pressure."
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "EFFECT 01",
+                "collocations": [
+                  {
+                    "en": "respiratory tract impairment",
+                    "vi": "suy giảm chức năng đường hô hấp"
+                  },
+                  {
+                    "en": "cardiovascular degeneration",
+                    "vi": "sự thoái hóa tim mạch"
+                  },
+                  {
+                    "en": "chronic pulmonary disease",
+                    "vi": "bệnh phổi mãn tính"
+                  },
+                  {
+                    "en": "early physiological deterioration",
+                    "vi": "suy giảm thể chất sớm"
+                  },
+                  {
+                    "en": "damage from carcinogens",
+                    "vi": "tổn thương từ chất gây ung thư"
+                  }
+                ],
+                "point_vi": "Việc hút thuốc từ khi còn trẻ có thể gây ra những hậu quả nghiêm trọng đối với sức khỏe.",
+                "point_en": "Starting to smoke at a young age can have serious consequences for health.",
+                "evidence_vi": "Các chất trong thuốc lá có thể làm tổn thương phổi và hệ hô hấp. Việc tiếp xúc lâu dài có thể làm tăng nguy cơ mắc các bệnh nghiêm trọng sau này.",
+                "evidence_en": "Chemicals in tobacco can damage the lungs and respiratory system. Long-term exposure can increase the risk of serious diseases later in life."
+              },
+              {
+                "title": "EFFECT 02",
+                "collocations": [
+                  {
+                    "en": "severe nicotine dependency",
+                    "vi": "phụ thuộc nicotine nặng"
+                  },
+                  {
+                    "en": "withdrawal symptom manifestation",
+                    "vi": "biểu hiện hội chứng cai thuốc"
+                  },
+                  {
+                    "en": "cognitive distraction during craving",
+                    "vi": "xao nhãng nhận thức khi thèm thuốc"
+                  },
+                  {
+                    "en": "neurochemical addiction",
+                    "vi": "sự nghiện về mặt hóa thần kinh"
+                  },
+                  {
+                    "en": "relapse vulnerability",
+                    "vi": "dễ bị tái nghiện"
+                  }
+                ],
+                "point_vi": "Hút thuốc thường xuyên có thể khiến người trẻ trở nên phụ thuộc vào nicotine.",
+                "point_en": "Regular smoking can make young people dependent on nicotine.",
+                "evidence_vi": "Họ có thể cảm thấy khó chịu hoặc khó tập trung khi không hút thuốc. Sự phụ thuộc này khiến việc từ bỏ thói quen trở nên khó khăn hơn.",
+                "evidence_en": "They may feel uncomfortable or have difficulty concentrating when they do not smoke. This dependence makes it more difficult to quit the habit."
+              },
+              {
+                "title": "EFFECT 03",
+                "collocations": [
+                  {
+                    "en": "substantial financial strain",
+                    "vi": "áp lực tài chính đáng kể"
+                  },
+                  {
+                    "en": "cumulative expenditure on tobacco",
+                    "vi": "chi tiêu tích lũy cho thuốc lá"
+                  },
+                  {
+                    "en": "erosion of disposable income",
+                    "vi": "xói mòn thu nhập khả dụng"
+                  },
+                  {
+                    "en": "opportunity cost of addiction",
+                    "vi": "chi phí cơ hội của việc nghiện"
+                  },
+                  {
+                    "en": "economic vulnerability",
+                    "vi": "sự tổn thương về kinh tế"
+                  }
+                ],
+                "point_vi": "Thói quen hút thuốc lâu dài có thể tạo ra gánh nặng tài chính cho người trẻ.",
+                "point_en": "Long-term smoking can create a financial burden for young people.",
+                "evidence_vi": "Một phần thu nhập hoặc tiền tiêu vặt của họ phải được dùng để mua thuốc lá. Về lâu dài, khoản chi này có thể làm giảm số tiền dành cho những nhu cầu cần thiết khác.",
+                "evidence_en": "Part of their income or allowance has to be spent on tobacco products. In the long term, this spending can reduce the money available for other essential needs."
+              }
+            ]
+          },
+          "vocab": [
+            {
+              "en": "peer pressure",
+              "vi": "áp lực từ bạn bè"
+            },
+            {
+              "en": "influence decisions",
+              "vi": "ảnh hưởng đến các quyết định"
+            },
+            {
+              "en": "gain acceptance",
+              "vi": "được chấp nhận"
+            },
+            {
+              "en": "fit in with friends",
+              "vi": "hòa nhập với bạn bè"
+            },
+            {
+              "en": "social circles",
+              "vi": "các vòng tròn bạn bè"
+            },
+            {
+              "en": "family environment",
+              "vi": "môi trường gia đình"
+            },
+            {
+              "en": "smoking parents",
+              "vi": "cha mẹ hút thuốc"
+            },
+            {
+              "en": "see as normal",
+              "vi": "coi là bình thường"
+            },
+            {
+              "en": "imitate family members",
+              "vi": "bắt chước người thân"
+            },
+            {
+              "en": "household habits",
+              "vi": "thói quen trong nhà"
+            },
+            {
+              "en": "stress and emotional problems",
+              "vi": "căng thẳng và vấn đề cảm xúc"
+            },
+            {
+              "en": "feel relaxed",
+              "vi": "cảm thấy thư giãn"
+            },
+            {
+              "en": "reduce stress",
+              "vi": "giảm căng thẳng"
+            },
+            {
+              "en": "coping mechanism",
+              "vi": "cơ chế đối phó"
+            },
+            {
+              "en": "emotional relief",
+              "vi": "sự giải tỏa cảm xúc"
+            },
+            {
+              "en": "serious health problems",
+              "vi": "vấn đề sức khỏe nghiêm trọng"
+            },
+            {
+              "en": "damage the lungs",
+              "vi": "làm tổn thương phổi"
+            },
+            {
+              "en": "respiratory diseases",
+              "vi": "các bệnh đường hô hấp"
+            },
+            {
+              "en": "long-term harm",
+              "vi": "tác hại lâu dài"
+            },
+            {
+              "en": "physical illness",
+              "vi": "bệnh tật thể chất"
+            },
+            {
+              "en": "dependent on tobacco",
+              "vi": "phụ thuộc vào thuốc lá"
+            },
+            {
+              "en": "regular smoking",
+              "vi": "hút thuốc thường xuyên"
+            },
+            {
+              "en": "difficult to quit",
+              "vi": "khó bỏ thuốc"
+            },
+            {
+              "en": "nicotine addiction",
+              "vi": "nghiện nicotine"
+            },
+            {
+              "en": "habit formation",
+              "vi": "hình thành thói quen"
+            },
+            {
+              "en": "financial problems",
+              "vi": "vấn đề tài chính"
+            },
+            {
+              "en": "spend money on cigarettes",
+              "vi": "chi tiền cho thuốc lá"
+            },
+            {
+              "en": "daily allowance",
+              "vi": "tiền tiêu vặt hằng ngày"
+            },
+            {
+              "en": "cost of smoking",
+              "vi": "chi phí hút thuốc"
+            },
+            {
+              "en": "unnecessary spending",
+              "vi": "chi tiêu không cần thiết"
+            },
+            {
+              "en": "peer conformity pressure",
+              "vi": "áp lực phải hòa nhập với bạn bè"
+            },
+            {
+              "en": "social validation seeking",
+              "vi": "tìm kiếm sự công nhận xã hội"
+            },
+            {
+              "en": "adolescent peer influence",
+              "vi": "ảnh hưởng bạn bè vị thành niên"
+            },
+            {
+              "en": "perceived maturity",
+              "vi": "sự trưởng thành tự cảm nhận"
+            },
+            {
+              "en": "substance experimentation",
+              "vi": "thử nghiệm chất gây nghiện"
+            },
+            {
+              "en": "familial behavioral modeling",
+              "vi": "học theo hành vi gia đình"
+            },
+            {
+              "en": "domestic exposure to tobacco",
+              "vi": "tiếp xúc với thuốc lá tại nhà"
+            },
+            {
+              "en": "normalization of smoking",
+              "vi": "sự bình thường hóa việc hút thuốc"
+            },
+            {
+              "en": "habit transmission",
+              "vi": "sự lây truyền thói quen"
+            },
+            {
+              "en": "household smoking environment",
+              "vi": "môi trường hút thuốc trong nhà"
+            },
+            {
+              "en": "maladaptive coping mechanism",
+              "vi": "cơ chế đối phó tiêu cực"
+            },
+            {
+              "en": "psychological distress relief",
+              "vi": "giải tỏa nỗi đau tâm lý"
+            },
+            {
+              "en": "academic anxiety alleviation",
+              "vi": "giảm bớt lo âu học tập"
+            },
+            {
+              "en": "temporary emotional solace",
+              "vi": "sự an ủi cảm xúc tạm thời"
+            },
+            {
+              "en": "stress-induced smoking",
+              "vi": "hút thuốc do căng thẳng"
+            },
+            {
+              "en": "respiratory tract impairment",
+              "vi": "suy giảm chức năng đường hô hấp"
+            },
+            {
+              "en": "cardiovascular degeneration",
+              "vi": "sự thoái hóa tim mạch"
+            },
+            {
+              "en": "chronic pulmonary disease",
+              "vi": "bệnh phổi mãn tính"
+            },
+            {
+              "en": "early physiological deterioration",
+              "vi": "suy giảm thể chất sớm"
+            },
+            {
+              "en": "damage from carcinogens",
+              "vi": "tổn thương từ chất gây ung thư"
+            },
+            {
+              "en": "severe nicotine dependency",
+              "vi": "phụ thuộc nicotine nặng"
+            },
+            {
+              "en": "withdrawal symptom manifestation",
+              "vi": "biểu hiện hội chứng cai thuốc"
+            },
+            {
+              "en": "cognitive distraction during craving",
+              "vi": "xao nhãng nhận thức khi thèm thuốc"
+            },
+            {
+              "en": "neurochemical addiction",
+              "vi": "sự nghiện về mặt hóa thần kinh"
+            },
+            {
+              "en": "relapse vulnerability",
+              "vi": "dễ bị tái nghiện"
+            },
+            {
+              "en": "substantial financial strain",
+              "vi": "áp lực tài chính đáng kể"
+            },
+            {
+              "en": "cumulative expenditure on tobacco",
+              "vi": "chi tiêu tích lũy cho thuốc lá"
+            },
+            {
+              "en": "erosion of disposable income",
+              "vi": "xói mòn thu nhập khả dụng"
+            },
+            {
+              "en": "opportunity cost of addiction",
+              "vi": "chi phí cơ hội của việc nghiện"
+            },
+            {
+              "en": "economic vulnerability",
+              "vi": "sự tổn thương về kinh tế"
+            }
+          ],
+          "sample_b1": "In recent years, <strong>smoking among young people</strong> has become an important topic in modern society. This issue has drawn significant attention. <strong>This essay will explore both the causes and the effects of this issue.</strong>\n\n<strong>This issue can be caused by several factors.</strong> One primary cause is that <strong><em>friends can influence young people's decision to smoke.</em></strong> Some teenagers start smoking because they want to be accepted by their friends. Another factor is that <strong><em>the family environment can also encourage young people to start smoking.</em></strong> Children with smoking parents or relatives may see smoking as a normal habit. A further reason is that <strong><em>stress and emotional problems can lead some young people to smoking.</em></strong> They may smoke to feel relaxed or reduce stress.\n\n<strong>This issue also leads to several consequences.</strong> One major effect is that <strong><em>smoking can cause serious health problems for young people.</em></strong> Regular smoking can damage the lungs and cause respiratory diseases. Another consequence is that <strong><em>young people can become dependent on tobacco.</em></strong> If they smoke regularly, they may find it difficult to quit later. A further impact is that <strong><em>this habit can create financial problems for young people.</em></strong> They have to spend money regularly on cigarettes.\n\nIn conclusion, <strong>smoking among young people</strong> is influenced by various causes and has important effects. These factors show that it has significant impacts on society. Understanding them can help people find better ways to address this issue.",
+          "translation_b1": "Trong những năm gần đây, <strong>việc thanh thiếu niên hút thuốc</strong> đã trở thành một chủ đề quan trọng trong xã hội hiện đại. Vấn đề này đã thu hút sự chú ý đáng kể. <strong>Bài tiểu luận này sẽ tìm hiểu cả nguyên nhân và tác động của vấn đề này.</strong>\n\n<strong>Vấn đề này có thể do một số yếu tố gây ra.</strong> Một nguyên nhân chính là <strong><em>bạn bè có thể ảnh hưởng đến quyết định hút thuốc của người trẻ.</em></strong> Một số thanh thiếu niên bắt đầu hút thuốc vì muốn được bạn bè chấp nhận. Một yếu tố khác là <strong><em>môi trường gia đình cũng có thể khiến người trẻ bắt đầu hút thuốc.</em></strong> Trẻ em có cha mẹ hoặc người thân hút thuốc có thể dễ coi việc hút thuốc là bình thường. Một lý do nữa là <strong><em>áp lực và các vấn đề cảm xúc có thể khiến một số người trẻ tìm đến thuốc lá.</em></strong> Họ có thể hút thuốc để cảm thấy thư giãn hoặc giảm căng thẳng.\n\n<strong>Vấn đề này cũng dẫn đến một số hậu quả.</strong> Một tác động lớn là <strong><em>hút thuốc có thể gây ra nhiều vấn đề nghiêm trọng đối với sức khỏe của người trẻ.</em></strong> Việc hút thuốc thường xuyên có thể làm tổn thương phổi và gây ra các bệnh về đường hô hấp. Một hậu quả khác là <strong><em>người trẻ có thể trở nên phụ thuộc vào thuốc lá.</em></strong> Nếu hút thuốc thường xuyên, họ có thể khó bỏ thuốc sau này. Một tác động nữa là <strong><em>thói quen này có thể tạo ra gánh nặng tài chính cho người trẻ.</em></strong> Họ phải dành tiền thường xuyên để mua thuốc lá.\n\nTóm lại, <strong>việc thanh thiếu niên hút thuốc</strong> chịu ảnh hưởng bởi nhiều nguyên nhân và gây ra những tác động quan trọng. Những yếu tố này cho thấy nó có ảnh hưởng đáng kể đến xã hội. Việc hiểu rõ chúng có thể giúp mọi người tìm ra những cách tốt hơn để giải quyết vấn đề này."
+        }
       },
       {
         "id": 16,
