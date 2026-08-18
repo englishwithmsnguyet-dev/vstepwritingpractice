@@ -160,7 +160,14 @@ function switchCategory(catId) {
   document.getElementById('page-header-title').innerText = currentCategory.title_vi;
   if (currentCategory.id === 1) {
     const total = currentCategory.topics.length;
-    const onlyAdv = currentCategory.topics.filter(t => t.title_vi.includes('chỉ phân tích')).length;
+    const isBenefitsOnly = (t) => {
+      if (t.type === 'benefits_only') return true;
+      if (t.details && t.details.ideas_b1 && t.details.ideas_b1.benefits && (!t.details.ideas_b1.drawbacks || t.details.ideas_b1.drawbacks.length === 0)) return true;
+      const p = (t.prompt || '').toLowerCase();
+      if (p.includes('advantages of') && !p.includes('and disadvantages')) return true;
+      return false;
+    };
+    const onlyAdv = currentCategory.topics.filter(t => isBenefitsOnly(t)).length;
     const both = total - onlyAdv;
     document.getElementById('category-description').innerText = `Trong dạng luận này, hệ thống bao gồm ${both} đề phân tích thuận lợi & bất lợi và ${onlyAdv} đề chỉ phân tích thuận lợi.`;
   } else if (currentCategory.id === 2) {
@@ -4887,7 +4894,14 @@ function getPromptTranslation(topic, category) {
 // Get specific subtype label for a topic card
 function getTopicSubtypeLabel(topic, catId) {
   if (catId === 1) {
-    if (topic.title_vi.includes('chỉ phân tích')) {
+    const isBenefitsOnly = (t) => {
+      if (t.type === 'benefits_only') return true;
+      if (t.details && t.details.ideas_b1 && t.details.ideas_b1.benefits && (!t.details.ideas_b1.drawbacks || t.details.ideas_b1.drawbacks.length === 0)) return true;
+      const p = (t.prompt || '').toLowerCase();
+      if (p.includes('advantages of') && !p.includes('and disadvantages')) return true;
+      return false;
+    };
+    if (isBenefitsOnly(topic)) {
       return "CHỈ PHÂN TÍCH THUẬN LỢI";
     }
     return "THUẬN LỢI & BẤT LỢI";
