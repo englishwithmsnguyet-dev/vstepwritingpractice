@@ -22739,7 +22739,631 @@ const ESSAY_DATA = [
         "tags": "[Causes & Effects]",
         "context": "Light pollution has become an increasingly common problem in many urban areas. The excessive use of artificial lighting from streetlights, buildings, advertisements, and other sources has brightened the night sky and reduced natural darkness. Although artificial lighting brings many benefits to modern life, excessive lighting can have negative consequences for people, wildlife, and the environment.",
         "prompt": "Write an essay to an educated reader to discuss the causes and effects of light pollution. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "paraphrases": [
+          {
+            "en": "light pollution",
+            "vi": "ô nhiễm ánh sáng"
+          },
+          {
+            "en": "excessive nocturnal illumination",
+            "vi": "sự chiếu sáng ban đêm quá mức"
+          },
+          {
+            "en": "artificial skyglow",
+            "vi": "ánh sáng nhân tạo rực trời đêm"
+          },
+          {
+            "en": "over-illumination in urban environments",
+            "vi": "sự chiếu sáng quá mức trong đô thị"
+          }
+        ],
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "CAUSE 01",
+                "collocations": [
+                  {
+                    "en": "artificial light at night",
+                    "vi": "ánh sáng nhân tạo vào ban đêm"
+                  },
+                  {
+                    "en": "streetlights and buildings",
+                    "vi": "đèn đường và các tòa nhà"
+                  },
+                  {
+                    "en": "illuminated advertisements",
+                    "vi": "biển quảng cáo phát sáng"
+                  },
+                  {
+                    "en": "stay on after dark",
+                    "vi": "tiếp tục sáng sau khi trời tối"
+                  },
+                  {
+                    "en": "excessive lighting",
+                    "vi": "chiếu sáng quá mức"
+                  }
+                ],
+                "point_vi": "Mọi người sử dụng quá nhiều ánh sáng nhân tạo vào ban đêm.",
+                "point_en": "People use too much artificial light at night.",
+                "evidence_vi": "Đèn đường, tòa nhà và biển quảng cáo thường hoạt động trong nhiều giờ sau khi trời tối.",
+                "evidence_en": "Streetlights, buildings, and advertisements often stay on for many hours after dark."
+              },
+              {
+                "title": "CAUSE 02",
+                "collocations": [
+                  {
+                    "en": "rapid urban development",
+                    "vi": "phát triển đô thị nhanh chóng"
+                  },
+                  {
+                    "en": "brighter night sky",
+                    "vi": "bầu trời đêm sáng hơn"
+                  },
+                  {
+                    "en": "commercial areas",
+                    "vi": "khu thương mại"
+                  },
+                  {
+                    "en": "roads and streets",
+                    "vi": "đường sá và phố xá"
+                  },
+                  {
+                    "en": "nighttime illumination",
+                    "vi": "sự chiếu sáng ban đêm"
+                  }
+                ],
+                "point_vi": "Sự phát triển nhanh chóng của các khu đô thị cũng góp phần làm bầu trời ban đêm sáng hơn.",
+                "point_en": "Rapid urban development also makes the night sky brighter.",
+                "evidence_vi": "Các thành phố ngày càng có nhiều tòa nhà, đường phố và khu thương mại sử dụng ánh sáng vào ban đêm.",
+                "evidence_en": "Cities have more buildings, roads, and commercial areas that use lighting at night."
+              },
+              {
+                "title": "CAUSE 03",
+                "collocations": [
+                  {
+                    "en": "control of outdoor lighting",
+                    "vi": "kiểm soát chiếu sáng ngoài trời"
+                  },
+                  {
+                    "en": "overly bright lights",
+                    "vi": "đèn quá sáng"
+                  },
+                  {
+                    "en": "unnecessary light direction",
+                    "vi": "hướng chiếu sáng không cần thiết"
+                  },
+                  {
+                    "en": "light spreading",
+                    "vi": "sự phát tán ánh sáng"
+                  },
+                  {
+                    "en": "poor lighting management",
+                    "vi": "quản lý chiếu sáng kém"
+                  }
+                ],
+                "point_vi": "Việc kiểm soát ánh sáng ngoài trời chưa hợp lý cũng làm vấn đề trở nên nghiêm trọng hơn.",
+                "point_en": "Poor control of outdoor lighting also makes the problem more serious.",
+                "evidence_vi": "Một số nguồn sáng được sử dụng quá mạnh hoặc chiếu vào những khu vực không cần thiết.",
+                "evidence_en": "Some lights are too strong or shine into areas where they are not needed."
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "EFFECT 01",
+                "collocations": [
+                  {
+                    "en": "affect people's sleep",
+                    "vi": "ảnh hưởng đến giấc ngủ của con người"
+                  },
+                  {
+                    "en": "sleep problems",
+                    "vi": "các vấn đề về giấc ngủ"
+                  },
+                  {
+                    "en": "difficulty sleeping well",
+                    "vi": "khó ngủ ngon"
+                  },
+                  {
+                    "en": "lack of darkness",
+                    "vi": "thiếu bóng tối"
+                  },
+                  {
+                    "en": "restless nights",
+                    "vi": "những đêm trằn trọc"
+                  }
+                ],
+                "point_vi": "Ánh sáng quá mức vào ban đêm có thể ảnh hưởng đến giấc ngủ của con người.",
+                "point_en": "Excessive light at night can affect people's sleep.",
+                "evidence_vi": "Ánh sáng từ đường phố và các tòa nhà có thể khiến một số người khó ngủ hoặc ngủ không ngon.",
+                "evidence_en": "Light from streets and buildings can make it difficult for some people to sleep well."
+              },
+              {
+                "title": "EFFECT 02",
+                "collocations": [
+                  {
+                    "en": "harm to wildlife",
+                    "vi": "gây hại cho động vật hoang dã"
+                  },
+                  {
+                    "en": "depend on darkness",
+                    "vi": "phụ thuộc vào bóng tối"
+                  },
+                  {
+                    "en": "nocturnal animals",
+                    "vi": "động vật hoạt động về đêm"
+                  },
+                  {
+                    "en": "feeding and reproduction",
+                    "vi": "kiếm ăn và sinh sản"
+                  },
+                  {
+                    "en": "disrupt natural habits",
+                    "vi": "làm gián đoạn tập tính tự nhiên"
+                  }
+                ],
+                "point_vi": "Động vật hoang dã cũng có thể bị ảnh hưởng bởi ánh sáng ban đêm.",
+                "point_en": "Wildlife can also be affected by light at night.",
+                "evidence_vi": "Một số loài động vật phụ thuộc vào bóng tối để kiếm ăn, di chuyển hoặc sinh sản.",
+                "evidence_en": "Some animals depend on darkness for feeding, moving, or reproduction."
+              },
+              {
+                "title": "EFFECT 03",
+                "collocations": [
+                  {
+                    "en": "energy waste",
+                    "vi": "lãng phí năng lượng"
+                  },
+                  {
+                    "en": "unnecessary lighting",
+                    "vi": "chiếu sáng không cần thiết"
+                  },
+                  {
+                    "en": "consume electricity",
+                    "vi": "tiêu thụ điện năng"
+                  },
+                  {
+                    "en": "waste power resources",
+                    "vi": "lãng phí tài nguyên điện"
+                  },
+                  {
+                    "en": "environmental pressure",
+                    "vi": "áp lực lên môi trường"
+                  }
+                ],
+                "point_vi": "Việc sử dụng ánh sáng không cần thiết có thể gây lãng phí năng lượng.",
+                "point_en": "Unnecessary lighting can waste energy.",
+                "evidence_vi": "Nhiều đèn vẫn hoạt động khi không thực sự cần thiết.",
+                "evidence_en": "Many lights remain on when they are not really needed."
+              }
+            ]
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "CAUSE 01",
+                "collocations": [
+                  {
+                    "en": "excessive nocturnal illumination",
+                    "vi": "chiếu sáng ban đêm quá mức"
+                  },
+                  {
+                    "en": "prolonged commercial lighting",
+                    "vi": "chiếu sáng thương mại kéo dài"
+                  },
+                  {
+                    "en": "unwarranted light emissions",
+                    "vi": "phát xạ ánh sáng không cần thiết"
+                  },
+                  {
+                    "en": "architectural illumination",
+                    "vi": "chiếu sáng kiến trúc"
+                  },
+                  {
+                    "en": "continuous operation after dark",
+                    "vi": "hoạt động liên tục sau khi trời tối"
+                  }
+                ],
+                "point_vi": "Việc sử dụng ánh sáng nhân tạo vào ban đêm ngày càng trở nên quá mức.",
+                "point_en": "The use of artificial lighting at night has become increasingly excessive.",
+                "evidence_vi": "Đèn đường, tòa nhà và biển quảng cáo thường được bật trong thời gian dài. Nhiều nguồn sáng không thực sự cần thiết nhưng vẫn tiếp tục hoạt động sau khi trời tối.",
+                "evidence_en": "Streetlights, buildings, and advertisements are often kept on for long periods. Many unnecessary light sources continue to operate after dark."
+              },
+              {
+                "title": "CAUSE 02",
+                "collocations": [
+                  {
+                    "en": "rapid urban sprawl",
+                    "vi": "sự mở rộng đô thị nhanh chóng"
+                  },
+                  {
+                    "en": "expansion of illuminated infrastructure",
+                    "vi": "mở rộng cơ sở hạ tầng chiếu sáng"
+                  },
+                  {
+                    "en": "loss of natural nightscapes",
+                    "vi": "mất cảnh quan ban đêm tự nhiên"
+                  },
+                  {
+                    "en": "urban skyglow intensification",
+                    "vi": "gia tăng ánh sáng rực trời đô thị"
+                  },
+                  {
+                    "en": "high-density commercial lighting",
+                    "vi": "chiếu sáng thương mại mật độ cao"
+                  }
+                ],
+                "point_vi": "Sự mở rộng nhanh chóng của các thành phố góp phần làm tăng lượng ánh sáng vào ban đêm.",
+                "point_en": "The rapid expansion of cities contributes to higher levels of light at night.",
+                "evidence_vi": "Các khu đô thị mới có nhiều tòa nhà, đường sá và cơ sở kinh doanh cần chiếu sáng. Khi các khu vực này phát triển, bầu trời đêm ngày càng ít tối tự nhiên.",
+                "evidence_en": "New urban areas contain more buildings, roads, and businesses that require lighting. As these areas expand, the night sky becomes less naturally dark."
+              },
+              {
+                "title": "CAUSE 03",
+                "collocations": [
+                  {
+                    "en": "suboptimal lighting design",
+                    "vi": "thiết kế chiếu sáng chưa tối ưu"
+                  },
+                  {
+                    "en": "unshielded outdoor fixtures",
+                    "vi": "thiết bị ngoài trời không có tấm chắn"
+                  },
+                  {
+                    "en": "light trespass and glare",
+                    "vi": "ánh sáng xâm phạm và gây lóa"
+                  },
+                  {
+                    "en": "upward light dispersion",
+                    "vi": "phát tán ánh sáng lên trên"
+                  },
+                  {
+                    "en": "misdirected illumination",
+                    "vi": "chiếu sáng sai hướng"
+                  }
+                ],
+                "point_vi": "Cách thiết kế và sử dụng hệ thống chiếu sáng ngoài trời chưa hợp lý cũng góp phần vào vấn đề này.",
+                "point_en": "Poorly designed and used outdoor lighting also contributes to this problem.",
+                "evidence_vi": "Một số đèn quá sáng hoặc chiếu ánh sáng theo hướng không cần thiết. Điều này làm tăng lượng ánh sáng bị phát tán vào bầu trời và các khu vực xung quanh.",
+                "evidence_en": "Some lights are too bright or direct light in unnecessary directions. This increases the amount of light spreading into the sky and surrounding areas."
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "EFFECT 01",
+                "collocations": [
+                  {
+                    "en": "circadian rhythm disruption",
+                    "vi": "gián đoạn nhịp sinh học"
+                  },
+                  {
+                    "en": "melatonin suppression",
+                    "vi": "sự ức chế melatonin"
+                  },
+                  {
+                    "en": "chronic sleep deprivation",
+                    "vi": "thiếu ngủ mãn tính"
+                  },
+                  {
+                    "en": "impaired psychological rest",
+                    "vi": "suy giảm sự nghỉ ngơi tâm lý"
+                  },
+                  {
+                    "en": "nocturnal glare exposure",
+                    "vi": "tiếp xúc với ánh sáng chói về đêm"
+                  }
+                ],
+                "point_vi": "Lượng ánh sáng quá mức vào ban đêm có thể làm gián đoạn giấc ngủ và ảnh hưởng đến sức khỏe con người.",
+                "point_en": "Excessive light at night can disrupt sleep and affect human health.",
+                "evidence_vi": "Ánh sáng từ đường phố, biển quảng cáo hoặc các tòa nhà có thể làm giảm bóng tối cần thiết cho giấc ngủ. Những người thường xuyên tiếp xúc với ánh sáng vào ban đêm có thể cảm thấy mệt mỏi và khó nghỉ ngơi đầy đủ.",
+                "evidence_en": "Light from streets, advertisements, or buildings can reduce the darkness needed for sleep. People who are regularly exposed to light at night may feel tired and have difficulty getting enough rest."
+              },
+              {
+                "title": "EFFECT 02",
+                "collocations": [
+                  {
+                    "en": "disruption of nocturnal fauna",
+                    "vi": "gián đoạn hệ động vật về đêm"
+                  },
+                  {
+                    "en": "migratory path disorientation",
+                    "vi": "mất phương hướng đường di cư"
+                  },
+                  {
+                    "en": "ecological imbalance",
+                    "vi": "mất cân bằng sinh thái"
+                  },
+                  {
+                    "en": "altered foraging behaviors",
+                    "vi": "thay đổi hành vi kiếm ăn"
+                  },
+                  {
+                    "en": "breeding cycle interference",
+                    "vi": "can thiệp chu kỳ sinh sản"
+                  }
+                ],
+                "point_vi": "Ánh sáng nhân tạo vào ban đêm có thể làm gián đoạn hoạt động tự nhiên của động vật.",
+                "point_en": "Artificial light at night can disrupt the natural activities of wildlife.",
+                "evidence_vi": "Một số loài sử dụng bóng tối để kiếm ăn, di chuyển và tìm bạn tình. Sự thay đổi môi trường ánh sáng có thể làm ảnh hưởng đến các hoạt động này và sự cân bằng của hệ sinh thái.",
+                "evidence_en": "Some species use darkness to find food, move around, and find mates. Changes in the lighting environment can affect these activities and the balance of ecosystems."
+              },
+              {
+                "title": "EFFECT 03",
+                "collocations": [
+                  {
+                    "en": "unproductive energy consumption",
+                    "vi": "tiêu thụ năng lượng lãng phí"
+                  },
+                  {
+                    "en": "carbon footprint inflation",
+                    "vi": "gia tăng dấu chân carbon"
+                  },
+                  {
+                    "en": "resource depletion in power generation",
+                    "vi": "cạn kiệt tài nguyên sản xuất điện"
+                  },
+                  {
+                    "en": "inefficient electricity expenditure",
+                    "vi": "chi tiêu điện năng không hiệu quả"
+                  },
+                  {
+                    "en": "sustainability challenges",
+                    "vi": "thách thức tính bền vững"
+                  }
+                ],
+                "point_vi": "Việc sử dụng ánh sáng không cần thiết có thể gây lãng phí năng lượng và tạo thêm áp lực lên môi trường.",
+                "point_en": "Unnecessary lighting can waste energy and put additional pressure on the environment.",
+                "evidence_vi": "Nhiều hệ thống chiếu sáng tiêu thụ điện ngay cả khi không thực sự cần thiết. Việc sử dụng nhiều điện hơn có thể làm tăng lượng tài nguyên cần thiết để sản xuất năng lượng.",
+                "evidence_en": "Many lighting systems consume electricity even when they are not really needed. Using more electricity can increase the resources needed to produce energy."
+              }
+            ]
+          },
+          "vocab": [
+            {
+              "en": "artificial light at night",
+              "vi": "ánh sáng nhân tạo vào ban đêm"
+            },
+            {
+              "en": "streetlights and buildings",
+              "vi": "đèn đường và các tòa nhà"
+            },
+            {
+              "en": "illuminated advertisements",
+              "vi": "biển quảng cáo phát sáng"
+            },
+            {
+              "en": "stay on after dark",
+              "vi": "tiếp tục sáng sau khi trời tối"
+            },
+            {
+              "en": "excessive lighting",
+              "vi": "chiếu sáng quá mức"
+            },
+            {
+              "en": "rapid urban development",
+              "vi": "phát triển đô thị nhanh chóng"
+            },
+            {
+              "en": "brighter night sky",
+              "vi": "bầu trời đêm sáng hơn"
+            },
+            {
+              "en": "commercial areas",
+              "vi": "khu thương mại"
+            },
+            {
+              "en": "roads and streets",
+              "vi": "đường sá và phố xá"
+            },
+            {
+              "en": "nighttime illumination",
+              "vi": "sự chiếu sáng ban đêm"
+            },
+            {
+              "en": "control of outdoor lighting",
+              "vi": "kiểm soát chiếu sáng ngoài trời"
+            },
+            {
+              "en": "overly bright lights",
+              "vi": "đèn quá sáng"
+            },
+            {
+              "en": "unnecessary light direction",
+              "vi": "hướng chiếu sáng không cần thiết"
+            },
+            {
+              "en": "light spreading",
+              "vi": "sự phát tán ánh sáng"
+            },
+            {
+              "en": "poor lighting management",
+              "vi": "quản lý chiếu sáng kém"
+            },
+            {
+              "en": "affect people's sleep",
+              "vi": "ảnh hưởng đến giấc ngủ của con người"
+            },
+            {
+              "en": "sleep problems",
+              "vi": "các vấn đề về giấc ngủ"
+            },
+            {
+              "en": "difficulty sleeping well",
+              "vi": "khó ngủ ngon"
+            },
+            {
+              "en": "lack of darkness",
+              "vi": "thiếu bóng tối"
+            },
+            {
+              "en": "restless nights",
+              "vi": "những đêm trằn trọc"
+            },
+            {
+              "en": "harm to wildlife",
+              "vi": "gây hại cho động vật hoang dã"
+            },
+            {
+              "en": "depend on darkness",
+              "vi": "phụ thuộc vào bóng tối"
+            },
+            {
+              "en": "nocturnal animals",
+              "vi": "động vật hoạt động về đêm"
+            },
+            {
+              "en": "feeding and reproduction",
+              "vi": "kiếm ăn và sinh sản"
+            },
+            {
+              "en": "disrupt natural habits",
+              "vi": "làm gián đoạn tập tính tự nhiên"
+            },
+            {
+              "en": "energy waste",
+              "vi": "lãng phí năng lượng"
+            },
+            {
+              "en": "unnecessary lighting",
+              "vi": "chiếu sáng không cần thiết"
+            },
+            {
+              "en": "consume electricity",
+              "vi": "tiêu thụ điện năng"
+            },
+            {
+              "en": "waste power resources",
+              "vi": "lãng phí tài nguyên điện"
+            },
+            {
+              "en": "environmental pressure",
+              "vi": "áp lực lên môi trường"
+            },
+            {
+              "en": "excessive nocturnal illumination",
+              "vi": "chiếu sáng ban đêm quá mức"
+            },
+            {
+              "en": "prolonged commercial lighting",
+              "vi": "chiếu sáng thương mại kéo dài"
+            },
+            {
+              "en": "unwarranted light emissions",
+              "vi": "phát xạ ánh sáng không cần thiết"
+            },
+            {
+              "en": "architectural illumination",
+              "vi": "chiếu sáng kiến trúc"
+            },
+            {
+              "en": "continuous operation after dark",
+              "vi": "hoạt động liên tục sau khi trời tối"
+            },
+            {
+              "en": "rapid urban sprawl",
+              "vi": "sự mở rộng đô thị nhanh chóng"
+            },
+            {
+              "en": "expansion of illuminated infrastructure",
+              "vi": "mở rộng cơ sở hạ tầng chiếu sáng"
+            },
+            {
+              "en": "loss of natural nightscapes",
+              "vi": "mất cảnh quan ban đêm tự nhiên"
+            },
+            {
+              "en": "urban skyglow intensification",
+              "vi": "gia tăng ánh sáng rực trời đô thị"
+            },
+            {
+              "en": "high-density commercial lighting",
+              "vi": "chiếu sáng thương mại mật độ cao"
+            },
+            {
+              "en": "suboptimal lighting design",
+              "vi": "thiết kế chiếu sáng chưa tối ưu"
+            },
+            {
+              "en": "unshielded outdoor fixtures",
+              "vi": "thiết bị ngoài trời không có tấm chắn"
+            },
+            {
+              "en": "light trespass and glare",
+              "vi": "ánh sáng xâm phạm và gây lóa"
+            },
+            {
+              "en": "upward light dispersion",
+              "vi": "phát tán ánh sáng lên trên"
+            },
+            {
+              "en": "misdirected illumination",
+              "vi": "chiếu sáng sai hướng"
+            },
+            {
+              "en": "circadian rhythm disruption",
+              "vi": "gián đoạn nhịp sinh học"
+            },
+            {
+              "en": "melatonin suppression",
+              "vi": "sự ức chế melatonin"
+            },
+            {
+              "en": "chronic sleep deprivation",
+              "vi": "thiếu ngủ mãn tính"
+            },
+            {
+              "en": "impaired psychological rest",
+              "vi": "suy giảm sự nghỉ ngơi tâm lý"
+            },
+            {
+              "en": "nocturnal glare exposure",
+              "vi": "tiếp xúc với ánh sáng chói về đêm"
+            },
+            {
+              "en": "disruption of nocturnal fauna",
+              "vi": "gián đoạn hệ động vật về đêm"
+            },
+            {
+              "en": "migratory path disorientation",
+              "vi": "mất phương hướng đường di cư"
+            },
+            {
+              "en": "ecological imbalance",
+              "vi": "mất cân bằng sinh thái"
+            },
+            {
+              "en": "altered foraging behaviors",
+              "vi": "thay đổi hành vi kiếm ăn"
+            },
+            {
+              "en": "breeding cycle interference",
+              "vi": "can thiệp chu kỳ sinh sản"
+            },
+            {
+              "en": "unproductive energy consumption",
+              "vi": "tiêu thụ năng lượng lãng phí"
+            },
+            {
+              "en": "carbon footprint inflation",
+              "vi": "gia tăng dấu chân carbon"
+            },
+            {
+              "en": "resource depletion in power generation",
+              "vi": "cạn kiệt tài nguyên sản xuất điện"
+            },
+            {
+              "en": "inefficient electricity expenditure",
+              "vi": "chi tiêu điện năng không hiệu quả"
+            },
+            {
+              "en": "sustainability challenges",
+              "vi": "thách thức tính bền vững"
+            }
+          ],
+          "sample_b1": "In recent years, <strong>light pollution</strong> has become an important topic in modern society. This issue has drawn significant attention. <strong>This essay will explore both the causes and the effects of this issue.</strong>\n\n<strong>This issue can be caused by several factors.</strong> One primary cause is that <strong><em>people use too much artificial light at night.</em></strong> Streetlights, buildings, and advertisements often stay on for many hours after dark. Another factor is that <strong><em>rapid urban development also makes the night sky brighter.</em></strong> Cities have more buildings, roads, and commercial areas that use lighting at night. A further reason is that <strong><em>poor control of outdoor lighting also makes the problem more serious.</em></strong> Some lights are too strong or shine into areas where they are not needed.\n\n<strong>This issue also leads to several consequences.</strong> One major effect is that <strong><em>excessive light at night can affect people's sleep.</em></strong> Light from streets and buildings can make it difficult for some people to sleep well. Another consequence is that <strong><em>wildlife can also be affected by light at night.</em></strong> Some animals depend on darkness for feeding, moving, or reproduction. A further impact is that <strong><em>unnecessary lighting can waste energy.</em></strong> Many lights remain on when they are not really needed.\n\nIn conclusion, <strong>light pollution</strong> is influenced by various causes and has important effects. These factors show that it has significant impacts on society. Understanding them can help people find better ways to address this issue.",
+          "translation_b1": "Trong những năm gần đây, <strong>ô nhiễm ánh sáng</strong> đã trở thành một chủ đề quan trọng trong xã hội hiện đại. Vấn đề này đã thu hút sự chú ý đáng kể. <strong>Bài tiểu luận này sẽ tìm hiểu cả nguyên nhân và tác động của vấn đề này.</strong>\n\n<strong>Vấn đề này có thể do một số yếu tố gây ra.</strong> Một nguyên nhân chính là <strong><em>mọi người sử dụng quá nhiều ánh sáng nhân tạo vào ban đêm.</em></strong> Đèn đường, tòa nhà và biển quảng cáo thường hoạt động trong nhiều giờ sau khi trời tối. Một yếu tố khác là <strong><em>sự phát triển nhanh chóng của các khu đô thị cũng góp phần làm bầu trời ban đêm sáng hơn.</em></strong> Các thành phố ngày càng có nhiều tòa nhà, đường phố và khu thương mại sử dụng ánh sáng vào ban đêm. Một lý do nữa là <strong><em>việc kiểm soát ánh sáng ngoài trời chưa hợp lý cũng làm vấn đề trở nên nghiêm trọng hơn.</em></strong> Một số nguồn sáng được sử dụng quá mạnh hoặc chiếu vào những khu vực không cần thiết.\n\n<strong>Vấn đề này cũng dẫn đến một số hậu quả.</strong> Một tác động lớn là <strong><em>ánh sáng quá mức vào ban đêm có thể ảnh hưởng đến giấc ngủ của con người.</em></strong> Ánh sáng từ đường phố và các tòa nhà có thể khiến một số người khó ngủ hoặc ngủ không ngon. Một hậu quả khác là <strong><em>động vật hoang dã cũng có thể bị ảnh hưởng bởi ánh sáng ban đêm.</em></strong> Một số loài động vật phụ thuộc vào bóng tối để kiếm ăn, di chuyển hoặc sinh sản. Một tác động nữa là <strong><em>việc sử dụng ánh sáng không cần thiết có thể gây lãng phí năng lượng.</em></strong> Nhiều đèn vẫn hoạt động khi không thực sự cần thiết.\n\nTóm lại, <strong>ô nhiễm ánh sáng</strong> chịu ảnh hưởng bởi nhiều nguyên nhân và gây ra những tác động quan trọng. Những yếu tố này cho thấy nó có ảnh hưởng đáng kể đến xã hội. Việc hiểu rõ chúng có thể giúp mọi người tìm ra những cách tốt hơn để giải quyết vấn đề này."
+        }
       },
       {
         "id": 15,
