@@ -10710,7 +10710,615 @@ const ESSAY_DATA = [
         "title_vi": "Trẻ em chơi trò chơi điện tử",
         "context": "Nowadays, many children spend a lot of time playing computer and video games. They often play games on smartphones, tablets, or computers after school and at weekends. Some people believe that playing games can bring certain benefits to children, while others argue that it may also cause several problems for their health, study, and behaviour.",
         "prompt": "Write an essay to an educated reader to discuss the advantages and disadvantages of children playing games. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "paraphrases": [
+          {
+            "en": "children playing video games",
+            "vi": "trẻ em chơi trò chơi điện tử"
+          },
+          {
+            "en": "young people engaging in digital games",
+            "vi": "giới trẻ tham gia các trò chơi kỹ thuật số"
+          },
+          {
+            "en": "playing computer and online games",
+            "vi": "chơi trò chơi trên máy tính và trực tuyến"
+          },
+          {
+            "en": "excessive gaming among children",
+            "vi": "việc chơi game quá mức ở trẻ em"
+          }
+        ],
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "ADVANTAGE 01",
+                "collocations": [
+                  {
+                    "en": "problem-solving skills",
+                    "vi": "kỹ năng giải quyết vấn đề"
+                  },
+                  {
+                    "en": "overcome challenges",
+                    "vi": "vượt qua thử thách"
+                  },
+                  {
+                    "en": "think strategically",
+                    "vi": "suy nghĩ chiến lược"
+                  },
+                  {
+                    "en": "find solutions",
+                    "vi": "tìm giải pháp"
+                  },
+                  {
+                    "en": "in-game tasks",
+                    "vi": "nhiệm vụ trong trò chơi"
+                  }
+                ],
+                "point_vi": "Chơi trò chơi giúp trẻ phát triển khả năng giải quyết vấn đề.",
+                "point_en": "Playing games improves children's problem-solving skills.",
+                "evidence_vi": "Trẻ phải suy nghĩ và tìm cách vượt qua các thử thách trong trò chơi.",
+                "evidence_en": "Children have to think and find ways to overcome challenges in games."
+              },
+              {
+                "title": "ADVANTAGE 02",
+                "collocations": [
+                  {
+                    "en": "entertainment and relaxation",
+                    "vi": "giải trí và thư giãn"
+                  },
+                  {
+                    "en": "reduce stress",
+                    "vi": "giảm căng thẳng"
+                  },
+                  {
+                    "en": "feel happier",
+                    "vi": "cảm thấy vui vẻ hơn"
+                  },
+                  {
+                    "en": "relax after school",
+                    "vi": "thư giãn sau giờ học"
+                  },
+                  {
+                    "en": "leisure activity",
+                    "vi": "hoạt động giải trí"
+                  }
+                ],
+                "point_vi": "Chơi trò chơi giúp trẻ giải trí và giảm căng thẳng.",
+                "point_en": "Playing games provides entertainment and reduces stress.",
+                "evidence_vi": "Trẻ có thể thư giãn sau giờ học và cảm thấy vui vẻ hơn.",
+                "evidence_en": "Children can relax after school and feel happier."
+              },
+              {
+                "title": "ADVANTAGE 03",
+                "collocations": [
+                  {
+                    "en": "social skills",
+                    "vi": "kỹ năng xã hội"
+                  },
+                  {
+                    "en": "multiplayer games",
+                    "vi": "trò chơi nhiều người chơi"
+                  },
+                  {
+                    "en": "communicate with others",
+                    "vi": "giao tiếp với người khác"
+                  },
+                  {
+                    "en": "cooperate effectively",
+                    "vi": "hợp tác hiệu quả"
+                  },
+                  {
+                    "en": "teamwork spirit",
+                    "vi": "tinh thần làm việc nhóm"
+                  }
+                ],
+                "point_vi": "Chơi trò chơi có thể giúp trẻ phát triển các kỹ năng xã hội.",
+                "point_en": "Playing games can improve children's social skills.",
+                "evidence_vi": "Các trò chơi nhiều người chơi giúp trẻ giao tiếp và hợp tác với những người khác.",
+                "evidence_en": "Multiplayer games help children communicate and cooperate with others."
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "DISADVANTAGE 01",
+                "collocations": [
+                  {
+                    "en": "harm children's health",
+                    "vi": "gây hại cho sức khỏe của trẻ"
+                  },
+                  {
+                    "en": "sit for too long",
+                    "vi": "ngồi quá lâu"
+                  },
+                  {
+                    "en": "less physical activity",
+                    "vi": "ít hoạt động thể chất"
+                  },
+                  {
+                    "en": "sedentary lifestyle",
+                    "vi": "lối sống thụ động"
+                  },
+                  {
+                    "en": "poor eyesight",
+                    "vi": "thị lực kém"
+                  }
+                ],
+                "point_vi": "Chơi game quá nhiều có thể gây hại cho sức khỏe của trẻ.",
+                "point_en": "Playing games too much can harm children's health.",
+                "evidence_vi": "Trẻ có thể ngồi quá lâu và ít vận động.",
+                "evidence_en": "Children may sit for too long and do less physical activity."
+              },
+              {
+                "title": "DISADVANTAGE 02",
+                "collocations": [
+                  {
+                    "en": "affect children's studies",
+                    "vi": "ảnh hưởng đến việc học của trẻ"
+                  },
+                  {
+                    "en": "spend less time on homework",
+                    "vi": "dành ít thời gian cho bài tập"
+                  },
+                  {
+                    "en": "neglect schoolwork",
+                    "vi": "sao nhãng bài vở"
+                  },
+                  {
+                    "en": "lower academic grades",
+                    "vi": "điểm số học tập giảm sút"
+                  }
+                ],
+                "point_vi": "Chơi game quá nhiều có thể ảnh hưởng đến việc học của trẻ.",
+                "point_en": "Playing games too much can affect children's studies.",
+                "evidence_vi": "Trẻ có thể dành ít thời gian hơn cho bài tập và việc học.",
+                "evidence_en": "Children may spend less time on homework and studying."
+              },
+              {
+                "title": "DISADVANTAGE 03",
+                "collocations": [
+                  {
+                    "en": "affect children's behaviour",
+                    "vi": "ảnh hưởng đến hành vi của trẻ"
+                  },
+                  {
+                    "en": "become impatient",
+                    "vi": "trở nên thiếu kiên nhẫn"
+                  },
+                  {
+                    "en": "easily angry",
+                    "vi": "dễ tức giận / cáu gắt"
+                  },
+                  {
+                    "en": "play for too long",
+                    "vi": "chơi quá lâu"
+                  },
+                  {
+                    "en": "irritability",
+                    "vi": "sự cáu kỉnh"
+                  }
+                ],
+                "point_vi": "Chơi game quá nhiều có thể ảnh hưởng đến hành vi của trẻ.",
+                "point_en": "Playing games too much can affect children's behaviour.",
+                "evidence_vi": "Một số trẻ có thể trở nên dễ cáu hoặc mất kiên nhẫn khi chơi quá lâu.",
+                "evidence_en": "Some children may become impatient or easily angry after playing for too long."
+              }
+            ]
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "ADVANTAGE 01",
+                "collocations": [
+                  {
+                    "en": "thinking and problem-solving skills",
+                    "vi": "kỹ năng tư duy và giải quyết vấn đề"
+                  },
+                  {
+                    "en": "analyse situations",
+                    "vi": "phân tích tình huống"
+                  },
+                  {
+                    "en": "make decisions",
+                    "vi": "đưa ra quyết định"
+                  },
+                  {
+                    "en": "find solutions to challenges",
+                    "vi": "tìm giải pháp cho thử thách"
+                  },
+                  {
+                    "en": "cognitive development",
+                    "vi": "sự phát triển nhận thức"
+                  }
+                ],
+                "point_vi": "Chơi trò chơi có thể phát triển khả năng tư duy và giải quyết vấn đề của trẻ.",
+                "point_en": "Playing games can develop children's thinking and problem-solving skills.",
+                "evidence_vi": "Nhiều trò chơi yêu cầu trẻ phân tích tình huống và đưa ra quyết định. Điều này giúp các em học cách tìm giải pháp cho những thử thách khác nhau.",
+                "evidence_en": "Many games require children to analyse situations and make decisions. This helps them learn how to find solutions to different challenges."
+              },
+              {
+                "title": "ADVANTAGE 02",
+                "collocations": [
+                  {
+                    "en": "support mental well-being",
+                    "vi": "hỗ trợ sức khỏe tinh thần"
+                  },
+                  {
+                    "en": "relax and reduce stress",
+                    "vi": "thư giãn và giảm căng thẳng"
+                  },
+                  {
+                    "en": "after studying",
+                    "vi": "sau giờ học"
+                  },
+                  {
+                    "en": "feel happier and more relaxed",
+                    "vi": "cảm thấy vui vẻ và thoải mái hơn"
+                  },
+                  {
+                    "en": "psychological relief",
+                    "vi": "sự giải tỏa tâm lý"
+                  }
+                ],
+                "point_vi": "Chơi trò chơi mang lại sự giải trí và hỗ trợ sức khỏe tinh thần của trẻ.",
+                "point_en": "Playing games provides entertainment and supports children's mental well-being.",
+                "evidence_vi": "Trẻ có thể thư giãn và giảm căng thẳng sau những giờ học. Những hoạt động giải trí phù hợp có thể giúp trẻ cảm thấy vui vẻ và thoải mái hơn.",
+                "evidence_en": "Children can relax and reduce stress after studying. Suitable entertainment activities can help children feel happier and more relaxed."
+              },
+              {
+                "title": "ADVANTAGE 03",
+                "collocations": [
+                  {
+                    "en": "playing multiplayer games",
+                    "vi": "chơi trò chơi nhiều người"
+                  },
+                  {
+                    "en": "develop social skills",
+                    "vi": "phát triển kỹ năng xã hội"
+                  },
+                  {
+                    "en": "communicate and cooperate",
+                    "vi": "giao tiếp và hợp tác"
+                  },
+                  {
+                    "en": "work in teams",
+                    "vi": "làm việc nhóm"
+                  },
+                  {
+                    "en": "interact with others",
+                    "vi": "tương tác với người khác"
+                  }
+                ],
+                "point_vi": "Chơi các trò chơi nhiều người có thể giúp trẻ phát triển kỹ năng xã hội.",
+                "point_en": "Playing multiplayer games can help children develop social skills.",
+                "evidence_vi": "Trẻ phải giao tiếp và phối hợp với những người chơi khác để hoàn thành nhiệm vụ. Điều này giúp các em học cách làm việc nhóm và tương tác với người khác.",
+                "evidence_en": "Children need to communicate and cooperate with other players to complete tasks. This helps them learn how to work in teams and interact with others."
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "DISADVANTAGE 01",
+                "collocations": [
+                  {
+                    "en": "excessive gaming",
+                    "vi": "chơi game quá mức"
+                  },
+                  {
+                    "en": "negative effects on health",
+                    "vi": "ảnh hưởng tiêu cực đến sức khỏe"
+                  },
+                  {
+                    "en": "sit in front of screens",
+                    "vi": "ngồi trước màn hình"
+                  },
+                  {
+                    "en": "little physical activity",
+                    "vi": "ít vận động thể chất"
+                  },
+                  {
+                    "en": "physical health problems",
+                    "vi": "các vấn đề sức khỏe thể chất"
+                  }
+                ],
+                "point_vi": "Chơi game quá mức có thể gây ảnh hưởng tiêu cực đến sức khỏe của trẻ.",
+                "point_en": "Excessive gaming can have negative effects on children's health.",
+                "evidence_vi": "Trẻ có thể dành quá nhiều thời gian ngồi trước màn hình và ít vận động. Điều này có thể dẫn đến các vấn đề về sức khỏe và thể chất.",
+                "evidence_en": "Children may spend too much time sitting in front of screens and doing little physical activity. This can lead to health and physical problems."
+              },
+              {
+                "title": "DISADVANTAGE 02",
+                "collocations": [
+                  {
+                    "en": "affect academic performance",
+                    "vi": "ảnh hưởng đến kết quả học tập"
+                  },
+                  {
+                    "en": "spend less time on homework",
+                    "vi": "dành ít thời gian cho bài tập"
+                  },
+                  {
+                    "en": "difficult to concentrate on lessons",
+                    "vi": "khó tập trung vào bài học"
+                  },
+                  {
+                    "en": "frequent gaming",
+                    "vi": "việc chơi game thường xuyên"
+                  },
+                  {
+                    "en": "academic distraction",
+                    "vi": "sự xao nhãng học tập"
+                  }
+                ],
+                "point_vi": "Chơi game quá mức có thể ảnh hưởng tiêu cực đến kết quả học tập của trẻ.",
+                "point_en": "Excessive gaming can negatively affect children's academic performance.",
+                "evidence_vi": "Trẻ có thể dành ít thời gian hơn cho bài tập và việc học. Việc chơi game thường xuyên có thể khiến các em khó tập trung vào bài học.",
+                "evidence_en": "Children may spend less time on homework and studying. Frequent gaming can make it difficult for them to concentrate on their lessons."
+              },
+              {
+                "title": "DISADVANTAGE 03",
+                "collocations": [
+                  {
+                    "en": "affect children's behaviour",
+                    "vi": "ảnh hưởng đến hành vi của trẻ"
+                  },
+                  {
+                    "en": "easily angry or impatient",
+                    "vi": "dễ cáu gắt hoặc thiếu kiên nhẫn"
+                  },
+                  {
+                    "en": "spend less time with families",
+                    "vi": "dành ít thời gian cho gia đình"
+                  },
+                  {
+                    "en": "real-life activities",
+                    "vi": "các hoạt động ngoài đời thực"
+                  },
+                  {
+                    "en": "emotional irritability",
+                    "vi": "sự cáu kỉnh về cảm xúc"
+                  }
+                ],
+                "point_vi": "Chơi game quá mức có thể ảnh hưởng đến hành vi của trẻ.",
+                "point_en": "Excessive gaming can affect children's behaviour.",
+                "evidence_vi": "Trẻ có thể trở nên dễ cáu hoặc thiếu kiên nhẫn khi không thể chơi game. Các em cũng có thể dành ít thời gian hơn cho gia đình và các hoạt động ngoài đời thực.",
+                "evidence_en": "Children may become easily angry or impatient when they cannot play games. They may also spend less time with their families and on real-life activities."
+              }
+            ]
+          },
+          "vocab": [
+            {
+              "en": "problem-solving skills",
+              "vi": "kỹ năng giải quyết vấn đề"
+            },
+            {
+              "en": "overcome challenges",
+              "vi": "vượt qua thử thách"
+            },
+            {
+              "en": "think strategically",
+              "vi": "suy nghĩ chiến lược"
+            },
+            {
+              "en": "find solutions",
+              "vi": "tìm giải pháp"
+            },
+            {
+              "en": "in-game tasks",
+              "vi": "nhiệm vụ trong trò chơi"
+            },
+            {
+              "en": "entertainment and relaxation",
+              "vi": "giải trí và thư giãn"
+            },
+            {
+              "en": "reduce stress",
+              "vi": "giảm căng thẳng"
+            },
+            {
+              "en": "feel happier",
+              "vi": "cảm thấy vui vẻ hơn"
+            },
+            {
+              "en": "relax after school",
+              "vi": "thư giãn sau giờ học"
+            },
+            {
+              "en": "leisure activity",
+              "vi": "hoạt động giải trí"
+            },
+            {
+              "en": "social skills",
+              "vi": "kỹ năng xã hội"
+            },
+            {
+              "en": "multiplayer games",
+              "vi": "trò chơi nhiều người chơi"
+            },
+            {
+              "en": "communicate with others",
+              "vi": "giao tiếp với người khác"
+            },
+            {
+              "en": "cooperate effectively",
+              "vi": "hợp tác hiệu quả"
+            },
+            {
+              "en": "teamwork spirit",
+              "vi": "tinh thần làm việc nhóm"
+            },
+            {
+              "en": "harm children's health",
+              "vi": "gây hại cho sức khỏe của trẻ"
+            },
+            {
+              "en": "sit for too long",
+              "vi": "ngồi quá lâu"
+            },
+            {
+              "en": "less physical activity",
+              "vi": "ít hoạt động thể chất"
+            },
+            {
+              "en": "sedentary lifestyle",
+              "vi": "lối sống thụ động"
+            },
+            {
+              "en": "poor eyesight",
+              "vi": "thị lực kém"
+            },
+            {
+              "en": "affect children's studies",
+              "vi": "ảnh hưởng đến việc học của trẻ"
+            },
+            {
+              "en": "spend less time on homework",
+              "vi": "dành ít thời gian cho bài tập"
+            },
+            {
+              "en": "neglect schoolwork",
+              "vi": "sao nhãng bài vở"
+            },
+            {
+              "en": "lower academic grades",
+              "vi": "điểm số học tập giảm sút"
+            },
+            {
+              "en": "affect children's behaviour",
+              "vi": "ảnh hưởng đến hành vi của trẻ"
+            },
+            {
+              "en": "become impatient",
+              "vi": "trở nên thiếu kiên nhẫn"
+            },
+            {
+              "en": "easily angry",
+              "vi": "dễ tức giận / cáu gắt"
+            },
+            {
+              "en": "play for too long",
+              "vi": "chơi quá lâu"
+            },
+            {
+              "en": "irritability",
+              "vi": "sự cáu kỉnh"
+            },
+            {
+              "en": "thinking and problem-solving skills",
+              "vi": "kỹ năng tư duy và giải quyết vấn đề"
+            },
+            {
+              "en": "analyse situations",
+              "vi": "phân tích tình huống"
+            },
+            {
+              "en": "make decisions",
+              "vi": "đưa ra quyết định"
+            },
+            {
+              "en": "find solutions to challenges",
+              "vi": "tìm giải pháp cho thử thách"
+            },
+            {
+              "en": "cognitive development",
+              "vi": "sự phát triển nhận thức"
+            },
+            {
+              "en": "support mental well-being",
+              "vi": "hỗ trợ sức khỏe tinh thần"
+            },
+            {
+              "en": "relax and reduce stress",
+              "vi": "thư giãn và giảm căng thẳng"
+            },
+            {
+              "en": "after studying",
+              "vi": "sau giờ học"
+            },
+            {
+              "en": "feel happier and more relaxed",
+              "vi": "cảm thấy vui vẻ và thoải mái hơn"
+            },
+            {
+              "en": "psychological relief",
+              "vi": "sự giải tỏa tâm lý"
+            },
+            {
+              "en": "playing multiplayer games",
+              "vi": "chơi trò chơi nhiều người"
+            },
+            {
+              "en": "develop social skills",
+              "vi": "phát triển kỹ năng xã hội"
+            },
+            {
+              "en": "communicate and cooperate",
+              "vi": "giao tiếp và hợp tác"
+            },
+            {
+              "en": "work in teams",
+              "vi": "làm việc nhóm"
+            },
+            {
+              "en": "interact with others",
+              "vi": "tương tác với người khác"
+            },
+            {
+              "en": "excessive gaming",
+              "vi": "chơi game quá mức"
+            },
+            {
+              "en": "negative effects on health",
+              "vi": "ảnh hưởng tiêu cực đến sức khỏe"
+            },
+            {
+              "en": "sit in front of screens",
+              "vi": "ngồi trước màn hình"
+            },
+            {
+              "en": "little physical activity",
+              "vi": "ít vận động thể chất"
+            },
+            {
+              "en": "physical health problems",
+              "vi": "các vấn đề sức khỏe thể chất"
+            },
+            {
+              "en": "affect academic performance",
+              "vi": "ảnh hưởng đến kết quả học tập"
+            },
+            {
+              "en": "difficult to concentrate on lessons",
+              "vi": "khó tập trung vào bài học"
+            },
+            {
+              "en": "frequent gaming",
+              "vi": "việc chơi game thường xuyên"
+            },
+            {
+              "en": "academic distraction",
+              "vi": "sự xao nhãng học tập"
+            },
+            {
+              "en": "easily angry or impatient",
+              "vi": "dễ cáu gắt hoặc thiếu kiên nhẫn"
+            },
+            {
+              "en": "spend less time with families",
+              "vi": "dành ít thời gian cho gia đình"
+            },
+            {
+              "en": "real-life activities",
+              "vi": "các hoạt động ngoài đời thực"
+            },
+            {
+              "en": "emotional irritability",
+              "vi": "sự cáu kỉnh về cảm xúc"
+            }
+          ],
+          "sample_b1": "In recent years, <strong>children playing games</strong> has become more common in modern society. Although it has some benefits, there are also some drawbacks. <strong>This essay will discuss both sides of this topic.</strong>\n\n<strong>On the one hand, this topic has several advantages.</strong> One major benefit is that <strong><em>playing games improves children's problem-solving skills.</em></strong> Children have to think and find ways to overcome challenges in games. Another positive aspect is that <strong><em>playing games provides entertainment and reduces stress.</em></strong> Children can relax after school and feel happier. A further good point is that <strong><em>playing games can improve children's social skills.</em></strong> Multiplayer games help children communicate and cooperate with others.\n\n<strong>On the other hand, there are also several disadvantages.</strong> One possible drawback is that <strong><em>playing games too much can harm children's health.</em></strong> Children may sit for too long and do less physical activity. Another negative aspect is that <strong><em>playing games too much can affect children's studies.</em></strong> Children may spend less time on homework and studying. A further problem is that <strong><em>playing games too much can affect children's behaviour.</em></strong> Some children may become impatient or easily angry after playing for too long.\n\nIn conclusion, <strong>children playing games</strong> has both advantages and disadvantages. These points show that it has different effects on people's lives. Therefore, it is important to consider both sides before making a decision.",
+          "translation_b1": "Trong những năm gần đây, <strong>việc trẻ em chơi trò chơi điện tử</strong> đã trở nên phổ biến hơn trong xã hội hiện đại. Mặc dù nó có một số lợi ích, cũng có một số hạn chế. <strong>Bài tiểu luận này sẽ thảo luận về cả hai khía cạnh của chủ đề này.</strong>\n\n<strong>Một mặt, chủ đề này có một số lợi thế.</strong> Một lợi ích lớn là <strong><em>chơi trò chơi giúp trẻ phát triển khả năng giải quyết vấn đề.</em></strong> Trẻ phải suy nghĩ và tìm cách vượt qua các thử thách trong trò chơi. Một khía cạnh tích cực khác là <strong><em>chơi trò chơi giúp trẻ giải trí và giảm căng thẳng.</em></strong> Trẻ có thể thư giãn sau giờ học và cảm thấy vui vẻ hơn. Một điểm tốt nữa là <strong><em>chơi trò chơi có thể giúp trẻ phát triển các kỹ năng xã hội.</em></strong> Các trò chơi nhiều người chơi giúp trẻ giao tiếp và hợp tác với những người khác.\n\n<strong>Mặt khác, cũng có một số bất lợi.</strong> Một bất lợi có thể có là <strong><em>chơi game quá nhiều có thể gây hại cho sức khỏe của trẻ.</em></strong> Trẻ có thể ngồi quá lâu và ít vận động. Một khía cạnh tiêu cực khác là <strong><em>chơi game quá nhiều có thể ảnh hưởng đến việc học của trẻ.</em></strong> Trẻ có thể dành ít thời gian hơn cho bài tập và việc học. Một vấn đề nữa là <strong><em>chơi game quá nhiều có thể ảnh hưởng đến hành vi của trẻ.</em></strong> Một số trẻ có thể trở nên dễ cáu hoặc mất kiên nhẫn khi chơi quá lâu.\n\nTóm lại, <strong>việc trẻ em chơi trò chơi điện tử</strong> có cả lợi thế và bất lợi. Những điểm này cho thấy nó có những tác động khác nhau đến cuộc sống của mọi người. Vì vậy, điều quan trọng là phải xem xét cả hai khía cạnh trước khi đưa ra quyết định."
+        }
       },
       {
         "id": 20,
