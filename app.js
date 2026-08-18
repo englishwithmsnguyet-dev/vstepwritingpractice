@@ -812,9 +812,12 @@ function buildTranslationExercises(topic, transLevel, category) {
   const benefitLabel = isCausesSolutions ? "Nguyên nhân" : (isOpinion ? "Lý do" : (isDiscussion ? "Quan điểm 1" : "Lợi ích"));
   const drawbackLabel = isCausesSolutions ? "Giải pháp" : (isOpinion ? "Lý do" : (isDiscussion ? "Quan điểm 2" : "Bất lợi"));
   
-  // Push benefits
-  if (ideasObj.benefits) {
-    ideasObj.benefits.forEach((item, idx) => {
+  const group1Items = ideasObj.benefits || ideasObj.causes || ideasObj.reasons || ideasObj.views || ideasObj.factors;
+  const group2Items = ideasObj.drawbacks || ideasObj.effects || ideasObj.solutions || ideasObj.problems || ideasObj.measures;
+
+  // Push group 1 (benefits / causes / reasons)
+  if (group1Items && group1Items.length > 0) {
+    group1Items.forEach((item, idx) => {
       const baseTitle = item.title ? item.title : (isDiscussion ? benefitLabel : `${benefitLabel} 0${idx+1}`);
       // 1. Point
       exercises.push({
@@ -841,9 +844,9 @@ function buildTranslationExercises(topic, transLevel, category) {
     });
   }
   
-  // Push drawbacks
-  if (ideasObj.drawbacks) {
-    ideasObj.drawbacks.forEach((item, idx) => {
+  // Push group 2 (drawbacks / effects / solutions)
+  if (group2Items && group2Items.length > 0) {
+    group2Items.forEach((item, idx) => {
       const baseTitle = item.title ? item.title : (isDiscussion ? drawbackLabel : `${drawbackLabel} 0${idx+1}`);
       // 1. Point
       exercises.push({
@@ -2771,8 +2774,11 @@ function renderOutline() {
   const benefitLabel = isCausesSolutions ? "CAUSES (NGUYÊN NHÂN)" : (isOpinion ? "REASONS (LÝ DO)" : (isDiscussion ? "VIEW 01 (QUAN ĐIỂM 1)" : "ADVANTAGES (LỢI ÍCH)"));
   const drawbackLabel = isCausesSolutions ? "SOLUTIONS (GIẢI PHÁP)" : (isOpinion ? "REASONS (LÝ DO)" : (isDiscussion ? "VIEW 02 (QUAN ĐIỂM 2)" : "DISADVANTAGES (BẤT LỢI)"));
   
-  if (ideasObj.benefits && ideasObj.benefits.length > 0) {
-    ideasObj.benefits.forEach((item, idx) => {
+  const group1Items = ideasObj.benefits || ideasObj.causes || ideasObj.reasons || ideasObj.views || ideasObj.factors;
+  const group2Items = ideasObj.drawbacks || ideasObj.effects || ideasObj.solutions || ideasObj.problems || ideasObj.measures;
+
+  if (group1Items && group1Items.length > 0) {
+    group1Items.forEach((item, idx) => {
       const node = document.createElement('div');
       node.className = 'outline-node';
       const nodeBodyId = `outline-node-benefit-${idx}`;
@@ -2797,9 +2803,9 @@ function renderOutline() {
     });
   }
   
-  // Render drawbacks (or solutions)
-  if (ideasObj.drawbacks && ideasObj.drawbacks.length > 0) {
-    ideasObj.drawbacks.forEach((item, idx) => {
+  // Render drawbacks (or solutions / effects)
+  if (group2Items && group2Items.length > 0) {
+    group2Items.forEach((item, idx) => {
       const node = document.createElement('div');
       node.className = 'outline-node';
       const nodeBodyId = `outline-node-drawback-${idx}`;

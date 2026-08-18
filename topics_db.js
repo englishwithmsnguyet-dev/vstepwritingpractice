@@ -19535,7 +19535,7 @@ const ESSAY_DATA = [
         ],
         "details": {
           "ideas_b1": {
-            "causes": [
+            "benefits": [
               {
                 "title": "CAUSE 01",
                 "collocations": [
@@ -19624,7 +19624,7 @@ const ESSAY_DATA = [
                 "evidence_en": "Some people choose to raise children alone because they want a life that better suits their personal circumstances."
               }
             ],
-            "effects": [
+            "drawbacks": [
               {
                 "title": "EFFECT 01",
                 "collocations": [
@@ -19715,7 +19715,7 @@ const ESSAY_DATA = [
             ]
           },
           "ideas_b2": {
-            "causes": [
+            "benefits": [
               {
                 "title": "CAUSE 01",
                 "collocations": [
@@ -19804,7 +19804,7 @@ const ESSAY_DATA = [
                 "evidence_en": "Some people choose to raise children alone rather than remain in an unsuitable relationship. Modern society also accepts different family structures more than in the past."
               }
             ],
-            "effects": [
+            "drawbacks": [
               {
                 "title": "EFFECT 01",
                 "collocations": [
