@@ -25353,7 +25353,335 @@ const ESSAY_DATA = [
         "tags": "[Measures / Solutions]",
         "context": "Having a good memory plays an important role in many aspects of life, including education, work, and daily activities. A strong memory can help people learn more effectively, perform tasks efficiently, and retain important information for a longer period of time. However, many people experience difficulties with concentration and memory due to modern lifestyles, stress, and unhealthy habits.",
         "prompt": "Write an essay to an educated reader to suggest possible ways of improving memory. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "paraphrases": [
+          {
+            "en": "improving memory",
+            "vi": "cải thiện trí nhớ"
+          },
+          {
+            "en": "enhancing memory retention and recall",
+            "vi": "nâng cao khả năng lưu giữ và gợi nhớ"
+          },
+          {
+            "en": "boosting cognitive function and memory",
+            "vi": "tăng cường chức năng nhận thức và trí nhớ"
+          },
+          {
+            "en": "strengthening brain performance and recall ability",
+            "vi": "củng cố hiệu suất não bộ và khả năng ghi nhớ"
+          }
+        ],
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "SOLUTION 01",
+                "collocations": [
+                  {
+                    "en": "healthy sleeping habits",
+                    "vi": "thói quen ngủ lành mạnh"
+                  },
+                  {
+                    "en": "get enough sleep",
+                    "vi": "ngủ đủ giấc"
+                  },
+                  {
+                    "en": "avoid staying up late",
+                    "vi": "tránh thức khuya"
+                  },
+                  {
+                    "en": "brain rest and processing",
+                    "vi": "não nghỉ ngơi và xử lý thông tin"
+                  },
+                  {
+                    "en": "go to bed early",
+                    "vi": "đi ngủ sớm"
+                  }
+                ],
+                "point_vi": "Mọi người nên duy trì thói quen ngủ hợp lý để hỗ trợ trí nhớ.",
+                "point_en": "People should maintain healthy sleeping habits to improve their memory.",
+                "evidence_vi": "Họ nên ngủ đủ thời gian mỗi ngày. Họ cũng nên tránh thức quá khuya. Ngủ đủ giúp não có thời gian nghỉ ngơi và xử lý thông tin. Ví dụ, sinh viên có thể đi ngủ sớm trước những ngày thi quan trọng.",
+                "evidence_en": "They should get enough sleep every day. They should also avoid staying up too late. Enough sleep gives the brain time to rest and process information. For example, students can go to bed early before important exam days."
+              },
+              {
+                "title": "SOLUTION 02",
+                "collocations": [
+                  {
+                    "en": "regular exercise",
+                    "vi": "tập thể dục thường xuyên"
+                  },
+                  {
+                    "en": "physical activity",
+                    "vi": "hoạt động thể chất"
+                  },
+                  {
+                    "en": "brain activity and concentration",
+                    "vi": "hoạt động của não và sự tập trung"
+                  },
+                  {
+                    "en": "play sports and jog",
+                    "vi": "chơi thể thao và chạy bộ"
+                  },
+                  {
+                    "en": "daily 30-minute walk",
+                    "vi": "đi bộ 30 phút hằng ngày"
+                  }
+                ],
+                "point_vi": "Tập thể dục thường xuyên cũng là một cách tốt để hỗ trợ trí nhớ.",
+                "point_en": "Regular exercise is also a good way to support memory.",
+                "evidence_vi": "Mọi người có thể đi bộ, chạy bộ hoặc chơi thể thao vài lần mỗi tuần. Hoạt động thể chất giúp cơ thể khỏe mạnh hơn. Nó cũng hỗ trợ hoạt động của não và khả năng tập trung. Chẳng hạn, mọi người có thể đi bộ khoảng 30 phút mỗi ngày.",
+                "evidence_en": "People can walk, jog, or play sports several times a week. Physical activity helps keep the body healthy. It also supports brain activity and concentration. For example, people can walk for about 30 minutes a day."
+              },
+              {
+                "title": "SOLUTION 03",
+                "collocations": [
+                  {
+                    "en": "suitable learning methods",
+                    "vi": "phương pháp học phù hợp"
+                  },
+                  {
+                    "en": "take notes",
+                    "vi": "ghi chú"
+                  },
+                  {
+                    "en": "review regularly",
+                    "vi": "ôn tập thường xuyên"
+                  },
+                  {
+                    "en": "use flashcards",
+                    "vi": "dùng thẻ flashcards"
+                  },
+                  {
+                    "en": "remember new vocabulary",
+                    "vi": "ghi nhớ từ vựng mới"
+                  }
+                ],
+                "point_vi": "Mọi người nên áp dụng những phương pháp học phù hợp để ghi nhớ thông tin tốt hơn.",
+                "point_en": "People should use suitable learning methods to remember information better.",
+                "evidence_vi": "Họ có thể ghi chú những thông tin quan trọng. Họ cũng nên ôn tập thường xuyên thay vì chỉ học một lần. Các phương pháp như flashcards có thể giúp họ ghi nhớ từ và thông tin mới. Ví dụ, sinh viên có thể dùng flashcards để ôn từ vựng trước các kỳ thi.",
+                "evidence_en": "They can take notes of important information. They should also review information regularly instead of studying it only once. Methods such as flashcards can help them remember new words and information. For example, students can use flashcards to review vocabulary before exams."
+              }
+            ],
+            "drawbacks": []
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "SOLUTION 01",
+                "collocations": [
+                  {
+                    "en": "consistent sleep-wake cycles",
+                    "vi": "chu kỳ ngủ - thức đều đặn"
+                  },
+                  {
+                    "en": "memory consolidation",
+                    "vi": "sự củng cố trí nhớ khi ngủ"
+                  },
+                  {
+                    "en": "neurocognitive recovery",
+                    "vi": "sự phục hồi nhận thức thần kinh"
+                  },
+                  {
+                    "en": "circadian rhythm alignment",
+                    "vi": "sự đồng điệu nhịp sinh học"
+                  },
+                  {
+                    "en": "avoid late-night cramming",
+                    "vi": "tránh nhồi nhét học khuya"
+                  }
+                ],
+                "point_vi": "Duy trì một thói quen ngủ lành mạnh là một cách hiệu quả để cải thiện khả năng ghi nhớ.",
+                "point_en": "Maintaining healthy sleeping habits is an effective way to improve memory.",
+                "evidence_vi": "Mọi người nên ngủ đủ số giờ cần thiết mỗi ngày. Họ cũng nên duy trì giờ đi ngủ và thức dậy tương đối ổn định. Điều này giúp não có thời gian nghỉ ngơi và xử lý những thông tin đã tiếp nhận. Ví dụ, sinh viên nên tránh thức khuya để học trước các kỳ thi quan trọng. Về lâu dài, thói quen ngủ tốt có thể hỗ trợ khả năng tập trung và ghi nhớ.",
+                "evidence_en": "People should get the amount of sleep they need each day. They should also maintain relatively regular sleeping and waking times. This gives the brain time to rest and process the information it has received. For example, students should avoid staying up late to study before important exams. In the long term, good sleeping habits can support concentration and memory."
+              },
+              {
+                "title": "SOLUTION 02",
+                "collocations": [
+                  {
+                    "en": "aerobic physical exercise",
+                    "vi": "bài tập thể dục nhịp điệu"
+                  },
+                  {
+                    "en": "neuroplasticity enhancement",
+                    "vi": "tăng cường độ dẻo dai thần kinh"
+                  },
+                  {
+                    "en": "cerebral blood flow",
+                    "vi": "lưu lượng máu lên não"
+                  },
+                  {
+                    "en": "active lifestyle integration",
+                    "vi": "lồng ghép lối sống năng động"
+                  },
+                  {
+                    "en": "cardiovascular and brain health",
+                    "vi": "sức khỏe tim mạch và não bộ"
+                  }
+                ],
+                "point_vi": "Tăng cường hoạt động thể chất thường xuyên có thể hỗ trợ khả năng ghi nhớ.",
+                "point_en": "Increasing regular physical activity can support memory.",
+                "evidence_vi": "Mọi người có thể đi bộ, chạy bộ, đạp xe hoặc chơi thể thao vài lần mỗi tuần. Những hoạt động này giúp duy trì sức khỏe thể chất. Đồng thời, chúng có thể hỗ trợ hoạt động của não và khả năng tập trung. Chẳng hạn, một người có thể đi bộ khoảng 30 phút mỗi ngày thay vì dành toàn bộ thời gian rảnh trước màn hình. Nếu duy trì thường xuyên, hoạt động thể chất có thể trở thành một phần của lối sống lành mạnh có lợi cho trí nhớ.",
+                "evidence_en": "People can walk, jog, cycle, or play sports several times a week. These activities help maintain physical health. At the same time, they can support brain function and concentration. For instance, a person can walk for about 30 minutes a day instead of spending all their free time in front of a screen. If maintained regularly, physical activity can become part of a healthy lifestyle that supports memory."
+              },
+              {
+                "title": "SOLUTION 03",
+                "collocations": [
+                  {
+                    "en": "spaced repetition technique",
+                    "vi": "kỹ thuật lặp lại ngắt quãng"
+                  },
+                  {
+                    "en": "active retrieval practice",
+                    "vi": "thực hành chủ động gợi nhớ"
+                  },
+                  {
+                    "en": "elaborative note-taking",
+                    "vi": "ghi chép chi tiết có chiều sâu"
+                  },
+                  {
+                    "en": "self-assessment methodologies",
+                    "vi": "phương pháp tự kiểm tra"
+                  },
+                  {
+                    "en": "long-term information retention",
+                    "vi": "lưu giữ thông tin dài hạn"
+                  }
+                ],
+                "point_vi": "Sử dụng các phương pháp học chủ động có thể giúp mọi người ghi nhớ thông tin hiệu quả hơn.",
+                "point_en": "Using active learning techniques can help people remember information more effectively.",
+                "evidence_vi": "Người học có thể ghi chú những ý chính trong quá trình học. Họ cũng có thể tự kiểm tra kiến thức thay vì chỉ đọc lại tài liệu. Ôn tập thông tin theo những khoảng thời gian phù hợp có thể giúp họ nhớ lâu hơn. Ví dụ, sinh viên có thể sử dụng flashcards để tự kiểm tra từ vựng sau mỗi vài ngày. Những phương pháp này khuyến khích người học chủ động nhớ lại thông tin và hình thành thói quen học hiệu quả.",
+                "evidence_en": "Learners can take notes of the main ideas during their studies. They can also test themselves instead of simply rereading materials. Reviewing information at suitable intervals can help them remember it for longer. For example, students can use flashcards to test themselves on vocabulary every few days. These methods encourage learners to actively recall information and develop effective study habits."
+              }
+            ],
+            "drawbacks": []
+          },
+          "vocab": [
+            {
+              "en": "healthy sleeping habits",
+              "vi": "thói quen ngủ lành mạnh"
+            },
+            {
+              "en": "get enough sleep",
+              "vi": "ngủ đủ giấc"
+            },
+            {
+              "en": "avoid staying up late",
+              "vi": "tránh thức khuya"
+            },
+            {
+              "en": "brain rest and processing",
+              "vi": "não nghỉ ngơi và xử lý thông tin"
+            },
+            {
+              "en": "go to bed early",
+              "vi": "đi ngủ sớm"
+            },
+            {
+              "en": "regular exercise",
+              "vi": "tập thể dục thường xuyên"
+            },
+            {
+              "en": "physical activity",
+              "vi": "hoạt động thể chất"
+            },
+            {
+              "en": "brain activity and concentration",
+              "vi": "hoạt động của não và sự tập trung"
+            },
+            {
+              "en": "play sports and jog",
+              "vi": "chơi thể thao và chạy bộ"
+            },
+            {
+              "en": "daily 30-minute walk",
+              "vi": "đi bộ 30 phút hằng ngày"
+            },
+            {
+              "en": "suitable learning methods",
+              "vi": "phương pháp học phù hợp"
+            },
+            {
+              "en": "take notes",
+              "vi": "ghi chú"
+            },
+            {
+              "en": "review regularly",
+              "vi": "ôn tập thường xuyên"
+            },
+            {
+              "en": "use flashcards",
+              "vi": "dùng thẻ flashcards"
+            },
+            {
+              "en": "remember new vocabulary",
+              "vi": "ghi nhớ từ vựng mới"
+            },
+            {
+              "en": "consistent sleep-wake cycles",
+              "vi": "chu kỳ ngủ - thức đều đặn"
+            },
+            {
+              "en": "memory consolidation",
+              "vi": "sự củng cố trí nhớ khi ngủ"
+            },
+            {
+              "en": "neurocognitive recovery",
+              "vi": "sự phục hồi nhận thức thần kinh"
+            },
+            {
+              "en": "circadian rhythm alignment",
+              "vi": "sự đồng điệu nhịp sinh học"
+            },
+            {
+              "en": "avoid late-night cramming",
+              "vi": "tránh nhồi nhét học khuya"
+            },
+            {
+              "en": "aerobic physical exercise",
+              "vi": "bài tập thể dục nhịp điệu"
+            },
+            {
+              "en": "neuroplasticity enhancement",
+              "vi": "tăng cường độ dẻo dai thần kinh"
+            },
+            {
+              "en": "cerebral blood flow",
+              "vi": "lưu lượng máu lên não"
+            },
+            {
+              "en": "active lifestyle integration",
+              "vi": "lồng ghép lối sống năng động"
+            },
+            {
+              "en": "cardiovascular and brain health",
+              "vi": "sức khỏe tim mạch và não bộ"
+            },
+            {
+              "en": "spaced repetition technique",
+              "vi": "kỹ thuật lặp lại ngắt quãng"
+            },
+            {
+              "en": "active retrieval practice",
+              "vi": "thực hành chủ động gợi nhớ"
+            },
+            {
+              "en": "elaborative note-taking",
+              "vi": "ghi chép chi tiết có chiều sâu"
+            },
+            {
+              "en": "self-assessment methodologies",
+              "vi": "phương pháp tự kiểm tra"
+            },
+            {
+              "en": "long-term information retention",
+              "vi": "lưu giữ thông tin dài hạn"
+            }
+          ],
+          "sample_b1": "In recent years, <strong>improving memory</strong> has become increasingly important in modern society. Many people believe that effective actions are needed to enhance memory performance in daily life. <strong>This essay will suggest several practical measures to improve memory.</strong>\n\nOne effective solution is that <strong><em>people should maintain healthy sleeping habits to improve their memory.</em></strong> They should get enough sleep every day. They should also avoid staying up too late. Enough sleep gives the brain time to rest and process information. For example, students can go to bed early before important exam days.\n\nAnother possible measure is that <strong><em>regular exercise is also a good way to support memory.</em></strong> People can walk, jog, or play sports several times a week. Physical activity helps keep the body healthy. It also supports brain activity and concentration. For example, people can walk for about 30 minutes a day.\n\nA further approach is that <strong><em>people should use suitable learning methods to remember information better.</em></strong> They can take notes of important information. They should also review information regularly instead of studying it only once. Methods such as flashcards can help them remember new words and information. For example, students can use flashcards to review vocabulary before exams.\n\nIn conclusion, several practical measures can help <strong>improve memory</strong> effectively. These solutions can bring positive benefits for learning and daily life. Therefore, individuals should adopt healthy habits to strengthen their cognitive abilities.",
+          "translation_b1": "Trong những năm gần đây, <strong>cải thiện trí nhớ</strong> ngày càng trở nên quan trọng trong xã hội hiện đại. Nhiều người tin rằng cần có những hành động hiệu quả để nâng cao hiệu suất trí nhớ trong cuộc sống hằng ngày. <strong>Bài tiểu luận này sẽ đề xuất một số biện pháp thiết thực để cải thiện trí nhớ.</strong>\n\nMột giải pháp hiệu quả là <strong><em>mọi người nên duy trì thói quen ngủ hợp lý để hỗ trợ trí nhớ.</em></strong> Họ nên ngủ đủ thời gian mỗi ngày. Họ cũng nên tránh thức quá khuya. Ngủ đủ giúp não có thời gian nghỉ ngơi và xử lý thông tin. Ví dụ, sinh viên có thể đi ngủ sớm trước những ngày thi quan trọng.\n\nMột biện pháp khả thi khác là <strong><em>tập thể dục thường xuyên cũng là một cách tốt để hỗ trợ trí nhớ.</em></strong> Mọi người có thể đi bộ, chạy bộ hoặc chơi thể thao vài lần mỗi tuần. Hoạt động thể chất giúp cơ thể khỏe mạnh hơn. Nó cũng hỗ trợ hoạt động của não và khả năng tập trung. Chẳng hạn, mọi người có thể đi bộ khoảng 30 phút mỗi ngày.\n\nMột cách tiếp cận nữa là <strong><em>mọi người nên áp dụng những phương pháp học phù hợp để ghi nhớ thông tin tốt hơn.</em></strong> Họ có thể ghi chú những thông tin quan trọng. Họ cũng nên ôn tập thường xuyên thay vì chỉ học một lần. Các phương pháp như flashcards có thể giúp họ ghi nhớ từ và thông tin mới. Ví dụ, sinh viên có thể dùng flashcards để ôn từ vựng trước các kỳ thi.\n\nTóm lại, một số biện pháp thiết thực có thể giúp <strong>cải thiện trí nhớ</strong> một cách hiệu quả. Những giải pháp này có thể mang lại những lợi ích tích cực cho việc học tập và cuộc sống hằng ngày. Vì vậy, các cá nhân nên áp dụng những thói quen lành mạnh để củng cố năng lực nhận thức của mình."
+        }
       },
       {
         "id": 21,
