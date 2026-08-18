@@ -12570,7 +12570,337 @@ const ESSAY_DATA = [
         "title_vi": "Hoạt động cộng đồng không lương",
         "context": "Nowadays, unpaid community service has become an important activity in many schools and communities. People may take part in different voluntary activities, such as cleaning public places, helping elderly people, teaching poor children, or supporting charity events. Some people believe that doing unpaid community service brings many benefits to individuals and society.",
         "prompt": "Write an essay to an educated reader to discuss the advantages of unpaid community service. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "paraphrases": [
+          {
+            "en": "unpaid voluntary work",
+            "vi": "công việc tình nguyện không lương"
+          },
+          {
+            "en": "participating in community-based initiatives",
+            "vi": "tham gia các sáng kiến cộng đồng"
+          },
+          {
+            "en": "doing non-profit community work",
+            "vi": "làm việc cộng đồng phi lợi nhuận"
+          },
+          {
+            "en": "volunteering for public benefit",
+            "vi": "tình nguyện vì lợi ích công cộng"
+          }
+        ],
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "ADVANTAGE 01",
+                "collocations": [
+                  {
+                    "en": "develop life skills",
+                    "vi": "phát triển kỹ năng sống"
+                  },
+                  {
+                    "en": "work with others",
+                    "vi": "làm việc với người khác"
+                  },
+                  {
+                    "en": "communicate in activities",
+                    "vi": "giao tiếp trong các hoạt động"
+                  },
+                  {
+                    "en": "become more confident",
+                    "vi": "trở nên tự tin hơn"
+                  },
+                  {
+                    "en": "apply in studies and work",
+                    "vi": "áp dụng vào học tập và công việc"
+                  }
+                ],
+                "point_vi": "Làm công tác cộng đồng giúp mọi người phát triển những kỹ năng sống quan trọng.",
+                "point_en": "Community service helps people develop important life skills.",
+                "evidence_vi": "Họ có thể học cách làm việc với những người khác. Họ phải giao tiếp khi tham gia các hoạt động cộng đồng. Điều này giúp họ trở nên tự tin hơn. Nhờ đó, họ có thể sử dụng những kỹ năng này trong học tập và công việc.",
+                "evidence_en": "They can learn how to work with other people. They need to communicate when taking part in community activities. This helps them become more confident. As a result, they can use these skills in their studies and work."
+              },
+              {
+                "title": "ADVANTAGE 02",
+                "collocations": [
+                  {
+                    "en": "sense of responsibility",
+                    "vi": "ý thức trách nhiệm"
+                  },
+                  {
+                    "en": "complete assigned tasks",
+                    "vi": "hoàn thành nhiệm vụ được giao"
+                  },
+                  {
+                    "en": "care about others' needs",
+                    "vi": "quan tâm nhu cầu người khác"
+                  },
+                  {
+                    "en": "responsible person",
+                    "vi": "người có trách nhiệm"
+                  },
+                  {
+                    "en": "civic awareness",
+                    "vi": "nhận thức công dân"
+                  }
+                ],
+                "point_vi": "Làm công tác cộng đồng giúp mọi người có ý thức trách nhiệm hơn.",
+                "point_en": "Community service teaches people a sense of responsibility.",
+                "evidence_vi": "Họ phải hoàn thành những nhiệm vụ được giao. Họ cũng cần quan tâm đến nhu cầu của những người khác. Điều này giúp họ hiểu tầm quan trọng của trách nhiệm với cộng đồng. Nhờ đó, họ có thể trở thành những người có trách nhiệm hơn trong cuộc sống.",
+                "evidence_en": "They have to complete the tasks they are given. They also need to care about other people's needs. This helps them understand the importance of responsibility to the community. As a result, they can become more responsible people in life."
+              },
+              {
+                "title": "ADVANTAGE 03",
+                "collocations": [
+                  {
+                    "en": "stronger social connections",
+                    "vi": "mối quan hệ xã hội bền chặt hơn"
+                  },
+                  {
+                    "en": "meet and work together",
+                    "vi": "gặp gỡ và làm việc cùng nhau"
+                  },
+                  {
+                    "en": "useful activities",
+                    "vi": "các hoạt động hữu ích"
+                  },
+                  {
+                    "en": "support each other",
+                    "vi": "hỗ trợ lẫn nhau"
+                  },
+                  {
+                    "en": "connected community",
+                    "vi": "cộng đồng gắn kết"
+                  }
+                ],
+                "point_vi": "Làm công tác cộng đồng giúp mọi người xây dựng các mối quan hệ xã hội tốt hơn.",
+                "point_en": "Community service helps people build stronger social connections.",
+                "evidence_vi": "Họ có cơ hội gặp gỡ và làm việc với những người khác. Họ có thể cùng nhau thực hiện những hoạt động có ích. Điều này giúp họ hiểu và hỗ trợ nhau tốt hơn. Nhờ đó, cộng đồng trở nên gắn kết hơn.",
+                "evidence_en": "They have opportunities to meet and work with other people. They can work together on useful activities. This helps them understand and support each other better. As a result, the community becomes more connected."
+              }
+            ],
+            "drawbacks": []
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "ADVANTAGE 01",
+                "collocations": [
+                  {
+                    "en": "valuable life and social skills",
+                    "vi": "kỹ năng sống và xã hội quý giá"
+                  },
+                  {
+                    "en": "people from different backgrounds",
+                    "vi": "người từ các hoàn cảnh khác nhau"
+                  },
+                  {
+                    "en": "practical problem-solving",
+                    "vi": "giải quyết vấn đề thực tế"
+                  },
+                  {
+                    "en": "confident and proactive",
+                    "vi": "tự tin và chủ động"
+                  },
+                  {
+                    "en": "better prepared for future careers",
+                    "vi": "chuẩn bị tốt hơn cho nghề nghiệp tương lai"
+                  }
+                ],
+                "point_vi": "Làm công tác cộng đồng giúp mọi người phát triển những kỹ năng sống và kỹ năng xã hội có giá trị.",
+                "point_en": "Community service helps people develop valuable life and social skills.",
+                "evidence_vi": "Họ có thể học cách giao tiếp và hợp tác với những người có hoàn cảnh khác nhau. Họ cũng có cơ hội giải quyết các nhiệm vụ và vấn đề thực tế. Điều này giúp họ trở nên tự tin và chủ động hơn. Những kỹ năng này có thể được sử dụng trong học tập và công việc. Nhờ đó, họ có thể chuẩn bị tốt hơn cho cuộc sống tương lai.",
+                "evidence_en": "They can learn how to communicate and cooperate with people from different backgrounds. They also have opportunities to deal with practical tasks and problems. This helps them become more confident and proactive. These skills can be used in education and employment. As a result, they can be better prepared for their future lives."
+              },
+              {
+                "title": "ADVANTAGE 02",
+                "collocations": [
+                  {
+                    "en": "strong sense of responsibility",
+                    "vi": "tinh thần trách nhiệm mạnh mẽ"
+                  },
+                  {
+                    "en": "adhere to group plans",
+                    "vi": "tuân thủ kế hoạch nhóm"
+                  },
+                  {
+                    "en": "consider others' interests",
+                    "vi": "quan tâm lợi ích người khác"
+                  },
+                  {
+                    "en": "individual impact on society",
+                    "vi": "tác động cá nhân đến xã hội"
+                  },
+                  {
+                    "en": "enduring personal quality",
+                    "vi": "phẩm chất cá nhân lâu dài"
+                  }
+                ],
+                "point_vi": "Làm công tác cộng đồng giúp mọi người hình thành ý thức trách nhiệm mạnh mẽ hơn.",
+                "point_en": "Community service builds a strong sense of responsibility.",
+                "evidence_vi": "Người tham gia phải hoàn thành nhiệm vụ và tuân thủ kế hoạch của nhóm. Họ cũng phải quan tâm đến lợi ích và nhu cầu của những người khác. Điều này giúp họ hiểu rằng hành động của mỗi cá nhân có thể ảnh hưởng đến cộng đồng. Họ có thể trở nên có trách nhiệm hơn trong các hoạt động hằng ngày. Nhờ đó, tinh thần trách nhiệm có thể trở thành một phẩm chất lâu dài.",
+                "evidence_en": "Participants have to complete their tasks and follow the group's plans. They also need to consider the interests and needs of others. This helps them understand that individual actions can affect the community. They can become more responsible in their daily activities. As a result, a sense of responsibility can become a long-term personal quality."
+              },
+              {
+                "title": "ADVANTAGE 03",
+                "collocations": [
+                  {
+                    "en": "strengthen social cohesion",
+                    "vi": "tăng cường gắn kết xã hội"
+                  },
+                  {
+                    "en": "build united communities",
+                    "vi": "xây dựng cộng đồng đoàn kết"
+                  },
+                  {
+                    "en": "mutual support",
+                    "vi": "hỗ trợ lẫn nhau"
+                  },
+                  {
+                    "en": "foster interpersonal trust",
+                    "vi": "thúc đẩy sự tin cậy giữa các cá nhân"
+                  },
+                  {
+                    "en": "collaborative civic engagement",
+                    "vi": "sự gắn kết cộng đồng hợp tác"
+                  }
+                ],
+                "point_vi": "Làm công tác cộng đồng giúp tăng cường các mối quan hệ xã hội và xây dựng cộng đồng gắn kết hơn.",
+                "point_en": "Community service strengthens social connections and builds stronger communities.",
+                "evidence_vi": "Mọi người có cơ hội gặp gỡ và hợp tác với những người khác. Họ cùng nhau thực hiện những hoạt động mang lại lợi ích cho cộng đồng. Điều này giúp mọi người hiểu và hỗ trợ lẫn nhau nhiều hơn. Các hoạt động chung có thể tạo ra sự tin tưởng giữa các thành viên. Nhờ đó, cộng đồng có thể trở nên đoàn kết và hỗ trợ nhau tốt hơn.",
+                "evidence_en": "People have opportunities to meet and cooperate with others. They work together on activities that benefit the community. This helps people understand and support one another more. Shared activities can build trust among community members. As a result, communities can become more united and supportive."
+              }
+            ],
+            "drawbacks": []
+          },
+          "vocab": [
+            {
+              "en": "develop life skills",
+              "vi": "phát triển kỹ năng sống"
+            },
+            {
+              "en": "work with others",
+              "vi": "làm việc với người khác"
+            },
+            {
+              "en": "communicate in activities",
+              "vi": "giao tiếp trong các hoạt động"
+            },
+            {
+              "en": "become more confident",
+              "vi": "trở nên tự tin hơn"
+            },
+            {
+              "en": "apply in studies and work",
+              "vi": "áp dụng vào học tập và công việc"
+            },
+            {
+              "en": "sense of responsibility",
+              "vi": "ý thức trách nhiệm"
+            },
+            {
+              "en": "complete assigned tasks",
+              "vi": "hoàn thành nhiệm vụ được giao"
+            },
+            {
+              "en": "care about others' needs",
+              "vi": "quan tâm nhu cầu người khác"
+            },
+            {
+              "en": "responsible person",
+              "vi": "người có trách nhiệm"
+            },
+            {
+              "en": "civic awareness",
+              "vi": "nhận thức công dân"
+            },
+            {
+              "en": "stronger social connections",
+              "vi": "mối quan hệ xã hội bền chặt hơn"
+            },
+            {
+              "en": "meet and work together",
+              "vi": "gặp gỡ và làm việc cùng nhau"
+            },
+            {
+              "en": "useful activities",
+              "vi": "các hoạt động hữu ích"
+            },
+            {
+              "en": "support each other",
+              "vi": "hỗ trợ lẫn nhau"
+            },
+            {
+              "en": "connected community",
+              "vi": "cộng đồng gắn kết"
+            },
+            {
+              "en": "valuable life and social skills",
+              "vi": "kỹ năng sống và xã hội quý giá"
+            },
+            {
+              "en": "people from different backgrounds",
+              "vi": "người từ các hoàn cảnh khác nhau"
+            },
+            {
+              "en": "practical problem-solving",
+              "vi": "giải quyết vấn đề thực tế"
+            },
+            {
+              "en": "confident and proactive",
+              "vi": "tự tin và chủ động"
+            },
+            {
+              "en": "better prepared for future careers",
+              "vi": "chuẩn bị tốt hơn cho nghề nghiệp tương lai"
+            },
+            {
+              "en": "strong sense of responsibility",
+              "vi": "tinh thần trách nhiệm mạnh mẽ"
+            },
+            {
+              "en": "adhere to group plans",
+              "vi": "tuân thủ kế hoạch nhóm"
+            },
+            {
+              "en": "consider others' interests",
+              "vi": "quan tâm lợi ích người khác"
+            },
+            {
+              "en": "individual impact on society",
+              "vi": "tác động cá nhân đến xã hội"
+            },
+            {
+              "en": "enduring personal quality",
+              "vi": "phẩm chất cá nhân lâu dài"
+            },
+            {
+              "en": "strengthen social cohesion",
+              "vi": "tăng cường gắn kết xã hội"
+            },
+            {
+              "en": "build united communities",
+              "vi": "xây dựng cộng đồng đoàn kết"
+            },
+            {
+              "en": "mutual support",
+              "vi": "hỗ trợ lẫn nhau"
+            },
+            {
+              "en": "foster interpersonal trust",
+              "vi": "thúc đẩy sự tin cậy giữa các cá nhân"
+            },
+            {
+              "en": "collaborative civic engagement",
+              "vi": "sự gắn kết cộng đồng hợp tác"
+            }
+          ],
+          "sample_b1": "In recent years, <strong>doing unpaid community service</strong> has become more common in modern society. Many people see this as a positive development. <strong>This essay will discuss the main advantages of this topic.</strong>\n\nOne main advantage is that <strong><em>community service helps people develop important life skills.</em></strong> They can learn how to work with other people. They need to communicate when taking part in community activities. This helps them become more confident. As a result, they can use these skills in their studies and work.\n\nAnother positive aspect is that <strong><em>community service teaches people a sense of responsibility.</em></strong> They have to complete the tasks they are given. They also need to care about other people's needs. This helps them understand the importance of responsibility to the community. As a result, they can become more responsible people in life.\n\nA further benefit is that <strong><em>community service helps people build stronger social connections.</em></strong> They have opportunities to meet and work with other people. They can work together on useful activities. This helps them understand and support each other better. As a result, the community becomes more connected.\n\nIn conclusion, <strong>doing unpaid community service</strong> offers several benefits. These advantages make it useful for many people. Overall, it is a positive development in modern society.",
+          "translation_b1": "Trong những năm gần đây, <strong>việc tham gia hoạt động cộng đồng không lương</strong> đã trở nên phổ biến hơn trong xã hội hiện đại. Nhiều người xem đây là một sự phát triển tích cực. <strong>Bài tiểu luận này sẽ thảo luận về những lợi thế chính của chủ đề này.</strong>\n\nMột lợi thế chính là <strong><em>làm công tác cộng đồng giúp mọi người phát triển những kỹ năng sống quan trọng.</em></strong> Họ có thể học cách làm việc với những người khác. Họ phải giao tiếp khi tham gia các hoạt động cộng đồng. Điều này giúp họ trở nên tự tin hơn. Nhờ đó, họ có thể sử dụng những kỹ năng này trong học tập và công việc.\n\nMột khía cạnh tích cực khác là <strong><em>làm công tác cộng đồng giúp mọi người có ý thức trách nhiệm hơn.</em></strong> Họ phải hoàn thành những nhiệm vụ được giao. Họ cũng cần quan tâm đến nhu cầu của những người khác. Điều này giúp họ hiểu tầm quan trọng của trách nhiệm với cộng đồng. Nhờ đó, họ có thể trở thành những người có trách nhiệm hơn trong cuộc sống.\n\nMột lợi ích nữa là <strong><em>làm công tác cộng đồng giúp mọi người xây dựng các mối quan hệ xã hội tốt hơn.</em></strong> Họ có cơ hội gặp gỡ và làm việc với những người khác. Họ có thể cùng nhau thực hiện những hoạt động có ích. Điều này giúp họ hiểu và hỗ trợ nhau tốt hơn. Nhờ đó, cộng đồng trở nên gắn kết hơn.\n\nTóm lại, <strong>việc tham gia hoạt động cộng đồng không lương</strong> mang lại một số lợi ích. Những lợi thế này làm cho nó hữu ích cho nhiều người. Nhìn chung, đó là một sự phát triển tích cực trong xã hội hiện đại.",
+          "sample_b2": "In recent years, <strong>doing unpaid community service</strong> has become increasingly prevalent in modern society. This has led to a range of benefits across different contexts. <strong>This essay will focus on the main advantages associated with it.</strong>\n\nOne major benefit is that <strong><em>community service helps people develop valuable life and social skills.</em></strong> They can learn how to communicate and cooperate with people from different backgrounds. They also have opportunities to deal with practical tasks and problems. This helps them become more confident and proactive. These skills can be used in education and employment. As a result, they can be better prepared for their future lives.\n\nAnother positive effect is that <strong><em>community service builds a strong sense of responsibility.</em></strong> Participants have to complete their tasks and follow the group's plans. They also need to consider the interests and needs of others. This helps them understand that individual actions can affect the community. They can become more responsible in their daily activities. As a result, a sense of responsibility can become a long-term personal quality.\n\nA further aspect to consider is that <strong><em>community service strengthens social connections and builds stronger communities.</em></strong> People have opportunities to meet and cooperate with others. They work together on activities that benefit the community. This helps people understand and support one another more. Shared activities can build trust among community members. As a result, communities can become more united and supportive.\n\nIn conclusion, <strong>doing unpaid community service</strong> offers several notable advantages. These positive aspects highlight its value in various areas of life. Overall, examining these factors provides a clearer understanding of the topic.",
+          "translation_b2": "Trong những năm gần đây, <strong>việc tham gia hoạt động cộng đồng không lương</strong> đã trở nên ngày càng phổ biến trong xã hội hiện đại. Điều này đã dẫn đến một loạt các lợi ích trong các bối cảnh khác nhau. <strong>Bài tiểu luận này sẽ tập trung vào những lợi thế chính liên quan đến nó.</strong>\n\nMột lợi ích lớn là <strong><em>làm công tác cộng đồng giúp mọi người phát triển những kỹ năng sống và kỹ năng xã hội có giá trị.</em></strong> Họ có thể học cách giao tiếp và hợp tác với những người có hoàn cảnh khác nhau. Họ cũng có cơ hội giải quyết các nhiệm vụ và vấn đề thực tế. Điều này giúp họ trở nên tự tin và chủ động hơn. Những kỹ năng này có thể được sử dụng trong học tập và công việc. Nhờ đó, họ có thể chuẩn bị tốt hơn cho cuộc sống tương lai.\n\nMột hiệu ứng tích cực khác là <strong><em>làm công tác cộng đồng giúp mọi người hình thành ý thức trách nhiệm mạnh mẽ hơn.</em></strong> Người tham gia phải hoàn thành nhiệm vụ và tuân thủ kế hoạch của nhóm. Họ cũng phải quan tâm đến lợi ích và nhu cầu của những người khác. Điều này giúp họ hiểu rằng hành động của mỗi cá nhân có thể ảnh hưởng đến cộng đồng. Họ có thể trở nên có trách nhiệm hơn trong các hoạt động hằng ngày. Nhờ đó, tinh thần trách nhiệm có thể trở thành một phẩm chất lâu dài.\n\nMột khía cạnh nữa cần xem xét là <strong><em>làm công tác cộng đồng giúp tăng cường các mối quan hệ xã hội và xây dựng cộng đồng gắn kết hơn.</em></strong> Mọi người có cơ hội gặp gỡ và hợp tác với những người khác. Họ cùng nhau thực hiện những hoạt động mang lại lợi ích cho cộng đồng. Điều này giúp mọi người hiểu và hỗ trợ lẫn nhau nhiều hơn. Các hoạt động chung có thể tạo ra sự tin tưởng giữa các thành viên. Nhờ đó, cộng đồng có thể trở nên đoàn kết và hỗ trợ nhau tốt hơn.\n\nTóm lại, <strong>việc tham gia hoạt động cộng đồng không lương</strong> mang lại một số lợi thế đáng chú ý. Những khía cạnh tích cực này làm nổi bật giá trị của nó trong các lĩnh vực khác nhau của cuộc sống. Nhìn chung, việc xem xét các yếu tố này cung cấp một sự hiểu biết rõ ràng hơn về chủ đề."
+        }
       },
       {
         "id": 23,
