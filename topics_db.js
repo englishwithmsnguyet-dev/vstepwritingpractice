@@ -8278,7 +8278,627 @@ const ESSAY_DATA = [
         "title_vi": "Sử dụng sách giáo khoa trong giáo dục",
         "context": "Nowadays, textbooks are still widely used in schools and universities around the world. They provide students with organized lessons, useful exercises, and important knowledge for different subjects. However, some people argue that relying too much on textbooks may limit students’ creativity and make learning less flexible.",
         "prompt": "Write an essay to an educated reader to discuss the advantages and disadvantages of using textbooks in education. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "paraphrases": [
+          {
+            "en": "using coursebooks in schooling",
+            "vi": "việc sử dụng sách giáo trình trong trường học"
+          },
+          {
+            "en": "relying on printed learning materials",
+            "vi": "dựa vào tài liệu học tập in ấn"
+          },
+          {
+            "en": "traditional educational textbooks",
+            "vi": "sách giáo khoa giáo dục truyền thống"
+          }
+        ],
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "ADVANTAGE 01",
+                "collocations": [
+                  {
+                    "en": "organized lessons",
+                    "vi": "bài học có hệ thống"
+                  },
+                  {
+                    "en": "clear order",
+                    "vi": "trình tự rõ ràng"
+                  },
+                  {
+                    "en": "follow the content",
+                    "vi": "theo dõi nội dung"
+                  },
+                  {
+                    "en": "systematic learning",
+                    "vi": "học tập có hệ thống"
+                  },
+                  {
+                    "en": "study more easily",
+                    "vi": "học tập dễ dàng hơn"
+                  }
+                ],
+                "point_vi": "Sách giáo khoa cung cấp các bài học được sắp xếp có hệ thống.",
+                "point_en": "Textbooks provide organized lessons.",
+                "evidence_vi": "Các bài học được trình bày theo một trình tự rõ ràng, giúp học sinh dễ theo dõi nội dung.",
+                "evidence_en": "The lessons are presented in a clear order, so students can follow the content more easily."
+              },
+              {
+                "title": "ADVANTAGE 02",
+                "collocations": [
+                  {
+                    "en": "useful exercises",
+                    "vi": "bài tập hữu ích"
+                  },
+                  {
+                    "en": "practise and review",
+                    "vi": "thực hành và ôn tập"
+                  },
+                  {
+                    "en": "reinforce knowledge",
+                    "vi": "củng cố kiến thức"
+                  },
+                  {
+                    "en": "apply knowledge",
+                    "vi": "áp dụng kiến thức"
+                  },
+                  {
+                    "en": "remember lessons",
+                    "vi": "nhớ bài học"
+                  }
+                ],
+                "point_vi": "Sách giáo khoa cung cấp các bài tập hữu ích cho học sinh.",
+                "point_en": "Textbooks provide useful exercises for students.",
+                "evidence_vi": "Những bài tập này giúp học sinh thực hành và củng cố những gì đã học.",
+                "evidence_en": "These exercises help students practise and review what they have learned."
+              },
+              {
+                "title": "ADVANTAGE 03",
+                "collocations": [
+                  {
+                    "en": "important knowledge",
+                    "vi": "kiến thức quan trọng"
+                  },
+                  {
+                    "en": "learning resource",
+                    "vi": "nguồn tài liệu học tập"
+                  },
+                  {
+                    "en": "different subjects",
+                    "vi": "các môn học khác nhau"
+                  },
+                  {
+                    "en": "study and review",
+                    "vi": "học bài và ôn tập"
+                  },
+                  {
+                    "en": "reliable material",
+                    "vi": "tài liệu đáng tin cậy"
+                  }
+                ],
+                "point_vi": "Sách giáo khoa cung cấp kiến thức quan trọng cho các môn học khác nhau.",
+                "point_en": "Textbooks provide important knowledge for different subjects.",
+                "evidence_vi": "Học sinh có thể sử dụng sách giáo khoa như một nguồn tài liệu để học và ôn tập.",
+                "evidence_en": "Students can use textbooks as a learning resource for studying and reviewing lessons."
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "DISADVANTAGE 01",
+                "collocations": [
+                  {
+                    "en": "rely on textbooks",
+                    "vi": "phụ thuộc vào sách giáo khoa"
+                  },
+                  {
+                    "en": "limit creativity",
+                    "vi": "hạn chế sự sáng tạo"
+                  },
+                  {
+                    "en": "fixed content",
+                    "vi": "nội dung cố định / có sẵn"
+                  },
+                  {
+                    "en": "develop own ideas",
+                    "vi": "phát triển ý tưởng riêng"
+                  },
+                  {
+                    "en": "lack of original thinking",
+                    "vi": "thiếu tư duy độc lập"
+                  }
+                ],
+                "point_vi": "Việc phụ thuộc quá nhiều vào sách giáo khoa có thể hạn chế sự sáng tạo của học sinh.",
+                "point_en": "Relying too much on textbooks may limit students' creativity.",
+                "evidence_vi": "Học sinh thường phải học theo nội dung có sẵn thay vì tự phát triển những ý tưởng của mình.",
+                "evidence_en": "Students often follow the fixed content instead of developing their own ideas."
+              },
+              {
+                "title": "DISADVANTAGE 02",
+                "collocations": [
+                  {
+                    "en": "less flexible",
+                    "vi": "kém linh hoạt hơn"
+                  },
+                  {
+                    "en": "match students' needs",
+                    "vi": "phù hợp với nhu cầu học sinh"
+                  },
+                  {
+                    "en": "adapt teaching content",
+                    "vi": "điều chỉnh nội dung dạy học"
+                  },
+                  {
+                    "en": "rigid learning method",
+                    "vi": "phương pháp học tập cứng nhắc"
+                  },
+                  {
+                    "en": "different learning paces",
+                    "vi": "các tốc độ học khác nhau"
+                  }
+                ],
+                "point_vi": "Việc chỉ sử dụng sách giáo khoa có thể khiến việc học kém linh hoạt hơn.",
+                "point_en": "Using only textbooks may make learning less flexible.",
+                "evidence_vi": "Giáo viên có thể khó thay đổi nội dung để phù hợp với nhu cầu khác nhau của học sinh.",
+                "evidence_en": "Teachers may find it difficult to change the content to match different students' needs."
+              },
+              {
+                "title": "DISADVANTAGE 03",
+                "collocations": [
+                  {
+                    "en": "too dependent on",
+                    "vi": "quá phụ thuộc vào"
+                  },
+                  {
+                    "en": "search for information",
+                    "vi": "tìm kiếm thông tin"
+                  },
+                  {
+                    "en": "other learning resources",
+                    "vi": "các nguồn học tập khác"
+                  },
+                  {
+                    "en": "passive learning habit",
+                    "vi": "thói quen học tập thụ động"
+                  },
+                  {
+                    "en": "expand knowledge",
+                    "vi": "mở rộng kiến thức"
+                  }
+                ],
+                "point_vi": "Học sinh có thể trở nên quá phụ thuộc vào sách giáo khoa.",
+                "point_en": "Students may become too dependent on textbooks.",
+                "evidence_vi": "Các em có thể chỉ dựa vào thông tin trong sách thay vì tìm kiếm các nguồn học tập khác.",
+                "evidence_en": "They may rely only on the information in textbooks instead of looking for other learning resources."
+              }
+            ]
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "ADVANTAGE 01",
+                "collocations": [
+                  {
+                    "en": "systematic lessons",
+                    "vi": "bài học có tính hệ thống"
+                  },
+                  {
+                    "en": "learning process",
+                    "vi": "quá trình học tập"
+                  },
+                  {
+                    "en": "structured curriculum",
+                    "vi": "khung chương trình có cấu trúc"
+                  },
+                  {
+                    "en": "track learning progress",
+                    "vi": "theo dõi tiến độ học tập"
+                  },
+                  {
+                    "en": "sequential presentation",
+                    "vi": "sự trình bày tuần tự"
+                  }
+                ],
+                "point_vi": "Sách giáo khoa cung cấp các bài học được tổ chức và sắp xếp có hệ thống.",
+                "point_en": "Textbooks provide organized and systematic lessons.",
+                "evidence_vi": "Nội dung được trình bày theo một trình tự rõ ràng, giúp học sinh dễ theo dõi quá trình học. Điều này giúp giáo viên và học sinh biết những kiến thức cần học trong từng giai đoạn.",
+                "evidence_en": "The content is presented in a clear order, helping students follow the learning process more easily. This helps teachers and students know what knowledge needs to be learned at each stage."
+              },
+              {
+                "title": "ADVANTAGE 02",
+                "collocations": [
+                  {
+                    "en": "reinforce understanding",
+                    "vi": "củng cố sự hiểu biết"
+                  },
+                  {
+                    "en": "apply theoretical concepts",
+                    "vi": "áp dụng các khái niệm lý thuyết"
+                  },
+                  {
+                    "en": "regular practice",
+                    "vi": "việc luyện tập thường xuyên"
+                  },
+                  {
+                    "en": "long-term retention",
+                    "vi": "ghi nhớ lâu dài"
+                  },
+                  {
+                    "en": "practical exercises",
+                    "vi": "bài tập thực hành"
+                  }
+                ],
+                "point_vi": "Sách giáo khoa cung cấp nhiều bài tập hữu ích để học sinh thực hành và củng cố kiến thức.",
+                "point_en": "Textbooks provide useful exercises for students to practise and reinforce their knowledge.",
+                "evidence_vi": "Học sinh có thể áp dụng những kiến thức đã học thông qua các bài tập. Việc luyện tập thường xuyên giúp các em nhớ kiến thức tốt hơn.",
+                "evidence_en": "Students can apply what they have learned through these exercises. Regular practice helps them remember the knowledge more effectively."
+              },
+              {
+                "title": "ADVANTAGE 03",
+                "collocations": [
+                  {
+                    "en": "academic resource",
+                    "vi": "nguồn tài liệu học thuật"
+                  },
+                  {
+                    "en": "retrieve information",
+                    "vi": "truy xuất thông tin"
+                  },
+                  {
+                    "en": "core knowledge base",
+                    "vi": "nền tảng kiến thức cốt lõi"
+                  },
+                  {
+                    "en": "self-study reference",
+                    "vi": "tài liệu tham khảo tự học"
+                  },
+                  {
+                    "en": "subject matter mastery",
+                    "vi": "sự nắm vững môn học"
+                  }
+                ],
+                "point_vi": "Sách giáo khoa cung cấp kiến thức quan trọng và nguồn tài liệu học tập cho các môn học khác nhau.",
+                "point_en": "Textbooks provide important knowledge and learning resources for different subjects.",
+                "evidence_vi": "Học sinh có thể sử dụng sách để học bài và ôn tập kiến thức. Điều này giúp các em dễ dàng tìm lại những nội dung đã học khi cần.",
+                "evidence_en": "Students can use textbooks to study and review their lessons. This allows them to find previously learned content more easily when necessary."
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "DISADVANTAGE 01",
+                "collocations": [
+                  {
+                    "en": "stifle creativity",
+                    "vi": "kìm hãm sự sáng tạo"
+                  },
+                  {
+                    "en": "predetermined approaches",
+                    "vi": "các cách tiếp cận định sẵn"
+                  },
+                  {
+                    "en": "independent thinking",
+                    "vi": "tư duy độc lập"
+                  },
+                  {
+                    "en": "innovative ideas",
+                    "vi": "các ý tưởng đổi mới"
+                  },
+                  {
+                    "en": "conformity in learning",
+                    "vi": "sự rập khuôn trong học tập"
+                  }
+                ],
+                "point_vi": "Việc phụ thuộc quá nhiều vào sách giáo khoa có thể hạn chế sự sáng tạo của học sinh.",
+                "point_en": "Relying too much on textbooks may limit students' creativity.",
+                "evidence_vi": "Học sinh thường phải học theo nội dung và cách tiếp cận có sẵn trong sách. Điều này có thể làm giảm cơ hội để các em phát triển những ý tưởng riêng.",
+                "evidence_en": "Students often have to follow the fixed content and approaches in textbooks. This may reduce their opportunities to develop their own ideas."
+              },
+              {
+                "title": "DISADVANTAGE 02",
+                "collocations": [
+                  {
+                    "en": "inflexible learning process",
+                    "vi": "quá trình học tập thiếu linh hoạt"
+                  },
+                  {
+                    "en": "cater to diverse needs",
+                    "vi": "phục vụ các nhu cầu đa dạng"
+                  },
+                  {
+                    "en": "differentiated instruction",
+                    "vi": "giảng dạy phân hóa"
+                  },
+                  {
+                    "en": "standardized curriculum",
+                    "vi": "chương trình chuẩn hóa"
+                  },
+                  {
+                    "en": "individual learning pace",
+                    "vi": "nhịp độ học tập cá nhân"
+                  }
+                ],
+                "point_vi": "Việc chỉ dựa vào sách giáo khoa có thể khiến quá trình học tập kém linh hoạt hơn.",
+                "point_en": "Relying only on textbooks may make the learning process less flexible.",
+                "evidence_vi": "Các sách thường có nội dung cố định và không phải lúc nào cũng phù hợp với mọi nhóm học sinh. Giáo viên có thể gặp khó khăn khi điều chỉnh nội dung theo trình độ và nhu cầu khác nhau của học sinh.",
+                "evidence_en": "Textbooks often have fixed content that does not always suit every group of students. Teachers may find it difficult to adapt the content to students' different levels and needs."
+              },
+              {
+                "title": "DISADVANTAGE 03",
+                "collocations": [
+                  {
+                    "en": "overreliance on textbooks",
+                    "vi": "sự phụ thuộc quá mức vào SGK"
+                  },
+                  {
+                    "en": "autonomous research skills",
+                    "vi": "kỹ năng tự nghiên cứu"
+                  },
+                  {
+                    "en": "diverse knowledge sources",
+                    "vi": "các nguồn kiến thức đa dạng"
+                  },
+                  {
+                    "en": "critical evaluation",
+                    "vi": "đánh giá phản biện"
+                  },
+                  {
+                    "en": "passive information reception",
+                    "vi": "tiếp nhận thông tin thụ động"
+                  }
+                ],
+                "point_vi": "Học sinh có thể trở nên quá phụ thuộc vào sách giáo khoa trong quá trình học tập.",
+                "point_en": "Students may become too dependent on textbooks during the learning process.",
+                "evidence_vi": "Các em có thể chỉ dựa vào thông tin trong sách thay vì tìm kiếm các nguồn tài liệu khác. Điều này có thể hạn chế khả năng tiếp cận những kiến thức và cách học khác nhau.",
+                "evidence_en": "They may rely only on information in textbooks instead of looking for other learning resources. This may limit their access to different types of knowledge and learning approaches."
+              }
+            ]
+          },
+          "vocab": [
+            {
+              "en": "organized lessons",
+              "vi": "bài học có hệ thống"
+            },
+            {
+              "en": "clear order",
+              "vi": "trình tự rõ ràng"
+            },
+            {
+              "en": "follow the content",
+              "vi": "theo dõi nội dung"
+            },
+            {
+              "en": "systematic learning",
+              "vi": "học tập có hệ thống"
+            },
+            {
+              "en": "study more easily",
+              "vi": "học tập dễ dàng hơn"
+            },
+            {
+              "en": "useful exercises",
+              "vi": "bài tập hữu ích"
+            },
+            {
+              "en": "practise and review",
+              "vi": "thực hành và ôn tập"
+            },
+            {
+              "en": "reinforce knowledge",
+              "vi": "củng cố kiến thức"
+            },
+            {
+              "en": "apply knowledge",
+              "vi": "áp dụng kiến thức"
+            },
+            {
+              "en": "remember lessons",
+              "vi": "nhớ bài học"
+            },
+            {
+              "en": "important knowledge",
+              "vi": "kiến thức quan trọng"
+            },
+            {
+              "en": "learning resource",
+              "vi": "nguồn tài liệu học tập"
+            },
+            {
+              "en": "different subjects",
+              "vi": "các môn học khác nhau"
+            },
+            {
+              "en": "study and review",
+              "vi": "học bài và ôn tập"
+            },
+            {
+              "en": "reliable material",
+              "vi": "tài liệu đáng tin cậy"
+            },
+            {
+              "en": "rely on textbooks",
+              "vi": "phụ thuộc vào sách giáo khoa"
+            },
+            {
+              "en": "limit creativity",
+              "vi": "hạn chế sự sáng tạo"
+            },
+            {
+              "en": "fixed content",
+              "vi": "nội dung cố định / có sẵn"
+            },
+            {
+              "en": "develop own ideas",
+              "vi": "phát triển ý tưởng riêng"
+            },
+            {
+              "en": "lack of original thinking",
+              "vi": "thiếu tư duy độc lập"
+            },
+            {
+              "en": "less flexible",
+              "vi": "kém linh hoạt hơn"
+            },
+            {
+              "en": "match students' needs",
+              "vi": "phù hợp với nhu cầu học sinh"
+            },
+            {
+              "en": "adapt teaching content",
+              "vi": "điều chỉnh nội dung dạy học"
+            },
+            {
+              "en": "rigid learning method",
+              "vi": "phương pháp học tập cứng nhắc"
+            },
+            {
+              "en": "different learning paces",
+              "vi": "các tốc độ học khác nhau"
+            },
+            {
+              "en": "too dependent on",
+              "vi": "quá phụ thuộc vào"
+            },
+            {
+              "en": "search for information",
+              "vi": "tìm kiếm thông tin"
+            },
+            {
+              "en": "other learning resources",
+              "vi": "các nguồn học tập khác"
+            },
+            {
+              "en": "passive learning habit",
+              "vi": "thói quen học tập thụ động"
+            },
+            {
+              "en": "expand knowledge",
+              "vi": "mở rộng kiến thức"
+            },
+            {
+              "en": "systematic lessons",
+              "vi": "bài học có tính hệ thống"
+            },
+            {
+              "en": "learning process",
+              "vi": "quá trình học tập"
+            },
+            {
+              "en": "structured curriculum",
+              "vi": "khung chương trình có cấu trúc"
+            },
+            {
+              "en": "track learning progress",
+              "vi": "theo dõi tiến độ học tập"
+            },
+            {
+              "en": "sequential presentation",
+              "vi": "sự trình bày tuần tự"
+            },
+            {
+              "en": "reinforce understanding",
+              "vi": "củng cố sự hiểu biết"
+            },
+            {
+              "en": "apply theoretical concepts",
+              "vi": "áp dụng các khái niệm lý thuyết"
+            },
+            {
+              "en": "regular practice",
+              "vi": "việc luyện tập thường xuyên"
+            },
+            {
+              "en": "long-term retention",
+              "vi": "ghi nhớ lâu dài"
+            },
+            {
+              "en": "practical exercises",
+              "vi": "bài tập thực hành"
+            },
+            {
+              "en": "academic resource",
+              "vi": "nguồn tài liệu học thuật"
+            },
+            {
+              "en": "retrieve information",
+              "vi": "truy xuất thông tin"
+            },
+            {
+              "en": "core knowledge base",
+              "vi": "nền tảng kiến thức cốt lõi"
+            },
+            {
+              "en": "self-study reference",
+              "vi": "tài liệu tham khảo tự học"
+            },
+            {
+              "en": "subject matter mastery",
+              "vi": "sự nắm vững môn học"
+            },
+            {
+              "en": "stifle creativity",
+              "vi": "kìm hãm sự sáng tạo"
+            },
+            {
+              "en": "predetermined approaches",
+              "vi": "các cách tiếp cận định sẵn"
+            },
+            {
+              "en": "independent thinking",
+              "vi": "tư duy độc lập"
+            },
+            {
+              "en": "innovative ideas",
+              "vi": "các ý tưởng đổi mới"
+            },
+            {
+              "en": "conformity in learning",
+              "vi": "sự rập khuôn trong học tập"
+            },
+            {
+              "en": "inflexible learning process",
+              "vi": "quá trình học tập thiếu linh hoạt"
+            },
+            {
+              "en": "cater to diverse needs",
+              "vi": "phục vụ các nhu cầu đa dạng"
+            },
+            {
+              "en": "differentiated instruction",
+              "vi": "giảng dạy phân hóa"
+            },
+            {
+              "en": "standardized curriculum",
+              "vi": "chương trình chuẩn hóa"
+            },
+            {
+              "en": "individual learning pace",
+              "vi": "nhịp độ học tập cá nhân"
+            },
+            {
+              "en": "overreliance on textbooks",
+              "vi": "sự phụ thuộc quá mức vào SGK"
+            },
+            {
+              "en": "autonomous research skills",
+              "vi": "kỹ năng tự nghiên cứu"
+            },
+            {
+              "en": "diverse knowledge sources",
+              "vi": "các nguồn kiến thức đa dạng"
+            },
+            {
+              "en": "critical evaluation",
+              "vi": "đánh giá phản biện"
+            },
+            {
+              "en": "passive information reception",
+              "vi": "tiếp nhận thông tin thụ động"
+            }
+          ],
+          "sample_b1": "In recent years, <strong>using textbooks in education</strong> has become more common in modern society. Although it has some benefits, there are also some drawbacks. <strong>This essay will discuss both sides of this topic.</strong>\n\n<strong>On the one hand, this topic has several advantages.</strong> One major benefit is that <strong><em>textbooks provide organized lessons.</em></strong> The lessons are presented in a clear order, so students can follow the content more easily. Another positive aspect is that <strong><em>textbooks provide useful exercises.</em></strong> These exercises help students practise and review what they have learned. A further good point is that <strong><em>textbooks provide important knowledge.</em></strong> Students can use textbooks as a learning resource for studying and reviewing lessons.\n\n<strong>On the other hand, there are also several disadvantages.</strong> One possible drawback is that <strong><em>relying too much on textbooks may limit students' creativity.</em></strong> Students often follow the fixed content instead of developing their own ideas. Another negative aspect is that <strong><em>using only textbooks may make learning less flexible.</em></strong> Teachers may find it difficult to change the content to match different students' needs. A further problem is that <strong><em>students may become too dependent on textbooks.</em></strong> They may rely only on the information in textbooks instead of looking for other learning resources.\n\nIn conclusion, <strong>using textbooks in education</strong> has both advantages and disadvantages. These points show that it has different effects on people's lives. Therefore, it is important to consider both sides before making a decision.",
+          "translation_b1": "Trong những năm gần đây, <strong>việc sử dụng sách giáo khoa trong giáo dục</strong> đã trở nên phổ biến hơn trong xã hội hiện đại. Mặc dù nó có một số lợi ích, cũng có một số hạn chế. <strong>Bài tiểu luận này sẽ thảo luận về cả hai khía cạnh của chủ đề này.</strong>\n\n<strong>Một mặt, chủ đề này có một số lợi thế.</strong> Một lợi ích lớn là <strong><em>sách giáo khoa cung cấp các bài học được sắp xếp có hệ thống.</em></strong> Các bài học được trình bày theo một trình tự rõ ràng, giúp học sinh dễ theo dõi nội dung. Một khía cạnh tích cực khác là <strong><em>sách giáo khoa cung cấp các bài tập hữu ích cho học sinh.</em></strong> Những bài tập này giúp học sinh thực hành và củng cố những gì đã học. Một điểm tốt nữa là <strong><em>sách giáo khoa cung cấp kiến thức quan trọng cho các môn học khác nhau.</em></strong> Học sinh có thể sử dụng sách giáo khoa như một nguồn tài liệu để học và ôn tập.\n\n<strong>Mặt khác, cũng có một số bất lợi.</strong> Một bất lợi có thể có là <strong><em>việc phụ thuộc quá nhiều vào sách giáo khoa có thể hạn chế sự sáng tạo của học sinh.</em></strong> Học sinh thường phải học theo nội dung có sẵn thay vì tự phát triển những ý tưởng của mình. Một khía cạnh tiêu cực khác là <strong><em>việc chỉ sử dụng sách giáo khoa có thể khiến việc học kém linh hoạt hơn.</em></strong> Giáo viên có thể khó thay đổi nội dung để phù hợp với nhu cầu khác nhau của học sinh. Một vấn đề nữa là <strong><em>học sinh có thể trở nên quá phụ thuộc vào sách giáo khoa.</em></strong> Các em có thể chỉ dựa vào thông tin trong sách thay vì tìm kiếm các nguồn học tập khác.\n\nTóm lại, <strong>việc sử dụng sách giáo khoa trong giáo dục</strong> có cả lợi thế và bất lợi. Những điểm này cho thấy nó có những tác động khác nhau đến cuộc sống của mọi người. Vì vậy, điều quan trọng là phải xem xét cả hai khía cạnh trước khi đưa ra quyết định."
+        }
       },
       {
         "id": 15,
