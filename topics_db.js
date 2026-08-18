@@ -30092,13 +30092,337 @@ const ESSAY_DATA = [
         "title_en": "Sharing personal life on social media affects others.",
         "title_vi": "Chia sẻ cuộc sống cá nhân trên mạng xã hội ảnh hưởng đến người khác.",
         "paraphrases": [
-          "Posting personal life on social media impacts other people.",
-          "Sharing private life on social media has an impact/effect/influence on others.",
-          "Sharing personal aspects of one’s life online influences others."
+          {
+            "en": "sharing personal life on social media affects others",
+            "vi": "việc chia sẻ đời sống cá nhân trên mạng xã hội ảnh hưởng đến người khác"
+          },
+          {
+            "en": "broadcasting private experiences online influences other people",
+            "vi": "phát tán trải nghiệm riêng tư lên mạng làm ảnh hưởng đến người khác"
+          },
+          {
+            "en": "sharing personal updates on digital platforms impacts friends and followers",
+            "vi": "chia sẻ cập nhật cá nhân trên nền tảng số tác động đến bạn bè"
+          },
+          {
+            "en": "posting personal content on social networks shapes social circles",
+            "vi": "đăng tải nội dung cá nhân trên mạng xã hội định hình các vòng tròn xã hội"
+          }
         ],
         "context": "Social media has become an important part of everyday life, allowing people to share photos, opinions, experiences, and personal updates with a wide audience. While sharing personal information can help individuals stay connected and express themselves, some people believe that it may also influence the thoughts, feelings, behaviour, and privacy of others.",
         "prompt": "Do you agree or disagree that sharing personal life on social media affects other people? Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "tags": "[Opinion / Agree]",
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "LÝ DO 01",
+                "collocations": [
+                  {
+                    "en": "affect feelings",
+                    "vi": "ảnh hưởng đến cảm xúc"
+                  },
+                  {
+                    "en": "share photos and moments",
+                    "vi": "chia sẻ ảnh và khoảnh khắc"
+                  },
+                  {
+                    "en": "feel happy or inspired",
+                    "vi": "cảm thấy vui hoặc được truyền cảm hứng"
+                  },
+                  {
+                    "en": "compare with others",
+                    "vi": "so sánh với người khác"
+                  },
+                  {
+                    "en": "feel less confident",
+                    "vi": "cảm thấy kém tự tin"
+                  }
+                ],
+                "point_vi": "Những gì mọi người chia sẻ trên mạng xã hội có thể ảnh hưởng đến cảm xúc của người khác.",
+                "point_en": "What people share on social media can affect other people's feelings.",
+                "evidence_vi": "Mọi người thường nhìn thấy hình ảnh và những khoảnh khắc trong cuộc sống của người khác. Những bài đăng về thành công, du lịch hoặc cuộc sống vui vẻ có thể khiến người xem cảm thấy vui. Tuy nhiên, một số người có thể cảm thấy buồn hoặc tự ti khi so sánh bản thân với người khác. Vì vậy, nội dung cá nhân có thể tạo ra những cảm xúc khác nhau ở người xem.",
+                "evidence_en": "People often see photos and moments from other people's lives. Posts about success, travel, or happy moments can make viewers feel happy. However, some people may feel sad or less confident when comparing themselves with others. Therefore, personal content can create different feelings in viewers."
+              },
+              {
+                "title": "LÝ DO 02",
+                "collocations": [
+                  {
+                    "en": "influence behaviour",
+                    "vi": "ảnh hưởng đến hành vi"
+                  },
+                  {
+                    "en": "copy habits",
+                    "vi": "bắt chước các thói quen"
+                  },
+                  {
+                    "en": "start working out",
+                    "vi": "bắt đầu tập luyện thể thao"
+                  },
+                  {
+                    "en": "affect choices",
+                    "vi": "ảnh hưởng đến các lựa chọn"
+                  },
+                  {
+                    "en": "social media activities",
+                    "vi": "các hoạt động trên mạng xã hội"
+                  }
+                ],
+                "point_vi": "Nội dung cá nhân trên mạng xã hội cũng có thể ảnh hưởng đến cách người khác hành động.",
+                "point_en": "Personal content on social media can also influence how other people behave.",
+                "evidence_vi": "Người dùng thường xem những gì người khác làm và chia sẻ. Họ có thể bắt chước những thói quen hoặc hoạt động mà họ nhìn thấy. Ví dụ, một người đăng bài về tập thể dục có thể khiến bạn bè muốn bắt đầu tập luyện. Do đó, việc chia sẻ cuộc sống cá nhân có thể tác động đến lựa chọn của người khác.",
+                "evidence_en": "Users often watch what other people do and share. They may copy habits or activities that they see. For example, a person who posts about exercise may encourage friends to start working out. Therefore, sharing personal life can affect other people's choices."
+              },
+              {
+                "title": "LÝ DO 03",
+                "collocations": [
+                  {
+                    "en": "affect privacy",
+                    "vi": "ảnh hưởng đến quyền riêng tư"
+                  },
+                  {
+                    "en": "share personal information",
+                    "vi": "chia sẻ thông tin cá nhân"
+                  },
+                  {
+                    "en": "friends and family members",
+                    "vi": "bạn bè và người thân"
+                  },
+                  {
+                    "en": "share publicly",
+                    "vi": "chia sẻ công khai"
+                  },
+                  {
+                    "en": "feel uncomfortable",
+                    "vi": "cảm thấy không thoải mái"
+                  }
+                ],
+                "point_vi": "Việc chia sẻ quá nhiều thông tin cá nhân có thể ảnh hưởng đến quyền riêng tư của những người khác.",
+                "point_en": "Sharing too much personal information can affect other people's privacy.",
+                "evidence_vi": "Một bài đăng có thể chứa hình ảnh hoặc thông tin về bạn bè và thành viên gia đình. Những người này có thể không muốn thông tin của mình được chia sẻ công khai. Điều này có thể khiến họ cảm thấy không thoải mái. Vì vậy, mọi người nên cẩn thận khi đăng nội dung có liên quan đến người khác.",
+                "evidence_en": "A post may contain photos or information about friends and family members. These people may not want their information to be shared publicly. This can make them feel uncomfortable. Therefore, people should be careful when posting content related to others."
+              }
+            ],
+            "drawbacks": []
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "LÝ DO 01",
+                "collocations": [
+                  {
+                    "en": "emotional well-being",
+                    "vi": "sức khỏe cảm xúc"
+                  },
+                  {
+                    "en": "self-image and self-esteem",
+                    "vi": "hình ảnh bản thân và lòng tự trọng"
+                  },
+                  {
+                    "en": "upward social comparison",
+                    "vi": "so sánh xã hội hướng lên"
+                  },
+                  {
+                    "en": "feelings of inadequacy",
+                    "vi": "cảm giác thua kém"
+                  },
+                  {
+                    "en": "psychological vulnerability",
+                    "vi": "sự tổn thương tâm lý"
+                  }
+                ],
+                "point_vi": "Những hình ảnh về cuộc sống cá nhân có thể tác động đáng kể đến cảm xúc và cách mọi người nhìn nhận bản thân.",
+                "point_en": "Personal posts can significantly influence people's emotions and self-image.",
+                "evidence_vi": "Người dùng thường nhìn thấy những khoảnh khắc thành công, hạnh phúc hoặc hấp dẫn của người khác. Những hình ảnh này có thể khiến người xem cảm thấy vui hoặc được truyền cảm hứng. Tuy nhiên, một số người có thể so sánh cuộc sống của mình với những hình ảnh được chia sẻ trên mạng. Nếu họ cho rằng cuộc sống của mình kém thú vị hơn, họ có thể cảm thấy tự ti hoặc không hài lòng. Do đó, việc chia sẻ đời sống cá nhân có thể ảnh hưởng tích cực hoặc tiêu cực đến tâm lý của người xem.",
+                "evidence_en": "Users often see successful, happy, or attractive moments from other people's lives. These images can make viewers feel happy or inspired. However, some people may compare their own lives with what is shared online. If they think their lives are less interesting, they may feel insecure or dissatisfied. Therefore, sharing personal life can have either positive or negative effects on viewers' emotions."
+              },
+              {
+                "title": "LÝ DO 02",
+                "collocations": [
+                  {
+                    "en": "behavioral contagion",
+                    "vi": "sự lan truyền hành vi"
+                  },
+                  {
+                    "en": "lifestyle modification",
+                    "vi": "sự điều chỉnh lối sống"
+                  },
+                  {
+                    "en": "mimetic social trends",
+                    "vi": "xu hướng bắt chước xã hội"
+                  },
+                  {
+                    "en": "health-conscious habits",
+                    "vi": "thói quen quan tâm sức khỏe"
+                  },
+                  {
+                    "en": "normative influence",
+                    "vi": "ảnh hưởng chuẩn mực xã hội"
+                  }
+                ],
+                "point_vi": "Những trải nghiệm và hoạt động được chia sẻ trên mạng xã hội có thể định hướng suy nghĩ và hành vi của người khác.",
+                "point_en": "Shared experiences and activities on social media can shape other people's attitudes and behaviour.",
+                "evidence_vi": "Người dùng thường tò mò về cách những người khác sống, mua sắm hoặc giải trí. Họ có thể bắt chước những hành vi mà họ cho là thú vị hoặc có lợi. Ví dụ, một bài đăng về việc tập thể dục hoặc ăn uống lành mạnh có thể khuyến khích người khác thay đổi thói quen. Ngược lại, những nội dung tiêu cực hoặc thiếu lành mạnh cũng có thể tạo ra ảnh hưởng không tốt. Vì vậy, nội dung cá nhân trên mạng xã hội có khả năng tác động đến cả lựa chọn và hành vi của người xem.",
+                "evidence_en": "Users are often curious about how other people live, shop, or spend their free time. They may copy behaviours that they consider interesting or beneficial. For example, a post about exercise or healthy eating may encourage others to change their habits. In contrast, negative or unhealthy content can also have harmful effects. Therefore, personal content on social media can influence both viewers' choices and behaviour."
+              },
+              {
+                "title": "LÝ DO 03",
+                "collocations": [
+                  {
+                    "en": "privacy breach",
+                    "vi": "vi phạm quyền riêng tư"
+                  },
+                  {
+                    "en": "unauthorized photo dissemination",
+                    "vi": "phát tán hình ảnh không xin phép"
+                  },
+                  {
+                    "en": "loss of information control",
+                    "vi": "mất kiểm soát thông tin"
+                  },
+                  {
+                    "en": "digital footprint",
+                    "vi": "dấu chân kỹ thuật số"
+                  },
+                  {
+                    "en": "ethical social media etiquette",
+                    "vi": "văn hóa ứng xử mạng xã hội chuẩn mực"
+                  }
+                ],
+                "point_vi": "Việc đăng tải thông tin cá nhân cũng có thể tạo ra những vấn đề liên quan đến quyền riêng tư của người khác.",
+                "point_en": "Posting personal information can also create privacy concerns for other people.",
+                "evidence_vi": "Các bài đăng có thể vô tình tiết lộ hình ảnh, vị trí hoặc thông tin của bạn bè và người thân. Những người này có thể không đồng ý với việc thông tin của họ được chia sẻ rộng rãi. Khi thông tin đã được đăng tải, rất khó kiểm soát ai có thể xem hoặc sử dụng nó. Ví dụ, một người có thể đăng ảnh của bạn bè mà không hỏi ý kiến trước. Vì vậy, người dùng nên cân nhắc quyền riêng tư của người khác trước khi chia sẻ nội dung liên quan đến họ.",
+                "evidence_en": "Posts may unintentionally reveal photos, locations, or information about friends and relatives. These people may not agree to have their information widely shared. Once information is posted, it can be difficult to control who can see or use it. For example, someone may post a photo of a friend without asking for permission first. Therefore, users should consider other people's privacy before sharing content related to them."
+              }
+            ],
+            "drawbacks": []
+          },
+          "vocab": [
+            {
+              "en": "affect feelings",
+              "vi": "ảnh hưởng đến cảm xúc"
+            },
+            {
+              "en": "share photos and moments",
+              "vi": "chia sẻ ảnh và khoảnh khắc"
+            },
+            {
+              "en": "feel happy or inspired",
+              "vi": "cảm thấy vui hoặc được truyền cảm hứng"
+            },
+            {
+              "en": "compare with others",
+              "vi": "so sánh với người khác"
+            },
+            {
+              "en": "feel less confident",
+              "vi": "cảm thấy kém tự tin"
+            },
+            {
+              "en": "influence behaviour",
+              "vi": "ảnh hưởng đến hành vi"
+            },
+            {
+              "en": "copy habits",
+              "vi": "bắt chước các thói quen"
+            },
+            {
+              "en": "start working out",
+              "vi": "bắt đầu tập luyện thể thao"
+            },
+            {
+              "en": "affect choices",
+              "vi": "ảnh hưởng đến các lựa chọn"
+            },
+            {
+              "en": "social media activities",
+              "vi": "các hoạt động trên mạng xã hội"
+            },
+            {
+              "en": "affect privacy",
+              "vi": "ảnh hưởng đến quyền riêng tư"
+            },
+            {
+              "en": "share personal information",
+              "vi": "chia sẻ thông tin cá nhân"
+            },
+            {
+              "en": "friends and family members",
+              "vi": "bạn bè và người thân"
+            },
+            {
+              "en": "share publicly",
+              "vi": "chia sẻ công khai"
+            },
+            {
+              "en": "feel uncomfortable",
+              "vi": "cảm thấy không thoải mái"
+            },
+            {
+              "en": "emotional well-being",
+              "vi": "sức khỏe cảm xúc"
+            },
+            {
+              "en": "self-image and self-esteem",
+              "vi": "hình ảnh bản thân và lòng tự trọng"
+            },
+            {
+              "en": "upward social comparison",
+              "vi": "so sánh xã hội hướng lên"
+            },
+            {
+              "en": "feelings of inadequacy",
+              "vi": "cảm giác thua kém"
+            },
+            {
+              "en": "psychological vulnerability",
+              "vi": "sự tổn thương tâm lý"
+            },
+            {
+              "en": "behavioral contagion",
+              "vi": "sự lan truyền hành vi"
+            },
+            {
+              "en": "lifestyle modification",
+              "vi": "sự điều chỉnh lối sống"
+            },
+            {
+              "en": "mimetic social trends",
+              "vi": "xu hướng bắt chước xã hội"
+            },
+            {
+              "en": "health-conscious habits",
+              "vi": "thói quen quan tâm sức khỏe"
+            },
+            {
+              "en": "normative influence",
+              "vi": "ảnh hưởng chuẩn mực xã hội"
+            },
+            {
+              "en": "privacy breach",
+              "vi": "vi phạm quyền riêng tư"
+            },
+            {
+              "en": "unauthorized photo dissemination",
+              "vi": "phát tán hình ảnh không xin phép"
+            },
+            {
+              "en": "loss of information control",
+              "vi": "mất kiểm soát thông tin"
+            },
+            {
+              "en": "digital footprint",
+              "vi": "dấu chân kỹ thuật số"
+            },
+            {
+              "en": "ethical social media etiquette",
+              "vi": "văn hóa ứng xử mạng xã hội chuẩn mực"
+            }
+          ],
+          "sample_b1": "In recent years, the idea that <strong><em>sharing personal life on social media affects other people</em></strong> has become a common topic of discussion. From my perspective, <strong>I completely agree with this opinion for several important reasons.</strong> This essay will present the main arguments supporting my viewpoint.\n\nThe first reason why I agree with this opinion is that <strong><em>what people share on social media can affect other people's feelings.</em></strong> People often see photos and moments from other people's lives. Posts about success, travel, or happy moments can make viewers feel happy. However, some people may feel sad or less confident when comparing themselves with others. Therefore, personal content can create different feelings in viewers.\n\nAnother important reason is that <strong><em>personal content on social media can also influence how other people behave.</em></strong> Users often watch what other people do and share. They may copy habits or activities that they see. For example, a person who posts about exercise may encourage friends to start working out. Therefore, sharing personal life can affect other people's choices.\n\nA further reason supporting my viewpoint is that <strong><em>sharing too much personal information can affect other people's privacy.</em></strong> A post may contain photos or information about friends and family members. These people may not want their information to be shared publicly. This can make them feel uncomfortable. Therefore, people should be careful when posting content related to others.\n\nIn conclusion, <strong>I strongly agree with the idea</strong> that <strong><em>sharing personal life on social media affects other people.</em></strong> The reasons above clearly explain why I support this viewpoint. Therefore, people should be mindful of how their online posts impact those around them.",
+          "translation_b1": "Trong những năm gần đây, quan điểm cho rằng <strong><em>việc chia sẻ cuộc sống cá nhân trên mạng xã hội ảnh hưởng đến người khác</em></strong> đã trở thành một chủ đề thảo luận phổ biến. Theo quan điểm của tôi, <strong>tôi hoàn toàn đồng ý với ý kiến này vì một số lý do quan trọng.</strong> Bài tiểu luận này sẽ trình bày những lập luận chính ủng hộ quan điểm của tôi.\n\nLý do đầu tiên khiến tôi đồng ý với ý kiến này là <strong><em>những gì mọi người chia sẻ trên mạng xã hội có thể ảnh hưởng đến cảm xúc của người khác.</em></strong> Mọi người thường nhìn thấy hình ảnh và những khoảnh khắc trong cuộc sống của người khác. Những bài đăng về thành công, du lịch hoặc cuộc sống vui vẻ có thể khiến người xem cảm thấy vui. Tuy nhiên, một số người có thể cảm thấy buồn hoặc tự ti khi so sánh bản thân với người khác. Vì vậy, nội dung cá nhân có thể tạo ra những cảm xúc khác nhau ở người xem.\n\nMột lý do quan trọng khác là <strong><em>nội dung cá nhân trên mạng xã hội cũng có thể ảnh hưởng đến cách người khác hành động.</em></strong> Người dùng thường xem những gì người khác làm và chia sẻ. Họ có thể bắt chước những thói quen hoặc hoạt động mà họ nhìn thấy. Ví dụ, một người đăng bài về tập thể dục có thể khiến bạn bè muốn bắt đầu tập luyện. Do đó, việc chia sẻ cuộc sống cá nhân có thể tác động đến lựa chọn của người khác.\n\nMột lý do nữa ủng hộ quan điểm của tôi là <strong><em>việc chia sẻ quá nhiều thông tin cá nhân có thể ảnh hưởng đến quyền riêng tư của những người khác.</em></strong> Một bài đăng có thể chứa hình ảnh hoặc thông tin về bạn bè và thành viên gia đình. Những người này có thể không muốn thông tin của mình được chia sẻ công khai. Điều này có thể khiến họ cảm thấy không thoải mái. Vì vậy, mọi người nên cẩn thận khi đăng nội dung có liên quan đến người khác.\n\nTóm lại, <strong>tôi hoàn toàn đồng ý với ý kiến</strong> cho rằng <strong><em>việc chia sẻ cuộc sống cá nhân trên mạng xã hội ảnh hưởng đến người khác.</em></strong> Những lý do trên giải thích rõ ràng tại sao tôi ủng hộ quan điểm này. Vì vậy, mọi người nên lưu tâm đến việc các bài đăng trực tuyến của mình tác động đến những người xung quanh như thế nào."
+        }
       },
       {
         "id": 19,
