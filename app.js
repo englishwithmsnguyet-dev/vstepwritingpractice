@@ -352,6 +352,89 @@ function renderCategoryTopics(searchQuery = '') {
 
       createGroupSection('NHÓM 1: PHÂN TÍCH THUẬN LỢI VÀ BẤT LỢI', '📌', 'var(--accent-primary)', advDisadvList);
       createGroupSection('NHÓM 2: CHỈ PHÂN TÍCH THUẬN LỢI', '✨', '#10b981', benefitsOnlyList);
+    } else if (currentCategory.id === 2) {
+      const getCategory2Group = (t) => {
+        const tag = (t.tags || '').toLowerCase();
+        const prompt = (t.prompt || '').toLowerCase();
+        
+        // 1. Check details.ideas_b1 keys if present
+        if (t.details && t.details.ideas_b1) {
+          const keys = Object.keys(t.details.ideas_b1);
+          if (keys.includes('causes') && keys.includes('solutions')) return 'PHÂN TÍCH NGUYÊN NHÂN & GIẢI PHÁP';
+          if (keys.includes('causes') && keys.includes('effects')) return 'PHÂN TÍCH NGUYÊN NHÂN & ẢNH HƯỞNG';
+          if (keys.includes('effects') && keys.includes('solutions')) return 'PHÂN TÍCH ẢNH HƯỞNG & GIẢI PHÁP';
+          if (keys.includes('causes') || keys.includes('factors') || keys.includes('reasons')) return 'PHÂN TÍCH NGUYÊN NHÂN';
+          if (keys.includes('effects') || keys.includes('impacts')) return 'PHÂN TÍCH ẢNH HƯỞNG';
+          if (keys.includes('solutions') || keys.includes('measures')) return 'PHÂN TÍCH GIẢI PHÁP';
+        }
+
+        // 2. Check tags & prompt
+        if (tag.includes('causes & solutions') || (prompt.includes('causes') && (prompt.includes('solutions') || prompt.includes('measures') || prompt.includes('suggest')))) {
+          return 'PHÂN TÍCH NGUYÊN NHÂN & GIẢI PHÁP';
+        }
+        if (tag.includes('causes & effects') || (prompt.includes('causes') && (prompt.includes('effects') || prompt.includes('consequences') || prompt.includes('impacts')))) {
+          return 'PHÂN TÍCH NGUYÊN NHÂN & ẢNH HƯỞNG';
+        }
+        if (tag.includes('effects & solutions') || tag.includes('problems & solutions') || tag.includes('impacts & solutions') || ((prompt.includes('effects') || prompt.includes('problems') || prompt.includes('impacts')) && (prompt.includes('solutions') || prompt.includes('measures')))) {
+          return 'PHÂN TÍCH ẢNH HƯỞNG & GIẢI PHÁP';
+        }
+        if (tag.includes('measures') || tag.includes('solutions') || prompt.includes('measures for') || prompt.includes('solutions to')) {
+          return 'PHÂN TÍCH GIẢI PHÁP';
+        }
+        if (tag.includes('effects') || tag.includes('impacts') || prompt.includes('effects of') || prompt.includes('impacts of')) {
+          return 'PHÂN TÍCH ẢNH HƯỞNG';
+        }
+        if (tag.includes('causes') || tag.includes('factors') || prompt.includes('reasons for') || prompt.includes('factors that') || prompt.includes('causes of')) {
+          return 'PHÂN TÍCH NGUYÊN NHÂN';
+        }
+
+        return 'PHÂN TÍCH NGUYÊN NHÂN & GIẢI PHÁP';
+      };
+
+      const groupsConfig = [
+        { name: 'PHÂN TÍCH NGUYÊN NHÂN & GIẢI PHÁP', icon: '📌', color: 'var(--accent-primary)' },
+        { name: 'PHÂN TÍCH NGUYÊN NHÂN & ẢNH HƯỞNG', icon: '⚡', color: '#8b5cf6' },
+        { name: 'PHÂN TÍCH ẢNH HƯỞNG & GIẢI PHÁP', icon: '🛡️', color: '#ec4899' },
+        { name: 'PHÂN TÍCH NGUYÊN NHÂN', icon: '🔍', color: '#f59e0b' },
+        { name: 'PHÂN TÍCH ẢNH HƯỞNG', icon: '💥', color: '#ef4444' },
+        { name: 'PHÂN TÍCH GIẢI PHÁP', icon: '✨', color: '#10b981' }
+      ];
+
+      groupsConfig.forEach(cfg => {
+        const list = updatedTopics.filter(t => getCategory2Group(t) === cfg.name);
+        if (list.length === 0) return;
+
+        const groupWrapper = document.createElement('div');
+        groupWrapper.style.marginTop = '1.25rem';
+
+        const groupTitle = document.createElement('div');
+        groupTitle.style.fontWeight = '700';
+        groupTitle.style.color = cfg.color;
+        groupTitle.style.marginBottom = '0.65rem';
+        groupTitle.style.fontSize = '0.95rem';
+        groupTitle.style.display = 'flex';
+        groupTitle.style.alignItems = 'center';
+        groupTitle.style.gap = '0.4rem';
+        groupTitle.innerHTML = `${cfg.icon} <span>${cfg.name} (${list.length})</span>`;
+        groupWrapper.appendChild(groupTitle);
+
+        const groupGrid = document.createElement('div');
+        groupGrid.className = 'updated-topics-grid';
+
+        list.forEach(topic => {
+          const pill = document.createElement('div');
+          pill.className = 'updated-topic-pill';
+          pill.onclick = () => startPractice(currentCategory.id, topic.id);
+          pill.innerHTML = `
+            <span class="pill-icon">📚</span>
+            <span class="item-text">Đề ${topic.id}: ${topic.title_vi}</span>
+          `;
+          groupGrid.appendChild(pill);
+        });
+
+        groupWrapper.appendChild(groupGrid);
+        banner.appendChild(groupWrapper);
+      });
     } else {
       const grid = document.createElement('div');
       grid.className = 'updated-topics-grid';
