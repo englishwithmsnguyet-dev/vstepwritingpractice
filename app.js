@@ -305,21 +305,71 @@ function renderCategoryTopics(searchQuery = '') {
     bannerHeader.innerHTML = '🔥 NHỮNG ĐỀ ĐÃ CẬP NHẬT (' + updatedTopics.length + ')';
     banner.appendChild(bannerHeader);
     
-    const grid = document.createElement('div');
-    grid.className = 'updated-topics-grid';
+    if (currentCategory.id === 1) {
+      const isBenefitsOnly = (t) => {
+        if (t.type === 'benefits_only') return true;
+        if (t.details && t.details.ideas_b1 && t.details.ideas_b1.benefits && (!t.details.ideas_b1.drawbacks || t.details.ideas_b1.drawbacks.length === 0)) return true;
+        if (t.prompt && t.prompt.toLowerCase().includes('advantages of') && !t.prompt.toLowerCase().includes('and disadvantages')) return true;
+        return false;
+      };
+
+      const advDisadvList = updatedTopics.filter(t => !isBenefitsOnly(t));
+      const benefitsOnlyList = updatedTopics.filter(t => isBenefitsOnly(t));
+
+      const createGroupSection = (title, icon, color, list) => {
+        if (list.length === 0) return;
+        const groupWrapper = document.createElement('div');
+        groupWrapper.style.marginTop = '1.25rem';
+
+        const groupTitle = document.createElement('div');
+        groupTitle.style.fontWeight = '700';
+        groupTitle.style.color = color;
+        groupTitle.style.marginBottom = '0.65rem';
+        groupTitle.style.fontSize = '0.95rem';
+        groupTitle.style.display = 'flex';
+        groupTitle.style.alignItems = 'center';
+        groupTitle.style.gap = '0.4rem';
+        groupTitle.innerHTML = `${icon} <span>${title} (${list.length})</span>`;
+        groupWrapper.appendChild(groupTitle);
+
+        const groupGrid = document.createElement('div');
+        groupGrid.className = 'updated-topics-grid';
+
+        list.forEach(topic => {
+          const pill = document.createElement('div');
+          pill.className = 'updated-topic-pill';
+          pill.onclick = () => startPractice(currentCategory.id, topic.id);
+          pill.innerHTML = `
+            <span class="pill-icon">📚</span>
+            <span class="item-text">Đề ${topic.id}: ${topic.title_vi}</span>
+          `;
+          groupGrid.appendChild(pill);
+        });
+
+        groupWrapper.appendChild(groupGrid);
+        banner.appendChild(groupWrapper);
+      };
+
+      createGroupSection('NHÓM 1: PHÂN TÍCH THUẬN LỢI VÀ BẤT LỢI', '📌', 'var(--accent-primary)', advDisadvList);
+      createGroupSection('NHÓM 2: CHỈ PHÂN TÍCH THUẬN LỢI', '✨', '#10b981', benefitsOnlyList);
+    } else {
+      const grid = document.createElement('div');
+      grid.className = 'updated-topics-grid';
+      
+      updatedTopics.forEach(topic => {
+        const pill = document.createElement('div');
+        pill.className = 'updated-topic-pill';
+        pill.onclick = () => startPractice(currentCategory.id, topic.id);
+        pill.innerHTML = `
+          <span class="pill-icon">📚</span>
+          <span class="item-text">Đề ${topic.id}: ${topic.title_vi}</span>
+        `;
+        grid.appendChild(pill);
+      });
+      
+      banner.appendChild(grid);
+    }
     
-    updatedTopics.forEach(topic => {
-      const pill = document.createElement('div');
-      pill.className = 'updated-topic-pill';
-      pill.onclick = () => startPractice(currentCategory.id, topic.id);
-      pill.innerHTML = `
-        <span class="pill-icon">📚</span>
-        <span class="item-text">Đề ${topic.id}: ${topic.title_vi}</span>
-      `;
-      grid.appendChild(pill);
-    });
-    
-    banner.appendChild(grid);
     container.appendChild(banner);
   }
 

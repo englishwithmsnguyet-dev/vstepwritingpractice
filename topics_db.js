@@ -8903,7 +8903,7 @@ const ESSAY_DATA = [
       {
         "id": 15,
         "title_en": "Having multiple textbooks in education",
-        "title_vi": "Sử dụng nhiều sách giáo khoa trong giáo dục [chỉ phân tích lợi ích]",
+        "title_vi": "Sử dụng nhiều sách giáo khoa trong giáo dục",
         "context": "Nowadays, having multiple textbooks in education has become a topic of discussion in many countries. Instead of using only one official textbook for each subject, schools may allow teachers and students to choose from different textbooks. Some people believe that this approach brings many benefits to teaching and learning.",
         "prompt": "Write an essay to an educated reader to discuss the advantages of having multiple textbooks in education. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
         "has_full_details": true,
@@ -11959,7 +11959,7 @@ const ESSAY_DATA = [
       {
         "id": 22,
         "title_en": "Unpaid community service",
-        "title_vi": "Hoạt động cộng đồng không lương [chỉ phân tích lợi ích]",
+        "title_vi": "Hoạt động cộng đồng không lương",
         "context": "Nowadays, unpaid community service has become an important activity in many schools and communities. People may take part in different voluntary activities, such as cleaning public places, helping elderly people, teaching poor children, or supporting charity events. Some people believe that doing unpaid community service brings many benefits to individuals and society.",
         "prompt": "Write an essay to an educated reader to discuss the advantages of unpaid community service. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
         "has_full_details": false
@@ -12039,7 +12039,7 @@ const ESSAY_DATA = [
       {
         "id": 32,
         "title_en": "The importance of education",
-        "title_vi": "Tầm quan trọng của giáo dục [chỉ phân tích lợi ích]",
+        "title_vi": "Tầm quan trọng của giáo dục",
         "context": "In every society, education plays an essential role in personal development and national progress. Through education, people can gain knowledge, develop important skills, and prepare for better career opportunities. Education can also help improve people’s quality of life and contribute to the development of a country.",
         "prompt": "Write an essay to an educated reader to discuss the importance of education. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
         "has_full_details": false
@@ -12047,7 +12047,7 @@ const ESSAY_DATA = [
       {
         "id": 33,
         "title_en": "The importance of neighborhood connection in natural disasters",
-        "title_vi": "Tầm quan trọng của sự gắn kết cộng đồng trong thiên tai [chỉ phân tích lợi ích]",
+        "title_vi": "Tầm quan trọng của sự gắn kết cộng đồng trong thiên tai",
         "context": "In many countries, natural disasters such as floods, storms, earthquakes, and landslides can seriously affect people’s lives. During these difficult situations, strong neighborhood connection can help residents support one another, share useful information, and respond to emergencies more effectively. Many people believe that community bonds play an important role in reducing damage and helping people recover after disasters.",
         "prompt": "Write an essay to an educated reader to discuss the importance of neighborhood connection in natural disasters. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
         "has_full_details": false
@@ -12055,7 +12055,7 @@ const ESSAY_DATA = [
       {
         "id": 34,
         "title_en": "The importance of human relationships in natural disasters",
-        "title_vi": "Các mối quan hệ con người trong thiên tai [chỉ phân tích lợi ích]",
+        "title_vi": "Các mối quan hệ con người trong thiên tai",
         "context": "In many emergency situations, natural disasters such as floods, storms, earthquakes, and landslides can cause serious damage to people’s lives and property. At these times, strong human relationships become especially important because people may need emotional support, practical help, and reliable information from others. Many people believe that good relationships among family members, neighbours, friends, and local communities can help people face disasters more effectively.",
         "prompt": "Write an essay to an educated reader to discuss the importance of human relationships in natural disasters. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
         "has_full_details": false
@@ -12071,7 +12071,7 @@ const ESSAY_DATA = [
       {
         "id": 36,
         "title_en": "Being single",
-        "title_vi": "Sống độc thân [chỉ phân tích lợi ích]",
+        "title_vi": "Sống độc thân",
         "context": "In modern society, being single has become a common lifestyle choice for many adults. Instead of getting married early, some people prefer to live independently, focus on their careers, and enjoy their personal freedom. Many people believe that being single can bring several benefits to individuals’ personal development and quality of life.",
         "prompt": "Write an essay to an educated reader to discuss the advantages of being single. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
         "has_full_details": false
@@ -12103,7 +12103,7 @@ const ESSAY_DATA = [
       {
         "id": 40,
         "title_en": "Learning a new language",
-        "title_vi": "Học một ngôn ngữ mới [chỉ phân tích lợi ích]",
+        "title_vi": "Học một ngôn ngữ mới",
         "context": "In an increasingly connected world, learning a new language has become important for study, work, travel, and communication. People who know another language can access more information, understand different cultures, and communicate with people from other countries more easily. Many people believe that learning a new language brings valuable benefits to individuals and society.",
         "prompt": "Write an essay to an educated reader to discuss the advantages of learning a new language. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
         "has_full_details": false
