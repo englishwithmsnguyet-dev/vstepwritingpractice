@@ -9688,8 +9688,8 @@ const ESSAY_DATA = [
         "id": 17,
         "title_en": "Tourism to local communities",
         "title_vi": "Ngành du lịch đối với cộng đồng địa phương",
-        "context": "Nowadays, some schools are allowed to choose their own language textbooks instead of using only one fixed textbook for all students. This policy gives schools more freedom to select materials that match their students’ levels, learning goals, and local teaching conditions. Some people believe that allowing schools to choose their own language textbooks brings many benefits to language education.",
-        "prompt": "Write an essay to an educated reader to discuss the advantages of allowing schools to choose their own language textbooks. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "context": "Nowadays, tourism to local communities has become increasingly popular in many parts of the world. It attracts many visitors and can bring several benefits to local economies and cultures. However, some people argue that the growth of tourism may also cause several negative impacts on local environments and traditional ways of life.",
+        "prompt": "Write an essay to an educated reader to discuss the advantages and disadvantages of tourism to local communities. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
         "has_full_details": false
       },
       {
