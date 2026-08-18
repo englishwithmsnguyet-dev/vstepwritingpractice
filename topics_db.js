@@ -9690,7 +9690,633 @@ const ESSAY_DATA = [
         "title_vi": "Ngành du lịch đối với cộng đồng địa phương",
         "context": "Nowadays, tourism to local communities has become increasingly popular in many parts of the world. It attracts many visitors and can bring several benefits to local economies and cultures. However, some people argue that the growth of tourism may also cause several negative impacts on local environments and traditional ways of life.",
         "prompt": "Write an essay to an educated reader to discuss the advantages and disadvantages of tourism to local communities. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "paraphrases": [
+          {
+            "en": "community-based tourism",
+            "vi": "du lịch dựa vào cộng đồng"
+          },
+          {
+            "en": "local travel and hospitality",
+            "vi": "du lịch và dịch vụ khách sạn địa phương"
+          },
+          {
+            "en": "tourism development in local areas",
+            "vi": "sự phát triển du lịch ở các vùng địa phương"
+          },
+          {
+            "en": "inflow of tourists to native communities",
+            "vi": "dòng khách du lịch đổ về các cộng đồng bản địa"
+          }
+        ],
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "ADVANTAGE 01",
+                "collocations": [
+                  {
+                    "en": "create more jobs",
+                    "vi": "tạo thêm nhiều việc làm"
+                  },
+                  {
+                    "en": "local people",
+                    "vi": "người dân địa phương"
+                  },
+                  {
+                    "en": "tourism services",
+                    "vi": "dịch vụ du lịch"
+                  },
+                  {
+                    "en": "work in hotels and restaurants",
+                    "vi": "làm việc trong khách sạn và nhà hàng"
+                  },
+                  {
+                    "en": "job opportunities",
+                    "vi": "cơ hội việc làm"
+                  }
+                ],
+                "point_vi": "Du lịch tạo thêm nhiều việc làm cho người dân địa phương.",
+                "point_en": "Tourism creates more jobs for local people.",
+                "evidence_vi": "Người dân có thể làm việc trong khách sạn, nhà hàng, cửa hàng và các dịch vụ du lịch.",
+                "evidence_en": "Local people can work in hotels, restaurants, shops, and tourism services."
+              },
+              {
+                "title": "ADVANTAGE 02",
+                "collocations": [
+                  {
+                    "en": "increase local income",
+                    "vi": "tăng thu nhập địa phương"
+                  },
+                  {
+                    "en": "spend money on",
+                    "vi": "chi tiền cho"
+                  },
+                  {
+                    "en": "local products",
+                    "vi": "sản phẩm địa phương"
+                  },
+                  {
+                    "en": "transportation services",
+                    "vi": "dịch vụ đi lại"
+                  },
+                  {
+                    "en": "boost living standards",
+                    "vi": "nâng cao mức sống"
+                  }
+                ],
+                "point_vi": "Du lịch giúp tăng thu nhập cho cộng đồng địa phương.",
+                "point_en": "Tourism increases local income.",
+                "evidence_vi": "Du khách chi tiền cho chỗ ở, đồ ăn, phương tiện đi lại và các sản phẩm địa phương.",
+                "evidence_en": "Visitors spend money on accommodation, food, transportation, and local products."
+              },
+              {
+                "title": "ADVANTAGE 03",
+                "collocations": [
+                  {
+                    "en": "protect local culture",
+                    "vi": "bảo tồn văn hóa địa phương"
+                  },
+                  {
+                    "en": "traditional festivals",
+                    "vi": "lễ hội truyền thống"
+                  },
+                  {
+                    "en": "local crafts",
+                    "vi": "nghề truyền thống"
+                  },
+                  {
+                    "en": "traditional customs",
+                    "vi": "phong tục truyền thống"
+                  },
+                  {
+                    "en": "introduce to visitors",
+                    "vi": "giới thiệu cho du khách"
+                  }
+                ],
+                "point_vi": "Du lịch giúp bảo tồn văn hóa địa phương.",
+                "point_en": "Tourism helps protect local culture.",
+                "evidence_vi": "Người dân có thể giới thiệu các lễ hội, nghề truyền thống và phong tục cho du khách.",
+                "evidence_en": "Local people can introduce traditional festivals, crafts, and customs to visitors."
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "DISADVANTAGE 01",
+                "collocations": [
+                  {
+                    "en": "environmental problems",
+                    "vi": "vấn đề môi trường"
+                  },
+                  {
+                    "en": "large numbers of visitors",
+                    "vi": "lượng lớn du khách"
+                  },
+                  {
+                    "en": "create a lot of waste",
+                    "vi": "tạo ra nhiều rác thải"
+                  },
+                  {
+                    "en": "tourist attractions",
+                    "vi": "điểm du lịch"
+                  },
+                  {
+                    "en": "littering and pollution",
+                    "vi": "xả rác và ô nhiễm"
+                  }
+                ],
+                "point_vi": "Du lịch có thể gây ra các vấn đề về môi trường.",
+                "point_en": "Tourism can cause environmental problems.",
+                "evidence_vi": "Một lượng lớn du khách có thể tạo ra nhiều rác thải tại các điểm du lịch.",
+                "evidence_en": "Large numbers of visitors can create a lot of waste at tourist attractions."
+              },
+              {
+                "title": "DISADVANTAGE 02",
+                "collocations": [
+                  {
+                    "en": "change traditional ways of life",
+                    "vi": "làm thay đổi lối sống truyền thống"
+                  },
+                  {
+                    "en": "meet tourists' needs",
+                    "vi": "đáp ứng nhu cầu của du khách"
+                  },
+                  {
+                    "en": "alter local customs",
+                    "vi": "thay đổi phong tục địa phương"
+                  },
+                  {
+                    "en": "loss of cultural identity",
+                    "vi": "mất bản sắc văn hóa"
+                  },
+                  {
+                    "en": "impact on community life",
+                    "vi": "ảnh hưởng đến đời sống cộng đồng"
+                  }
+                ],
+                "point_vi": "Du lịch có thể làm thay đổi lối sống truyền thống của người dân địa phương.",
+                "point_en": "Tourism can change the traditional ways of life of local people.",
+                "evidence_vi": "Người dân có thể thay đổi một số phong tục để phù hợp với nhu cầu của du khách.",
+                "evidence_en": "Local people may change some customs to meet tourists' needs."
+              },
+              {
+                "title": "DISADVANTAGE 03",
+                "collocations": [
+                  {
+                    "en": "make local areas more expensive",
+                    "vi": "làm tăng chi phí khu vực địa phương"
+                  },
+                  {
+                    "en": "prices of housing and food",
+                    "vi": "giá nhà ở và thực phẩm"
+                  },
+                  {
+                    "en": "cost of living",
+                    "vi": "chi phí sinh hoạt"
+                  },
+                  {
+                    "en": "increase service prices",
+                    "vi": "tăng giá dịch vụ"
+                  },
+                  {
+                    "en": "financial pressure on locals",
+                    "vi": "áp lực tài chính lên người dân địa phương"
+                  }
+                ],
+                "point_vi": "Du lịch có thể làm tăng chi phí sinh hoạt ở các cộng đồng địa phương.",
+                "point_en": "Tourism can make local areas more expensive.",
+                "evidence_vi": "Giá nhà ở, thực phẩm và các dịch vụ có thể tăng khi có nhiều du khách.",
+                "evidence_en": "The prices of housing, food, and services may increase when there are many tourists."
+              }
+            ]
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "ADVANTAGE 01",
+                "collocations": [
+                  {
+                    "en": "employment opportunities",
+                    "vi": "cơ hội việc làm"
+                  },
+                  {
+                    "en": "tourism-related services",
+                    "vi": "dịch vụ liên quan đến du lịch"
+                  },
+                  {
+                    "en": "stable incomes",
+                    "vi": "thu nhập ổn định"
+                  },
+                  {
+                    "en": "improve living conditions",
+                    "vi": "cải thiện điều kiện sống"
+                  },
+                  {
+                    "en": "enhance livelihoods",
+                    "vi": "nâng cao sinh kế"
+                  }
+                ],
+                "point_vi": "Du lịch tạo ra nhiều cơ hội việc làm cho người dân địa phương.",
+                "point_en": "Tourism creates more employment opportunities for local people.",
+                "evidence_vi": "Người dân có thể làm việc trong khách sạn, nhà hàng và các dịch vụ liên quan đến du lịch. Điều này giúp họ có thu nhập ổn định hơn và cải thiện cuộc sống.",
+                "evidence_en": "Local people can work in hotels, restaurants, and tourism-related services. This provides them with more stable incomes and improves their living conditions."
+              },
+              {
+                "title": "ADVANTAGE 02",
+                "collocations": [
+                  {
+                    "en": "boost the local economy",
+                    "vi": "thúc đẩy kinh tế địa phương"
+                  },
+                  {
+                    "en": "local business growth",
+                    "vi": "sự phát triển của doanh nghiệp địa phương"
+                  },
+                  {
+                    "en": "increase commercial revenue",
+                    "vi": "tăng doanh thu thương mại"
+                  },
+                  {
+                    "en": "economic prosperity",
+                    "vi": "sự thịnh vượng kinh tế"
+                  },
+                  {
+                    "en": "consumer expenditure",
+                    "vi": "chi tiêu của người tiêu dùng"
+                  }
+                ],
+                "point_vi": "Du lịch thúc đẩy nền kinh tế của các cộng đồng địa phương.",
+                "point_en": "Tourism boosts the local economy.",
+                "evidence_vi": "Du khách chi tiền cho chỗ ở, ăn uống, phương tiện và các sản phẩm địa phương. Điều này giúp các doanh nghiệp địa phương tăng doanh thu và phát triển.",
+                "evidence_en": "Visitors spend money on accommodation, food, transportation, and local products. This helps local businesses increase their income and grow."
+              },
+              {
+                "title": "ADVANTAGE 03",
+                "collocations": [
+                  {
+                    "en": "preserve local culture and traditions",
+                    "vi": "bảo tồn văn hóa và truyền thống địa phương"
+                  },
+                  {
+                    "en": "traditional handicrafts",
+                    "vi": "nghề thủ công truyền thống"
+                  },
+                  {
+                    "en": "maintain cultural activities",
+                    "vi": "duy trì các hoạt động văn hóa"
+                  },
+                  {
+                    "en": "cultural exchange",
+                    "vi": "giao lưu văn hóa"
+                  },
+                  {
+                    "en": "heritage conservation",
+                    "vi": "bảo tồn di sản"
+                  }
+                ],
+                "point_vi": "Du lịch góp phần bảo tồn văn hóa và truyền thống địa phương.",
+                "point_en": "Tourism contributes to preserving local culture and traditions.",
+                "evidence_vi": "Người dân có thể giới thiệu các lễ hội, nghề thủ công và phong tục truyền thống cho du khách. Thu nhập từ du lịch có thể được sử dụng để duy trì các hoạt động văn hóa địa phương.",
+                "evidence_en": "Local people can introduce traditional festivals, crafts, and customs to visitors. Income from tourism can be used to maintain local cultural activities."
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "DISADVANTAGE 01",
+                "collocations": [
+                  {
+                    "en": "negative environmental effects",
+                    "vi": "tác động tiêu cực đến môi trường"
+                  },
+                  {
+                    "en": "waste and environmental pollution",
+                    "vi": "rác thải và ô nhiễm môi trường"
+                  },
+                  {
+                    "en": "degrade natural habitats",
+                    "vi": "làm suy giảm môi trường tự nhiên"
+                  },
+                  {
+                    "en": "overcrowded tourist destinations",
+                    "vi": "điểm du lịch quá đông đúc"
+                  },
+                  {
+                    "en": "ecological disturbance",
+                    "vi": "xáo trộn sinh thái"
+                  }
+                ],
+                "point_vi": "Sự phát triển du lịch có thể gây ảnh hưởng tiêu cực đến môi trường địa phương.",
+                "point_en": "Tourism development can have negative effects on the local environment.",
+                "evidence_vi": "Một lượng lớn du khách có thể tạo ra nhiều rác thải và ô nhiễm. Điều này có thể làm giảm chất lượng của các khu vực tự nhiên và điểm du lịch.",
+                "evidence_en": "Large numbers of visitors can create more waste and pollution. This can reduce the quality of natural areas and tourist attractions."
+              },
+              {
+                "title": "DISADVANTAGE 02",
+                "collocations": [
+                  {
+                    "en": "threaten traditional lifestyles",
+                    "vi": "đe dọa lối sống truyền thống"
+                  },
+                  {
+                    "en": "cultural commercialization",
+                    "vi": "thương mại hóa văn hóa"
+                  },
+                  {
+                    "en": "gradual loss of cultural values",
+                    "vi": "sự mai một dần các giá trị văn hóa"
+                  },
+                  {
+                    "en": "erosion of local traditions",
+                    "vi": "sự xói mòn truyền thống địa phương"
+                  },
+                  {
+                    "en": "social friction",
+                    "vi": "ma sát / xung đột xã hội"
+                  }
+                ],
+                "point_vi": "Du lịch có thể đe dọa lối sống và truyền thống của cộng đồng địa phương.",
+                "point_en": "Tourism can threaten the traditional ways of life of local communities.",
+                "evidence_vi": "Người dân có thể thay đổi phong tục và hoạt động truyền thống để đáp ứng nhu cầu của du khách. Điều này có thể làm cho một số giá trị văn hóa dần mất đi.",
+                "evidence_en": "Local people may change traditional customs and activities to meet tourists' needs. This may cause some cultural values to gradually disappear."
+              },
+              {
+                "title": "DISADVANTAGE 03",
+                "collocations": [
+                  {
+                    "en": "increase the cost of living",
+                    "vi": "làm tăng chi phí sinh hoạt"
+                  },
+                  {
+                    "en": "soaring property and housing prices",
+                    "vi": "giá nhà đất tăng vọt"
+                  },
+                  {
+                    "en": "inflationary pressure on local prices",
+                    "vi": "áp lực lạm phát lên giá cả địa phương"
+                  },
+                  {
+                    "en": "economic hardship for residents",
+                    "vi": "khó khăn kinh tế cho cư dân"
+                  },
+                  {
+                    "en": "gentrification effects",
+                    "vi": "tác động chỉnh trang đô thị đẩy giá lên"
+                  }
+                ],
+                "point_vi": "Sự phát triển du lịch có thể làm tăng chi phí sinh hoạt của người dân địa phương.",
+                "point_en": "Tourism development can increase the cost of living for local people.",
+                "evidence_vi": "Nhu cầu cao từ du khách có thể làm tăng giá nhà ở, thực phẩm và các dịch vụ. Điều này có thể khiến cuộc sống của người dân địa phương trở nên khó khăn hơn.",
+                "evidence_en": "High demand from tourists can increase the prices of housing, food, and services. This can make life more difficult for local residents."
+              }
+            ]
+          },
+          "vocab": [
+            {
+              "en": "create more jobs",
+              "vi": "tạo thêm nhiều việc làm"
+            },
+            {
+              "en": "local people",
+              "vi": "người dân địa phương"
+            },
+            {
+              "en": "tourism services",
+              "vi": "dịch vụ du lịch"
+            },
+            {
+              "en": "work in hotels and restaurants",
+              "vi": "làm việc trong khách sạn và nhà hàng"
+            },
+            {
+              "en": "job opportunities",
+              "vi": "cơ hội việc làm"
+            },
+            {
+              "en": "increase local income",
+              "vi": "tăng thu nhập địa phương"
+            },
+            {
+              "en": "spend money on",
+              "vi": "chi tiền cho"
+            },
+            {
+              "en": "local products",
+              "vi": "sản phẩm địa phương"
+            },
+            {
+              "en": "transportation services",
+              "vi": "dịch vụ đi lại"
+            },
+            {
+              "en": "boost living standards",
+              "vi": "nâng cao mức sống"
+            },
+            {
+              "en": "protect local culture",
+              "vi": "bảo tồn văn hóa địa phương"
+            },
+            {
+              "en": "traditional festivals",
+              "vi": "lễ hội truyền thống"
+            },
+            {
+              "en": "local crafts",
+              "vi": "nghề truyền thống"
+            },
+            {
+              "en": "traditional customs",
+              "vi": "phong tục truyền thống"
+            },
+            {
+              "en": "introduce to visitors",
+              "vi": "giới thiệu cho du khách"
+            },
+            {
+              "en": "environmental problems",
+              "vi": "vấn đề môi trường"
+            },
+            {
+              "en": "large numbers of visitors",
+              "vi": "lượng lớn du khách"
+            },
+            {
+              "en": "create a lot of waste",
+              "vi": "tạo ra nhiều rác thải"
+            },
+            {
+              "en": "tourist attractions",
+              "vi": "điểm du lịch"
+            },
+            {
+              "en": "littering and pollution",
+              "vi": "xả rác và ô nhiễm"
+            },
+            {
+              "en": "change traditional ways of life",
+              "vi": "làm thay đổi lối sống truyền thống"
+            },
+            {
+              "en": "meet tourists' needs",
+              "vi": "đáp ứng nhu cầu của du khách"
+            },
+            {
+              "en": "alter local customs",
+              "vi": "thay đổi phong tục địa phương"
+            },
+            {
+              "en": "loss of cultural identity",
+              "vi": "mất bản sắc văn hóa"
+            },
+            {
+              "en": "impact on community life",
+              "vi": "ảnh hưởng đến đời sống cộng đồng"
+            },
+            {
+              "en": "make local areas more expensive",
+              "vi": "làm tăng chi phí khu vực địa phương"
+            },
+            {
+              "en": "prices of housing and food",
+              "vi": "giá nhà ở và thực phẩm"
+            },
+            {
+              "en": "cost of living",
+              "vi": "chi phí sinh hoạt"
+            },
+            {
+              "en": "increase service prices",
+              "vi": "tăng giá dịch vụ"
+            },
+            {
+              "en": "financial pressure on locals",
+              "vi": "áp lực tài chính lên người dân địa phương"
+            },
+            {
+              "en": "employment opportunities",
+              "vi": "cơ hội việc làm"
+            },
+            {
+              "en": "tourism-related services",
+              "vi": "dịch vụ liên quan đến du lịch"
+            },
+            {
+              "en": "stable incomes",
+              "vi": "thu nhập ổn định"
+            },
+            {
+              "en": "improve living conditions",
+              "vi": "cải thiện điều kiện sống"
+            },
+            {
+              "en": "enhance livelihoods",
+              "vi": "nâng cao sinh kế"
+            },
+            {
+              "en": "boost the local economy",
+              "vi": "thúc đẩy kinh tế địa phương"
+            },
+            {
+              "en": "local business growth",
+              "vi": "sự phát triển của doanh nghiệp địa phương"
+            },
+            {
+              "en": "increase commercial revenue",
+              "vi": "tăng doanh thu thương mại"
+            },
+            {
+              "en": "economic prosperity",
+              "vi": "sự thịnh vượng kinh tế"
+            },
+            {
+              "en": "consumer expenditure",
+              "vi": "chi tiêu của người tiêu dùng"
+            },
+            {
+              "en": "preserve local culture and traditions",
+              "vi": "bảo tồn văn hóa và truyền thống địa phương"
+            },
+            {
+              "en": "traditional handicrafts",
+              "vi": "nghề thủ công truyền thống"
+            },
+            {
+              "en": "maintain cultural activities",
+              "vi": "duy trì các hoạt động văn hóa"
+            },
+            {
+              "en": "cultural exchange",
+              "vi": "giao lưu văn hóa"
+            },
+            {
+              "en": "heritage conservation",
+              "vi": "bảo tồn di sản"
+            },
+            {
+              "en": "negative environmental effects",
+              "vi": "tác động tiêu cực đến môi trường"
+            },
+            {
+              "en": "waste and environmental pollution",
+              "vi": "rác thải và ô nhiễm môi trường"
+            },
+            {
+              "en": "degrade natural habitats",
+              "vi": "làm suy giảm môi trường tự nhiên"
+            },
+            {
+              "en": "overcrowded tourist destinations",
+              "vi": "điểm du lịch quá đông đúc"
+            },
+            {
+              "en": "ecological disturbance",
+              "vi": "xáo trộn sinh thái"
+            },
+            {
+              "en": "threaten traditional lifestyles",
+              "vi": "đe dọa lối sống truyền thống"
+            },
+            {
+              "en": "cultural commercialization",
+              "vi": "thương mại hóa văn hóa"
+            },
+            {
+              "en": "gradual loss of cultural values",
+              "vi": "sự mai một dần các giá trị văn hóa"
+            },
+            {
+              "en": "erosion of local traditions",
+              "vi": "sự xói mòn truyền thống địa phương"
+            },
+            {
+              "en": "social friction",
+              "vi": "ma sát / xung đột xã hội"
+            },
+            {
+              "en": "increase the cost of living",
+              "vi": "làm tăng chi phí sinh hoạt"
+            },
+            {
+              "en": "soaring property and housing prices",
+              "vi": "giá nhà đất tăng vọt"
+            },
+            {
+              "en": "inflationary pressure on local prices",
+              "vi": "áp lực lạm phát lên giá cả địa phương"
+            },
+            {
+              "en": "economic hardship for residents",
+              "vi": "khó khăn kinh tế cho cư dân"
+            },
+            {
+              "en": "gentrification effects",
+              "vi": "tác động chỉnh trang đô thị đẩy giá lên"
+            }
+          ],
+          "sample_b1": "In recent years, <strong>tourism to local communities</strong> has become more common in modern society. Although it has some benefits, there are also some drawbacks. <strong>This essay will discuss both sides of this topic.</strong>\n\n<strong>On the one hand, this topic has several advantages.</strong> One major benefit is that <strong><em>tourism creates more jobs for local people.</em></strong> Local people can work in hotels, restaurants, shops, and tourism services. Another positive aspect is that <strong><em>tourism increases local income.</em></strong> Visitors spend money on accommodation, food, transportation, and local products. A further good point is that <strong><em>tourism helps protect local culture.</em></strong> Local people can introduce traditional festivals, crafts, and customs to visitors.\n\n<strong>On the other hand, there are also several disadvantages.</strong> One possible drawback is that <strong><em>tourism can cause environmental problems.</em></strong> Large numbers of visitors can create a lot of waste at tourist attractions. Another negative aspect is that <strong><em>tourism can change the traditional ways of life of local people.</em></strong> Local people may change some customs to meet tourists' needs. A further problem is that <strong><em>tourism can make local areas more expensive.</em></strong> The prices of housing, food, and services may increase when there are many tourists.\n\nIn conclusion, <strong>tourism to local communities</strong> has both advantages and disadvantages. These points show that it has different effects on people's lives. Therefore, it is important to consider both sides before making a decision.",
+          "translation_b1": "Trong những năm gần đây, <strong>ngành du lịch đối với cộng đồng địa phương</strong> đã trở nên phổ biến hơn trong xã hội hiện đại. Mặc dù nó có một số lợi ích, cũng có một số hạn chế. <strong>Bài tiểu luận này sẽ thảo luận về cả hai khía cạnh của chủ đề này.</strong>\n\n<strong>Một mặt, chủ đề này có một số lợi thế.</strong> Một lợi ích lớn là <strong><em>du lịch tạo thêm nhiều việc làm cho người dân địa phương.</em></strong> Người dân có thể làm việc trong khách sạn, nhà hàng, cửa hàng và các dịch vụ du lịch. Một khía cạnh tích cực khác là <strong><em>du lịch giúp tăng thu nhập cho cộng đồng địa phương.</em></strong> Du khách chi tiền cho chỗ ở, đồ ăn, phương tiện đi lại và các sản phẩm địa phương. Một điểm tốt nữa là <strong><em>du lịch giúp bảo tồn văn hóa địa phương.</em></strong> Người dân có thể giới thiệu các lễ hội, nghề truyền thống và phong tục cho du khách.\n\n<strong>Mặt khác, cũng có một số bất lợi.</strong> Một bất lợi có thể có là <strong><em>du lịch có thể gây ra các vấn đề về môi trường.</em></strong> Một lượng lớn du khách có thể tạo ra nhiều rác thải tại các điểm du lịch. Một khía cạnh tiêu cực khác là <strong><em>du lịch có thể làm thay đổi lối sống truyền thống của người dân địa phương.</em></strong> Người dân có thể thay đổi một số phong tục để phù hợp với nhu cầu của du khách. Một vấn đề nữa là <strong><em>du lịch có thể làm tăng chi phí sinh hoạt ở các cộng đồng địa phương.</em></strong> Giá nhà ở, thực phẩm và các dịch vụ có thể tăng khi có nhiều du khách.\n\nTóm lại, <strong>ngành du lịch đối với cộng đồng địa phương</strong> có cả lợi thế và bất lợi. Những điểm này cho thấy nó có những tác động khác nhau đến cuộc sống của mọi người. Vì vậy, điều quan trọng là phải xem xét cả hai khía cạnh trước khi đưa ra quyết định.",
+          "sample_b2": "In recent years, <strong>tourism to local communities</strong> has become increasingly prevalent in modern society. Although it brings certain benefits, there are also some negative aspects. <strong>This essay will examine both the advantages and disadvantages.</strong>\n\n<strong>On the one hand, this topic offers several advantages.</strong> One major benefit is that <strong><em>tourism creates more employment opportunities for local people.</em></strong> Local people can work in hotels, restaurants, and tourism-related services. This provides them with more stable incomes and improves their living conditions. Another positive effect is that <strong><em>tourism boosts the local economy.</em></strong> Visitors spend money on accommodation, food, transportation, and local products. This helps local businesses increase their income and grow. A further aspect to consider is that <strong><em>tourism contributes to preserving local culture and traditions.</em></strong> Local people can introduce traditional festivals, crafts, and customs to visitors. Income from tourism can be used to maintain local cultural activities.\n\n<strong>On the other hand, there are some disadvantages that should be considered.</strong> One possible drawback is that <strong><em>tourism development can have negative effects on the local environment.</em></strong> Large numbers of visitors can create more waste and pollution. This can reduce the quality of natural areas and tourist attractions. Another negative aspect is that <strong><em>tourism can threaten the traditional ways of life of local communities.</em></strong> Local people may change traditional customs and activities to meet tourists' needs. This may cause some cultural values to gradually disappear. A further concern is that <strong><em>tourism development can increase the cost of living for local people.</em></strong> High demand from tourists can increase the prices of housing, food, and services. This can make life more difficult for local residents.\n\nIn conclusion, <strong>tourism to local communities</strong> presents both advantages and disadvantages. The points discussed above highlight its key aspects. Overall, understanding these factors helps provide a more balanced view of this topic.",
+          "translation_b2": "Trong những năm gần đây, <strong>ngành du lịch đối với cộng đồng địa phương</strong> đã trở nên ngày càng phổ biến trong xã hội hiện đại. Mặc dù nó mang lại những lợi ích nhất định, cũng có một số khía cạnh tiêu cực. <strong>Bài tiểu luận này sẽ xem xét cả lợi thế và bất lợi.</strong>\n\n<strong>Một mặt, chủ đề này mang lại một số lợi thế.</strong> Một lợi ích lớn là <strong><em>du lịch tạo ra nhiều cơ hội việc làm cho người dân địa phương.</em></strong> Người dân có thể làm việc trong khách sạn, nhà hàng và các dịch vụ liên quan đến du lịch. Điều này giúp họ có thu nhập ổn định hơn và cải thiện cuộc sống. Một hiệu ứng tích cực khác là <strong><em>du lịch thúc đẩy nền kinh tế của các cộng đồng địa phương.</em></strong> Du khách chi tiền cho chỗ ở, ăn uống, phương tiện và các sản phẩm địa phương. Điều này giúp các doanh nghiệp địa phương tăng doanh thu và phát triển. Một khía cạnh nữa cần xem xét là <strong><em>du lịch góp phần bảo tồn văn hóa và truyền thống địa phương.</em></strong> Người dân có thể giới thiệu các lễ hội, nghề thủ công và phong tục truyền thống cho du khách. Thu nhập từ du lịch có thể được sử dụng để duy trì các hoạt động văn hóa địa phương.\n\n<strong>Mặt khác, có một số bất lợi cần được xem xét.</strong> Một hạn chế có thể xảy ra là <strong><em>sự phát triển du lịch có thể gây ảnh hưởng tiêu cực đến môi trường địa phương.</em></strong> Một lượng lớn du khách có thể tạo ra nhiều rác thải và ô nhiễm. Điều này có thể làm giảm chất lượng của các khu vực tự nhiên và điểm du lịch. Một khía cạnh tiêu cực khác là <strong><em>du lịch có thể đe dọa lối sống và truyền thống của cộng đồng địa phương.</em></strong> Người dân có thể thay đổi phong tục và hoạt động truyền thống để đáp ứng nhu cầu của du khách. Điều này có thể làm cho một số giá trị văn hóa dần mất đi. Một mối lo ngại nữa là <strong><em>sự phát triển du lịch có thể làm tăng chi phí sinh hoạt của người dân địa phương.</em></strong> Nhu cầu cao từ du khách có thể làm tăng giá nhà ở, thực phẩm và các dịch vụ. Điều này có thể khiến cuộc sống của người dân địa phương trở nên khó khăn hơn.\n\nTóm lại, <strong>ngành du lịch đối với cộng đồng địa phương</strong> có cả lợi thế và bất lợi. Những điểm được thảo luận ở trên làm nổi bật các khía cạnh chính của nó. Nhìn chung, việc hiểu các yếu tố này giúp cung cấp một cái nhìn cân bằng hơn về chủ đề này."
+        }
       },
       {
         "id": 18,
