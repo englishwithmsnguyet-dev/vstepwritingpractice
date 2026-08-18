@@ -31201,12 +31201,337 @@ const ESSAY_DATA = [
         "title_en": "University students should do part-time jobs.",
         "title_vi": "Sinh viên đại học nên làm việc bán thời gian.",
         "paraphrases": [
-          "Having a parttime job is beneficial for students at university.",
-          "Doing a parttime job brings students many benefits."
+          {
+            "en": "university students should do part-time jobs",
+            "vi": "sinh viên đại học nên làm việc bán thời gian"
+          },
+          {
+            "en": "undergraduates engaging in part-time employment",
+            "vi": "sinh viên tham gia làm việc bán thời gian"
+          },
+          {
+            "en": "taking up part-time work alongside tertiary studies",
+            "vi": "làm thêm song song với việc học đại học"
+          },
+          {
+            "en": "balancing academic education with part-time jobs",
+            "vi": "cân bằng giữa việc học và công việc làm thêm"
+          }
         ],
         "context": "University education is not only a time for academic learning but also a period when students prepare for their future careers and independent lives. In addition to studying, many university students choose to take part-time jobs to earn money and gain work experience. While some people believe that part-time work can provide valuable benefits, others are concerned that it may distract students from their studies.",
         "prompt": "What is your opinion on the view that university students should do part-time jobs? Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "tags": "[Opinion / Agree]",
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "LÝ DO 01",
+                "collocations": [
+                  {
+                    "en": "real working environment",
+                    "vi": "môi trường làm việc thực tế"
+                  },
+                  {
+                    "en": "perform real work tasks",
+                    "vi": "thực hiện các nhiệm vụ công việc thực tế"
+                  },
+                  {
+                    "en": "job requirements",
+                    "vi": "yêu cầu công việc"
+                  },
+                  {
+                    "en": "look for jobs after graduation",
+                    "vi": "tìm việc sau khi tốt nghiệp"
+                  },
+                  {
+                    "en": "customer service skills",
+                    "vi": "kỹ năng phục vụ khách hàng"
+                  }
+                ],
+                "point_vi": "Làm thêm giúp sinh viên có cơ hội tiếp xúc với môi trường làm việc thực tế.",
+                "point_en": "Part-time jobs give students opportunities to experience the real working environment.",
+                "evidence_vi": "Sinh viên có thể học cách thực hiện những nhiệm vụ công việc thực tế. Họ có thể hiểu rõ hơn về yêu cầu và trách nhiệm của một công việc. Những trải nghiệm này có thể hữu ích khi họ tìm việc sau khi tốt nghiệp. Ví dụ, một sinh viên làm việc tại một cửa hàng có thể hiểu thêm về cách phục vụ khách hàng.",
+                "evidence_en": "Students can learn how to perform real work tasks. They can understand the requirements and responsibilities of a job better. These experiences can be useful when they look for jobs after graduation. For example, a student working in a shop can learn more about customer service."
+              },
+              {
+                "title": "LÝ DO 02",
+                "collocations": [
+                  {
+                    "en": "financially dependent",
+                    "vi": "phụ thuộc tài chính"
+                  },
+                  {
+                    "en": "cover personal expenses",
+                    "vi": "trang trải chi phí cá nhân"
+                  },
+                  {
+                    "en": "reduce financial pressure",
+                    "vi": "giảm áp lực tài chính"
+                  },
+                  {
+                    "en": "manage money better",
+                    "vi": "quản lý tiền bạc tốt hơn"
+                  },
+                  {
+                    "en": "part-time income",
+                    "vi": "thu nhập từ việc làm thêm"
+                  }
+                ],
+                "point_vi": "Công việc bán thời gian có thể giúp sinh viên giảm sự phụ thuộc tài chính vào gia đình.",
+                "point_en": "Part-time work can help students become less financially dependent on their families.",
+                "evidence_vi": "Sinh viên có thể kiếm tiền để trang trải một số chi phí cá nhân. Họ có thể sử dụng thu nhập để mua tài liệu học tập, đi lại hoặc các nhu cầu hằng ngày. Điều này giúp giảm một phần gánh nặng tài chính cho cha mẹ. Vì vậy, sinh viên có thể học cách quản lý tiền bạc tốt hơn.",
+                "evidence_en": "Students can earn money to cover some personal expenses. They can use their income for study materials, transportation, or daily needs. This reduces some financial pressure on their parents. Therefore, students can learn to manage their money better."
+              },
+              {
+                "title": "LÝ DO 03",
+                "collocations": [
+                  {
+                    "en": "important skills for life",
+                    "vi": "kỹ năng quan trọng cho cuộc sống"
+                  },
+                  {
+                    "en": "communicate with colleagues",
+                    "vi": "giao tiếp với đồng nghiệp"
+                  },
+                  {
+                    "en": "manage time between study and work",
+                    "vi": "quản lý thời gian giữa học và làm"
+                  },
+                  {
+                    "en": "confident and responsible",
+                    "vi": "tự tin và có trách nhiệm"
+                  },
+                  {
+                    "en": "prepare for graduation",
+                    "vi": "chuẩn bị cho việc tốt nghiệp"
+                  }
+                ],
+                "point_vi": "Làm thêm có thể giúp sinh viên phát triển những kỹ năng cần thiết cho cuộc sống và công việc.",
+                "point_en": "Part-time work can help students develop important skills for life and work.",
+                "evidence_vi": "Họ có thể học cách giao tiếp với đồng nghiệp và khách hàng. Họ cũng phải sắp xếp thời gian giữa việc học và công việc. Những trải nghiệm này có thể giúp họ trở nên tự tin và có trách nhiệm hơn. Do đó, sinh viên có thể chuẩn bị tốt hơn cho cuộc sống sau khi tốt nghiệp.",
+                "evidence_en": "They can learn how to communicate with colleagues and customers. They also have to manage their time between study and work. These experiences can make them more confident and responsible. Therefore, students can be better prepared for life after graduation."
+              }
+            ],
+            "drawbacks": []
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "LÝ DO 01",
+                "collocations": [
+                  {
+                    "en": "bridge theory-practice gap",
+                    "vi": "thu hẹp khoảng cách lý thuyết - thực tế"
+                  },
+                  {
+                    "en": "pragmatic industry exposure",
+                    "vi": "tiếp xúc thực tế với ngành nghề"
+                  },
+                  {
+                    "en": "workplace role comprehension",
+                    "vi": "thấu hiểu vai trò nơi làm việc"
+                  },
+                  {
+                    "en": "informed career trajectory",
+                    "vi": "định hướng nghề nghiệp sáng suốt"
+                  },
+                  {
+                    "en": "employability enhancement",
+                    "vi": "nâng cao khả năng được tuyển dụng"
+                  }
+                ],
+                "point_vi": "Làm việc bán thời gian giúp sinh viên thu hẹp khoảng cách giữa kiến thức đại học và môi trường làm việc thực tế.",
+                "point_en": "Part-time employment helps students bridge the gap between university knowledge and the real workplace.",
+                "evidence_vi": "Sinh viên có cơ hội áp dụng một số kiến thức và kỹ năng vào các nhiệm vụ thực tế. Qua đó, họ có thể hiểu rõ hơn về yêu cầu và trách nhiệm của người lao động. Những trải nghiệm thực tế cũng giúp họ có thêm thông tin để lựa chọn nghề nghiệp phù hợp. Ví dụ, một sinh viên ngành kinh doanh làm việc tại một cửa hàng có thể học được cách giao tiếp với khách hàng và xử lý các tình huống thực tế. Nhờ đó, sinh viên có thể tự tin hơn khi bước vào thị trường lao động sau khi tốt nghiệp.",
+                "evidence_en": "Students have opportunities to apply some of their knowledge and skills to practical tasks. Through this experience, they can better understand workplace requirements and responsibilities. Practical experience also gives them more information when choosing a suitable career. For example, a business student working in a shop can learn how to communicate with customers and deal with practical situations. As a result, students can become more confident when entering the job market after graduation."
+              },
+              {
+                "title": "LÝ DO 02",
+                "collocations": [
+                  {
+                    "en": "enhance financial autonomy",
+                    "vi": "tăng cường tự chủ tài chính"
+                  },
+                  {
+                    "en": "offset educational expenses",
+                    "vi": "bù đắp chi phí giáo dục"
+                  },
+                  {
+                    "en": "reduce familial dependency",
+                    "vi": "giảm sự phụ thuộc gia đình"
+                  },
+                  {
+                    "en": "responsible fiscal habits",
+                    "vi": "thói quen tài chính có trách nhiệm"
+                  },
+                  {
+                    "en": "expenditure management",
+                    "vi": "quản lý chi tiêu"
+                  }
+                ],
+                "point_vi": "Một công việc bán thời gian có thể giúp sinh viên chủ động hơn về tài chính trong thời gian học đại học.",
+                "point_en": "A part-time job can give students greater financial independence during university.",
+                "evidence_vi": "Sinh viên có thể kiếm thêm thu nhập để đáp ứng một số nhu cầu cá nhân. Khoản tiền này có thể được dùng cho học phí, tài liệu, phương tiện đi lại hoặc chi phí sinh hoạt. Khi tự kiếm được một phần thu nhập, sinh viên có thể giảm sự phụ thuộc vào gia đình. Ví dụ, một sinh viên làm việc vào cuối tuần có thể sử dụng thu nhập để chi trả một số khoản sinh hoạt cá nhân. Quan trọng hơn, quá trình kiếm và sử dụng tiền có thể giúp họ hình thành thói quen chi tiêu có trách nhiệm.",
+                "evidence_en": "Students can earn additional income to meet some personal needs. This money can be used for tuition, study materials, transportation, or living expenses. By earning part of their own income, students can become less dependent on their families. For example, a student who works at weekends can use the income to cover some personal living expenses. More importantly, earning and using money can help them develop responsible spending habits."
+              },
+              {
+                "title": "LÝ DO 03",
+                "collocations": [
+                  {
+                    "en": "transferable competencies",
+                    "vi": "năng lực chuyển đổi linh hoạt"
+                  },
+                  {
+                    "en": "time management optimization",
+                    "vi": "tối ưu hóa quản lý thời gian"
+                  },
+                  {
+                    "en": "collaborative problem-solving",
+                    "vi": "giải quyết vấn đề theo nhóm"
+                  },
+                  {
+                    "en": "professional resilience",
+                    "vi": "sự kiên cường trong nghề nghiệp"
+                  },
+                  {
+                    "en": "scholastic and occupational balance",
+                    "vi": "sự cân bằng giữa học thuật và nghề nghiệp"
+                  }
+                ],
+                "point_vi": "Kinh nghiệm làm thêm có thể giúp sinh viên hình thành những kỹ năng có giá trị trong nhiều môi trường khác nhau.",
+                "point_en": "Part-time work can help students develop valuable skills that are useful in different situations.",
+                "evidence_vi": "Họ phải giao tiếp, hợp tác và giải quyết vấn đề trong quá trình làm việc. Việc cân bằng lịch học với lịch làm cũng yêu cầu họ quản lý thời gian hiệu quả. Những kỹ năng này có thể giúp sinh viên làm việc hiệu quả hơn trong tương lai. Chẳng hạn, một sinh viên vừa học vừa làm có thể phải lập kế hoạch trước để hoàn thành bài tập đúng hạn và đi làm đầy đủ. Vì vậy, nếu được sắp xếp hợp lý, công việc bán thời gian có thể góp phần chuẩn bị cho sinh viên về mặt cá nhân và nghề nghiệp.",
+                "evidence_en": "They have to communicate, cooperate, and solve problems while working. Balancing study and work schedules also requires effective time management. These skills can help students work more effectively in the future. For instance, a student who studies and works may need to plan ahead to complete assignments on time and attend work regularly. Therefore, when properly managed, part-time work can help prepare students both personally and professionally."
+              }
+            ],
+            "drawbacks": []
+          },
+          "vocab": [
+            {
+              "en": "real working environment",
+              "vi": "môi trường làm việc thực tế"
+            },
+            {
+              "en": "perform real work tasks",
+              "vi": "thực hiện các nhiệm vụ công việc thực tế"
+            },
+            {
+              "en": "job requirements",
+              "vi": "yêu cầu công việc"
+            },
+            {
+              "en": "look for jobs after graduation",
+              "vi": "tìm việc sau khi tốt nghiệp"
+            },
+            {
+              "en": "customer service skills",
+              "vi": "kỹ năng phục vụ khách hàng"
+            },
+            {
+              "en": "financially dependent",
+              "vi": "phụ thuộc tài chính"
+            },
+            {
+              "en": "cover personal expenses",
+              "vi": "trang trải chi phí cá nhân"
+            },
+            {
+              "en": "reduce financial pressure",
+              "vi": "giảm áp lực tài chính"
+            },
+            {
+              "en": "manage money better",
+              "vi": "quản lý tiền bạc tốt hơn"
+            },
+            {
+              "en": "part-time income",
+              "vi": "thu nhập từ việc làm thêm"
+            },
+            {
+              "en": "important skills for life",
+              "vi": "kỹ năng quan trọng cho cuộc sống"
+            },
+            {
+              "en": "communicate with colleagues",
+              "vi": "giao tiếp với đồng nghiệp"
+            },
+            {
+              "en": "manage time between study and work",
+              "vi": "quản lý thời gian giữa học và làm"
+            },
+            {
+              "en": "confident and responsible",
+              "vi": "tự tin và có trách nhiệm"
+            },
+            {
+              "en": "prepare for graduation",
+              "vi": "chuẩn bị cho việc tốt nghiệp"
+            },
+            {
+              "en": "bridge theory-practice gap",
+              "vi": "thu hẹp khoảng cách lý thuyết - thực tế"
+            },
+            {
+              "en": "pragmatic industry exposure",
+              "vi": "tiếp xúc thực tế với ngành nghề"
+            },
+            {
+              "en": "workplace role comprehension",
+              "vi": "thấu hiểu vai trò nơi làm việc"
+            },
+            {
+              "en": "informed career trajectory",
+              "vi": "định hướng nghề nghiệp sáng suốt"
+            },
+            {
+              "en": "employability enhancement",
+              "vi": "nâng cao khả năng được tuyển dụng"
+            },
+            {
+              "en": "enhance financial autonomy",
+              "vi": "tăng cường tự chủ tài chính"
+            },
+            {
+              "en": "offset educational expenses",
+              "vi": "bù đắp chi phí giáo dục"
+            },
+            {
+              "en": "reduce familial dependency",
+              "vi": "giảm sự phụ thuộc gia đình"
+            },
+            {
+              "en": "responsible fiscal habits",
+              "vi": "thói quen tài chính có trách nhiệm"
+            },
+            {
+              "en": "expenditure management",
+              "vi": "quản lý chi tiêu"
+            },
+            {
+              "en": "transferable competencies",
+              "vi": "năng lực chuyển đổi linh hoạt"
+            },
+            {
+              "en": "time management optimization",
+              "vi": "tối ưu hóa quản lý thời gian"
+            },
+            {
+              "en": "collaborative problem-solving",
+              "vi": "giải quyết vấn đề theo nhóm"
+            },
+            {
+              "en": "professional resilience",
+              "vi": "sự kiên cường trong nghề nghiệp"
+            },
+            {
+              "en": "scholastic and occupational balance",
+              "vi": "sự cân bằng giữa học thuật và nghề nghiệp"
+            }
+          ],
+          "sample_b1": "In recent years, the idea that <strong><em>university students should do part-time jobs</em></strong> has become a common topic of discussion. From my perspective, <strong>I completely agree with this opinion for several important reasons.</strong> This essay will present the main arguments supporting my viewpoint.\n\nThe first reason why I agree with this opinion is that <strong><em>part-time jobs give students opportunities to experience the real working environment.</em></strong> Students can learn how to perform real work tasks. They can understand the requirements and responsibilities of a job better. These experiences can be useful when they look for jobs after graduation. For example, a student working in a shop can learn more about customer service.\n\nAnother important reason is that <strong><em>part-time work can help students become less financially dependent on their families.</em></strong> Students can earn money to cover some personal expenses. They can use their income for study materials, transportation, or daily needs. This reduces some financial pressure on their parents. Therefore, students can learn to manage their money better.\n\nA further reason supporting my viewpoint is that <strong><em>part-time work can help students develop important skills for life and work.</em></strong> They can learn how to communicate with colleagues and customers. They also have to manage their time between study and work. These experiences can make them more confident and responsible. Therefore, students can be better prepared for life after graduation.\n\nIn conclusion, <strong>I strongly agree with the idea</strong> that <strong><em>university students should do part-time jobs.</em></strong> The reasons above clearly explain why I support this viewpoint. If students manage their time wisely, part-time jobs will bring great benefits to their personal and professional growth.",
+          "translation_b1": "Trong những năm gần đây, quan điểm cho rằng <strong><em>sinh viên đại học nên làm việc bán thời gian</em></strong> đã trở thành một chủ đề thảo luận phổ biến. Theo quan điểm của tôi, <strong>tôi hoàn toàn đồng ý với ý kiến này vì một số lý do quan trọng.</strong> Bài tiểu luận này sẽ trình bày những lập luận chính ủng hộ quan điểm của tôi.\n\nLý do đầu tiên khiến tôi đồng ý với ý kiến này là <strong><em>làm thêm giúp sinh viên có cơ hội tiếp xúc với môi trường làm việc thực tế.</em></strong> Sinh viên có thể học cách thực hiện những nhiệm vụ công việc thực tế. Họ có thể hiểu rõ hơn về yêu cầu và trách nhiệm của một công việc. Những trải nghiệm này có thể hữu ích khi họ tìm việc sau khi tốt nghiệp. Ví dụ, một sinh viên làm việc tại một cửa hàng có thể hiểu thêm về cách phục vụ khách hàng.\n\nMột lý do quan trọng khác là <strong><em>công việc bán thời gian có thể giúp sinh viên giảm sự phụ thuộc tài chính vào gia đình.</em></strong> Sinh viên có thể kiếm tiền để trang trải một số chi phí cá nhân. Họ có thể sử dụng thu nhập để mua tài liệu học tập, đi lại hoặc các nhu cầu hằng ngày. Điều này giúp giảm một phần gánh nặng tài chính cho cha mẹ. Vì vậy, sinh viên có thể học cách quản lý tiền bạc tốt hơn.\n\nMột lý do nữa ủng hộ quan điểm của tôi là <strong><em>làm thêm có thể giúp sinh viên phát triển những kỹ năng cần thiết cho cuộc sống và công việc.</em></strong> Họ có thể học cách giao tiếp với đồng nghiệp và khách hàng. Họ cũng phải sắp xếp thời gian giữa việc học và công việc. Những trải nghiệm này có thể giúp họ trở nên tự tin và có trách nhiệm hơn. Do đó, sinh viên có thể chuẩn bị tốt hơn cho cuộc sống sau khi tốt nghiệp.\n\nTóm lại, <strong>tôi hoàn toàn đồng ý với ý kiến</strong> cho rằng <strong><em>sinh viên đại học nên làm việc bán thời gian.</em></strong> Những lý do trên giải thích rõ ràng tại sao tôi ủng hộ quan điểm này. Nếu sinh viên quản lý thời gian khôn ngoan, công việc bán thời gian sẽ mang lại những lợi ích to lớn cho sự phát triển cá nhân và nghề nghiệp của họ."
+        }
       },
       {
         "id": 30,
