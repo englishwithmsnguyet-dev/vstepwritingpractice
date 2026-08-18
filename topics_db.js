@@ -34858,7 +34858,240 @@ const ESSAY_DATA = [
         "title_vi": "Thành công trong thể thao: nhờ tài năng bẩm sinh hay nỗ lực rèn luyện?",
         "context": "Success in sports is often influenced by a combination of different factors, and people have long debated which factor is more important. Some people believe that natural talent is the key to becoming a successful athlete because it provides physical and mental advantages that cannot easily be learned. Others argue that hard work, determination, and continuous training are more important because they enable athletes to develop their skills and reach their full potential over time.",
         "prompt": "Discuss both views and give your own opinion. Include reasons and any relevant examples to support your answer.",
-        "has_full_details": false
+        "has_full_details": true,
+        "tags": "[Discuss Both Views]",
+        "paraphrases": [
+          {
+            "en": "athletic success: natural talent or hard work",
+            "vi": "thành công thể thao: tài năng thiên bẩm hay nỗ lực chăm chỉ"
+          },
+          {
+            "en": "sporting excellence: innate ability versus dedicated training",
+            "vi": "sự xuất sắc thể thao: năng khiếu bẩm sinh so với tập luyện tận tụy"
+          },
+          {
+            "en": "inborn athleticism compared to rigorous practice in sports",
+            "vi": "thể chất bẩm sinh so với quá trình rèn luyện khắc nghiệt"
+          },
+          {
+            "en": "genetic athletic advantage versus perseverance and discipline",
+            "vi": "ưu thế thể thao di truyền so với sự kiên trì và kỷ luật"
+          }
+        ],
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "VIEW 01: NATURAL TALENT IS IMPORTANT FOR SPORTING SUCCESS",
+                "collocations": [
+                  {
+                    "en": "natural talent",
+                    "vi": "năng khiếu tự nhiên"
+                  },
+                  {
+                    "en": "strength and speed",
+                    "vi": "sức mạnh và tốc độ"
+                  },
+                  {
+                    "en": "learn skills quickly",
+                    "vi": "học kỹ năng nhanh"
+                  },
+                  {
+                    "en": "running events",
+                    "vi": "các môn chạy"
+                  },
+                  {
+                    "en": "stand out from young age",
+                    "vi": "nổi bật từ khi còn trẻ"
+                  }
+                ],
+                "point_vi": "Một số người cho rằng năng khiếu tự nhiên mang lại cho vận động viên những lợi thế quan trọng.",
+                "point_en": "Some people believe that natural talent gives athletes important advantages.",
+                "evidence_vi": "Một số người có thể có sức mạnh, tốc độ hoặc khả năng phối hợp tốt hơn ngay từ đầu. Những lợi thế này giúp họ học các kỹ năng thể thao nhanh hơn. Họ có thể đạt thành tích tốt ngay cả khi chưa tập luyện trong thời gian dài. Ví dụ, một người có tốc độ tự nhiên tốt có thể có lợi thế trong các môn chạy. Vì vậy, năng khiếu có thể giúp một số vận động viên nổi bật ngay từ khi còn trẻ.",
+                "evidence_en": "Some people may have better strength, speed, or coordination from the beginning. These advantages help them learn sports skills more quickly. They may achieve good results even without many years of training. For example, a person with natural speed may have an advantage in running events. Therefore, natural talent can help some athletes stand out from a young age."
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "VIEW 02: HARD WORK AND TRAINING ARE MORE IMPORTANT",
+                "collocations": [
+                  {
+                    "en": "hard work and training",
+                    "vi": "chăm chỉ và luyện tập"
+                  },
+                  {
+                    "en": "improve physical fitness",
+                    "vi": "nâng cao thể lực"
+                  },
+                  {
+                    "en": "determination",
+                    "vi": "sự kiên trì / quyết tâm"
+                  },
+                  {
+                    "en": "avoid giving up",
+                    "vi": "không bỏ cuộc"
+                  },
+                  {
+                    "en": "long-term effort",
+                    "vi": "nỗ lực lâu dài"
+                  }
+                ],
+                "point_vi": "Những người khác cho rằng sự chăm chỉ và luyện tập thường xuyên đóng vai trò quan trọng hơn.",
+                "point_en": "Others argue that hard work and regular training play a more important role.",
+                "evidence_vi": "Vận động viên cần luyện tập thường xuyên để cải thiện kỹ năng. Quá trình này giúp họ sửa chữa điểm yếu và nâng cao thể lực. Sự kiên trì cũng giúp họ không dễ dàng bỏ cuộc khi gặp khó khăn. Ví dụ, một vận động viên có thể không có năng khiếu đặc biệt nhưng vẫn tiến bộ nhờ luyện tập chăm chỉ. Do đó, nỗ lực lâu dài có thể giúp vận động viên đạt được mục tiêu của mình.",
+                "evidence_en": "Athletes need to practise regularly to improve their skills. This process helps them improve their weaknesses and physical fitness. Determination also helps them avoid giving up when they face difficulties. For example, an athlete may not have special talent but can still improve through hard training. Therefore, long-term effort can help athletes achieve their goals."
+              }
+            ]
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "VIEW 01: NATURAL TALENT IS THE KEY TO SUCCESS",
+                "collocations": [
+                  {
+                    "en": "innate physical characteristics",
+                    "vi": "đặc điểm thể chất bẩm sinh"
+                  },
+                  {
+                    "en": "acquire techniques rapidly",
+                    "vi": "tiếp thu kỹ thuật nhanh chóng"
+                  },
+                  {
+                    "en": "early career prominence",
+                    "vi": "sự nổi bật đầu sự nghiệp"
+                  },
+                  {
+                    "en": "speed-based sports",
+                    "vi": "các môn thể thao tốc độ"
+                  },
+                  {
+                    "en": "physiological foundation",
+                    "vi": "nền tảng sinh lý học"
+                  }
+                ],
+                "point_vi": "Những người ủng hộ quan điểm này cho rằng năng khiếu tự nhiên có thể mang lại lợi thế đáng kể trong thành tích thể thao.",
+                "point_en": "Those who support this view argue that natural talent can provide significant advantages in sporting performance.",
+                "evidence_vi": "Một số vận động viên có những đặc điểm thể chất phù hợp với một môn thể thao cụ thể. Họ có thể sở hữu tốc độ, sức mạnh, sự linh hoạt hoặc khả năng phối hợp tốt hơn những người khác. Những lợi thế ban đầu này có thể giúp họ tiếp thu kỹ thuật nhanh hơn. Nhờ đó, họ có thể đạt thành tích nổi bật ngay từ giai đoạn đầu của sự nghiệp. Ví dụ, một người có tốc độ và phản xạ tự nhiên tốt có thể có lợi thế lớn trong các môn thể thao tốc độ. Vì vậy, những người ủng hộ quan điểm này cho rằng năng khiếu là nền tảng quan trọng để phát triển thành một vận động viên thành công.",
+                "evidence_en": "Some athletes have physical characteristics that are particularly suitable for a specific sport. They may have greater speed, strength, flexibility, or coordination than others. These initial advantages can help them acquire techniques more quickly. As a result, they may achieve outstanding results at an early stage of their careers. For example, a person with naturally high speed and quick reactions may have a considerable advantage in speed-based sports. Therefore, supporters believe that talent is an important foundation for becoming a successful athlete."
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "VIEW 02: HARD WORK, DETERMINATION AND TRAINING MATTER MORE",
+                "collocations": [
+                  {
+                    "en": "systematic disciplined training",
+                    "vi": "luyện tập có hệ thống và kỷ luật"
+                  },
+                  {
+                    "en": "unwavering determination",
+                    "vi": "sự quyết tâm không lay chuyển"
+                  },
+                  {
+                    "en": "reach full potential",
+                    "vi": "đạt đến tiềm năng tối đa"
+                  },
+                  {
+                    "en": "overcome competitive setbacks",
+                    "vi": "vượt qua những thất bại thi đấu"
+                  },
+                  {
+                    "en": "long-term athletic sustainability",
+                    "vi": "sự bền vững thể thao dài hạn"
+                  }
+                ],
+                "point_vi": "Ngược lại, nhiều người cho rằng thành công thể thao phụ thuộc nhiều hơn vào nỗ lực lâu dài và quá trình luyện tập có kỷ luật.",
+                "point_en": "In contrast, many people believe that sporting success depends more on long-term effort and disciplined training.",
+                "evidence_vi": "Ngay cả vận động viên có năng khiếu cũng cần luyện tập thường xuyên để phát triển khả năng của mình. Luyện tập giúp họ cải thiện kỹ thuật, thể lực và khả năng thi đấu. Sự kiên trì cũng giúp họ vượt qua thất bại và những giai đoạn khó khăn. Nếu chỉ dựa vào năng khiếu, một vận động viên có thể không phát triển hết tiềm năng của mình. Ví dụ, một vận động viên có khả năng trung bình ban đầu có thể đạt thành tích cao sau nhiều năm luyện tập nghiêm túc. Hơn nữa, luyện tập thường xuyên giúp vận động viên hình thành tính kỷ luật và thói quen làm việc chăm chỉ. Vì vậy, nỗ lực và luyện tập liên tục có thể quan trọng hơn năng khiếu trong việc duy trì thành công lâu dài.",
+                "evidence_en": "Even talented athletes need regular training to develop their abilities. Training helps them improve their techniques, physical fitness, and competitive performance. Determination also helps them overcome failures and difficult periods. If athletes rely only on talent, they may fail to reach their full potential. For example, an athlete with average initial ability may achieve high performance after years of serious training. Moreover, regular training helps athletes develop discipline and strong work habits. Therefore, continuous effort and training may be more important than talent for achieving long-term success."
+              }
+            ]
+          },
+          "vocab": [
+            {
+              "en": "natural talent",
+              "vi": "năng khiếu tự nhiên"
+            },
+            {
+              "en": "strength and speed",
+              "vi": "sức mạnh và tốc độ"
+            },
+            {
+              "en": "learn skills quickly",
+              "vi": "học kỹ năng nhanh"
+            },
+            {
+              "en": "running events",
+              "vi": "các môn chạy"
+            },
+            {
+              "en": "stand out from young age",
+              "vi": "nổi bật từ khi còn trẻ"
+            },
+            {
+              "en": "hard work and training",
+              "vi": "chăm chỉ và luyện tập"
+            },
+            {
+              "en": "improve physical fitness",
+              "vi": "nâng cao thể lực"
+            },
+            {
+              "en": "determination",
+              "vi": "sự kiên trì / quyết tâm"
+            },
+            {
+              "en": "avoid giving up",
+              "vi": "không bỏ cuộc"
+            },
+            {
+              "en": "long-term effort",
+              "vi": "nỗ lực lâu dài"
+            },
+            {
+              "en": "innate physical characteristics",
+              "vi": "đặc điểm thể chất bẩm sinh"
+            },
+            {
+              "en": "acquire techniques rapidly",
+              "vi": "tiếp thu kỹ thuật nhanh chóng"
+            },
+            {
+              "en": "early career prominence",
+              "vi": "sự nổi bật đầu sự nghiệp"
+            },
+            {
+              "en": "speed-based sports",
+              "vi": "các môn thể thao tốc độ"
+            },
+            {
+              "en": "physiological foundation",
+              "vi": "nền tảng sinh lý học"
+            },
+            {
+              "en": "systematic disciplined training",
+              "vi": "luyện tập có hệ thống và kỷ luật"
+            },
+            {
+              "en": "unwavering determination",
+              "vi": "sự quyết tâm không lay chuyển"
+            },
+            {
+              "en": "reach full potential",
+              "vi": "đạt đến tiềm năng tối đa"
+            },
+            {
+              "en": "overcome competitive setbacks",
+              "vi": "vượt qua những thất bại thi đấu"
+            },
+            {
+              "en": "long-term athletic sustainability",
+              "vi": "sự bền vững thể thao dài hạn"
+            }
+          ],
+          "sample_b1": "In recent years, <strong>the debate over whether athletic success comes from natural talent or hard work</strong> has become a common topic of discussion. Some people believe that <strong><em>natural talent gives athletes important advantages</em></strong>, while others argue that <strong><em>hard work and regular training play a more important role</em></strong>. <strong>This essay will discuss both views and give my own opinion.</strong>\n\n<strong>On the one hand, it is argued that natural talent gives athletes important advantages.</strong> Some people may have better strength, speed, or coordination from the beginning. These advantages help them learn sports skills more quickly. They may achieve good results even without many years of training. For example, a person with natural speed may have an advantage in running events. Therefore, natural talent can help some athletes stand out from a young age.\n\n<strong>On the other hand, it is believed that hard work and regular training play a more important role.</strong> Athletes need to practise regularly to improve their skills. This process helps them improve their weaknesses and physical fitness. Determination also helps them avoid giving up when they face difficulties. For example, an athlete may not have special talent but can still improve through hard training. Therefore, long-term effort can help athletes achieve their goals.\n\nIn conclusion, both views have valid reasons. However, <strong><em>I believe that hard work and training are more important than natural talent</em></strong> because <strong><em>talent can provide an initial advantage, but training determines long-term improvement</em></strong>. Therefore, athletes should focus on continuous practice and perseverance to attain lasting success.",
+          "translation_b1": "Trong những năm gần đây, <strong>cuộc tranh luận về việc thành công trong thể thao đến từ năng khiếu bẩm sinh hay sự chăm chỉ</strong> đã trở thành một chủ đề thảo luận phổ biến. Một số người tin rằng <strong><em>năng khiếu tự nhiên mang lại cho vận động viên những lợi thế quan trọng</em></strong>, trong khi những người khác cho rằng <strong><em>sự chăm chỉ và luyện tập thường xuyên đóng vai trò quan trọng hơn</em></strong>. <strong>Bài tiểu luận này sẽ thảo luận về cả hai quan điểm và đưa ra ý kiến của riêng tôi.</strong>\n\n<strong>Một mặt, có ý kiến cho rằng năng khiếu tự nhiên mang lại cho vận động viên những lợi thế quan trọng.</strong> Một số người có thể có sức mạnh, tốc độ hoặc khả năng phối hợp tốt hơn ngay từ đầu. Những lợi thế này giúp họ học các kỹ năng thể thao nhanh hơn. Họ có thể đạt thành tích tốt ngay cả khi chưa tập luyện trong thời gian dài. Ví dụ, một người có tốc độ tự nhiên tốt có thể có lợi thế trong các môn chạy. Vì vậy, năng khiếu có thể giúp một số vận động viên nổi bật ngay từ khi còn trẻ.\n\n<strong>Mặt khác, người ta tin rằng sự chăm chỉ và luyện tập thường xuyên đóng vai trò quan trọng hơn.</strong> Vận động viên cần luyện tập thường xuyên để cải thiện kỹ năng. Quá trình này giúp họ sửa chữa điểm yếu và nâng cao thể lực. Sự kiên trì cũng giúp họ không dễ dàng bỏ cuộc khi gặp khó khăn. Ví dụ, một vận động viên có thể không có năng khiếu đặc biệt nhưng vẫn tiến bộ nhờ luyện tập chăm chỉ. Do đó, nỗ lực lâu dài có thể giúp vận động viên đạt được mục tiêu của mình.\n\nTóm lại, cả hai quan điểm đều có những lý do hợp lý. Tuy nhiên, <strong><em>tôi tin rằng sự chăm chỉ và luyện tập quan trọng hơn năng khiếu tự nhiên</em></strong> vì <strong><em>năng khiếu có thể tạo lợi thế ban đầu, nhưng luyện tập quyết định khả năng phát triển lâu dài</em></strong>. Vì vậy, các vận động viên nên tập trung vào việc luyện tập liên tục và kiên trì để đạt được thành công bền vững."
+        }
       },
       {
         "title_en": "Traffic light countdown timers",
