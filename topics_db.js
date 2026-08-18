@@ -10340,7 +10340,617 @@ const ESSAY_DATA = [
         "title_vi": "Thực phẩm công nghệ sinh học",
         "context": "Nowadays, biotech food has become a topic of discussion in many countries. With the development of biotechnology, scientists can produce food that grows faster, lasts longer, or contains more nutrients. Some people believe that biotech food brings many benefits to agriculture and consumers, while others argue that it may also create several risks for health and the environment.",
         "prompt": "Write an essay to an educated reader to discuss the advantages and disadvantages of biotech food. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "paraphrases": [
+          {
+            "en": "genetically modified food (GM food)",
+            "vi": "thực phẩm biến đổi gen"
+          },
+          {
+            "en": "bioengineered food products",
+            "vi": "sản phẩm thực phẩm công nghệ sinh học"
+          },
+          {
+            "en": "genetically engineered crops",
+            "vi": "cây trồng biến đổi gen"
+          },
+          {
+            "en": "biotechnology-based food",
+            "vi": "thực phẩm ứng dụng công nghệ sinh học"
+          }
+        ],
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "ADVANTAGE 01",
+                "collocations": [
+                  {
+                    "en": "increase food production",
+                    "vi": "tăng sản lượng lương thực"
+                  },
+                  {
+                    "en": "grow faster",
+                    "vi": "phát triển nhanh hơn"
+                  },
+                  {
+                    "en": "produce higher yields",
+                    "vi": "cho năng suất cao hơn"
+                  },
+                  {
+                    "en": "meet food needs",
+                    "vi": "đáp ứng nhu cầu lương thực"
+                  },
+                  {
+                    "en": "growing population",
+                    "vi": "dân số ngày càng tăng"
+                  }
+                ],
+                "point_vi": "Thực phẩm công nghệ sinh học có thể giúp tăng sản lượng lương thực.",
+                "point_en": "Biotech food can help increase food production.",
+                "evidence_vi": "Một số loại cây trồng có thể phát triển nhanh hơn và cho năng suất cao hơn để đáp ứng nhu cầu của dân số.",
+                "evidence_en": "Some crops can grow faster and produce higher yields to meet the growing population's food needs."
+              },
+              {
+                "title": "ADVANTAGE 02",
+                "collocations": [
+                  {
+                    "en": "longer shelf life",
+                    "vi": "thời hạn sử dụng lâu hơn"
+                  },
+                  {
+                    "en": "stay fresh",
+                    "vi": "giữ được độ tươi ngon"
+                  },
+                  {
+                    "en": "maintain food quality",
+                    "vi": "duy trì chất lượng thực phẩm"
+                  },
+                  {
+                    "en": "reduce food waste",
+                    "vi": "giảm lãng phí thực phẩm"
+                  },
+                  {
+                    "en": "spoil less quickly",
+                    "vi": "ít bị hỏng nhanh"
+                  }
+                ],
+                "point_vi": "Thực phẩm công nghệ sinh học có thể để được lâu hơn.",
+                "point_en": "Biotech food can have a longer shelf life.",
+                "evidence_vi": "Những sản phẩm này giữ được chất lượng trong thời gian dài hơn, giúp giảm lượng thực phẩm bị lãng phí.",
+                "evidence_en": "These products can maintain their quality for longer periods, which helps reduce food waste."
+              },
+              {
+                "title": "ADVANTAGE 03",
+                "collocations": [
+                  {
+                    "en": "provide more nutrients",
+                    "vi": "cung cấp nhiều chất dinh dưỡng hơn"
+                  },
+                  {
+                    "en": "higher levels of vitamins",
+                    "vi": "hàm lượng vitamin cao hơn"
+                  },
+                  {
+                    "en": "essential minerals",
+                    "vi": "các khoáng chất thiết yếu"
+                  },
+                  {
+                    "en": "improve consumers' diets",
+                    "vi": "cải thiện chế độ ăn của người tiêu dùng"
+                  },
+                  {
+                    "en": "better nutritional value",
+                    "vi": "giá trị dinh dưỡng tốt hơn"
+                  }
+                ],
+                "point_vi": "Thực phẩm công nghệ sinh học có thể cung cấp nhiều chất dinh dưỡng hơn.",
+                "point_en": "Biotech food can provide more nutrients.",
+                "evidence_vi": "Một số thực phẩm có thể được sản xuất với hàm lượng vitamin và khoáng chất cao hơn để cải thiện chế độ ăn uống của người tiêu dùng.",
+                "evidence_en": "Some foods can be produced with higher levels of vitamins and minerals to improve consumers' diets."
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "DISADVANTAGE 01",
+                "collocations": [
+                  {
+                    "en": "health concerns",
+                    "vi": "những lo ngại về sức khỏe"
+                  },
+                  {
+                    "en": "consuming modified food",
+                    "vi": "tiêu thụ thực phẩm biến đổi gen"
+                  },
+                  {
+                    "en": "health problems",
+                    "vi": "vấn đề sức khỏe"
+                  },
+                  {
+                    "en": "unknown long-term effects",
+                    "vi": "tác động lâu dài chưa rõ ràng"
+                  },
+                  {
+                    "en": "allergic reactions",
+                    "vi": "phản ứng dị ứng"
+                  }
+                ],
+                "point_vi": "Thực phẩm công nghệ sinh học có thể gây ra những lo ngại về sức khỏe.",
+                "point_en": "Biotech food may cause health concerns.",
+                "evidence_vi": "Một số người lo ngại rằng việc tiêu thụ những thực phẩm này có thể gây ra các vấn đề sức khỏe.",
+                "evidence_en": "Some people worry that consuming these foods may cause health problems."
+              },
+              {
+                "title": "DISADVANTAGE 02",
+                "collocations": [
+                  {
+                    "en": "harm the environment",
+                    "vi": "gây hại cho môi trường"
+                  },
+                  {
+                    "en": "modified crops",
+                    "vi": "cây trồng biến đổi gen"
+                  },
+                  {
+                    "en": "affect plants and animals",
+                    "vi": "ảnh hưởng đến thực vật và động vật"
+                  },
+                  {
+                    "en": "natural balance",
+                    "vi": "sự cân bằng tự nhiên"
+                  },
+                  {
+                    "en": "environmental impact",
+                    "vi": "tác động môi trường"
+                  }
+                ],
+                "point_vi": "Thực phẩm công nghệ sinh học có thể gây ảnh hưởng xấu đến môi trường.",
+                "point_en": "Biotech food may harm the environment.",
+                "evidence_vi": "Việc trồng một số loại cây biến đổi có thể ảnh hưởng đến các loài thực vật và động vật khác.",
+                "evidence_en": "Growing some modified crops may affect other plants and animals."
+              },
+              {
+                "title": "DISADVANTAGE 03",
+                "collocations": [
+                  {
+                    "en": "expensive food products",
+                    "vi": "sản phẩm thực phẩm đắt đỏ"
+                  },
+                  {
+                    "en": "advanced technology",
+                    "vi": "công nghệ tiên tiến"
+                  },
+                  {
+                    "en": "scientific research",
+                    "vi": "nghiên cứu khoa học"
+                  },
+                  {
+                    "en": "costly production",
+                    "vi": "việc sản xuất tốn kém"
+                  },
+                  {
+                    "en": "increase product prices",
+                    "vi": "tăng giá sản phẩm"
+                  }
+                ],
+                "point_vi": "Thực phẩm công nghệ sinh học có thể có giá cao.",
+                "point_en": "Biotech food may be expensive.",
+                "evidence_vi": "Công nghệ và nghiên cứu cần thiết để sản xuất những sản phẩm này có thể tốn nhiều tiền.",
+                "evidence_en": "The technology and research needed to produce these products can be costly."
+              }
+            ]
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "ADVANTAGE 01",
+                "collocations": [
+                  {
+                    "en": "contribute to higher food production",
+                    "vi": "góp phần tăng sản lượng lương thực"
+                  },
+                  {
+                    "en": "produce higher yields",
+                    "vi": "cho năng suất cao hơn"
+                  },
+                  {
+                    "en": "growing food needs",
+                    "vi": "nhu cầu lương thực ngày càng tăng"
+                  },
+                  {
+                    "en": "enhance crop resilience",
+                    "vi": "tăng cường khả năng chống chịu của cây trồng"
+                  },
+                  {
+                    "en": "ensure food security",
+                    "vi": "đảm bảo an ninh lương thực"
+                  }
+                ],
+                "point_vi": "Thực phẩm công nghệ sinh học có thể góp phần tăng sản lượng lương thực.",
+                "point_en": "Biotech food can contribute to higher food production.",
+                "evidence_vi": "Một số loại cây có thể phát triển nhanh hơn và cho năng suất cao hơn. Điều này giúp đáp ứng nhu cầu lương thực ngày càng tăng của dân số.",
+                "evidence_en": "Some crops can grow faster and produce higher yields. This helps meet the growing food needs of the population."
+              },
+              {
+                "title": "ADVANTAGE 02",
+                "collocations": [
+                  {
+                    "en": "longer shelf life",
+                    "vi": "thời hạn sử dụng lâu hơn"
+                  },
+                  {
+                    "en": "maintain quality for longer periods",
+                    "vi": "duy trì chất lượng lâu hơn"
+                  },
+                  {
+                    "en": "reduce food waste",
+                    "vi": "giảm lãng phí thực phẩm"
+                  },
+                  {
+                    "en": "prolong preservation",
+                    "vi": "kéo dài thời gian bảo quản"
+                  },
+                  {
+                    "en": "minimize spoilage",
+                    "vi": "giảm thiểu sự hư hỏng"
+                  }
+                ],
+                "point_vi": "Thực phẩm công nghệ sinh học có thể có thời hạn sử dụng lâu hơn.",
+                "point_en": "Biotech food can have a longer shelf life.",
+                "evidence_vi": "Một số sản phẩm có thể giữ được chất lượng trong thời gian dài hơn. Điều này có thể giúp giảm lượng thực phẩm bị lãng phí.",
+                "evidence_en": "Some products can maintain their quality for longer periods. This can help reduce food waste."
+              },
+              {
+                "title": "ADVANTAGE 03",
+                "collocations": [
+                  {
+                    "en": "provide higher levels of nutrients",
+                    "vi": "cung cấp mức dinh dưỡng cao hơn"
+                  },
+                  {
+                    "en": "fortified with vitamins and minerals",
+                    "vi": "được bổ sung vitamin và khoáng chất"
+                  },
+                  {
+                    "en": "improve consumers' diets",
+                    "vi": "cải thiện chế độ ăn người tiêu dùng"
+                  },
+                  {
+                    "en": "biofortified agricultural crops",
+                    "vi": "cây trồng nông nghiệp tăng cường sinh học"
+                  },
+                  {
+                    "en": "combat malnutrition",
+                    "vi": "chống lại nạn suy dinh dưỡng"
+                  }
+                ],
+                "point_vi": "Thực phẩm công nghệ sinh học có thể cung cấp nhiều chất dinh dưỡng hơn.",
+                "point_en": "Biotech food can provide higher levels of nutrients.",
+                "evidence_vi": "Một số loại thực phẩm có thể được sản xuất với hàm lượng vitamin và khoáng chất cao hơn. Điều này có thể giúp cải thiện chế độ ăn uống của người tiêu dùng.",
+                "evidence_en": "Some foods can be produced with higher levels of vitamins and minerals. This can help improve consumers' diets."
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "DISADVANTAGE 01",
+                "collocations": [
+                  {
+                    "en": "create health risks",
+                    "vi": "tạo ra những rủi ro về sức khỏe"
+                  },
+                  {
+                    "en": "long-term effects of consumption",
+                    "vi": "ảnh hưởng lâu dài của việc tiêu thụ"
+                  },
+                  {
+                    "en": "consumer skepticism",
+                    "vi": "sự hoài nghi của người tiêu dùng"
+                  },
+                  {
+                    "en": "potential allergenicity",
+                    "vi": "nguy cơ tiềm ẩn gây dị ứng"
+                  },
+                  {
+                    "en": "unintended biological side effects",
+                    "vi": "tác dụng phụ sinh học ngoài ý muốn"
+                  }
+                ],
+                "point_vi": "Thực phẩm công nghệ sinh học có thể tạo ra những rủi ro về sức khỏe.",
+                "point_en": "Biotech food may create health risks.",
+                "evidence_vi": "Một số người lo ngại về những ảnh hưởng lâu dài của việc tiêu thụ các sản phẩm này. Những lo ngại này có thể khiến người tiêu dùng không tin tưởng vào thực phẩm công nghệ sinh học.",
+                "evidence_en": "Some people are concerned about the long-term effects of consuming these products. These concerns may make consumers less confident in biotech food."
+              },
+              {
+                "title": "DISADVANTAGE 02",
+                "collocations": [
+                  {
+                    "en": "negative environmental impact",
+                    "vi": "tác động tiêu cực đến môi trường"
+                  },
+                  {
+                    "en": "affect native flora and fauna",
+                    "vi": "ảnh hưởng đến hệ thực vật và động vật bản địa"
+                  },
+                  {
+                    "en": "disrupt natural balance of ecosystems",
+                    "vi": "phá vỡ sự cân bằng tự nhiên của hệ sinh thái"
+                  },
+                  {
+                    "en": "cross-pollination risks",
+                    "vi": "nguy cơ thụ phấn chéo"
+                  },
+                  {
+                    "en": "loss of biodiversity",
+                    "vi": "mất đa dạng sinh học"
+                  }
+                ],
+                "point_vi": "Thực phẩm công nghệ sinh học có thể gây ra những ảnh hưởng tiêu cực đến môi trường.",
+                "point_en": "Biotech food may have negative effects on the environment.",
+                "evidence_vi": "Một số cây trồng biến đổi có thể ảnh hưởng đến các loài thực vật và động vật khác. Điều này có thể làm thay đổi sự cân bằng tự nhiên trong hệ sinh thái.",
+                "evidence_en": "Some modified crops may affect other plants and animals. This may change the natural balance of ecosystems."
+              },
+              {
+                "title": "DISADVANTAGE 03",
+                "collocations": [
+                  {
+                    "en": "costly to produce",
+                    "vi": "tốn kém để sản xuất"
+                  },
+                  {
+                    "en": "heavy capital investment in R&D",
+                    "vi": "đầu tư vốn lớn vào nghiên cứu & phát triển"
+                  },
+                  {
+                    "en": "increase retail prices",
+                    "vi": "làm tăng giá bán lẻ"
+                  },
+                  {
+                    "en": "high production overheads",
+                    "vi": "chi phí sản xuất cao"
+                  },
+                  {
+                    "en": "financial burden on consumers",
+                    "vi": "gánh nặng tài chính lên người tiêu dùng"
+                  }
+                ],
+                "point_vi": "Thực phẩm công nghệ sinh học có thể tốn kém để sản xuất.",
+                "point_en": "Biotech food can be costly to produce.",
+                "evidence_vi": "Các công ty cần đầu tư nhiều tiền vào công nghệ và nghiên cứu. Chi phí cao có thể làm tăng giá sản phẩm đối với người tiêu dùng.",
+                "evidence_en": "Companies need to invest large amounts of money in technology and research. High costs can increase product prices for consumers."
+              }
+            ]
+          },
+          "vocab": [
+            {
+              "en": "increase food production",
+              "vi": "tăng sản lượng lương thực"
+            },
+            {
+              "en": "grow faster",
+              "vi": "phát triển nhanh hơn"
+            },
+            {
+              "en": "produce higher yields",
+              "vi": "cho năng suất cao hơn"
+            },
+            {
+              "en": "meet food needs",
+              "vi": "đáp ứng nhu cầu lương thực"
+            },
+            {
+              "en": "growing population",
+              "vi": "dân số ngày càng tăng"
+            },
+            {
+              "en": "longer shelf life",
+              "vi": "thời hạn sử dụng lâu hơn"
+            },
+            {
+              "en": "stay fresh",
+              "vi": "giữ được độ tươi ngon"
+            },
+            {
+              "en": "maintain food quality",
+              "vi": "duy trì chất lượng thực phẩm"
+            },
+            {
+              "en": "reduce food waste",
+              "vi": "giảm lãng phí thực phẩm"
+            },
+            {
+              "en": "spoil less quickly",
+              "vi": "ít bị hỏng nhanh"
+            },
+            {
+              "en": "provide more nutrients",
+              "vi": "cung cấp nhiều chất dinh dưỡng hơn"
+            },
+            {
+              "en": "higher levels of vitamins",
+              "vi": "hàm lượng vitamin cao hơn"
+            },
+            {
+              "en": "essential minerals",
+              "vi": "các khoáng chất thiết yếu"
+            },
+            {
+              "en": "improve consumers' diets",
+              "vi": "cải thiện chế độ ăn của người tiêu dùng"
+            },
+            {
+              "en": "better nutritional value",
+              "vi": "giá trị dinh dưỡng tốt hơn"
+            },
+            {
+              "en": "health concerns",
+              "vi": "những lo ngại về sức khỏe"
+            },
+            {
+              "en": "consuming modified food",
+              "vi": "tiêu thụ thực phẩm biến đổi gen"
+            },
+            {
+              "en": "health problems",
+              "vi": "vấn đề sức khỏe"
+            },
+            {
+              "en": "unknown long-term effects",
+              "vi": "tác động lâu dài chưa rõ ràng"
+            },
+            {
+              "en": "allergic reactions",
+              "vi": "phản ứng dị ứng"
+            },
+            {
+              "en": "harm the environment",
+              "vi": "gây hại cho môi trường"
+            },
+            {
+              "en": "modified crops",
+              "vi": "cây trồng biến đổi gen"
+            },
+            {
+              "en": "affect plants and animals",
+              "vi": "ảnh hưởng đến thực vật và động vật"
+            },
+            {
+              "en": "natural balance",
+              "vi": "sự cân bằng tự nhiên"
+            },
+            {
+              "en": "environmental impact",
+              "vi": "tác động môi trường"
+            },
+            {
+              "en": "expensive food products",
+              "vi": "sản phẩm thực phẩm đắt đỏ"
+            },
+            {
+              "en": "advanced technology",
+              "vi": "công nghệ tiên tiến"
+            },
+            {
+              "en": "scientific research",
+              "vi": "nghiên cứu khoa học"
+            },
+            {
+              "en": "costly production",
+              "vi": "việc sản xuất tốn kém"
+            },
+            {
+              "en": "increase product prices",
+              "vi": "tăng giá sản phẩm"
+            },
+            {
+              "en": "contribute to higher food production",
+              "vi": "góp phần tăng sản lượng lương thực"
+            },
+            {
+              "en": "growing food needs",
+              "vi": "nhu cầu lương thực ngày càng tăng"
+            },
+            {
+              "en": "enhance crop resilience",
+              "vi": "tăng cường khả năng chống chịu của cây trồng"
+            },
+            {
+              "en": "ensure food security",
+              "vi": "đảm bảo an ninh lương thực"
+            },
+            {
+              "en": "maintain quality for longer periods",
+              "vi": "duy trì chất lượng lâu hơn"
+            },
+            {
+              "en": "prolong preservation",
+              "vi": "kéo dài thời gian bảo quản"
+            },
+            {
+              "en": "minimize spoilage",
+              "vi": "giảm thiểu sự hư hỏng"
+            },
+            {
+              "en": "provide higher levels of nutrients",
+              "vi": "cung cấp mức dinh dưỡng cao hơn"
+            },
+            {
+              "en": "fortified with vitamins and minerals",
+              "vi": "được bổ sung vitamin và khoáng chất"
+            },
+            {
+              "en": "biofortified agricultural crops",
+              "vi": "cây trồng nông nghiệp tăng cường sinh học"
+            },
+            {
+              "en": "combat malnutrition",
+              "vi": "chống lại nạn suy dinh dưỡng"
+            },
+            {
+              "en": "create health risks",
+              "vi": "tạo ra những rủi ro về sức khỏe"
+            },
+            {
+              "en": "long-term effects of consumption",
+              "vi": "ảnh hưởng lâu dài của việc tiêu thụ"
+            },
+            {
+              "en": "consumer skepticism",
+              "vi": "sự hoài nghi của người tiêu dùng"
+            },
+            {
+              "en": "potential allergenicity",
+              "vi": "nguy cơ tiềm ẩn gây dị ứng"
+            },
+            {
+              "en": "unintended biological side effects",
+              "vi": "tác dụng phụ sinh học ngoài ý muốn"
+            },
+            {
+              "en": "negative environmental impact",
+              "vi": "tác động tiêu cực đến môi trường"
+            },
+            {
+              "en": "affect native flora and fauna",
+              "vi": "ảnh hưởng đến hệ thực vật và động vật bản địa"
+            },
+            {
+              "en": "disrupt natural balance of ecosystems",
+              "vi": "phá vỡ sự cân bằng tự nhiên của hệ sinh thái"
+            },
+            {
+              "en": "cross-pollination risks",
+              "vi": "nguy cơ thụ phấn chéo"
+            },
+            {
+              "en": "loss of biodiversity",
+              "vi": "mất đa dạng sinh học"
+            },
+            {
+              "en": "costly to produce",
+              "vi": "tốn kém để sản xuất"
+            },
+            {
+              "en": "heavy capital investment in R&D",
+              "vi": "đầu tư vốn lớn vào nghiên cứu & phát triển"
+            },
+            {
+              "en": "increase retail prices",
+              "vi": "làm tăng giá bán lẻ"
+            },
+            {
+              "en": "high production overheads",
+              "vi": "chi phí sản xuất cao"
+            },
+            {
+              "en": "financial burden on consumers",
+              "vi": "gánh nặng tài chính lên người tiêu dùng"
+            }
+          ],
+          "sample_b1": "In recent years, <strong>biotech food</strong> has become more common in modern society. Although it has some benefits, there are also some drawbacks. <strong>This essay will discuss both sides of this topic.</strong>\n\n<strong>On the one hand, this topic has several advantages.</strong> One major benefit is that <strong><em>biotech food can help increase food production.</em></strong> Some crops can grow faster and produce higher yields to meet the growing population's food needs. Another positive aspect is that <strong><em>biotech food can have a longer shelf life.</em></strong> These products can maintain their quality for longer periods, which helps reduce food waste. A further good point is that <strong><em>biotech food can provide more nutrients.</em></strong> Some foods can be produced with higher levels of vitamins and minerals to improve consumers' diets.\n\n<strong>On the other hand, there are also several disadvantages.</strong> One possible drawback is that <strong><em>biotech food may cause health concerns.</em></strong> Some people worry that consuming these foods may cause health problems. Another negative aspect is that <strong><em>biotech food may harm the environment.</em></strong> Growing some modified crops may affect other plants and animals. A further problem is that <strong><em>biotech food may be expensive.</em></strong> The technology and research needed to produce these products can be costly.\n\nIn conclusion, <strong>biotech food</strong> has both advantages and disadvantages. These points show that it has different effects on people's lives. Therefore, it is important to consider both sides before making a decision.",
+          "translation_b1": "Trong những năm gần đây, <strong>thực phẩm công nghệ sinh học</strong> đã trở nên phổ biến hơn trong xã hội hiện đại. Mặc dù nó có một số lợi ích, cũng có một số hạn chế. <strong>Bài tiểu luận này sẽ thảo luận về cả hai khía cạnh của chủ đề này.</strong>\n\n<strong>Một mặt, chủ đề này có một số lợi thế.</strong> Một lợi ích lớn là <strong><em>thực phẩm công nghệ sinh học có thể giúp tăng sản lượng lương thực.</em></strong> Một số loại cây trồng có thể phát triển nhanh hơn và cho năng suất cao hơn để đáp ứng nhu cầu của dân số. Một khía cạnh tích cực khác là <strong><em>thực phẩm công nghệ sinh học có thể để được lâu hơn.</em></strong> Những sản phẩm này giữ được chất lượng trong thời gian dài hơn, giúp giảm lượng thực phẩm bị lãng phí. Một điểm tốt nữa là <strong><em>thực phẩm công nghệ sinh học có thể cung cấp nhiều chất dinh dưỡng hơn.</em></strong> Một số thực phẩm có thể được sản xuất với hàm lượng vitamin và khoáng chất cao hơn để cải thiện chế độ ăn uống của người tiêu dùng.\n\n<strong>Mặt khác, cũng có một số bất lợi.</strong> Một bất lợi có thể có là <strong><em>thực phẩm công nghệ sinh học có thể gây ra những lo ngại về sức khỏe.</em></strong> Một số người lo ngại rằng việc tiêu thụ những thực phẩm này có thể gây ra các vấn đề sức khỏe. Một khía cạnh tiêu cực khác là <strong><em>thực phẩm công nghệ sinh học có thể gây ảnh hưởng xấu đến môi trường.</em></strong> Việc trồng một số loại cây biến đổi có thể ảnh hưởng đến các loài thực vật và động vật khác. Một vấn đề nữa là <strong><em>thực phẩm công nghệ sinh học có thể có giá cao.</em></strong> Công nghệ và nghiên cứu cần thiết để sản xuất những sản phẩm này có thể tốn nhiều tiền.\n\nTóm lại, <strong>thực phẩm công nghệ sinh học</strong> có cả lợi thế và bất lợi. Những điểm này cho thấy nó có những tác động khác nhau đến cuộc sống của mọi người. Vì vậy, điều quan trọng là phải xem xét cả hai khía cạnh trước khi đưa ra quyết định.",
+          "sample_b2": "In recent years, <strong>biotech food</strong> has become increasingly prevalent in modern society. Although it brings certain benefits, there are also some negative aspects. <strong>This essay will examine both the advantages and disadvantages.</strong>\n\n<strong>On the one hand, this topic offers several advantages.</strong> One major benefit is that <strong><em>biotech food can contribute to higher food production.</em></strong> Some crops can grow faster and produce higher yields. This helps meet the growing food needs of the population. Another positive effect is that <strong><em>biotech food can have a longer shelf life.</em></strong> Some products can maintain their quality for longer periods. This can help reduce food waste. A further aspect to consider is that <strong><em>biotech food can provide higher levels of nutrients.</em></strong> Some foods can be produced with higher levels of vitamins and minerals. This can help improve consumers' diets.\n\n<strong>On the other hand, there are some disadvantages that should be considered.</strong> One possible drawback is that <strong><em>biotech food may create health risks.</em></strong> Some people are concerned about the long-term effects of consuming these products. These concerns may make consumers less confident in biotech food. Another negative aspect is that <strong><em>biotech food may have negative effects on the environment.</em></strong> Some modified crops may affect other plants and animals. This may change the natural balance of ecosystems. A further concern is that <strong><em>biotech food can be costly to produce.</em></strong> Companies need to invest large amounts of money in technology and research. High costs can increase product prices for consumers.\n\nIn conclusion, <strong>biotech food</strong> presents both advantages and disadvantages. The points discussed above highlight its key aspects. Overall, understanding these factors helps provide a more balanced view of this topic.",
+          "translation_b2": "Trong những năm gần đây, <strong>thực phẩm công nghệ sinh học</strong> đã trở nên ngày càng phổ biến trong xã hội hiện đại. Mặc dù nó mang lại những lợi ích nhất định, cũng có một số khía cạnh tiêu cực. <strong>Bài tiểu luận này sẽ xem xét cả lợi thế và bất lợi.</strong>\n\n<strong>Một mặt, chủ đề này mang lại một số lợi thế.</strong> Một lợi ích lớn là <strong><em>thực phẩm công nghệ sinh học có thể góp phần tăng sản lượng lương thực.</em></strong> Một số loại cây có thể phát triển nhanh hơn và cho năng suất cao hơn. Điều này giúp đáp ứng nhu cầu lương thực ngày càng tăng của dân số. Một hiệu ứng tích cực khác là <strong><em>thực phẩm công nghệ sinh học có thể có thời hạn sử dụng lâu hơn.</em></strong> Một số sản phẩm có thể giữ được chất lượng trong thời gian dài hơn. Điều này có thể giúp giảm lượng thực phẩm bị lãng phí. Một khía cạnh nữa cần xem xét là <strong><em>thực phẩm công nghệ sinh học có thể cung cấp nhiều chất dinh dưỡng hơn.</em></strong> Một số loại thực phẩm có thể được sản xuất với hàm lượng vitamin và khoáng chất cao hơn. Điều này có thể giúp cải thiện chế độ ăn uống của người tiêu dùng.\n\n<strong>Mặt khác, có một số bất lợi cần được xem xét.</strong> Một hạn chế có thể xảy ra là <strong><em>thực phẩm công nghệ sinh học có thể tạo ra những rủi ro về sức khỏe.</em></strong> Một số người lo ngại về những ảnh hưởng lâu dài của việc tiêu thụ các sản phẩm này. Những lo ngại này có thể khiến người tiêu dùng không tin tưởng vào thực phẩm công nghệ sinh học. Một khía cạnh tiêu cực khác là <strong><em>thực phẩm công nghệ sinh học có thể gây ra những ảnh hưởng tiêu cực đến môi trường.</em></strong> Một số cây trồng biến đổi có thể ảnh hưởng đến các loài thực vật và động vật khác. Điều này có thể làm thay đổi sự cân bằng tự nhiên trong hệ sinh thái. Một mối lo ngại nữa là <strong><em>thực phẩm công nghệ sinh học có thể tốn kém để sản xuất.</em></strong> Các công ty cần đầu tư nhiều tiền vào công nghệ và nghiên cứu. Chi phí cao có thể làm tăng giá sản phẩm đối với người tiêu dùng.\n\nTóm lại, <strong>thực phẩm công nghệ sinh học</strong> có cả lợi thế và bất lợi. Những điểm được thảo luận ở trên làm nổi bật các khía cạnh chính của nó. Nhìn chung, việc hiểu các yếu tố này giúp cung cấp một cái nhìn cân bằng hơn về chủ đề này."
+        }
       },
       {
         "id": 22,
