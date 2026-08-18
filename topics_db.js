@@ -30840,12 +30840,337 @@ const ESSAY_DATA = [
         "title_en": "Children should be allowed to own pets.",
         "title_vi": "Trẻ em nên được nuôi thú cưng.",
         "paraphrases": [
-          "Children ought to be permitted to keep pets.",
-          "Allowing children to own/raise/have pets brings many benefits."
+          {
+            "en": "children should be allowed to own pets",
+            "vi": "trẻ em nên được phép nuôi thú cưng"
+          },
+          {
+            "en": "permitting youngsters to keep household pets",
+            "vi": "cho phép trẻ nhỏ nuôi thú cưng trong nhà"
+          },
+          {
+            "en": "allowing children to raise and care for companion animals",
+            "vi": "cho phép trẻ em chăm sóc động vật đồng hành"
+          },
+          {
+            "en": "introducing pets into children's developmental upbringing",
+            "vi": "đưa thú cưng vào quá trình nuôi dạy và phát triển của trẻ"
+          }
         ],
         "context": "Pets such as dogs, cats, birds, and rabbits are common companions in many households. Many parents allow their children to own and care for pets from a young age. Some people believe that keeping pets can help children develop responsibility, empathy, and social skills, while others are concerned about the costs, safety issues, and responsibilities involved.",
         "prompt": "Do you agree or disagree that children should be allowed to own pets? Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "tags": "[Opinion / Agree]",
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "LÝ DO 01",
+                "collocations": [
+                  {
+                    "en": "take responsibility",
+                    "vi": "chịu trách nhiệm"
+                  },
+                  {
+                    "en": "daily tasks",
+                    "vi": "nhiệm vụ hằng ngày"
+                  },
+                  {
+                    "en": "feed pets and change water",
+                    "vi": "cho ăn và thay nước"
+                  },
+                  {
+                    "en": "complete duties on time",
+                    "vi": "hoàn thành nhiệm vụ đúng giờ"
+                  },
+                  {
+                    "en": "more responsible",
+                    "vi": "có trách nhiệm hơn"
+                  }
+                ],
+                "point_vi": "Nuôi thú cưng có thể giúp trẻ học cách chịu trách nhiệm với một sinh vật khác.",
+                "point_en": "Keeping a pet can teach children to take responsibility for another living thing.",
+                "evidence_vi": "Trẻ cần thực hiện những công việc chăm sóc thú cưng mỗi ngày. Các em có thể cho thú cưng ăn, thay nước và giữ nơi ở của chúng sạch sẽ. Những công việc này giúp trẻ hiểu rằng mình phải hoàn thành nhiệm vụ đúng lúc. Nhờ đó, trẻ có thể trở nên có trách nhiệm hơn trong cuộc sống hằng ngày.",
+                "evidence_en": "Children need to do daily tasks to care for their pets. They can feed their pets, change their water, and keep their living areas clean. These tasks help children understand that they must complete their duties on time. As a result, children can become more responsible in their daily lives."
+              },
+              {
+                "title": "LÝ DO 02",
+                "collocations": [
+                  {
+                    "en": "caring and social skills",
+                    "vi": "kỹ năng quan tâm và xã hội"
+                  },
+                  {
+                    "en": "notice pets' needs",
+                    "vi": "chú ý đến nhu cầu thú cưng"
+                  },
+                  {
+                    "en": "patient and caring",
+                    "vi": "kiên nhẫn và biết quan tâm"
+                  },
+                  {
+                    "en": "relationships with friends",
+                    "vi": "quan hệ với bạn bè"
+                  },
+                  {
+                    "en": "important social skills",
+                    "vi": "kỹ năng xã hội quan trọng"
+                  }
+                ],
+                "point_vi": "Việc chăm sóc động vật có thể giúp trẻ phát triển khả năng quan tâm và tương tác với người khác.",
+                "point_en": "Caring for animals can help children develop caring and social skills.",
+                "evidence_vi": "Trẻ học cách nhận biết và quan tâm đến nhu cầu của thú cưng. Điều này giúp các em trở nên kiên nhẫn và biết quan tâm hơn. Những phẩm chất này cũng có thể được sử dụng trong các mối quan hệ với bạn bè và gia đình. Vì vậy, thú cưng có thể giúp trẻ phát triển các kỹ năng xã hội quan trọng.",
+                "evidence_en": "Children learn to notice and care about their pets' needs. This helps them become more patient and caring. These qualities can also be used in relationships with friends and family. Therefore, pets can help children develop important social skills."
+              },
+              {
+                "title": "LÝ DO 03",
+                "collocations": [
+                  {
+                    "en": "companionship and support",
+                    "vi": "sự đồng hành và hỗ trợ"
+                  },
+                  {
+                    "en": "spend time after school",
+                    "vi": "dành thời gian sau giờ học"
+                  },
+                  {
+                    "en": "happier and relaxed",
+                    "vi": "vui vẻ và thư giãn hơn"
+                  },
+                  {
+                    "en": "feel less lonely",
+                    "vi": "cảm thấy bớt cô đơn"
+                  },
+                  {
+                    "en": "positive emotional life",
+                    "vi": "đời sống cảm xúc tích cực"
+                  }
+                ],
+                "point_vi": "Thú cưng có thể mang lại sự đồng hành và hỗ trợ cảm xúc cho trẻ.",
+                "point_en": "Pets can provide children with companionship and emotional support.",
+                "evidence_vi": "Trẻ có thể chơi và dành thời gian với thú cưng sau giờ học. Điều này có thể giúp các em cảm thấy vui vẻ và thư giãn hơn. Thú cưng cũng có thể giúp trẻ cảm thấy bớt cô đơn. Do đó, việc có thú cưng có thể góp phần tạo ra cuộc sống tinh thần tích cực hơn cho trẻ.",
+                "evidence_en": "Children can play and spend time with their pets after school. This can help them feel happier and more relaxed. Pets can also help children feel less lonely. Therefore, having a pet can contribute to a more positive emotional life for children."
+              }
+            ],
+            "drawbacks": []
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "LÝ DO 01",
+                "collocations": [
+                  {
+                    "en": "cultivate lifelong accountability",
+                    "vi": "nuôi dưỡng tinh thần trách nhiệm suốt đời"
+                  },
+                  {
+                    "en": "routine veterinary care",
+                    "vi": "chăm sóc thú y định kỳ"
+                  },
+                  {
+                    "en": "time management and discipline",
+                    "vi": "quản lý thời gian và kỷ luật"
+                  },
+                  {
+                    "en": "early self-reliance",
+                    "vi": "tính tự lập từ sớm"
+                  },
+                  {
+                    "en": "habit transferability",
+                    "vi": "khả năng ứng dụng thói quen"
+                  }
+                ],
+                "point_vi": "Việc chăm sóc thú cưng có thể giúp trẻ hình thành tinh thần trách nhiệm và tính tự lập từ sớm.",
+                "point_en": "Caring for pets can help children develop responsibility and independence from an early age.",
+                "evidence_vi": "Trẻ phải thực hiện đều đặn những nhiệm vụ cần thiết để đảm bảo thú cưng được chăm sóc tốt. Những nhiệm vụ này có thể bao gồm cho ăn, thay nước, vệ sinh và đưa thú cưng đi khám khi cần. Khi phải tự hoàn thành những công việc này, trẻ học cách quản lý thời gian và thực hiện trách nhiệm của mình. Ví dụ, một đứa trẻ được giao nhiệm vụ cho chó ăn mỗi sáng có thể dần hình thành thói quen đúng giờ. Những thói quen này có thể được áp dụng vào việc học tập và các trách nhiệm khác trong cuộc sống.",
+                "evidence_en": "Children have to perform regular tasks to ensure that their pets are properly cared for. These tasks can include feeding, changing water, cleaning, and taking pets to the vet when necessary. By completing these tasks, children learn to manage their time and fulfil their responsibilities. For example, a child who is responsible for feeding a dog every morning can gradually develop a regular routine. These habits can later be applied to schoolwork and other responsibilities in life."
+              },
+              {
+                "title": "LÝ DO 02",
+                "collocations": [
+                  {
+                    "en": "foster emotional empathy",
+                    "vi": "bồi đắp lòng thấu cảm"
+                  },
+                  {
+                    "en": "unconditional positive regard",
+                    "vi": "sự quan tâm tích cực vô điều kiện"
+                  },
+                  {
+                    "en": "prosocial behavior development",
+                    "vi": "phát triển hành vi xã hội tích cực"
+                  },
+                  {
+                    "en": "interpersonal sensitivity",
+                    "vi": "sự nhạy cảm trong giao tiếp"
+                  },
+                  {
+                    "en": "cooperative communication",
+                    "vi": "giao tiếp mang tính hợp tác"
+                  }
+                ],
+                "point_vi": "Sự tương tác thường xuyên với động vật có thể giúp trẻ trở nên đồng cảm và biết quan tâm đến người khác hơn.",
+                "point_en": "Regular interaction with animals can make children more empathetic and considerate of others.",
+                "evidence_vi": "Trẻ phải chú ý đến nhu cầu, cảm xúc và tình trạng sức khỏe của thú cưng. Qua quá trình này, các em học cách quan tâm đến một sinh vật khác thay vì chỉ tập trung vào nhu cầu của bản thân. Kỹ năng này có thể giúp trẻ kiên nhẫn và hợp tác tốt hơn với những người xung quanh. Chẳng hạn, trẻ biết chăm sóc một chú chó có thể dễ dàng hiểu hơn khi bạn bè cần sự quan tâm hoặc giúp đỡ. Về lâu dài, những trải nghiệm này có thể hỗ trợ sự phát triển của các mối quan hệ xã hội tích cực.",
+                "evidence_en": "Children have to pay attention to their pets' needs, feelings, and health. Through this process, they learn to care about another living thing instead of focusing only on their own needs. This skill can help children become more patient and cooperative with people around them. For instance, children who learn to care for a dog may find it easier to understand when their friends need attention or help. In the long term, these experiences can support the development of positive social relationships."
+              },
+              {
+                "title": "LÝ DO 03",
+                "collocations": [
+                  {
+                    "en": "psychological decompression",
+                    "vi": "giải tỏa áp lực tâm lý"
+                  },
+                  {
+                    "en": "unconditional companionship",
+                    "vi": "sự đồng hành vô điều kiện"
+                  },
+                  {
+                    "en": "alleviate childhood isolation",
+                    "vi": "giảm bớt sự cô lập ở trẻ"
+                  },
+                  {
+                    "en": "affective emotional regulation",
+                    "vi": "điều hòa cảm xúc hiệu quả"
+                  },
+                  {
+                    "en": "nurturing developmental environment",
+                    "vi": "môi trường phát triển nuôi dưỡng"
+                  }
+                ],
+                "point_vi": "Thú cưng có thể mang lại sự đồng hành và giúp trẻ duy trì trạng thái cảm xúc tích cực.",
+                "point_en": "Pets can provide companionship and help children maintain positive emotional well-being.",
+                "evidence_vi": "Trẻ có thể chơi, nói chuyện hoặc dành thời gian với thú cưng sau những giờ học căng thẳng. Sự đồng hành này có thể giúp các em thư giãn và giảm cảm giác cô đơn. Thú cưng cũng tạo cho trẻ cơ hội hình thành một mối quan hệ ổn định và gần gũi. Ví dụ, một đứa trẻ cảm thấy căng thẳng sau một ngày học có thể cảm thấy dễ chịu hơn khi chơi với thú cưng ở nhà. Vì vậy, việc nuôi thú cưng có thể góp phần tạo ra một môi trường tinh thần tích cực và hỗ trợ sự phát triển của trẻ.",
+                "evidence_en": "Children can play, interact with, or spend time with their pets after stressful school hours. This companionship can help them relax and reduce feelings of loneliness. Pets also give children an opportunity to develop a stable and close relationship. For example, a child who feels stressed after a day at school may feel better after playing with a pet at home. Therefore, owning a pet can contribute to a positive emotional environment and support children's development."
+              }
+            ],
+            "drawbacks": []
+          },
+          "vocab": [
+            {
+              "en": "take responsibility",
+              "vi": "chịu trách nhiệm"
+            },
+            {
+              "en": "daily tasks",
+              "vi": "nhiệm vụ hằng ngày"
+            },
+            {
+              "en": "feed pets and change water",
+              "vi": "cho ăn và thay nước"
+            },
+            {
+              "en": "complete duties on time",
+              "vi": "hoàn thành nhiệm vụ đúng giờ"
+            },
+            {
+              "en": "more responsible",
+              "vi": "có trách nhiệm hơn"
+            },
+            {
+              "en": "caring and social skills",
+              "vi": "kỹ năng quan tâm và xã hội"
+            },
+            {
+              "en": "notice pets' needs",
+              "vi": "chú ý đến nhu cầu thú cưng"
+            },
+            {
+              "en": "patient and caring",
+              "vi": "kiên nhẫn và biết quan tâm"
+            },
+            {
+              "en": "relationships with friends",
+              "vi": "quan hệ với bạn bè"
+            },
+            {
+              "en": "important social skills",
+              "vi": "kỹ năng xã hội quan trọng"
+            },
+            {
+              "en": "companionship and support",
+              "vi": "sự đồng hành và hỗ trợ"
+            },
+            {
+              "en": "spend time after school",
+              "vi": "dành thời gian sau giờ học"
+            },
+            {
+              "en": "happier and relaxed",
+              "vi": "vui vẻ và thư giãn hơn"
+            },
+            {
+              "en": "feel less lonely",
+              "vi": "cảm thấy bớt cô đơn"
+            },
+            {
+              "en": "positive emotional life",
+              "vi": "đời sống cảm xúc tích cực"
+            },
+            {
+              "en": "cultivate lifelong accountability",
+              "vi": "nuôi dưỡng tinh thần trách nhiệm suốt đời"
+            },
+            {
+              "en": "routine veterinary care",
+              "vi": "chăm sóc thú y định kỳ"
+            },
+            {
+              "en": "time management and discipline",
+              "vi": "quản lý thời gian và kỷ luật"
+            },
+            {
+              "en": "early self-reliance",
+              "vi": "tính tự lập từ sớm"
+            },
+            {
+              "en": "habit transferability",
+              "vi": "khả năng ứng dụng thói quen"
+            },
+            {
+              "en": "foster emotional empathy",
+              "vi": "bồi đắp lòng thấu cảm"
+            },
+            {
+              "en": "unconditional positive regard",
+              "vi": "sự quan tâm tích cực vô điều kiện"
+            },
+            {
+              "en": "prosocial behavior development",
+              "vi": "phát triển hành vi xã hội tích cực"
+            },
+            {
+              "en": "interpersonal sensitivity",
+              "vi": "sự nhạy cảm trong giao tiếp"
+            },
+            {
+              "en": "cooperative communication",
+              "vi": "giao tiếp mang tính hợp tác"
+            },
+            {
+              "en": "psychological decompression",
+              "vi": "giải tỏa áp lực tâm lý"
+            },
+            {
+              "en": "unconditional companionship",
+              "vi": "sự đồng hành vô điều kiện"
+            },
+            {
+              "en": "alleviate childhood isolation",
+              "vi": "giảm bớt sự cô lập ở trẻ"
+            },
+            {
+              "en": "affective emotional regulation",
+              "vi": "điều hòa cảm xúc hiệu quả"
+            },
+            {
+              "en": "nurturing developmental environment",
+              "vi": "môi trường phát triển nuôi dưỡng"
+            }
+          ],
+          "sample_b1": "In recent years, the idea that <strong><em>children should be allowed to own pets</em></strong> has become a common topic of discussion. From my perspective, <strong>I completely agree with this opinion for several important reasons.</strong> This essay will present the main arguments supporting my viewpoint.\n\nThe first reason why I agree with this opinion is that <strong><em>keeping a pet can teach children to take responsibility for another living thing.</em></strong> Children need to do daily tasks to care for their pets. They can feed their pets, change their water, and keep their living areas clean. These tasks help children understand that they must complete their duties on time. As a result, children can become more responsible in their daily lives.\n\nAnother important reason is that <strong><em>caring for animals can help children develop caring and social skills.</em></strong> Children learn to notice and care about their pets' needs. This helps them become more patient and caring. These qualities can also be used in relationships with friends and family. Therefore, pets can help children develop important social skills.\n\nA further reason supporting my viewpoint is that <strong><em>pets can provide children with companionship and emotional support.</em></strong> Children can play and spend time with their pets after school. This can help them feel happier and more relaxed. Pets can also help children feel less lonely. Therefore, having a pet can contribute to a more positive emotional life for children.\n\nIn conclusion, <strong>I strongly agree with the idea</strong> that <strong><em>children should be allowed to own pets.</em></strong> The reasons above clearly explain why I support this viewpoint. With proper supervision from parents, raising pets can bring significant benefits to a child's growth and development.",
+          "translation_b1": "Trong những năm gần đây, quan điểm cho rằng <strong><em>trẻ em nên được nuôi thú cưng</em></strong> đã trở thành một chủ đề thảo luận phổ biến. Theo quan điểm của tôi, <strong>tôi hoàn toàn đồng ý với ý kiến này vì một số lý do quan trọng.</strong> Bài tiểu luận này sẽ trình bày những lập luận chính ủng hộ quan điểm của tôi.\n\nLý do đầu tiên khiến tôi đồng ý với ý kiến này là <strong><em>nuôi thú cưng có thể giúp trẻ học cách chịu trách nhiệm với một sinh vật khác.</em></strong> Trẻ cần thực hiện những công việc chăm sóc thú cưng mỗi ngày. Các em có thể cho thú cưng ăn, thay nước và giữ nơi ở của chúng sạch sẽ. Những công việc này giúp trẻ hiểu rằng mình phải hoàn thành nhiệm vụ đúng lúc. Nhờ đó, trẻ có thể trở nên có trách nhiệm hơn trong cuộc sống hằng ngày.\n\nMột lý do quan trọng khác là <strong><em>việc chăm sóc động vật có thể giúp trẻ phát triển khả năng quan tâm và tương tác với người khác.</em></strong> Trẻ học cách nhận biết và quan tâm đến nhu cầu của thú cưng. Điều này giúp các em trở nên kiên nhẫn và biết quan tâm hơn. Những phẩm chất này cũng có thể được sử dụng trong các mối quan hệ với bạn bè và gia đình. Vì vậy, thú cưng có thể giúp trẻ phát triển các kỹ năng xã hội quan trọng.\n\nMột lý do nữa ủng hộ quan điểm của tôi là <strong><em>thú cưng có thể mang lại sự đồng hành và hỗ trợ cảm xúc cho trẻ.</em></strong> Trẻ có thể chơi và dành thời gian với thú cưng sau giờ học. Điều này có thể giúp các em cảm thấy vui vẻ và thư giãn hơn. Thú cưng cũng có thể giúp trẻ cảm thấy bớt cô đơn. Do đó, việc có thú cưng có thể góp phần tạo ra cuộc sống tinh thần tích cực hơn cho trẻ.\n\nTóm lại, <strong>tôi hoàn toàn đồng ý với ý kiến</strong> cho rằng <strong><em>trẻ em nên được nuôi thú cưng.</em></strong> Những lý do trên giải thích rõ ràng tại sao tôi ủng hộ quan điểm này. Với sự giám sát hợp lý từ cha mẹ, việc nuôi thú cưng có thể mang lại những lợi ích to lớn cho sự lớn khôn và phát triển của trẻ."
+        }
       },
       {
         "id": 27,
