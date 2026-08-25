@@ -26750,6 +26750,345 @@ const ESSAY_DATA = [
         "context": "Culture plays an important role in shaping a society's identity, traditions, values, and way of life. In today's globalized world, sharing culture has become increasingly important because it helps people from different backgrounds understand and appreciate one another. Governments, communities, educational institutions, and individuals can all contribute to promoting cultural exchange and preserving cultural heritage.",
         "prompt": "Write an essay to an educated reader to suggest possible ways of sharing culture. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
         "has_full_details": false
+      },
+      {
+        "id": 52,
+        "title_en": "Effects of working in modern glass office buildings",
+        "title_vi": "Ảnh hưởng của làm việc trong các toà nhà kính hiện đại",
+        "tags": "[Effects]",
+        "context": "In recent years, working in modern glass office buildings has become increasingly common in many cities. However, this type of working environment can have several effects on workers and the environment. It may consume a large amount of energy, cause light pollution, and increase stress among office workers.",
+        "prompt": "Write an essay discussing the effects of working in modern glass office buildings. Give reasons for your answer and include relevant examples from your own knowledge or experience. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "has_full_details": true,
+        "paraphrases": [
+          {
+            "en": "working in modern glass office buildings",
+            "vi": "làm việc trong các tòa nhà văn phòng bằng kính hiện đại"
+          },
+          {
+            "en": "occupying glass-fronted office towers",
+            "vi": "làm việc trong các tòa tháp văn phòng mặt kính"
+          },
+          {
+            "en": "operating in fully glazed commercial buildings",
+            "vi": "làm việc trong các tòa nhà thương mại bọc kính hoàn toàn"
+          },
+          {
+            "en": "employment within transparent high-rise architecture",
+            "vi": "làm việc bên trong kiến trúc cao tầng bằng kính trong suốt"
+          }
+        ],
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "EFFECT 01: HIGH ENERGY CONSUMPTION",
+                "collocations": [
+                  {
+                    "en": "glass office buildings",
+                    "vi": "tòa nhà văn phòng bằng kính"
+                  },
+                  {
+                    "en": "consume a large amount of energy",
+                    "vi": "tiêu thụ lượng lớn năng lượng"
+                  },
+                  {
+                    "en": "absorb heat from sunlight",
+                    "vi": "hấp thụ nhiệt từ ánh nắng"
+                  },
+                  {
+                    "en": "air conditioning systems",
+                    "vi": "hệ thống điều hòa không khí"
+                  },
+                  {
+                    "en": "high electricity costs",
+                    "vi": "chi phí điện năng cao"
+                  }
+                ],
+                "point_vi": "Các tòa nhà văn phòng bằng kính thường tiêu thụ một lượng lớn năng lượng.",
+                "point_en": "Glass office buildings often consume a large amount of energy.",
+                "evidence_vi": "Những tòa nhà này hấp thụ nhiều nhiệt từ ánh sáng mặt trời vào ban ngày. Do đó, các hệ thống điều hòa không khí phải hoạt động liên tục để làm mát không gian làm việc. Điều này dẫn đến chi phí điện năng rất cao và tạo thêm gánh nặng cho lưới điện thành phố. Ví dụ, nhiều văn phòng kính phải bật máy lạnh hết công suất suốt cả ngày hè.",
+                "evidence_en": "These buildings absorb a lot of heat from sunlight during the day. Therefore, air conditioning systems must operate continuously to cool the workspaces. This leads to high electricity costs and puts pressure on the city's power grid. For example, many glass offices have to run their air conditioners at full capacity throughout hot summer days."
+              },
+              {
+                "title": "EFFECT 02: GLARE AND LIGHT POLLUTION",
+                "collocations": [
+                  {
+                    "en": "glass surfaces",
+                    "vi": "bề mặt kính"
+                  },
+                  {
+                    "en": "cause severe glare",
+                    "vi": "gây chói mắt nghiêm trọng"
+                  },
+                  {
+                    "en": "light pollution",
+                    "vi": "ô nhiễm ánh sáng"
+                  },
+                  {
+                    "en": "reflect strong sunlight",
+                    "vi": "phản chiếu ánh nắng mạnh"
+                  },
+                  {
+                    "en": "bright artificial lighting",
+                    "vi": "ánh sáng nhân tạo rực rỡ"
+                  }
+                ],
+                "point_vi": "Mặt kính của các tòa nhà có thể gây ra hiện tượng chói mắt và ô nhiễm ánh sáng.",
+                "point_en": "The glass surfaces of buildings can cause severe glare and light pollution.",
+                "evidence_vi": "Bề mặt kính phản chiếu ánh sáng mặt trời mạnh vào các khu vực xung quanh và người đi đường. Điều này có thể làm lóa mắt người tham gia giao thông và gây nguy hiểm. Ngoài ra, ánh sáng nhân tạo rực rỡ từ các văn phòng kính vào ban đêm cũng làm sáng bầu trời đô thị. Ví dụ, tài xế lái xe qua các khu phố có nhiều tòa nhà kính thường bị chói mắt vào buổi trưa.",
+                "evidence_en": "Glass surfaces reflect strong sunlight onto surrounding areas and pedestrians. This can dazzle drivers and increase the risk of road accidents. In addition, bright artificial lighting shining from glass offices at night contributes to urban light pollution. For example, motorists driving past modern glass towers often suffer from intense glare during midday."
+              },
+              {
+                "title": "EFFECT 03: WORKER HEALTH ISSUES AND STRESS",
+                "collocations": [
+                  {
+                    "en": "negatively affect health",
+                    "vi": "ảnh hưởng tiêu cực đến sức khỏe"
+                  },
+                  {
+                    "en": "eye strain and headaches",
+                    "vi": "mỏi mắt và đau đầu"
+                  },
+                  {
+                    "en": "artificial ventilation",
+                    "vi": "thông gió nhân tạo"
+                  },
+                  {
+                    "en": "lack of natural airflow",
+                    "vi": "thiếu luồng không khí tự nhiên"
+                  },
+                  {
+                    "en": "feel tired and stressed",
+                    "vi": "cảm thấy mệt mỏi và căng thẳng"
+                  }
+                ],
+                "point_vi": "Làm việc trong môi trường này có thể ảnh hưởng tiêu cực đến sức khỏe và tinh thần của nhân viên.",
+                "point_en": "Working in this environment can negatively affect employees' health and mental well-being.",
+                "evidence_vi": "Ánh sáng chói và nhiệt độ không đồng đều gần các cửa sổ kính có thể gây mỏi mắt và đau đầu. Hơn nữa, việc ở trong không gian kín với không khí nhân tạo suốt cả ngày làm nhân viên cảm thấy mệt mỏi và căng thẳng. Thiếu không khí tự nhiên và sự riêng tư cũng có thể làm giảm khả năng tập trung. Vì vậy, nhiều nhân viên văn phòng cảm thấy kiệt sức sau nhiều giờ làm việc trong các tòa nhà kính.",
+                "evidence_en": "Glare from windows and uneven indoor temperatures can cause eye strain and headaches for office workers. Furthermore, staying in a sealed space with artificial ventilation all day makes employees feel tired and stressed. The lack of natural airflow and personal privacy can also reduce concentration. Therefore, many office workers feel exhausted after long working hours inside glass buildings."
+              }
+            ],
+            "drawbacks": []
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "EFFECT 01: MASSIVE ENERGY CONSUMPTION",
+                "collocations": [
+                  {
+                    "en": "massive energy consumption",
+                    "vi": "tiêu thụ năng lượng khổng lồ"
+                  },
+                  {
+                    "en": "temperature regulation",
+                    "vi": "điều hòa nhiệt độ"
+                  },
+                  {
+                    "en": "internal greenhouse effect",
+                    "vi": "hiệu ứng nhà kính bên trong"
+                  },
+                  {
+                    "en": "heavy-duty HVAC systems",
+                    "vi": "hệ thống thông gió làm mát công suất lớn"
+                  },
+                  {
+                    "en": "carbon emissions",
+                    "vi": "phát thải khí carbon"
+                  }
+                ],
+                "point_vi": "Một ảnh hưởng đáng kể của các tòa nhà văn phòng bằng kính là mức tiêu thụ năng lượng khổng lồ cho việc điều hòa nhiệt độ.",
+                "point_en": "A major impact of glass office buildings is the massive energy consumption required for temperature regulation.",
+                "evidence_vi": "Các bức tường kính lớn tạo ra hiệu ứng nhà kính bên trong, làm tăng đáng kể nhiệt độ trong nhà khi tiếp xúc với ánh nắng mặt trời. Do đó, các tòa nhà này đòi hỏi các hệ thống điều hòa không khí công suất lớn hoạt động không ngừng để duy trì môi trường làm việc thoải mái. Nhu cầu năng lượng cao này không chỉ làm gia tăng chi phí vận hành cho các doanh nghiệp mà còn góp phần phát thải khí nhà kính vào bầu khí quyển. Chẳng hạn, các tòa nhà chọc trời bằng kính tiêu thụ năng lượng làm mát cao gấp nhiều lần so với các kiến trúc truyền thống có cách nhiệt tốt.",
+                "evidence_en": "Expansive glass facades create an internal greenhouse effect, substantially increasing indoor temperatures when exposed to direct sunlight. Consequently, these structures require heavy-duty HVAC systems to run continuously to maintain a comfortable working climate. This intense energy demand not only inflates corporate operational expenditures but also contributes significantly to carbon emissions. For instance, fully glazed skyscrapers often consume several times more cooling energy than well-insulated conventional buildings."
+              },
+              {
+                "title": "EFFECT 02: SEVERE GLARE AND URBAN LIGHT POLLUTION",
+                "collocations": [
+                  {
+                    "en": "intense solar reflection",
+                    "vi": "phản xạ ánh sáng mặt trời gay gắt"
+                  },
+                  {
+                    "en": "exacerbate light pollution",
+                    "vi": "làm trầm trọng thêm ô nhiễm ánh sáng"
+                  },
+                  {
+                    "en": "visual hazards for motorists",
+                    "vi": "mối nguy hiểm thị giác cho tài xế"
+                  },
+                  {
+                    "en": "circadian rhythm disruption",
+                    "vi": "gián đoạn nhịp sinh học"
+                  },
+                  {
+                    "en": "urban skyglow",
+                    "vi": "quầng sáng đô thị"
+                  }
+                ],
+                "point_vi": "Các cấu trúc kính hiện đại tạo ra phản xạ ánh sáng gay gắt và góp phần làm trầm trọng thêm ô nhiễm ánh sáng đô thị.",
+                "point_en": "Modern glazed structures generate intense solar reflection and exacerbate urban light pollution.",
+                "evidence_vi": "Vào ban ngày, các bề mặt kính phản chiếu lượng lớn bức xạ mặt trời, gây chói lóa nguy hiểm cho người điều khiển phương tiện và làm nóng môi trường xung quanh. Vào ban đêm, hệ thống chiếu sáng nội thất rực rỡ xuyên qua các bức tường trong suốt, làm gián đoạn hệ sinh thái tự nhiên và chu kỳ giấc ngủ của cư dân lân cận. Hiện tượng này làm biến đổi cảnh quan ban đêm của các thành phố và gây lãng phí ánh sáng không cần thiết. Ví dụ, phản xạ từ các tòa nhà kính lớn tại các trung tâm thương mại đã từng làm tăng nhiệt độ đường phố và gây khó chịu cho người dân xung quanh.",
+                "evidence_en": "During daylight hours, reflective exterior panels redirect intense solar glare into neighboring streets, posing visual hazards to motorists and elevating local ambient temperatures. At night, extensive interior illumination radiates outward through transparent walls, disrupting natural ecosystems and interfering with the circadian rhythms of nearby residents. This phenomenon significantly contributes to urban skyglow and unnecessary photon waste. For example, concentrated reflections from curved glass towers have been documented to melt vehicle parts and cause severe discomfort in surrounding districts."
+              },
+              {
+                "title": "EFFECT 03: PHYSIOLOGICAL AND PSYCHOLOGICAL STRAINS",
+                "collocations": [
+                  {
+                    "en": "physiological and psychological strains",
+                    "vi": "căng thẳng sinh lý và tâm lý"
+                  },
+                  {
+                    "en": "chronic ocular fatigue",
+                    "vi": "mỏi mắt mãn tính"
+                  },
+                  {
+                    "en": "Sick Building Syndrome",
+                    "vi": "hội chứng tòa nhà bệnh tật"
+                  },
+                  {
+                    "en": "hermetically sealed spaces",
+                    "vi": "không gian đóng kín hoàn toàn"
+                  },
+                  {
+                    "en": "occupational anxiety",
+                    "vi": "lo âu nghề nghiệp"
+                  }
+                ],
+                "point_vi": "Môi trường làm việc bằng kính hoàn toàn có thể gây ra những bất lợi về sinh lý và tâm lý cho nhân viên văn phòng.",
+                "point_en": "An all-glass office environment can impose considerable physiological and psychological strains on employees.",
+                "evidence_vi": "Nhân viên ngồi gần mặt tiền kính thường xuyên chịu đựng ánh sáng chói lóa và sự dao động nhiệt độ cục bộ, dẫn đến mỏi mắt mãn tính, đau đầu và giảm hiệu suất công việc. Thêm vào đó, việc phụ thuộc hoàn toàn vào hệ thống thông gió nhân tạo trong các không gian kín có thể dẫn đến 'Hội chứng tòa nhà bệnh tật' (Sick Building Syndrome), làm suy giảm chất lượng không khí hít thở. Sự thiếu hụt không gian riêng tư do thiết kế trong suốt cũng làm gia tăng mức độ lo âu và căng thẳng nghề nghiệp. Ví dụ, các nghiên cứu chỉ ra rằng nhân viên văn phòng trong các tòa nhà kính kín thường báo cáo mức độ mệt mỏi và đau đầu cao hơn so với những người làm việc trong không gian có thông gió tự nhiên.",
+                "evidence_en": "Employees stationed near expansive glass perimeters frequently endure visual glare and severe thermal fluctuations, culminating in chronic ocular fatigue, persistent migraines, and diminished productivity. Furthermore, absolute reliance on artificial ventilation within hermetically sealed buildings can trigger Sick Building Syndrome, deteriorating indoor air quality and worker vitality. The pervasive lack of visual privacy in transparent corporate settings also amplifies occupational anxiety and interpersonal stress. For example, empirical studies reveal that desk workers in fully glazed corporate towers report significantly higher rates of lethargy and headaches compared to those in naturally ventilated, climate-responsive workspaces."
+              }
+            ],
+            "drawbacks": []
+          },
+          "vocab": [
+            {
+              "en": "glass office buildings",
+              "vi": "tòa nhà văn phòng bằng kính"
+            },
+            {
+              "en": "consume a large amount of energy",
+              "vi": "tiêu thụ lượng lớn năng lượng"
+            },
+            {
+              "en": "absorb heat from sunlight",
+              "vi": "hấp thụ nhiệt từ ánh nắng"
+            },
+            {
+              "en": "air conditioning systems",
+              "vi": "hệ thống điều hòa không khí"
+            },
+            {
+              "en": "high electricity costs",
+              "vi": "chi phí điện năng cao"
+            },
+            {
+              "en": "glass surfaces",
+              "vi": "bề mặt kính"
+            },
+            {
+              "en": "cause severe glare",
+              "vi": "gây chói mắt nghiêm trọng"
+            },
+            {
+              "en": "light pollution",
+              "vi": "ô nhiễm ánh sáng"
+            },
+            {
+              "en": "reflect strong sunlight",
+              "vi": "phản chiếu ánh nắng mạnh"
+            },
+            {
+              "en": "bright artificial lighting",
+              "vi": "ánh sáng nhân tạo rực rỡ"
+            },
+            {
+              "en": "negatively affect health",
+              "vi": "ảnh hưởng tiêu cực đến sức khỏe"
+            },
+            {
+              "en": "eye strain and headaches",
+              "vi": "mỏi mắt và đau đầu"
+            },
+            {
+              "en": "artificial ventilation",
+              "vi": "thông gió nhân tạo"
+            },
+            {
+              "en": "lack of natural airflow",
+              "vi": "thiếu luồng không khí tự nhiên"
+            },
+            {
+              "en": "feel tired and stressed",
+              "vi": "cảm thấy mệt mỏi và căng thẳng"
+            },
+            {
+              "en": "massive energy consumption",
+              "vi": "tiêu thụ năng lượng khổng lồ"
+            },
+            {
+              "en": "temperature regulation",
+              "vi": "điều hòa nhiệt độ"
+            },
+            {
+              "en": "internal greenhouse effect",
+              "vi": "hiệu ứng nhà kính bên trong"
+            },
+            {
+              "en": "heavy-duty HVAC systems",
+              "vi": "hệ thống thông gió làm mát công suất lớn"
+            },
+            {
+              "en": "carbon emissions",
+              "vi": "phát thải khí carbon"
+            },
+            {
+              "en": "intense solar reflection",
+              "vi": "phản xạ ánh sáng mặt trời gay gắt"
+            },
+            {
+              "en": "exacerbate light pollution",
+              "vi": "làm trầm trọng thêm ô nhiễm ánh sáng"
+            },
+            {
+              "en": "visual hazards for motorists",
+              "vi": "mối nguy hiểm thị giác cho tài xế"
+            },
+            {
+              "en": "circadian rhythm disruption",
+              "vi": "gián đoạn nhịp sinh học"
+            },
+            {
+              "en": "urban skyglow",
+              "vi": "quầng sáng đô thị"
+            },
+            {
+              "en": "physiological and psychological strains",
+              "vi": "căng thẳng sinh lý và tâm lý"
+            },
+            {
+              "en": "chronic ocular fatigue",
+              "vi": "mỏi mắt mãn tính"
+            },
+            {
+              "en": "Sick Building Syndrome",
+              "vi": "hội chứng tòa nhà bệnh tật"
+            },
+            {
+              "en": "hermetically sealed spaces",
+              "vi": "không gian đóng kín hoàn toàn"
+            },
+            {
+              "en": "occupational anxiety",
+              "vi": "lo âu nghề nghiệp"
+            }
+          ],
+          "sample_b1": "In recent years, <strong>working in modern glass office buildings</strong> has become increasingly common in many cities. However, this environment has drawn significant concern. <strong>This essay will explore the major effects of this working environment.</strong>\n\nOne major effect is that <strong><em>glass office buildings often consume a large amount of energy.</em></strong> These buildings absorb a lot of heat from sunlight during the day. Therefore, air conditioning systems must operate continuously to cool the workspaces. This leads to high electricity costs and puts pressure on the city's power grid. For example, many glass offices have to run their air conditioners at full capacity throughout hot summer days.\n\nAnother significant impact is that <strong><em>the glass surfaces of buildings can cause severe glare and light pollution.</em></strong> Glass surfaces reflect strong sunlight onto surrounding areas and pedestrians. This can dazzle drivers and increase the risk of road accidents. In addition, bright artificial lighting shining from glass offices at night contributes to urban light pollution. For example, motorists driving past modern glass towers often suffer from intense glare during midday.\n\nA further consequence is that <strong><em>working in this environment can negatively affect employees' health and mental well-being.</em></strong> Glare from windows and uneven indoor temperatures can cause eye strain and headaches for office workers. Furthermore, staying in a sealed space with artificial ventilation all day makes employees feel tired and stressed. The lack of natural airflow and personal privacy can also reduce concentration. Therefore, many office workers feel exhausted after long working hours inside glass buildings.\n\nIn conclusion, <strong>working in modern glass office buildings</strong> produces notable effects on energy use, the urban environment, and worker well-being. Understanding these effects helps developers and companies design better workplaces in the future.",
+          "translation_b1": "Trong những năm gần đây, <strong>việc làm việc trong các tòa nhà văn phòng bằng kính hiện đại</strong> ngày càng trở nên phổ biến ở nhiều thành phố. Tuy nhiên, môi trường này đã thu hút sự quan tâm đáng kể. <strong>Bài tiểu luận này sẽ tìm hiểu những ảnh hưởng chính của môi trường làm việc này.</strong>\n\nMột tác động lớn là <strong><em>các tòa nhà văn phòng bằng kính thường tiêu thụ một lượng lớn năng lượng.</em></strong> Những tòa nhà này hấp thụ nhiều nhiệt từ ánh sáng mặt trời vào ban ngày. Do đó, các hệ thống điều hòa không khí phải hoạt động liên tục để làm mát không gian làm việc. Điều này dẫn đến chi phí điện năng rất cao và tạo thêm gánh nặng cho lưới điện thành phố. Ví dụ, nhiều văn phòng kính phải bật máy lạnh hết công suất suốt cả ngày hè.\n\nMột ảnh hưởng đáng kể khác là <strong><em>mặt kính của các tòa nhà có thể gây ra hiện tượng chói mắt và ô nhiễm ánh sáng.</em></strong> Bề mặt kính phản chiếu ánh sáng mặt trời mạnh vào các khu vực xung quanh và người đi đường. Điều này có thể làm lóa mắt người tham gia giao thông và gây nguy hiểm. Ngoài ra, ánh sáng nhân tạo rực rỡ từ các văn phòng kính vào ban đêm cũng làm sáng bầu trời đô thị. Ví dụ, tài xế lái xe qua các khu phố có nhiều tòa nhà kính thường bị chói mắt vào buổi trưa.\n\nMột hậu quả nữa là <strong><em>làm việc trong môi trường này có thể ảnh hưởng tiêu cực đến sức khỏe và tinh thần của nhân viên.</em></strong> Ánh sáng chói và nhiệt độ không đồng đều gần các cửa sổ kính có thể gây mỏi mắt và đau đầu. Hơn nữa, việc ở trong không gian kín với không khí nhân tạo suốt cả ngày làm nhân viên cảm thấy mệt mỏi và căng thẳng. Thiếu không khí tự nhiên và sự riêng tư cũng có thể làm giảm khả năng tập trung. Vì vậy, nhiều nhân viên văn phòng cảm thấy kiệt sức sau nhiều giờ làm việc trong các tòa nhà kính.\n\nTóm lại, <strong>việc làm việc trong các tòa nhà văn phòng bằng kính hiện đại</strong> tạo ra những tác động đáng kể đến việc sử dụng năng lượng, môi trường đô thị và sức khỏe của nhân viên. Việc hiểu rõ những tác động này sẽ giúp các nhà phát triển và doanh nghiệp thiết kế nơi làm việc tốt hơn trong tương lai.",
+          "sample_b2": "In recent years, <strong>the prevalence of working in modern glass office buildings</strong> has become a prominent architectural trend in major metropolitan areas. While these transparent structures present a sleek aesthetic, they exert far-reaching consequences on energy systems, urban surroundings, and occupational health. <strong>This essay will examine the primary effects associated with this work environment.</strong>\n\nOne primary impact is that <strong><em>a major consequence of glass office buildings is the massive energy consumption required for temperature regulation.</em></strong> Expansive glass facades create an internal greenhouse effect, substantially increasing indoor temperatures when exposed to direct sunlight. Consequently, these structures require heavy-duty HVAC systems to run continuously to maintain a comfortable working climate. This intense energy demand not only inflates corporate operational expenditures but also contributes significantly to carbon emissions. For instance, fully glazed skyscrapers often consume several times more cooling energy than well-insulated conventional buildings.\n\nAnother significant concern is that <strong><em>modern glazed structures generate intense solar reflection and exacerbate urban light pollution.</em></strong> During daylight hours, reflective exterior panels redirect intense solar glare into neighboring streets, posing visual hazards to motorists and elevating local ambient temperatures. At night, extensive interior illumination radiates outward through transparent walls, disrupting natural ecosystems and interfering with the circadian rhythms of nearby residents. This phenomenon significantly contributes to urban skyglow and unnecessary photon waste. For example, concentrated reflections from curved glass towers have been documented to melt vehicle parts and cause severe discomfort in surrounding districts.\n\nA further adverse effect to consider is that <strong><em>an all-glass office environment can impose considerable physiological and psychological strains on employees.</em></strong> Employees stationed near expansive glass perimeters frequently endure visual glare and severe thermal fluctuations, culminating in chronic ocular fatigue, persistent migraines, and diminished productivity. Furthermore, absolute reliance on artificial ventilation within hermetically sealed buildings can trigger Sick Building Syndrome, deteriorating indoor air quality and worker vitality. The pervasive lack of visual privacy in transparent corporate settings also amplifies occupational anxiety and interpersonal stress. For example, empirical studies reveal that desk workers in fully glazed corporate towers report significantly higher rates of lethargy and headaches compared to those in naturally ventilated, climate-responsive workspaces.\n\nIn conclusion, <strong>working in modern glass office buildings</strong> generates substantial repercussions, ranging from excessive cooling energy consumption and urban light pollution to physiological and mental health burdens on employees. Recognizing these multifaceted consequences underscores the necessity for sustainable architectural designs and ergonomic workplace modifications. By implementing energy-efficient glazing and improved indoor environments, modern cities can balance visual elegance with human and environmental well-being.",
+          "translation_b2": "Trong những năm gần đây, <strong>sự phổ biến của việc làm việc trong các tòa nhà văn phòng bằng kính hiện đại</strong> đã trở thành một xu hướng kiến trúc nổi bật tại các khu đô thị lớn. Mặc dù các cấu trúc trong suốt này mang lại vẻ ngoài thẩm mỹ hiện đại, chúng gây ra những hậu quả sâu rộng đối với hệ thống năng lượng, môi trường đô thị xung quanh và sức khỏe nghề nghiệp. <strong>Bài tiểu luận này sẽ xem xét các tác động chính liên quan đến môi trường làm việc này.</strong>\n\nMột tác động chính là <strong><em>mức tiêu thụ năng lượng khổng lồ cho việc điều hòa nhiệt độ là một hậu quả lớn của các tòa nhà văn phòng bằng kính.</em></strong> Các bức tường kính lớn tạo ra hiệu ứng nhà kính bên trong, làm tăng đáng kể nhiệt độ trong nhà khi tiếp xúc với ánh nắng mặt trời. Do đó, các tòa nhà này đòi hỏi các hệ thống điều hòa không khí công suất lớn hoạt động không ngừng để duy trì môi trường làm việc thoải mái. Nhu cầu năng lượng cao này không chỉ làm gia tăng chi phí vận hành cho các doanh nghiệp mà còn góp phần phát thải khí nhà kính vào bầu khí quyển. Chẳng hạn, các tòa nhà chọc trời bằng kính tiêu thụ năng lượng làm mát cao gấp nhiều lần so với các kiến trúc truyền thống có cách nhiệt tốt.\n\nMột mối lo ngại đáng kể khác là <strong><em>các cấu trúc kính hiện đại tạo ra phản xạ ánh sáng gay gắt và góp phần làm trầm trọng thêm ô nhiễm ánh sáng đô thị.</em></strong> Vào ban ngày, các bề mặt kính phản chiếu lượng lớn bức xạ mặt trời, gây chói lóa nguy hiểm cho người điều khiển phương tiện và làm nóng môi trường xung quanh. Vào ban đêm, hệ thống chiếu sáng nội thất rực rỡ xuyên qua các bức tường trong suốt, làm gián đoạn hệ sinh thái tự nhiên và chu kỳ giấc ngủ của cư dân lân cận. Hiện tượng này làm biến đổi cảnh quan ban đêm của các thành phố và gây lãng phí ánh sáng không cần thiết. Ví dụ, phản xạ từ các tòa nhà kính lớn tại các trung tâm thương mại đã từng làm tăng nhiệt độ đường phố và gây khó chịu cho người dân xung quanh.\n\nMột tác động bất lợi nữa cần xem xét là <strong><em>môi trường làm việc bằng kính hoàn toàn có thể gây ra những áp lực sinh lý và tâm lý đáng kể cho nhân viên.</em></strong> Nhân viên ngồi gần mặt tiền kính thường xuyên chịu đựng ánh sáng chói lóa và sự dao động nhiệt độ cục bộ, dẫn đến mỏi mắt mãn tính, đau đầu và giảm hiệu suất công việc. Thêm vào đó, việc phụ thuộc hoàn toàn vào hệ thống thông gió nhân tạo trong các không gian kín có thể dẫn đến 'Hội chứng tòa nhà bệnh tật' (Sick Building Syndrome), làm suy giảm chất lượng không khí hít thở. Sự thiếu hụt không gian riêng tư do thiết kế trong suốt cũng làm gia tăng mức độ lo âu và căng thẳng nghề nghiệp. Ví dụ, các nghiên cứu chỉ ra rằng nhân viên văn phòng trong các tòa nhà kính kín thường báo cáo mức độ mệt mỏi và đau đầu cao hơn so với những người làm việc trong không gian có thông gió tự nhiên.\n\nTóm lại, <strong>việc làm việc trong các tòa nhà văn phòng bằng kính hiện đại</strong> tạo ra những hậu quả đáng kể, từ việc tiêu thụ quá mức năng lượng làm mát và ô nhiễm ánh sáng đô thị cho đến những gánh nặng về sức khỏe thể chất và tinh thần của nhân viên. Việc nhận thức được các hệ quả đa chiều này nhấn mạnh sự cần thiết của các thiết kế kiến trúc bền vững và những điều chỉnh công thái học tại nơi làm việc. Bằng cách áp dụng các loại kính tiết kiệm năng lượng và cải thiện môi trường trong nhà, các thành phố hiện đại có thể cân bằng giữa vẻ đẹp thẩm mỹ với sức khỏe con người và môi trường."
+        }
       }
     ]
   },
