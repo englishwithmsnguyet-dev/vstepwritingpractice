@@ -15153,8 +15153,8 @@ const ESSAY_DATA = [
               "vi": "học tập và làm việc"
             },
             {
-              "en": "increase the number of commuters",
-              "vi": "gia tăng lượng người đi lại"
+              "en": "increase the number of people travelling",
+              "vi": "gia tăng số lượng người tham gia giao thông"
             },
             {
               "en": "face greater pressure",
@@ -15201,8 +15201,8 @@ const ESSAY_DATA = [
               "vi": "trở nên nghiêm trọng hơn"
             },
             {
-              "en": "invest in modern transit systems",
-              "vi": "đầu tư vào hệ thống giao thông hiện đại"
+              "en": "invest in modern systems",
+              "vi": "đầu tư vào các hệ thống hiện đại"
             },
             {
               "en": "bus, train, and metro systems",
@@ -15439,8 +15439,8 @@ const ESSAY_DATA = [
                     "vi": "học tập và làm việc"
                   },
                   {
-                    "en": "increase the number of commuters",
-                    "vi": "gia tăng lượng người đi lại"
+                    "en": "increase the number of people travelling",
+                    "vi": "gia tăng số lượng người tham gia giao thông"
                   },
                   {
                     "en": "face greater pressure",
@@ -15520,8 +15520,12 @@ const ESSAY_DATA = [
                 "title": "GIẢI PHÁP 01: PHÁT TRIỂN GIAO THÔNG CÔNG CỘNG",
                 "collocations": [
                   {
-                    "en": "invest in modern transit systems",
-                    "vi": "đầu tư vào hệ thống giao thông hiện đại"
+                    "en": "improve public transport systems",
+                    "vi": "cải thiện hệ thống giao thông công cộng"
+                  },
+                  {
+                    "en": "invest in modern systems",
+                    "vi": "đầu tư vào các hệ thống hiện đại"
                   },
                   {
                     "en": "bus, train, and metro systems",

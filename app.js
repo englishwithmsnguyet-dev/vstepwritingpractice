@@ -802,30 +802,35 @@ function normalizeTextForMatching(str) {
 
 function filterCollocationsForSentence(sentenceVi, sentenceEn, collocations) {
   if (!collocations || collocations.length === 0) return [];
-  const normVi = normalizeTextForMatching(sentenceVi);
-  const normEn = normalizeTextForMatching(sentenceEn);
+  const normVi = ' ' + normalizeTextForMatching(sentenceVi) + ' ';
+  const normEn = ' ' + normalizeTextForMatching(sentenceEn) + ' ';
 
-  const matched = collocations.filter(col => {
+  return collocations.filter(col => {
     const colEn = normalizeTextForMatching(col.en);
     const colVi = normalizeTextForMatching(col.vi);
 
-    // Exact phrase match in EN or VI
-    if (normEn.includes(colEn) || normVi.includes(colVi)) return true;
+    // 1. Direct substring match (VI or EN)
+    if (colVi && normVi.includes(colVi)) return true;
+    if (colEn && normEn.includes(colEn)) return true;
 
-    // Check key word matching (excluding common stop words)
-    const enWords = colEn.split(' ').filter(w => w.length > 2 && !['and', 'the', 'for', 'with', 'that', 'this', 'are', 'can', 'may', 'has', 'have', 'from', 'also'].includes(w));
-    const viWords = colVi.split(' ').filter(w => w.length > 1 && !['và', 'các', 'những', 'của', 'trong', 'được', 'cho', 'có', 'là', 'nhiều', 'thể', 'cũng'].includes(w));
+    // 2. Multi-word phrase matching with filler words (e.g. "meet travel needs" vs "meet their travel needs")
+    const enWords = colEn.split(' ').filter(w => w.length > 2 && !['and', 'the', 'for', 'with', 'that', 'this', 'are', 'can', 'may', 'has', 'have', 'from', 'also', 'their', 'some', 'sb', 'sth'].includes(w));
+    const viWords = colVi.split(' ').filter(w => w.length > 1 && !['và', 'các', 'những', 'của', 'trong', 'được', 'cho', 'có', 'là', 'nhiều', 'thể', 'cũng', 'một', 'số'].includes(w));
 
-    const matchEnCount = enWords.filter(w => normEn.includes(w)).length;
-    const matchViCount = viWords.filter(w => normVi.includes(w)).length;
+    // Must match ALL significant words in English
+    if (enWords.length >= 2) {
+      const matchEn = enWords.filter(w => normEn.includes(' ' + w + ' ') || normEn.includes(w)).length;
+      if (matchEn === enWords.length) return true;
+    }
 
-    if (enWords.length > 0 && matchEnCount >= Math.ceil(enWords.length * 0.5)) return true;
-    if (viWords.length > 0 && matchViCount >= Math.ceil(viWords.length * 0.5)) return true;
+    // Must match ALL significant words in Vietnamese
+    if (viWords.length >= 2) {
+      const matchVi = viWords.filter(w => normVi.includes(' ' + w + ' ') || normVi.includes(w)).length;
+      if (matchVi === viWords.length) return true;
+    }
 
     return false;
   });
-
-  return matched;
 }
 
 // Helper to split paragraph into sentences
