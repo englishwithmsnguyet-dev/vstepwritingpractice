@@ -791,6 +791,43 @@ function switchTransLevel(level) {
   renderTranslationExercises();
 }
 
+function normalizeTextForMatching(str) {
+  return (str || '')
+    .toLowerCase()
+    .normalize('NFC')
+    .replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function filterCollocationsForSentence(sentenceVi, sentenceEn, collocations) {
+  if (!collocations || collocations.length === 0) return [];
+  const normVi = normalizeTextForMatching(sentenceVi);
+  const normEn = normalizeTextForMatching(sentenceEn);
+
+  const matched = collocations.filter(col => {
+    const colEn = normalizeTextForMatching(col.en);
+    const colVi = normalizeTextForMatching(col.vi);
+
+    // Exact phrase match in EN or VI
+    if (normEn.includes(colEn) || normVi.includes(colVi)) return true;
+
+    // Check key word matching (excluding common stop words)
+    const enWords = colEn.split(' ').filter(w => w.length > 2 && !['and', 'the', 'for', 'with', 'that', 'this', 'are', 'can', 'may', 'has', 'have', 'from', 'also'].includes(w));
+    const viWords = colVi.split(' ').filter(w => w.length > 1 && !['và', 'các', 'những', 'của', 'trong', 'được', 'cho', 'có', 'là', 'nhiều', 'thể', 'cũng'].includes(w));
+
+    const matchEnCount = enWords.filter(w => normEn.includes(w)).length;
+    const matchViCount = viWords.filter(w => normVi.includes(w)).length;
+
+    if (enWords.length > 0 && matchEnCount >= Math.ceil(enWords.length * 0.5)) return true;
+    if (viWords.length > 0 && matchViCount >= Math.ceil(viWords.length * 0.5)) return true;
+
+    return false;
+  });
+
+  return matched;
+}
+
 // Helper to split paragraph into sentences
 function splitSentences(text) {
   if (!text) return [];
@@ -828,13 +865,14 @@ function buildTranslationExercises(topic, transLevel, category) {
   if (group1Items && group1Items.length > 0) {
     group1Items.forEach((item, idx) => {
       const baseTitle = item.title ? item.title : (isDiscussion ? benefitLabel : `${benefitLabel} 0${idx+1}`);
+      const itemCollocations = item.collocations || topic.details.vocab || [];
       // 1. Point
       exercises.push({
         type: 'benefit_point',
         title: `${baseTitle}<br/>Luận điểm`,
         vi: item.point_vi,
         en: item.point_en,
-        collocations: item.collocations || []
+        collocations: filterCollocationsForSentence(item.point_vi, item.point_en, itemCollocations)
       });
       // 2. Evidence
       const viSentences = splitSentences(item.evidence_vi);
@@ -847,7 +885,7 @@ function buildTranslationExercises(topic, transLevel, category) {
           title: `${baseTitle}<br/>Luận cứ ${sNum}`,
           vi: viS,
           en: enS,
-          collocations: item.collocations || []
+          collocations: filterCollocationsForSentence(viS, enS, itemCollocations)
         });
       });
     });
@@ -857,13 +895,14 @@ function buildTranslationExercises(topic, transLevel, category) {
   if (group2Items && group2Items.length > 0) {
     group2Items.forEach((item, idx) => {
       const baseTitle = item.title ? item.title : (isDiscussion ? drawbackLabel : `${drawbackLabel} 0${idx+1}`);
+      const itemCollocations = item.collocations || topic.details.vocab || [];
       // 1. Point
       exercises.push({
         type: 'drawback_point',
         title: `${baseTitle}<br/>Luận điểm`,
         vi: item.point_vi,
         en: item.point_en,
-        collocations: item.collocations || []
+        collocations: filterCollocationsForSentence(item.point_vi, item.point_en, itemCollocations)
       });
       // 2. Evidence
       const viSentences = splitSentences(item.evidence_vi);
@@ -876,7 +915,7 @@ function buildTranslationExercises(topic, transLevel, category) {
           title: `${baseTitle}<br/>Luận cứ ${sNum}`,
           vi: viS,
           en: enS,
-          collocations: item.collocations || []
+          collocations: filterCollocationsForSentence(viS, enS, itemCollocations)
         });
       });
     });
@@ -898,7 +937,6 @@ function renderTranslationExercises() {
         <p style="color: var(--text-secondary); max-width: 500px; margin: 0 auto 1.5rem auto; line-height: 1.5;">
           Chủ đề này chưa có dàn ý, nếu muốn viết thì hãy viết tự do nhé.
         </p>
-        <button class="btn btn-primary" onclick="switchStep(2)">VIẾT BÀI ›</button>
       </div>
     `;
     return;
@@ -922,15 +960,11 @@ function renderTranslationExercises() {
     const savedInput = localStorage.getItem(inputKey) || '';
     const isChecked = localStorage.getItem(checkedKey) === 'true';
     
-    // Format collocations hints as line-by-line list, hidden by default
+    // Format collocations hints as line-by-line list, strictly for this sentence
     let vocabHintsHtml = '';
     let hintsListHtml = '';
     if (ex.collocations && ex.collocations.length > 0) {
       hintsListHtml = ex.collocations.map(c => `<li><strong>${c.en}</strong>: ${c.vi}</li>`).join('');
-    } else if (topic.details.vocab && topic.details.vocab.length > 0) {
-      // Fallback: show first 3 items from topic global vocab
-      const fallbackList = topic.details.vocab.slice(0, 3);
-      hintsListHtml = fallbackList.map(c => `<li><strong>${c.en}</strong>: ${c.vi}</li>`).join('');
     }
 
     if (hintsListHtml) {
