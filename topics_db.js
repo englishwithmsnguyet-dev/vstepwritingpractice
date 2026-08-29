@@ -15033,244 +15033,220 @@ const ESSAY_DATA = [
         "details": {
           "vocab": [
             {
-              "en": "urban population growth",
-              "vi": "gia tăng dân số đô thị"
+              "en": "live and work",
+              "vi": "sống và làm việc"
+            },
+            {
+              "en": "large cities",
+              "vi": "các thành phố lớn"
+            },
+            {
+              "en": "in fact",
+              "vi": "trên thực tế"
             },
             {
               "en": "travel every day",
               "vi": "di chuyển hằng ngày"
             },
             {
-              "en": "put pressure on road networks",
-              "vi": "gây áp lực lên mạng lưới đường bộ"
+              "en": "put pressure on",
+              "vi": "gây áp lực lên"
             },
             {
-              "en": "heavy traffic volume",
-              "vi": "lượng phương tiện đông đúc"
+              "en": "transport systems",
+              "vi": "hệ thống giao thông"
             },
             {
-              "en": "peak commuting hours",
-              "vi": "giờ cao điểm đi lại"
+              "en": "public transport systems",
+              "vi": "hệ thống giao thông công cộng"
             },
             {
-              "en": "inadequate public transport",
-              "vi": "giao thông công cộng chưa đáp ứng"
+              "en": "well developed",
+              "vi": "phát triển tốt"
             },
             {
-              "en": "rely on private vehicles",
-              "vi": "phụ thuộc vào xe cá nhân"
+              "en": "serve people's needs",
+              "vi": "phục vụ nhu cầu của người dân"
             },
             {
-              "en": "motorbikes and cars",
-              "vi": "xe máy và ô tô"
+              "en": "use private vehicles",
+              "vi": "sử dụng phương tiện cá nhân"
             },
             {
-              "en": "traffic congestion",
-              "vi": "ùn tắc giao thông"
-            },
-            {
-              "en": "meet daily travel needs",
-              "vi": "đáp ứng nhu cầu đi lại hằng ngày"
-            },
-            {
-              "en": "poor traffic awareness",
-              "vi": "ý thức giao thông kém"
+              "en": "meet travel needs",
+              "vi": "đáp ứng nhu cầu đi lại"
             },
             {
               "en": "follow traffic rules",
               "vi": "tuân thủ luật giao thông"
             },
             {
+              "en": "use the roads",
+              "vi": "tham gia giao thông / đi trên đường"
+            },
+            {
+              "en": "for example",
+              "vi": "ví dụ"
+            },
+            {
               "en": "park illegally",
-              "vi": "đỗ xe trái phép"
+              "vi": "đỗ xe trái phép / sai quy định"
             },
             {
               "en": "change lanes improperly",
-              "vi": "chuyển làn đường sai quy định"
-            },
-            {
-              "en": "block the roadway",
-              "vi": "gây cản trở lòng đường"
+              "vi": "chuyển làn đường không đúng cách"
             },
             {
               "en": "improve public transport systems",
-              "vi": "nâng cao hệ thống giao thông công cộng"
+              "vi": "cải thiện hệ thống giao thông công cộng"
             },
             {
-              "en": "bus routes and metro lines",
-              "vi": "tuyến xe buýt và đường sắt đô thị"
+              "en": "encourage sb to do sth",
+              "vi": "khuyến khích ai làm gì"
             },
             {
-              "en": "encourage public transit use",
-              "vi": "khuyến khích đi phương tiện công cộng"
+              "en": "use public transport",
+              "vi": "sử dụng phương tiện công cộng"
             },
             {
-              "en": "reduce private vehicles",
-              "vi": "giảm phương tiện cá nhân"
+              "en": "instead of",
+              "vi": "thay vì"
             },
             {
-              "en": "affordable transit fares",
-              "vi": "giá vé đi lại hợp lý"
+              "en": "private vehicles",
+              "vi": "phương tiện cá nhân"
             },
             {
               "en": "upgrade transport infrastructure",
-              "vi": "nâng cấp hạ tầng giao thông"
+              "vi": "nâng cấp cơ sở hạ tầng giao thông"
             },
             {
-              "en": "widen roads and build overpasses",
-              "vi": "mở rộng đường và xây cầu vượt"
+              "en": "meet the growing demand",
+              "vi": "đáp ứng nhu cầu ngày càng tăng"
             },
             {
-              "en": "meet growing travel demand",
-              "vi": "đáp ứng nhu cầu đi lại ngày càng tăng"
+              "en": "widen roads",
+              "vi": "mở rộng đường sá"
             },
             {
-              "en": "eliminate traffic bottlenecks",
-              "vi": "xóa bỏ các điểm nghẽn giao thông"
-            },
-            {
-              "en": "expand road capacity",
-              "vi": "mở rộng sức chứa của đường sá"
+              "en": "build more roads",
+              "vi": "xây thêm các tuyến đường mới"
             },
             {
               "en": "raise traffic awareness",
               "vi": "nâng cao ý thức giao thông"
             },
             {
-              "en": "strict law enforcement",
-              "vi": "thực thi luật nghiêm minh"
+              "en": "help traffic move smoothly",
+              "vi": "giúp giao thông lưu thông thuận lợi"
             },
             {
-              "en": "heavy traffic fines",
-              "vi": "phạt tiền vi phạm giao thông nặng"
+              "en": "more effectively",
+              "vi": "hiệu quả hơn"
             },
             {
-              "en": "obey traffic regulations",
-              "vi": "chấp hành luật lệ giao thông"
+              "en": "move to large cities",
+              "vi": "chuyển đến các thành phố lớn"
             },
             {
-              "en": "smooth traffic flow",
-              "vi": "lưu thông xe cộ thông suốt"
+              "en": "study and work",
+              "vi": "học tập và làm việc"
             },
             {
-              "en": "rapid urbanization",
-              "vi": "đô thị hóa nhanh chóng"
+              "en": "increase the number of commuters",
+              "vi": "gia tăng lượng người đi lại"
             },
             {
-              "en": "overburdened transport systems",
-              "vi": "hệ thống giao thông quá tải"
+              "en": "face greater pressure",
+              "vi": "chịu áp lực lớn hơn"
             },
             {
-              "en": "massive influx of commuters",
-              "vi": "lượng lớn người đi lại đổ về"
+              "en": "traffic congestion becomes more common",
+              "vi": "ùn tắc giao thông trở nên phổ biến hơn"
             },
             {
-              "en": "gridlock on major arterial roads",
-              "vi": "tắc nghẽn trên các trục đường chính"
+              "en": "lack convenient and reliable services",
+              "vi": "thiếu các dịch vụ thuận tiện và đáng tin cậy"
             },
             {
-              "en": "peak-hour bottleneck",
-              "vi": "nút thắt cổ chai giờ cao điểm"
+              "en": "have difficulty using public transport",
+              "vi": "gặp khó khăn khi sử dụng giao thông công cộng"
             },
             {
-              "en": "insufficient public transit coverage",
-              "vi": "độ phủ giao thông công cộng chưa đủ"
+              "en": "daily travel",
+              "vi": "việc đi lại hằng ngày"
             },
             {
-              "en": "over-reliance on private motor vehicles",
-              "vi": "quá phụ thuộc vào xe cơ giới cá nhân"
+              "en": "rely on private vehicles",
+              "vi": "phụ thuộc vào phương tiện cá nhân"
             },
             {
-              "en": "proliferation of private cars",
-              "vi": "sự gia tăng nhanh của ô tô cá nhân"
+              "en": "transportation",
+              "vi": "việc di chuyển / giao thông"
             },
             {
-              "en": "subpar transit frequency and reliability",
-              "vi": "tần suất và độ tin cậy của xe công cộng chưa cao"
+              "en": "obey traffic rules",
+              "vi": "tuân thủ luật giao thông"
             },
             {
-              "en": "exacerbate roadway congestion",
-              "vi": "làm trầm trọng thêm ùn tắc đường bộ"
+              "en": "disrupt traffic flow",
+              "vi": "làm gián đoạn dòng phương tiện"
             },
             {
-              "en": "blatant traffic violations",
-              "vi": "vi phạm giao thông trắng trợn"
+              "en": "consequently",
+              "vi": "do đó, kết quả là"
             },
             {
-              "en": "reckless driving and illegal parking",
-              "vi": "lái xe ẩu và đỗ xe trái phép"
+              "en": "become more severe",
+              "vi": "trở nên nghiêm trọng hơn"
             },
             {
-              "en": "abrupt and dangerous lane switching",
-              "vi": "chuyển làn đột ngột và nguy hiểm"
+              "en": "invest in modern transit systems",
+              "vi": "đầu tư vào hệ thống giao thông hiện đại"
             },
             {
-              "en": "obstruct vehicular movement",
-              "vi": "cản trở chuyển động của phương tiện"
+              "en": "bus, train, and metro systems",
+              "vi": "hệ thống xe buýt, tàu hỏa và tàu điện ngầm"
             },
             {
-              "en": "lack of civic discipline among road users",
-              "vi": "thiếu ý thức kỷ luật của người tham gia giao thông"
+              "en": "choose public transport",
+              "vi": "lựa chọn phương tiện công cộng"
             },
             {
-              "en": "comprehensive public transit modernization",
-              "vi": "hiện đại hóa toàn diện giao thông công cộng"
+              "en": "instead of private vehicles",
+              "vi": "thay vì xe cá nhân"
             },
             {
-              "en": "high-capacity mass rapid transit (MRT)",
-              "vi": "hệ thống đường sắt đô thị sức chở lớn"
+              "en": "widen roads and construct additional roads",
+              "vi": "mở rộng đường và xây thêm đường"
             },
             {
-              "en": "seamless bus-metro integration",
-              "vi": "tích hợp liền mạch giữa xe buýt và tàu điện"
+              "en": "improve traffic flow",
+              "vi": "cải thiện lưu lượng giao thông"
             },
             {
-              "en": "disincentivize private vehicle usage",
-              "vi": "làm giảm động lực dùng xe cá nhân"
+              "en": "reduce pressure on existing roads",
+              "vi": "giảm áp lực lên các tuyến đường hiện có"
             },
             {
-              "en": "sustainable urban mobility",
-              "vi": "di chuyển đô thị bền vững"
+              "en": "raise public traffic awareness",
+              "vi": "nâng cao ý thức giao thông của công chúng"
             },
             {
-              "en": "infrastructure expansion and optimization",
-              "vi": "mở rộng và tối ưu hóa hạ tầng"
+              "en": "organise educational campaigns",
+              "vi": "tổ chức các chiến dịch giáo dục"
             },
             {
-              "en": "flyovers, underpasses and ring roads",
-              "vi": "cầu vượt, hầm chui và đường vành đai"
+              "en": "road safety",
+              "vi": "an toàn giao thông"
             },
             {
-              "en": "alleviate urban bottlenecks",
-              "vi": "giảm thiểu các điểm nghẽn đô thị"
+              "en": "follow traffic rules more carefully",
+              "vi": "tuân thủ luật giao thông cẩn thận hơn"
             },
             {
-              "en": "intelligent transport systems (ITS)",
-              "vi": "hệ thống giao thông thông minh"
-            },
-            {
-              "en": "dynamic traffic signal synchronization",
-              "vi": "đồng bộ hóa tín hiệu đèn giao thông linh hoạt"
-            },
-            {
-              "en": "stringent law enforcement and deterrence",
-              "vi": "thực thi luật nghiêm ngặt và tính răn đe"
-            },
-            {
-              "en": "traffic surveillance camera networks",
-              "vi": "mạng lưới camera giám sát giao thông"
-            },
-            {
-              "en": "heavy monetary penalties for violations",
-              "vi": "hình phạt tiền nặng đối với vi phạm"
-            },
-            {
-              "en": "public road safety campaigns",
-              "vi": "chiến dịch an toàn giao thông công cộng"
-            },
-            {
-              "en": "foster a culture of law-abiding driving",
-              "vi": "xây dựng văn hóa lái xe thượng tôn pháp luật"
+              "en": "congestion-causing behaviours",
+              "vi": "các hành vi gây ùn tắc"
             }
           ],
           "ideas_b1": {
@@ -15279,24 +15255,28 @@ const ESSAY_DATA = [
                 "title": "NGUYÊN NHÂN 01: GIA TĂNG DÂN SỐ ĐÔ THỊ",
                 "collocations": [
                   {
-                    "en": "urban population growth",
-                    "vi": "gia tăng dân số đô thị"
+                    "en": "live and work",
+                    "vi": "sống và làm việc"
+                  },
+                  {
+                    "en": "large cities",
+                    "vi": "các thành phố lớn"
+                  },
+                  {
+                    "en": "in fact",
+                    "vi": "trên thực tế"
                   },
                   {
                     "en": "travel every day",
                     "vi": "di chuyển hằng ngày"
                   },
                   {
-                    "en": "put pressure on road networks",
-                    "vi": "gây áp lực lên mạng lưới đường bộ"
+                    "en": "put pressure on",
+                    "vi": "gây áp lực lên"
                   },
                   {
-                    "en": "heavy traffic volume",
-                    "vi": "lượng phương tiện đông đúc"
-                  },
-                  {
-                    "en": "peak commuting hours",
-                    "vi": "giờ cao điểm đi lại"
+                    "en": "transport systems",
+                    "vi": "hệ thống giao thông"
                   }
                 ],
                 "point_vi": "Ngày càng có nhiều người sống và làm việc ở các thành phố lớn.",
@@ -15308,24 +15288,24 @@ const ESSAY_DATA = [
                 "title": "NGUYÊN NHÂN 02: HỆ THỐNG GIAO THÔNG CÔNG CỘNG CHƯA PHÁT TRIỂN",
                 "collocations": [
                   {
-                    "en": "inadequate public transport",
-                    "vi": "giao thông công cộng chưa đáp ứng"
+                    "en": "public transport systems",
+                    "vi": "hệ thống giao thông công cộng"
                   },
                   {
-                    "en": "rely on private vehicles",
-                    "vi": "phụ thuộc vào xe cá nhân"
+                    "en": "well developed",
+                    "vi": "phát triển tốt"
                   },
                   {
-                    "en": "motorbikes and cars",
-                    "vi": "xe máy và ô tô"
+                    "en": "serve people's needs",
+                    "vi": "phục vụ nhu cầu của người dân"
                   },
                   {
-                    "en": "traffic congestion",
-                    "vi": "ùn tắc giao thông"
+                    "en": "use private vehicles",
+                    "vi": "sử dụng phương tiện cá nhân"
                   },
                   {
-                    "en": "meet daily travel needs",
-                    "vi": "đáp ứng nhu cầu đi lại hằng ngày"
+                    "en": "meet travel needs",
+                    "vi": "đáp ứng nhu cầu đi lại"
                   }
                 ],
                 "point_vi": "Hệ thống giao thông công cộng ở một số khu vực vẫn chưa phát triển tốt để phục vụ nhu cầu của người dân.",
@@ -15337,24 +15317,24 @@ const ESSAY_DATA = [
                 "title": "NGUYÊN NHÂN 03: Ý THỨC GIAO THÔNG KÉM",
                 "collocations": [
                   {
-                    "en": "poor traffic awareness",
-                    "vi": "ý thức giao thông kém"
-                  },
-                  {
                     "en": "follow traffic rules",
                     "vi": "tuân thủ luật giao thông"
                   },
                   {
+                    "en": "use the roads",
+                    "vi": "tham gia giao thông / đi trên đường"
+                  },
+                  {
+                    "en": "for example",
+                    "vi": "ví dụ"
+                  },
+                  {
                     "en": "park illegally",
-                    "vi": "đỗ xe trái phép"
+                    "vi": "đỗ xe trái phép / sai quy định"
                   },
                   {
                     "en": "change lanes improperly",
-                    "vi": "chuyển làn đường sai quy định"
-                  },
-                  {
-                    "en": "block the roadway",
-                    "vi": "gây cản trở lòng đường"
+                    "vi": "chuyển làn đường không đúng cách"
                   }
                 ],
                 "point_vi": "Một số người không tuân thủ luật giao thông khi tham gia giao thông.",
@@ -15369,23 +15349,23 @@ const ESSAY_DATA = [
                 "collocations": [
                   {
                     "en": "improve public transport systems",
-                    "vi": "nâng cao hệ thống giao thông công cộng"
+                    "vi": "cải thiện hệ thống giao thông công cộng"
                   },
                   {
-                    "en": "bus routes and metro lines",
-                    "vi": "tuyến xe buýt và đường sắt đô thị"
+                    "en": "encourage sb to do sth",
+                    "vi": "khuyến khích ai làm gì"
                   },
                   {
-                    "en": "encourage public transit use",
-                    "vi": "khuyến khích đi phương tiện công cộng"
+                    "en": "use public transport",
+                    "vi": "sử dụng phương tiện công cộng"
                   },
                   {
-                    "en": "reduce private vehicles",
-                    "vi": "giảm phương tiện cá nhân"
+                    "en": "instead of",
+                    "vi": "thay vì"
                   },
                   {
-                    "en": "affordable transit fares",
-                    "vi": "giá vé đi lại hợp lý"
+                    "en": "private vehicles",
+                    "vi": "phương tiện cá nhân"
                   }
                 ],
                 "point_vi": "Cải thiện hệ thống giao thông công cộng.",
@@ -15398,23 +15378,19 @@ const ESSAY_DATA = [
                 "collocations": [
                   {
                     "en": "upgrade transport infrastructure",
-                    "vi": "nâng cấp hạ tầng giao thông"
+                    "vi": "nâng cấp cơ sở hạ tầng giao thông"
                   },
                   {
-                    "en": "widen roads and build overpasses",
-                    "vi": "mở rộng đường và xây cầu vượt"
+                    "en": "meet the growing demand",
+                    "vi": "đáp ứng nhu cầu ngày càng tăng"
                   },
                   {
-                    "en": "meet growing travel demand",
-                    "vi": "đáp ứng nhu cầu đi lại ngày càng tăng"
+                    "en": "widen roads",
+                    "vi": "mở rộng đường sá"
                   },
                   {
-                    "en": "eliminate traffic bottlenecks",
-                    "vi": "xóa bỏ các điểm nghẽn giao thông"
-                  },
-                  {
-                    "en": "expand road capacity",
-                    "vi": "mở rộng sức chứa của đường sá"
+                    "en": "build more roads",
+                    "vi": "xây thêm các tuyến đường mới"
                   }
                 ],
                 "point_vi": "Nâng cấp cơ sở hạ tầng giao thông để đáp ứng nhu cầu đi lại ngày càng tăng.",
@@ -15430,20 +15406,16 @@ const ESSAY_DATA = [
                     "vi": "nâng cao ý thức giao thông"
                   },
                   {
-                    "en": "strict law enforcement",
-                    "vi": "thực thi luật nghiêm minh"
+                    "en": "follow traffic rules",
+                    "vi": "tuân thủ luật giao thông"
                   },
                   {
-                    "en": "heavy traffic fines",
-                    "vi": "phạt tiền vi phạm giao thông nặng"
+                    "en": "help traffic move smoothly",
+                    "vi": "giúp giao thông lưu thông thuận lợi"
                   },
                   {
-                    "en": "obey traffic regulations",
-                    "vi": "chấp hành luật lệ giao thông"
-                  },
-                  {
-                    "en": "smooth traffic flow",
-                    "vi": "lưu thông xe cộ thông suốt"
+                    "en": "more effectively",
+                    "vi": "hiệu quả hơn"
                   }
                 ],
                 "point_vi": "Nâng cao ý thức giao thông.",
@@ -15459,24 +15431,24 @@ const ESSAY_DATA = [
                 "title": "NGUYÊN NHÂN 01: GIA TĂNG DÂN SỐ ĐÔ THỊ",
                 "collocations": [
                   {
-                    "en": "rapid urbanization",
-                    "vi": "đô thị hóa nhanh chóng"
+                    "en": "move to large cities",
+                    "vi": "chuyển đến các thành phố lớn"
                   },
                   {
-                    "en": "overburdened transport systems",
-                    "vi": "hệ thống giao thông quá tải"
+                    "en": "study and work",
+                    "vi": "học tập và làm việc"
                   },
                   {
-                    "en": "massive influx of commuters",
-                    "vi": "lượng lớn người đi lại đổ về"
+                    "en": "increase the number of commuters",
+                    "vi": "gia tăng lượng người đi lại"
                   },
                   {
-                    "en": "gridlock on major arterial roads",
-                    "vi": "tắc nghẽn trên các trục đường chính"
+                    "en": "face greater pressure",
+                    "vi": "chịu áp lực lớn hơn"
                   },
                   {
-                    "en": "peak-hour bottleneck",
-                    "vi": "nút thắt cổ chai giờ cao điểm"
+                    "en": "traffic congestion becomes more common",
+                    "vi": "ùn tắc giao thông trở nên phổ biến hơn"
                   }
                 ],
                 "point_vi": "Ngày càng có nhiều người chuyển đến các thành phố lớn để học tập và làm việc.",
@@ -15488,24 +15460,24 @@ const ESSAY_DATA = [
                 "title": "NGUYÊN NHÂN 02: HỆ THỐNG GIAO THÔNG CÔNG CỘNG CHƯA PHÁT TRIỂN",
                 "collocations": [
                   {
-                    "en": "insufficient public transit coverage",
-                    "vi": "độ phủ giao thông công cộng chưa đủ"
+                    "en": "lack convenient and reliable services",
+                    "vi": "thiếu các dịch vụ thuận tiện và đáng tin cậy"
                   },
                   {
-                    "en": "over-reliance on private motor vehicles",
-                    "vi": "quá phụ thuộc vào xe cơ giới cá nhân"
+                    "en": "have difficulty using public transport",
+                    "vi": "gặp khó khăn khi sử dụng giao thông công cộng"
                   },
                   {
-                    "en": "proliferation of private cars",
-                    "vi": "sự gia tăng nhanh của ô tô cá nhân"
+                    "en": "daily travel",
+                    "vi": "việc đi lại hằng ngày"
                   },
                   {
-                    "en": "subpar transit frequency and reliability",
-                    "vi": "tần suất và độ tin cậy của xe công cộng chưa cao"
+                    "en": "rely on private vehicles",
+                    "vi": "phụ thuộc vào phương tiện cá nhân"
                   },
                   {
-                    "en": "exacerbate roadway congestion",
-                    "vi": "làm trầm trọng thêm ùn tắc đường bộ"
+                    "en": "transportation",
+                    "vi": "việc di chuyển / giao thông"
                   }
                 ],
                 "point_vi": "Nhiều khu vực vẫn thiếu các dịch vụ giao thông công cộng thuận tiện và đáng tin cậy.",
@@ -15517,24 +15489,24 @@ const ESSAY_DATA = [
                 "title": "NGUYÊN NHÂN 03: Ý THỨC GIAO THÔNG KÉM",
                 "collocations": [
                   {
-                    "en": "blatant traffic violations",
-                    "vi": "vi phạm giao thông trắng trợn"
+                    "en": "obey traffic rules",
+                    "vi": "tuân thủ luật giao thông"
                   },
                   {
-                    "en": "reckless driving and illegal parking",
-                    "vi": "lái xe ẩu và đỗ xe trái phép"
+                    "en": "park illegally",
+                    "vi": "đỗ xe trái phép"
                   },
                   {
-                    "en": "abrupt and dangerous lane switching",
-                    "vi": "chuyển làn đột ngột và nguy hiểm"
+                    "en": "disrupt traffic flow",
+                    "vi": "làm gián đoạn dòng phương tiện"
                   },
                   {
-                    "en": "obstruct vehicular movement",
-                    "vi": "cản trở chuyển động của phương tiện"
+                    "en": "consequently",
+                    "vi": "do đó, kết quả là"
                   },
                   {
-                    "en": "lack of civic discipline among road users",
-                    "vi": "thiếu ý thức kỷ luật của người tham gia giao thông"
+                    "en": "become more severe",
+                    "vi": "trở nên nghiêm trọng hơn"
                   }
                 ],
                 "point_vi": "Một số người không tuân thủ luật giao thông hoặc đỗ xe sai quy định.",
@@ -15548,24 +15520,20 @@ const ESSAY_DATA = [
                 "title": "GIẢI PHÁP 01: PHÁT TRIỂN GIAO THÔNG CÔNG CỘNG",
                 "collocations": [
                   {
-                    "en": "comprehensive public transit modernization",
-                    "vi": "hiện đại hóa toàn diện giao thông công cộng"
+                    "en": "invest in modern transit systems",
+                    "vi": "đầu tư vào hệ thống giao thông hiện đại"
                   },
                   {
-                    "en": "high-capacity mass rapid transit (MRT)",
-                    "vi": "hệ thống đường sắt đô thị sức chở lớn"
+                    "en": "bus, train, and metro systems",
+                    "vi": "hệ thống xe buýt, tàu hỏa và tàu điện ngầm"
                   },
                   {
-                    "en": "seamless bus-metro integration",
-                    "vi": "tích hợp liền mạch giữa xe buýt và tàu điện"
+                    "en": "choose public transport",
+                    "vi": "lựa chọn phương tiện công cộng"
                   },
                   {
-                    "en": "disincentivize private vehicle usage",
-                    "vi": "làm giảm động lực dùng xe cá nhân"
-                  },
-                  {
-                    "en": "sustainable urban mobility",
-                    "vi": "di chuyển đô thị bền vững"
+                    "en": "instead of private vehicles",
+                    "vi": "thay vì xe cá nhân"
                   }
                 ],
                 "point_vi": "Cải thiện hệ thống giao thông công cộng.",
@@ -15577,24 +15545,20 @@ const ESSAY_DATA = [
                 "title": "GIẢI PHÁP 02: NÂNG CẤP HẠ TẦNG GIAO THÔNG",
                 "collocations": [
                   {
-                    "en": "infrastructure expansion and optimization",
-                    "vi": "mở rộng và tối ưu hóa hạ tầng"
+                    "en": "upgrade transport infrastructure",
+                    "vi": "nâng cấp cơ sở hạ tầng giao thông"
                   },
                   {
-                    "en": "flyovers, underpasses and ring roads",
-                    "vi": "cầu vượt, hầm chui và đường vành đai"
+                    "en": "widen roads and construct additional roads",
+                    "vi": "mở rộng đường và xây thêm đường"
                   },
                   {
-                    "en": "alleviate urban bottlenecks",
-                    "vi": "giảm thiểu các điểm nghẽn đô thị"
+                    "en": "improve traffic flow",
+                    "vi": "cải thiện lưu lượng giao thông"
                   },
                   {
-                    "en": "intelligent transport systems (ITS)",
-                    "vi": "hệ thống giao thông thông minh"
-                  },
-                  {
-                    "en": "dynamic traffic signal synchronization",
-                    "vi": "đồng bộ hóa tín hiệu đèn giao thông linh hoạt"
+                    "en": "reduce pressure on existing roads",
+                    "vi": "giảm áp lực lên các tuyến đường hiện có"
                   }
                 ],
                 "point_vi": "Nâng cấp cơ sở hạ tầng giao thông cũng là một giải pháp cần thiết.",
@@ -15606,24 +15570,24 @@ const ESSAY_DATA = [
                 "title": "GIẢI PHÁP 03: NÂNG CAO Ý THỨC GIAO THÔNG",
                 "collocations": [
                   {
-                    "en": "stringent law enforcement and deterrence",
-                    "vi": "thực thi luật nghiêm ngặt và tính răn đe"
+                    "en": "raise public traffic awareness",
+                    "vi": "nâng cao ý thức giao thông của công chúng"
                   },
                   {
-                    "en": "traffic surveillance camera networks",
-                    "vi": "mạng lưới camera giám sát giao thông"
+                    "en": "organise educational campaigns",
+                    "vi": "tổ chức các chiến dịch giáo dục"
                   },
                   {
-                    "en": "heavy monetary penalties for violations",
-                    "vi": "hình phạt tiền nặng đối với vi phạm"
+                    "en": "road safety",
+                    "vi": "an toàn giao thông"
                   },
                   {
-                    "en": "public road safety campaigns",
-                    "vi": "chiến dịch an toàn giao thông công cộng"
+                    "en": "follow traffic rules more carefully",
+                    "vi": "tuân thủ luật giao thông cẩn thận hơn"
                   },
                   {
-                    "en": "foster a culture of law-abiding driving",
-                    "vi": "xây dựng văn hóa lái xe thượng tôn pháp luật"
+                    "en": "congestion-causing behaviours",
+                    "vi": "các hành vi gây ùn tắc"
                   }
                 ],
                 "point_vi": "Nâng cao ý thức giao thông của người dân là một giải pháp lâu dài.",
