@@ -5350,23 +5350,82 @@ document.addEventListener('DOMContentLoaded', () => {
   if (appContainer) appContainer.style.display = 'none';
 });
 
+const VALID_STUDENTS_CB206 = [
+  'Nguyễn Thị Vân Anh',
+  'Nguyễn Thị Hồng Duyên',
+  'Nguyễn Thị Thúy Hồng',
+  'Trương Ngọc Nhi',
+  'Nguyễn Phạm Như Quỳnh',
+  'Trần Lê Quỳnh',
+  'Ông Lê Thành',
+  'Trần Nguyễn Thanh Thảo',
+  'Phan Nhật Thiện',
+  'Trần Thị Cẩm Tiên',
+  'Võ Trần Bảo Tính',
+  'Trương Thanh Toàn',
+  'Phạm Ngọc Trâm',
+  'Nguyễn Võ Bảo Trân'
+];
+
+function normalizeVietnameseName(str) {
+  if (!str) return '';
+  return str
+    .normalize('NFC')
+    .trim()
+    .replace(/\s+/g, ' ')
+    .toLowerCase();
+}
+
 function submitGatewayAccess() {
   const nameInput = document.getElementById('gateway-name').value.trim();
   let classInput = document.getElementById('gateway-class').value.trim().toUpperCase();
+  const passInput = (document.getElementById('gateway-pass')?.value || '').trim();
   const errorEl = document.getElementById('gateway-error');
   const btnSubmit = document.getElementById('btn-gateway-submit');
   
-  if (!nameInput || !classInput) {
-    errorEl.textContent = 'Vui lòng nhập đầy đủ Họ tên và Lớp học!';
+  if (!nameInput) {
+    errorEl.textContent = 'Vui lòng nhập đầy đủ Họ và Tên!';
     errorEl.style.display = 'block';
     return;
   }
-  
-  const validClasses = ['CB196', 'CB201', 'CB202', 'B209', 'ONB103'];
-  if (!validClasses.includes(classInput)) {
-    errorEl.textContent = 'Mã lớp không hợp lệ. Vui lòng kiểm tra lại!';
-    errorEl.style.display = 'block';
-    return;
+
+  // Trường hợp đặc biệt dành cho Giáo viên (PTMN / GV)
+  const isTeacher = nameInput.toUpperCase() === 'PTMN' || classInput === 'GV';
+  if (isTeacher) {
+    classInput = classInput || 'GV';
+  } else {
+    if (!classInput) {
+      errorEl.textContent = 'Vui lòng nhập Lớp học!';
+      errorEl.style.display = 'block';
+      return;
+    }
+    
+    if (classInput !== 'CB206') {
+      errorEl.textContent = 'Mã lớp không hợp lệ. Hệ thống hiện chỉ mở cho lớp CB206!';
+      errorEl.style.display = 'block';
+      return;
+    }
+
+    if (!passInput) {
+      errorEl.textContent = 'Vui lòng nhập Mật khẩu!';
+      errorEl.style.display = 'block';
+      return;
+    }
+
+    if (passInput.toUpperCase() !== 'PRACTICEWRITING') {
+      errorEl.textContent = 'Mật khẩu không chính xác. Vui lòng kiểm tra lại!';
+      errorEl.style.display = 'block';
+      return;
+    }
+
+    const normInputName = normalizeVietnameseName(nameInput);
+    const isStudentMatched = VALID_STUDENTS_CB206.some(st => normalizeVietnameseName(st) === normInputName);
+    
+    if (!isStudentMatched) {
+      errorEl.textContent = 'Họ và tên không nằm trong danh sách lớp CB206. Vui lòng nhập đúng họ tên đầy đủ!';
+      errorEl.style.display = 'block';
+      return;
+    }
   }
   
   errorEl.style.display = 'none';
