@@ -84,6 +84,9 @@ function switchScreen(screenName) {
     header.classList.remove('view-category');
   }
 
+  // Close mobile sidebar on navigation
+  closeMobileSidebar();
+
   // Update screen visibility
   document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
   const targetScreen = document.getElementById(`screen-${screenName}`);
@@ -5457,4 +5460,19 @@ function submitGatewayAccess() {
     document.getElementById('app-container').style.display = 'flex';
     showToast(`Chào mừng ${nameInput} đã đến với lớp học!`, 'success');
   });
+}
+
+// Mobile Sidebar Helpers
+function toggleMobileSidebar() {
+  const sidebar = document.querySelector('.sidebar');
+  const overlay = document.getElementById('sidebar-overlay');
+  if (sidebar) sidebar.classList.toggle('open');
+  if (overlay) overlay.classList.toggle('active');
+}
+
+function closeMobileSidebar() {
+  const sidebar = document.querySelector('.sidebar');
+  const overlay = document.getElementById('sidebar-overlay');
+  if (sidebar) sidebar.classList.remove('open');
+  if (overlay) overlay.classList.remove('active');
 }
