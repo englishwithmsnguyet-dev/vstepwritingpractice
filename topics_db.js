@@ -750,7 +750,25 @@ const ESSAY_DATA = [
             }
           ]
         },
-        "id": 1
+        "id": 1,
+        "paraphrases": [
+          {
+            "en": "online learning / e-learning",
+            "vi": "học trực tuyến / học qua mạng"
+          },
+          {
+            "en": "distance education / remote learning",
+            "vi": "giáo dục từ xa / học từ xa"
+          },
+          {
+            "en": "web-based learning / digital education",
+            "vi": "học tập trên nền tảng web / giáo dục kỹ thuật số"
+          },
+          {
+            "en": "virtual classrooms and online study",
+            "vi": "lớp học ảo và học tập trực tuyến"
+          }
+        ]
       },
       {
         "title_en": "Studying abroad",
@@ -1425,7 +1443,25 @@ const ESSAY_DATA = [
             }
           ]
         },
-        "id": 2
+        "id": 2,
+        "paraphrases": [
+          {
+            "en": "studying abroad / overseas study",
+            "vi": "du học / học tập ở nước ngoài"
+          },
+          {
+            "en": "pursuing higher education in a foreign country",
+            "vi": "theo đuổi giáo dục bậc cao ở nước ngoài"
+          },
+          {
+            "en": "international education",
+            "vi": "giáo dục quốc tế"
+          },
+          {
+            "en": "attending universities overseas",
+            "vi": "theo học tại các trường đại học ở nước ngoài"
+          }
+        ]
       },
       {
         "title_en": "The Internet",
@@ -2080,7 +2116,25 @@ const ESSAY_DATA = [
             }
           ]
         },
-        "id": 3
+        "id": 3,
+        "paraphrases": [
+          {
+            "en": "the Internet / the World Wide Web",
+            "vi": "mạng Internet / mạng toàn cầu"
+          },
+          {
+            "en": "global computer network",
+            "vi": "mạng máy tính toàn cầu"
+          },
+          {
+            "en": "digital connectivity and online platforms",
+            "vi": "kết nối kỹ thuật số và các nền tảng trực tuyến"
+          },
+          {
+            "en": "cyberspace and digital technology",
+            "vi": "không gian mạng và công nghệ số"
+          }
+        ]
       },
       {
         "title_en": "Homeschooling",
@@ -2683,7 +2737,25 @@ const ESSAY_DATA = [
             }
           ]
         },
-        "id": 4
+        "id": 4,
+        "paraphrases": [
+          {
+            "en": "homeschooling / home-based education",
+            "vi": "giáo dục tại nhà"
+          },
+          {
+            "en": "domestic schooling / home education",
+            "vi": "dạy học tại nhà"
+          },
+          {
+            "en": "educating children outside traditional schools",
+            "vi": "giáo dục trẻ em ngoài trường học truyền thống"
+          },
+          {
+            "en": "parent-led home instruction",
+            "vi": "hướng dẫn học tập tại nhà do cha mẹ dẫn dắt"
+          }
+        ]
       },
       {
         "title_en": "Public transport",
@@ -3302,7 +3374,25 @@ const ESSAY_DATA = [
             }
           ]
         },
-        "id": 5
+        "id": 5,
+        "paraphrases": [
+          {
+            "en": "public transport / public transit",
+            "vi": "giao thông công cộng / phương tiện công cộng"
+          },
+          {
+            "en": "mass transit systems",
+            "vi": "hệ thống vận tải công cộng"
+          },
+          {
+            "en": "commuter buses, subways, and trains",
+            "vi": "xe buýt, tàu điện ngầm và tàu hỏa chở khách"
+          },
+          {
+            "en": "shared public transportation networks",
+            "vi": "mạng lưới giao thông công cộng dùng chung"
+          }
+        ]
       },
       {
         "id": 6,
@@ -15754,7 +15844,25 @@ const ESSAY_DATA = [
             }
           ]
         },
-        "id": 1
+        "id": 1,
+        "paraphrases": [
+          {
+            "en": "traffic jams",
+            "vi": "ùn tắc giao thông"
+          },
+          {
+            "en": "traffic congestion in urban areas",
+            "vi": "tình trạng ùn tắc giao thông ở đô thị"
+          },
+          {
+            "en": "gridlock on city roads during rush hours",
+            "vi": "tình trạng kẹt xe trên đường phố trong giờ cao điểm"
+          },
+          {
+            "en": "heavy vehicle volume and delays",
+            "vi": "lượng phương tiện đông đúc và sự chậm trễ đi lại"
+          }
+        ]
       },
       {
         "title_en": "Traffic accidents",
@@ -16469,7 +16577,25 @@ const ESSAY_DATA = [
             }
           ]
         },
-        "id": 2
+        "id": 2,
+        "paraphrases": [
+          {
+            "en": "traffic accidents",
+            "vi": "tai nạn giao thông"
+          },
+          {
+            "en": "road traffic crashes and collisions",
+            "vi": "các vụ tai nạn và va chạm giao thông"
+          },
+          {
+            "en": "vehicular accidents on public roads",
+            "vi": "tai nạn xe cộ trên đường giao thông công cộng"
+          },
+          {
+            "en": "road casualties and mishaps",
+            "vi": "thương vong và sự cố giao thông đường bộ"
+          }
+        ]
       },
       {
         "title_en": "Obesity among young people",
@@ -16950,7 +17076,25 @@ const ESSAY_DATA = [
             }
           ]
         },
-        "id": 3
+        "id": 3,
+        "paraphrases": [
+          {
+            "en": "obesity among young people",
+            "vi": "béo phì ở giới trẻ"
+          },
+          {
+            "en": "childhood and adolescent overweight",
+            "vi": "thừa cân ở trẻ em và thanh thiếu niên"
+          },
+          {
+            "en": "excessive weight gain among the youth",
+            "vi": "sự tăng cân quá mức ở người trẻ"
+          },
+          {
+            "en": "youth obesity and weight-related health issues",
+            "vi": "béo phì và các vấn đề sức khỏe liên quan đến cân nặng ở giới trẻ"
+          }
+        ]
       },
       {
         "title_en": "Electronic waste",
@@ -17761,7 +17905,25 @@ const ESSAY_DATA = [
             }
           ]
         },
-        "id": 4
+        "id": 4,
+        "paraphrases": [
+          {
+            "en": "electronic waste",
+            "vi": "rác thải điện tử"
+          },
+          {
+            "en": "e-waste accumulation",
+            "vi": "sự tích tụ rác thải điện tử"
+          },
+          {
+            "en": "discarded electronic equipment and devices",
+            "vi": "thiết bị và đồ dùng điện tử bị loại bỏ"
+          },
+          {
+            "en": "electrical and electronic waste disposal",
+            "vi": "việc thải bỏ rác thải điện và điện tử"
+          }
+        ]
       },
       {
         "title_en": "Brain drain",
@@ -18290,7 +18452,25 @@ const ESSAY_DATA = [
             }
           ]
         },
-        "id": 5
+        "id": 5,
+        "paraphrases": [
+          {
+            "en": "brain drain",
+            "vi": "chảy máu chất xám"
+          },
+          {
+            "en": "human capital flight",
+            "vi": "sự thất thoát nguồn vốn con người"
+          },
+          {
+            "en": "emigration of highly skilled professionals",
+            "vi": "sự di cư của các chuyên gia có tay nghề cao"
+          },
+          {
+            "en": "outflow of qualified talent to foreign countries",
+            "vi": "dòng chảy nhân tài có trình độ ra nước ngoài"
+          }
+        ]
       },
       {
         "id": 6,
