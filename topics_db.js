@@ -15061,6 +15061,10 @@ const ESSAY_DATA = [
               "vi": "hệ thống giao thông công cộng"
             },
             {
+              "en": "public transport",
+              "vi": "giao thông công cộng"
+            },
+            {
               "en": "well developed",
               "vi": "phát triển tốt"
             },
@@ -15290,6 +15294,10 @@ const ESSAY_DATA = [
                   {
                     "en": "public transport systems",
                     "vi": "hệ thống giao thông công cộng"
+                  },
+                  {
+                    "en": "public transport",
+                    "vi": "giao thông công cộng"
                   },
                   {
                     "en": "well developed",

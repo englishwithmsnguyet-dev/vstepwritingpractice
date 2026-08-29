@@ -805,7 +805,7 @@ function filterCollocationsForSentence(sentenceVi, sentenceEn, collocations) {
   const normVi = ' ' + normalizeTextForMatching(sentenceVi) + ' ';
   const normEn = ' ' + normalizeTextForMatching(sentenceEn) + ' ';
 
-  return collocations.filter(col => {
+  const matched = collocations.filter(col => {
     const colEn = normalizeTextForMatching(col.en);
     const colVi = normalizeTextForMatching(col.vi);
 
@@ -830,6 +830,12 @@ function filterCollocationsForSentence(sentenceVi, sentenceEn, collocations) {
     }
 
     return false;
+  });
+
+  // Remove redundant sub-phrases if longer phrase is already present in matched
+  return matched.filter(c => {
+    const isSubphrase = matched.some(other => other !== c && other.vi.includes(c.vi) && other.en.includes(c.en));
+    return !isSubphrase;
   });
 }
 
