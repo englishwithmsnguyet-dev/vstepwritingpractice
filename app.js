@@ -917,10 +917,9 @@ function renderStepVocab() {
   let pills = [];
   if (hasModernSchema) {
     pills = [
-      { id: 'all', label: `🌟 Tất cả (${singleWordsCount + collocationsCount + paraphrasesCount})` },
+      { id: 'all', label: `🌟 Tất cả (${singleWordsCount + collocationsCount})` },
       { id: 'single_words', label: `🔤 Từ đơn cốt lõi (${singleWordsCount})` },
-      { id: 'collocations', label: `🔗 Cụm Collocations (${collocationsCount})` },
-      { id: 'paraphrases', label: `🔄 Bảng Paraphrase (${paraphrasesCount})` }
+      { id: 'collocations', label: `🔗 Cụm Collocations (${collocationsCount})` }
     ];
   } else {
     pills = [
@@ -1080,58 +1079,6 @@ function renderStepVocab() {
         `;
       }
     }
-    
-    // 3. SECTION: PARAPHRASES
-    if (vData.paraphrases && vData.paraphrases.length > 0 && (activeCat === 'all' || activeCat === 'paraphrases')) {
-      const matchedParaphrases = vData.paraphrases.filter(p => {
-        if (!search) return true;
-        const matchOrig = p.original && p.original.toLowerCase().includes(search);
-        const matchViConcept = p.vi_concept && p.vi_concept.toLowerCase().includes(search);
-        const matchTip = (p.usage_tip || p.usage) && (p.usage_tip || p.usage).toLowerCase().includes(search);
-        const matchSub = p.paraphrases && p.paraphrases.some(sp => 
-          (sp.en && sp.en.toLowerCase().includes(search)) || (sp.vi && sp.vi.toLowerCase().includes(search))
-        );
-        return matchOrig || matchViConcept || matchTip || matchSub;
-      });
-      
-      if (matchedParaphrases.length > 0) {
-        matchFound = true;
-        const pCardsHtml = matchedParaphrases.map(p => `
-          <div class="paraphrase-card">
-            <div class="paraphrase-card-header">
-              <span class="paraphrase-orig">Từ gốc: <strong>${p.original}</strong> ${p.vi_concept ? `<span style="font-weight: 500; font-size: 0.85rem; color: var(--text-muted);">(${p.vi_concept})</span>` : ''}</span>
-              <span class="vocab-level-badge b2">Band B2</span>
-            </div>
-            <div class="paraphrase-items-list">
-              ${(p.paraphrases || []).map(sp => `
-                <div class="paraphrase-item">
-                  <strong>${sp.en}</strong>
-                  <span>${sp.vi}</span>
-                </div>
-              `).join('')}
-            </div>
-            ${(p.usage_tip || p.usage) ? `<div class="paraphrase-usage-tip">💡 <strong>Mẹo diễn đạt:</strong> ${p.usage_tip || p.usage}</div>` : ''}
-          </div>
-        `).join('');
-        
-        sectionsHtml += `
-          <div class="vocab-group-section">
-            <div class="vocab-group-header">
-              <div class="vocab-group-title">
-                <span>🔄</span>
-                <span>Bảng Paraphrase nâng band điểm Lexical Resource &bull; ${matchedParaphrases.length} nhóm</span>
-              </div>
-              <div class="vocab-group-desc">
-                Tuyệt chiêu tránh lặp từ và nâng cấp câu văn từ cơ bản lên chuẩn học thuật B2.
-              </div>
-            </div>
-            <div class="paraphrase-grid">
-              ${pCardsHtml}
-            </div>
-          </div>
-        `;
-      }
-    }
   } else {
     // Legacy categories rendering
     if (vData.categories) {
@@ -1236,7 +1183,7 @@ function renderStepVocab() {
   
   // Summary Stats Banner (for modern schema)
   const statsSummaryHtml = hasModernSchema ? `
-    <div class="vocab-stats-summary">
+    <div class="vocab-stats-summary" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));">
       <div class="vocab-stat-card" onclick="filterVocabCategory('single_words')" style="cursor: pointer;">
         <div class="vocab-stat-icon">🔤</div>
         <div class="vocab-stat-info">
@@ -1249,13 +1196,6 @@ function renderStepVocab() {
         <div class="vocab-stat-info">
           <h4>${collocationsCount} Cụm Collocations</h4>
           <p>Phân loại: Nguyên nhân • Hậu quả • Giải pháp</p>
-        </div>
-      </div>
-      <div class="vocab-stat-card" onclick="filterVocabCategory('paraphrases')" style="cursor: pointer;">
-        <div class="vocab-stat-icon">🔄</div>
-        <div class="vocab-stat-info">
-          <h4>${paraphrasesCount} Nhóm Paraphrase</h4>
-          <p>Nâng band điểm B1 ➔ B2 (Lexical Resource)</p>
         </div>
       </div>
     </div>

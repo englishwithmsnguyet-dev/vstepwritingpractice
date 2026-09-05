@@ -22912,7 +22912,7 @@ const ESSAY_DATA = [
           "translation_b2": "Trong những năm gần đây, <strong>biến đổi khí hậu</strong> đã trở thành một mối quan tâm ngày càng tăng ở nhiều nơi trên thế giới. Vấn đề này đã tạo ra một số thách thức cho cả cá nhân và xã hội. <strong>Bài tiểu luận này sẽ xem xét những nguyên nhân chính của vấn đề này và thảo luận về những tác động có thể có của nó.</strong>\n\n<strong>Vấn đề này có thể bắt nguồn từ một số yếu tố chính.</strong> Một nguyên nhân chính là <strong><em>các hoạt động của con người thải ra quá nhiều khí nhà kính.</em></strong>. Việc đốt nhiên liệu hóa thạch tạo ra lượng lớn khí carbon dioxide. Điều này làm tăng hiệu ứng nhà kính và khiến nhiệt độ toàn cầu tăng lên. Một yếu tố góp phần khác là <strong><em>việc phá rừng làm giảm khả năng hấp thụ khí carbon dioxide của Trái Đất.</em></strong>. Nhiều khu rừng bị chặt phá để phục vụ nông nghiệp và xây dựng. Điều này làm tăng lượng khí nhà kính trong khí quyển. Một lý do nữa là <strong><em>việc sử dụng phương tiện cá nhân quá nhiều làm tăng lượng khí thải carbon.</em></strong>. Ô tô và xe máy thải ra một lượng lớn khí carbon dioxide mỗi ngày. Điều này làm ô nhiễm không khí và góp phần vào biến đổi khí hậu.\n\n<strong>Vấn đề này có thể dẫn đến một số hậu quả đáng kể.</strong> Một tác động tiêu cực là <strong><em>nhiệt độ toàn cầu tiếp tục tăng.</em></strong>. Các đợt nắng nóng xảy ra thường xuyên và kéo dài hơn. Điều này ảnh hưởng đến sức khỏe và cuộc sống của nhiều người. Một ảnh hưởng nghiêm trọng khác là <strong><em>thiên tai trở nên nghiêm trọng hơn.</em></strong>. Lũ lụt, bão và hạn hán xảy ra với cường độ mạnh hơn. Điều này gây thiệt hại lớn về người và tài sản. Một hậu quả nữa là <strong><em>biến đổi khí hậu đe dọa sự phát triển bền vững.</em></strong>. Nó ảnh hưởng đến nông nghiệp, nguồn nước và hệ sinh thái. Điều này làm giảm chất lượng cuộc sống trong tương lai.\n\nTóm lại, <strong>biến đổi khí hậu</strong> do một số yếu tố gây ra và dẫn đến một loạt các tác động tiêu cực đối với cá nhân và xã hội. Việc giải quyết những nguyên nhân cơ bản này là cần thiết để cải thiện tình hình trong tương lai. Với sự chú ý lớn hơn, vấn đề này có thể được quản lý tốt hơn theo thời gian.",
           "vocab_step": {
             "theme": "Biến đổi khí hậu (Climate Change)",
-            "overview": "Hệ thống học liệu từ vựng chuyên sâu chuẩn VSTEP B1/B2: Phân tách rõ ràng giữa Từ đơn cốt lõi (kèm phiên âm IPA & họ từ), Cụm từ học thuật (Collocations chia theo Nguyên nhân - Hậu quả - Giải pháp), và Bảng Paraphrase nâng cao.",
+            "overview": "Hệ thống học liệu từ vựng chuyên sâu chuẩn VSTEP B1/B2: Phân tách rõ ràng giữa Từ đơn cốt lõi (kèm phiên âm IPA & họ từ) và Cụm từ học thuật (Collocations chia theo Nguyên nhân - Hậu quả - Giải pháp).",
             "single_words": [
               {
                 "word": "emission",
@@ -23300,100 +23300,6 @@ const ESSAY_DATA = [
                     "example": "Authorities must impose stringent regulations on industrial waste discharge."
                   }
                 ]
-              }
-            ],
-            "paraphrases": [
-              {
-                "original": "Climate change",
-                "vi_concept": "Biến đổi khí hậu",
-                "paraphrases": [
-                  {
-                    "en": "Global climate disruption",
-                    "vi": "sự xáo trộn khí hậu toàn cầu"
-                  },
-                  {
-                    "en": "The climate crisis",
-                    "vi": "cuộc khủng hoảng khí hậu"
-                  },
-                  {
-                    "en": "Planetary warming",
-                    "vi": "sự ấm lên của hành tinh"
-                  },
-                  {
-                    "en": "Ecological degradation",
-                    "vi": "sự suy thoái sinh thái"
-                  }
-                ],
-                "usage_tip": "Thay vì lặp lại 'climate change' liên tục, hãy luân phiên sử dụng 'the ongoing climate crisis' hoặc 'planetary warming' trong các đoạn Thân bài."
-              },
-              {
-                "original": "Cause / Lead to",
-                "vi_concept": "Gây ra, dẫn đến",
-                "paraphrases": [
-                  {
-                    "en": "Trigger / Bring about",
-                    "vi": "khơi mào, mang lại"
-                  },
-                  {
-                    "en": "Attribute to",
-                    "vi": "bắt nguồn từ, quy cho"
-                  },
-                  {
-                    "en": "Exacerbate",
-                    "vi": "làm trầm trọng thêm"
-                  },
-                  {
-                    "en": "Give rise to",
-                    "vi": "làm nảy sinh"
-                  }
-                ],
-                "usage_tip": "Dùng 'Burning fossil fuels triggers global warming' hoặc 'Air pollution is attributed to vehicle emissions' để câu văn mang tính học thuật cao."
-              },
-              {
-                "original": "Effect / Impact",
-                "vi_concept": "Tác động, hậu quả",
-                "paraphrases": [
-                  {
-                    "en": "Adverse consequence",
-                    "vi": "hậu quả bất lợi"
-                  },
-                  {
-                    "en": "Far-reaching repercussion",
-                    "vi": "hậu quả sâu rộng"
-                  },
-                  {
-                    "en": "Detrimental influence",
-                    "vi": "ảnh hưởng có hại"
-                  },
-                  {
-                    "en": "Severe toll",
-                    "vi": "sự tổn hại nặng nề"
-                  }
-                ],
-                "usage_tip": "Dùng 'Climate change takes a heavy toll on agricultural production' thay vì cụm quen thuộc 'has a bad effect on'."
-              },
-              {
-                "original": "Solve / Tackle",
-                "vi_concept": "Giải quyết, đối phó",
-                "paraphrases": [
-                  {
-                    "en": "Mitigate the impact of",
-                    "vi": "giảm thiểu tác động tiêu cực"
-                  },
-                  {
-                    "en": "Combat climate change",
-                    "vi": "chống lại biến đổi khí hậu"
-                  },
-                  {
-                    "en": "Address this urgent dilemma",
-                    "vi": "giải quyết bài toán cấp bách này"
-                  },
-                  {
-                    "en": "Alleviate ecological strain",
-                    "vi": "giảm tải áp lực sinh thái"
-                  }
-                ],
-                "usage_tip": "Dùng 'Urgent multilateral measures are required to combat the climate crisis' trong phần Kết bài (Conclusion)."
               }
             ]
           }
