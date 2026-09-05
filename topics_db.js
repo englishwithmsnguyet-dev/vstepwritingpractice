@@ -22274,36 +22274,32 @@ const ESSAY_DATA = [
                 "title": "CAUSE 01",
                 "collocations": [
                   {
-                    "en": "rely on",
-                    "vi": "phụ thuộc vào"
+                    "en": "one major cause",
+                    "vi": "một nguyên nhân chính"
+                  },
+                  {
+                    "en": "rely too much on",
+                    "vi": "phụ thuộc quá nhiều vào"
                   },
                   {
                     "en": "fossil fuels",
                     "vi": "nhiên liệu hóa thạch"
                   },
                   {
-                    "en": "coal",
-                    "vi": "than đá"
-                  },
-                  {
-                    "en": "oil",
-                    "vi": "dầu mỏ"
-                  },
-                  {
-                    "en": "natural gas",
-                    "vi": "khí đốt"
-                  },
-                  {
-                    "en": "carbon dioxide",
-                    "vi": "khí carbon dioxide"
+                    "en": "burn coal, oil, and gas",
+                    "vi": "đốt than, dầu và khí đốt"
                   },
                   {
                     "en": "produce energy",
                     "vi": "sản xuất năng lượng"
                   },
                   {
-                    "en": "create",
-                    "vi": "tạo ra"
+                    "en": "a large amount of",
+                    "vi": "một lượng lớn"
+                  },
+                  {
+                    "en": "carbon dioxide",
+                    "vi": "khí carbon dioxide"
                   }
                 ],
                 "point_vi": "Con người phụ thuộc quá nhiều vào nhiên liệu hóa thạch.",
@@ -22316,23 +22312,23 @@ const ESSAY_DATA = [
                 "collocations": [
                   {
                     "en": "deforestation",
-                    "vi": "nạn phá rừng"
+                    "vi": "việc chặt phá rừng"
                   },
                   {
-                    "en": "reduce the number of",
-                    "vi": "làm giảm số lượng"
+                    "en": "reduce the number of trees",
+                    "vi": "làm giảm số lượng cây xanh"
                   },
                   {
-                    "en": "absorb",
-                    "vi": "hấp thụ"
+                    "en": "worldwide",
+                    "vi": "trên toàn thế giới"
                   },
                   {
-                    "en": "cut down trees",
-                    "vi": "chặt cây"
+                    "en": "fewer trees",
+                    "vi": "ít cây hơn"
                   },
                   {
-                    "en": "fewer",
-                    "vi": "ít hơn"
+                    "en": "absorb carbon dioxide",
+                    "vi": "hấp thụ khí carbon dioxide"
                   }
                 ],
                 "point_vi": "Việc chặt phá rừng làm giảm số lượng cây xanh trên toàn thế giới.",
@@ -22344,24 +22340,24 @@ const ESSAY_DATA = [
                 "title": "CAUSE 03",
                 "collocations": [
                   {
-                    "en": "private vehicles",
-                    "vi": "phương tiện cá nhân"
+                    "en": "use private vehicles",
+                    "vi": "sử dụng phương tiện cá nhân"
                   },
                   {
-                    "en": "air pollution",
-                    "vi": "ô nhiễm không khí"
+                    "en": "increase air pollution",
+                    "vi": "làm gia tăng ô nhiễm không khí"
                   },
                   {
                     "en": "cars and motorbikes",
                     "vi": "ô tô và xe máy"
                   },
                   {
-                    "en": "increase",
-                    "vi": "làm tăng"
+                    "en": "produce a large amount of",
+                    "vi": "tạo ra một lượng lớn"
                   },
                   {
-                    "en": "produce",
-                    "vi": "tạo ra"
+                    "en": "carbon dioxide",
+                    "vi": "khí carbon dioxide"
                   }
                 ],
                 "point_vi": "Việc sử dụng phương tiện cá nhân quá nhiều làm gia tăng ô nhiễm không khí.",
@@ -22375,16 +22371,20 @@ const ESSAY_DATA = [
                 "title": "EFFECT 01",
                 "collocations": [
                   {
-                    "en": "become hotter",
-                    "vi": "nóng lên"
+                    "en": "climate change",
+                    "vi": "biến đổi khí hậu"
                   },
                   {
-                    "en": "heatwaves",
-                    "vi": "các đợt nắng nóng"
+                    "en": "make the Earth hotter",
+                    "vi": "khiến Trái Đất ngày càng nóng lên"
                   },
                   {
-                    "en": "experience",
-                    "vi": "trải qua"
+                    "en": "many parts of the world",
+                    "vi": "nhiều nơi trên thế giới"
+                  },
+                  {
+                    "en": "experience long heatwaves",
+                    "vi": "trải qua các đợt nắng nóng kéo dài"
                   }
                 ],
                 "point_vi": "Biến đổi khí hậu khiến Trái Đất ngày càng nóng lên.",
@@ -22396,28 +22396,24 @@ const ESSAY_DATA = [
                 "title": "EFFECT 02",
                 "collocations": [
                   {
+                    "en": "climate change",
+                    "vi": "biến đổi khí hậu"
+                  },
+                  {
                     "en": "natural disasters",
                     "vi": "thiên tai"
                   },
                   {
-                    "en": "floods",
-                    "vi": "lũ lụt"
+                    "en": "happen more often",
+                    "vi": "xảy ra thường xuyên hơn"
                   },
                   {
-                    "en": "storms",
-                    "vi": "bão"
+                    "en": "floods, storms, and droughts",
+                    "vi": "lũ lụt, bão và hạn hán"
                   },
                   {
-                    "en": "droughts",
-                    "vi": "hạn hán"
-                  },
-                  {
-                    "en": "occur",
-                    "vi": "xảy ra"
-                  },
-                  {
-                    "en": "cause",
-                    "vi": "khiến"
+                    "en": "occur in more countries",
+                    "vi": "xảy ra ở nhiều quốc gia hơn"
                   }
                 ],
                 "point_vi": "Biến đổi khí hậu làm cho thiên tai xảy ra thường xuyên hơn.",
@@ -22429,28 +22425,28 @@ const ESSAY_DATA = [
                 "title": "EFFECT 03",
                 "collocations": [
                   {
-                    "en": "negative effects",
-                    "vi": "ảnh hưởng tiêu cực"
+                    "en": "climate change",
+                    "vi": "biến đổi khí hậu"
+                  },
+                  {
+                    "en": "have negative effects on",
+                    "vi": "gây ra nhiều ảnh hưởng tiêu cực đến"
                   },
                   {
                     "en": "people's lives",
                     "vi": "cuộc sống của con người"
                   },
                   {
-                    "en": "lose homes",
+                    "en": "lose their homes",
                     "vi": "mất nhà cửa"
                   },
                   {
+                    "en": "face difficulties in",
+                    "vi": "gặp khó khăn trong"
+                  },
+                  {
                     "en": "farming",
-                    "vi": "nông nghiệp"
-                  },
-                  {
-                    "en": "have effects on",
-                    "vi": "có ảnh hưởng đến"
-                  },
-                  {
-                    "en": "face difficulties",
-                    "vi": "gặp khó khăn"
+                    "vi": "sản xuất nông nghiệp"
                   }
                 ],
                 "point_vi": "Biến đổi khí hậu gây ra nhiều ảnh hưởng tiêu cực đến cuộc sống của con người.",
@@ -22466,36 +22462,32 @@ const ESSAY_DATA = [
                 "title": "CAUSE 01",
                 "collocations": [
                   {
-                    "en": "greenhouse gases",
-                    "vi": "khí nhà kính"
+                    "en": "human activities",
+                    "vi": "các hoạt động của con người"
                   },
                   {
-                    "en": "fossil fuels",
-                    "vi": "nhiên liệu hóa thạch"
+                    "en": "release greenhouse gases",
+                    "vi": "thải ra khí nhà kính"
+                  },
+                  {
+                    "en": "burning fossil fuels",
+                    "vi": "việc đốt nhiên liệu hóa thạch"
+                  },
+                  {
+                    "en": "release large amounts of",
+                    "vi": "tạo ra lượng lớn"
                   },
                   {
                     "en": "carbon dioxide",
                     "vi": "khí carbon dioxide"
                   },
                   {
-                    "en": "greenhouse effect",
-                    "vi": "hiệu ứng nhà kính"
+                    "en": "strengthen the greenhouse effect",
+                    "vi": "làm tăng hiệu ứng nhà kính"
                   },
                   {
-                    "en": "global temperatures",
-                    "vi": "nhiệt độ toàn cầu"
-                  },
-                  {
-                    "en": "release",
-                    "vi": "thải ra"
-                  },
-                  {
-                    "en": "strengthen",
-                    "vi": "làm tăng"
-                  },
-                  {
-                    "en": "raise",
-                    "vi": "làm tăng"
+                    "en": "raise global temperatures",
+                    "vi": "khiến nhiệt độ toàn cầu tăng lên"
                   }
                 ],
                 "point_vi": "Các hoạt động của con người thải ra quá nhiều khí nhà kính.",
@@ -22508,31 +22500,31 @@ const ESSAY_DATA = [
                 "collocations": [
                   {
                     "en": "deforestation",
-                    "vi": "nạn phá rừng"
+                    "vi": "việc phá rừng"
+                  },
+                  {
+                    "en": "reduce the Earth's ability",
+                    "vi": "làm giảm khả năng của Trái Đất"
                   },
                   {
                     "en": "absorb carbon dioxide",
                     "vi": "hấp thụ khí carbon dioxide"
                   },
                   {
-                    "en": "atmosphere",
-                    "vi": "khí quyển"
+                    "en": "forests are cut down",
+                    "vi": "các khu rừng bị chặt phá"
                   },
                   {
-                    "en": "agriculture",
-                    "vi": "nông nghiệp"
+                    "en": "for agriculture and construction",
+                    "vi": "để phục vụ nông nghiệp và xây dựng"
                   },
                   {
-                    "en": "construction",
-                    "vi": "xây dựng"
+                    "en": "increase the amount of",
+                    "vi": "làm tăng lượng"
                   },
                   {
-                    "en": "cut down",
-                    "vi": "chặt phá"
-                  },
-                  {
-                    "en": "increase",
-                    "vi": "làm tăng"
+                    "en": "greenhouse gases in the atmosphere",
+                    "vi": "khí nhà kính trong khí quyển"
                   }
                 ],
                 "point_vi": "Việc phá rừng làm giảm khả năng hấp thụ khí carbon dioxide của Trái Đất.",
@@ -22544,28 +22536,32 @@ const ESSAY_DATA = [
                 "title": "CAUSE 03",
                 "collocations": [
                   {
-                    "en": "excessive use",
-                    "vi": "việc sử dụng quá mức"
+                    "en": "excessive use of private vehicles",
+                    "vi": "việc sử dụng phương tiện cá nhân quá nhiều"
                   },
                   {
-                    "en": "private vehicles",
-                    "vi": "phương tiện cá nhân"
+                    "en": "increase carbon emissions",
+                    "vi": "làm tăng lượng khí thải carbon"
                   },
                   {
-                    "en": "carbon emissions",
-                    "vi": "khí thải carbon"
+                    "en": "cars and motorbikes",
+                    "vi": "ô tô và xe máy"
                   },
                   {
-                    "en": "contribute to",
-                    "vi": "góp phần vào"
+                    "en": "produce a large amount of",
+                    "vi": "thải ra một lượng lớn"
                   },
                   {
-                    "en": "air pollution",
-                    "vi": "ô nhiễm không khí"
+                    "en": "carbon dioxide",
+                    "vi": "khí carbon dioxide"
                   },
                   {
-                    "en": "increase",
-                    "vi": "làm tăng"
+                    "en": "pollute the air",
+                    "vi": "làm ô nhiễm không khí"
+                  },
+                  {
+                    "en": "contribute to climate change",
+                    "vi": "góp phần vào biến đổi khí hậu"
                   }
                 ],
                 "point_vi": "Việc sử dụng phương tiện cá nhân quá nhiều làm tăng lượng khí thải carbon.",
@@ -22583,20 +22579,24 @@ const ESSAY_DATA = [
                     "vi": "nhiệt độ toàn cầu"
                   },
                   {
-                    "en": "heatwaves",
-                    "vi": "các đợt nắng nóng"
-                  },
-                  {
-                    "en": "daily lives",
-                    "vi": "cuộc sống hằng ngày"
-                  },
-                  {
                     "en": "continue to rise",
                     "vi": "tiếp tục tăng"
                   },
                   {
+                    "en": "heatwaves",
+                    "vi": "các đợt nắng nóng"
+                  },
+                  {
+                    "en": "more frequent and last longer",
+                    "vi": "thường xuyên và kéo dài hơn"
+                  },
+                  {
                     "en": "affect",
-                    "vi": "ảnh hưởng"
+                    "vi": "ảnh hưởng đến"
+                  },
+                  {
+                    "en": "people's health and daily lives",
+                    "vi": "sức khỏe và cuộc sống của nhiều người"
                   }
                 ],
                 "point_vi": "Nhiệt độ toàn cầu tiếp tục tăng.",
@@ -22608,20 +22608,28 @@ const ESSAY_DATA = [
                 "title": "EFFECT 02",
                 "collocations": [
                   {
-                    "en": "severe",
-                    "vi": "nghiêm trọng"
+                    "en": "natural disasters",
+                    "vi": "thiên tai"
                   },
                   {
-                    "en": "property",
-                    "vi": "tài sản"
+                    "en": "become more severe",
+                    "vi": "trở nên nghiêm trọng hơn"
                   },
                   {
-                    "en": "damage",
-                    "vi": "thiệt hại"
+                    "en": "floods, storms, and droughts",
+                    "vi": "lũ lụt, bão và hạn hán"
                   },
                   {
-                    "en": "cause damage",
-                    "vi": "gây thiệt hại"
+                    "en": "occur more intensely",
+                    "vi": "xảy ra với cường độ mạnh hơn"
+                  },
+                  {
+                    "en": "cause serious damage to",
+                    "vi": "gây thiệt hại lớn đối với"
+                  },
+                  {
+                    "en": "people and property",
+                    "vi": "người và tài sản"
                   }
                 ],
                 "point_vi": "Thiên tai trở nên nghiêm trọng hơn.",
@@ -22633,32 +22641,28 @@ const ESSAY_DATA = [
                 "title": "EFFECT 03",
                 "collocations": [
                   {
-                    "en": "sustainable development",
-                    "vi": "phát triển bền vững"
+                    "en": "climate change",
+                    "vi": "biến đổi khí hậu"
                   },
                   {
-                    "en": "agriculture",
-                    "vi": "nông nghiệp"
-                  },
-                  {
-                    "en": "water resources",
-                    "vi": "nguồn nước"
-                  },
-                  {
-                    "en": "ecosystems",
-                    "vi": "hệ sinh thái"
-                  },
-                  {
-                    "en": "quality of life",
-                    "vi": "chất lượng cuộc sống"
-                  },
-                  {
-                    "en": "threaten",
-                    "vi": "đe dọa"
+                    "en": "threaten sustainable development",
+                    "vi": "đe dọa sự phát triển bền vững"
                   },
                   {
                     "en": "affect",
-                    "vi": "ảnh hưởng"
+                    "vi": "ảnh hưởng đến"
+                  },
+                  {
+                    "en": "agriculture, water resources, and ecosystems",
+                    "vi": "nông nghiệp, nguồn nước và hệ sinh thái"
+                  },
+                  {
+                    "en": "reduce the quality of life",
+                    "vi": "làm giảm chất lượng cuộc sống"
+                  },
+                  {
+                    "en": "in the future",
+                    "vi": "trong tương lai"
                   }
                 ],
                 "point_vi": "Biến đổi khí hậu đe dọa sự phát triển bền vững.",
@@ -22670,240 +22674,236 @@ const ESSAY_DATA = [
           },
           "vocab": [
             {
-              "en": "rely on",
-              "vi": "phụ thuộc vào"
+              "en": "one major cause",
+              "vi": "một nguyên nhân chính"
+            },
+            {
+              "en": "rely too much on",
+              "vi": "phụ thuộc quá nhiều vào"
             },
             {
               "en": "fossil fuels",
               "vi": "nhiên liệu hóa thạch"
             },
             {
-              "en": "coal",
-              "vi": "than đá"
-            },
-            {
-              "en": "oil",
-              "vi": "dầu mỏ"
-            },
-            {
-              "en": "natural gas",
-              "vi": "khí đốt"
-            },
-            {
-              "en": "carbon dioxide",
-              "vi": "khí carbon dioxide"
+              "en": "burn coal, oil, and gas",
+              "vi": "đốt than, dầu và khí đốt"
             },
             {
               "en": "produce energy",
               "vi": "sản xuất năng lượng"
             },
             {
-              "en": "create",
-              "vi": "tạo ra"
+              "en": "a large amount of",
+              "vi": "một lượng lớn"
+            },
+            {
+              "en": "carbon dioxide",
+              "vi": "khí carbon dioxide"
             },
             {
               "en": "deforestation",
-              "vi": "nạn phá rừng"
+              "vi": "việc chặt phá rừng"
             },
             {
-              "en": "reduce the number of",
-              "vi": "làm giảm số lượng"
+              "en": "reduce the number of trees",
+              "vi": "làm giảm số lượng cây xanh"
             },
             {
-              "en": "absorb",
-              "vi": "hấp thụ"
+              "en": "worldwide",
+              "vi": "trên toàn thế giới"
             },
             {
-              "en": "cut down trees",
-              "vi": "chặt cây"
-            },
-            {
-              "en": "fewer",
-              "vi": "ít hơn"
-            },
-            {
-              "en": "private vehicles",
-              "vi": "phương tiện cá nhân"
-            },
-            {
-              "en": "air pollution",
-              "vi": "ô nhiễm không khí"
-            },
-            {
-              "en": "cars and motorbikes",
-              "vi": "ô tô và xe máy"
-            },
-            {
-              "en": "increase",
-              "vi": "làm tăng"
-            },
-            {
-              "en": "produce",
-              "vi": "tạo ra"
-            },
-            {
-              "en": "become hotter",
-              "vi": "nóng lên"
-            },
-            {
-              "en": "heatwaves",
-              "vi": "các đợt nắng nóng"
-            },
-            {
-              "en": "experience",
-              "vi": "trải qua"
-            },
-            {
-              "en": "natural disasters",
-              "vi": "thiên tai"
-            },
-            {
-              "en": "floods",
-              "vi": "lũ lụt"
-            },
-            {
-              "en": "storms",
-              "vi": "bão"
-            },
-            {
-              "en": "droughts",
-              "vi": "hạn hán"
-            },
-            {
-              "en": "occur",
-              "vi": "xảy ra"
-            },
-            {
-              "en": "cause",
-              "vi": "khiến"
-            },
-            {
-              "en": "negative effects",
-              "vi": "ảnh hưởng tiêu cực"
-            },
-            {
-              "en": "people's lives",
-              "vi": "cuộc sống của con người"
-            },
-            {
-              "en": "lose homes",
-              "vi": "mất nhà cửa"
-            },
-            {
-              "en": "farming",
-              "vi": "nông nghiệp"
-            },
-            {
-              "en": "have effects on",
-              "vi": "có ảnh hưởng đến"
-            },
-            {
-              "en": "face difficulties",
-              "vi": "gặp khó khăn"
-            },
-            {
-              "en": "greenhouse gases",
-              "vi": "khí nhà kính"
-            },
-            {
-              "en": "greenhouse effect",
-              "vi": "hiệu ứng nhà kính"
-            },
-            {
-              "en": "global temperatures",
-              "vi": "nhiệt độ toàn cầu"
-            },
-            {
-              "en": "release",
-              "vi": "thải ra"
-            },
-            {
-              "en": "strengthen",
-              "vi": "làm tăng"
-            },
-            {
-              "en": "raise",
-              "vi": "làm tăng"
+              "en": "fewer trees",
+              "vi": "ít cây hơn"
             },
             {
               "en": "absorb carbon dioxide",
               "vi": "hấp thụ khí carbon dioxide"
             },
             {
-              "en": "atmosphere",
-              "vi": "khí quyển"
+              "en": "use private vehicles",
+              "vi": "sử dụng phương tiện cá nhân"
             },
             {
-              "en": "agriculture",
-              "vi": "nông nghiệp"
+              "en": "increase air pollution",
+              "vi": "làm gia tăng ô nhiễm không khí"
             },
             {
-              "en": "construction",
-              "vi": "xây dựng"
+              "en": "cars and motorbikes",
+              "vi": "ô tô và xe máy"
             },
             {
-              "en": "cut down",
-              "vi": "chặt phá"
+              "en": "produce a large amount of",
+              "vi": "tạo ra một lượng lớn"
             },
             {
-              "en": "excessive use",
-              "vi": "việc sử dụng quá mức"
+              "en": "climate change",
+              "vi": "biến đổi khí hậu"
             },
             {
-              "en": "carbon emissions",
-              "vi": "khí thải carbon"
+              "en": "make the Earth hotter",
+              "vi": "khiến Trái Đất ngày càng nóng lên"
             },
             {
-              "en": "contribute to",
-              "vi": "góp phần vào"
+              "en": "many parts of the world",
+              "vi": "nhiều nơi trên thế giới"
             },
             {
-              "en": "daily lives",
-              "vi": "cuộc sống hằng ngày"
+              "en": "experience long heatwaves",
+              "vi": "trải qua các đợt nắng nóng kéo dài"
+            },
+            {
+              "en": "natural disasters",
+              "vi": "thiên tai"
+            },
+            {
+              "en": "happen more often",
+              "vi": "xảy ra thường xuyên hơn"
+            },
+            {
+              "en": "floods, storms, and droughts",
+              "vi": "lũ lụt, bão và hạn hán"
+            },
+            {
+              "en": "occur in more countries",
+              "vi": "xảy ra ở nhiều quốc gia hơn"
+            },
+            {
+              "en": "have negative effects on",
+              "vi": "gây ra nhiều ảnh hưởng tiêu cực đến"
+            },
+            {
+              "en": "people's lives",
+              "vi": "cuộc sống của con người"
+            },
+            {
+              "en": "lose their homes",
+              "vi": "mất nhà cửa"
+            },
+            {
+              "en": "face difficulties in",
+              "vi": "gặp khó khăn trong"
+            },
+            {
+              "en": "farming",
+              "vi": "sản xuất nông nghiệp"
+            },
+            {
+              "en": "human activities",
+              "vi": "các hoạt động của con người"
+            },
+            {
+              "en": "release greenhouse gases",
+              "vi": "thải ra khí nhà kính"
+            },
+            {
+              "en": "burning fossil fuels",
+              "vi": "việc đốt nhiên liệu hóa thạch"
+            },
+            {
+              "en": "release large amounts of",
+              "vi": "tạo ra lượng lớn"
+            },
+            {
+              "en": "strengthen the greenhouse effect",
+              "vi": "làm tăng hiệu ứng nhà kính"
+            },
+            {
+              "en": "raise global temperatures",
+              "vi": "khiến nhiệt độ toàn cầu tăng lên"
+            },
+            {
+              "en": "reduce the Earth's ability",
+              "vi": "làm giảm khả năng của Trái Đất"
+            },
+            {
+              "en": "forests are cut down",
+              "vi": "các khu rừng bị chặt phá"
+            },
+            {
+              "en": "for agriculture and construction",
+              "vi": "để phục vụ nông nghiệp và xây dựng"
+            },
+            {
+              "en": "increase the amount of",
+              "vi": "làm tăng lượng"
+            },
+            {
+              "en": "greenhouse gases in the atmosphere",
+              "vi": "khí nhà kính trong khí quyển"
+            },
+            {
+              "en": "excessive use of private vehicles",
+              "vi": "việc sử dụng phương tiện cá nhân quá nhiều"
+            },
+            {
+              "en": "increase carbon emissions",
+              "vi": "làm tăng lượng khí thải carbon"
+            },
+            {
+              "en": "pollute the air",
+              "vi": "làm ô nhiễm không khí"
+            },
+            {
+              "en": "contribute to climate change",
+              "vi": "góp phần vào biến đổi khí hậu"
+            },
+            {
+              "en": "global temperatures",
+              "vi": "nhiệt độ toàn cầu"
             },
             {
               "en": "continue to rise",
               "vi": "tiếp tục tăng"
             },
             {
+              "en": "heatwaves",
+              "vi": "các đợt nắng nóng"
+            },
+            {
+              "en": "more frequent and last longer",
+              "vi": "thường xuyên và kéo dài hơn"
+            },
+            {
               "en": "affect",
-              "vi": "ảnh hưởng"
+              "vi": "ảnh hưởng đến"
             },
             {
-              "en": "severe",
-              "vi": "nghiêm trọng"
+              "en": "people's health and daily lives",
+              "vi": "sức khỏe và cuộc sống của nhiều người"
             },
             {
-              "en": "property",
-              "vi": "tài sản"
+              "en": "become more severe",
+              "vi": "trở nên nghiêm trọng hơn"
             },
             {
-              "en": "damage",
-              "vi": "thiệt hại"
+              "en": "occur more intensely",
+              "vi": "xảy ra với cường độ mạnh hơn"
             },
             {
-              "en": "cause damage",
-              "vi": "gây thiệt hại"
+              "en": "cause serious damage to",
+              "vi": "gây thiệt hại lớn đối với"
             },
             {
-              "en": "sustainable development",
-              "vi": "phát triển bền vững"
+              "en": "people and property",
+              "vi": "người và tài sản"
             },
             {
-              "en": "water resources",
-              "vi": "nguồn nước"
+              "en": "threaten sustainable development",
+              "vi": "đe dọa sự phát triển bền vững"
             },
             {
-              "en": "ecosystems",
-              "vi": "hệ sinh thái"
+              "en": "agriculture, water resources, and ecosystems",
+              "vi": "nông nghiệp, nguồn nước và hệ sinh thái"
             },
             {
-              "en": "quality of life",
-              "vi": "chất lượng cuộc sống"
+              "en": "reduce the quality of life",
+              "vi": "làm giảm chất lượng cuộc sống"
             },
             {
-              "en": "threaten",
-              "vi": "đe dọa"
+              "en": "in the future",
+              "vi": "trong tương lai"
             }
           ],
           "sample_b1": "In recent years, <strong>climate change</strong> has become a growing concern in many parts of the world. This issue affects both individuals and society in different ways. <strong>This essay will discuss the main causes of this problem and its possible effects.</strong>\n\n<strong>This issue can be caused by several factors.</strong> One major cause is that <strong><em>people rely too much on fossil fuels.</em></strong>. Burning coal, oil, and natural gas to produce energy creates a large amount of carbon dioxide. Another contributing factor is that <strong><em>deforestation reduces the number of trees around the world.</em></strong>. Fewer trees absorb less carbon dioxide. A further reason is that <strong><em>using private vehicles too much increases air pollution.</em></strong>. Cars and motorbikes produce a large amount of carbon dioxide.\n\n<strong>This problem can lead to several negative effects.</strong> One serious impact is that <strong><em>climate change makes the Earth become hotter.</em></strong>. Many places are experiencing longer heatwaves. Another consequence is that <strong><em>climate change causes natural disasters to happen more often.</em></strong>. Floods, storms, and droughts occur in more countries. A further problem is that <strong><em>climate change has many negative effects on people's lives.</em></strong>. Many people lose their homes or face difficulties in farming.\n\nIn conclusion, <strong>climate change</strong> is caused by several factors and can lead to many negative effects. By understanding the causes and paying more attention to this issue, the situation can be improved in the future. These actions can help create a better environment for both individuals and society.",
