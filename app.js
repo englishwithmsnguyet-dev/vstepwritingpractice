@@ -872,6 +872,21 @@ function handleVocabSearch(query) {
   renderStepVocab();
 }
 
+function formatCollocationType(type) {
+  if (!type) return '';
+  const t = type.toLowerCase().trim();
+  if (t === 'verb + noun phrase' || t === 'v + n') return 'v + n';
+  if (t.includes('verb + prep') && t.includes('gerund')) return 'v + prep + V-ing';
+  if (t.includes('verb + prep') || t === 'v + prep') return 'v + prep';
+  if (t.includes('verb + object') || t === 'v + obj' || t === 'v + o') return 'v + obj';
+  if (t.includes('adjective + noun') || t === 'adj + n') return 'adj + n';
+  if (t.includes('compound noun')) return 'cụm n';
+  if (t.includes('series')) return 'chuỗi n (A, B & C)';
+  if (t.includes('noun phrase') || t === 'n') return 'cụm n';
+  if (t.includes('sentence') || t.includes('clause')) return 'mệnh đề (clause)';
+  return type;
+}
+
 function renderStepVocab() {
   const container = document.getElementById('ws-vocab-step-content');
   if (!container) return;
@@ -1023,7 +1038,7 @@ function renderStepVocab() {
                   <span class="vocab-card-en">${c.en}</span>
                 </div>
                 <div class="vocab-card-meta">
-                  ${c.type ? `<span class="collocation-type-tag">${c.type}</span>` : ''}
+                  ${c.type ? `<span class="collocation-type-tag">${formatCollocationType(c.type)}</span>` : ''}
                   ${c.level ? `<span class="vocab-level-badge ${c.level.toLowerCase()}">${c.level}</span>` : ''}
                 </div>
               </div>
