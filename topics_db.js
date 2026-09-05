@@ -22912,233 +22912,392 @@ const ESSAY_DATA = [
           "translation_b2": "Trong những năm gần đây, <strong>biến đổi khí hậu</strong> đã trở thành một mối quan tâm ngày càng tăng ở nhiều nơi trên thế giới. Vấn đề này đã tạo ra một số thách thức cho cả cá nhân và xã hội. <strong>Bài tiểu luận này sẽ xem xét những nguyên nhân chính của vấn đề này và thảo luận về những tác động có thể có của nó.</strong>\n\n<strong>Vấn đề này có thể bắt nguồn từ một số yếu tố chính.</strong> Một nguyên nhân chính là <strong><em>các hoạt động của con người thải ra quá nhiều khí nhà kính.</em></strong>. Việc đốt nhiên liệu hóa thạch tạo ra lượng lớn khí carbon dioxide. Điều này làm tăng hiệu ứng nhà kính và khiến nhiệt độ toàn cầu tăng lên. Một yếu tố góp phần khác là <strong><em>việc phá rừng làm giảm khả năng hấp thụ khí carbon dioxide của Trái Đất.</em></strong>. Nhiều khu rừng bị chặt phá để phục vụ nông nghiệp và xây dựng. Điều này làm tăng lượng khí nhà kính trong khí quyển. Một lý do nữa là <strong><em>việc sử dụng phương tiện cá nhân quá nhiều làm tăng lượng khí thải carbon.</em></strong>. Ô tô và xe máy thải ra một lượng lớn khí carbon dioxide mỗi ngày. Điều này làm ô nhiễm không khí và góp phần vào biến đổi khí hậu.\n\n<strong>Vấn đề này có thể dẫn đến một số hậu quả đáng kể.</strong> Một tác động tiêu cực là <strong><em>nhiệt độ toàn cầu tiếp tục tăng.</em></strong>. Các đợt nắng nóng xảy ra thường xuyên và kéo dài hơn. Điều này ảnh hưởng đến sức khỏe và cuộc sống của nhiều người. Một ảnh hưởng nghiêm trọng khác là <strong><em>thiên tai trở nên nghiêm trọng hơn.</em></strong>. Lũ lụt, bão và hạn hán xảy ra với cường độ mạnh hơn. Điều này gây thiệt hại lớn về người và tài sản. Một hậu quả nữa là <strong><em>biến đổi khí hậu đe dọa sự phát triển bền vững.</em></strong>. Nó ảnh hưởng đến nông nghiệp, nguồn nước và hệ sinh thái. Điều này làm giảm chất lượng cuộc sống trong tương lai.\n\nTóm lại, <strong>biến đổi khí hậu</strong> do một số yếu tố gây ra và dẫn đến một loạt các tác động tiêu cực đối với cá nhân và xã hội. Việc giải quyết những nguyên nhân cơ bản này là cần thiết để cải thiện tình hình trong tương lai. Với sự chú ý lớn hơn, vấn đề này có thể được quản lý tốt hơn theo thời gian.",
           "vocab_step": {
             "theme": "Biến đổi khí hậu (Climate Change)",
-            "overview": "Hệ thống từ vựng trọng tâm, cụm từ học thuật (Collocations), ví dụ ứng dụng và bảng Paraphrase cao cấp dành riêng cho đề bài Biến đổi khí hậu.",
-            "categories": [
+            "overview": "Hệ thống học liệu từ vựng chuyên sâu chuẩn VSTEP B1/B2: Phân tách rõ ràng giữa Từ đơn cốt lõi (kèm phiên âm IPA & họ từ), Cụm từ học thuật (Collocations chia theo Nguyên nhân - Hậu quả - Giải pháp), và Bảng Paraphrase nâng cao.",
+            "single_words": [
               {
-                "id": "concepts",
-                "name": "Khái niệm & Hiện tượng cốt lõi",
-                "icon": "🌍",
-                "words": [
-                  {
-                    "en": "climate change",
-                    "pos": "n",
-                    "level": "B1",
-                    "vi": "biến đổi khí hậu",
-                    "example_en": "Climate change is one of the most pressing challenges of our time.",
-                    "example_vi": "Biến đổi khí hậu là một trong những thách thức cấp bách nhất của thời đại chúng ta."
-                  },
-                  {
-                    "en": "global warming",
-                    "pos": "n",
-                    "level": "B1",
-                    "vi": "sự nóng lên toàn cầu",
-                    "example_en": "Global warming leads to rising sea levels and extreme weather.",
-                    "example_vi": "Sự nóng lên toàn cầu dẫn đến mực nước biển dâng cao và thời tiết cực đoan."
-                  },
-                  {
-                    "en": "greenhouse effect",
-                    "pos": "n",
-                    "level": "B1",
-                    "vi": "hiệu ứng nhà kính",
-                    "example_en": "Gases trapped in the atmosphere intensify the greenhouse effect.",
-                    "example_vi": "Các loại khí bị giữ lại trong khí quyển làm gia tăng hiệu ứng nhà kính."
-                  },
-                  {
-                    "en": "greenhouse gases",
-                    "pos": "n",
-                    "level": "B2",
-                    "vi": "khí nhà kính",
-                    "example_en": "Human activities release vast amounts of greenhouse gases into the air.",
-                    "example_vi": "Các hoạt động của con người thải ra lượng lớn khí nhà kính vào không khí."
-                  },
-                  {
-                    "en": "carbon emissions",
-                    "pos": "n",
-                    "level": "B2",
-                    "vi": "lượng khí thải carbon",
-                    "example_en": "Countries must collaborate to slash industrial carbon emissions.",
-                    "example_vi": "Các quốc gia phải hợp tác để cắt giảm lượng khí thải carbon từ công nghiệp."
-                  },
-                  {
-                    "en": "extreme weather patterns",
-                    "pos": "n",
-                    "level": "B2",
-                    "vi": "các hình thái thời tiết cực đoan",
-                    "example_en": "Rising temperatures trigger unpredictable and extreme weather patterns.",
-                    "example_vi": "Nhiệt độ tăng cao gây ra các hình thái thời tiết khó lường và cực đoan."
-                  }
-                ]
+                "word": "emission",
+                "ipa": "/ɪˈmɪʃn/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "khí thải, sự phát thải",
+                "family": "emit (v), emitter (n)",
+                "example_en": "Industrial emissions are a major contributor to global climate change.",
+                "example_vi": "Khí thải công nghiệp là tác nhân chính gây ra biến đổi khí hậu toàn cầu."
               },
               {
+                "word": "deforestation",
+                "ipa": "/ˌdiːˌfɒrɪˈsteɪʃn/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "nạn phá rừng, việc chặt phá rừng",
+                "family": "forest (n), reforest (v), forestry (n)",
+                "example_en": "Deforestation reduces the Earth's natural capacity to absorb carbon.",
+                "example_vi": "Nạn phá rừng làm suy giảm khả năng hấp thụ carbon tự nhiên của Trái Đất."
+              },
+              {
+                "word": "fossil",
+                "ipa": "/ˈfɒsl/",
+                "pos": "noun / adj",
+                "level": "B1",
+                "vi": "hóa thạch (nhiên liệu hóa thạch)",
+                "family": "fossilize (v)",
+                "example_en": "Fossil fuels such as coal and oil take millions of years to form.",
+                "example_vi": "Nhiên liệu hóa thạch như than và dầu mỏ mất hàng triệu năm để hình thành."
+              },
+              {
+                "word": "atmosphere",
+                "ipa": "/ˈætməsfɪər/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "khí quyển, bầu khí quyển",
+                "family": "atmospheric (adj)",
+                "example_en": "Greenhouse gases accumulate in the Earth's atmosphere and trap heat.",
+                "example_vi": "Khí nhà kính tích tụ trong bầu khí quyển Trái Đất và giữ lại nhiệt."
+              },
+              {
+                "word": "absorb",
+                "ipa": "/əbˈzɔːb/",
+                "pos": "verb",
+                "level": "B1",
+                "vi": "hấp thụ, hút vào",
+                "family": "absorption (n), absorbent (adj)",
+                "example_en": "Oceans and large forests absorb huge volumes of carbon dioxide.",
+                "example_vi": "Các đại dương và rừng lớn hấp thụ lượng khổng lồ khí carbon dioxide."
+              },
+              {
+                "word": "drought",
+                "ipa": "/draʊt/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "hạn hán, sự khô hạn",
+                "family": "drought-stricken (adj)",
+                "example_en": "Severe droughts lead to water shortages and devastating crop failures.",
+                "example_vi": "Hạn hán nghiêm trọng dẫn đến thiếu nước và mùa màng thất bát tàn khốc."
+              },
+              {
+                "word": "heatwave",
+                "ipa": "/ˈhiːtweɪv/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "đợt nắng nóng kéo dài",
+                "family": "heat (n/v)",
+                "example_en": "Extended heatwaves can pose serious health risks to the elderly.",
+                "example_vi": "Những đợt nắng nóng kéo dài có thể gây nguy hiểm sức khỏe nghiêm trọng cho người cao tuổi."
+              },
+              {
+                "word": "biodiversity",
+                "ipa": "/ˌbaɪəʊdaɪˈvɜːsəti/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự đa dạng sinh học",
+                "family": "biological (adj), diverse (adj)",
+                "example_en": "Habitat destruction causes an irreversible loss of global biodiversity.",
+                "example_vi": "Sự phá hủy môi trường sống gây ra sự mất mát không thể đảo ngược của đa dạng sinh học toàn cầu."
+              },
+              {
+                "word": "ecosystem",
+                "ipa": "/ˈiːkəʊsɪstəm/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "hệ sinh thái",
+                "family": "ecological (adj), ecology (n)",
+                "example_en": "Marine ecosystems are heavily threatened by rising sea temperatures.",
+                "example_vi": "Các hệ sinh thái biển đang bị đe dọa nặng nề bởi nhiệt độ nước biển tăng cao."
+              },
+              {
+                "word": "agriculture",
+                "ipa": "/ˈæɡrɪkʌltʃər/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "ngành nông nghiệp",
+                "family": "agricultural (adj), agriculturalist (n)",
+                "example_en": "Modern agriculture consumes massive quantities of freshwater and land.",
+                "example_vi": "Nông nghiệp hiện đại tiêu thụ lượng lớn nước ngọt và đất đai."
+              },
+              {
+                "word": "farming",
+                "ipa": "/ˈfɑːmɪŋ/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "sản xuất nông nghiệp, việc làm nông",
+                "family": "farm (n/v), farmer (n)",
+                "example_en": "Erratic rainfall disrupts traditional farming cycles and crop yields.",
+                "example_vi": "Lượng mưa thất thường làm gián đoạn các chu kỳ sản xuất nông nghiệp và năng suất mùa màng."
+              },
+              {
+                "word": "pollute",
+                "ipa": "/pəˈluːt/",
+                "pos": "verb",
+                "level": "B1",
+                "vi": "làm ô nhiễm",
+                "family": "pollution (n), pollutant (n), polluted (adj)",
+                "example_en": "Vehicular exhaust and factory waste continue to pollute urban air.",
+                "example_vi": "Khí thải xe cộ và chất thải nhà máy tiếp tục làm ô nhiễm không khí đô thị."
+              },
+              {
+                "word": "threaten",
+                "ipa": "/ˈθretn/",
+                "pos": "verb",
+                "level": "B1",
+                "vi": "đe dọa, gây nguy hiểm cho",
+                "family": "threat (n), threatening (adj)",
+                "example_en": "Rising sea levels threaten coastal cities and infrastructure.",
+                "example_vi": "Mực nước biển dâng cao đe dọa các thành phố ven biển và cơ sở hạ tầng."
+              },
+              {
+                "word": "severe",
+                "ipa": "/sɪˈvɪər/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "nghiêm trọng, khốc liệt",
+                "family": "severity (n), severely (adv)",
+                "example_en": "Natural disasters are becoming more frequent and severe each year.",
+                "example_vi": "Thiên tai đang trở nên thường xuyên và khốc liệt hơn mỗi năm."
+              },
+              {
+                "word": "prolonged",
+                "ipa": "/prəˈlɒŋd/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "kéo dài, triền miên",
+                "family": "prolong (v)",
+                "example_en": "Prolonged dry spells can completely deplete local water reserves.",
+                "example_vi": "Những đợt khô hạn kéo dài có thể làm cạn kiệt hoàn toàn nguồn nước dự trữ địa phương."
+              },
+              {
+                "word": "sustainable",
+                "ipa": "/səˈsteɪnəbl/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "bền vững",
+                "family": "sustain (v), sustainability (n)",
+                "example_en": "Sustainable farming methods help preserve soil quality and ecosystems.",
+                "example_vi": "Các phương pháp sản xuất nông nghiệp bền vững giúp bảo tồn chất lượng đất và hệ sinh thái."
+              },
+              {
+                "word": "renewable",
+                "ipa": "/rɪˈnjuːəbl/",
+                "pos": "adj",
+                "level": "B1",
+                "vi": "có thể tái tạo (năng lượng tái tạo)",
+                "family": "renew (v), non-renewable (adj)",
+                "example_en": "Switching to renewable resources is essential for a greener future.",
+                "example_vi": "Chuyển sang các nguồn tài nguyên tái tạo là thiết yếu cho một tương lai xanh hơn."
+              },
+              {
+                "word": "mitigate",
+                "ipa": "/ˈmɪtɪɡeɪt/",
+                "pos": "verb",
+                "level": "B2",
+                "vi": "giảm nhẹ, làm dịu bớt (tác hại)",
+                "family": "mitigation (n), unmitigated (adj)",
+                "example_en": "Afforestation is one effective way to mitigate climate change.",
+                "example_vi": "Trồng rừng là một phương thức hiệu quả để giảm nhẹ tác động của biến đổi khí hậu."
+              },
+              {
+                "word": "combat",
+                "ipa": "/ˈkɒmbæt/",
+                "pos": "verb / noun",
+                "level": "B2",
+                "vi": "chống lại, đối phó với",
+                "family": "combative (adj)",
+                "example_en": "Global cooperation is vital to combat the consequences of global warming.",
+                "example_vi": "Hợp tác toàn cầu là điều sống còn để chống lại những hậu quả của sự nóng lên toàn cầu."
+              },
+              {
+                "word": "catastrophic",
+                "ipa": "/ˌkætəˈstrɒfɪk/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "thảm họa, tàn khốc",
+                "family": "catastrophe (n)",
+                "example_en": "Unregulated emissions could lead to catastrophic environmental collapse.",
+                "example_vi": "Lượng phát thải không kiểm soát có thể dẫn đến sự sụp đổ môi trường mang tính thảm họa."
+              }
+            ],
+            "collocation_groups": [
+              {
                 "id": "causes",
-                "name": "Nguyên nhân gây biến đổi khí hậu",
+                "name": "Nhóm Collocations: Nguyên nhân (Causes)",
                 "icon": "🏭",
-                "words": [
+                "badge": "Phần Thân bài 1",
+                "items": [
                   {
                     "en": "rely on fossil fuels",
-                    "pos": "v phr",
+                    "type": "Verb + Prepositional Phrase",
                     "level": "B1",
                     "vi": "phụ thuộc vào nhiên liệu hóa thạch",
-                    "example_en": "Many nations still heavily rely on fossil fuels for electricity generation.",
-                    "example_vi": "Nhiều quốc gia vẫn phụ thuộc nhiều vào nhiên liệu hóa thạch để phát điện."
+                    "example": "Many countries still heavily rely on fossil fuels for daily energy."
                   },
                   {
                     "en": "burn coal, oil, and gas",
-                    "pos": "v phr",
+                    "type": "Verb + Noun Phrase",
                     "level": "B1",
                     "vi": "đốt than, dầu và khí đốt",
-                    "example_en": "Burning coal, oil, and gas generates significant carbon dioxide.",
-                    "example_vi": "Việc đốt than, dầu và khí đốt tạo ra một lượng đáng kể khí carbon dioxide."
+                    "example": "Burning coal, oil, and gas to produce energy creates immense greenhouse gases."
+                  },
+                  {
+                    "en": "release greenhouse gases",
+                    "type": "Verb + Noun Phrase",
+                    "level": "B2",
+                    "vi": "thải ra khí nhà kính",
+                    "example": "Human activities release greenhouse gases into the upper atmosphere."
+                  },
+                  {
+                    "en": "strengthen the greenhouse effect",
+                    "type": "Verb + Noun Phrase",
+                    "level": "B2",
+                    "vi": "làm tăng hiệu ứng nhà kính",
+                    "example": "Excessive carbon dioxide strengthens the greenhouse effect and traps heat."
                   },
                   {
                     "en": "massive deforestation",
-                    "pos": "n",
+                    "type": "Adjective + Noun",
                     "level": "B2",
                     "vi": "nạn phá rừng trên diện rộng",
-                    "example_en": "Massive deforestation destroys the planet's natural carbon sinks.",
-                    "example_vi": "Nạn phá rừng trên diện rộng phá hủy các bể hấp thụ carbon tự nhiên của hành tinh."
+                    "example": "Massive deforestation for timber and farming reduces the planet's lungs."
                   },
                   {
                     "en": "absorb carbon dioxide",
-                    "pos": "v phr",
+                    "type": "Verb + Noun Phrase",
                     "level": "B1",
                     "vi": "hấp thụ khí carbon dioxide",
-                    "example_en": "Healthy forests absorb carbon dioxide and release oxygen.",
-                    "example_vi": "Những khu rừng khỏe mạnh hấp thụ khí carbon dioxide và giải phóng oxy."
+                    "example": "Fewer trees mean the Earth can absorb less carbon dioxide."
                   },
                   {
                     "en": "excessive use of private vehicles",
-                    "pos": "n phr",
+                    "type": "Noun Phrase",
                     "level": "B2",
                     "vi": "việc sử dụng phương tiện cá nhân quá mức",
-                    "example_en": "The excessive use of private vehicles exacerbates urban air pollution.",
-                    "example_vi": "Việc sử dụng phương tiện cá nhân quá mức làm trầm trọng thêm ô nhiễm không khí đô thị."
+                    "example": "The excessive use of private vehicles significantly increases urban emissions."
                   },
                   {
-                    "en": "produce energy",
-                    "pos": "v phr",
-                    "level": "B1",
-                    "vi": "sản xuất năng lượng",
-                    "example_en": "Power plants burn combustible materials to produce energy.",
-                    "example_vi": "Các nhà máy điện đốt nhiên liệu để sản xuất năng lượng."
+                    "en": "increase carbon emissions",
+                    "type": "Verb + Noun Phrase",
+                    "level": "B2",
+                    "vi": "làm gia tăng lượng phát thải carbon",
+                    "example": "Rapid industrial expansion tends to increase carbon emissions exponentially."
                   }
                 ]
               },
               {
                 "id": "effects",
-                "name": "Tác động & Hậu quả nghiêm trọng",
+                "name": "Nhóm Collocations: Hậu quả & Tác động (Effects & Impacts)",
                 "icon": "⚠️",
-                "words": [
+                "badge": "Phần Thân bài 2",
+                "items": [
                   {
-                    "en": "frequent and prolonged heatwaves",
-                    "pos": "n phr",
+                    "en": "global temperatures continue to rise",
+                    "type": "Sentence Pattern / Clause",
                     "level": "B2",
-                    "vi": "các đợt nắng nóng thường xuyên và kéo dài",
-                    "example_en": "Prolonged heatwaves threaten elderly citizens and outdoor workers.",
-                    "example_vi": "Các đợt nắng nóng kéo dài đe dọa người cao tuổi và những người làm việc ngoài trời."
+                    "vi": "nhiệt độ toàn cầu tiếp tục tăng",
+                    "example": "As global temperatures continue to rise, polar ice sheets melt faster."
                   },
                   {
-                    "en": "natural disasters",
-                    "pos": "n",
-                    "level": "B1",
-                    "vi": "thiên tai",
-                    "example_en": "Climate change multiplies the intensity of natural disasters.",
-                    "example_vi": "Biến đổi khí hậu làm tăng cường độ của các hiện tượng thiên tai."
+                    "en": "frequent and prolonged heatwaves",
+                    "type": "Adjective + Noun Phrase",
+                    "level": "B2",
+                    "vi": "các đợt nắng nóng thường xuyên và kéo dài",
+                    "example": "Cities are experiencing more frequent and prolonged heatwaves every summer."
+                  },
+                  {
+                    "en": "natural disasters become more severe",
+                    "type": "Sentence Pattern / Clause",
+                    "level": "B2",
+                    "vi": "thiên tai trở nên nghiêm trọng và khốc liệt hơn",
+                    "example": "Due to climate disruptions, natural disasters become more severe and costly."
                   },
                   {
                     "en": "floods, storms, and droughts",
-                    "pos": "n",
+                    "type": "Noun Phrase (Series)",
                     "level": "B1",
                     "vi": "lũ lụt, bão và hạn hán",
-                    "example_en": "Floods, storms, and droughts cause widespread devastation in rural communities.",
-                    "example_vi": "Lũ lụt, bão và hạn hán gây ra tàn phá trên diện rộng ở các cộng đồng nông thôn."
+                    "example": "Floods, storms, and droughts occur with greater unpredictability."
                   },
                   {
                     "en": "lose their homes",
-                    "pos": "v phr",
+                    "type": "Verb + Object",
                     "level": "B1",
-                    "vi": "mất nhà cửa",
-                    "example_en": "Thousands of residents lose their homes during catastrophic typhoons.",
-                    "example_vi": "Hàng nghìn người dân bị mất nhà cửa trong những trận bão thảm khốc."
+                    "vi": "mất nhà cửa, mất nơi cư trú",
+                    "example": "Many families lose their homes during unprecedented flash floods."
                   },
                   {
-                    "en": "farming / agricultural production",
-                    "pos": "n",
+                    "en": "face difficulties in farming",
+                    "type": "Verb + Prepositional Gerund",
                     "level": "B1",
-                    "vi": "sản xuất nông nghiệp",
-                    "example_en": "Severe droughts directly impair agricultural production and crop yields.",
-                    "example_vi": "Hạn hán nghiêm trọng làm suy giảm trực tiếp sản xuất nông nghiệp và năng suất mùa màng."
+                    "vi": "gặp khó khăn trong sản xuất nông nghiệp",
+                    "example": "Local farmers face difficulties in farming due to erratic rainfall and heat."
                   },
                   {
                     "en": "cause serious damage to people and property",
-                    "pos": "v phr",
+                    "type": "Verb + Noun Phrase",
                     "level": "B2",
                     "vi": "gây thiệt hại nghiêm trọng về người và tài sản",
-                    "example_en": "Coastal storm surges cause serious damage to people and property.",
-                    "example_vi": "Triều cường ven biển gây thiệt hại nghiêm trọng về người và tài sản."
+                    "example": "Catastrophic typhoons cause serious damage to people and property in coastal areas."
                   },
                   {
                     "en": "threaten sustainable development",
-                    "pos": "v phr",
+                    "type": "Verb + Noun Phrase",
                     "level": "B2",
                     "vi": "đe dọa sự phát triển bền vững",
-                    "example_en": "Unchecked climate crises threaten sustainable development across developing countries.",
-                    "example_vi": "Khủng hoảng khí hậu không được kiểm soát đe dọa sự phát triển bền vững ở các quốc gia đang phát triển."
+                    "example": "Resource depletion and global warming threaten sustainable development."
                   },
                   {
                     "en": "reduce the quality of life",
-                    "pos": "v phr",
+                    "type": "Verb + Noun Phrase",
                     "level": "B2",
                     "vi": "làm giảm chất lượng cuộc sống",
-                    "example_en": "Environmental degradation will inevitably reduce the quality of life for future generations.",
-                    "example_vi": "Suy thoái môi trường chắc chắn sẽ làm giảm chất lượng cuộc sống của các thế hệ tương lai."
+                    "example": "Poor air quality and extreme climates reduce the quality of life for citizens."
                   }
                 ]
               },
               {
                 "id": "solutions",
-                "name": "Giải pháp & Hành động khắc phục",
+                "name": "Nhóm Collocations: Giải pháp & Hành động (Solutions & Actions)",
                 "icon": "🌱",
-                "words": [
+                "badge": "Kết bài & Mở rộng",
+                "items": [
                   {
                     "en": "transition to renewable energy",
-                    "pos": "v phr",
+                    "type": "Verb + Prepositional Phrase",
                     "level": "B2",
                     "vi": "chuyển dịch sang năng lượng tái tạo",
-                    "example_en": "Governments should accelerate the transition to renewable energy sources.",
-                    "example_vi": "Chính phủ cần đẩy nhanh quá trình chuyển dịch sang các nguồn năng lượng tái tạo."
+                    "example": "A swift transition to renewable energy is paramount to curtailing carbon emissions."
                   },
                   {
                     "en": "solar and wind energy",
-                    "pos": "n",
+                    "type": "Noun Phrase",
                     "level": "B1",
-                    "vi": "năng lượng mặt trời và gió",
-                    "example_en": "Investing in solar and wind energy cuts down dependence on coal.",
-                    "example_vi": "Đầu tư vào năng lượng mặt trời và gió giúp giảm bớt sự phụ thuộc vào than đá."
+                    "vi": "năng lượng mặt trời và năng lượng gió",
+                    "example": "Investing in solar and wind energy provides clean and reliable electricity."
                   },
                   {
                     "en": "promote public transport",
-                    "pos": "v phr",
+                    "type": "Verb + Noun Phrase",
                     "level": "B1",
-                    "vi": "khuyến khích giao thông công cộng",
-                    "example_en": "Promoting public transport reduces the volume of exhaust fumes on roads.",
-                    "example_vi": "Khuyến khích giao thông công cộng làm giảm lượng khói thải trên đường sá."
+                    "vi": "khuyến khích / thúc đẩy giao thông công cộng",
+                    "example": "Governments should promote public transport to curb vehicle congestion and fumes."
                   },
                   {
                     "en": "afforestation and reforestation",
-                    "pos": "n",
+                    "type": "Compound Noun Phrase",
                     "level": "B2",
-                    "vi": "trồng rừng và tái tạo rừng",
-                    "example_en": "Afforestation campaigns help restore degraded landscapes.",
-                    "example_vi": "Các chiến dịch trồng rừng giúp phục hồi các cảnh quan bị suy thoái."
+                    "vi": "trồng rừng mới và tái tạo rừng",
+                    "example": "Afforestation and reforestation programs effectively restore depleted green spaces."
                   },
                   {
                     "en": "raise environmental awareness",
-                    "pos": "v phr",
+                    "type": "Verb + Noun Phrase",
                     "level": "B1",
                     "vi": "nâng cao nhận thức bảo vệ môi trường",
-                    "example_en": "Schools play a vital role in raising environmental awareness among youth.",
-                    "example_vi": "Nhà trường đóng vai trò thiết yếu trong việc nâng cao nhận thức bảo vệ môi trường ở giới trẻ."
+                    "example": "Community workshops help raise environmental awareness among the general public."
+                  },
+                  {
+                    "en": "impose stringent regulations",
+                    "type": "Verb + Noun Phrase",
+                    "level": "B2",
+                    "vi": "ban hành / áp đặt các quy định nghiêm ngặt",
+                    "example": "Authorities must impose stringent regulations on industrial waste discharge."
                   }
                 ]
               }
@@ -23146,6 +23305,7 @@ const ESSAY_DATA = [
             "paraphrases": [
               {
                 "original": "Climate change",
+                "vi_concept": "Biến đổi khí hậu",
                 "paraphrases": [
                   {
                     "en": "Global climate disruption",
@@ -23164,18 +23324,19 @@ const ESSAY_DATA = [
                     "vi": "sự suy thoái sinh thái"
                   }
                 ],
-                "usage": "Thay vì lặp lại 'climate change' quá nhiều lần, có thể dùng 'the ongoing climate crisis' hoặc 'planetary warming'."
+                "usage_tip": "Thay vì lặp lại 'climate change' liên tục, hãy luân phiên sử dụng 'the ongoing climate crisis' hoặc 'planetary warming' trong các đoạn Thân bài."
               },
               {
                 "original": "Cause / Lead to",
+                "vi_concept": "Gây ra, dẫn đến",
                 "paraphrases": [
                   {
                     "en": "Trigger / Bring about",
-                    "vi": "gây ra, khơi mào"
+                    "vi": "khơi mào, mang lại"
                   },
                   {
                     "en": "Attribute to",
-                    "vi": "quy cho, bắt nguồn từ"
+                    "vi": "bắt nguồn từ, quy cho"
                   },
                   {
                     "en": "Exacerbate",
@@ -23186,10 +23347,11 @@ const ESSAY_DATA = [
                     "vi": "làm nảy sinh"
                   }
                 ],
-                "usage": "Ví dụ: 'Burning fossil fuels triggers global warming' thay cho 'causes global warming'."
+                "usage_tip": "Dùng 'Burning fossil fuels triggers global warming' hoặc 'Air pollution is attributed to vehicle emissions' để câu văn mang tính học thuật cao."
               },
               {
                 "original": "Effect / Impact",
+                "vi_concept": "Tác động, hậu quả",
                 "paraphrases": [
                   {
                     "en": "Adverse consequence",
@@ -23208,14 +23370,15 @@ const ESSAY_DATA = [
                     "vi": "sự tổn hại nặng nề"
                   }
                 ],
-                "usage": "Ví dụ: 'Climate change has far-reaching repercussions on agricultural production'."
+                "usage_tip": "Dùng 'Climate change takes a heavy toll on agricultural production' thay vì cụm quen thuộc 'has a bad effect on'."
               },
               {
                 "original": "Solve / Tackle",
+                "vi_concept": "Giải quyết, đối phó",
                 "paraphrases": [
                   {
                     "en": "Mitigate the impact of",
-                    "vi": "giảm thiểu tác động của"
+                    "vi": "giảm thiểu tác động tiêu cực"
                   },
                   {
                     "en": "Combat climate change",
@@ -23230,7 +23393,7 @@ const ESSAY_DATA = [
                     "vi": "giảm tải áp lực sinh thái"
                   }
                 ],
-                "usage": "Ví dụ: 'Urgent multilateral measures are required to combat the climate crisis'."
+                "usage_tip": "Dùng 'Urgent multilateral measures are required to combat the climate crisis' trong phần Kết bài (Conclusion)."
               }
             ]
           }

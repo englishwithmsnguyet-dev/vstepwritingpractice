@@ -882,118 +882,42 @@ function renderStepVocab() {
   }
   
   const vData = topic.details.vocab_step;
-  
-  let totalWordCount = 0;
-  if (vData.categories) {
-    vData.categories.forEach(c => totalWordCount += (c.words ? c.words.length : 0));
-  }
-  
   const search = currentVocabSearch;
   const activeCat = currentVocabFilter;
   
-  let categoriesHtml = '';
+  // Detect if modern schema (single_words + collocation_groups) or legacy categories
+  const hasModernSchema = Boolean(vData.single_words || vData.collocation_groups);
   
+  let singleWordsCount = vData.single_words ? vData.single_words.length : 0;
+  let collocationsCount = 0;
+  if (vData.collocation_groups) {
+    vData.collocation_groups.forEach(g => {
+      collocationsCount += (g.collocations ? g.collocations.length : 0);
+    });
+  }
+  let paraphrasesCount = vData.paraphrases ? vData.paraphrases.length : 0;
+  
+  let legacyWordCount = 0;
   if (vData.categories) {
-    vData.categories.forEach(cat => {
-      if (activeCat !== 'all' && activeCat !== 'paraphrases' && activeCat !== cat.id) return;
-      if (activeCat === 'paraphrases') return;
-      
-      const matchedWords = (cat.words || []).filter(w => {
-        if (!search) return true;
-        return (
-          (w.en && w.en.toLowerCase().includes(search)) ||
-          (w.vi && w.vi.toLowerCase().includes(search)) ||
-          (w.example_en && w.example_en.toLowerCase().includes(search)) ||
-          (w.example_vi && w.example_vi.toLowerCase().includes(search))
-        );
-      });
-      
-      if (matchedWords.length === 0) return;
-      
-      const wordsHtml = matchedWords.map(w => `
-        <div class="vocab-card">
-          <div class="vocab-card-top">
-            <span class="vocab-card-en">${w.en}</span>
-            <div class="vocab-card-meta">
-              ${w.pos ? `<span class="vocab-pos-tag">${w.pos}</span>` : ''}
-              ${w.level ? `<span class="vocab-level-badge ${w.level.toLowerCase()}">${w.level}</span>` : ''}
-            </div>
-          </div>
-          <div class="vocab-card-vi">👉 ${w.vi}</div>
-          ${w.example_en ? `
-            <div class="vocab-example-box">
-              <div class="vocab-example-en"><strong>VD:</strong> ${w.example_en}</div>
-              ${w.example_vi ? `<div class="vocab-example-vi">(${w.example_vi})</div>` : ''}
-            </div>
-          ` : ''}
-        </div>
-      `).join('');
-      
-      categoriesHtml += `
-        <div class="vocab-group-section">
-          <div class="vocab-group-header">
-            <span>${cat.icon || '📌'}</span>
-            <span>${cat.name} (${matchedWords.length})</span>
-          </div>
-          <div class="vocab-grid">
-            ${wordsHtml}
-          </div>
-        </div>
-      `;
-    });
+    vData.categories.forEach(c => legacyWordCount += (c.words ? c.words.length : 0));
   }
   
-  // Paraphrase section
-  let paraphraseSectionHtml = '';
-  if (vData.paraphrases && vData.paraphrases.length > 0 && (activeCat === 'all' || activeCat === 'paraphrases')) {
-    const matchedParaphrases = vData.paraphrases.filter(p => {
-      if (!search) return true;
-      const matchOrig = p.original && p.original.toLowerCase().includes(search);
-      const matchSub = p.paraphrases && p.paraphrases.some(sp => 
-        (sp.en && sp.en.toLowerCase().includes(search)) || (sp.vi && sp.vi.toLowerCase().includes(search))
-      );
-      return matchOrig || matchSub;
-    });
-    
-    if (matchedParaphrases.length > 0) {
-      const pCardsHtml = matchedParaphrases.map(p => `
-        <div class="paraphrase-card">
-          <div class="paraphrase-card-header">
-            <span class="paraphrase-orig">Từ gốc: <strong>${p.original}</strong></span>
-            <span class="vocab-pos-tag">Paraphrase</span>
-          </div>
-          <div class="paraphrase-items-list">
-            ${p.paraphrases.map(sp => `
-              <div class="paraphrase-item">
-                <strong>${sp.en}</strong>
-                <span>${sp.vi}</span>
-              </div>
-            `).join('')}
-          </div>
-          ${p.usage ? `<div class="paraphrase-usage-tip">💡 <strong>Mẹo dùng:</strong> ${p.usage}</div>` : ''}
-        </div>
-      `).join('');
-      
-      paraphraseSectionHtml = `
-        <div class="vocab-group-section" style="margin-top: 1rem;">
-          <div class="vocab-group-header">
-            <span>🔄</span>
-            <span>Cặp từ đồng nghĩa & Diễn đạt tương đương (Paraphrase)</span>
-          </div>
-          <div class="paraphrase-grid">
-            ${pCardsHtml}
-          </div>
-        </div>
-      `;
-    }
+  // Filter pills
+  let pills = [];
+  if (hasModernSchema) {
+    pills = [
+      { id: 'all', label: `🌟 Tất cả (${singleWordsCount + collocationsCount + paraphrasesCount})` },
+      { id: 'single_words', label: `🔤 Từ đơn cốt lõi (${singleWordsCount})` },
+      { id: 'collocations', label: `🔗 Cụm Collocations (${collocationsCount})` },
+      { id: 'paraphrases', label: `🔄 Bảng Paraphrase (${paraphrasesCount})` }
+    ];
+  } else {
+    pills = [
+      { id: 'all', label: `Tất cả (${legacyWordCount})` },
+      ...(vData.categories || []).map(c => ({ id: c.id, label: `${c.icon || ''} ${c.name} (${c.words ? c.words.length : 0})` })),
+      { id: 'paraphrases', label: `🔄 Paraphrase & Đồng nghĩa (${paraphrasesCount})` }
+    ];
   }
-  
-  // Build category filter pills
-  const pills = [
-    { id: 'all', label: `Tất cả (${totalWordCount})` },
-    ...(vData.categories || []).map(c => ({ id: c.id, label: `${c.icon || ''} ${c.name} (${c.words ? c.words.length : 0})` })),
-    { id: 'paraphrases', label: `🔄 Paraphrase & Đồng nghĩa (${vData.paraphrases ? vData.paraphrases.length : 0})` }
-  ];
   
   const pillsHtml = pills.map(p => `
     <button class="vocab-filter-pill ${activeCat === p.id ? 'active' : ''}" onclick="filterVocabCategory('${p.id}')">
@@ -1001,12 +925,334 @@ function renderStepVocab() {
     </button>
   `).join('');
   
+  let sectionsHtml = '';
+  let matchFound = false;
+  
+  if (hasModernSchema) {
+    // 1. SECTION: SINGLE WORDS
+    if (vData.single_words && (activeCat === 'all' || activeCat === 'single_words')) {
+      const matchedSingle = vData.single_words.filter(w => {
+        if (!search) return true;
+        return (
+          (w.word && w.word.toLowerCase().includes(search)) ||
+          (w.ipa && w.ipa.toLowerCase().includes(search)) ||
+          (w.vi && w.vi.toLowerCase().includes(search)) ||
+          (w.family && w.family.toLowerCase().includes(search)) ||
+          (w.example_en && w.example_en.toLowerCase().includes(search)) ||
+          (w.example_vi && w.example_vi.toLowerCase().includes(search))
+        );
+      });
+      
+      if (matchedSingle.length > 0) {
+        matchFound = true;
+        const singleCardsHtml = matchedSingle.map(w => `
+          <div class="vocab-card">
+            <div class="vocab-card-top">
+              <div class="vocab-card-title-area">
+                <span class="vocab-card-en">${w.word}</span>
+                ${w.ipa ? `<span class="vocab-ipa">${w.ipa}</span>` : ''}
+              </div>
+              <div class="vocab-card-meta">
+                ${w.pos ? `<span class="vocab-pos-tag">${w.pos}</span>` : ''}
+                ${w.level ? `<span class="vocab-level-badge ${w.level.toLowerCase()}">${w.level}</span>` : ''}
+              </div>
+            </div>
+            <div class="vocab-card-vi">👉 ${w.vi}</div>
+            ${w.family ? `
+              <div class="vocab-family-box">
+                <span class="vocab-family-label">🌱 Họ từ:</span>
+                <span class="vocab-family-chips">
+                  ${w.family.split(',').map(f => `<span class="vocab-family-chip">${f.trim()}</span>`).join('')}
+                </span>
+              </div>
+            ` : ''}
+            ${w.example_en ? `
+              <div class="vocab-example-box">
+                <div class="vocab-example-en"><strong>VD:</strong> ${w.example_en}</div>
+                ${w.example_vi ? `<div class="vocab-example-vi">(${w.example_vi})</div>` : ''}
+              </div>
+            ` : ''}
+          </div>
+        `).join('');
+        
+        sectionsHtml += `
+          <div class="vocab-group-section">
+            <div class="vocab-group-header">
+              <div class="vocab-group-title">
+                <span>🔤</span>
+                <span>Từ đơn cốt lõi (Single Words) &bull; ${matchedSingle.length} từ</span>
+              </div>
+              <div class="vocab-group-desc">
+                Cung cấp từ gốc, phiên âm quốc tế IPA chuẩn, từ loại và họ từ (Word Family) giúp bạn phát triển câu từ linh hoạt.
+              </div>
+            </div>
+            <div class="vocab-grid">
+              ${singleCardsHtml}
+            </div>
+          </div>
+        `;
+      }
+    }
+    
+    // 2. SECTION: COLLOCATION GROUPS
+    if (vData.collocation_groups && (activeCat === 'all' || activeCat === 'collocations')) {
+      let collocationsGroupHtml = '';
+      let totalGroupMatches = 0;
+      
+      vData.collocation_groups.forEach(group => {
+        const matchedCols = (group.collocations || []).filter(c => {
+          if (!search) return true;
+          return (
+            (c.en && c.en.toLowerCase().includes(search)) ||
+            (c.vi && c.vi.toLowerCase().includes(search)) ||
+            (c.type && c.type.toLowerCase().includes(search)) ||
+            (c.example_en && c.example_en.toLowerCase().includes(search)) ||
+            (c.example_vi && c.example_vi.toLowerCase().includes(search))
+          );
+        });
+        
+        if (matchedCols.length > 0) {
+          totalGroupMatches += matchedCols.length;
+          const colCardsHtml = matchedCols.map(c => `
+            <div class="vocab-card">
+              <div class="vocab-card-top">
+                <div class="vocab-card-title-area">
+                  <span class="vocab-card-en">${c.en}</span>
+                </div>
+                <div class="vocab-card-meta">
+                  ${c.type ? `<span class="collocation-type-tag">${c.type}</span>` : ''}
+                  ${c.level ? `<span class="vocab-level-badge ${c.level.toLowerCase()}">${c.level}</span>` : ''}
+                </div>
+              </div>
+              <div class="vocab-card-vi">👉 ${c.vi}</div>
+              ${c.example_en ? `
+                <div class="vocab-example-box">
+                  <div class="vocab-example-en"><strong>VD:</strong> ${c.example_en}</div>
+                  ${c.example_vi ? `<div class="vocab-example-vi">(${c.example_vi})</div>` : ''}
+                </div>
+              ` : ''}
+            </div>
+          `).join('');
+          
+          collocationsGroupHtml += `
+            <div class="collocation-subgroup">
+              <div class="collocation-subgroup-title">
+                <span>${group.icon || '📌'}</span>
+                <span>${group.title} (${matchedCols.length} cụm)</span>
+              </div>
+              <div class="vocab-grid">
+                ${colCardsHtml}
+              </div>
+            </div>
+          `;
+        }
+      });
+      
+      if (totalGroupMatches > 0) {
+        matchFound = true;
+        sectionsHtml += `
+          <div class="vocab-group-section">
+            <div class="vocab-group-header">
+              <div class="vocab-group-title">
+                <span>🔗</span>
+                <span>Cụm từ học thuật (Collocations) theo Dàn bài Essay &bull; ${totalGroupMatches} cụm</span>
+              </div>
+              <div class="vocab-group-desc">
+                Các cụm từ tự nhiên theo chuẩn bài thi VSTEP B1-B2 được phân bổ theo 3 phần trọng tâm: Nguyên nhân - Hậu quả - Giải pháp.
+              </div>
+            </div>
+            ${collocationsGroupHtml}
+          </div>
+        `;
+      }
+    }
+    
+    // 3. SECTION: PARAPHRASES
+    if (vData.paraphrases && vData.paraphrases.length > 0 && (activeCat === 'all' || activeCat === 'paraphrases')) {
+      const matchedParaphrases = vData.paraphrases.filter(p => {
+        if (!search) return true;
+        const matchOrig = p.original && p.original.toLowerCase().includes(search);
+        const matchSub = p.paraphrases && p.paraphrases.some(sp => 
+          (sp.en && sp.en.toLowerCase().includes(search)) || (sp.vi && sp.vi.toLowerCase().includes(search))
+        );
+        return matchOrig || matchSub;
+      });
+      
+      if (matchedParaphrases.length > 0) {
+        matchFound = true;
+        const pCardsHtml = matchedParaphrases.map(p => `
+          <div class="paraphrase-card">
+            <div class="paraphrase-card-header">
+              <span class="paraphrase-orig">Từ cơ bản: <strong>${p.original}</strong></span>
+              <span class="vocab-level-badge b2">Band B2</span>
+            </div>
+            <div class="paraphrase-items-list">
+              ${p.paraphrases.map(sp => `
+                <div class="paraphrase-item">
+                  <strong>${sp.en}</strong>
+                  <span>${sp.vi}</span>
+                </div>
+              `).join('')}
+            </div>
+            ${p.usage ? `<div class="paraphrase-usage-tip">💡 <strong>Mẹo diễn đạt:</strong> ${p.usage}</div>` : ''}
+          </div>
+        `).join('');
+        
+        sectionsHtml += `
+          <div class="vocab-group-section">
+            <div class="vocab-group-header">
+              <div class="vocab-group-title">
+                <span>🔄</span>
+                <span>Bảng Paraphrase nâng band điểm Lexical Resource &bull; ${matchedParaphrases.length} nhóm</span>
+              </div>
+              <div class="vocab-group-desc">
+                Tuyệt chiêu tránh lặp từ và nâng cấp câu văn từ cơ bản lên chuẩn học thuật B2.
+              </div>
+            </div>
+            <div class="paraphrase-grid">
+              ${pCardsHtml}
+            </div>
+          </div>
+        `;
+      }
+    }
+  } else {
+    // Legacy categories rendering
+    if (vData.categories) {
+      vData.categories.forEach(cat => {
+        if (activeCat !== 'all' && activeCat !== 'paraphrases' && activeCat !== cat.id) return;
+        if (activeCat === 'paraphrases') return;
+        
+        const matchedWords = (cat.words || []).filter(w => {
+          if (!search) return true;
+          return (
+            (w.en && w.en.toLowerCase().includes(search)) ||
+            (w.vi && w.vi.toLowerCase().includes(search)) ||
+            (w.example_en && w.example_en.toLowerCase().includes(search)) ||
+            (w.example_vi && w.example_vi.toLowerCase().includes(search))
+          );
+        });
+        
+        if (matchedWords.length === 0) return;
+        matchFound = true;
+        
+        const wordsHtml = matchedWords.map(w => `
+          <div class="vocab-card">
+            <div class="vocab-card-top">
+              <span class="vocab-card-en">${w.en}</span>
+              <div class="vocab-card-meta">
+                ${w.pos ? `<span class="vocab-pos-tag">${w.pos}</span>` : ''}
+                ${w.level ? `<span class="vocab-level-badge ${w.level.toLowerCase()}">${w.level}</span>` : ''}
+              </div>
+            </div>
+            <div class="vocab-card-vi">👉 ${w.vi}</div>
+            ${w.example_en ? `
+              <div class="vocab-example-box">
+                <div class="vocab-example-en"><strong>VD:</strong> ${w.example_en}</div>
+                ${w.example_vi ? `<div class="vocab-example-vi">(${w.example_vi})</div>` : ''}
+              </div>
+            ` : ''}
+          </div>
+        `).join('');
+        
+        sectionsHtml += `
+          <div class="vocab-group-section">
+            <div class="vocab-group-header">
+              <div class="vocab-group-title">
+                <span>${cat.icon || '📌'}</span>
+                <span>${cat.name} (${matchedWords.length})</span>
+              </div>
+            </div>
+            <div class="vocab-grid">
+              ${wordsHtml}
+            </div>
+          </div>
+        `;
+      });
+    }
+    
+    if (vData.paraphrases && vData.paraphrases.length > 0 && (activeCat === 'all' || activeCat === 'paraphrases')) {
+      const matchedParaphrases = vData.paraphrases.filter(p => {
+        if (!search) return true;
+        const matchOrig = p.original && p.original.toLowerCase().includes(search);
+        const matchSub = p.paraphrases && p.paraphrases.some(sp => 
+          (sp.en && sp.en.toLowerCase().includes(search)) || (sp.vi && sp.vi.toLowerCase().includes(search))
+        );
+        return matchOrig || matchSub;
+      });
+      
+      if (matchedParaphrases.length > 0) {
+        matchFound = true;
+        const pCardsHtml = matchedParaphrases.map(p => `
+          <div class="paraphrase-card">
+            <div class="paraphrase-card-header">
+              <span class="paraphrase-orig">Từ gốc: <strong>${p.original}</strong></span>
+              <span class="vocab-pos-tag">Paraphrase</span>
+            </div>
+            <div class="paraphrase-items-list">
+              ${p.paraphrases.map(sp => `
+                <div class="paraphrase-item">
+                  <strong>${sp.en}</strong>
+                  <span>${sp.vi}</span>
+                </div>
+              `).join('')}
+            </div>
+            ${p.usage ? `<div class="paraphrase-usage-tip">💡 <strong>Mẹo dùng:</strong> ${p.usage}</div>` : ''}
+          </div>
+        `).join('');
+        
+        sectionsHtml += `
+          <div class="vocab-group-section" style="margin-top: 1rem;">
+            <div class="vocab-group-header">
+              <div class="vocab-group-title">
+                <span>🔄</span>
+                <span>Cặp từ đồng nghĩa & Diễn đạt tương đương (Paraphrase)</span>
+              </div>
+            </div>
+            <div class="paraphrase-grid">
+              ${pCardsHtml}
+            </div>
+          </div>
+        `;
+      }
+    }
+  }
+  
+  // Summary Stats Banner (for modern schema)
+  const statsSummaryHtml = hasModernSchema ? `
+    <div class="vocab-stats-summary">
+      <div class="vocab-stat-card" onclick="filterVocabCategory('single_words')" style="cursor: pointer;">
+        <div class="vocab-stat-icon">🔤</div>
+        <div class="vocab-stat-info">
+          <h4>${singleWordsCount} Từ đơn cốt lõi</h4>
+          <p>Kèm phiên âm IPA & Họ từ (Word Family)</p>
+        </div>
+      </div>
+      <div class="vocab-stat-card" onclick="filterVocabCategory('collocations')" style="cursor: pointer;">
+        <div class="vocab-stat-icon">🔗</div>
+        <div class="vocab-stat-info">
+          <h4>${collocationsCount} Cụm Collocations</h4>
+          <p>Phân loại: Nguyên nhân • Hậu quả • Giải pháp</p>
+        </div>
+      </div>
+      <div class="vocab-stat-card" onclick="filterVocabCategory('paraphrases')" style="cursor: pointer;">
+        <div class="vocab-stat-icon">🔄</div>
+        <div class="vocab-stat-info">
+          <h4>${paraphrasesCount} Nhóm Paraphrase</h4>
+          <p>Nâng band điểm B1 ➔ B2 (Lexical Resource)</p>
+        </div>
+      </div>
+    </div>
+  ` : '';
+  
   container.innerHTML = `
     <div class="vocab-hero-banner">
-      <span class="vocab-hero-badge">PHÒNG LUYỆN VIẾT VSTEP • BƯỚC 02: NẠP TỪ VỰNG</span>
+      <span class="vocab-hero-badge">PHÒNG LUYỆN VIẾT VSTEP • BƯỚC 02: NẠP TỪ VỰNG CHUYÊN SÂU</span>
       <h2>${vData.theme}</h2>
       <p>${vData.overview}</p>
     </div>
+    
+    ${statsSummaryHtml}
     
     <div class="vocab-controls-bar">
       <div class="vocab-filter-pills">
@@ -1016,12 +1262,11 @@ function renderStepVocab() {
         <svg class="vocab-search-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
         </svg>
-        <input type="text" class="vocab-search-input" placeholder="Tìm nhanh từ vựng hoặc nghĩa..." value="${search}" oninput="handleVocabSearch(this.value)">
+        <input type="text" class="vocab-search-input" placeholder="Tìm nhanh từ vựng, phiên âm, nghĩa..." value="${search}" oninput="handleVocabSearch(this.value)">
       </div>
     </div>
     
-    ${categoriesHtml || '<div class="empty-state" style="padding: 2rem;">Không tìm thấy từ vựng phù hợp với từ khóa tìm kiếm.</div>'}
-    ${paraphraseSectionHtml}
+    ${sectionsHtml || '<div class="empty-state" style="padding: 2.5rem; text-align: center;">Không tìm thấy từ vựng hoặc cụm từ phù hợp với từ khóa tìm kiếm.</div>'}
     
     <div style="text-align: right; margin: 1.5rem 0 2.5rem 0;">
       <button class="btn btn-primary" style="padding: 0.85rem 2.25rem; font-size: 1.05rem; box-shadow: var(--shadow-glow); font-weight: 700;" onclick="switchStep('trans')">
