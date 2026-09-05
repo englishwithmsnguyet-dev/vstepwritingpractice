@@ -892,7 +892,8 @@ function renderStepVocab() {
   let collocationsCount = 0;
   if (vData.collocation_groups) {
     vData.collocation_groups.forEach(g => {
-      collocationsCount += (g.collocations ? g.collocations.length : 0);
+      const items = g.items || g.collocations || [];
+      collocationsCount += items.length;
     });
   }
   let paraphrasesCount = vData.paraphrases ? vData.paraphrases.length : 0;
@@ -1000,12 +1001,14 @@ function renderStepVocab() {
       let totalGroupMatches = 0;
       
       vData.collocation_groups.forEach(group => {
-        const matchedCols = (group.collocations || []).filter(c => {
+        const items = group.items || group.collocations || [];
+        const matchedCols = items.filter(c => {
           if (!search) return true;
           return (
             (c.en && c.en.toLowerCase().includes(search)) ||
             (c.vi && c.vi.toLowerCase().includes(search)) ||
             (c.type && c.type.toLowerCase().includes(search)) ||
+            (c.example && c.example.toLowerCase().includes(search)) ||
             (c.example_en && c.example_en.toLowerCase().includes(search)) ||
             (c.example_vi && c.example_vi.toLowerCase().includes(search))
           );
@@ -1025,9 +1028,9 @@ function renderStepVocab() {
                 </div>
               </div>
               <div class="vocab-card-vi">👉 ${c.vi}</div>
-              ${c.example_en ? `
+              ${(c.example || c.example_en) ? `
                 <div class="vocab-example-box">
-                  <div class="vocab-example-en"><strong>VD:</strong> ${c.example_en}</div>
+                  <div class="vocab-example-en"><strong>VD:</strong> ${c.example || c.example_en}</div>
                   ${c.example_vi ? `<div class="vocab-example-vi">(${c.example_vi})</div>` : ''}
                 </div>
               ` : ''}
@@ -1038,7 +1041,8 @@ function renderStepVocab() {
             <div class="collocation-subgroup">
               <div class="collocation-subgroup-title">
                 <span>${group.icon || '📌'}</span>
-                <span>${group.title} (${matchedCols.length} cụm)</span>
+                <span>${group.name || group.title} (${matchedCols.length} cụm)</span>
+                ${group.badge ? `<span style="margin-left: auto; font-size: 0.75rem; font-weight: normal; background: rgba(99,102,241,0.1); color: var(--accent-primary); padding: 2px 8px; border-radius: 4px;">${group.badge}</span>` : ''}
               </div>
               <div class="vocab-grid">
                 ${colCardsHtml}
@@ -1072,10 +1076,12 @@ function renderStepVocab() {
       const matchedParaphrases = vData.paraphrases.filter(p => {
         if (!search) return true;
         const matchOrig = p.original && p.original.toLowerCase().includes(search);
+        const matchViConcept = p.vi_concept && p.vi_concept.toLowerCase().includes(search);
+        const matchTip = (p.usage_tip || p.usage) && (p.usage_tip || p.usage).toLowerCase().includes(search);
         const matchSub = p.paraphrases && p.paraphrases.some(sp => 
           (sp.en && sp.en.toLowerCase().includes(search)) || (sp.vi && sp.vi.toLowerCase().includes(search))
         );
-        return matchOrig || matchSub;
+        return matchOrig || matchViConcept || matchTip || matchSub;
       });
       
       if (matchedParaphrases.length > 0) {
@@ -1083,18 +1089,18 @@ function renderStepVocab() {
         const pCardsHtml = matchedParaphrases.map(p => `
           <div class="paraphrase-card">
             <div class="paraphrase-card-header">
-              <span class="paraphrase-orig">Từ cơ bản: <strong>${p.original}</strong></span>
+              <span class="paraphrase-orig">Từ gốc: <strong>${p.original}</strong> ${p.vi_concept ? `<span style="font-weight: 500; font-size: 0.85rem; color: var(--text-muted);">(${p.vi_concept})</span>` : ''}</span>
               <span class="vocab-level-badge b2">Band B2</span>
             </div>
             <div class="paraphrase-items-list">
-              ${p.paraphrases.map(sp => `
+              ${(p.paraphrases || []).map(sp => `
                 <div class="paraphrase-item">
                   <strong>${sp.en}</strong>
                   <span>${sp.vi}</span>
                 </div>
               `).join('')}
             </div>
-            ${p.usage ? `<div class="paraphrase-usage-tip">💡 <strong>Mẹo diễn đạt:</strong> ${p.usage}</div>` : ''}
+            ${(p.usage_tip || p.usage) ? `<div class="paraphrase-usage-tip">💡 <strong>Mẹo diễn đạt:</strong> ${p.usage_tip || p.usage}</div>` : ''}
           </div>
         `).join('');
         
