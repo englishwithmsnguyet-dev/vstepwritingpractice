@@ -1205,7 +1205,7 @@ function renderStepVocab() {
     <div class="vocab-hero-banner">
       <span class="vocab-hero-badge">PHÒNG LUYỆN VIẾT VSTEP • BƯỚC 02: NẠP TỪ VỰNG CHUYÊN SÂU</span>
       <h2>${vData.theme}</h2>
-      <p>${vData.overview}</p>
+      ${vData.overview ? `<p>${vData.overview}</p>` : ''}
     </div>
     
     ${statsSummaryHtml}
