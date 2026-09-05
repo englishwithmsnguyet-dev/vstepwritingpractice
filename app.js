@@ -726,37 +726,117 @@ function startPractice(catId, topicId) {
   document.getElementById('ws-model-level-b2').classList.remove('active');
   currentSampleLevel = 'B1';
   
+  // Render workspace step tabs dynamically based on topic features
+  renderWorkspaceStepHeader();
+
   // Switch to Step 1 (Reading & Analysis) by default
-  switchStep(1);
+  switchStep('read');
 }
 
-// --- TWO-STEP PRACTICE WORKFLOW CONTROLS ---
+// --- WORKSPACE PRACTICE WORKFLOW CONTROLS ---
 
-// Switch between 4 workspace steps
-function switchStep(stepNum) {
+function hasVocabStep() {
+  return !!(currentTopic && currentTopic.details && currentTopic.details.vocab_step);
+}
+
+function renderWorkspaceStepHeader() {
+  const container = document.getElementById('workspace-step-header-tabs');
+  if (!container) return;
+  
+  if (hasVocabStep()) {
+    container.innerHTML = `
+      <div class="step-tab active" id="ws-tab-read" onclick="switchStep('read')">
+        <span class="step-num">1</span>
+        <span class="step-label">BƯỚC 01: ĐỌC HIỂU ĐỀ</span>
+      </div>
+      <div class="step-tab" id="ws-tab-vocab" onclick="switchStep('vocab')">
+        <span class="step-num">2</span>
+        <span class="step-label">BƯỚC 02: NẠP TỪ VỰNG</span>
+      </div>
+      <div class="step-tab" id="ws-tab-trans" onclick="switchStep('trans')">
+        <span class="step-num">3</span>
+        <span class="step-label">BƯỚC 03: TẬP DIỄN ĐẠT QUAN ĐIỂM</span>
+      </div>
+      <div class="step-tab" id="ws-tab-write" onclick="switchStep('write')">
+        <span class="step-num">4</span>
+        <span class="step-label">BƯỚC 04: VIẾT BÀI LUẬN</span>
+      </div>
+      <div class="step-tab" id="ws-tab-model" onclick="switchStep('model')">
+        <span class="step-num">5</span>
+        <span class="step-label">BƯỚC 05: THAM KHẢO BÀI LUẬN MẪU</span>
+      </div>
+    `;
+  } else {
+    container.innerHTML = `
+      <div class="step-tab active" id="ws-tab-read" onclick="switchStep('read')">
+        <span class="step-num">1</span>
+        <span class="step-label">BƯỚC 01: ĐỌC HIỂU ĐỀ</span>
+      </div>
+      <div class="step-tab" id="ws-tab-trans" onclick="switchStep('trans')">
+        <span class="step-num">2</span>
+        <span class="step-label">BƯỚC 02: TẬP DIỄN ĐẠT QUAN ĐIỂM</span>
+      </div>
+      <div class="step-tab" id="ws-tab-write" onclick="switchStep('write')">
+        <span class="step-num">3</span>
+        <span class="step-label">BƯỚC 03: VIẾT BÀI LUẬN</span>
+      </div>
+      <div class="step-tab" id="ws-tab-model" onclick="switchStep('model')">
+        <span class="step-num">4</span>
+        <span class="step-label">BƯỚC 04: THAM KHẢO BÀI LUẬN MẪU</span>
+      </div>
+    `;
+  }
+}
+
+let currentStepKey = 'read';
+
+// Switch between workspace steps (supports both step numbers and step keys)
+function switchStep(stepTarget) {
   if (!currentTopic) return;
+  const withVocab = hasVocabStep();
+  
+  let targetKey = 'read';
+  if (typeof stepTarget === 'number') {
+    if (stepTarget === 1) targetKey = 'read';
+    else if (stepTarget === 2) targetKey = withVocab ? 'vocab' : 'trans';
+    else if (stepTarget === 3) targetKey = withVocab ? 'trans' : 'write';
+    else if (stepTarget === 4) targetKey = withVocab ? 'write' : 'model';
+    else if (stepTarget === 5) targetKey = 'model';
+  } else if (typeof stepTarget === 'string') {
+    targetKey = stepTarget;
+  }
+  
+  currentStepKey = targetKey;
   
   // Update wizard tabs active state
-  document.getElementById('ws-step1-tab').classList.remove('active');
-  document.getElementById('ws-step2-tab').classList.remove('active');
-  document.getElementById('ws-step3-tab').classList.remove('active');
-  document.getElementById('ws-step4-tab').classList.remove('active');
-  document.getElementById(`ws-step${stepNum}-tab`).classList.add('active');
+  document.querySelectorAll('#workspace-step-header-tabs .step-tab').forEach(tab => tab.classList.remove('active'));
+  const activeTab = document.getElementById(`ws-tab-${targetKey}`);
+  if (activeTab) activeTab.classList.add('active');
   
-  // Update step container visibility
-  document.getElementById('workspace-step1-container').classList.remove('active');
-  document.getElementById('workspace-step2-container').classList.remove('active');
-  document.getElementById('workspace-step3-container').classList.remove('active');
-  document.getElementById('workspace-step4-container').classList.remove('active');
-  document.getElementById(`workspace-step${stepNum}-container`).classList.add('active');
+  // Containers
+  const cRead = document.getElementById('workspace-step1-container');
+  const cVocab = document.getElementById('workspace-vocab-container');
+  const cTrans = document.getElementById('workspace-step2-container');
+  const cWrite = document.getElementById('workspace-step3-container');
+  const cModel = document.getElementById('workspace-step4-container');
   
-  currentStep = stepNum;
+  if (cRead) { cRead.classList.remove('active'); cRead.style.display = 'none'; }
+  if (cVocab) { cVocab.classList.remove('active'); cVocab.style.display = 'none'; }
+  if (cTrans) { cTrans.classList.remove('active'); cTrans.style.display = 'none'; }
+  if (cWrite) { cWrite.classList.remove('active'); cWrite.style.display = 'none'; }
+  if (cModel) { cModel.classList.remove('active'); cModel.style.display = 'none'; }
   
-  if (stepNum === 1) {
+  if (targetKey === 'read') {
+    if (cRead) { cRead.classList.add('active'); cRead.style.display = 'block'; }
     renderStep1Reading();
-  } else if (stepNum === 2) {
+  } else if (targetKey === 'vocab') {
+    if (cVocab) { cVocab.classList.add('active'); cVocab.style.display = 'block'; }
+    renderStepVocab();
+  } else if (targetKey === 'trans') {
+    if (cTrans) { cTrans.classList.add('active'); cTrans.style.display = 'block'; }
     renderTranslationExercises();
-  } else if (stepNum === 3) {
+  } else if (targetKey === 'write') {
+    if (cWrite) { cWrite.classList.add('active'); cWrite.style.display = 'block'; }
     if (hasSubmitted) {
       document.getElementById('step3-editor-view').style.display = 'none';
       document.getElementById('step3-evaluation-view').style.display = 'flex';
@@ -764,20 +844,191 @@ function switchStep(stepNum) {
     } else {
       document.getElementById('step3-editor-view').style.display = 'flex';
       document.getElementById('step3-evaluation-view').style.display = 'none';
-      // If entering Step 3: start or resume timer
       startTimer();
-      // Auto focus textarea
       document.getElementById('essay-textarea').focus();
       showToast("📝 Bạn đã chuyển sang viết bài luận. Thời gian làm bài bắt đầu!", "info");
     }
-  } else if (stepNum === 4) {
+  } else if (targetKey === 'model') {
+    if (cModel) { cModel.classList.add('active'); cModel.style.display = 'block'; }
     renderStep4ModelEssay();
   }
   
-  if (stepNum !== 3) {
-    // If leaving Step 3: pause timer
+  if (targetKey !== 'write') {
     stopTimer();
   }
+}
+
+// Vocabulary Booster Step Logic
+let currentVocabFilter = 'all';
+let currentVocabSearch = '';
+
+function filterVocabCategory(catId) {
+  currentVocabFilter = catId;
+  renderStepVocab();
+}
+
+function handleVocabSearch(query) {
+  currentVocabSearch = (query || '').trim().toLowerCase();
+  renderStepVocab();
+}
+
+function renderStepVocab() {
+  const container = document.getElementById('ws-vocab-step-content');
+  if (!container) return;
+  const topic = currentTopic;
+  if (!topic || !topic.details || !topic.details.vocab_step) {
+    container.innerHTML = '<div class="empty-state">Chủ đề này chưa có dữ liệu Nạp từ vựng.</div>';
+    return;
+  }
+  
+  const vData = topic.details.vocab_step;
+  
+  let totalWordCount = 0;
+  if (vData.categories) {
+    vData.categories.forEach(c => totalWordCount += (c.words ? c.words.length : 0));
+  }
+  
+  const search = currentVocabSearch;
+  const activeCat = currentVocabFilter;
+  
+  let categoriesHtml = '';
+  
+  if (vData.categories) {
+    vData.categories.forEach(cat => {
+      if (activeCat !== 'all' && activeCat !== 'paraphrases' && activeCat !== cat.id) return;
+      if (activeCat === 'paraphrases') return;
+      
+      const matchedWords = (cat.words || []).filter(w => {
+        if (!search) return true;
+        return (
+          (w.en && w.en.toLowerCase().includes(search)) ||
+          (w.vi && w.vi.toLowerCase().includes(search)) ||
+          (w.example_en && w.example_en.toLowerCase().includes(search)) ||
+          (w.example_vi && w.example_vi.toLowerCase().includes(search))
+        );
+      });
+      
+      if (matchedWords.length === 0) return;
+      
+      const wordsHtml = matchedWords.map(w => `
+        <div class="vocab-card">
+          <div class="vocab-card-top">
+            <span class="vocab-card-en">${w.en}</span>
+            <div class="vocab-card-meta">
+              ${w.pos ? `<span class="vocab-pos-tag">${w.pos}</span>` : ''}
+              ${w.level ? `<span class="vocab-level-badge ${w.level.toLowerCase()}">${w.level}</span>` : ''}
+            </div>
+          </div>
+          <div class="vocab-card-vi">👉 ${w.vi}</div>
+          ${w.example_en ? `
+            <div class="vocab-example-box">
+              <div class="vocab-example-en"><strong>VD:</strong> ${w.example_en}</div>
+              ${w.example_vi ? `<div class="vocab-example-vi">(${w.example_vi})</div>` : ''}
+            </div>
+          ` : ''}
+        </div>
+      `).join('');
+      
+      categoriesHtml += `
+        <div class="vocab-group-section">
+          <div class="vocab-group-header">
+            <span>${cat.icon || '📌'}</span>
+            <span>${cat.name} (${matchedWords.length})</span>
+          </div>
+          <div class="vocab-grid">
+            ${wordsHtml}
+          </div>
+        </div>
+      `;
+    });
+  }
+  
+  // Paraphrase section
+  let paraphraseSectionHtml = '';
+  if (vData.paraphrases && vData.paraphrases.length > 0 && (activeCat === 'all' || activeCat === 'paraphrases')) {
+    const matchedParaphrases = vData.paraphrases.filter(p => {
+      if (!search) return true;
+      const matchOrig = p.original && p.original.toLowerCase().includes(search);
+      const matchSub = p.paraphrases && p.paraphrases.some(sp => 
+        (sp.en && sp.en.toLowerCase().includes(search)) || (sp.vi && sp.vi.toLowerCase().includes(search))
+      );
+      return matchOrig || matchSub;
+    });
+    
+    if (matchedParaphrases.length > 0) {
+      const pCardsHtml = matchedParaphrases.map(p => `
+        <div class="paraphrase-card">
+          <div class="paraphrase-card-header">
+            <span class="paraphrase-orig">Từ gốc: <strong>${p.original}</strong></span>
+            <span class="vocab-pos-tag">Paraphrase</span>
+          </div>
+          <div class="paraphrase-items-list">
+            ${p.paraphrases.map(sp => `
+              <div class="paraphrase-item">
+                <strong>${sp.en}</strong>
+                <span>${sp.vi}</span>
+              </div>
+            `).join('')}
+          </div>
+          ${p.usage ? `<div class="paraphrase-usage-tip">💡 <strong>Mẹo dùng:</strong> ${p.usage}</div>` : ''}
+        </div>
+      `).join('');
+      
+      paraphraseSectionHtml = `
+        <div class="vocab-group-section" style="margin-top: 1rem;">
+          <div class="vocab-group-header">
+            <span>🔄</span>
+            <span>Cặp từ đồng nghĩa & Diễn đạt tương đương (Paraphrase)</span>
+          </div>
+          <div class="paraphrase-grid">
+            ${pCardsHtml}
+          </div>
+        </div>
+      `;
+    }
+  }
+  
+  // Build category filter pills
+  const pills = [
+    { id: 'all', label: `Tất cả (${totalWordCount})` },
+    ...(vData.categories || []).map(c => ({ id: c.id, label: `${c.icon || ''} ${c.name} (${c.words ? c.words.length : 0})` })),
+    { id: 'paraphrases', label: `🔄 Paraphrase & Đồng nghĩa (${vData.paraphrases ? vData.paraphrases.length : 0})` }
+  ];
+  
+  const pillsHtml = pills.map(p => `
+    <button class="vocab-filter-pill ${activeCat === p.id ? 'active' : ''}" onclick="filterVocabCategory('${p.id}')">
+      ${p.label}
+    </button>
+  `).join('');
+  
+  container.innerHTML = `
+    <div class="vocab-hero-banner">
+      <span class="vocab-hero-badge">PHÒNG LUYỆN VIẾT VSTEP • BƯỚC 02: NẠP TỪ VỰNG</span>
+      <h2>${vData.theme}</h2>
+      <p>${vData.overview}</p>
+    </div>
+    
+    <div class="vocab-controls-bar">
+      <div class="vocab-filter-pills">
+        ${pillsHtml}
+      </div>
+      <div class="vocab-search-box">
+        <svg class="vocab-search-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+        </svg>
+        <input type="text" class="vocab-search-input" placeholder="Tìm nhanh từ vựng hoặc nghĩa..." value="${search}" oninput="handleVocabSearch(this.value)">
+      </div>
+    </div>
+    
+    ${categoriesHtml || '<div class="empty-state" style="padding: 2rem;">Không tìm thấy từ vựng phù hợp với từ khóa tìm kiếm.</div>'}
+    ${paraphraseSectionHtml}
+    
+    <div style="text-align: right; margin: 1.5rem 0 2.5rem 0;">
+      <button class="btn btn-primary" style="padding: 0.85rem 2.25rem; font-size: 1.05rem; box-shadow: var(--shadow-glow); font-weight: 700;" onclick="switchStep('trans')">
+        TIẾP THEO: BƯỚC 03 - TẬP DIỄN ĐẠT QUAN ĐIỂM →
+      </button>
+    </div>
+  `;
 }
 
 // Switch between B1 and B2 level outlines for Step 1 Translation Exercises
@@ -1026,7 +1277,7 @@ function renderTranslationExercises() {
   footerDiv.style.justifyContent = 'center';
   footerDiv.style.padding = '1rem 0 2rem 0';
   footerDiv.innerHTML = `
-    <button class="btn btn-primary" style="padding: 0.75rem 2rem; font-size: 1rem; box-shadow: var(--shadow-glow);" onclick="switchStep(3)">
+    <button class="btn btn-primary" style="padding: 0.75rem 2rem; font-size: 1rem; box-shadow: var(--shadow-glow);" onclick="switchStep('write')">
       HOÀN THÀNH DỊCH Ý TƯỞNG → CHUYỂN SANG VIẾT BÀI LUẬN
     </button>
   `;
@@ -4483,7 +4734,7 @@ function renderStep3VstepEvaluation(data) {
           <path stroke-linecap="round" stroke-linejoin="round" d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L10.582 16.07a4.5 4.5 0 01-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 011.13-1.897l8.932-8.931zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0115.75 21H5.25A2.25 2.25 0 013 18.75V8.25A2.25 2.25 0 015.25 6H10" />
         </svg>Viết lại bài
       </button>
-      <button class="btn btn-primary" style="padding: 0.65rem 1.5rem;" onclick="switchStep(4)">
+      <button class="btn btn-primary" style="padding: 0.65rem 1.5rem;" onclick="switchStep('model')">
         Xem bài mẫu B1/B2 →
       </button>
     </div>
@@ -4704,8 +4955,8 @@ function reviewSubmission(submissionId) {
   // Set submission flag to true to avoid timer/toast trigger in switchStep
   hasSubmitted = true;
   
-  // Switch to Step 3 to show feedback
-  switchStep(3);
+  // Switch to Step writing to show feedback
+  switchStep('write');
   
   // Re-run evaluation to populate feedback details
   submitEssay(); 
@@ -5306,8 +5557,8 @@ function renderStep1Reading() {
     </div>
     
     <div style="text-align: right; margin: 1rem 0 2rem 0;">
-      <button class="btn btn-primary" style="padding: 0.75rem 2rem; font-size: 1rem; box-shadow: var(--shadow-glow);" onclick="switchStep(2)">
-        TIẾP THEO: LUYỆN DIỄN ĐẠT Ý TƯỞNG CỤ THỂ →
+      <button class="btn btn-primary" style="padding: 0.75rem 2rem; font-size: 1rem; box-shadow: var(--shadow-glow);" onclick="${hasVocabStep() ? "switchStep('vocab')" : "switchStep('trans')"}">
+        ${hasVocabStep() ? "TIẾP THEO: BƯỚC 02 - NẠP TỪ VỰNG CHỦ ĐỀ →" : "TIẾP THEO: LUYỆN DIỄN ĐẠT Ý TƯỞNG CỤ THỂ →"}
       </button>
     </div>
   `;

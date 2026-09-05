@@ -22909,7 +22909,331 @@ const ESSAY_DATA = [
           "sample_b1": "In recent years, <strong>climate change</strong> has become a growing concern in many parts of the world. This issue affects both individuals and society in different ways. <strong>This essay will discuss the main causes of this problem and its possible effects.</strong>\n\n<strong>This issue can be caused by several factors.</strong> One major cause is that <strong><em>people rely too much on fossil fuels.</em></strong>. Burning coal, oil, and natural gas to produce energy creates a large amount of carbon dioxide. Another contributing factor is that <strong><em>deforestation reduces the number of trees around the world.</em></strong>. Fewer trees absorb less carbon dioxide. A further reason is that <strong><em>using private vehicles too much increases air pollution.</em></strong>. Cars and motorbikes produce a large amount of carbon dioxide.\n\n<strong>This problem can lead to several negative effects.</strong> One serious impact is that <strong><em>climate change makes the Earth become hotter.</em></strong>. Many places are experiencing longer heatwaves. Another consequence is that <strong><em>climate change causes natural disasters to happen more often.</em></strong>. Floods, storms, and droughts occur in more countries. A further problem is that <strong><em>climate change has many negative effects on people's lives.</em></strong>. Many people lose their homes or face difficulties in farming.\n\nIn conclusion, <strong>climate change</strong> is caused by several factors and can lead to many negative effects. By understanding the causes and paying more attention to this issue, the situation can be improved in the future. These actions can help create a better environment for both individuals and society.",
           "translation_b1": "Trong những năm gần đây, <strong>biến đổi khí hậu</strong> đã trở thành một mối quan tâm ngày càng tăng ở nhiều nơi trên thế giới. Vấn đề này ảnh hưởng đến cả cá nhân và xã hội theo những cách khác nhau. <strong>Bài tiểu luận này sẽ thảo luận về những nguyên nhân chính của vấn đề này và những tác động có thể có của nó.</strong>\n\n<strong>Vấn đề này có thể do một số yếu tố gây ra.</strong> Một nguyên nhân chính là <strong><em>con người phụ thuộc quá nhiều vào nhiên liệu hóa thạch.</em></strong>. Việc đốt than, dầu và khí đốt để sản xuất năng lượng tạo ra một lượng lớn khí carbon dioxide. Một yếu tố góp phần khác là <strong><em>việc chặt phá rừng làm giảm số lượng cây xanh trên toàn thế giới.</em></strong>. Ít cây hơn sẽ hấp thụ ít khí carbon dioxide hơn. Một lý do nữa là <strong><em>việc sử dụng phương tiện cá nhân quá nhiều làm gia tăng ô nhiễm không khí.</em></strong>. Ô tô và xe máy tạo ra một lượng lớn khí carbon dioxide.\n\n<strong>Vấn đề này có thể dẫn đến một số tác động tiêu cực.</strong> Một tác động nghiêm trọng là <strong><em>biến đổi khí hậu khiến Trái Đất ngày càng nóng lên.</em></strong>. Nhiều nơi trên thế giới đang trải qua các đợt nắng nóng kéo dài. Một hậu quả khác là <strong><em>biến đổi khí hậu làm cho thiên tai xảy ra thường xuyên hơn.</em></strong>. Lũ lụt, bão và hạn hán xảy ra ở nhiều quốc gia hơn. Một vấn đề nữa là <strong><em>biến đổi khí hậu gây ra nhiều ảnh hưởng tiêu cực đến cuộc sống của con người.</em></strong>. Nhiều người mất nhà cửa hoặc gặp khó khăn trong sản xuất nông nghiệp.\n\nTóm lại, <strong>biến đổi khí hậu</strong> do một số yếu tố gây ra và có thể dẫn đến nhiều tác động tiêu cực. Bằng cách hiểu các nguyên nhân và chú ý nhiều hơn đến vấn đề này, tình hình có thể được cải thiện trong tương lai. Những hành động này có thể giúp tạo ra một môi trường tốt hơn cho cả cá nhân và xã hội.",
           "sample_b2": "In recent years, <strong>climate change</strong> has become a growing concern in many parts of the world. This issue has created several challenges for both individuals and society. <strong>This essay will examine the main causes of this problem and discuss its possible effects.</strong>\n\n<strong>This issue can be attributed to several key factors.</strong> One major cause is that <strong><em>human activities release too many greenhouse gases.</em></strong>. Burning fossil fuels releases large amounts of carbon dioxide. This strengthens the greenhouse effect and raises global temperatures. Another contributing factor is that <strong><em>deforestation reduces the Earth's ability to absorb carbon dioxide.</em></strong>. Many forests are cut down for agriculture and construction. This increases the amount of greenhouse gases in the atmosphere. A further reason is that <strong><em>the excessive use of private vehicles increases carbon emissions.</em></strong>. Cars and motorbikes produce a large amount of carbon dioxide every day. This pollutes the air and contributes to climate change.\n\n<strong>This problem can lead to several significant consequences.</strong> One negative effect is that <strong><em>global temperatures continue to rise.</em></strong>. Heatwaves become more frequent and last longer. This affects people's health and daily lives. Another serious impact is that <strong><em>natural disasters become more severe.</em></strong>. Floods, storms, and droughts occur more intensely. This causes serious damage to people and property. A further consequence is that <strong><em>climate change threatens sustainable development.</em></strong>. It affects agriculture, water resources, and ecosystems. This reduces people's quality of life in the future.\n\nIn conclusion, <strong>climate change</strong> is caused by several factors and leads to a range of negative effects on individuals and society. Addressing these underlying causes is essential to improve the situation in the future. With greater attention, this issue can be better managed over time.",
-          "translation_b2": "Trong những năm gần đây, <strong>biến đổi khí hậu</strong> đã trở thành một mối quan tâm ngày càng tăng ở nhiều nơi trên thế giới. Vấn đề này đã tạo ra một số thách thức cho cả cá nhân và xã hội. <strong>Bài tiểu luận này sẽ xem xét những nguyên nhân chính của vấn đề này và thảo luận về những tác động có thể có của nó.</strong>\n\n<strong>Vấn đề này có thể bắt nguồn từ một số yếu tố chính.</strong> Một nguyên nhân chính là <strong><em>các hoạt động của con người thải ra quá nhiều khí nhà kính.</em></strong>. Việc đốt nhiên liệu hóa thạch tạo ra lượng lớn khí carbon dioxide. Điều này làm tăng hiệu ứng nhà kính và khiến nhiệt độ toàn cầu tăng lên. Một yếu tố góp phần khác là <strong><em>việc phá rừng làm giảm khả năng hấp thụ khí carbon dioxide của Trái Đất.</em></strong>. Nhiều khu rừng bị chặt phá để phục vụ nông nghiệp và xây dựng. Điều này làm tăng lượng khí nhà kính trong khí quyển. Một lý do nữa là <strong><em>việc sử dụng phương tiện cá nhân quá nhiều làm tăng lượng khí thải carbon.</em></strong>. Ô tô và xe máy thải ra một lượng lớn khí carbon dioxide mỗi ngày. Điều này làm ô nhiễm không khí và góp phần vào biến đổi khí hậu.\n\n<strong>Vấn đề này có thể dẫn đến một số hậu quả đáng kể.</strong> Một tác động tiêu cực là <strong><em>nhiệt độ toàn cầu tiếp tục tăng.</em></strong>. Các đợt nắng nóng xảy ra thường xuyên và kéo dài hơn. Điều này ảnh hưởng đến sức khỏe và cuộc sống của nhiều người. Một ảnh hưởng nghiêm trọng khác là <strong><em>thiên tai trở nên nghiêm trọng hơn.</em></strong>. Lũ lụt, bão và hạn hán xảy ra với cường độ mạnh hơn. Điều này gây thiệt hại lớn về người và tài sản. Một hậu quả nữa là <strong><em>biến đổi khí hậu đe dọa sự phát triển bền vững.</em></strong>. Nó ảnh hưởng đến nông nghiệp, nguồn nước và hệ sinh thái. Điều này làm giảm chất lượng cuộc sống trong tương lai.\n\nTóm lại, <strong>biến đổi khí hậu</strong> do một số yếu tố gây ra và dẫn đến một loạt các tác động tiêu cực đối với cá nhân và xã hội. Việc giải quyết những nguyên nhân cơ bản này là cần thiết để cải thiện tình hình trong tương lai. Với sự chú ý lớn hơn, vấn đề này có thể được quản lý tốt hơn theo thời gian."
+          "translation_b2": "Trong những năm gần đây, <strong>biến đổi khí hậu</strong> đã trở thành một mối quan tâm ngày càng tăng ở nhiều nơi trên thế giới. Vấn đề này đã tạo ra một số thách thức cho cả cá nhân và xã hội. <strong>Bài tiểu luận này sẽ xem xét những nguyên nhân chính của vấn đề này và thảo luận về những tác động có thể có của nó.</strong>\n\n<strong>Vấn đề này có thể bắt nguồn từ một số yếu tố chính.</strong> Một nguyên nhân chính là <strong><em>các hoạt động của con người thải ra quá nhiều khí nhà kính.</em></strong>. Việc đốt nhiên liệu hóa thạch tạo ra lượng lớn khí carbon dioxide. Điều này làm tăng hiệu ứng nhà kính và khiến nhiệt độ toàn cầu tăng lên. Một yếu tố góp phần khác là <strong><em>việc phá rừng làm giảm khả năng hấp thụ khí carbon dioxide của Trái Đất.</em></strong>. Nhiều khu rừng bị chặt phá để phục vụ nông nghiệp và xây dựng. Điều này làm tăng lượng khí nhà kính trong khí quyển. Một lý do nữa là <strong><em>việc sử dụng phương tiện cá nhân quá nhiều làm tăng lượng khí thải carbon.</em></strong>. Ô tô và xe máy thải ra một lượng lớn khí carbon dioxide mỗi ngày. Điều này làm ô nhiễm không khí và góp phần vào biến đổi khí hậu.\n\n<strong>Vấn đề này có thể dẫn đến một số hậu quả đáng kể.</strong> Một tác động tiêu cực là <strong><em>nhiệt độ toàn cầu tiếp tục tăng.</em></strong>. Các đợt nắng nóng xảy ra thường xuyên và kéo dài hơn. Điều này ảnh hưởng đến sức khỏe và cuộc sống của nhiều người. Một ảnh hưởng nghiêm trọng khác là <strong><em>thiên tai trở nên nghiêm trọng hơn.</em></strong>. Lũ lụt, bão và hạn hán xảy ra với cường độ mạnh hơn. Điều này gây thiệt hại lớn về người và tài sản. Một hậu quả nữa là <strong><em>biến đổi khí hậu đe dọa sự phát triển bền vững.</em></strong>. Nó ảnh hưởng đến nông nghiệp, nguồn nước và hệ sinh thái. Điều này làm giảm chất lượng cuộc sống trong tương lai.\n\nTóm lại, <strong>biến đổi khí hậu</strong> do một số yếu tố gây ra và dẫn đến một loạt các tác động tiêu cực đối với cá nhân và xã hội. Việc giải quyết những nguyên nhân cơ bản này là cần thiết để cải thiện tình hình trong tương lai. Với sự chú ý lớn hơn, vấn đề này có thể được quản lý tốt hơn theo thời gian.",
+          "vocab_step": {
+            "theme": "Biến đổi khí hậu (Climate Change)",
+            "overview": "Hệ thống từ vựng trọng tâm, cụm từ học thuật (Collocations), ví dụ ứng dụng và bảng Paraphrase cao cấp dành riêng cho đề bài Biến đổi khí hậu.",
+            "categories": [
+              {
+                "id": "concepts",
+                "name": "Khái niệm & Hiện tượng cốt lõi",
+                "icon": "🌍",
+                "words": [
+                  {
+                    "en": "climate change",
+                    "pos": "n",
+                    "level": "B1",
+                    "vi": "biến đổi khí hậu",
+                    "example_en": "Climate change is one of the most pressing challenges of our time.",
+                    "example_vi": "Biến đổi khí hậu là một trong những thách thức cấp bách nhất của thời đại chúng ta."
+                  },
+                  {
+                    "en": "global warming",
+                    "pos": "n",
+                    "level": "B1",
+                    "vi": "sự nóng lên toàn cầu",
+                    "example_en": "Global warming leads to rising sea levels and extreme weather.",
+                    "example_vi": "Sự nóng lên toàn cầu dẫn đến mực nước biển dâng cao và thời tiết cực đoan."
+                  },
+                  {
+                    "en": "greenhouse effect",
+                    "pos": "n",
+                    "level": "B1",
+                    "vi": "hiệu ứng nhà kính",
+                    "example_en": "Gases trapped in the atmosphere intensify the greenhouse effect.",
+                    "example_vi": "Các loại khí bị giữ lại trong khí quyển làm gia tăng hiệu ứng nhà kính."
+                  },
+                  {
+                    "en": "greenhouse gases",
+                    "pos": "n",
+                    "level": "B2",
+                    "vi": "khí nhà kính",
+                    "example_en": "Human activities release vast amounts of greenhouse gases into the air.",
+                    "example_vi": "Các hoạt động của con người thải ra lượng lớn khí nhà kính vào không khí."
+                  },
+                  {
+                    "en": "carbon emissions",
+                    "pos": "n",
+                    "level": "B2",
+                    "vi": "lượng khí thải carbon",
+                    "example_en": "Countries must collaborate to slash industrial carbon emissions.",
+                    "example_vi": "Các quốc gia phải hợp tác để cắt giảm lượng khí thải carbon từ công nghiệp."
+                  },
+                  {
+                    "en": "extreme weather patterns",
+                    "pos": "n",
+                    "level": "B2",
+                    "vi": "các hình thái thời tiết cực đoan",
+                    "example_en": "Rising temperatures trigger unpredictable and extreme weather patterns.",
+                    "example_vi": "Nhiệt độ tăng cao gây ra các hình thái thời tiết khó lường và cực đoan."
+                  }
+                ]
+              },
+              {
+                "id": "causes",
+                "name": "Nguyên nhân gây biến đổi khí hậu",
+                "icon": "🏭",
+                "words": [
+                  {
+                    "en": "rely on fossil fuels",
+                    "pos": "v phr",
+                    "level": "B1",
+                    "vi": "phụ thuộc vào nhiên liệu hóa thạch",
+                    "example_en": "Many nations still heavily rely on fossil fuels for electricity generation.",
+                    "example_vi": "Nhiều quốc gia vẫn phụ thuộc nhiều vào nhiên liệu hóa thạch để phát điện."
+                  },
+                  {
+                    "en": "burn coal, oil, and gas",
+                    "pos": "v phr",
+                    "level": "B1",
+                    "vi": "đốt than, dầu và khí đốt",
+                    "example_en": "Burning coal, oil, and gas generates significant carbon dioxide.",
+                    "example_vi": "Việc đốt than, dầu và khí đốt tạo ra một lượng đáng kể khí carbon dioxide."
+                  },
+                  {
+                    "en": "massive deforestation",
+                    "pos": "n",
+                    "level": "B2",
+                    "vi": "nạn phá rừng trên diện rộng",
+                    "example_en": "Massive deforestation destroys the planet's natural carbon sinks.",
+                    "example_vi": "Nạn phá rừng trên diện rộng phá hủy các bể hấp thụ carbon tự nhiên của hành tinh."
+                  },
+                  {
+                    "en": "absorb carbon dioxide",
+                    "pos": "v phr",
+                    "level": "B1",
+                    "vi": "hấp thụ khí carbon dioxide",
+                    "example_en": "Healthy forests absorb carbon dioxide and release oxygen.",
+                    "example_vi": "Những khu rừng khỏe mạnh hấp thụ khí carbon dioxide và giải phóng oxy."
+                  },
+                  {
+                    "en": "excessive use of private vehicles",
+                    "pos": "n phr",
+                    "level": "B2",
+                    "vi": "việc sử dụng phương tiện cá nhân quá mức",
+                    "example_en": "The excessive use of private vehicles exacerbates urban air pollution.",
+                    "example_vi": "Việc sử dụng phương tiện cá nhân quá mức làm trầm trọng thêm ô nhiễm không khí đô thị."
+                  },
+                  {
+                    "en": "produce energy",
+                    "pos": "v phr",
+                    "level": "B1",
+                    "vi": "sản xuất năng lượng",
+                    "example_en": "Power plants burn combustible materials to produce energy.",
+                    "example_vi": "Các nhà máy điện đốt nhiên liệu để sản xuất năng lượng."
+                  }
+                ]
+              },
+              {
+                "id": "effects",
+                "name": "Tác động & Hậu quả nghiêm trọng",
+                "icon": "⚠️",
+                "words": [
+                  {
+                    "en": "frequent and prolonged heatwaves",
+                    "pos": "n phr",
+                    "level": "B2",
+                    "vi": "các đợt nắng nóng thường xuyên và kéo dài",
+                    "example_en": "Prolonged heatwaves threaten elderly citizens and outdoor workers.",
+                    "example_vi": "Các đợt nắng nóng kéo dài đe dọa người cao tuổi và những người làm việc ngoài trời."
+                  },
+                  {
+                    "en": "natural disasters",
+                    "pos": "n",
+                    "level": "B1",
+                    "vi": "thiên tai",
+                    "example_en": "Climate change multiplies the intensity of natural disasters.",
+                    "example_vi": "Biến đổi khí hậu làm tăng cường độ của các hiện tượng thiên tai."
+                  },
+                  {
+                    "en": "floods, storms, and droughts",
+                    "pos": "n",
+                    "level": "B1",
+                    "vi": "lũ lụt, bão và hạn hán",
+                    "example_en": "Floods, storms, and droughts cause widespread devastation in rural communities.",
+                    "example_vi": "Lũ lụt, bão và hạn hán gây ra tàn phá trên diện rộng ở các cộng đồng nông thôn."
+                  },
+                  {
+                    "en": "lose their homes",
+                    "pos": "v phr",
+                    "level": "B1",
+                    "vi": "mất nhà cửa",
+                    "example_en": "Thousands of residents lose their homes during catastrophic typhoons.",
+                    "example_vi": "Hàng nghìn người dân bị mất nhà cửa trong những trận bão thảm khốc."
+                  },
+                  {
+                    "en": "farming / agricultural production",
+                    "pos": "n",
+                    "level": "B1",
+                    "vi": "sản xuất nông nghiệp",
+                    "example_en": "Severe droughts directly impair agricultural production and crop yields.",
+                    "example_vi": "Hạn hán nghiêm trọng làm suy giảm trực tiếp sản xuất nông nghiệp và năng suất mùa màng."
+                  },
+                  {
+                    "en": "cause serious damage to people and property",
+                    "pos": "v phr",
+                    "level": "B2",
+                    "vi": "gây thiệt hại nghiêm trọng về người và tài sản",
+                    "example_en": "Coastal storm surges cause serious damage to people and property.",
+                    "example_vi": "Triều cường ven biển gây thiệt hại nghiêm trọng về người và tài sản."
+                  },
+                  {
+                    "en": "threaten sustainable development",
+                    "pos": "v phr",
+                    "level": "B2",
+                    "vi": "đe dọa sự phát triển bền vững",
+                    "example_en": "Unchecked climate crises threaten sustainable development across developing countries.",
+                    "example_vi": "Khủng hoảng khí hậu không được kiểm soát đe dọa sự phát triển bền vững ở các quốc gia đang phát triển."
+                  },
+                  {
+                    "en": "reduce the quality of life",
+                    "pos": "v phr",
+                    "level": "B2",
+                    "vi": "làm giảm chất lượng cuộc sống",
+                    "example_en": "Environmental degradation will inevitably reduce the quality of life for future generations.",
+                    "example_vi": "Suy thoái môi trường chắc chắn sẽ làm giảm chất lượng cuộc sống của các thế hệ tương lai."
+                  }
+                ]
+              },
+              {
+                "id": "solutions",
+                "name": "Giải pháp & Hành động khắc phục",
+                "icon": "🌱",
+                "words": [
+                  {
+                    "en": "transition to renewable energy",
+                    "pos": "v phr",
+                    "level": "B2",
+                    "vi": "chuyển dịch sang năng lượng tái tạo",
+                    "example_en": "Governments should accelerate the transition to renewable energy sources.",
+                    "example_vi": "Chính phủ cần đẩy nhanh quá trình chuyển dịch sang các nguồn năng lượng tái tạo."
+                  },
+                  {
+                    "en": "solar and wind energy",
+                    "pos": "n",
+                    "level": "B1",
+                    "vi": "năng lượng mặt trời và gió",
+                    "example_en": "Investing in solar and wind energy cuts down dependence on coal.",
+                    "example_vi": "Đầu tư vào năng lượng mặt trời và gió giúp giảm bớt sự phụ thuộc vào than đá."
+                  },
+                  {
+                    "en": "promote public transport",
+                    "pos": "v phr",
+                    "level": "B1",
+                    "vi": "khuyến khích giao thông công cộng",
+                    "example_en": "Promoting public transport reduces the volume of exhaust fumes on roads.",
+                    "example_vi": "Khuyến khích giao thông công cộng làm giảm lượng khói thải trên đường sá."
+                  },
+                  {
+                    "en": "afforestation and reforestation",
+                    "pos": "n",
+                    "level": "B2",
+                    "vi": "trồng rừng và tái tạo rừng",
+                    "example_en": "Afforestation campaigns help restore degraded landscapes.",
+                    "example_vi": "Các chiến dịch trồng rừng giúp phục hồi các cảnh quan bị suy thoái."
+                  },
+                  {
+                    "en": "raise environmental awareness",
+                    "pos": "v phr",
+                    "level": "B1",
+                    "vi": "nâng cao nhận thức bảo vệ môi trường",
+                    "example_en": "Schools play a vital role in raising environmental awareness among youth.",
+                    "example_vi": "Nhà trường đóng vai trò thiết yếu trong việc nâng cao nhận thức bảo vệ môi trường ở giới trẻ."
+                  }
+                ]
+              }
+            ],
+            "paraphrases": [
+              {
+                "original": "Climate change",
+                "paraphrases": [
+                  {
+                    "en": "Global climate disruption",
+                    "vi": "sự xáo trộn khí hậu toàn cầu"
+                  },
+                  {
+                    "en": "The climate crisis",
+                    "vi": "cuộc khủng hoảng khí hậu"
+                  },
+                  {
+                    "en": "Planetary warming",
+                    "vi": "sự ấm lên của hành tinh"
+                  },
+                  {
+                    "en": "Ecological degradation",
+                    "vi": "sự suy thoái sinh thái"
+                  }
+                ],
+                "usage": "Thay vì lặp lại 'climate change' quá nhiều lần, có thể dùng 'the ongoing climate crisis' hoặc 'planetary warming'."
+              },
+              {
+                "original": "Cause / Lead to",
+                "paraphrases": [
+                  {
+                    "en": "Trigger / Bring about",
+                    "vi": "gây ra, khơi mào"
+                  },
+                  {
+                    "en": "Attribute to",
+                    "vi": "quy cho, bắt nguồn từ"
+                  },
+                  {
+                    "en": "Exacerbate",
+                    "vi": "làm trầm trọng thêm"
+                  },
+                  {
+                    "en": "Give rise to",
+                    "vi": "làm nảy sinh"
+                  }
+                ],
+                "usage": "Ví dụ: 'Burning fossil fuels triggers global warming' thay cho 'causes global warming'."
+              },
+              {
+                "original": "Effect / Impact",
+                "paraphrases": [
+                  {
+                    "en": "Adverse consequence",
+                    "vi": "hậu quả bất lợi"
+                  },
+                  {
+                    "en": "Far-reaching repercussion",
+                    "vi": "hậu quả sâu rộng"
+                  },
+                  {
+                    "en": "Detrimental influence",
+                    "vi": "ảnh hưởng có hại"
+                  },
+                  {
+                    "en": "Severe toll",
+                    "vi": "sự tổn hại nặng nề"
+                  }
+                ],
+                "usage": "Ví dụ: 'Climate change has far-reaching repercussions on agricultural production'."
+              },
+              {
+                "original": "Solve / Tackle",
+                "paraphrases": [
+                  {
+                    "en": "Mitigate the impact of",
+                    "vi": "giảm thiểu tác động của"
+                  },
+                  {
+                    "en": "Combat climate change",
+                    "vi": "chống lại biến đổi khí hậu"
+                  },
+                  {
+                    "en": "Address this urgent dilemma",
+                    "vi": "giải quyết bài toán cấp bách này"
+                  },
+                  {
+                    "en": "Alleviate ecological strain",
+                    "vi": "giảm tải áp lực sinh thái"
+                  }
+                ],
+                "usage": "Ví dụ: 'Urgent multilateral measures are required to combat the climate crisis'."
+              }
+            ]
+          }
         }
       },
       {
