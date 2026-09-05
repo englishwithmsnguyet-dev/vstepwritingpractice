@@ -875,15 +875,10 @@ function handleVocabSearch(query) {
 function formatCollocationType(type) {
   if (!type) return '';
   const t = type.toLowerCase().trim();
-  if (t === 'verb + noun phrase' || t === 'v + n') return 'v + n';
-  if (t.includes('verb + prep') && t.includes('gerund')) return 'v + prep + V-ing';
-  if (t.includes('verb + prep') || t === 'v + prep') return 'v + prep';
-  if (t.includes('verb + object') || t === 'v + obj' || t === 'v + o') return 'v + obj';
-  if (t.includes('adjective + noun') || t === 'adj + n') return 'adj + n';
-  if (t.includes('compound noun')) return 'cụm n';
-  if (t.includes('series')) return 'chuỗi n (A, B & C)';
-  if (t.includes('noun phrase') || t === 'n') return 'cụm n';
-  if (t.includes('sentence') || t.includes('clause')) return 'mệnh đề (clause)';
+  if (t === 'v.phr' || t.includes('verb') || t.startsWith('v ') || t.startsWith('v+')) return 'v.phr';
+  if (t === 'adj.phr' || t.startsWith('adj')) return 'adj.phr';
+  if (t === 'n.phr' || t.includes('noun') || t.includes('cụm n') || t.includes('chuỗi n')) return 'n.phr';
+  if (t === 'clause' || t.includes('sentence') || t.includes('clause') || t.includes('mệnh đề')) return 'clause';
   return type;
 }
 

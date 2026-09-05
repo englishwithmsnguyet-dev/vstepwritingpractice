@@ -23124,56 +23124,56 @@ const ESSAY_DATA = [
                 "items": [
                   {
                     "en": "rely on fossil fuels",
-                    "type": "v + prep",
+                    "type": "v.phr",
                     "level": "B1",
                     "vi": "phụ thuộc vào nhiên liệu hóa thạch",
                     "example": "Many countries still heavily rely on fossil fuels for daily energy."
                   },
                   {
                     "en": "burn coal, oil, and gas",
-                    "type": "v + n",
+                    "type": "v.phr",
                     "level": "B1",
                     "vi": "đốt than, dầu và khí đốt",
                     "example": "Burning coal, oil, and gas to produce energy creates immense greenhouse gases."
                   },
                   {
                     "en": "release greenhouse gases",
-                    "type": "v + n",
+                    "type": "v.phr",
                     "level": "B2",
                     "vi": "thải ra khí nhà kính",
                     "example": "Human activities release greenhouse gases into the upper atmosphere."
                   },
                   {
                     "en": "strengthen the greenhouse effect",
-                    "type": "v + n",
+                    "type": "v.phr",
                     "level": "B2",
                     "vi": "làm tăng hiệu ứng nhà kính",
                     "example": "Excessive carbon dioxide strengthens the greenhouse effect and traps heat."
                   },
                   {
                     "en": "massive deforestation",
-                    "type": "adj + n",
+                    "type": "n.phr",
                     "level": "B2",
                     "vi": "nạn phá rừng trên diện rộng",
                     "example": "Massive deforestation for timber and farming reduces the planet's lungs."
                   },
                   {
                     "en": "absorb carbon dioxide",
-                    "type": "v + n",
+                    "type": "v.phr",
                     "level": "B1",
                     "vi": "hấp thụ khí carbon dioxide",
                     "example": "Fewer trees mean the Earth can absorb less carbon dioxide."
                   },
                   {
                     "en": "excessive use of private vehicles",
-                    "type": "cụm n",
+                    "type": "n.phr",
                     "level": "B2",
                     "vi": "việc sử dụng phương tiện cá nhân quá mức",
                     "example": "The excessive use of private vehicles significantly increases urban emissions."
                   },
                   {
                     "en": "increase carbon emissions",
-                    "type": "v + n",
+                    "type": "v.phr",
                     "level": "B2",
                     "vi": "làm gia tăng lượng phát thải carbon",
                     "example": "Rapid industrial expansion tends to increase carbon emissions exponentially."
@@ -23188,63 +23188,63 @@ const ESSAY_DATA = [
                 "items": [
                   {
                     "en": "global temperatures continue to rise",
-                    "type": "mệnh đề (clause)",
+                    "type": "clause",
                     "level": "B2",
                     "vi": "nhiệt độ toàn cầu tiếp tục tăng",
                     "example": "As global temperatures continue to rise, polar ice sheets melt faster."
                   },
                   {
                     "en": "frequent and prolonged heatwaves",
-                    "type": "adj + n",
+                    "type": "n.phr",
                     "level": "B2",
                     "vi": "các đợt nắng nóng thường xuyên và kéo dài",
                     "example": "Cities are experiencing more frequent and prolonged heatwaves every summer."
                   },
                   {
                     "en": "natural disasters become more severe",
-                    "type": "mệnh đề (clause)",
+                    "type": "clause",
                     "level": "B2",
                     "vi": "thiên tai trở nên nghiêm trọng và khốc liệt hơn",
                     "example": "Due to climate disruptions, natural disasters become more severe and costly."
                   },
                   {
                     "en": "floods, storms, and droughts",
-                    "type": "chuỗi n (A, B & C)",
+                    "type": "n.phr",
                     "level": "B1",
                     "vi": "lũ lụt, bão và hạn hán",
                     "example": "Floods, storms, and droughts occur with greater unpredictability."
                   },
                   {
                     "en": "lose their homes",
-                    "type": "v + obj",
+                    "type": "v.phr",
                     "level": "B1",
                     "vi": "mất nhà cửa, mất nơi cư trú",
                     "example": "Many families lose their homes during unprecedented flash floods."
                   },
                   {
                     "en": "face difficulties in farming",
-                    "type": "v + prep + V-ing",
+                    "type": "v.phr",
                     "level": "B1",
                     "vi": "gặp khó khăn trong sản xuất nông nghiệp",
                     "example": "Local farmers face difficulties in farming due to erratic rainfall and heat."
                   },
                   {
                     "en": "cause serious damage to people and property",
-                    "type": "v + n",
+                    "type": "v.phr",
                     "level": "B2",
                     "vi": "gây thiệt hại nghiêm trọng về người và tài sản",
                     "example": "Catastrophic typhoons cause serious damage to people and property in coastal areas."
                   },
                   {
                     "en": "threaten sustainable development",
-                    "type": "v + n",
+                    "type": "v.phr",
                     "level": "B2",
                     "vi": "đe dọa sự phát triển bền vững",
                     "example": "Resource depletion and global warming threaten sustainable development."
                   },
                   {
                     "en": "reduce the quality of life",
-                    "type": "v + n",
+                    "type": "v.phr",
                     "level": "B2",
                     "vi": "làm giảm chất lượng cuộc sống",
                     "example": "Poor air quality and extreme climates reduce the quality of life for citizens."
@@ -23259,42 +23259,42 @@ const ESSAY_DATA = [
                 "items": [
                   {
                     "en": "transition to renewable energy",
-                    "type": "v + prep",
+                    "type": "v.phr",
                     "level": "B2",
                     "vi": "chuyển dịch sang năng lượng tái tạo",
                     "example": "A swift transition to renewable energy is paramount to curtailing carbon emissions."
                   },
                   {
                     "en": "solar and wind energy",
-                    "type": "cụm n",
+                    "type": "n.phr",
                     "level": "B1",
                     "vi": "năng lượng mặt trời và năng lượng gió",
                     "example": "Investing in solar and wind energy provides clean and reliable electricity."
                   },
                   {
                     "en": "promote public transport",
-                    "type": "v + n",
+                    "type": "v.phr",
                     "level": "B1",
                     "vi": "khuyến khích / thúc đẩy giao thông công cộng",
                     "example": "Governments should promote public transport to curb vehicle congestion and fumes."
                   },
                   {
                     "en": "afforestation and reforestation",
-                    "type": "cụm n",
+                    "type": "n.phr",
                     "level": "B2",
                     "vi": "trồng rừng mới và tái tạo rừng",
                     "example": "Afforestation and reforestation programs effectively restore depleted green spaces."
                   },
                   {
                     "en": "raise environmental awareness",
-                    "type": "v + n",
+                    "type": "v.phr",
                     "level": "B1",
                     "vi": "nâng cao nhận thức bảo vệ môi trường",
                     "example": "Community workshops help raise environmental awareness among the general public."
                   },
                   {
                     "en": "impose stringent regulations",
-                    "type": "v + n",
+                    "type": "v.phr",
                     "level": "B2",
                     "vi": "ban hành / áp đặt các quy định nghiêm ngặt",
                     "example": "Authorities must impose stringent regulations on industrial waste discharge."
