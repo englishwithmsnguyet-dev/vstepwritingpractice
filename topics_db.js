@@ -15842,7 +15842,392 @@ const ESSAY_DATA = [
               "en": "congestion-causing behaviours",
               "vi": "hành vi gây ùn tắc giao thông"
             }
-          ]
+          ],
+          "vocab_step": {
+            "theme": "Ùn tắc giao thông (Traffic Jams & Congestion)",
+            "single_words": [
+              {
+                "word": "congestion",
+                "ipa": "/kənˈdʒes.tʃən/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự ùn tắc, tắc nghẽn giao thông",
+                "family": "congest (v), congested (adj)",
+                "example_en": "Heavy traffic congestion is a major headache during rush hours.",
+                "example_vi": "Tình trạng ùn tắc giao thông nghiêm trọng là nỗi đau đầu lớn vào các giờ cao điểm."
+              },
+              {
+                "word": "commuter",
+                "ipa": "/kəˈmjuː.tər/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "người đi lại hằng ngày (đi làm, đi học)",
+                "family": "commute (v/n)",
+                "example_en": "Thousands of daily commuters rely on public buses to get to work.",
+                "example_vi": "Hàng ngàn người đi làm hằng ngày phụ thuộc vào xe buýt công cộng để đến nơi làm việc."
+              },
+              {
+                "word": "infrastructure",
+                "ipa": "/ˈɪn.frəˌstrʌk.tʃər/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "cơ sở hạ tầng",
+                "family": "infrastructural (adj)",
+                "example_en": "Upgrading road infrastructure helps accommodate the growing number of vehicles.",
+                "example_vi": "Nâng cấp cơ sở hạ tầng đường bộ giúp đáp ứng lượng phương tiện ngày càng gia tăng."
+              },
+              {
+                "word": "vehicle",
+                "ipa": "/ˈviː.ə.kəl/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "phương tiện giao thông, xe cộ",
+                "family": "vehicular (adj)",
+                "example_en": "The rapid increase in private vehicles is the primary cause of gridlock.",
+                "example_vi": "Sự gia tăng nhanh chóng của các phương tiện cá nhân là nguyên nhân chính dẫn đến kẹt xe."
+              },
+              {
+                "word": "pedestrian",
+                "ipa": "/pəˈdes.tri.ən/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "người đi bộ",
+                "family": "pedestrianize (v), pedestrianized (adj)",
+                "example_en": "Sidewalks must be kept clear so pedestrians do not have to walk on the road.",
+                "example_vi": "Vỉa hè phải được giữ thông thoáng để người đi bộ không phải đi xuống lòng đường."
+              },
+              {
+                "word": "urbanization",
+                "ipa": "/ˌɜː.bən.aɪˈzeɪ.ʃən/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự đô thị hóa",
+                "family": "urbanize (v), urban (adj)",
+                "example_en": "Rapid urbanization attracts millions of people to metropolitan areas.",
+                "example_vi": "Đô thị hóa nhanh chóng thu hút hàng triệu người đổ về các khu vực đô thị lớn."
+              },
+              {
+                "word": "delay",
+                "ipa": "/dɪˈleɪ/",
+                "pos": "noun / verb",
+                "level": "B1",
+                "vi": "sự chậm trễ, làm chậm trễ",
+                "family": "delayed (adj)",
+                "example_en": "Traffic jams cause severe delays for both workers and delivery services.",
+                "example_vi": "Ùn tắc giao thông gây ra sự chậm trễ nghiêm trọng cho cả người lao động và dịch vụ giao hàng."
+              },
+              {
+                "word": "density",
+                "ipa": "/ˈden.sə.ti/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "mật độ (mật độ dân số, phương tiện)",
+                "family": "dense (adj), densely (adv)",
+                "example_en": "High population density in inner cities inevitably leads to crowded roads.",
+                "example_vi": "Mật độ dân số cao ở các khu vực nội thành tất yếu dẫn đến những cung đường quá tải."
+              },
+              {
+                "word": "transportation",
+                "ipa": "/ˌtræn.spɔːˈteɪ.ʃən/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "hệ thống giao thông, việc vận tải",
+                "family": "transport (v/n), transportable (adj)",
+                "example_en": "An efficient public transportation system encourages people to leave their cars at home.",
+                "example_vi": "Hệ thống giao thông công cộng hiệu quả sẽ khuyến khích người dân để ô tô ở nhà."
+              },
+              {
+                "word": "alleviate",
+                "ipa": "/əˈliː.vi.eɪt/",
+                "pos": "verb",
+                "level": "B2",
+                "vi": "làm giảm bớt, xoa dịu (ùn tắc, áp lực)",
+                "family": "alleviation (n)",
+                "example_en": "Building metro lines can significantly alleviate downtown traffic pressure.",
+                "example_vi": "Xây dựng các tuyến tàu điện ngầm có thể làm giảm bớt đáng kể áp lực giao thông khu vực trung tâm."
+              },
+              {
+                "word": "commute",
+                "ipa": "/kəˈmjuːt/",
+                "pos": "verb / noun",
+                "level": "B1",
+                "vi": "đi lại đều đặn (giữa nhà và nơi làm việc)",
+                "family": "commuter (n)",
+                "example_en": "Many office workers commute over an hour each way due to morning traffic.",
+                "example_vi": "Nhiều nhân viên văn phòng mất hơn một giờ đi lại mỗi chiều vì tình trạng kẹt xe buổi sáng."
+              },
+              {
+                "word": "regulate",
+                "ipa": "/ˈreɡ.jə.leɪt/",
+                "pos": "verb",
+                "level": "B2",
+                "vi": "điều tiết, điều hòa, quy định",
+                "family": "regulation (n), regulatory (adj)",
+                "example_en": "Smart signal systems help regulate vehicle flow at complicated intersections.",
+                "example_vi": "Hệ thống tín hiệu thông minh giúp điều tiết luồng phương tiện tại các nút giao thông phức tạp."
+              },
+              {
+                "word": "overcrowded",
+                "ipa": "/ˌəʊ.vəˈkraʊ.dɪd/",
+                "pos": "adj",
+                "level": "B1",
+                "vi": "quá đông đúc, quá tải",
+                "family": "overcrowd (v), overcrowding (n)",
+                "example_en": "City thoroughfares become severely overcrowded during morning peak hours.",
+                "example_vi": "Các tuyến đường chính của thành phố trở nên quá tải nghiêm trọng trong các khung giờ cao điểm buổi sáng."
+              },
+              {
+                "word": "inefficient",
+                "ipa": "/ˌɪn.ɪˈfɪʃ.ənt/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "kém hiệu quả, không hiệu quả",
+                "family": "efficiency (n), efficient (adj), inefficiently (adv)",
+                "example_en": "An inefficient transit network forces residents to purchase personal motorbikes.",
+                "example_vi": "Một mạng lưới vận tải công cộng kém hiệu quả buộc người dân phải mua xe máy cá nhân."
+              },
+              {
+                "word": "accessible",
+                "ipa": "/əkˈses.ə.bəl/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "dễ tiếp cận, thuận tiện sử dụng",
+                "family": "access (n/v), accessibility (n)",
+                "example_en": "Public transport must be affordable and easily accessible to all citizens.",
+                "example_vi": "Phương tiện công cộng phải có giá cả hợp lý và dễ dàng tiếp cận với mọi người dân."
+              },
+              {
+                "word": "deteriorate",
+                "ipa": "/dɪˈtɪə.ri.ə.reɪt/",
+                "pos": "verb",
+                "level": "B2",
+                "vi": "xuống cấp, giảm sút chất lượng",
+                "family": "deterioration (n)",
+                "example_en": "Road surfaces deteriorate quickly under the weight of heavy truck traffic.",
+                "example_vi": "Mặt đường xuống cấp nhanh chóng dưới sức nặng của lượng xe tải lớn lưu thông."
+              },
+              {
+                "word": "fine",
+                "ipa": "/faɪn/",
+                "pos": "noun / verb",
+                "level": "B1",
+                "vi": "tiền phạt, xử phạt tiền",
+                "family": "penalty (synonym)",
+                "example_en": "Authorities should impose heavier fines on drivers who park in prohibited areas.",
+                "example_vi": "Chính quyền nên áp mức tiền phạt nặng hơn đối với tài xế đỗ xe ở khu vực cấm."
+              },
+              {
+                "word": "punish",
+                "ipa": "/ˈpʌn.ɪʃ/",
+                "pos": "verb",
+                "level": "B1",
+                "vi": "xử phạt, trừng phạt",
+                "family": "punishment (n), punishable (adj)",
+                "example_en": "Motorists who run red lights or drive on sidewalks must be strictly punished.",
+                "example_vi": "Những người điều khiển phương tiện vượt đèn đỏ hoặc đi trên vỉa hè phải bị xử phạt nghiêm khắc."
+              },
+              {
+                "word": "lane",
+                "ipa": "/leɪn/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "làn đường",
+                "family": "multi-lane (adj)",
+                "example_en": "Designating dedicated lanes for buses helps public transit bypass heavy congestion.",
+                "example_vi": "Bố trí làn đường dành riêng cho xe buýt giúp phương tiện công cộng tránh được các điểm ùn tắc nặng."
+              },
+              {
+                "word": "awareness",
+                "ipa": "/əˈweə.nəs/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "ý thức, nhận thức",
+                "family": "aware (adj), unaware (adj)",
+                "example_en": "Raising road safety awareness plays a vital role in preventing traffic chaos.",
+                "example_vi": "Nâng cao ý thức an toàn giao thông đóng vai trò then chốt trong việc ngăn ngừa hỗn loạn giao thông."
+              }
+            ],
+            "collocation_groups": [
+              {
+                "id": "causes",
+                "name": "Nhóm Collocations: Nguyên nhân (Causes)",
+                "icon": "🚗",
+                "badge": "Phần Thân bài 1",
+                "items": [
+                  {
+                    "en": "rely on private vehicles",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "phụ thuộc vào phương tiện cá nhân",
+                    "example": "A majority of urban residents heavily rely on private vehicles for commuting."
+                  },
+                  {
+                    "en": "rapid urban population growth",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "vi": "sự gia tăng dân số đô thị nhanh chóng",
+                    "example": "Rapid urban population growth overwhelms the city existing transport networks."
+                  },
+                  {
+                    "en": "inadequate transport infrastructure",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "vi": "cơ sở hạ tầng giao thông chưa đáp ứng",
+                    "example": "Inadequate transport infrastructure struggles to cope with the surge in daily commuters."
+                  },
+                  {
+                    "en": "poor traffic awareness",
+                    "type": "n.phr",
+                    "level": "B1",
+                    "vi": "ý thức tham gia giao thông kém",
+                    "example": "Poor traffic awareness among road users frequently causes bottlenecks at crossroads."
+                  },
+                  {
+                    "en": "park illegally on sidewalks",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "đỗ xe trái phép trên vỉa hè / lề đường",
+                    "example": "Drivers who park illegally on sidewalks narrow the carriageway and obstruct traffic."
+                  },
+                  {
+                    "en": "disobey traffic regulations",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "không chấp hành luật lệ giao thông",
+                    "example": "Motorcyclists who disobey traffic regulations often cause dangerous gridlocks."
+                  },
+                  {
+                    "en": "change lanes improperly",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "chuyển làn đường tùy tiện / sai quy định",
+                    "example": "Changing lanes improperly without signaling leads to frequent collisions and delays."
+                  },
+                  {
+                    "en": "disrupt the normal traffic flow",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "làm gián đoạn dòng lưu thông phương tiện",
+                    "example": "Unregulated roadside vendors disrupt the normal traffic flow during peak hours."
+                  }
+                ]
+              },
+              {
+                "id": "effects",
+                "name": "Nhóm Collocations: Hậu quả & Tác động (Effects & Impacts)",
+                "icon": "⚠️",
+                "badge": "Phần Thân bài 1 & 2",
+                "items": [
+                  {
+                    "en": "cause significant travel delays",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "gây ra sự chậm trễ đi lại đáng kể",
+                    "example": "Unexpected road congestion can cause significant travel delays for air passengers."
+                  },
+                  {
+                    "en": "waste valuable time and fuel",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "lãng phí thời gian và nhiên liệu quý giá",
+                    "example": "Being stuck in traffic wastes valuable time and fuel every single morning."
+                  },
+                  {
+                    "en": "increase greenhouse gas emissions",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "làm gia tăng phát thải khí nhà kính",
+                    "example": "Thousands of idling engines increase greenhouse gas emissions considerably."
+                  },
+                  {
+                    "en": "heighten stress and frustration",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "làm gia tăng căng thẳng và ức chế",
+                    "example": "Prolonged daily traffic delays heighten stress and frustration among workers."
+                  },
+                  {
+                    "en": "harm overall economic productivity",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "gây tổn hại đến năng suất kinh tế tổng thể",
+                    "example": "Lost business hours caused by traffic gridlock harm overall economic productivity."
+                  },
+                  {
+                    "en": "lead to severe air pollution",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "dẫn đến tình trạng ô nhiễm không khí nghiêm trọng",
+                    "example": "Heavy vehicle fumes trapped in street canyons lead to severe air pollution."
+                  }
+                ]
+              },
+              {
+                "id": "solutions",
+                "name": "Nhóm Collocations: Giải pháp & Hành động (Solutions & Actions)",
+                "icon": "🌱",
+                "badge": "Phần Thân bài 2",
+                "items": [
+                  {
+                    "en": "upgrade transport infrastructure",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "nâng cấp cơ sở hạ tầng giao thông",
+                    "example": "City planners must upgrade transport infrastructure to relieve bottleneck points."
+                  },
+                  {
+                    "en": "expand public transport networks",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "mở rộng mạng lưới giao thông công cộng",
+                    "example": "The municipal government plans to expand public transport networks with new metro routes."
+                  },
+                  {
+                    "en": "promote the use of public transit",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "khuyến khích việc sử dụng phương tiện công cộng",
+                    "example": "Subsidized bus fares help promote the use of public transit among university students."
+                  },
+                  {
+                    "en": "widen roads and build flyovers",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "mở rộng đường sá và xây dựng cầu vượt",
+                    "example": "Authorities can widen roads and build flyovers to ease congestion at key roundabouts."
+                  },
+                  {
+                    "en": "impose heavy traffic fines",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "áp dụng các mức phạt vi phạm giao thông nặng",
+                    "example": "Traffic police should impose heavy traffic fines on red-light runners and illegal parkers."
+                  },
+                  {
+                    "en": "raise public traffic awareness",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "nâng cao ý thức giao thông của cộng đồng",
+                    "example": "School road safety campaigns help raise public traffic awareness from an early age."
+                  },
+                  {
+                    "en": "introduce congestion charges",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "áp dụng thu phí chống ùn tắc nội đô",
+                    "example": "Several world capitals introduce congestion charges to deter cars from central districts."
+                  },
+                  {
+                    "en": "stagger working and school hours",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "so le giờ làm việc và giờ tan trường",
+                    "example": "Staggering working and school hours helps spread peak travel volume across the day."
+                  }
+                ]
+              }
+            ]
+          }
         },
         "id": 1,
         "paraphrases": [
