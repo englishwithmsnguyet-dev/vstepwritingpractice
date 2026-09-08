@@ -27179,25 +27179,25 @@ const ESSAY_DATA = [
               {
                 "title": "EFFECT 01",
                 "point_vi": "Rác thải nhựa có thể gây ô nhiễm môi trường nghiêm trọng.",
-                "point_en": "Plastic waste can cause severe environmental pollution.",
+                "point_en": "Plastic waste can cause serious pollution to the environment.",
                 "evidence_vi": "Điều này là do nhựa mất nhiều năm để phân hủy, vì vậy nó có thể làm ô nhiễm đất, nguồn nước và cảnh quan thiên nhiên.",
-                "evidence_en": "This is because plastic takes hundreds of years to decompose, so it can contaminate soil, water sources, and natural landscapes.",
+                "evidence_en": "This is because plastic takes many years to break down, so it can pollute land, water sources, and nature.",
                 "collocations": [
                   {
                     "en": "plastic waste",
                     "vi": "rác thải nhựa"
                   },
                   {
-                    "en": "cause severe environmental pollution",
+                    "en": "cause serious pollution to the environment",
                     "vi": "gây ô nhiễm môi trường nghiêm trọng"
                   },
                   {
-                    "en": "take hundreds of years to decompose",
-                    "vi": "mất hàng trăm năm để phân hủy"
+                    "en": "take many years to break down",
+                    "vi": "mất nhiều năm để phân hủy"
                   },
                   {
-                    "en": "contaminate soil, water sources, and natural landscapes",
-                    "vi": "làm ô nhiễm đất, nguồn nước và cảnh quan thiên nhiên"
+                    "en": "pollute land, water sources, and nature",
+                    "vi": "làm ô nhiễm đất, nguồn nước và thiên nhiên"
                   }
                 ]
               },
@@ -27206,52 +27206,48 @@ const ESSAY_DATA = [
                 "point_vi": "Rác thải nhựa có thể gây hại nghiêm trọng cho động vật.",
                 "point_en": "In addition, plastic waste can cause serious harm to animals.",
                 "evidence_vi": "Động vật có thể ăn phải rác thải nhựa hoặc bị mắc kẹt trong các sản phẩm nhựa, khiến chúng bị thương hoặc thậm chí chết.",
-                "evidence_en": "Marine animals can ingest plastic waste or become entangled in plastic items, leading to severe injuries or even death.",
+                "evidence_en": "Animals can eat plastic waste or get trapped in plastic products, which makes them injured or even die.",
                 "collocations": [
                   {
                     "en": "cause serious harm to animals",
                     "vi": "gây hại nghiêm trọng cho động vật"
                   },
                   {
-                    "en": "marine animals",
-                    "vi": "động vật biển"
-                  },
-                  {
-                    "en": "ingest plastic waste",
+                    "en": "eat plastic waste",
                     "vi": "ăn phải rác thải nhựa"
                   },
                   {
-                    "en": "become entangled in plastic items",
+                    "en": "get trapped in plastic products",
                     "vi": "bị mắc kẹt trong các sản phẩm nhựa"
                   },
                   {
-                    "en": "leading to severe injuries or even death",
-                    "vi": "dẫn đến chấn thương nặng hoặc thậm chí tử vong"
+                    "en": "makes them injured or even die",
+                    "vi": "khiến chúng bị thương hoặc thậm chí chết"
                   }
                 ]
               },
               {
                 "title": "EFFECT 03",
                 "point_vi": "Rác thải nhựa có thể gây ảnh hưởng tiêu cực đến sức khỏe con người.",
-                "point_en": "Plastic waste can also have negative effects on human health.",
+                "point_en": "Finally, plastic waste can also have negative effects on human health.",
                 "evidence_vi": "Rác thải nhựa có thể làm ô nhiễm thực phẩm và nguồn nước, từ đó gây ra một số vấn đề về sức khỏe.",
-                "evidence_en": "Plastic debris can contaminate food and drinking water, thereby causing various health problems.",
+                "evidence_en": "Plastic waste can pollute food and drinking water, which leads to many health problems.",
                 "collocations": [
                   {
                     "en": "have negative effects on human health",
                     "vi": "gây ảnh hưởng tiêu cực đến sức khỏe con người"
                   },
                   {
-                    "en": "plastic debris",
-                    "vi": "mảnh vụn rác thải nhựa"
+                    "en": "plastic waste",
+                    "vi": "rác thải nhựa"
                   },
                   {
-                    "en": "contaminate food and drinking water",
-                    "vi": "làm ô nhiễm thực phẩm và nguồn nước uống"
+                    "en": "pollute food and drinking water",
+                    "vi": "làm ô nhiễm thực phẩm và nguồn nước"
                   },
                   {
-                    "en": "cause various health problems",
-                    "vi": "gây ra nhiều vấn đề về sức khỏe"
+                    "en": "leads to many health problems",
+                    "vi": "dẫn đến nhiều vấn đề sức khỏe"
                   }
                 ]
               }
@@ -27262,35 +27258,35 @@ const ESSAY_DATA = [
                 "point_vi": "Giảm sử dụng các sản phẩm nhựa dùng một lần.",
                 "point_en": "First, people should reduce the use of single-use plastic products.",
                 "evidence_vi": "Mọi người có thể sử dụng túi vải, chai nước và hộp đựng có thể tái sử dụng thay cho các sản phẩm nhựa dùng một lần.",
-                "evidence_en": "Consumers can use cloth bags, reusable water bottles, and food containers instead of disposable plastic items.",
+                "evidence_en": "People can use cloth bags, reusable water bottles, and containers instead of single-use plastic items.",
                 "collocations": [
                   {
                     "en": "reduce the use of single-use plastic products",
                     "vi": "giảm sử dụng các sản phẩm nhựa dùng một lần"
                   },
                   {
-                    "en": "cloth bags",
-                    "vi": "túi vải"
+                    "en": "use cloth bags",
+                    "vi": "dùng túi vải"
                   },
                   {
                     "en": "reusable water bottles",
                     "vi": "chai nước có thể tái sử dụng"
                   },
                   {
-                    "en": "disposable plastic items",
-                    "vi": "các đồ dùng nhựa dùng một lần"
+                    "en": "containers instead of single-use plastic items",
+                    "vi": "hộp đựng thay cho các sản phẩm nhựa dùng một lần"
                   }
                 ]
               },
               {
                 "title": "SOLUTION 02",
                 "point_vi": "Tăng cường việc tái chế rác thải nhựa.",
-                "point_en": "Second, it is necessary to promote and strengthen plastic waste recycling.",
+                "point_en": "Second, it is necessary to increase the recycling of plastic waste.",
                 "evidence_vi": "Chính phủ có thể cung cấp thêm các thùng rác tái chế và khuyến khích người dân phân loại, thu gom và tái chế rác thải nhựa.",
-                "evidence_en": "Governments can provide more recycling bins and encourage citizens to sort, collect, and recycle plastic waste.",
+                "evidence_en": "The government can provide more recycling bins and encourage people to sort, collect, and recycle plastic waste.",
                 "collocations": [
                   {
-                    "en": "strengthen plastic waste recycling",
+                    "en": "increase the recycling of plastic waste",
                     "vi": "tăng cường việc tái chế rác thải nhựa"
                   },
                   {
@@ -27298,7 +27294,7 @@ const ESSAY_DATA = [
                     "vi": "cung cấp thêm các thùng rác tái chế"
                   },
                   {
-                    "en": "encourage citizens to sort, collect, and recycle",
+                    "en": "encourage people to sort, collect, and recycle",
                     "vi": "khuyến khích người dân phân loại, thu gom và tái chế"
                   }
                 ]
@@ -27308,23 +27304,19 @@ const ESSAY_DATA = [
                 "point_vi": "Nâng cao nhận thức của người dân về rác thải nhựa.",
                 "point_en": "Finally, raising public awareness about plastic waste is essential.",
                 "evidence_vi": "Chính phủ, trường học và truyền thông có thể giáo dục người dân về tác hại của rác thải nhựa và khuyến khích họ sử dụng ít nhựa hơn.",
-                "evidence_en": "Governments, schools, and the media can educate people on the harmful effects of plastic and encourage them to consume less plastic.",
+                "evidence_en": "Governments, schools, and the media can teach people about the harmful effects of plastic and encourage them to use less plastic.",
                 "collocations": [
                   {
-                    "en": "raise public awareness about plastic waste",
+                    "en": "raising public awareness about plastic waste",
                     "vi": "nâng cao nhận thức của người dân về rác thải nhựa"
                   },
                   {
-                    "en": "schools, and the media",
-                    "vi": "trường học và truyền thông"
+                    "en": "teach people about the harmful effects",
+                    "vi": "dạy cho người dân về các tác hại"
                   },
                   {
-                    "en": "educate people on the harmful effects",
-                    "vi": "giáo dục người dân về những tác hại"
-                  },
-                  {
-                    "en": "consume less plastic",
-                    "vi": "tiêu thụ ít nhựa hơn"
+                    "en": "encourage them to use less plastic",
+                    "vi": "khuyến khích họ sử dụng ít nhựa hơn"
                   }
                 ]
               }
@@ -27356,7 +27348,7 @@ const ESSAY_DATA = [
                     "vi": "tích tụ dai dẳng tại các dòng xoáy đại dương"
                   },
                   {
-                    "en": "contaminate water sources",
+                    "en": "contaminating water sources",
                     "vi": "làm ô nhiễm các nguồn nước"
                   }
                 ]
@@ -27394,11 +27386,11 @@ const ESSAY_DATA = [
                 "evidence_en": "Toxic chemicals and microplastics accumulate inside seafood and drinking water supplies, eventually entering human bodies and elevating the risk of chronic illnesses and endocrine disorders.",
                 "collocations": [
                   {
-                    "en": "infiltrate the food chain",
+                    "en": "infiltrates the food chain",
                     "vi": "thâm nhập vào chuỗi thức ăn"
                   },
                   {
-                    "en": "jeopardize human well-being",
+                    "en": "jeopardizes human well-being",
                     "vi": "gây nguy hại cho sức khỏe con người"
                   },
                   {
@@ -27580,13 +27572,133 @@ const ESSAY_DATA = [
               "vi": "tiêu thụ ít nhựa hơn"
             }
           ],
-          "sample_b1": "In recent years, <strong>plastic waste in the oceans</strong> has become one of the most alarming environmental challenges across the globe. Millions of tons of discarded plastics enter marine waters each year, causing serious damage. <strong>This essay will discuss the main effects of plastic waste in the oceans and suggest several practical solutions to tackle this issue.</strong>\n\n<strong>To begin with, plastic pollution leads to three severe consequences for the environment, wildlife, and people.</strong> First of all, <strong><em>plastic waste can cause severe environmental pollution.</em></strong> This is because plastic takes hundreds of years to decompose, so it can contaminate soil, water sources, and natural landscapes. In addition, <strong><em>plastic waste can cause serious harm to animals.</em></strong> Marine animals can ingest plastic waste or become entangled in plastic items, leading to severe injuries or even death. Finally, <strong><em>plastic waste can also have negative effects on human health.</em></strong> Plastic debris can contaminate food and drinking water, thereby causing various health problems.\n\n<strong>To address these pressing issues, several workable solutions should be carried out immediately.</strong> The most direct measure is that <strong><em>people should reduce the use of single-use plastic products.</em></strong> Consumers can use cloth bags, reusable water bottles, and food containers instead of disposable plastic items. Another practical solution is that <strong><em>it is necessary to promote and strengthen plastic waste recycling.</em></strong> Governments can provide more recycling bins and encourage citizens to sort, collect, and recycle plastic waste. Lastly, <strong><em>raising public awareness about plastic waste is essential.</em></strong> Governments, schools, and the media can educate people on the harmful effects of plastic and encourage them to consume less plastic.\n\nIn conclusion, plastic waste in the oceans poses severe threats to our environment, wildlife, and human well-being. By minimizing disposable plastic usage, enhancing recycling systems, and educating the public, we can significantly reduce ocean pollution and protect our planet for future generations.",
-          "translation_b1": "Trong những năm gần đây, <strong>rác thải nhựa ở đại dương</strong> đã trở thành một trong những thách thức môi trường đáng báo động nhất trên toàn cầu. Hàng triệu tấn nhựa bị vứt bỏ tràn vào các vùng nước biển mỗi năm, gây ra những thiệt hại nghiêm trọng. <strong>Bài luận này sẽ thảo luận về những tác động chính của rác thải nhựa ở các đại dương và đề xuất một số giải pháp thực tế để giải quyết vấn đề này.</strong>\n\n<strong>Trước hết, ô nhiễm rác thải nhựa dẫn đến ba hậu quả nghiêm trọng đối với môi trường, động vật và con người.</strong> Đầu tiên, <strong><em>rác thải nhựa có thể gây ô nhiễm môi trường nghiêm trọng.</em></strong> Điều này là do nhựa mất nhiều năm để phân hủy, vì vậy nó có thể làm ô nhiễm đất, nguồn nước và cảnh quan thiên nhiên. Thêm vào đó, <strong><em>rác thải nhựa có thể gây hại nghiêm trọng cho động vật.</em></strong> Động vật biển có thể ăn phải rác thải nhựa hoặc bị mắc kẹt trong các sản phẩm nhựa, khiến chúng bị thương hoặc thậm chí chết. Cuối cùng, <strong><em>rác thải nhựa cũng có thể gây ảnh hưởng tiêu cực đến sức khỏe con người.</em></strong> Rác thải nhựa có thể làm ô nhiễm thực phẩm và nguồn nước, từ đó gây ra một số vấn đề về sức khỏe.\n\n<strong>Để giải quyết những vấn đề cấp bách này, một số giải pháp khả thi cần được thực hiện ngay lập tức.</strong> Biện pháp trực tiếp nhất là <strong><em>mọi người nên giảm sử dụng các sản phẩm nhựa dùng một lần.</em></strong> Người tiêu dùng có thể sử dụng túi vải, chai nước và hộp đựng có thể tái sử dụng thay cho các sản phẩm nhựa dùng một lần. Một giải pháp thực tế khác là <strong><em>cần tăng cường và thúc đẩy việc tái chế rác thải nhựa.</em></strong> Chính phủ có thể cung cấp thêm các thùng rác tái chế và khuyến khích người dân phân loại, thu gom và tái chế rác thải nhựa. Cuối cùng, <strong><em>việc nâng cao nhận thức của người dân về rác thải nhựa là vô cùng thiết yếu.</em></strong> Chính phủ, trường học và truyền thông có thể giáo dục người dân về tác hại của rác thải nhựa và khuyến khích họ sử dụng ít nhựa hơn.\n\nTóm lại, rác thải nhựa ở các đại dương gây ra những mối đe dọa nghiêm trọng đối với môi trường, đời sống động vật và sức khỏe con người. Bằng cách giảm thiểu việc sử dụng đồ nhựa dùng một lần, nâng cao hệ thống tái chế và giáo dục cộng đồng, chúng ta có thể làm giảm đáng kể ô nhiễm đại dương và bảo vệ hành tinh của chúng ta cho các thế hệ tương lai.",
+          "sample_b1": "In recent years, <strong>plastic waste in the oceans</strong> has become one of the most alarming environmental challenges across the globe. Millions of tons of plastic enter rivers and seas each year, causing serious damage. <strong>This essay will discuss the main effects of plastic waste in the oceans and suggest several practical solutions to tackle this problem.</strong>\n\n<strong>To begin with, plastic pollution leads to three severe consequences for the environment, animals, and people.</strong> First of all, <strong><em>plastic waste can cause serious pollution to the environment.</em></strong> This is because plastic takes many years to break down, so it can pollute land, water sources, and nature. In addition, <strong><em>plastic waste can cause serious harm to animals.</em></strong> Animals can eat plastic waste or get trapped in plastic products, which makes them injured or even die. Finally, <strong><em>plastic waste can also have negative effects on human health.</em></strong> Plastic waste can pollute food and drinking water, which leads to many health problems.\n\n<strong>To address these pressing issues, several workable solutions should be carried out immediately.</strong> The most direct measure is that <strong><em>people should reduce the use of single-use plastic products.</em></strong> People can use cloth bags, reusable water bottles, and containers instead of single-use plastic items. Another practical solution is that <strong><em>it is necessary to increase the recycling of plastic waste.</em></strong> The government can provide more recycling bins and encourage people to sort, collect, and recycle plastic waste. Lastly, <strong><em>raising public awareness about plastic waste is essential.</em></strong> Governments, schools, and the media can teach people about the harmful effects of plastic and encourage them to use less plastic.\n\nIn conclusion, plastic waste in the oceans poses severe threats to our environment, wildlife, and human well-being. By minimizing disposable plastic usage, enhancing recycling systems, and educating the public, we can significantly reduce ocean pollution and protect our planet for future generations.",
+          "translation_b1": "Trong những năm gần đây, <strong>rác thải nhựa ở đại dương</strong> đã trở thành một trong những thách thức môi trường đáng báo động nhất trên toàn cầu. Hàng triệu tấn nhựa tràn vào sông ngòi và biển mỗi năm, gây ra thiệt hại nghiêm trọng. <strong>Bài luận này sẽ thảo luận về những tác động chính của rác thải nhựa ở các đại dương và đề xuất một số giải pháp thực tế để giải quyết vấn đề này.</strong>\n\n<strong>Trước hết, ô nhiễm rác thải nhựa dẫn đến ba hậu quả nghiêm trọng đối với môi trường, động vật và con người.</strong> Đầu tiên, <strong><em>rác thải nhựa có thể gây ô nhiễm môi trường nghiêm trọng.</em></strong> Điều này là do nhựa mất nhiều năm để phân hủy, vì vậy nó có thể làm ô nhiễm đất, nguồn nước và cảnh quan thiên nhiên. Thêm vào đó, <strong><em>rác thải nhựa có thể gây hại nghiêm trọng cho động vật.</em></strong> Động vật có thể ăn phải rác thải nhựa hoặc bị mắc kẹt trong các sản phẩm nhựa, khiến chúng bị thương hoặc thậm chí chết. Cuối cùng, <strong><em>rác thải nhựa cũng có thể gây ảnh hưởng tiêu cực đến sức khỏe con người.</em></strong> Rác thải nhựa có thể làm ô nhiễm thực phẩm và nguồn nước, từ đó gây ra một số vấn đề về sức khỏe.\n\n<strong>Để giải quyết những vấn đề cấp bách này, một số giải pháp khả thi cần được thực hiện ngay lập tức.</strong> Biện pháp trực tiếp nhất là <strong><em>mọi người nên giảm sử dụng các sản phẩm nhựa dùng một lần.</em></strong> Mọi người có thể sử dụng túi vải, chai nước và hộp đựng có thể tái sử dụng thay cho các sản phẩm nhựa dùng một lần. Một giải pháp thực tế khác là <strong><em>cần tăng cường việc tái chế rác thải nhựa.</em></strong> Chính phủ có thể cung cấp thêm các thùng rác tái chế và khuyến khích người dân phân loại, thu gom và tái chế rác thải nhựa. Cuối cùng, <strong><em>việc nâng cao nhận thức của người dân về rác thải nhựa là vô cùng thiết yếu.</em></strong> Chính phủ, trường học và truyền thông có thể giáo dục người dân về tác hại của rác thải nhựa và khuyến khích họ sử dụng ít nhựa hơn.\n\nTóm lại, rác thải nhựa ở các đại dương gây ra những mối đe dọa nghiêm trọng đối với môi trường, đời sống động vật và sức khỏe con người. Bằng cách giảm thiểu việc sử dụng đồ nhựa dùng một lần, nâng cao hệ thống tái chế và giáo dục cộng đồng, chúng ta có thể làm giảm đáng kể ô nhiễm đại dương và bảo vệ hành tinh của chúng ta cho các thế hệ tương lai.",
           "sample_b2": "In contemporary society, the proliferation of <strong>marine plastic debris</strong> represents one of the most perilous environmental crises threatening our planet. The continuous dumping of non-biodegradable synthetic materials into waterways has triggered severe ecological degradation worldwide. <strong>This essay will critically analyze the detrimental impacts of ocean plastic pollution and put forward comprehensive remedies to alleviate this crisis.</strong>\n\n<strong>On the one hand, the ramifications of ocean plastic pollution are devastating across multiple dimensions.</strong> First and foremost, <strong><em>plastic waste leads to severe environmental pollution and devastates aquatic habitats.</em></strong> Because non-biodegradable plastics take centuries to decompose, millions of tons of waste persistently accumulate in oceanic gyres, contaminating water sources and degrading coastlines. Furthermore, <strong><em>oceanic plastic waste poses a grave threat to marine fauna.</em></strong> Countless marine creatures inadvertently ingest sharp plastic fragments or become fatally entangled in discarded fishing gear, resulting in suffocation, starvation, and extensive mortality. Finally, <strong><em>marine plastic debris inevitably infiltrates the food chain and jeopardizes human well-being.</em></strong> Toxic chemicals and microplastics accumulate inside seafood and drinking water supplies, eventually entering human bodies and elevating the risk of chronic illnesses and endocrine disorders.\n\n<strong>On the other hand, mitigating this ecological emergency necessitates synergistic interventions from governments, industries, and civil society.</strong> The foremost strategic priority is that <strong><em>authorities and individuals must drastically reduce the reliance on single-use plastics.</em></strong> Governments should enforce nationwide bans or excise taxes on disposable packaging, while consumers proactively adopt sustainable substitutes like canvas bags and reusable tumblers. In addition, <strong><em>it is crucial to modernize waste management systems and scale up plastic recycling initiatives.</em></strong> Municipalities need to install categorized sorting bins in public quarters and offer financial incentives for recycling enterprises to convert plastic garbage into reusable resources. Lastly, <strong><em>comprehensive educational campaigns must be implemented to foster civic awareness and environmental stewardship.</em></strong> Schools, governmental bodies, and mass media channels should collaborate on nationwide awareness programs, educating citizens on marine conservation and motivating eco-friendly consumption habits.\n\nIn conclusion, oceanic plastic pollution severely undermines aquatic biomes, wildlife survival, and human public health. However, through aggressive regulatory measures against disposable packaging, widespread recycling infrastructure, and persistent public education, the international community can safeguard marine ecosystems and establish an ecologically sustainable future.",
           "translation_b2": "Trong xã hội đương đại, sự gia tăng nhanh chóng của <strong>rác thải nhựa đại dương</strong> đại diện cho một trong những cuộc khủng hoảng môi trường nguy hiểm nhất đe dọa hành tinh của chúng ta. Việc liên tục thải bỏ các vật liệu tổng hợp không thể phân hủy sinh học vào các dòng nước đã gây ra sự suy thoái sinh thái nghiêm trọng trên toàn thế giới. <strong>Bài luận này sẽ phân tích sâu sắc các tác động bất lợi của ô nhiễm nhựa đại dương và đưa ra các giải pháp toàn diện nhằm giảm thiểu cuộc khủng hoảng này.</strong>\n\n<strong>Một mặt, những hệ lụy của ô nhiễm nhựa đại dương mang tính tàn phá trên nhiều phương diện.</strong> Trước hết và quan trọng nhất, <strong><em>rác thải nhựa dẫn đến ô nhiễm môi trường nghiêm trọng và tàn phá các môi trường sống thủy sinh.</em></strong> Do các loại nhựa không thể phân hủy sinh học mất nhiều thế kỷ để phân hủy, hàng triệu tấn chất thải tích tụ dai dẳng tại các dòng xoáy đại dương, làm ô nhiễm các nguồn nước và suy thoái các đường bờ biển. Hơn nữa, <strong><em>rác thải nhựa đại dương đặt ra mối đe dọa nghiêm trọng đối với hệ động vật biển.</em></strong> Vô số sinh vật biển vô tình nuốt phải các mảnh nhựa sắc nhọn hoặc bị mắc kẹt dẫn đến tử vong trong các ngư cụ bị vứt bỏ, dẫn đến nghẹt thở, chết đói và tỷ lệ tử vong trên diện rộng. Cuối cùng, <strong><em>mảnh vụn nhựa đại dương chắc chắn xâm nhập vào chuỗi thức ăn và gây nguy hại cho sức khỏe con người.</em></strong> Các hóa chất độc hại và hạt vi nhựa tích tụ bên trong hải sản và nguồn cung cấp nước uống, cuối cùng đi vào cơ thể người và làm gia tăng nguy cơ mắc các bệnh mãn tính cùng các rối loạn nội tiết.\n\n<strong>Mặt khác, việc giảm thiểu tình trạng khẩn cấp sinh thái này đòi hỏi sự can thiệp đồng bộ từ các chính phủ, các ngành công nghiệp và toàn thể xã hội.</strong> Ưu tiên chiến lược hàng đầu là <strong><em>các cơ quan chức năng và từng cá nhân phải giảm mạnh sự phụ thuộc vào các sản phẩm nhựa dùng một lần.</em></strong> Các chính phủ nên thực thi các lệnh cấm hoặc thuế tiêu thụ đặc biệt trên toàn quốc đối với bao bì dùng một lần, trong khi người tiêu dùng chủ động áp dụng các giải pháp thay thế bền vững như túi vải và bình nước tái sử dụng. Ngoài ra, <strong><em>điều cốt yếu là phải hiện đại hóa các hệ thống quản lý chất thải và mở rộng quy mô các sáng kiến tái chế nhựa.</em></strong> Các chính quyền đô thị cần lắp đặt các thùng phân loại rác theo nhóm ở các khu vực công cộng và đưa ra các ưu đãi tài chính cho các doanh nghiệp tái chế nhằm chuyển đổi rác nhựa thành các tài nguyên tái sử dụng. Cuối cùng, <strong><em>các chiến dịch giáo dục toàn diện phải được thực hiện nhằm nuôi dưỡng nhận thức công dân và tinh thần trách nhiệm với môi trường.</em></strong> Nhà trường, các cơ quan chính phủ và các kênh truyền thông đại chúng nên phối hợp trong các chương trình nâng cao nhận thức toàn quốc, giáo dục công dân về bảo tồn biển và thúc đẩy thói quen tiêu dùng thân thiện với môi trường.\n\nTóm lại, ô nhiễm nhựa đại dương làm tổn hại nghiêm trọng đến các quần xã sinh vật dưới nước, sự sinh tồn của động vật hoang dã và sức khỏe cộng đồng của con người. Tuy nhiên, thông qua các biện pháp quản lý quyết liệt đối với bao bì dùng một lần, cơ sở hạ tầng tái chế rộng khắp và công tác giáo dục cộng đồng kiên trì, cộng đồng quốc tế có thể bảo vệ các hệ sinh thái biển và kiến tạo một tương lai bền vững về mặt sinh thái.",
           "vocab_step": {
             "theme": "Rác thải nhựa ở đại dương (Plastic Waste in the Oceans)",
             "single_words": [
+              {
+                "word": "pollute",
+                "ipa": "/pəˈluːt/",
+                "pos": "verb",
+                "level": "B1",
+                "vi": "làm ô nhiễm",
+                "family": "pollution (n), pollutant (n), polluted (adj)",
+                "example_en": "Plastic waste can pollute rivers, lakes, and oceans.",
+                "example_vi": "Rác thải nhựa có thể làm ô nhiễm sông, hồ và đại dương."
+              },
+              {
+                "word": "break down",
+                "ipa": "/breɪk daʊn/",
+                "pos": "phr.v",
+                "level": "B1",
+                "vi": "phân hủy, vỡ vụn",
+                "family": "breakdown (n)",
+                "example_en": "Plastic takes many years to break down in the environment.",
+                "example_vi": "Nhựa mất nhiều năm để phân hủy trong môi trường."
+              },
+              {
+                "word": "marine",
+                "ipa": "/məˈriːn/",
+                "pos": "adj",
+                "level": "B1",
+                "vi": "(thuộc) biển, đại dương",
+                "family": "mariner (n)",
+                "example_en": "Plastic trash causes great danger to marine animals.",
+                "example_vi": "Rác thải nhựa gây nguy hiểm lớn cho các loài động vật biển."
+              },
+              {
+                "word": "single-use",
+                "ipa": "/ˌsɪŋ.ɡəlˈjuːs/",
+                "pos": "adj",
+                "level": "B1",
+                "vi": "dùng một lần",
+                "family": "reuse (v), reusable (adj)",
+                "example_en": "We should stop using single-use plastic bags and straws.",
+                "example_vi": "Chúng ta nên ngừng sử dụng túi nilon và ống hút dùng một lần."
+              },
+              {
+                "word": "reusable",
+                "ipa": "/ˌriːˈjuː.zə.bəl/",
+                "pos": "adj",
+                "level": "B1",
+                "vi": "có thể tái sử dụng",
+                "family": "reuse (v), use (v/n)",
+                "example_en": "Bringing reusable bottles and cloth bags helps protect nature.",
+                "example_vi": "Mang theo bình nước tái sử dụng và túi vải giúp bảo vệ thiên nhiên."
+              },
+              {
+                "word": "recycle",
+                "ipa": "/ˌriːˈsaɪ.kəl/",
+                "pos": "verb",
+                "level": "B1",
+                "vi": "tái chế",
+                "family": "recycling (n), recyclable (adj)",
+                "example_en": "People should sort and recycle plastic waste at home.",
+                "example_vi": "Mọi người nên phân loại và tái chế rác thải nhựa tại nhà."
+              },
+              {
+                "word": "harm",
+                "ipa": "/hɑːm/",
+                "pos": "verb",
+                "level": "B1",
+                "vi": "gây hại, làm tổn thương",
+                "family": "harmful (adj), harmless (adj)",
+                "example_en": "Discarded plastic can harm both sea animals and birds.",
+                "example_vi": "Rác nhựa bị vứt bỏ có thể gây hại cho cả sinh vật biển và các loài chim."
+              },
+              {
+                "word": "trap",
+                "ipa": "/træp/",
+                "pos": "verb",
+                "level": "B1",
+                "vi": "làm mắc kẹt, bẫy",
+                "family": "trapped (adj), trap (n)",
+                "example_en": "Many sea turtles get trapped in plastic fishing nets.",
+                "example_vi": "Nhiều chú rùa biển bị mắc kẹt trong những tấm lưới đánh cá bằng nhựa."
+              },
+              {
+                "word": "landfill",
+                "ipa": "/ˈlænd.fɪl/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "bãi chôn lấp rác",
+                "family": "landfill (v)",
+                "example_en": "A huge amount of plastic trash ends up in landfills.",
+                "example_vi": "Một lượng khổng lồ rác thải nhựa kết thúc ở các bãi chôn lấp rác."
+              },
+              {
+                "word": "alternative",
+                "ipa": "/ɔːlˈtɜː.nə.tɪv/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "vật/giải pháp thay thế",
+                "family": "alternatively (adv)",
+                "example_en": "Paper bags are a great alternative to plastic ones.",
+                "example_vi": "Túi giấy là một giải pháp thay thế tuyệt vời cho túi nilon."
+              },
+              {
+                "word": "ban",
+                "ipa": "/bæn/",
+                "pos": "verb",
+                "level": "B1",
+                "vi": "cấm, ban hành lệnh cấm",
+                "family": "ban (n), banned (adj)",
+                "example_en": "The government decided to ban disposable plastic packaging.",
+                "example_vi": "Chính phủ đã quyết định cấm bao bì nhựa dùng một lần."
+              },
+              {
+                "word": "protect",
+                "ipa": "/prəˈtekt/",
+                "pos": "verb",
+                "level": "B1",
+                "vi": "bảo vệ",
+                "family": "protection (n), protective (adj)",
+                "example_en": "We must take action now to protect our ocean from plastic waste.",
+                "example_vi": "Chúng ta phải hành động ngay để bảo vệ đại dương khỏi rác thải nhựa."
+              },
               {
                 "word": "microplastic",
                 "ipa": "/ˌmaɪ.krəʊˈplæs.tɪk/",
@@ -27612,10 +27724,10 @@ const ESSAY_DATA = [
                 "ipa": "/ˌdiː.kəmˈpəʊz/",
                 "pos": "verb",
                 "level": "B2",
-                "vi": "phân hủy",
+                "vi": "phân hủy (quá trình sinh hóa)",
                 "family": "decomposition (n), decomposer (n)",
-                "example_en": "It takes centuries for a plastic bottle to decompose in seawater.",
-                "example_vi": "Phải mất hàng trăm năm để một chai nhựa có thể phân hủy trong nước biển."
+                "example_en": "It takes centuries for synthetic polymers to decompose in seawater.",
+                "example_vi": "Phải mất hàng trăm năm để các polyme tổng hợp có thể phân hủy trong nước biển."
               },
               {
                 "word": "contaminate",
@@ -27624,18 +27736,8 @@ const ESSAY_DATA = [
                 "level": "B2",
                 "vi": "làm ô nhiễm, làm nhiễm độc",
                 "family": "contamination (n), contaminant (n)",
-                "example_en": "Plastic waste can contaminate soil, water sources, and natural landscapes.",
-                "example_vi": "Rác thải nhựa có thể làm ô nhiễm đất, nguồn nước và cảnh quan thiên nhiên."
-              },
-              {
-                "word": "marine",
-                "ipa": "/məˈriːn/",
-                "pos": "adj",
-                "level": "B1",
-                "vi": "(thuộc) biển, đại dương",
-                "family": "mariner (n)",
-                "example_en": "Plastic debris causes immense harm to marine ecosystems worldwide.",
-                "example_vi": "Rác thải nhựa gây tổn hại to lớn cho các hệ sinh thái biển trên toàn thế giới."
+                "example_en": "Chemicals leaching from plastics contaminate aquatic ecosystems.",
+                "example_vi": "Hóa chất rò rỉ từ nhựa làm ô nhiễm các hệ sinh thái thủy sinh."
               },
               {
                 "word": "ingest",
@@ -27644,8 +27746,8 @@ const ESSAY_DATA = [
                 "level": "B2",
                 "vi": "nuốt vào, ăn phải",
                 "family": "ingestion (n), ingestible (adj)",
-                "example_en": "Sea creatures often ingest plastic items because they look like food.",
-                "example_vi": "Sinh vật biển thường ăn phải các mảnh nhựa vì chúng trông giống thức ăn."
+                "example_en": "Seabirds and fish often ingest toxic plastic debris.",
+                "example_vi": "Chim biển và cá thường ăn phải các mảnh rác nhựa độc hại."
               },
               {
                 "word": "entangle",
@@ -27654,38 +27756,18 @@ const ESSAY_DATA = [
                 "level": "B2",
                 "vi": "làm vướng vào, làm mắc kẹt",
                 "family": "entanglement (n), untangle (v)",
-                "example_en": "Turtles easily become entangled in discarded fishing nets.",
-                "example_vi": "Rùa biển dễ bị mắc kẹt trong những tấm lưới đánh cá bị vứt bỏ."
+                "example_en": "Dolphins frequently become entangled in abandoned fishing nets.",
+                "example_vi": "Cá heo thường xuyên bị mắc kẹt trong những tấm lưới đánh cá bị bỏ rơi."
               },
               {
-                "word": "single-use",
-                "ipa": "/ˌsɪŋ.ɡəlˈjuːs/",
-                "pos": "adj",
-                "level": "B1",
-                "vi": "dùng một lần",
-                "family": "reusable (adj), use (v/n)",
-                "example_en": "Governments are banning single-use plastic bags to protect oceans.",
-                "example_vi": "Các chính phủ đang cấm túi nhựa dùng một lần để bảo vệ các đại dương."
-              },
-              {
-                "word": "landfill",
-                "ipa": "/ˈlænd.fɪl/",
-                "pos": "noun",
-                "level": "B1",
-                "vi": "bãi chôn lấp rác",
-                "family": "landfill (v)",
-                "example_en": "Much of our plastic waste ends up in landfills or open waters.",
-                "example_vi": "Phần lớn rác thải nhựa của chúng ta kết thúc ở bãi chôn lấp hoặc vùng nước hở."
-              },
-              {
-                "word": "ecosystem",
-                "ipa": "/ˈiː.kəʊˌsɪs.təm/",
-                "pos": "noun",
-                "level": "B1",
-                "vi": "hệ sinh thái",
-                "family": "ecological (adj), ecology (n)",
-                "example_en": "Plastic litter upsets the natural balance of the ocean ecosystem.",
-                "example_vi": "Rác thải nhựa làm mất cân bằng tự nhiên của hệ sinh thái đại dương."
+                "word": "suffocate",
+                "ipa": "/ˈsʌf.ə.keɪt/",
+                "pos": "verb",
+                "level": "B2",
+                "vi": "làm ngạt thở, bóp nghẹt",
+                "family": "suffocation (n), suffocating (adj)",
+                "example_en": "Plastic wraps can suffocate marine species and cause sudden death.",
+                "example_vi": "Màng nhựa có thể làm ngạt thở các loài sinh vật biển và gây tử vong đột ngột."
               },
               {
                 "word": "pollutant",
@@ -27704,68 +27786,8 @@ const ESSAY_DATA = [
                 "level": "B2",
                 "vi": "vứt bỏ, thải bỏ",
                 "family": "discarded (adj)",
-                "example_en": "Discarded fishing gear continues to trap and kill marine wildlife.",
-                "example_vi": "Ngư cụ bị vứt bỏ tiếp tục bẫy và giết chết các loài động vật biển hoang dã."
-              },
-              {
-                "word": "reusable",
-                "ipa": "/ˌriːˈjuː.zə.bəl/",
-                "pos": "adj",
-                "level": "B1",
-                "vi": "có thể tái sử dụng",
-                "family": "reuse (v/n), reusability (n)",
-                "example_en": "Carrying reusable water bottles drastically reduces personal plastic trash.",
-                "example_vi": "Mang theo chai nước có thể tái sử dụng giúp giảm đáng kể rác nhựa cá nhân."
-              },
-              {
-                "word": "suffocate",
-                "ipa": "/ˈsʌf.ə.keɪt/",
-                "pos": "verb",
-                "level": "B2",
-                "vi": "làm ngạt thở, bóp nghẹt",
-                "family": "suffocation (n), suffocating (adj)",
-                "example_en": "Thin plastic films can suffocate small animals if swallowed.",
-                "example_vi": "Các màng nhựa mỏng có thể làm ngạt thở động vật nhỏ nếu nuốt phải."
-              },
-              {
-                "word": "alternative",
-                "ipa": "/ɔːlˈtɜː.nə.tɪv/",
-                "pos": "noun",
-                "level": "B1",
-                "vi": "vật/phương án thay thế",
-                "family": "alternatively (adv), alternate (v)",
-                "example_en": "Paper packaging offers a viable alternative to single-use plastics.",
-                "example_vi": "Bao bì giấy đem đến một phương án thay thế khả thi cho nhựa dùng một lần."
-              },
-              {
-                "word": "ban",
-                "ipa": "/bæn/",
-                "pos": "verb",
-                "level": "B1",
-                "vi": "cấm, ban lệnh cấm",
-                "family": "ban (n), banned (adj)",
-                "example_en": "Many cities ban disposable plastic straws in local restaurants.",
-                "example_vi": "Nhiều thành phố cấm ống hút nhựa dùng một lần tại các nhà hàng địa phương."
-              },
-              {
-                "word": "recycle",
-                "ipa": "/ˌriːˈsaɪ.kəl/",
-                "pos": "verb",
-                "level": "B1",
-                "vi": "tái chế",
-                "family": "recycling (n), recyclable (adj)",
-                "example_en": "Sorting household rubbish makes it easier to recycle plastic bottles.",
-                "example_vi": "Phân loại rác sinh hoạt giúp việc tái chế chai nhựa trở nên dễ dàng hơn."
-              },
-              {
-                "word": "stewardship",
-                "ipa": "/ˈstjuː.əd.ʃɪp/",
-                "pos": "noun",
-                "level": "B2",
-                "vi": "tinh thần trách nhiệm bảo vệ (môi trường)",
-                "family": "steward (n)",
-                "example_en": "Environmental stewardship inspires young people to clean up beaches.",
-                "example_vi": "Tinh thần trách nhiệm với môi trường truyền cảm hứng cho giới trẻ dọn rác bãi biển."
+                "example_en": "Discarded plastic gear poses a mortal danger to marine biodiversity.",
+                "example_vi": "Dụng cụ nhựa bị thải bỏ tạo ra mối nguy chết người cho đa dạng sinh học biển."
               },
               {
                 "word": "accumulate",
@@ -27774,8 +27796,18 @@ const ESSAY_DATA = [
                 "level": "B2",
                 "vi": "tích tụ, chồng chất",
                 "family": "accumulation (n), accumulative (adj)",
-                "example_en": "Synthetic chemicals accumulate in fish and reach human food.",
-                "example_vi": "Hóa chất tổng hợp tích tụ trong cơ thể cá và đi vào thức ăn của con người."
+                "example_en": "Microplastics accumulate along the food chain, reaching human diets.",
+                "example_vi": "Hạt vi nhựa tích tụ theo chuỗi thức ăn, đi vào khẩu phần ăn của con người."
+              },
+              {
+                "word": "stewardship",
+                "ipa": "/ˈstjuː.əd.ʃɪp/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "tinh thần trách nhiệm bảo vệ môi trường",
+                "family": "steward (n)",
+                "example_en": "Cultivating environmental stewardship inspires communities to preserve oceans.",
+                "example_vi": "Nuôi dưỡng tinh thần trách nhiệm môi trường truyền cảm hứng cho cộng đồng bảo vệ đại dương."
               },
               {
                 "word": "remedy",
@@ -27784,8 +27816,8 @@ const ESSAY_DATA = [
                 "level": "B2",
                 "vi": "biện pháp giải quyết, cứu cánh",
                 "family": "remedial (adj), remediate (v)",
-                "example_en": "Strict legislation provides a crucial remedy for ocean pollution.",
-                "example_vi": "Luật pháp nghiêm ngặt mang lại một biện pháp giải quyết then chốt cho nạn ô nhiễm biển."
+                "example_en": "Strict international legislation offers an indispensable remedy.",
+                "example_vi": "Luật pháp quốc tế nghiêm ngặt đem đến một biện pháp giải quyết không thể thiếu."
               }
             ],
             "collocation_groups": [
@@ -27796,74 +27828,130 @@ const ESSAY_DATA = [
                 "badge": "Phần Thân bài 1",
                 "items": [
                   {
-                    "en": "cause severe environmental pollution",
+                    "en": "cause serious pollution to the environment",
                     "type": "v.phr",
                     "level": "B1",
                     "vi": "gây ô nhiễm môi trường nghiêm trọng",
-                    "example": "Discarded plastic can cause severe environmental pollution in rivers and seas."
+                    "example": "Plastic waste can cause serious pollution to the environment."
                   },
                   {
-                    "en": "take hundreds of years to decompose",
+                    "en": "take many years to break down",
                     "type": "v.phr",
                     "level": "B1",
-                    "vi": "mất hàng trăm năm để phân hủy",
-                    "example": "Most plastics take hundreds of years to decompose under natural conditions."
+                    "vi": "mất nhiều năm để phân hủy",
+                    "example": "Most plastic items take many years to break down in nature."
                   },
                   {
-                    "en": "contaminate soil and water sources",
+                    "en": "pollute land, water sources, and nature",
                     "type": "v.phr",
-                    "level": "B2",
-                    "vi": "làm ô nhiễm đất và các nguồn nước",
-                    "example": "Toxic residues from plastic waste contaminate soil and water sources nearby."
+                    "level": "B1",
+                    "vi": "làm ô nhiễm đất, nguồn nước và thiên nhiên",
+                    "example": "Dumping rubbish can pollute land, water sources, and nature."
                   },
                   {
                     "en": "cause serious harm to animals",
                     "type": "v.phr",
                     "level": "B1",
                     "vi": "gây hại nghiêm trọng cho động vật",
-                    "example": "Floating plastic debris causes serious harm to animals living near the sea."
+                    "example": "Floating plastic debris causes serious harm to animals."
                   },
                   {
-                    "en": "ingest plastic waste",
-                    "type": "v.phr",
-                    "level": "B2",
-                    "vi": "ăn phải rác thải nhựa",
-                    "example": "Birds and fish often ingest plastic waste mistakenly thinking it is food."
-                  },
-                  {
-                    "en": "become entangled in plastic items",
-                    "type": "v.phr",
-                    "level": "B2",
-                    "vi": "bị mắc kẹt vào các sản phẩm nhựa",
-                    "example": "Dolphins may become entangled in plastic items like old ropes and nets."
-                  },
-                  {
-                    "en": "lead to severe injuries or death",
+                    "en": "eat plastic waste",
                     "type": "v.phr",
                     "level": "B1",
-                    "vi": "dẫn đến chấn thương nặng hoặc tử vong",
-                    "example": "Swallowing sharp debris can lead to severe injuries or death in wild animals."
+                    "vi": "ăn phải rác thải nhựa",
+                    "example": "Birds and fish often eat plastic waste by mistake."
+                  },
+                  {
+                    "en": "get trapped in plastic products",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "bị mắc kẹt trong các sản phẩm nhựa",
+                    "example": "Sea creatures frequently get trapped in plastic products."
+                  },
+                  {
+                    "en": "make them injured or even die",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "khiến chúng bị thương hoặc thậm chí chết",
+                    "example": "Sharp plastic litter can make them injured or even die."
                   },
                   {
                     "en": "have negative effects on human health",
                     "type": "v.phr",
                     "level": "B1",
                     "vi": "gây ảnh hưởng tiêu cực đến sức khỏe con người",
-                    "example": "Oceanic pollution will eventually have negative effects on human health."
+                    "example": "Polluted seawater will have negative effects on human health."
                   },
                   {
-                    "en": "contaminate food and drinking water",
-                    "type": "v.phr",
-                    "level": "B2",
-                    "vi": "làm ô nhiễm thực phẩm và nước uống",
-                    "example": "Microscopic plastic fibres contaminate food and drinking water around the world."
-                  },
-                  {
-                    "en": "cause various health problems",
+                    "en": "pollute food and drinking water",
                     "type": "v.phr",
                     "level": "B1",
-                    "vi": "gây ra nhiều vấn đề về sức khỏe",
-                    "example": "Eating contaminated seafood can cause various health problems in consumers."
+                    "vi": "làm ô nhiễm thực phẩm và nước uống",
+                    "example": "Tiny plastic particles pollute food and drinking water."
+                  },
+                  {
+                    "en": "lead to many health problems",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "dẫn đến nhiều vấn đề sức khỏe",
+                    "example": "Consuming plastic-contaminated seafood leads to many health problems."
+                  },
+                  {
+                    "en": "lead to severe environmental pollution",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "dẫn đến ô nhiễm môi trường nghiêm trọng",
+                    "example": "Massive plastic disposal leads to severe environmental pollution."
+                  },
+                  {
+                    "en": "persistently accumulate in oceanic gyres",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "tích tụ dai dẳng tại các dòng xoáy đại dương",
+                    "example": "Non-biodegradable debris persistently accumulates in oceanic gyres."
+                  },
+                  {
+                    "en": "contaminating water sources",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "làm ô nhiễm các nguồn nước",
+                    "example": "Plastic leachates end up contaminating water sources worldwide."
+                  },
+                  {
+                    "en": "pose a grave threat to marine fauna",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "đe dọa nghiêm trọng đến hệ động vật biển",
+                    "example": "Oceanic plastic pollution poses a grave threat to marine fauna."
+                  },
+                  {
+                    "en": "inadvertently ingest sharp plastic fragments",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "vô tình nuốt phải các mảnh nhựa sắc nhọn",
+                    "example": "Sea turtles inadvertently ingest sharp plastic fragments."
+                  },
+                  {
+                    "en": "fatally entangled in discarded fishing gear",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "mắc kẹt đến chết trong ngư cụ bị vứt bỏ",
+                    "example": "Thousands of mammals become fatally entangled in discarded fishing gear."
+                  },
+                  {
+                    "en": "infiltrates the food chain",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "thâm nhập vào chuỗi thức ăn",
+                    "example": "Microscopic plastic debris inevitably infiltrates the food chain."
+                  },
+                  {
+                    "en": "jeopardizes human well-being",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "gây nguy hại cho sức khỏe con người",
+                    "example": "Chemical bioaccumulation severely jeopardizes human well-being."
                   }
                 ]
               },
@@ -27878,70 +27966,112 @@ const ESSAY_DATA = [
                     "type": "v.phr",
                     "level": "B1",
                     "vi": "giảm sử dụng các sản phẩm nhựa dùng một lần",
-                    "example": "Every household should actively reduce the use of single-use plastic products."
+                    "example": "Consumers should reduce the use of single-use plastic products."
                   },
                   {
-                    "en": "use reusable cloth bags and containers",
+                    "en": "use cloth bags and reusable bottles",
                     "type": "v.phr",
                     "level": "B1",
-                    "vi": "sử dụng túi vải và hộp đựng có thể tái sử dụng",
-                    "example": "Shoppers are encouraged to use reusable cloth bags and containers."
+                    "vi": "dùng túi vải và chai nước tái sử dụng",
+                    "example": "It is easy to use cloth bags and reusable bottles when shopping."
                   },
                   {
-                    "en": "switch to eco-friendly alternatives",
+                    "en": "increase the recycling of plastic waste",
                     "type": "v.phr",
-                    "level": "B2",
-                    "vi": "chuyển sang các sản phẩm thay thế thân thiện môi trường",
-                    "example": "Restaurants should switch to eco-friendly alternatives such as paper straws."
-                  },
-                  {
-                    "en": "strengthen plastic waste recycling",
-                    "type": "v.phr",
-                    "level": "B2",
+                    "level": "B1",
                     "vi": "tăng cường việc tái chế rác thải nhựa",
-                    "example": "Cities must invest more to strengthen plastic waste recycling."
+                    "example": "Cities must take steps to increase the recycling of plastic waste."
                   },
                   {
-                    "en": "provide more recycling bins",
+                    "en": "provide more recycling bins in public places",
                     "type": "v.phr",
                     "level": "B1",
-                    "vi": "cung cấp thêm các thùng rác tái chế",
-                    "example": "Local councils should provide more recycling bins in parks and beaches."
+                    "vi": "cung cấp thêm thùng rác tái chế ở nơi công cộng",
+                    "example": "Local councils should provide more recycling bins in public places."
                   },
                   {
-                    "en": "encourage citizens to sort and collect waste",
+                    "en": "encourage people to sort, collect, and recycle",
                     "type": "v.phr",
                     "level": "B1",
-                    "vi": "khuyến khích người dân phân loại và thu gom rác",
-                    "example": "Community campaigns encourage citizens to sort and collect waste at home."
+                    "vi": "khuyến khích mọi người phân loại, thu gom và tái chế",
+                    "example": "Governments should encourage people to sort, collect, and recycle plastic."
                   },
                   {
-                    "en": "raise public awareness about plastic waste",
+                    "en": "raising public awareness about plastic waste",
                     "type": "v.phr",
                     "level": "B1",
                     "vi": "nâng cao nhận thức của người dân về rác thải nhựa",
-                    "example": "Media outlets help raise public awareness about plastic waste and its perils."
+                    "example": "Raising public awareness about plastic waste is essential."
                   },
                   {
-                    "en": "educate people on the harmful effects",
-                    "type": "v.phr",
-                    "level": "B2",
-                    "vi": "giáo dục người dân về những tác hại",
-                    "example": "Schools should educate people on the harmful effects of dumping trash into the sea."
-                  },
-                  {
-                    "en": "consume less plastic",
+                    "en": "teach people about the harmful effects",
                     "type": "v.phr",
                     "level": "B1",
-                    "vi": "tiêu thụ ít nhựa hơn",
-                    "example": "Practising mindful shopping helps families consume less plastic on a daily basis."
+                    "vi": "dạy cho mọi người về các tác hại",
+                    "example": "Schools should teach people about the harmful effects of plastics."
                   },
                   {
-                    "en": "enforce strict environmental regulations",
+                    "en": "encourage them to use less plastic",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "khuyến khích họ sử dụng ít nhựa hơn",
+                    "example": "Media campaigns encourage them to use less plastic in daily life."
+                  },
+                  {
+                    "en": "reduce the reliance on single-use plastics",
                     "type": "v.phr",
                     "level": "B2",
-                    "vi": "thực thi các quy định môi trường nghiêm ngặt",
-                    "example": "Governments must enforce strict environmental regulations to penalize coastal polluters."
+                    "vi": "giảm bớt sự phụ thuộc vào đồ nhựa dùng một lần",
+                    "example": "Society must drastically reduce the reliance on single-use plastics."
+                  },
+                  {
+                    "en": "enforce nationwide bans or excise taxes",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "thực thi lệnh cấm hoặc thuế tiêu thụ đặc biệt trên toàn quốc",
+                    "example": "Policymakers should enforce nationwide bans or excise taxes on disposables."
+                  },
+                  {
+                    "en": "adopt sustainable substitutes",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "sử dụng các vật dụng thay thế bền vững",
+                    "example": "Consumers can adopt sustainable substitutes like canvas tote bags."
+                  },
+                  {
+                    "en": "modernize waste management systems",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "hiện đại hóa các hệ thống quản lý rác thải",
+                    "example": "It is crucial to modernize waste management systems in coastal cities."
+                  },
+                  {
+                    "en": "scale up plastic recycling initiatives",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "mở rộng các sáng kiến tái chế nhựa",
+                    "example": "Governments need to scale up plastic recycling initiatives nationwide."
+                  },
+                  {
+                    "en": "convert plastic garbage into reusable resources",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "chuyển đổi rác nhựa thành các tài nguyên có thể tái sử dụng",
+                    "example": "Advanced facilities convert plastic garbage into reusable resources."
+                  },
+                  {
+                    "en": "foster civic awareness and environmental stewardship",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "nuôi dưỡng nhận thức công dân và trách nhiệm môi trường",
+                    "example": "Educational reforms foster civic awareness and environmental stewardship."
+                  },
+                  {
+                    "en": "motivating eco-friendly consumption habits",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "thúc đẩy các thói quen tiêu dùng thân thiện với môi trường",
+                    "example": "Community campaigns succeed in motivating eco-friendly consumption habits."
                   }
                 ]
               }

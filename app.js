@@ -5,6 +5,7 @@ let currentTopic = null;
 let currentOutlineLevel = 'B1';
 let currentSampleLevel = 'B1';
 let currentTransLevel = 'B1'; // active level for translation exercises
+let currentVocabLevel = 'B1'; // active level for vocabulary booster step
 let currentStep = 1; // 1: Reading, 2: Translation Practice, 3: Full Essay Editor, 4: Model Essay Reference
 let hasSubmitted = false; // Tracks if the essay has been submitted for grading
 let currentPage = 1;
@@ -605,6 +606,7 @@ function startPractice(catId, topicId) {
   currentTopic = topic;
   currentOutlineLevel = 'B1';
   currentTransLevel = 'B1'; // reset translation exercises level to B1
+  currentVocabLevel = 'B1'; // reset vocabulary booster level to B1
   currentSampleLevel = 'B1';
   
   // Switch to Workspace view state
@@ -867,6 +869,12 @@ function filterVocabCategory(catId) {
   renderStepVocab();
 }
 
+function switchVocabLevel(level) {
+  currentVocabLevel = level;
+  currentVocabFilter = 'all';
+  renderStepVocab();
+}
+
 function handleVocabSearch(query) {
   currentVocabSearch = (query || '').trim().toLowerCase();
   renderStepVocab();
@@ -898,14 +906,25 @@ function renderStepVocab() {
   // Detect if modern schema (single_words + collocation_groups) or legacy categories
   const hasModernSchema = Boolean(vData.single_words || vData.collocation_groups);
   
-  let singleWordsCount = vData.single_words ? vData.single_words.length : 0;
+  // Level filter helper
+  const filterByLevel = (item) => {
+    if (!item) return false;
+    if (currentVocabLevel === 'all') return true;
+    if (!item.level) return true;
+    return item.level.toUpperCase() === currentVocabLevel.toUpperCase();
+  };
+
+  const levelSingleWords = (vData.single_words || []).filter(filterByLevel);
+  const singleWordsCount = levelSingleWords.length;
+
   let collocationsCount = 0;
-  if (vData.collocation_groups) {
-    vData.collocation_groups.forEach(g => {
-      const items = g.items || g.collocations || [];
-      collocationsCount += items.length;
-    });
-  }
+  const levelCollocationGroups = (vData.collocation_groups || []).map(group => {
+    const rawItems = group.items || group.collocations || [];
+    const items = rawItems.filter(filterByLevel);
+    collocationsCount += items.length;
+    return { ...group, items };
+  });
+
   let paraphrasesCount = vData.paraphrases ? vData.paraphrases.length : 0;
   
   let legacyWordCount = 0;
@@ -916,10 +935,11 @@ function renderStepVocab() {
   // Filter pills
   let pills = [];
   if (hasModernSchema) {
+    const levelLabel = currentVocabLevel === 'all' ? '' : ` (${currentVocabLevel})`;
     pills = [
-      { id: 'all', label: `🌟 Tất cả (${singleWordsCount + collocationsCount})` },
-      { id: 'single_words', label: `🔤 Từ đơn cốt lõi (${singleWordsCount})` },
-      { id: 'collocations', label: `🔗 Cụm Collocations (${collocationsCount})` }
+      { id: 'all', label: `🌟 Tất cả${levelLabel} (${singleWordsCount + collocationsCount})` },
+      { id: 'single_words', label: `🔤 Từ đơn${levelLabel} (${singleWordsCount})` },
+      { id: 'collocations', label: `🔗 Cụm Collocations${levelLabel} (${collocationsCount})` }
     ];
   } else {
     pills = [
@@ -940,8 +960,8 @@ function renderStepVocab() {
   
   if (hasModernSchema) {
     // 1. SECTION: SINGLE WORDS
-    if (vData.single_words && (activeCat === 'all' || activeCat === 'single_words')) {
-      const matchedSingle = vData.single_words.filter(w => {
+    if (levelSingleWords.length > 0 && (activeCat === 'all' || activeCat === 'single_words')) {
+      const matchedSingle = levelSingleWords.filter(w => {
         if (!search) return true;
         return (
           (w.word && w.word.toLowerCase().includes(search)) ||
@@ -990,7 +1010,7 @@ function renderStepVocab() {
             <div class="vocab-group-header">
               <div class="vocab-group-title">
                 <span>🔤</span>
-                <span>Từ đơn cốt lõi (Single Words) &bull; ${matchedSingle.length} từ</span>
+                <span>Từ đơn cốt lõi ${currentVocabLevel !== 'all' ? `[Cấp độ ${currentVocabLevel}]` : ''} &bull; ${matchedSingle.length} từ</span>
               </div>
               <div class="vocab-group-desc">
                 Cung cấp từ gốc, phiên âm quốc tế IPA chuẩn, từ loại và họ từ (Word Family) giúp bạn phát triển câu từ linh hoạt.
@@ -1005,12 +1025,12 @@ function renderStepVocab() {
     }
     
     // 2. SECTION: COLLOCATION GROUPS
-    if (vData.collocation_groups && (activeCat === 'all' || activeCat === 'collocations')) {
+    if (levelCollocationGroups.length > 0 && (activeCat === 'all' || activeCat === 'collocations')) {
       let collocationsGroupHtml = '';
       let totalGroupMatches = 0;
       
-      vData.collocation_groups.forEach(group => {
-        const items = group.items || group.collocations || [];
+      levelCollocationGroups.forEach(group => {
+        const items = group.items || [];
         const matchedCols = items.filter(c => {
           if (!search) return true;
           return (
@@ -1068,10 +1088,10 @@ function renderStepVocab() {
             <div class="vocab-group-header">
               <div class="vocab-group-title">
                 <span>🔗</span>
-                <span>Cụm từ học thuật (Collocations) theo Dàn bài Essay &bull; ${totalGroupMatches} cụm</span>
+                <span>Cụm từ ${currentVocabLevel !== 'all' ? `[Cấp độ ${currentVocabLevel}]` : 'học thuật'} (Collocations) theo Dàn bài &bull; ${totalGroupMatches} cụm</span>
               </div>
               <div class="vocab-group-desc">
-                Các cụm từ tự nhiên theo chuẩn bài thi VSTEP B1-B2 được phân bổ theo 3 phần trọng tâm: Nguyên nhân - Hậu quả - Giải pháp.
+                Các cụm từ tự nhiên theo chuẩn bài thi VSTEP được phân bổ theo các phần trọng tâm của bài viết.
               </div>
             </div>
             ${collocationsGroupHtml}
@@ -1187,14 +1207,14 @@ function renderStepVocab() {
       <div class="vocab-stat-card" onclick="filterVocabCategory('single_words')" style="cursor: pointer;">
         <div class="vocab-stat-icon">🔤</div>
         <div class="vocab-stat-info">
-          <h4>${singleWordsCount} Từ đơn cốt lõi</h4>
+          <h4>${singleWordsCount} Từ đơn cốt lõi ${currentVocabLevel !== 'all' ? `(Band ${currentVocabLevel})` : ''}</h4>
           <p>Kèm phiên âm IPA & Họ từ (Word Family)</p>
         </div>
       </div>
       <div class="vocab-stat-card" onclick="filterVocabCategory('collocations')" style="cursor: pointer;">
         <div class="vocab-stat-icon">🔗</div>
         <div class="vocab-stat-info">
-          <h4>${collocationsCount} Cụm Collocations</h4>
+          <h4>${collocationsCount} Cụm Collocations ${currentVocabLevel !== 'all' ? `(Band ${currentVocabLevel})` : ''}</h4>
           <p>Phân loại: Nguyên nhân • Hậu quả • Giải pháp</p>
         </div>
       </div>
@@ -1203,9 +1223,22 @@ function renderStepVocab() {
   
   container.innerHTML = `
     <div class="vocab-hero-banner">
-      <span class="vocab-hero-badge">PHÒNG LUYỆN VIẾT VSTEP • BƯỚC 02: NẠP TỪ VỰNG CHUYÊN SÂU</span>
+      <span class="vocab-hero-badge">PHÒNG LUYỆN VIẾT VSTEP • BƯỚC 02: NẠP TỪ VỰNG THEO CẤP ĐỘ</span>
       <h2>${vData.theme}</h2>
       ${vData.overview ? `<p>${vData.overview}</p>` : ''}
+    </div>
+    
+    <!-- LEVEL SELECTOR: Tách riêng B1 và B2 rõ ràng -->
+    <div class="outline-level-selector" style="margin: 0 auto 1.5rem auto; max-width: 680px;">
+      <div class="level-pill ${currentVocabLevel === 'B1' ? 'active' : ''}" onclick="switchVocabLevel('B1')">
+        📘 TỪ VỰNG CẤP ĐỘ B1 (DỄ HỌC - VỪA SỨC)
+      </div>
+      <div class="level-pill ${currentVocabLevel === 'B2' ? 'active' : ''}" onclick="switchVocabLevel('B2')">
+        📕 TỪ VỰNG CẤP ĐỘ B2 (HỌC THUẬT - NÂNG CAO)
+      </div>
+      <div class="level-pill ${currentVocabLevel === 'all' ? 'active' : ''}" onclick="switchVocabLevel('all')">
+        🌟 TẤT CẢ (B1 & B2)
+      </div>
     </div>
     
     ${statsSummaryHtml}
@@ -1235,6 +1268,7 @@ function renderStepVocab() {
 // Switch between B1 and B2 level outlines for Step 1 Translation Exercises
 function switchTransLevel(level) {
   currentTransLevel = level;
+  currentVocabLevel = level;
   
   document.getElementById('ws-trans-level-b1').classList.remove('active');
   document.getElementById('ws-trans-level-b2').classList.remove('active');
@@ -3351,6 +3385,7 @@ function toggleAccordion(id) {
 // Switch outline level (B1 vs B2)
 function switchOutlineLevel(level) {
   currentOutlineLevel = level;
+  currentVocabLevel = level;
   renderOutline();
 }
 
