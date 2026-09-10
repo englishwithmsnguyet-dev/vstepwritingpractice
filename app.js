@@ -3342,6 +3342,14 @@ function switchResourceTab(tabName) {
 }
 
 // Render Outline accordion nodes
+function formatOutlineEvidence(ev) {
+  if (!ev) return '';
+  if (Array.isArray(ev)) {
+    return ev.map(line => `• ${line}`).join('<br>');
+  }
+  return ev;
+}
+
 function renderOutline() {
   const container = document.getElementById('ws-outline-container');
   if (!container) return;
@@ -3398,8 +3406,8 @@ function renderOutline() {
           <div style="font-style: italic; color: var(--text-secondary); margin-bottom: 0.5rem;">→ ${item.point_en}</div>
           
           <div class="outline-point">Luận cứ:</div>
-          <div class="outline-desc">${item.evidence_vi}</div>
-          <div class="outline-desc" style="font-style: italic; margin-top: 0.25rem;">${item.evidence_en}</div>
+          <div class="outline-desc">${formatOutlineEvidence(item.evidence_vi)}</div>
+          <div class="outline-desc" style="font-style: italic; margin-top: 0.25rem;">${formatOutlineEvidence(item.evidence_en)}</div>
         </div>
       `;
       container.appendChild(node);
@@ -3425,8 +3433,8 @@ function renderOutline() {
           <div style="font-style: italic; color: var(--text-secondary); margin-bottom: 0.5rem;">→ ${item.point_en}</div>
           
           <div class="outline-point">Luận cứ:</div>
-          <div class="outline-desc">${item.evidence_vi}</div>
-          <div class="outline-desc" style="font-style: italic; margin-top: 0.25rem;">${item.evidence_en}</div>
+          <div class="outline-desc">${formatOutlineEvidence(item.evidence_vi)}</div>
+          <div class="outline-desc" style="font-style: italic; margin-top: 0.25rem;">${formatOutlineEvidence(item.evidence_en)}</div>
         </div>
       `;
       container.appendChild(node);
@@ -3465,6 +3473,10 @@ function renderVietnameseOutline() {
   }
   
   const ideasObj = topic.details.ideas_b1; // Default to B1 for simple Vietnamese hints
+  if (!ideasObj) return;
+
+  const group1Items = ideasObj.benefits || ideasObj.causes || ideasObj.reasons || ideasObj.views || ideasObj.factors || [];
+  const group2Items = ideasObj.drawbacks || ideasObj.effects || ideasObj.solutions || ideasObj.problems || ideasObj.measures || [];
   
   const div = document.createElement('div');
   div.className = 'prompt-card';
@@ -3474,43 +3486,31 @@ function renderVietnameseOutline() {
       <p><strong>1. Mở bài (Introduction):</strong></p>
       <ul style="padding-left: 1rem; margin-bottom: 0.75rem;">
         <li>Dẫn dắt chủ đề (Paraphrase lại đề bài)</li>
-        <li>Tuyên bố luận đề (Nêu rõ mục đích bài viết - thảo luận cả hai khía cạnh và nêu quan điểm cá nhân)</li>
+        <li>Tuyên bố luận đề (Nêu rõ mục đích bài viết - thảo luận cả hai khía cạnh hoặc quan điểm)</li>
       </ul>
       
       <p><strong>2. Thân bài 1 (Body Paragraph 1):</strong></p>
       <ul style="padding-left: 1rem; margin-bottom: 0.75rem;">
-        <li>Nêu ý chính thứ nhất (Lợi ích / Nguyên nhân / Mặt đồng ý):
-          <br><span style="color: var(--text-primary); font-weight: 500;">- ${ideasObj.benefits[0].point_vi}</span>
+        ${group1Items.length > 0 ? group1Items.map((item, idx) => `
+        <li style="${idx > 0 ? 'margin-top: 0.5rem;' : ''}">
+          Nêu luận điểm ${idx + 1}:
+          <br><span style="color: var(--text-primary); font-weight: 500;">- ${item.point_vi}</span>
+          <br><span style="color: var(--text-secondary); font-size: 0.8rem;">Ý phụ bổ sung lý giải:</span>
+          <br><span>${formatOutlineEvidence(item.evidence_vi)}</span>
         </li>
-        <li>Ý phụ bổ sung lý giải:
-          <br><span>- ${ideasObj.benefits[0].evidence_vi}</span>
-        </li>
-        ${ideasObj.benefits[1] ? `
-        <li style="margin-top: 0.25rem;">Nêu ý chính thứ hai:
-          <br><span style="color: var(--text-primary); font-weight: 500;">- ${ideasObj.benefits[1].point_vi}</span>
-        </li>
-        <li>Ý phụ bổ sung lý giải:
-          <br><span>- ${ideasObj.benefits[1].evidence_vi}</span>
-        </li>
-        ` : ''}
+        `).join('') : '<li>Phát triển các ý tưởng chính cho thân bài 1</li>'}
       </ul>
       
       <p><strong>3. Thân bài 2 (Body Paragraph 2):</strong></p>
       <ul style="padding-left: 1rem; margin-bottom: 0.75rem;">
-        <li>Nêu ý chính bất lợi/giải pháp đầu tiên:
-          <br><span style="color: var(--text-primary); font-weight: 500;">- ${ideasObj.drawbacks[0].point_vi}</span>
+        ${group2Items.length > 0 ? group2Items.map((item, idx) => `
+        <li style="${idx > 0 ? 'margin-top: 0.5rem;' : ''}">
+          Nêu luận điểm ${idx + 1}:
+          <br><span style="color: var(--text-primary); font-weight: 500;">- ${item.point_vi}</span>
+          <br><span style="color: var(--text-secondary); font-size: 0.8rem;">Ý phụ bổ sung lý giải:</span>
+          <br><span>${formatOutlineEvidence(item.evidence_vi)}</span>
         </li>
-        <li>Ý phụ bổ sung lý giải:
-          <br><span>- ${ideasObj.drawbacks[0].evidence_vi}</span>
-        </li>
-        ${ideasObj.drawbacks[1] ? `
-        <li style="margin-top: 0.25rem;">Nêu ý phụ thứ hai:
-          <br><span style="color: var(--text-primary); font-weight: 500;">- ${ideasObj.drawbacks[1].point_vi}</span>
-        </li>
-        <li>Ý phụ bổ sung lý giải:
-          <br><span>- ${ideasObj.drawbacks[1].evidence_vi}</span>
-        </li>
-        ` : ''}
+        `).join('') : '<li>Phát triển các ý tưởng chính cho thân bài 2</li>'}
       </ul>
       
       <p><strong>4. Kết bài (Conclusion):</strong></p>

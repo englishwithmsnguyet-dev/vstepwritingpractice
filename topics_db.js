@@ -32586,7 +32586,7 @@ const ESSAY_DATA = [
             }
           },
           {
-            "name": "CÁCH 03: CẢ TÍCH CỰC & TIÊU CỰC",
+            "name": "CÁCH 03: 3 TÍCH CỰC & 3 TIÊU CỰC",
             "tags": "[Positive & Negative Effects]",
             "paraphrases": [
               {
@@ -32610,88 +32610,130 @@ const ESSAY_DATA = [
               "ideas_b1": {
                 "benefits": [
                   {
-                    "title": "POSITIVE EFFECT 01",
-                    "point_vi": "Làm việc tại nhà giúp cha mẹ hỗ trợ việc học của con tốt hơn.",
-                    "point_en": "First, working from home allows parents to support their children's studies better.",
-                    "evidence_vi": "Cha mẹ có thể giúp con làm bài tập khi con cần và theo dõi việc học của con thường xuyên hơn.",
-                    "evidence_en": "Parents can help their children with homework when needed and monitor their learning progress regularly.",
+                    "title": "TÍCH CỰC 01: HỖ TRỢ VIỆC HỌC CỦA CON TỐT HƠN",
+                    "point_vi": "Làm việc tại nhà giúp cha mẹ hỗ trợ việc học của con hiệu quả hơn.",
+                    "point_en": "First, working from home allows parents to support their children's education better.",
+                    "evidence_vi": "Cha mẹ có thể giúp con làm bài tập khi cần và phát hiện sớm những khó khăn của con ở trường.",
+                    "evidence_en": "Parents can help their children with difficult homework when needed and notice learning problems early.",
                     "collocations": [
                       {
-                        "en": "support children's studies",
+                        "en": "support children's education",
                         "vi": "hỗ trợ việc học của con"
                       },
                       {
-                        "en": "help with homework",
-                        "vi": "giúp làm bài tập về nhà"
+                        "en": "help with difficult homework",
+                        "vi": "giúp làm bài tập khó"
                       },
                       {
-                        "en": "monitor learning progress",
-                        "vi": "theo dõi tiến độ học tập"
+                        "en": "notice learning problems early",
+                        "vi": "phát hiện sớm vấn đề học tập"
                       }
                     ]
                   },
                   {
-                    "title": "POSITIVE EFFECT 02",
-                    "point_vi": "Sự hiện diện của cha mẹ ở nhà giúp con cảm thấy an toàn và được quan tâm hơn.",
-                    "point_en": "Second, parents' presence at home makes children feel safer and more cared for.",
-                    "evidence_vi": "Trẻ biết cha mẹ luôn ở gần, nên các em dễ dàng chia sẻ những lo lắng hoặc vấn đề trong cuộc sống.",
-                    "evidence_en": "Children know that their parents are always nearby, so they can easily share their worries or personal problems.",
+                    "title": "TÍCH CỰC 02: HIỂU RÕ THÓI QUEN VÀ HÀNH VI CỦA CON",
+                    "point_vi": "Làm việc tại nhà giúp cha mẹ hiểu rõ hơn về thói quen và hành vi của con.",
+                    "point_en": "Second, staying at home helps parents understand their children's daily habits and behaviors more deeply.",
+                    "evidence_vi": "Cha mẹ có thể quan sát cách con sinh hoạt hằng ngày và nhận ra những thay đổi trong hành vi của con.",
+                    "evidence_en": "Parents can observe how their children live each day and easily notice any changes in their behavior.",
                     "collocations": [
                       {
-                        "en": "parents' presence at home",
-                        "vi": "sự hiện diện của cha mẹ ở nhà"
+                        "en": "understand daily habits",
+                        "vi": "hiểu rõ thói quen hằng ngày"
                       },
                       {
-                        "en": "feel safer and more cared for",
-                        "vi": "cảm thấy an toàn và được quan tâm hơn"
+                        "en": "observe how they live",
+                        "vi": "quan sát cách sinh hoạt"
                       },
                       {
-                        "en": "share personal problems",
-                        "vi": "chia sẻ các vấn đề cá nhân"
+                        "en": "notice changes in behavior",
+                        "vi": "nhận ra sự thay đổi hành vi"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "TÍCH CỰC 03: TRẺ CẢM THẤY AN TOÀN VÀ ĐƯỢC QUAN TÂM",
+                    "point_vi": "Làm việc tại nhà giúp trẻ cảm thấy an toàn và được yêu thương hơn.",
+                    "point_en": "Finally, children feel safer and more loved when their parents work from home.",
+                    "evidence_vi": "Trẻ biết cha mẹ luôn ở gần, nên các em dễ dàng chia sẻ khó khăn và cảm thấy yên tâm hơn.",
+                    "evidence_en": "Children know that their parents are always nearby, so they can easily share their worries and feel reassured.",
+                    "collocations": [
+                      {
+                        "en": "feel safer and more loved",
+                        "vi": "cảm thấy an toàn và được yêu thương hơn"
+                      },
+                      {
+                        "en": "parents are always nearby",
+                        "vi": "cha mẹ luôn ở gần bên"
+                      },
+                      {
+                        "en": "share their worries",
+                        "vi": "chia sẻ những lo lắng"
                       }
                     ]
                   }
                 ],
                 "drawbacks": [
                   {
-                    "title": "NEGATIVE EFFECT 01",
-                    "point_vi": "Làm việc tại nhà có thể làm mờ ranh giới giữa công việc và gia đình.",
-                    "point_en": "However, working from home can blur the boundary between work and family life.",
-                    "evidence_vi": "Trẻ nhỏ có thể nghĩ rằng cha mẹ luôn rảnh để chơi, nên các em có thể làm phiền cha mẹ trong giờ làm việc.",
-                    "evidence_en": "Young children may think parents are always free to play, so they might disturb their parents during work hours.",
+                    "title": "TIÊU CỰC 01: GIẢM SỰ TẬP TRUNG CỦA CHA MẸ VÀO CON CÁI",
+                    "point_vi": "Làm việc tại nhà có thể khiến cha mẹ ít chú ý đến con cái hơn.",
+                    "point_en": "To begin with, working from home can cause parents to pay less attention to their children.",
+                    "evidence_vi": "Cha mẹ phải dành nhiều thời gian cho máy tính và các cuộc họp, nên không thể chú ý khi con muốn trò chuyện.",
+                    "evidence_en": "Parents have to spend many hours on computers and in virtual meetings, so they cannot pay attention when their children want to talk.",
                     "collocations": [
                       {
-                        "en": "blur the boundary",
-                        "vi": "làm mờ ranh giới"
+                        "en": "pay less attention to children",
+                        "vi": "ít chú ý đến con cái hơn"
                       },
                       {
-                        "en": "disturb parents during work",
-                        "vi": "làm phiền cha mẹ trong giờ làm"
+                        "en": "virtual meetings",
+                        "vi": "các cuộc họp trực tuyến"
                       },
                       {
-                        "en": "always free to play",
-                        "vi": "luôn rảnh để chơi"
+                        "en": "want to talk",
+                        "vi": "muốn trò chuyện"
                       }
                     ]
                   },
                   {
-                    "title": "NEGATIVE EFFECT 02",
-                    "point_vi": "Áp lực công việc tại nhà có thể khiến cha mẹ dễ mệt mỏi và cáu gắt với con.",
-                    "point_en": "Furthermore, work pressure at home can make parents tired and irritable.",
-                    "evidence_vi": "Khi phải vừa hoàn thành hạn chót công việc vừa chăm sóc con, cha mẹ dễ bị căng thẳng và mất bình tĩnh với con.",
-                    "evidence_en": "When juggling strict work deadlines and childcare duties, parents easily experience stress and lose their patience with their kids.",
+                    "title": "TIÊU CỰC 02: TRẺ KHÓ HIỂU RANH GIỚI CÔNG VIỆC VÀ GIA ĐÌNH",
+                    "point_vi": "Làm việc tại nhà có thể khiến trẻ khó hiểu khi nào cha mẹ đang làm việc.",
+                    "point_en": "In addition, young children often find it difficult to understand the boundary between work and family.",
+                    "evidence_vi": "Trẻ có thể nghĩ rằng cha mẹ luôn sẵn sàng chơi cùng và vô tình làm phiền cha mẹ trong giờ làm việc.",
+                    "evidence_en": "Children may think that parents are always available to play, so they might disturb them during work hours.",
                     "collocations": [
                       {
-                        "en": "work pressure at home",
-                        "vi": "áp lực công việc tại nhà"
+                        "en": "understand the boundary",
+                        "vi": "hiểu rõ ranh giới"
                       },
                       {
-                        "en": "strict work deadlines",
-                        "vi": "hạn chót công việc khắt khe"
+                        "en": "always available to play",
+                        "vi": "luôn sẵn sàng chơi cùng"
                       },
                       {
-                        "en": "lose their patience",
-                        "vi": "mất kiên nhẫn"
+                        "en": "disturb during work hours",
+                        "vi": "làm phiền trong giờ làm việc"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "TIÊU CỰC 03: LÀM TĂNG ÁP LỰC CHO CHA MẸ",
+                    "point_vi": "Làm việc tại nhà có thể làm tăng áp lực và căng thẳng cho cha mẹ.",
+                    "point_en": "Lastly, working from home can increase mental stress and pressure on parents.",
+                    "evidence_vi": "Cha mẹ phải vừa hoàn thành công việc đúng hạn vừa lo việc nhà, khiến họ dễ mệt mỏi và cáu gắt với con cái.",
+                    "evidence_en": "Parents must complete office tasks on time while handling household chores, which makes them tired and easily irritable toward their children.",
+                    "collocations": [
+                      {
+                        "en": "increase mental stress",
+                        "vi": "làm tăng căng thẳng tâm lý"
+                      },
+                      {
+                        "en": "complete tasks on time",
+                        "vi": "hoàn thành công việc đúng hạn"
+                      },
+                      {
+                        "en": "easily irritable toward children",
+                        "vi": "dễ cáu gắt với con cái"
                       }
                     ]
                   }
@@ -32700,109 +32742,212 @@ const ESSAY_DATA = [
               "ideas_b2": {
                 "benefits": [
                   {
-                    "title": "POSITIVE EFFECT 01",
-                    "point_vi": "Làm việc từ xa tạo điều kiện thuận lợi để phụ huynh đồng hành và hỗ trợ việc học của con.",
-                    "point_en": "On the one hand, remote work enables parents to support their children's education more effectively.",
-                    "evidence_vi": "• Luận cứ: Cha mẹ có thể ở cạnh để hướng dẫn con làm bài tập khó và kịp thời phát hiện những môn học mà con gặp trở ngại.",
-                    "evidence_en": "• Evidence: Caregivers are physically present to assist with difficult homework and promptly identify academic areas where their children struggle.",
+                    "title": "POSITIVE EFFECT 01: ACADEMIC ASSISTANCE",
+                    "point_vi": "Làm việc tại nhà giúp cha mẹ hỗ trợ sự tiến bộ trong học tập của con một cách hiệu quả.",
+                    "point_en": "First, telecommuting enables parents to support their children's academic progress more effectively.",
+                    "evidence_vi": "Cha mẹ luôn có mặt để trợ giúp giải quyết các bài tập phức tạp và kịp thời phát hiện những trở ngại học tập ở trường.",
+                    "evidence_en": "Parents are accessible to assist with challenging school assignments and identify learning obstacles promptly.",
                     "collocations": [
                       {
-                        "en": "support children's education",
-                        "vi": "hỗ trợ việc học của con"
+                        "en": "telecommuting",
+                        "vi": "làm việc từ xa"
                       },
                       {
-                        "en": "assist with difficult homework",
-                        "vi": "giúp đỡ bài tập khó"
+                        "en": "support academic progress",
+                        "vi": "hỗ trợ tiến bộ học tập"
                       },
                       {
-                        "en": "identify academic struggles",
-                        "vi": "nhận diện khó khăn học tập"
+                        "en": "identify learning obstacles promptly",
+                        "vi": "phát hiện kịp thời trở ngại học tập"
                       }
                     ]
                   },
                   {
-                    "title": "POSITIVE EFFECT 02",
-                    "point_vi": "Sự hiện diện thường xuyên của cha mẹ mang lại cho trẻ cảm giác an toàn và gắn kết tình cảm.",
-                    "point_en": "Additionally, parents' regular presence at home fosters a strong sense of emotional security for children.",
-                    "evidence_vi": "• Luận cứ: Trẻ cảm thấy yên tâm khi biết cha mẹ luôn ở gần, từ đó các em cởi mở tâm sự những lo lắng cá nhân và xây dựng sự tự tin.",
-                    "evidence_en": "• Evidence: Youngsters feel reassured knowing their parents are accessible, which encourages them to share personal concerns and develop self-confidence.",
+                    "title": "POSITIVE EFFECT 02: BEHAVIORAL INSIGHTS",
+                    "point_vi": "Làm việc tại nhà mang lại cho cha mẹ những hiểu biết sâu sắc hơn về thói quen và lối sống của con.",
+                    "point_en": "Second, home-based working provides parents with deeper insights into their children's daily routines and behavior.",
+                    "evidence_vi": "Việc quan sát con sinh hoạt và học tập thường xuyên giúp cha mẹ nhận biết các thay đổi tâm lý để đưa ra sự định hướng phù hợp.",
+                    "evidence_en": "Observing daily routines helps caregivers detect behavioral changes early and offer appropriate guidance.",
                     "collocations": [
                       {
-                        "en": "emotional security",
-                        "vi": "sự an toàn về cảm xúc"
+                        "en": "deep insights into daily routines",
+                        "vi": "sự hiểu biết sâu sắc về nề nếp hằng ngày"
                       },
                       {
-                        "en": "parents are accessible",
-                        "vi": "cha mẹ luôn ở gần"
+                        "en": "detect behavioral changes early",
+                        "vi": "phát hiện sớm các thay đổi hành vi"
                       },
                       {
-                        "en": "share personal concerns",
-                        "vi": "chia sẻ những lo lắng cá nhân"
+                        "en": "appropriate guidance",
+                        "vi": "sự định hướng phù hợp"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "POSITIVE EFFECT 03: EMOTIONAL SECURITY",
+                    "point_vi": "Sự hiện diện thường xuyên của cha mẹ mang lại cho trẻ cảm giác an tâm và được nâng đỡ tinh thần.",
+                    "point_en": "Finally, constant parental presence gives children a reassuring sense of security and emotional support.",
+                    "evidence_vi": "Trẻ cảm thấy yên lòng vì có chỗ dựa vững chắc, từ đó dễ dàng tâm sự và cởi mở về những trăn trở của bản thân.",
+                    "evidence_en": "Children feel secure in a supportive home environment, which encourages them to communicate openly about their concerns.",
+                    "collocations": [
+                      {
+                        "en": "reassuring sense of security",
+                        "vi": "cảm giác an tâm vững chắc"
+                      },
+                      {
+                        "en": "supportive home environment",
+                        "vi": "môi trường gia đình giàu sự nâng đỡ"
+                      },
+                      {
+                        "en": "communicate openly",
+                        "vi": "giao tiếp cởi mở"
                       }
                     ]
                   }
                 ],
                 "drawbacks": [
                   {
-                    "title": "NEGATIVE EFFECT 01",
-                    "point_vi": "Làm việc tại nhà có thể làm xóa nhòa ranh giới giữa nghĩa vụ công việc và thời gian dành cho gia đình.",
-                    "point_en": "On the other hand, telecommuting can blur the boundary between professional duties and domestic life.",
-                    "evidence_vi": "• Luận cứ: Trẻ nhỏ thường không hiểu khi nào cha mẹ đang bận, dẫn đến việc các em vô tình làm phiền trong giờ làm và gây ra tranh cãi.",
-                    "evidence_en": "• Evidence: Young children often fail to realize when parents are working, which leads to accidental interruptions and domestic tension.",
+                    "title": "NEGATIVE EFFECT 01: REDUCED DIRECT ENGAGEMENT",
+                    "point_vi": "Làm việc tại nhà có thể làm giảm sự chú ý trực tiếp và chất lượng tương tác cha mẹ dành cho con.",
+                    "point_en": "To begin with, remote working can inadvertently diminish direct parental attention and engagement.",
+                    "evidence_vi": "Khi bị cuốn vào các nhiệm vụ máy tính kéo dài và những cuộc họp trực tuyến căng thẳng, cha mẹ khó có thể lắng nghe con trọn vẹn.",
+                    "evidence_en": "When absorbed in demanding digital tasks and extended video conferences, parents struggle to interact attentively with their children.",
                     "collocations": [
                       {
-                        "en": "blur professional boundaries",
-                        "vi": "làm mờ ranh giới công việc"
+                        "en": "diminish direct attention",
+                        "vi": "làm suy giảm sự chú ý trực tiếp"
                       },
                       {
-                        "en": "accidental interruptions",
-                        "vi": "sự làm phiền vô tình"
+                        "en": "absorbed in digital tasks",
+                        "vi": "bị cuốn vào các công việc trên máy tính"
                       },
                       {
-                        "en": "domestic tension",
-                        "vi": "căng thẳng trong gia đình"
+                        "en": "interact attentively",
+                        "vi": "tương tác một cách chú tâm"
                       }
                     ]
                   },
                   {
-                    "title": "NEGATIVE EFFECT 02",
-                    "point_vi": "Áp lực kép giữa công việc và việc nhà khiến cha mẹ dễ rơi vào trạng thái mệt mỏi và cáu gắt.",
-                    "point_en": "Furthermore, managing both job demands and household duties substantially increases parental stress levels.",
-                    "evidence_vi": "• Luận cứ: Khi bị quá tải bởi các hạn chót công việc và việc chăm sóc con, phụ huynh dễ bị kiệt sức và mất kiên nhẫn khi con mắc lỗi.",
-                    "evidence_en": "• Evidence: When overwhelmed by tight job deadlines and childcare tasks, exhausted parents are more prone to irritability and harsh reactions.",
+                    "title": "NEGATIVE EFFECT 02: BLURRED WORK-LIFE BOUNDARIES",
+                    "point_vi": "Ranh giới bị xóa nhòa giữa công việc và đời sống gia đình dễ dẫn đến những xáo trộn và tranh cãi.",
+                    "point_en": "Furthermore, blurred boundaries between professional obligations and domestic life frequently cause friction.",
+                    "evidence_vi": "Trẻ nhỏ khó phân biệt giữa lúc cha mẹ làm việc và lúc nghỉ ngơi, dẫn đến việc ngắt quãng bất ngờ và gây ra hiểu lầm không đáng có.",
+                    "evidence_en": "Young children struggle to recognize when parents are working, leading to untimely disruptions and mutual frustration.",
                     "collocations": [
                       {
-                        "en": "parental stress levels",
-                        "vi": "mức độ căng thẳng của cha mẹ"
+                        "en": "blurred boundaries",
+                        "vi": "ranh giới mờ nhạt"
                       },
                       {
-                        "en": "overwhelmed by deadlines",
-                        "vi": "bị quá tải bởi các hạn chót"
+                        "en": "professional obligations",
+                        "vi": "nghĩa vụ nghề nghiệp"
                       },
                       {
-                        "en": "prone to irritability",
-                        "vi": "dễ nổi cáu, bực dọc"
+                        "en": "untimely disruptions",
+                        "vi": "những sự ngắt quãng không đúng lúc"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "NEGATIVE EFFECT 03: ACCUMULATED PARENTAL STRESS",
+                    "point_vi": "Gánh nặng công việc tại nhà làm tăng mức độ căng thẳng và kiệt sức ở các bậc phụ huynh.",
+                    "point_en": "Lastly, balancing office deadlines with household duties can substantially elevate parental stress.",
+                    "evidence_vi": "Áp lực tích tụ kéo dài làm suy giảm sự kiên nhẫn của cha mẹ, khiến họ dễ nảy sinh sự bực bội và cáu gắt trong giao tiếp với con.",
+                    "evidence_en": "Persistent fatigue often erodes parents' patience, which can result in irritability and strained family communication.",
+                    "collocations": [
+                      {
+                        "en": "elevate parental stress",
+                        "vi": "làm gia tăng căng thẳng ở cha mẹ"
+                      },
+                      {
+                        "en": "erode patience",
+                        "vi": "làm xói mòn sự kiên nhẫn"
+                      },
+                      {
+                        "en": "strained family communication",
+                        "vi": "giao tiếp gia đình bị căng thẳng"
                       }
                     ]
                   }
                 ]
               },
-              "sample_b1": "In modern life, <strong>working from home</strong> has become increasingly common due to advances in technology. While this working arrangement offers more flexibility for employees, it also influences family life in various ways. In particular, telecommuting has both positive and negative effects on the relationship between parents and their children. <strong>This essay will discuss both sides of this trend.</strong>\n\n<strong>On the one hand, working from home brings several important benefits to parent–child relationships.</strong> First, <strong><em>it allows parents to support their children's studies better</em></strong>. Parents are at home to help their kids with difficult homework and monitor their learning progress regularly. Second, <strong><em>parents' presence at home makes children feel safer and more cared for</em></strong>. Children know that their parents are always nearby, so they can easily share their worries or personal problems. As a result, this close contact helps children become more confident and emotionally secure.\n\n<strong>On the other hand, working from home can also create several negative effects.</strong> The first drawback is that <strong><em>it can blur the boundary between work and family life</em></strong>. Young children often think parents are always free to play, so they might disturb their parents during work hours, causing misunderstandings and arguments. Furthermore, <strong><em>work pressure at home can make parents tired and irritable</em></strong>. When juggling strict work deadlines and childcare duties, parents easily experience stress and lose their patience with their children over minor issues.\n\nIn conclusion, working from home has both positive and negative influences on parent–child relationships. It provides more opportunities for academic guidance and emotional bonding, but it can also blur work-life boundaries and raise parental stress. Therefore, parents should set clear working hours to balance their career and family happiness.",
-              "translation_b1": "Trong đời sống hiện đại, làm việc tại nhà đã trở nên ngày càng phổ biến nhờ vào những tiến bộ trong công nghệ. Mặc dù hình thức làm việc này mang lại sự linh hoạt hơn cho người lao động, nó cũng ảnh hưởng đến cuộc sống gia đình theo nhiều cách khác nhau. Đặc biệt, làm việc từ xa mang lại cả tác động tích cực lẫn tiêu cực đối với mối quan hệ giữa cha mẹ và con cái. Bài viết này sẽ thảo luận về cả hai mặt của xu hướng này.\n\nMột mặt, làm việc tại nhà mang lại một số lợi ích quan trọng cho mối quan hệ giữa cha mẹ và con cái. Trước hết, nó cho phép cha mẹ hỗ trợ việc học của con tốt hơn. Cha mẹ có mặt ở nhà để giúp con làm bài tập khó và theo dõi tiến độ học tập của con thường xuyên. Thứ hai, sự hiện diện của cha mẹ ở nhà giúp trẻ cảm thấy an toàn và được quan tâm hơn. Trẻ biết rằng cha mẹ luôn ở gần bên, vì vậy các em có thể dễ dàng chia sẻ những lo lắng hoặc vấn đề cá nhân của mình. Kết quả là sự tiếp xúc gần gũi này giúp trẻ trở nên tự tin và yên tâm hơn về mặt cảm xúc.\n\nMặt khác, làm việc tại nhà cũng có thể tạo ra một số tác động tiêu cực. Hạn chế đầu tiên là nó có thể làm mờ ranh giới giữa công việc và cuộc sống gia đình. Trẻ nhỏ thường nghĩ rằng cha mẹ luôn rảnh rỗi để chơi đùa, vì vậy các em có thể làm phiền cha mẹ trong giờ làm việc, gây ra những hiểu lầm và tranh cãi. Hơn nữa, áp lực công việc tại nhà có thể khiến cha mẹ mệt mỏi và cáu kỉnh. Khi phải xoay xở giữa các hạn chót công việc khắt khe và trách nhiệm chăm sóc con cái, cha mẹ dễ bị căng thẳng và mất kiên nhẫn với con vì những vấn đề nhỏ nhặt.\n\nTóm lại, làm việc tại nhà có cả ảnh hưởng tích cực và tiêu cực đến mối quan hệ giữa cha mẹ và con cái. Nó mang lại nhiều cơ hội hơn để định hướng học tập và gắn kết tình cảm, nhưng nó cũng có thể xóa nhòa ranh giới công việc - cuộc sống và làm tăng áp lực cho cha mẹ. Vì vậy, các bậc cha mẹ nên thiết lập giờ làm việc rõ ràng để cân bằng giữa sự nghiệp và hạnh phúc gia đình.",
-              "sample_b2": "In contemporary society, <strong>working from home</strong> has gained immense popularity, profoundly altering traditional employment patterns. While remote work provides professionals with greater flexibility and eliminates the daily commute, its influence on domestic life is twofold. Specifically, telecommuting exerts both positive and negative effects on the dynamics between parents and their children. <strong>This essay will critically examine both dimensions of this phenomenon.</strong>\n\n<strong>On the one hand, telecommuting offers notable advantages that foster closer family bonds.</strong> First and foremost, <strong><em>remote work enables parents to support their children's education more effectively</em></strong>. Caregivers are physically present to assist with difficult homework assignments and promptly identify academic areas where their children struggle. Additionally, <strong><em>parents' regular presence at home fosters a strong sense of emotional security for children</em></strong>. Youngsters feel reassured knowing their parents are accessible, which encourages them to share personal concerns openly and develop greater self-confidence.\n\n<strong>On the other hand, remote working also introduces tangible drawbacks that can strain parent–child relationships.</strong> A major concern is that <strong><em>telecommuting can blur the boundary between professional duties and domestic life</em></strong>. Young children often fail to realize when parents are occupied with urgent tasks, leading to accidental interruptions, parental frustration, and domestic tension. Furthermore, <strong><em>managing both job demands and household responsibilities substantially increases parental stress levels</em></strong>. When overwhelmed by tight project deadlines and childcare obligations, exhausted parents become prone to irritability, often losing their patience when interacting with their children.\n\nIn conclusion, working from home yields both beneficial and adverse consequences for parent–child connections. While it facilitates educational guidance and emotional closeness, it also risks blurring professional boundaries and escalating household stress. Therefore, remote-working parents must establish clear working schedules and maintain open communication to maximize the benefits while safeguarding family harmony.",
-              "translation_b2": "Trong xã hội đương đại, làm việc tại nhà đã trở nên vô cùng phổ biến, làm thay đổi sâu sắc các mô hình việc làm truyền thống. Mặc dù làm việc từ xa mang lại sự linh hoạt hơn cho các chuyên gia và loại bỏ việc đi lại hằng ngày, ảnh hưởng của nó đối với đời sống gia đình mang tính hai mặt. Cụ thể, làm việc từ xa mang lại cả tác động tích cực lẫn tiêu cực đối với sự tương tác giữa cha mẹ và con cái. Bài viết này sẽ phân tích chuyên sâu cả hai khía cạnh của hiện tượng này.\n\nMột mặt, làm việc từ xa mang lại những lợi ích đáng kể giúp thắt chặt tình cảm gia đình. Trước hết, làm việc từ xa tạo điều kiện để cha mẹ hỗ trợ việc học của con hiệu quả hơn. Những người chăm sóc có mặt trực tiếp để giúp đỡ các bài tập về nhà khó và kịp thời nhận diện các môn học mà con gặp trở ngại. Thêm vào đó, sự hiện diện thường xuyên của cha mẹ tại nhà mang lại cảm giác an toàn vững chắc về mặt cảm xúc cho con trẻ. Trẻ nhỏ cảm thấy yên lòng khi biết cha mẹ luôn ở gần, điều này khuyến khích các em cởi mở chia sẻ những lo lắng cá nhân và phát triển sự tự tin lớn hơn.\n\nMặt khác, làm việc từ xa cũng gây ra những bất lợi rõ rệt có thể làm căng thẳng mối quan hệ giữa cha mẹ và con cái. Một mối lo ngại lớn là làm việc từ xa có thể làm xóa nhòa ranh giới giữa nghĩa vụ nghề nghiệp và đời sống gia đình. Trẻ nhỏ thường không nhận thức được khi nào cha mẹ đang bận rộn với các nhiệm vụ khẩn cấp, dẫn đến những sự quấy rầy vô tình, sự bực dọc của cha mẹ và căng thẳng gia đình. Hơn nữa, việc vừa giải quyết các yêu cầu công việc vừa lo việc gia đình làm gia tăng đáng kể mức độ căng thẳng của phụ huynh. Khi bị quá tải bởi các hạn chót dự án gấp rút và nghĩa vụ chăm sóc con cái, những phụ huynh kiệt sức trở nên dễ nổi cáu, thường mất kiên nhẫn khi tương tác với con cái.\n\nTóm lại, làm việc tại nhà mang lại cả những hệ quả có lợi và bất lợi đối với mối quan hệ giữa cha mẹ và con cái. Mặc dù nó tạo điều kiện cho việc định hướng học tập và sự gần gũi cảm xúc, nó cũng có nguy cơ xóa nhòa ranh giới công việc và làm gia tăng căng thẳng gia đình. Do đó, các bậc cha mẹ làm việc từ xa phải thiết lập lịch làm việc rõ ràng và duy trì giao tiếp cởi mở để tối đa hóa các lợi ích đồng thời giữ gìn sự hòa thuận trong gia đình.",
+              "sample_b1": "In recent years, working from home has become increasingly common due to modern technology. While this arrangement allows parents to spend more time with their family, it can affect parent–child relationships in both positive and negative ways.\n\nOn the one hand, remote work brings three clear benefits to the relationship between parents and children. First, parents can support their children's education better because they are ready to help with difficult homework and notice learning problems early. Second, staying at home helps parents understand their children's daily habits and behaviors more deeply by observing their everyday activities. Finally, children often feel safer and more loved because their parents are always nearby, which encourages young people to share their feelings and personal worries openly.\n\nOn the other hand, working from home also causes certain negative consequences. To begin with, parents may pay less attention to their children because they have to focus on computers and attend virtual meetings for long hours. In addition, young children often find it difficult to recognize the boundary between work and family life, so they might disturb their parents during important work hours. Lastly, this working style can increase mental pressure on parents, as managing office deadlines while doing housework often makes them tired and easily irritable toward their kids.\n\nIn conclusion, working from home influences parent–child relationships in both beneficial and harmful ways. While it offers better academic support and emotional security, it can also lead to reduced attention and higher parental stress. Therefore, parents need to manage their time wisely to build a healthy relationship with their children.",
+              "translation_b1": "Những năm gần đây, làm việc tại nhà đã trở nên ngày càng phổ biến nhờ vào công nghệ hiện đại. Mặc dù sự sắp xếp này cho phép cha mẹ dành nhiều thời gian hơn cho gia đình, nhưng nó có thể ảnh hưởng đến mối quan hệ giữa cha mẹ và con cái theo cả hai hướng tích cực và tiêu cực.\n\nMột mặt, làm việc từ xa mang lại ba lợi ích rõ ràng cho mối quan hệ giữa cha mẹ và con cái. Thứ nhất, cha mẹ có thể hỗ trợ việc học của con tốt hơn vì họ luôn sẵn sàng giúp đỡ các bài tập khó và sớm nhận thấy những khó khăn trong học tập. Thứ hai, ở nhà giúp cha mẹ hiểu sâu sắc hơn về thói quen và hành vi hằng ngày của con thông qua việc quan sát các hoạt động thường nhật của con. Cuối cùng, trẻ thường cảm thấy an toàn và được yêu thương hơn vì cha mẹ luôn ở gần, điều này khuyến khích các em cởi mở chia sẻ những cảm xúc và nỗi lo lắng cá nhân.\n\nMặt khác, làm việc tại nhà cũng gây ra một số hậu quả tiêu cực nhất định. Trước hết, cha mẹ có thể ít chú ý đến con cái hơn vì họ phải tập trung vào máy tính và tham gia các cuộc họp trực tuyến trong nhiều giờ. Thêm vào đó, trẻ nhỏ thường cảm thấy khó nhận biết ranh giới giữa công việc và đời sống gia đình, nên các em có thể làm phiền cha mẹ trong những giờ làm việc quan trọng. Cuối cùng, phong cách làm việc này có thể làm tăng áp lực tinh thần cho cha mẹ, vì việc vừa phải lo deadline công việc vừa làm việc nhà thường khiến họ mệt mỏi và dễ cáu gắt với con cái.\n\nTóm lại, làm việc tại nhà ảnh hưởng đến mối quan hệ giữa cha mẹ và con cái theo cả hai cách có lợi và có hại. Dù nó mang lại sự hỗ trợ học tập tốt hơn và cảm giác an toàn về mặt cảm xúc, nó cũng có thể dẫn đến việc giảm sự chú ý và gia tăng căng thẳng cho cha mẹ. Vì vậy, cha mẹ cần quản lý thời gian một cách khôn ngoan để xây dựng một mối quan hệ lành mạnh với con cái.",
+              "sample_b2": "In recent years, the rise of remote work has transformed traditional employment patterns across the globe. While telecommuting offers parents greater flexibility to be around their families, it exerts both positive and negative effects on parent–child relationships.\n\nOn the positive side, working from home significantly strengthens family bonds in several key ways. First, parents can support their children's academic progress more effectively, as they are accessible to assist with homework and identify learning obstacles promptly. This timely guidance helps children stay motivated and perform better in their studies. Second, home-based working provides parents with deeper insights into their children's daily routines and behavior through regular observation. Finally, constant parental presence gives children a reassuring sense of security and emotional support, which encourages them to communicate openly about their personal challenges.\n\nConversely, telecommuting also introduces several noteworthy challenges into family dynamics. Most notably, parents may inadvertently diminish direct attention and engagement with their children when they are absorbed in demanding digital tasks and virtual conferences. Furthermore, the blurred boundary between professional obligations and domestic life frequently confuses young children, leading to untimely disruptions and mutual frustration. Lastly, attempting to meet job deadlines while managing household duties can substantially elevate parental stress, which often erodes patience and results in strained interactions with children.\n\nIn conclusion, working from home influences the relationship between parents and children both positively and negatively. Although it fosters educational assistance, deeper behavioral insights, and emotional warmth, it also risks professional distractions and elevated parental stress. Ultimately, establishing clear boundaries between work and family time is essential to maximizing the benefits of this modern working arrangement.",
+              "translation_b2": "Trong những năm gần đây, sự gia tăng của làm việc từ xa đã làm thay đổi các phương thức làm việc truyền thống trên toàn thế giới. Mặc dù làm việc tại nhà mang lại cho cha mẹ sự linh hoạt hơn để ở cạnh gia đình, nó tạo ra cả những tác động tích cực lẫn tiêu cực đến mối quan hệ giữa cha mẹ và con cái.\n\nVề mặt tích cực, làm việc tại nhà củng cố đáng kể các mối liên kết gia đình theo một vài cách thức chủ đạo. Thứ nhất, các bậc phụ huynh có thể hỗ trợ tiến độ học tập của con em mình hiệu quả hơn, vì họ luôn có mặt để trợ giúp bài tập về nhà và kịp thời phát hiện những trở ngại học tập. Sự hướng dẫn kịp thời này giúp trẻ duy trì động lực và học tập tốt hơn ở trường. Thứ hai, làm việc tại nhà mang lại cho cha mẹ những hiểu biết sâu sắc hơn về nề nếp và hành vi hằng ngày của con thông qua việc quan sát thường xuyên. Cuối cùng, sự hiện diện thường trực của cha mẹ mang lại cho trẻ cảm giác an tâm và được nâng đỡ về mặt tinh thần, điều này khuyến khích các em cởi mở giãi bày về những thử thách cá nhân.\n\nNgược lại, làm việc từ xa cũng mang lại một số thách thức đáng lưu ý đối với đời sống gia đình. Đáng chú ý nhất, cha mẹ có thể vô tình làm suy giảm sự chú ý và tương tác trực tiếp với con cái khi họ bị cuốn vào các nhiệm vụ kỹ thuật số đòi hỏi cao và những buổi họp trực tuyến. Hơn nữa, ranh giới bị xóa nhòa giữa nghĩa vụ nghề nghiệp và đời sống gia đình thường khiến trẻ nhỏ bối rối, dẫn đến những sự ngắt quãng không đúng lúc và sự bực bội lẫn nhau. Cuối cùng, việc nỗ lực hoàn thành hạn chót công việc trong khi vẫn phải quán xuyến việc nhà có thể làm gia tăng đáng kể áp lực cho cha mẹ, điều này thường làm xói mòn sự kiên nhẫn và dẫn đến những tương tác căng thẳng với con cái.\n\nTóm lại, làm việc tại nhà tác động đến mối quan hệ giữa cha mẹ và con cái theo cả hai chiều hướng thuận lợi và bất lợi. Dù nó thúc đẩy sự hỗ trợ giáo dục, sự thấu hiểu sâu sắc hơn về hành vi và sự ấm áp về mặt cảm xúc, nó cũng tiềm ẩn nguy cơ gây xao nhãng công việc và gia tăng mức độ căng thẳng cho các bậc phụ huynh. Suy cho cùng, việc thiết lập những ranh giới rõ ràng giữa công việc và thời gian dành cho gia đình là điều tối quan trọng để tối đa hóa những lợi ích của hình thức làm việc hiện đại này.",
               "vocab_step": {
-                "theme": "Làm việc tại nhà: Cả tích cực và tiêu cực (WFH - Both Sides)",
+                "theme": [
+                  {
+                    "phrase": "working from home",
+                    "vi": "làm việc tại nhà"
+                  },
+                  {
+                    "phrase": "parent-child relationship",
+                    "vi": "mối quan hệ giữa cha mẹ và con cái"
+                  },
+                  {
+                    "phrase": "academic support",
+                    "vi": "hỗ trợ học tập"
+                  },
+                  {
+                    "phrase": "daily habits and behavior",
+                    "vi": "thói quen và hành vi hằng ngày"
+                  },
+                  {
+                    "phrase": "emotional security",
+                    "vi": "cảm giác an toàn về mặt cảm xúc"
+                  },
+                  {
+                    "phrase": "virtual meetings",
+                    "vi": "các cuộc họp trực tuyến"
+                  },
+                  {
+                    "phrase": "blur the boundary",
+                    "vi": "xóa nhòa ranh giới"
+                  },
+                  {
+                    "phrase": "parental stress",
+                    "vi": "áp lực của cha mẹ"
+                  },
+                  {
+                    "phrase": "household chores",
+                    "vi": "việc nhà"
+                  },
+                  {
+                    "phrase": "family dynamics",
+                    "vi": "đời sống / sự tương tác trong gia đình"
+                  }
+                ],
                 "single_words": [
                   {
-                    "word": "homework",
-                    "ipa": "/ˈhəʊmwɜːk/",
+                    "word": "support",
+                    "ipa": "/səˈpɔːt/",
+                    "pos": "verb",
+                    "level": "B1",
+                    "vi": "hỗ trợ, giúp đỡ",
+                    "family": "supportive (adj)",
+                    "example_en": "Parents support children with homework.",
+                    "example_vi": "Cha mẹ hỗ trợ con làm bài tập."
+                  },
+                  {
+                    "word": "observe",
+                    "ipa": "/əbˈzɜːv/",
+                    "pos": "verb",
+                    "level": "B1",
+                    "vi": "quan sát",
+                    "family": "observation (n)",
+                    "example_en": "Parents observe how children study.",
+                    "example_vi": "Cha mẹ quan sát cách con học tập."
+                  },
+                  {
+                    "word": "behavior",
+                    "ipa": "/bɪˈheɪvjə/",
                     "pos": "noun",
                     "level": "B1",
-                    "vi": "bài tập về nhà",
-                    "family": "schoolwork (n)",
-                    "example_en": "Parents can help kids with homework in the evening.",
-                    "example_vi": "Cha mẹ có thể giúp con làm bài tập về nhà vào buổi tối."
+                    "vi": "hành vi, cách ứng xử",
+                    "family": "behave (v)",
+                    "example_en": "Notice any changes in behavior.",
+                    "example_vi": "Nhận ra bất kỳ thay đổi nào trong hành vi."
                   },
                   {
                     "word": "nearby",
@@ -32812,177 +32957,37 @@ const ESSAY_DATA = [
                     "vi": "ở gần bên",
                     "family": "near (prep)",
                     "example_en": "Children feel safe when parents are nearby.",
-                    "example_vi": "Trẻ cảm thấy an toàn khi cha mẹ ở gần bên."
-                  },
-                  {
-                    "word": "confident",
-                    "ipa": "/ˈkɒnfɪdənt/",
-                    "pos": "adj",
-                    "level": "B1",
-                    "vi": "tự tin",
-                    "family": "confidence (n)",
-                    "example_en": "Supportive parents make children more confident.",
-                    "example_vi": "Cha mẹ hay ủng hộ giúp con tự tin hơn."
-                  },
-                  {
-                    "word": "boundary",
-                    "ipa": "/ˈbaʊndri/",
-                    "pos": "noun",
-                    "level": "B1",
-                    "vi": "ranh giới",
-                    "family": "bound (v)",
-                    "example_en": "Clear boundaries help keep family life peaceful.",
-                    "example_vi": "Ranh giới rõ ràng giúp giữ cho cuộc sống gia đình yên bình."
+                    "example_vi": "Trẻ cảm thấy an toàn khi cha mẹ ở gần."
                   },
                   {
                     "word": "disturb",
                     "ipa": "/dɪˈstɜːb/",
                     "pos": "verb",
                     "level": "B1",
-                    "vi": "làm phiền",
+                    "vi": "làm phiền, quấy rầy",
                     "family": "disturbance (n)",
-                    "example_en": "Kids should not disturb parents during phone calls.",
-                    "example_vi": "Trẻ không nên làm phiền cha mẹ trong lúc gọi điện."
-                  },
-                  {
-                    "word": "pressure",
-                    "ipa": "/ˈpreʃə/",
-                    "pos": "noun",
-                    "level": "B1",
-                    "vi": "áp lực",
-                    "family": "press (v)",
-                    "example_en": "Work pressure causes tiredness for many workers.",
-                    "example_vi": "Áp lực công việc gây ra sự mệt mỏi cho nhiều người lao động."
-                  },
-                  {
-                    "word": "patient",
-                    "ipa": "/ˈpeɪʃnt/",
-                    "pos": "adj",
-                    "level": "B1",
-                    "vi": "kiên nhẫn",
-                    "family": "patience (n)",
-                    "example_en": "Be patient when teaching young children.",
-                    "example_vi": "Hãy kiên nhẫn khi dạy trẻ nhỏ."
-                  },
-                  {
-                    "word": "share",
-                    "ipa": "/ʃeə/",
-                    "pos": "verb",
-                    "level": "B1",
-                    "vi": "chia sẻ",
-                    "family": "sharing (n)",
-                    "example_en": "Children need to share their feelings openly.",
-                    "example_vi": "Trẻ em cần cởi mở chia sẻ cảm xúc của mình."
-                  },
-                  {
-                    "word": "secure",
-                    "ipa": "/sɪˈkjʊə/",
-                    "pos": "adj",
-                    "level": "B1",
-                    "vi": "an toàn, yên tâm",
-                    "family": "security (n)",
-                    "example_en": "A loving home helps kids feel secure.",
-                    "example_vi": "Một gia đình yêu thương giúp trẻ cảm thấy yên tâm."
-                  },
-                  {
-                    "word": "exhausted",
-                    "ipa": "/ɪɡˈzɔːstɪd/",
-                    "pos": "adj",
-                    "level": "B1",
-                    "vi": "kiệt sức",
-                    "family": "exhaustion (n)",
-                    "example_en": "Parents feel exhausted after working and cooking.",
-                    "example_vi": "Cha mẹ cảm thấy kiệt sức sau khi vừa làm việc vừa nấu nướng."
-                  },
-                  {
-                    "word": "balance",
-                    "ipa": "/ˈbæləns/",
-                    "pos": "verb/noun",
-                    "level": "B1",
-                    "vi": "cân bằng",
-                    "family": "balanced (adj)",
-                    "example_en": "Try to balance your work and family time.",
-                    "example_vi": "Hãy cố gắng cân bằng thời gian làm việc và gia đình."
+                    "example_en": "Children might disturb parents during work.",
+                    "example_vi": "Trẻ có thể làm phiền cha mẹ trong giờ làm."
                   },
                   {
                     "word": "deadline",
                     "ipa": "/ˈdedlaɪn/",
                     "pos": "noun",
                     "level": "B1",
-                    "vi": "hạn chót hoàn thành",
-                    "family": "line (n)",
-                    "example_en": "Employees must submit projects before the deadline.",
-                    "example_vi": "Nhân viên phải nộp dự án trước thời hạn."
+                    "vi": "hạn chót công việc",
+                    "family": "",
+                    "example_en": "Meeting deadlines causes high stress.",
+                    "example_vi": "Chạy kịp hạn chót gây áp lực lớn."
                   },
                   {
-                    "word": "twofold",
-                    "ipa": "/ˈtuːfəʊld/",
+                    "word": "irritable",
+                    "ipa": "/ˈɪrɪtəbl/",
                     "pos": "adj",
-                    "level": "B2",
-                    "vi": "gồm hai mặt, gấp đôi",
-                    "family": "fold (v)",
-                    "example_en": "The impact of working from home is twofold.",
-                    "example_vi": "Tác động của làm việc tại nhà mang tính hai mặt."
-                  },
-                  {
-                    "word": "accessible",
-                    "ipa": "/əkˈsesəbl/",
-                    "pos": "adj",
-                    "level": "B2",
-                    "vi": "dễ tiếp cận, luôn có mặt",
-                    "family": "access (n)",
-                    "example_en": "Parents are more accessible to their children at home.",
-                    "example_vi": "Cha mẹ dễ gần gũi với con cái hơn khi ở nhà."
-                  },
-                  {
-                    "word": "reassure",
-                    "ipa": "/ˌriːəˈʃʊə/",
-                    "pos": "verb",
-                    "level": "B2",
-                    "vi": "làm yên lòng, trấn an",
-                    "family": "reassurance (n)",
-                    "example_en": "A gentle hug can reassure an anxious child.",
-                    "example_vi": "Một cái ôm dịu dàng có thể làm yên lòng một đứa trẻ đang lo lắng."
-                  },
-                  {
-                    "word": "overwhelm",
-                    "ipa": "/ˌəʊvəˈwelm/",
-                    "pos": "verb",
-                    "level": "B2",
-                    "vi": "làm quá tải, ngập tràn",
-                    "family": "overwhelming (adj)",
-                    "example_en": "Heavy deadlines can overwhelm busy working parents.",
-                    "example_vi": "Hạn chót gấp rút có thể làm quá tải những phụ huynh bận rộn."
-                  },
-                  {
-                    "word": "interruption",
-                    "ipa": "/ˌɪntəˈrʌpʃn/",
-                    "pos": "noun",
-                    "level": "B2",
-                    "vi": "sự gián đoạn, làm phiền",
-                    "family": "interrupt (v)",
-                    "example_en": "Frequent interruptions reduce productivity during remote work.",
-                    "example_vi": "Sự gián đoạn thường xuyên làm giảm năng suất trong quá trình làm việc từ xa."
-                  },
-                  {
-                    "word": "irritability",
-                    "ipa": "/ˌɪrɪtəˈbɪləti/",
-                    "pos": "noun",
-                    "level": "B2",
-                    "vi": "sự cáu kỉnh, dễ nổi giận",
-                    "family": "irritable (adj)",
-                    "example_en": "Stress increases irritability and negative emotional reactions.",
-                    "example_vi": "Căng thẳng làm tăng sự cáu kỉnh và các phản ứng tiêu cực."
-                  },
-                  {
-                    "word": "harmony",
-                    "ipa": "/ˈhɑːməni/",
-                    "pos": "noun",
-                    "level": "B2",
-                    "vi": "sự hòa thuận, hòa hợp",
-                    "family": "harmonious (adj)",
-                    "example_en": "Mutual understanding preserves long-term family harmony.",
-                    "example_vi": "Sự thấu hiểu lẫn nhau gìn giữ hòa khí gia đình lâu dài."
+                    "level": "B1",
+                    "vi": "dễ cáu gắt, khó chịu",
+                    "family": "irritate (v)",
+                    "example_en": "Tired parents become irritable.",
+                    "example_vi": "Cha mẹ mệt mỏi dễ trở nên cáu gắt."
                   },
                   {
                     "word": "telecommuting",
@@ -32991,147 +32996,127 @@ const ESSAY_DATA = [
                     "level": "B2",
                     "vi": "làm việc từ xa",
                     "family": "telecommute (v)",
-                    "example_en": "Telecommuting transforms modern family routines.",
-                    "example_vi": "Làm việc từ xa làm thay đổi nếp sinh hoạt gia đình hiện đại."
+                    "example_en": "Telecommuting transforms modern working patterns.",
+                    "example_vi": "Làm việc từ xa làm thay đổi mô hình làm việc hiện đại."
+                  },
+                  {
+                    "word": "accessible",
+                    "ipa": "/əkˈsesəbl/",
+                    "pos": "adj",
+                    "level": "B2",
+                    "vi": "dễ tiếp cận, luôn có mặt",
+                    "family": "access (n/v)",
+                    "example_en": "Parents are accessible to help with questions.",
+                    "example_vi": "Cha mẹ luôn có mặt để giải đáp thắc mắc."
+                  },
+                  {
+                    "word": "insight",
+                    "ipa": "/ˈɪnsaɪt/",
+                    "pos": "noun",
+                    "level": "B2",
+                    "vi": "sự hiểu biết sâu sắc",
+                    "family": "insightful (adj)",
+                    "example_en": "Gain deeper insights into children's needs.",
+                    "example_vi": "Có được những hiểu biết sâu sắc hơn về nhu cầu của con."
+                  },
+                  {
+                    "word": "diminish",
+                    "ipa": "/dɪˈmɪnɪʃ/",
+                    "pos": "verb",
+                    "level": "B2",
+                    "vi": "làm suy giảm, thu nhỏ",
+                    "family": "diminution (n)",
+                    "example_en": "Distractions diminish direct attention.",
+                    "example_vi": "Sự xao nhãng làm giảm sự chú ý trực tiếp."
                   },
                   {
                     "word": "friction",
                     "ipa": "/ˈfrɪkʃn/",
                     "pos": "noun",
                     "level": "B2",
-                    "vi": "sự xích mích, căng thẳng",
-                    "family": "frictional (adj)",
-                    "example_en": "Clear communication avoids unnecessary domestic friction.",
-                    "example_vi": "Giao tiếp rõ ràng giúp tránh được sự xích mích gia đình không đáng có."
+                    "vi": "sự va chạm, bất đồng",
+                    "family": "",
+                    "example_en": "Blurred boundaries create unnecessary friction.",
+                    "example_vi": "Ranh giới mờ nhạt tạo ra những va chạm không đáng có."
                   },
                   {
-                    "word": "guidance",
-                    "ipa": "/ˈɡaɪdns/",
-                    "pos": "noun",
-                    "level": "B2",
-                    "vi": "sự định hướng, hướng dẫn",
-                    "family": "guide (v)",
-                    "example_en": "Children thrive under warm and steady parental guidance.",
-                    "example_vi": "Trẻ em phát triển tốt dưới sự định hướng ấm áp và vững vàng của cha mẹ."
-                  },
-                  {
-                    "word": "strain",
-                    "ipa": "/streɪn/",
-                    "pos": "verb/noun",
-                    "level": "B2",
-                    "vi": "làm căng thẳng, sự căng thẳng",
-                    "family": "strained (adj)",
-                    "example_en": "Unrealistic job demands can strain close personal relationships.",
-                    "example_vi": "Những yêu cầu công việc phi thực tế có thể làm căng thẳng các mối quan hệ thân thiết."
-                  },
-                  {
-                    "word": "safeguard",
-                    "ipa": "/ˈseɪfɡɑːd/",
+                    "word": "elevate",
+                    "ipa": "/ˈelɪveɪt/",
                     "pos": "verb",
                     "level": "B2",
-                    "vi": "bảo vệ, gìn giữ",
-                    "family": "safe (adj)",
-                    "example_en": "Parents must safeguard their children's emotional well-being.",
-                    "example_vi": "Cha mẹ phải bảo vệ sức khỏe tinh thần của con cái."
+                    "vi": "làm gia tăng, nâng cao",
+                    "family": "elevation (n)",
+                    "example_en": "Overwork can substantially elevate stress.",
+                    "example_vi": "Làm việc quá sức có thể làm gia tăng áp lực đáng kể."
+                  },
+                  {
+                    "word": "strained",
+                    "ipa": "/streɪnd/",
+                    "pos": "adj",
+                    "level": "B2",
+                    "vi": "căng thẳng, gượng gạo",
+                    "family": "strain (n/v)",
+                    "example_en": "Exhaustion leads to strained communication.",
+                    "example_vi": "Sự kiệt sức dẫn đến giao tiếp căng thẳng."
                   }
                 ]
               },
               "vocab": [
                 {
-                  "en": "homework",
-                  "vi": "bài tập về nhà"
+                  "en": "support",
+                  "vi": "hỗ trợ, giúp đỡ"
+                },
+                {
+                  "en": "observe",
+                  "vi": "quan sát"
+                },
+                {
+                  "en": "behavior",
+                  "vi": "hành vi, cách ứng xử"
                 },
                 {
                   "en": "nearby",
                   "vi": "ở gần bên"
                 },
                 {
-                  "en": "confident",
-                  "vi": "tự tin"
-                },
-                {
-                  "en": "boundary",
-                  "vi": "ranh giới"
-                },
-                {
                   "en": "disturb",
-                  "vi": "làm phiền"
-                },
-                {
-                  "en": "pressure",
-                  "vi": "áp lực"
-                },
-                {
-                  "en": "patient",
-                  "vi": "kiên nhẫn"
-                },
-                {
-                  "en": "share",
-                  "vi": "chia sẻ"
-                },
-                {
-                  "en": "secure",
-                  "vi": "an toàn, yên tâm"
-                },
-                {
-                  "en": "exhausted",
-                  "vi": "kiệt sức"
-                },
-                {
-                  "en": "balance",
-                  "vi": "cân bằng"
+                  "vi": "làm phiền, quấy rầy"
                 },
                 {
                   "en": "deadline",
-                  "vi": "hạn chót hoàn thành"
+                  "vi": "hạn chót công việc"
                 },
                 {
-                  "en": "twofold",
-                  "vi": "gồm hai mặt, gấp đôi"
-                },
-                {
-                  "en": "accessible",
-                  "vi": "dễ tiếp cận, luôn có mặt"
-                },
-                {
-                  "en": "reassure",
-                  "vi": "làm yên lòng, trấn an"
-                },
-                {
-                  "en": "overwhelm",
-                  "vi": "làm quá tải, ngập tràn"
-                },
-                {
-                  "en": "interruption",
-                  "vi": "sự gián đoạn, làm phiền"
-                },
-                {
-                  "en": "irritability",
-                  "vi": "sự cáu kỉnh, dễ nổi giận"
-                },
-                {
-                  "en": "harmony",
-                  "vi": "sự hòa thuận, hòa hợp"
+                  "en": "irritable",
+                  "vi": "dễ cáu gắt, khó chịu"
                 },
                 {
                   "en": "telecommuting",
                   "vi": "làm việc từ xa"
                 },
                 {
+                  "en": "accessible",
+                  "vi": "dễ tiếp cận, luôn có mặt"
+                },
+                {
+                  "en": "insight",
+                  "vi": "sự hiểu biết sâu sắc"
+                },
+                {
+                  "en": "diminish",
+                  "vi": "làm suy giảm, thu nhỏ"
+                },
+                {
                   "en": "friction",
-                  "vi": "sự xích mích, căng thẳng"
+                  "vi": "sự va chạm, bất đồng"
                 },
                 {
-                  "en": "guidance",
-                  "vi": "sự định hướng, hướng dẫn"
+                  "en": "elevate",
+                  "vi": "làm gia tăng, nâng cao"
                 },
                 {
-                  "en": "strain",
-                  "vi": "làm căng thẳng, sự căng thẳng"
-                },
-                {
-                  "en": "safeguard",
-                  "vi": "bảo vệ, gìn giữ"
+                  "en": "strained",
+                  "vi": "căng thẳng, gượng gạo"
                 }
               ]
             }
