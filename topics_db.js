@@ -29445,7 +29445,870 @@ const ESSAY_DATA = [
         "tags": "[Effects & Solutions]",
         "context": "Effective communication between schools, teachers, and parents plays an important role in supporting students' academic performance and personal development. Through regular communication, parents can stay informed about their children's progress, while schools and teachers can better understand students' needs and challenges. However, ineffective communication may lead to misunderstandings, reduced cooperation, and difficulties in addressing educational issues.",
         "prompt": "Write an essay to an educated reader to discuss the effects of communication between schools/teachers and parents and suggest possible solutions to improve it. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "EFFECT 01",
+                "point_vi": "Giúp phụ huynh hiểu rõ hơn về tình hình học tập của con.",
+                "point_en": "First, good communication helps parents understand their children's studies better.",
+                "evidence_vi": "Thông qua việc trao đổi thường xuyên với giáo viên, phụ huynh có thể biết được kết quả học tập, điểm mạnh và những khó khăn của con, từ đó có thể hỗ trợ con kịp thời.",
+                "evidence_en": "Through regular talks with teachers, parents can know their children's results, strengths, and difficulties, so they can give timely support.",
+                "collocations": [
+                  {
+                    "en": "understand their children's studies better",
+                    "vi": "hiểu việc học của con tốt hơn"
+                  },
+                  {
+                    "en": "regular talks with teachers",
+                    "vi": "những cuộc trao đổi thường xuyên với giáo viên"
+                  },
+                  {
+                    "en": "know their children's results",
+                    "vi": "biết kết quả học tập của con"
+                  },
+                  {
+                    "en": "give timely support",
+                    "vi": "hỗ trợ con kịp thời"
+                  }
+                ]
+              },
+              {
+                "title": "EFFECT 02",
+                "point_vi": "Giúp giáo viên hiểu rõ hơn về nhu cầu và vấn đề của học sinh.",
+                "point_en": "Second, it helps teachers better understand students' needs and problems.",
+                "evidence_vi": "Phụ huynh có thể cung cấp thông tin về thói quen, hoàn cảnh hoặc những khó khăn của con ở nhà, giúp giáo viên hiểu học sinh hơn và đưa ra cách hỗ trợ phù hợp.",
+                "evidence_en": "Parents can share information about children's habits and difficulties at home, so teachers can choose suitable ways to help each student.",
+                "collocations": [
+                  {
+                    "en": "understand students' needs and problems",
+                    "vi": "hiểu nhu cầu và vấn đề của học sinh"
+                  },
+                  {
+                    "en": "share information about children's habits",
+                    "vi": "chia sẻ thông tin về thói quen của con"
+                  },
+                  {
+                    "en": "difficulties at home",
+                    "vi": "những khó khăn ở nhà"
+                  },
+                  {
+                    "en": "choose suitable ways to help",
+                    "vi": "chọn cách phù hợp để giúp đỡ"
+                  }
+                ]
+              },
+              {
+                "title": "EFFECT 03",
+                "point_vi": "Tăng cường sự hợp tác giữa nhà trường và gia đình.",
+                "point_en": "Finally, frequent communication strengthens the cooperation between schools and families.",
+                "evidence_vi": "Khi giáo viên và phụ huynh thường xuyên trao đổi thông tin, hai bên có thể cùng giải quyết các vấn đề của học sinh và thống nhất cách hỗ trợ các em.",
+                "evidence_en": "When teachers and parents exchange updates regularly, both sides can solve students' problems together and agree on the best ways to support them.",
+                "collocations": [
+                  {
+                    "en": "strengthen the cooperation between schools and families",
+                    "vi": "tăng cường sự hợp tác giữa nhà trường và gia đình"
+                  },
+                  {
+                    "en": "exchange updates regularly",
+                    "vi": "trao đổi thông tin cập nhật thường xuyên"
+                  },
+                  {
+                    "en": "solve students' problems together",
+                    "vi": "cùng giải quyết các vấn đề của học sinh"
+                  },
+                  {
+                    "en": "agree on the best ways to support",
+                    "vi": "thống nhất những cách tốt nhất để hỗ trợ"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "SOLUTION 01",
+                "point_vi": "Tăng cường giao tiếp thường xuyên giữa giáo viên và phụ huynh.",
+                "point_en": "First, schools and teachers should maintain regular communication with parents.",
+                "evidence_vi": "Nhà trường có thể tổ chức các cuộc họp phụ huynh định kỳ và sử dụng email hoặc các nền tảng trực tuyến để cập nhật tình hình học tập của học sinh.",
+                "evidence_en": "Schools can organize regular parent-teacher meetings and use emails or online apps to update students' learning progress.",
+                "collocations": [
+                  {
+                    "en": "maintain regular communication",
+                    "vi": "duy trì liên lạc thường xuyên"
+                  },
+                  {
+                    "en": "organize regular parent-teacher meetings",
+                    "vi": "tổ chức họp phụ huynh định kỳ"
+                  },
+                  {
+                    "en": "use emails or online apps",
+                    "vi": "sử dụng email hoặc ứng dụng trực tuyến"
+                  },
+                  {
+                    "en": "update students' learning progress",
+                    "vi": "cập nhật tiến độ học tập của học sinh"
+                  }
+                ]
+              },
+              {
+                "title": "SOLUTION 02",
+                "point_vi": "Chia sẻ thông tin rõ ràng và kịp thời.",
+                "point_en": "Second, both teachers and parents need to share information clearly and quickly.",
+                "evidence_vi": "Giáo viên nên cung cấp thông tin cụ thể về kết quả học tập, hành vi và những khó khăn của học sinh, trong khi phụ huynh cũng nên phản hồi sớm khi con gặp vấn đề.",
+                "evidence_en": "Teachers should give specific details about grades, behavior, and challenges, and parents should also respond early when children face problems.",
+                "collocations": [
+                  {
+                    "en": "share information clearly and quickly",
+                    "vi": "chia sẻ thông tin rõ ràng và nhanh chóng"
+                  },
+                  {
+                    "en": "give specific details about grades and behavior",
+                    "vi": "cung cấp chi tiết cụ thể về điểm số và hành vi"
+                  },
+                  {
+                    "en": "respond early when children face problems",
+                    "vi": "phản hồi sớm khi con gặp vấn đề"
+                  }
+                ]
+              },
+              {
+                "title": "SOLUTION 03",
+                "point_vi": "Tổ chức các hoạt động hợp tác giữa nhà trường và phụ huynh.",
+                "point_en": "Finally, schools should organize cooperative activities for parents and teachers.",
+                "evidence_vi": "Nhà trường có thể tổ chức các buổi tư vấn, hội thảo hoặc hoạt động chung để giúp giáo viên và phụ huynh hiểu nhau hơn và cùng tìm cách hỗ trợ học sinh.",
+                "evidence_en": "Schools can hold workshops, counseling sessions, or joint events, so teachers and parents can understand each other better and find good ways to support students.",
+                "collocations": [
+                  {
+                    "en": "organize cooperative activities",
+                    "vi": "tổ chức các hoạt động hợp tác"
+                  },
+                  {
+                    "en": "hold workshops, counseling sessions, or joint events",
+                    "vi": "tổ chức hội thảo, buổi tư vấn hoặc sự kiện chung"
+                  },
+                  {
+                    "en": "understand each other better",
+                    "vi": "hiểu nhau hơn"
+                  },
+                  {
+                    "en": "find good ways to support students",
+                    "vi": "tìm cách tốt để hỗ trợ học sinh"
+                  }
+                ]
+              }
+            ]
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "EFFECT 01",
+                "point_vi": "Giao tiếp hiệu quả cung cấp cho phụ huynh cái nhìn sâu sắc và toàn diện về quá trình học tập của con.",
+                "point_en": "First and foremost, regular dialogue provides parents with comprehensive insights into their children's academic trajectory.",
+                "evidence_vi": "Bằng việc duy trì tương tác thường xuyên với nhà giáo dục, phụ huynh có thể đánh giá chuẩn xác điểm mạnh, điểm yếu và thái độ học tập của con, từ đó tạo điều kiện cho sự hỗ trợ kịp thời và mang tính xây dựng tại gia đình.",
+                "evidence_en": "By maintaining frequent interaction with educators, parents can accurately evaluate their children's academic strengths, weaknesses, and classroom performance, facilitating timely and constructive intervention at home.",
+                "collocations": [
+                  {
+                    "en": "comprehensive insights into academic trajectory",
+                    "vi": "cái nhìn toàn diện về quá trình học tập"
+                  },
+                  {
+                    "en": "frequent interaction with educators",
+                    "vi": "tương tác thường xuyên với giáo viên"
+                  },
+                  {
+                    "en": "evaluate academic strengths and weaknesses",
+                    "vi": "đánh giá điểm mạnh và điểm yếu học tập"
+                  },
+                  {
+                    "en": "facilitate timely and constructive intervention",
+                    "vi": "tạo điều kiện can thiệp kịp thời và mang tính xây dựng"
+                  }
+                ]
+              },
+              {
+                "title": "EFFECT 02",
+                "point_vi": "Sự trao đổi hai chiều giúp giáo viên thấu hiểu nhu cầu cá nhân hóa và các rào cản tâm lý của từng học sinh.",
+                "point_en": "Furthermore, effective exchange empowers teachers to better comprehend learners' individual needs and psychological challenges.",
+                "evidence_vi": "Người giám hộ có thể cung cấp bối cảnh quý báu về nền tảng gia đình, thói quen sinh hoạt và những áp lực tình cảm, cho phép giáo viên linh hoạt điều chỉnh phương pháp sư phạm và mang lại sự đồng hành tinh thần thiết thực.",
+                "evidence_en": "Caregivers can provide valuable context regarding family backgrounds, domestic habits, and emotional hurdles, enabling instructors to adapt pedagogical approaches and offer personalized pastoral support.",
+                "collocations": [
+                  {
+                    "en": "comprehend individual needs",
+                    "vi": "thấu hiểu các nhu cầu cá nhân"
+                  },
+                  {
+                    "en": "provide valuable context regarding family backgrounds",
+                    "vi": "cung cấp bối cảnh giá trị về hoàn cảnh gia đình"
+                  },
+                  {
+                    "en": "adapt pedagogical approaches",
+                    "vi": "điều chỉnh các phương pháp sư phạm"
+                  },
+                  {
+                    "en": "offer personalized pastoral support",
+                    "vi": "mang lại sự hỗ trợ tinh thần cá nhân hóa"
+                  }
+                ]
+              },
+              {
+                "title": "EFFECT 03",
+                "point_vi": "Giao tiếp chặt chẽ củng cố sức mạnh tổng hợp và thắt chặt mối quan hệ đồng hành giữa nhà trường và gia đình.",
+                "point_en": "Lastly, transparent communication consolidates institutional synergy and home-school partnerships.",
+                "evidence_vi": "Khi giáo viên và phụ huynh cùng duy trì đối thoại liên tục, hai bên có thể thiết lập các kỳ vọng tương đồng và hoạch định những chiến lược giáo dục nhất quán nhằm giải quyết triệt để các khó khăn học tập và hành vi của học sinh.",
+                "evidence_en": "When educators and parents engage in continuous dialogue, they can establish aligned expectations and formulate unified strategies to resolve behavioral or academic difficulties effectively.",
+                "collocations": [
+                  {
+                    "en": "consolidate home-school partnerships",
+                    "vi": "củng cố mối quan hệ đối tác gia đình - nhà trường"
+                  },
+                  {
+                    "en": "engage in continuous dialogue",
+                    "vi": "tham gia vào cuộc đối thoại liên tục"
+                  },
+                  {
+                    "en": "establish aligned expectations",
+                    "vi": "thiết lập những kỳ vọng tương đồng"
+                  },
+                  {
+                    "en": "formulate unified strategies",
+                    "vi": "hình thành các chiến lược thống nhất"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "SOLUTION 01",
+                "point_vi": "Thiết lập các kênh tương tác nhất quán và mang tính quy chuẩn giữa giáo viên và phụ huynh.",
+                "point_en": "To optimize communication, schools must establish consistent and institutionalized channels of interaction.",
+                "evidence_vi": "Cơ sở giáo dục nên lên lịch cho các hội nghị phụ huynh - giáo viên bài bản bên cạnh việc ứng dụng các cổng thông tin học sinh hiện đại để truyền tải thông tin học tập theo thời gian thực một cách liền mạch.",
+                "evidence_en": "Academic institutions should schedule structured parent-teacher conferences alongside modern mobile applications and student portals to deliver seamless real-time academic updates.",
+                "collocations": [
+                  {
+                    "en": "institutionalized channels of interaction",
+                    "vi": "các kênh tương tác mang tính quy chuẩn"
+                  },
+                  {
+                    "en": "structured parent-teacher conferences",
+                    "vi": "các buổi họp phụ huynh bài bản"
+                  },
+                  {
+                    "en": "modern mobile applications and student portals",
+                    "vi": "ứng dụng di động và cổng thông tin học sinh"
+                  },
+                  {
+                    "en": "seamless real-time academic updates",
+                    "vi": "cập nhật học tập theo thời gian thực liền mạch"
+                  }
+                ]
+              },
+              {
+                "title": "SOLUTION 02",
+                "point_vi": "Bảo đảm việc cung cấp thông tin minh bạch, mang tính xây dựng và phản hồi nhanh chóng từ cả hai phía.",
+                "point_en": "Another essential measure is to ensure that information dissemination is transparent, constructive, and prompt.",
+                "evidence_vi": "Giáo viên cần đưa ra những nhận xét cụ thể, khách quan về kết quả học tập và các mốc hành vi, trong khi phụ huynh cũng cần chủ động phản hồi sớm trước các khúc mắc phát sinh của con.",
+                "evidence_en": "Instructors ought to provide concrete, objective feedback on students' cognitive progress and behavioral milestones, while parents must actively reciprocate with prompt responses to arising issues.",
+                "collocations": [
+                  {
+                    "en": "ensure transparent and prompt information dissemination",
+                    "vi": "đảm bảo cung cấp thông tin minh bạch và kịp thời"
+                  },
+                  {
+                    "en": "provide concrete, objective feedback",
+                    "vi": "đưa ra phản hồi cụ thể và khách quan"
+                  },
+                  {
+                    "en": "actively reciprocate with prompt responses",
+                    "vi": "chủ động đáp lại bằng những phản hồi nhanh chóng"
+                  }
+                ]
+              },
+              {
+                "title": "SOLUTION 03",
+                "point_vi": "Tổ chức các hội thảo chuyên đề định hướng và hoạt động phối hợp để bồi đắp sự thấu hiểu lẫn nhau.",
+                "point_en": "Lastly, organizing collaborative workshops and orientation seminars is imperative to deepen mutual understanding.",
+                "evidence_vi": "Thông qua các diễn đàn tư vấn và chương trình gắn kết cộng đồng, nhà trường có thể bồi đắp mối quan hệ đồng cảm giữa giáo viên và phụ huynh, từ đó cùng cam kết hướng đến sự phát triển toàn diện của học sinh.",
+                "evidence_en": "By creating consultative forums and community volunteering programs, educational establishments can foster empathetic relationships between teachers and families, cultivating a shared commitment to student development.",
+                "collocations": [
+                  {
+                    "en": "collaborative workshops and orientation seminars",
+                    "vi": "hội thảo hợp tác và chuyên đề định hướng"
+                  },
+                  {
+                    "en": "deepen mutual understanding",
+                    "vi": "làm sâu sắc thêm sự thấu hiểu lẫn nhau"
+                  },
+                  {
+                    "en": "create consultative forums",
+                    "vi": "tạo ra các diễn đàn tham vấn"
+                  },
+                  {
+                    "en": "cultivate a shared commitment to student development",
+                    "vi": "bồi đắp cam kết chung đối với sự phát triển của học sinh"
+                  }
+                ]
+              }
+            ]
+          },
+          "vocab": [
+            {
+              "en": "regular dialogue with teachers",
+              "vi": "đối thoại thường xuyên với giáo viên"
+            },
+            {
+              "en": "understand children's progress",
+              "vi": "hiểu tiến độ học tập của con"
+            },
+            {
+              "en": "give timely support",
+              "vi": "hỗ trợ kịp thời"
+            },
+            {
+              "en": "understand students' needs",
+              "vi": "hiểu nhu cầu của học sinh"
+            },
+            {
+              "en": "share habits and difficulties",
+              "vi": "chia sẻ thói quen và khó khăn"
+            },
+            {
+              "en": "suitable pedagogical methods",
+              "vi": "phương pháp sư phạm phù hợp"
+            },
+            {
+              "en": "strengthen home-school cooperation",
+              "vi": "tăng cường hợp tác giữa gia đình và nhà trường"
+            },
+            {
+              "en": "solve educational issues together",
+              "vi": "cùng nhau giải quyết các vấn đề giáo dục"
+            },
+            {
+              "en": "regular parent-teacher conferences",
+              "vi": "hội nghị phụ huynh định kỳ"
+            },
+            {
+              "en": "mobile apps and student portals",
+              "vi": "ứng dụng di động và cổng thông tin học sinh"
+            },
+            {
+              "en": "real-time academic updates",
+              "vi": "cập nhật học tập theo thời gian thực"
+            },
+            {
+              "en": "share clear and timely feedback",
+              "vi": "chia sẻ phản hồi rõ ràng và kịp thời"
+            },
+            {
+              "en": "respond early to problems",
+              "vi": "phản hồi sớm trước các vấn đề"
+            },
+            {
+              "en": "collaborative workshops and events",
+              "vi": "hội thảo và sự kiện phối hợp"
+            },
+            {
+              "en": "consultative counseling sessions",
+              "vi": "các buổi tư vấn tham vấn"
+            },
+            {
+              "en": "deepen mutual understanding",
+              "vi": "làm sâu sắc thêm sự thấu hiểu lẫn nhau"
+            }
+          ],
+          "sample_b1": "In education today, <strong>communication between schools, teachers, and parents</strong> plays a vital role in supporting children's growth. When parents and teachers stay in touch, students can learn and develop in a positive environment. <strong>This essay will discuss three positive effects of regular communication and suggest three workable solutions to improve it.</strong>\n\n<strong>To begin with, effective communication brings three major benefits to students, parents, and teachers.</strong> First of all, <strong><em>good communication helps parents understand their children's studies better.</em></strong> Through regular talks with teachers, parents can know their children's results, strengths, and difficulties, so they can give timely support. In addition, <strong><em>it helps teachers better understand students' needs and problems.</em></strong> Parents can share information about children's habits and difficulties at home, so teachers can choose suitable ways to help each student. Finally, <strong><em>frequent communication strengthens the cooperation between schools and families.</em></strong> When teachers and parents exchange updates regularly, both sides can solve students' problems together and agree on the best ways to support them.\n\n<strong>To make this connection even stronger, three practical steps should be taken.</strong> The first solution is that <strong><em>schools and teachers should maintain regular communication with parents.</em></strong> Schools can organize regular parent-teacher meetings and use emails or online apps to update students' learning progress. Second, <strong><em>both teachers and parents need to share information clearly and quickly.</em></strong> Teachers should give specific details about grades, behavior, and challenges, and parents should also respond early when children face problems. Lastly, <strong><em>schools should organize cooperative activities for parents and teachers.</em></strong> Schools can hold workshops, counseling sessions, or joint events, so teachers and parents can understand each other better and find good ways to support students.\n\nIn conclusion, strong communication between families and schools helps parents follow learning progress, helps teachers guide students, and builds close teamwork. By holding frequent meetings, sharing clear updates, and organizing joint workshops, we can create the best learning environment for every child.",
+          "translation_b1": "Trong giáo dục hiện nay, <strong>sự giao tiếp giữa nhà trường, giáo viên và phụ huynh</strong> đóng vai trò thiết yếu trong việc hỗ trợ sự trưởng thành của học sinh. Khi cha mẹ và thầy cô giữ liên lạc, học sinh có thể học tập và phát triển trong một môi trường tích cực. <strong>Bài luận này sẽ thảo luận về ba tác động tích cực của việc giao tiếp thường xuyên và đề xuất ba giải pháp khả thi để nâng cao sự kết nối này.</strong>\n\n<strong>Trước hết, giao tiếp hiệu quả mang lại ba lợi ích to lớn cho học sinh, phụ huynh và giáo viên.</strong> Đầu tiên, <strong><em>giao tiếp tốt giúp phụ huynh hiểu rõ hơn về tình hình học tập của con.</em></strong> Thông qua việc trao đổi thường xuyên với giáo viên, phụ huynh có thể biết được kết quả học tập, điểm mạnh và những khó khăn của con, vì vậy họ có thể hỗ trợ con kịp thời. Thêm vào đó, <strong><em>nó giúp giáo viên hiểu rõ hơn về nhu cầu và vấn đề của học sinh.</em></strong> Phụ huynh có thể cung cấp thông tin về thói quen và khó khăn của con ở nhà, giúp giáo viên chọn ra cách hỗ trợ phù hợp cho từng học sinh. Cuối cùng, <strong><em>giao tiếp thường xuyên tăng cường sự hợp tác giữa nhà trường và gia đình.</em></strong> Khi giáo viên và phụ huynh thường xuyên trao đổi thông tin, hai bên có thể cùng giải quyết các vấn đề của học sinh và thống nhất cách hỗ trợ các em.\n\n<strong>Để làm cho sự gắn kết này ngày càng bền chặt, ba giải pháp thiết thực cần được thực hiện.</strong> Giải pháp đầu tiên là <strong><em>nhà trường và giáo viên nên duy trì giao tiếp thường xuyên với phụ huynh.</em></strong> Nhà trường có thể tổ chức các cuộc họp phụ huynh định kỳ và sử dụng email hoặc ứng dụng trực tuyến để cập nhật tình hình học tập của học sinh. Thứ hai, <strong><em>cả giáo viên và phụ huynh cần chia sẻ thông tin rõ ràng và nhanh chóng.</em></strong> Giáo viên nên cung cấp chi tiết cụ thể về kết quả học tập, hành vi và khó khăn, và phụ huynh cũng nên phản hồi sớm khi con gặp vấn đề. Cuối cùng, <strong><em>nhà trường nên tổ chức các hoạt động hợp tác cho phụ huynh và giáo viên.</em></strong> Nhà trường có thể tổ chức các buổi tư vấn, hội thảo hoặc hoạt động chung để giúp giáo viên và phụ huynh hiểu nhau hơn và cùng tìm ra cách tốt để hỗ trợ học sinh.\n\nTóm lại, sự giao tiếp chặt chẽ giữa gia đình và nhà trường giúp cha mẹ theo sát việc học, giúp giáo viên định hướng học sinh và xây dựng tinh thần phối hợp gắn kết. Bằng cách tổ chức các cuộc họp thường xuyên, chia sẻ thông tin rõ ràng và tổ chức các hội thảo chung, chúng ta có thể tạo ra môi trường học tập tốt nhất cho mọi đứa trẻ.",
+          "sample_b2": "In contemporary pedagogical discourse, the establishment of <strong>seamless communication between schools, educators, and parents</strong> is widely recognized as a foundational pillar of academic excellence and holistic youth development. While educational institutions provide structured curricular instruction, domestic environments significantly shape students' psychological well-being and study habits. <strong>This essay will critically analyze the profound impacts of constructive home-school communication and propose comprehensive solutions to optimize this collaborative partnership.</strong>\n\n<strong>On the one hand, robust home-school communication exerts transformative effects across multiple developmental dimensions.</strong> First and foremost, <strong><em>regular dialogue provides parents with comprehensive insights into their children's academic trajectory.</em></strong> By maintaining frequent interaction with educators, parents can accurately evaluate their children's academic strengths, weaknesses, and classroom performance, facilitating timely and constructive intervention at home. Furthermore, <strong><em>effective exchange empowers teachers to better comprehend learners' individual needs and psychological challenges.</em></strong> Caregivers can provide valuable context regarding family backgrounds, domestic habits, and emotional hurdles, enabling instructors to adapt pedagogical approaches and offer personalized pastoral support. Lastly, <strong><em>transparent communication consolidates institutional synergy and home-school partnerships.</em></strong> When educators and parents engage in continuous dialogue, they can establish aligned expectations and formulate unified strategies to resolve behavioral or academic difficulties effectively.\n\n<strong>On the other hand, bridging existing communicative divides requires strategic, multifaceted interventions from educational authorities and families alike.</strong> The primary imperative is that <strong><em>schools must establish consistent and institutionalized channels of interaction.</em></strong> Academic institutions should schedule structured parent-teacher conferences alongside modern mobile applications and student portals to deliver seamless real-time academic updates. In addition, <strong><em>another essential measure is to ensure that information dissemination is transparent, constructive, and prompt.</em></strong> Instructors ought to provide concrete, objective feedback on students' cognitive progress and behavioral milestones, while parents must actively reciprocate with prompt responses to arising issues. Ultimately, <strong><em>organizing collaborative workshops and orientation seminars is imperative to deepen mutual understanding.</em></strong> By creating consultative forums and community volunteering programs, educational establishments can foster empathetic relationships between teachers and families, cultivating a shared commitment to student development.\n\nIn conclusion, active communication between schools and households demystifies student challenges, empowers educators with domestic insights, and aligns institutional goals. By investing in modern digital portals, fostering transparent dialogues, and conducting joint consultative workshops, educational ecosystems can maximize student achievement and nurture well-rounded future citizens.",
+          "translation_b2": "Trong các nghiên cứu sư phạm đương đại, việc thiết lập <strong>sự giao tiếp liền mạch giữa nhà trường, giáo viên và phụ huynh</strong> được công nhận rộng rãi là trụ cột nền tảng cho sự xuất sắc trong học thuật và sự phát triển toàn diện của thanh thiếu niên. Trong khi các tổ chức giáo dục cung cấp chương trình giảng dạy bài bản, thì môi trường gia đình lại định hình sâu sắc thói quen học tập và sức khỏe tâm lý của học sinh. <strong>Bài luận này sẽ phân tích sâu sắc các tác động to lớn của việc giao tiếp mang tính xây dựng giữa gia đình và nhà trường, đồng thời đề xuất các giải pháp toàn diện nhằm tối ưu hóa mối quan hệ đối tác hợp tác này.</strong>\n\n<strong>Một mặt, sự giao tiếp chặt chẽ giữa gia đình và nhà trường tạo ra những tác động mang tính chuyển biến sâu sắc trên nhiều khía cạnh phát triển.</strong> Trước hết và quan trọng nhất, <strong><em>việc đối thoại thường xuyên cung cấp cho phụ huynh cái nhìn sâu sắc và toàn diện về quá trình học tập của con.</em></strong> Bằng cách duy trì tương tác thường xuyên với các nhà giáo dục, phụ huynh có thể đánh giá chuẩn xác điểm mạnh, điểm yếu học thuật và biểu hiện trên lớp của con, từ đó tạo điều kiện cho sự can thiệp kịp thời và mang tính xây dựng tại gia đình. Hơn nữa, <strong><em>sự trao đổi hiệu quả giúp giáo viên thấu hiểu nhu cầu cá nhân hóa và các rào cản tâm lý của từng học sinh.</em></strong> Người giám hộ có thể cung cấp bối cảnh quý báu về hoàn cảnh gia đình, thói quen sinh hoạt và những áp lực cảm xúc, cho phép giáo viên điều chỉnh các phương pháp sư phạm và mang lại sự hỗ trợ tinh thần cá nhân hóa. Cuối cùng, <strong><em>giao tiếp minh bạch củng cố sức mạnh đồng bộ và thắt chặt mối quan hệ đối tác giữa gia đình và nhà trường.</em></strong> Khi giáo viên và phụ huynh duy trì đối thoại liên tục, hai bên có thể thiết lập những kỳ vọng tương đồng và hoạch định những chiến lược thống nhất nhằm giải quyết triệt để các khó khăn học tập và hành vi của học sinh.\n\n<strong>Mặt khác, việc thu hẹp khoảng cách giao tiếp hiện nay đòi hỏi những giải pháp chiến lược, đa diện từ cả các cơ quan giáo dục lẫn gia đình.</strong> Mệnh lệnh hàng đầu là <strong><em>nhà trường phải thiết lập các kênh tương tác nhất quán và mang tính quy chuẩn.</em></strong> Các cơ sở đào tạo nên lên lịch cho các hội nghị phụ huynh - giáo viên bài bản bên cạnh việc ứng dụng các ứng dụng di động và cổng thông tin học sinh hiện đại để mang lại các bản cập nhật học tập theo thời gian thực một cách liền mạch. Ngoài ra, <strong><em>một biện pháp thiết yếu khác là bảo đảm việc cung cấp thông tin minh bạch, mang tính xây dựng và phản hồi nhanh chóng từ cả hai phía.</em></strong> Giáo viên cần đưa ra những nhận xét cụ thể, khách quan về sự tiến bộ nhận thức và các mốc hành vi, trong khi phụ huynh cũng cần chủ động đáp lại bằng các phản hồi sớm trước các vấn đề phát sinh. Cuối cùng, <strong><em>tổ chức các hội thảo hợp tác và chuyên đề định hướng là điều cấp thiết để làm sâu sắc thêm sự thấu hiểu lẫn nhau.</em></strong> Thông qua các diễn đàn tham vấn và chương trình tình nguyện cộng đồng, các cơ sở giáo dục có thể nuôi dưỡng mối quan hệ đồng cảm giữa giáo viên và gia đình, bồi đắp cam kết chung đối với sự phát triển của học sinh.\n\nTóm lại, sự giao tiếp tích cực giữa nhà trường và gia đình giúp làm sáng tỏ những thách thức của học sinh, trang bị cho giáo viên những góc nhìn gia đình quý giá và đồng bộ hóa các mục tiêu giáo dục. Bằng cách đầu tư vào các cổng thông tin số hiện đại, thúc đẩy đối thoại minh bạch và tổ chức các hội thảo tham vấn chung, hệ sinh thái giáo dục có thể tối đa hóa thành tích của học sinh và nuôi dưỡng những công dân tương lai toàn diện.",
+          "vocab_step": {
+            "theme": "Giao tiếp giữa nhà trường, giáo viên và phụ huynh (Communication between Schools, Teachers, and Parents)",
+            "single_words": [
+              {
+                "word": "communicate",
+                "ipa": "/kəˈmjuːnɪkeɪt/",
+                "pos": "verb",
+                "level": "B1",
+                "vi": "giao tiếp, liên lạc",
+                "family": "communication (n), communicative (adj)",
+                "example_en": "Teachers and parents should communicate regularly to help students succeed.",
+                "example_vi": "Giáo viên và phụ huynh nên giao tiếp thường xuyên để giúp học sinh thành công."
+              },
+              {
+                "word": "support",
+                "ipa": "/səˈpɔːt/",
+                "pos": "verb",
+                "level": "B1",
+                "vi": "hỗ trợ, giúp đỡ",
+                "family": "support (n), supportive (adj)",
+                "example_en": "Parents can give timely support when they know their child's difficulties.",
+                "example_vi": "Phụ huynh có thể hỗ trợ kịp thời khi biết được những khó khăn của con."
+              },
+              {
+                "word": "progress",
+                "ipa": "/ˈprəʊɡres/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "tiến độ, sự tiến bộ",
+                "family": "progressive (adj)",
+                "example_en": "Schools send monthly reports to update parents on learning progress.",
+                "example_vi": "Nhà trường gửi báo cáo hằng tháng để cập nhật cho phụ huynh về tiến độ học tập."
+              },
+              {
+                "word": "cooperate",
+                "ipa": "/kəʊˈɒpəreɪt/",
+                "pos": "verb",
+                "level": "B1",
+                "vi": "hợp tác, phối hợp",
+                "family": "cooperation (n), cooperative (adj)",
+                "example_en": "Families and schools need to cooperate to solve bad behavior early.",
+                "example_vi": "Gia đình và nhà trường cần phối hợp để giải quyết hành vi xấu từ sớm."
+              },
+              {
+                "word": "meeting",
+                "ipa": "/ˈmiːtɪŋ/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "cuộc họp",
+                "family": "meet (v)",
+                "example_en": "Attending parent-teacher meetings helps parents understand school life.",
+                "example_vi": "Tham dự các cuộc họp phụ huynh giúp cha mẹ hiểu rõ đời sống học đường."
+              },
+              {
+                "word": "strength",
+                "ipa": "/streŋkθ/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "điểm mạnh",
+                "family": "strengthen (v), strong (adj)",
+                "example_en": "Teachers help students discover their personal strengths in arts and science.",
+                "example_vi": "Giáo viên giúp học sinh khám phá những điểm mạnh cá nhân về nghệ thuật và khoa học."
+              },
+              {
+                "word": "difficulty",
+                "ipa": "/ˈdɪfɪkəlti/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "khó khăn, trở ngại",
+                "family": "difficult (adj)",
+                "example_en": "Sharing learning difficulties with teachers leads to faster solutions.",
+                "example_vi": "Chia sẻ những khó khăn trong học tập với giáo viên giúp tìm ra giải pháp nhanh hơn."
+              },
+              {
+                "word": "update",
+                "ipa": "/ʌpˈdeɪt/",
+                "pos": "verb",
+                "level": "B1",
+                "vi": "cập nhật",
+                "family": "update (n), updated (adj)",
+                "example_en": "Online platforms allow schools to update exam scores instantly.",
+                "example_vi": "Các nền tảng trực tuyến cho phép nhà trường cập nhật điểm thi ngay lập tức."
+              },
+              {
+                "word": "platform",
+                "ipa": "/ˈplætfɔːm/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "nền tảng, ứng dụng",
+                "family": "digital platforms (phr)",
+                "example_en": "Many schools use a mobile platform to message parents directly.",
+                "example_vi": "Nhiều trường học sử dụng nền tảng di động để nhắn tin trực tiếp cho phụ huynh."
+              },
+              {
+                "word": "respond",
+                "ipa": "/rɪˈspɒnd/",
+                "pos": "verb",
+                "level": "B1",
+                "vi": "phản hồi, trả lời",
+                "family": "response (n), responsive (adj)",
+                "example_en": "Parents should respond promptly when teachers ask for a conversation.",
+                "example_vi": "Phụ huynh nên phản hồi nhanh chóng khi giáo viên yêu cầu một cuộc trao đổi."
+              },
+              {
+                "word": "workshop",
+                "ipa": "/ˈwɜːkʃɒp/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "buổi hội thảo thực tế",
+                "family": "work (v/n)",
+                "example_en": "The school organized a parenting workshop on weekend mornings.",
+                "example_vi": "Nhà trường đã tổ chức một buổi hội thảo dành cho phụ huynh vào sáng cuối tuần."
+              },
+              {
+                "word": "suitable",
+                "ipa": "/ˈsuːtəbl/",
+                "pos": "adj",
+                "level": "B1",
+                "vi": "phù hợp, thích hợp",
+                "family": "suit (v), suitability (n)",
+                "example_en": "Finding suitable learning methods helps slow learners gain confidence.",
+                "example_vi": "Tìm kiếm phương pháp học phù hợp giúp học sinh tiếp thu chậm lấy lại tự tin."
+              },
+              {
+                "word": "synergy",
+                "ipa": "/ˈsɪnədʒi/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự phối hợp hiệp lực, sức mạnh tổng hợp",
+                "family": "synergistic (adj), synergize (v)",
+                "example_en": "Close home-school collaboration creates powerful educational synergy.",
+                "example_vi": "Sự hợp tác chặt chẽ giữa gia đình và nhà trường tạo ra sức mạnh hiệp lực giáo dục to lớn."
+              },
+              {
+                "word": "disseminate",
+                "ipa": "/dɪˈsemɪneɪt/",
+                "pos": "verb",
+                "level": "B2",
+                "vi": "phổ biến, truyền tải (thông tin)",
+                "family": "dissemination (n)",
+                "example_en": "Schools use digital portals to disseminate academic performance data.",
+                "example_vi": "Các trường học sử dụng cổng thông tin số để phổ biến dữ liệu kết quả học tập."
+              },
+              {
+                "word": "transparent",
+                "ipa": "/trænˈspærənt/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "minh bạch, rõ ràng",
+                "family": "transparency (n), transparently (adv)",
+                "example_en": "Transparent dialogue between mentors and families eliminates distrust.",
+                "example_vi": "Cuộc đối thoại minh bạch giữa người hướng dẫn và gia đình giúp xóa bỏ sự nghi kỵ."
+              },
+              {
+                "word": "reciprocate",
+                "ipa": "/rɪˈsɪprəkeɪt/",
+                "pos": "verb",
+                "level": "B2",
+                "vi": "đáp lại, phản hồi tương ứng",
+                "family": "reciprocal (adj), reciprocation (n)",
+                "example_en": "Parents must actively reciprocate teachers' efforts with proactive involvement.",
+                "example_vi": "Phụ huynh phải chủ động đáp lại nỗ lực của giáo viên bằng sự tham gia tích cực."
+              },
+              {
+                "word": "intervention",
+                "ipa": "/ˌɪntəˈvenʃn/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự can thiệp (hỗ trợ kịp thời)",
+                "family": "intervene (v), interventional (adj)",
+                "example_en": "Early parental intervention prevents teenagers from falling behind in class.",
+                "example_vi": "Sự can thiệp sớm của cha mẹ ngăn ngừa thanh thiếu niên bị tụt hậu trong lớp học."
+              },
+              {
+                "word": "pedagogical",
+                "ipa": "/ˌpedəˈɡɒdʒɪkl/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "thuộc sư phạm, phương pháp giảng dạy",
+                "family": "pedagogy (n)",
+                "example_en": "Educators continually adapt their pedagogical strategies to meet diverse needs.",
+                "example_vi": "Các nhà giáo dục liên tục điều chỉnh các chiến lược sư phạm để đáp ứng những nhu cầu đa dạng."
+              },
+              {
+                "word": "trajectory",
+                "ipa": "/trəˈdʒektəri/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "quỹ đạo, tiến trình phát triển",
+                "family": "developmental trajectory (phr)",
+                "example_en": "Parental engagement positively influences a student's lifelong learning trajectory.",
+                "example_vi": "Sự tham gia của cha mẹ ảnh hưởng tích cực đến tiến trình học tập suốt đời của học sinh."
+              },
+              {
+                "word": "pastoral",
+                "ipa": "/ˈpɑːstərəl/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "chăm sóc tinh thần, hỗ trợ tâm lý học đường",
+                "family": "pastoral care (phr)",
+                "example_en": "Trained advisors offer crucial pastoral guidance to students facing emotional stress.",
+                "example_vi": "Các cố vấn được đào tạo cung cấp sự định hướng chăm sóc tinh thần thiết yếu cho học sinh gặp áp lực cảm xúc."
+              },
+              {
+                "word": "collaborative",
+                "ipa": "/kəˈlæbərətɪv/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "mang tính hợp tác, phối hợp",
+                "family": "collaborate (v), collaboration (n)",
+                "example_en": "A collaborative partnership between educators and parents yields the best outcomes.",
+                "example_vi": "Mối quan hệ đối tác hợp tác giữa các nhà giáo dục và phụ huynh mang lại kết quả tốt nhất."
+              },
+              {
+                "word": "consultative",
+                "ipa": "/kənˈsʌltətɪv/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "mang tính tham vấn, cố vấn",
+                "family": "consultation (n), consult (v)",
+                "example_en": "The department held consultative sessions to address curriculum reforms.",
+                "example_vi": "Bộ môn đã tổ chức các phiên họp mang tính tham vấn để giải quyết việc đổi mới chương trình học."
+              },
+              {
+                "word": "aligned",
+                "ipa": "/əˈlaɪnd/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "đồng nhất, đồng bộ hóa",
+                "family": "align (v), alignment (n)",
+                "example_en": "Having aligned expectations helps both mentors and guardians work harmoniously.",
+                "example_vi": "Việc có những kỳ vọng đồng nhất giúp cả người hướng dẫn lẫn người giám hộ làm việc hài hòa."
+              },
+              {
+                "word": "imperative",
+                "ipa": "/ɪmˈperətɪv/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "cấp bách, vô cùng cần thiết",
+                "family": "imperatively (adv)",
+                "example_en": "Transparent communication is imperative for student safety and well-being.",
+                "example_vi": "Giao tiếp minh bạch là điều vô cùng cấp thiết đối với sự an toàn và sức khỏe của học sinh."
+              }
+            ],
+            "collocation_groups": [
+              {
+                "id": "effects",
+                "name": "Nhóm Collocations: Tác động & Lợi ích (Effects)",
+                "icon": "🤝",
+                "badge": "Phần Thân bài 1",
+                "items": [
+                  {
+                    "en": "understand their children's studies better",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "hiểu việc học của con tốt hơn",
+                    "example": "Regular meetings help parents understand their children's studies better."
+                  },
+                  {
+                    "en": "regular talks with teachers",
+                    "type": "n.phr",
+                    "level": "B1",
+                    "vi": "những cuộc trao đổi thường xuyên với giáo viên",
+                    "example": "Through regular talks with teachers, families feel more connected."
+                  },
+                  {
+                    "en": "know their children's results and strengths",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "biết kết quả và điểm mạnh của con",
+                    "example": "Parents can know their children's results and strengths promptly."
+                  },
+                  {
+                    "en": "give timely support at home",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "hỗ trợ kịp thời tại nhà",
+                    "example": "Parents can give timely support at home whenever issues occur."
+                  },
+                  {
+                    "en": "understand students' needs and problems",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "hiểu nhu cầu và vấn đề của học sinh",
+                    "example": "Teachers can better understand students' needs and problems."
+                  },
+                  {
+                    "en": "share information about children's habits",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "chia sẻ thông tin về thói quen của con",
+                    "example": "Caregivers share information about children's habits with schools."
+                  },
+                  {
+                    "en": "strengthen the cooperation between schools and families",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "tăng cường sự hợp tác giữa nhà trường và gia đình",
+                    "example": "Open dialogues strengthen the cooperation between schools and families."
+                  },
+                  {
+                    "en": "solve students' problems together",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "cùng nhau giải quyết các vấn đề của học sinh",
+                    "example": "Both sides solve students' problems together effectively."
+                  },
+                  {
+                    "en": "comprehensive insights into academic trajectory",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "vi": "cái nhìn toàn diện về quá trình phát triển học tập",
+                    "example": "Dialogue provides comprehensive insights into academic trajectory."
+                  },
+                  {
+                    "en": "frequent interaction with educators",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "vi": "sự tương tác thường xuyên với các nhà giáo dục",
+                    "example": "Frequent interaction with educators ensures consistent pastoral monitoring."
+                  },
+                  {
+                    "en": "evaluate academic strengths and weaknesses",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "đánh giá chuẩn xác điểm mạnh và điểm yếu học thuật",
+                    "example": "Constructive reports help evaluate academic strengths and weaknesses."
+                  },
+                  {
+                    "en": "facilitate timely and constructive intervention",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "tạo điều kiện cho sự can thiệp kịp thời và hữu ích",
+                    "example": "Early notices facilitate timely and constructive intervention at home."
+                  },
+                  {
+                    "en": "comprehend individual learning needs",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "thấu hiểu các nhu cầu học tập mang tính cá nhân",
+                    "example": "Instructors comprehend individual learning needs through parental input."
+                  },
+                  {
+                    "en": "adapt pedagogical approaches",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "điều chỉnh linh hoạt các phương pháp sư phạm",
+                    "example": "Teachers adapt pedagogical approaches to match students' emotional profiles."
+                  },
+                  {
+                    "en": "consolidate home-school partnerships",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "củng cố mối quan hệ đồng hành gia đình - nhà trường",
+                    "example": "Regular interaction helps consolidate home-school partnerships firmly."
+                  },
+                  {
+                    "en": "establish aligned expectations",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "thiết lập những kỳ vọng giáo dục tương đồng",
+                    "example": "Mentors and guardians establish aligned expectations for pupil development."
+                  }
+                ]
+              },
+              {
+                "id": "solutions",
+                "name": "Nhóm Collocations: Giải pháp & Hành động (Solutions)",
+                "icon": "💡",
+                "badge": "Phần Thân bài 2",
+                "items": [
+                  {
+                    "en": "maintain regular communication",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "duy trì giao tiếp thường xuyên",
+                    "example": "Schools should maintain regular communication with all families."
+                  },
+                  {
+                    "en": "organize regular parent-teacher meetings",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "tổ chức các cuộc họp phụ huynh định kỳ",
+                    "example": "Staff organize regular parent-teacher meetings each semester."
+                  },
+                  {
+                    "en": "use emails or online apps",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "sử dụng email hoặc ứng dụng trực tuyến",
+                    "example": "It is convenient to use emails or online apps for quick notices."
+                  },
+                  {
+                    "en": "update students' learning progress",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "cập nhật tiến độ học tập của học sinh",
+                    "example": "Teachers update students' learning progress weekly on the web."
+                  },
+                  {
+                    "en": "share information clearly and quickly",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "chia sẻ thông tin rõ ràng và nhanh chóng",
+                    "example": "Both sides must share information clearly and quickly."
+                  },
+                  {
+                    "en": "give specific details about grades and behavior",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "cung cấp chi tiết cụ thể về điểm số và hành vi",
+                    "example": "Teachers give specific details about grades and behavior in class."
+                  },
+                  {
+                    "en": "respond early when children face problems",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "phản hồi sớm khi con gặp vấn đề",
+                    "example": "Parents should respond early when children face problems at school."
+                  },
+                  {
+                    "en": "organize cooperative activities",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "tổ chức các hoạt động hợp tác chung",
+                    "example": "Schools can organize cooperative activities to bring people together."
+                  },
+                  {
+                    "en": "institutionalized channels of interaction",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "vi": "các kênh tương tác mang tính quy chuẩn thể chế",
+                    "example": "Institutions must build institutionalized channels of interaction."
+                  },
+                  {
+                    "en": "structured parent-teacher conferences",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "vi": "các hội nghị phụ huynh - giáo viên bài bản",
+                    "example": "Structured parent-teacher conferences foster professional dialogue."
+                  },
+                  {
+                    "en": "modern mobile applications and student portals",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "vi": "ứng dụng di động hiện đại và cổng thông tin học sinh",
+                    "example": "Deploying modern mobile applications and student portals improves access."
+                  },
+                  {
+                    "en": "seamless real-time academic updates",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "vi": "cập nhật kết quả học tập tức thời và liền mạch",
+                    "example": "Digital portals offer seamless real-time academic updates for parents."
+                  },
+                  {
+                    "en": "ensure transparent and prompt information dissemination",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "bảo đảm sự truyền tải thông tin minh bạch và kịp thời",
+                    "example": "Departments ensure transparent and prompt information dissemination."
+                  },
+                  {
+                    "en": "provide concrete, objective feedback",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "đưa ra phản hồi cụ thể và mang tính khách quan",
+                    "example": "Mentors provide concrete, objective feedback on student competencies."
+                  },
+                  {
+                    "en": "actively reciprocate with prompt responses",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "chủ động đáp lại bằng các phản hồi nhanh chóng",
+                    "example": "Guardians actively reciprocate with prompt responses during crises."
+                  },
+                  {
+                    "en": "collaborative workshops and orientation seminars",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "vi": "các hội thảo phối hợp và tọa đàm định hướng",
+                    "example": "Schools organize collaborative workshops and orientation seminars regularly."
+                  }
+                ]
+              }
+            ]
+          }
+        }
       },
       {
         "id": 47,
