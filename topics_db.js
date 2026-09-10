@@ -25349,10 +25349,6 @@ const ESSAY_DATA = [
                     "vi": "ít thời gian để nghỉ ngơi"
                   },
                   {
-                    "en": "as a result",
-                    "vi": "vì vậy, kết quả là"
-                  },
-                  {
                     "en": "feel tired and stressed",
                     "vi": "cảm thấy mệt mỏi và căng thẳng"
                   }
@@ -25439,10 +25435,6 @@ const ESSAY_DATA = [
                     "vi": "không được người khác hiểu"
                   },
                   {
-                    "en": "therefore",
-                    "vi": "vì vậy"
-                  },
-                  {
                     "en": "affect their emotions",
                     "vi": "ảnh hưởng đến cảm xúc của họ"
                   }
@@ -25495,10 +25487,6 @@ const ESSAY_DATA = [
                   {
                     "en": "struggle to manage their time",
                     "vi": "khó cân bằng thời gian"
-                  },
-                  {
-                    "en": "for example",
-                    "vi": "chẳng hạn"
                   },
                   {
                     "en": "preparing for important exams",
@@ -25558,10 +25546,6 @@ const ESSAY_DATA = [
                     "vi": "cảm thấy bất an và thiếu tự tin"
                   },
                   {
-                    "en": "for example",
-                    "vi": "ví dụ"
-                  },
-                  {
                     "en": "final-year student",
                     "vi": "sinh viên năm cuối"
                   },
@@ -25613,10 +25597,6 @@ const ESSAY_DATA = [
                   {
                     "en": "feel lonely, unhappy, or unsupported",
                     "vi": "cảm thấy cô đơn, buồn bã hoặc không được hỗ trợ"
-                  },
-                  {
-                    "en": "for instance",
-                    "vi": "chẳng hạn"
                   },
                   {
                     "en": "serious problems with friends",

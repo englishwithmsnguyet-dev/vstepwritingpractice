@@ -1375,6 +1375,12 @@ function matchWordsInSequence(phraseWords, sentenceWords, maxGap = 2) {
   return false;
 }
 
+const IGNORED_LINKING_WORDS = [
+  'therefore', 'as a result', 'for example', 'for instance',
+  'in addition', 'furthermore', 'moreover', 'consequently',
+  'however', 'on the other hand', 'besides', 'thus', 'hence'
+];
+
 function filterCollocationsForSentence(sentenceVi, sentenceEn, collocations) {
   if (!collocations || collocations.length === 0) return [];
   const normVi = ' ' + normalizeTextForMatching(sentenceVi) + ' ';
@@ -1383,6 +1389,10 @@ function filterCollocationsForSentence(sentenceVi, sentenceEn, collocations) {
   const sWordsEn = normalizeTextForMatching(sentenceEn).split(' ').filter(Boolean);
 
   const matched = collocations.filter(col => {
+    if (!col || !col.en) return false;
+    const rawEnLower = col.en.toLowerCase().trim();
+    if (IGNORED_LINKING_WORDS.includes(rawEnLower)) return false;
+
     const colEn = normalizeTextForMatching(col.en);
     const colVi = normalizeTextForMatching(col.vi);
 
