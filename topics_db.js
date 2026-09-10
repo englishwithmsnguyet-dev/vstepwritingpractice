@@ -26720,645 +26720,645 @@ const ESSAY_DATA = [
         "prompt": "Write an essay to an educated reader to discuss the causes and effects of biodiversity loss. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
         "has_full_details": false
       },
+      {
+        "id": 28,
+        "title_en": "Cybercrime",
+        "title_vi": "Tội phạm mạng",
+        "tags": "[Impacts & Solutions]",
+        "context": "Cybercrime has become an increasingly serious problem in the digital age. With the widespread use of computers, smartphones, and the Internet, criminals can carry out illegal activities such as identity theft, online fraud, hacking, data breaches, and cyberattacks. These crimes affect individuals, businesses, and governments, creating significant social and economic challenges.",
+        "prompt": "Write an essay to an educated reader to discuss the impacts of cybercrime and suggest possible solutions to this problem. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "has_full_details": true,
+        "paraphrases": [
+          {
+            "en": "cybercrime",
+            "vi": "tội phạm mạng"
+          },
+          {
+            "en": "online criminal activities",
+            "vi": "các hoạt động tội phạm trực tuyến"
+          },
+          {
+            "en": "digital and internet offenses",
+            "vi": "các hành vi phạm tội trên không gian mạng và internet"
+          },
+          {
+            "en": "cyberattacks and internet fraud",
+            "vi": "các cuộc tấn công mạng và gian lận internet"
+          }
+        ],
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "EFFECT 01",
+                "point_vi": "Tội phạm mạng có thể khiến cá nhân mất một khoản tiền lớn.",
+                "point_en": "First, cybercrime can cause individuals to lose a large amount of money.",
+                "evidence_vi": "Tội phạm có thể sử dụng các vụ lừa đảo trực tuyến để đánh cắp tiền hoặc thông tin ngân hàng của mọi người. Hậu quả là nhiều nạn nhân mất sạch tiền tiết kiệm và gặp khó khăn tài chính.",
+                "evidence_en": "Criminals can use online scams to steal money or bank details from people. As a result, many victims lose their savings and face difficult financial problems.",
+                "collocations": [
                   {
-            "id": 28,
-            "title_en": "Cybercrime",
-            "title_vi": "Tội phạm mạng",
-            "tags": "[Impacts & Solutions]",
-            "context": "Cybercrime has become an increasingly serious problem in the digital age. With the widespread use of computers, smartphones, and the Internet, criminals can carry out illegal activities such as identity theft, online fraud, hacking, data breaches, and cyberattacks. These crimes affect individuals, businesses, and governments, creating significant social and economic challenges.",
-            "prompt": "Write an essay to an educated reader to discuss the impacts of cybercrime and suggest possible solutions to this problem. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-            "has_full_details": true,
-            "paraphrases": [
-                  {
-                        "en": "cybercrime",
-                        "vi": "tội phạm mạng"
+                    "en": "lose a large amount of money",
+                    "vi": "mất một khoản tiền lớn"
                   },
                   {
-                        "en": "online criminal activities",
-                        "vi": "các hoạt động tội phạm trực tuyến"
+                    "en": "online scams",
+                    "vi": "các vụ lừa đảo trực tuyến"
                   },
                   {
-                        "en": "digital and internet offenses",
-                        "vi": "các hành vi phạm tội trên không gian mạng và internet"
+                    "en": "steal bank details",
+                    "vi": "đánh cắp thông tin ngân hàng"
                   },
                   {
-                        "en": "cyberattacks and internet fraud",
-                        "vi": "các cuộc tấn công mạng và gian lận internet"
+                    "en": "lose their savings",
+                    "vi": "mất tiền tiết kiệm"
                   }
+                ]
+              },
+              {
+                "title": "EFFECT 02",
+                "point_vi": "Tội phạm mạng có thể khiến doanh nghiệp mất dữ liệu quan trọng và uy tín.",
+                "point_en": "Second, cybercrime can make businesses lose important data and reputation.",
+                "evidence_vi": "Khi thông tin của khách hàng hoặc dữ liệu công ty bị đánh cắp, doanh nghiệp có thể gặp khó khăn trong hoạt động. Hơn nữa, họ có thể mất lòng tin của khách hàng và bị sụt giảm doanh thu.",
+                "evidence_en": "When customer information or company data is stolen, businesses may face operational problems. Furthermore, they can lose customer trust and suffer a decline in sales.",
+                "collocations": [
+                  {
+                    "en": "lose important data",
+                    "vi": "mất dữ liệu quan trọng"
+                  },
+                  {
+                    "en": "lose company reputation",
+                    "vi": "mất uy tín công ty"
+                  },
+                  {
+                    "en": "stolen company data",
+                    "vi": "dữ liệu công ty bị đánh cắp"
+                  },
+                  {
+                    "en": "lose customer trust",
+                    "vi": "mất lòng tin của khách hàng"
+                  }
+                ]
+              },
+              {
+                "title": "EFFECT 03",
+                "point_vi": "Tội phạm mạng có thể làm người dùng mất niềm tin vào Internet.",
+                "point_en": "Finally, cybercrime can make users lose trust in the Internet.",
+                "evidence_vi": "Khi mọi người thường xuyên nghe về các vụ lừa đảo và đánh cắp thông tin, họ có thể cảm thấy không an toàn. Do đó, họ ngần ngại mua hàng, thanh toán hoặc chia sẻ thông tin trực tuyến.",
+                "evidence_en": "When people frequently hear about scams and stolen information, they may feel unsafe. Therefore, they hesitate to shop, pay, or share information online.",
+                "collocations": [
+                  {
+                    "en": "lose trust in the Internet",
+                    "vi": "mất niềm tin vào Internet"
+                  },
+                  {
+                    "en": "feel unsafe",
+                    "vi": "cảm thấy không an toàn"
+                  },
+                  {
+                    "en": "hesitate to shop online",
+                    "vi": "ngần ngại mua hàng trực tuyến"
+                  },
+                  {
+                    "en": "share information online",
+                    "vi": "chia sẻ thông tin trực tuyến"
+                  }
+                ]
+              }
             ],
-            "details": {
-                  "ideas_b1": {
-                        "benefits": [
-                              {
-                                    "title": "EFFECT 01",
-                                    "point_vi": "Tội phạm mạng có thể khiến cá nhân mất một khoản tiền lớn.",
-                                    "point_en": "First, cybercrime can cause individuals to lose a large amount of money.",
-                                    "evidence_vi": "Tội phạm có thể sử dụng các vụ lừa đảo trực tuyến để đánh cắp tiền hoặc thông tin ngân hàng của mọi người. Hậu quả là nhiều nạn nhân mất sạch tiền tiết kiệm và gặp khó khăn tài chính.",
-                                    "evidence_en": "Criminals can use online scams to steal money or bank details from people. As a result, many victims lose their savings and face difficult financial problems.",
-                                    "collocations": [
-                                          {
-                                                "en": "lose a large amount of money",
-                                                "vi": "mất một khoản tiền lớn"
-                                          },
-                                          {
-                                                "en": "online scams",
-                                                "vi": "các vụ lừa đảo trực tuyến"
-                                          },
-                                          {
-                                                "en": "steal bank details",
-                                                "vi": "đánh cắp thông tin ngân hàng"
-                                          },
-                                          {
-                                                "en": "lose their savings",
-                                                "vi": "mất tiền tiết kiệm"
-                                          }
-                                    ]
-                              },
-                              {
-                                    "title": "EFFECT 02",
-                                    "point_vi": "Tội phạm mạng có thể khiến doanh nghiệp mất dữ liệu quan trọng và uy tín.",
-                                    "point_en": "Second, cybercrime can make businesses lose important data and reputation.",
-                                    "evidence_vi": "Khi thông tin của khách hàng hoặc dữ liệu công ty bị đánh cắp, doanh nghiệp có thể gặp khó khăn trong hoạt động. Hơn nữa, họ có thể mất lòng tin của khách hàng và bị sụt giảm doanh thu.",
-                                    "evidence_en": "When customer information or company data is stolen, businesses may face operational problems. Furthermore, they can lose customer trust and suffer a decline in sales.",
-                                    "collocations": [
-                                          {
-                                                "en": "lose important data",
-                                                "vi": "mất dữ liệu quan trọng"
-                                          },
-                                          {
-                                                "en": "lose company reputation",
-                                                "vi": "mất uy tín công ty"
-                                          },
-                                          {
-                                                "en": "stolen company data",
-                                                "vi": "dữ liệu công ty bị đánh cắp"
-                                          },
-                                          {
-                                                "en": "lose customer trust",
-                                                "vi": "mất lòng tin của khách hàng"
-                                          }
-                                    ]
-                              },
-                              {
-                                    "title": "EFFECT 03",
-                                    "point_vi": "Tội phạm mạng có thể làm người dùng mất niềm tin vào Internet.",
-                                    "point_en": "Finally, cybercrime can make users lose trust in the Internet.",
-                                    "evidence_vi": "Khi mọi người thường xuyên nghe về các vụ lừa đảo và đánh cắp thông tin, họ có thể cảm thấy không an toàn. Do đó, họ ngần ngại mua hàng, thanh toán hoặc chia sẻ thông tin trực tuyến.",
-                                    "evidence_en": "When people frequently hear about scams and stolen information, they may feel unsafe. Therefore, they hesitate to shop, pay, or share information online.",
-                                    "collocations": [
-                                          {
-                                                "en": "lose trust in the Internet",
-                                                "vi": "mất niềm tin vào Internet"
-                                          },
-                                          {
-                                                "en": "feel unsafe",
-                                                "vi": "cảm thấy không an toàn"
-                                          },
-                                          {
-                                                "en": "hesitate to shop online",
-                                                "vi": "ngần ngại mua hàng trực tuyến"
-                                          },
-                                          {
-                                                "en": "share information online",
-                                                "vi": "chia sẻ thông tin trực tuyến"
-                                          }
-                                    ]
-                              }
-                        ],
-                        "drawbacks": [
-                              {
-                                    "title": "SOLUTION 01",
-                                    "point_vi": "Mọi người nên bảo vệ tài khoản ngân hàng và thông tin cá nhân cẩn thận hơn.",
-                                    "point_en": "First, people should protect their bank accounts and personal information more carefully.",
-                                    "evidence_vi": "Họ nên sử dụng mật khẩu mạnh và không bao giờ chia sẻ thông tin ngân hàng với người khác. Ngoài ra, người dùng cần kiểm tra kỹ các đường link hoặc tin nhắn đáng ngờ trước khi bấm vào.",
-                                    "evidence_en": "They should use strong passwords and never share banking information with others. In addition, users need to check suspicious links or messages carefully before clicking.",
-                                    "collocations": [
-                                          {
-                                                "en": "protect personal information",
-                                                "vi": "bảo vệ thông tin cá nhân"
-                                          },
-                                          {
-                                                "en": "use strong passwords",
-                                                "vi": "sử dụng mật khẩu mạnh"
-                                          },
-                                          {
-                                                "en": "suspicious links",
-                                                "vi": "các đường link đáng ngờ"
-                                          },
-                                          {
-                                                "en": "check messages carefully",
-                                                "vi": "kiểm tra tin nhắn cẩn thận"
-                                          }
-                                    ]
-                              },
-                              {
-                                    "title": "SOLUTION 02",
-                                    "point_vi": "Doanh nghiệp nên sử dụng các biện pháp bảo mật tốt để bảo vệ dữ liệu quan trọng.",
-                                    "point_en": "Second, businesses should use good security measures to protect important data.",
-                                    "evidence_vi": "Họ có thể sử dụng phần mềm bảo mật, sao lưu dữ liệu thường xuyên và cập nhật hệ thống máy tính. Hơn nữa, các công ty nên hướng dẫn nhân viên về an toàn mạng để tránh lộ thông tin.",
-                                    "evidence_en": "They can use security software, back up data regularly, and update computer systems. Moreover, companies should train staff on online safety to prevent information leaks.",
-                                    "collocations": [
-                                          {
-                                                "en": "security measures",
-                                                "vi": "các biện pháp bảo mật"
-                                          },
-                                          {
-                                                "en": "protect important data",
-                                                "vi": "bảo vệ dữ liệu quan trọng"
-                                          },
-                                          {
-                                                "en": "back up data regularly",
-                                                "vi": "sao lưu dữ liệu thường xuyên"
-                                          },
-                                          {
-                                                "en": "prevent information leaks",
-                                                "vi": "ngăn ngừa rò rỉ thông tin"
-                                          }
-                                    ]
-                              },
-                              {
-                                    "title": "SOLUTION 03",
-                                    "point_vi": "Chính phủ và các tổ chức nên giúp người dùng sử dụng Internet an toàn hơn.",
-                                    "point_en": "Finally, governments and organizations should help users use the Internet more safely.",
-                                    "evidence_vi": "Họ có thể hướng dẫn mọi người cách nhận biết lừa đảo trực tuyến và bảo vệ thông tin cá nhân. Bên cạnh đó, chính quyền cần có luật nghiêm khắc để xử phạt tội phạm mạng.",
-                                    "evidence_en": "They can guide people on how to identify online fraud and protect personal data. Besides, authorities need strict laws to punish cybercriminals.",
-                                    "collocations": [
-                                          {
-                                                "en": "use the Internet safely",
-                                                "vi": "sử dụng Internet an toàn"
-                                          },
-                                          {
-                                                "en": "identify online fraud",
-                                                "vi": "nhận biết lừa đảo trực tuyến"
-                                          },
-                                          {
-                                                "en": "protect personal data",
-                                                "vi": "bảo vệ dữ liệu cá nhân"
-                                          },
-                                          {
-                                                "en": "punish cybercriminals",
-                                                "vi": "xử phạt tội phạm mạng"
-                                          }
-                                    ]
-                              }
-                        ]
+            "drawbacks": [
+              {
+                "title": "SOLUTION 01",
+                "point_vi": "Mọi người nên bảo vệ tài khoản ngân hàng và thông tin cá nhân cẩn thận hơn.",
+                "point_en": "First, people should protect their bank accounts and personal information more carefully.",
+                "evidence_vi": "Họ nên sử dụng mật khẩu mạnh và không bao giờ chia sẻ thông tin ngân hàng với người khác. Ngoài ra, người dùng cần kiểm tra kỹ các đường link hoặc tin nhắn đáng ngờ trước khi bấm vào.",
+                "evidence_en": "They should use strong passwords and never share banking information with others. In addition, users need to check suspicious links or messages carefully before clicking.",
+                "collocations": [
+                  {
+                    "en": "protect personal information",
+                    "vi": "bảo vệ thông tin cá nhân"
                   },
-                  "ideas_b2": {
-                        "benefits": [
-                              {
-                                    "title": "EFFECT 01",
-                                    "point_vi": "Tội phạm mạng có thể khiến các cá nhân bị thiệt hại tài chính nặng nề.",
-                                    "point_en": "First and foremost, cybercrime can cause severe financial losses for individuals.",
-                                    "evidence_vi": "• Luận cứ 1: Kẻ xấu thường tạo các trang web giả mạo hoặc gửi email lừa đảo để đánh cắp thông tin thẻ tín dụng và tài khoản ngân hàng.\n• Luận cứ 2: Hậu quả là nhiều nạn nhân mất sạch tiền tiết kiệm và gặp rất nhiều khó khăn tài chính trong đời sống hàng ngày.",
-                                    "evidence_en": "• Evidence 1: Cybercriminals often create fake websites or send phishing emails to steal credit card details and bank accounts.\n• Evidence 2: As a result, many victims lose their life savings and face serious financial difficulties in their daily lives.",
-                                    "collocations": [
-                                          {
-                                                "en": "severe financial losses",
-                                                "vi": "thiệt hại tài chính nặng nề"
-                                          },
-                                          {
-                                                "en": "phishing emails",
-                                                "vi": "email lừa đảo giả mạo"
-                                          },
-                                          {
-                                                "en": "steal credit card details",
-                                                "vi": "đánh cắp thông tin thẻ tín dụng"
-                                          },
-                                          {
-                                                "en": "lose their life savings",
-                                                "vi": "mất sạch tiền tiết kiệm cả đời"
-                                          }
-                                    ]
-                              },
-                              {
-                                    "title": "EFFECT 02",
-                                    "point_vi": "Tội phạm mạng có thể khiến các doanh nghiệp bị mất dữ liệu quan trọng và tổn hại uy tín thương hiệu.",
-                                    "point_en": "Furthermore, cybercrime can make businesses lose important data and damage their reputation.",
-                                    "evidence_vi": "• Luận cứ 1: Khi hệ thống nội bộ bị tấn công, thông tin mật của công ty và dữ liệu cá nhân của khách hàng có thể bị rò rỉ ra ngoài.\n• Luận cứ 2: Điều này làm gián đoạn hoạt động kinh doanh và khiến khách hàng mất niềm tin, dẫn đến doanh thu sụt giảm đáng kể.",
-                                    "evidence_en": "• Evidence 1: When corporate systems are hacked, confidential company records and customers' personal data can be leaked.\n• Evidence 2: This disrupts business operations and causes clients to lose trust in the company, leading to a considerable decline in sales.",
-                                    "collocations": [
-                                          {
-                                                "en": "damage business reputation",
-                                                "vi": "làm tổn hại danh tiếng doanh nghiệp"
-                                          },
-                                          {
-                                                "en": "confidential company records",
-                                                "vi": "hồ sơ tài liệu mật của công ty"
-                                          },
-                                          {
-                                                "en": "disrupt business operations",
-                                                "vi": "làm gián đoạn hoạt động kinh doanh"
-                                          },
-                                          {
-                                                "en": "a considerable decline in sales",
-                                                "vi": "sự sụt giảm doanh thu đáng kể"
-                                          }
-                                    ]
-                              },
-                              {
-                                    "title": "EFFECT 03",
-                                    "point_vi": "Tội phạm mạng làm suy giảm niềm tin của người dùng vào Internet và các dịch vụ trực tuyến.",
-                                    "point_en": "Lastly, cybercrime can reduce users' trust in the Internet and online services.",
-                                    "evidence_vi": "• Luận cứ 1: Khi các vụ lừa đảo và đánh cắp danh tính xảy ra thường xuyên, người dân cảm thấy lo lắng và bất an trong môi trường số.\n• Luận cứ 2: Do đó, nhiều người tiêu dùng ngần ngại mua sắm online, thực hiện thanh toán ngân hàng hoặc chia sẻ thông tin trên mạng xã hội.",
-                                    "evidence_en": "• Evidence 1: When online fraud and identity theft occur frequently, citizens feel anxious and unsafe in the digital environment.\n• Evidence 2: Consequently, many consumers hesitate to shop online, perform banking transactions, or share personal information on social platforms.",
-                                    "collocations": [
-                                          {
-                                                "en": "reduce users' trust",
-                                                "vi": "làm suy giảm niềm tin của người dùng"
-                                          },
-                                          {
-                                                "en": "identity theft",
-                                                "vi": "đánh cắp danh tính"
-                                          },
-                                          {
-                                                "en": "digital environment",
-                                                "vi": "môi trường kỹ thuật số"
-                                          },
-                                          {
-                                                "en": "hesitate to shop online",
-                                                "vi": "ngần ngại mua hàng trực tuyến"
-                                          }
-                                    ]
-                              }
-                        ],
-                        "drawbacks": [
-                              {
-                                    "title": "SOLUTION 01",
-                                    "point_vi": "Mỗi cá nhân cần chủ động bảo vệ tài khoản và thông tin cá nhân của mình.",
-                                    "point_en": "The primary solution is that individuals should proactively protect their personal accounts and information.",
-                                    "evidence_vi": "• Luận cứ 1: Người dùng nên tạo mật khẩu mạnh, kích hoạt xác thực hai yếu tố và không bao giờ chia sẻ mã xác thực với bất kỳ ai.\n• Luận cứ 2: Thêm vào đó, mọi người cần cẩn trọng khi nhận tin nhắn lạ và tránh nhấp vào các đường link đáng ngờ.",
-                                    "evidence_en": "• Evidence 1: Internet users ought to generate strong passwords, activate two-factor authentication, and never share verification codes with anyone.\n• Evidence 2: In addition, people should exercise caution when receiving unfamiliar messages and avoid clicking on suspicious links.",
-                                    "collocations": [
-                                          {
-                                                "en": "proactively protect personal accounts",
-                                                "vi": "chủ động bảo vệ tài khoản cá nhân"
-                                          },
-                                          {
-                                                "en": "two-factor authentication",
-                                                "vi": "xác thực hai yếu tố"
-                                          },
-                                          {
-                                                "en": "verification codes",
-                                                "vi": "mã xác thực"
-                                          },
-                                          {
-                                                "en": "exercise caution",
-                                                "vi": "thận trọng, cẩn giác"
-                                          }
-                                    ]
-                              },
-                              {
-                                    "title": "SOLUTION 02",
-                                    "point_vi": "Các doanh nghiệp nên đầu tư vào hệ thống an ninh mạng để bảo vệ dữ liệu quan trọng.",
-                                    "point_en": "Second, businesses should invest in modern cybersecurity systems to protect their data.",
-                                    "evidence_vi": "• Luận cứ 1: Doanh nghiệp cần cài đặt phần mềm chống vi-rút đáng tin cậy, sao lưu dữ liệu định kỳ và thường xuyên cập nhật phần mềm.\n• Luận cứ 2: Việc tổ chức các khóa tập huấn an toàn mạng cho nhân viên cũng rất cần thiết để giảm thiểu rủi ro vô tình làm rò rỉ dữ liệu.",
-                                    "evidence_en": "• Evidence 1: Companies need to install reliable antivirus programs, back up data regularly, and update their software to prevent cyberattacks.\n• Evidence 2: Providing regular cybersecurity training for staff is also essential to minimize the risk of accidental data leaks.",
-                                    "collocations": [
-                                          {
-                                                "en": "invest in cybersecurity systems",
-                                                "vi": "đầu tư vào hệ thống an ninh mạng"
-                                          },
-                                          {
-                                                "en": "reliable antivirus programs",
-                                                "vi": "các chương trình chống vi-rút đáng tin cậy"
-                                          },
-                                          {
-                                                "en": "cybersecurity training for staff",
-                                                "vi": "đào tạo an ninh mạng cho nhân viên"
-                                          },
-                                          {
-                                                "en": "accidental data leaks",
-                                                "vi": "rò rỉ dữ liệu do sơ suất"
-                                          }
-                                    ]
-                              },
-                              {
-                                    "title": "SOLUTION 03",
-                                    "point_vi": "Chính phủ và các tổ chức cần hỗ trợ người dân sử dụng Internet an toàn và siết chặt luật pháp.",
-                                    "point_en": "Finally, governments and organizations should help citizens use the Internet safely and enforce strict laws.",
-                                    "evidence_vi": "• Luận cứ 1: Cơ quan chức năng có thể khởi động các chiến dịch truyền thông giáo dục nhằm hướng dẫn người dân cách nhận biết các thủ đoạn lừa đảo.\n• Luận cứ 2: Đồng thời, các nhà lập pháp cần đưa ra những hình phạt pháp lý nghiêm khắc đối với tội phạm mạng để ngăn chặn các hành vi vi phạm.",
-                                    "evidence_en": "• Evidence 1: Authorities can launch educational campaigns to teach people how to identify online scams effectively.\n• Evidence 2: Simultaneously, lawmakers should introduce severe legal penalties for cybercriminals to deter illegal activities.",
-                                    "collocations": [
-                                          {
-                                                "en": "launch educational campaigns",
-                                                "vi": "khởi động các chiến dịch giáo dục"
-                                          },
-                                          {
-                                                "en": "identify online scams",
-                                                "vi": "nhận diện các trò lừa đảo trực tuyến"
-                                          },
-                                          {
-                                                "en": "severe legal penalties",
-                                                "vi": "hình phạt pháp lý nghiêm khắc"
-                                          },
-                                          {
-                                                "en": "deter illegal activities",
-                                                "vi": "ngăn chặn, răn đe các hành vi vi phạm pháp luật"
-                                          }
-                                    ]
-                              }
-                        ]
+                  {
+                    "en": "use strong passwords",
+                    "vi": "sử dụng mật khẩu mạnh"
                   },
-                  "vocab": [
-                        {
-                              "en": "cybercrime",
-                              "vi": "tội phạm mạng"
-                        },
-                        {
-                              "en": "online scams",
-                              "vi": "lừa đảo trực tuyến"
-                        },
-                        {
-                              "en": "steal bank details",
-                              "vi": "đánh cắp thông tin ngân hàng"
-                        },
-                        {
-                              "en": "lose important data",
-                              "vi": "mất dữ liệu quan trọng"
-                        },
-                        {
-                              "en": "lose customer trust",
-                              "vi": "mất lòng tin của khách hàng"
-                        },
-                        {
-                              "en": "feel unsafe",
-                              "vi": "cảm thấy không an toàn"
-                        },
-                        {
-                              "en": "use strong passwords",
-                              "vi": "sử dụng mật khẩu mạnh"
-                        },
-                        {
-                              "en": "suspicious links",
-                              "vi": "đường link đáng ngờ"
-                        },
-                        {
-                              "en": "security measures",
-                              "vi": "biện pháp bảo mật"
-                        },
-                        {
-                              "en": "back up data",
-                              "vi": "sao lưu dữ liệu"
-                        },
-                        {
-                              "en": "prevent cyberattacks",
-                              "vi": "ngăn chặn tấn công mạng"
-                        },
-                        {
-                              "en": "identify online fraud",
-                              "vi": "nhận diện lừa đảo trực tuyến"
-                        }
-                  ],
-                  "sample_b1": "In modern life, <strong>cybercrime</strong> has become an increasingly serious problem. With the rapid development of the Internet, many criminals now attack online users in different ways. <strong>This essay will discuss three negative impacts of cybercrime and suggest three practical solutions to deal with this problem.</strong>\n\n<strong>To begin with, cybercrime brings three major negative effects to our daily lives.</strong> First of all, <strong><em>cybercrime can cause individuals to lose a large amount of money.</em></strong> Criminals often use fake websites or online scams to steal bank details. As a result, many victims lose their savings and face difficult financial problems. In addition, <strong><em>cybercrime can make businesses lose important data and reputation.</em></strong> When company computers are attacked, customer information and private files can be stolen. Consequently, companies may face serious operational troubles and lose customer trust. Finally, <strong><em>cybercrime can make users lose trust in the Internet.</em></strong> When people constantly hear about online scams, they feel unsafe. Therefore, they may hesitate to shop online, make payments, or share information on the Internet.\n\n<strong>To address these problems, individuals, businesses, and governments should take effective action.</strong> The first solution is that <strong><em>people should protect their personal information and bank accounts more carefully.</em></strong> Users should always use strong passwords and never share their passwords with others. Also, they must avoid clicking on suspicious links in strange messages. Second, <strong><em>businesses should use good security measures to protect their data.</em></strong> Companies can install antivirus software, back up files regularly, and update their computers. Moreover, training workers about online safety helps avoid accidental data leaks. Lastly, <strong><em>governments and organizations should help people use the Internet more safely.</em></strong> Authorities can organize campaigns to teach citizens how to recognize online fraud. At the same time, strict laws should be introduced to punish cybercriminals.\n\nIn conclusion, cybercrime causes financial loss, harms business reputations, and reduces public trust in online activities. By protecting personal accounts, improving corporate security, and raising public awareness, we can create a much safer online environment for everyone.",
-                  "translation_b1": "Trong đời sống hiện đại, tội phạm mạng đã trở thành một vấn đề ngày càng nghiêm trọng. Cùng với sự phát triển nhanh chóng của Internet, nhiều tội phạm ngày nay tấn công người dùng trực tuyến bằng nhiều cách khác nhau. Bài viết này sẽ thảo luận về ba tác động tiêu cực của tội phạm mạng và đề xuất ba giải pháp thực tế để giải quyết vấn đề này.\n\nĐầu tiên, tội phạm mạng mang lại ba tác động tiêu cực lớn đối với đời sống hằng ngày của chúng ta. Trước hết, tội phạm mạng có thể khiến các cá nhân mất một khoản tiền lớn. Tội phạm thường sử dụng các trang web giả mạo hoặc lừa đảo trực tuyến để đánh cắp thông tin ngân hàng. Kết quả là nhiều nạn nhân bị mất tiền tiết kiệm và đối mặt với những vấn đề tài chính khó khăn. Thêm vào đó, tội phạm mạng có thể khiến doanh nghiệp mất dữ liệu quan trọng và uy tín. Khi máy tính của công ty bị tấn công, thông tin khách hàng và tệp tin mật có thể bị đánh cắp. Do đó, các công ty có thể gặp rắc rối nghiêm trọng về vận hành và đánh mất lòng tin của khách hàng. Cuối cùng, tội phạm mạng có thể khiến người dùng mất niềm tin vào Internet. Khi mọi người liên tục nghe về các vụ lừa đảo qua mạng, họ cảm thấy không an toàn. Vì vậy, họ có thể ngần ngại mua hàng online, thanh toán hoặc chia sẻ thông tin trên Internet.\n\nĐể giải quyết những vấn đề này, các cá nhân, doanh nghiệp và chính phủ nên có hành động hiệu quả. Giải pháp đầu tiên là mọi người nên bảo vệ thông tin cá nhân và tài khoản ngân hàng của mình cẩn thận hơn. Người dùng nên luôn sử dụng mật khẩu mạnh và không bao giờ chia sẻ mật khẩu của mình với người khác. Ngoài ra, họ phải tránh nhấp vào các đường link đáng ngờ trong tin nhắn lạ. Thứ hai, các doanh nghiệp nên sử dụng các biện pháp bảo mật tốt để bảo vệ dữ liệu của mình. Doanh nghiệp có thể cài đặt phần mềm diệt vi-rút, sao lưu tệp thường xuyên và cập nhật máy tính. Hơn nữa, việc đào tạo nhân viên về an toàn mạng giúp tránh được việc rò rỉ dữ liệu ngoài ý muốn. Cuối cùng, chính phủ và các tổ chức nên giúp mọi người sử dụng Internet an toàn hơn. Cơ quan chức năng có thể tổ chức các chiến dịch hướng dẫn người dân nhận diện lừa đảo trực tuyến. Đồng thời, cần ban hành luật pháp nghiêm minh để trừng phạt tội phạm mạng.\n\nTóm lại, tội phạm mạng gây tổn thất tài chính, làm tổn hại uy tín doanh nghiệp và làm suy giảm niềm tin của công chúng vào các hoạt động trực tuyến. Bằng cách bảo vệ tài khoản cá nhân, nâng cao tính bảo mật của doanh nghiệp và tăng cường nhận thức xã hội, chúng ta có thể tạo ra môi trường mạng an toàn hơn nhiều cho mọi người.",
-                  "sample_b2": "In contemporary society, <strong>cybercrime</strong> has emerged as a serious global problem that affects millions of people. As daily activities increasingly depend on the Internet, digital offenses pose significant threats to individuals, organizations, and the economy. <strong>This essay will analyze three major impacts of cybercrime and suggest three practical solutions to tackle this issue.</strong>\n\n<strong>On the one hand, cybercrime causes widespread damage across multiple areas of society.</strong> First and foremost, <strong><em>cybercrime can cause severe financial losses for individuals.</em></strong> Cybercriminals frequently create fake websites or send phishing emails to steal credit card details and bank accounts. As a result, many victims lose their life savings and face serious financial difficulties in their daily lives. Furthermore, <strong><em>cybercrime can make businesses lose important data and damage their reputation.</em></strong> When corporate systems are hacked, confidential company records and customers' personal data can be leaked. This disrupts business operations and causes clients to lose trust in the company, leading to a considerable decline in sales. Lastly, <strong><em>cybercrime can reduce users' trust in the Internet and online services.</em></strong> When online fraud and identity theft occur frequently, citizens feel anxious and unsafe in the digital environment. Consequently, many consumers hesitate to shop online, perform banking transactions, or share personal information on social platforms.\n\n<strong>On the other hand, addressing this dilemma requires collaborative efforts from internet users, enterprises, and state authorities.</strong> The primary solution is that <strong><em>individuals should proactively protect their personal accounts and information.</em></strong> Internet users ought to generate strong passwords, activate two-factor authentication, and never share verification codes with anyone. In addition, people should exercise caution when receiving unfamiliar messages and avoid clicking on suspicious links. Moreover, <strong><em>businesses should invest in modern cybersecurity systems to protect their data.</em></strong> Companies need to install reliable antivirus programs, back up data regularly, and update their software to prevent cyberattacks. Providing regular cybersecurity training for staff is also essential to minimize the risk of accidental data leaks. Finally, <strong><em>governments and organizations should help citizens use the Internet safely and enforce strict laws.</em></strong> Authorities can launch educational campaigns to teach people how to identify online scams effectively. Simultaneously, lawmakers should introduce severe legal penalties for cybercriminals to deter illegal activities.\n\nIn conclusion, cybercrime exacts significant tolls on individual finances, corporate credibility, and public confidence in digital services. However, by taking personal precautions, enhancing corporate cybersecurity, and strengthening government regulations, society can successfully mitigate these dangers and build a safer digital environment.",
-                  "translation_b2": "Trong xã hội đương đại, tội phạm mạng đã nổi lên như một vấn đề toàn cầu nghiêm trọng ảnh hưởng đến hàng triệu người. Khi các hoạt động thường ngày ngày càng phụ thuộc vào Internet, các hành vi phạm tội kỹ thuật số đặt ra những mối đe dọa lớn đối với các cá nhân, tổ chức và nền kinh tế. Bài viết này sẽ phân tích ba tác động chính của tội phạm mạng và gợi ý ba giải pháp thực tế để giải quyết vấn đề này.\n\nMột mặt, tội phạm mạng gây ra những thiệt hại trên diện rộng ở nhiều lĩnh vực của xã hội. Trước hết, tội phạm mạng có thể gây ra những tổn thất tài chính nặng nề cho các cá nhân. Tội phạm mạng thường xuyên tạo ra các trang web giả mạo hoặc gửi email lừa đảo để đánh cắp thông tin thẻ tín dụng và tài khoản ngân hàng. Hậu quả là nhiều nạn nhân mất sạch tiền tiết kiệm cả đời và đối mặt với những khó khăn tài chính nghiêm trọng trong cuộc sống thường ngày. Hơn nữa, tội phạm mạng có thể khiến các doanh nghiệp bị mất dữ liệu quan trọng và tổn hại danh tiếng. Khi các hệ thống của công ty bị xâm nhập, hồ sơ tài liệu mật và dữ liệu cá nhân của khách hàng có thể bị rò rỉ. Điều này làm gián đoạn các hoạt động kinh doanh và khiến khách hàng mất niềm tin vào công ty, dẫn đến sự sụt giảm doanh thu đáng kể. Cuối cùng, tội phạm mạng có thể làm suy giảm niềm tin của người dùng vào Internet và các dịch vụ trực tuyến. Khi các vụ gian lận qua mạng và đánh cắp danh tính xảy ra thường xuyên, người dân cảm thấy lo lắng và bất an trong môi trường số. Do đó, nhiều người tiêu dùng ngần ngại mua sắm online, thực hiện giao dịch ngân hàng hoặc chia sẻ thông tin cá nhân trên các nền tảng mạng xã hội.\n\nMặt khác, việc giải quyết vấn đề này đòi hỏi nỗ lực phối hợp từ người dùng internet, các doanh nghiệp và cơ quan nhà nước. Giải pháp đầu tiên là các cá nhân cần chủ động bảo vệ tài khoản và thông tin cá nhân của mình. Người dùng internet nên tạo mật khẩu mạnh, kích hoạt xác thực hai yếu tố và không bao giờ chia sẻ mã xác thực với bất kỳ ai. Ngoài ra, mọi người nên thận trọng khi nhận các tin nhắn lạ và tránh nhấp vào các đường link đáng ngờ. Hơn nữa, các doanh nghiệp nên đầu tư vào các hệ thống an ninh mạng hiện đại để bảo vệ dữ liệu của mình. Doanh nghiệp cần cài đặt các chương trình diệt vi-rút đáng tin cậy, sao lưu dữ liệu định kỳ và cập nhật phần mềm để ngăn ngừa các cuộc tấn công mạng. Cung cấp các buổi tập huấn an ninh mạng thường xuyên cho nhân viên cũng rất cần thiết để giảm thiểu nguy cơ rò rỉ dữ liệu do sơ suất. Cuối cùng, chính phủ và các tổ chức cần hỗ trợ người dân sử dụng Internet an toàn và thực thi pháp luật nghiêm minh. Cơ quan chức năng có thể triển khai các chiến dịch giáo dục nhằm hướng dẫn người dân cách nhận diện lừa đảo trực tuyến một cách hiệu quả. Đồng thời, các nhà lập pháp nên đưa ra những hình phạt pháp lý nghiêm khắc đối với tội phạm mạng để răn đe các hành vi vi phạm.\n\nTóm lại, tội phạm mạng gây ra những tổn hại đáng kể đối với tài chính cá nhân, uy tín doanh nghiệp và niềm tin của cộng đồng vào các dịch vụ kỹ thuật số. Tuy nhiên, bằng việc thực hiện các biện pháp phòng ngừa cá nhân, tăng cường an ninh mạng doanh nghiệp và củng cố các quy định của chính phủ, xã hội hoàn toàn có thể giảm thiểu những mối nguy này và xây dựng một môi trường kỹ thuật số an toàn hơn.",
-                  "vocab_step": {
-                        "theme": "Tội phạm mạng (Cybercrime & Online Security)",
-                        "single_words": [
-                              {
-                                    "word": "scam",
-                                    "ipa": "/skæm/",
-                                    "pos": "noun",
-                                    "level": "B1",
-                                    "vi": "vụ lừa đảo",
-                                    "family": "scammer (n)",
-                                    "example_en": "Many people lose money in online scams.",
-                                    "example_vi": "Nhiều người mất tiền trong các vụ lừa đảo trực tuyến."
-                              },
-                              {
-                                    "word": "steal",
-                                    "ipa": "/stiːl/",
-                                    "pos": "verb",
-                                    "level": "B1",
-                                    "vi": "đánh cắp",
-                                    "family": "theft (n), stolen (adj)",
-                                    "example_en": "Criminals steal bank information from users.",
-                                    "example_vi": "Kẻ xấu đánh cắp thông tin ngân hàng từ người dùng."
-                              },
-                              {
-                                    "word": "victim",
-                                    "ipa": "/ˈvɪktɪm/",
-                                    "pos": "noun",
-                                    "level": "B1",
-                                    "vi": "nạn nhân",
-                                    "family": "victimize (v)",
-                                    "example_en": "He was a victim of an online scam.",
-                                    "example_vi": "Anh ấy là nạn nhân của một vụ lừa đảo qua mạng."
-                              },
-                              {
-                                    "word": "reputation",
-                                    "ipa": "/ˌrepjuˈteɪʃn/",
-                                    "pos": "noun",
-                                    "level": "B1",
-                                    "vi": "uy tín, danh tiếng",
-                                    "family": "reputable (adj)",
-                                    "example_en": "A company can lose its good reputation quickly.",
-                                    "example_vi": "Một công ty có thể mất đi danh tiếng tốt một cách nhanh chóng."
-                              },
-                              {
-                                    "word": "unsafe",
-                                    "ipa": "/ʌnˈseɪf/",
-                                    "pos": "adj",
-                                    "level": "B1",
-                                    "vi": "không an toàn",
-                                    "family": "safe (adj), safely (adv)",
-                                    "example_en": "Users feel unsafe when using strange websites.",
-                                    "example_vi": "Người dùng cảm thấy không an toàn khi sử dụng các trang web lạ."
-                              },
-                              {
-                                    "word": "password",
-                                    "ipa": "/ˈpɑːswɜːd/",
-                                    "pos": "noun",
-                                    "level": "B1",
-                                    "vi": "mật khẩu",
-                                    "family": "passcode (n)",
-                                    "example_en": "You should use a long and strong password.",
-                                    "example_vi": "Bạn nên sử dụng một mật khẩu dài và mạnh."
-                              },
-                              {
-                                    "word": "suspicious",
-                                    "ipa": "/səˈspɪʃəs/",
-                                    "pos": "adj",
-                                    "level": "B1",
-                                    "vi": "đáng ngờ",
-                                    "family": "suspect (v/n), suspicion (n)",
-                                    "example_en": "Do not click on suspicious links in messages.",
-                                    "example_vi": "Đừng nhấn vào các đường link đáng ngờ trong tin nhắn."
-                              },
-                              {
-                                    "word": "prevent",
-                                    "ipa": "/prɪˈvent/",
-                                    "pos": "verb",
-                                    "level": "B1",
-                                    "vi": "ngăn chặn",
-                                    "family": "prevention (n), preventable (adj)",
-                                    "example_en": "Good software helps prevent computer viruses.",
-                                    "example_vi": "Phần mềm tốt giúp ngăn chặn vi-rút máy tính."
-                              },
-                              {
-                                    "word": "backup",
-                                    "ipa": "/ˈbækʌp/",
-                                    "pos": "noun",
-                                    "level": "B1",
-                                    "vi": "sao lưu",
-                                    "family": "back up (v)",
-                                    "example_en": "Remember to back up your important files.",
-                                    "example_vi": "Hãy nhớ sao lưu các tệp quan trọng của bạn."
-                              },
-                              {
-                                    "word": "update",
-                                    "ipa": "/ˌʌpˈdeɪt/",
-                                    "pos": "verb",
-                                    "level": "B1",
-                                    "vi": "cập nhật",
-                                    "family": "updated (adj)",
-                                    "example_en": "You should update your computer system regularly.",
-                                    "example_vi": "Bạn nên cập nhật hệ thống máy tính thường xuyên."
-                              },
-                              {
-                                    "word": "hesitate",
-                                    "ipa": "/ˈhezɪteɪt/",
-                                    "pos": "verb",
-                                    "level": "B1",
-                                    "vi": "ngần ngại, do dự",
-                                    "family": "hesitation (n)",
-                                    "example_en": "Some customers hesitate to buy goods online.",
-                                    "example_vi": "Một số khách hàng ngần ngại mua hàng trực tuyến."
-                              },
-                              {
-                                    "word": "guide",
-                                    "ipa": "/ɡaɪd/",
-                                    "pos": "verb",
-                                    "level": "B1",
-                                    "vi": "hướng dẫn",
-                                    "family": "guidance (n), guideline (n)",
-                                    "example_en": "Experts guide people to stay safe on the Internet.",
-                                    "example_vi": "Các chuyên gia hướng dẫn người dân giữ an toàn trên Internet."
-                              },
-                              {
-                                    "word": "cyberattack",
-                                    "ipa": "/ˈsaɪbərəˌtæk/",
-                                    "pos": "noun",
-                                    "level": "B2",
-                                    "vi": "cuộc tấn công mạng",
-                                    "family": "cyberattacker (n)",
-                                    "example_en": "Companies must protect their databases from cyberattacks.",
-                                    "example_vi": "Các công ty phải bảo vệ cơ sở dữ liệu của mình khỏi các cuộc tấn công mạng."
-                              },
-                              {
-                                    "word": "fraud",
-                                    "ipa": "/frɔːd/",
-                                    "pos": "noun",
-                                    "level": "B2",
-                                    "vi": "gian lận, lừa đảo",
-                                    "family": "fraudulent (adj)",
-                                    "example_en": "Police are investigating serious cases of online fraud.",
-                                    "example_vi": "Cảnh sát đang điều tra những vụ lừa đảo trực tuyến nghiêm trọng."
-                              },
-                              {
-                                    "word": "confidential",
-                                    "ipa": "/ˌkɒnfɪˈdenʃl/",
-                                    "pos": "adj",
-                                    "level": "B2",
-                                    "vi": "tuyệt mật, bảo mật",
-                                    "family": "confidentiality (n)",
-                                    "example_en": "Businesses must keep customer records confidential.",
-                                    "example_vi": "Doanh nghiệp phải giữ bí mật các hồ sơ khách hàng."
-                              },
-                              {
-                                    "word": "leak",
-                                    "ipa": "/liːk/",
-                                    "pos": "verb",
-                                    "level": "B2",
-                                    "vi": "làm rò rỉ thông tin",
-                                    "family": "leakage (n)",
-                                    "example_en": "A system error leaked thousands of private emails.",
-                                    "example_vi": "Một lỗi hệ thống đã làm rò rỉ hàng nghìn email riêng tư."
-                              },
-                              {
-                                    "word": "disrupt",
-                                    "ipa": "/dɪsˈrʌpt/",
-                                    "pos": "verb",
-                                    "level": "B2",
-                                    "vi": "làm gián đoạn hoạt động",
-                                    "family": "disruption (n), disruptive (adj)",
-                                    "example_en": "Security problems can disrupt daily business operations.",
-                                    "example_vi": "Các sự cố an ninh có thể làm gián đoạn hoạt động kinh doanh hàng ngày."
-                              },
-                              {
-                                    "word": "identity theft",
-                                    "ipa": "/aɪˈdentəti θeft/",
-                                    "pos": "noun",
-                                    "level": "B2",
-                                    "vi": "đánh cắp danh tính",
-                                    "family": "identify (v)",
-                                    "example_en": "Identity theft causes severe financial stress for victims.",
-                                    "example_vi": "Đánh cắp danh tính gây ra áp lực tài chính nghiêm trọng cho nạn nhân."
-                              },
-                              {
-                                    "word": "authentication",
-                                    "ipa": "/ɔːˌθentɪˈkeɪʃn/",
-                                    "pos": "noun",
-                                    "level": "B2",
-                                    "vi": "xác thực danh tính",
-                                    "family": "authenticate (v)",
-                                    "example_en": "Two-factor authentication keeps online accounts secure.",
-                                    "example_vi": "Xác thực hai yếu tố giúp các tài khoản trực tuyến được an toàn."
-                              },
-                              {
-                                    "word": "antivirus",
-                                    "ipa": "/ˌæntiˈvaɪrəs/",
-                                    "pos": "adj",
-                                    "level": "B2",
-                                    "vi": "chống vi-rút máy tính",
-                                    "family": "virus (n)",
-                                    "example_en": "It is important to install reliable antivirus software.",
-                                    "example_vi": "Việc cài đặt phần mềm chống vi-rút đáng tin cậy là rất quan trọng."
-                              },
-                              {
-                                    "word": "proactive",
-                                    "ipa": "/prəʊˈæktɪv/",
-                                    "pos": "adj",
-                                    "level": "B2",
-                                    "vi": "chủ động",
-                                    "family": "proactively (adv)",
-                                    "example_en": "Users need to take a proactive role in securing their data.",
-                                    "example_vi": "Người dùng cần có vai trò chủ động trong việc bảo mật dữ liệu của mình."
-                              },
-                              {
-                                    "word": "awareness",
-                                    "ipa": "/əˈweənəs/",
-                                    "pos": "noun",
-                                    "level": "B2",
-                                    "vi": "nhận thức",
-                                    "family": "aware (adj)",
-                                    "example_en": "Media campaigns raise public awareness about online safety.",
-                                    "example_vi": "Các chiến dịch truyền thông nâng cao nhận thức cộng đồng về an toàn trên mạng."
-                              },
-                              {
-                                    "word": "deter",
-                                    "ipa": "/dɪˈtɜː/",
-                                    "pos": "verb",
-                                    "level": "B2",
-                                    "vi": "ngăn chặn, răn đe",
-                                    "family": "deterrent (n)",
-                                    "example_en": "Strict laws help deter criminals from committing online fraud.",
-                                    "example_vi": "Luật pháp nghiêm khắc giúp răn đe tội phạm không thực hiện hành vi lừa đảo qua mạng."
-                              },
-                              {
-                                    "word": "penalty",
-                                    "ipa": "/ˈpenəlti/",
-                                    "pos": "noun",
-                                    "level": "B2",
-                                    "vi": "hình phạt, chế tài",
-                                    "family": "penalize (v)",
-                                    "example_en": "The government should introduce heavy penalties for cybercrimes.",
-                                    "example_vi": "Chính phủ nên đưa ra những hình phạt nặng đối với các tội phạm mạng."
-                              }
-                        ]
+                  {
+                    "en": "suspicious links",
+                    "vi": "các đường link đáng ngờ"
+                  },
+                  {
+                    "en": "check messages carefully",
+                    "vi": "kiểm tra tin nhắn cẩn thận"
                   }
+                ]
+              },
+              {
+                "title": "SOLUTION 02",
+                "point_vi": "Doanh nghiệp nên sử dụng các biện pháp bảo mật tốt để bảo vệ dữ liệu quan trọng.",
+                "point_en": "Second, businesses should use good security measures to protect important data.",
+                "evidence_vi": "Họ có thể sử dụng phần mềm bảo mật, sao lưu dữ liệu thường xuyên và cập nhật hệ thống máy tính. Hơn nữa, các công ty nên hướng dẫn nhân viên về an toàn mạng để tránh lộ thông tin.",
+                "evidence_en": "They can use security software, back up data regularly, and update computer systems. Moreover, companies should train staff on online safety to prevent information leaks.",
+                "collocations": [
+                  {
+                    "en": "security measures",
+                    "vi": "các biện pháp bảo mật"
+                  },
+                  {
+                    "en": "protect important data",
+                    "vi": "bảo vệ dữ liệu quan trọng"
+                  },
+                  {
+                    "en": "back up data regularly",
+                    "vi": "sao lưu dữ liệu thường xuyên"
+                  },
+                  {
+                    "en": "prevent information leaks",
+                    "vi": "ngăn ngừa rò rỉ thông tin"
+                  }
+                ]
+              },
+              {
+                "title": "SOLUTION 03",
+                "point_vi": "Chính phủ và các tổ chức nên giúp người dùng sử dụng Internet an toàn hơn.",
+                "point_en": "Finally, governments and organizations should help users use the Internet more safely.",
+                "evidence_vi": "Họ có thể hướng dẫn mọi người cách nhận biết lừa đảo trực tuyến và bảo vệ thông tin cá nhân. Bên cạnh đó, chính quyền cần có luật nghiêm khắc để xử phạt tội phạm mạng.",
+                "evidence_en": "They can guide people on how to identify online fraud and protect personal data. Besides, authorities need strict laws to punish cybercriminals.",
+                "collocations": [
+                  {
+                    "en": "use the Internet safely",
+                    "vi": "sử dụng Internet an toàn"
+                  },
+                  {
+                    "en": "identify online fraud",
+                    "vi": "nhận biết lừa đảo trực tuyến"
+                  },
+                  {
+                    "en": "protect personal data",
+                    "vi": "bảo vệ dữ liệu cá nhân"
+                  },
+                  {
+                    "en": "punish cybercriminals",
+                    "vi": "xử phạt tội phạm mạng"
+                  }
+                ]
+              }
+            ]
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "EFFECT 01",
+                "point_vi": "Tội phạm mạng có thể khiến các cá nhân bị thiệt hại tài chính nặng nề.",
+                "point_en": "First and foremost, cybercrime can cause severe financial losses for individuals.",
+                "evidence_vi": "• Luận cứ 1: Kẻ xấu thường tạo các trang web giả mạo hoặc gửi email lừa đảo để đánh cắp thông tin thẻ tín dụng và tài khoản ngân hàng.\n• Luận cứ 2: Hậu quả là nhiều nạn nhân mất sạch tiền tiết kiệm và gặp rất nhiều khó khăn tài chính trong đời sống hàng ngày.",
+                "evidence_en": "• Evidence 1: Cybercriminals often create fake websites or send phishing emails to steal credit card details and bank accounts.\n• Evidence 2: As a result, many victims lose their life savings and face serious financial difficulties in their daily lives.",
+                "collocations": [
+                  {
+                    "en": "severe financial losses",
+                    "vi": "thiệt hại tài chính nặng nề"
+                  },
+                  {
+                    "en": "phishing emails",
+                    "vi": "email lừa đảo giả mạo"
+                  },
+                  {
+                    "en": "steal credit card details",
+                    "vi": "đánh cắp thông tin thẻ tín dụng"
+                  },
+                  {
+                    "en": "lose their life savings",
+                    "vi": "mất sạch tiền tiết kiệm cả đời"
+                  }
+                ]
+              },
+              {
+                "title": "EFFECT 02",
+                "point_vi": "Tội phạm mạng có thể khiến các doanh nghiệp bị mất dữ liệu quan trọng và tổn hại uy tín thương hiệu.",
+                "point_en": "Furthermore, cybercrime can make businesses lose important data and damage their reputation.",
+                "evidence_vi": "• Luận cứ 1: Khi hệ thống nội bộ bị tấn công, thông tin mật của công ty và dữ liệu cá nhân của khách hàng có thể bị rò rỉ ra ngoài.\n• Luận cứ 2: Điều này làm gián đoạn hoạt động kinh doanh và khiến khách hàng mất niềm tin, dẫn đến doanh thu sụt giảm đáng kể.",
+                "evidence_en": "• Evidence 1: When corporate systems are hacked, confidential company records and customers' personal data can be leaked.\n• Evidence 2: This disrupts business operations and causes clients to lose trust in the company, leading to a considerable decline in sales.",
+                "collocations": [
+                  {
+                    "en": "damage business reputation",
+                    "vi": "làm tổn hại danh tiếng doanh nghiệp"
+                  },
+                  {
+                    "en": "confidential company records",
+                    "vi": "hồ sơ tài liệu mật của công ty"
+                  },
+                  {
+                    "en": "disrupt business operations",
+                    "vi": "làm gián đoạn hoạt động kinh doanh"
+                  },
+                  {
+                    "en": "a considerable decline in sales",
+                    "vi": "sự sụt giảm doanh thu đáng kể"
+                  }
+                ]
+              },
+              {
+                "title": "EFFECT 03",
+                "point_vi": "Tội phạm mạng làm suy giảm niềm tin của người dùng vào Internet và các dịch vụ trực tuyến.",
+                "point_en": "Lastly, cybercrime can reduce users' trust in the Internet and online services.",
+                "evidence_vi": "• Luận cứ 1: Khi các vụ lừa đảo và đánh cắp danh tính xảy ra thường xuyên, người dân cảm thấy lo lắng và bất an trong môi trường số.\n• Luận cứ 2: Do đó, nhiều người tiêu dùng ngần ngại mua sắm online, thực hiện thanh toán ngân hàng hoặc chia sẻ thông tin trên mạng xã hội.",
+                "evidence_en": "• Evidence 1: When online fraud and identity theft occur frequently, citizens feel anxious and unsafe in the digital environment.\n• Evidence 2: Consequently, many consumers hesitate to shop online, perform banking transactions, or share personal information on social platforms.",
+                "collocations": [
+                  {
+                    "en": "reduce users' trust",
+                    "vi": "làm suy giảm niềm tin của người dùng"
+                  },
+                  {
+                    "en": "identity theft",
+                    "vi": "đánh cắp danh tính"
+                  },
+                  {
+                    "en": "digital environment",
+                    "vi": "môi trường kỹ thuật số"
+                  },
+                  {
+                    "en": "hesitate to shop online",
+                    "vi": "ngần ngại mua hàng trực tuyến"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "SOLUTION 01",
+                "point_vi": "Mỗi cá nhân cần chủ động bảo vệ tài khoản và thông tin cá nhân của mình.",
+                "point_en": "The primary solution is that individuals should proactively protect their personal accounts and information.",
+                "evidence_vi": "• Luận cứ 1: Người dùng nên tạo mật khẩu mạnh, kích hoạt xác thực hai yếu tố và không bao giờ chia sẻ mã xác thực với bất kỳ ai.\n• Luận cứ 2: Thêm vào đó, mọi người cần cẩn trọng khi nhận tin nhắn lạ và tránh nhấp vào các đường link đáng ngờ.",
+                "evidence_en": "• Evidence 1: Internet users ought to generate strong passwords, activate two-factor authentication, and never share verification codes with anyone.\n• Evidence 2: In addition, people should exercise caution when receiving unfamiliar messages and avoid clicking on suspicious links.",
+                "collocations": [
+                  {
+                    "en": "proactively protect personal accounts",
+                    "vi": "chủ động bảo vệ tài khoản cá nhân"
+                  },
+                  {
+                    "en": "two-factor authentication",
+                    "vi": "xác thực hai yếu tố"
+                  },
+                  {
+                    "en": "verification codes",
+                    "vi": "mã xác thực"
+                  },
+                  {
+                    "en": "exercise caution",
+                    "vi": "thận trọng, cẩn giác"
+                  }
+                ]
+              },
+              {
+                "title": "SOLUTION 02",
+                "point_vi": "Các doanh nghiệp nên đầu tư vào hệ thống an ninh mạng để bảo vệ dữ liệu quan trọng.",
+                "point_en": "Second, businesses should invest in modern cybersecurity systems to protect their data.",
+                "evidence_vi": "• Luận cứ 1: Doanh nghiệp cần cài đặt phần mềm chống vi-rút đáng tin cậy, sao lưu dữ liệu định kỳ và thường xuyên cập nhật phần mềm.\n• Luận cứ 2: Việc tổ chức các khóa tập huấn an toàn mạng cho nhân viên cũng rất cần thiết để giảm thiểu rủi ro vô tình làm rò rỉ dữ liệu.",
+                "evidence_en": "• Evidence 1: Companies need to install reliable antivirus programs, back up data regularly, and update their software to prevent cyberattacks.\n• Evidence 2: Providing regular cybersecurity training for staff is also essential to minimize the risk of accidental data leaks.",
+                "collocations": [
+                  {
+                    "en": "invest in cybersecurity systems",
+                    "vi": "đầu tư vào hệ thống an ninh mạng"
+                  },
+                  {
+                    "en": "reliable antivirus programs",
+                    "vi": "các chương trình chống vi-rút đáng tin cậy"
+                  },
+                  {
+                    "en": "cybersecurity training for staff",
+                    "vi": "đào tạo an ninh mạng cho nhân viên"
+                  },
+                  {
+                    "en": "accidental data leaks",
+                    "vi": "rò rỉ dữ liệu do sơ suất"
+                  }
+                ]
+              },
+              {
+                "title": "SOLUTION 03",
+                "point_vi": "Chính phủ và các tổ chức cần hỗ trợ người dân sử dụng Internet an toàn và siết chặt luật pháp.",
+                "point_en": "Finally, governments and organizations should help citizens use the Internet safely and enforce strict laws.",
+                "evidence_vi": "• Luận cứ 1: Cơ quan chức năng có thể khởi động các chiến dịch truyền thông giáo dục nhằm hướng dẫn người dân cách nhận biết các thủ đoạn lừa đảo.\n• Luận cứ 2: Đồng thời, các nhà lập pháp cần đưa ra những hình phạt pháp lý nghiêm khắc đối với tội phạm mạng để ngăn chặn các hành vi vi phạm.",
+                "evidence_en": "• Evidence 1: Authorities can launch educational campaigns to teach people how to identify online scams effectively.\n• Evidence 2: Simultaneously, lawmakers should introduce severe legal penalties for cybercriminals to deter illegal activities.",
+                "collocations": [
+                  {
+                    "en": "launch educational campaigns",
+                    "vi": "khởi động các chiến dịch giáo dục"
+                  },
+                  {
+                    "en": "identify online scams",
+                    "vi": "nhận diện các trò lừa đảo trực tuyến"
+                  },
+                  {
+                    "en": "severe legal penalties",
+                    "vi": "hình phạt pháp lý nghiêm khắc"
+                  },
+                  {
+                    "en": "deter illegal activities",
+                    "vi": "ngăn chặn, răn đe các hành vi vi phạm pháp luật"
+                  }
+                ]
+              }
+            ]
+          },
+          "vocab": [
+            {
+              "en": "cybercrime",
+              "vi": "tội phạm mạng"
+            },
+            {
+              "en": "online scams",
+              "vi": "lừa đảo trực tuyến"
+            },
+            {
+              "en": "steal bank details",
+              "vi": "đánh cắp thông tin ngân hàng"
+            },
+            {
+              "en": "lose important data",
+              "vi": "mất dữ liệu quan trọng"
+            },
+            {
+              "en": "lose customer trust",
+              "vi": "mất lòng tin của khách hàng"
+            },
+            {
+              "en": "feel unsafe",
+              "vi": "cảm thấy không an toàn"
+            },
+            {
+              "en": "use strong passwords",
+              "vi": "sử dụng mật khẩu mạnh"
+            },
+            {
+              "en": "suspicious links",
+              "vi": "đường link đáng ngờ"
+            },
+            {
+              "en": "security measures",
+              "vi": "biện pháp bảo mật"
+            },
+            {
+              "en": "back up data",
+              "vi": "sao lưu dữ liệu"
+            },
+            {
+              "en": "prevent cyberattacks",
+              "vi": "ngăn chặn tấn công mạng"
+            },
+            {
+              "en": "identify online fraud",
+              "vi": "nhận diện lừa đảo trực tuyến"
             }
+          ],
+          "sample_b1": "In modern life, <strong>cybercrime</strong> has become an increasingly serious problem. With the rapid development of the Internet, many criminals now attack online users in different ways. <strong>This essay will discuss three negative impacts of cybercrime and suggest three practical solutions to deal with this problem.</strong>\n\n<strong>To begin with, cybercrime brings three major negative effects to our daily lives.</strong> First of all, <strong><em>cybercrime can cause individuals to lose a large amount of money.</em></strong> Criminals often use fake websites or online scams to steal bank details. As a result, many victims lose their savings and face difficult financial problems. In addition, <strong><em>cybercrime can make businesses lose important data and reputation.</em></strong> When company computers are attacked, customer information and private files can be stolen. Consequently, companies may face serious operational troubles and lose customer trust. Finally, <strong><em>cybercrime can make users lose trust in the Internet.</em></strong> When people constantly hear about online scams, they feel unsafe. Therefore, they may hesitate to shop online, make payments, or share information on the Internet.\n\n<strong>To address these problems, individuals, businesses, and governments should take effective action.</strong> The first solution is that <strong><em>people should protect their personal information and bank accounts more carefully.</em></strong> Users should always use strong passwords and never share their passwords with others. Also, they must avoid clicking on suspicious links in strange messages. Second, <strong><em>businesses should use good security measures to protect their data.</em></strong> Companies can install antivirus software, back up files regularly, and update their computers. Moreover, training workers about online safety helps avoid accidental data leaks. Lastly, <strong><em>governments and organizations should help people use the Internet more safely.</em></strong> Authorities can organize campaigns to teach citizens how to recognize online fraud. At the same time, strict laws should be introduced to punish cybercriminals.\n\nIn conclusion, cybercrime causes financial loss, harms business reputations, and reduces public trust in online activities. By protecting personal accounts, improving corporate security, and raising public awareness, we can create a much safer online environment for everyone.",
+          "translation_b1": "Trong đời sống hiện đại, tội phạm mạng đã trở thành một vấn đề ngày càng nghiêm trọng. Cùng với sự phát triển nhanh chóng của Internet, nhiều tội phạm ngày nay tấn công người dùng trực tuyến bằng nhiều cách khác nhau. Bài viết này sẽ thảo luận về ba tác động tiêu cực của tội phạm mạng và đề xuất ba giải pháp thực tế để giải quyết vấn đề này.\n\nĐầu tiên, tội phạm mạng mang lại ba tác động tiêu cực lớn đối với đời sống hằng ngày của chúng ta. Trước hết, tội phạm mạng có thể khiến các cá nhân mất một khoản tiền lớn. Tội phạm thường sử dụng các trang web giả mạo hoặc lừa đảo trực tuyến để đánh cắp thông tin ngân hàng. Kết quả là nhiều nạn nhân bị mất tiền tiết kiệm và đối mặt với những vấn đề tài chính khó khăn. Thêm vào đó, tội phạm mạng có thể khiến doanh nghiệp mất dữ liệu quan trọng và uy tín. Khi máy tính của công ty bị tấn công, thông tin khách hàng và tệp tin mật có thể bị đánh cắp. Do đó, các công ty có thể gặp rắc rối nghiêm trọng về vận hành và đánh mất lòng tin của khách hàng. Cuối cùng, tội phạm mạng có thể khiến người dùng mất niềm tin vào Internet. Khi mọi người liên tục nghe về các vụ lừa đảo qua mạng, họ cảm thấy không an toàn. Vì vậy, họ có thể ngần ngại mua hàng online, thanh toán hoặc chia sẻ thông tin trên Internet.\n\nĐể giải quyết những vấn đề này, các cá nhân, doanh nghiệp và chính phủ nên có hành động hiệu quả. Giải pháp đầu tiên là mọi người nên bảo vệ thông tin cá nhân và tài khoản ngân hàng của mình cẩn thận hơn. Người dùng nên luôn sử dụng mật khẩu mạnh và không bao giờ chia sẻ mật khẩu của mình với người khác. Ngoài ra, họ phải tránh nhấp vào các đường link đáng ngờ trong tin nhắn lạ. Thứ hai, các doanh nghiệp nên sử dụng các biện pháp bảo mật tốt để bảo vệ dữ liệu của mình. Doanh nghiệp có thể cài đặt phần mềm diệt vi-rút, sao lưu tệp thường xuyên và cập nhật máy tính. Hơn nữa, việc đào tạo nhân viên về an toàn mạng giúp tránh được việc rò rỉ dữ liệu ngoài ý muốn. Cuối cùng, chính phủ và các tổ chức nên giúp mọi người sử dụng Internet an toàn hơn. Cơ quan chức năng có thể tổ chức các chiến dịch hướng dẫn người dân nhận diện lừa đảo trực tuyến. Đồng thời, cần ban hành luật pháp nghiêm minh để trừng phạt tội phạm mạng.\n\nTóm lại, tội phạm mạng gây tổn thất tài chính, làm tổn hại uy tín doanh nghiệp và làm suy giảm niềm tin của công chúng vào các hoạt động trực tuyến. Bằng cách bảo vệ tài khoản cá nhân, nâng cao tính bảo mật của doanh nghiệp và tăng cường nhận thức xã hội, chúng ta có thể tạo ra môi trường mạng an toàn hơn nhiều cho mọi người.",
+          "sample_b2": "In contemporary society, <strong>cybercrime</strong> has emerged as a serious global problem that affects millions of people. As daily activities increasingly depend on the Internet, digital offenses pose significant threats to individuals, organizations, and the economy. <strong>This essay will analyze three major impacts of cybercrime and suggest three practical solutions to tackle this issue.</strong>\n\n<strong>On the one hand, cybercrime causes widespread damage across multiple areas of society.</strong> First and foremost, <strong><em>cybercrime can cause severe financial losses for individuals.</em></strong> Cybercriminals frequently create fake websites or send phishing emails to steal credit card details and bank accounts. As a result, many victims lose their life savings and face serious financial difficulties in their daily lives. Furthermore, <strong><em>cybercrime can make businesses lose important data and damage their reputation.</em></strong> When corporate systems are hacked, confidential company records and customers' personal data can be leaked. This disrupts business operations and causes clients to lose trust in the company, leading to a considerable decline in sales. Lastly, <strong><em>cybercrime can reduce users' trust in the Internet and online services.</em></strong> When online fraud and identity theft occur frequently, citizens feel anxious and unsafe in the digital environment. Consequently, many consumers hesitate to shop online, perform banking transactions, or share personal information on social platforms.\n\n<strong>On the other hand, addressing this dilemma requires collaborative efforts from internet users, enterprises, and state authorities.</strong> The primary solution is that <strong><em>individuals should proactively protect their personal accounts and information.</em></strong> Internet users ought to generate strong passwords, activate two-factor authentication, and never share verification codes with anyone. In addition, people should exercise caution when receiving unfamiliar messages and avoid clicking on suspicious links. Moreover, <strong><em>businesses should invest in modern cybersecurity systems to protect their data.</em></strong> Companies need to install reliable antivirus programs, back up data regularly, and update their software to prevent cyberattacks. Providing regular cybersecurity training for staff is also essential to minimize the risk of accidental data leaks. Finally, <strong><em>governments and organizations should help citizens use the Internet safely and enforce strict laws.</em></strong> Authorities can launch educational campaigns to teach people how to identify online scams effectively. Simultaneously, lawmakers should introduce severe legal penalties for cybercriminals to deter illegal activities.\n\nIn conclusion, cybercrime exacts significant tolls on individual finances, corporate credibility, and public confidence in digital services. However, by taking personal precautions, enhancing corporate cybersecurity, and strengthening government regulations, society can successfully mitigate these dangers and build a safer digital environment.",
+          "translation_b2": "Trong xã hội đương đại, tội phạm mạng đã nổi lên như một vấn đề toàn cầu nghiêm trọng ảnh hưởng đến hàng triệu người. Khi các hoạt động thường ngày ngày càng phụ thuộc vào Internet, các hành vi phạm tội kỹ thuật số đặt ra những mối đe dọa lớn đối với các cá nhân, tổ chức và nền kinh tế. Bài viết này sẽ phân tích ba tác động chính của tội phạm mạng và gợi ý ba giải pháp thực tế để giải quyết vấn đề này.\n\nMột mặt, tội phạm mạng gây ra những thiệt hại trên diện rộng ở nhiều lĩnh vực của xã hội. Trước hết, tội phạm mạng có thể gây ra những tổn thất tài chính nặng nề cho các cá nhân. Tội phạm mạng thường xuyên tạo ra các trang web giả mạo hoặc gửi email lừa đảo để đánh cắp thông tin thẻ tín dụng và tài khoản ngân hàng. Hậu quả là nhiều nạn nhân mất sạch tiền tiết kiệm cả đời và đối mặt với những khó khăn tài chính nghiêm trọng trong cuộc sống thường ngày. Hơn nữa, tội phạm mạng có thể khiến các doanh nghiệp bị mất dữ liệu quan trọng và tổn hại danh tiếng. Khi các hệ thống của công ty bị xâm nhập, hồ sơ tài liệu mật và dữ liệu cá nhân của khách hàng có thể bị rò rỉ. Điều này làm gián đoạn các hoạt động kinh doanh và khiến khách hàng mất niềm tin vào công ty, dẫn đến sự sụt giảm doanh thu đáng kể. Cuối cùng, tội phạm mạng có thể làm suy giảm niềm tin của người dùng vào Internet và các dịch vụ trực tuyến. Khi các vụ gian lận qua mạng và đánh cắp danh tính xảy ra thường xuyên, người dân cảm thấy lo lắng và bất an trong môi trường số. Do đó, nhiều người tiêu dùng ngần ngại mua sắm online, thực hiện giao dịch ngân hàng hoặc chia sẻ thông tin cá nhân trên các nền tảng mạng xã hội.\n\nMặt khác, việc giải quyết vấn đề này đòi hỏi nỗ lực phối hợp từ người dùng internet, các doanh nghiệp và cơ quan nhà nước. Giải pháp đầu tiên là các cá nhân cần chủ động bảo vệ tài khoản và thông tin cá nhân của mình. Người dùng internet nên tạo mật khẩu mạnh, kích hoạt xác thực hai yếu tố và không bao giờ chia sẻ mã xác thực với bất kỳ ai. Ngoài ra, mọi người nên thận trọng khi nhận các tin nhắn lạ và tránh nhấp vào các đường link đáng ngờ. Hơn nữa, các doanh nghiệp nên đầu tư vào các hệ thống an ninh mạng hiện đại để bảo vệ dữ liệu của mình. Doanh nghiệp cần cài đặt các chương trình diệt vi-rút đáng tin cậy, sao lưu dữ liệu định kỳ và cập nhật phần mềm để ngăn ngừa các cuộc tấn công mạng. Cung cấp các buổi tập huấn an ninh mạng thường xuyên cho nhân viên cũng rất cần thiết để giảm thiểu nguy cơ rò rỉ dữ liệu do sơ suất. Cuối cùng, chính phủ và các tổ chức cần hỗ trợ người dân sử dụng Internet an toàn và thực thi pháp luật nghiêm minh. Cơ quan chức năng có thể triển khai các chiến dịch giáo dục nhằm hướng dẫn người dân cách nhận diện lừa đảo trực tuyến một cách hiệu quả. Đồng thời, các nhà lập pháp nên đưa ra những hình phạt pháp lý nghiêm khắc đối với tội phạm mạng để răn đe các hành vi vi phạm.\n\nTóm lại, tội phạm mạng gây ra những tổn hại đáng kể đối với tài chính cá nhân, uy tín doanh nghiệp và niềm tin của cộng đồng vào các dịch vụ kỹ thuật số. Tuy nhiên, bằng việc thực hiện các biện pháp phòng ngừa cá nhân, tăng cường an ninh mạng doanh nghiệp và củng cố các quy định của chính phủ, xã hội hoàn toàn có thể giảm thiểu những mối nguy này và xây dựng một môi trường kỹ thuật số an toàn hơn.",
+          "vocab_step": {
+            "theme": "Tội phạm mạng (Cybercrime & Online Security)",
+            "single_words": [
+              {
+                "word": "scam",
+                "ipa": "/skæm/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "vụ lừa đảo",
+                "family": "scammer (n)",
+                "example_en": "Many people lose money in online scams.",
+                "example_vi": "Nhiều người mất tiền trong các vụ lừa đảo trực tuyến."
+              },
+              {
+                "word": "steal",
+                "ipa": "/stiːl/",
+                "pos": "verb",
+                "level": "B1",
+                "vi": "đánh cắp",
+                "family": "theft (n), stolen (adj)",
+                "example_en": "Criminals steal bank information from users.",
+                "example_vi": "Kẻ xấu đánh cắp thông tin ngân hàng từ người dùng."
+              },
+              {
+                "word": "victim",
+                "ipa": "/ˈvɪktɪm/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "nạn nhân",
+                "family": "victimize (v)",
+                "example_en": "He was a victim of an online scam.",
+                "example_vi": "Anh ấy là nạn nhân của một vụ lừa đảo qua mạng."
+              },
+              {
+                "word": "reputation",
+                "ipa": "/ˌrepjuˈteɪʃn/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "uy tín, danh tiếng",
+                "family": "reputable (adj)",
+                "example_en": "A company can lose its good reputation quickly.",
+                "example_vi": "Một công ty có thể mất đi danh tiếng tốt một cách nhanh chóng."
+              },
+              {
+                "word": "unsafe",
+                "ipa": "/ʌnˈseɪf/",
+                "pos": "adj",
+                "level": "B1",
+                "vi": "không an toàn",
+                "family": "safe (adj), safely (adv)",
+                "example_en": "Users feel unsafe when using strange websites.",
+                "example_vi": "Người dùng cảm thấy không an toàn khi sử dụng các trang web lạ."
+              },
+              {
+                "word": "password",
+                "ipa": "/ˈpɑːswɜːd/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "mật khẩu",
+                "family": "passcode (n)",
+                "example_en": "You should use a long and strong password.",
+                "example_vi": "Bạn nên sử dụng một mật khẩu dài và mạnh."
+              },
+              {
+                "word": "suspicious",
+                "ipa": "/səˈspɪʃəs/",
+                "pos": "adj",
+                "level": "B1",
+                "vi": "đáng ngờ",
+                "family": "suspect (v/n), suspicion (n)",
+                "example_en": "Do not click on suspicious links in messages.",
+                "example_vi": "Đừng nhấn vào các đường link đáng ngờ trong tin nhắn."
+              },
+              {
+                "word": "prevent",
+                "ipa": "/prɪˈvent/",
+                "pos": "verb",
+                "level": "B1",
+                "vi": "ngăn chặn",
+                "family": "prevention (n), preventable (adj)",
+                "example_en": "Good software helps prevent computer viruses.",
+                "example_vi": "Phần mềm tốt giúp ngăn chặn vi-rút máy tính."
+              },
+              {
+                "word": "backup",
+                "ipa": "/ˈbækʌp/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "sao lưu",
+                "family": "back up (v)",
+                "example_en": "Remember to back up your important files.",
+                "example_vi": "Hãy nhớ sao lưu các tệp quan trọng của bạn."
+              },
+              {
+                "word": "update",
+                "ipa": "/ˌʌpˈdeɪt/",
+                "pos": "verb",
+                "level": "B1",
+                "vi": "cập nhật",
+                "family": "updated (adj)",
+                "example_en": "You should update your computer system regularly.",
+                "example_vi": "Bạn nên cập nhật hệ thống máy tính thường xuyên."
+              },
+              {
+                "word": "hesitate",
+                "ipa": "/ˈhezɪteɪt/",
+                "pos": "verb",
+                "level": "B1",
+                "vi": "ngần ngại, do dự",
+                "family": "hesitation (n)",
+                "example_en": "Some customers hesitate to buy goods online.",
+                "example_vi": "Một số khách hàng ngần ngại mua hàng trực tuyến."
+              },
+              {
+                "word": "guide",
+                "ipa": "/ɡaɪd/",
+                "pos": "verb",
+                "level": "B1",
+                "vi": "hướng dẫn",
+                "family": "guidance (n), guideline (n)",
+                "example_en": "Experts guide people to stay safe on the Internet.",
+                "example_vi": "Các chuyên gia hướng dẫn người dân giữ an toàn trên Internet."
+              },
+              {
+                "word": "cyberattack",
+                "ipa": "/ˈsaɪbərəˌtæk/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "cuộc tấn công mạng",
+                "family": "cyberattacker (n)",
+                "example_en": "Companies must protect their databases from cyberattacks.",
+                "example_vi": "Các công ty phải bảo vệ cơ sở dữ liệu của mình khỏi các cuộc tấn công mạng."
+              },
+              {
+                "word": "fraud",
+                "ipa": "/frɔːd/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "gian lận, lừa đảo",
+                "family": "fraudulent (adj)",
+                "example_en": "Police are investigating serious cases of online fraud.",
+                "example_vi": "Cảnh sát đang điều tra những vụ lừa đảo trực tuyến nghiêm trọng."
+              },
+              {
+                "word": "confidential",
+                "ipa": "/ˌkɒnfɪˈdenʃl/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "tuyệt mật, bảo mật",
+                "family": "confidentiality (n)",
+                "example_en": "Businesses must keep customer records confidential.",
+                "example_vi": "Doanh nghiệp phải giữ bí mật các hồ sơ khách hàng."
+              },
+              {
+                "word": "leak",
+                "ipa": "/liːk/",
+                "pos": "verb",
+                "level": "B2",
+                "vi": "làm rò rỉ thông tin",
+                "family": "leakage (n)",
+                "example_en": "A system error leaked thousands of private emails.",
+                "example_vi": "Một lỗi hệ thống đã làm rò rỉ hàng nghìn email riêng tư."
+              },
+              {
+                "word": "disrupt",
+                "ipa": "/dɪsˈrʌpt/",
+                "pos": "verb",
+                "level": "B2",
+                "vi": "làm gián đoạn hoạt động",
+                "family": "disruption (n), disruptive (adj)",
+                "example_en": "Security problems can disrupt daily business operations.",
+                "example_vi": "Các sự cố an ninh có thể làm gián đoạn hoạt động kinh doanh hàng ngày."
+              },
+              {
+                "word": "identity theft",
+                "ipa": "/aɪˈdentəti θeft/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "đánh cắp danh tính",
+                "family": "identify (v)",
+                "example_en": "Identity theft causes severe financial stress for victims.",
+                "example_vi": "Đánh cắp danh tính gây ra áp lực tài chính nghiêm trọng cho nạn nhân."
+              },
+              {
+                "word": "authentication",
+                "ipa": "/ɔːˌθentɪˈkeɪʃn/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "xác thực danh tính",
+                "family": "authenticate (v)",
+                "example_en": "Two-factor authentication keeps online accounts secure.",
+                "example_vi": "Xác thực hai yếu tố giúp các tài khoản trực tuyến được an toàn."
+              },
+              {
+                "word": "antivirus",
+                "ipa": "/ˌæntiˈvaɪrəs/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "chống vi-rút máy tính",
+                "family": "virus (n)",
+                "example_en": "It is important to install reliable antivirus software.",
+                "example_vi": "Việc cài đặt phần mềm chống vi-rút đáng tin cậy là rất quan trọng."
+              },
+              {
+                "word": "proactive",
+                "ipa": "/prəʊˈæktɪv/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "chủ động",
+                "family": "proactively (adv)",
+                "example_en": "Users need to take a proactive role in securing their data.",
+                "example_vi": "Người dùng cần có vai trò chủ động trong việc bảo mật dữ liệu của mình."
+              },
+              {
+                "word": "awareness",
+                "ipa": "/əˈweənəs/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "nhận thức",
+                "family": "aware (adj)",
+                "example_en": "Media campaigns raise public awareness about online safety.",
+                "example_vi": "Các chiến dịch truyền thông nâng cao nhận thức cộng đồng về an toàn trên mạng."
+              },
+              {
+                "word": "deter",
+                "ipa": "/dɪˈtɜː/",
+                "pos": "verb",
+                "level": "B2",
+                "vi": "ngăn chặn, răn đe",
+                "family": "deterrent (n)",
+                "example_en": "Strict laws help deter criminals from committing online fraud.",
+                "example_vi": "Luật pháp nghiêm khắc giúp răn đe tội phạm không thực hiện hành vi lừa đảo qua mạng."
+              },
+              {
+                "word": "penalty",
+                "ipa": "/ˈpenəlti/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "hình phạt, chế tài",
+                "family": "penalize (v)",
+                "example_en": "The government should introduce heavy penalties for cybercrimes.",
+                "example_vi": "Chính phủ nên đưa ra những hình phạt nặng đối với các tội phạm mạng."
+              }
+            ]
+          }
+        }
       },
       {
         "id": 29,
@@ -27796,925 +27796,925 @@ const ESSAY_DATA = [
         "prompt": "Write an essay to an educated reader to discuss the causes and effects of job hopping. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
         "has_full_details": false
       },
-            {
-            "id": 35,
-            "title_en": "Plastic waste in the oceans",
-            "title_vi": "Rác thải nhựa ở đại dương",
-            "tags": "[Effects & Solutions]",
-            "context": "Plastic waste in the oceans has become one of the most serious environmental problems facing the world today. Every year, millions of tons of plastic waste enter rivers, seas, and oceans, where it can remain for hundreds of years without fully decomposing. This growing problem threatens marine ecosystems and has raised concerns among governments, environmental organizations, and the public.",
-            "prompt": "Write an essay to an educated reader to discuss the effects of plastic waste in the oceans and suggest possible solutions to this problem. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-            "has_full_details": true,
-            "paraphrases": [
+      {
+        "id": 35,
+        "title_en": "Plastic waste in the oceans",
+        "title_vi": "Rác thải nhựa ở đại dương",
+        "tags": "[Effects & Solutions]",
+        "context": "Plastic waste in the oceans has become one of the most serious environmental problems facing the world today. Every year, millions of tons of plastic waste enter rivers, seas, and oceans, where it can remain for hundreds of years without fully decomposing. This growing problem threatens marine ecosystems and has raised concerns among governments, environmental organizations, and the public.",
+        "prompt": "Write an essay to an educated reader to discuss the effects of plastic waste in the oceans and suggest possible solutions to this problem. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "has_full_details": true,
+        "paraphrases": [
+          {
+            "en": "plastic waste in the oceans",
+            "vi": "rác thải nhựa ở các đại dương"
+          },
+          {
+            "en": "marine plastic pollution",
+            "vi": "tình trạng ô nhiễm rác thải nhựa ở biển"
+          },
+          {
+            "en": "oceanic plastic debris and litter",
+            "vi": "mảnh vụn và rác thải nhựa đại dương"
+          },
+          {
+            "en": "the accumulation of plastic waste in marine environments",
+            "vi": "sự tích tụ của rác thải nhựa trong môi trường biển"
+          }
+        ],
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "EFFECT 01",
+                "point_vi": "Rác thải nhựa có thể gây ô nhiễm môi trường nghiêm trọng.",
+                "point_en": "Plastic waste can cause serious pollution to the environment.",
+                "evidence_vi": "Điều này là do nhựa mất nhiều năm để phân hủy, vì vậy nó có thể làm ô nhiễm đất, nguồn nước và cảnh quan thiên nhiên.",
+                "evidence_en": "This is because plastic takes many years to break down, so it can pollute land, water sources, and nature.",
+                "collocations": [
                   {
-                        "en": "plastic waste in the oceans",
-                        "vi": "rác thải nhựa ở các đại dương"
+                    "en": "plastic waste",
+                    "vi": "rác thải nhựa"
                   },
                   {
-                        "en": "marine plastic pollution",
-                        "vi": "tình trạng ô nhiễm rác thải nhựa ở biển"
+                    "en": "cause serious pollution to the environment",
+                    "vi": "gây ô nhiễm môi trường nghiêm trọng"
                   },
                   {
-                        "en": "oceanic plastic debris and litter",
-                        "vi": "mảnh vụn và rác thải nhựa đại dương"
+                    "en": "take many years to break down",
+                    "vi": "mất nhiều năm để phân hủy"
                   },
                   {
-                        "en": "the accumulation of plastic waste in marine environments",
-                        "vi": "sự tích tụ của rác thải nhựa trong môi trường biển"
+                    "en": "pollute land, water sources, and nature",
+                    "vi": "làm ô nhiễm đất, nguồn nước và thiên nhiên"
                   }
+                ]
+              },
+              {
+                "title": "EFFECT 02",
+                "point_vi": "Rác thải nhựa có thể gây hại nghiêm trọng cho động vật.",
+                "point_en": "In addition, plastic waste can cause serious harm to animals.",
+                "evidence_vi": "Động vật có thể ăn phải rác thải nhựa hoặc bị mắc kẹt trong các sản phẩm nhựa, khiến chúng bị thương hoặc thậm chí chết.",
+                "evidence_en": "Animals can eat plastic waste or get trapped in plastic products, so they can get hurt or even die.",
+                "collocations": [
+                  {
+                    "en": "cause serious harm to animals",
+                    "vi": "gây hại nghiêm trọng cho động vật"
+                  },
+                  {
+                    "en": "eat plastic waste",
+                    "vi": "ăn phải rác thải nhựa"
+                  },
+                  {
+                    "en": "get trapped in plastic products",
+                    "vi": "bị mắc kẹt trong các sản phẩm nhựa"
+                  },
+                  {
+                    "en": "get hurt or even die",
+                    "vi": "bị thương hoặc thậm chí chết"
+                  }
+                ]
+              },
+              {
+                "title": "EFFECT 03",
+                "point_vi": "Rác thải nhựa có thể gây ảnh hưởng tiêu cực đến sức khỏe con người.",
+                "point_en": "Finally, plastic waste can also have negative effects on human health.",
+                "evidence_vi": "Rác thải nhựa có thể làm ô nhiễm thực phẩm và nguồn nước, từ đó gây ra một số vấn đề về sức khỏe.",
+                "evidence_en": "Plastic waste can pollute food and drinking water, and this causes many health problems.",
+                "collocations": [
+                  {
+                    "en": "have negative effects on human health",
+                    "vi": "gây ảnh hưởng tiêu cực đến sức khỏe con người"
+                  },
+                  {
+                    "en": "plastic waste",
+                    "vi": "rác thải nhựa"
+                  },
+                  {
+                    "en": "pollute food and drinking water",
+                    "vi": "làm ô nhiễm thực phẩm và nguồn nước"
+                  },
+                  {
+                    "en": "causes many health problems",
+                    "vi": "gây ra nhiều vấn đề sức khỏe"
+                  }
+                ]
+              }
             ],
-            "details": {
-                  "ideas_b1": {
-                        "benefits": [
-                              {
-                                    "title": "EFFECT 01",
-                                    "point_vi": "Rác thải nhựa có thể gây ô nhiễm môi trường nghiêm trọng.",
-                                    "point_en": "Plastic waste can cause serious pollution to the environment.",
-                                    "evidence_vi": "Điều này là do nhựa mất nhiều năm để phân hủy, vì vậy nó có thể làm ô nhiễm đất, nguồn nước và cảnh quan thiên nhiên.",
-                                    "evidence_en": "This is because plastic takes many years to break down, so it can pollute land, water sources, and nature.",
-                                    "collocations": [
-                                          {
-                                                "en": "plastic waste",
-                                                "vi": "rác thải nhựa"
-                                          },
-                                          {
-                                                "en": "cause serious pollution to the environment",
-                                                "vi": "gây ô nhiễm môi trường nghiêm trọng"
-                                          },
-                                          {
-                                                "en": "take many years to break down",
-                                                "vi": "mất nhiều năm để phân hủy"
-                                          },
-                                          {
-                                                "en": "pollute land, water sources, and nature",
-                                                "vi": "làm ô nhiễm đất, nguồn nước và thiên nhiên"
-                                          }
-                                    ]
-                              },
-                              {
-                                    "title": "EFFECT 02",
-                                    "point_vi": "Rác thải nhựa có thể gây hại nghiêm trọng cho động vật.",
-                                    "point_en": "In addition, plastic waste can cause serious harm to animals.",
-                                    "evidence_vi": "Động vật có thể ăn phải rác thải nhựa hoặc bị mắc kẹt trong các sản phẩm nhựa, khiến chúng bị thương hoặc thậm chí chết.",
-                                    "evidence_en": "Animals can eat plastic waste or get trapped in plastic products, so they can get hurt or even die.",
-                                    "collocations": [
-                                          {
-                                                "en": "cause serious harm to animals",
-                                                "vi": "gây hại nghiêm trọng cho động vật"
-                                          },
-                                          {
-                                                "en": "eat plastic waste",
-                                                "vi": "ăn phải rác thải nhựa"
-                                          },
-                                          {
-                                                "en": "get trapped in plastic products",
-                                                "vi": "bị mắc kẹt trong các sản phẩm nhựa"
-                                          },
-                                          {
-                                                "en": "get hurt or even die",
-                                                "vi": "bị thương hoặc thậm chí chết"
-                                          }
-                                    ]
-                              },
-                              {
-                                    "title": "EFFECT 03",
-                                    "point_vi": "Rác thải nhựa có thể gây ảnh hưởng tiêu cực đến sức khỏe con người.",
-                                    "point_en": "Finally, plastic waste can also have negative effects on human health.",
-                                    "evidence_vi": "Rác thải nhựa có thể làm ô nhiễm thực phẩm và nguồn nước, từ đó gây ra một số vấn đề về sức khỏe.",
-                                    "evidence_en": "Plastic waste can pollute food and drinking water, and this causes many health problems.",
-                                    "collocations": [
-                                          {
-                                                "en": "have negative effects on human health",
-                                                "vi": "gây ảnh hưởng tiêu cực đến sức khỏe con người"
-                                          },
-                                          {
-                                                "en": "plastic waste",
-                                                "vi": "rác thải nhựa"
-                                          },
-                                          {
-                                                "en": "pollute food and drinking water",
-                                                "vi": "làm ô nhiễm thực phẩm và nguồn nước"
-                                          },
-                                          {
-                                                "en": "causes many health problems",
-                                                "vi": "gây ra nhiều vấn đề sức khỏe"
-                                          }
-                                    ]
-                              }
-                        ],
-                        "drawbacks": [
-                              {
-                                    "title": "SOLUTION 01",
-                                    "point_vi": "Giảm sử dụng các sản phẩm nhựa dùng một lần.",
-                                    "point_en": "First, people should reduce the use of single-use plastic products.",
-                                    "evidence_vi": "Mọi người có thể sử dụng túi vải, chai nước và hộp đựng có thể tái sử dụng thay cho các sản phẩm nhựa dùng một lần.",
-                                    "evidence_en": "People can use cloth bags, reusable water bottles, and containers instead of single-use plastic items.",
-                                    "collocations": [
-                                          {
-                                                "en": "reduce the use of single-use plastic products",
-                                                "vi": "giảm sử dụng các sản phẩm nhựa dùng một lần"
-                                          },
-                                          {
-                                                "en": "use cloth bags",
-                                                "vi": "dùng túi vải"
-                                          },
-                                          {
-                                                "en": "reusable water bottles",
-                                                "vi": "chai nước có thể tái sử dụng"
-                                          },
-                                          {
-                                                "en": "containers instead of single-use plastic items",
-                                                "vi": "hộp đựng thay cho các sản phẩm nhựa dùng một lần"
-                                          }
-                                    ]
-                              },
-                              {
-                                    "title": "SOLUTION 02",
-                                    "point_vi": "Tăng cường việc tái chế rác thải nhựa.",
-                                    "point_en": "Second, it is necessary to increase the recycling of plastic waste.",
-                                    "evidence_vi": "Chính phủ có thể cung cấp thêm các thùng rác tái chế và khuyến khích người dân phân loại, thu gom và tái chế rác thải nhựa.",
-                                    "evidence_en": "The government can provide more recycling bins and encourage people to sort, collect, and recycle plastic waste.",
-                                    "collocations": [
-                                          {
-                                                "en": "increase the recycling of plastic waste",
-                                                "vi": "tăng cường việc tái chế rác thải nhựa"
-                                          },
-                                          {
-                                                "en": "provide more recycling bins",
-                                                "vi": "cung cấp thêm các thùng rác tái chế"
-                                          },
-                                          {
-                                                "en": "encourage people to sort, collect, and recycle",
-                                                "vi": "khuyến khích người dân phân loại, thu gom và tái chế"
-                                          }
-                                    ]
-                              },
-                              {
-                                    "title": "SOLUTION 03",
-                                    "point_vi": "Nâng cao nhận thức của người dân về rác thải nhựa.",
-                                    "point_en": "Finally, raising public awareness about plastic waste is essential.",
-                                    "evidence_vi": "Chính phủ, trường học và truyền thông có thể giáo dục người dân về tác hại của rác thải nhựa và khuyến khích họ sử dụng ít nhựa hơn.",
-                                    "evidence_en": "Governments, schools, and the media can teach people about the harmful effects of plastic and encourage them to use less plastic.",
-                                    "collocations": [
-                                          {
-                                                "en": "raising public awareness about plastic waste",
-                                                "vi": "nâng cao nhận thức của người dân về rác thải nhựa"
-                                          },
-                                          {
-                                                "en": "teach people about the harmful effects",
-                                                "vi": "dạy cho người dân về các tác hại"
-                                          },
-                                          {
-                                                "en": "encourage them to use less plastic",
-                                                "vi": "khuyến khích họ sử dụng ít nhựa hơn"
-                                          }
-                                    ]
-                              }
-                        ]
+            "drawbacks": [
+              {
+                "title": "SOLUTION 01",
+                "point_vi": "Giảm sử dụng các sản phẩm nhựa dùng một lần.",
+                "point_en": "First, people should reduce the use of single-use plastic products.",
+                "evidence_vi": "Mọi người có thể sử dụng túi vải, chai nước và hộp đựng có thể tái sử dụng thay cho các sản phẩm nhựa dùng một lần.",
+                "evidence_en": "People can use cloth bags, reusable water bottles, and containers instead of single-use plastic items.",
+                "collocations": [
+                  {
+                    "en": "reduce the use of single-use plastic products",
+                    "vi": "giảm sử dụng các sản phẩm nhựa dùng một lần"
                   },
-                  "ideas_b2": {
-                        "benefits": [
-                              {
-                                    "title": "EFFECT 01",
-                                    "point_vi": "Rác thải nhựa gây ô nhiễm môi trường biển và hủy hoại cảnh quan thiên nhiên.",
-                                    "point_en": "First, plastic waste causes severe environmental pollution in oceans.",
-                                    "evidence_vi": "• Luận cứ 1: Các vật liệu nhựa mất hàng trăm năm để phân hủy, do đó hàng triệu tấn rác nhựa trôi ra biển sẽ tích tụ lâu dài trong nước và dọc theo các bờ biển.\n• Luận cứ 2: Hậu quả là các môi trường sống tự nhiên dưới biển bị tàn phá và các bãi biển du lịch bị ô nhiễm nghiêm trọng.",
-                                    "evidence_en": "• Evidence 1: Plastic materials take hundreds of years to decompose, so millions of tons of plastic accumulate in the water and along coastlines.\n• Evidence 2: As a result, marine habitats are damaged and natural coastal landscapes are severely contaminated.",
-                                    "collocations": [
-                                          {
-                                                "en": "environmental pollution",
-                                                "vi": "ô nhiễm môi trường"
-                                          },
-                                          {
-                                                "en": "take hundreds of years to decompose",
-                                                "vi": "mất hàng trăm năm để phân hủy"
-                                          },
-                                          {
-                                                "en": "accumulate in the water",
-                                                "vi": "tích tụ trong nước"
-                                          },
-                                          {
-                                                "en": "marine habitats",
-                                                "vi": "môi trường sống dưới biển"
-                                          }
-                                    ]
-                              },
-                              {
-                                    "title": "EFFECT 02",
-                                    "point_vi": "Rác thải nhựa đại dương đe dọa trực tiếp sự sinh tồn của các loài động vật biển.",
-                                    "point_en": "Second, oceanic plastic directly threatens the survival of marine wildlife.",
-                                    "evidence_vi": "• Luận cứ 1: Nhiều loài sinh vật biển như rùa biển, chim và cá thường nuốt phải rác nhựa do nhầm tưởng là thức ăn.\n• Luận cứ 2: Bên cạnh đó, các loài động vật lớn có thể bị mắc kẹt vào các túi nilon hoặc lưới đánh cá bị bỏ lại, dẫn đến thương tật hoặc tử vong.",
-                                    "evidence_en": "• Evidence 1: Many sea creatures such as turtles, birds, and fish often swallow plastic debris because they mistake it for food.\n• Evidence 2: In addition, larger marine animals can become entangled in discarded plastic bags and fishing nets, causing injury or death.",
-                                    "collocations": [
-                                          {
-                                                "en": "marine wildlife",
-                                                "vi": "động vật hoang dã dưới biển"
-                                          },
-                                          {
-                                                "en": "swallow plastic debris",
-                                                "vi": "nuốt phải mảnh rác nhựa"
-                                          },
-                                          {
-                                                "en": "mistake it for food",
-                                                "vi": "nhầm nó là thức ăn"
-                                          },
-                                          {
-                                                "en": "become entangled in nets",
-                                                "vi": "bị mắc kẹt vào lưới đánh cá"
-                                          }
-                                    ]
-                              },
-                              {
-                                    "title": "EFFECT 03",
-                                    "point_vi": "Ô nhiễm rác thải nhựa đe dọa sức khỏe của con người thông qua chuỗi thức ăn.",
-                                    "point_en": "Finally, marine plastic pollution poses serious hazards to human health through the food chain.",
-                                    "evidence_vi": "• Luận cứ 1: Theo thời gian, các mảnh rác nhựa vỡ vụn thành các hạt vi nhựa li ti và hấp thụ nhiều hóa chất độc hại trong nước biển.\n• Luận cứ 2: Khi con người ăn các loại hải sản bị nhiễm vi nhựa, những chất độc này tích tụ trong cơ thể và làm gia tăng nguy cơ mắc bệnh nguy hiểm.",
-                                    "evidence_en": "• Evidence 1: Over time, plastic items break down into tiny microplastics that absorb toxic chemicals in seawater.\n• Evidence 2: When people consume seafood contaminated with microplastics, these dangerous substances enter the human body and increase health risks.",
-                                    "collocations": [
-                                          {
-                                                "en": "human health",
-                                                "vi": "sức khỏe con người"
-                                          },
-                                          {
-                                                "en": "food chain",
-                                                "vi": "chuỗi thức ăn"
-                                          },
-                                          {
-                                                "en": "tiny microplastics",
-                                                "vi": "các hạt vi nhựa li ti"
-                                          },
-                                          {
-                                                "en": "toxic chemicals",
-                                                "vi": "hóa chất độc hại"
-                                          }
-                                    ]
-                              }
-                        ],
-                        "drawbacks": [
-                              {
-                                    "title": "SOLUTION 01",
-                                    "point_vi": "Giải pháp quan trọng hàng đầu là cắt giảm và loại bỏ dần các sản phẩm nhựa dùng một lần.",
-                                    "point_en": "The primary solution is to reduce and phase out single-use plastic products.",
-                                    "evidence_vi": "• Luận cứ 1: Chính phủ nên ban hành lệnh cấm hoặc đánh thuế cao đối với các đồ dùng một lần như túi nilon, ống hút và cốc nhựa.\n• Luận cứ 2: Đồng thời, người tiêu dùng nên chủ động chuyển sang các vật dụng thân thiện với môi trường như túi vải và bình nước cá nhân khi đi mua sắm.",
-                                    "evidence_en": "• Evidence 1: Governments should introduce bans or impose high taxes on disposable items such as plastic bags, straws, and single-use cups.\n• Evidence 2: At the same time, consumers should switch to eco-friendly alternatives, including cloth bags and reusable bottles when shopping.",
-                                    "collocations": [
-                                          {
-                                                "en": "phase out single-use plastics",
-                                                "vi": "loại bỏ dần đồ nhựa dùng một lần"
-                                          },
-                                          {
-                                                "en": "impose high taxes",
-                                                "vi": "áp thuế cao"
-                                          },
-                                          {
-                                                "en": "eco-friendly alternatives",
-                                                "vi": "các giải pháp thay thế thân thiện môi trường"
-                                          },
-                                          {
-                                                "en": "reusable bottles",
-                                                "vi": "bình nước tái sử dụng"
-                                          }
-                                    ]
-                              },
-                              {
-                                    "title": "SOLUTION 02",
-                                    "point_vi": "Chính quyền cần cải thiện hệ thống thu gom và nâng cấp các cơ sở tái chế rác.",
-                                    "point_en": "Second, authorities should improve waste management and recycling systems.",
-                                    "evidence_vi": "• Luận cứ 1: Chính quyền địa phương cần lắp đặt nhiều thùng phân loại rác tại các bãi biển và khu dân cư để ngăn rác trôi ra sông hồ và đại dương.\n• Luận cứ 2: Hơn nữa, nhà nước nên hỗ trợ tài chính cho các nhà máy tái chế để biến rác nhựa thành các vật liệu mới hữu ích.",
-                                    "evidence_en": "• Evidence 1: Local governments need to place proper recycling bins in coastal areas and residential areas to prevent trash from entering waterways.\n• Evidence 2: Moreover, financial support should be given to recycling companies to transform plastic waste into useful new materials.",
-                                    "collocations": [
-                                          {
-                                                "en": "waste management",
-                                                "vi": "quản lý chất thải"
-                                          },
-                                          {
-                                                "en": "recycling systems",
-                                                "vi": "hệ thống tái chế"
-                                          },
-                                          {
-                                                "en": "proper recycling bins",
-                                                "vi": "thùng phân loại rác phù hợp"
-                                          },
-                                          {
-                                                "en": "financial support",
-                                                "vi": "sự hỗ trợ tài chính"
-                                          }
-                                    ]
-                              },
-                              {
-                                    "title": "SOLUTION 03",
-                                    "point_vi": "Cần đẩy mạnh tuyên truyền để nâng cao nhận thức của cộng đồng về bảo vệ môi trường biển.",
-                                    "point_en": "Finally, it is crucial to raise public awareness about marine environmental protection.",
-                                    "evidence_vi": "• Luận cứ 1: Trường học và các phương tiện truyền thông nên tổ chức các chương trình giáo dục giúp người dân hiểu rõ tác hại của ô nhiễm rác nhựa.\n• Luận cứ 2: Thêm vào đó, việc phát động các phong trào làm sạch bãi biển vào cuối tuần sẽ khuyến khích người dân và khách du lịch cùng hành động.",
-                                    "evidence_en": "• Evidence 1: Schools and media channels should run educational programs to teach citizens about the harmful effects of plastic pollution on marine life.\n• Evidence 2: In addition, organizing community beach clean-up campaigns can encourage residents and tourists to take practical action.",
-                                    "collocations": [
-                                          {
-                                                "en": "raise public awareness",
-                                                "vi": "nâng cao nhận thức cộng đồng"
-                                          },
-                                          {
-                                                "en": "educational programs",
-                                                "vi": "các chương trình giáo dục"
-                                          },
-                                          {
-                                                "en": "beach clean-up campaigns",
-                                                "vi": "chiến dịch làm sạch bãi biển"
-                                          },
-                                          {
-                                                "en": "take practical action",
-                                                "vi": "hành động thực tế"
-                                          }
-                                    ]
-                              }
-                        ]
+                  {
+                    "en": "use cloth bags",
+                    "vi": "dùng túi vải"
                   },
-                  "vocab": [
-                        {
-                              "en": "severe environmental pollution",
-                              "vi": "ô nhiễm môi trường nghiêm trọng"
-                        },
-                        {
-                              "en": "take hundreds of years to decompose",
-                              "vi": "mất hàng trăm năm để phân hủy"
-                        },
-                        {
-                              "en": "contaminate soil and water sources",
-                              "vi": "làm ô nhiễm đất và nguồn nước"
-                        },
-                        {
-                              "en": "marine animals and wildlife",
-                              "vi": "động vật biển và đời sống hoang dã"
-                        },
-                        {
-                              "en": "ingest plastic waste",
-                              "vi": "nuốt phải rác thải nhựa"
-                        },
-                        {
-                              "en": "become entangled in plastic items",
-                              "vi": "bị mắc kẹt trong các đồ nhựa"
-                        },
-                        {
-                              "en": "discarded fishing nets",
-                              "vi": "lưới đánh cá bị vứt bỏ"
-                        },
-                        {
-                              "en": "severe injuries or death",
-                              "vi": "chấn thương nghiêm trọng hoặc tử vong"
-                        },
-                        {
-                              "en": "negative effects on human health",
-                              "vi": "ảnh hưởng tiêu cực đến sức khỏe con người"
-                        },
-                        {
-                              "en": "contaminate food and drinking water",
-                              "vi": "làm ô nhiễm thực phẩm và nước uống"
-                        },
-                        {
-                              "en": "various health problems",
-                              "vi": "nhiều vấn đề sức khỏe khác nhau"
-                        },
-                        {
-                              "en": "reduce the use of single-use plastics",
-                              "vi": "giảm sử dụng đồ nhựa dùng một lần"
-                        },
-                        {
-                              "en": "cloth bags and reusable bottles",
-                              "vi": "túi vải và chai nước dùng lại"
-                        },
-                        {
-                              "en": "disposable plastic products",
-                              "vi": "các sản phẩm nhựa dùng một lần"
-                        },
-                        {
-                              "en": "strengthen plastic waste recycling",
-                              "vi": "tăng cường tái chế rác thải nhựa"
-                        },
-                        {
-                              "en": "provide more recycling bins",
-                              "vi": "cung cấp thêm các thùng rác tái chế"
-                        },
-                        {
-                              "en": "sort, collect, and recycle waste",
-                              "vi": "phân loại, thu gom và tái chế rác"
-                        },
-                        {
-                              "en": "raise public awareness",
-                              "vi": "nâng cao nhận thức của người dân"
-                        },
-                        {
-                              "en": "educate people on harmful effects",
-                              "vi": "giáo dục người dân về các tác hại"
-                        },
-                        {
-                              "en": "consume less plastic",
-                              "vi": "tiêu thụ ít nhựa hơn"
-                        }
-                  ],
-                  "sample_b1": "In recent years, <strong>plastic waste in the oceans</strong> has become one of the most alarming environmental challenges across the globe. Millions of tons of plastic enter rivers and seas each year, causing serious damage. <strong>This essay will discuss the main effects of plastic waste in the oceans and suggest several practical solutions to tackle this problem.</strong>\n\n<strong>To begin with, plastic pollution leads to three severe consequences for the environment, animals, and people.</strong> First of all, <strong><em>plastic waste can cause serious pollution to the environment.</em></strong> This is because plastic takes many years to break down, so it can pollute land, water sources, and nature. In addition, <strong><em>plastic waste can cause serious harm to animals.</em></strong> Animals can eat plastic waste or get trapped in plastic products, so they can get hurt or even die. Finally, <strong><em>plastic waste can also have negative effects on human health.</em></strong> Plastic waste can pollute food and drinking water, and this causes many health problems.\n\n<strong>To address these pressing issues, several workable solutions should be carried out immediately.</strong> The most direct measure is that <strong><em>people should reduce the use of single-use plastic products.</em></strong> People can use cloth bags, reusable water bottles, and containers instead of single-use plastic items. Another practical solution is that <strong><em>it is necessary to increase the recycling of plastic waste.</em></strong> The government can provide more recycling bins and encourage people to sort, collect, and recycle plastic waste. Lastly, <strong><em>raising public awareness about plastic waste is essential.</em></strong> Governments, schools, and the media can teach people about the harmful effects of plastic and encourage them to use less plastic.\n\nIn conclusion, plastic waste in the oceans poses severe threats to our environment, wildlife, and human well-being. By minimizing disposable plastic usage, enhancing recycling systems, and educating the public, we can significantly reduce ocean pollution and protect our planet for future generations.",
-                  "translation_b1": "Trong những năm gần đây, <strong>rác thải nhựa ở đại dương</strong> đã trở thành một trong những thách thức môi trường đáng báo động nhất trên toàn cầu. Hàng triệu tấn nhựa tràn vào sông ngòi và biển mỗi năm, gây ra thiệt hại nghiêm trọng. <strong>Bài luận này sẽ thảo luận về những tác động chính của rác thải nhựa ở các đại dương và đề xuất một số giải pháp thực tế để giải quyết vấn đề này.</strong>\n\n<strong>Trước hết, ô nhiễm rác thải nhựa dẫn đến ba hậu quả nghiêm trọng đối với môi trường, động vật và con người.</strong> Đầu tiên, <strong><em>rác thải nhựa có thể gây ô nhiễm môi trường nghiêm trọng.</em></strong> Điều này là do nhựa mất nhiều năm để phân hủy, vì vậy nó có thể làm ô nhiễm đất, nguồn nước và cảnh quan thiên nhiên. Thêm vào đó, <strong><em>rác thải nhựa có thể gây hại nghiêm trọng cho động vật.</em></strong> Động vật có thể ăn phải rác thải nhựa hoặc bị mắc kẹt trong các sản phẩm nhựa, khiến chúng bị thương hoặc thậm chí chết. Cuối cùng, <strong><em>rác thải nhựa cũng có thể gây ảnh hưởng tiêu cực đến sức khỏe con người.</em></strong> Rác thải nhựa có thể làm ô nhiễm thực phẩm và nguồn nước, từ đó gây ra một số vấn đề về sức khỏe.\n\n<strong>Để giải quyết những vấn đề cấp bách này, một số giải pháp khả thi cần được thực hiện ngay lập tức.</strong> Biện pháp trực tiếp nhất là <strong><em>mọi người nên giảm sử dụng các sản phẩm nhựa dùng một lần.</em></strong> Mọi người có thể sử dụng túi vải, chai nước và hộp đựng có thể tái sử dụng thay cho các sản phẩm nhựa dùng một lần. Một giải pháp thực tế khác là <strong><em>cần tăng cường việc tái chế rác thải nhựa.</em></strong> Chính phủ có thể cung cấp thêm các thùng rác tái chế và khuyến khích người dân phân loại, thu gom và tái chế rác thải nhựa. Cuối cùng, <strong><em>việc nâng cao nhận thức của người dân về rác thải nhựa là vô cùng thiết yếu.</em></strong> Chính phủ, trường học và truyền thông có thể giáo dục người dân về tác hại của rác thải nhựa và khuyến khích họ sử dụng ít nhựa hơn.\n\nTóm lại, rác thải nhựa ở các đại dương gây ra những mối đe dọa nghiêm trọng đối với môi trường, đời sống động vật và sức khỏe con người. Bằng cách giảm thiểu việc sử dụng đồ nhựa dùng một lần, nâng cao hệ thống tái chế và giáo dục cộng đồng, chúng ta có thể làm giảm đáng kể ô nhiễm đại dương và bảo vệ hành tinh của chúng ta cho các thế hệ tương lai.",
-                  "sample_b2": "In contemporary society, <strong>plastic waste in the oceans</strong> has become one of the most critical environmental challenges facing the planet. Every year, millions of tons of discarded plastics enter rivers and seas, posing severe threats to ecosystems, animals, and human health. <strong>This essay will examine three major impacts of marine plastic waste and suggest three practical solutions to address this issue.</strong>\n\n<strong>On the one hand, oceanic plastic pollution causes serious damage in three main aspects.</strong> First and foremost, <strong><em>plastic waste causes severe environmental pollution in oceans.</em></strong> Plastic materials take hundreds of years to decompose, so millions of tons of plastic accumulate in the water and along coastlines. As a result, marine habitats are damaged and natural coastal landscapes are severely contaminated. Furthermore, <strong><em>oceanic plastic directly threatens the survival of marine wildlife.</em></strong> Many sea creatures such as turtles, birds, and fish often swallow plastic debris because they mistake it for food. In addition, larger marine animals can become entangled in discarded plastic bags and fishing nets, causing injury or death. Lastly, <strong><em>marine plastic pollution poses serious hazards to human health through the food chain.</em></strong> Over time, plastic items break down into tiny microplastics that absorb toxic chemicals in seawater. When people consume seafood contaminated with microplastics, these dangerous substances enter the human body and increase health risks.\n\n<strong>On the other hand, addressing this global problem requires concerted actions from governments, businesses, and individuals.</strong> The primary solution is to <strong><em>reduce and phase out single-use plastic products.</em></strong> Governments should introduce bans or impose high taxes on disposable items such as plastic bags, straws, and single-use cups, while consumers should switch to eco-friendly alternatives like cloth bags and reusable bottles. Second, <strong><em>authorities should improve waste management and recycling systems.</em></strong> Local governments need to place proper recycling bins in coastal areas to prevent trash from entering waterways, and provide financial support for recycling companies to transform plastic waste into useful materials. Finally, <strong><em>it is crucial to raise public awareness about marine environmental protection.</em></strong> Schools and media channels should run educational campaigns to teach citizens about the harmful effects of plastic pollution, while organizing community beach clean-ups to encourage active public participation.\n\nIn conclusion, marine plastic waste destroys oceanic habitats, kills aquatic creatures, and threatens human well-being. However, by banning disposable plastics, improving waste recycling, and educating the public, we can effectively protect our oceans and preserve marine ecosystems for future generations.",
-                  "translation_b2": "Trong xã hội đương đại, rác thải nhựa ở các đại dương đã trở thành một trong những thách thức môi trường cấp bách nhất mà hành tinh đang phải đối mặt. Mỗi năm, hàng triệu tấn rác thải nhựa trôi vào các con sông và biển cả, đặt ra những mối đe dọa nghiêm trọng đối với các hệ sinh thái, động vật và sức khỏe con người. Bài viết này sẽ phân tích ba tác động chính của rác thải nhựa đại dương và gợi ý ba giải pháp thực tế để giải quyết vấn đề này.\n\nMột mặt, ô nhiễm rác thải nhựa đại dương gây ra thiệt hại nghiêm trọng trên ba khía cạnh chính. Trước hết, rác thải nhựa gây ô nhiễm môi trường biển nghiêm trọng. Các vật liệu nhựa mất hàng trăm năm để phân hủy, do đó hàng triệu tấn rác nhựa tích tụ trong nước và dọc theo các bờ biển. Hậu quả là các môi trường sống dưới biển bị tàn phá và cảnh quan thiên nhiên ven biển bị ô nhiễm nặng nề. Hơn nữa, rác thải đại dương đe dọa trực tiếp đến sự sinh tồn của động vật hoang dã dưới biển. Nhiều sinh vật biển như rùa, chim và cá thường nuốt phải mảnh vụn nhựa do nhầm là thức ăn. Thêm vào đó, các loài động vật biển lớn hơn có thể bị mắc kẹt vào các túi nilon hoặc lưới đánh cá bị bỏ lại, dẫn đến thương tật hoặc tử vong. Cuối cùng, ô nhiễm rác nhựa biển gây ra những mối nguy hiểm nghiêm trọng đối với sức khỏe con người thông qua chuỗi thức ăn. Theo thời gian, các vật dụng bằng nhựa vỡ vụn thành các hạt vi nhựa li ti và hấp thụ các hóa chất độc hại trong nước biển. Khi con người ăn các loại hải sản bị nhiễm vi nhựa, những chất độc hại này sẽ xâm nhập vào cơ thể con người và làm tăng nguy cơ mắc bệnh.\n\nMặt khác, việc giải quyết vấn đề toàn cầu này đòi hỏi sự phối hợp hành động từ các chính phủ, doanh nghiệp và các cá nhân. Giải pháp cơ bản đầu tiên là cắt giảm và loại bỏ dần các sản phẩm nhựa dùng một lần. Chính phủ nên ban hành lệnh cấm hoặc áp thuế cao đối với các đồ dùng một lần như túi nilon, ống hút và cốc nhựa, trong khi người tiêu dùng nên chuyển sang các giải pháp thay thế thân thiện với môi trường như túi vải và bình nước tái sử dụng. Thứ hai, các cơ quan chức năng nên cải thiện hệ thống quản lý rác thải và tái chế. Chính quyền địa phương cần đặt các thùng phân loại rác phù hợp tại các khu vực ven biển để ngăn rác trôi vào nguồn nước, đồng thời hỗ trợ tài chính cho các công ty tái chế để biến rác thải nhựa thành các vật liệu hữu ích. Cuối cùng, việc nâng cao nhận thức cộng đồng về bảo vệ môi trường biển là điều cốt yếu. Các trường học và kênh truyền thông nên triển khai các chiến dịch giáo dục để dạy người dân về tác hại của ô nhiễm nhựa, đồng thời tổ chức các đợt dọn dẹp bãi biển cộng đồng để khuyến khích công chúng tích cực tham gia.\n\nTóm lại, rác thải nhựa đại dương phá hủy môi trường sống dưới biển, giết chết các sinh vật thủy sinh và đe dọa sức khỏe con người. Tuy nhiên, bằng cách cấm đồ nhựa dùng một lần, cải thiện việc tái chế chất thải và giáo dục cộng đồng, chúng ta có thể bảo vệ đại dương hiệu quả và bảo tồn các hệ sinh thái biển cho các thế hệ tương lai.",
-                  "vocab_step": {
-                        "theme": "Rác thải nhựa ở đại dương (Plastic Waste in the Oceans)",
-                        "single_words": [
-                              {
-                                    "word": "pollute",
-                                    "ipa": "/pəˈluːt/",
-                                    "pos": "verb",
-                                    "level": "B1",
-                                    "vi": "làm ô nhiễm",
-                                    "family": "pollution (n), pollutant (n), polluted (adj)",
-                                    "example_en": "Plastic waste can pollute rivers, lakes, and oceans.",
-                                    "example_vi": "Rác thải nhựa có thể làm ô nhiễm sông, hồ và đại dương."
-                              },
-                              {
-                                    "word": "break down",
-                                    "ipa": "/breɪk daʊn/",
-                                    "pos": "phr.v",
-                                    "level": "B1",
-                                    "vi": "phân hủy, vỡ vụn",
-                                    "family": "breakdown (n)",
-                                    "example_en": "Plastic takes many years to break down in the environment.",
-                                    "example_vi": "Nhựa mất nhiều năm để phân hủy trong môi trường."
-                              },
-                              {
-                                    "word": "marine",
-                                    "ipa": "/məˈriːn/",
-                                    "pos": "adj",
-                                    "level": "B1",
-                                    "vi": "(thuộc) biển, đại dương",
-                                    "family": "mariner (n)",
-                                    "example_en": "Plastic trash causes great danger to marine animals.",
-                                    "example_vi": "Rác thải nhựa gây nguy hiểm lớn cho các loài động vật biển."
-                              },
-                              {
-                                    "word": "single-use",
-                                    "ipa": "/ˌsɪŋ.ɡəlˈjuːs/",
-                                    "pos": "adj",
-                                    "level": "B1",
-                                    "vi": "dùng một lần",
-                                    "family": "reuse (v), reusable (adj)",
-                                    "example_en": "We should stop using single-use plastic bags and straws.",
-                                    "example_vi": "Chúng ta nên ngừng sử dụng túi nilon và ống hút dùng một lần."
-                              },
-                              {
-                                    "word": "reusable",
-                                    "ipa": "/ˌriːˈjuː.zə.bəl/",
-                                    "pos": "adj",
-                                    "level": "B1",
-                                    "vi": "có thể tái sử dụng",
-                                    "family": "reuse (v), use (v/n)",
-                                    "example_en": "Bringing reusable bottles and cloth bags helps protect nature.",
-                                    "example_vi": "Mang theo bình nước tái sử dụng và túi vải giúp bảo vệ thiên nhiên."
-                              },
-                              {
-                                    "word": "recycle",
-                                    "ipa": "/ˌriːˈsaɪ.kəl/",
-                                    "pos": "verb",
-                                    "level": "B1",
-                                    "vi": "tái chế",
-                                    "family": "recycling (n), recyclable (adj)",
-                                    "example_en": "People should sort and recycle plastic waste at home.",
-                                    "example_vi": "Mọi người nên phân loại và tái chế rác thải nhựa tại nhà."
-                              },
-                              {
-                                    "word": "harm",
-                                    "ipa": "/hɑːm/",
-                                    "pos": "verb",
-                                    "level": "B1",
-                                    "vi": "gây hại, làm tổn thương",
-                                    "family": "harmful (adj), harmless (adj)",
-                                    "example_en": "Discarded plastic can harm both sea animals and birds.",
-                                    "example_vi": "Rác nhựa bị vứt bỏ có thể gây hại cho cả sinh vật biển và các loài chim."
-                              },
-                              {
-                                    "word": "trap",
-                                    "ipa": "/træp/",
-                                    "pos": "verb",
-                                    "level": "B1",
-                                    "vi": "làm mắc kẹt, bẫy",
-                                    "family": "trapped (adj), trap (n)",
-                                    "example_en": "Many sea turtles get trapped in plastic fishing nets.",
-                                    "example_vi": "Nhiều chú rùa biển bị mắc kẹt trong những tấm lưới đánh cá bằng nhựa."
-                              },
-                              {
-                                    "word": "landfill",
-                                    "ipa": "/ˈlænd.fɪl/",
-                                    "pos": "noun",
-                                    "level": "B1",
-                                    "vi": "bãi chôn lấp rác",
-                                    "family": "landfill (v)",
-                                    "example_en": "A huge amount of plastic trash ends up in landfills.",
-                                    "example_vi": "Một lượng khổng lồ rác thải nhựa kết thúc ở các bãi chôn lấp rác."
-                              },
-                              {
-                                    "word": "alternative",
-                                    "ipa": "/ɔːlˈtɜː.nə.tɪv/",
-                                    "pos": "noun",
-                                    "level": "B1",
-                                    "vi": "vật/giải pháp thay thế",
-                                    "family": "alternatively (adv)",
-                                    "example_en": "Paper bags are a great alternative to plastic ones.",
-                                    "example_vi": "Túi giấy là một giải pháp thay thế tuyệt vời cho túi nilon."
-                              },
-                              {
-                                    "word": "ban",
-                                    "ipa": "/bæn/",
-                                    "pos": "verb",
-                                    "level": "B1",
-                                    "vi": "cấm, ban hành lệnh cấm",
-                                    "family": "ban (n), banned (adj)",
-                                    "example_en": "The government decided to ban disposable plastic packaging.",
-                                    "example_vi": "Chính phủ đã quyết định cấm bao bì nhựa dùng một lần."
-                              },
-                              {
-                                    "word": "protect",
-                                    "ipa": "/prəˈtekt/",
-                                    "pos": "verb",
-                                    "level": "B1",
-                                    "vi": "bảo vệ",
-                                    "family": "protection (n), protective (adj)",
-                                    "example_en": "We must take action now to protect our ocean from plastic waste.",
-                                    "example_vi": "Chúng ta phải hành động ngay để bảo vệ đại dương khỏi rác thải nhựa."
-                              },
-                              {
-                                    "word": "accumulate",
-                                    "ipa": "/əˈkjuːmjəleɪt/",
-                                    "pos": "verb",
-                                    "level": "B2",
-                                    "vi": "tích tụ, chồng chất",
-                                    "family": "accumulation (n)",
-                                    "example_en": "Plastic bags accumulate on beaches and harm natural landscapes.",
-                                    "example_vi": "Túi nilon tích tụ trên các bãi biển và làm tổn hại cảnh quan tự nhiên."
-                              },
-                              {
-                                    "word": "habitat",
-                                    "ipa": "/ˈhæbɪtæt/",
-                                    "pos": "noun",
-                                    "level": "B2",
-                                    "vi": "môi trường sống tự nhiên",
-                                    "family": "habitation (n)",
-                                    "example_en": "Pollution is destroying the natural habitats of sea turtles.",
-                                    "example_vi": "Sự ô nhiễm đang phá hủy môi trường sống tự nhiên của rùa biển."
-                              },
-                              {
-                                    "word": "contaminate",
-                                    "ipa": "/kənˈtæmɪneɪt/",
-                                    "pos": "verb",
-                                    "level": "B2",
-                                    "vi": "làm ô nhiễm, làm bẩn",
-                                    "family": "contamination (n)",
-                                    "example_en": "Industrial waste can contaminate rivers and local water sources.",
-                                    "example_vi": "Chất thải công nghiệp có thể làm ô nhiễm các dòng sông và nguồn nước địa phương."
-                              },
-                              {
-                                    "word": "entangled",
-                                    "ipa": "/ɪnˈtæŋɡld/",
-                                    "pos": "adj",
-                                    "level": "B2",
-                                    "vi": "bị mắc kẹt, vướng vào",
-                                    "family": "entangle (v)",
-                                    "example_en": "Dolphins can become entangled in old fishing nets.",
-                                    "example_vi": "Cá heo có thể bị vướng vào những tấm lưới đánh cá cũ."
-                              },
-                              {
-                                    "word": "discard",
-                                    "ipa": "/dɪˈskɑːd/",
-                                    "pos": "verb",
-                                    "level": "B2",
-                                    "vi": "vứt bỏ, thải bỏ",
-                                    "family": "discarded (adj)",
-                                    "example_en": "People should not discard plastic bottles directly into nature.",
-                                    "example_vi": "Mọi người không nên vứt các chai nhựa trực tiếp ra ngoài thiên nhiên."
-                              },
-                              {
-                                    "word": "microplastic",
-                                    "ipa": "/ˈmaɪkrəʊˌplæstɪk/",
-                                    "pos": "noun",
-                                    "level": "B2",
-                                    "vi": "hạt vi nhựa",
-                                    "family": "plastic (n)",
-                                    "example_en": "Scientists found microplastics in many types of seafood.",
-                                    "example_vi": "Các nhà khoa học đã tìm thấy hạt vi nhựa trong nhiều loại hải sản."
-                              },
-                              {
-                                    "word": "toxic",
-                                    "ipa": "/ˈtɒksɪk/",
-                                    "pos": "adj",
-                                    "level": "B2",
-                                    "vi": "độc hại",
-                                    "family": "toxin (n), toxicity (n)",
-                                    "example_en": "Burning plastic releases toxic chemicals into the atmosphere.",
-                                    "example_vi": "Đốt rác nhựa giải phóng các hóa chất độc hại vào bầu khí quyển."
-                              },
-                              {
-                                    "word": "disposable",
-                                    "ipa": "/dɪˈspəʊzəbl/",
-                                    "pos": "adj",
-                                    "level": "B2",
-                                    "vi": "dùng một lần rồi bỏ",
-                                    "family": "dispose (v)",
-                                    "example_en": "We should stop using disposable cups and plastic cutlery.",
-                                    "example_vi": "Chúng ta nên ngừng sử dụng cốc dùng một lần và thìa dĩa nhựa."
-                              },
-                              {
-                                    "word": "alternative",
-                                    "ipa": "/ɔːlˈtɜːnətɪv/",
-                                    "pos": "noun",
-                                    "level": "B2",
-                                    "vi": "giải pháp thay thế",
-                                    "family": "alternate (v)",
-                                    "example_en": "Glass containers are a great alternative to plastic boxes.",
-                                    "example_vi": "Hộp thủy tinh là một giải pháp thay thế tuyệt vời cho hộp nhựa."
-                              },
-                              {
-                                    "word": "infrastructure",
-                                    "ipa": "/ˈɪnfrəstrʌktʃə/",
-                                    "pos": "noun",
-                                    "level": "B2",
-                                    "vi": "cơ sở hạ tầng",
-                                    "family": "structural (adj)",
-                                    "example_en": "Cities need better infrastructure for waste collection and treatment.",
-                                    "example_vi": "Các thành phố cần cơ sở hạ tầng tốt hơn để thu gom và xử lý rác."
-                              },
-                              {
-                                    "word": "waterway",
-                                    "ipa": "/ˈwɔːtəweɪ/",
-                                    "pos": "noun",
-                                    "level": "B2",
-                                    "vi": "dòng nước, đường thủy",
-                                    "family": "water (n)",
-                                    "example_en": "Trash thrown into local waterways eventually flows into the sea.",
-                                    "example_vi": "Rác bị ném vào các dòng nước địa phương cuối cùng sẽ trôi ra biển."
-                              },
-                              {
-                                    "word": "campaign",
-                                    "ipa": "/kæmˈpeɪn/",
-                                    "pos": "noun",
-                                    "level": "B2",
-                                    "vi": "chiến dịch",
-                                    "family": "campaigner (n)",
-                                    "example_en": "The university started a campaign to clean up the nearby river.",
-                                    "example_vi": "Trường đại học đã phát động một chiến dịch làm sạch con sông gần đó."
-                              }
-                        ],
-                        "collocation_groups": [
-                              {
-                                    "id": "effects",
-                                    "name": "Nhóm Collocations: Tác động & Hậu quả (Effects)",
-                                    "icon": "🌊",
-                                    "badge": "Phần Thân bài 1",
-                                    "items": [
-                                          {
-                                                "en": "cause serious pollution to the environment",
-                                                "type": "v.phr",
-                                                "level": "B1",
-                                                "vi": "gây ô nhiễm môi trường nghiêm trọng",
-                                                "example": "Plastic waste can cause serious pollution to the environment."
-                                          },
-                                          {
-                                                "en": "take many years to break down",
-                                                "type": "v.phr",
-                                                "level": "B1",
-                                                "vi": "mất nhiều năm để phân hủy",
-                                                "example": "Most plastic items take many years to break down in nature."
-                                          },
-                                          {
-                                                "en": "pollute land, water sources, and nature",
-                                                "type": "v.phr",
-                                                "level": "B1",
-                                                "vi": "làm ô nhiễm đất, nguồn nước và thiên nhiên",
-                                                "example": "Dumping rubbish can pollute land, water sources, and nature."
-                                          },
-                                          {
-                                                "en": "cause serious harm to animals",
-                                                "type": "v.phr",
-                                                "level": "B1",
-                                                "vi": "gây hại nghiêm trọng cho động vật",
-                                                "example": "Floating plastic debris causes serious harm to animals."
-                                          },
-                                          {
-                                                "en": "eat plastic waste",
-                                                "type": "v.phr",
-                                                "level": "B1",
-                                                "vi": "ăn phải rác thải nhựa",
-                                                "example": "Birds and fish often eat plastic waste by mistake."
-                                          },
-                                          {
-                                                "en": "get trapped in plastic products",
-                                                "type": "v.phr",
-                                                "level": "B1",
-                                                "vi": "bị mắc kẹt trong các sản phẩm nhựa",
-                                                "example": "Sea creatures frequently get trapped in plastic products."
-                                          },
-                                          {
-                                                "en": "get hurt or even die",
-                                                "type": "v.phr",
-                                                "level": "B1",
-                                                "vi": "bị thương hoặc thậm chí chết",
-                                                "example": "Animals can eat plastic waste or get trapped in plastic products, so they can get hurt or even die."
-                                          },
-                                          {
-                                                "en": "have negative effects on human health",
-                                                "type": "v.phr",
-                                                "level": "B1",
-                                                "vi": "gây ảnh hưởng tiêu cực đến sức khỏe con người",
-                                                "example": "Polluted seawater will have negative effects on human health."
-                                          },
-                                          {
-                                                "en": "pollute food and drinking water",
-                                                "type": "v.phr",
-                                                "level": "B1",
-                                                "vi": "làm ô nhiễm thực phẩm và nước uống",
-                                                "example": "Tiny plastic particles pollute food and drinking water."
-                                          },
-                                          {
-                                                "en": "cause many health problems",
-                                                "type": "v.phr",
-                                                "level": "B1",
-                                                "vi": "gây ra nhiều vấn đề sức khỏe",
-                                                "example": "Plastic waste can pollute food and drinking water, and this causes many health problems."
-                                          },
-                                          {
-                                                "en": "lead to severe environmental pollution",
-                                                "type": "v.phr",
-                                                "level": "B2",
-                                                "vi": "dẫn đến ô nhiễm môi trường nghiêm trọng",
-                                                "example": "Massive plastic disposal leads to severe environmental pollution."
-                                          },
-                                          {
-                                                "en": "persistently accumulate in oceanic gyres",
-                                                "type": "v.phr",
-                                                "level": "B2",
-                                                "vi": "tích tụ dai dẳng tại các dòng xoáy đại dương",
-                                                "example": "Non-biodegradable debris persistently accumulates in oceanic gyres."
-                                          },
-                                          {
-                                                "en": "contaminating water sources",
-                                                "type": "v.phr",
-                                                "level": "B2",
-                                                "vi": "làm ô nhiễm các nguồn nước",
-                                                "example": "Plastic leachates end up contaminating water sources worldwide."
-                                          },
-                                          {
-                                                "en": "pose a grave threat to marine fauna",
-                                                "type": "v.phr",
-                                                "level": "B2",
-                                                "vi": "đe dọa nghiêm trọng đến hệ động vật biển",
-                                                "example": "Oceanic plastic pollution poses a grave threat to marine fauna."
-                                          },
-                                          {
-                                                "en": "inadvertently ingest sharp plastic fragments",
-                                                "type": "v.phr",
-                                                "level": "B2",
-                                                "vi": "vô tình nuốt phải các mảnh nhựa sắc nhọn",
-                                                "example": "Sea turtles inadvertently ingest sharp plastic fragments."
-                                          },
-                                          {
-                                                "en": "fatally entangled in discarded fishing gear",
-                                                "type": "v.phr",
-                                                "level": "B2",
-                                                "vi": "mắc kẹt đến chết trong ngư cụ bị vứt bỏ",
-                                                "example": "Thousands of mammals become fatally entangled in discarded fishing gear."
-                                          },
-                                          {
-                                                "en": "infiltrates the food chain",
-                                                "type": "v.phr",
-                                                "level": "B2",
-                                                "vi": "thâm nhập vào chuỗi thức ăn",
-                                                "example": "Microscopic plastic debris inevitably infiltrates the food chain."
-                                          },
-                                          {
-                                                "en": "jeopardizes human well-being",
-                                                "type": "v.phr",
-                                                "level": "B2",
-                                                "vi": "gây nguy hại cho sức khỏe con người",
-                                                "example": "Chemical bioaccumulation severely jeopardizes human well-being."
-                                          }
-                                    ]
-                              },
-                              {
-                                    "id": "solutions",
-                                    "name": "Nhóm Collocations: Giải pháp & Hành động (Solutions)",
-                                    "icon": "♻️",
-                                    "badge": "Phần Thân bài 2",
-                                    "items": [
-                                          {
-                                                "en": "reduce the use of single-use plastic products",
-                                                "type": "v.phr",
-                                                "level": "B1",
-                                                "vi": "giảm sử dụng các sản phẩm nhựa dùng một lần",
-                                                "example": "Consumers should reduce the use of single-use plastic products."
-                                          },
-                                          {
-                                                "en": "use cloth bags and reusable bottles",
-                                                "type": "v.phr",
-                                                "level": "B1",
-                                                "vi": "dùng túi vải và chai nước tái sử dụng",
-                                                "example": "It is easy to use cloth bags and reusable bottles when shopping."
-                                          },
-                                          {
-                                                "en": "increase the recycling of plastic waste",
-                                                "type": "v.phr",
-                                                "level": "B1",
-                                                "vi": "tăng cường việc tái chế rác thải nhựa",
-                                                "example": "Cities must take steps to increase the recycling of plastic waste."
-                                          },
-                                          {
-                                                "en": "provide more recycling bins in public places",
-                                                "type": "v.phr",
-                                                "level": "B1",
-                                                "vi": "cung cấp thêm thùng rác tái chế ở nơi công cộng",
-                                                "example": "Local councils should provide more recycling bins in public places."
-                                          },
-                                          {
-                                                "en": "encourage people to sort, collect, and recycle",
-                                                "type": "v.phr",
-                                                "level": "B1",
-                                                "vi": "khuyến khích mọi người phân loại, thu gom và tái chế",
-                                                "example": "Governments should encourage people to sort, collect, and recycle plastic."
-                                          },
-                                          {
-                                                "en": "raising public awareness about plastic waste",
-                                                "type": "v.phr",
-                                                "level": "B1",
-                                                "vi": "nâng cao nhận thức của người dân về rác thải nhựa",
-                                                "example": "Raising public awareness about plastic waste is essential."
-                                          },
-                                          {
-                                                "en": "teach people about the harmful effects",
-                                                "type": "v.phr",
-                                                "level": "B1",
-                                                "vi": "dạy cho mọi người về các tác hại",
-                                                "example": "Schools should teach people about the harmful effects of plastics."
-                                          },
-                                          {
-                                                "en": "encourage them to use less plastic",
-                                                "type": "v.phr",
-                                                "level": "B1",
-                                                "vi": "khuyến khích họ sử dụng ít nhựa hơn",
-                                                "example": "Media campaigns encourage them to use less plastic in daily life."
-                                          },
-                                          {
-                                                "en": "reduce the reliance on single-use plastics",
-                                                "type": "v.phr",
-                                                "level": "B2",
-                                                "vi": "giảm bớt sự phụ thuộc vào đồ nhựa dùng một lần",
-                                                "example": "Society must drastically reduce the reliance on single-use plastics."
-                                          },
-                                          {
-                                                "en": "enforce nationwide bans or excise taxes",
-                                                "type": "v.phr",
-                                                "level": "B2",
-                                                "vi": "thực thi lệnh cấm hoặc thuế tiêu thụ đặc biệt trên toàn quốc",
-                                                "example": "Policymakers should enforce nationwide bans or excise taxes on disposables."
-                                          },
-                                          {
-                                                "en": "adopt sustainable substitutes",
-                                                "type": "v.phr",
-                                                "level": "B2",
-                                                "vi": "sử dụng các vật dụng thay thế bền vững",
-                                                "example": "Consumers can adopt sustainable substitutes like canvas tote bags."
-                                          },
-                                          {
-                                                "en": "modernize waste management systems",
-                                                "type": "v.phr",
-                                                "level": "B2",
-                                                "vi": "hiện đại hóa các hệ thống quản lý rác thải",
-                                                "example": "It is crucial to modernize waste management systems in coastal cities."
-                                          },
-                                          {
-                                                "en": "scale up plastic recycling initiatives",
-                                                "type": "v.phr",
-                                                "level": "B2",
-                                                "vi": "mở rộng các sáng kiến tái chế nhựa",
-                                                "example": "Governments need to scale up plastic recycling initiatives nationwide."
-                                          },
-                                          {
-                                                "en": "convert plastic garbage into reusable resources",
-                                                "type": "v.phr",
-                                                "level": "B2",
-                                                "vi": "chuyển đổi rác nhựa thành các tài nguyên có thể tái sử dụng",
-                                                "example": "Advanced facilities convert plastic garbage into reusable resources."
-                                          },
-                                          {
-                                                "en": "foster civic awareness and environmental stewardship",
-                                                "type": "v.phr",
-                                                "level": "B2",
-                                                "vi": "nuôi dưỡng nhận thức công dân và trách nhiệm môi trường",
-                                                "example": "Educational reforms foster civic awareness and environmental stewardship."
-                                          },
-                                          {
-                                                "en": "motivating eco-friendly consumption habits",
-                                                "type": "v.phr",
-                                                "level": "B2",
-                                                "vi": "thúc đẩy các thói quen tiêu dùng thân thiện với môi trường",
-                                                "example": "Community campaigns succeed in motivating eco-friendly consumption habits."
-                                          }
-                                    ]
-                              }
-                        ]
+                  {
+                    "en": "reusable water bottles",
+                    "vi": "chai nước có thể tái sử dụng"
+                  },
+                  {
+                    "en": "containers instead of single-use plastic items",
+                    "vi": "hộp đựng thay cho các sản phẩm nhựa dùng một lần"
                   }
+                ]
+              },
+              {
+                "title": "SOLUTION 02",
+                "point_vi": "Tăng cường việc tái chế rác thải nhựa.",
+                "point_en": "Second, it is necessary to increase the recycling of plastic waste.",
+                "evidence_vi": "Chính phủ có thể cung cấp thêm các thùng rác tái chế và khuyến khích người dân phân loại, thu gom và tái chế rác thải nhựa.",
+                "evidence_en": "The government can provide more recycling bins and encourage people to sort, collect, and recycle plastic waste.",
+                "collocations": [
+                  {
+                    "en": "increase the recycling of plastic waste",
+                    "vi": "tăng cường việc tái chế rác thải nhựa"
+                  },
+                  {
+                    "en": "provide more recycling bins",
+                    "vi": "cung cấp thêm các thùng rác tái chế"
+                  },
+                  {
+                    "en": "encourage people to sort, collect, and recycle",
+                    "vi": "khuyến khích người dân phân loại, thu gom và tái chế"
+                  }
+                ]
+              },
+              {
+                "title": "SOLUTION 03",
+                "point_vi": "Nâng cao nhận thức của người dân về rác thải nhựa.",
+                "point_en": "Finally, raising public awareness about plastic waste is essential.",
+                "evidence_vi": "Chính phủ, trường học và truyền thông có thể giáo dục người dân về tác hại của rác thải nhựa và khuyến khích họ sử dụng ít nhựa hơn.",
+                "evidence_en": "Governments, schools, and the media can teach people about the harmful effects of plastic and encourage them to use less plastic.",
+                "collocations": [
+                  {
+                    "en": "raising public awareness about plastic waste",
+                    "vi": "nâng cao nhận thức của người dân về rác thải nhựa"
+                  },
+                  {
+                    "en": "teach people about the harmful effects",
+                    "vi": "dạy cho người dân về các tác hại"
+                  },
+                  {
+                    "en": "encourage them to use less plastic",
+                    "vi": "khuyến khích họ sử dụng ít nhựa hơn"
+                  }
+                ]
+              }
+            ]
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "EFFECT 01",
+                "point_vi": "Rác thải nhựa gây ô nhiễm môi trường biển và hủy hoại cảnh quan thiên nhiên.",
+                "point_en": "First, plastic waste causes severe environmental pollution in oceans.",
+                "evidence_vi": "• Luận cứ 1: Các vật liệu nhựa mất hàng trăm năm để phân hủy, do đó hàng triệu tấn rác nhựa trôi ra biển sẽ tích tụ lâu dài trong nước và dọc theo các bờ biển.\n• Luận cứ 2: Hậu quả là các môi trường sống tự nhiên dưới biển bị tàn phá và các bãi biển du lịch bị ô nhiễm nghiêm trọng.",
+                "evidence_en": "• Evidence 1: Plastic materials take hundreds of years to decompose, so millions of tons of plastic accumulate in the water and along coastlines.\n• Evidence 2: As a result, marine habitats are damaged and natural coastal landscapes are severely contaminated.",
+                "collocations": [
+                  {
+                    "en": "environmental pollution",
+                    "vi": "ô nhiễm môi trường"
+                  },
+                  {
+                    "en": "take hundreds of years to decompose",
+                    "vi": "mất hàng trăm năm để phân hủy"
+                  },
+                  {
+                    "en": "accumulate in the water",
+                    "vi": "tích tụ trong nước"
+                  },
+                  {
+                    "en": "marine habitats",
+                    "vi": "môi trường sống dưới biển"
+                  }
+                ]
+              },
+              {
+                "title": "EFFECT 02",
+                "point_vi": "Rác thải nhựa đại dương đe dọa trực tiếp sự sinh tồn của các loài động vật biển.",
+                "point_en": "Second, oceanic plastic directly threatens the survival of marine wildlife.",
+                "evidence_vi": "• Luận cứ 1: Nhiều loài sinh vật biển như rùa biển, chim và cá thường nuốt phải rác nhựa do nhầm tưởng là thức ăn.\n• Luận cứ 2: Bên cạnh đó, các loài động vật lớn có thể bị mắc kẹt vào các túi nilon hoặc lưới đánh cá bị bỏ lại, dẫn đến thương tật hoặc tử vong.",
+                "evidence_en": "• Evidence 1: Many sea creatures such as turtles, birds, and fish often swallow plastic debris because they mistake it for food.\n• Evidence 2: In addition, larger marine animals can become entangled in discarded plastic bags and fishing nets, causing injury or death.",
+                "collocations": [
+                  {
+                    "en": "marine wildlife",
+                    "vi": "động vật hoang dã dưới biển"
+                  },
+                  {
+                    "en": "swallow plastic debris",
+                    "vi": "nuốt phải mảnh rác nhựa"
+                  },
+                  {
+                    "en": "mistake it for food",
+                    "vi": "nhầm nó là thức ăn"
+                  },
+                  {
+                    "en": "become entangled in nets",
+                    "vi": "bị mắc kẹt vào lưới đánh cá"
+                  }
+                ]
+              },
+              {
+                "title": "EFFECT 03",
+                "point_vi": "Ô nhiễm rác thải nhựa đe dọa sức khỏe của con người thông qua chuỗi thức ăn.",
+                "point_en": "Finally, marine plastic pollution poses serious hazards to human health through the food chain.",
+                "evidence_vi": "• Luận cứ 1: Theo thời gian, các mảnh rác nhựa vỡ vụn thành các hạt vi nhựa li ti và hấp thụ nhiều hóa chất độc hại trong nước biển.\n• Luận cứ 2: Khi con người ăn các loại hải sản bị nhiễm vi nhựa, những chất độc này tích tụ trong cơ thể và làm gia tăng nguy cơ mắc bệnh nguy hiểm.",
+                "evidence_en": "• Evidence 1: Over time, plastic items break down into tiny microplastics that absorb toxic chemicals in seawater.\n• Evidence 2: When people consume seafood contaminated with microplastics, these dangerous substances enter the human body and increase health risks.",
+                "collocations": [
+                  {
+                    "en": "human health",
+                    "vi": "sức khỏe con người"
+                  },
+                  {
+                    "en": "food chain",
+                    "vi": "chuỗi thức ăn"
+                  },
+                  {
+                    "en": "tiny microplastics",
+                    "vi": "các hạt vi nhựa li ti"
+                  },
+                  {
+                    "en": "toxic chemicals",
+                    "vi": "hóa chất độc hại"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "SOLUTION 01",
+                "point_vi": "Giải pháp quan trọng hàng đầu là cắt giảm và loại bỏ dần các sản phẩm nhựa dùng một lần.",
+                "point_en": "The primary solution is to reduce and phase out single-use plastic products.",
+                "evidence_vi": "• Luận cứ 1: Chính phủ nên ban hành lệnh cấm hoặc đánh thuế cao đối với các đồ dùng một lần như túi nilon, ống hút và cốc nhựa.\n• Luận cứ 2: Đồng thời, người tiêu dùng nên chủ động chuyển sang các vật dụng thân thiện với môi trường như túi vải và bình nước cá nhân khi đi mua sắm.",
+                "evidence_en": "• Evidence 1: Governments should introduce bans or impose high taxes on disposable items such as plastic bags, straws, and single-use cups.\n• Evidence 2: At the same time, consumers should switch to eco-friendly alternatives, including cloth bags and reusable bottles when shopping.",
+                "collocations": [
+                  {
+                    "en": "phase out single-use plastics",
+                    "vi": "loại bỏ dần đồ nhựa dùng một lần"
+                  },
+                  {
+                    "en": "impose high taxes",
+                    "vi": "áp thuế cao"
+                  },
+                  {
+                    "en": "eco-friendly alternatives",
+                    "vi": "các giải pháp thay thế thân thiện môi trường"
+                  },
+                  {
+                    "en": "reusable bottles",
+                    "vi": "bình nước tái sử dụng"
+                  }
+                ]
+              },
+              {
+                "title": "SOLUTION 02",
+                "point_vi": "Chính quyền cần cải thiện hệ thống thu gom và nâng cấp các cơ sở tái chế rác.",
+                "point_en": "Second, authorities should improve waste management and recycling systems.",
+                "evidence_vi": "• Luận cứ 1: Chính quyền địa phương cần lắp đặt nhiều thùng phân loại rác tại các bãi biển và khu dân cư để ngăn rác trôi ra sông hồ và đại dương.\n• Luận cứ 2: Hơn nữa, nhà nước nên hỗ trợ tài chính cho các nhà máy tái chế để biến rác nhựa thành các vật liệu mới hữu ích.",
+                "evidence_en": "• Evidence 1: Local governments need to place proper recycling bins in coastal areas and residential areas to prevent trash from entering waterways.\n• Evidence 2: Moreover, financial support should be given to recycling companies to transform plastic waste into useful new materials.",
+                "collocations": [
+                  {
+                    "en": "waste management",
+                    "vi": "quản lý chất thải"
+                  },
+                  {
+                    "en": "recycling systems",
+                    "vi": "hệ thống tái chế"
+                  },
+                  {
+                    "en": "proper recycling bins",
+                    "vi": "thùng phân loại rác phù hợp"
+                  },
+                  {
+                    "en": "financial support",
+                    "vi": "sự hỗ trợ tài chính"
+                  }
+                ]
+              },
+              {
+                "title": "SOLUTION 03",
+                "point_vi": "Cần đẩy mạnh tuyên truyền để nâng cao nhận thức của cộng đồng về bảo vệ môi trường biển.",
+                "point_en": "Finally, it is crucial to raise public awareness about marine environmental protection.",
+                "evidence_vi": "• Luận cứ 1: Trường học và các phương tiện truyền thông nên tổ chức các chương trình giáo dục giúp người dân hiểu rõ tác hại của ô nhiễm rác nhựa.\n• Luận cứ 2: Thêm vào đó, việc phát động các phong trào làm sạch bãi biển vào cuối tuần sẽ khuyến khích người dân và khách du lịch cùng hành động.",
+                "evidence_en": "• Evidence 1: Schools and media channels should run educational programs to teach citizens about the harmful effects of plastic pollution on marine life.\n• Evidence 2: In addition, organizing community beach clean-up campaigns can encourage residents and tourists to take practical action.",
+                "collocations": [
+                  {
+                    "en": "raise public awareness",
+                    "vi": "nâng cao nhận thức cộng đồng"
+                  },
+                  {
+                    "en": "educational programs",
+                    "vi": "các chương trình giáo dục"
+                  },
+                  {
+                    "en": "beach clean-up campaigns",
+                    "vi": "chiến dịch làm sạch bãi biển"
+                  },
+                  {
+                    "en": "take practical action",
+                    "vi": "hành động thực tế"
+                  }
+                ]
+              }
+            ]
+          },
+          "vocab": [
+            {
+              "en": "severe environmental pollution",
+              "vi": "ô nhiễm môi trường nghiêm trọng"
+            },
+            {
+              "en": "take hundreds of years to decompose",
+              "vi": "mất hàng trăm năm để phân hủy"
+            },
+            {
+              "en": "contaminate soil and water sources",
+              "vi": "làm ô nhiễm đất và nguồn nước"
+            },
+            {
+              "en": "marine animals and wildlife",
+              "vi": "động vật biển và đời sống hoang dã"
+            },
+            {
+              "en": "ingest plastic waste",
+              "vi": "nuốt phải rác thải nhựa"
+            },
+            {
+              "en": "become entangled in plastic items",
+              "vi": "bị mắc kẹt trong các đồ nhựa"
+            },
+            {
+              "en": "discarded fishing nets",
+              "vi": "lưới đánh cá bị vứt bỏ"
+            },
+            {
+              "en": "severe injuries or death",
+              "vi": "chấn thương nghiêm trọng hoặc tử vong"
+            },
+            {
+              "en": "negative effects on human health",
+              "vi": "ảnh hưởng tiêu cực đến sức khỏe con người"
+            },
+            {
+              "en": "contaminate food and drinking water",
+              "vi": "làm ô nhiễm thực phẩm và nước uống"
+            },
+            {
+              "en": "various health problems",
+              "vi": "nhiều vấn đề sức khỏe khác nhau"
+            },
+            {
+              "en": "reduce the use of single-use plastics",
+              "vi": "giảm sử dụng đồ nhựa dùng một lần"
+            },
+            {
+              "en": "cloth bags and reusable bottles",
+              "vi": "túi vải và chai nước dùng lại"
+            },
+            {
+              "en": "disposable plastic products",
+              "vi": "các sản phẩm nhựa dùng một lần"
+            },
+            {
+              "en": "strengthen plastic waste recycling",
+              "vi": "tăng cường tái chế rác thải nhựa"
+            },
+            {
+              "en": "provide more recycling bins",
+              "vi": "cung cấp thêm các thùng rác tái chế"
+            },
+            {
+              "en": "sort, collect, and recycle waste",
+              "vi": "phân loại, thu gom và tái chế rác"
+            },
+            {
+              "en": "raise public awareness",
+              "vi": "nâng cao nhận thức của người dân"
+            },
+            {
+              "en": "educate people on harmful effects",
+              "vi": "giáo dục người dân về các tác hại"
+            },
+            {
+              "en": "consume less plastic",
+              "vi": "tiêu thụ ít nhựa hơn"
             }
+          ],
+          "sample_b1": "In recent years, <strong>plastic waste in the oceans</strong> has become one of the most alarming environmental challenges across the globe. Millions of tons of plastic enter rivers and seas each year, causing serious damage. <strong>This essay will discuss the main effects of plastic waste in the oceans and suggest several practical solutions to tackle this problem.</strong>\n\n<strong>To begin with, plastic pollution leads to three severe consequences for the environment, animals, and people.</strong> First of all, <strong><em>plastic waste can cause serious pollution to the environment.</em></strong> This is because plastic takes many years to break down, so it can pollute land, water sources, and nature. In addition, <strong><em>plastic waste can cause serious harm to animals.</em></strong> Animals can eat plastic waste or get trapped in plastic products, so they can get hurt or even die. Finally, <strong><em>plastic waste can also have negative effects on human health.</em></strong> Plastic waste can pollute food and drinking water, and this causes many health problems.\n\n<strong>To address these pressing issues, several workable solutions should be carried out immediately.</strong> The most direct measure is that <strong><em>people should reduce the use of single-use plastic products.</em></strong> People can use cloth bags, reusable water bottles, and containers instead of single-use plastic items. Another practical solution is that <strong><em>it is necessary to increase the recycling of plastic waste.</em></strong> The government can provide more recycling bins and encourage people to sort, collect, and recycle plastic waste. Lastly, <strong><em>raising public awareness about plastic waste is essential.</em></strong> Governments, schools, and the media can teach people about the harmful effects of plastic and encourage them to use less plastic.\n\nIn conclusion, plastic waste in the oceans poses severe threats to our environment, wildlife, and human well-being. By minimizing disposable plastic usage, enhancing recycling systems, and educating the public, we can significantly reduce ocean pollution and protect our planet for future generations.",
+          "translation_b1": "Trong những năm gần đây, <strong>rác thải nhựa ở đại dương</strong> đã trở thành một trong những thách thức môi trường đáng báo động nhất trên toàn cầu. Hàng triệu tấn nhựa tràn vào sông ngòi và biển mỗi năm, gây ra thiệt hại nghiêm trọng. <strong>Bài luận này sẽ thảo luận về những tác động chính của rác thải nhựa ở các đại dương và đề xuất một số giải pháp thực tế để giải quyết vấn đề này.</strong>\n\n<strong>Trước hết, ô nhiễm rác thải nhựa dẫn đến ba hậu quả nghiêm trọng đối với môi trường, động vật và con người.</strong> Đầu tiên, <strong><em>rác thải nhựa có thể gây ô nhiễm môi trường nghiêm trọng.</em></strong> Điều này là do nhựa mất nhiều năm để phân hủy, vì vậy nó có thể làm ô nhiễm đất, nguồn nước và cảnh quan thiên nhiên. Thêm vào đó, <strong><em>rác thải nhựa có thể gây hại nghiêm trọng cho động vật.</em></strong> Động vật có thể ăn phải rác thải nhựa hoặc bị mắc kẹt trong các sản phẩm nhựa, khiến chúng bị thương hoặc thậm chí chết. Cuối cùng, <strong><em>rác thải nhựa cũng có thể gây ảnh hưởng tiêu cực đến sức khỏe con người.</em></strong> Rác thải nhựa có thể làm ô nhiễm thực phẩm và nguồn nước, từ đó gây ra một số vấn đề về sức khỏe.\n\n<strong>Để giải quyết những vấn đề cấp bách này, một số giải pháp khả thi cần được thực hiện ngay lập tức.</strong> Biện pháp trực tiếp nhất là <strong><em>mọi người nên giảm sử dụng các sản phẩm nhựa dùng một lần.</em></strong> Mọi người có thể sử dụng túi vải, chai nước và hộp đựng có thể tái sử dụng thay cho các sản phẩm nhựa dùng một lần. Một giải pháp thực tế khác là <strong><em>cần tăng cường việc tái chế rác thải nhựa.</em></strong> Chính phủ có thể cung cấp thêm các thùng rác tái chế và khuyến khích người dân phân loại, thu gom và tái chế rác thải nhựa. Cuối cùng, <strong><em>việc nâng cao nhận thức của người dân về rác thải nhựa là vô cùng thiết yếu.</em></strong> Chính phủ, trường học và truyền thông có thể giáo dục người dân về tác hại của rác thải nhựa và khuyến khích họ sử dụng ít nhựa hơn.\n\nTóm lại, rác thải nhựa ở các đại dương gây ra những mối đe dọa nghiêm trọng đối với môi trường, đời sống động vật và sức khỏe con người. Bằng cách giảm thiểu việc sử dụng đồ nhựa dùng một lần, nâng cao hệ thống tái chế và giáo dục cộng đồng, chúng ta có thể làm giảm đáng kể ô nhiễm đại dương và bảo vệ hành tinh của chúng ta cho các thế hệ tương lai.",
+          "sample_b2": "In contemporary society, <strong>plastic waste in the oceans</strong> has become one of the most critical environmental challenges facing the planet. Every year, millions of tons of discarded plastics enter rivers and seas, posing severe threats to ecosystems, animals, and human health. <strong>This essay will examine three major impacts of marine plastic waste and suggest three practical solutions to address this issue.</strong>\n\n<strong>On the one hand, oceanic plastic pollution causes serious damage in three main aspects.</strong> First and foremost, <strong><em>plastic waste causes severe environmental pollution in oceans.</em></strong> Plastic materials take hundreds of years to decompose, so millions of tons of plastic accumulate in the water and along coastlines. As a result, marine habitats are damaged and natural coastal landscapes are severely contaminated. Furthermore, <strong><em>oceanic plastic directly threatens the survival of marine wildlife.</em></strong> Many sea creatures such as turtles, birds, and fish often swallow plastic debris because they mistake it for food. In addition, larger marine animals can become entangled in discarded plastic bags and fishing nets, causing injury or death. Lastly, <strong><em>marine plastic pollution poses serious hazards to human health through the food chain.</em></strong> Over time, plastic items break down into tiny microplastics that absorb toxic chemicals in seawater. When people consume seafood contaminated with microplastics, these dangerous substances enter the human body and increase health risks.\n\n<strong>On the other hand, addressing this global problem requires concerted actions from governments, businesses, and individuals.</strong> The primary solution is to <strong><em>reduce and phase out single-use plastic products.</em></strong> Governments should introduce bans or impose high taxes on disposable items such as plastic bags, straws, and single-use cups, while consumers should switch to eco-friendly alternatives like cloth bags and reusable bottles. Second, <strong><em>authorities should improve waste management and recycling systems.</em></strong> Local governments need to place proper recycling bins in coastal areas to prevent trash from entering waterways, and provide financial support for recycling companies to transform plastic waste into useful materials. Finally, <strong><em>it is crucial to raise public awareness about marine environmental protection.</em></strong> Schools and media channels should run educational campaigns to teach citizens about the harmful effects of plastic pollution, while organizing community beach clean-ups to encourage active public participation.\n\nIn conclusion, marine plastic waste destroys oceanic habitats, kills aquatic creatures, and threatens human well-being. However, by banning disposable plastics, improving waste recycling, and educating the public, we can effectively protect our oceans and preserve marine ecosystems for future generations.",
+          "translation_b2": "Trong xã hội đương đại, rác thải nhựa ở các đại dương đã trở thành một trong những thách thức môi trường cấp bách nhất mà hành tinh đang phải đối mặt. Mỗi năm, hàng triệu tấn rác thải nhựa trôi vào các con sông và biển cả, đặt ra những mối đe dọa nghiêm trọng đối với các hệ sinh thái, động vật và sức khỏe con người. Bài viết này sẽ phân tích ba tác động chính của rác thải nhựa đại dương và gợi ý ba giải pháp thực tế để giải quyết vấn đề này.\n\nMột mặt, ô nhiễm rác thải nhựa đại dương gây ra thiệt hại nghiêm trọng trên ba khía cạnh chính. Trước hết, rác thải nhựa gây ô nhiễm môi trường biển nghiêm trọng. Các vật liệu nhựa mất hàng trăm năm để phân hủy, do đó hàng triệu tấn rác nhựa tích tụ trong nước và dọc theo các bờ biển. Hậu quả là các môi trường sống dưới biển bị tàn phá và cảnh quan thiên nhiên ven biển bị ô nhiễm nặng nề. Hơn nữa, rác thải đại dương đe dọa trực tiếp đến sự sinh tồn của động vật hoang dã dưới biển. Nhiều sinh vật biển như rùa, chim và cá thường nuốt phải mảnh vụn nhựa do nhầm là thức ăn. Thêm vào đó, các loài động vật biển lớn hơn có thể bị mắc kẹt vào các túi nilon hoặc lưới đánh cá bị bỏ lại, dẫn đến thương tật hoặc tử vong. Cuối cùng, ô nhiễm rác nhựa biển gây ra những mối nguy hiểm nghiêm trọng đối với sức khỏe con người thông qua chuỗi thức ăn. Theo thời gian, các vật dụng bằng nhựa vỡ vụn thành các hạt vi nhựa li ti và hấp thụ các hóa chất độc hại trong nước biển. Khi con người ăn các loại hải sản bị nhiễm vi nhựa, những chất độc hại này sẽ xâm nhập vào cơ thể con người và làm tăng nguy cơ mắc bệnh.\n\nMặt khác, việc giải quyết vấn đề toàn cầu này đòi hỏi sự phối hợp hành động từ các chính phủ, doanh nghiệp và các cá nhân. Giải pháp cơ bản đầu tiên là cắt giảm và loại bỏ dần các sản phẩm nhựa dùng một lần. Chính phủ nên ban hành lệnh cấm hoặc áp thuế cao đối với các đồ dùng một lần như túi nilon, ống hút và cốc nhựa, trong khi người tiêu dùng nên chuyển sang các giải pháp thay thế thân thiện với môi trường như túi vải và bình nước tái sử dụng. Thứ hai, các cơ quan chức năng nên cải thiện hệ thống quản lý rác thải và tái chế. Chính quyền địa phương cần đặt các thùng phân loại rác phù hợp tại các khu vực ven biển để ngăn rác trôi vào nguồn nước, đồng thời hỗ trợ tài chính cho các công ty tái chế để biến rác thải nhựa thành các vật liệu hữu ích. Cuối cùng, việc nâng cao nhận thức cộng đồng về bảo vệ môi trường biển là điều cốt yếu. Các trường học và kênh truyền thông nên triển khai các chiến dịch giáo dục để dạy người dân về tác hại của ô nhiễm nhựa, đồng thời tổ chức các đợt dọn dẹp bãi biển cộng đồng để khuyến khích công chúng tích cực tham gia.\n\nTóm lại, rác thải nhựa đại dương phá hủy môi trường sống dưới biển, giết chết các sinh vật thủy sinh và đe dọa sức khỏe con người. Tuy nhiên, bằng cách cấm đồ nhựa dùng một lần, cải thiện việc tái chế chất thải và giáo dục cộng đồng, chúng ta có thể bảo vệ đại dương hiệu quả và bảo tồn các hệ sinh thái biển cho các thế hệ tương lai.",
+          "vocab_step": {
+            "theme": "Rác thải nhựa ở đại dương (Plastic Waste in the Oceans)",
+            "single_words": [
+              {
+                "word": "pollute",
+                "ipa": "/pəˈluːt/",
+                "pos": "verb",
+                "level": "B1",
+                "vi": "làm ô nhiễm",
+                "family": "pollution (n), pollutant (n), polluted (adj)",
+                "example_en": "Plastic waste can pollute rivers, lakes, and oceans.",
+                "example_vi": "Rác thải nhựa có thể làm ô nhiễm sông, hồ và đại dương."
+              },
+              {
+                "word": "break down",
+                "ipa": "/breɪk daʊn/",
+                "pos": "phr.v",
+                "level": "B1",
+                "vi": "phân hủy, vỡ vụn",
+                "family": "breakdown (n)",
+                "example_en": "Plastic takes many years to break down in the environment.",
+                "example_vi": "Nhựa mất nhiều năm để phân hủy trong môi trường."
+              },
+              {
+                "word": "marine",
+                "ipa": "/məˈriːn/",
+                "pos": "adj",
+                "level": "B1",
+                "vi": "(thuộc) biển, đại dương",
+                "family": "mariner (n)",
+                "example_en": "Plastic trash causes great danger to marine animals.",
+                "example_vi": "Rác thải nhựa gây nguy hiểm lớn cho các loài động vật biển."
+              },
+              {
+                "word": "single-use",
+                "ipa": "/ˌsɪŋ.ɡəlˈjuːs/",
+                "pos": "adj",
+                "level": "B1",
+                "vi": "dùng một lần",
+                "family": "reuse (v), reusable (adj)",
+                "example_en": "We should stop using single-use plastic bags and straws.",
+                "example_vi": "Chúng ta nên ngừng sử dụng túi nilon và ống hút dùng một lần."
+              },
+              {
+                "word": "reusable",
+                "ipa": "/ˌriːˈjuː.zə.bəl/",
+                "pos": "adj",
+                "level": "B1",
+                "vi": "có thể tái sử dụng",
+                "family": "reuse (v), use (v/n)",
+                "example_en": "Bringing reusable bottles and cloth bags helps protect nature.",
+                "example_vi": "Mang theo bình nước tái sử dụng và túi vải giúp bảo vệ thiên nhiên."
+              },
+              {
+                "word": "recycle",
+                "ipa": "/ˌriːˈsaɪ.kəl/",
+                "pos": "verb",
+                "level": "B1",
+                "vi": "tái chế",
+                "family": "recycling (n), recyclable (adj)",
+                "example_en": "People should sort and recycle plastic waste at home.",
+                "example_vi": "Mọi người nên phân loại và tái chế rác thải nhựa tại nhà."
+              },
+              {
+                "word": "harm",
+                "ipa": "/hɑːm/",
+                "pos": "verb",
+                "level": "B1",
+                "vi": "gây hại, làm tổn thương",
+                "family": "harmful (adj), harmless (adj)",
+                "example_en": "Discarded plastic can harm both sea animals and birds.",
+                "example_vi": "Rác nhựa bị vứt bỏ có thể gây hại cho cả sinh vật biển và các loài chim."
+              },
+              {
+                "word": "trap",
+                "ipa": "/træp/",
+                "pos": "verb",
+                "level": "B1",
+                "vi": "làm mắc kẹt, bẫy",
+                "family": "trapped (adj), trap (n)",
+                "example_en": "Many sea turtles get trapped in plastic fishing nets.",
+                "example_vi": "Nhiều chú rùa biển bị mắc kẹt trong những tấm lưới đánh cá bằng nhựa."
+              },
+              {
+                "word": "landfill",
+                "ipa": "/ˈlænd.fɪl/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "bãi chôn lấp rác",
+                "family": "landfill (v)",
+                "example_en": "A huge amount of plastic trash ends up in landfills.",
+                "example_vi": "Một lượng khổng lồ rác thải nhựa kết thúc ở các bãi chôn lấp rác."
+              },
+              {
+                "word": "alternative",
+                "ipa": "/ɔːlˈtɜː.nə.tɪv/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "vật/giải pháp thay thế",
+                "family": "alternatively (adv)",
+                "example_en": "Paper bags are a great alternative to plastic ones.",
+                "example_vi": "Túi giấy là một giải pháp thay thế tuyệt vời cho túi nilon."
+              },
+              {
+                "word": "ban",
+                "ipa": "/bæn/",
+                "pos": "verb",
+                "level": "B1",
+                "vi": "cấm, ban hành lệnh cấm",
+                "family": "ban (n), banned (adj)",
+                "example_en": "The government decided to ban disposable plastic packaging.",
+                "example_vi": "Chính phủ đã quyết định cấm bao bì nhựa dùng một lần."
+              },
+              {
+                "word": "protect",
+                "ipa": "/prəˈtekt/",
+                "pos": "verb",
+                "level": "B1",
+                "vi": "bảo vệ",
+                "family": "protection (n), protective (adj)",
+                "example_en": "We must take action now to protect our ocean from plastic waste.",
+                "example_vi": "Chúng ta phải hành động ngay để bảo vệ đại dương khỏi rác thải nhựa."
+              },
+              {
+                "word": "accumulate",
+                "ipa": "/əˈkjuːmjəleɪt/",
+                "pos": "verb",
+                "level": "B2",
+                "vi": "tích tụ, chồng chất",
+                "family": "accumulation (n)",
+                "example_en": "Plastic bags accumulate on beaches and harm natural landscapes.",
+                "example_vi": "Túi nilon tích tụ trên các bãi biển và làm tổn hại cảnh quan tự nhiên."
+              },
+              {
+                "word": "habitat",
+                "ipa": "/ˈhæbɪtæt/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "môi trường sống tự nhiên",
+                "family": "habitation (n)",
+                "example_en": "Pollution is destroying the natural habitats of sea turtles.",
+                "example_vi": "Sự ô nhiễm đang phá hủy môi trường sống tự nhiên của rùa biển."
+              },
+              {
+                "word": "contaminate",
+                "ipa": "/kənˈtæmɪneɪt/",
+                "pos": "verb",
+                "level": "B2",
+                "vi": "làm ô nhiễm, làm bẩn",
+                "family": "contamination (n)",
+                "example_en": "Industrial waste can contaminate rivers and local water sources.",
+                "example_vi": "Chất thải công nghiệp có thể làm ô nhiễm các dòng sông và nguồn nước địa phương."
+              },
+              {
+                "word": "entangled",
+                "ipa": "/ɪnˈtæŋɡld/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "bị mắc kẹt, vướng vào",
+                "family": "entangle (v)",
+                "example_en": "Dolphins can become entangled in old fishing nets.",
+                "example_vi": "Cá heo có thể bị vướng vào những tấm lưới đánh cá cũ."
+              },
+              {
+                "word": "discard",
+                "ipa": "/dɪˈskɑːd/",
+                "pos": "verb",
+                "level": "B2",
+                "vi": "vứt bỏ, thải bỏ",
+                "family": "discarded (adj)",
+                "example_en": "People should not discard plastic bottles directly into nature.",
+                "example_vi": "Mọi người không nên vứt các chai nhựa trực tiếp ra ngoài thiên nhiên."
+              },
+              {
+                "word": "microplastic",
+                "ipa": "/ˈmaɪkrəʊˌplæstɪk/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "hạt vi nhựa",
+                "family": "plastic (n)",
+                "example_en": "Scientists found microplastics in many types of seafood.",
+                "example_vi": "Các nhà khoa học đã tìm thấy hạt vi nhựa trong nhiều loại hải sản."
+              },
+              {
+                "word": "toxic",
+                "ipa": "/ˈtɒksɪk/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "độc hại",
+                "family": "toxin (n), toxicity (n)",
+                "example_en": "Burning plastic releases toxic chemicals into the atmosphere.",
+                "example_vi": "Đốt rác nhựa giải phóng các hóa chất độc hại vào bầu khí quyển."
+              },
+              {
+                "word": "disposable",
+                "ipa": "/dɪˈspəʊzəbl/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "dùng một lần rồi bỏ",
+                "family": "dispose (v)",
+                "example_en": "We should stop using disposable cups and plastic cutlery.",
+                "example_vi": "Chúng ta nên ngừng sử dụng cốc dùng một lần và thìa dĩa nhựa."
+              },
+              {
+                "word": "alternative",
+                "ipa": "/ɔːlˈtɜːnətɪv/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "giải pháp thay thế",
+                "family": "alternate (v)",
+                "example_en": "Glass containers are a great alternative to plastic boxes.",
+                "example_vi": "Hộp thủy tinh là một giải pháp thay thế tuyệt vời cho hộp nhựa."
+              },
+              {
+                "word": "infrastructure",
+                "ipa": "/ˈɪnfrəstrʌktʃə/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "cơ sở hạ tầng",
+                "family": "structural (adj)",
+                "example_en": "Cities need better infrastructure for waste collection and treatment.",
+                "example_vi": "Các thành phố cần cơ sở hạ tầng tốt hơn để thu gom và xử lý rác."
+              },
+              {
+                "word": "waterway",
+                "ipa": "/ˈwɔːtəweɪ/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "dòng nước, đường thủy",
+                "family": "water (n)",
+                "example_en": "Trash thrown into local waterways eventually flows into the sea.",
+                "example_vi": "Rác bị ném vào các dòng nước địa phương cuối cùng sẽ trôi ra biển."
+              },
+              {
+                "word": "campaign",
+                "ipa": "/kæmˈpeɪn/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "chiến dịch",
+                "family": "campaigner (n)",
+                "example_en": "The university started a campaign to clean up the nearby river.",
+                "example_vi": "Trường đại học đã phát động một chiến dịch làm sạch con sông gần đó."
+              }
+            ],
+            "collocation_groups": [
+              {
+                "id": "effects",
+                "name": "Nhóm Collocations: Tác động & Hậu quả (Effects)",
+                "icon": "🌊",
+                "badge": "Phần Thân bài 1",
+                "items": [
+                  {
+                    "en": "cause serious pollution to the environment",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "gây ô nhiễm môi trường nghiêm trọng",
+                    "example": "Plastic waste can cause serious pollution to the environment."
+                  },
+                  {
+                    "en": "take many years to break down",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "mất nhiều năm để phân hủy",
+                    "example": "Most plastic items take many years to break down in nature."
+                  },
+                  {
+                    "en": "pollute land, water sources, and nature",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "làm ô nhiễm đất, nguồn nước và thiên nhiên",
+                    "example": "Dumping rubbish can pollute land, water sources, and nature."
+                  },
+                  {
+                    "en": "cause serious harm to animals",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "gây hại nghiêm trọng cho động vật",
+                    "example": "Floating plastic debris causes serious harm to animals."
+                  },
+                  {
+                    "en": "eat plastic waste",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "ăn phải rác thải nhựa",
+                    "example": "Birds and fish often eat plastic waste by mistake."
+                  },
+                  {
+                    "en": "get trapped in plastic products",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "bị mắc kẹt trong các sản phẩm nhựa",
+                    "example": "Sea creatures frequently get trapped in plastic products."
+                  },
+                  {
+                    "en": "get hurt or even die",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "bị thương hoặc thậm chí chết",
+                    "example": "Animals can eat plastic waste or get trapped in plastic products, so they can get hurt or even die."
+                  },
+                  {
+                    "en": "have negative effects on human health",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "gây ảnh hưởng tiêu cực đến sức khỏe con người",
+                    "example": "Polluted seawater will have negative effects on human health."
+                  },
+                  {
+                    "en": "pollute food and drinking water",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "làm ô nhiễm thực phẩm và nước uống",
+                    "example": "Tiny plastic particles pollute food and drinking water."
+                  },
+                  {
+                    "en": "cause many health problems",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "gây ra nhiều vấn đề sức khỏe",
+                    "example": "Plastic waste can pollute food and drinking water, and this causes many health problems."
+                  },
+                  {
+                    "en": "lead to severe environmental pollution",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "dẫn đến ô nhiễm môi trường nghiêm trọng",
+                    "example": "Massive plastic disposal leads to severe environmental pollution."
+                  },
+                  {
+                    "en": "persistently accumulate in oceanic gyres",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "tích tụ dai dẳng tại các dòng xoáy đại dương",
+                    "example": "Non-biodegradable debris persistently accumulates in oceanic gyres."
+                  },
+                  {
+                    "en": "contaminating water sources",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "làm ô nhiễm các nguồn nước",
+                    "example": "Plastic leachates end up contaminating water sources worldwide."
+                  },
+                  {
+                    "en": "pose a grave threat to marine fauna",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "đe dọa nghiêm trọng đến hệ động vật biển",
+                    "example": "Oceanic plastic pollution poses a grave threat to marine fauna."
+                  },
+                  {
+                    "en": "inadvertently ingest sharp plastic fragments",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "vô tình nuốt phải các mảnh nhựa sắc nhọn",
+                    "example": "Sea turtles inadvertently ingest sharp plastic fragments."
+                  },
+                  {
+                    "en": "fatally entangled in discarded fishing gear",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "mắc kẹt đến chết trong ngư cụ bị vứt bỏ",
+                    "example": "Thousands of mammals become fatally entangled in discarded fishing gear."
+                  },
+                  {
+                    "en": "infiltrates the food chain",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "thâm nhập vào chuỗi thức ăn",
+                    "example": "Microscopic plastic debris inevitably infiltrates the food chain."
+                  },
+                  {
+                    "en": "jeopardizes human well-being",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "gây nguy hại cho sức khỏe con người",
+                    "example": "Chemical bioaccumulation severely jeopardizes human well-being."
+                  }
+                ]
+              },
+              {
+                "id": "solutions",
+                "name": "Nhóm Collocations: Giải pháp & Hành động (Solutions)",
+                "icon": "♻️",
+                "badge": "Phần Thân bài 2",
+                "items": [
+                  {
+                    "en": "reduce the use of single-use plastic products",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "giảm sử dụng các sản phẩm nhựa dùng một lần",
+                    "example": "Consumers should reduce the use of single-use plastic products."
+                  },
+                  {
+                    "en": "use cloth bags and reusable bottles",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "dùng túi vải và chai nước tái sử dụng",
+                    "example": "It is easy to use cloth bags and reusable bottles when shopping."
+                  },
+                  {
+                    "en": "increase the recycling of plastic waste",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "tăng cường việc tái chế rác thải nhựa",
+                    "example": "Cities must take steps to increase the recycling of plastic waste."
+                  },
+                  {
+                    "en": "provide more recycling bins in public places",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "cung cấp thêm thùng rác tái chế ở nơi công cộng",
+                    "example": "Local councils should provide more recycling bins in public places."
+                  },
+                  {
+                    "en": "encourage people to sort, collect, and recycle",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "khuyến khích mọi người phân loại, thu gom và tái chế",
+                    "example": "Governments should encourage people to sort, collect, and recycle plastic."
+                  },
+                  {
+                    "en": "raising public awareness about plastic waste",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "nâng cao nhận thức của người dân về rác thải nhựa",
+                    "example": "Raising public awareness about plastic waste is essential."
+                  },
+                  {
+                    "en": "teach people about the harmful effects",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "dạy cho mọi người về các tác hại",
+                    "example": "Schools should teach people about the harmful effects of plastics."
+                  },
+                  {
+                    "en": "encourage them to use less plastic",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "khuyến khích họ sử dụng ít nhựa hơn",
+                    "example": "Media campaigns encourage them to use less plastic in daily life."
+                  },
+                  {
+                    "en": "reduce the reliance on single-use plastics",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "giảm bớt sự phụ thuộc vào đồ nhựa dùng một lần",
+                    "example": "Society must drastically reduce the reliance on single-use plastics."
+                  },
+                  {
+                    "en": "enforce nationwide bans or excise taxes",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "thực thi lệnh cấm hoặc thuế tiêu thụ đặc biệt trên toàn quốc",
+                    "example": "Policymakers should enforce nationwide bans or excise taxes on disposables."
+                  },
+                  {
+                    "en": "adopt sustainable substitutes",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "sử dụng các vật dụng thay thế bền vững",
+                    "example": "Consumers can adopt sustainable substitutes like canvas tote bags."
+                  },
+                  {
+                    "en": "modernize waste management systems",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "hiện đại hóa các hệ thống quản lý rác thải",
+                    "example": "It is crucial to modernize waste management systems in coastal cities."
+                  },
+                  {
+                    "en": "scale up plastic recycling initiatives",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "mở rộng các sáng kiến tái chế nhựa",
+                    "example": "Governments need to scale up plastic recycling initiatives nationwide."
+                  },
+                  {
+                    "en": "convert plastic garbage into reusable resources",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "chuyển đổi rác nhựa thành các tài nguyên có thể tái sử dụng",
+                    "example": "Advanced facilities convert plastic garbage into reusable resources."
+                  },
+                  {
+                    "en": "foster civic awareness and environmental stewardship",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "nuôi dưỡng nhận thức công dân và trách nhiệm môi trường",
+                    "example": "Educational reforms foster civic awareness and environmental stewardship."
+                  },
+                  {
+                    "en": "motivating eco-friendly consumption habits",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "thúc đẩy các thói quen tiêu dùng thân thiện với môi trường",
+                    "example": "Community campaigns succeed in motivating eco-friendly consumption habits."
+                  }
+                ]
+              }
+            ]
+          }
+        }
       },
       {
         "id": 36,
@@ -29178,899 +29178,899 @@ const ESSAY_DATA = [
         "prompt": "Write an essay to an educated reader to discuss the causes of children’s overuse of digital devices and suggest possible solutions to this problem. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
         "has_full_details": false
       },
-            {
-            "id": 44,
-            "title_en": "Computer games and children’s behaviour",
-            "title_vi": "Ảnh hưởng của trò chơi điện tử đến hành vi của trẻ em",
-            "tags": "[Effects & Solutions]",
-            "context": "Computer games have become one of the most popular forms of entertainment among children. Many children spend a significant amount of their free time playing games on computers, smartphones, tablets, and gaming consoles. While computer games can provide enjoyment and certain educational benefits, excessive gaming has raised concerns about its influence on children's behavior and development.",
-            "prompt": "Write an essay to an educated reader to discuss the effects of computer games on children’s behavior and suggest possible solutions to this problem. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-            "has_full_details": true,
-            "paraphrases": [
+      {
+        "id": 44,
+        "title_en": "Computer games and children’s behaviour",
+        "title_vi": "Ảnh hưởng của trò chơi điện tử đến hành vi của trẻ em",
+        "tags": "[Effects & Solutions]",
+        "context": "Computer games have become one of the most popular forms of entertainment among children. Many children spend a significant amount of their free time playing games on computers, smartphones, tablets, and gaming consoles. While computer games can provide enjoyment and certain educational benefits, excessive gaming has raised concerns about its influence on children's behavior and development.",
+        "prompt": "Write an essay to an educated reader to discuss the effects of computer games on children’s behavior and suggest possible solutions to this problem. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "has_full_details": true,
+        "paraphrases": [
+          {
+            "en": "children playing computer games",
+            "vi": "việc trẻ em chơi trò chơi điện tử"
+          },
+          {
+            "en": "video gaming habits among youngsters",
+            "vi": "thói quen chơi game ở thanh thiếu niên và trẻ nhỏ"
+          },
+          {
+            "en": "the impacts of digital games on children's behavior",
+            "vi": "ảnh hưởng của trò chơi điện tử đến hành vi của trẻ"
+          },
+          {
+            "en": "excessive screen gaming among young children",
+            "vi": "việc chơi game màn hình quá mức ở trẻ nhỏ"
+          }
+        ],
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "EFFECT 01",
+                "point_vi": "Trẻ em có thể trở nên ít kiên nhẫn và dễ tức giận hơn.",
+                "point_en": "First, children can become less patient and easily get angry.",
+                "evidence_vi": "Việc thường xuyên chơi các trò chơi có tính cạnh tranh cao có thể khiến trẻ quen với việc thắng và thua nhanh, vì vậy các em có thể dễ nổi giận hoặc mất bình tĩnh khi gặp khó khăn trong cuộc sống thực.",
+                "evidence_en": "Playing competitive games often makes children get used to winning and losing quickly, so they easily lose their temper when facing difficulties in real life.",
+                "collocations": [
                   {
-                        "en": "children playing computer games",
-                        "vi": "việc trẻ em chơi trò chơi điện tử"
+                    "en": "become less patient",
+                    "vi": "trở nên ít kiên nhẫn hơn"
                   },
                   {
-                        "en": "video gaming habits among youngsters",
-                        "vi": "thói quen chơi game ở thanh thiếu niên và trẻ nhỏ"
+                    "en": "easily get angry",
+                    "vi": "dễ nổi giận"
                   },
                   {
-                        "en": "the impacts of digital games on children's behavior",
-                        "vi": "ảnh hưởng của trò chơi điện tử đến hành vi của trẻ"
+                    "en": "play competitive games",
+                    "vi": "chơi các trò chơi có tính cạnh tranh"
                   },
                   {
-                        "en": "excessive screen gaming among young children",
-                        "vi": "việc chơi game màn hình quá mức ở trẻ nhỏ"
+                    "en": "lose their temper",
+                    "vi": "mất bình tĩnh, nổi nóng"
+                  },
+                  {
+                    "en": "facing difficulties in real life",
+                    "vi": "đối mặt với khó khăn trong đời thực"
                   }
+                ]
+              },
+              {
+                "title": "EFFECT 02",
+                "point_vi": "Trẻ em có thể trở nên ít giao tiếp với người khác.",
+                "point_en": "Second, children may communicate less with other people.",
+                "evidence_vi": "Khi dành quá nhiều thời gian chơi game, trẻ có ít thời gian trò chuyện và tham gia các hoạt động với gia đình hoặc bạn bè, từ đó có thể làm giảm kỹ năng giao tiếp.",
+                "evidence_en": "When children spend too much time on computer games, they have less time to talk with family or friends, and this can hurt their communication skills.",
+                "collocations": [
+                  {
+                    "en": "communicate less with other people",
+                    "vi": "ít giao tiếp với người khác"
+                  },
+                  {
+                    "en": "spend too much time on computer games",
+                    "vi": "dành quá nhiều thời gian chơi game"
+                  },
+                  {
+                    "en": "talk with family or friends",
+                    "vi": "trò chuyện với gia đình hoặc bạn bè"
+                  },
+                  {
+                    "en": "hurt their communication skills",
+                    "vi": "làm giảm kỹ năng giao tiếp"
+                  }
+                ]
+              },
+              {
+                "title": "EFFECT 03",
+                "point_vi": "Trẻ em có thể trở nên thiếu trách nhiệm với việc học tập và các hoạt động hằng ngày.",
+                "point_en": "Finally, children may neglect their studies and daily tasks.",
+                "evidence_vi": "Một số trẻ có thể dành quá nhiều thời gian cho game và bỏ bê bài tập, việc nhà hoặc các hoạt động khác, khiến kết quả học tập và cuộc sống hằng ngày bị ảnh hưởng.",
+                "evidence_en": "Some children spend hours playing games and ignore their homework or chores, so their school results and daily life suffer.",
+                "collocations": [
+                  {
+                    "en": "neglect their studies and daily tasks",
+                    "vi": "bỏ bê việc học và công việc hằng ngày"
+                  },
+                  {
+                    "en": "ignore their homework or chores",
+                    "vi": "bỏ qua bài tập về nhà hoặc việc nhà"
+                  },
+                  {
+                    "en": "school results and daily life suffer",
+                    "vi": "kết quả học tập và cuộc sống hằng ngày bị ảnh hưởng"
+                  }
+                ]
+              }
             ],
-            "details": {
-                  "ideas_b1": {
-                        "benefits": [
-                              {
-                                    "title": "EFFECT 01",
-                                    "point_vi": "Trẻ em có thể trở nên ít kiên nhẫn và dễ tức giận hơn.",
-                                    "point_en": "First, children can become less patient and easily get angry.",
-                                    "evidence_vi": "Việc thường xuyên chơi các trò chơi có tính cạnh tranh cao có thể khiến trẻ quen với việc thắng và thua nhanh, vì vậy các em có thể dễ nổi giận hoặc mất bình tĩnh khi gặp khó khăn trong cuộc sống thực.",
-                                    "evidence_en": "Playing competitive games often makes children get used to winning and losing quickly, so they easily lose their temper when facing difficulties in real life.",
-                                    "collocations": [
-                                          {
-                                                "en": "become less patient",
-                                                "vi": "trở nên ít kiên nhẫn hơn"
-                                          },
-                                          {
-                                                "en": "easily get angry",
-                                                "vi": "dễ nổi giận"
-                                          },
-                                          {
-                                                "en": "play competitive games",
-                                                "vi": "chơi các trò chơi có tính cạnh tranh"
-                                          },
-                                          {
-                                                "en": "lose their temper",
-                                                "vi": "mất bình tĩnh, nổi nóng"
-                                          },
-                                          {
-                                                "en": "facing difficulties in real life",
-                                                "vi": "đối mặt với khó khăn trong đời thực"
-                                          }
-                                    ]
-                              },
-                              {
-                                    "title": "EFFECT 02",
-                                    "point_vi": "Trẻ em có thể trở nên ít giao tiếp với người khác.",
-                                    "point_en": "Second, children may communicate less with other people.",
-                                    "evidence_vi": "Khi dành quá nhiều thời gian chơi game, trẻ có ít thời gian trò chuyện và tham gia các hoạt động với gia đình hoặc bạn bè, từ đó có thể làm giảm kỹ năng giao tiếp.",
-                                    "evidence_en": "When children spend too much time on computer games, they have less time to talk with family or friends, and this can hurt their communication skills.",
-                                    "collocations": [
-                                          {
-                                                "en": "communicate less with other people",
-                                                "vi": "ít giao tiếp với người khác"
-                                          },
-                                          {
-                                                "en": "spend too much time on computer games",
-                                                "vi": "dành quá nhiều thời gian chơi game"
-                                          },
-                                          {
-                                                "en": "talk with family or friends",
-                                                "vi": "trò chuyện với gia đình hoặc bạn bè"
-                                          },
-                                          {
-                                                "en": "hurt their communication skills",
-                                                "vi": "làm giảm kỹ năng giao tiếp"
-                                          }
-                                    ]
-                              },
-                              {
-                                    "title": "EFFECT 03",
-                                    "point_vi": "Trẻ em có thể trở nên thiếu trách nhiệm với việc học tập và các hoạt động hằng ngày.",
-                                    "point_en": "Finally, children may neglect their studies and daily tasks.",
-                                    "evidence_vi": "Một số trẻ có thể dành quá nhiều thời gian cho game và bỏ bê bài tập, việc nhà hoặc các hoạt động khác, khiến kết quả học tập và cuộc sống hằng ngày bị ảnh hưởng.",
-                                    "evidence_en": "Some children spend hours playing games and ignore their homework or chores, so their school results and daily life suffer.",
-                                    "collocations": [
-                                          {
-                                                "en": "neglect their studies and daily tasks",
-                                                "vi": "bỏ bê việc học và công việc hằng ngày"
-                                          },
-                                          {
-                                                "en": "ignore their homework or chores",
-                                                "vi": "bỏ qua bài tập về nhà hoặc việc nhà"
-                                          },
-                                          {
-                                                "en": "school results and daily life suffer",
-                                                "vi": "kết quả học tập và cuộc sống hằng ngày bị ảnh hưởng"
-                                          }
-                                    ]
-                              }
-                        ],
-                        "drawbacks": [
-                              {
-                                    "title": "SOLUTION 01",
-                                    "point_vi": "Hạn chế thời gian chơi game của trẻ.",
-                                    "point_en": "First, parents should limit children's daily gaming time.",
-                                    "evidence_vi": "Cha mẹ nên đặt giới hạn thời gian chơi game mỗi ngày và yêu cầu trẻ hoàn thành bài tập hoặc công việc cần thiết trước khi chơi.",
-                                    "evidence_en": "Parents can set a time limit each day and ask children to finish their homework before they can play.",
-                                    "collocations": [
-                                          {
-                                                "en": "limit daily gaming time",
-                                                "vi": "hạn chế thời gian chơi game hằng ngày"
-                                          },
-                                          {
-                                                "en": "set a time limit each day",
-                                                "vi": "đặt giới hạn thời gian mỗi ngày"
-                                          },
-                                          {
-                                                "en": "finish their homework before they can play",
-                                                "vi": "hoàn thành bài tập trước khi được chơi"
-                                          }
-                                    ]
-                              },
-                              {
-                                    "title": "SOLUTION 02",
-                                    "point_vi": "Khuyến khích trẻ tham gia các hoạt động ngoài trời.",
-                                    "point_en": "Second, adults should encourage children to take part in outdoor activities.",
-                                    "evidence_vi": "Cha mẹ và nhà trường có thể khuyến khích trẻ chơi thể thao, tham gia các hoạt động nhóm hoặc dành thời gian với bạn bè để phát triển kỹ năng giao tiếp và các kỹ năng xã hội.",
-                                    "evidence_en": "Parents and schools can encourage kids to play sports, join club activities, or spend time with friends to improve social skills.",
-                                    "collocations": [
-                                          {
-                                                "en": "take part in outdoor activities",
-                                                "vi": "tham gia các hoạt động ngoài trời"
-                                          },
-                                          {
-                                                "en": "play sports, join club activities",
-                                                "vi": "chơi thể thao, tham gia hoạt động câu lạc bộ"
-                                          },
-                                          {
-                                                "en": "spend time with friends",
-                                                "vi": "dành thời gian với bạn bè"
-                                          },
-                                          {
-                                                "en": "improve social skills",
-                                                "vi": "cải thiện các kỹ năng xã hội"
-                                          }
-                                    ]
-                              },
-                              {
-                                    "title": "SOLUTION 03",
-                                    "point_vi": "Nâng cao nhận thức của trẻ về việc sử dụng game hợp lý.",
-                                    "point_en": "Finally, it is important to raise children's awareness about healthy gaming habits.",
-                                    "evidence_vi": "Cha mẹ và giáo viên nên giải thích cho trẻ về những tác động tiêu cực của việc chơi game quá nhiều và hướng dẫn các em cân bằng thời gian chơi game với học tập và các hoạt động khác.",
-                                    "evidence_en": "Parents and teachers should explain the bad effects of playing too much and guide children to balance gaming with studying.",
-                                    "collocations": [
-                                          {
-                                                "en": "raise children's awareness",
-                                                "vi": "nâng cao nhận thức của trẻ em"
-                                          },
-                                          {
-                                                "en": "healthy gaming habits",
-                                                "vi": "thói quen chơi game lành mạnh"
-                                          },
-                                          {
-                                                "en": "explain the bad effects",
-                                                "vi": "giải thích những tác hại"
-                                          },
-                                          {
-                                                "en": "balance gaming with studying",
-                                                "vi": "cân bằng giữa chơi game và học tập"
-                                          }
-                                    ]
-                              }
-                        ]
+            "drawbacks": [
+              {
+                "title": "SOLUTION 01",
+                "point_vi": "Hạn chế thời gian chơi game của trẻ.",
+                "point_en": "First, parents should limit children's daily gaming time.",
+                "evidence_vi": "Cha mẹ nên đặt giới hạn thời gian chơi game mỗi ngày và yêu cầu trẻ hoàn thành bài tập hoặc công việc cần thiết trước khi chơi.",
+                "evidence_en": "Parents can set a time limit each day and ask children to finish their homework before they can play.",
+                "collocations": [
+                  {
+                    "en": "limit daily gaming time",
+                    "vi": "hạn chế thời gian chơi game hằng ngày"
                   },
-                  "ideas_b2": {
-                        "benefits": [
-                              {
-                                    "title": "EFFECT 01",
-                                    "point_vi": "Chơi quá nhiều trò chơi điện tử có thể khiến trẻ em kém kiên nhẫn và dễ nổi giận.",
-                                    "point_en": "First, playing too many computer games can make children less patient and easily angered.",
-                                    "evidence_vi": "• Luận cứ 1: Các trò chơi điện tử cạnh tranh thường tập cho người chơi thói quen mong đợi kết quả tức thì và chiến thắng nhanh chóng.\n• Luận cứ 2: Do đó, các em dễ mất bình tĩnh và bực bội khi phải đối mặt với những khó khăn, thử thách trong đời sống thực tế.",
-                                    "evidence_en": "• Evidence 1: Competitive video games often condition young players to expect instant results and quick wins.\n• Evidence 2: Consequently, they easily lose their temper and become frustrated when facing real-life challenges.",
-                                    "collocations": [
-                                          {
-                                                "en": "become less patient",
-                                                "vi": "trở nên ít kiên nhẫn hơn"
-                                          },
-                                          {
-                                                "en": "competitive video games",
-                                                "vi": "trò chơi điện tử mang tính cạnh tranh"
-                                          },
-                                          {
-                                                "en": "instant results",
-                                                "vi": "kết quả tức thì"
-                                          },
-                                          {
-                                                "en": "lose their temper",
-                                                "vi": "mất bình tĩnh, nổi nóng"
-                                          }
-                                    ]
-                              },
-                              {
-                                    "title": "EFFECT 02",
-                                    "point_vi": "Chơi game quá mức làm giảm sự giao tiếp của trẻ với mọi người xung quanh.",
-                                    "point_en": "Second, excessive gaming can reduce children's communication with people around them.",
-                                    "evidence_vi": "• Luận cứ 1: Khi trẻ em dành hàng giờ ngồi một mình chơi game trong phòng, các em có rất ít thời gian để trò chuyện cùng cha mẹ và bạn bè.\n• Luận cứ 2: Hậu quả là các em dần trở nên thu mình và các kỹ năng giao tiếp xã hội bị suy giảm.",
-                                    "evidence_en": "• Evidence 1: When children spend hours playing games in their rooms, they have little time to talk to parents and friends.\n• Evidence 2: As a result, they may become socially isolated and develop poor interpersonal skills.",
-                                    "collocations": [
-                                          {
-                                                "en": "excessive gaming",
-                                                "vi": "chơi game quá mức"
-                                          },
-                                          {
-                                                "en": "talk to parents and friends",
-                                                "vi": "trò chuyện với cha mẹ và bạn bè"
-                                          },
-                                          {
-                                                "en": "socially isolated",
-                                                "vi": "thu mình khỏi xã hội"
-                                          },
-                                          {
-                                                "en": "interpersonal skills",
-                                                "vi": "kỹ năng giao tiếp giữa các cá nhân"
-                                          }
-                                    ]
-                              },
-                              {
-                                    "title": "EFFECT 03",
-                                    "point_vi": "Trò chơi điện tử có thể khiến học sinh bỏ bê việc học và các công việc hằng ngày.",
-                                    "point_en": "Finally, computer games can cause children to neglect their studies and daily responsibilities.",
-                                    "evidence_vi": "• Luận cứ 1: Nhiều trẻ em thức khuya để chơi các trò chơi cuốn hút và liên tục trì hoãn việc làm bài tập về nhà.\n• Luận cứ 2: Điều này dẫn đến kết quả học tập sa sút và thái độ lười biếng, không muốn phụ giúp việc nhà cho gia đình.",
-                                    "evidence_en": "• Evidence 1: Many children stay up late playing exciting games and postpone doing their homework.\n• Evidence 2: This leads to declining academic performance and an unwillingness to help with household chores.",
-                                    "collocations": [
-                                          {
-                                                "en": "neglect their studies",
-                                                "vi": "bỏ bê việc học"
-                                          },
-                                          {
-                                                "en": "postpone doing homework",
-                                                "vi": "trì hoãn làm bài tập"
-                                          },
-                                          {
-                                                "en": "declining academic performance",
-                                                "vi": "kết quả học tập sa sút"
-                                          },
-                                          {
-                                                "en": "household chores",
-                                                "vi": "công việc nhà"
-                                          }
-                                    ]
-                              }
-                        ],
-                        "drawbacks": [
-                              {
-                                    "title": "SOLUTION 01",
-                                    "point_vi": "Cha mẹ nên thiết lập giới hạn rõ ràng về thời gian chơi game hằng ngày của con.",
-                                    "point_en": "The first solution is that parents should set clear limits on their children's daily gaming time.",
-                                    "evidence_vi": "• Luận cứ 1: Phụ huynh có thể đặt ra các quy định cụ thể, ví dụ như không cho phép chơi game quá một tiếng mỗi ngày.\n• Luận cứ 2: Ngoài ra, trẻ chỉ nên được phép giải trí bằng game sau khi đã hoàn thành toàn bộ bài tập và nhiệm vụ cá nhân.",
-                                    "evidence_en": "• Evidence 1: Caregivers can establish strict rules, such as allowing no more than one hour of gaming per day.\n• Evidence 2: In addition, children should only be permitted to play games after finishing all their homework and personal tasks.",
-                                    "collocations": [
-                                          {
-                                                "en": "set clear limits",
-                                                "vi": "đặt ra giới hạn rõ ràng"
-                                          },
-                                          {
-                                                "en": "daily gaming time",
-                                                "vi": "thời gian chơi game hằng ngày"
-                                          },
-                                          {
-                                                "en": "strict rules",
-                                                "vi": "các quy định nghiêm ngặt"
-                                          },
-                                          {
-                                                "en": "finish homework",
-                                                "vi": "hoàn thành bài tập về nhà"
-                                          }
-                                    ]
-                              },
-                              {
-                                    "title": "SOLUTION 02",
-                                    "point_vi": "Người lớn nên khuyến khích trẻ tham gia các hoạt động thể thao ngoài trời.",
-                                    "point_en": "Second, adults should encourage children to take part in outdoor sports and physical activities.",
-                                    "evidence_vi": "• Luận cứ 1: Gia đình và nhà trường có thể động viên các em tham gia các câu lạc bộ thể thao như bóng đá hoặc bơi lội cùng bạn bè.\n• Luận cứ 2: Những hoạt động này không chỉ giúp nâng cao sức khỏe thể chất mà còn tạo cơ hội để trẻ giao lưu và kết bạn.",
-                                    "evidence_en": "• Evidence 1: Families and schools can motivate kids to join sports clubs like football or swimming with their peers.\n• Evidence 2: These activities not only improve their physical health but also provide opportunities to make friends and build social skills.",
-                                    "collocations": [
-                                          {
-                                                "en": "outdoor sports",
-                                                "vi": "thể thao ngoài trời"
-                                          },
-                                          {
-                                                "en": "join sports clubs",
-                                                "vi": "tham gia câu lạc bộ thể thao"
-                                          },
-                                          {
-                                                "en": "physical health",
-                                                "vi": "sức khỏe thể chất"
-                                          },
-                                          {
-                                                "en": "make friends",
-                                                "vi": "kết bạn"
-                                          }
-                                    ]
-                              },
-                              {
-                                    "title": "SOLUTION 03",
-                                    "point_vi": "Cần nâng cao nhận thức của trẻ về thói quen chơi game lành mạnh và có chừng mực.",
-                                    "point_en": "Finally, it is important to raise children's awareness about healthy gaming habits.",
-                                    "evidence_vi": "• Luận cứ 1: Cha mẹ và thầy cô nên giải thích cởi mở về những tác hại của việc nghiện game đối với sức khỏe và tương lai của trẻ.\n• Luận cứ 2: Hơn nữa, người lớn cần hướng dẫn các em kỹ năng quản lý thời gian để cân bằng giữa học tập, giải trí và nghỉ ngơi.",
-                                    "evidence_en": "• Evidence 1: Parents and teachers should talk openly to explain the negative consequences of gaming addiction on health and studies.\n• Evidence 2: Furthermore, adults ought to guide young people on how to manage their time effectively to balance recreation and academic work.",
-                                    "collocations": [
-                                          {
-                                                "en": "raise children's awareness",
-                                                "vi": "nâng cao nhận thức của trẻ"
-                                          },
-                                          {
-                                                "en": "healthy gaming habits",
-                                                "vi": "thói quen chơi game lành mạnh"
-                                          },
-                                          {
-                                                "en": "gaming addiction",
-                                                "vi": "sự nghiện game"
-                                          },
-                                          {
-                                                "en": "manage time effectively",
-                                                "vi": "quản lý thời gian hiệu quả"
-                                          }
-                                    ]
-                              }
-                        ]
+                  {
+                    "en": "set a time limit each day",
+                    "vi": "đặt giới hạn thời gian mỗi ngày"
                   },
-                  "vocab": [
-                        {
-                              "en": "become less patient",
-                              "vi": "trở nên ít kiên nhẫn hơn"
-                        },
-                        {
-                              "en": "easily get angry",
-                              "vi": "dễ nổi giận"
-                        },
-                        {
-                              "en": "competitive computer games",
-                              "vi": "trò chơi máy tính có tính cạnh tranh"
-                        },
-                        {
-                              "en": "lose their temper",
-                              "vi": "mất bình tĩnh, nổi nóng"
-                        },
-                        {
-                              "en": "communicate less with others",
-                              "vi": "ít giao tiếp với người khác"
-                        },
-                        {
-                              "en": "talk with family or friends",
-                              "vi": "trò chuyện với gia đình hoặc bạn bè"
-                        },
-                        {
-                              "en": "hurt communication skills",
-                              "vi": "làm giảm kỹ năng giao tiếp"
-                        },
-                        {
-                              "en": "neglect studies and chores",
-                              "vi": "bỏ bê việc học và việc nhà"
-                        },
-                        {
-                              "en": "school results suffer",
-                              "vi": "kết quả học tập bị ảnh hưởng xấu"
-                        },
-                        {
-                              "en": "limit daily gaming time",
-                              "vi": "hạn chế thời gian chơi game hằng ngày"
-                        },
-                        {
-                              "en": "set a time limit each day",
-                              "vi": "đặt ra giới hạn thời gian mỗi ngày"
-                        },
-                        {
-                              "en": "finish homework before playing",
-                              "vi": "hoàn thành bài tập trước khi chơi"
-                        },
-                        {
-                              "en": "outdoor activities and sports",
-                              "vi": "các hoạt động ngoài trời và thể thao"
-                        },
-                        {
-                              "en": "improve social skills",
-                              "vi": "cải thiện các kỹ năng xã hội"
-                        },
-                        {
-                              "en": "healthy gaming habits",
-                              "vi": "thói quen chơi game lành mạnh"
-                        },
-                        {
-                              "en": "balance gaming with studying",
-                              "vi": "cân bằng giữa chơi game và học tập"
-                        }
-                  ],
-                  "sample_b1": "In modern life, <strong>computer games</strong> have become extremely popular among young children. Many kids spend hours every day in front of screens, which raises serious concerns about their development. <strong>This essay will discuss three negative effects of computer games on children's behavior and suggest three practical solutions to solve this problem.</strong>\n\n<strong>To begin with, excessive gaming can lead to three serious behavioral problems.</strong> First of all, <strong><em>children can become less patient and easily get angry.</em></strong> Playing competitive games often makes children get used to winning and losing quickly, so they easily lose their temper when facing difficulties in real life. In addition, <strong><em>children may communicate less with other people.</em></strong> When children spend too much time on computer games, they have less time to talk with family or friends, and this can hurt their communication skills. Finally, <strong><em>children may neglect their studies and daily tasks.</em></strong> Some children spend hours playing games and ignore their homework or chores, so their school results and daily life suffer.\n\n<strong>To address these negative effects, parents and teachers should take immediate action.</strong> The first solution is that <strong><em>parents should limit children's daily gaming time.</em></strong> Parents can set a time limit each day and ask children to finish their homework before they can play. Second, <strong><em>adults should encourage children to take part in outdoor activities.</em></strong> Parents and schools can encourage kids to play sports, join club activities, or spend time with friends to improve social skills. Lastly, <strong><em>it is important to raise children's awareness about healthy gaming habits.</em></strong> Parents and teachers should explain the bad effects of playing too much and guide children to balance gaming with studying.\n\nIn conclusion, playing too many computer games can make children impatient, less sociable, and irresponsible. By setting clear time limits, promoting outdoor sports, and educating young minds, we can help children develop healthy habits and grow up happily.",
-                  "translation_b1": "Trong đời sống hiện đại, <strong>trò chơi điện tử</strong> đã trở nên vô cùng phổ biến đối với trẻ nhỏ. Nhiều đứa trẻ dành hàng giờ mỗi ngày trước màn hình, điều này làm dấy lên những mối lo ngại sâu sắc về sự phát triển của các em. <strong>Bài luận này sẽ thảo luận về ba tác động tiêu cực của trò chơi điện tử đối với hành vi của trẻ em và đề xuất ba giải pháp thực tế để giải quyết vấn đề này.</strong>\n\n<strong>Trước hết, việc chơi game quá độ có thể dẫn đến ba vấn đề nghiêm trọng về hành vi.</strong> Đầu tiên, <strong><em>trẻ em có thể trở nên ít kiên nhẫn và dễ tức giận hơn.</em></strong> Việc thường xuyên chơi các trò chơi có tính cạnh tranh cao có thể khiến trẻ quen với việc thắng và thua nhanh, vì vậy các em có thể dễ nổi giận hoặc mất bình tĩnh khi gặp khó khăn trong cuộc sống thực. Thêm vào đó, <strong><em>trẻ em có thể trở nên ít giao tiếp với người khác.</em></strong> Khi dành quá nhiều thời gian chơi game, trẻ có ít thời gian trò chuyện và tham gia các hoạt động với gia đình hoặc bạn bè, từ đó có thể làm giảm kỹ năng giao tiếp. Cuối cùng, <strong><em>trẻ em có thể trở nên thiếu trách nhiệm với việc học tập và các hoạt động hằng ngày.</em></strong> Một số trẻ có thể dành quá nhiều thời gian cho game và bỏ bê bài tập, việc nhà hoặc các hoạt động khác, khiến kết quả học tập và cuộc sống hằng ngày bị ảnh hưởng.\n\n<strong>Để giải quyết những tác động tiêu cực này, phụ huynh và giáo viên cần hành động ngay lập tức.</strong> Giải pháp đầu tiên là <strong><em>hạn chế thời gian chơi game của trẻ.</em></strong> Cha mẹ nên đặt giới hạn thời gian chơi game mỗi ngày và yêu cầu trẻ hoàn thành bài tập hoặc công việc cần thiết trước khi chơi. Thứ hai, <strong><em>khuyến khích trẻ tham gia các hoạt động ngoài trời.</em></strong> Cha mẹ và nhà trường có thể khuyến khích trẻ chơi thể thao, tham gia các hoạt động nhóm hoặc dành thời gian với bạn bè để phát triển kỹ năng giao tiếp và các kỹ năng xã hội. Cuối cùng, <strong><em>nâng cao nhận thức của trẻ về việc sử dụng game hợp lý.</em></strong> Cha mẹ và giáo viên nên giải thích cho trẻ về những tác động tiêu cực của việc chơi game quá nhiều và hướng dẫn các em cân bằng thời gian chơi game với học tập và các hoạt động khác.\n\nTóm lại, chơi game máy tính quá nhiều có thể khiến trẻ em mất kiên nhẫn, ít hòa đồng và thiếu trách nhiệm. Bằng cách đặt ra giới hạn thời gian rõ ràng, khuyến khích các môn thể thao ngoài trời và giáo dục thế hệ trẻ, chúng ta có thể giúp trẻ xây dựng những thói quen lành mạnh và trưởng thành một cách hạnh phúc.",
-                  "sample_b2": "In modern society, <strong>computer games</strong> have become one of the most popular forms of entertainment among young people. While playing video games can provide enjoyment and develop certain mental skills, excessive gaming has raised significant concerns about its impact on children's behavior. <strong>This essay will discuss three major negative effects of computer games on children and propose three practical solutions to this problem.</strong>\n\n<strong>On the one hand, excessive video gaming can negatively influence children in several ways.</strong> First of all, <strong><em>playing too many computer games can make children less patient and easily angered.</em></strong> Competitive video games often condition young players to expect instant results and quick wins. Consequently, they easily lose their temper and become frustrated when facing real-life challenges. Furthermore, <strong><em>excessive gaming can reduce children's communication with people around them.</em></strong> When children spend hours playing games in their rooms, they have little time to talk to parents and friends. As a result, they may become socially isolated and develop poor interpersonal skills. Lastly, <strong><em>computer games can cause children to neglect their studies and daily responsibilities.</em></strong> Many children stay up late playing exciting games and postpone doing their homework. This leads to declining academic performance and an unwillingness to help with household chores.\n\n<strong>On the other hand, several effective measures should be implemented to mitigate these problems.</strong> The primary solution is that <strong><em>parents should set clear limits on their children's daily gaming time.</em></strong> Caregivers can establish strict rules, such as allowing no more than one hour of gaming per day, and ensure that all homework is completed first. Second, <strong><em>adults should encourage children to take part in outdoor sports and physical activities.</em></strong> Families and schools can motivate kids to join sports clubs like football or swimming with their peers. These activities not only improve their physical health but also provide opportunities to make friends and build social skills. Finally, <strong><em>it is important to raise children's awareness about healthy gaming habits.</em></strong> Parents and teachers should explain the harmful effects of gaming addiction and guide young people on how to manage their time effectively to balance recreation and academic work.\n\nIn conclusion, excessive computer gaming can lead to impatience, social isolation, and poor academic performance among children. However, by enforcing clear time limits, promoting outdoor sports, and fostering healthy habits, parents and educators can help children enjoy digital games safely while developing positively.",
-                  "translation_b2": "Trong xã hội hiện đại, trò chơi điện tử đã trở thành một trong những hình thức giải trí phổ biến nhất trong giới trẻ. Mặc dù việc chơi game có thể mang lại niềm vui và phát triển một số kỹ năng tư duy, việc chơi quá mức đã gây ra nhiều lo ngại về tác động của nó đối với hành vi của trẻ. Bài viết này sẽ thảo luận về ba ảnh hưởng tiêu cực chính của trò chơi điện tử đối với trẻ em và đề xuất ba giải pháp thực tế cho vấn đề này.\n\nMột mặt, việc chơi game quá mức có thể ảnh hưởng tiêu cực đến trẻ em theo nhiều cách. Trước hết, chơi quá nhiều trò chơi điện tử có thể khiến trẻ em kém kiên nhẫn và dễ nổi giận. Các trò chơi mang tính cạnh tranh thường tập cho người chơi thói quen mong đợi kết quả tức thì và chiến thắng nhanh chóng. Do đó, các em dễ mất bình tĩnh và bực bội khi phải đối mặt với những khó khăn trong đời sống thực tế. Hơn nữa, việc chơi game quá mức làm giảm sự giao tiếp của trẻ với mọi người xung quanh. Khi trẻ dành hàng giờ chơi game trong phòng, các em có rất ít thời gian để trò chuyện cùng cha mẹ và bạn bè. Hậu quả là các em có thể trở nên thu mình và suy giảm kỹ năng giao tiếp xã hội. Cuối cùng, trò chơi điện tử có thể khiến học sinh bỏ bê việc học và các trách nhiệm hằng ngày. Nhiều đứa trẻ thức khuya để chơi game và trì hoãn việc làm bài tập về nhà. Điều này dẫn đến kết quả học tập sa sút và sự lười biếng, không muốn phụ giúp việc nhà cho gia đình.\n\nMặt khác, một số biện pháp hiệu quả cần được thực hiện để giảm thiểu những vấn đề này. Giải pháp đầu tiên là cha mẹ nên thiết lập giới hạn rõ ràng về thời gian chơi game hằng ngày của con. Người chăm sóc có thể đặt ra các quy định nghiêm ngặt, chẳng hạn như cho phép chơi không quá một giờ mỗi ngày, và yêu cầu trẻ phải hoàn thành bài tập về nhà trước. Thứ hai, người lớn nên khuyến khích trẻ tham gia các hoạt động thể thao ngoài trời và rèn luyện thể chất. Gia đình và nhà trường có thể động viên các em tham gia các câu lạc bộ thể thao như bóng đá hoặc bơi lội cùng bạn bè. Những hoạt động này không chỉ giúp cải thiện thể chất mà còn tạo cơ hội để trẻ kết bạn và xây dựng kỹ năng xã hội. Cuối cùng, việc nâng cao nhận thức của trẻ về thói quen chơi game lành mạnh là rất quan trọng. Cha mẹ và thầy cô nên giải thích các tác hại của chứng nghiện game và hướng dẫn trẻ cách quản lý thời gian hiệu quả để cân bằng giữa giải trí và học tập.\n\nTóm lại, chơi game quá mức có thể dẫn đến sự thiếu kiên nhẫn, thu mình khỏi xã hội và kết quả học tập kém ở trẻ em. Tuy nhiên, bằng cách áp dụng giới hạn thời gian rõ ràng, khuyến khích thể thao ngoài trời và rèn luyện thói quen lành mạnh, cha mẹ và các nhà giáo dục có thể giúp trẻ tận hưởng trò chơi số một cách an toàn đồng thời phát triển tích cực.",
-                  "vocab_step": {
-                        "theme": "Trò chơi điện tử và hành vi của trẻ em (Computer Games & Children's Behaviour)",
-                        "single_words": [
-                              {
-                                    "word": "patient",
-                                    "ipa": "/ˈpeɪʃnt/",
-                                    "pos": "adj",
-                                    "level": "B1",
-                                    "vi": "kiên nhẫn",
-                                    "family": "patience (n), impatient (adj)",
-                                    "example_en": "Playing fast games often makes children less patient in daily life.",
-                                    "example_vi": "Chơi các trò chơi nhanh thường khiến trẻ em kém kiên nhẫn hơn trong cuộc sống hằng ngày."
-                              },
-                              {
-                                    "word": "temper",
-                                    "ipa": "/ˈtempə/",
-                                    "pos": "noun",
-                                    "level": "B1",
-                                    "vi": "sự bình tĩnh, tính khí",
-                                    "family": "lose one's temper (phr)",
-                                    "example_en": "Some children easily lose their temper when they face a hard challenge.",
-                                    "example_vi": "Một số đứa trẻ dễ mất bình tĩnh khi đối mặt với thử thách khó khăn."
-                              },
-                              {
-                                    "word": "communicate",
-                                    "ipa": "/kəˈmjuːnɪkeɪt/",
-                                    "pos": "verb",
-                                    "level": "B1",
-                                    "vi": "giao tiếp, trò chuyện",
-                                    "family": "communication (n), communicative (adj)",
-                                    "example_en": "Teenagers should communicate more with their parents and classmates.",
-                                    "example_vi": "Thiếu niên nên giao tiếp nhiều hơn với cha mẹ và bạn học."
-                              },
-                              {
-                                    "word": "neglect",
-                                    "ipa": "/nɪˈɡlekt/",
-                                    "pos": "verb",
-                                    "level": "B1",
-                                    "vi": "bỏ bê, lơ là",
-                                    "family": "neglectful (adj), negligence (n)",
-                                    "example_en": "Students who play games all night often neglect their schoolwork.",
-                                    "example_vi": "Những học sinh chơi game thâu đêm thường bỏ bê việc học ở trường."
-                              },
-                              {
-                                    "word": "chore",
-                                    "ipa": "/tʃɔː/",
-                                    "pos": "noun",
-                                    "level": "B1",
-                                    "vi": "việc nhà, việc vặt",
-                                    "family": "daily chores (phr)",
-                                    "example_en": "Children should finish their chores before turning on the computer.",
-                                    "example_vi": "Trẻ em nên hoàn thành việc nhà trước khi bật máy tính."
-                              },
-                              {
-                                    "word": "limit",
-                                    "ipa": "/ˈlɪmɪt/",
-                                    "pos": "verb",
-                                    "level": "B1",
-                                    "vi": "giới hạn, hạn chế",
-                                    "family": "limit (n), limitation (n), limited (adj)",
-                                    "example_en": "Parents must limit screen time to protect children's eyes and health.",
-                                    "example_vi": "Cha mẹ phải hạn chế thời gian dùng màn hình để bảo vệ mắt và sức khỏe của trẻ."
-                              },
-                              {
-                                    "word": "encourage",
-                                    "ipa": "/ɪnˈkʌrɪdʒ/",
-                                    "pos": "verb",
-                                    "level": "B1",
-                                    "vi": "khuyến khích, động viên",
-                                    "family": "encouragement (n), encouraging (adj)",
-                                    "example_en": "Teachers always encourage students to play active sports outdoors.",
-                                    "example_vi": "Thầy cô luôn khuyến khích học sinh tham gia các môn thể thao năng động ngoài trời."
-                              },
-                              {
-                                    "word": "outdoor",
-                                    "ipa": "/ˈaʊtdɔː/",
-                                    "pos": "adj",
-                                    "level": "B1",
-                                    "vi": "ngoài trời",
-                                    "family": "outdoors (adv)",
-                                    "example_en": "Outdoor games help children make new friends and stay active.",
-                                    "example_vi": "Các trò chơi ngoài trời giúp trẻ kết thêm bạn mới và luôn năng động."
-                              },
-                              {
-                                    "word": "balance",
-                                    "ipa": "/ˈbæləns/",
-                                    "pos": "verb",
-                                    "level": "B1",
-                                    "vi": "cân bằng",
-                                    "family": "balance (n), balanced (adj)",
-                                    "example_en": "Young people need to balance playing games with study time.",
-                                    "example_vi": "Người trẻ cần phải cân bằng giữa việc chơi game và thời gian học tập."
-                              },
-                              {
-                                    "word": "habit",
-                                    "ipa": "/ˈhæbɪt/",
-                                    "pos": "noun",
-                                    "level": "B1",
-                                    "vi": "thói quen",
-                                    "family": "habitual (adj)",
-                                    "example_en": "Developing healthy daily habits is crucial for growing kids.",
-                                    "example_vi": "Xây dựng thói quen hằng ngày lành mạnh là điều tối quan trọng đối với trẻ đang lớn."
-                              },
-                              {
-                                    "word": "harmful",
-                                    "ipa": "/ˈhɑːmfl/",
-                                    "pos": "adj",
-                                    "level": "B1",
-                                    "vi": "có hại",
-                                    "family": "harm (v/n), harmless (adj)",
-                                    "example_en": "Playing video games for hours without resting is harmful to mental health.",
-                                    "example_vi": "Chơi trò chơi điện tử nhiều giờ không nghỉ ngơi rất có hại cho sức khỏe tâm thần."
-                              },
-                              {
-                                    "word": "competitive",
-                                    "ipa": "/kəmˈpetətɪv/",
-                                    "pos": "adj",
-                                    "level": "B1",
-                                    "vi": "có tính cạnh tranh",
-                                    "family": "compete (v), competition (n)",
-                                    "example_en": "Many modern online games are extremely competitive.",
-                                    "example_vi": "Nhiều trò chơi trực tuyến hiện đại có tính cạnh tranh cực kỳ gay gắt."
-                              },
-                              {
-                                    "word": "competitive",
-                                    "ipa": "/kəmˈpetətɪv/",
-                                    "pos": "adj",
-                                    "level": "B2",
-                                    "vi": "có tính cạnh tranh",
-                                    "family": "compete (v), competition (n)",
-                                    "example_en": "Competitive games often make young players frustrated when they lose.",
-                                    "example_vi": "Các trò chơi cạnh tranh thường khiến người chơi trẻ bực bội khi thua cuộc."
-                              },
-                              {
-                                    "word": "frustrated",
-                                    "ipa": "/frʌˈstreɪtɪd/",
-                                    "pos": "adj",
-                                    "level": "B2",
-                                    "vi": "ức chế, bực bội",
-                                    "family": "frustration (n)",
-                                    "example_en": "Children easily get frustrated when facing difficult homework.",
-                                    "example_vi": "Trẻ em dễ bực bội khi gặp bài tập về nhà khó khăn."
-                              },
-                              {
-                                    "word": "isolated",
-                                    "ipa": "/ˈaɪsəleɪtɪd/",
-                                    "pos": "adj",
-                                    "level": "B2",
-                                    "vi": "bị cô lập, thu mình",
-                                    "family": "isolation (n)",
-                                    "example_en": "Excessive screen time makes teenagers feel isolated from society.",
-                                    "example_vi": "Thời gian dùng màn hình quá nhiều khiến thanh thiếu niên cảm thấy bị cô lập khỏi xã hội."
-                              },
-                              {
-                                    "word": "interpersonal",
-                                    "ipa": "/ˌɪntəˈpɜːsənl/",
-                                    "pos": "adj",
-                                    "level": "B2",
-                                    "vi": "giữa các cá nhân, giao tiếp",
-                                    "family": "person (n)",
-                                    "example_en": "Team sports help students develop essential interpersonal skills.",
-                                    "example_vi": "Thể thao đồng đội giúp học sinh phát triển các kỹ năng giao tiếp thiết yếu."
-                              },
-                              {
-                                    "word": "neglect",
-                                    "ipa": "/nɪˈɡlekt/",
-                                    "pos": "verb",
-                                    "level": "B2",
-                                    "vi": "bỏ bê, chểnh mảng",
-                                    "family": "neglectful (adj)",
-                                    "example_en": "Students who game constantly often neglect their academic duties.",
-                                    "example_vi": "Những học sinh chơi game liên tục thường bỏ bê việc học của mình."
-                              },
-                              {
-                                    "word": "postpone",
-                                    "ipa": "/pəˈspəʊn/",
-                                    "pos": "verb",
-                                    "level": "B2",
-                                    "vi": "trì hoãn",
-                                    "family": "postponement (n)",
-                                    "example_en": "Do not postpone important school assignments until the weekend.",
-                                    "example_vi": "Đừng trì hoãn các bài tập quan trọng ở trường cho đến cuối tuần."
-                              },
-                              {
-                                    "word": "caregiver",
-                                    "ipa": "/ˈkeəɡɪvə/",
-                                    "pos": "noun",
-                                    "level": "B2",
-                                    "vi": "người chăm sóc, cha mẹ",
-                                    "family": "care (v/n)",
-                                    "example_en": "Caregivers should monitor the media content that children consume.",
-                                    "example_vi": "Người chăm sóc nên theo dõi nội dung truyền thông mà trẻ tiếp nhận."
-                              },
-                              {
-                                    "word": "extracurricular",
-                                    "ipa": "/ˌekstrəkəˈrɪkjələ/",
-                                    "pos": "adj",
-                                    "level": "B2",
-                                    "vi": "ngoại khóa",
-                                    "family": "curriculum (n)",
-                                    "example_en": "Participating in extracurricular activities boosts children's confidence.",
-                                    "example_vi": "Tham gia vào các hoạt động ngoại khóa giúp tăng cường sự tự tin của trẻ."
-                              },
-                              {
-                                    "word": "addiction",
-                                    "ipa": "/əˈdɪkʃn/",
-                                    "pos": "noun",
-                                    "level": "B2",
-                                    "vi": "sự nghiện ngập",
-                                    "family": "addicted (adj), addictive (adj)",
-                                    "example_en": "Gaming addiction can lead to sleep problems and poor grades.",
-                                    "example_vi": "Nghiện game có thể dẫn đến chứng mất ngủ và điểm số kém."
-                              },
-                              {
-                                    "word": "recreation",
-                                    "ipa": "/ˌrekriˈeɪʃn/",
-                                    "pos": "noun",
-                                    "level": "B2",
-                                    "vi": "sự giải trí, tiêu khiển",
-                                    "family": "recreational (adj)",
-                                    "example_en": "Outdoor recreation is beneficial for both physical and mental well-being.",
-                                    "example_vi": "Giải trí ngoài trời có lợi cho cả sức khỏe thể chất và tinh thần."
-                              },
-                              {
-                                    "word": "balance",
-                                    "ipa": "/ˈbæləns/",
-                                    "pos": "verb",
-                                    "level": "B2",
-                                    "vi": "cân bằng",
-                                    "family": "balanced (adj)",
-                                    "example_en": "Teenagers need to balance study time and leisure activities.",
-                                    "example_vi": "Thanh thiếu niên cần cân bằng giữa thời gian học và các hoạt động giải trí."
-                              },
-                              {
-                                    "word": "moderate",
-                                    "ipa": "/ˈmɒdərət/",
-                                    "pos": "adj",
-                                    "level": "B2",
-                                    "vi": "có chừng mực, vừa phải",
-                                    "family": "moderation (n)",
-                                    "example_en": "Playing computer games in moderate amounts is not harmful.",
-                                    "example_vi": "Chơi trò chơi điện tử với thời lượng vừa phải thì không có hại."
-                              }
-                        ],
-                        "collocation_groups": [
-                              {
-                                    "id": "effects",
-                                    "name": "Nhóm Collocations: Tác động & Hậu quả (Effects)",
-                                    "icon": "🎮",
-                                    "badge": "Phần Thân bài 1",
-                                    "items": [
-                                          {
-                                                "en": "become less patient and easily get angry",
-                                                "type": "v.phr",
-                                                "level": "B1",
-                                                "vi": "trở nên ít kiên nhẫn và dễ nổi giận",
-                                                "example": "Children can become less patient and easily get angry when playing games."
-                                          },
-                                          {
-                                                "en": "play fast competitive games",
-                                                "type": "v.phr",
-                                                "level": "B1",
-                                                "vi": "chơi các trò chơi cạnh tranh tốc độ nhanh",
-                                                "example": "Many boys love to play fast competitive games with online partners."
-                                          },
-                                          {
-                                                "en": "lose their temper easily",
-                                                "type": "v.phr",
-                                                "level": "B1",
-                                                "vi": "dễ dàng mất bình tĩnh, nổi cáu",
-                                                "example": "Frustrated players often lose their temper easily during difficult matches."
-                                          },
-                                          {
-                                                "en": "face difficulties in real life",
-                                                "type": "v.phr",
-                                                "level": "B1",
-                                                "vi": "đối mặt với khó khăn trong cuộc sống thực",
-                                                "example": "Youngsters struggle when they face difficulties in real life."
-                                          },
-                                          {
-                                                "en": "communicate less with other people",
-                                                "type": "v.phr",
-                                                "level": "B1",
-                                                "vi": "ít giao tiếp với người khác",
-                                                "example": "Gamers tend to communicate less with other people around them."
-                                          },
-                                          {
-                                                "en": "talk with family or friends",
-                                                "type": "v.phr",
-                                                "level": "B1",
-                                                "vi": "trò chuyện với gia đình hoặc bạn bè",
-                                                "example": "Kids have fewer chances to talk with family or friends every evening."
-                                          },
-                                          {
-                                                "en": "hurt their communication skills",
-                                                "type": "v.phr",
-                                                "level": "B1",
-                                                "vi": "làm suy giảm kỹ năng giao tiếp",
-                                                "example": "Staying in bedrooms playing games can hurt their communication skills."
-                                          },
-                                          {
-                                                "en": "neglect their studies and daily tasks",
-                                                "type": "v.phr",
-                                                "level": "B1",
-                                                "vi": "bỏ bê việc học và các công việc hằng ngày",
-                                                "example": "Addicted gamers often neglect their studies and daily tasks completely."
-                                          },
-                                          {
-                                                "en": "diminish children's patience and increase irritability",
-                                                "type": "v.phr",
-                                                "level": "B2",
-                                                "vi": "làm suy giảm tính kiên nhẫn và gia tăng sự cáu kỉnh",
-                                                "example": "High screen exposure can diminish children's patience and increase irritability."
-                                          },
-                                          {
-                                                "en": "condition youngsters to instant outcomes",
-                                                "type": "v.phr",
-                                                "level": "B2",
-                                                "vi": "khiến trẻ quen với kết quả tức thì",
-                                                "example": "Competitive games condition youngsters to instant outcomes and rapid rewards."
-                                          },
-                                          {
-                                                "en": "prone to frustration and emotional outbursts",
-                                                "type": "adj.phr",
-                                                "level": "B2",
-                                                "vi": "dễ bực bội và bộc phát cảm xúc giận dữ",
-                                                "example": "Players become prone to frustration and emotional outbursts over minor setbacks."
-                                          },
-                                          {
-                                                "en": "lead to social withdrawal",
-                                                "type": "v.phr",
-                                                "level": "B2",
-                                                "vi": "dẫn đến sự thu mình khỏi đời sống xã hội",
-                                                "example": "Excessive virtual gaming frequently leads to social withdrawal and loneliness."
-                                          },
-                                          {
-                                                "en": "impaired interpersonal communication",
-                                                "type": "n.phr",
-                                                "level": "B2",
-                                                "vi": "khả năng giao tiếp giữa các cá nhân bị suy giảm",
-                                                "example": "A sedentary gaming habit results in impaired interpersonal communication."
-                                          },
-                                          {
-                                                "en": "engage in face-to-face interactions",
-                                                "type": "v.phr",
-                                                "level": "B2",
-                                                "vi": "tham gia vào các tương tác trực tiếp",
-                                                "example": "Youngsters lack willingness to engage in face-to-face interactions."
-                                          },
-                                          {
-                                                "en": "undermines their social competence",
-                                                "type": "v.phr",
-                                                "level": "B2",
-                                                "vi": "làm xói mòn năng lực giao tiếp xã hội",
-                                                "example": "Constant isolation undermines their social competence and emotional maturity."
-                                          },
-                                          {
-                                                "en": "severely compromises academic achievements",
-                                                "type": "v.phr",
-                                                "level": "B2",
-                                                "vi": "làm tổn hại nghiêm trọng thành tích học tập",
-                                                "example": "Chronic gaming severely compromises academic achievements in high schools."
-                                          }
-                                    ]
-                              },
-                              {
-                                    "id": "solutions",
-                                    "name": "Nhóm Collocations: Giải pháp & Hành động (Solutions)",
-                                    "icon": "🛡️",
-                                    "badge": "Phần Thân bài 2",
-                                    "items": [
-                                          {
-                                                "en": "limit daily gaming time",
-                                                "type": "v.phr",
-                                                "level": "B1",
-                                                "vi": "hạn chế thời gian chơi game hằng ngày",
-                                                "example": "Parents must strictly limit daily gaming time to one hour."
-                                          },
-                                          {
-                                                "en": "set a time limit each day",
-                                                "type": "v.phr",
-                                                "level": "B1",
-                                                "vi": "đặt ra giới hạn thời gian mỗi ngày",
-                                                "example": "It is useful to set a time limit each day for using smartphones."
-                                          },
-                                          {
-                                                "en": "finish homework before playing",
-                                                "type": "v.phr",
-                                                "level": "B1",
-                                                "vi": "hoàn thành bài tập về nhà trước khi chơi",
-                                                "example": "Children must finish homework before playing any video games."
-                                          },
-                                          {
-                                                "en": "take part in outdoor activities",
-                                                "type": "v.phr",
-                                                "level": "B1",
-                                                "vi": "tham gia các hoạt động ngoài trời",
-                                                "example": "Kids should take part in outdoor activities on weekend mornings."
-                                          },
-                                          {
-                                                "en": "play sports and join club activities",
-                                                "type": "v.phr",
-                                                "level": "B1",
-                                                "vi": "chơi thể thao và tham gia hoạt động câu lạc bộ",
-                                                "example": "Pupils can play sports and join club activities to stay healthy."
-                                          },
-                                          {
-                                                "en": "improve their social skills",
-                                                "type": "v.phr",
-                                                "level": "B1",
-                                                "vi": "cải thiện các kỹ năng xã hội của mình",
-                                                "example": "Group sports help children improve their social skills rapidly."
-                                          },
-                                          {
-                                                "en": "raise awareness about healthy gaming habits",
-                                                "type": "v.phr",
-                                                "level": "B1",
-                                                "vi": "nâng cao nhận thức về thói quen chơi game lành mạnh",
-                                                "example": "Schools should raise awareness about healthy gaming habits regularly."
-                                          },
-                                          {
-                                                "en": "balance gaming with studying",
-                                                "type": "v.phr",
-                                                "level": "B1",
-                                                "vi": "cân bằng việc chơi game với học tập",
-                                                "example": "Every child needs to learn how to balance gaming with studying."
-                                          },
-                                          {
-                                                "en": "establish strict boundaries on screen time",
-                                                "type": "v.phr",
-                                                "level": "B2",
-                                                "vi": "thiết lập giới hạn nghiêm ngặt về thời gian màn hình",
-                                                "example": "Parents must establish strict boundaries on screen time at home."
-                                          },
-                                          {
-                                                "en": "restrict gaming duration",
-                                                "type": "v.phr",
-                                                "level": "B2",
-                                                "vi": "hạn chế thời lượng chơi game",
-                                                "example": "Parental control software helps restrict gaming duration effectively."
-                                          },
-                                          {
-                                                "en": "mandate homework completion beforehand",
-                                                "type": "v.phr",
-                                                "level": "B2",
-                                                "vi": "yêu cầu bắt buộc hoàn thành bài tập trước đó",
-                                                "example": "Caregivers should mandate homework completion beforehand as a firm rule."
-                                          },
-                                          {
-                                                "en": "promote regular participation in outdoor pursuits",
-                                                "type": "v.phr",
-                                                "level": "B2",
-                                                "vi": "thúc đẩy tham gia thường xuyên các hoạt động ngoài trời",
-                                                "example": "Educators should promote regular participation in outdoor pursuits."
-                                          },
-                                          {
-                                                "en": "cultivating essential interpersonal skills",
-                                                "type": "v.phr",
-                                                "level": "B2",
-                                                "vi": "trau dồi các kỹ năng tương tác thiết yếu",
-                                                "example": "Team sports are instrumental in cultivating essential interpersonal skills."
-                                          },
-                                          {
-                                                "en": "responsible digital consumption",
-                                                "type": "n.phr",
-                                                "level": "B2",
-                                                "vi": "việc tiêu thụ nội dung số có trách nhiệm",
-                                                "example": "Schools need to introduce workshops on responsible digital consumption."
-                                          },
-                                          {
-                                                "en": "mentoring children on time management",
-                                                "type": "v.phr",
-                                                "level": "B2",
-                                                "vi": "định hướng cho trẻ về kỹ năng quản lý thời gian",
-                                                "example": "Mentoring children on time management reduces gaming dependency."
-                                          },
-                                          {
-                                                "en": "strike a healthy balance",
-                                                "type": "v.phr",
-                                                "level": "B2",
-                                                "vi": "đạt được sự cân bằng lành mạnh",
-                                                "example": "Students learn to strike a healthy balance between leisure and learning."
-                                          }
-                                    ]
-                              }
-                        ]
+                  {
+                    "en": "finish their homework before they can play",
+                    "vi": "hoàn thành bài tập trước khi được chơi"
                   }
+                ]
+              },
+              {
+                "title": "SOLUTION 02",
+                "point_vi": "Khuyến khích trẻ tham gia các hoạt động ngoài trời.",
+                "point_en": "Second, adults should encourage children to take part in outdoor activities.",
+                "evidence_vi": "Cha mẹ và nhà trường có thể khuyến khích trẻ chơi thể thao, tham gia các hoạt động nhóm hoặc dành thời gian với bạn bè để phát triển kỹ năng giao tiếp và các kỹ năng xã hội.",
+                "evidence_en": "Parents and schools can encourage kids to play sports, join club activities, or spend time with friends to improve social skills.",
+                "collocations": [
+                  {
+                    "en": "take part in outdoor activities",
+                    "vi": "tham gia các hoạt động ngoài trời"
+                  },
+                  {
+                    "en": "play sports, join club activities",
+                    "vi": "chơi thể thao, tham gia hoạt động câu lạc bộ"
+                  },
+                  {
+                    "en": "spend time with friends",
+                    "vi": "dành thời gian với bạn bè"
+                  },
+                  {
+                    "en": "improve social skills",
+                    "vi": "cải thiện các kỹ năng xã hội"
+                  }
+                ]
+              },
+              {
+                "title": "SOLUTION 03",
+                "point_vi": "Nâng cao nhận thức của trẻ về việc sử dụng game hợp lý.",
+                "point_en": "Finally, it is important to raise children's awareness about healthy gaming habits.",
+                "evidence_vi": "Cha mẹ và giáo viên nên giải thích cho trẻ về những tác động tiêu cực của việc chơi game quá nhiều và hướng dẫn các em cân bằng thời gian chơi game với học tập và các hoạt động khác.",
+                "evidence_en": "Parents and teachers should explain the bad effects of playing too much and guide children to balance gaming with studying.",
+                "collocations": [
+                  {
+                    "en": "raise children's awareness",
+                    "vi": "nâng cao nhận thức của trẻ em"
+                  },
+                  {
+                    "en": "healthy gaming habits",
+                    "vi": "thói quen chơi game lành mạnh"
+                  },
+                  {
+                    "en": "explain the bad effects",
+                    "vi": "giải thích những tác hại"
+                  },
+                  {
+                    "en": "balance gaming with studying",
+                    "vi": "cân bằng giữa chơi game và học tập"
+                  }
+                ]
+              }
+            ]
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "EFFECT 01",
+                "point_vi": "Chơi quá nhiều trò chơi điện tử có thể khiến trẻ em kém kiên nhẫn và dễ nổi giận.",
+                "point_en": "First, playing too many computer games can make children less patient and easily angered.",
+                "evidence_vi": "• Luận cứ 1: Các trò chơi điện tử cạnh tranh thường tập cho người chơi thói quen mong đợi kết quả tức thì và chiến thắng nhanh chóng.\n• Luận cứ 2: Do đó, các em dễ mất bình tĩnh và bực bội khi phải đối mặt với những khó khăn, thử thách trong đời sống thực tế.",
+                "evidence_en": "• Evidence 1: Competitive video games often condition young players to expect instant results and quick wins.\n• Evidence 2: Consequently, they easily lose their temper and become frustrated when facing real-life challenges.",
+                "collocations": [
+                  {
+                    "en": "become less patient",
+                    "vi": "trở nên ít kiên nhẫn hơn"
+                  },
+                  {
+                    "en": "competitive video games",
+                    "vi": "trò chơi điện tử mang tính cạnh tranh"
+                  },
+                  {
+                    "en": "instant results",
+                    "vi": "kết quả tức thì"
+                  },
+                  {
+                    "en": "lose their temper",
+                    "vi": "mất bình tĩnh, nổi nóng"
+                  }
+                ]
+              },
+              {
+                "title": "EFFECT 02",
+                "point_vi": "Chơi game quá mức làm giảm sự giao tiếp của trẻ với mọi người xung quanh.",
+                "point_en": "Second, excessive gaming can reduce children's communication with people around them.",
+                "evidence_vi": "• Luận cứ 1: Khi trẻ em dành hàng giờ ngồi một mình chơi game trong phòng, các em có rất ít thời gian để trò chuyện cùng cha mẹ và bạn bè.\n• Luận cứ 2: Hậu quả là các em dần trở nên thu mình và các kỹ năng giao tiếp xã hội bị suy giảm.",
+                "evidence_en": "• Evidence 1: When children spend hours playing games in their rooms, they have little time to talk to parents and friends.\n• Evidence 2: As a result, they may become socially isolated and develop poor interpersonal skills.",
+                "collocations": [
+                  {
+                    "en": "excessive gaming",
+                    "vi": "chơi game quá mức"
+                  },
+                  {
+                    "en": "talk to parents and friends",
+                    "vi": "trò chuyện với cha mẹ và bạn bè"
+                  },
+                  {
+                    "en": "socially isolated",
+                    "vi": "thu mình khỏi xã hội"
+                  },
+                  {
+                    "en": "interpersonal skills",
+                    "vi": "kỹ năng giao tiếp giữa các cá nhân"
+                  }
+                ]
+              },
+              {
+                "title": "EFFECT 03",
+                "point_vi": "Trò chơi điện tử có thể khiến học sinh bỏ bê việc học và các công việc hằng ngày.",
+                "point_en": "Finally, computer games can cause children to neglect their studies and daily responsibilities.",
+                "evidence_vi": "• Luận cứ 1: Nhiều trẻ em thức khuya để chơi các trò chơi cuốn hút và liên tục trì hoãn việc làm bài tập về nhà.\n• Luận cứ 2: Điều này dẫn đến kết quả học tập sa sút và thái độ lười biếng, không muốn phụ giúp việc nhà cho gia đình.",
+                "evidence_en": "• Evidence 1: Many children stay up late playing exciting games and postpone doing their homework.\n• Evidence 2: This leads to declining academic performance and an unwillingness to help with household chores.",
+                "collocations": [
+                  {
+                    "en": "neglect their studies",
+                    "vi": "bỏ bê việc học"
+                  },
+                  {
+                    "en": "postpone doing homework",
+                    "vi": "trì hoãn làm bài tập"
+                  },
+                  {
+                    "en": "declining academic performance",
+                    "vi": "kết quả học tập sa sút"
+                  },
+                  {
+                    "en": "household chores",
+                    "vi": "công việc nhà"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "SOLUTION 01",
+                "point_vi": "Cha mẹ nên thiết lập giới hạn rõ ràng về thời gian chơi game hằng ngày của con.",
+                "point_en": "The first solution is that parents should set clear limits on their children's daily gaming time.",
+                "evidence_vi": "• Luận cứ 1: Phụ huynh có thể đặt ra các quy định cụ thể, ví dụ như không cho phép chơi game quá một tiếng mỗi ngày.\n• Luận cứ 2: Ngoài ra, trẻ chỉ nên được phép giải trí bằng game sau khi đã hoàn thành toàn bộ bài tập và nhiệm vụ cá nhân.",
+                "evidence_en": "• Evidence 1: Caregivers can establish strict rules, such as allowing no more than one hour of gaming per day.\n• Evidence 2: In addition, children should only be permitted to play games after finishing all their homework and personal tasks.",
+                "collocations": [
+                  {
+                    "en": "set clear limits",
+                    "vi": "đặt ra giới hạn rõ ràng"
+                  },
+                  {
+                    "en": "daily gaming time",
+                    "vi": "thời gian chơi game hằng ngày"
+                  },
+                  {
+                    "en": "strict rules",
+                    "vi": "các quy định nghiêm ngặt"
+                  },
+                  {
+                    "en": "finish homework",
+                    "vi": "hoàn thành bài tập về nhà"
+                  }
+                ]
+              },
+              {
+                "title": "SOLUTION 02",
+                "point_vi": "Người lớn nên khuyến khích trẻ tham gia các hoạt động thể thao ngoài trời.",
+                "point_en": "Second, adults should encourage children to take part in outdoor sports and physical activities.",
+                "evidence_vi": "• Luận cứ 1: Gia đình và nhà trường có thể động viên các em tham gia các câu lạc bộ thể thao như bóng đá hoặc bơi lội cùng bạn bè.\n• Luận cứ 2: Những hoạt động này không chỉ giúp nâng cao sức khỏe thể chất mà còn tạo cơ hội để trẻ giao lưu và kết bạn.",
+                "evidence_en": "• Evidence 1: Families and schools can motivate kids to join sports clubs like football or swimming with their peers.\n• Evidence 2: These activities not only improve their physical health but also provide opportunities to make friends and build social skills.",
+                "collocations": [
+                  {
+                    "en": "outdoor sports",
+                    "vi": "thể thao ngoài trời"
+                  },
+                  {
+                    "en": "join sports clubs",
+                    "vi": "tham gia câu lạc bộ thể thao"
+                  },
+                  {
+                    "en": "physical health",
+                    "vi": "sức khỏe thể chất"
+                  },
+                  {
+                    "en": "make friends",
+                    "vi": "kết bạn"
+                  }
+                ]
+              },
+              {
+                "title": "SOLUTION 03",
+                "point_vi": "Cần nâng cao nhận thức của trẻ về thói quen chơi game lành mạnh và có chừng mực.",
+                "point_en": "Finally, it is important to raise children's awareness about healthy gaming habits.",
+                "evidence_vi": "• Luận cứ 1: Cha mẹ và thầy cô nên giải thích cởi mở về những tác hại của việc nghiện game đối với sức khỏe và tương lai của trẻ.\n• Luận cứ 2: Hơn nữa, người lớn cần hướng dẫn các em kỹ năng quản lý thời gian để cân bằng giữa học tập, giải trí và nghỉ ngơi.",
+                "evidence_en": "• Evidence 1: Parents and teachers should talk openly to explain the negative consequences of gaming addiction on health and studies.\n• Evidence 2: Furthermore, adults ought to guide young people on how to manage their time effectively to balance recreation and academic work.",
+                "collocations": [
+                  {
+                    "en": "raise children's awareness",
+                    "vi": "nâng cao nhận thức của trẻ"
+                  },
+                  {
+                    "en": "healthy gaming habits",
+                    "vi": "thói quen chơi game lành mạnh"
+                  },
+                  {
+                    "en": "gaming addiction",
+                    "vi": "sự nghiện game"
+                  },
+                  {
+                    "en": "manage time effectively",
+                    "vi": "quản lý thời gian hiệu quả"
+                  }
+                ]
+              }
+            ]
+          },
+          "vocab": [
+            {
+              "en": "become less patient",
+              "vi": "trở nên ít kiên nhẫn hơn"
+            },
+            {
+              "en": "easily get angry",
+              "vi": "dễ nổi giận"
+            },
+            {
+              "en": "competitive computer games",
+              "vi": "trò chơi máy tính có tính cạnh tranh"
+            },
+            {
+              "en": "lose their temper",
+              "vi": "mất bình tĩnh, nổi nóng"
+            },
+            {
+              "en": "communicate less with others",
+              "vi": "ít giao tiếp với người khác"
+            },
+            {
+              "en": "talk with family or friends",
+              "vi": "trò chuyện với gia đình hoặc bạn bè"
+            },
+            {
+              "en": "hurt communication skills",
+              "vi": "làm giảm kỹ năng giao tiếp"
+            },
+            {
+              "en": "neglect studies and chores",
+              "vi": "bỏ bê việc học và việc nhà"
+            },
+            {
+              "en": "school results suffer",
+              "vi": "kết quả học tập bị ảnh hưởng xấu"
+            },
+            {
+              "en": "limit daily gaming time",
+              "vi": "hạn chế thời gian chơi game hằng ngày"
+            },
+            {
+              "en": "set a time limit each day",
+              "vi": "đặt ra giới hạn thời gian mỗi ngày"
+            },
+            {
+              "en": "finish homework before playing",
+              "vi": "hoàn thành bài tập trước khi chơi"
+            },
+            {
+              "en": "outdoor activities and sports",
+              "vi": "các hoạt động ngoài trời và thể thao"
+            },
+            {
+              "en": "improve social skills",
+              "vi": "cải thiện các kỹ năng xã hội"
+            },
+            {
+              "en": "healthy gaming habits",
+              "vi": "thói quen chơi game lành mạnh"
+            },
+            {
+              "en": "balance gaming with studying",
+              "vi": "cân bằng giữa chơi game và học tập"
             }
+          ],
+          "sample_b1": "In modern life, <strong>computer games</strong> have become extremely popular among young children. Many kids spend hours every day in front of screens, which raises serious concerns about their development. <strong>This essay will discuss three negative effects of computer games on children's behavior and suggest three practical solutions to solve this problem.</strong>\n\n<strong>To begin with, excessive gaming can lead to three serious behavioral problems.</strong> First of all, <strong><em>children can become less patient and easily get angry.</em></strong> Playing competitive games often makes children get used to winning and losing quickly, so they easily lose their temper when facing difficulties in real life. In addition, <strong><em>children may communicate less with other people.</em></strong> When children spend too much time on computer games, they have less time to talk with family or friends, and this can hurt their communication skills. Finally, <strong><em>children may neglect their studies and daily tasks.</em></strong> Some children spend hours playing games and ignore their homework or chores, so their school results and daily life suffer.\n\n<strong>To address these negative effects, parents and teachers should take immediate action.</strong> The first solution is that <strong><em>parents should limit children's daily gaming time.</em></strong> Parents can set a time limit each day and ask children to finish their homework before they can play. Second, <strong><em>adults should encourage children to take part in outdoor activities.</em></strong> Parents and schools can encourage kids to play sports, join club activities, or spend time with friends to improve social skills. Lastly, <strong><em>it is important to raise children's awareness about healthy gaming habits.</em></strong> Parents and teachers should explain the bad effects of playing too much and guide children to balance gaming with studying.\n\nIn conclusion, playing too many computer games can make children impatient, less sociable, and irresponsible. By setting clear time limits, promoting outdoor sports, and educating young minds, we can help children develop healthy habits and grow up happily.",
+          "translation_b1": "Trong đời sống hiện đại, <strong>trò chơi điện tử</strong> đã trở nên vô cùng phổ biến đối với trẻ nhỏ. Nhiều đứa trẻ dành hàng giờ mỗi ngày trước màn hình, điều này làm dấy lên những mối lo ngại sâu sắc về sự phát triển của các em. <strong>Bài luận này sẽ thảo luận về ba tác động tiêu cực của trò chơi điện tử đối với hành vi của trẻ em và đề xuất ba giải pháp thực tế để giải quyết vấn đề này.</strong>\n\n<strong>Trước hết, việc chơi game quá độ có thể dẫn đến ba vấn đề nghiêm trọng về hành vi.</strong> Đầu tiên, <strong><em>trẻ em có thể trở nên ít kiên nhẫn và dễ tức giận hơn.</em></strong> Việc thường xuyên chơi các trò chơi có tính cạnh tranh cao có thể khiến trẻ quen với việc thắng và thua nhanh, vì vậy các em có thể dễ nổi giận hoặc mất bình tĩnh khi gặp khó khăn trong cuộc sống thực. Thêm vào đó, <strong><em>trẻ em có thể trở nên ít giao tiếp với người khác.</em></strong> Khi dành quá nhiều thời gian chơi game, trẻ có ít thời gian trò chuyện và tham gia các hoạt động với gia đình hoặc bạn bè, từ đó có thể làm giảm kỹ năng giao tiếp. Cuối cùng, <strong><em>trẻ em có thể trở nên thiếu trách nhiệm với việc học tập và các hoạt động hằng ngày.</em></strong> Một số trẻ có thể dành quá nhiều thời gian cho game và bỏ bê bài tập, việc nhà hoặc các hoạt động khác, khiến kết quả học tập và cuộc sống hằng ngày bị ảnh hưởng.\n\n<strong>Để giải quyết những tác động tiêu cực này, phụ huynh và giáo viên cần hành động ngay lập tức.</strong> Giải pháp đầu tiên là <strong><em>hạn chế thời gian chơi game của trẻ.</em></strong> Cha mẹ nên đặt giới hạn thời gian chơi game mỗi ngày và yêu cầu trẻ hoàn thành bài tập hoặc công việc cần thiết trước khi chơi. Thứ hai, <strong><em>khuyến khích trẻ tham gia các hoạt động ngoài trời.</em></strong> Cha mẹ và nhà trường có thể khuyến khích trẻ chơi thể thao, tham gia các hoạt động nhóm hoặc dành thời gian với bạn bè để phát triển kỹ năng giao tiếp và các kỹ năng xã hội. Cuối cùng, <strong><em>nâng cao nhận thức của trẻ về việc sử dụng game hợp lý.</em></strong> Cha mẹ và giáo viên nên giải thích cho trẻ về những tác động tiêu cực của việc chơi game quá nhiều và hướng dẫn các em cân bằng thời gian chơi game với học tập và các hoạt động khác.\n\nTóm lại, chơi game máy tính quá nhiều có thể khiến trẻ em mất kiên nhẫn, ít hòa đồng và thiếu trách nhiệm. Bằng cách đặt ra giới hạn thời gian rõ ràng, khuyến khích các môn thể thao ngoài trời và giáo dục thế hệ trẻ, chúng ta có thể giúp trẻ xây dựng những thói quen lành mạnh và trưởng thành một cách hạnh phúc.",
+          "sample_b2": "In modern society, <strong>computer games</strong> have become one of the most popular forms of entertainment among young people. While playing video games can provide enjoyment and develop certain mental skills, excessive gaming has raised significant concerns about its impact on children's behavior. <strong>This essay will discuss three major negative effects of computer games on children and propose three practical solutions to this problem.</strong>\n\n<strong>On the one hand, excessive video gaming can negatively influence children in several ways.</strong> First of all, <strong><em>playing too many computer games can make children less patient and easily angered.</em></strong> Competitive video games often condition young players to expect instant results and quick wins. Consequently, they easily lose their temper and become frustrated when facing real-life challenges. Furthermore, <strong><em>excessive gaming can reduce children's communication with people around them.</em></strong> When children spend hours playing games in their rooms, they have little time to talk to parents and friends. As a result, they may become socially isolated and develop poor interpersonal skills. Lastly, <strong><em>computer games can cause children to neglect their studies and daily responsibilities.</em></strong> Many children stay up late playing exciting games and postpone doing their homework. This leads to declining academic performance and an unwillingness to help with household chores.\n\n<strong>On the other hand, several effective measures should be implemented to mitigate these problems.</strong> The primary solution is that <strong><em>parents should set clear limits on their children's daily gaming time.</em></strong> Caregivers can establish strict rules, such as allowing no more than one hour of gaming per day, and ensure that all homework is completed first. Second, <strong><em>adults should encourage children to take part in outdoor sports and physical activities.</em></strong> Families and schools can motivate kids to join sports clubs like football or swimming with their peers. These activities not only improve their physical health but also provide opportunities to make friends and build social skills. Finally, <strong><em>it is important to raise children's awareness about healthy gaming habits.</em></strong> Parents and teachers should explain the harmful effects of gaming addiction and guide young people on how to manage their time effectively to balance recreation and academic work.\n\nIn conclusion, excessive computer gaming can lead to impatience, social isolation, and poor academic performance among children. However, by enforcing clear time limits, promoting outdoor sports, and fostering healthy habits, parents and educators can help children enjoy digital games safely while developing positively.",
+          "translation_b2": "Trong xã hội hiện đại, trò chơi điện tử đã trở thành một trong những hình thức giải trí phổ biến nhất trong giới trẻ. Mặc dù việc chơi game có thể mang lại niềm vui và phát triển một số kỹ năng tư duy, việc chơi quá mức đã gây ra nhiều lo ngại về tác động của nó đối với hành vi của trẻ. Bài viết này sẽ thảo luận về ba ảnh hưởng tiêu cực chính của trò chơi điện tử đối với trẻ em và đề xuất ba giải pháp thực tế cho vấn đề này.\n\nMột mặt, việc chơi game quá mức có thể ảnh hưởng tiêu cực đến trẻ em theo nhiều cách. Trước hết, chơi quá nhiều trò chơi điện tử có thể khiến trẻ em kém kiên nhẫn và dễ nổi giận. Các trò chơi mang tính cạnh tranh thường tập cho người chơi thói quen mong đợi kết quả tức thì và chiến thắng nhanh chóng. Do đó, các em dễ mất bình tĩnh và bực bội khi phải đối mặt với những khó khăn trong đời sống thực tế. Hơn nữa, việc chơi game quá mức làm giảm sự giao tiếp của trẻ với mọi người xung quanh. Khi trẻ dành hàng giờ chơi game trong phòng, các em có rất ít thời gian để trò chuyện cùng cha mẹ và bạn bè. Hậu quả là các em có thể trở nên thu mình và suy giảm kỹ năng giao tiếp xã hội. Cuối cùng, trò chơi điện tử có thể khiến học sinh bỏ bê việc học và các trách nhiệm hằng ngày. Nhiều đứa trẻ thức khuya để chơi game và trì hoãn việc làm bài tập về nhà. Điều này dẫn đến kết quả học tập sa sút và sự lười biếng, không muốn phụ giúp việc nhà cho gia đình.\n\nMặt khác, một số biện pháp hiệu quả cần được thực hiện để giảm thiểu những vấn đề này. Giải pháp đầu tiên là cha mẹ nên thiết lập giới hạn rõ ràng về thời gian chơi game hằng ngày của con. Người chăm sóc có thể đặt ra các quy định nghiêm ngặt, chẳng hạn như cho phép chơi không quá một giờ mỗi ngày, và yêu cầu trẻ phải hoàn thành bài tập về nhà trước. Thứ hai, người lớn nên khuyến khích trẻ tham gia các hoạt động thể thao ngoài trời và rèn luyện thể chất. Gia đình và nhà trường có thể động viên các em tham gia các câu lạc bộ thể thao như bóng đá hoặc bơi lội cùng bạn bè. Những hoạt động này không chỉ giúp cải thiện thể chất mà còn tạo cơ hội để trẻ kết bạn và xây dựng kỹ năng xã hội. Cuối cùng, việc nâng cao nhận thức của trẻ về thói quen chơi game lành mạnh là rất quan trọng. Cha mẹ và thầy cô nên giải thích các tác hại của chứng nghiện game và hướng dẫn trẻ cách quản lý thời gian hiệu quả để cân bằng giữa giải trí và học tập.\n\nTóm lại, chơi game quá mức có thể dẫn đến sự thiếu kiên nhẫn, thu mình khỏi xã hội và kết quả học tập kém ở trẻ em. Tuy nhiên, bằng cách áp dụng giới hạn thời gian rõ ràng, khuyến khích thể thao ngoài trời và rèn luyện thói quen lành mạnh, cha mẹ và các nhà giáo dục có thể giúp trẻ tận hưởng trò chơi số một cách an toàn đồng thời phát triển tích cực.",
+          "vocab_step": {
+            "theme": "Trò chơi điện tử và hành vi của trẻ em (Computer Games & Children's Behaviour)",
+            "single_words": [
+              {
+                "word": "patient",
+                "ipa": "/ˈpeɪʃnt/",
+                "pos": "adj",
+                "level": "B1",
+                "vi": "kiên nhẫn",
+                "family": "patience (n), impatient (adj)",
+                "example_en": "Playing fast games often makes children less patient in daily life.",
+                "example_vi": "Chơi các trò chơi nhanh thường khiến trẻ em kém kiên nhẫn hơn trong cuộc sống hằng ngày."
+              },
+              {
+                "word": "temper",
+                "ipa": "/ˈtempə/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "sự bình tĩnh, tính khí",
+                "family": "lose one's temper (phr)",
+                "example_en": "Some children easily lose their temper when they face a hard challenge.",
+                "example_vi": "Một số đứa trẻ dễ mất bình tĩnh khi đối mặt với thử thách khó khăn."
+              },
+              {
+                "word": "communicate",
+                "ipa": "/kəˈmjuːnɪkeɪt/",
+                "pos": "verb",
+                "level": "B1",
+                "vi": "giao tiếp, trò chuyện",
+                "family": "communication (n), communicative (adj)",
+                "example_en": "Teenagers should communicate more with their parents and classmates.",
+                "example_vi": "Thiếu niên nên giao tiếp nhiều hơn với cha mẹ và bạn học."
+              },
+              {
+                "word": "neglect",
+                "ipa": "/nɪˈɡlekt/",
+                "pos": "verb",
+                "level": "B1",
+                "vi": "bỏ bê, lơ là",
+                "family": "neglectful (adj), negligence (n)",
+                "example_en": "Students who play games all night often neglect their schoolwork.",
+                "example_vi": "Những học sinh chơi game thâu đêm thường bỏ bê việc học ở trường."
+              },
+              {
+                "word": "chore",
+                "ipa": "/tʃɔː/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "việc nhà, việc vặt",
+                "family": "daily chores (phr)",
+                "example_en": "Children should finish their chores before turning on the computer.",
+                "example_vi": "Trẻ em nên hoàn thành việc nhà trước khi bật máy tính."
+              },
+              {
+                "word": "limit",
+                "ipa": "/ˈlɪmɪt/",
+                "pos": "verb",
+                "level": "B1",
+                "vi": "giới hạn, hạn chế",
+                "family": "limit (n), limitation (n), limited (adj)",
+                "example_en": "Parents must limit screen time to protect children's eyes and health.",
+                "example_vi": "Cha mẹ phải hạn chế thời gian dùng màn hình để bảo vệ mắt và sức khỏe của trẻ."
+              },
+              {
+                "word": "encourage",
+                "ipa": "/ɪnˈkʌrɪdʒ/",
+                "pos": "verb",
+                "level": "B1",
+                "vi": "khuyến khích, động viên",
+                "family": "encouragement (n), encouraging (adj)",
+                "example_en": "Teachers always encourage students to play active sports outdoors.",
+                "example_vi": "Thầy cô luôn khuyến khích học sinh tham gia các môn thể thao năng động ngoài trời."
+              },
+              {
+                "word": "outdoor",
+                "ipa": "/ˈaʊtdɔː/",
+                "pos": "adj",
+                "level": "B1",
+                "vi": "ngoài trời",
+                "family": "outdoors (adv)",
+                "example_en": "Outdoor games help children make new friends and stay active.",
+                "example_vi": "Các trò chơi ngoài trời giúp trẻ kết thêm bạn mới và luôn năng động."
+              },
+              {
+                "word": "balance",
+                "ipa": "/ˈbæləns/",
+                "pos": "verb",
+                "level": "B1",
+                "vi": "cân bằng",
+                "family": "balance (n), balanced (adj)",
+                "example_en": "Young people need to balance playing games with study time.",
+                "example_vi": "Người trẻ cần phải cân bằng giữa việc chơi game và thời gian học tập."
+              },
+              {
+                "word": "habit",
+                "ipa": "/ˈhæbɪt/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "thói quen",
+                "family": "habitual (adj)",
+                "example_en": "Developing healthy daily habits is crucial for growing kids.",
+                "example_vi": "Xây dựng thói quen hằng ngày lành mạnh là điều tối quan trọng đối với trẻ đang lớn."
+              },
+              {
+                "word": "harmful",
+                "ipa": "/ˈhɑːmfl/",
+                "pos": "adj",
+                "level": "B1",
+                "vi": "có hại",
+                "family": "harm (v/n), harmless (adj)",
+                "example_en": "Playing video games for hours without resting is harmful to mental health.",
+                "example_vi": "Chơi trò chơi điện tử nhiều giờ không nghỉ ngơi rất có hại cho sức khỏe tâm thần."
+              },
+              {
+                "word": "competitive",
+                "ipa": "/kəmˈpetətɪv/",
+                "pos": "adj",
+                "level": "B1",
+                "vi": "có tính cạnh tranh",
+                "family": "compete (v), competition (n)",
+                "example_en": "Many modern online games are extremely competitive.",
+                "example_vi": "Nhiều trò chơi trực tuyến hiện đại có tính cạnh tranh cực kỳ gay gắt."
+              },
+              {
+                "word": "competitive",
+                "ipa": "/kəmˈpetətɪv/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "có tính cạnh tranh",
+                "family": "compete (v), competition (n)",
+                "example_en": "Competitive games often make young players frustrated when they lose.",
+                "example_vi": "Các trò chơi cạnh tranh thường khiến người chơi trẻ bực bội khi thua cuộc."
+              },
+              {
+                "word": "frustrated",
+                "ipa": "/frʌˈstreɪtɪd/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "ức chế, bực bội",
+                "family": "frustration (n)",
+                "example_en": "Children easily get frustrated when facing difficult homework.",
+                "example_vi": "Trẻ em dễ bực bội khi gặp bài tập về nhà khó khăn."
+              },
+              {
+                "word": "isolated",
+                "ipa": "/ˈaɪsəleɪtɪd/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "bị cô lập, thu mình",
+                "family": "isolation (n)",
+                "example_en": "Excessive screen time makes teenagers feel isolated from society.",
+                "example_vi": "Thời gian dùng màn hình quá nhiều khiến thanh thiếu niên cảm thấy bị cô lập khỏi xã hội."
+              },
+              {
+                "word": "interpersonal",
+                "ipa": "/ˌɪntəˈpɜːsənl/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "giữa các cá nhân, giao tiếp",
+                "family": "person (n)",
+                "example_en": "Team sports help students develop essential interpersonal skills.",
+                "example_vi": "Thể thao đồng đội giúp học sinh phát triển các kỹ năng giao tiếp thiết yếu."
+              },
+              {
+                "word": "neglect",
+                "ipa": "/nɪˈɡlekt/",
+                "pos": "verb",
+                "level": "B2",
+                "vi": "bỏ bê, chểnh mảng",
+                "family": "neglectful (adj)",
+                "example_en": "Students who game constantly often neglect their academic duties.",
+                "example_vi": "Những học sinh chơi game liên tục thường bỏ bê việc học của mình."
+              },
+              {
+                "word": "postpone",
+                "ipa": "/pəˈspəʊn/",
+                "pos": "verb",
+                "level": "B2",
+                "vi": "trì hoãn",
+                "family": "postponement (n)",
+                "example_en": "Do not postpone important school assignments until the weekend.",
+                "example_vi": "Đừng trì hoãn các bài tập quan trọng ở trường cho đến cuối tuần."
+              },
+              {
+                "word": "caregiver",
+                "ipa": "/ˈkeəɡɪvə/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "người chăm sóc, cha mẹ",
+                "family": "care (v/n)",
+                "example_en": "Caregivers should monitor the media content that children consume.",
+                "example_vi": "Người chăm sóc nên theo dõi nội dung truyền thông mà trẻ tiếp nhận."
+              },
+              {
+                "word": "extracurricular",
+                "ipa": "/ˌekstrəkəˈrɪkjələ/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "ngoại khóa",
+                "family": "curriculum (n)",
+                "example_en": "Participating in extracurricular activities boosts children's confidence.",
+                "example_vi": "Tham gia vào các hoạt động ngoại khóa giúp tăng cường sự tự tin của trẻ."
+              },
+              {
+                "word": "addiction",
+                "ipa": "/əˈdɪkʃn/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự nghiện ngập",
+                "family": "addicted (adj), addictive (adj)",
+                "example_en": "Gaming addiction can lead to sleep problems and poor grades.",
+                "example_vi": "Nghiện game có thể dẫn đến chứng mất ngủ và điểm số kém."
+              },
+              {
+                "word": "recreation",
+                "ipa": "/ˌrekriˈeɪʃn/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự giải trí, tiêu khiển",
+                "family": "recreational (adj)",
+                "example_en": "Outdoor recreation is beneficial for both physical and mental well-being.",
+                "example_vi": "Giải trí ngoài trời có lợi cho cả sức khỏe thể chất và tinh thần."
+              },
+              {
+                "word": "balance",
+                "ipa": "/ˈbæləns/",
+                "pos": "verb",
+                "level": "B2",
+                "vi": "cân bằng",
+                "family": "balanced (adj)",
+                "example_en": "Teenagers need to balance study time and leisure activities.",
+                "example_vi": "Thanh thiếu niên cần cân bằng giữa thời gian học và các hoạt động giải trí."
+              },
+              {
+                "word": "moderate",
+                "ipa": "/ˈmɒdərət/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "có chừng mực, vừa phải",
+                "family": "moderation (n)",
+                "example_en": "Playing computer games in moderate amounts is not harmful.",
+                "example_vi": "Chơi trò chơi điện tử với thời lượng vừa phải thì không có hại."
+              }
+            ],
+            "collocation_groups": [
+              {
+                "id": "effects",
+                "name": "Nhóm Collocations: Tác động & Hậu quả (Effects)",
+                "icon": "🎮",
+                "badge": "Phần Thân bài 1",
+                "items": [
+                  {
+                    "en": "become less patient and easily get angry",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "trở nên ít kiên nhẫn và dễ nổi giận",
+                    "example": "Children can become less patient and easily get angry when playing games."
+                  },
+                  {
+                    "en": "play fast competitive games",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "chơi các trò chơi cạnh tranh tốc độ nhanh",
+                    "example": "Many boys love to play fast competitive games with online partners."
+                  },
+                  {
+                    "en": "lose their temper easily",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "dễ dàng mất bình tĩnh, nổi cáu",
+                    "example": "Frustrated players often lose their temper easily during difficult matches."
+                  },
+                  {
+                    "en": "face difficulties in real life",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "đối mặt với khó khăn trong cuộc sống thực",
+                    "example": "Youngsters struggle when they face difficulties in real life."
+                  },
+                  {
+                    "en": "communicate less with other people",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "ít giao tiếp với người khác",
+                    "example": "Gamers tend to communicate less with other people around them."
+                  },
+                  {
+                    "en": "talk with family or friends",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "trò chuyện với gia đình hoặc bạn bè",
+                    "example": "Kids have fewer chances to talk with family or friends every evening."
+                  },
+                  {
+                    "en": "hurt their communication skills",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "làm suy giảm kỹ năng giao tiếp",
+                    "example": "Staying in bedrooms playing games can hurt their communication skills."
+                  },
+                  {
+                    "en": "neglect their studies and daily tasks",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "bỏ bê việc học và các công việc hằng ngày",
+                    "example": "Addicted gamers often neglect their studies and daily tasks completely."
+                  },
+                  {
+                    "en": "diminish children's patience and increase irritability",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "làm suy giảm tính kiên nhẫn và gia tăng sự cáu kỉnh",
+                    "example": "High screen exposure can diminish children's patience and increase irritability."
+                  },
+                  {
+                    "en": "condition youngsters to instant outcomes",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "khiến trẻ quen với kết quả tức thì",
+                    "example": "Competitive games condition youngsters to instant outcomes and rapid rewards."
+                  },
+                  {
+                    "en": "prone to frustration and emotional outbursts",
+                    "type": "adj.phr",
+                    "level": "B2",
+                    "vi": "dễ bực bội và bộc phát cảm xúc giận dữ",
+                    "example": "Players become prone to frustration and emotional outbursts over minor setbacks."
+                  },
+                  {
+                    "en": "lead to social withdrawal",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "dẫn đến sự thu mình khỏi đời sống xã hội",
+                    "example": "Excessive virtual gaming frequently leads to social withdrawal and loneliness."
+                  },
+                  {
+                    "en": "impaired interpersonal communication",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "vi": "khả năng giao tiếp giữa các cá nhân bị suy giảm",
+                    "example": "A sedentary gaming habit results in impaired interpersonal communication."
+                  },
+                  {
+                    "en": "engage in face-to-face interactions",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "tham gia vào các tương tác trực tiếp",
+                    "example": "Youngsters lack willingness to engage in face-to-face interactions."
+                  },
+                  {
+                    "en": "undermines their social competence",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "làm xói mòn năng lực giao tiếp xã hội",
+                    "example": "Constant isolation undermines their social competence and emotional maturity."
+                  },
+                  {
+                    "en": "severely compromises academic achievements",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "làm tổn hại nghiêm trọng thành tích học tập",
+                    "example": "Chronic gaming severely compromises academic achievements in high schools."
+                  }
+                ]
+              },
+              {
+                "id": "solutions",
+                "name": "Nhóm Collocations: Giải pháp & Hành động (Solutions)",
+                "icon": "🛡️",
+                "badge": "Phần Thân bài 2",
+                "items": [
+                  {
+                    "en": "limit daily gaming time",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "hạn chế thời gian chơi game hằng ngày",
+                    "example": "Parents must strictly limit daily gaming time to one hour."
+                  },
+                  {
+                    "en": "set a time limit each day",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "đặt ra giới hạn thời gian mỗi ngày",
+                    "example": "It is useful to set a time limit each day for using smartphones."
+                  },
+                  {
+                    "en": "finish homework before playing",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "hoàn thành bài tập về nhà trước khi chơi",
+                    "example": "Children must finish homework before playing any video games."
+                  },
+                  {
+                    "en": "take part in outdoor activities",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "tham gia các hoạt động ngoài trời",
+                    "example": "Kids should take part in outdoor activities on weekend mornings."
+                  },
+                  {
+                    "en": "play sports and join club activities",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "chơi thể thao và tham gia hoạt động câu lạc bộ",
+                    "example": "Pupils can play sports and join club activities to stay healthy."
+                  },
+                  {
+                    "en": "improve their social skills",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "cải thiện các kỹ năng xã hội của mình",
+                    "example": "Group sports help children improve their social skills rapidly."
+                  },
+                  {
+                    "en": "raise awareness about healthy gaming habits",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "nâng cao nhận thức về thói quen chơi game lành mạnh",
+                    "example": "Schools should raise awareness about healthy gaming habits regularly."
+                  },
+                  {
+                    "en": "balance gaming with studying",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "cân bằng việc chơi game với học tập",
+                    "example": "Every child needs to learn how to balance gaming with studying."
+                  },
+                  {
+                    "en": "establish strict boundaries on screen time",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "thiết lập giới hạn nghiêm ngặt về thời gian màn hình",
+                    "example": "Parents must establish strict boundaries on screen time at home."
+                  },
+                  {
+                    "en": "restrict gaming duration",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "hạn chế thời lượng chơi game",
+                    "example": "Parental control software helps restrict gaming duration effectively."
+                  },
+                  {
+                    "en": "mandate homework completion beforehand",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "yêu cầu bắt buộc hoàn thành bài tập trước đó",
+                    "example": "Caregivers should mandate homework completion beforehand as a firm rule."
+                  },
+                  {
+                    "en": "promote regular participation in outdoor pursuits",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "thúc đẩy tham gia thường xuyên các hoạt động ngoài trời",
+                    "example": "Educators should promote regular participation in outdoor pursuits."
+                  },
+                  {
+                    "en": "cultivating essential interpersonal skills",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "trau dồi các kỹ năng tương tác thiết yếu",
+                    "example": "Team sports are instrumental in cultivating essential interpersonal skills."
+                  },
+                  {
+                    "en": "responsible digital consumption",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "vi": "việc tiêu thụ nội dung số có trách nhiệm",
+                    "example": "Schools need to introduce workshops on responsible digital consumption."
+                  },
+                  {
+                    "en": "mentoring children on time management",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "định hướng cho trẻ về kỹ năng quản lý thời gian",
+                    "example": "Mentoring children on time management reduces gaming dependency."
+                  },
+                  {
+                    "en": "strike a healthy balance",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "đạt được sự cân bằng lành mạnh",
+                    "example": "Students learn to strike a healthy balance between leisure and learning."
+                  }
+                ]
+              }
+            ]
+          }
+        }
       },
       {
         "id": 45,
@@ -30081,899 +30081,899 @@ const ESSAY_DATA = [
         "prompt": "Write an essay to an educated reader to discuss the positive and negative effects of social media on relationships. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
         "has_full_details": false
       },
-            {
-            "id": 46,
-            "title_en": "Communication between schools/teachers and parents",
-            "title_vi": "Giao tiếp giữa nhà trường, giáo viên và phụ huynh",
-            "tags": "[Effects & Solutions]",
-            "context": "Effective communication between schools, teachers, and parents plays an important role in supporting students' academic performance and personal development. Through regular communication, parents can stay informed about their children's progress, while schools and teachers can better understand students' needs and challenges. However, ineffective communication may lead to misunderstandings, reduced cooperation, and difficulties in addressing educational issues.",
-            "prompt": "Write an essay to an educated reader to discuss the effects of communication between schools/teachers and parents and suggest possible solutions to improve it. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-            "has_full_details": true,
-            "paraphrases": [
+      {
+        "id": 46,
+        "title_en": "Communication between schools/teachers and parents",
+        "title_vi": "Giao tiếp giữa nhà trường, giáo viên và phụ huynh",
+        "tags": "[Effects & Solutions]",
+        "context": "Effective communication between schools, teachers, and parents plays an important role in supporting students' academic performance and personal development. Through regular communication, parents can stay informed about their children's progress, while schools and teachers can better understand students' needs and challenges. However, ineffective communication may lead to misunderstandings, reduced cooperation, and difficulties in addressing educational issues.",
+        "prompt": "Write an essay to an educated reader to discuss the effects of communication between schools/teachers and parents and suggest possible solutions to improve it. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "has_full_details": true,
+        "paraphrases": [
+          {
+            "en": "communication between schools, teachers, and parents",
+            "vi": "sự giao tiếp giữa nhà trường, giáo viên và phụ huynh"
+          },
+          {
+            "en": "home-school communication and collaboration",
+            "vi": "sự giao tiếp và phối hợp giữa gia đình và nhà trường"
+          },
+          {
+            "en": "regular dialogue between educators and families",
+            "vi": "sự đối thoại thường xuyên giữa giáo viên và phụ huynh"
+          },
+          {
+            "en": "the partnership between educational institutions and parents",
+            "vi": "mối quan hệ đồng hành giữa cơ sở giáo dục và phụ huynh"
+          }
+        ],
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "EFFECT 01",
+                "point_vi": "Giúp phụ huynh hiểu rõ hơn về tình hình học tập của con.",
+                "point_en": "First, good communication helps parents understand their children's studies better.",
+                "evidence_vi": "Thông qua việc trao đổi thường xuyên với giáo viên, phụ huynh có thể biết được kết quả học tập, điểm mạnh và những khó khăn của con, từ đó có thể hỗ trợ con kịp thời.",
+                "evidence_en": "Through regular talks with teachers, parents can know their children's results, strengths, and difficulties, so they can give timely support.",
+                "collocations": [
                   {
-                        "en": "communication between schools, teachers, and parents",
-                        "vi": "sự giao tiếp giữa nhà trường, giáo viên và phụ huynh"
+                    "en": "understand their children's studies better",
+                    "vi": "hiểu việc học của con tốt hơn"
                   },
                   {
-                        "en": "home-school communication and collaboration",
-                        "vi": "sự giao tiếp và phối hợp giữa gia đình và nhà trường"
+                    "en": "regular talks with teachers",
+                    "vi": "những cuộc trao đổi thường xuyên với giáo viên"
                   },
                   {
-                        "en": "regular dialogue between educators and families",
-                        "vi": "sự đối thoại thường xuyên giữa giáo viên và phụ huynh"
+                    "en": "know their children's results",
+                    "vi": "biết kết quả học tập của con"
                   },
                   {
-                        "en": "the partnership between educational institutions and parents",
-                        "vi": "mối quan hệ đồng hành giữa cơ sở giáo dục và phụ huynh"
+                    "en": "give timely support",
+                    "vi": "hỗ trợ con kịp thời"
                   }
+                ]
+              },
+              {
+                "title": "EFFECT 02",
+                "point_vi": "Giúp giáo viên hiểu rõ hơn về nhu cầu và vấn đề của học sinh.",
+                "point_en": "Second, it helps teachers better understand students' needs and problems.",
+                "evidence_vi": "Phụ huynh có thể cung cấp thông tin về thói quen, hoàn cảnh hoặc những khó khăn của con ở nhà, giúp giáo viên hiểu học sinh hơn và đưa ra cách hỗ trợ phù hợp.",
+                "evidence_en": "Parents can share information about children's habits and difficulties at home, so teachers can choose suitable ways to help each student.",
+                "collocations": [
+                  {
+                    "en": "understand students' needs and problems",
+                    "vi": "hiểu nhu cầu và vấn đề của học sinh"
+                  },
+                  {
+                    "en": "share information about children's habits",
+                    "vi": "chia sẻ thông tin về thói quen của con"
+                  },
+                  {
+                    "en": "difficulties at home",
+                    "vi": "những khó khăn ở nhà"
+                  },
+                  {
+                    "en": "choose suitable ways to help",
+                    "vi": "chọn cách phù hợp để giúp đỡ"
+                  }
+                ]
+              },
+              {
+                "title": "EFFECT 03",
+                "point_vi": "Tăng cường sự hợp tác giữa nhà trường và gia đình.",
+                "point_en": "Finally, frequent communication strengthens the cooperation between schools and families.",
+                "evidence_vi": "Khi giáo viên và phụ huynh thường xuyên trao đổi thông tin, hai bên có thể cùng giải quyết các vấn đề của học sinh và thống nhất cách hỗ trợ các em.",
+                "evidence_en": "When teachers and parents exchange updates regularly, both sides can solve students' problems together and agree on the best ways to support them.",
+                "collocations": [
+                  {
+                    "en": "strengthen the cooperation between schools and families",
+                    "vi": "tăng cường sự hợp tác giữa nhà trường và gia đình"
+                  },
+                  {
+                    "en": "exchange updates regularly",
+                    "vi": "trao đổi thông tin cập nhật thường xuyên"
+                  },
+                  {
+                    "en": "solve students' problems together",
+                    "vi": "cùng giải quyết các vấn đề của học sinh"
+                  },
+                  {
+                    "en": "agree on the best ways to support",
+                    "vi": "thống nhất những cách tốt nhất để hỗ trợ"
+                  }
+                ]
+              }
             ],
-            "details": {
-                  "ideas_b1": {
-                        "benefits": [
-                              {
-                                    "title": "EFFECT 01",
-                                    "point_vi": "Giúp phụ huynh hiểu rõ hơn về tình hình học tập của con.",
-                                    "point_en": "First, good communication helps parents understand their children's studies better.",
-                                    "evidence_vi": "Thông qua việc trao đổi thường xuyên với giáo viên, phụ huynh có thể biết được kết quả học tập, điểm mạnh và những khó khăn của con, từ đó có thể hỗ trợ con kịp thời.",
-                                    "evidence_en": "Through regular talks with teachers, parents can know their children's results, strengths, and difficulties, so they can give timely support.",
-                                    "collocations": [
-                                          {
-                                                "en": "understand their children's studies better",
-                                                "vi": "hiểu việc học của con tốt hơn"
-                                          },
-                                          {
-                                                "en": "regular talks with teachers",
-                                                "vi": "những cuộc trao đổi thường xuyên với giáo viên"
-                                          },
-                                          {
-                                                "en": "know their children's results",
-                                                "vi": "biết kết quả học tập của con"
-                                          },
-                                          {
-                                                "en": "give timely support",
-                                                "vi": "hỗ trợ con kịp thời"
-                                          }
-                                    ]
-                              },
-                              {
-                                    "title": "EFFECT 02",
-                                    "point_vi": "Giúp giáo viên hiểu rõ hơn về nhu cầu và vấn đề của học sinh.",
-                                    "point_en": "Second, it helps teachers better understand students' needs and problems.",
-                                    "evidence_vi": "Phụ huynh có thể cung cấp thông tin về thói quen, hoàn cảnh hoặc những khó khăn của con ở nhà, giúp giáo viên hiểu học sinh hơn và đưa ra cách hỗ trợ phù hợp.",
-                                    "evidence_en": "Parents can share information about children's habits and difficulties at home, so teachers can choose suitable ways to help each student.",
-                                    "collocations": [
-                                          {
-                                                "en": "understand students' needs and problems",
-                                                "vi": "hiểu nhu cầu và vấn đề của học sinh"
-                                          },
-                                          {
-                                                "en": "share information about children's habits",
-                                                "vi": "chia sẻ thông tin về thói quen của con"
-                                          },
-                                          {
-                                                "en": "difficulties at home",
-                                                "vi": "những khó khăn ở nhà"
-                                          },
-                                          {
-                                                "en": "choose suitable ways to help",
-                                                "vi": "chọn cách phù hợp để giúp đỡ"
-                                          }
-                                    ]
-                              },
-                              {
-                                    "title": "EFFECT 03",
-                                    "point_vi": "Tăng cường sự hợp tác giữa nhà trường và gia đình.",
-                                    "point_en": "Finally, frequent communication strengthens the cooperation between schools and families.",
-                                    "evidence_vi": "Khi giáo viên và phụ huynh thường xuyên trao đổi thông tin, hai bên có thể cùng giải quyết các vấn đề của học sinh và thống nhất cách hỗ trợ các em.",
-                                    "evidence_en": "When teachers and parents exchange updates regularly, both sides can solve students' problems together and agree on the best ways to support them.",
-                                    "collocations": [
-                                          {
-                                                "en": "strengthen the cooperation between schools and families",
-                                                "vi": "tăng cường sự hợp tác giữa nhà trường và gia đình"
-                                          },
-                                          {
-                                                "en": "exchange updates regularly",
-                                                "vi": "trao đổi thông tin cập nhật thường xuyên"
-                                          },
-                                          {
-                                                "en": "solve students' problems together",
-                                                "vi": "cùng giải quyết các vấn đề của học sinh"
-                                          },
-                                          {
-                                                "en": "agree on the best ways to support",
-                                                "vi": "thống nhất những cách tốt nhất để hỗ trợ"
-                                          }
-                                    ]
-                              }
-                        ],
-                        "drawbacks": [
-                              {
-                                    "title": "SOLUTION 01",
-                                    "point_vi": "Tăng cường giao tiếp thường xuyên giữa giáo viên và phụ huynh.",
-                                    "point_en": "First, schools and teachers should maintain regular communication with parents.",
-                                    "evidence_vi": "Nhà trường có thể tổ chức các cuộc họp phụ huynh định kỳ và sử dụng email hoặc các nền tảng trực tuyến để cập nhật tình hình học tập của học sinh.",
-                                    "evidence_en": "Schools can organize regular parent-teacher meetings and use emails or online apps to update students' learning progress.",
-                                    "collocations": [
-                                          {
-                                                "en": "maintain regular communication",
-                                                "vi": "duy trì liên lạc thường xuyên"
-                                          },
-                                          {
-                                                "en": "organize regular parent-teacher meetings",
-                                                "vi": "tổ chức họp phụ huynh định kỳ"
-                                          },
-                                          {
-                                                "en": "use emails or online apps",
-                                                "vi": "sử dụng email hoặc ứng dụng trực tuyến"
-                                          },
-                                          {
-                                                "en": "update students' learning progress",
-                                                "vi": "cập nhật tiến độ học tập của học sinh"
-                                          }
-                                    ]
-                              },
-                              {
-                                    "title": "SOLUTION 02",
-                                    "point_vi": "Chia sẻ thông tin rõ ràng và kịp thời.",
-                                    "point_en": "Second, both teachers and parents need to share information clearly and quickly.",
-                                    "evidence_vi": "Giáo viên nên cung cấp thông tin cụ thể về kết quả học tập, hành vi và những khó khăn của học sinh, trong khi phụ huynh cũng nên phản hồi sớm khi con gặp vấn đề.",
-                                    "evidence_en": "Teachers should give specific details about grades, behavior, and challenges, and parents should also respond early when children face problems.",
-                                    "collocations": [
-                                          {
-                                                "en": "share information clearly and quickly",
-                                                "vi": "chia sẻ thông tin rõ ràng và nhanh chóng"
-                                          },
-                                          {
-                                                "en": "give specific details about grades and behavior",
-                                                "vi": "cung cấp chi tiết cụ thể về điểm số và hành vi"
-                                          },
-                                          {
-                                                "en": "respond early when children face problems",
-                                                "vi": "phản hồi sớm khi con gặp vấn đề"
-                                          }
-                                    ]
-                              },
-                              {
-                                    "title": "SOLUTION 03",
-                                    "point_vi": "Tổ chức các hoạt động hợp tác giữa nhà trường và phụ huynh.",
-                                    "point_en": "Finally, schools should organize cooperative activities for parents and teachers.",
-                                    "evidence_vi": "Nhà trường có thể tổ chức các buổi tư vấn, hội thảo hoặc hoạt động chung để giúp giáo viên và phụ huynh hiểu nhau hơn và cùng tìm cách hỗ trợ học sinh.",
-                                    "evidence_en": "Schools can hold workshops, counseling sessions, or joint events, so teachers and parents can understand each other better and find good ways to support students.",
-                                    "collocations": [
-                                          {
-                                                "en": "organize cooperative activities",
-                                                "vi": "tổ chức các hoạt động hợp tác"
-                                          },
-                                          {
-                                                "en": "hold workshops, counseling sessions, or joint events",
-                                                "vi": "tổ chức hội thảo, buổi tư vấn hoặc sự kiện chung"
-                                          },
-                                          {
-                                                "en": "understand each other better",
-                                                "vi": "hiểu nhau hơn"
-                                          },
-                                          {
-                                                "en": "find good ways to support students",
-                                                "vi": "tìm cách tốt để hỗ trợ học sinh"
-                                          }
-                                    ]
-                              }
-                        ]
+            "drawbacks": [
+              {
+                "title": "SOLUTION 01",
+                "point_vi": "Tăng cường giao tiếp thường xuyên giữa giáo viên và phụ huynh.",
+                "point_en": "First, schools and teachers should maintain regular communication with parents.",
+                "evidence_vi": "Nhà trường có thể tổ chức các cuộc họp phụ huynh định kỳ và sử dụng email hoặc các nền tảng trực tuyến để cập nhật tình hình học tập của học sinh.",
+                "evidence_en": "Schools can organize regular parent-teacher meetings and use emails or online apps to update students' learning progress.",
+                "collocations": [
+                  {
+                    "en": "maintain regular communication",
+                    "vi": "duy trì liên lạc thường xuyên"
                   },
-                  "ideas_b2": {
-                        "benefits": [
-                              {
-                                    "title": "EFFECT 01",
-                                    "point_vi": "Giao tiếp thường xuyên giúp phụ huynh hiểu rõ hơn về tiến độ học tập và rèn luyện của con.",
-                                    "point_en": "First, regular communication allows parents to understand their children's academic progress better.",
-                                    "evidence_vi": "• Luận cứ 1: Thông qua các cuộc gặp định kỳ hoặc tin nhắn trực tuyến, giáo viên có thể thông báo chi tiết về điểm số, thái độ và sự tiến bộ của học sinh trên lớp.\n• Luận cứ 2: Nhờ đó, cha mẹ kịp thời phát hiện những môn học mà con gặp khó khăn để chủ động hỗ trợ và hướng dẫn con tại nhà.",
-                                    "evidence_en": "• Evidence 1: Through periodic meetings and online messages, teachers can provide detailed updates on students' test scores, behavior, and classroom performance.\n• Evidence 2: As a result, parents can promptly identify learning difficulties and support their children with schoolwork at home.",
-                                    "collocations": [
-                                          {
-                                                "en": "academic progress",
-                                                "vi": "sự tiến bộ học tập"
-                                          },
-                                          {
-                                                "en": "periodic meetings",
-                                                "vi": "các cuộc gặp định kỳ"
-                                          },
-                                          {
-                                                "en": "classroom performance",
-                                                "vi": "thể hiện trên lớp học"
-                                          },
-                                          {
-                                                "en": "identify learning difficulties",
-                                                "vi": "nhận biết những khó khăn học tập"
-                                          }
-                                    ]
-                              },
-                              {
-                                    "title": "EFFECT 02",
-                                    "point_vi": "Sự trao đổi hai chiều giúp thầy cô thấu hiểu tính cách và hoàn cảnh riêng của từng học sinh.",
-                                    "point_en": "Second, effective dialogue helps teachers gain valuable insights into students' personalities and backgrounds.",
-                                    "evidence_vi": "• Luận cứ 1: Khi cha mẹ cởi mở chia sẻ về thói quen sinh hoạt, sở thích và những áp lực của con ở nhà, giáo viên sẽ có cái nhìn toàn diện về học trò của mình.\n• Luận cứ 2: Điều này giúp thầy cô linh hoạt điều chỉnh phương pháp giảng dạy và đưa ra sự động viên tinh thần kịp thời khi học sinh gặp căng thẳng.",
-                                    "evidence_en": "• Evidence 1: When parents openly share details about their children's habits, interests, and emotional states at home, teachers obtain a complete picture of each pupil.\n• Evidence 2: This enables educators to adapt their teaching methods appropriately and provide timely emotional guidance when students face stress.",
-                                    "collocations": [
-                                          {
-                                                "en": "valuable insights",
-                                                "vi": "những sự thấu hiểu quý giá"
-                                          },
-                                          {
-                                                "en": "emotional states",
-                                                "vi": "trạng thái cảm xúc"
-                                          },
-                                          {
-                                                "en": "adapt teaching methods",
-                                                "vi": "điều chỉnh phương pháp giảng dạy"
-                                          },
-                                          {
-                                                "en": "provide emotional guidance",
-                                                "vi": "đưa ra định hướng tinh thần"
-                                          }
-                                    ]
-                              },
-                              {
-                                    "title": "EFFECT 03",
-                                    "point_vi": "Giao tiếp chặt chẽ xây dựng mối quan hệ đồng hành bền vững giữa gia đình và nhà trường.",
-                                    "point_en": "Finally, close communication fosters a strong partnership between families and educational institutions.",
-                                    "evidence_vi": "• Luận cứ 1: Sự trao đổi liên tục giúp cha mẹ và thầy cô thống nhất các quy tắc ứng xử và kỳ vọng chung trong việc giáo dục con trẻ.\n• Luận cứ 2: Khi cả hai phía cùng phối hợp nhịp nhàng, học sinh cảm nhận được sự quan tâm chu đáo, từ đó phát triển toàn diện cả về tri thức lẫn nhân cách.",
-                                    "evidence_en": "• Evidence 1: Regular exchanges help parents and educators establish common expectations and consistent rules for student behavior.\n• Evidence 2: When both parties collaborate closely, students feel supported and encouraged, which promotes their overall personal development.",
-                                    "collocations": [
-                                          {
-                                                "en": "strong partnership",
-                                                "vi": "mối quan hệ đồng hành vững chắc"
-                                          },
-                                          {
-                                                "en": "common expectations",
-                                                "vi": "những kỳ vọng chung"
-                                          },
-                                          {
-                                                "en": "collaborate closely",
-                                                "vi": "phối hợp chặt chẽ"
-                                          },
-                                          {
-                                                "en": "personal development",
-                                                "vi": "sự phát triển cá nhân"
-                                          }
-                                    ]
-                              }
-                        ],
-                        "drawbacks": [
-                              {
-                                    "title": "SOLUTION 01",
-                                    "point_vi": "Nhà trường nên ứng dụng công nghệ hiện đại và các phần mềm liên lạc di động.",
-                                    "point_en": "The first solution is to utilize modern mobile applications and digital platforms.",
-                                    "evidence_vi": "• Luận cứ 1: Cơ sở giáo dục có thể sử dụng các ứng dụng sổ liên lạc điện tử hoặc cổng thông tin trực tuyến để gửi thông báo học tập đến phụ huynh nhanh chóng.\n• Luận cứ 2: Phương pháp này giúp việc kết nối trở nên thuận tiện và tiết kiệm thời gian, đặc biệt là với những phụ huynh bận rộn với công việc.",
-                                    "evidence_en": "• Evidence 1: Schools should implement smart communication apps or online portals to send daily updates and announcements directly to parents.\n• Evidence 2: This makes communication much more convenient and time-saving, especially for busy working parents.",
-                                    "collocations": [
-                                          {
-                                                "en": "mobile applications",
-                                                "vi": "các ứng dụng di động"
-                                          },
-                                          {
-                                                "en": "digital platforms",
-                                                "vi": "các nền tảng kỹ thuật số"
-                                          },
-                                          {
-                                                "en": "send daily updates",
-                                                "vi": "gửi các cập nhật hằng ngày"
-                                          },
-                                          {
-                                                "en": "time-saving",
-                                                "vi": "tiết kiệm thời gian"
-                                          }
-                                    ]
-                              },
-                              {
-                                    "title": "SOLUTION 02",
-                                    "point_vi": "Nhà trường cần đổi mới và nâng cao chất lượng các buổi họp phụ huynh - giáo viên.",
-                                    "point_en": "Second, schools should innovate and improve the quality of parent-teacher conferences.",
-                                    "evidence_vi": "• Luận cứ 1: Thay vì chỉ đọc bảng điểm chung, thầy cô nên dành thời gian gặp gỡ riêng từng phụ huynh để trao đổi sâu về điểm mạnh và điểm yếu của học sinh.\n• Luận cứ 2: Đồng thời, nhà trường cần tích cực lắng nghe các ý kiến đóng góp mang tính xây dựng từ phụ huynh để cùng cải thiện môi trường học tập.",
-                                    "evidence_en": "• Evidence 1: Instead of just reading general scorecards, teachers should schedule one-on-one meetings to discuss each student's specific strengths and weaknesses.\n• Evidence 2: Furthermore, schools should actively listen to parents' constructive feedback to improve the learning environment together.",
-                                    "collocations": [
-                                          {
-                                                "en": "parent-teacher conferences",
-                                                "vi": "hội nghị phụ huynh - giáo viên"
-                                          },
-                                          {
-                                                "en": "one-on-one meetings",
-                                                "vi": "các cuộc gặp riêng một - một"
-                                          },
-                                          {
-                                                "en": "strengths and weaknesses",
-                                                "vi": "điểm mạnh và điểm yếu"
-                                          },
-                                          {
-                                                "en": "constructive feedback",
-                                                "vi": "phản hồi mang tính xây dựng"
-                                          }
-                                    ]
-                              },
-                              {
-                                    "title": "SOLUTION 03",
-                                    "point_vi": "Tổ chức các hoạt động ngoại khóa kết nối giữa thầy cô, cha mẹ và học sinh.",
-                                    "point_en": "Finally, organizing extracurricular activities can bring teachers, parents, and students closer together.",
-                                    "evidence_vi": "• Luận cứ 1: Nhà trường có thể tổ chức các ngày hội thể thao, hội thảo tư vấn phụ huynh hoặc các chương trình tình nguyện cuối tuần.\n• Luận cứ 2: Những sự kiện thân thiện này tạo cơ hội để thầy cô và cha mẹ thấu hiểu nhau hơn, từ đó bồi đắp lòng tin và sự tôn trọng lẫn nhau.",
-                                    "evidence_en": "• Evidence 1: Educational institutions can host sports festivals, weekend charity fairs, or parenting workshops.\n• Evidence 2: These informal events create friendly opportunities for teachers and parents to understand each other better, fostering lasting mutual trust.",
-                                    "collocations": [
-                                          {
-                                                "en": "extracurricular activities",
-                                                "vi": "hoạt động ngoại khóa"
-                                          },
-                                          {
-                                                "en": "parenting workshops",
-                                                "vi": "hội thảo về làm cha mẹ"
-                                          },
-                                          {
-                                                "en": "friendly opportunities",
-                                                "vi": "cơ hội thân thiện"
-                                          },
-                                          {
-                                                "en": "mutual trust",
-                                                "vi": "sự tin tưởng lẫn nhau"
-                                          }
-                                    ]
-                              }
-                        ]
+                  {
+                    "en": "organize regular parent-teacher meetings",
+                    "vi": "tổ chức họp phụ huynh định kỳ"
                   },
-                  "vocab": [
-                        {
-                              "en": "regular dialogue with teachers",
-                              "vi": "đối thoại thường xuyên với giáo viên"
-                        },
-                        {
-                              "en": "understand children's progress",
-                              "vi": "hiểu tiến độ học tập của con"
-                        },
-                        {
-                              "en": "give timely support",
-                              "vi": "hỗ trợ kịp thời"
-                        },
-                        {
-                              "en": "understand students' needs",
-                              "vi": "hiểu nhu cầu của học sinh"
-                        },
-                        {
-                              "en": "share habits and difficulties",
-                              "vi": "chia sẻ thói quen và khó khăn"
-                        },
-                        {
-                              "en": "suitable pedagogical methods",
-                              "vi": "phương pháp sư phạm phù hợp"
-                        },
-                        {
-                              "en": "strengthen home-school cooperation",
-                              "vi": "tăng cường hợp tác giữa gia đình và nhà trường"
-                        },
-                        {
-                              "en": "solve educational issues together",
-                              "vi": "cùng nhau giải quyết các vấn đề giáo dục"
-                        },
-                        {
-                              "en": "regular parent-teacher conferences",
-                              "vi": "hội nghị phụ huynh định kỳ"
-                        },
-                        {
-                              "en": "mobile apps and student portals",
-                              "vi": "ứng dụng di động và cổng thông tin học sinh"
-                        },
-                        {
-                              "en": "real-time academic updates",
-                              "vi": "cập nhật học tập theo thời gian thực"
-                        },
-                        {
-                              "en": "share clear and timely feedback",
-                              "vi": "chia sẻ phản hồi rõ ràng và kịp thời"
-                        },
-                        {
-                              "en": "respond early to problems",
-                              "vi": "phản hồi sớm trước các vấn đề"
-                        },
-                        {
-                              "en": "collaborative workshops and events",
-                              "vi": "hội thảo và sự kiện phối hợp"
-                        },
-                        {
-                              "en": "consultative counseling sessions",
-                              "vi": "các buổi tư vấn tham vấn"
-                        },
-                        {
-                              "en": "deepen mutual understanding",
-                              "vi": "làm sâu sắc thêm sự thấu hiểu lẫn nhau"
-                        }
-                  ],
-                  "sample_b1": "In education today, <strong>communication between schools, teachers, and parents</strong> plays an essential role in supporting children's growth. When parents and teachers stay in close contact, students can learn and develop in a supportive environment. <strong>This essay will discuss three positive effects of regular communication and suggest three practical solutions to improve and strengthen it.</strong>\n\n<strong>To begin with, effective communication brings three major benefits to students, parents, and teachers.</strong> First of all, <strong><em>good communication helps parents understand their children's studies better.</em></strong> Through regular talks with teachers, parents can know their children's results, strengths, and difficulties, so they can give timely support. In addition, <strong><em>it helps teachers better understand students' needs and problems.</em></strong> Parents can share information about children's habits and difficulties at home, so teachers can choose suitable ways to help each student. Finally, <strong><em>frequent communication strengthens the cooperation between schools and families.</em></strong> When teachers and parents exchange updates regularly, both sides can solve students' problems together and agree on the best ways to support them.\n\n<strong>To further improve this positive connection, three practical measures should be carried out.</strong> The first solution is that <strong><em>schools and teachers should maintain regular communication with parents.</em></strong> Schools can organize regular parent-teacher meetings and use emails or online apps to update students' learning progress. Second, <strong><em>both teachers and parents need to share information clearly and quickly.</em></strong> Teachers should give specific details about grades, behavior, and challenges, and parents should also respond early when children face problems. Lastly, <strong><em>schools should organize cooperative activities for parents and teachers.</em></strong> Schools can hold workshops, counseling sessions, or joint events, so teachers and parents can understand each other better and find good ways to support students.\n\nIn conclusion, strong communication between families and schools brings significant benefits by helping parents follow learning progress, assisting teachers in guiding students, and building close cooperation. By holding frequent meetings, sharing clear updates, and organizing joint workshops, we can further enhance this relationship and create the best learning environment for every child.",
-                  "translation_b1": "Trong giáo dục hiện nay, <strong>sự giao tiếp giữa nhà trường, giáo viên và phụ huynh</strong> đóng vai trò thiết yếu trong việc hỗ trợ sự trưởng thành của học sinh. Khi cha mẹ và thầy cô giữ mối liên hệ chặt chẽ, học sinh có thể học tập và phát triển trong một môi trường đầy sự khích lệ. <strong>Bài luận này sẽ thảo luận về ba tác động tích cực của việc giao tiếp thường xuyên và đề xuất ba giải pháp thực tế để cải thiện và tăng cường sự kết nối này.</strong>\n\n<strong>Trước hết, việc giao tiếp hiệu quả mang lại ba lợi ích to lớn cho học sinh, phụ huynh và giáo viên.</strong> Đầu tiên, <strong><em>giao tiếp tốt giúp phụ huynh hiểu rõ hơn về tình hình học tập của con.</em></strong> Thông qua việc trao đổi thường xuyên với giáo viên, phụ huynh có thể biết được kết quả học tập, điểm mạnh và những khó khăn của con, vì vậy họ có thể hỗ trợ con kịp thời. Thêm vào đó, <strong><em>nó giúp giáo viên hiểu rõ hơn về nhu cầu và vấn đề của học sinh.</em></strong> Phụ huynh có thể chia sẻ thông tin về thói quen và khó khăn của con ở nhà, giúp giáo viên chọn ra cách hỗ trợ phù hợp cho từng học sinh. Cuối cùng, <strong><em>giao tiếp thường xuyên tăng cường sự hợp tác giữa nhà trường và gia đình.</em></strong> Khi giáo viên và phụ huynh thường xuyên trao đổi thông tin, hai bên có thể cùng giải quyết các vấn đề của học sinh và thống nhất cách hỗ trợ các em.\n\n<strong>Để tiếp tục nâng cao sự kết nối tích cực này, ba giải pháp thiết thực cần được thực hiện.</strong> Giải pháp đầu tiên là <strong><em>nhà trường và giáo viên nên duy trì giao tiếp thường xuyên với phụ huynh.</em></strong> Nhà trường có thể tổ chức các cuộc họp phụ huynh định kỳ và sử dụng email hoặc ứng dụng trực tuyến để cập nhật tình hình học tập của học sinh. Thứ hai, <strong><em>cả giáo viên và phụ huynh cần chia sẻ thông tin rõ ràng và nhanh chóng.</em></strong> Giáo viên nên cung cấp chi tiết cụ thể về kết quả học tập, hành vi và khó khăn, và phụ huynh cũng nên phản hồi sớm khi con gặp vấn đề. Cuối cùng, <strong><em>nhà trường nên tổ chức các hoạt động hợp tác cho phụ huynh và giáo viên.</em></strong> Nhà trường có thể tổ chức các buổi tư vấn, hội thảo hoặc hoạt động chung để giúp giáo viên và phụ huynh hiểu nhau hơn và cùng tìm ra cách tốt để hỗ trợ học sinh.\n\nTóm lại, sự giao tiếp chặt chẽ giữa gia đình và nhà trường mang lại những lợi ích to lớn bằng cách giúp cha mẹ theo sát tiến độ học tập, hỗ trợ giáo viên định hướng học sinh và xây dựng tinh thần hợp tác gắn bó. Bằng cách tổ chức các cuộc họp thường xuyên, chia sẻ thông tin rõ ràng và tổ chức các hội thảo chung, chúng ta có thể tăng cường hơn nữa mối quan hệ này và tạo ra môi trường học tập tốt nhất cho mọi đứa trẻ.",
-                  "sample_b2": "In modern education, <strong>communication between schools, teachers, and parents</strong> plays a vital role in fostering students' academic success and personal growth. When educators and families maintain regular dialogue, students receive consistent support both at school and at home. <strong>This essay will discuss three positive effects of effective school-parent communication and suggest three practical solutions to improve it further.</strong>\n\n<strong>On the one hand, strong communication between schools and parents brings numerous significant benefits.</strong> First and foremost, <strong><em>regular communication allows parents to understand their children's academic progress better.</em></strong> Through periodic meetings and online messages, teachers can provide detailed updates on students' test scores, behavior, and classroom performance. As a result, parents can promptly identify learning difficulties and support their children with schoolwork at home. Furthermore, <strong><em>effective dialogue helps teachers gain valuable insights into students' personalities and backgrounds.</em></strong> When parents openly share details about their children's habits, interests, and emotional states at home, teachers obtain a complete picture of each pupil. This enables educators to adapt their teaching methods appropriately and provide timely emotional guidance when students face stress. Lastly, <strong><em>close communication fosters a strong partnership between families and educational institutions.</em></strong> Regular exchanges help parents and educators establish common expectations and consistent rules for student behavior. When both parties collaborate closely, students feel supported and encouraged, which promotes their overall personal development.\n\n<strong>On the other hand, several constructive measures can be taken to enhance home-school communication.</strong> The primary solution is to <strong><em>utilize modern mobile applications and digital platforms.</em></strong> Schools should implement smart communication apps or online portals to send daily updates and announcements directly to parents, making communication much more convenient and time-saving for busy working adults. Second, <strong><em>schools should innovate and improve the quality of parent-teacher conferences.</em></strong> Instead of just reading general scorecards, teachers should schedule one-on-one meetings to discuss each student's specific strengths and weaknesses, while actively listening to parents' constructive feedback to improve school policies. Finally, <strong><em>organizing extracurricular activities can bring teachers, parents, and students closer together.</em></strong> Educational institutions can host sports festivals, weekend charity fairs, or parenting workshops, creating friendly opportunities for educators and parents to understand each other better and build lasting mutual trust.\n\nIn conclusion, effective communication between teachers and parents enhances academic guidance, supports student mental well-being, and solidifies home-school collaboration. By employing digital portals, conducting personalized conferences, and organizing interactive events, schools and families can build an ideal learning environment for young generations.",
-                  "translation_b2": "Trong nền giáo dục hiện đại, sự giao tiếp giữa nhà trường, giáo viên và phụ huynh đóng một vai trò thiết yếu trong việc thúc đẩy thành công học tập và sự phát triển cá nhân của học sinh. Khi các nhà giáo dục và gia đình duy trì đối thoại thường xuyên, học sinh sẽ nhận được sự đồng hành nhất quán cả ở trường lẫn ở nhà. Bài viết này sẽ thảo luận về ba tác động tích cực của việc giao tiếp hiệu quả giữa nhà trường và phụ huynh, đồng thời đề xuất ba giải pháp thực tế để cải thiện mối quan hệ này hơn nữa.\n\nMột mặt, sự giao tiếp chặt chẽ giữa nhà trường và cha mẹ mang lại nhiều lợi ích to lớn. Trước hết, việc giao tiếp thường xuyên cho phép phụ huynh hiểu rõ hơn về sự tiến bộ trong học tập của con em mình. Thông qua các cuộc gặp định kỳ và tin nhắn trực tuyến, giáo viên có thể cung cấp các thông tin cập nhật chi tiết về điểm thi, hành vi và sự thể hiện trong lớp của học sinh. Nhờ đó, phụ huynh có thể nhanh chóng phát hiện các khó khăn trong việc học và hỗ trợ con làm bài tập tại nhà. Hơn nữa, việc đối thoại hiệu quả giúp giáo viên có được những hiểu biết sâu sắc và quý giá về tính cách và hoàn cảnh của học sinh. Khi cha mẹ cởi mở chia sẻ về thói quen, sở thích và trạng thái cảm xúc của con ở nhà, giáo viên sẽ có được bức tranh toàn diện về từng học trò. Điều này cho phép thầy cô điều chỉnh phương pháp giảng dạy một cách phù hợp và đưa ra sự định hướng tinh thần kịp thời khi học sinh gặp căng thẳng. Cuối cùng, việc giao tiếp gần gũi xây dựng mối quan hệ đối tác vững chắc giữa gia đình và các tổ chức giáo dục. Sự trao đổi thường xuyên giúp cha mẹ và giáo viên thiết lập các kỳ vọng chung và các quy tắc nhất quán cho hành vi của học sinh. Khi cả hai bên phối hợp chặt chẽ, học sinh cảm thấy được hỗ trợ và khích lệ, điều này thúc đẩy sự phát triển toàn diện của các em.\n\nMặt khác, một số biện pháp mang tính xây dựng có thể được thực hiện để nâng cao sự kết nối giữa gia đình và nhà trường. Giải pháp hàng đầu là tận dụng các ứng dụng di động hiện đại và các nền tảng kỹ thuật số. Nhà trường nên triển khai các ứng dụng thông minh hoặc cổng thông tin trực tuyến để gửi cập nhật và thông báo hằng ngày trực tiếp tới phụ huynh, giúp việc liên lạc trở nên thuận tiện và tiết kiệm thời gian hơn cho những phụ huynh bận rộn. Thứ hai, nhà trường nên đổi mới và nâng cao chất lượng các buổi họp phụ huynh - giáo viên. Thay vì chỉ đọc bảng điểm chung, giáo viên nên lên lịch cho các cuộc gặp riêng một - một để thảo luận về điểm mạnh và điểm yếu cụ thể của từng học sinh, đồng thời tích cực lắng nghe phản hồi mang tính xây dựng của cha mẹ để hoàn thiện các quy định của trường. Cuối cùng, việc tổ chức các hoạt động ngoại khóa có thể mang giáo viên, phụ huynh và học sinh lại gần nhau hơn. Nhà trường có thể tổ chức các ngày hội thể thao, hội chợ từ thiện cuối tuần hoặc các buổi hội thảo dành cho cha mẹ, tạo cơ hội thân thiện để các bên thấu hiểu nhau hơn và xây dựng lòng tin lâu dài lẫn nhau.\n\nTóm lại, sự giao tiếp hiệu quả giữa giáo viên và phụ huynh giúp tăng cường định hướng học tập, hỗ trợ sức khỏe tinh thần của học sinh và củng cố sự phối hợp giữa gia đình và nhà trường. Bằng cách áp dụng các cổng thông tin số, tiến hành các cuộc họp mang tính cá nhân hóa và tổ chức các sự kiện tương tác, nhà trường và gia đình có thể cùng nhau xây dựng môi trường học tập lý tưởng cho thế hệ trẻ.",
-                  "vocab_step": {
-                        "theme": "Giao tiếp giữa nhà trường, giáo viên và phụ huynh (Communication between Schools, Teachers, and Parents)",
-                        "single_words": [
-                              {
-                                    "word": "communicate",
-                                    "ipa": "/kəˈmjuːnɪkeɪt/",
-                                    "pos": "verb",
-                                    "level": "B1",
-                                    "vi": "giao tiếp, liên lạc",
-                                    "family": "communication (n), communicative (adj)",
-                                    "example_en": "Teachers and parents should communicate regularly to help students succeed.",
-                                    "example_vi": "Giáo viên và phụ huynh nên giao tiếp thường xuyên để giúp học sinh thành công."
-                              },
-                              {
-                                    "word": "support",
-                                    "ipa": "/səˈpɔːt/",
-                                    "pos": "verb",
-                                    "level": "B1",
-                                    "vi": "hỗ trợ, giúp đỡ",
-                                    "family": "support (n), supportive (adj)",
-                                    "example_en": "Parents can give timely support when they know their child's difficulties.",
-                                    "example_vi": "Phụ huynh có thể hỗ trợ kịp thời khi biết được những khó khăn của con."
-                              },
-                              {
-                                    "word": "progress",
-                                    "ipa": "/ˈprəʊɡres/",
-                                    "pos": "noun",
-                                    "level": "B1",
-                                    "vi": "tiến độ, sự tiến bộ",
-                                    "family": "progressive (adj)",
-                                    "example_en": "Schools send monthly reports to update parents on learning progress.",
-                                    "example_vi": "Nhà trường gửi báo cáo hằng tháng để cập nhật cho phụ huynh về tiến độ học tập."
-                              },
-                              {
-                                    "word": "cooperate",
-                                    "ipa": "/kəʊˈɒpəreɪt/",
-                                    "pos": "verb",
-                                    "level": "B1",
-                                    "vi": "hợp tác, phối hợp",
-                                    "family": "cooperation (n), cooperative (adj)",
-                                    "example_en": "Families and schools need to cooperate to solve bad behavior early.",
-                                    "example_vi": "Gia đình và nhà trường cần phối hợp để giải quyết hành vi xấu từ sớm."
-                              },
-                              {
-                                    "word": "meeting",
-                                    "ipa": "/ˈmiːtɪŋ/",
-                                    "pos": "noun",
-                                    "level": "B1",
-                                    "vi": "cuộc họp",
-                                    "family": "meet (v)",
-                                    "example_en": "Attending parent-teacher meetings helps parents understand school life.",
-                                    "example_vi": "Tham dự các cuộc họp phụ huynh giúp cha mẹ hiểu rõ đời sống học đường."
-                              },
-                              {
-                                    "word": "strength",
-                                    "ipa": "/streŋkθ/",
-                                    "pos": "noun",
-                                    "level": "B1",
-                                    "vi": "điểm mạnh",
-                                    "family": "strengthen (v), strong (adj)",
-                                    "example_en": "Teachers help students discover their personal strengths in arts and science.",
-                                    "example_vi": "Giáo viên giúp học sinh khám phá những điểm mạnh cá nhân về nghệ thuật và khoa học."
-                              },
-                              {
-                                    "word": "difficulty",
-                                    "ipa": "/ˈdɪfɪkəlti/",
-                                    "pos": "noun",
-                                    "level": "B1",
-                                    "vi": "khó khăn, trở ngại",
-                                    "family": "difficult (adj)",
-                                    "example_en": "Sharing learning difficulties with teachers leads to faster solutions.",
-                                    "example_vi": "Chia sẻ những khó khăn trong học tập với giáo viên giúp tìm ra giải pháp nhanh hơn."
-                              },
-                              {
-                                    "word": "update",
-                                    "ipa": "/ʌpˈdeɪt/",
-                                    "pos": "verb",
-                                    "level": "B1",
-                                    "vi": "cập nhật",
-                                    "family": "update (n), updated (adj)",
-                                    "example_en": "Online platforms allow schools to update exam scores instantly.",
-                                    "example_vi": "Các nền tảng trực tuyến cho phép nhà trường cập nhật điểm thi ngay lập tức."
-                              },
-                              {
-                                    "word": "platform",
-                                    "ipa": "/ˈplætfɔːm/",
-                                    "pos": "noun",
-                                    "level": "B1",
-                                    "vi": "nền tảng, ứng dụng",
-                                    "family": "digital platforms (phr)",
-                                    "example_en": "Many schools use a mobile platform to message parents directly.",
-                                    "example_vi": "Nhiều trường học sử dụng nền tảng di động để nhắn tin trực tiếp cho phụ huynh."
-                              },
-                              {
-                                    "word": "respond",
-                                    "ipa": "/rɪˈspɒnd/",
-                                    "pos": "verb",
-                                    "level": "B1",
-                                    "vi": "phản hồi, trả lời",
-                                    "family": "response (n), responsive (adj)",
-                                    "example_en": "Parents should respond promptly when teachers ask for a conversation.",
-                                    "example_vi": "Phụ huynh nên phản hồi nhanh chóng khi giáo viên yêu cầu một cuộc trao đổi."
-                              },
-                              {
-                                    "word": "workshop",
-                                    "ipa": "/ˈwɜːkʃɒp/",
-                                    "pos": "noun",
-                                    "level": "B1",
-                                    "vi": "buổi hội thảo thực tế",
-                                    "family": "work (v/n)",
-                                    "example_en": "The school organized a parenting workshop on weekend mornings.",
-                                    "example_vi": "Nhà trường đã tổ chức một buổi hội thảo dành cho phụ huynh vào sáng cuối tuần."
-                              },
-                              {
-                                    "word": "suitable",
-                                    "ipa": "/ˈsuːtəbl/",
-                                    "pos": "adj",
-                                    "level": "B1",
-                                    "vi": "phù hợp, thích hợp",
-                                    "family": "suit (v), suitability (n)",
-                                    "example_en": "Finding suitable learning methods helps slow learners gain confidence.",
-                                    "example_vi": "Tìm kiếm phương pháp học phù hợp giúp học sinh tiếp thu chậm lấy lại tự tin."
-                              },
-                              {
-                                    "word": "periodic",
-                                    "ipa": "/ˌpɪəriˈɒdɪk/",
-                                    "pos": "adj",
-                                    "level": "B2",
-                                    "vi": "định kỳ, thường kỳ",
-                                    "family": "periodically (adv)",
-                                    "example_en": "Periodic meetings keep parents informed about student performance.",
-                                    "example_vi": "Các cuộc họp định kỳ giúp phụ huynh nắm bắt kết quả học tập của học sinh."
-                              },
-                              {
-                                    "word": "promptly",
-                                    "ipa": "/ˈprɒmptli/",
-                                    "pos": "adv",
-                                    "level": "B2",
-                                    "vi": "kịp thời, nhanh chóng",
-                                    "family": "prompt (adj)",
-                                    "example_en": "Teachers should promptly notify parents if a student misses class.",
-                                    "example_vi": "Giáo viên nên thông báo kịp thời cho phụ huynh nếu học sinh nghỉ học."
-                              },
-                              {
-                                    "word": "insight",
-                                    "ipa": "/ˈɪnsaɪt/",
-                                    "pos": "noun",
-                                    "level": "B2",
-                                    "vi": "sự thấu hiểu sâu sắc",
-                                    "family": "insightful (adj)",
-                                    "example_en": "Parents provide valuable insights into their children's personalities.",
-                                    "example_vi": "Phụ huynh cung cấp những hiểu biết sâu sắc quý giá về tính cách của con cái."
-                              },
-                              {
-                                    "word": "adapt",
-                                    "ipa": "/əˈdæpt/",
-                                    "pos": "verb",
-                                    "level": "B2",
-                                    "vi": "điều chỉnh, thích nghi",
-                                    "family": "adaptation (n), adaptable (adj)",
-                                    "example_en": "Good teachers adapt their lessons to suit different learning styles.",
-                                    "example_vi": "Giáo viên giỏi điều chỉnh bài giảng để phù hợp với các phong cách học khác nhau."
-                              },
-                              {
-                                    "word": "partnership",
-                                    "ipa": "/ˈpɑːtnəʃɪp/",
-                                    "pos": "noun",
-                                    "level": "B2",
-                                    "vi": "mối quan hệ đồng hành, đối tác",
-                                    "family": "partner (n)",
-                                    "example_en": "A close partnership between school and home ensures student growth.",
-                                    "example_vi": "Mối quan hệ đồng hành chặt chẽ giữa nhà trường và gia đình đảm bảo sự phát triển của học sinh."
-                              },
-                              {
-                                    "word": "collaborate",
-                                    "ipa": "/kəˈlæbəreɪt/",
-                                    "pos": "verb",
-                                    "level": "B2",
-                                    "vi": "hợp tác, phối hợp",
-                                    "family": "collaboration (n), collaborative (adj)",
-                                    "example_en": "Teachers and parents should collaborate to solve learning difficulties.",
-                                    "example_vi": "Thầy cô và phụ huynh nên phối hợp để tháo gỡ những khó khăn học tập."
-                              },
-                              {
-                                    "word": "portal",
-                                    "ipa": "/ˈpɔːtl/",
-                                    "pos": "noun",
-                                    "level": "B2",
-                                    "vi": "cổng thông tin điện tử",
-                                    "family": "port (n)",
-                                    "example_en": "Parents can check grades and attendance via the school's online portal.",
-                                    "example_vi": "Phụ huynh có thể kiểm tra điểm số và điểm danh qua cổng thông tin trực tuyến của trường."
-                              },
-                              {
-                                    "word": "conference",
-                                    "ipa": "/ˈkɒnfərəns/",
-                                    "pos": "noun",
-                                    "level": "B2",
-                                    "vi": "buổi họp, hội nghị",
-                                    "family": "confer (v)",
-                                    "example_en": "The annual parent-teacher conference will take place next Friday.",
-                                    "example_vi": "Hội nghị phụ huynh - giáo viên hằng năm sẽ diễn ra vào thứ Sáu tới."
-                              },
-                              {
-                                    "word": "constructive",
-                                    "ipa": "/kənˈstrʌktɪv/",
-                                    "pos": "adj",
-                                    "level": "B2",
-                                    "vi": "mang tính xây dựng",
-                                    "family": "construct (v), construction (n)",
-                                    "example_en": "Teachers always welcome constructive feedback from parents.",
-                                    "example_vi": "Giáo viên luôn hoan nghênh những phản hồi mang tính xây dựng từ phụ huynh."
-                              },
-                              {
-                                    "word": "workshop",
-                                    "ipa": "/ˈwɜːkʃɒp/",
-                                    "pos": "noun",
-                                    "level": "B2",
-                                    "vi": "buổi hội thảo chuyên đề",
-                                    "family": "shop (n)",
-                                    "example_en": "The school organized a workshop on positive parenting techniques.",
-                                    "example_vi": "Nhà trường đã tổ chức một buổi hội thảo về các phương pháp nuôi dạy con tích cực."
-                              },
-                              {
-                                    "word": "mutual",
-                                    "ipa": "/ˈmjuːtʃuəl/",
-                                    "pos": "adj",
-                                    "level": "B2",
-                                    "vi": "lẫn nhau, hai chiều",
-                                    "family": "mutually (adv)",
-                                    "example_en": "Mutual trust is essential for a successful educational partnership.",
-                                    "example_vi": "Sự tin tưởng lẫn nhau là điều thiết yếu cho một mối quan hệ giáo dục thành công."
-                              },
-                              {
-                                    "word": "solidify",
-                                    "ipa": "/səˈlɪdɪfaɪ/",
-                                    "pos": "verb",
-                                    "level": "B2",
-                                    "vi": "củng cố, làm vững chắc",
-                                    "family": "solid (adj)",
-                                    "example_en": "Regular communication helps solidify the bond between teachers and parents.",
-                                    "example_vi": "Giao tiếp thường xuyên giúp củng cố mối liên kết giữa giáo viên và phụ huynh."
-                              }
-                        ],
-                        "collocation_groups": [
-                              {
-                                    "id": "effects",
-                                    "name": "Nhóm Collocations: Tác động tích cực & Lợi ích (Positive Effects)",
-                                    "icon": "🤝",
-                                    "badge": "Phần Thân bài 1",
-                                    "items": [
-                                          {
-                                                "en": "understand their children's studies better",
-                                                "type": "v.phr",
-                                                "level": "B1",
-                                                "vi": "hiểu việc học của con tốt hơn",
-                                                "example": "Regular meetings help parents understand their children's studies better."
-                                          },
-                                          {
-                                                "en": "regular talks with teachers",
-                                                "type": "n.phr",
-                                                "level": "B1",
-                                                "vi": "những cuộc trao đổi thường xuyên với giáo viên",
-                                                "example": "Through regular talks with teachers, families feel more connected."
-                                          },
-                                          {
-                                                "en": "know their children's results and strengths",
-                                                "type": "v.phr",
-                                                "level": "B1",
-                                                "vi": "biết kết quả và điểm mạnh của con",
-                                                "example": "Parents can know their children's results and strengths promptly."
-                                          },
-                                          {
-                                                "en": "give timely support at home",
-                                                "type": "v.phr",
-                                                "level": "B1",
-                                                "vi": "hỗ trợ kịp thời tại nhà",
-                                                "example": "Parents can give timely support at home whenever issues occur."
-                                          },
-                                          {
-                                                "en": "understand students' needs and problems",
-                                                "type": "v.phr",
-                                                "level": "B1",
-                                                "vi": "hiểu nhu cầu và vấn đề của học sinh",
-                                                "example": "Teachers can better understand students' needs and problems."
-                                          },
-                                          {
-                                                "en": "share information about children's habits",
-                                                "type": "v.phr",
-                                                "level": "B1",
-                                                "vi": "chia sẻ thông tin về thói quen của con",
-                                                "example": "Caregivers share information about children's habits with schools."
-                                          },
-                                          {
-                                                "en": "strengthen the cooperation between schools and families",
-                                                "type": "v.phr",
-                                                "level": "B1",
-                                                "vi": "tăng cường sự hợp tác giữa nhà trường và gia đình",
-                                                "example": "Open dialogues strengthen the cooperation between schools and families."
-                                          },
-                                          {
-                                                "en": "solve students' problems together",
-                                                "type": "v.phr",
-                                                "level": "B1",
-                                                "vi": "cùng nhau giải quyết các vấn đề của học sinh",
-                                                "example": "Both sides solve students' problems together effectively."
-                                          },
-                                          {
-                                                "en": "comprehensive insights into academic trajectory",
-                                                "type": "n.phr",
-                                                "level": "B2",
-                                                "vi": "cái nhìn toàn diện về quá trình phát triển học tập",
-                                                "example": "Dialogue provides comprehensive insights into academic trajectory."
-                                          },
-                                          {
-                                                "en": "frequent interaction with educators",
-                                                "type": "n.phr",
-                                                "level": "B2",
-                                                "vi": "sự tương tác thường xuyên với các nhà giáo dục",
-                                                "example": "Frequent interaction with educators ensures consistent pastoral monitoring."
-                                          },
-                                          {
-                                                "en": "evaluate academic strengths and weaknesses",
-                                                "type": "v.phr",
-                                                "level": "B2",
-                                                "vi": "đánh giá chuẩn xác điểm mạnh và điểm yếu học thuật",
-                                                "example": "Constructive reports help evaluate academic strengths and weaknesses."
-                                          },
-                                          {
-                                                "en": "facilitate timely and constructive intervention",
-                                                "type": "v.phr",
-                                                "level": "B2",
-                                                "vi": "tạo điều kiện cho sự can thiệp kịp thời và hữu ích",
-                                                "example": "Early notices facilitate timely and constructive intervention at home."
-                                          },
-                                          {
-                                                "en": "comprehend individual learning needs",
-                                                "type": "v.phr",
-                                                "level": "B2",
-                                                "vi": "thấu hiểu các nhu cầu học tập mang tính cá nhân",
-                                                "example": "Instructors comprehend individual learning needs through parental input."
-                                          },
-                                          {
-                                                "en": "adapt pedagogical approaches",
-                                                "type": "v.phr",
-                                                "level": "B2",
-                                                "vi": "điều chỉnh linh hoạt các phương pháp sư phạm",
-                                                "example": "Teachers adapt pedagogical approaches to match students' emotional profiles."
-                                          },
-                                          {
-                                                "en": "consolidate home-school partnerships",
-                                                "type": "v.phr",
-                                                "level": "B2",
-                                                "vi": "củng cố mối quan hệ đồng hành gia đình - nhà trường",
-                                                "example": "Regular interaction helps consolidate home-school partnerships firmly."
-                                          },
-                                          {
-                                                "en": "establish aligned expectations",
-                                                "type": "v.phr",
-                                                "level": "B2",
-                                                "vi": "thiết lập những kỳ vọng giáo dục tương đồng",
-                                                "example": "Mentors and guardians establish aligned expectations for pupil development."
-                                          }
-                                    ]
-                              },
-                              {
-                                    "id": "solutions",
-                                    "name": "Nhóm Collocations: Giải pháp nâng cao hiệu quả (Solutions to Improve)",
-                                    "icon": "💡",
-                                    "badge": "Phần Thân bài 2",
-                                    "items": [
-                                          {
-                                                "en": "maintain regular communication",
-                                                "type": "v.phr",
-                                                "level": "B1",
-                                                "vi": "duy trì giao tiếp thường xuyên",
-                                                "example": "Schools should maintain regular communication with all families."
-                                          },
-                                          {
-                                                "en": "organize regular parent-teacher meetings",
-                                                "type": "v.phr",
-                                                "level": "B1",
-                                                "vi": "tổ chức các cuộc họp phụ huynh định kỳ",
-                                                "example": "Staff organize regular parent-teacher meetings each semester."
-                                          },
-                                          {
-                                                "en": "use emails or online apps",
-                                                "type": "v.phr",
-                                                "level": "B1",
-                                                "vi": "sử dụng email hoặc ứng dụng trực tuyến",
-                                                "example": "It is convenient to use emails or online apps for quick notices."
-                                          },
-                                          {
-                                                "en": "update students' learning progress",
-                                                "type": "v.phr",
-                                                "level": "B1",
-                                                "vi": "cập nhật tiến độ học tập của học sinh",
-                                                "example": "Teachers update students' learning progress weekly on the web."
-                                          },
-                                          {
-                                                "en": "share information clearly and quickly",
-                                                "type": "v.phr",
-                                                "level": "B1",
-                                                "vi": "chia sẻ thông tin rõ ràng và nhanh chóng",
-                                                "example": "Both sides must share information clearly and quickly."
-                                          },
-                                          {
-                                                "en": "give specific details about grades and behavior",
-                                                "type": "v.phr",
-                                                "level": "B1",
-                                                "vi": "cung cấp chi tiết cụ thể về điểm số và hành vi",
-                                                "example": "Teachers give specific details about grades and behavior in class."
-                                          },
-                                          {
-                                                "en": "respond early when children face problems",
-                                                "type": "v.phr",
-                                                "level": "B1",
-                                                "vi": "phản hồi sớm khi con gặp vấn đề",
-                                                "example": "Parents should respond early when children face problems at school."
-                                          },
-                                          {
-                                                "en": "organize cooperative activities",
-                                                "type": "v.phr",
-                                                "level": "B1",
-                                                "vi": "tổ chức các hoạt động hợp tác chung",
-                                                "example": "Schools can organize cooperative activities to bring people together."
-                                          },
-                                          {
-                                                "en": "institutionalized channels of interaction",
-                                                "type": "n.phr",
-                                                "level": "B2",
-                                                "vi": "các kênh tương tác mang tính quy chuẩn thể chế",
-                                                "example": "Institutions must build institutionalized channels of interaction."
-                                          },
-                                          {
-                                                "en": "structured parent-teacher conferences",
-                                                "type": "n.phr",
-                                                "level": "B2",
-                                                "vi": "các hội nghị phụ huynh - giáo viên bài bản",
-                                                "example": "Structured parent-teacher conferences foster professional dialogue."
-                                          },
-                                          {
-                                                "en": "modern mobile applications and student portals",
-                                                "type": "n.phr",
-                                                "level": "B2",
-                                                "vi": "ứng dụng di động hiện đại và cổng thông tin học sinh",
-                                                "example": "Deploying modern mobile applications and student portals improves access."
-                                          },
-                                          {
-                                                "en": "seamless real-time academic updates",
-                                                "type": "n.phr",
-                                                "level": "B2",
-                                                "vi": "cập nhật kết quả học tập tức thời và liền mạch",
-                                                "example": "Digital portals offer seamless real-time academic updates for parents."
-                                          },
-                                          {
-                                                "en": "ensure transparent and prompt information dissemination",
-                                                "type": "v.phr",
-                                                "level": "B2",
-                                                "vi": "bảo đảm sự truyền tải thông tin minh bạch và kịp thời",
-                                                "example": "Departments ensure transparent and prompt information dissemination."
-                                          },
-                                          {
-                                                "en": "provide concrete, objective feedback",
-                                                "type": "v.phr",
-                                                "level": "B2",
-                                                "vi": "đưa ra phản hồi cụ thể và mang tính khách quan",
-                                                "example": "Mentors provide concrete, objective feedback on student competencies."
-                                          },
-                                          {
-                                                "en": "actively reciprocate with prompt responses",
-                                                "type": "v.phr",
-                                                "level": "B2",
-                                                "vi": "chủ động đáp lại bằng các phản hồi nhanh chóng",
-                                                "example": "Guardians actively reciprocate with prompt responses during crises."
-                                          },
-                                          {
-                                                "en": "collaborative workshops and orientation seminars",
-                                                "type": "n.phr",
-                                                "level": "B2",
-                                                "vi": "các hội thảo phối hợp và tọa đàm định hướng",
-                                                "example": "Schools organize collaborative workshops and orientation seminars regularly."
-                                          }
-                                    ]
-                              }
-                        ]
+                  {
+                    "en": "use emails or online apps",
+                    "vi": "sử dụng email hoặc ứng dụng trực tuyến"
+                  },
+                  {
+                    "en": "update students' learning progress",
+                    "vi": "cập nhật tiến độ học tập của học sinh"
                   }
+                ]
+              },
+              {
+                "title": "SOLUTION 02",
+                "point_vi": "Chia sẻ thông tin rõ ràng và kịp thời.",
+                "point_en": "Second, both teachers and parents need to share information clearly and quickly.",
+                "evidence_vi": "Giáo viên nên cung cấp thông tin cụ thể về kết quả học tập, hành vi và những khó khăn của học sinh, trong khi phụ huynh cũng nên phản hồi sớm khi con gặp vấn đề.",
+                "evidence_en": "Teachers should give specific details about grades, behavior, and challenges, and parents should also respond early when children face problems.",
+                "collocations": [
+                  {
+                    "en": "share information clearly and quickly",
+                    "vi": "chia sẻ thông tin rõ ràng và nhanh chóng"
+                  },
+                  {
+                    "en": "give specific details about grades and behavior",
+                    "vi": "cung cấp chi tiết cụ thể về điểm số và hành vi"
+                  },
+                  {
+                    "en": "respond early when children face problems",
+                    "vi": "phản hồi sớm khi con gặp vấn đề"
+                  }
+                ]
+              },
+              {
+                "title": "SOLUTION 03",
+                "point_vi": "Tổ chức các hoạt động hợp tác giữa nhà trường và phụ huynh.",
+                "point_en": "Finally, schools should organize cooperative activities for parents and teachers.",
+                "evidence_vi": "Nhà trường có thể tổ chức các buổi tư vấn, hội thảo hoặc hoạt động chung để giúp giáo viên và phụ huynh hiểu nhau hơn và cùng tìm cách hỗ trợ học sinh.",
+                "evidence_en": "Schools can hold workshops, counseling sessions, or joint events, so teachers and parents can understand each other better and find good ways to support students.",
+                "collocations": [
+                  {
+                    "en": "organize cooperative activities",
+                    "vi": "tổ chức các hoạt động hợp tác"
+                  },
+                  {
+                    "en": "hold workshops, counseling sessions, or joint events",
+                    "vi": "tổ chức hội thảo, buổi tư vấn hoặc sự kiện chung"
+                  },
+                  {
+                    "en": "understand each other better",
+                    "vi": "hiểu nhau hơn"
+                  },
+                  {
+                    "en": "find good ways to support students",
+                    "vi": "tìm cách tốt để hỗ trợ học sinh"
+                  }
+                ]
+              }
+            ]
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "EFFECT 01",
+                "point_vi": "Giao tiếp thường xuyên giúp phụ huynh hiểu rõ hơn về tiến độ học tập và rèn luyện của con.",
+                "point_en": "First, regular communication allows parents to understand their children's academic progress better.",
+                "evidence_vi": "• Luận cứ 1: Thông qua các cuộc gặp định kỳ hoặc tin nhắn trực tuyến, giáo viên có thể thông báo chi tiết về điểm số, thái độ và sự tiến bộ của học sinh trên lớp.\n• Luận cứ 2: Nhờ đó, cha mẹ kịp thời phát hiện những môn học mà con gặp khó khăn để chủ động hỗ trợ và hướng dẫn con tại nhà.",
+                "evidence_en": "• Evidence 1: Through periodic meetings and online messages, teachers can provide detailed updates on students' test scores, behavior, and classroom performance.\n• Evidence 2: As a result, parents can promptly identify learning difficulties and support their children with schoolwork at home.",
+                "collocations": [
+                  {
+                    "en": "academic progress",
+                    "vi": "sự tiến bộ học tập"
+                  },
+                  {
+                    "en": "periodic meetings",
+                    "vi": "các cuộc gặp định kỳ"
+                  },
+                  {
+                    "en": "classroom performance",
+                    "vi": "thể hiện trên lớp học"
+                  },
+                  {
+                    "en": "identify learning difficulties",
+                    "vi": "nhận biết những khó khăn học tập"
+                  }
+                ]
+              },
+              {
+                "title": "EFFECT 02",
+                "point_vi": "Sự trao đổi hai chiều giúp thầy cô thấu hiểu tính cách và hoàn cảnh riêng của từng học sinh.",
+                "point_en": "Second, effective dialogue helps teachers gain valuable insights into students' personalities and backgrounds.",
+                "evidence_vi": "• Luận cứ 1: Khi cha mẹ cởi mở chia sẻ về thói quen sinh hoạt, sở thích và những áp lực của con ở nhà, giáo viên sẽ có cái nhìn toàn diện về học trò của mình.\n• Luận cứ 2: Điều này giúp thầy cô linh hoạt điều chỉnh phương pháp giảng dạy và đưa ra sự động viên tinh thần kịp thời khi học sinh gặp căng thẳng.",
+                "evidence_en": "• Evidence 1: When parents openly share details about their children's habits, interests, and emotional states at home, teachers obtain a complete picture of each pupil.\n• Evidence 2: This enables educators to adapt their teaching methods appropriately and provide timely emotional guidance when students face stress.",
+                "collocations": [
+                  {
+                    "en": "valuable insights",
+                    "vi": "những sự thấu hiểu quý giá"
+                  },
+                  {
+                    "en": "emotional states",
+                    "vi": "trạng thái cảm xúc"
+                  },
+                  {
+                    "en": "adapt teaching methods",
+                    "vi": "điều chỉnh phương pháp giảng dạy"
+                  },
+                  {
+                    "en": "provide emotional guidance",
+                    "vi": "đưa ra định hướng tinh thần"
+                  }
+                ]
+              },
+              {
+                "title": "EFFECT 03",
+                "point_vi": "Giao tiếp chặt chẽ xây dựng mối quan hệ đồng hành bền vững giữa gia đình và nhà trường.",
+                "point_en": "Finally, close communication fosters a strong partnership between families and educational institutions.",
+                "evidence_vi": "• Luận cứ 1: Sự trao đổi liên tục giúp cha mẹ và thầy cô thống nhất các quy tắc ứng xử và kỳ vọng chung trong việc giáo dục con trẻ.\n• Luận cứ 2: Khi cả hai phía cùng phối hợp nhịp nhàng, học sinh cảm nhận được sự quan tâm chu đáo, từ đó phát triển toàn diện cả về tri thức lẫn nhân cách.",
+                "evidence_en": "• Evidence 1: Regular exchanges help parents and educators establish common expectations and consistent rules for student behavior.\n• Evidence 2: When both parties collaborate closely, students feel supported and encouraged, which promotes their overall personal development.",
+                "collocations": [
+                  {
+                    "en": "strong partnership",
+                    "vi": "mối quan hệ đồng hành vững chắc"
+                  },
+                  {
+                    "en": "common expectations",
+                    "vi": "những kỳ vọng chung"
+                  },
+                  {
+                    "en": "collaborate closely",
+                    "vi": "phối hợp chặt chẽ"
+                  },
+                  {
+                    "en": "personal development",
+                    "vi": "sự phát triển cá nhân"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "SOLUTION 01",
+                "point_vi": "Nhà trường nên ứng dụng công nghệ hiện đại và các phần mềm liên lạc di động.",
+                "point_en": "The first solution is to utilize modern mobile applications and digital platforms.",
+                "evidence_vi": "• Luận cứ 1: Cơ sở giáo dục có thể sử dụng các ứng dụng sổ liên lạc điện tử hoặc cổng thông tin trực tuyến để gửi thông báo học tập đến phụ huynh nhanh chóng.\n• Luận cứ 2: Phương pháp này giúp việc kết nối trở nên thuận tiện và tiết kiệm thời gian, đặc biệt là với những phụ huynh bận rộn với công việc.",
+                "evidence_en": "• Evidence 1: Schools should implement smart communication apps or online portals to send daily updates and announcements directly to parents.\n• Evidence 2: This makes communication much more convenient and time-saving, especially for busy working parents.",
+                "collocations": [
+                  {
+                    "en": "mobile applications",
+                    "vi": "các ứng dụng di động"
+                  },
+                  {
+                    "en": "digital platforms",
+                    "vi": "các nền tảng kỹ thuật số"
+                  },
+                  {
+                    "en": "send daily updates",
+                    "vi": "gửi các cập nhật hằng ngày"
+                  },
+                  {
+                    "en": "time-saving",
+                    "vi": "tiết kiệm thời gian"
+                  }
+                ]
+              },
+              {
+                "title": "SOLUTION 02",
+                "point_vi": "Nhà trường cần đổi mới và nâng cao chất lượng các buổi họp phụ huynh - giáo viên.",
+                "point_en": "Second, schools should innovate and improve the quality of parent-teacher conferences.",
+                "evidence_vi": "• Luận cứ 1: Thay vì chỉ đọc bảng điểm chung, thầy cô nên dành thời gian gặp gỡ riêng từng phụ huynh để trao đổi sâu về điểm mạnh và điểm yếu của học sinh.\n• Luận cứ 2: Đồng thời, nhà trường cần tích cực lắng nghe các ý kiến đóng góp mang tính xây dựng từ phụ huynh để cùng cải thiện môi trường học tập.",
+                "evidence_en": "• Evidence 1: Instead of just reading general scorecards, teachers should schedule one-on-one meetings to discuss each student's specific strengths and weaknesses.\n• Evidence 2: Furthermore, schools should actively listen to parents' constructive feedback to improve the learning environment together.",
+                "collocations": [
+                  {
+                    "en": "parent-teacher conferences",
+                    "vi": "hội nghị phụ huynh - giáo viên"
+                  },
+                  {
+                    "en": "one-on-one meetings",
+                    "vi": "các cuộc gặp riêng một - một"
+                  },
+                  {
+                    "en": "strengths and weaknesses",
+                    "vi": "điểm mạnh và điểm yếu"
+                  },
+                  {
+                    "en": "constructive feedback",
+                    "vi": "phản hồi mang tính xây dựng"
+                  }
+                ]
+              },
+              {
+                "title": "SOLUTION 03",
+                "point_vi": "Tổ chức các hoạt động ngoại khóa kết nối giữa thầy cô, cha mẹ và học sinh.",
+                "point_en": "Finally, organizing extracurricular activities can bring teachers, parents, and students closer together.",
+                "evidence_vi": "• Luận cứ 1: Nhà trường có thể tổ chức các ngày hội thể thao, hội thảo tư vấn phụ huynh hoặc các chương trình tình nguyện cuối tuần.\n• Luận cứ 2: Những sự kiện thân thiện này tạo cơ hội để thầy cô và cha mẹ thấu hiểu nhau hơn, từ đó bồi đắp lòng tin và sự tôn trọng lẫn nhau.",
+                "evidence_en": "• Evidence 1: Educational institutions can host sports festivals, weekend charity fairs, or parenting workshops.\n• Evidence 2: These informal events create friendly opportunities for teachers and parents to understand each other better, fostering lasting mutual trust.",
+                "collocations": [
+                  {
+                    "en": "extracurricular activities",
+                    "vi": "hoạt động ngoại khóa"
+                  },
+                  {
+                    "en": "parenting workshops",
+                    "vi": "hội thảo về làm cha mẹ"
+                  },
+                  {
+                    "en": "friendly opportunities",
+                    "vi": "cơ hội thân thiện"
+                  },
+                  {
+                    "en": "mutual trust",
+                    "vi": "sự tin tưởng lẫn nhau"
+                  }
+                ]
+              }
+            ]
+          },
+          "vocab": [
+            {
+              "en": "regular dialogue with teachers",
+              "vi": "đối thoại thường xuyên với giáo viên"
+            },
+            {
+              "en": "understand children's progress",
+              "vi": "hiểu tiến độ học tập của con"
+            },
+            {
+              "en": "give timely support",
+              "vi": "hỗ trợ kịp thời"
+            },
+            {
+              "en": "understand students' needs",
+              "vi": "hiểu nhu cầu của học sinh"
+            },
+            {
+              "en": "share habits and difficulties",
+              "vi": "chia sẻ thói quen và khó khăn"
+            },
+            {
+              "en": "suitable pedagogical methods",
+              "vi": "phương pháp sư phạm phù hợp"
+            },
+            {
+              "en": "strengthen home-school cooperation",
+              "vi": "tăng cường hợp tác giữa gia đình và nhà trường"
+            },
+            {
+              "en": "solve educational issues together",
+              "vi": "cùng nhau giải quyết các vấn đề giáo dục"
+            },
+            {
+              "en": "regular parent-teacher conferences",
+              "vi": "hội nghị phụ huynh định kỳ"
+            },
+            {
+              "en": "mobile apps and student portals",
+              "vi": "ứng dụng di động và cổng thông tin học sinh"
+            },
+            {
+              "en": "real-time academic updates",
+              "vi": "cập nhật học tập theo thời gian thực"
+            },
+            {
+              "en": "share clear and timely feedback",
+              "vi": "chia sẻ phản hồi rõ ràng và kịp thời"
+            },
+            {
+              "en": "respond early to problems",
+              "vi": "phản hồi sớm trước các vấn đề"
+            },
+            {
+              "en": "collaborative workshops and events",
+              "vi": "hội thảo và sự kiện phối hợp"
+            },
+            {
+              "en": "consultative counseling sessions",
+              "vi": "các buổi tư vấn tham vấn"
+            },
+            {
+              "en": "deepen mutual understanding",
+              "vi": "làm sâu sắc thêm sự thấu hiểu lẫn nhau"
             }
+          ],
+          "sample_b1": "In education today, <strong>communication between schools, teachers, and parents</strong> plays an essential role in supporting children's growth. When parents and teachers stay in close contact, students can learn and develop in a supportive environment. <strong>This essay will discuss three positive effects of regular communication and suggest three practical solutions to improve and strengthen it.</strong>\n\n<strong>To begin with, effective communication brings three major benefits to students, parents, and teachers.</strong> First of all, <strong><em>good communication helps parents understand their children's studies better.</em></strong> Through regular talks with teachers, parents can know their children's results, strengths, and difficulties, so they can give timely support. In addition, <strong><em>it helps teachers better understand students' needs and problems.</em></strong> Parents can share information about children's habits and difficulties at home, so teachers can choose suitable ways to help each student. Finally, <strong><em>frequent communication strengthens the cooperation between schools and families.</em></strong> When teachers and parents exchange updates regularly, both sides can solve students' problems together and agree on the best ways to support them.\n\n<strong>To further improve this positive connection, three practical measures should be carried out.</strong> The first solution is that <strong><em>schools and teachers should maintain regular communication with parents.</em></strong> Schools can organize regular parent-teacher meetings and use emails or online apps to update students' learning progress. Second, <strong><em>both teachers and parents need to share information clearly and quickly.</em></strong> Teachers should give specific details about grades, behavior, and challenges, and parents should also respond early when children face problems. Lastly, <strong><em>schools should organize cooperative activities for parents and teachers.</em></strong> Schools can hold workshops, counseling sessions, or joint events, so teachers and parents can understand each other better and find good ways to support students.\n\nIn conclusion, strong communication between families and schools brings significant benefits by helping parents follow learning progress, assisting teachers in guiding students, and building close cooperation. By holding frequent meetings, sharing clear updates, and organizing joint workshops, we can further enhance this relationship and create the best learning environment for every child.",
+          "translation_b1": "Trong giáo dục hiện nay, <strong>sự giao tiếp giữa nhà trường, giáo viên và phụ huynh</strong> đóng vai trò thiết yếu trong việc hỗ trợ sự trưởng thành của học sinh. Khi cha mẹ và thầy cô giữ mối liên hệ chặt chẽ, học sinh có thể học tập và phát triển trong một môi trường đầy sự khích lệ. <strong>Bài luận này sẽ thảo luận về ba tác động tích cực của việc giao tiếp thường xuyên và đề xuất ba giải pháp thực tế để cải thiện và tăng cường sự kết nối này.</strong>\n\n<strong>Trước hết, việc giao tiếp hiệu quả mang lại ba lợi ích to lớn cho học sinh, phụ huynh và giáo viên.</strong> Đầu tiên, <strong><em>giao tiếp tốt giúp phụ huynh hiểu rõ hơn về tình hình học tập của con.</em></strong> Thông qua việc trao đổi thường xuyên với giáo viên, phụ huynh có thể biết được kết quả học tập, điểm mạnh và những khó khăn của con, vì vậy họ có thể hỗ trợ con kịp thời. Thêm vào đó, <strong><em>nó giúp giáo viên hiểu rõ hơn về nhu cầu và vấn đề của học sinh.</em></strong> Phụ huynh có thể chia sẻ thông tin về thói quen và khó khăn của con ở nhà, giúp giáo viên chọn ra cách hỗ trợ phù hợp cho từng học sinh. Cuối cùng, <strong><em>giao tiếp thường xuyên tăng cường sự hợp tác giữa nhà trường và gia đình.</em></strong> Khi giáo viên và phụ huynh thường xuyên trao đổi thông tin, hai bên có thể cùng giải quyết các vấn đề của học sinh và thống nhất cách hỗ trợ các em.\n\n<strong>Để tiếp tục nâng cao sự kết nối tích cực này, ba giải pháp thiết thực cần được thực hiện.</strong> Giải pháp đầu tiên là <strong><em>nhà trường và giáo viên nên duy trì giao tiếp thường xuyên với phụ huynh.</em></strong> Nhà trường có thể tổ chức các cuộc họp phụ huynh định kỳ và sử dụng email hoặc ứng dụng trực tuyến để cập nhật tình hình học tập của học sinh. Thứ hai, <strong><em>cả giáo viên và phụ huynh cần chia sẻ thông tin rõ ràng và nhanh chóng.</em></strong> Giáo viên nên cung cấp chi tiết cụ thể về kết quả học tập, hành vi và khó khăn, và phụ huynh cũng nên phản hồi sớm khi con gặp vấn đề. Cuối cùng, <strong><em>nhà trường nên tổ chức các hoạt động hợp tác cho phụ huynh và giáo viên.</em></strong> Nhà trường có thể tổ chức các buổi tư vấn, hội thảo hoặc hoạt động chung để giúp giáo viên và phụ huynh hiểu nhau hơn và cùng tìm ra cách tốt để hỗ trợ học sinh.\n\nTóm lại, sự giao tiếp chặt chẽ giữa gia đình và nhà trường mang lại những lợi ích to lớn bằng cách giúp cha mẹ theo sát tiến độ học tập, hỗ trợ giáo viên định hướng học sinh và xây dựng tinh thần hợp tác gắn bó. Bằng cách tổ chức các cuộc họp thường xuyên, chia sẻ thông tin rõ ràng và tổ chức các hội thảo chung, chúng ta có thể tăng cường hơn nữa mối quan hệ này và tạo ra môi trường học tập tốt nhất cho mọi đứa trẻ.",
+          "sample_b2": "In modern education, <strong>communication between schools, teachers, and parents</strong> plays a vital role in fostering students' academic success and personal growth. When educators and families maintain regular dialogue, students receive consistent support both at school and at home. <strong>This essay will discuss three positive effects of effective school-parent communication and suggest three practical solutions to improve it further.</strong>\n\n<strong>On the one hand, strong communication between schools and parents brings numerous significant benefits.</strong> First and foremost, <strong><em>regular communication allows parents to understand their children's academic progress better.</em></strong> Through periodic meetings and online messages, teachers can provide detailed updates on students' test scores, behavior, and classroom performance. As a result, parents can promptly identify learning difficulties and support their children with schoolwork at home. Furthermore, <strong><em>effective dialogue helps teachers gain valuable insights into students' personalities and backgrounds.</em></strong> When parents openly share details about their children's habits, interests, and emotional states at home, teachers obtain a complete picture of each pupil. This enables educators to adapt their teaching methods appropriately and provide timely emotional guidance when students face stress. Lastly, <strong><em>close communication fosters a strong partnership between families and educational institutions.</em></strong> Regular exchanges help parents and educators establish common expectations and consistent rules for student behavior. When both parties collaborate closely, students feel supported and encouraged, which promotes their overall personal development.\n\n<strong>On the other hand, several constructive measures can be taken to enhance home-school communication.</strong> The primary solution is to <strong><em>utilize modern mobile applications and digital platforms.</em></strong> Schools should implement smart communication apps or online portals to send daily updates and announcements directly to parents, making communication much more convenient and time-saving for busy working adults. Second, <strong><em>schools should innovate and improve the quality of parent-teacher conferences.</em></strong> Instead of just reading general scorecards, teachers should schedule one-on-one meetings to discuss each student's specific strengths and weaknesses, while actively listening to parents' constructive feedback to improve school policies. Finally, <strong><em>organizing extracurricular activities can bring teachers, parents, and students closer together.</em></strong> Educational institutions can host sports festivals, weekend charity fairs, or parenting workshops, creating friendly opportunities for educators and parents to understand each other better and build lasting mutual trust.\n\nIn conclusion, effective communication between teachers and parents enhances academic guidance, supports student mental well-being, and solidifies home-school collaboration. By employing digital portals, conducting personalized conferences, and organizing interactive events, schools and families can build an ideal learning environment for young generations.",
+          "translation_b2": "Trong nền giáo dục hiện đại, sự giao tiếp giữa nhà trường, giáo viên và phụ huynh đóng một vai trò thiết yếu trong việc thúc đẩy thành công học tập và sự phát triển cá nhân của học sinh. Khi các nhà giáo dục và gia đình duy trì đối thoại thường xuyên, học sinh sẽ nhận được sự đồng hành nhất quán cả ở trường lẫn ở nhà. Bài viết này sẽ thảo luận về ba tác động tích cực của việc giao tiếp hiệu quả giữa nhà trường và phụ huynh, đồng thời đề xuất ba giải pháp thực tế để cải thiện mối quan hệ này hơn nữa.\n\nMột mặt, sự giao tiếp chặt chẽ giữa nhà trường và cha mẹ mang lại nhiều lợi ích to lớn. Trước hết, việc giao tiếp thường xuyên cho phép phụ huynh hiểu rõ hơn về sự tiến bộ trong học tập của con em mình. Thông qua các cuộc gặp định kỳ và tin nhắn trực tuyến, giáo viên có thể cung cấp các thông tin cập nhật chi tiết về điểm thi, hành vi và sự thể hiện trong lớp của học sinh. Nhờ đó, phụ huynh có thể nhanh chóng phát hiện các khó khăn trong việc học và hỗ trợ con làm bài tập tại nhà. Hơn nữa, việc đối thoại hiệu quả giúp giáo viên có được những hiểu biết sâu sắc và quý giá về tính cách và hoàn cảnh của học sinh. Khi cha mẹ cởi mở chia sẻ về thói quen, sở thích và trạng thái cảm xúc của con ở nhà, giáo viên sẽ có được bức tranh toàn diện về từng học trò. Điều này cho phép thầy cô điều chỉnh phương pháp giảng dạy một cách phù hợp và đưa ra sự định hướng tinh thần kịp thời khi học sinh gặp căng thẳng. Cuối cùng, việc giao tiếp gần gũi xây dựng mối quan hệ đối tác vững chắc giữa gia đình và các tổ chức giáo dục. Sự trao đổi thường xuyên giúp cha mẹ và giáo viên thiết lập các kỳ vọng chung và các quy tắc nhất quán cho hành vi của học sinh. Khi cả hai bên phối hợp chặt chẽ, học sinh cảm thấy được hỗ trợ và khích lệ, điều này thúc đẩy sự phát triển toàn diện của các em.\n\nMặt khác, một số biện pháp mang tính xây dựng có thể được thực hiện để nâng cao sự kết nối giữa gia đình và nhà trường. Giải pháp hàng đầu là tận dụng các ứng dụng di động hiện đại và các nền tảng kỹ thuật số. Nhà trường nên triển khai các ứng dụng thông minh hoặc cổng thông tin trực tuyến để gửi cập nhật và thông báo hằng ngày trực tiếp tới phụ huynh, giúp việc liên lạc trở nên thuận tiện và tiết kiệm thời gian hơn cho những phụ huynh bận rộn. Thứ hai, nhà trường nên đổi mới và nâng cao chất lượng các buổi họp phụ huynh - giáo viên. Thay vì chỉ đọc bảng điểm chung, giáo viên nên lên lịch cho các cuộc gặp riêng một - một để thảo luận về điểm mạnh và điểm yếu cụ thể của từng học sinh, đồng thời tích cực lắng nghe phản hồi mang tính xây dựng của cha mẹ để hoàn thiện các quy định của trường. Cuối cùng, việc tổ chức các hoạt động ngoại khóa có thể mang giáo viên, phụ huynh và học sinh lại gần nhau hơn. Nhà trường có thể tổ chức các ngày hội thể thao, hội chợ từ thiện cuối tuần hoặc các buổi hội thảo dành cho cha mẹ, tạo cơ hội thân thiện để các bên thấu hiểu nhau hơn và xây dựng lòng tin lâu dài lẫn nhau.\n\nTóm lại, sự giao tiếp hiệu quả giữa giáo viên và phụ huynh giúp tăng cường định hướng học tập, hỗ trợ sức khỏe tinh thần của học sinh và củng cố sự phối hợp giữa gia đình và nhà trường. Bằng cách áp dụng các cổng thông tin số, tiến hành các cuộc họp mang tính cá nhân hóa và tổ chức các sự kiện tương tác, nhà trường và gia đình có thể cùng nhau xây dựng môi trường học tập lý tưởng cho thế hệ trẻ.",
+          "vocab_step": {
+            "theme": "Giao tiếp giữa nhà trường, giáo viên và phụ huynh (Communication between Schools, Teachers, and Parents)",
+            "single_words": [
+              {
+                "word": "communicate",
+                "ipa": "/kəˈmjuːnɪkeɪt/",
+                "pos": "verb",
+                "level": "B1",
+                "vi": "giao tiếp, liên lạc",
+                "family": "communication (n), communicative (adj)",
+                "example_en": "Teachers and parents should communicate regularly to help students succeed.",
+                "example_vi": "Giáo viên và phụ huynh nên giao tiếp thường xuyên để giúp học sinh thành công."
+              },
+              {
+                "word": "support",
+                "ipa": "/səˈpɔːt/",
+                "pos": "verb",
+                "level": "B1",
+                "vi": "hỗ trợ, giúp đỡ",
+                "family": "support (n), supportive (adj)",
+                "example_en": "Parents can give timely support when they know their child's difficulties.",
+                "example_vi": "Phụ huynh có thể hỗ trợ kịp thời khi biết được những khó khăn của con."
+              },
+              {
+                "word": "progress",
+                "ipa": "/ˈprəʊɡres/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "tiến độ, sự tiến bộ",
+                "family": "progressive (adj)",
+                "example_en": "Schools send monthly reports to update parents on learning progress.",
+                "example_vi": "Nhà trường gửi báo cáo hằng tháng để cập nhật cho phụ huynh về tiến độ học tập."
+              },
+              {
+                "word": "cooperate",
+                "ipa": "/kəʊˈɒpəreɪt/",
+                "pos": "verb",
+                "level": "B1",
+                "vi": "hợp tác, phối hợp",
+                "family": "cooperation (n), cooperative (adj)",
+                "example_en": "Families and schools need to cooperate to solve bad behavior early.",
+                "example_vi": "Gia đình và nhà trường cần phối hợp để giải quyết hành vi xấu từ sớm."
+              },
+              {
+                "word": "meeting",
+                "ipa": "/ˈmiːtɪŋ/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "cuộc họp",
+                "family": "meet (v)",
+                "example_en": "Attending parent-teacher meetings helps parents understand school life.",
+                "example_vi": "Tham dự các cuộc họp phụ huynh giúp cha mẹ hiểu rõ đời sống học đường."
+              },
+              {
+                "word": "strength",
+                "ipa": "/streŋkθ/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "điểm mạnh",
+                "family": "strengthen (v), strong (adj)",
+                "example_en": "Teachers help students discover their personal strengths in arts and science.",
+                "example_vi": "Giáo viên giúp học sinh khám phá những điểm mạnh cá nhân về nghệ thuật và khoa học."
+              },
+              {
+                "word": "difficulty",
+                "ipa": "/ˈdɪfɪkəlti/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "khó khăn, trở ngại",
+                "family": "difficult (adj)",
+                "example_en": "Sharing learning difficulties with teachers leads to faster solutions.",
+                "example_vi": "Chia sẻ những khó khăn trong học tập với giáo viên giúp tìm ra giải pháp nhanh hơn."
+              },
+              {
+                "word": "update",
+                "ipa": "/ʌpˈdeɪt/",
+                "pos": "verb",
+                "level": "B1",
+                "vi": "cập nhật",
+                "family": "update (n), updated (adj)",
+                "example_en": "Online platforms allow schools to update exam scores instantly.",
+                "example_vi": "Các nền tảng trực tuyến cho phép nhà trường cập nhật điểm thi ngay lập tức."
+              },
+              {
+                "word": "platform",
+                "ipa": "/ˈplætfɔːm/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "nền tảng, ứng dụng",
+                "family": "digital platforms (phr)",
+                "example_en": "Many schools use a mobile platform to message parents directly.",
+                "example_vi": "Nhiều trường học sử dụng nền tảng di động để nhắn tin trực tiếp cho phụ huynh."
+              },
+              {
+                "word": "respond",
+                "ipa": "/rɪˈspɒnd/",
+                "pos": "verb",
+                "level": "B1",
+                "vi": "phản hồi, trả lời",
+                "family": "response (n), responsive (adj)",
+                "example_en": "Parents should respond promptly when teachers ask for a conversation.",
+                "example_vi": "Phụ huynh nên phản hồi nhanh chóng khi giáo viên yêu cầu một cuộc trao đổi."
+              },
+              {
+                "word": "workshop",
+                "ipa": "/ˈwɜːkʃɒp/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "buổi hội thảo thực tế",
+                "family": "work (v/n)",
+                "example_en": "The school organized a parenting workshop on weekend mornings.",
+                "example_vi": "Nhà trường đã tổ chức một buổi hội thảo dành cho phụ huynh vào sáng cuối tuần."
+              },
+              {
+                "word": "suitable",
+                "ipa": "/ˈsuːtəbl/",
+                "pos": "adj",
+                "level": "B1",
+                "vi": "phù hợp, thích hợp",
+                "family": "suit (v), suitability (n)",
+                "example_en": "Finding suitable learning methods helps slow learners gain confidence.",
+                "example_vi": "Tìm kiếm phương pháp học phù hợp giúp học sinh tiếp thu chậm lấy lại tự tin."
+              },
+              {
+                "word": "periodic",
+                "ipa": "/ˌpɪəriˈɒdɪk/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "định kỳ, thường kỳ",
+                "family": "periodically (adv)",
+                "example_en": "Periodic meetings keep parents informed about student performance.",
+                "example_vi": "Các cuộc họp định kỳ giúp phụ huynh nắm bắt kết quả học tập của học sinh."
+              },
+              {
+                "word": "promptly",
+                "ipa": "/ˈprɒmptli/",
+                "pos": "adv",
+                "level": "B2",
+                "vi": "kịp thời, nhanh chóng",
+                "family": "prompt (adj)",
+                "example_en": "Teachers should promptly notify parents if a student misses class.",
+                "example_vi": "Giáo viên nên thông báo kịp thời cho phụ huynh nếu học sinh nghỉ học."
+              },
+              {
+                "word": "insight",
+                "ipa": "/ˈɪnsaɪt/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự thấu hiểu sâu sắc",
+                "family": "insightful (adj)",
+                "example_en": "Parents provide valuable insights into their children's personalities.",
+                "example_vi": "Phụ huynh cung cấp những hiểu biết sâu sắc quý giá về tính cách của con cái."
+              },
+              {
+                "word": "adapt",
+                "ipa": "/əˈdæpt/",
+                "pos": "verb",
+                "level": "B2",
+                "vi": "điều chỉnh, thích nghi",
+                "family": "adaptation (n), adaptable (adj)",
+                "example_en": "Good teachers adapt their lessons to suit different learning styles.",
+                "example_vi": "Giáo viên giỏi điều chỉnh bài giảng để phù hợp với các phong cách học khác nhau."
+              },
+              {
+                "word": "partnership",
+                "ipa": "/ˈpɑːtnəʃɪp/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "mối quan hệ đồng hành, đối tác",
+                "family": "partner (n)",
+                "example_en": "A close partnership between school and home ensures student growth.",
+                "example_vi": "Mối quan hệ đồng hành chặt chẽ giữa nhà trường và gia đình đảm bảo sự phát triển của học sinh."
+              },
+              {
+                "word": "collaborate",
+                "ipa": "/kəˈlæbəreɪt/",
+                "pos": "verb",
+                "level": "B2",
+                "vi": "hợp tác, phối hợp",
+                "family": "collaboration (n), collaborative (adj)",
+                "example_en": "Teachers and parents should collaborate to solve learning difficulties.",
+                "example_vi": "Thầy cô và phụ huynh nên phối hợp để tháo gỡ những khó khăn học tập."
+              },
+              {
+                "word": "portal",
+                "ipa": "/ˈpɔːtl/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "cổng thông tin điện tử",
+                "family": "port (n)",
+                "example_en": "Parents can check grades and attendance via the school's online portal.",
+                "example_vi": "Phụ huynh có thể kiểm tra điểm số và điểm danh qua cổng thông tin trực tuyến của trường."
+              },
+              {
+                "word": "conference",
+                "ipa": "/ˈkɒnfərəns/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "buổi họp, hội nghị",
+                "family": "confer (v)",
+                "example_en": "The annual parent-teacher conference will take place next Friday.",
+                "example_vi": "Hội nghị phụ huynh - giáo viên hằng năm sẽ diễn ra vào thứ Sáu tới."
+              },
+              {
+                "word": "constructive",
+                "ipa": "/kənˈstrʌktɪv/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "mang tính xây dựng",
+                "family": "construct (v), construction (n)",
+                "example_en": "Teachers always welcome constructive feedback from parents.",
+                "example_vi": "Giáo viên luôn hoan nghênh những phản hồi mang tính xây dựng từ phụ huynh."
+              },
+              {
+                "word": "workshop",
+                "ipa": "/ˈwɜːkʃɒp/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "buổi hội thảo chuyên đề",
+                "family": "shop (n)",
+                "example_en": "The school organized a workshop on positive parenting techniques.",
+                "example_vi": "Nhà trường đã tổ chức một buổi hội thảo về các phương pháp nuôi dạy con tích cực."
+              },
+              {
+                "word": "mutual",
+                "ipa": "/ˈmjuːtʃuəl/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "lẫn nhau, hai chiều",
+                "family": "mutually (adv)",
+                "example_en": "Mutual trust is essential for a successful educational partnership.",
+                "example_vi": "Sự tin tưởng lẫn nhau là điều thiết yếu cho một mối quan hệ giáo dục thành công."
+              },
+              {
+                "word": "solidify",
+                "ipa": "/səˈlɪdɪfaɪ/",
+                "pos": "verb",
+                "level": "B2",
+                "vi": "củng cố, làm vững chắc",
+                "family": "solid (adj)",
+                "example_en": "Regular communication helps solidify the bond between teachers and parents.",
+                "example_vi": "Giao tiếp thường xuyên giúp củng cố mối liên kết giữa giáo viên và phụ huynh."
+              }
+            ],
+            "collocation_groups": [
+              {
+                "id": "effects",
+                "name": "Nhóm Collocations: Tác động tích cực & Lợi ích (Positive Effects)",
+                "icon": "🤝",
+                "badge": "Phần Thân bài 1",
+                "items": [
+                  {
+                    "en": "understand their children's studies better",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "hiểu việc học của con tốt hơn",
+                    "example": "Regular meetings help parents understand their children's studies better."
+                  },
+                  {
+                    "en": "regular talks with teachers",
+                    "type": "n.phr",
+                    "level": "B1",
+                    "vi": "những cuộc trao đổi thường xuyên với giáo viên",
+                    "example": "Through regular talks with teachers, families feel more connected."
+                  },
+                  {
+                    "en": "know their children's results and strengths",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "biết kết quả và điểm mạnh của con",
+                    "example": "Parents can know their children's results and strengths promptly."
+                  },
+                  {
+                    "en": "give timely support at home",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "hỗ trợ kịp thời tại nhà",
+                    "example": "Parents can give timely support at home whenever issues occur."
+                  },
+                  {
+                    "en": "understand students' needs and problems",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "hiểu nhu cầu và vấn đề của học sinh",
+                    "example": "Teachers can better understand students' needs and problems."
+                  },
+                  {
+                    "en": "share information about children's habits",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "chia sẻ thông tin về thói quen của con",
+                    "example": "Caregivers share information about children's habits with schools."
+                  },
+                  {
+                    "en": "strengthen the cooperation between schools and families",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "tăng cường sự hợp tác giữa nhà trường và gia đình",
+                    "example": "Open dialogues strengthen the cooperation between schools and families."
+                  },
+                  {
+                    "en": "solve students' problems together",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "cùng nhau giải quyết các vấn đề của học sinh",
+                    "example": "Both sides solve students' problems together effectively."
+                  },
+                  {
+                    "en": "comprehensive insights into academic trajectory",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "vi": "cái nhìn toàn diện về quá trình phát triển học tập",
+                    "example": "Dialogue provides comprehensive insights into academic trajectory."
+                  },
+                  {
+                    "en": "frequent interaction with educators",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "vi": "sự tương tác thường xuyên với các nhà giáo dục",
+                    "example": "Frequent interaction with educators ensures consistent pastoral monitoring."
+                  },
+                  {
+                    "en": "evaluate academic strengths and weaknesses",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "đánh giá chuẩn xác điểm mạnh và điểm yếu học thuật",
+                    "example": "Constructive reports help evaluate academic strengths and weaknesses."
+                  },
+                  {
+                    "en": "facilitate timely and constructive intervention",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "tạo điều kiện cho sự can thiệp kịp thời và hữu ích",
+                    "example": "Early notices facilitate timely and constructive intervention at home."
+                  },
+                  {
+                    "en": "comprehend individual learning needs",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "thấu hiểu các nhu cầu học tập mang tính cá nhân",
+                    "example": "Instructors comprehend individual learning needs through parental input."
+                  },
+                  {
+                    "en": "adapt pedagogical approaches",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "điều chỉnh linh hoạt các phương pháp sư phạm",
+                    "example": "Teachers adapt pedagogical approaches to match students' emotional profiles."
+                  },
+                  {
+                    "en": "consolidate home-school partnerships",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "củng cố mối quan hệ đồng hành gia đình - nhà trường",
+                    "example": "Regular interaction helps consolidate home-school partnerships firmly."
+                  },
+                  {
+                    "en": "establish aligned expectations",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "thiết lập những kỳ vọng giáo dục tương đồng",
+                    "example": "Mentors and guardians establish aligned expectations for pupil development."
+                  }
+                ]
+              },
+              {
+                "id": "solutions",
+                "name": "Nhóm Collocations: Giải pháp nâng cao hiệu quả (Solutions to Improve)",
+                "icon": "💡",
+                "badge": "Phần Thân bài 2",
+                "items": [
+                  {
+                    "en": "maintain regular communication",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "duy trì giao tiếp thường xuyên",
+                    "example": "Schools should maintain regular communication with all families."
+                  },
+                  {
+                    "en": "organize regular parent-teacher meetings",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "tổ chức các cuộc họp phụ huynh định kỳ",
+                    "example": "Staff organize regular parent-teacher meetings each semester."
+                  },
+                  {
+                    "en": "use emails or online apps",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "sử dụng email hoặc ứng dụng trực tuyến",
+                    "example": "It is convenient to use emails or online apps for quick notices."
+                  },
+                  {
+                    "en": "update students' learning progress",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "cập nhật tiến độ học tập của học sinh",
+                    "example": "Teachers update students' learning progress weekly on the web."
+                  },
+                  {
+                    "en": "share information clearly and quickly",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "chia sẻ thông tin rõ ràng và nhanh chóng",
+                    "example": "Both sides must share information clearly and quickly."
+                  },
+                  {
+                    "en": "give specific details about grades and behavior",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "cung cấp chi tiết cụ thể về điểm số và hành vi",
+                    "example": "Teachers give specific details about grades and behavior in class."
+                  },
+                  {
+                    "en": "respond early when children face problems",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "phản hồi sớm khi con gặp vấn đề",
+                    "example": "Parents should respond early when children face problems at school."
+                  },
+                  {
+                    "en": "organize cooperative activities",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "tổ chức các hoạt động hợp tác chung",
+                    "example": "Schools can organize cooperative activities to bring people together."
+                  },
+                  {
+                    "en": "institutionalized channels of interaction",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "vi": "các kênh tương tác mang tính quy chuẩn thể chế",
+                    "example": "Institutions must build institutionalized channels of interaction."
+                  },
+                  {
+                    "en": "structured parent-teacher conferences",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "vi": "các hội nghị phụ huynh - giáo viên bài bản",
+                    "example": "Structured parent-teacher conferences foster professional dialogue."
+                  },
+                  {
+                    "en": "modern mobile applications and student portals",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "vi": "ứng dụng di động hiện đại và cổng thông tin học sinh",
+                    "example": "Deploying modern mobile applications and student portals improves access."
+                  },
+                  {
+                    "en": "seamless real-time academic updates",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "vi": "cập nhật kết quả học tập tức thời và liền mạch",
+                    "example": "Digital portals offer seamless real-time academic updates for parents."
+                  },
+                  {
+                    "en": "ensure transparent and prompt information dissemination",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "bảo đảm sự truyền tải thông tin minh bạch và kịp thời",
+                    "example": "Departments ensure transparent and prompt information dissemination."
+                  },
+                  {
+                    "en": "provide concrete, objective feedback",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "đưa ra phản hồi cụ thể và mang tính khách quan",
+                    "example": "Mentors provide concrete, objective feedback on student competencies."
+                  },
+                  {
+                    "en": "actively reciprocate with prompt responses",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "chủ động đáp lại bằng các phản hồi nhanh chóng",
+                    "example": "Guardians actively reciprocate with prompt responses during crises."
+                  },
+                  {
+                    "en": "collaborative workshops and orientation seminars",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "vi": "các hội thảo phối hợp và tọa đàm định hướng",
+                    "example": "Schools organize collaborative workshops and orientation seminars regularly."
+                  }
+                ]
+              }
+            ]
+          }
+        }
       },
       {
         "id": 47,
@@ -30997,10 +30997,2146 @@ const ESSAY_DATA = [
         "id": 49,
         "title_en": "Working from home – effects on parent–child relationships",
         "title_vi": "Làm việc tại nhà – tác động đến mối quan hệ giữa cha mẹ và con cái",
-        "tags": "[Effects]",
+        "tags": "[Effects] / [3 Cách tiếp cận]",
         "context": "Working from home has become increasingly common due to advances in technology and changes in working practices. Many employees can now perform their jobs from home instead of commuting to a traditional workplace. While this arrangement offers greater flexibility and convenience, it can also influence family life in various ways, particularly the relationship between parents and their children.",
         "prompt": "Write an essay to an educated reader to discuss the effects of working from home on parent–child relationships. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "paraphrases": [
+          {
+            "en": "working from home",
+            "vi": "làm việc tại nhà"
+          },
+          {
+            "en": "remote working and telecommuting",
+            "vi": "làm việc từ xa"
+          },
+          {
+            "en": "parent–child relationships",
+            "vi": "mối quan hệ giữa cha mẹ và con cái"
+          },
+          {
+            "en": "family bonds and child development",
+            "vi": "sự gắn kết gia đình và sự phát triển của trẻ"
+          }
+        ],
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "POSITIVE EFFECT 01",
+                "point_vi": "Làm việc tại nhà giúp cha mẹ hỗ trợ việc học của con hiệu quả hơn.",
+                "point_en": "First, working from home helps parents support their children's studies more effectively.",
+                "evidence_vi": "Cha mẹ có thể giúp con làm bài tập khi con cần và theo dõi việc học của con thường xuyên hơn. Nhờ đó, họ có thể phát hiện sớm những khó khăn của con ở trường để giúp con tiến bộ.",
+                "evidence_en": "Parents can help their children with homework when needed and monitor their studies more regularly. As a result, they can quickly notice their children's difficulties at school to help them improve.",
+                "collocations": [
+                  {
+                    "en": "support their children's studies",
+                    "vi": "hỗ trợ việc học của con"
+                  },
+                  {
+                    "en": "help with homework",
+                    "vi": "giúp làm bài tập về nhà"
+                  },
+                  {
+                    "en": "monitor studies regularly",
+                    "vi": "theo dõi việc học thường xuyên"
+                  },
+                  {
+                    "en": "improve school results",
+                    "vi": "cải thiện kết quả học tập"
+                  }
+                ]
+              },
+              {
+                "title": "POSITIVE EFFECT 02",
+                "point_vi": "Làm việc tại nhà giúp cha mẹ hiểu rõ hơn về thói quen và hành vi của con.",
+                "point_en": "Second, working from home allows parents to understand their children's habits and behavior better.",
+                "evidence_vi": "Cha mẹ có thể quan sát cách con học tập và sinh hoạt ở nhà mỗi ngày. Khi nhận ra những thay đổi trong hành vi của con, họ có thể đưa ra lời khuyên và hỗ trợ phù hợp.",
+                "evidence_en": "Parents can observe how their children study and live at home every day. When they notice changes in behavior, they can offer useful advice and suitable support.",
+                "collocations": [
+                  {
+                    "en": "understand children's habits",
+                    "vi": "hiểu thói quen của con"
+                  },
+                  {
+                    "en": "observe daily activities",
+                    "vi": "quan sát các hoạt động hằng ngày"
+                  },
+                  {
+                    "en": "changes in behavior",
+                    "vi": "những thay đổi trong hành vi"
+                  },
+                  {
+                    "en": "give suitable advice",
+                    "vi": "đưa ra lời khuyên phù hợp"
+                  }
+                ]
+              },
+              {
+                "title": "POSITIVE EFFECT 03",
+                "point_vi": "Làm việc tại nhà giúp trẻ cảm thấy an toàn và được cha mẹ quan tâm hơn.",
+                "point_en": "Finally, working from home makes children feel safer and more cared for.",
+                "evidence_vi": "Trẻ biết rằng cha mẹ luôn ở gần khi mình cần giúp đỡ, nên các em dễ dàng chia sẻ những lo lắng hoặc vấn đề của mình. Điều này giúp trẻ cảm thấy tự tin và yên tâm hơn.",
+                "evidence_en": "Children know that their parents are always nearby when they need help, so they can easily share their worries or problems. This helps children feel more confident and secure.",
+                "collocations": [
+                  {
+                    "en": "feel safer and more cared for",
+                    "vi": "cảm thấy an toàn và được quan tâm hơn"
+                  },
+                  {
+                    "en": "always nearby",
+                    "vi": "luôn ở gần bên"
+                  },
+                  {
+                    "en": "share worries and problems",
+                    "vi": "chia sẻ lo lắng và vấn đề"
+                  },
+                  {
+                    "en": "feel more confident",
+                    "vi": "cảm thấy tự tin hơn"
+                  }
+                ]
+              }
+            ]
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "POSITIVE EFFECT 01",
+                "point_vi": "Làm việc tại nhà giúp cha mẹ hỗ trợ việc học của con hiệu quả và kịp thời hơn.",
+                "point_en": "First and foremost, working from home enables parents to support their children's education much more effectively.",
+                "evidence_vi": "• Luận cứ 1: Cha mẹ có thể ở cạnh để hướng dẫn con làm các bài tập khó và giải đáp thắc mắc ngay khi con cần.\n• Luận cứ 2: Đồng thời, việc theo dõi thói quen học tập hằng ngày giúp phụ huynh sớm phát hiện các môn học con còn yếu để cùng con khắc phục.",
+                "evidence_en": "• Evidence 1: Parents are available at home to guide children through difficult assignments and answer academic questions immediately.\n• Evidence 2: At the same time, monitoring daily study routines allows parents to identify subjects where their children struggle early on.",
+                "collocations": [
+                  {
+                    "en": "support children's education",
+                    "vi": "hỗ trợ việc học của con"
+                  },
+                  {
+                    "en": "guide difficult assignments",
+                    "vi": "hướng dẫn các bài tập khó"
+                  },
+                  {
+                    "en": "monitor study routines",
+                    "vi": "theo dõi nề nếp học tập"
+                  },
+                  {
+                    "en": "identify learning struggles",
+                    "vi": "nhận diện những khó khăn học tập"
+                  }
+                ]
+              },
+              {
+                "title": "POSITIVE EFFECT 02",
+                "point_vi": "Làm việc tại nhà tạo điều kiện để cha mẹ thấu hiểu sâu sắc thói quen và tính cách của con.",
+                "point_en": "Furthermore, telecommuting provides parents with deeper insights into their children's daily habits and behavioral patterns.",
+                "evidence_vi": "• Luận cứ 1: Nhờ dành nhiều thời gian ở nhà, cha mẹ có thể trực tiếp quan sát cách con tự học, vui chơi và tương tác với bạn bè.\n• Luận cứ 2: Khi nhận thấy những thay đổi bất thường về tâm lý hoặc hành vi, phụ huynh có thể đưa ra những lời khuyên tích cực và định hướng kịp thời.",
+                "evidence_en": "• Evidence 1: By spending more time at home, parents can directly observe how their children study, play, and interact with peers.\n• Evidence 2: When noticing unusual emotional or behavioral shifts, caregivers can provide timely advice and positive guidance.",
+                "collocations": [
+                  {
+                    "en": "deeper insights into habits",
+                    "vi": "hiểu biết sâu sắc hơn về thói quen"
+                  },
+                  {
+                    "en": "behavioral patterns",
+                    "vi": "các khuôn mẫu hành vi"
+                  },
+                  {
+                    "en": "directly observe",
+                    "vi": "quan sát trực tiếp"
+                  },
+                  {
+                    "en": "positive guidance",
+                    "vi": "sự định hướng tích cực"
+                  }
+                ]
+              },
+              {
+                "title": "POSITIVE EFFECT 03",
+                "point_vi": "Sự hiện diện thường xuyên của cha mẹ mang lại cho trẻ cảm giác an toàn và được yêu thương.",
+                "point_en": "Lastly, parents' presence at home fosters a strong sense of emotional security and comfort for children.",
+                "evidence_vi": "• Luận cứ 1: Con trẻ luôn cảm thấy an tâm vì biết rằng cha mẹ luôn ở gần và sẵn sàng lắng nghe mỗi khi các em cần sự giúp đỡ.\n• Luận cứ 2: Sự gần gũi này khuyến khích trẻ thoải mái tâm sự những khó khăn cá nhân, từ đó xây dựng sự tự tin và củng cố tình cảm gia đình.",
+                "evidence_en": "• Evidence 1: Youngsters feel secure knowing that their parents are accessible and ready to listen whenever they need assistance.\n• Evidence 2: This close connection encourages kids to open up about personal challenges, which enhances self-confidence and strengthens family bonds.",
+                "collocations": [
+                  {
+                    "en": "emotional security",
+                    "vi": "sự an toàn về mặt cảm xúc"
+                  },
+                  {
+                    "en": "parents are accessible",
+                    "vi": "cha mẹ luôn ở gần, dễ tiếp cận"
+                  },
+                  {
+                    "en": "open up about challenges",
+                    "vi": "mở lòng về những thử thách"
+                  },
+                  {
+                    "en": "strengthen family bonds",
+                    "vi": "thắt chặt tình cảm gia đình"
+                  }
+                ]
+              }
+            ]
+          },
+          "sample_b1": "In modern life, <strong>working from home</strong> has become increasingly popular in many countries. With modern technology and computers, many employees do not need to commute to physical offices every day. This new working style brings many changes to family life, especially the relationship between parents and their children. <strong>This essay will discuss three positive effects of working from home on parent–child relationships.</strong>\n\n<strong>To begin with, working remotely helps parents support their children's studies more effectively.</strong> In fact, parents are at home to help their kids with difficult homework whenever they need support. In addition, they can monitor their children's daily study habits more regularly. As a result, parents can promptly discover their children's learning difficulties at school and help them improve their school results.\n\n<strong>Another positive impact is that working from home allows parents to understand their children's habits and behavior better.</strong> When parents spend their working days at home, they can observe how their children study, play, and live throughout the day. Therefore, if they notice any changes in mood or behavior, they can talk to their children and give suitable advice. This helps parents guide their children in a friendly and understanding way.\n\n<strong>Finally, parents' presence at home makes children feel safer and more cared for.</strong> Children always feel secure when they know that their parents are nearby to help them. Furthermore, it becomes much easier for children to share their daily worries and problems with their parents. Consequently, this close relationship helps children feel more confident and happy in their daily lives.\n\nIn conclusion, working from home brings several wonderful benefits to family relationships. It allows parents to assist with education, understand their children's habits, and provide emotional security. Therefore, home-based working can significantly improve parent–child bonds.",
+          "translation_b1": "Trong đời sống hiện đại, làm việc tại nhà đã trở nên ngày càng phổ biến ở nhiều quốc gia. Cùng với công nghệ hiện đại và máy tính, nhiều nhân viên không cần phải đi lại đến văn phòng mỗi ngày. Phong cách làm việc mới này mang lại nhiều thay đổi cho cuộc sống gia đình, đặc biệt là mối quan hệ giữa cha mẹ và con cái. Bài viết này sẽ thảo luận về ba tác động tích cực của việc làm việc tại nhà đối với mối quan hệ giữa cha mẹ và con cái.\n\nTrước hết, làm việc từ xa giúp cha mẹ hỗ trợ việc học của con hiệu quả hơn. Trên thực tế, cha mẹ có mặt ở nhà để giúp con làm các bài tập khó bất cứ khi nào con cần hỗ trợ. Thêm vào đó, họ có thể theo dõi thói quen học tập hằng ngày của con thường xuyên hơn. Kết quả là cha mẹ có thể phát hiện kịp thời những khó khăn trong học tập của con ở trường và giúp con cải thiện kết quả học tập.\n\nMột tác động tích cực khác là làm việc tại nhà giúp cha mẹ hiểu rõ hơn về thói quen và hành vi của con. Khi cha mẹ dành ngày làm việc ở nhà, họ có thể quan sát cách con học tập, vui chơi và sinh hoạt trong suốt cả ngày. Vì vậy, nếu nhận thấy bất kỳ thay đổi nào trong tâm trạng hoặc hành vi, họ có thể trò chuyện với con và đưa ra lời khuyên phù hợp. Điều này giúp cha mẹ định hướng cho con một cách gần gũi và thấu hiểu.\n\nCuối cùng, sự hiện diện của cha mẹ ở nhà giúp trẻ cảm thấy an toàn và được quan tâm nhiều hơn. Trẻ nhỏ luôn cảm thấy yên tâm khi biết rằng cha mẹ đang ở gần bên để giúp đỡ mình. Hơn nữa, trẻ cũng dễ dàng chia sẻ những lo lắng và vấn đề hằng ngày với cha mẹ hơn. Do đó, mối quan hệ gần gũi này giúp trẻ cảm thấy tự tin và hạnh phúc hơn trong cuộc sống thường nhật.\n\nTóm lại, làm việc tại nhà mang lại nhiều lợi ích tuyệt vời cho các mối quan hệ gia đình. Nó cho phép cha mẹ hỗ trợ giáo dục, thấu hiểu thói quen của con và mang lại sự an toàn về mặt cảm xúc. Vì vậy, làm việc tại nhà có thể cải thiện đáng kể sự gắn kết giữa cha mẹ và con cái.",
+          "sample_b2": "In contemporary society, <strong>working from home</strong> has emerged as a prevalent working model thanks to advancements in digital technology. By eliminating daily commuting, remote working allows parents to spend more time within the domestic environment. While this shift reshapes family routines in various ways, its constructive influence on parent–child connections is particularly noteworthy. <strong>This essay will examine three significant positive effects of working from home on parent–child relationships.</strong>\n\n<strong>First and foremost, working from home enables parents to support their children's education much more effectively.</strong> Being physically present at home allows parents to assist with challenging school assignments and answer academic queries immediately. Furthermore, supervising daily study habits on a regular basis helps parents promptly detect learning obstacles that children encounter in the classroom. Consequently, parents can collaborate with teachers to provide timely academic support, fostering better learning outcomes and school engagement.\n\n<strong>Furthermore, telecommuting provides parents with deeper insights into their children's daily habits and behavioral patterns.</strong> Spending working hours at home offers caregivers valuable opportunities to observe how their children study, relax, and interact with peers. When noticing unusual behavioral shifts or emotional stress, parents can initiate open conversations and offer practical, empathetic advice. This continuous observation bridges generation gaps and cultivates mutual understanding between family members.\n\n<strong>Lastly, parents' regular presence at home fosters a strong sense of emotional security and comfort for children.</strong> Youngsters naturally feel reassured knowing that their caregivers are accessible whenever they need comfort or assistance. As a result, children are more inclined to share their personal struggles, fears, and aspirations without hesitation. This emotional closeness boosts children's self-confidence and solidifies lifelong family bonds.\n\nIn conclusion, working from home exerts profoundly positive impacts on the parent–child dynamic. It facilitates academic assistance, enriches parents' understanding of their children's development, and nurtures emotional well-being. Therefore, adopting flexible working arrangements can serve as an effective way to strengthen modern family relationships.",
+          "translation_b2": "Trong xã hội đương đại, làm việc tại nhà đã nổi lên như một mô hình làm việc phổ biến nhờ vào những tiến bộ trong công nghệ kỹ thuật số. Bằng cách loại bỏ việc đi lại hằng ngày, làm việc từ xa cho phép các bậc cha mẹ dành nhiều thời gian hơn trong môi trường gia đình. Mặc dù sự thay đổi này định hình lại các sinh hoạt gia đình theo nhiều cách, nhưng ảnh hưởng tích cực của nó đối với sự gắn kết giữa cha mẹ và con cái là đặc biệt đáng chú ý. Bài viết này sẽ phân tích ba tác động tích cực đáng kể của việc làm việc tại nhà đối với mối quan hệ giữa cha mẹ và con cái.\n\nTrước hết, làm việc tại nhà tạo điều kiện cho cha mẹ hỗ trợ việc học tập của con em mình hiệu quả hơn rất nhiều. Sự hiện diện tại nhà giúp phụ huynh có thể trợ giúp các bài tập khó ở trường và giải đáp các thắc mắc học tập ngay lập tức. Hơn nữa, việc giám sát nề nếp học tập hằng ngày một cách thường xuyên giúp cha mẹ sớm nhận diện các rào cản học tập mà con gặp phải trên lớp. Do đó, cha mẹ có thể phối hợp với thầy cô để hỗ trợ học tập kịp thời, thúc đẩy kết quả học tập tốt hơn và nâng cao tinh thần học tập của con.\n\nThêm vào đó, làm việc từ xa mang lại cho các bậc cha mẹ những hiểu biết sâu sắc hơn về thói quen sinh hoạt và hành vi thường ngày của con. Dành thời gian làm việc tại nhà mang lại cơ hội quý báu để người chăm sóc quan sát cách con học tập, thư giãn và giao tiếp với bạn bè. Khi nhận thấy những thay đổi bất thường về hành vi hoặc áp lực tâm lý, cha mẹ có thể chủ động trò chuyện cởi mở và đưa ra những lời khuyên thực tế, đầy thấu cảm. Sự quan sát liên tục này giúp xóa bỏ khoảng cách thế hệ và nuôi dưỡng sự thấu hiểu lẫn nhau giữa các thành viên trong gia đình.\n\nCuối cùng, sự hiện diện thường xuyên của cha mẹ tại nhà mang lại cảm giác an toàn và thoải mái vững chắc về mặt cảm xúc cho con trẻ. Trẻ nhỏ tự nhiên sẽ cảm thấy yên tâm khi biết rằng cha mẹ luôn ở gần mỗi khi các em cần sự an ủi hoặc hỗ trợ. Nhờ đó, trẻ có xu hướng cởi mở chia sẻ những khó khăn, nỗi sợ và ước mơ cá nhân mà không hề do dự. Sự gắn kết cảm xúc này củng cố sự tự tin của trẻ và thắt chặt tình cảm gia đình bền vững suốt đời.\n\nTóm lại, làm việc tại nhà mang lại những tác động tích cực sâu sắc đối với mối quan hệ giữa cha mẹ và con cái. Nó tạo điều kiện thuận lợi cho việc hỗ trợ học tập, làm phong phú sự thấu hiểu của cha mẹ về sự phát triển của con và nuôi dưỡng sức khỏe tinh thần. Vì vậy, áp dụng các chế độ làm việc linh hoạt có thể là một phương thức hiệu quả để củng cố các mối quan hệ gia đình trong thời đại mới.",
+          "vocab_step": {
+            "theme": "Làm việc tại nhà và tác động tích cực đến gia đình (WFH - Positive Effects)",
+            "single_words": [
+              {
+                "word": "homework",
+                "ipa": "/ˈhəʊmwɜːk/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "bài tập về nhà",
+                "family": "schoolwork (n)",
+                "example_en": "Parents can help kids with homework in the evening.",
+                "example_vi": "Cha mẹ có thể giúp con làm bài tập về nhà vào buổi tối."
+              },
+              {
+                "word": "monitor",
+                "ipa": "/ˈmɒnɪtə/",
+                "pos": "verb",
+                "level": "B1",
+                "vi": "theo dõi, giám sát",
+                "family": "monitoring (n)",
+                "example_en": "Parents should monitor how much time kids spend online.",
+                "example_vi": "Cha mẹ nên theo dõi xem con dành bao nhiêu thời gian trên mạng."
+              },
+              {
+                "word": "observe",
+                "ipa": "/əbˈzɜːv/",
+                "pos": "verb",
+                "level": "B1",
+                "vi": "quan sát",
+                "family": "observation (n)",
+                "example_en": "You can observe how your children interact with their friends.",
+                "example_vi": "Bạn có thể quan sát cách con mình giao tiếp với bạn bè."
+              },
+              {
+                "word": "behavior",
+                "ipa": "/bɪˈheɪvjə/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "hành vi, cách ứng xử",
+                "family": "behave (v)",
+                "example_en": "Good communication improves children's behavior.",
+                "example_vi": "Giao tiếp tốt giúp cải thiện hành vi của trẻ."
+              },
+              {
+                "word": "advice",
+                "ipa": "/ədˈvaɪs/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "lời khuyên",
+                "family": "advise (v)",
+                "example_en": "Parents give useful advice to help their kids.",
+                "example_vi": "Cha mẹ đưa ra những lời khuyên hữu ích để giúp con cái."
+              },
+              {
+                "word": "nearby",
+                "ipa": "/ˌnɪəˈbaɪ/",
+                "pos": "adj/adv",
+                "level": "B1",
+                "vi": "ở gần bên",
+                "family": "near (prep)",
+                "example_en": "Children feel safe when parents are nearby.",
+                "example_vi": "Trẻ cảm thấy an toàn khi cha mẹ ở gần bên."
+              },
+              {
+                "word": "confident",
+                "ipa": "/ˈkɒnfɪdənt/",
+                "pos": "adj",
+                "level": "B1",
+                "vi": "tự tin",
+                "family": "confidence (n)",
+                "example_en": "Praise makes children more confident in their abilities.",
+                "example_vi": "Lời khen ngợi giúp trẻ tự tin hơn vào khả năng của mình."
+              },
+              {
+                "word": "share",
+                "ipa": "/ʃeə/",
+                "pos": "verb",
+                "level": "B1",
+                "vi": "chia sẻ, tâm sự",
+                "family": "sharing (n)",
+                "example_en": "Teenagers should share their worries with their family.",
+                "example_vi": "Thanh thiếu niên nên chia sẻ những lo lắng của mình với gia đình."
+              },
+              {
+                "word": "support",
+                "ipa": "/səˈpɔːt/",
+                "pos": "verb/noun",
+                "level": "B1",
+                "vi": "hỗ trợ, ủng hộ",
+                "family": "supportive (adj)",
+                "example_en": "Parents always support their children through hard times.",
+                "example_vi": "Cha mẹ luôn hỗ trợ con cái vượt qua những giai đoạn khó khăn."
+              },
+              {
+                "word": "habit",
+                "ipa": "/ˈhæbɪt/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "thói quen",
+                "family": "habitual (adj)",
+                "example_en": "Reading books every day is a wonderful habit.",
+                "example_vi": "Đọc sách mỗi ngày là một thói quen tuyệt vời."
+              },
+              {
+                "word": "improve",
+                "ipa": "/ɪmˈpruːv/",
+                "pos": "verb",
+                "level": "B1",
+                "vi": "cải thiện, tiến bộ",
+                "family": "improvement (n)",
+                "example_en": "Working together helps improve family relationships.",
+                "example_vi": "Hợp tác cùng nhau giúp cải thiện mối quan hệ gia đình."
+              },
+              {
+                "word": "secure",
+                "ipa": "/sɪˈkjʊə/",
+                "pos": "adj",
+                "level": "B1",
+                "vi": "an tâm, vững tâm",
+                "family": "security (n)",
+                "example_en": "A warm home makes kids feel secure and loved.",
+                "example_vi": "Một mái ấm ấm áp giúp trẻ cảm thấy yên tâm và được yêu thương."
+              },
+              {
+                "word": "telecommuting",
+                "ipa": "/ˌtelikəˈmjuːtɪŋ/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "làm việc từ xa",
+                "family": "telecommute (v)",
+                "example_en": "Telecommuting allows employees to spend more time with family.",
+                "example_vi": "Làm việc từ xa cho phép nhân viên dành nhiều thời gian hơn cho gia đình."
+              },
+              {
+                "word": "accessible",
+                "ipa": "/əkˈsesəbl/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "dễ tiếp cận, luôn sẵn sàng",
+                "family": "access (n/v)",
+                "example_en": "Parents who work from home are more accessible to their children.",
+                "example_vi": "Cha mẹ làm việc tại nhà thì luôn gần gũi và dễ tiếp cận đối với con cái."
+              },
+              {
+                "word": "routine",
+                "ipa": "/ruːˈtiːn/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "nề nếp, lịch trình quen thuộc",
+                "family": "routinely (adv)",
+                "example_en": "Establishing a regular study routine helps kids succeed.",
+                "example_vi": "Thiết lập nề nếp học tập đều đặn giúp trẻ em thành công."
+              },
+              {
+                "word": "empathetic",
+                "ipa": "/ˌempəˈθetɪk/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "đồng cảm, thấu cảm",
+                "family": "empathy (n)",
+                "example_en": "Caregivers should offer empathetic advice to troubled teens.",
+                "example_vi": "Người chăm sóc nên đưa ra lời khuyên đầy thấu cảm cho thanh thiếu niên đang gặp khó khăn."
+              },
+              {
+                "word": "supervise",
+                "ipa": "/ˈsuːpəvaɪz/",
+                "pos": "verb",
+                "level": "B2",
+                "vi": "giám sát, quản lý",
+                "family": "supervision (n)",
+                "example_en": "Parents can supervise homework sessions directly at home.",
+                "example_vi": "Cha mẹ có thể trực tiếp giám sát các buổi làm bài tập tại nhà."
+              },
+              {
+                "word": "promptly",
+                "ipa": "/ˈprɒmptli/",
+                "pos": "adv",
+                "level": "B2",
+                "vi": "kịp thời, ngay lập tức",
+                "family": "prompt (adj)",
+                "example_en": "Teachers promptly inform parents of student achievements.",
+                "example_vi": "Giáo viên kịp thời thông báo cho phụ huynh về thành tích của học sinh."
+              },
+              {
+                "word": "reassure",
+                "ipa": "/ˌriːəˈʃʊə/",
+                "pos": "verb",
+                "level": "B2",
+                "vi": "trấn an, làm yên lòng",
+                "family": "reassurance (n)",
+                "example_en": "Parents can reassure nervous children before important exams.",
+                "example_vi": "Cha mẹ có thể trấn an những đứa trẻ đang lo lắng trước các kỳ thi quan trọng."
+              },
+              {
+                "word": "insight",
+                "ipa": "/ˈɪnsaɪt/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự thấu hiểu sâu sắc",
+                "family": "insightful (adj)",
+                "example_en": "Daily observation gives parents insights into children's talents.",
+                "example_vi": "Sự quan sát hằng ngày mang lại cho cha mẹ những hiểu biết sâu sắc về năng khiếu của con."
+              },
+              {
+                "word": "engagement",
+                "ipa": "/ɪnˈɡeɪdʒmənt/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự gắn kết, hứng thú tham gia",
+                "family": "engage (v)",
+                "example_en": "Parental involvement boosts children's school engagement.",
+                "example_vi": "Sự tham gia của cha mẹ thúc đẩy sự hứng thú học tập của trẻ ở trường."
+              },
+              {
+                "word": "solidify",
+                "ipa": "/səˈlɪdɪfaɪ/",
+                "pos": "verb",
+                "level": "B2",
+                "vi": "củng cố, thắt chặt",
+                "family": "solid (adj)",
+                "example_en": "Shared meals help solidify positive family relationships.",
+                "example_vi": "Những bữa ăn chung giúp củng cố các mối quan hệ gia đình tích cực."
+              },
+              {
+                "word": "aspiration",
+                "ipa": "/ˌæspəˈreɪʃn/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "nguyện vọng, ước mơ",
+                "family": "aspire (v)",
+                "example_en": "Parents should encourage their children's career aspirations.",
+                "example_vi": "Cha mẹ nên khuyến khích những ước mơ nghề nghiệp của con cái."
+              },
+              {
+                "word": "bond",
+                "ipa": "/bɒnd/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự gắn kết, tình cảm khăng khít",
+                "family": "bonding (n)",
+                "example_en": "Spending quality time together strengthens the parental bond.",
+                "example_vi": "Dành thời gian chất lượng bên nhau giúp thắt chặt tình cảm phụ tử/mẫu tử."
+              }
+            ]
+          },
+          "vocab": [
+            {
+              "en": "homework",
+              "vi": "bài tập về nhà"
+            },
+            {
+              "en": "monitor",
+              "vi": "theo dõi, giám sát"
+            },
+            {
+              "en": "observe",
+              "vi": "quan sát"
+            },
+            {
+              "en": "behavior",
+              "vi": "hành vi, cách ứng xử"
+            },
+            {
+              "en": "advice",
+              "vi": "lời khuyên"
+            },
+            {
+              "en": "nearby",
+              "vi": "ở gần bên"
+            },
+            {
+              "en": "confident",
+              "vi": "tự tin"
+            },
+            {
+              "en": "share",
+              "vi": "chia sẻ, tâm sự"
+            },
+            {
+              "en": "support",
+              "vi": "hỗ trợ, ủng hộ"
+            },
+            {
+              "en": "habit",
+              "vi": "thói quen"
+            },
+            {
+              "en": "improve",
+              "vi": "cải thiện, tiến bộ"
+            },
+            {
+              "en": "secure",
+              "vi": "an tâm, vững tâm"
+            },
+            {
+              "en": "telecommuting",
+              "vi": "làm việc từ xa"
+            },
+            {
+              "en": "accessible",
+              "vi": "dễ tiếp cận, luôn sẵn sàng"
+            },
+            {
+              "en": "routine",
+              "vi": "nề nếp, lịch trình quen thuộc"
+            },
+            {
+              "en": "empathetic",
+              "vi": "đồng cảm, thấu cảm"
+            },
+            {
+              "en": "supervise",
+              "vi": "giám sát, quản lý"
+            },
+            {
+              "en": "promptly",
+              "vi": "kịp thời, ngay lập tức"
+            },
+            {
+              "en": "reassure",
+              "vi": "trấn an, làm yên lòng"
+            },
+            {
+              "en": "insight",
+              "vi": "sự thấu hiểu sâu sắc"
+            },
+            {
+              "en": "engagement",
+              "vi": "sự gắn kết, hứng thú tham gia"
+            },
+            {
+              "en": "solidify",
+              "vi": "củng cố, thắt chặt"
+            },
+            {
+              "en": "aspiration",
+              "vi": "nguyện vọng, ước mơ"
+            },
+            {
+              "en": "bond",
+              "vi": "sự gắn kết, tình cảm khăng khít"
+            }
+          ]
+        },
+        "approaches": [
+          {
+            "name": "CÁCH 01: 3 ẢNH HƯỞNG TÍCH CỰC",
+            "tags": "[3 Positive Effects]",
+            "paraphrases": [
+              {
+                "en": "working from home",
+                "vi": "làm việc tại nhà"
+              },
+              {
+                "en": "remote working and telecommuting",
+                "vi": "làm việc từ xa"
+              },
+              {
+                "en": "parent–child relationships",
+                "vi": "mối quan hệ giữa cha mẹ và con cái"
+              },
+              {
+                "en": "family bonds and child development",
+                "vi": "sự gắn kết gia đình và sự phát triển của trẻ"
+              }
+            ],
+            "details": {
+              "ideas_b1": {
+                "benefits": [
+                  {
+                    "title": "POSITIVE EFFECT 01",
+                    "point_vi": "Làm việc tại nhà giúp cha mẹ hỗ trợ việc học của con hiệu quả hơn.",
+                    "point_en": "First, working from home helps parents support their children's studies more effectively.",
+                    "evidence_vi": "Cha mẹ có thể giúp con làm bài tập khi con cần và theo dõi việc học của con thường xuyên hơn. Nhờ đó, họ có thể phát hiện sớm những khó khăn của con ở trường để giúp con tiến bộ.",
+                    "evidence_en": "Parents can help their children with homework when needed and monitor their studies more regularly. As a result, they can quickly notice their children's difficulties at school to help them improve.",
+                    "collocations": [
+                      {
+                        "en": "support their children's studies",
+                        "vi": "hỗ trợ việc học của con"
+                      },
+                      {
+                        "en": "help with homework",
+                        "vi": "giúp làm bài tập về nhà"
+                      },
+                      {
+                        "en": "monitor studies regularly",
+                        "vi": "theo dõi việc học thường xuyên"
+                      },
+                      {
+                        "en": "improve school results",
+                        "vi": "cải thiện kết quả học tập"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "POSITIVE EFFECT 02",
+                    "point_vi": "Làm việc tại nhà giúp cha mẹ hiểu rõ hơn về thói quen và hành vi của con.",
+                    "point_en": "Second, working from home allows parents to understand their children's habits and behavior better.",
+                    "evidence_vi": "Cha mẹ có thể quan sát cách con học tập và sinh hoạt ở nhà mỗi ngày. Khi nhận ra những thay đổi trong hành vi của con, họ có thể đưa ra lời khuyên và hỗ trợ phù hợp.",
+                    "evidence_en": "Parents can observe how their children study and live at home every day. When they notice changes in behavior, they can offer useful advice and suitable support.",
+                    "collocations": [
+                      {
+                        "en": "understand children's habits",
+                        "vi": "hiểu thói quen của con"
+                      },
+                      {
+                        "en": "observe daily activities",
+                        "vi": "quan sát các hoạt động hằng ngày"
+                      },
+                      {
+                        "en": "changes in behavior",
+                        "vi": "những thay đổi trong hành vi"
+                      },
+                      {
+                        "en": "give suitable advice",
+                        "vi": "đưa ra lời khuyên phù hợp"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "POSITIVE EFFECT 03",
+                    "point_vi": "Làm việc tại nhà giúp trẻ cảm thấy an toàn và được cha mẹ quan tâm hơn.",
+                    "point_en": "Finally, working from home makes children feel safer and more cared for.",
+                    "evidence_vi": "Trẻ biết rằng cha mẹ luôn ở gần khi mình cần giúp đỡ, nên các em dễ dàng chia sẻ những lo lắng hoặc vấn đề của mình. Điều này giúp trẻ cảm thấy tự tin và yên tâm hơn.",
+                    "evidence_en": "Children know that their parents are always nearby when they need help, so they can easily share their worries or problems. This helps children feel more confident and secure.",
+                    "collocations": [
+                      {
+                        "en": "feel safer and more cared for",
+                        "vi": "cảm thấy an toàn và được quan tâm hơn"
+                      },
+                      {
+                        "en": "always nearby",
+                        "vi": "luôn ở gần bên"
+                      },
+                      {
+                        "en": "share worries and problems",
+                        "vi": "chia sẻ lo lắng và vấn đề"
+                      },
+                      {
+                        "en": "feel more confident",
+                        "vi": "cảm thấy tự tin hơn"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "ideas_b2": {
+                "benefits": [
+                  {
+                    "title": "POSITIVE EFFECT 01",
+                    "point_vi": "Làm việc tại nhà giúp cha mẹ hỗ trợ việc học của con hiệu quả và kịp thời hơn.",
+                    "point_en": "First and foremost, working from home enables parents to support their children's education much more effectively.",
+                    "evidence_vi": "• Luận cứ 1: Cha mẹ có thể ở cạnh để hướng dẫn con làm các bài tập khó và giải đáp thắc mắc ngay khi con cần.\n• Luận cứ 2: Đồng thời, việc theo dõi thói quen học tập hằng ngày giúp phụ huynh sớm phát hiện các môn học con còn yếu để cùng con khắc phục.",
+                    "evidence_en": "• Evidence 1: Parents are available at home to guide children through difficult assignments and answer academic questions immediately.\n• Evidence 2: At the same time, monitoring daily study routines allows parents to identify subjects where their children struggle early on.",
+                    "collocations": [
+                      {
+                        "en": "support children's education",
+                        "vi": "hỗ trợ việc học của con"
+                      },
+                      {
+                        "en": "guide difficult assignments",
+                        "vi": "hướng dẫn các bài tập khó"
+                      },
+                      {
+                        "en": "monitor study routines",
+                        "vi": "theo dõi nề nếp học tập"
+                      },
+                      {
+                        "en": "identify learning struggles",
+                        "vi": "nhận diện những khó khăn học tập"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "POSITIVE EFFECT 02",
+                    "point_vi": "Làm việc tại nhà tạo điều kiện để cha mẹ thấu hiểu sâu sắc thói quen và tính cách của con.",
+                    "point_en": "Furthermore, telecommuting provides parents with deeper insights into their children's daily habits and behavioral patterns.",
+                    "evidence_vi": "• Luận cứ 1: Nhờ dành nhiều thời gian ở nhà, cha mẹ có thể trực tiếp quan sát cách con tự học, vui chơi và tương tác với bạn bè.\n• Luận cứ 2: Khi nhận thấy những thay đổi bất thường về tâm lý hoặc hành vi, phụ huynh có thể đưa ra những lời khuyên tích cực và định hướng kịp thời.",
+                    "evidence_en": "• Evidence 1: By spending more time at home, parents can directly observe how their children study, play, and interact with peers.\n• Evidence 2: When noticing unusual emotional or behavioral shifts, caregivers can provide timely advice and positive guidance.",
+                    "collocations": [
+                      {
+                        "en": "deeper insights into habits",
+                        "vi": "hiểu biết sâu sắc hơn về thói quen"
+                      },
+                      {
+                        "en": "behavioral patterns",
+                        "vi": "các khuôn mẫu hành vi"
+                      },
+                      {
+                        "en": "directly observe",
+                        "vi": "quan sát trực tiếp"
+                      },
+                      {
+                        "en": "positive guidance",
+                        "vi": "sự định hướng tích cực"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "POSITIVE EFFECT 03",
+                    "point_vi": "Sự hiện diện thường xuyên của cha mẹ mang lại cho trẻ cảm giác an toàn và được yêu thương.",
+                    "point_en": "Lastly, parents' presence at home fosters a strong sense of emotional security and comfort for children.",
+                    "evidence_vi": "• Luận cứ 1: Con trẻ luôn cảm thấy an tâm vì biết rằng cha mẹ luôn ở gần và sẵn sàng lắng nghe mỗi khi các em cần sự giúp đỡ.\n• Luận cứ 2: Sự gần gũi này khuyến khích trẻ thoải mái tâm sự những khó khăn cá nhân, từ đó xây dựng sự tự tin và củng cố tình cảm gia đình.",
+                    "evidence_en": "• Evidence 1: Youngsters feel secure knowing that their parents are accessible and ready to listen whenever they need assistance.\n• Evidence 2: This close connection encourages kids to open up about personal challenges, which enhances self-confidence and strengthens family bonds.",
+                    "collocations": [
+                      {
+                        "en": "emotional security",
+                        "vi": "sự an toàn về mặt cảm xúc"
+                      },
+                      {
+                        "en": "parents are accessible",
+                        "vi": "cha mẹ luôn ở gần, dễ tiếp cận"
+                      },
+                      {
+                        "en": "open up about challenges",
+                        "vi": "mở lòng về những thử thách"
+                      },
+                      {
+                        "en": "strengthen family bonds",
+                        "vi": "thắt chặt tình cảm gia đình"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "sample_b1": "In modern life, <strong>working from home</strong> has become increasingly popular in many countries. With modern technology and computers, many employees do not need to commute to physical offices every day. This new working style brings many changes to family life, especially the relationship between parents and their children. <strong>This essay will discuss three positive effects of working from home on parent–child relationships.</strong>\n\n<strong>To begin with, working remotely helps parents support their children's studies more effectively.</strong> In fact, parents are at home to help their kids with difficult homework whenever they need support. In addition, they can monitor their children's daily study habits more regularly. As a result, parents can promptly discover their children's learning difficulties at school and help them improve their school results.\n\n<strong>Another positive impact is that working from home allows parents to understand their children's habits and behavior better.</strong> When parents spend their working days at home, they can observe how their children study, play, and live throughout the day. Therefore, if they notice any changes in mood or behavior, they can talk to their children and give suitable advice. This helps parents guide their children in a friendly and understanding way.\n\n<strong>Finally, parents' presence at home makes children feel safer and more cared for.</strong> Children always feel secure when they know that their parents are nearby to help them. Furthermore, it becomes much easier for children to share their daily worries and problems with their parents. Consequently, this close relationship helps children feel more confident and happy in their daily lives.\n\nIn conclusion, working from home brings several wonderful benefits to family relationships. It allows parents to assist with education, understand their children's habits, and provide emotional security. Therefore, home-based working can significantly improve parent–child bonds.",
+              "translation_b1": "Trong đời sống hiện đại, làm việc tại nhà đã trở nên ngày càng phổ biến ở nhiều quốc gia. Cùng với công nghệ hiện đại và máy tính, nhiều nhân viên không cần phải đi lại đến văn phòng mỗi ngày. Phong cách làm việc mới này mang lại nhiều thay đổi cho cuộc sống gia đình, đặc biệt là mối quan hệ giữa cha mẹ và con cái. Bài viết này sẽ thảo luận về ba tác động tích cực của việc làm việc tại nhà đối với mối quan hệ giữa cha mẹ và con cái.\n\nTrước hết, làm việc từ xa giúp cha mẹ hỗ trợ việc học của con hiệu quả hơn. Trên thực tế, cha mẹ có mặt ở nhà để giúp con làm các bài tập khó bất cứ khi nào con cần hỗ trợ. Thêm vào đó, họ có thể theo dõi thói quen học tập hằng ngày của con thường xuyên hơn. Kết quả là cha mẹ có thể phát hiện kịp thời những khó khăn trong học tập của con ở trường và giúp con cải thiện kết quả học tập.\n\nMột tác động tích cực khác là làm việc tại nhà giúp cha mẹ hiểu rõ hơn về thói quen và hành vi của con. Khi cha mẹ dành ngày làm việc ở nhà, họ có thể quan sát cách con học tập, vui chơi và sinh hoạt trong suốt cả ngày. Vì vậy, nếu nhận thấy bất kỳ thay đổi nào trong tâm trạng hoặc hành vi, họ có thể trò chuyện với con và đưa ra lời khuyên phù hợp. Điều này giúp cha mẹ định hướng cho con một cách gần gũi và thấu hiểu.\n\nCuối cùng, sự hiện diện của cha mẹ ở nhà giúp trẻ cảm thấy an toàn và được quan tâm nhiều hơn. Trẻ nhỏ luôn cảm thấy yên tâm khi biết rằng cha mẹ đang ở gần bên để giúp đỡ mình. Hơn nữa, trẻ cũng dễ dàng chia sẻ những lo lắng và vấn đề hằng ngày với cha mẹ hơn. Do đó, mối quan hệ gần gũi này giúp trẻ cảm thấy tự tin và hạnh phúc hơn trong cuộc sống thường nhật.\n\nTóm lại, làm việc tại nhà mang lại nhiều lợi ích tuyệt vời cho các mối quan hệ gia đình. Nó cho phép cha mẹ hỗ trợ giáo dục, thấu hiểu thói quen của con và mang lại sự an toàn về mặt cảm xúc. Vì vậy, làm việc tại nhà có thể cải thiện đáng kể sự gắn kết giữa cha mẹ và con cái.",
+              "sample_b2": "In contemporary society, <strong>working from home</strong> has emerged as a prevalent working model thanks to advancements in digital technology. By eliminating daily commuting, remote working allows parents to spend more time within the domestic environment. While this shift reshapes family routines in various ways, its constructive influence on parent–child connections is particularly noteworthy. <strong>This essay will examine three significant positive effects of working from home on parent–child relationships.</strong>\n\n<strong>First and foremost, working from home enables parents to support their children's education much more effectively.</strong> Being physically present at home allows parents to assist with challenging school assignments and answer academic queries immediately. Furthermore, supervising daily study habits on a regular basis helps parents promptly detect learning obstacles that children encounter in the classroom. Consequently, parents can collaborate with teachers to provide timely academic support, fostering better learning outcomes and school engagement.\n\n<strong>Furthermore, telecommuting provides parents with deeper insights into their children's daily habits and behavioral patterns.</strong> Spending working hours at home offers caregivers valuable opportunities to observe how their children study, relax, and interact with peers. When noticing unusual behavioral shifts or emotional stress, parents can initiate open conversations and offer practical, empathetic advice. This continuous observation bridges generation gaps and cultivates mutual understanding between family members.\n\n<strong>Lastly, parents' regular presence at home fosters a strong sense of emotional security and comfort for children.</strong> Youngsters naturally feel reassured knowing that their caregivers are accessible whenever they need comfort or assistance. As a result, children are more inclined to share their personal struggles, fears, and aspirations without hesitation. This emotional closeness boosts children's self-confidence and solidifies lifelong family bonds.\n\nIn conclusion, working from home exerts profoundly positive impacts on the parent–child dynamic. It facilitates academic assistance, enriches parents' understanding of their children's development, and nurtures emotional well-being. Therefore, adopting flexible working arrangements can serve as an effective way to strengthen modern family relationships.",
+              "translation_b2": "Trong xã hội đương đại, làm việc tại nhà đã nổi lên như một mô hình làm việc phổ biến nhờ vào những tiến bộ trong công nghệ kỹ thuật số. Bằng cách loại bỏ việc đi lại hằng ngày, làm việc từ xa cho phép các bậc cha mẹ dành nhiều thời gian hơn trong môi trường gia đình. Mặc dù sự thay đổi này định hình lại các sinh hoạt gia đình theo nhiều cách, nhưng ảnh hưởng tích cực của nó đối với sự gắn kết giữa cha mẹ và con cái là đặc biệt đáng chú ý. Bài viết này sẽ phân tích ba tác động tích cực đáng kể của việc làm việc tại nhà đối với mối quan hệ giữa cha mẹ và con cái.\n\nTrước hết, làm việc tại nhà tạo điều kiện cho cha mẹ hỗ trợ việc học tập của con em mình hiệu quả hơn rất nhiều. Sự hiện diện tại nhà giúp phụ huynh có thể trợ giúp các bài tập khó ở trường và giải đáp các thắc mắc học tập ngay lập tức. Hơn nữa, việc giám sát nề nếp học tập hằng ngày một cách thường xuyên giúp cha mẹ sớm nhận diện các rào cản học tập mà con gặp phải trên lớp. Do đó, cha mẹ có thể phối hợp với thầy cô để hỗ trợ học tập kịp thời, thúc đẩy kết quả học tập tốt hơn và nâng cao tinh thần học tập của con.\n\nThêm vào đó, làm việc từ xa mang lại cho các bậc cha mẹ những hiểu biết sâu sắc hơn về thói quen sinh hoạt và hành vi thường ngày của con. Dành thời gian làm việc tại nhà mang lại cơ hội quý báu để người chăm sóc quan sát cách con học tập, thư giãn và giao tiếp với bạn bè. Khi nhận thấy những thay đổi bất thường về hành vi hoặc áp lực tâm lý, cha mẹ có thể chủ động trò chuyện cởi mở và đưa ra những lời khuyên thực tế, đầy thấu cảm. Sự quan sát liên tục này giúp xóa bỏ khoảng cách thế hệ và nuôi dưỡng sự thấu hiểu lẫn nhau giữa các thành viên trong gia đình.\n\nCuối cùng, sự hiện diện thường xuyên của cha mẹ tại nhà mang lại cảm giác an toàn và thoải mái vững chắc về mặt cảm xúc cho con trẻ. Trẻ nhỏ tự nhiên sẽ cảm thấy yên tâm khi biết rằng cha mẹ luôn ở gần mỗi khi các em cần sự an ủi hoặc hỗ trợ. Nhờ đó, trẻ có xu hướng cởi mở chia sẻ những khó khăn, nỗi sợ và ước mơ cá nhân mà không hề do dự. Sự gắn kết cảm xúc này củng cố sự tự tin của trẻ và thắt chặt tình cảm gia đình bền vững suốt đời.\n\nTóm lại, làm việc tại nhà mang lại những tác động tích cực sâu sắc đối với mối quan hệ giữa cha mẹ và con cái. Nó tạo điều kiện thuận lợi cho việc hỗ trợ học tập, làm phong phú sự thấu hiểu của cha mẹ về sự phát triển của con và nuôi dưỡng sức khỏe tinh thần. Vì vậy, áp dụng các chế độ làm việc linh hoạt có thể là một phương thức hiệu quả để củng cố các mối quan hệ gia đình trong thời đại mới.",
+              "vocab_step": {
+                "theme": "Làm việc tại nhà và tác động tích cực đến gia đình (WFH - Positive Effects)",
+                "single_words": [
+                  {
+                    "word": "homework",
+                    "ipa": "/ˈhəʊmwɜːk/",
+                    "pos": "noun",
+                    "level": "B1",
+                    "vi": "bài tập về nhà",
+                    "family": "schoolwork (n)",
+                    "example_en": "Parents can help kids with homework in the evening.",
+                    "example_vi": "Cha mẹ có thể giúp con làm bài tập về nhà vào buổi tối."
+                  },
+                  {
+                    "word": "monitor",
+                    "ipa": "/ˈmɒnɪtə/",
+                    "pos": "verb",
+                    "level": "B1",
+                    "vi": "theo dõi, giám sát",
+                    "family": "monitoring (n)",
+                    "example_en": "Parents should monitor how much time kids spend online.",
+                    "example_vi": "Cha mẹ nên theo dõi xem con dành bao nhiêu thời gian trên mạng."
+                  },
+                  {
+                    "word": "observe",
+                    "ipa": "/əbˈzɜːv/",
+                    "pos": "verb",
+                    "level": "B1",
+                    "vi": "quan sát",
+                    "family": "observation (n)",
+                    "example_en": "You can observe how your children interact with their friends.",
+                    "example_vi": "Bạn có thể quan sát cách con mình giao tiếp với bạn bè."
+                  },
+                  {
+                    "word": "behavior",
+                    "ipa": "/bɪˈheɪvjə/",
+                    "pos": "noun",
+                    "level": "B1",
+                    "vi": "hành vi, cách ứng xử",
+                    "family": "behave (v)",
+                    "example_en": "Good communication improves children's behavior.",
+                    "example_vi": "Giao tiếp tốt giúp cải thiện hành vi của trẻ."
+                  },
+                  {
+                    "word": "advice",
+                    "ipa": "/ədˈvaɪs/",
+                    "pos": "noun",
+                    "level": "B1",
+                    "vi": "lời khuyên",
+                    "family": "advise (v)",
+                    "example_en": "Parents give useful advice to help their kids.",
+                    "example_vi": "Cha mẹ đưa ra những lời khuyên hữu ích để giúp con cái."
+                  },
+                  {
+                    "word": "nearby",
+                    "ipa": "/ˌnɪəˈbaɪ/",
+                    "pos": "adj/adv",
+                    "level": "B1",
+                    "vi": "ở gần bên",
+                    "family": "near (prep)",
+                    "example_en": "Children feel safe when parents are nearby.",
+                    "example_vi": "Trẻ cảm thấy an toàn khi cha mẹ ở gần bên."
+                  },
+                  {
+                    "word": "confident",
+                    "ipa": "/ˈkɒnfɪdənt/",
+                    "pos": "adj",
+                    "level": "B1",
+                    "vi": "tự tin",
+                    "family": "confidence (n)",
+                    "example_en": "Praise makes children more confident in their abilities.",
+                    "example_vi": "Lời khen ngợi giúp trẻ tự tin hơn vào khả năng của mình."
+                  },
+                  {
+                    "word": "share",
+                    "ipa": "/ʃeə/",
+                    "pos": "verb",
+                    "level": "B1",
+                    "vi": "chia sẻ, tâm sự",
+                    "family": "sharing (n)",
+                    "example_en": "Teenagers should share their worries with their family.",
+                    "example_vi": "Thanh thiếu niên nên chia sẻ những lo lắng của mình với gia đình."
+                  },
+                  {
+                    "word": "support",
+                    "ipa": "/səˈpɔːt/",
+                    "pos": "verb/noun",
+                    "level": "B1",
+                    "vi": "hỗ trợ, ủng hộ",
+                    "family": "supportive (adj)",
+                    "example_en": "Parents always support their children through hard times.",
+                    "example_vi": "Cha mẹ luôn hỗ trợ con cái vượt qua những giai đoạn khó khăn."
+                  },
+                  {
+                    "word": "habit",
+                    "ipa": "/ˈhæbɪt/",
+                    "pos": "noun",
+                    "level": "B1",
+                    "vi": "thói quen",
+                    "family": "habitual (adj)",
+                    "example_en": "Reading books every day is a wonderful habit.",
+                    "example_vi": "Đọc sách mỗi ngày là một thói quen tuyệt vời."
+                  },
+                  {
+                    "word": "improve",
+                    "ipa": "/ɪmˈpruːv/",
+                    "pos": "verb",
+                    "level": "B1",
+                    "vi": "cải thiện, tiến bộ",
+                    "family": "improvement (n)",
+                    "example_en": "Working together helps improve family relationships.",
+                    "example_vi": "Hợp tác cùng nhau giúp cải thiện mối quan hệ gia đình."
+                  },
+                  {
+                    "word": "secure",
+                    "ipa": "/sɪˈkjʊə/",
+                    "pos": "adj",
+                    "level": "B1",
+                    "vi": "an tâm, vững tâm",
+                    "family": "security (n)",
+                    "example_en": "A warm home makes kids feel secure and loved.",
+                    "example_vi": "Một mái ấm ấm áp giúp trẻ cảm thấy yên tâm và được yêu thương."
+                  },
+                  {
+                    "word": "telecommuting",
+                    "ipa": "/ˌtelikəˈmjuːtɪŋ/",
+                    "pos": "noun",
+                    "level": "B2",
+                    "vi": "làm việc từ xa",
+                    "family": "telecommute (v)",
+                    "example_en": "Telecommuting allows employees to spend more time with family.",
+                    "example_vi": "Làm việc từ xa cho phép nhân viên dành nhiều thời gian hơn cho gia đình."
+                  },
+                  {
+                    "word": "accessible",
+                    "ipa": "/əkˈsesəbl/",
+                    "pos": "adj",
+                    "level": "B2",
+                    "vi": "dễ tiếp cận, luôn sẵn sàng",
+                    "family": "access (n/v)",
+                    "example_en": "Parents who work from home are more accessible to their children.",
+                    "example_vi": "Cha mẹ làm việc tại nhà thì luôn gần gũi và dễ tiếp cận đối với con cái."
+                  },
+                  {
+                    "word": "routine",
+                    "ipa": "/ruːˈtiːn/",
+                    "pos": "noun",
+                    "level": "B2",
+                    "vi": "nề nếp, lịch trình quen thuộc",
+                    "family": "routinely (adv)",
+                    "example_en": "Establishing a regular study routine helps kids succeed.",
+                    "example_vi": "Thiết lập nề nếp học tập đều đặn giúp trẻ em thành công."
+                  },
+                  {
+                    "word": "empathetic",
+                    "ipa": "/ˌempəˈθetɪk/",
+                    "pos": "adj",
+                    "level": "B2",
+                    "vi": "đồng cảm, thấu cảm",
+                    "family": "empathy (n)",
+                    "example_en": "Caregivers should offer empathetic advice to troubled teens.",
+                    "example_vi": "Người chăm sóc nên đưa ra lời khuyên đầy thấu cảm cho thanh thiếu niên đang gặp khó khăn."
+                  },
+                  {
+                    "word": "supervise",
+                    "ipa": "/ˈsuːpəvaɪz/",
+                    "pos": "verb",
+                    "level": "B2",
+                    "vi": "giám sát, quản lý",
+                    "family": "supervision (n)",
+                    "example_en": "Parents can supervise homework sessions directly at home.",
+                    "example_vi": "Cha mẹ có thể trực tiếp giám sát các buổi làm bài tập tại nhà."
+                  },
+                  {
+                    "word": "promptly",
+                    "ipa": "/ˈprɒmptli/",
+                    "pos": "adv",
+                    "level": "B2",
+                    "vi": "kịp thời, ngay lập tức",
+                    "family": "prompt (adj)",
+                    "example_en": "Teachers promptly inform parents of student achievements.",
+                    "example_vi": "Giáo viên kịp thời thông báo cho phụ huynh về thành tích của học sinh."
+                  },
+                  {
+                    "word": "reassure",
+                    "ipa": "/ˌriːəˈʃʊə/",
+                    "pos": "verb",
+                    "level": "B2",
+                    "vi": "trấn an, làm yên lòng",
+                    "family": "reassurance (n)",
+                    "example_en": "Parents can reassure nervous children before important exams.",
+                    "example_vi": "Cha mẹ có thể trấn an những đứa trẻ đang lo lắng trước các kỳ thi quan trọng."
+                  },
+                  {
+                    "word": "insight",
+                    "ipa": "/ˈɪnsaɪt/",
+                    "pos": "noun",
+                    "level": "B2",
+                    "vi": "sự thấu hiểu sâu sắc",
+                    "family": "insightful (adj)",
+                    "example_en": "Daily observation gives parents insights into children's talents.",
+                    "example_vi": "Sự quan sát hằng ngày mang lại cho cha mẹ những hiểu biết sâu sắc về năng khiếu của con."
+                  },
+                  {
+                    "word": "engagement",
+                    "ipa": "/ɪnˈɡeɪdʒmənt/",
+                    "pos": "noun",
+                    "level": "B2",
+                    "vi": "sự gắn kết, hứng thú tham gia",
+                    "family": "engage (v)",
+                    "example_en": "Parental involvement boosts children's school engagement.",
+                    "example_vi": "Sự tham gia của cha mẹ thúc đẩy sự hứng thú học tập của trẻ ở trường."
+                  },
+                  {
+                    "word": "solidify",
+                    "ipa": "/səˈlɪdɪfaɪ/",
+                    "pos": "verb",
+                    "level": "B2",
+                    "vi": "củng cố, thắt chặt",
+                    "family": "solid (adj)",
+                    "example_en": "Shared meals help solidify positive family relationships.",
+                    "example_vi": "Những bữa ăn chung giúp củng cố các mối quan hệ gia đình tích cực."
+                  },
+                  {
+                    "word": "aspiration",
+                    "ipa": "/ˌæspəˈreɪʃn/",
+                    "pos": "noun",
+                    "level": "B2",
+                    "vi": "nguyện vọng, ước mơ",
+                    "family": "aspire (v)",
+                    "example_en": "Parents should encourage their children's career aspirations.",
+                    "example_vi": "Cha mẹ nên khuyến khích những ước mơ nghề nghiệp của con cái."
+                  },
+                  {
+                    "word": "bond",
+                    "ipa": "/bɒnd/",
+                    "pos": "noun",
+                    "level": "B2",
+                    "vi": "sự gắn kết, tình cảm khăng khít",
+                    "family": "bonding (n)",
+                    "example_en": "Spending quality time together strengthens the parental bond.",
+                    "example_vi": "Dành thời gian chất lượng bên nhau giúp thắt chặt tình cảm phụ tử/mẫu tử."
+                  }
+                ]
+              },
+              "vocab": [
+                {
+                  "en": "homework",
+                  "vi": "bài tập về nhà"
+                },
+                {
+                  "en": "monitor",
+                  "vi": "theo dõi, giám sát"
+                },
+                {
+                  "en": "observe",
+                  "vi": "quan sát"
+                },
+                {
+                  "en": "behavior",
+                  "vi": "hành vi, cách ứng xử"
+                },
+                {
+                  "en": "advice",
+                  "vi": "lời khuyên"
+                },
+                {
+                  "en": "nearby",
+                  "vi": "ở gần bên"
+                },
+                {
+                  "en": "confident",
+                  "vi": "tự tin"
+                },
+                {
+                  "en": "share",
+                  "vi": "chia sẻ, tâm sự"
+                },
+                {
+                  "en": "support",
+                  "vi": "hỗ trợ, ủng hộ"
+                },
+                {
+                  "en": "habit",
+                  "vi": "thói quen"
+                },
+                {
+                  "en": "improve",
+                  "vi": "cải thiện, tiến bộ"
+                },
+                {
+                  "en": "secure",
+                  "vi": "an tâm, vững tâm"
+                },
+                {
+                  "en": "telecommuting",
+                  "vi": "làm việc từ xa"
+                },
+                {
+                  "en": "accessible",
+                  "vi": "dễ tiếp cận, luôn sẵn sàng"
+                },
+                {
+                  "en": "routine",
+                  "vi": "nề nếp, lịch trình quen thuộc"
+                },
+                {
+                  "en": "empathetic",
+                  "vi": "đồng cảm, thấu cảm"
+                },
+                {
+                  "en": "supervise",
+                  "vi": "giám sát, quản lý"
+                },
+                {
+                  "en": "promptly",
+                  "vi": "kịp thời, ngay lập tức"
+                },
+                {
+                  "en": "reassure",
+                  "vi": "trấn an, làm yên lòng"
+                },
+                {
+                  "en": "insight",
+                  "vi": "sự thấu hiểu sâu sắc"
+                },
+                {
+                  "en": "engagement",
+                  "vi": "sự gắn kết, hứng thú tham gia"
+                },
+                {
+                  "en": "solidify",
+                  "vi": "củng cố, thắt chặt"
+                },
+                {
+                  "en": "aspiration",
+                  "vi": "nguyện vọng, ước mơ"
+                },
+                {
+                  "en": "bond",
+                  "vi": "sự gắn kết, tình cảm khăng khít"
+                }
+              ]
+            }
+          },
+          {
+            "name": "CÁCH 02: 3 ẢNH HƯỞNG TIÊU CỰC",
+            "tags": "[3 Negative Effects]",
+            "paraphrases": [
+              {
+                "en": "working from home",
+                "vi": "làm việc tại nhà"
+              },
+              {
+                "en": "telecommuting and remote employment",
+                "vi": "làm việc từ xa"
+              },
+              {
+                "en": "parent–child dynamics",
+                "vi": "mối tương tác giữa cha mẹ và con cái"
+              },
+              {
+                "en": "negative impacts on family life",
+                "vi": "những tác động tiêu cực đến đời sống gia đình"
+              }
+            ],
+            "details": {
+              "ideas_b1": {
+                "benefits": [
+                  {
+                    "title": "NEGATIVE EFFECT 01",
+                    "point_vi": "Làm việc tại nhà có thể khiến cha mẹ ít chú ý đến con cái hơn.",
+                    "point_en": "First, working from home can reduce parents' attention toward their children.",
+                    "evidence_vi": "Cha mẹ phải dành nhiều thời gian trước máy tính và tham gia các cuộc họp trực tuyến. Họ có thể không chú ý khi con muốn nói chuyện, khiến trẻ cảm thấy cha mẹ không quan tâm đến mình.",
+                    "evidence_en": "Parents have to spend a lot of time on computers and in online meetings. They may not pay attention when their children want to talk, making kids feel neglected.",
+                    "collocations": [
+                      {
+                        "en": "reduce parents' attention",
+                        "vi": "làm giảm sự chú ý của cha mẹ"
+                      },
+                      {
+                        "en": "spend time on computers",
+                        "vi": "dành thời gian cho máy tính"
+                      },
+                      {
+                        "en": "online meetings",
+                        "vi": "các cuộc họp trực tuyến"
+                      },
+                      {
+                        "en": "feel neglected",
+                        "vi": "cảm thấy bị bỏ rơi, không được quan tâm"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "NEGATIVE EFFECT 02",
+                    "point_vi": "Làm việc tại nhà có thể khiến trẻ khó hiểu ranh giới giữa công việc và gia đình.",
+                    "point_en": "Second, working from home can make it hard for children to understand work-family boundaries.",
+                    "evidence_vi": "Trẻ nhỏ thường nghĩ rằng cha mẹ luôn sẵn sàng chơi hoặc nói chuyện khi ở nhà. Các em có thể làm phiền cha mẹ trong giờ làm việc, điều này có thể gây ra hiểu lầm và tranh cãi.",
+                    "evidence_en": "Young children often think parents are always available to play or talk. Kids might disturb their parents during working hours, leading to misunderstandings and arguments.",
+                    "collocations": [
+                      {
+                        "en": "work-family boundaries",
+                        "vi": "ranh giới giữa công việc và gia đình"
+                      },
+                      {
+                        "en": "available to play",
+                        "vi": "sẵn sàng chơi đùa"
+                      },
+                      {
+                        "en": "disturb parents at work",
+                        "vi": "làm phiền cha mẹ trong giờ làm"
+                      },
+                      {
+                        "en": "cause arguments",
+                        "vi": "gây ra tranh cãi"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "NEGATIVE EFFECT 03",
+                    "point_vi": "Làm việc tại nhà có thể làm tăng áp lực và mệt mỏi cho cha mẹ.",
+                    "point_en": "Finally, working from home can increase stress and pressure for parents.",
+                    "evidence_vi": "Phụ huynh vừa phải hoàn thành công việc đúng thời hạn, vừa phải chăm sóc con cái. Áp lực nặng nề này có thể khiến họ dễ mệt mỏi và cáu gắt với con.",
+                    "evidence_en": "Parents must finish job tasks on time while also taking care of their children. This heavy pressure can make them exhausted and easily lose their temper with their kids.",
+                    "collocations": [
+                      {
+                        "en": "increase stress and pressure",
+                        "vi": "gia tăng căng thẳng và áp lực"
+                      },
+                      {
+                        "en": "finish tasks on time",
+                        "vi": "hoàn thành công việc đúng hạn"
+                      },
+                      {
+                        "en": "feel exhausted",
+                        "vi": "cảm thấy kiệt sức"
+                      },
+                      {
+                        "en": "lose their temper with kids",
+                        "vi": "nổi giận, cáu gắt với con"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "ideas_b2": {
+                "benefits": [
+                  {
+                    "title": "NEGATIVE EFFECT 01",
+                    "point_vi": "Làm việc tại nhà có thể làm giảm chất lượng tương tác và sự chú ý của cha mẹ dành cho con cái.",
+                    "point_en": "First and foremost, telecommuting often reduces the quality of attention that parents devote to their children.",
+                    "evidence_vi": "• Luận cứ 1: Phụ huynh phải liên tục dán mắt vào màn hình máy tính để xử lý công việc và tham gia các cuộc họp trực tuyến kéo dài.\n• Luận cứ 2: Do đó, họ thường phớt lờ các yêu cầu trò chuyện của con, khiến trẻ nảy sinh tâm lý bị bỏ rơi và tổn thương tình cảm.",
+                    "evidence_en": "• Evidence 1: Parents must spend long hours glued to computer screens, replying to emails and attending virtual conferences.\n• Evidence 2: Consequently, they frequently dismiss their children's attempts to communicate, making kids feel ignored and emotionally neglected.",
+                    "collocations": [
+                      {
+                        "en": "reduce quality of attention",
+                        "vi": "làm giảm chất lượng của sự chú ý"
+                      },
+                      {
+                        "en": "glued to computer screens",
+                        "vi": "dán mắt vào màn hình máy tính"
+                      },
+                      {
+                        "en": "dismiss communication attempts",
+                        "vi": "phớt lờ nỗ lực trò chuyện"
+                      },
+                      {
+                        "en": "emotionally neglected",
+                        "vi": "bị bỏ rơi về mặt tình cảm"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "NEGATIVE EFFECT 02",
+                    "point_vi": "Làm việc từ xa làm xóa nhòa ranh giới rõ ràng giữa giờ làm việc chuyên môn và không gian gia đình.",
+                    "point_en": "Furthermore, working from home blurs the boundary between professional obligations and personal family time.",
+                    "evidence_vi": "• Luận cứ 1: Trẻ nhỏ khó phân biệt được khi nào cha mẹ đang bận rộn vì nghĩ rằng khi ở nhà là cha mẹ luôn sẵn sàng chơi cùng mình.\n• Luận cứ 2: Việc trẻ vô tình làm gián đoạn các cuộc gọi quan trọng dễ dẫn đến những phản ứng bực dọc từ cha mẹ và gây căng thẳng trong gia đình.",
+                    "evidence_en": "• Evidence 1: Young children struggle to realize that parents are working, assuming that being at home means they are free to play.\n• Evidence 2: When kids inadvertently interrupt urgent tasks, it causes parental irritation, leading to misunderstandings and unnecessary domestic friction.",
+                    "collocations": [
+                      {
+                        "en": "blur professional boundaries",
+                        "vi": "xóa nhòa ranh giới công việc"
+                      },
+                      {
+                        "en": "struggle to distinguish",
+                        "vi": "khó phân biệt"
+                      },
+                      {
+                        "en": "inadvertently interrupt tasks",
+                        "vi": "vô tình làm gián đoạn công việc"
+                      },
+                      {
+                        "en": "domestic friction",
+                        "vi": "sự xích mích trong gia đình"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "NEGATIVE EFFECT 03",
+                    "point_vi": "Việc vừa làm việc vừa chăm sóc con tại nhà gia tăng đáng kể áp lực tâm lý cho các bậc cha mẹ.",
+                    "point_en": "Lastly, managing both professional deadlines and childcare duties substantially increases parental stress levels.",
+                    "evidence_vi": "• Luận cứ 1: Phụ huynh phải chịu áp lực kép khi vừa phải đáp ứng yêu cầu công việc đúng hạn, vừa phải chuẩn bị bữa ăn và trông nom con nhỏ.\n• Luận cứ 2: Tình trạng kiệt sức cả về thể chất lẫn tinh thần này khiến cha mẹ trở nên thiếu kiên nhẫn và dễ nổi cáu vô cớ với con cái.",
+                    "evidence_en": "• Evidence 1: Caregivers face dual pressure to meet strict workplace deadlines while simultaneously preparing meals and supervising children.\n• Evidence 2: This ongoing exhaustion reduces parents' patience, making them prone to irritability and harsh reactions toward their children.",
+                    "collocations": [
+                      {
+                        "en": "parental stress levels",
+                        "vi": "mức độ căng thẳng của cha mẹ"
+                      },
+                      {
+                        "en": "dual pressure",
+                        "vi": "áp lực kép"
+                      },
+                      {
+                        "en": "ongoing exhaustion",
+                        "vi": "sự kiệt sức liên tục"
+                      },
+                      {
+                        "en": "prone to irritability",
+                        "vi": "dễ nổi nóng, cáu gắt"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "sample_b1": "In modern life, <strong>working from home</strong> has become very popular due to advancements in technology and Internet connectivity. While this working style offers more flexibility for employees, it also creates several challenges for family life. In particular, telecommuting can negatively influence the relationship between parents and their children. <strong>This essay will discuss three negative effects of working from home on parent–child relationships.</strong>\n\n<strong>To begin with, working from home can reduce parents' attention toward their children.</strong> Parents who work remotely often have to spend long hours staring at computer screens and attending virtual meetings. As a result, they may not notice when their children want to talk, ask questions, or play together. Consequently, children may feel lonely, ignored, and neglected by their own parents.\n\n<strong>Another negative effect is that working from home makes it difficult for children to understand work-family boundaries.</strong> Young children often believe that because their parents are physically at home, they are always available to chat or play. Therefore, kids may disturb their parents during important working hours. This frequent interruption easily leads to misunderstandings, frustration, and arguments within the household.\n\n<strong>Finally, working from home significantly increases stress and pressure for parents.</strong> In fact, home-based workers face heavy pressure to finish job assignments on time while managing household chores and supervising their children. This heavy daily workload can cause severe physical and mental exhaustion. Consequently, tired parents become less patient and easily lose their temper with their kids over minor mistakes.\n\nIn conclusion, working from home can have several harmful effects on parent–child relationships. It decreases parental attention, causes boundary confusion, and raises parental stress levels. Therefore, parents need to manage their time carefully to maintain a warm and loving relationship with their children.",
+              "translation_b1": "Trong đời sống hiện đại, làm việc tại nhà đã trở nên rất phổ biến nhờ vào những tiến bộ trong công nghệ và kết nối Internet. Mặc dù phong cách làm việc này mang lại sự linh hoạt cho người lao động, nó cũng tạo ra nhiều thách thức cho cuộc sống gia đình. Đặc biệt, làm việc từ xa có thể ảnh hưởng tiêu cực đến mối quan hệ giữa cha mẹ và con cái. Bài viết này sẽ thảo luận về ba tác động tiêu cực của việc làm việc tại nhà đối với mối quan hệ giữa cha mẹ và con cái.\n\nTrước hết, làm việc tại nhà có thể làm giảm sự chú ý của cha mẹ dành cho con cái. Các bậc cha mẹ làm việc từ xa thường phải dành nhiều giờ dán mắt vào màn hình máy tính và tham gia các cuộc họp trực tuyến. Do đó, họ có thể không để ý khi con cái muốn trò chuyện, đặt câu hỏi hoặc chơi đùa cùng nhau. Hệ quả là trẻ em có thể cảm thấy cô đơn, bị phớt lờ và thiếu sự quan tâm từ chính cha mẹ mình.\n\nMột ảnh hưởng tiêu cực khác là làm việc tại nhà khiến con trẻ khó hiểu ranh giới giữa công việc và gia đình. Trẻ nhỏ thường tin rằng vì cha mẹ đang ở nhà, họ luôn sẵn sàng để trò chuyện hoặc vui chơi. Vì vậy, các em có thể làm phiền cha mẹ trong những giờ làm việc quan trọng. Sự gián đoạn thường xuyên này dễ dẫn đến những hiểu lầm, bực bội và tranh cãi trong gia đình.\n\nCuối cùng, làm việc tại nhà làm gia tăng đáng kể sự căng thẳng và áp lực cho các bậc cha mẹ. Trên thực tế, người làm việc tại nhà phải đối mặt với áp lực nặng nề để hoàn thành công việc đúng hạn trong khi vẫn phải quán xuyến việc nhà và trông nom con cái. Khối lượng công việc hằng ngày này có thể gây ra sự kiệt sức cả về thể chất lẫn tinh thần. Do đó, những phụ huynh mệt mỏi sẽ trở nên kém kiên nhẫn và dễ nổi nóng với con vì những lỗi nhỏ nhặt.\n\nTóm lại, làm việc tại nhà có thể gây ra nhiều tác động tiêu cực đến mối quan hệ giữa cha mẹ và con cái. Nó làm giảm sự chú ý của cha mẹ, gây nhầm lẫn về ranh giới công việc và làm tăng mức độ căng thẳng của phụ huynh. Vì vậy, các bậc cha mẹ cần quản lý thời gian cẩn thận để duy trì một mối quan hệ ấm áp và yêu thương với con cái của mình.",
+              "sample_b2": "In contemporary society, <strong>working from home</strong> has transformed traditional employment patterns, allowing millions of professionals to operate from their households. Although remote work provides greater scheduling flexibility and eliminates daily commutes, it also introduces considerable friction into domestic life. In particular, constant telecommuting can exert adverse effects on parent–child connections. <strong>This essay will critically analyze three major negative impacts of working from home on parent–child relationships.</strong>\n\n<strong>First and foremost, telecommuting often reduces the quality of attention that parents devote to their children.</strong> Remote workers must spend long hours glued to computer screens, answering urgent messages and attending virtual conferences. Consequently, parents frequently dismiss their children's spontaneous attempts to communicate or seek affection. Over time, this lack of genuine engagement can make young children feel emotionally neglected and alienated within their own homes.\n\n<strong>Furthermore, working from home blurs the boundary between professional obligations and personal family life.</strong> Young children naturally struggle to distinguish between a parent being physically present and being mentally available for interaction. When youngsters inadvertently interrupt critical conference calls or work deadlines, frustrated parents often respond with annoyance. This recurring tension creates misunderstandings and domestic friction, making the household atmosphere stressful rather than comforting.\n\n<strong>Lastly, managing both professional responsibilities and childcare duties substantially increases parental stress levels.</strong> Caregivers who telecommute face the dual burden of meeting strict job deadlines while simultaneously cooking, cleaning, and monitoring their children. Juggling these competing demands throughout the day inevitably leads to chronic mental fatigue. As a result, exhausted parents often lose their patience and react with undue harshness when their children misbehave.\n\nIn conclusion, working from home can severely compromise the parent–child dynamic by diminishing meaningful interaction, blurring work-life boundaries, and escalating domestic stress. To preserve strong family ties, remote workers must establish clear work schedules and dedicate focused, uninterrupted time to their children.",
+              "translation_b2": "Trong xã hội đương đại, làm việc tại nhà đã thay đổi các mô hình việc làm truyền thống, cho phép hàng triệu chuyên gia làm việc ngay tại nhà mình. Mặc dù làm việc từ xa mang lại sự linh hoạt hơn về lịch trình và xóa bỏ việc đi lại hằng ngày, nó cũng tạo ra sự xích mích đáng kể trong cuộc sống gia đình. Đặc biệt, làm việc từ xa liên tục có thể gây ra những tác động tiêu cực đến sự gắn kết giữa cha mẹ và con cái. Bài viết này sẽ phân tích ba tác động tiêu cực lớn của việc làm việc tại nhà đối với mối quan hệ giữa cha mẹ và con cái.\n\nTrước hết, làm việc từ xa thường làm giảm chất lượng sự chú ý mà cha mẹ dành cho con cái. Những người làm việc tại nhà phải dành nhiều giờ dán mắt vào màn hình máy tính, trả lời các tin nhắn khẩn cấp và tham gia các cuộc họp trực tuyến. Do đó, các bậc cha mẹ thường gạt đi những nỗ lực trò chuyện tự nhiên hoặc tìm kiếm tình cảm của con. Theo thời gian, sự thiếu hụt tương tác chân thành này có thể khiến trẻ nhỏ cảm thấy bị bỏ rơi về mặt tình cảm và xa cách ngay trong chính ngôi nhà của mình.\n\nThêm vào đó, làm việc tại nhà làm xóa nhòa ranh giới giữa nghĩa vụ công việc và đời sống gia đình cá nhân. Trẻ nhỏ thường khó phân biệt giữa việc cha mẹ hiện diện về mặt thể chất với việc cha mẹ sẵn sàng tương tác cùng con. Khi trẻ vô tình làm gián đoạn các cuộc gọi quan trọng hoặc thời hạn công việc, các bậc phụ huynh đang bực bội thường phản ứng bằng sự khó chịu. Sự căng thẳng lặp đi lặp lại này tạo ra những hiểu lầm và xích mích trong gia đình, khiến bầu không khí trở nên ngột ngạt thay vì ấm áp.\n\nCuối cùng, việc vừa quản lý trách nhiệm công việc vừa chăm sóc con cái làm gia tăng đáng kể mức độ căng thẳng của cha mẹ. Những người chăm sóc làm việc từ xa phải đối mặt với gánh nặng kép: vừa đáp ứng các hạn chót công việc khắt khe, vừa phải nấu nướng, dọn dẹp và trông nom con cái. Việc phải xoay xở giữa các nhu cầu xung đột này trong suốt cả ngày chắc chắn dẫn đến sự mệt mỏi mãn tính. Kết quả là những phụ huynh kiệt sức thường mất kiên nhẫn và phản ứng gay gắt quá mức khi con cái mắc lỗi.\n\nTóm lại, làm việc tại nhà có thể làm tổn hại nghiêm trọng đến mối quan hệ giữa cha mẹ và con cái do làm giảm tương tác ý nghĩa, xóa nhòa ranh giới công việc - cuộc sống và làm gia tăng căng thẳng gia đình. Để giữ gìn sự gắn kết gia đình bền chặt, những người làm việc từ xa cần thiết lập lịch trình làm việc rõ ràng và dành thời gian tập trung, trọn vẹn cho con cái của mình.",
+              "vocab_step": {
+                "theme": "Làm việc tại nhà và tác động tiêu cực đến gia đình (WFH - Negative Effects)",
+                "single_words": [
+                  {
+                    "word": "attention",
+                    "ipa": "/əˈtenʃn/",
+                    "pos": "noun",
+                    "level": "B1",
+                    "vi": "sự chú ý",
+                    "family": "attentive (adj)",
+                    "example_en": "Children need love and attention from their parents.",
+                    "example_vi": "Trẻ em cần tình yêu và sự chú ý từ cha mẹ."
+                  },
+                  {
+                    "word": "disturb",
+                    "ipa": "/dɪˈstɜːb/",
+                    "pos": "verb",
+                    "level": "B1",
+                    "vi": "làm phiền, quấy rầy",
+                    "family": "disturbance (n)",
+                    "example_en": "Please do not disturb me while I am working.",
+                    "example_vi": "Xin đừng làm phiền tôi khi tôi đang làm việc."
+                  },
+                  {
+                    "word": "boundary",
+                    "ipa": "/ˈbaʊndri/",
+                    "pos": "noun",
+                    "level": "B1",
+                    "vi": "ranh giới, giới hạn",
+                    "family": "bound (v)",
+                    "example_en": "It is important to set clear boundaries at home.",
+                    "example_vi": "Việc đặt ra những ranh giới rõ ràng ở nhà là rất quan trọng."
+                  },
+                  {
+                    "word": "ignore",
+                    "ipa": "/ɪɡˈnɔː/",
+                    "pos": "verb",
+                    "level": "B1",
+                    "vi": "phớt lờ, bỏ qua",
+                    "family": "ignorant (adj)",
+                    "example_en": "Parents should not ignore their children's questions.",
+                    "example_vi": "Cha mẹ không nên phớt lờ những câu hỏi của con cái."
+                  },
+                  {
+                    "word": "exhausted",
+                    "ipa": "/ɪɡˈzɔːstɪd/",
+                    "pos": "adj",
+                    "level": "B1",
+                    "vi": "kiệt sức, mệt lử",
+                    "family": "exhaustion (n)",
+                    "example_en": "Working all day leaves many parents feeling exhausted.",
+                    "example_vi": "Làm việc cả ngày khiến nhiều bậc cha mẹ cảm thấy kiệt sức."
+                  },
+                  {
+                    "word": "argument",
+                    "ipa": "/ˈɑːɡjumənt/",
+                    "pos": "noun",
+                    "level": "B1",
+                    "vi": "cuộc tranh cãi",
+                    "family": "argue (v)",
+                    "example_en": "Stress can cause unnecessary arguments between family members.",
+                    "example_vi": "Căng thẳng có thể gây ra những cuộc tranh cãi không cần thiết giữa các thành viên."
+                  },
+                  {
+                    "word": "available",
+                    "ipa": "/əˈveɪləbl/",
+                    "pos": "adj",
+                    "level": "B1",
+                    "vi": "rảnh, có sẵn",
+                    "family": "availability (n)",
+                    "example_en": "Parents are not always available to play with children.",
+                    "example_vi": "Cha mẹ không phải lúc nào cũng rảnh để chơi với con."
+                  },
+                  {
+                    "word": "stress",
+                    "ipa": "/stres/",
+                    "pos": "noun",
+                    "level": "B1",
+                    "vi": "sự căng thẳng, áp lực",
+                    "family": "stressful (adj)",
+                    "example_en": "Too much work causes stress for mothers and fathers.",
+                    "example_vi": "Quá nhiều công việc gây ra căng thẳng cho các bậc cha mẹ."
+                  },
+                  {
+                    "word": "interruption",
+                    "ipa": "/ˌɪntəˈrʌpʃn/",
+                    "pos": "noun",
+                    "level": "B1",
+                    "vi": "sự gián đoạn, làm gián đoạn",
+                    "family": "interrupt (v)",
+                    "example_en": "Constant interruptions make it hard to complete tasks.",
+                    "example_vi": "Sự làm phiền liên tục khiến việc hoàn thành công việc trở nên khó khăn."
+                  },
+                  {
+                    "word": "patient",
+                    "ipa": "/ˈpeɪʃnt/",
+                    "pos": "adj",
+                    "level": "B1",
+                    "vi": "kiên nhẫn, nhẫn nại",
+                    "family": "patience (n)",
+                    "example_en": "Parents must stay patient when talking to young kids.",
+                    "example_vi": "Cha mẹ cần giữ sự kiên nhẫn khi nói chuyện với con nhỏ."
+                  },
+                  {
+                    "word": "annoyance",
+                    "ipa": "/əˈnɔɪəns/",
+                    "pos": "noun",
+                    "level": "B1",
+                    "vi": "sự khó chịu, bực mình",
+                    "family": "annoy (v), annoyed (adj)",
+                    "example_en": "Noise can cause annoyance for people working remotely.",
+                    "example_vi": "Tiếng ồn có thể gây khó chịu cho những người làm việc từ xa."
+                  },
+                  {
+                    "word": "screen",
+                    "ipa": "/skriːn/",
+                    "pos": "noun",
+                    "level": "B1",
+                    "vi": "màn hình máy tính/điện thoại",
+                    "family": "screen time (phr)",
+                    "example_en": "Staring at a screen all day can strain your eyes.",
+                    "example_vi": "Nhìn vào màn hình cả ngày có thể làm mỏi mắt bạn."
+                  },
+                  {
+                    "word": "friction",
+                    "ipa": "/ˈfrɪkʃn/",
+                    "pos": "noun",
+                    "level": "B2",
+                    "vi": "sự xích mích, bất hòa",
+                    "family": "frictional (adj)",
+                    "example_en": "Heavy workloads often cause friction within the family.",
+                    "example_vi": "Khối lượng công việc nặng nề thường gây ra bất hòa trong gia đình."
+                  },
+                  {
+                    "word": "alienate",
+                    "ipa": "/ˈeɪliəneɪt/",
+                    "pos": "verb",
+                    "level": "B2",
+                    "vi": "làm xa lánh, cô lập",
+                    "family": "alienation (n)",
+                    "example_en": "Constantly ignoring kids can alienate them from their parents.",
+                    "example_vi": "Liên tục phớt lờ con cái có thể khiến chúng xa lánh cha mẹ."
+                  },
+                  {
+                    "word": "fatigue",
+                    "ipa": "/fəˈtiːɡ/",
+                    "pos": "noun",
+                    "level": "B2",
+                    "vi": "sự mệt mỏi, kiệt sức",
+                    "family": "fatigued (adj)",
+                    "example_en": "Mental fatigue reduces a person's ability to cope with stress.",
+                    "example_vi": "Sự mệt mỏi về tinh thần làm giảm khả năng đối phó với căng thẳng của một người."
+                  },
+                  {
+                    "word": "inadvertently",
+                    "ipa": "/ˌɪnədˈvɜːtəntli/",
+                    "pos": "adv",
+                    "level": "B2",
+                    "vi": "vô tình, không cố ý",
+                    "family": "inadvertent (adj)",
+                    "example_en": "Children inadvertently disrupted an important online meeting.",
+                    "example_vi": "Trẻ nhỏ vô tình làm gián đoạn một cuộc họp trực tuyến quan trọng."
+                  },
+                  {
+                    "word": "irritability",
+                    "ipa": "/ˌɪrɪtəˈbɪləti/",
+                    "pos": "noun",
+                    "level": "B2",
+                    "vi": "tính cáu kỉnh, dễ nổi giận",
+                    "family": "irritable (adj)",
+                    "example_en": "Lack of sleep increases irritability and emotional outbursts.",
+                    "example_vi": "Thiếu ngủ làm tăng sự cáu kỉnh và bộc phát cảm xúc."
+                  },
+                  {
+                    "word": "spontaneous",
+                    "ipa": "/spɒnˈteɪniəs/",
+                    "pos": "adj",
+                    "level": "B2",
+                    "vi": "tự nhiên, bộc phát",
+                    "family": "spontaneously (adv)",
+                    "example_en": "Parents should encourage spontaneous conversations with kids.",
+                    "example_vi": "Cha mẹ nên khuyến khích những cuộc trò chuyện tự nhiên với con cái."
+                  },
+                  {
+                    "word": "chronic",
+                    "ipa": "/ˈkrɒnɪk/",
+                    "pos": "adj",
+                    "level": "B2",
+                    "vi": "mãn tính, dai dẳng",
+                    "family": "chronically (adv)",
+                    "example_en": "Chronic stress negatively influences mental and physical well-being.",
+                    "example_vi": "Căng thẳng dai dẳng ảnh hưởng tiêu cực đến sức khỏe thể chất và tinh thần."
+                  },
+                  {
+                    "word": "dismiss",
+                    "ipa": "/dɪsˈmɪs/",
+                    "pos": "verb",
+                    "level": "B2",
+                    "vi": "gạt đi, phớt lờ",
+                    "family": "dismissal (n)",
+                    "example_en": "Do not dismiss your child's feelings when they are sad.",
+                    "example_vi": "Đừng gạt bỏ cảm xúc của con khi chúng đang buồn."
+                  },
+                  {
+                    "word": "obligation",
+                    "ipa": "/ˌɒblɪˈɡeɪʃn/",
+                    "pos": "noun",
+                    "level": "B2",
+                    "vi": "nghĩa vụ, bổn phận",
+                    "family": "obligatory (adj)",
+                    "example_en": "Balancing job obligations and family life requires discipline.",
+                    "example_vi": "Cân bằng nghĩa vụ công việc và cuộc sống gia đình đòi hỏi sự kỷ luật."
+                  },
+                  {
+                    "word": "interact",
+                    "ipa": "/ˌɪntərˈækt/",
+                    "pos": "verb",
+                    "level": "B2",
+                    "vi": "tương tác, giao tiếp",
+                    "family": "interaction (n)",
+                    "example_en": "Parents need quality time to interact with their children.",
+                    "example_vi": "Cha mẹ cần thời gian chất lượng để tương tác với con cái."
+                  },
+                  {
+                    "word": "burden",
+                    "ipa": "/ˈbɜːdn/",
+                    "pos": "noun",
+                    "level": "B2",
+                    "vi": "gánh nặng",
+                    "family": "burdensome (adj)",
+                    "example_en": "Caring for young kids while working creates a heavy burden.",
+                    "example_vi": "Trông con nhỏ trong khi làm việc tạo ra một gánh nặng lớn."
+                  },
+                  {
+                    "word": "compromise",
+                    "ipa": "/ˈkɒmprəmaɪz/",
+                    "pos": "verb",
+                    "level": "B2",
+                    "vi": "làm tổn hại, làm suy yếu",
+                    "family": "compromise (n)",
+                    "example_en": "Poor work boundaries can compromise parent–child connections.",
+                    "example_vi": "Ranh giới công việc kém có thể làm tổn hại sự gắn kết giữa cha mẹ và con cái."
+                  }
+                ]
+              },
+              "vocab": [
+                {
+                  "en": "attention",
+                  "vi": "sự chú ý"
+                },
+                {
+                  "en": "disturb",
+                  "vi": "làm phiền, quấy rầy"
+                },
+                {
+                  "en": "boundary",
+                  "vi": "ranh giới, giới hạn"
+                },
+                {
+                  "en": "ignore",
+                  "vi": "phớt lờ, bỏ qua"
+                },
+                {
+                  "en": "exhausted",
+                  "vi": "kiệt sức, mệt lử"
+                },
+                {
+                  "en": "argument",
+                  "vi": "cuộc tranh cãi"
+                },
+                {
+                  "en": "available",
+                  "vi": "rảnh, có sẵn"
+                },
+                {
+                  "en": "stress",
+                  "vi": "sự căng thẳng, áp lực"
+                },
+                {
+                  "en": "interruption",
+                  "vi": "sự gián đoạn, làm gián đoạn"
+                },
+                {
+                  "en": "patient",
+                  "vi": "kiên nhẫn, nhẫn nại"
+                },
+                {
+                  "en": "annoyance",
+                  "vi": "sự khó chịu, bực mình"
+                },
+                {
+                  "en": "screen",
+                  "vi": "màn hình máy tính/điện thoại"
+                },
+                {
+                  "en": "friction",
+                  "vi": "sự xích mích, bất hòa"
+                },
+                {
+                  "en": "alienate",
+                  "vi": "làm xa lánh, cô lập"
+                },
+                {
+                  "en": "fatigue",
+                  "vi": "sự mệt mỏi, kiệt sức"
+                },
+                {
+                  "en": "inadvertently",
+                  "vi": "vô tình, không cố ý"
+                },
+                {
+                  "en": "irritability",
+                  "vi": "tính cáu kỉnh, dễ nổi giận"
+                },
+                {
+                  "en": "spontaneous",
+                  "vi": "tự nhiên, bộc phát"
+                },
+                {
+                  "en": "chronic",
+                  "vi": "mãn tính, dai dẳng"
+                },
+                {
+                  "en": "dismiss",
+                  "vi": "gạt đi, phớt lờ"
+                },
+                {
+                  "en": "obligation",
+                  "vi": "nghĩa vụ, bổn phận"
+                },
+                {
+                  "en": "interact",
+                  "vi": "tương tác, giao tiếp"
+                },
+                {
+                  "en": "burden",
+                  "vi": "gánh nặng"
+                },
+                {
+                  "en": "compromise",
+                  "vi": "làm tổn hại, làm suy yếu"
+                }
+              ]
+            }
+          },
+          {
+            "name": "CÁCH 03: CẢ TÍCH CỰC & TIÊU CỰC",
+            "tags": "[Positive & Negative Effects]",
+            "paraphrases": [
+              {
+                "en": "working from home",
+                "vi": "làm việc tại nhà"
+              },
+              {
+                "en": "remote working and telecommuting",
+                "vi": "làm việc từ xa"
+              },
+              {
+                "en": "parent–child relationships",
+                "vi": "mối quan hệ giữa cha mẹ và con cái"
+              },
+              {
+                "en": "both benefits and drawbacks for family life",
+                "vi": "cả lợi ích lẫn bất lợi cho cuộc sống gia đình"
+              }
+            ],
+            "details": {
+              "ideas_b1": {
+                "benefits": [
+                  {
+                    "title": "POSITIVE EFFECT 01",
+                    "point_vi": "Làm việc tại nhà giúp cha mẹ hỗ trợ việc học của con tốt hơn.",
+                    "point_en": "First, working from home allows parents to support their children's studies better.",
+                    "evidence_vi": "Cha mẹ có thể giúp con làm bài tập khi con cần và theo dõi việc học của con thường xuyên hơn.",
+                    "evidence_en": "Parents can help their children with homework when needed and monitor their learning progress regularly.",
+                    "collocations": [
+                      {
+                        "en": "support children's studies",
+                        "vi": "hỗ trợ việc học của con"
+                      },
+                      {
+                        "en": "help with homework",
+                        "vi": "giúp làm bài tập về nhà"
+                      },
+                      {
+                        "en": "monitor learning progress",
+                        "vi": "theo dõi tiến độ học tập"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "POSITIVE EFFECT 02",
+                    "point_vi": "Sự hiện diện của cha mẹ ở nhà giúp con cảm thấy an toàn và được quan tâm hơn.",
+                    "point_en": "Second, parents' presence at home makes children feel safer and more cared for.",
+                    "evidence_vi": "Trẻ biết cha mẹ luôn ở gần, nên các em dễ dàng chia sẻ những lo lắng hoặc vấn đề trong cuộc sống.",
+                    "evidence_en": "Children know that their parents are always nearby, so they can easily share their worries or personal problems.",
+                    "collocations": [
+                      {
+                        "en": "parents' presence at home",
+                        "vi": "sự hiện diện của cha mẹ ở nhà"
+                      },
+                      {
+                        "en": "feel safer and more cared for",
+                        "vi": "cảm thấy an toàn và được quan tâm hơn"
+                      },
+                      {
+                        "en": "share personal problems",
+                        "vi": "chia sẻ các vấn đề cá nhân"
+                      }
+                    ]
+                  }
+                ],
+                "drawbacks": [
+                  {
+                    "title": "NEGATIVE EFFECT 01",
+                    "point_vi": "Làm việc tại nhà có thể làm mờ ranh giới giữa công việc và gia đình.",
+                    "point_en": "However, working from home can blur the boundary between work and family life.",
+                    "evidence_vi": "Trẻ nhỏ có thể nghĩ rằng cha mẹ luôn rảnh để chơi, nên các em có thể làm phiền cha mẹ trong giờ làm việc.",
+                    "evidence_en": "Young children may think parents are always free to play, so they might disturb their parents during work hours.",
+                    "collocations": [
+                      {
+                        "en": "blur the boundary",
+                        "vi": "làm mờ ranh giới"
+                      },
+                      {
+                        "en": "disturb parents during work",
+                        "vi": "làm phiền cha mẹ trong giờ làm"
+                      },
+                      {
+                        "en": "always free to play",
+                        "vi": "luôn rảnh để chơi"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "NEGATIVE EFFECT 02",
+                    "point_vi": "Áp lực công việc tại nhà có thể khiến cha mẹ dễ mệt mỏi và cáu gắt với con.",
+                    "point_en": "Furthermore, work pressure at home can make parents tired and irritable.",
+                    "evidence_vi": "Khi phải vừa hoàn thành hạn chót công việc vừa chăm sóc con, cha mẹ dễ bị căng thẳng và mất bình tĩnh với con.",
+                    "evidence_en": "When juggling strict work deadlines and childcare duties, parents easily experience stress and lose their patience with their kids.",
+                    "collocations": [
+                      {
+                        "en": "work pressure at home",
+                        "vi": "áp lực công việc tại nhà"
+                      },
+                      {
+                        "en": "strict work deadlines",
+                        "vi": "hạn chót công việc khắt khe"
+                      },
+                      {
+                        "en": "lose their patience",
+                        "vi": "mất kiên nhẫn"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "ideas_b2": {
+                "benefits": [
+                  {
+                    "title": "POSITIVE EFFECT 01",
+                    "point_vi": "Làm việc từ xa tạo điều kiện thuận lợi để phụ huynh đồng hành và hỗ trợ việc học của con.",
+                    "point_en": "On the one hand, remote work enables parents to support their children's education more effectively.",
+                    "evidence_vi": "• Luận cứ: Cha mẹ có thể ở cạnh để hướng dẫn con làm bài tập khó và kịp thời phát hiện những môn học mà con gặp trở ngại.",
+                    "evidence_en": "• Evidence: Caregivers are physically present to assist with difficult homework and promptly identify academic areas where their children struggle.",
+                    "collocations": [
+                      {
+                        "en": "support children's education",
+                        "vi": "hỗ trợ việc học của con"
+                      },
+                      {
+                        "en": "assist with difficult homework",
+                        "vi": "giúp đỡ bài tập khó"
+                      },
+                      {
+                        "en": "identify academic struggles",
+                        "vi": "nhận diện khó khăn học tập"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "POSITIVE EFFECT 02",
+                    "point_vi": "Sự hiện diện thường xuyên của cha mẹ mang lại cho trẻ cảm giác an toàn và gắn kết tình cảm.",
+                    "point_en": "Additionally, parents' regular presence at home fosters a strong sense of emotional security for children.",
+                    "evidence_vi": "• Luận cứ: Trẻ cảm thấy yên tâm khi biết cha mẹ luôn ở gần, từ đó các em cởi mở tâm sự những lo lắng cá nhân và xây dựng sự tự tin.",
+                    "evidence_en": "• Evidence: Youngsters feel reassured knowing their parents are accessible, which encourages them to share personal concerns and develop self-confidence.",
+                    "collocations": [
+                      {
+                        "en": "emotional security",
+                        "vi": "sự an toàn về cảm xúc"
+                      },
+                      {
+                        "en": "parents are accessible",
+                        "vi": "cha mẹ luôn ở gần"
+                      },
+                      {
+                        "en": "share personal concerns",
+                        "vi": "chia sẻ những lo lắng cá nhân"
+                      }
+                    ]
+                  }
+                ],
+                "drawbacks": [
+                  {
+                    "title": "NEGATIVE EFFECT 01",
+                    "point_vi": "Làm việc tại nhà có thể làm xóa nhòa ranh giới giữa nghĩa vụ công việc và thời gian dành cho gia đình.",
+                    "point_en": "On the other hand, telecommuting can blur the boundary between professional duties and domestic life.",
+                    "evidence_vi": "• Luận cứ: Trẻ nhỏ thường không hiểu khi nào cha mẹ đang bận, dẫn đến việc các em vô tình làm phiền trong giờ làm và gây ra tranh cãi.",
+                    "evidence_en": "• Evidence: Young children often fail to realize when parents are working, which leads to accidental interruptions and domestic tension.",
+                    "collocations": [
+                      {
+                        "en": "blur professional boundaries",
+                        "vi": "làm mờ ranh giới công việc"
+                      },
+                      {
+                        "en": "accidental interruptions",
+                        "vi": "sự làm phiền vô tình"
+                      },
+                      {
+                        "en": "domestic tension",
+                        "vi": "căng thẳng trong gia đình"
+                      }
+                    ]
+                  },
+                  {
+                    "title": "NEGATIVE EFFECT 02",
+                    "point_vi": "Áp lực kép giữa công việc và việc nhà khiến cha mẹ dễ rơi vào trạng thái mệt mỏi và cáu gắt.",
+                    "point_en": "Furthermore, managing both job demands and household duties substantially increases parental stress levels.",
+                    "evidence_vi": "• Luận cứ: Khi bị quá tải bởi các hạn chót công việc và việc chăm sóc con, phụ huynh dễ bị kiệt sức và mất kiên nhẫn khi con mắc lỗi.",
+                    "evidence_en": "• Evidence: When overwhelmed by tight job deadlines and childcare tasks, exhausted parents are more prone to irritability and harsh reactions.",
+                    "collocations": [
+                      {
+                        "en": "parental stress levels",
+                        "vi": "mức độ căng thẳng của cha mẹ"
+                      },
+                      {
+                        "en": "overwhelmed by deadlines",
+                        "vi": "bị quá tải bởi các hạn chót"
+                      },
+                      {
+                        "en": "prone to irritability",
+                        "vi": "dễ nổi cáu, bực dọc"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "sample_b1": "In modern life, <strong>working from home</strong> has become increasingly common due to advances in technology. While this working arrangement offers more flexibility for employees, it also influences family life in various ways. In particular, telecommuting has both positive and negative effects on the relationship between parents and their children. <strong>This essay will discuss both sides of this trend.</strong>\n\n<strong>On the one hand, working from home brings several important benefits to parent–child relationships.</strong> First, <strong><em>it allows parents to support their children's studies better</em></strong>. Parents are at home to help their kids with difficult homework and monitor their learning progress regularly. Second, <strong><em>parents' presence at home makes children feel safer and more cared for</em></strong>. Children know that their parents are always nearby, so they can easily share their worries or personal problems. As a result, this close contact helps children become more confident and emotionally secure.\n\n<strong>On the other hand, working from home can also create several negative effects.</strong> The first drawback is that <strong><em>it can blur the boundary between work and family life</em></strong>. Young children often think parents are always free to play, so they might disturb their parents during work hours, causing misunderstandings and arguments. Furthermore, <strong><em>work pressure at home can make parents tired and irritable</em></strong>. When juggling strict work deadlines and childcare duties, parents easily experience stress and lose their patience with their children over minor issues.\n\nIn conclusion, working from home has both positive and negative influences on parent–child relationships. It provides more opportunities for academic guidance and emotional bonding, but it can also blur work-life boundaries and raise parental stress. Therefore, parents should set clear working hours to balance their career and family happiness.",
+              "translation_b1": "Trong đời sống hiện đại, làm việc tại nhà đã trở nên ngày càng phổ biến nhờ vào những tiến bộ trong công nghệ. Mặc dù hình thức làm việc này mang lại sự linh hoạt hơn cho người lao động, nó cũng ảnh hưởng đến cuộc sống gia đình theo nhiều cách khác nhau. Đặc biệt, làm việc từ xa mang lại cả tác động tích cực lẫn tiêu cực đối với mối quan hệ giữa cha mẹ và con cái. Bài viết này sẽ thảo luận về cả hai mặt của xu hướng này.\n\nMột mặt, làm việc tại nhà mang lại một số lợi ích quan trọng cho mối quan hệ giữa cha mẹ và con cái. Trước hết, nó cho phép cha mẹ hỗ trợ việc học của con tốt hơn. Cha mẹ có mặt ở nhà để giúp con làm bài tập khó và theo dõi tiến độ học tập của con thường xuyên. Thứ hai, sự hiện diện của cha mẹ ở nhà giúp trẻ cảm thấy an toàn và được quan tâm hơn. Trẻ biết rằng cha mẹ luôn ở gần bên, vì vậy các em có thể dễ dàng chia sẻ những lo lắng hoặc vấn đề cá nhân của mình. Kết quả là sự tiếp xúc gần gũi này giúp trẻ trở nên tự tin và yên tâm hơn về mặt cảm xúc.\n\nMặt khác, làm việc tại nhà cũng có thể tạo ra một số tác động tiêu cực. Hạn chế đầu tiên là nó có thể làm mờ ranh giới giữa công việc và cuộc sống gia đình. Trẻ nhỏ thường nghĩ rằng cha mẹ luôn rảnh rỗi để chơi đùa, vì vậy các em có thể làm phiền cha mẹ trong giờ làm việc, gây ra những hiểu lầm và tranh cãi. Hơn nữa, áp lực công việc tại nhà có thể khiến cha mẹ mệt mỏi và cáu kỉnh. Khi phải xoay xở giữa các hạn chót công việc khắt khe và trách nhiệm chăm sóc con cái, cha mẹ dễ bị căng thẳng và mất kiên nhẫn với con vì những vấn đề nhỏ nhặt.\n\nTóm lại, làm việc tại nhà có cả ảnh hưởng tích cực và tiêu cực đến mối quan hệ giữa cha mẹ và con cái. Nó mang lại nhiều cơ hội hơn để định hướng học tập và gắn kết tình cảm, nhưng nó cũng có thể xóa nhòa ranh giới công việc - cuộc sống và làm tăng áp lực cho cha mẹ. Vì vậy, các bậc cha mẹ nên thiết lập giờ làm việc rõ ràng để cân bằng giữa sự nghiệp và hạnh phúc gia đình.",
+              "sample_b2": "In contemporary society, <strong>working from home</strong> has gained immense popularity, profoundly altering traditional employment patterns. While remote work provides professionals with greater flexibility and eliminates the daily commute, its influence on domestic life is twofold. Specifically, telecommuting exerts both positive and negative effects on the dynamics between parents and their children. <strong>This essay will critically examine both dimensions of this phenomenon.</strong>\n\n<strong>On the one hand, telecommuting offers notable advantages that foster closer family bonds.</strong> First and foremost, <strong><em>remote work enables parents to support their children's education more effectively</em></strong>. Caregivers are physically present to assist with difficult homework assignments and promptly identify academic areas where their children struggle. Additionally, <strong><em>parents' regular presence at home fosters a strong sense of emotional security for children</em></strong>. Youngsters feel reassured knowing their parents are accessible, which encourages them to share personal concerns openly and develop greater self-confidence.\n\n<strong>On the other hand, remote working also introduces tangible drawbacks that can strain parent–child relationships.</strong> A major concern is that <strong><em>telecommuting can blur the boundary between professional duties and domestic life</em></strong>. Young children often fail to realize when parents are occupied with urgent tasks, leading to accidental interruptions, parental frustration, and domestic tension. Furthermore, <strong><em>managing both job demands and household responsibilities substantially increases parental stress levels</em></strong>. When overwhelmed by tight project deadlines and childcare obligations, exhausted parents become prone to irritability, often losing their patience when interacting with their children.\n\nIn conclusion, working from home yields both beneficial and adverse consequences for parent–child connections. While it facilitates educational guidance and emotional closeness, it also risks blurring professional boundaries and escalating household stress. Therefore, remote-working parents must establish clear working schedules and maintain open communication to maximize the benefits while safeguarding family harmony.",
+              "translation_b2": "Trong xã hội đương đại, làm việc tại nhà đã trở nên vô cùng phổ biến, làm thay đổi sâu sắc các mô hình việc làm truyền thống. Mặc dù làm việc từ xa mang lại sự linh hoạt hơn cho các chuyên gia và loại bỏ việc đi lại hằng ngày, ảnh hưởng của nó đối với đời sống gia đình mang tính hai mặt. Cụ thể, làm việc từ xa mang lại cả tác động tích cực lẫn tiêu cực đối với sự tương tác giữa cha mẹ và con cái. Bài viết này sẽ phân tích chuyên sâu cả hai khía cạnh của hiện tượng này.\n\nMột mặt, làm việc từ xa mang lại những lợi ích đáng kể giúp thắt chặt tình cảm gia đình. Trước hết, làm việc từ xa tạo điều kiện để cha mẹ hỗ trợ việc học của con hiệu quả hơn. Những người chăm sóc có mặt trực tiếp để giúp đỡ các bài tập về nhà khó và kịp thời nhận diện các môn học mà con gặp trở ngại. Thêm vào đó, sự hiện diện thường xuyên của cha mẹ tại nhà mang lại cảm giác an toàn vững chắc về mặt cảm xúc cho con trẻ. Trẻ nhỏ cảm thấy yên lòng khi biết cha mẹ luôn ở gần, điều này khuyến khích các em cởi mở chia sẻ những lo lắng cá nhân và phát triển sự tự tin lớn hơn.\n\nMặt khác, làm việc từ xa cũng gây ra những bất lợi rõ rệt có thể làm căng thẳng mối quan hệ giữa cha mẹ và con cái. Một mối lo ngại lớn là làm việc từ xa có thể làm xóa nhòa ranh giới giữa nghĩa vụ nghề nghiệp và đời sống gia đình. Trẻ nhỏ thường không nhận thức được khi nào cha mẹ đang bận rộn với các nhiệm vụ khẩn cấp, dẫn đến những sự quấy rầy vô tình, sự bực dọc của cha mẹ và căng thẳng gia đình. Hơn nữa, việc vừa giải quyết các yêu cầu công việc vừa lo việc gia đình làm gia tăng đáng kể mức độ căng thẳng của phụ huynh. Khi bị quá tải bởi các hạn chót dự án gấp rút và nghĩa vụ chăm sóc con cái, những phụ huynh kiệt sức trở nên dễ nổi cáu, thường mất kiên nhẫn khi tương tác với con cái.\n\nTóm lại, làm việc tại nhà mang lại cả những hệ quả có lợi và bất lợi đối với mối quan hệ giữa cha mẹ và con cái. Mặc dù nó tạo điều kiện cho việc định hướng học tập và sự gần gũi cảm xúc, nó cũng có nguy cơ xóa nhòa ranh giới công việc và làm gia tăng căng thẳng gia đình. Do đó, các bậc cha mẹ làm việc từ xa phải thiết lập lịch làm việc rõ ràng và duy trì giao tiếp cởi mở để tối đa hóa các lợi ích đồng thời giữ gìn sự hòa thuận trong gia đình.",
+              "vocab_step": {
+                "theme": "Làm việc tại nhà: Cả tích cực và tiêu cực (WFH - Both Sides)",
+                "single_words": [
+                  {
+                    "word": "homework",
+                    "ipa": "/ˈhəʊmwɜːk/",
+                    "pos": "noun",
+                    "level": "B1",
+                    "vi": "bài tập về nhà",
+                    "family": "schoolwork (n)",
+                    "example_en": "Parents can help kids with homework in the evening.",
+                    "example_vi": "Cha mẹ có thể giúp con làm bài tập về nhà vào buổi tối."
+                  },
+                  {
+                    "word": "nearby",
+                    "ipa": "/ˌnɪəˈbaɪ/",
+                    "pos": "adj/adv",
+                    "level": "B1",
+                    "vi": "ở gần bên",
+                    "family": "near (prep)",
+                    "example_en": "Children feel safe when parents are nearby.",
+                    "example_vi": "Trẻ cảm thấy an toàn khi cha mẹ ở gần bên."
+                  },
+                  {
+                    "word": "confident",
+                    "ipa": "/ˈkɒnfɪdənt/",
+                    "pos": "adj",
+                    "level": "B1",
+                    "vi": "tự tin",
+                    "family": "confidence (n)",
+                    "example_en": "Supportive parents make children more confident.",
+                    "example_vi": "Cha mẹ hay ủng hộ giúp con tự tin hơn."
+                  },
+                  {
+                    "word": "boundary",
+                    "ipa": "/ˈbaʊndri/",
+                    "pos": "noun",
+                    "level": "B1",
+                    "vi": "ranh giới",
+                    "family": "bound (v)",
+                    "example_en": "Clear boundaries help keep family life peaceful.",
+                    "example_vi": "Ranh giới rõ ràng giúp giữ cho cuộc sống gia đình yên bình."
+                  },
+                  {
+                    "word": "disturb",
+                    "ipa": "/dɪˈstɜːb/",
+                    "pos": "verb",
+                    "level": "B1",
+                    "vi": "làm phiền",
+                    "family": "disturbance (n)",
+                    "example_en": "Kids should not disturb parents during phone calls.",
+                    "example_vi": "Trẻ không nên làm phiền cha mẹ trong lúc gọi điện."
+                  },
+                  {
+                    "word": "pressure",
+                    "ipa": "/ˈpreʃə/",
+                    "pos": "noun",
+                    "level": "B1",
+                    "vi": "áp lực",
+                    "family": "press (v)",
+                    "example_en": "Work pressure causes tiredness for many workers.",
+                    "example_vi": "Áp lực công việc gây ra sự mệt mỏi cho nhiều người lao động."
+                  },
+                  {
+                    "word": "patient",
+                    "ipa": "/ˈpeɪʃnt/",
+                    "pos": "adj",
+                    "level": "B1",
+                    "vi": "kiên nhẫn",
+                    "family": "patience (n)",
+                    "example_en": "Be patient when teaching young children.",
+                    "example_vi": "Hãy kiên nhẫn khi dạy trẻ nhỏ."
+                  },
+                  {
+                    "word": "share",
+                    "ipa": "/ʃeə/",
+                    "pos": "verb",
+                    "level": "B1",
+                    "vi": "chia sẻ",
+                    "family": "sharing (n)",
+                    "example_en": "Children need to share their feelings openly.",
+                    "example_vi": "Trẻ em cần cởi mở chia sẻ cảm xúc của mình."
+                  },
+                  {
+                    "word": "secure",
+                    "ipa": "/sɪˈkjʊə/",
+                    "pos": "adj",
+                    "level": "B1",
+                    "vi": "an toàn, yên tâm",
+                    "family": "security (n)",
+                    "example_en": "A loving home helps kids feel secure.",
+                    "example_vi": "Một gia đình yêu thương giúp trẻ cảm thấy yên tâm."
+                  },
+                  {
+                    "word": "exhausted",
+                    "ipa": "/ɪɡˈzɔːstɪd/",
+                    "pos": "adj",
+                    "level": "B1",
+                    "vi": "kiệt sức",
+                    "family": "exhaustion (n)",
+                    "example_en": "Parents feel exhausted after working and cooking.",
+                    "example_vi": "Cha mẹ cảm thấy kiệt sức sau khi vừa làm việc vừa nấu nướng."
+                  },
+                  {
+                    "word": "balance",
+                    "ipa": "/ˈbæləns/",
+                    "pos": "verb/noun",
+                    "level": "B1",
+                    "vi": "cân bằng",
+                    "family": "balanced (adj)",
+                    "example_en": "Try to balance your work and family time.",
+                    "example_vi": "Hãy cố gắng cân bằng thời gian làm việc và gia đình."
+                  },
+                  {
+                    "word": "deadline",
+                    "ipa": "/ˈdedlaɪn/",
+                    "pos": "noun",
+                    "level": "B1",
+                    "vi": "hạn chót hoàn thành",
+                    "family": "line (n)",
+                    "example_en": "Employees must submit projects before the deadline.",
+                    "example_vi": "Nhân viên phải nộp dự án trước thời hạn."
+                  },
+                  {
+                    "word": "twofold",
+                    "ipa": "/ˈtuːfəʊld/",
+                    "pos": "adj",
+                    "level": "B2",
+                    "vi": "gồm hai mặt, gấp đôi",
+                    "family": "fold (v)",
+                    "example_en": "The impact of working from home is twofold.",
+                    "example_vi": "Tác động của làm việc tại nhà mang tính hai mặt."
+                  },
+                  {
+                    "word": "accessible",
+                    "ipa": "/əkˈsesəbl/",
+                    "pos": "adj",
+                    "level": "B2",
+                    "vi": "dễ tiếp cận, luôn có mặt",
+                    "family": "access (n)",
+                    "example_en": "Parents are more accessible to their children at home.",
+                    "example_vi": "Cha mẹ dễ gần gũi với con cái hơn khi ở nhà."
+                  },
+                  {
+                    "word": "reassure",
+                    "ipa": "/ˌriːəˈʃʊə/",
+                    "pos": "verb",
+                    "level": "B2",
+                    "vi": "làm yên lòng, trấn an",
+                    "family": "reassurance (n)",
+                    "example_en": "A gentle hug can reassure an anxious child.",
+                    "example_vi": "Một cái ôm dịu dàng có thể làm yên lòng một đứa trẻ đang lo lắng."
+                  },
+                  {
+                    "word": "overwhelm",
+                    "ipa": "/ˌəʊvəˈwelm/",
+                    "pos": "verb",
+                    "level": "B2",
+                    "vi": "làm quá tải, ngập tràn",
+                    "family": "overwhelming (adj)",
+                    "example_en": "Heavy deadlines can overwhelm busy working parents.",
+                    "example_vi": "Hạn chót gấp rút có thể làm quá tải những phụ huynh bận rộn."
+                  },
+                  {
+                    "word": "interruption",
+                    "ipa": "/ˌɪntəˈrʌpʃn/",
+                    "pos": "noun",
+                    "level": "B2",
+                    "vi": "sự gián đoạn, làm phiền",
+                    "family": "interrupt (v)",
+                    "example_en": "Frequent interruptions reduce productivity during remote work.",
+                    "example_vi": "Sự gián đoạn thường xuyên làm giảm năng suất trong quá trình làm việc từ xa."
+                  },
+                  {
+                    "word": "irritability",
+                    "ipa": "/ˌɪrɪtəˈbɪləti/",
+                    "pos": "noun",
+                    "level": "B2",
+                    "vi": "sự cáu kỉnh, dễ nổi giận",
+                    "family": "irritable (adj)",
+                    "example_en": "Stress increases irritability and negative emotional reactions.",
+                    "example_vi": "Căng thẳng làm tăng sự cáu kỉnh và các phản ứng tiêu cực."
+                  },
+                  {
+                    "word": "harmony",
+                    "ipa": "/ˈhɑːməni/",
+                    "pos": "noun",
+                    "level": "B2",
+                    "vi": "sự hòa thuận, hòa hợp",
+                    "family": "harmonious (adj)",
+                    "example_en": "Mutual understanding preserves long-term family harmony.",
+                    "example_vi": "Sự thấu hiểu lẫn nhau gìn giữ hòa khí gia đình lâu dài."
+                  },
+                  {
+                    "word": "telecommuting",
+                    "ipa": "/ˌtelikəˈmjuːtɪŋ/",
+                    "pos": "noun",
+                    "level": "B2",
+                    "vi": "làm việc từ xa",
+                    "family": "telecommute (v)",
+                    "example_en": "Telecommuting transforms modern family routines.",
+                    "example_vi": "Làm việc từ xa làm thay đổi nếp sinh hoạt gia đình hiện đại."
+                  },
+                  {
+                    "word": "friction",
+                    "ipa": "/ˈfrɪkʃn/",
+                    "pos": "noun",
+                    "level": "B2",
+                    "vi": "sự xích mích, căng thẳng",
+                    "family": "frictional (adj)",
+                    "example_en": "Clear communication avoids unnecessary domestic friction.",
+                    "example_vi": "Giao tiếp rõ ràng giúp tránh được sự xích mích gia đình không đáng có."
+                  },
+                  {
+                    "word": "guidance",
+                    "ipa": "/ˈɡaɪdns/",
+                    "pos": "noun",
+                    "level": "B2",
+                    "vi": "sự định hướng, hướng dẫn",
+                    "family": "guide (v)",
+                    "example_en": "Children thrive under warm and steady parental guidance.",
+                    "example_vi": "Trẻ em phát triển tốt dưới sự định hướng ấm áp và vững vàng của cha mẹ."
+                  },
+                  {
+                    "word": "strain",
+                    "ipa": "/streɪn/",
+                    "pos": "verb/noun",
+                    "level": "B2",
+                    "vi": "làm căng thẳng, sự căng thẳng",
+                    "family": "strained (adj)",
+                    "example_en": "Unrealistic job demands can strain close personal relationships.",
+                    "example_vi": "Những yêu cầu công việc phi thực tế có thể làm căng thẳng các mối quan hệ thân thiết."
+                  },
+                  {
+                    "word": "safeguard",
+                    "ipa": "/ˈseɪfɡɑːd/",
+                    "pos": "verb",
+                    "level": "B2",
+                    "vi": "bảo vệ, gìn giữ",
+                    "family": "safe (adj)",
+                    "example_en": "Parents must safeguard their children's emotional well-being.",
+                    "example_vi": "Cha mẹ phải bảo vệ sức khỏe tinh thần của con cái."
+                  }
+                ]
+              },
+              "vocab": [
+                {
+                  "en": "homework",
+                  "vi": "bài tập về nhà"
+                },
+                {
+                  "en": "nearby",
+                  "vi": "ở gần bên"
+                },
+                {
+                  "en": "confident",
+                  "vi": "tự tin"
+                },
+                {
+                  "en": "boundary",
+                  "vi": "ranh giới"
+                },
+                {
+                  "en": "disturb",
+                  "vi": "làm phiền"
+                },
+                {
+                  "en": "pressure",
+                  "vi": "áp lực"
+                },
+                {
+                  "en": "patient",
+                  "vi": "kiên nhẫn"
+                },
+                {
+                  "en": "share",
+                  "vi": "chia sẻ"
+                },
+                {
+                  "en": "secure",
+                  "vi": "an toàn, yên tâm"
+                },
+                {
+                  "en": "exhausted",
+                  "vi": "kiệt sức"
+                },
+                {
+                  "en": "balance",
+                  "vi": "cân bằng"
+                },
+                {
+                  "en": "deadline",
+                  "vi": "hạn chót hoàn thành"
+                },
+                {
+                  "en": "twofold",
+                  "vi": "gồm hai mặt, gấp đôi"
+                },
+                {
+                  "en": "accessible",
+                  "vi": "dễ tiếp cận, luôn có mặt"
+                },
+                {
+                  "en": "reassure",
+                  "vi": "làm yên lòng, trấn an"
+                },
+                {
+                  "en": "overwhelm",
+                  "vi": "làm quá tải, ngập tràn"
+                },
+                {
+                  "en": "interruption",
+                  "vi": "sự gián đoạn, làm phiền"
+                },
+                {
+                  "en": "irritability",
+                  "vi": "sự cáu kỉnh, dễ nổi giận"
+                },
+                {
+                  "en": "harmony",
+                  "vi": "sự hòa thuận, hòa hợp"
+                },
+                {
+                  "en": "telecommuting",
+                  "vi": "làm việc từ xa"
+                },
+                {
+                  "en": "friction",
+                  "vi": "sự xích mích, căng thẳng"
+                },
+                {
+                  "en": "guidance",
+                  "vi": "sự định hướng, hướng dẫn"
+                },
+                {
+                  "en": "strain",
+                  "vi": "làm căng thẳng, sự căng thẳng"
+                },
+                {
+                  "en": "safeguard",
+                  "vi": "bảo vệ, gìn giữ"
+                }
+              ]
+            }
+          }
+        ]
       },
       {
         "id": 50,

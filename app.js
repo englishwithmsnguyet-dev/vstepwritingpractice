@@ -604,6 +604,12 @@ function startPractice(catId, topicId) {
   
   currentCategory = category;
   currentTopic = topic;
+  currentApproachIndex = 0;
+  if (topic.approaches && topic.approaches.length > 0) {
+    topic.details = topic.approaches[0].details;
+    if (topic.approaches[0].tags) topic.tags = topic.approaches[0].tags;
+    if (topic.approaches[0].paraphrases) topic.paraphrases = topic.approaches[0].paraphrases;
+  }
   currentOutlineLevel = 'B1';
   currentTransLevel = 'B1'; // reset translation exercises level to B1
   currentVocabLevel = 'B1'; // reset vocabulary booster level to B1
@@ -728,11 +734,68 @@ function startPractice(catId, topicId) {
   document.getElementById('ws-model-level-b2').classList.remove('active');
   currentSampleLevel = 'B1';
   
+  // Render approach switcher if topic has multiple approaches
+  renderWorkspaceApproachSwitcher();
+
   // Render workspace step tabs dynamically based on topic features
   renderWorkspaceStepHeader();
 
   // Switch to Step 1 (Reading & Analysis) by default
   switchStep('read');
+}
+
+// --- WORKSPACE MULTI-APPROACH LOGIC ---
+let currentApproachIndex = 0;
+
+function renderWorkspaceApproachSwitcher() {
+  const container = document.getElementById('workspace-approach-switcher');
+  if (!container) return;
+  
+  if (!currentTopic || !currentTopic.approaches || currentTopic.approaches.length === 0) {
+    container.style.display = 'none';
+    container.innerHTML = '';
+    return;
+  }
+  
+  container.style.display = 'flex';
+  container.innerHTML = `
+    <span class="approach-switcher-label">
+      <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+      </svg>
+      HƯỚNG BÀI VIẾT:
+    </span>
+    <div class="approach-pills-list">
+      ${currentTopic.approaches.map((appr, idx) => `
+        <button class="approach-pill-btn ${idx === currentApproachIndex ? 'active' : ''}" onclick="switchTopicApproach(${idx})">
+          ${appr.name}
+        </button>
+      `).join('')}
+    </div>
+  `;
+}
+
+function switchTopicApproach(index) {
+  if (!currentTopic || !currentTopic.approaches || !currentTopic.approaches[index]) return;
+  currentApproachIndex = index;
+  
+  const chosen = currentTopic.approaches[index];
+  currentTopic.details = chosen.details;
+  if (chosen.tags) currentTopic.tags = chosen.tags;
+  if (chosen.paraphrases) currentTopic.paraphrases = chosen.paraphrases;
+  
+  // Re-render UI components
+  renderWorkspaceApproachSwitcher();
+  renderWorkspaceStepHeader();
+  
+  // Re-render active views
+  renderStep1Reading();
+  if (hasVocabStep()) renderStepVocab();
+  renderTranslationExercises();
+  renderOutline();
+  renderVietnameseOutline();
+  renderModelEssay();
 }
 
 // --- WORKSPACE PRACTICE WORKFLOW CONTROLS ---
