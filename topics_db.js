@@ -26720,7 +26720,7 @@ const ESSAY_DATA = [
         "prompt": "Write an essay to an educated reader to discuss the causes and effects of biodiversity loss. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
         "has_full_details": false
       },
-            {
+                  {
             "id": 28,
             "title_en": "Cybercrime",
             "title_vi": "Tội phạm mạng",
@@ -26753,8 +26753,8 @@ const ESSAY_DATA = [
                                     "title": "EFFECT 01",
                                     "point_vi": "Tội phạm mạng có thể khiến cá nhân mất một khoản tiền lớn.",
                                     "point_en": "First, cybercrime can cause individuals to lose a large amount of money.",
-                                    "evidence_vi": "Tội phạm có thể sử dụng các vụ lừa đảo trực tuyến để đánh cắp tiền hoặc thông tin ngân hàng của mọi người.",
-                                    "evidence_en": "Criminals can use online scams to steal money or bank details from people.",
+                                    "evidence_vi": "Tội phạm có thể sử dụng các vụ lừa đảo trực tuyến để đánh cắp tiền hoặc thông tin ngân hàng của mọi người. Hậu quả là nhiều nạn nhân mất sạch tiền tiết kiệm và gặp khó khăn tài chính.",
+                                    "evidence_en": "Criminals can use online scams to steal money or bank details from people. As a result, many victims lose their savings and face difficult financial problems.",
                                     "collocations": [
                                           {
                                                 "en": "lose a large amount of money",
@@ -26769,8 +26769,8 @@ const ESSAY_DATA = [
                                                 "vi": "đánh cắp thông tin ngân hàng"
                                           },
                                           {
-                                                "en": "fall victim to cybercriminals",
-                                                "vi": "trở thành nạn nhân của tội phạm mạng"
+                                                "en": "lose their savings",
+                                                "vi": "mất tiền tiết kiệm"
                                           }
                                     ]
                               },
@@ -26778,8 +26778,8 @@ const ESSAY_DATA = [
                                     "title": "EFFECT 02",
                                     "point_vi": "Tội phạm mạng có thể khiến doanh nghiệp mất dữ liệu quan trọng và uy tín.",
                                     "point_en": "Second, cybercrime can make businesses lose important data and reputation.",
-                                    "evidence_vi": "Khi thông tin của khách hàng hoặc dữ liệu của công ty bị đánh cắp, doanh nghiệp có thể gặp khó khăn trong hoạt động và mất lòng tin của khách hàng.",
-                                    "evidence_en": "When customer information or company data is stolen, businesses may face operational problems and lose customer trust.",
+                                    "evidence_vi": "Khi thông tin của khách hàng hoặc dữ liệu công ty bị đánh cắp, doanh nghiệp có thể gặp khó khăn trong hoạt động. Hơn nữa, họ có thể mất lòng tin của khách hàng và bị sụt giảm doanh thu.",
+                                    "evidence_en": "When customer information or company data is stolen, businesses may face operational problems. Furthermore, they can lose customer trust and suffer a decline in sales.",
                                     "collocations": [
                                           {
                                                 "en": "lose important data",
@@ -26803,8 +26803,8 @@ const ESSAY_DATA = [
                                     "title": "EFFECT 03",
                                     "point_vi": "Tội phạm mạng có thể làm người dùng mất niềm tin vào Internet.",
                                     "point_en": "Finally, cybercrime can make users lose trust in the Internet.",
-                                    "evidence_vi": "Khi mọi người thường xuyên nghe về các vụ lừa đảo và đánh cắp thông tin, họ có thể cảm thấy không an toàn khi mua hàng, thanh toán hoặc chia sẻ thông tin trực tuyến.",
-                                    "evidence_en": "When people frequently hear about scams and stolen information, they may feel unsafe when shopping, paying, or sharing information online.",
+                                    "evidence_vi": "Khi mọi người thường xuyên nghe về các vụ lừa đảo và đánh cắp thông tin, họ có thể cảm thấy không an toàn. Do đó, họ ngần ngại mua hàng, thanh toán hoặc chia sẻ thông tin trực tuyến.",
+                                    "evidence_en": "When people frequently hear about scams and stolen information, they may feel unsafe. Therefore, they hesitate to shop, pay, or share information online.",
                                     "collocations": [
                                           {
                                                 "en": "lose trust in the Internet",
@@ -26815,8 +26815,8 @@ const ESSAY_DATA = [
                                                 "vi": "cảm thấy không an toàn"
                                           },
                                           {
-                                                "en": "stolen information",
-                                                "vi": "thông tin bị đánh cắp"
+                                                "en": "hesitate to shop online",
+                                                "vi": "ngần ngại mua hàng trực tuyến"
                                           },
                                           {
                                                 "en": "share information online",
@@ -26830,8 +26830,8 @@ const ESSAY_DATA = [
                                     "title": "SOLUTION 01",
                                     "point_vi": "Mọi người nên bảo vệ tài khoản ngân hàng và thông tin cá nhân cẩn thận hơn.",
                                     "point_en": "First, people should protect their bank accounts and personal information more carefully.",
-                                    "evidence_vi": "Họ nên sử dụng mật khẩu mạnh, không chia sẻ thông tin ngân hàng và kiểm tra kỹ các đường link hoặc tin nhắn đáng ngờ.",
-                                    "evidence_en": "They should use strong passwords, never share banking information, and check suspicious links or messages carefully.",
+                                    "evidence_vi": "Họ nên sử dụng mật khẩu mạnh và không bao giờ chia sẻ thông tin ngân hàng với người khác. Ngoài ra, người dùng cần kiểm tra kỹ các đường link hoặc tin nhắn đáng ngờ trước khi bấm vào.",
+                                    "evidence_en": "They should use strong passwords and never share banking information with others. In addition, users need to check suspicious links or messages carefully before clicking.",
                                     "collocations": [
                                           {
                                                 "en": "protect personal information",
@@ -26846,8 +26846,8 @@ const ESSAY_DATA = [
                                                 "vi": "các đường link đáng ngờ"
                                           },
                                           {
-                                                "en": "avoid online scams",
-                                                "vi": "tránh các vụ lừa đảo trực tuyến"
+                                                "en": "check messages carefully",
+                                                "vi": "kiểm tra tin nhắn cẩn thận"
                                           }
                                     ]
                               },
@@ -26855,8 +26855,8 @@ const ESSAY_DATA = [
                                     "title": "SOLUTION 02",
                                     "point_vi": "Doanh nghiệp nên sử dụng các biện pháp bảo mật tốt để bảo vệ dữ liệu quan trọng.",
                                     "point_en": "Second, businesses should use good security measures to protect important data.",
-                                    "evidence_vi": "Họ có thể sử dụng phần mềm bảo mật, sao lưu dữ liệu thường xuyên và cập nhật hệ thống máy tính để tránh các cuộc tấn công mạng.",
-                                    "evidence_en": "They can use security software, back up data regularly, and update computer systems to prevent cyberattacks.",
+                                    "evidence_vi": "Họ có thể sử dụng phần mềm bảo mật, sao lưu dữ liệu thường xuyên và cập nhật hệ thống máy tính. Hơn nữa, các công ty nên hướng dẫn nhân viên về an toàn mạng để tránh lộ thông tin.",
+                                    "evidence_en": "They can use security software, back up data regularly, and update computer systems. Moreover, companies should train staff on online safety to prevent information leaks.",
                                     "collocations": [
                                           {
                                                 "en": "security measures",
@@ -26871,8 +26871,8 @@ const ESSAY_DATA = [
                                                 "vi": "sao lưu dữ liệu thường xuyên"
                                           },
                                           {
-                                                "en": "prevent cyberattacks",
-                                                "vi": "ngăn chặn các cuộc tấn công mạng"
+                                                "en": "prevent information leaks",
+                                                "vi": "ngăn ngừa rò rỉ thông tin"
                                           }
                                     ]
                               },
@@ -26880,8 +26880,8 @@ const ESSAY_DATA = [
                                     "title": "SOLUTION 03",
                                     "point_vi": "Chính phủ và các tổ chức nên giúp người dùng sử dụng Internet an toàn hơn.",
                                     "point_en": "Finally, governments and organizations should help users use the Internet more safely.",
-                                    "evidence_vi": "Họ có thể hướng dẫn mọi người cách nhận biết lừa đảo trực tuyến và bảo vệ thông tin cá nhân khi sử dụng các dịch vụ trên Internet.",
-                                    "evidence_en": "They can guide people on how to identify online fraud and protect their personal data when using online services.",
+                                    "evidence_vi": "Họ có thể hướng dẫn mọi người cách nhận biết lừa đảo trực tuyến và bảo vệ thông tin cá nhân. Bên cạnh đó, chính quyền cần có luật nghiêm khắc để xử phạt tội phạm mạng.",
+                                    "evidence_en": "They can guide people on how to identify online fraud and protect personal data. Besides, authorities need strict laws to punish cybercriminals.",
                                     "collocations": [
                                           {
                                                 "en": "use the Internet safely",
@@ -26896,8 +26896,8 @@ const ESSAY_DATA = [
                                                 "vi": "bảo vệ dữ liệu cá nhân"
                                           },
                                           {
-                                                "en": "online services",
-                                                "vi": "các dịch vụ trực tuyến"
+                                                "en": "punish cybercriminals",
+                                                "vi": "xử phạt tội phạm mạng"
                                           }
                                     ]
                               }
@@ -26907,76 +26907,76 @@ const ESSAY_DATA = [
                         "benefits": [
                               {
                                     "title": "EFFECT 01",
-                                    "point_vi": "Tội phạm mạng gây ra những tổn thất tài chính nặng nề cho các cá nhân.",
-                                    "point_en": "First and foremost, cybercrime inflicts substantial financial losses on individual victims.",
-                                    "evidence_vi": "Những kẻ tội phạm mạng tinh vi thường triển khai các chiêu trò lừa đảo qua mạng và tấn công phi kỹ thuật nhằm chiếm đoạt tài sản cũng như dữ liệu ngân hàng nhạy cảm của người dùng.",
-                                    "evidence_en": "Sophisticated cybercriminals frequently deploy deceptive phishing schemes and social engineering tactics to siphon money and compromise confidential banking credentials.",
+                                    "point_vi": "Tội phạm mạng có thể khiến các cá nhân bị thiệt hại tài chính nặng nề.",
+                                    "point_en": "First and foremost, cybercrime can cause severe financial losses for individuals.",
+                                    "evidence_vi": "• Luận cứ 1: Kẻ xấu thường tạo các trang web giả mạo hoặc gửi email lừa đảo để đánh cắp thông tin thẻ tín dụng và tài khoản ngân hàng.\n• Luận cứ 2: Hậu quả là nhiều nạn nhân mất sạch tiền tiết kiệm và gặp rất nhiều khó khăn tài chính trong đời sống hàng ngày.",
+                                    "evidence_en": "• Evidence 1: Cybercriminals often create fake websites or send phishing emails to steal credit card details and bank accounts.\n• Evidence 2: As a result, many victims lose their life savings and face serious financial difficulties in their daily lives.",
                                     "collocations": [
                                           {
-                                                "en": "inflict substantial financial losses",
-                                                "vi": "gây ra tổn thất tài chính đáng kể"
+                                                "en": "severe financial losses",
+                                                "vi": "thiệt hại tài chính nặng nề"
                                           },
                                           {
-                                                "en": "deceptive phishing schemes",
-                                                "vi": "các thủ đoạn lừa đảo giả mạo tinh vi"
+                                                "en": "phishing emails",
+                                                "vi": "email lừa đảo giả mạo"
                                           },
                                           {
-                                                "en": "compromise confidential banking credentials",
-                                                "vi": "làm lộ thông tin ngân hàng bảo mật"
+                                                "en": "steal credit card details",
+                                                "vi": "đánh cắp thông tin thẻ tín dụng"
                                           },
                                           {
-                                                "en": "social engineering tactics",
-                                                "vi": "các chiến thuật thao túng tâm lý trên mạng"
+                                                "en": "lose their life savings",
+                                                "vi": "mất sạch tiền tiết kiệm cả đời"
                                           }
                                     ]
                               },
                               {
                                     "title": "EFFECT 02",
-                                    "point_vi": "Các vụ xâm nhập an ninh mạng khiến doanh nghiệp bị rò rỉ dữ liệu mật và hủy hoại uy tín thương hiệu.",
-                                    "point_en": "Furthermore, cyber breaches can result in massive corporate data leakages and severe reputational damage.",
-                                    "evidence_vi": "Khi cơ sở dữ liệu khách hàng hoặc bí mật thương mại bị tin tặc đánh cắp, doanh nghiệp không chỉ đối mặt với sự đình trệ vận hành mà còn đánh mất hoàn toàn niềm tin từ đối tác và khách hàng.",
-                                    "evidence_en": "When proprietary company records or client databases are compromised, enterprises face severe operational disruptions and a catastrophic erosion of customer trust.",
+                                    "point_vi": "Tội phạm mạng có thể khiến các doanh nghiệp bị mất dữ liệu quan trọng và tổn hại uy tín thương hiệu.",
+                                    "point_en": "Furthermore, cybercrime can make businesses lose important data and damage their reputation.",
+                                    "evidence_vi": "• Luận cứ 1: Khi hệ thống nội bộ bị tấn công, thông tin mật của công ty và dữ liệu cá nhân của khách hàng có thể bị rò rỉ ra ngoài.\n• Luận cứ 2: Điều này làm gián đoạn hoạt động kinh doanh và khiến khách hàng mất niềm tin, dẫn đến doanh thu sụt giảm đáng kể.",
+                                    "evidence_en": "• Evidence 1: When corporate systems are hacked, confidential company records and customers' personal data can be leaked.\n• Evidence 2: This disrupts business operations and causes clients to lose trust in the company, leading to a considerable decline in sales.",
                                     "collocations": [
                                           {
-                                                "en": "corporate data leakages",
-                                                "vi": "rò rỉ dữ liệu doanh nghiệp"
+                                                "en": "damage business reputation",
+                                                "vi": "làm tổn hại danh tiếng doanh nghiệp"
                                           },
                                           {
-                                                "en": "severe reputational damage",
-                                                "vi": "tổn hại danh tiếng nghiêm trọng"
+                                                "en": "confidential company records",
+                                                "vi": "hồ sơ tài liệu mật của công ty"
                                           },
                                           {
-                                                "en": "operational disruptions",
-                                                "vi": "sự đình trệ hoạt động vận hành"
+                                                "en": "disrupt business operations",
+                                                "vi": "làm gián đoạn hoạt động kinh doanh"
                                           },
                                           {
-                                                "en": "catastrophic erosion of customer trust",
-                                                "vi": "sự xói mòn thảm khốc niềm tin của khách hàng"
+                                                "en": "a considerable decline in sales",
+                                                "vi": "sự sụt giảm doanh thu đáng kể"
                                           }
                                     ]
                               },
                               {
                                     "title": "EFFECT 03",
-                                    "point_vi": "Tội phạm mạng làm xói mòn niềm tin của cộng đồng vào không gian số và các giao dịch trực tuyến.",
-                                    "point_en": "Lastly, escalating cyber threats undermine public confidence in digital infrastructure and online platforms.",
-                                    "evidence_vi": "Tần suất dày đặc của các vụ rò rỉ dữ liệu và lừa đảo trực tuyến tạo ra tâm lý e ngại, khiến người dùng ngần ngại tham gia vào thương mại điện tử, thanh toán số và chia sẻ thông tin trên mạng.",
-                                    "evidence_en": "Frequent reports of identity theft and digital fraud foster widespread skepticism, deterring individuals from participating freely in e-commerce, digital payments, and online interactions.",
+                                    "point_vi": "Tội phạm mạng làm suy giảm niềm tin của người dùng vào Internet và các dịch vụ trực tuyến.",
+                                    "point_en": "Lastly, cybercrime can reduce users' trust in the Internet and online services.",
+                                    "evidence_vi": "• Luận cứ 1: Khi các vụ lừa đảo và đánh cắp danh tính xảy ra thường xuyên, người dân cảm thấy lo lắng và bất an trong môi trường số.\n• Luận cứ 2: Do đó, nhiều người tiêu dùng ngần ngại mua sắm online, thực hiện thanh toán ngân hàng hoặc chia sẻ thông tin trên mạng xã hội.",
+                                    "evidence_en": "• Evidence 1: When online fraud and identity theft occur frequently, citizens feel anxious and unsafe in the digital environment.\n• Evidence 2: Consequently, many consumers hesitate to shop online, perform banking transactions, or share personal information on social platforms.",
                                     "collocations": [
                                           {
-                                                "en": "undermine public confidence",
-                                                "vi": "làm xói mòn niềm tin của công chúng"
+                                                "en": "reduce users' trust",
+                                                "vi": "làm suy giảm niềm tin của người dùng"
                                           },
                                           {
-                                                "en": "digital infrastructure",
-                                                "vi": "hạ tầng kỹ thuật số"
+                                                "en": "identity theft",
+                                                "vi": "đánh cắp danh tính"
                                           },
                                           {
-                                                "en": "foster widespread skepticism",
-                                                "vi": "gây ra sự hoài nghi lan rộng"
+                                                "en": "digital environment",
+                                                "vi": "môi trường kỹ thuật số"
                                           },
                                           {
-                                                "en": "deter individuals from participating in e-commerce",
-                                                "vi": "khiến các cá nhân ngần ngại tham gia thương mại điện tử"
+                                                "en": "hesitate to shop online",
+                                                "vi": "ngần ngại mua hàng trực tuyến"
                                           }
                                     ]
                               }
@@ -26984,76 +26984,76 @@ const ESSAY_DATA = [
                         "drawbacks": [
                               {
                                     "title": "SOLUTION 01",
-                                    "point_vi": "Người dùng cá nhân cần chủ động củng cố các biện pháp bảo mật tài khoản kỹ thuật số.",
-                                    "point_en": "The primary solution is for internet users to proactively fortify their personal digital defenses.",
-                                    "evidence_vi": "Cá nhân nên thiết lập mật khẩu phức tạp, kích hoạt xác thực hai yếu tố và duy trì sự cảnh giác trước các liên kết hoặc tin nhắn giả mạo đáng ngờ.",
-                                    "evidence_en": "Individuals should implement robust multi-factor authentication, generate complex passwords, and exercise heightened vigilance against unsolicited links or suspicious communications.",
+                                    "point_vi": "Mỗi cá nhân cần chủ động bảo vệ tài khoản và thông tin cá nhân của mình.",
+                                    "point_en": "The primary solution is that individuals should proactively protect their personal accounts and information.",
+                                    "evidence_vi": "• Luận cứ 1: Người dùng nên tạo mật khẩu mạnh, kích hoạt xác thực hai yếu tố và không bao giờ chia sẻ mã xác thực với bất kỳ ai.\n• Luận cứ 2: Thêm vào đó, mọi người cần cẩn trọng khi nhận tin nhắn lạ và tránh nhấp vào các đường link đáng ngờ.",
+                                    "evidence_en": "• Evidence 1: Internet users ought to generate strong passwords, activate two-factor authentication, and never share verification codes with anyone.\n• Evidence 2: In addition, people should exercise caution when receiving unfamiliar messages and avoid clicking on suspicious links.",
                                     "collocations": [
                                           {
-                                                "en": "fortify personal digital defenses",
-                                                "vi": "củng cố phòng thủ số cá nhân"
+                                                "en": "proactively protect personal accounts",
+                                                "vi": "chủ động bảo vệ tài khoản cá nhân"
                                           },
                                           {
-                                                "en": "multi-factor authentication",
-                                                "vi": "xác thực đa yếu tố"
+                                                "en": "two-factor authentication",
+                                                "vi": "xác thực hai yếu tố"
                                           },
                                           {
-                                                "en": "exercise heightened vigilance",
-                                                "vi": "nâng cao tinh thần cảnh giác"
+                                                "en": "verification codes",
+                                                "vi": "mã xác thực"
                                           },
                                           {
-                                                "en": "suspicious communications",
-                                                "vi": "các thông điệp/tin nhắn đáng ngờ"
+                                                "en": "exercise caution",
+                                                "vi": "thận trọng, cẩn giác"
                                           }
                                     ]
                               },
                               {
                                     "title": "SOLUTION 02",
-                                    "point_vi": "Các tổ chức doanh nghiệp phải thiết lập hệ thống an ninh mạng toàn diện để bảo vệ tài sản thông tin.",
-                                    "point_en": "Additionally, corporations must implement comprehensive cybersecurity protocols to safeguard institutional data.",
-                                    "evidence_vi": "Các công ty nên đầu tư vào hệ thống mã hóa tiên tiến, thực hiện sao lưu đám mây định kỳ và thường xuyên cập nhật các bản vá bảo mật nhằm ngăn chặn xâm nhập trái phép.",
-                                    "evidence_en": "Enterprises should invest in advanced encryption technologies, conduct regular automated backups, and consistently apply software patches to thwart unauthorized intrusions.",
+                                    "point_vi": "Các doanh nghiệp nên đầu tư vào hệ thống an ninh mạng để bảo vệ dữ liệu quan trọng.",
+                                    "point_en": "Second, businesses should invest in modern cybersecurity systems to protect their data.",
+                                    "evidence_vi": "• Luận cứ 1: Doanh nghiệp cần cài đặt phần mềm chống vi-rút đáng tin cậy, sao lưu dữ liệu định kỳ và thường xuyên cập nhật phần mềm.\n• Luận cứ 2: Việc tổ chức các khóa tập huấn an toàn mạng cho nhân viên cũng rất cần thiết để giảm thiểu rủi ro vô tình làm rò rỉ dữ liệu.",
+                                    "evidence_en": "• Evidence 1: Companies need to install reliable antivirus programs, back up data regularly, and update their software to prevent cyberattacks.\n• Evidence 2: Providing regular cybersecurity training for staff is also essential to minimize the risk of accidental data leaks.",
                                     "collocations": [
                                           {
-                                                "en": "comprehensive cybersecurity protocols",
-                                                "vi": "các quy chuẩn an ninh mạng toàn diện"
+                                                "en": "invest in cybersecurity systems",
+                                                "vi": "đầu tư vào hệ thống an ninh mạng"
                                           },
                                           {
-                                                "en": "safeguard institutional data",
-                                                "vi": "bảo vệ dữ liệu tổ chức"
+                                                "en": "reliable antivirus programs",
+                                                "vi": "các chương trình chống vi-rút đáng tin cậy"
                                           },
                                           {
-                                                "en": "advanced encryption technologies",
-                                                "vi": "các công nghệ mã hóa tiên tiến"
+                                                "en": "cybersecurity training for staff",
+                                                "vi": "đào tạo an ninh mạng cho nhân viên"
                                           },
                                           {
-                                                "en": "thwart unauthorized intrusions",
-                                                "vi": "ngăn chặn các vụ xâm nhập trái phép"
+                                                "en": "accidental data leaks",
+                                                "vi": "rò rỉ dữ liệu do sơ suất"
                                           }
                                     ]
                               },
                               {
                                     "title": "SOLUTION 03",
-                                    "point_vi": "Các cơ quan chính phủ cần đẩy mạnh giáo dục cộng đồng và siết chặt khung pháp lý về an ninh mạng.",
-                                    "point_en": "Finally, authorities should launch nationwide digital literacy campaigns and reinforce cybersecurity regulations.",
-                                    "evidence_vi": "Chính phủ có thể cung cấp các chương trình đào tạo kỹ năng số giúp người dân nhận diện các mối đe dọa trực tuyến, đồng thời ban hành các chế tài nghiêm khắc đối với tội phạm công nghệ cao.",
-                                    "evidence_en": "Governments can organize public awareness initiatives to educate citizens on detecting cyber traps while enforcing stringent legal frameworks to penalize cyber offenders.",
+                                    "point_vi": "Chính phủ và các tổ chức cần hỗ trợ người dân sử dụng Internet an toàn và siết chặt luật pháp.",
+                                    "point_en": "Finally, governments and organizations should help citizens use the Internet safely and enforce strict laws.",
+                                    "evidence_vi": "• Luận cứ 1: Cơ quan chức năng có thể khởi động các chiến dịch truyền thông giáo dục nhằm hướng dẫn người dân cách nhận biết các thủ đoạn lừa đảo.\n• Luận cứ 2: Đồng thời, các nhà lập pháp cần đưa ra những hình phạt pháp lý nghiêm khắc đối với tội phạm mạng để ngăn chặn các hành vi vi phạm.",
+                                    "evidence_en": "• Evidence 1: Authorities can launch educational campaigns to teach people how to identify online scams effectively.\n• Evidence 2: Simultaneously, lawmakers should introduce severe legal penalties for cybercriminals to deter illegal activities.",
                                     "collocations": [
                                           {
-                                                "en": "digital literacy campaigns",
-                                                "vi": "các chiến dịch phổ cập kỹ năng số"
+                                                "en": "launch educational campaigns",
+                                                "vi": "khởi động các chiến dịch giáo dục"
                                           },
                                           {
-                                                "en": "reinforce cybersecurity regulations",
-                                                "vi": "siết chặt quy định an ninh mạng"
+                                                "en": "identify online scams",
+                                                "vi": "nhận diện các trò lừa đảo trực tuyến"
                                           },
                                           {
-                                                "en": "detect cyber traps",
-                                                "vi": "nhận diện các cạm bẫy trên không gian mạng"
+                                                "en": "severe legal penalties",
+                                                "vi": "hình phạt pháp lý nghiêm khắc"
                                           },
                                           {
-                                                "en": "stringent legal frameworks",
-                                                "vi": "các khung pháp lý nghiêm minh"
+                                                "en": "deter illegal activities",
+                                                "vi": "ngăn chặn, răn đe các hành vi vi phạm pháp luật"
                                           }
                                     ]
                               }
@@ -27109,12 +27109,12 @@ const ESSAY_DATA = [
                               "vi": "nhận diện lừa đảo trực tuyến"
                         }
                   ],
-                  "sample_b1": "In modern life, <strong>cybercrime</strong> has become an increasingly serious problem for society. With the rapid development of the Internet, criminals now have many ways to attack internet users. <strong>This essay will discuss three negative impacts of cybercrime and suggest three practical solutions to deal with this problem.</strong>\n\n<strong>To begin with, cybercrime brings three major negative effects to our daily lives.</strong> First of all, <strong><em>cybercrime can cause individuals to lose a large amount of money.</em></strong> Criminals often use fake websites or online scams to steal bank details from innocent people, which can cause severe financial stress. In addition, <strong><em>cybercrime can make businesses lose important data and reputation.</em></strong> When company information or customer records are stolen, businesses face serious operational problems and quickly lose customer trust. Finally, <strong><em>cybercrime can make users lose trust in the Internet.</em></strong> When people constantly hear about online scams and stolen data, they feel unsafe when shopping, paying bills, or sharing information online.\n\n<strong>To address these problems, individuals, businesses, and governments should take effective measures.</strong> The first solution is that <strong><em>people should protect their personal information and bank accounts more carefully.</em></strong> Users should always use strong passwords, avoid sharing sensitive details, and check suspicious links before clicking. Second, <strong><em>companies should apply good security measures to protect their data.</em></strong> Businesses can use strong security software, back up company files regularly, and update their computers to prevent cyberattacks. Lastly, <strong><em>governments and organizations should help people use the Internet more safely.</em></strong> Authorities can organize educational campaigns to teach citizens how to identify online fraud and keep their personal information safe.\n\nIn conclusion, cybercrime causes financial loss, harms business reputations, and destroys public trust in online activities. By protecting personal accounts, improving corporate security systems, and raising public awareness, we can make the online environment much safer for everyone.",
-                  "translation_b1": "Trong đời sống hiện đại, tội phạm mạng đã trở thành một vấn đề ngày càng nghiêm trọng đối với xã hội. Cùng với sự phát triển nhanh chóng của Internet, tội phạm ngày nay có nhiều cách để tấn công người dùng mạng. Bài viết này sẽ thảo luận ba tác động tiêu cực của tội phạm mạng và đề xuất ba giải pháp thực tế để giải quyết vấn đề này.\n\nĐầu tiên, tội phạm mạng mang lại ba tác động tiêu cực lớn đối với cuộc sống hằng ngày của chúng ta. Trước hết, tội phạm mạng có thể khiến cá nhân mất một khoản tiền lớn. Tội phạm thường sử dụng các trang web giả mạo hoặc các vụ lừa đảo trực tuyến để đánh cắp thông tin ngân hàng của những người vô tội, điều này có thể gây ra áp lực tài chính nặng nề. Thêm vào đó, tội phạm mạng có thể khiến doanh nghiệp mất dữ liệu quan trọng và uy tín. Khi thông tin công ty hoặc hồ sơ khách hàng bị đánh cắp, các doanh nghiệp phải đối mặt với những vấn đề vận hành nghiêm trọng và nhanh chóng mất đi lòng tin của khách hàng. Cuối cùng, tội phạm mạng có thể khiến người dùng mất niềm tin vào Internet. Khi mọi người liên tục nghe về các vụ lừa đảo trực tuyến và dữ liệu bị đánh cắp, họ cảm thấy không an toàn khi mua sắm, thanh toán hóa đơn hoặc chia sẻ thông tin trên mạng.\n\nĐể giải quyết những vấn đề này, các cá nhân, doanh nghiệp và chính phủ nên thực hiện các biện pháp hiệu quả. Giải pháp đầu tiên là mọi người nên bảo vệ thông tin cá nhân và tài khoản ngân hàng của mình cẩn thận hơn. Người dùng nên luôn sử dụng mật khẩu mạnh, tránh chia sẻ thông tin nhạy cảm và kiểm tra kỹ các đường link đáng ngờ trước khi nhấp vào. Thứ hai, các công ty nên áp dụng các biện pháp bảo mật tốt để bảo vệ dữ liệu của mình. Doanh nghiệp có thể sử dụng phần mềm bảo mật mạnh mẽ, thường xuyên sao lưu các tệp tin của công ty và cập nhật máy tính để ngăn ngừa các cuộc tấn công mạng. Cuối cùng, chính phủ và các tổ chức nên giúp người dân sử dụng Internet an toàn hơn. Các cơ quan chức năng có thể tổ chức các chiến dịch giáo dục để hướng dẫn người dân cách nhận biết gian lận trực tuyến và giữ an toàn cho thông tin cá nhân của họ.\n\nTóm lại, tội phạm mạng gây thiệt hại tài chính, làm tổn hại uy tín doanh nghiệp và phá hủy niềm tin của cộng đồng vào các hoạt động trực tuyến. Bằng cách bảo vệ tài khoản cá nhân, cải thiện hệ thống bảo mật doanh nghiệp và nâng cao nhận thức cộng đồng, chúng ta có thể làm cho môi trường mạng an toàn hơn rất nhiều cho tất cả mọi người.",
-                  "sample_b2": "In contemporary digital society, the proliferation of <strong>cybercrime</strong> poses unprecedented challenges to social stability and economic development. As digital interconnectedness deepens across every facet of life, malicious actors exploit virtual vulnerabilities to perpetrate sophisticated offenses. <strong>This essay will critically examine three profound repercussions of cybercrime and propose multidimensional interventions to mitigate this global dilemma.</strong>\n\n<strong>On the one hand, cyber offenses inflict severe repercussions on individuals, corporations, and digital culture as a whole.</strong> First and foremost, <strong><em>cybercrime inflicts substantial financial losses on individual victims.</em></strong> Sophisticated syndicates deploy deceptive phishing schemes and social engineering tactics to siphon funds from personal accounts and compromise confidential banking credentials, plunging victims into acute financial distress. Furthermore, <strong><em>cyber breaches can result in massive corporate data leakages and severe reputational damage.</em></strong> When proprietary company records or client databases are compromised, enterprises face severe operational disruptions, regulatory penalties, and a catastrophic erosion of customer trust that may take decades to rebuild. Lastly, <strong><em>escalating cyber threats undermine public confidence in digital infrastructure and online platforms.</em></strong> Persistent reports of identity theft and digital fraud foster widespread skepticism, deterring individuals from participating freely in e-commerce, digital payments, and online interactions.\n\n<strong>On the other hand, combating this multifaceted threat necessitates coordinated action from internet users, corporations, and state authorities.</strong> The primary solution is for <strong><em>internet users to proactively fortify their personal digital defenses.</em></strong> Individuals should implement robust multi-factor authentication, generate complex passwords, and exercise heightened vigilance against unsolicited links or suspicious communications. Additionally, <strong><em>corporations must implement comprehensive cybersecurity protocols to safeguard institutional data.</em></strong> Enterprises should invest in advanced encryption technologies, conduct regular automated backups, and consistently apply software patches to thwart unauthorized intrusions. Finally, <strong><em>authorities should launch nationwide digital literacy campaigns and reinforce cybersecurity regulations.</em></strong> Governments can organize public awareness initiatives to educate citizens on detecting cyber traps while enforcing stringent legal frameworks to penalize cyber offenders.\n\nIn conclusion, cybercrime exacts heavy tolls on personal finances, corporate integrity, and societal trust in digital systems. However, through diligent individual precautions, fortified institutional security protocols, and robust legislative enforcement, society can effectively contain these risks and preserve a secure digital ecosystem.",
-                  "translation_b2": "Trong xã hội số đương đại, sự gia tăng nhanh chóng của tội phạm mạng đang đặt ra những thách thức chưa từng có đối với sự ổn định xã hội và phát triển kinh tế. Khi tính kết nối kỹ thuật số ngày càng sâu rộng trong mọi khía cạnh của đời sống, các đối tượng xấu lợi dụng các lỗ hổng trên không gian mạng để thực hiện các hành vi phạm tội tinh vi. Bài luận này sẽ phân tích chuyên sâu ba hệ lụy sâu sắc của tội phạm mạng và đề xuất các giải pháp đa chiều nhằm giảm thiểu vấn nạn toàn cầu này.\n\nMột mặt, các hành vi phạm tội trên không gian mạng gây ra những hậu quả nghiêm trọng đối với cá nhân, doanh nghiệp và toàn bộ văn hóa số. Trước hết, tội phạm mạng gây ra tổn thất tài chính đáng kể cho các cá nhân nạn nhân. Các đường dây tinh vi triển khai các thủ đoạn lừa đảo giả mạo và thao túng tâm lý nhằm bòn rút tiền từ tài khoản cá nhân và làm lộ thông tin ngân hàng bảo mật, đẩy nạn nhân vào tình cảnh khó khăn tài chính trầm trọng. Hơn nữa, các vụ vi phạm an ninh mạng có thể dẫn đến việc rò rỉ dữ liệu doanh nghiệp quy mô lớn và tổn hại danh tiếng nghiêm trọng. Khi hồ sơ độc quyền của công ty hoặc cơ sở dữ liệu khách hàng bị xâm nhập, các doanh nghiệp phải đối mặt với sự đình trệ vận hành nghiêm trọng, các hình phạt pháp lý và sự xói mòn thảm khốc niềm tin của khách hàng mà có thể mất hàng thập kỷ mới xây dựng lại được. Cuối cùng, các mối đe dọa mạng ngày càng leo thang làm xói mòn niềm tin của công chúng vào hạ tầng số và các nền tảng trực tuyến. Những báo cáo liên tục về đánh cắp danh tính và gian lận kỹ thuật số tạo nên sự hoài nghi lan rộng, cản trở các cá nhân tham gia một cách tự do vào thương mại điện tử, thanh toán số và tương tác trực tuyến.\n\nMặt khác, việc ứng phó với mối đe dọa đa diện này đòi hỏi hành động phối hợp từ người dùng internet, các tập đoàn và các cơ quan nhà nước. Giải pháp cơ bản đầu tiên là người dùng internet cần chủ động củng cố khả năng phòng thủ kỹ thuật số cá nhân của mình. Các cá nhân nên triển khai xác thực đa yếu tố mạnh mẽ, tạo mật khẩu phức tạp và nâng cao tinh thần cảnh giác trước các liên kết không rõ nguồn gốc hoặc tin nhắn đáng ngờ. Thêm vào đó, các tập đoàn phải thực thi các quy chuẩn an ninh mạng toàn diện để bảo vệ dữ liệu của tổ chức. Doanh nghiệp nên đầu tư vào các công nghệ mã hóa tiên tiến, thực hiện sao lưu tự động định kỳ và liên tục cập nhật các bản vá phần mềm để ngăn chặn các cuộc xâm nhập trái phép. Cuối cùng, các cơ quan chức năng cần triển khai các chiến dịch phổ cập kỹ năng số trên toàn quốc và củng cố các quy định an ninh mạng. Chính phủ có thể tổ chức các sáng kiến nâng cao nhận thức cộng đồng nhằm giáo dục người dân nhận diện các cạm bẫy trên mạng, đồng thời thực thi các khung pháp lý nghiêm minh để trừng phạt tội phạm mạng.\n\nTóm lại, tội phạm mạng gây ra những tổn thất nặng nề đối với tài chính cá nhân, tính liêm chính của doanh nghiệp và niềm tin của xã hội vào hệ thống kỹ thuật số. Tuy nhiên, thông qua sự phòng ngừa cẩn trọng của cá nhân, các quy chuẩn bảo mật tổ chức được củng cố và sự thực thi pháp luật nghiêm minh, xã hội có thể kiểm soát hiệu quả những rủi ro này và bảo tồn một hệ sinh thái kỹ thuật số an toàn.",
+                  "sample_b1": "In modern life, <strong>cybercrime</strong> has become an increasingly serious problem. With the rapid development of the Internet, many criminals now attack online users in different ways. <strong>This essay will discuss three negative impacts of cybercrime and suggest three practical solutions to deal with this problem.</strong>\n\n<strong>To begin with, cybercrime brings three major negative effects to our daily lives.</strong> First of all, <strong><em>cybercrime can cause individuals to lose a large amount of money.</em></strong> Criminals often use fake websites or online scams to steal bank details. As a result, many victims lose their savings and face difficult financial problems. In addition, <strong><em>cybercrime can make businesses lose important data and reputation.</em></strong> When company computers are attacked, customer information and private files can be stolen. Consequently, companies may face serious operational troubles and lose customer trust. Finally, <strong><em>cybercrime can make users lose trust in the Internet.</em></strong> When people constantly hear about online scams, they feel unsafe. Therefore, they may hesitate to shop online, make payments, or share information on the Internet.\n\n<strong>To address these problems, individuals, businesses, and governments should take effective action.</strong> The first solution is that <strong><em>people should protect their personal information and bank accounts more carefully.</em></strong> Users should always use strong passwords and never share their passwords with others. Also, they must avoid clicking on suspicious links in strange messages. Second, <strong><em>businesses should use good security measures to protect their data.</em></strong> Companies can install antivirus software, back up files regularly, and update their computers. Moreover, training workers about online safety helps avoid accidental data leaks. Lastly, <strong><em>governments and organizations should help people use the Internet more safely.</em></strong> Authorities can organize campaigns to teach citizens how to recognize online fraud. At the same time, strict laws should be introduced to punish cybercriminals.\n\nIn conclusion, cybercrime causes financial loss, harms business reputations, and reduces public trust in online activities. By protecting personal accounts, improving corporate security, and raising public awareness, we can create a much safer online environment for everyone.",
+                  "translation_b1": "Trong đời sống hiện đại, tội phạm mạng đã trở thành một vấn đề ngày càng nghiêm trọng. Cùng với sự phát triển nhanh chóng của Internet, nhiều tội phạm ngày nay tấn công người dùng trực tuyến bằng nhiều cách khác nhau. Bài viết này sẽ thảo luận về ba tác động tiêu cực của tội phạm mạng và đề xuất ba giải pháp thực tế để giải quyết vấn đề này.\n\nĐầu tiên, tội phạm mạng mang lại ba tác động tiêu cực lớn đối với đời sống hằng ngày của chúng ta. Trước hết, tội phạm mạng có thể khiến các cá nhân mất một khoản tiền lớn. Tội phạm thường sử dụng các trang web giả mạo hoặc lừa đảo trực tuyến để đánh cắp thông tin ngân hàng. Kết quả là nhiều nạn nhân bị mất tiền tiết kiệm và đối mặt với những vấn đề tài chính khó khăn. Thêm vào đó, tội phạm mạng có thể khiến doanh nghiệp mất dữ liệu quan trọng và uy tín. Khi máy tính của công ty bị tấn công, thông tin khách hàng và tệp tin mật có thể bị đánh cắp. Do đó, các công ty có thể gặp rắc rối nghiêm trọng về vận hành và đánh mất lòng tin của khách hàng. Cuối cùng, tội phạm mạng có thể khiến người dùng mất niềm tin vào Internet. Khi mọi người liên tục nghe về các vụ lừa đảo qua mạng, họ cảm thấy không an toàn. Vì vậy, họ có thể ngần ngại mua hàng online, thanh toán hoặc chia sẻ thông tin trên Internet.\n\nĐể giải quyết những vấn đề này, các cá nhân, doanh nghiệp và chính phủ nên có hành động hiệu quả. Giải pháp đầu tiên là mọi người nên bảo vệ thông tin cá nhân và tài khoản ngân hàng của mình cẩn thận hơn. Người dùng nên luôn sử dụng mật khẩu mạnh và không bao giờ chia sẻ mật khẩu của mình với người khác. Ngoài ra, họ phải tránh nhấp vào các đường link đáng ngờ trong tin nhắn lạ. Thứ hai, các doanh nghiệp nên sử dụng các biện pháp bảo mật tốt để bảo vệ dữ liệu của mình. Doanh nghiệp có thể cài đặt phần mềm diệt vi-rút, sao lưu tệp thường xuyên và cập nhật máy tính. Hơn nữa, việc đào tạo nhân viên về an toàn mạng giúp tránh được việc rò rỉ dữ liệu ngoài ý muốn. Cuối cùng, chính phủ và các tổ chức nên giúp mọi người sử dụng Internet an toàn hơn. Cơ quan chức năng có thể tổ chức các chiến dịch hướng dẫn người dân nhận diện lừa đảo trực tuyến. Đồng thời, cần ban hành luật pháp nghiêm minh để trừng phạt tội phạm mạng.\n\nTóm lại, tội phạm mạng gây tổn thất tài chính, làm tổn hại uy tín doanh nghiệp và làm suy giảm niềm tin của công chúng vào các hoạt động trực tuyến. Bằng cách bảo vệ tài khoản cá nhân, nâng cao tính bảo mật của doanh nghiệp và tăng cường nhận thức xã hội, chúng ta có thể tạo ra môi trường mạng an toàn hơn nhiều cho mọi người.",
+                  "sample_b2": "In contemporary society, <strong>cybercrime</strong> has emerged as a serious global problem that affects millions of people. As daily activities increasingly depend on the Internet, digital offenses pose significant threats to individuals, organizations, and the economy. <strong>This essay will analyze three major impacts of cybercrime and suggest three practical solutions to tackle this issue.</strong>\n\n<strong>On the one hand, cybercrime causes widespread damage across multiple areas of society.</strong> First and foremost, <strong><em>cybercrime can cause severe financial losses for individuals.</em></strong> Cybercriminals frequently create fake websites or send phishing emails to steal credit card details and bank accounts. As a result, many victims lose their life savings and face serious financial difficulties in their daily lives. Furthermore, <strong><em>cybercrime can make businesses lose important data and damage their reputation.</em></strong> When corporate systems are hacked, confidential company records and customers' personal data can be leaked. This disrupts business operations and causes clients to lose trust in the company, leading to a considerable decline in sales. Lastly, <strong><em>cybercrime can reduce users' trust in the Internet and online services.</em></strong> When online fraud and identity theft occur frequently, citizens feel anxious and unsafe in the digital environment. Consequently, many consumers hesitate to shop online, perform banking transactions, or share personal information on social platforms.\n\n<strong>On the other hand, addressing this dilemma requires collaborative efforts from internet users, enterprises, and state authorities.</strong> The primary solution is that <strong><em>individuals should proactively protect their personal accounts and information.</em></strong> Internet users ought to generate strong passwords, activate two-factor authentication, and never share verification codes with anyone. In addition, people should exercise caution when receiving unfamiliar messages and avoid clicking on suspicious links. Moreover, <strong><em>businesses should invest in modern cybersecurity systems to protect their data.</em></strong> Companies need to install reliable antivirus programs, back up data regularly, and update their software to prevent cyberattacks. Providing regular cybersecurity training for staff is also essential to minimize the risk of accidental data leaks. Finally, <strong><em>governments and organizations should help citizens use the Internet safely and enforce strict laws.</em></strong> Authorities can launch educational campaigns to teach people how to identify online scams effectively. Simultaneously, lawmakers should introduce severe legal penalties for cybercriminals to deter illegal activities.\n\nIn conclusion, cybercrime exacts significant tolls on individual finances, corporate credibility, and public confidence in digital services. However, by taking personal precautions, enhancing corporate cybersecurity, and strengthening government regulations, society can successfully mitigate these dangers and build a safer digital environment.",
+                  "translation_b2": "Trong xã hội đương đại, tội phạm mạng đã nổi lên như một vấn đề toàn cầu nghiêm trọng ảnh hưởng đến hàng triệu người. Khi các hoạt động thường ngày ngày càng phụ thuộc vào Internet, các hành vi phạm tội kỹ thuật số đặt ra những mối đe dọa lớn đối với các cá nhân, tổ chức và nền kinh tế. Bài viết này sẽ phân tích ba tác động chính của tội phạm mạng và gợi ý ba giải pháp thực tế để giải quyết vấn đề này.\n\nMột mặt, tội phạm mạng gây ra những thiệt hại trên diện rộng ở nhiều lĩnh vực của xã hội. Trước hết, tội phạm mạng có thể gây ra những tổn thất tài chính nặng nề cho các cá nhân. Tội phạm mạng thường xuyên tạo ra các trang web giả mạo hoặc gửi email lừa đảo để đánh cắp thông tin thẻ tín dụng và tài khoản ngân hàng. Hậu quả là nhiều nạn nhân mất sạch tiền tiết kiệm cả đời và đối mặt với những khó khăn tài chính nghiêm trọng trong cuộc sống thường ngày. Hơn nữa, tội phạm mạng có thể khiến các doanh nghiệp bị mất dữ liệu quan trọng và tổn hại danh tiếng. Khi các hệ thống của công ty bị xâm nhập, hồ sơ tài liệu mật và dữ liệu cá nhân của khách hàng có thể bị rò rỉ. Điều này làm gián đoạn các hoạt động kinh doanh và khiến khách hàng mất niềm tin vào công ty, dẫn đến sự sụt giảm doanh thu đáng kể. Cuối cùng, tội phạm mạng có thể làm suy giảm niềm tin của người dùng vào Internet và các dịch vụ trực tuyến. Khi các vụ gian lận qua mạng và đánh cắp danh tính xảy ra thường xuyên, người dân cảm thấy lo lắng và bất an trong môi trường số. Do đó, nhiều người tiêu dùng ngần ngại mua sắm online, thực hiện giao dịch ngân hàng hoặc chia sẻ thông tin cá nhân trên các nền tảng mạng xã hội.\n\nMặt khác, việc giải quyết vấn đề này đòi hỏi nỗ lực phối hợp từ người dùng internet, các doanh nghiệp và cơ quan nhà nước. Giải pháp đầu tiên là các cá nhân cần chủ động bảo vệ tài khoản và thông tin cá nhân của mình. Người dùng internet nên tạo mật khẩu mạnh, kích hoạt xác thực hai yếu tố và không bao giờ chia sẻ mã xác thực với bất kỳ ai. Ngoài ra, mọi người nên thận trọng khi nhận các tin nhắn lạ và tránh nhấp vào các đường link đáng ngờ. Hơn nữa, các doanh nghiệp nên đầu tư vào các hệ thống an ninh mạng hiện đại để bảo vệ dữ liệu của mình. Doanh nghiệp cần cài đặt các chương trình diệt vi-rút đáng tin cậy, sao lưu dữ liệu định kỳ và cập nhật phần mềm để ngăn ngừa các cuộc tấn công mạng. Cung cấp các buổi tập huấn an ninh mạng thường xuyên cho nhân viên cũng rất cần thiết để giảm thiểu nguy cơ rò rỉ dữ liệu do sơ suất. Cuối cùng, chính phủ và các tổ chức cần hỗ trợ người dân sử dụng Internet an toàn và thực thi pháp luật nghiêm minh. Cơ quan chức năng có thể triển khai các chiến dịch giáo dục nhằm hướng dẫn người dân cách nhận diện lừa đảo trực tuyến một cách hiệu quả. Đồng thời, các nhà lập pháp nên đưa ra những hình phạt pháp lý nghiêm khắc đối với tội phạm mạng để răn đe các hành vi vi phạm.\n\nTóm lại, tội phạm mạng gây ra những tổn hại đáng kể đối với tài chính cá nhân, uy tín doanh nghiệp và niềm tin của cộng đồng vào các dịch vụ kỹ thuật số. Tuy nhiên, bằng việc thực hiện các biện pháp phòng ngừa cá nhân, tăng cường an ninh mạng doanh nghiệp và củng cố các quy định của chính phủ, xã hội hoàn toàn có thể giảm thiểu những mối nguy này và xây dựng một môi trường kỹ thuật số an toàn hơn.",
                   "vocab_step": {
-                        "theme": "Tội phạm mạng (Cybercrime & Digital Security)",
+                        "theme": "Tội phạm mạng (Cybercrime & Online Security)",
                         "single_words": [
                               {
                                     "word": "scam",
@@ -27132,9 +27132,9 @@ const ESSAY_DATA = [
                                     "pos": "verb",
                                     "level": "B1",
                                     "vi": "đánh cắp",
-                                    "family": "stolen (adj), theft (n)",
-                                    "example_en": "Criminals can steal private photos and documents.",
-                                    "example_vi": "Kẻ xấu có thể đánh cắp hình ảnh và tài liệu riêng tư."
+                                    "family": "theft (n), stolen (adj)",
+                                    "example_en": "Criminals steal bank information from users.",
+                                    "example_vi": "Kẻ xấu đánh cắp thông tin ngân hàng từ người dùng."
                               },
                               {
                                     "word": "victim",
@@ -27143,7 +27143,7 @@ const ESSAY_DATA = [
                                     "level": "B1",
                                     "vi": "nạn nhân",
                                     "family": "victimize (v)",
-                                    "example_en": "He was a victim of an internet scam.",
+                                    "example_en": "He was a victim of an online scam.",
                                     "example_vi": "Anh ấy là nạn nhân của một vụ lừa đảo qua mạng."
                               },
                               {
@@ -27162,7 +27162,7 @@ const ESSAY_DATA = [
                                     "pos": "adj",
                                     "level": "B1",
                                     "vi": "không an toàn",
-                                    "family": "safely (adv), safety (n)",
+                                    "family": "safe (adj), safely (adv)",
                                     "example_en": "Users feel unsafe when using strange websites.",
                                     "example_vi": "Người dùng cảm thấy không an toàn khi sử dụng các trang web lạ."
                               },
@@ -27183,8 +27183,8 @@ const ESSAY_DATA = [
                                     "level": "B1",
                                     "vi": "đáng ngờ",
                                     "family": "suspect (v/n), suspicion (n)",
-                                    "example_en": "Do not click on suspicious links in emails.",
-                                    "example_vi": "Đừng nhấn vào các đường link đáng ngờ trong email."
+                                    "example_en": "Do not click on suspicious links in messages.",
+                                    "example_vi": "Đừng nhấn vào các đường link đáng ngờ trong tin nhắn."
                               },
                               {
                                     "word": "prevent",
@@ -27197,26 +27197,6 @@ const ESSAY_DATA = [
                                     "example_vi": "Phần mềm tốt giúp ngăn chặn vi-rút máy tính."
                               },
                               {
-                                    "word": "threat",
-                                    "ipa": "/θret/",
-                                    "pos": "noun",
-                                    "level": "B1",
-                                    "vi": "mối đe dọa",
-                                    "family": "threaten (v), threatening (adj)",
-                                    "example_en": "Computer viruses are a real threat to our data.",
-                                    "example_vi": "Vi-rút máy tính là một mối đe dọa thực sự đối với dữ liệu của chúng ta."
-                              },
-                              {
-                                    "word": "update",
-                                    "ipa": "/ˌʌpˈdeɪt/",
-                                    "pos": "verb",
-                                    "level": "B1",
-                                    "vi": "cập nhật",
-                                    "family": "updated (adj)",
-                                    "example_en": "You should update your phone software regularly.",
-                                    "example_vi": "Bạn nên cập nhật phần mềm điện thoại thường xuyên."
-                              },
-                              {
                                     "word": "backup",
                                     "ipa": "/ˈbækʌp/",
                                     "pos": "noun",
@@ -27227,134 +27207,154 @@ const ESSAY_DATA = [
                                     "example_vi": "Hãy nhớ sao lưu các tệp quan trọng của bạn."
                               },
                               {
+                                    "word": "update",
+                                    "ipa": "/ˌʌpˈdeɪt/",
+                                    "pos": "verb",
+                                    "level": "B1",
+                                    "vi": "cập nhật",
+                                    "family": "updated (adj)",
+                                    "example_en": "You should update your computer system regularly.",
+                                    "example_vi": "Bạn nên cập nhật hệ thống máy tính thường xuyên."
+                              },
+                              {
+                                    "word": "hesitate",
+                                    "ipa": "/ˈhezɪteɪt/",
+                                    "pos": "verb",
+                                    "level": "B1",
+                                    "vi": "ngần ngại, do dự",
+                                    "family": "hesitation (n)",
+                                    "example_en": "Some customers hesitate to buy goods online.",
+                                    "example_vi": "Một số khách hàng ngần ngại mua hàng trực tuyến."
+                              },
+                              {
                                     "word": "guide",
                                     "ipa": "/ɡaɪd/",
                                     "pos": "verb",
                                     "level": "B1",
                                     "vi": "hướng dẫn",
                                     "family": "guidance (n), guideline (n)",
-                                    "example_en": "Teachers guide students to use the Internet safely.",
-                                    "example_vi": "Thầy cô hướng dẫn học sinh sử dụng Internet an toàn."
+                                    "example_en": "Experts guide people to stay safe on the Internet.",
+                                    "example_vi": "Các chuyên gia hướng dẫn người dân giữ an toàn trên Internet."
                               },
                               {
-                                    "word": "phishing",
-                                    "ipa": "/ˈfɪʃɪŋ/",
+                                    "word": "cyberattack",
+                                    "ipa": "/ˈsaɪbərəˌtæk/",
                                     "pos": "noun",
                                     "level": "B2",
-                                    "vi": "lừa đảo giả mạo thông tin",
-                                    "family": "phish (v)",
-                                    "example_en": "Phishing attacks deceive users into revealing confidential passwords.",
-                                    "example_vi": "Các cuộc tấn công lừa đảo giả mạo dụ người dùng tiết lộ mật khẩu bí mật."
+                                    "vi": "cuộc tấn công mạng",
+                                    "family": "cyberattacker (n)",
+                                    "example_en": "Companies must protect their databases from cyberattacks.",
+                                    "example_vi": "Các công ty phải bảo vệ cơ sở dữ liệu của mình khỏi các cuộc tấn công mạng."
                               },
                               {
-                                    "word": "malware",
-                                    "ipa": "/ˈmælweə/",
+                                    "word": "fraud",
+                                    "ipa": "/frɔːd/",
                                     "pos": "noun",
                                     "level": "B2",
-                                    "vi": "phần mềm độc hại",
-                                    "family": "spyware (n), ransomware (n)",
-                                    "example_en": "Malicious software can infect entire organizational networks.",
-                                    "example_vi": "Phần mềm độc hại có thể lây nhiễm vào toàn bộ mạng lưới của tổ chức."
+                                    "vi": "gian lận, lừa đảo",
+                                    "family": "fraudulent (adj)",
+                                    "example_en": "Police are investigating serious cases of online fraud.",
+                                    "example_vi": "Cảnh sát đang điều tra những vụ lừa đảo trực tuyến nghiêm trọng."
                               },
                               {
                                     "word": "confidential",
                                     "ipa": "/ˌkɒnfɪˈdenʃl/",
                                     "pos": "adj",
                                     "level": "B2",
-                                    "vi": "tuyệt mật, bí mật",
+                                    "vi": "tuyệt mật, bảo mật",
                                     "family": "confidentiality (n)",
-                                    "example_en": "Businesses must protect confidential customer records.",
-                                    "example_vi": "Doanh nghiệp phải bảo vệ hồ sơ tuyệt mật của khách hàng."
+                                    "example_en": "Businesses must keep customer records confidential.",
+                                    "example_vi": "Doanh nghiệp phải giữ bí mật các hồ sơ khách hàng."
                               },
                               {
-                                    "word": "breach",
-                                    "ipa": "/briːtʃ/",
-                                    "pos": "noun",
-                                    "level": "B2",
-                                    "vi": "sự vi phạm, vụ xâm nhập bảo mật",
-                                    "family": "breach (v)",
-                                    "example_en": "A severe security breach exposed millions of credit card numbers.",
-                                    "example_vi": "Một vụ xâm phạm an ninh nghiêm trọng đã làm lộ hàng triệu số thẻ tín dụng."
-                              },
-                              {
-                                    "word": "erosion",
-                                    "ipa": "/ɪˈrəʊʒn/",
-                                    "pos": "noun",
-                                    "level": "B2",
-                                    "vi": "sự xói mòn, suy giảm",
-                                    "family": "erode (v)",
-                                    "example_en": "Recurring scandals cause an erosion of public trust in e-commerce.",
-                                    "example_vi": "Những vụ bê bối liên tục gây ra sự xói mòn niềm tin của công chúng vào thương mại điện tử."
-                              },
-                              {
-                                    "word": "skepticism",
-                                    "ipa": "/ˈskeptɪsɪzəm/",
-                                    "pos": "noun",
-                                    "level": "B2",
-                                    "vi": "sự hoài nghi",
-                                    "family": "skeptical (adj), skeptic (n)",
-                                    "example_en": "Persistent digital fraud fosters widespread skepticism among online shoppers.",
-                                    "example_vi": "Gian lận kỹ thuật số dai dẳng tạo nên sự hoài nghi lan rộng trong cộng đồng mua sắm trực tuyến."
-                              },
-                              {
-                                    "word": "fortify",
-                                    "ipa": "/ˈfɔːtɪfaɪ/",
+                                    "word": "leak",
+                                    "ipa": "/liːk/",
                                     "pos": "verb",
                                     "level": "B2",
-                                    "vi": "củng cố, tăng cường phòng thủ",
-                                    "family": "fortification (n)",
-                                    "example_en": "Organizations must fortify their digital infrastructure against cyber intrusions.",
-                                    "example_vi": "Các tổ chức phải củng cố hạ tầng kỹ thuật số để chống lại sự xâm nhập mạng."
+                                    "vi": "làm rò rỉ thông tin",
+                                    "family": "leakage (n)",
+                                    "example_en": "A system error leaked thousands of private emails.",
+                                    "example_vi": "Một lỗi hệ thống đã làm rò rỉ hàng nghìn email riêng tư."
+                              },
+                              {
+                                    "word": "disrupt",
+                                    "ipa": "/dɪsˈrʌpt/",
+                                    "pos": "verb",
+                                    "level": "B2",
+                                    "vi": "làm gián đoạn hoạt động",
+                                    "family": "disruption (n), disruptive (adj)",
+                                    "example_en": "Security problems can disrupt daily business operations.",
+                                    "example_vi": "Các sự cố an ninh có thể làm gián đoạn hoạt động kinh doanh hàng ngày."
+                              },
+                              {
+                                    "word": "identity theft",
+                                    "ipa": "/aɪˈdentəti θeft/",
+                                    "pos": "noun",
+                                    "level": "B2",
+                                    "vi": "đánh cắp danh tính",
+                                    "family": "identify (v)",
+                                    "example_en": "Identity theft causes severe financial stress for victims.",
+                                    "example_vi": "Đánh cắp danh tính gây ra áp lực tài chính nghiêm trọng cho nạn nhân."
                               },
                               {
                                     "word": "authentication",
                                     "ipa": "/ɔːˌθentɪˈkeɪʃn/",
                                     "pos": "noun",
                                     "level": "B2",
-                                    "vi": "sự xác thực danh tính",
-                                    "family": "authenticate (v), authentic (adj)",
-                                    "example_en": "Two-factor authentication provides an essential layer of account protection.",
-                                    "example_vi": "Xác thực hai yếu tố cung cấp một lớp bảo vệ tài khoản thiết yếu."
+                                    "vi": "xác thực danh tính",
+                                    "family": "authenticate (v)",
+                                    "example_en": "Two-factor authentication keeps online accounts secure.",
+                                    "example_vi": "Xác thực hai yếu tố giúp các tài khoản trực tuyến được an toàn."
                               },
                               {
-                                    "word": "vigilance",
-                                    "ipa": "/ˈvɪdʒɪləns/",
-                                    "pos": "noun",
-                                    "level": "B2",
-                                    "vi": "sự cảnh giác cao độ",
-                                    "family": "vigilant (adj)",
-                                    "example_en": "Consumers should exercise vigilance when entering credit card credentials.",
-                                    "example_vi": "Người tiêu dùng nên duy trì sự cảnh giác khi nhập thông tin thẻ tín dụng."
-                              },
-                              {
-                                    "word": "encryption",
-                                    "ipa": "/ɪnˈkrɪpʃn/",
-                                    "pos": "noun",
-                                    "level": "B2",
-                                    "vi": "sự mã hóa dữ liệu",
-                                    "family": "encrypt (v), encrypted (adj)",
-                                    "example_en": "Advanced data encryption safeguards sensitive transactions from interceptors.",
-                                    "example_vi": "Mã hóa dữ liệu tiên tiến bảo vệ các giao dịch nhạy cảm khỏi những kẻ đánh chặn."
-                              },
-                              {
-                                    "word": "stringent",
-                                    "ipa": "/ˈstrɪndʒənt/",
+                                    "word": "antivirus",
+                                    "ipa": "/ˌæntiˈvaɪrəs/",
                                     "pos": "adj",
                                     "level": "B2",
-                                    "vi": "nghiêm ngặt, khắt khe",
-                                    "family": "stringently (adv)",
-                                    "example_en": "Lawmakers should impose stringent penalties on cyber offenders.",
-                                    "example_vi": "Các nhà lập pháp nên áp đặt các hình phạt nghiêm khắc đối với tội phạm mạng."
+                                    "vi": "chống vi-rút máy tính",
+                                    "family": "virus (n)",
+                                    "example_en": "It is important to install reliable antivirus software.",
+                                    "example_vi": "Việc cài đặt phần mềm chống vi-rút đáng tin cậy là rất quan trọng."
                               },
                               {
-                                    "word": "thwart",
-                                    "ipa": "/θwɔːt/",
+                                    "word": "proactive",
+                                    "ipa": "/prəʊˈæktɪv/",
+                                    "pos": "adj",
+                                    "level": "B2",
+                                    "vi": "chủ động",
+                                    "family": "proactively (adv)",
+                                    "example_en": "Users need to take a proactive role in securing their data.",
+                                    "example_vi": "Người dùng cần có vai trò chủ động trong việc bảo mật dữ liệu của mình."
+                              },
+                              {
+                                    "word": "awareness",
+                                    "ipa": "/əˈweənəs/",
+                                    "pos": "noun",
+                                    "level": "B2",
+                                    "vi": "nhận thức",
+                                    "family": "aware (adj)",
+                                    "example_en": "Media campaigns raise public awareness about online safety.",
+                                    "example_vi": "Các chiến dịch truyền thông nâng cao nhận thức cộng đồng về an toàn trên mạng."
+                              },
+                              {
+                                    "word": "deter",
+                                    "ipa": "/dɪˈtɜː/",
                                     "pos": "verb",
                                     "level": "B2",
-                                    "vi": "ngăn chặn, đẩy lùi âm mưu",
-                                    "family": "thwarted (adj)",
-                                    "example_en": "Timely software patches help thwart sophisticated hacking attempts.",
-                                    "example_vi": "Các bản vá phần mềm kịp thời giúp ngăn chặn những nỗ lực xâm nhập tinh vi của tin tặc."
+                                    "vi": "ngăn chặn, răn đe",
+                                    "family": "deterrent (n)",
+                                    "example_en": "Strict laws help deter criminals from committing online fraud.",
+                                    "example_vi": "Luật pháp nghiêm khắc giúp răn đe tội phạm không thực hiện hành vi lừa đảo qua mạng."
+                              },
+                              {
+                                    "word": "penalty",
+                                    "ipa": "/ˈpenəlti/",
+                                    "pos": "noun",
+                                    "level": "B2",
+                                    "vi": "hình phạt, chế tài",
+                                    "family": "penalize (v)",
+                                    "example_en": "The government should introduce heavy penalties for cybercrimes.",
+                                    "example_vi": "Chính phủ nên đưa ra những hình phạt nặng đối với các tội phạm mạng."
                               }
                         ]
                   }
