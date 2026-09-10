@@ -27173,6 +27173,24 @@ const ESSAY_DATA = [
         "context": "Plastic waste in the oceans has become one of the most serious environmental problems facing the world today. Every year, millions of tons of plastic waste enter rivers, seas, and oceans, where it can remain for hundreds of years without fully decomposing. This growing problem threatens marine ecosystems and has raised concerns among governments, environmental organizations, and the public.",
         "prompt": "Write an essay to an educated reader to discuss the effects of plastic waste in the oceans and suggest possible solutions to this problem. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
         "has_full_details": true,
+        "paraphrases": [
+                  {
+                            "en": "plastic waste in the oceans",
+                            "vi": "rác thải nhựa ở các đại dương"
+                  },
+                  {
+                            "en": "marine plastic pollution",
+                            "vi": "tình trạng ô nhiễm rác thải nhựa ở biển"
+                  },
+                  {
+                            "en": "oceanic plastic debris and litter",
+                            "vi": "mảnh vụn và rác thải nhựa đại dương"
+                  },
+                  {
+                            "en": "the accumulation of plastic waste in marine environments",
+                            "vi": "sự tích tụ của rác thải nhựa trong môi trường biển"
+                  }
+        ],
         "details": {
           "ideas_b1": {
             "benefits": [
@@ -28549,6 +28567,24 @@ const ESSAY_DATA = [
         "context": "Computer games have become one of the most popular forms of entertainment among children. Many children spend a significant amount of their free time playing games on computers, smartphones, tablets, and gaming consoles. While computer games can provide enjoyment and certain educational benefits, excessive gaming has raised concerns about its influence on children's behavior and development.",
         "prompt": "Write an essay to an educated reader to discuss the effects of computer games on children’s behavior and suggest possible solutions to this problem. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
         "has_full_details": true,
+        "paraphrases": [
+                  {
+                            "en": "children playing computer games",
+                            "vi": "việc trẻ em chơi trò chơi điện tử"
+                  },
+                  {
+                            "en": "video gaming habits among youngsters",
+                            "vi": "thói quen chơi game ở thanh thiếu niên và trẻ nhỏ"
+                  },
+                  {
+                            "en": "the impacts of digital games on children's behavior",
+                            "vi": "ảnh hưởng của trò chơi điện tử đến hành vi của trẻ"
+                  },
+                  {
+                            "en": "excessive screen gaming among young children",
+                            "vi": "việc chơi game màn hình quá mức ở trẻ nhỏ"
+                  }
+        ],
         "details": {
           "ideas_b1": {
             "benefits": [
@@ -29446,6 +29482,24 @@ const ESSAY_DATA = [
         "context": "Effective communication between schools, teachers, and parents plays an important role in supporting students' academic performance and personal development. Through regular communication, parents can stay informed about their children's progress, while schools and teachers can better understand students' needs and challenges. However, ineffective communication may lead to misunderstandings, reduced cooperation, and difficulties in addressing educational issues.",
         "prompt": "Write an essay to an educated reader to discuss the effects of communication between schools/teachers and parents and suggest possible solutions to improve it. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
         "has_full_details": true,
+        "paraphrases": [
+                  {
+                            "en": "communication between schools, teachers, and parents",
+                            "vi": "sự giao tiếp giữa nhà trường, giáo viên và phụ huynh"
+                  },
+                  {
+                            "en": "home-school communication and collaboration",
+                            "vi": "sự giao tiếp và phối hợp giữa gia đình và nhà trường"
+                  },
+                  {
+                            "en": "regular dialogue between educators and families",
+                            "vi": "sự đối thoại thường xuyên giữa giáo viên và phụ huynh"
+                  },
+                  {
+                            "en": "the partnership between educational institutions and parents",
+                            "vi": "mối quan hệ đồng hành giữa cơ sở giáo dục và phụ huynh"
+                  }
+        ],
         "details": {
           "ideas_b1": {
             "benefits": [

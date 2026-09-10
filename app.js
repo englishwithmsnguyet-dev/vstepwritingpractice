@@ -5596,14 +5596,25 @@ function getTopicParaphrases(topic) {
   }
 
   // Fallback templates with keywords from the topic title based on Category
-  const cleanTitle = topic.title_en.replace(/advantages\s*&\s*disadvantages\s*of\s*/i, "").replace(/pros\s*&\s*cons\s*of\s*/i, "");
+  const cleanTitle = topic.title_en
+    .replace(/^(the\s+)?(impacts?|effects?|causes?(\s+and\s+effects?)?)\s+of\s+/i, "")
+    .replace(/advantages\s*&\s*disadvantages\s*of\s*/i, "")
+    .replace(/pros\s*&\s*cons\s*of\s*/i, "");
   const titleEn = cleanTitle.toLowerCase();
-  const titleVi = topic.title_vi.toLowerCase();
+  const titleVi = topic.title_vi.toLowerCase().replace(/^(tác động|ảnh hưởng|nguyên nhân(\s+và\s+tác động)?)\s+của\s+/i, "");
   const capTitleEn = titleEn.charAt(0).toUpperCase() + titleEn.slice(1);
   const capTitleVi = titleVi.charAt(0).toUpperCase() + titleVi.slice(1);
 
-  // Category 2 is Problem & Solution
+  // Category 2 is Causes - Effects - Solutions
   if (currentCategory && currentCategory.id === 2) {
+    const isPositiveOrNeutral = /communication|cooperation|collaboration|partnership|support|reading|exercise|sports/i.test(titleEn);
+    if (isPositiveOrNeutral) {
+      return [
+        { en: `${capTitleEn} plays a vital role in modern educational and social development...`, vi: `${capTitleVi} đóng một vai trò quan trọng trong sự phát triển giáo dục và xã hội hiện đại...` },
+        { en: `Promoting effective ${titleEn} has received significant attention in recent years...`, vi: `Thúc đẩy ${titleVi} hiệu quả đã nhận được nhiều sự quan tâm trong những năm gần đây...` },
+        { en: `A crucial aspect of modern development is fostering constructive ${titleEn}...`, vi: `Một khía cạnh quan trọng của sự phát triển hiện đại là nuôi dưỡng ${titleVi} mang tính xây dựng...` }
+      ];
+    }
     return [
       { en: `${capTitleEn} has become a growing concern in today's society...`, vi: `${capTitleVi} đã trở thành một mối lo ngại ngày càng tăng trong xã hội ngày nay...` },
       { en: `One of the most pressing issues that modern society faces is ${titleEn}...`, vi: `Một trong những vấn đề cấp bách nhất mà xã hội hiện đại phải đối mặt là ${titleVi}...` },
