@@ -25329,12 +25329,8 @@ const ESSAY_DATA = [
                     "vi": "áp lực học tập"
                   },
                   {
-                    "en": "create a large burden on",
+                    "en": "creates a large burden on",
                     "vi": "tạo ra gánh nặng lớn cho"
-                  },
-                  {
-                    "en": "places heavy demands on",
-                    "vi": "đặt ra những đòi hỏi nặng nề lên"
                   },
                   {
                     "en": "young people",
@@ -25349,20 +25345,8 @@ const ESSAY_DATA = [
                     "vi": "chuẩn bị cho các kỳ thi"
                   },
                   {
-                    "en": "have to",
-                    "vi": "phải"
-                  },
-                  {
                     "en": "less time to relax",
                     "vi": "ít thời gian để nghỉ ngơi"
-                  },
-                  {
-                    "en": "time to rest",
-                    "vi": "thời gian để nghỉ ngơi"
-                  },
-                  {
-                    "en": "gives them less time",
-                    "vi": "khiến họ có ít thời gian"
                   },
                   {
                     "en": "as a result",
@@ -25371,14 +25355,10 @@ const ESSAY_DATA = [
                   {
                     "en": "feel tired and stressed",
                     "vi": "cảm thấy mệt mỏi và căng thẳng"
-                  },
-                  {
-                    "en": "suffer from stress",
-                    "vi": "chịu đựng sự căng thẳng"
                   }
                 ],
                 "point_vi": "Áp lực học tập tạo ra gánh nặng lớn cho người trẻ.",
-                "point_en": "Study pressure places heavy demands on young people.",
+                "point_en": "Study pressure creates a large burden on young people.",
                 "evidence_vi": "Họ phải hoàn thành nhiều bài tập và chuẩn bị cho các kỳ thi. Điều này khiến họ có ít thời gian để nghỉ ngơi. Vì vậy, họ có thể cảm thấy mệt mỏi và căng thẳng.",
                 "evidence_en": "They have to complete a lot of homework and prepare for exams. This gives them less time to relax. As a result, they may feel tired and stressed."
               },
@@ -25391,15 +25371,11 @@ const ESSAY_DATA = [
                   },
                   {
                     "en": "put pressure on",
-                    "vi": "gây áp lực lên, khiến ai chịu nhiều áp lực"
+                    "vi": "khiến ai chịu nhiều áp lực"
                   },
                   {
                     "en": "young people",
                     "vi": "người trẻ"
-                  },
-                  {
-                    "en": "think about",
-                    "vi": "suy nghĩ về"
                   },
                   {
                     "en": "choose a field of study",
@@ -25418,20 +25394,8 @@ const ESSAY_DATA = [
                     "vi": "đạt được mục tiêu mong muốn"
                   },
                   {
-                    "en": "fear of failure",
-                    "vi": "nỗi sợ thất bại"
-                  },
-                  {
-                    "en": "make them feel",
-                    "vi": "khiến họ cảm thấy"
-                  },
-                  {
-                    "en": "uncertain about the future",
-                    "vi": "không chắc chắn về tương lai"
-                  },
-                  {
-                    "en": "future prospects",
-                    "vi": "triển vọng tương lai"
+                    "en": "feel uncertain about the future",
+                    "vi": "cảm thấy không chắc chắn về tương lai"
                   }
                 ],
                 "point_vi": "Những lo lắng về tương lai cũng có thể khiến người trẻ chịu nhiều áp lực.",
@@ -25475,20 +25439,12 @@ const ESSAY_DATA = [
                     "vi": "không được người khác hiểu"
                   },
                   {
-                    "en": "lack of emotional support",
-                    "vi": "thiếu sự hỗ trợ tình cảm"
-                  },
-                  {
                     "en": "therefore",
-                    "vi": "vì vậy, do đó"
+                    "vi": "vì vậy"
                   },
                   {
                     "en": "affect their emotions",
                     "vi": "ảnh hưởng đến cảm xúc của họ"
-                  },
-                  {
-                    "en": "emotional well-being",
-                    "vi": "sức khỏe cảm xúc"
                   }
                 ],
                 "point_vi": "Các vấn đề trong các mối quan hệ và cuộc sống cá nhân cũng có thể gây căng thẳng.",
@@ -25510,7 +25466,7 @@ const ESSAY_DATA = [
                   },
                   {
                     "en": "academic expectations",
-                    "vi": "áp lực thành tích, kỳ vọng học thuật"
+                    "vi": "áp lực thành tích"
                   },
                   {
                     "en": "place considerable pressure on",
@@ -25519,10 +25475,6 @@ const ESSAY_DATA = [
                   {
                     "en": "young people",
                     "vi": "người trẻ"
-                  },
-                  {
-                    "en": "students and undergraduates",
-                    "vi": "học sinh và sinh viên"
                   },
                   {
                     "en": "complete numerous assignments",
@@ -25538,15 +25490,15 @@ const ESSAY_DATA = [
                   },
                   {
                     "en": "feel overwhelmed",
-                    "vi": "cảm thấy quá tải, choáng ngợp"
+                    "vi": "cảm thấy quá tải"
                   },
                   {
                     "en": "struggle to manage their time",
-                    "vi": "khó cân bằng thời gian, chật vật quản lý thời gian"
+                    "vi": "khó cân bằng thời gian"
                   },
                   {
                     "en": "for example",
-                    "vi": "chẳng hạn, ví dụ"
+                    "vi": "chẳng hạn"
                   },
                   {
                     "en": "preparing for important exams",
@@ -25557,20 +25509,12 @@ const ESSAY_DATA = [
                     "vi": "học nhiều giờ mỗi ngày"
                   },
                   {
-                    "en": "suffer from sleep deprivation",
-                    "vi": "chịu đựng tình trạng thiếu ngủ"
-                  },
-                  {
                     "en": "prolonged pressure",
                     "vi": "áp lực kéo dài"
                   },
                   {
                     "en": "constant source of stress",
                     "vi": "nguồn căng thẳng thường xuyên"
-                  },
-                  {
-                    "en": "chronic academic stress",
-                    "vi": "căng thẳng học tập kinh niên"
                   }
                 ],
                 "point_vi": "Khối lượng học tập lớn và áp lực thành tích có thể khiến người trẻ chịu căng thẳng đáng kể.",
@@ -25598,10 +25542,6 @@ const ESSAY_DATA = [
                     "vi": "người trẻ"
                   },
                   {
-                    "en": "future career anxiety",
-                    "vi": "lo âu sự nghiệp tương lai"
-                  },
-                  {
                     "en": "make important decisions",
                     "vi": "đưa ra những quyết định quan trọng"
                   },
@@ -25619,7 +25559,7 @@ const ESSAY_DATA = [
                   },
                   {
                     "en": "for example",
-                    "vi": "ví dụ, chẳng hạn"
+                    "vi": "ví dụ"
                   },
                   {
                     "en": "final-year student",
@@ -25634,28 +25574,12 @@ const ESSAY_DATA = [
                     "vi": "sau khi tốt nghiệp"
                   },
                   {
-                    "en": "post-graduation employment hurdles",
-                    "vi": "rào cản việc làm sau tốt nghiệp"
-                  },
-                  {
-                    "en": "fiercely competitive job market",
-                    "vi": "thị trường việc làm cạnh tranh khốc liệt"
-                  },
-                  {
                     "en": "become more serious",
                     "vi": "trở nên nghiêm trọng hơn"
                   },
                   {
                     "en": "succeed within a short period",
                     "vi": "thành công trong thời gian ngắn"
-                  },
-                  {
-                    "en": "meet lofty parental expectations",
-                    "vi": "đáp ứng kỳ vọng cao của gia đình"
-                  },
-                  {
-                    "en": "attain financial independence",
-                    "vi": "đạt được sự tự chủ tài chính"
                   }
                 ],
                 "point_vi": "Những yêu cầu về nghề nghiệp và kỳ vọng đối với tương lai có thể tạo ra áp lực lớn cho người trẻ.",
@@ -25679,10 +25603,6 @@ const ESSAY_DATA = [
                     "vi": "gia tăng căng thẳng ở người trẻ"
                   },
                   {
-                    "en": "interpersonal friction",
-                    "vi": "bất hòa trong quan hệ cá nhân"
-                  },
-                  {
                     "en": "experience disagreements with",
                     "vi": "gặp bất đồng với"
                   },
@@ -25691,28 +25611,12 @@ const ESSAY_DATA = [
                     "vi": "cha mẹ, bạn bè hoặc những người quan trọng khác"
                   },
                   {
-                    "en": "interpersonal friction within families",
-                    "vi": "mâu thuẫn bất hòa trong gia đình"
-                  },
-                  {
-                    "en": "these problems",
-                    "vi": "những vấn đề này"
-                  },
-                  {
                     "en": "feel lonely, unhappy, or unsupported",
                     "vi": "cảm thấy cô đơn, buồn bã hoặc không được hỗ trợ"
                   },
                   {
-                    "en": "lack of emotional support",
-                    "vi": "thiếu thốn sự hỗ trợ tinh thần"
-                  },
-                  {
-                    "en": "social isolation",
-                    "vi": "sự cô lập xã hội"
-                  },
-                  {
                     "en": "for instance",
-                    "vi": "chẳng hạn, ví dụ"
+                    "vi": "chẳng hạn"
                   },
                   {
                     "en": "serious problems with friends",
@@ -25720,27 +25624,15 @@ const ESSAY_DATA = [
                   },
                   {
                     "en": "find it difficult to concentrate on studying",
-                    "vi": "mất tập trung vào việc học, khó tập trung vào việc học"
-                  },
-                  {
-                    "en": "vulnerable to peer pressure",
-                    "vi": "dễ bị ảnh hưởng bởi áp lực đồng trang lứa"
+                    "vi": "mất tập trung vào việc học"
                   },
                   {
                     "en": "continue for a long time",
-                    "vi": "kéo dài, tiếp diễn trong thời gian dài"
+                    "vi": "kéo dài"
                   },
                   {
                     "en": "constant source of pressure",
                     "vi": "nguồn áp lực thường xuyên"
-                  },
-                  {
-                    "en": "prolonged conflicts",
-                    "vi": "mâu thuẫn kéo dài"
-                  },
-                  {
-                    "en": "psychological vulnerability",
-                    "vi": "sự dễ bị tổn thương tâm lý"
                   }
                 ],
                 "point_vi": "Những khó khăn trong các mối quan hệ và cuộc sống cá nhân cũng có thể làm gia tăng căng thẳng ở người trẻ.",
