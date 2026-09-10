@@ -25505,128 +25505,780 @@ const ESSAY_DATA = [
           },
           "vocab": [
             {
-              "en": "study pressure",
-              "vi": "áp lực học tập"
+              "en": "stress",
+              "vi": "áp lực, sự căng thẳng"
             },
             {
-              "en": "complete homework",
-              "vi": "hoàn thành bài tập về nhà"
+              "en": "pressure",
+              "vi": "sức ép, áp lực"
             },
             {
-              "en": "prepare for exams",
-              "vi": "chuẩn bị cho các kỳ thi"
+              "en": "anxious",
+              "vi": "lo lắng, bất an"
             },
             {
-              "en": "less time to relax",
-              "vi": "ít thời gian nghỉ ngơi"
+              "en": "exhausted",
+              "vi": "kiệt sức, mệt lả"
             },
             {
-              "en": "feel tired and stressed",
-              "vi": "cảm thấy mệt mỏi và căng thẳng"
+              "en": "compete",
+              "vi": "cạnh tranh, thi đua"
             },
             {
-              "en": "worries about the future",
-              "vi": "lo lắng về tương lai"
+              "en": "expectation",
+              "vi": "sự kỳ vọng, mong mỏi"
             },
             {
-              "en": "choose a field of study",
-              "vi": "chọn ngành học"
+              "en": "overwhelmed",
+              "vi": "bị choáng ngợp, quá tải"
             },
             {
-              "en": "find a good job",
-              "vi": "tìm một công việc tốt"
+              "en": "lonely",
+              "vi": "cô đơn, cô độc"
             },
             {
-              "en": "achieve personal goals",
-              "vi": "đạt được mục tiêu cá nhân"
+              "en": "misunderstand",
+              "vi": "hiểu lầm, bất đồng"
             },
             {
-              "en": "uncertain future",
-              "vi": "tương lai bấp bênh"
+              "en": "balance",
+              "vi": "cân bằng, sự cân bằng"
             },
             {
-              "en": "problems in relationships",
-              "vi": "vấn đề trong các mối quan hệ"
+              "en": "failure",
+              "vi": "sự thất bại"
             },
             {
-              "en": "personal life stress",
-              "vi": "căng thẳng cuộc sống cá nhân"
+              "en": "support",
+              "vi": "sự hỗ trợ, chỗ dựa tinh thần"
             },
             {
-              "en": "disagreements with friends",
-              "vi": "bất đồng với bạn bè"
+              "en": "demanding",
+              "vi": "khắt khe, đòi hỏi cao"
             },
             {
-              "en": "feel lonely and misunderstood",
-              "vi": "cảm thấy cô đơn và không được hiểu"
+              "en": "burden",
+              "vi": "gánh nặng tâm lý hoặc trách nhiệm"
             },
             {
-              "en": "emotional impact",
-              "vi": "tác động cảm xúc"
+              "en": "chronic",
+              "vi": "kinh niên, kéo dài dai dẳng"
             },
             {
-              "en": "rigorous academic workloads",
-              "vi": "khối lượng học tập khắt khe"
+              "en": "deprivation",
+              "vi": "sự thiếu hụt, tình trạng tước đoạt"
             },
             {
-              "en": "performance expectations",
-              "vi": "kỳ vọng về thành tích"
+              "en": "cognitive",
+              "vi": "thuộc về nhận thức, trí não"
             },
             {
-              "en": "cognitive overload",
-              "vi": "quá tải nhận thức"
+              "en": "apprehension",
+              "vi": "sự e sợ, mối lo âu tương lai"
             },
             {
-              "en": "time management deficit",
-              "vi": "thiếu hụt quản lý thời gian"
+              "en": "saturated",
+              "vi": "bão hòa, cạnh tranh chật chội"
             },
             {
-              "en": "chronic academic stress",
-              "vi": "căng thẳng học tập mãn tính"
+              "en": "hurdle",
+              "vi": "rào cản, trở ngại lớn"
             },
             {
-              "en": "future career anxiety",
-              "vi": "lo âu sự nghiệp tương lai"
+              "en": "vulnerable",
+              "vi": "dễ bị tổn thương, yếu thế"
+            },
+            {
+              "en": "persevere",
+              "vi": "kiên trì, bền chí vượt khó"
+            },
+            {
+              "en": "friction",
+              "vi": "sự bất hòa, mâu thuẫn quan hệ"
+            },
+            {
+              "en": "exacerbate",
+              "vi": "làm trầm trọng thêm"
+            },
+            {
+              "en": "heavy academic workload",
+              "vi": "khối lượng học tập nặng nề"
+            },
+            {
+              "en": "prepare for competitive exams",
+              "vi": "chuẩn bị cho các kỳ thi cạnh tranh"
+            },
+            {
+              "en": "rigorous academic curriculum",
+              "vi": "chương trình giảng dạy khắt khe"
+            },
+            {
+              "en": "suffer from sleep deprivation",
+              "vi": "chịu đựng tình trạng thiếu ngủ kéo dài"
+            },
+            {
+              "en": "struggle to balance studies and leisure",
+              "vi": "chật vật cân bằng giữa học tập và giải trí"
+            },
+            {
+              "en": "experience cognitive overload",
+              "vi": "trải qua tình trạng quá tải nhận thức"
+            },
+            {
+              "en": "choose a suitable career path",
+              "vi": "chọn lựa con đường sự nghiệp phù hợp"
+            },
+            {
+              "en": "fear of failing to achieve goals",
+              "vi": "nỗi sợ không đạt được mục tiêu bản thân"
+            },
+            {
+              "en": "fiercely competitive job market",
+              "vi": "thị trường việc làm cạnh tranh khốc liệt"
+            },
+            {
+              "en": "meet lofty parental expectations",
+              "vi": "đáp ứng những kỳ vọng lớn lao từ cha mẹ"
             },
             {
               "en": "post-graduation employment hurdles",
-              "vi": "rào cản việc làm sau tốt nghiệp"
+              "vi": "những rào cản tìm việc làm sau khi ra trường"
             },
             {
-              "en": "competitive job market",
-              "vi": "thị trường lao động cạnh tranh"
+              "en": "attain financial independence",
+              "vi": "đạt được sự tự chủ / độc lập về tài chính"
             },
             {
-              "en": "fear of failure",
-              "vi": "nỗi sợ thất bại"
+              "en": "experience disagreements with friends",
+              "vi": "gặp phải những bất đồng với bạn bè"
             },
             {
-              "en": "lofty expectations",
-              "vi": "kỳ vọng cao"
-            },
-            {
-              "en": "interpersonal friction",
-              "vi": "ma sát trong quan hệ cá nhân"
-            },
-            {
-              "en": "social isolation",
-              "vi": "sự cô lập xã hội"
+              "en": "feel lonely and misunderstood",
+              "vi": "cảm thấy cô đơn và không được thấu hiểu"
             },
             {
               "en": "lack of emotional support",
-              "vi": "thiếu hỗ trợ tình cảm"
+              "vi": "sự thiếu thốn hỗ trợ tinh thần từ người thân"
             },
             {
-              "en": "prolonged conflicts",
-              "vi": "mâu thuẫn kéo dài"
+              "en": "interpersonal friction within families",
+              "vi": "sự bất hòa trong các mối quan hệ gia đình"
             },
             {
-              "en": "psychological vulnerability",
-              "vi": "sự dễ tổn thương tâm lý"
+              "en": "vulnerable to peer pressure",
+              "vi": "dễ bị ảnh hưởng bởi áp lực đồng trang lứa"
+            },
+            {
+              "en": "erode self-confidence",
+              "vi": "làm xói mòn và giảm sút sự tự tin"
             }
           ],
-          "sample_b1": "In recent years, <strong>stress among young people</strong> has become a common topic of discussion. This issue affects both individuals and society in different ways. <strong>This essay will discuss the main reasons for this trend.</strong>\n\nOne major reason is that <strong><em>study pressure places heavy demands on young people.</em></strong> They have to complete a lot of homework and prepare for exams. This gives them less time to relax. As a result, they may feel tired and stressed.\n\nAnother contributing reason is that <strong><em>worries about the future can also put pressure on young people.</em></strong> They have to think about choosing a field of study and finding a good job. They may worry that they will not achieve their goals. This can make them feel uncertain about the future.\n\nA further reason is that <strong><em>problems in relationships and personal life can also cause stress.</em></strong> Young people may have problems with friends, family, or other relationships. They may feel lonely or misunderstood. Therefore, these problems can affect their emotions.\n\nIn conclusion, <strong>stress among young people</strong> is driven by several key reasons that affect both individuals and society. Understanding these reasons is important to improve the situation in the future. With greater attention, families and schools can better support young people.",
-          "translation_b1": "Trong những năm gần đây, <strong>căng thẳng ở giới trẻ</strong> đã trở thành một chủ đề thảo luận phổ biến. Vấn đề này ảnh hưởng đến cả cá nhân và xã hội theo những cách khác nhau. <strong>Bài tiểu luận này sẽ thảo luận về những lý do chính dẫn đến xu hướng này.</strong>\n\nMột lý do chính là <strong><em>áp lực học tập tạo ra gánh nặng lớn cho người trẻ.</em></strong> Họ phải hoàn thành nhiều bài tập và chuẩn bị cho các kỳ thi. Điều này khiến họ có ít thời gian để nghỉ ngơi. Vì vậy, họ có thể cảm thấy mệt mỏi và căng thẳng.\n\nMột lý do đóng góp khác là <strong><em>những lo lắng về tương lai cũng có thể khiến người trẻ chịu nhiều áp lực.</em></strong> Họ phải suy nghĩ về việc chọn ngành học và tìm một công việc tốt. Họ có thể lo lắng rằng mình sẽ không đạt được mục tiêu mong muốn. Điều này có thể khiến họ cảm thấy không chắc chắn về tương lai.\n\nMột lý do nữa là <strong><em>các vấn đề trong các mối quan hệ và cuộc sống cá nhân cũng có thể gây căng thẳng.</em></strong> Người trẻ có thể gặp vấn đề với bạn bè, gia đình hoặc các mối quan hệ khác. Họ có thể cảm thấy cô đơn hoặc không được người khác hiểu. Vì vậy, những vấn đề này có thể ảnh hưởng đến cảm xúc của họ.\n\nTóm lại, <strong>căng thẳng ở giới trẻ</strong> được thúc đẩy bởi một số lý do chính ảnh hưởng đến cả cá nhân và xã hội. Việc hiểu rõ những lý do này là rất quan trọng để cải thiện tình hình trong tương lai. Với sự quan tâm nhiều hơn, gia đình và nhà trường có thể hỗ trợ người trẻ tốt hơn."
+          "sample_b1": "In recent years, <strong>stress among young people</strong> has become a growing concern in many parts of the world. This issue affects both individuals and society in different ways. <strong>This essay will discuss three main causes of this problem.</strong>\n\nOne major cause is that <strong><em>heavy study pressure places demanding requirements on young people.</em></strong> Students often have to complete a large amount of homework and prepare for frequent examinations. In addition, many teenagers spend long hours studying without taking enough time to rest and relax. As a result, continuous academic stress makes students feel physically exhausted and mentally drained.\n\nAnother contributing factor is that <strong><em>worries about future careers create significant anxiety for youth.</em></strong> Young people often face difficult decisions regarding choosing a field of study and finding a stable job in a competitive society. Furthermore, fear of failure and the desire to meet high family expectations can cause constant worry. Consequently, many young individuals feel insecure and anxious about their future prospects.\n\nA further reason is that <strong><em>difficulties in interpersonal relationships and personal life can also increase stress.</em></strong> Young people frequently experience disagreements and misunderstandings with their parents or peers. Moreover, a lack of emotional support makes many teenagers feel lonely and isolated when dealing with personal problems. Therefore, prolonged conflicts with friends and family can negatively affect their emotional well-being.\n\nIn conclusion, <strong>stress among young people</strong> is caused by several key factors, including academic pressure, career anxiety, and relationship difficulties. Understanding these causes is essential to helping young people lead healthier and happier lives. Therefore, families, schools, and society should work together to provide adequate guidance and emotional support for the younger generation.",
+          "translation_b1": "Trong những năm gần đây, <strong>căng thẳng ở giới trẻ</strong> đã trở thành một mối lo ngại ngày càng tăng ở nhiều nơi trên thế giới. Vấn đề này ảnh hưởng đến cả cá nhân và xã hội theo nhiều cách khác nhau. <strong>Bài luận này sẽ thảo luận về ba nguyên nhân chính của vấn đề này.</strong>\n\nMột nguyên nhân lớn là <strong><em>áp lực học tập nặng nề đặt ra những yêu cầu khắt khe đối với người trẻ.</em></strong> Học sinh thường phải hoàn thành một khối lượng lớn bài tập về nhà và chuẩn bị cho các kỳ thi thường xuyên. Thêm vào đó, nhiều thanh thiếu niên dành nhiều giờ học tập mà không có đủ thời gian để nghỉ ngơi và thư giãn. Kết quả là, sự căng thẳng học tập kéo dài khiến học sinh cảm thấy kiệt sức về thể chất và mệt mỏi về tinh thần.\n\nMột yếu tố đóng góp khác là <strong><em>nỗi lo lắng về sự nghiệp tương lai tạo ra sự bất an đáng kể cho giới trẻ.</em></strong> Người trẻ thường phải đối mặt với những quyết định khó khăn liên quan đến việc chọn ngành học và tìm một công việc ổn định trong một xã hội cạnh tranh. Hơn nữa, nỗi sợ thất bại và mong muốn đáp ứng kỳ vọng cao của gia đình có thể gây ra sự lo lắng thường trực. Do đó, nhiều bạn trẻ cảm thấy bất an và lo âu về triển vọng tương lai của mình.\n\nMột lý do nữa là <strong><em>những khó khăn trong các mối quan hệ và đời sống cá nhân cũng có thể làm gia tăng căng thẳng.</em></strong> Người trẻ thường xuyên gặp phải những bất đồng và hiểu lầm với cha mẹ hoặc bạn bè đồng trang lứa. Hơn nữa, việc thiếu sự hỗ trợ về mặt tình cảm khiến nhiều thanh thiếu niên cảm thấy cô đơn và bị cô lập khi giải quyết các vấn đề cá nhân. Vì vậy, những mâu thuẫn kéo dài với bạn bè và gia đình có thể ảnh hưởng tiêu cực đến sức khỏe cảm xúc của các em.\n\nTóm lại, <strong>căng thẳng ở giới trẻ</strong> bắt nguồn từ một số yếu tố chủ yếu, bao gồm áp lực học tập, lo âu nghề nghiệp và khó khăn trong các mối quan hệ. Việc hiểu rõ những nguyên nhân này là điều cần thiết để giúp người trẻ có một cuộc sống lành mạnh và hạnh phúc hơn. Vì vậy, gia đình, nhà trường và xã hội nên hợp tác cùng nhau để cung cấp sự định hướng và hỗ trợ tinh thần đầy đủ cho thế hệ trẻ.",
+          "vocab_step": {
+            "theme": "Căng thẳng & Áp lực ở giới trẻ (Stress among young people)",
+            "overview": "Bộ từ vựng toàn diện về nguyên nhân gây căng thẳng ở giới trẻ: cung cấp 24 từ đơn cốt lõi B1-B2 kèm phiên âm IPA chuẩn & họ từ (Word Family), kết hợp 18 cụm Collocations học thuật phân chia chi tiết theo 3 nhóm nguyên nhân chính.",
+            "single_words": [
+              {
+                "word": "stress",
+                "ipa": "/stres/",
+                "pos": "noun/verb",
+                "level": "B1",
+                "vi": "áp lực, sự căng thẳng",
+                "family": "stressful (adj), stressed (adj)",
+                "example_en": "Many students suffer from severe stress before examinations.",
+                "example_vi": "Nhiều học sinh phải chịu áp lực nặng nề trước các kỳ thi."
+              },
+              {
+                "word": "pressure",
+                "ipa": "/ˈpreʃə/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "sức ép, áp lực",
+                "family": "pressurize (v)",
+                "example_en": "Parents often put too much pressure on their children to get high grades.",
+                "example_vi": "Cha mẹ thường đặt quá nhiều áp lực điểm cao lên con cái."
+              },
+              {
+                "word": "anxious",
+                "ipa": "/ˈæŋkʃəs/",
+                "pos": "adj",
+                "level": "B1",
+                "vi": "lo lắng, bất an",
+                "family": "anxiety (n), anxiously (adv)",
+                "example_en": "Young people often feel anxious about finding a stable job.",
+                "example_vi": "Người trẻ thường cảm thấy lo lắng về việc tìm một công việc ổn định."
+              },
+              {
+                "word": "exhausted",
+                "ipa": "/ɪɡˈzɔːstɪd/",
+                "pos": "adj",
+                "level": "B1",
+                "vi": "kiệt sức, mệt lả",
+                "family": "exhaust (v), exhaustion (n)",
+                "example_en": "Studying late every night leaves students completely exhausted.",
+                "example_vi": "Học khuya mỗi đêm khiến học sinh hoàn toàn kiệt sức."
+              },
+              {
+                "word": "compete",
+                "ipa": "/kəmˈpiːt/",
+                "pos": "verb",
+                "level": "B1",
+                "vi": "cạnh tranh, thi đua",
+                "family": "competition (n), competitive (adj)",
+                "example_en": "Graduates must compete with hundreds of candidates for limited job vacancies.",
+                "example_vi": "Sinh viên mới tốt nghiệp phải cạnh tranh với hàng trăm ứng viên cho số lượng việc làm có hạn."
+              },
+              {
+                "word": "expectation",
+                "ipa": "/ˌekspekˈteɪʃn/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "sự kỳ vọng, mong mỏi",
+                "family": "expect (v), unexpected (adj)",
+                "example_en": "High family expectations can become a heavy burden for teenagers.",
+                "example_vi": "Kỳ vọng cao từ gia đình có thể trở thành gánh nặng lớn cho thanh thiếu niên."
+              },
+              {
+                "word": "overwhelmed",
+                "ipa": "/ˌəʊvəˈwelmd/",
+                "pos": "adj",
+                "level": "B1",
+                "vi": "bị choáng ngợp, quá tải",
+                "family": "overwhelm (v), overwhelming (adj)",
+                "example_en": "Teenagers easily feel overwhelmed by too many assignments and deadlines.",
+                "example_vi": "Thanh thiếu niên dễ cảm thấy quá tải trước quá nhiều bài tập và thời hạn nộp bài."
+              },
+              {
+                "word": "lonely",
+                "ipa": "/ˈləʊnli/",
+                "pos": "adj",
+                "level": "B1",
+                "vi": "cô đơn, cô độc",
+                "family": "loneliness (n)",
+                "example_en": "Without close friends to share their feelings, young people feel very lonely.",
+                "example_vi": "Nếu không có bạn thân để sẻ chia cảm xúc, người trẻ cảm thấy rất cô đơn."
+              },
+              {
+                "word": "misunderstand",
+                "ipa": "/ˌmɪsʌndəˈstænd/",
+                "pos": "verb",
+                "level": "B1",
+                "vi": "hiểu lầm, bất đồng",
+                "family": "misunderstanding (n)",
+                "example_en": "Conflicts arise when parents and teenagers misunderstand each other.",
+                "example_vi": "Mâu thuẫn nảy sinh khi cha mẹ và thanh thiếu niên hiểu lầm nhau."
+              },
+              {
+                "word": "balance",
+                "ipa": "/ˈbæləns/",
+                "pos": "verb/noun",
+                "level": "B1",
+                "vi": "cân bằng, sự cân bằng",
+                "family": "balanced (adj)",
+                "example_en": "It is difficult for students to balance academic study and daily recreation.",
+                "example_vi": "Học sinh rất khó để cân bằng giữa việc học tập và nghỉ ngơi giải trí hằng ngày."
+              },
+              {
+                "word": "failure",
+                "ipa": "/ˈfeɪljə/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "sự thất bại",
+                "family": "fail (v)",
+                "example_en": "The fear of failure prevents young people from taking new opportunities.",
+                "example_vi": "Nỗi sợ thất bại ngăn cản người trẻ nắm bắt những cơ hội mới."
+              },
+              {
+                "word": "support",
+                "ipa": "/səˈpɔːt/",
+                "pos": "noun/verb",
+                "level": "B1",
+                "vi": "sự hỗ trợ, chỗ dựa tinh thần",
+                "family": "supportive (adj)",
+                "example_en": "Emotional support from parents helps teenagers reduce stress significantly.",
+                "example_vi": "Sự hỗ trợ tình cảm từ cha mẹ giúp thanh thiếu niên giảm bớt căng thẳng đáng kể."
+              },
+              {
+                "word": "demanding",
+                "ipa": "/dɪˈmɑːndɪŋ/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "khắt khe, đòi hỏi cao",
+                "family": "demand (n/v)",
+                "example_en": "Students face an increasingly demanding academic schedule each semester.",
+                "example_vi": "Học sinh phải đối mặt với lịch học ngày càng khắt khe vào mỗi học kỳ."
+              },
+              {
+                "word": "burden",
+                "ipa": "/ˈbɜːdn/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "gánh nặng tâm lý hoặc trách nhiệm",
+                "family": "burdensome (adj)",
+                "example_en": "Meeting parental expectations places an enormous mental burden on youth.",
+                "example_vi": "Việc đáp ứng kỳ vọng của phụ huynh đặt ra gánh nặng tâm lý khổng lồ lên người trẻ."
+              },
+              {
+                "word": "chronic",
+                "ipa": "/ˈkrɒnɪk/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "kinh niên, kéo dài dai dẳng",
+                "family": "chronically (adv)",
+                "example_en": "Chronic stress severely harms students' concentration and immune system.",
+                "example_vi": "Căng thẳng kinh niên gây hại nghiêm trọng đến khả năng tập trung và hệ miễn dịch của học sinh."
+              },
+              {
+                "word": "deprivation",
+                "ipa": "/ˌdeprɪˈveɪʃn/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự thiếu hụt, tình trạng tước đoạt",
+                "family": "deprive (v), deprived (adj)",
+                "example_en": "Prolonged sleep deprivation causes serious mental and physical fatigue.",
+                "example_vi": "Tình trạng thiếu ngủ kéo dài gây ra sự kiệt quệ nghiêm trọng về thể chất lẫn tinh thần."
+              },
+              {
+                "word": "cognitive",
+                "ipa": "/ˈkɒɡnətɪv/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "thuộc về nhận thức, trí não",
+                "family": "cognition (n)",
+                "example_en": "Excessive study hours cause severe cognitive overload in young brains.",
+                "example_vi": "Giờ học quá tải gây ra hiện tượng quá tải nhận thức ở não bộ người trẻ."
+              },
+              {
+                "word": "apprehension",
+                "ipa": "/ˌæprɪˈhenʃn/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự e sợ, mối lo âu tương lai",
+                "family": "apprehensive (adj)",
+                "example_en": "Young graduates feel intense apprehension about their career trajectories.",
+                "example_vi": "Sinh viên mới tốt nghiệp cảm thấy lo lắng sâu sắc về định hướng tương lai nghề nghiệp."
+              },
+              {
+                "word": "saturated",
+                "ipa": "/ˈsætʃəreɪtɪd/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "bão hòa, cạnh tranh chật chội",
+                "family": "saturate (v), saturation (n)",
+                "example_en": "In a saturated labor market, obtaining a decent job requires outstanding credentials.",
+                "example_vi": "Trong một thị trường lao động đã bão hòa, để có được một công việc tốt đòi hỏi năng lực xuất sắc."
+              },
+              {
+                "word": "hurdle",
+                "ipa": "/ˈhɜːdl/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "rào cản, trở ngại lớn",
+                "family": "hurdle (v)",
+                "example_en": "Unrealistic job requirements pose formidable hurdles for young jobseekers.",
+                "example_vi": "Những yêu cầu tuyển dụng thiếu thực tế tạo ra rào cản to lớn cho người tìm việc trẻ tuổi."
+              },
+              {
+                "word": "vulnerable",
+                "ipa": "/ˈvʌlnərəbl/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "dễ bị tổn thương, yếu thế",
+                "family": "vulnerability (n)",
+                "example_en": "Young minds are emotionally vulnerable when facing persistent isolation.",
+                "example_vi": "Tâm lý người trẻ rất dễ bị tổn thương khi phải đối mặt với sự cô lập kéo dài."
+              },
+              {
+                "word": "persevere",
+                "ipa": "/ˌpɜːsəˈvɪə/",
+                "pos": "verb",
+                "level": "B2",
+                "vi": "kiên trì, bền chí vượt khó",
+                "family": "perseverance (n)",
+                "example_en": "Young individuals must persevere through early career challenges.",
+                "example_vi": "Người trẻ phải kiên trì vượt qua những thử thách ban đầu trong sự nghiệp."
+              },
+              {
+                "word": "friction",
+                "ipa": "/ˈfrɪkʃn/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự bất hòa, mâu thuẫn quan hệ",
+                "family": "",
+                "example_en": "Ideological differences often generate friction between parents and youth.",
+                "example_vi": "Sự khác biệt về quan điểm sống thường tạo ra mâu thuẫn giữa phụ huynh và con trẻ."
+              },
+              {
+                "word": "exacerbate",
+                "ipa": "/ɪɡˈzæsəbeɪt/",
+                "pos": "verb",
+                "level": "B2",
+                "vi": "làm trầm trọng thêm",
+                "family": "exacerbation (n)",
+                "example_en": "Peer pressure on social media exacerbates anxiety among teenagers.",
+                "example_vi": "Áp lực đồng trang lứa trên mạng xã hội làm trầm trọng thêm sự lo âu ở thanh thiếu niên."
+              }
+            ],
+            "collocation_groups": [
+              {
+                "id": "academic_pressure",
+                "name": "Nhóm Collocations: Áp lực học tập & thi cử (Academic Pressure)",
+                "icon": "📚",
+                "badge": "Nguyên nhân 1",
+                "items": [
+                  {
+                    "en": "heavy academic workload",
+                    "type": "n.phr",
+                    "level": "B1",
+                    "vi": "khối lượng học tập nặng nề",
+                    "example": "A heavy academic workload leaves students with little free time.",
+                    "example_en": "A heavy academic workload leaves students with little free time.",
+                    "example_vi": "Khối lượng học tập nặng nề khiến học sinh còn rất ít thời gian rảnh rỗi."
+                  },
+                  {
+                    "en": "prepare for competitive exams",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "chuẩn bị cho các kỳ thi cạnh tranh",
+                    "example": "Students must prepare for competitive exams every semester.",
+                    "example_en": "Students must prepare for competitive exams every semester.",
+                    "example_vi": "Học sinh phải chuẩn bị cho các kỳ thi đầy tính cạnh tranh vào mỗi học kỳ."
+                  },
+                  {
+                    "en": "rigorous academic curriculum",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "vi": "chương trình giảng dạy khắt khe",
+                    "example": "Universities implement a rigorous academic curriculum that demands independent research.",
+                    "example_en": "Universities implement a rigorous academic curriculum that demands independent research.",
+                    "example_vi": "Các trường đại học áp dụng chương trình giảng dạy khắt khe đòi hỏi khả năng nghiên cứu độc lập."
+                  },
+                  {
+                    "en": "suffer from sleep deprivation",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "chịu đựng tình trạng thiếu ngủ kéo dài",
+                    "example": "Many seniors suffer from sleep deprivation due to late-night revision.",
+                    "example_en": "Many seniors suffer from sleep deprivation due to late-night revision.",
+                    "example_vi": "Nhiều học sinh cuối cấp phải chịu đựng cảnh thiếu ngủ vì thức khuya ôn bài."
+                  },
+                  {
+                    "en": "struggle to balance studies and leisure",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "chật vật cân bằng giữa học tập và giải trí",
+                    "example": "Teenagers struggle to balance studies and leisure under dense schedules.",
+                    "example_en": "Teenagers struggle to balance studies and leisure under dense schedules.",
+                    "example_vi": "Thanh thiếu niên chật vật cân bằng giữa học và chơi dưới lịch trình dày đặc."
+                  },
+                  {
+                    "en": "experience cognitive overload",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "trải qua tình trạng quá tải nhận thức",
+                    "example": "Continuous examination drills cause learners to experience cognitive overload.",
+                    "example_en": "Continuous examination drills cause learners to experience cognitive overload.",
+                    "example_vi": "Việc ôn luyện thi cử liên tục khiến người học trải qua tình trạng quá tải nhận thức."
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "heavy academic workload",
+                    "type": "n.phr",
+                    "level": "B1",
+                    "vi": "khối lượng học tập nặng nề",
+                    "example": "A heavy academic workload leaves students with little free time.",
+                    "example_en": "A heavy academic workload leaves students with little free time.",
+                    "example_vi": "Khối lượng học tập nặng nề khiến học sinh còn rất ít thời gian rảnh rỗi."
+                  },
+                  {
+                    "en": "prepare for competitive exams",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "chuẩn bị cho các kỳ thi cạnh tranh",
+                    "example": "Students must prepare for competitive exams every semester.",
+                    "example_en": "Students must prepare for competitive exams every semester.",
+                    "example_vi": "Học sinh phải chuẩn bị cho các kỳ thi đầy tính cạnh tranh vào mỗi học kỳ."
+                  },
+                  {
+                    "en": "rigorous academic curriculum",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "vi": "chương trình giảng dạy khắt khe",
+                    "example": "Universities implement a rigorous academic curriculum that demands independent research.",
+                    "example_en": "Universities implement a rigorous academic curriculum that demands independent research.",
+                    "example_vi": "Các trường đại học áp dụng chương trình giảng dạy khắt khe đòi hỏi khả năng nghiên cứu độc lập."
+                  },
+                  {
+                    "en": "suffer from sleep deprivation",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "chịu đựng tình trạng thiếu ngủ kéo dài",
+                    "example": "Many seniors suffer from sleep deprivation due to late-night revision.",
+                    "example_en": "Many seniors suffer from sleep deprivation due to late-night revision.",
+                    "example_vi": "Nhiều học sinh cuối cấp phải chịu đựng cảnh thiếu ngủ vì thức khuya ôn bài."
+                  },
+                  {
+                    "en": "struggle to balance studies and leisure",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "chật vật cân bằng giữa học tập và giải trí",
+                    "example": "Teenagers struggle to balance studies and leisure under dense schedules.",
+                    "example_en": "Teenagers struggle to balance studies and leisure under dense schedules.",
+                    "example_vi": "Thanh thiếu niên chật vật cân bằng giữa học và chơi dưới lịch trình dày đặc."
+                  },
+                  {
+                    "en": "experience cognitive overload",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "trải qua tình trạng quá tải nhận thức",
+                    "example": "Continuous examination drills cause learners to experience cognitive overload.",
+                    "example_en": "Continuous examination drills cause learners to experience cognitive overload.",
+                    "example_vi": "Việc ôn luyện thi cử liên tục khiến người học trải qua tình trạng quá tải nhận thức."
+                  }
+                ]
+              },
+              {
+                "id": "career_anxiety",
+                "name": "Nhóm Collocations: Lo âu sự nghiệp & kỳ vọng tương lai (Career Anxiety)",
+                "icon": "💼",
+                "badge": "Nguyên nhân 2",
+                "items": [
+                  {
+                    "en": "choose a suitable career path",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "chọn lựa con đường sự nghiệp phù hợp",
+                    "example": "Young people feel confused when choosing a suitable career path.",
+                    "example_en": "Young people feel confused when choosing a suitable career path.",
+                    "example_vi": "Người trẻ cảm thấy bối rối khi chọn lựa con đường sự nghiệp phù hợp."
+                  },
+                  {
+                    "en": "fear of failing to achieve goals",
+                    "type": "n.phr",
+                    "level": "B1",
+                    "vi": "nỗi sợ không đạt được mục tiêu bản thân",
+                    "example": "The fear of failing to achieve goals creates constant anxiety among youth.",
+                    "example_en": "The fear of failing to achieve goals creates constant anxiety among youth.",
+                    "example_vi": "Nỗi sợ không đạt được các mục tiêu tạo ra sự lo âu thường trực trong người trẻ."
+                  },
+                  {
+                    "en": "fiercely competitive job market",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "vi": "thị trường việc làm cạnh tranh khốc liệt",
+                    "example": "Graduates confront a fiercely competitive job market with limited openings.",
+                    "example_en": "Graduates confront a fiercely competitive job market with limited openings.",
+                    "example_vi": "Cử nhân đối mặt với một thị trường việc làm cạnh tranh khốc liệt với ít vị trí trống."
+                  },
+                  {
+                    "en": "meet lofty parental expectations",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "đáp ứng những kỳ vọng lớn lao từ cha mẹ",
+                    "example": "Many young people struggle to meet lofty parental expectations in career choices.",
+                    "example_en": "Many young people struggle to meet lofty parental expectations in career choices.",
+                    "example_vi": "Nhiều người trẻ chật vật đáp ứng những kỳ vọng lớn lao của cha mẹ trong lựa chọn nghề."
+                  },
+                  {
+                    "en": "post-graduation employment hurdles",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "vi": "những rào cản tìm việc làm sau khi ra trường",
+                    "example": "Recent alumni must overcome daunting post-graduation employment hurdles.",
+                    "example_en": "Recent alumni must overcome daunting post-graduation employment hurdles.",
+                    "example_vi": "Các cựu sinh viên mới ra trường phải vượt qua những rào cản việc làm đầy thử thách."
+                  },
+                  {
+                    "en": "attain financial independence",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "đạt được sự tự chủ / độc lập về tài chính",
+                    "example": "Youth strive to attain financial independence despite rising living costs.",
+                    "example_en": "Youth strive to attain financial independence despite rising living costs.",
+                    "example_vi": "Giới trẻ nỗ lực đạt được sự tự chủ tài chính dù chi phí sinh hoạt ngày càng tăng."
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "choose a suitable career path",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "chọn lựa con đường sự nghiệp phù hợp",
+                    "example": "Young people feel confused when choosing a suitable career path.",
+                    "example_en": "Young people feel confused when choosing a suitable career path.",
+                    "example_vi": "Người trẻ cảm thấy bối rối khi chọn lựa con đường sự nghiệp phù hợp."
+                  },
+                  {
+                    "en": "fear of failing to achieve goals",
+                    "type": "n.phr",
+                    "level": "B1",
+                    "vi": "nỗi sợ không đạt được mục tiêu bản thân",
+                    "example": "The fear of failing to achieve goals creates constant anxiety among youth.",
+                    "example_en": "The fear of failing to achieve goals creates constant anxiety among youth.",
+                    "example_vi": "Nỗi sợ không đạt được các mục tiêu tạo ra sự lo âu thường trực trong người trẻ."
+                  },
+                  {
+                    "en": "fiercely competitive job market",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "vi": "thị trường việc làm cạnh tranh khốc liệt",
+                    "example": "Graduates confront a fiercely competitive job market with limited openings.",
+                    "example_en": "Graduates confront a fiercely competitive job market with limited openings.",
+                    "example_vi": "Cử nhân đối mặt với một thị trường việc làm cạnh tranh khốc liệt với ít vị trí trống."
+                  },
+                  {
+                    "en": "meet lofty parental expectations",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "đáp ứng những kỳ vọng lớn lao từ cha mẹ",
+                    "example": "Many young people struggle to meet lofty parental expectations in career choices.",
+                    "example_en": "Many young people struggle to meet lofty parental expectations in career choices.",
+                    "example_vi": "Nhiều người trẻ chật vật đáp ứng những kỳ vọng lớn lao của cha mẹ trong lựa chọn nghề."
+                  },
+                  {
+                    "en": "post-graduation employment hurdles",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "vi": "những rào cản tìm việc làm sau khi ra trường",
+                    "example": "Recent alumni must overcome daunting post-graduation employment hurdles.",
+                    "example_en": "Recent alumni must overcome daunting post-graduation employment hurdles.",
+                    "example_vi": "Các cựu sinh viên mới ra trường phải vượt qua những rào cản việc làm đầy thử thách."
+                  },
+                  {
+                    "en": "attain financial independence",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "đạt được sự tự chủ / độc lập về tài chính",
+                    "example": "Youth strive to attain financial independence despite rising living costs.",
+                    "example_en": "Youth strive to attain financial independence despite rising living costs.",
+                    "example_vi": "Giới trẻ nỗ lực đạt được sự tự chủ tài chính dù chi phí sinh hoạt ngày càng tăng."
+                  }
+                ]
+              },
+              {
+                "id": "interpersonal_friction",
+                "name": "Nhóm Collocations: Mâu thuẫn quan hệ & áp lực xã hội (Interpersonal Friction)",
+                "icon": "👥",
+                "badge": "Nguyên nhân 3",
+                "items": [
+                  {
+                    "en": "experience disagreements with friends",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "gặp phải những bất đồng với bạn bè",
+                    "example": "Teenagers often experience disagreements with friends regarding social activities.",
+                    "example_en": "Teenagers often experience disagreements with friends regarding social activities.",
+                    "example_vi": "Thanh thiếu niên thường gặp phải bất đồng với bạn bè liên quan đến các hoạt động tập thể."
+                  },
+                  {
+                    "en": "feel lonely and misunderstood",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "cảm thấy cô đơn và không được thấu hiểu",
+                    "example": "Without a sympathetic listener, adolescents feel lonely and misunderstood.",
+                    "example_en": "Without a sympathetic listener, adolescents feel lonely and misunderstood.",
+                    "example_vi": "Nếu thiếu một người biết lắng nghe và thông cảm, các em cảm thấy cô đơn và không được thấu hiểu."
+                  },
+                  {
+                    "en": "lack of emotional support",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "vi": "sự thiếu thốn hỗ trợ tinh thần từ người thân",
+                    "example": "A lack of emotional support makes teenagers highly vulnerable to depression.",
+                    "example_en": "A lack of emotional support makes teenagers highly vulnerable to depression.",
+                    "example_vi": "Sự thiếu thốn hỗ trợ tinh thần khiến lứa tuổi thanh thiếu niên rất dễ rơi vào trầm cảm."
+                  },
+                  {
+                    "en": "interpersonal friction within families",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "vi": "sự bất hòa trong các mối quan hệ gia đình",
+                    "example": "Interpersonal friction within families contributes substantially to teenage distress.",
+                    "example_en": "Interpersonal friction within families contributes substantially to teenage distress.",
+                    "example_vi": "Sự bất hòa trong các mối quan hệ gia đình đóng góp đáng kể vào nỗi phiền muộn của con trẻ."
+                  },
+                  {
+                    "en": "vulnerable to peer pressure",
+                    "type": "adj.phr",
+                    "level": "B2",
+                    "vi": "dễ bị ảnh hưởng bởi áp lực đồng trang lứa",
+                    "example": "Adolescents are exceptionally vulnerable to peer pressure on digital platforms.",
+                    "example_en": "Adolescents are exceptionally vulnerable to peer pressure on digital platforms.",
+                    "example_vi": "Thanh thiếu niên đặc biệt dễ bị ảnh hưởng bởi áp lực đồng trang lứa trên các nền tảng mạng xã hội."
+                  },
+                  {
+                    "en": "erode self-confidence",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "làm xói mòn và giảm sút sự tự tin",
+                    "example": "Constant negative comparisons online gradually erode self-confidence in young people.",
+                    "example_en": "Constant negative comparisons online gradually erode self-confidence in young people.",
+                    "example_vi": "Những so sánh tiêu cực liên tục trên mạng dần dần làm xói mòn lòng tự tin ở người trẻ."
+                  }
+                ],
+                "collocations": [
+                  {
+                    "en": "experience disagreements with friends",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "gặp phải những bất đồng với bạn bè",
+                    "example": "Teenagers often experience disagreements with friends regarding social activities.",
+                    "example_en": "Teenagers often experience disagreements with friends regarding social activities.",
+                    "example_vi": "Thanh thiếu niên thường gặp phải bất đồng với bạn bè liên quan đến các hoạt động tập thể."
+                  },
+                  {
+                    "en": "feel lonely and misunderstood",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "cảm thấy cô đơn và không được thấu hiểu",
+                    "example": "Without a sympathetic listener, adolescents feel lonely and misunderstood.",
+                    "example_en": "Without a sympathetic listener, adolescents feel lonely and misunderstood.",
+                    "example_vi": "Nếu thiếu một người biết lắng nghe và thông cảm, các em cảm thấy cô đơn và không được thấu hiểu."
+                  },
+                  {
+                    "en": "lack of emotional support",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "vi": "sự thiếu thốn hỗ trợ tinh thần từ người thân",
+                    "example": "A lack of emotional support makes teenagers highly vulnerable to depression.",
+                    "example_en": "A lack of emotional support makes teenagers highly vulnerable to depression.",
+                    "example_vi": "Sự thiếu thốn hỗ trợ tinh thần khiến lứa tuổi thanh thiếu niên rất dễ rơi vào trầm cảm."
+                  },
+                  {
+                    "en": "interpersonal friction within families",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "vi": "sự bất hòa trong các mối quan hệ gia đình",
+                    "example": "Interpersonal friction within families contributes substantially to teenage distress.",
+                    "example_en": "Interpersonal friction within families contributes substantially to teenage distress.",
+                    "example_vi": "Sự bất hòa trong các mối quan hệ gia đình đóng góp đáng kể vào nỗi phiền muộn của con trẻ."
+                  },
+                  {
+                    "en": "vulnerable to peer pressure",
+                    "type": "adj.phr",
+                    "level": "B2",
+                    "vi": "dễ bị ảnh hưởng bởi áp lực đồng trang lứa",
+                    "example": "Adolescents are exceptionally vulnerable to peer pressure on digital platforms.",
+                    "example_en": "Adolescents are exceptionally vulnerable to peer pressure on digital platforms.",
+                    "example_vi": "Thanh thiếu niên đặc biệt dễ bị ảnh hưởng bởi áp lực đồng trang lứa trên các nền tảng mạng xã hội."
+                  },
+                  {
+                    "en": "erode self-confidence",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "làm xói mòn và giảm sút sự tự tin",
+                    "example": "Constant negative comparisons online gradually erode self-confidence in young people.",
+                    "example_en": "Constant negative comparisons online gradually erode self-confidence in young people.",
+                    "example_vi": "Những so sánh tiêu cực liên tục trên mạng dần dần làm xói mòn lòng tự tin ở người trẻ."
+                  }
+                ]
+              }
+            ]
+          },
+          "sample_b2": "In recent years, <strong>the prevalence of stress among young people</strong> has become a growing concern across the globe. This phenomenon has created serious challenges for youth well-being and social stability. <strong>This essay will examine three primary causes of this pervasive issue.</strong>\n\nOne major cause is that <strong><em>rigorous academic workloads and performance expectations impose immense pressure on young learners.</em></strong> Modern curricula require students to master demanding syllabuses, complete complex projects, and achieve top grades in high-stakes examinations. Furthermore, chronic sleep deprivation and time management deficits frequently lead to cognitive overload. Consequently, the relentless pursuit of scholastic excellence transforms education into a chronic source of mental and physical exhaustion.\n\nAnother contributing factor is that <strong><em>future career anxiety and socioeconomic competition generate intense psychological distress.</em></strong> In an increasingly saturated job market, university graduates confront severe post-graduation employment hurdles. Moreover, young individuals often struggle under the weight of lofty parental expectations and the pervasive fear of failure. As a result, uncertainty regarding financial independence and occupational stability fosters persistent insecurity and apprehension among the youth.\n\nA further reason is that <strong><em>interpersonal friction and social isolation substantially exacerbate stress levels.</em></strong> Adolescents frequently endure ideological conflicts with family members and peer pressure within social circles. When young people encounter personal crises without adequate emotional support or healthy coping mechanisms, they are prone to severe emotional vulnerability. Over time, unresolved interpersonal friction erodes self-confidence and undermines psychological well-being.\n\nIn conclusion, <strong>stress among young people</strong> is primarily driven by demanding academic environments, fierce career competition, and interpersonal difficulties. Recognizing these root causes is crucial for designing targeted mental health interventions. Ultimately, collaborative efforts from educators, parents, and community organizations are vital to fostering a supportive environment where young generations can thrive.",
+          "translation_b2": "Trong những năm gần đây, <strong>tình trạng căng thẳng phổ biến ở giới trẻ</strong> đã trở thành một mối quan tâm ngày càng sâu sắc trên toàn cầu. Hiện tượng này đã tạo ra những thách thức nghiêm trọng đối với sức khỏe của người trẻ và sự ổn định xã hội. <strong>Bài luận này sẽ phân tích ba nguyên nhân hàng đầu của vấn đề phổ biến này.</strong>\n\nMột nguyên nhân chủ đạo là <strong><em>khối lượng học tập khắt khe cùng kỳ vọng về thành tích đè nặng áp lực to lớn lên người học trẻ tuổi.</em></strong> Chương trình học hiện đại đòi hỏi học sinh phải nắm vững giáo trình nặng nề, hoàn thành các dự án phức tạp và đạt điểm cao trong các kỳ thi có tính cạnh tranh khốc liệt. Hơn nữa, tình trạng thiếu ngủ kinh niên và sự thiếu hụt kỹ năng quản lý thời gian thường xuyên dẫn đến quá tải nhận thức. Kết quả là, sự theo đuổi không ngừng nghỉ thành tích học thuật biến việc học thành nguồn gốc kiệt quệ kéo dài về cả tinh thần lẫn thể chất.\n\nMột yếu tố đóng góp khác là <strong><em>sự lo âu về sự nghiệp tương lai và cạnh tranh kinh tế xã hội gây ra áp lực tâm lý dữ dội.</em></strong> Trong một thị trường việc làm ngày càng bão hòa, các cử nhân đại học phải đương đầu với những rào cản việc làm gay gắt sau tốt nghiệp. Hơn nữa, các cá nhân trẻ tuổi thường phải chật vật dưới sức nặng của những kỳ vọng lớn lao từ gia đình và nỗi sợ thất bại thường trực. Do đó, sự bấp bênh liên quan đến tự chủ tài chính và ổn định nghề nghiệp nuôi dưỡng cảm giác bất an và lo sợ kéo dài trong giới trẻ.\n\nMột lý do nữa là <strong><em>sự bất hòa trong các mối quan hệ và tình trạng cô lập xã hội làm trầm trọng thêm mức độ căng thẳng.</em></strong> Thanh thiếu niên thường phải chịu đựng những xung đột quan điểm với các thành viên trong gia đình và áp lực từ các nhóm bạn bè. Khi người trẻ đối mặt với khủng hoảng cá nhân mà thiếu vắng sự hỗ trợ tinh thần thỏa đáng hoặc các cơ chế giải tỏa lành mạnh, các em rất dễ rơi vào tình trạng tổn thương cảm xúc nghiêm trọng. Theo thời gian, những va chạm chưa được giải quyết sẽ làm xói mòn sự tự tin và hủy hoại sức khỏe tâm lý.\n\nTóm lại, <strong>căng thẳng ở giới trẻ</strong> chủ yếu xuất phát từ môi trường học thuật đòi hỏi cao, sự cạnh tranh nghề nghiệp gay gắt và các trở ngại trong quan hệ cá nhân. Việc nhận diện những nguyên nhân gốc rễ này là điều tối quan trọng để thiết kế các biện pháp can thiệp sức khỏe tinh thần đúng trọng tâm. Suy cho cùng, sự nỗ lực chung tay từ các nhà giáo dục, phụ huynh và tổ chức cộng đồng là vô cùng thiết yếu để tạo dựng một môi trường nâng đỡ giúp thế hệ trẻ phát triển vững vàng."
         }
       },
       {
