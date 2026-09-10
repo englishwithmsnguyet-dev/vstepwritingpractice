@@ -28128,7 +28128,7 @@ const ESSAY_DATA = [
         "id": 39,
         "title_en": "Popularity of online shopping",
         "title_vi": "Sự phổ biến của mua sắm trực tuyến",
-        "tags": "",
+        "tags": "[Causes / Reasons]",
         "context": "Online shopping has become increasingly popular in many countries in recent years. Thanks to the development of e-commerce platforms, mobile applications, and digital payment systems, consumers can purchase a wide variety of products and services without visiting physical stores. This trend has changed the way people shop and has become an important part of modern life.",
         "prompt": "Write an essay to an educated reader to discuss the reasons for the popularity of online shopping. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
         "has_full_details": true,
