@@ -1349,10 +1349,38 @@ function normalizeTextForMatching(str) {
     .trim();
 }
 
+function matchWordsInSequence(phraseWords, sentenceWords, maxGap = 2) {
+  if (!phraseWords || phraseWords.length === 0) return false;
+  if (!sentenceWords || sentenceWords.length === 0) return false;
+  
+  let pIdx = 0;
+  let lastSIdx = -1;
+  for (let sIdx = 0; sIdx < sentenceWords.length; sIdx++) {
+    if (sentenceWords[sIdx] === phraseWords[pIdx]) {
+      if (pIdx === 0 || (sIdx - lastSIdx - 1) <= maxGap) {
+        pIdx++;
+        lastSIdx = sIdx;
+        if (pIdx === phraseWords.length) {
+          return true;
+        }
+      } else {
+        pIdx = 0;
+        if (sentenceWords[sIdx] === phraseWords[0]) {
+          pIdx = 1;
+          lastSIdx = sIdx;
+        }
+      }
+    }
+  }
+  return false;
+}
+
 function filterCollocationsForSentence(sentenceVi, sentenceEn, collocations) {
   if (!collocations || collocations.length === 0) return [];
   const normVi = ' ' + normalizeTextForMatching(sentenceVi) + ' ';
   const normEn = ' ' + normalizeTextForMatching(sentenceEn) + ' ';
+  const sWordsVi = normalizeTextForMatching(sentenceVi).split(' ').filter(Boolean);
+  const sWordsEn = normalizeTextForMatching(sentenceEn).split(' ').filter(Boolean);
 
   const matched = collocations.filter(col => {
     const colEn = normalizeTextForMatching(col.en);
@@ -1362,20 +1390,16 @@ function filterCollocationsForSentence(sentenceVi, sentenceEn, collocations) {
     if (colVi && normVi.includes(colVi)) return true;
     if (colEn && normEn.includes(colEn)) return true;
 
-    // 2. Multi-word phrase matching with filler words (e.g. "meet travel needs" vs "meet their travel needs")
+    // 2. In-sequence phrase matching allowing up to 2 filler words between keywords
     const enWords = colEn.split(' ').filter(w => w.length > 2 && !['and', 'the', 'for', 'with', 'that', 'this', 'are', 'can', 'may', 'has', 'have', 'from', 'also', 'their', 'some', 'sb', 'sth'].includes(w));
     const viWords = colVi.split(' ').filter(w => w.length > 1 && !['và', 'các', 'những', 'của', 'trong', 'được', 'cho', 'có', 'là', 'nhiều', 'thể', 'cũng', 'một', 'số'].includes(w));
 
-    // Must match ALL significant words in English
-    if (enWords.length >= 2) {
-      const matchEn = enWords.filter(w => normEn.includes(' ' + w + ' ') || normEn.includes(w)).length;
-      if (matchEn === enWords.length) return true;
+    if (enWords.length >= 2 && matchWordsInSequence(enWords, sWordsEn, 2)) {
+      return true;
     }
 
-    // Must match ALL significant words in Vietnamese
-    if (viWords.length >= 2) {
-      const matchVi = viWords.filter(w => normVi.includes(' ' + w + ' ') || normVi.includes(w)).length;
-      if (matchVi === viWords.length) return true;
+    if (viWords.length >= 2 && matchWordsInSequence(viWords, sWordsVi, 2)) {
+      return true;
     }
 
     return false;
