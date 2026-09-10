@@ -28548,7 +28548,886 @@ const ESSAY_DATA = [
         "tags": "[Effects & Solutions]",
         "context": "Computer games have become one of the most popular forms of entertainment among children. Many children spend a significant amount of their free time playing games on computers, smartphones, tablets, and gaming consoles. While computer games can provide enjoyment and certain educational benefits, excessive gaming has raised concerns about its influence on children's behavior and development.",
         "prompt": "Write an essay to an educated reader to discuss the effects of computer games on children’s behavior and suggest possible solutions to this problem. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "has_full_details": true,
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "EFFECT 01",
+                "point_vi": "Trẻ em có thể trở nên ít kiên nhẫn và dễ tức giận hơn.",
+                "point_en": "First, children can become less patient and easily get angry.",
+                "evidence_vi": "Việc thường xuyên chơi các trò chơi có tính cạnh tranh cao có thể khiến trẻ quen với việc thắng và thua nhanh, vì vậy các em có thể dễ nổi giận hoặc mất bình tĩnh khi gặp khó khăn trong cuộc sống thực.",
+                "evidence_en": "Playing competitive games often makes children get used to winning and losing quickly, so they easily lose their temper when facing difficulties in real life.",
+                "collocations": [
+                  {
+                    "en": "become less patient",
+                    "vi": "trở nên ít kiên nhẫn hơn"
+                  },
+                  {
+                    "en": "easily get angry",
+                    "vi": "dễ nổi giận"
+                  },
+                  {
+                    "en": "play competitive games",
+                    "vi": "chơi các trò chơi có tính cạnh tranh"
+                  },
+                  {
+                    "en": "lose their temper",
+                    "vi": "mất bình tĩnh, nổi nóng"
+                  },
+                  {
+                    "en": "facing difficulties in real life",
+                    "vi": "đối mặt với khó khăn trong đời thực"
+                  }
+                ]
+              },
+              {
+                "title": "EFFECT 02",
+                "point_vi": "Trẻ em có thể trở nên ít giao tiếp với người khác.",
+                "point_en": "Second, children may communicate less with other people.",
+                "evidence_vi": "Khi dành quá nhiều thời gian chơi game, trẻ có ít thời gian trò chuyện và tham gia các hoạt động với gia đình hoặc bạn bè, từ đó có thể làm giảm kỹ năng giao tiếp.",
+                "evidence_en": "When children spend too much time on computer games, they have less time to talk with family or friends, and this can hurt their communication skills.",
+                "collocations": [
+                  {
+                    "en": "communicate less with other people",
+                    "vi": "ít giao tiếp với người khác"
+                  },
+                  {
+                    "en": "spend too much time on computer games",
+                    "vi": "dành quá nhiều thời gian chơi game"
+                  },
+                  {
+                    "en": "talk with family or friends",
+                    "vi": "trò chuyện với gia đình hoặc bạn bè"
+                  },
+                  {
+                    "en": "hurt their communication skills",
+                    "vi": "làm giảm kỹ năng giao tiếp"
+                  }
+                ]
+              },
+              {
+                "title": "EFFECT 03",
+                "point_vi": "Trẻ em có thể trở nên thiếu trách nhiệm với việc học tập và các hoạt động hằng ngày.",
+                "point_en": "Finally, children may neglect their studies and daily tasks.",
+                "evidence_vi": "Một số trẻ có thể dành quá nhiều thời gian cho game và bỏ bê bài tập, việc nhà hoặc các hoạt động khác, khiến kết quả học tập và cuộc sống hằng ngày bị ảnh hưởng.",
+                "evidence_en": "Some children spend hours playing games and ignore their homework or chores, so their school results and daily life suffer.",
+                "collocations": [
+                  {
+                    "en": "neglect their studies and daily tasks",
+                    "vi": "bỏ bê việc học và công việc hằng ngày"
+                  },
+                  {
+                    "en": "ignore their homework or chores",
+                    "vi": "bỏ qua bài tập về nhà hoặc việc nhà"
+                  },
+                  {
+                    "en": "school results and daily life suffer",
+                    "vi": "kết quả học tập và cuộc sống hằng ngày bị ảnh hưởng"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "SOLUTION 01",
+                "point_vi": "Hạn chế thời gian chơi game của trẻ.",
+                "point_en": "First, parents should limit children's daily gaming time.",
+                "evidence_vi": "Cha mẹ nên đặt giới hạn thời gian chơi game mỗi ngày và yêu cầu trẻ hoàn thành bài tập hoặc công việc cần thiết trước khi chơi.",
+                "evidence_en": "Parents can set a time limit each day and ask children to finish their homework before they can play.",
+                "collocations": [
+                  {
+                    "en": "limit daily gaming time",
+                    "vi": "hạn chế thời gian chơi game hằng ngày"
+                  },
+                  {
+                    "en": "set a time limit each day",
+                    "vi": "đặt giới hạn thời gian mỗi ngày"
+                  },
+                  {
+                    "en": "finish their homework before they can play",
+                    "vi": "hoàn thành bài tập trước khi được chơi"
+                  }
+                ]
+              },
+              {
+                "title": "SOLUTION 02",
+                "point_vi": "Khuyến khích trẻ tham gia các hoạt động ngoài trời.",
+                "point_en": "Second, adults should encourage children to take part in outdoor activities.",
+                "evidence_vi": "Cha mẹ và nhà trường có thể khuyến khích trẻ chơi thể thao, tham gia các hoạt động nhóm hoặc dành thời gian với bạn bè để phát triển kỹ năng giao tiếp và các kỹ năng xã hội.",
+                "evidence_en": "Parents and schools can encourage kids to play sports, join club activities, or spend time with friends to improve social skills.",
+                "collocations": [
+                  {
+                    "en": "take part in outdoor activities",
+                    "vi": "tham gia các hoạt động ngoài trời"
+                  },
+                  {
+                    "en": "play sports, join club activities",
+                    "vi": "chơi thể thao, tham gia hoạt động câu lạc bộ"
+                  },
+                  {
+                    "en": "spend time with friends",
+                    "vi": "dành thời gian với bạn bè"
+                  },
+                  {
+                    "en": "improve social skills",
+                    "vi": "cải thiện các kỹ năng xã hội"
+                  }
+                ]
+              },
+              {
+                "title": "SOLUTION 03",
+                "point_vi": "Nâng cao nhận thức của trẻ về việc sử dụng game hợp lý.",
+                "point_en": "Finally, it is important to raise children's awareness about healthy gaming habits.",
+                "evidence_vi": "Cha mẹ và giáo viên nên giải thích cho trẻ về những tác động tiêu cực của việc chơi game quá nhiều và hướng dẫn các em cân bằng thời gian chơi game với học tập và các hoạt động khác.",
+                "evidence_en": "Parents and teachers should explain the bad effects of playing too much and guide children to balance gaming with studying.",
+                "collocations": [
+                  {
+                    "en": "raise children's awareness",
+                    "vi": "nâng cao nhận thức của trẻ em"
+                  },
+                  {
+                    "en": "healthy gaming habits",
+                    "vi": "thói quen chơi game lành mạnh"
+                  },
+                  {
+                    "en": "explain the bad effects",
+                    "vi": "giải thích những tác hại"
+                  },
+                  {
+                    "en": "balance gaming with studying",
+                    "vi": "cân bằng giữa chơi game và học tập"
+                  }
+                ]
+              }
+            ]
+          },
+          "ideas_b2": {
+            "benefits": [
+              {
+                "title": "EFFECT 01",
+                "point_vi": "Chơi game quá mức khiến trẻ dễ cáu gắt và suy giảm tính kiên nhẫn.",
+                "point_en": "First and foremost, excessive gaming can diminish children's patience and increase irritability.",
+                "evidence_vi": "Việc liên tục tiếp xúc với các trò chơi cạnh tranh nhịp độ cao tạo thói quen mong muốn kết quả tức thì, khiến thanh thiếu niên dễ bộc phát cảm xúc tiêu cực và mất bình tĩnh trước những thử thách ngoài đời thực.",
+                "evidence_en": "Regular exposure to fast-paced competitive games conditions youngsters to instant outcomes, making them prone to frustration and emotional outbursts when encountering real-world challenges.",
+                "collocations": [
+                  {
+                    "en": "diminish children's patience",
+                    "vi": "làm suy giảm tính kiên nhẫn của trẻ"
+                  },
+                  {
+                    "en": "increase irritability",
+                    "vi": "gia tăng sự cáu kỉnh"
+                  },
+                  {
+                    "en": "fast-paced competitive games",
+                    "vi": "các trò chơi cạnh tranh nhịp độ nhanh"
+                  },
+                  {
+                    "en": "condition youngsters to instant outcomes",
+                    "vi": "tạo cho trẻ thói quen mong đợi kết quả tức thì"
+                  },
+                  {
+                    "en": "prone to frustration and emotional outbursts",
+                    "vi": "dễ nản lòng và bộc phát cảm xúc giận dữ"
+                  }
+                ]
+              },
+              {
+                "title": "EFFECT 02",
+                "point_vi": "Thời lượng chơi game kéo dài dẫn đến sự thu mình khỏi xã hội và suy giảm năng lực giao tiếp.",
+                "point_en": "Furthermore, prolonged gaming sessions often lead to social withdrawal and impaired interpersonal communication.",
+                "evidence_vi": "Khi trẻ em đắm chìm hàng giờ trong thế giới ảo, các em bỏ lỡ những cơ hội tương tác trực tiếp ngoài đời thực, điều này dần làm xói mòn sự thấu cảm và các kỹ năng giao tiếp xã hội thiết yếu.",
+                "evidence_en": "When children immerse themselves in virtual environments for hours, they miss valuable opportunities to engage in face-to-face interactions, which gradually undermines their social competence and empathy.",
+                "collocations": [
+                  {
+                    "en": "lead to social withdrawal",
+                    "vi": "dẫn đến sự thu mình khỏi xã hội"
+                  },
+                  {
+                    "en": "impaired interpersonal communication",
+                    "vi": "giao tiếp giữa các cá nhân bị suy giảm"
+                  },
+                  {
+                    "en": "immerse themselves in virtual environments",
+                    "vi": "đắm chìm trong các môi trường ảo"
+                  },
+                  {
+                    "en": "engage in face-to-face interactions",
+                    "vi": "tham gia vào các tương tác trực tiếp"
+                  },
+                  {
+                    "en": "undermines their social competence",
+                    "vi": "làm xói mòn năng lực xã hội của các em"
+                  }
+                ]
+              },
+              {
+                "title": "EFFECT 03",
+                "point_vi": "Chứng nghiện game thường khiến học sinh chểnh mảng việc học và trốn tránh các trách nhiệm thường nhật.",
+                "point_en": "Lastly, gaming addiction frequently causes children to neglect academic commitments and routine responsibilities.",
+                "evidence_vi": "Việc chơi game vô độ chiếm dụng quỹ thời gian hữu ích, khiến học sinh trì hoãn làm bài tập và công việc gia đình, từ đó làm tổn hại nghiêm trọng đến thành tích học tập và sự phát triển toàn diện.",
+                "evidence_en": "Excessive gaming occupies hours of productive time, causing pupils to postpone assignments and household obligations, which severely compromises their academic achievements and overall growth.",
+                "collocations": [
+                  {
+                    "en": "gaming addiction",
+                    "vi": "chứng nghiện trò chơi điện tử"
+                  },
+                  {
+                    "en": "neglect academic commitments",
+                    "vi": "bỏ bê các cam kết học tập"
+                  },
+                  {
+                    "en": "routine responsibilities",
+                    "vi": "những trách nhiệm thường nhật"
+                  },
+                  {
+                    "en": "postpone assignments and household obligations",
+                    "vi": "trì hoãn bài tập và bổn phận gia đình"
+                  },
+                  {
+                    "en": "severely compromises academic achievements",
+                    "vi": "làm tổn hại nghiêm trọng thành tích học tập"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "SOLUTION 01",
+                "point_vi": "Thiết lập các giới hạn nghiêm ngặt về thời gian sử dụng thiết bị chơi game.",
+                "point_en": "The most direct remedy is for parents to establish strict boundaries on screen time.",
+                "evidence_vi": "Phụ huynh nên quy định thời lượng chơi game cố định mỗi ngày và yêu cầu tất cả nhiệm vụ học tập cũng như bổn phận cá nhân phải được hoàn tất trước khi chơi.",
+                "evidence_en": "Caregivers should restrict gaming duration to fixed daily limits and mandate that all academic assignments and personal responsibilities be completed beforehand.",
+                "collocations": [
+                  {
+                    "en": "establish strict boundaries on screen time",
+                    "vi": "thiết lập giới hạn nghiêm ngặt về thời gian sử dụng màn hình"
+                  },
+                  {
+                    "en": "restrict gaming duration",
+                    "vi": "hạn chế thời lượng chơi game"
+                  },
+                  {
+                    "en": "fixed daily limits",
+                    "vi": "các giới hạn cố định hằng ngày"
+                  },
+                  {
+                    "en": "mandate that assignments be completed beforehand",
+                    "vi": "yêu cầu bài tập phải được hoàn thành trước đó"
+                  }
+                ]
+              },
+              {
+                "title": "SOLUTION 02",
+                "point_vi": "Thúc đẩy sự tham gia tích cực vào các hoạt động thể thao ngoài trời và câu lạc bộ cộng đồng.",
+                "point_en": "Another viable approach is to promote regular participation in outdoor pursuits and physical exercise.",
+                "evidence_vi": "Gia đình và nhà trường cần tạo động lực cho thanh thiếu niên tham gia thể thao đồng đội và các hoạt động tình nguyện, qua đó nuôi dưỡng tinh thần đồng đội và nâng cao năng lực xã hội.",
+                "evidence_en": "Families and educational institutions ought to motivate youngsters to participate in team sports and community clubs, thereby cultivating essential interpersonal skills and fostering collaborative teamwork.",
+                "collocations": [
+                  {
+                    "en": "promote regular participation in outdoor pursuits",
+                    "vi": "thúc đẩy tham gia thường xuyên vào các hoạt động ngoài trời"
+                  },
+                  {
+                    "en": "participate in team sports",
+                    "vi": "tham gia vào các môn thể thao đồng đội"
+                  },
+                  {
+                    "en": "cultivating essential interpersonal skills",
+                    "vi": "trau dồi các kỹ năng giao tiếp thiết yếu"
+                  },
+                  {
+                    "en": "fostering collaborative teamwork",
+                    "vi": "nuôi dưỡng tinh thần làm việc nhóm gắn kết"
+                  }
+                ]
+              },
+              {
+                "title": "SOLUTION 03",
+                "point_vi": "Nâng cao nhận thức của học sinh về việc sử dụng thiết bị số có trách nhiệm.",
+                "point_en": "Lastly, educators and parents must raise young people's consciousness regarding responsible digital consumption.",
+                "evidence_vi": "Bằng cách phân tích thẳng thắn về các tác hại tâm lý của chứng nghiện game và định hướng kỹ năng quản lý thời gian, người lớn có thể giúp trẻ đạt được sự cân bằng hài hòa giữa giải trí và học thuật.",
+                "evidence_en": "By openly discussing the psychological hazards of gaming addiction and mentoring children on time management, adults can help youngsters strike a healthy balance between digital recreation and intellectual pursuits.",
+                "collocations": [
+                  {
+                    "en": "responsible digital consumption",
+                    "vi": "tiêu dùng nội dung số có trách nhiệm"
+                  },
+                  {
+                    "en": "psychological hazards of gaming addiction",
+                    "vi": "những nguy cơ tâm lý của chứng nghiện game"
+                  },
+                  {
+                    "en": "mentoring children on time management",
+                    "vi": "định hướng cho trẻ về kỹ năng quản lý thời gian"
+                  },
+                  {
+                    "en": "strike a healthy balance",
+                    "vi": "đạt được sự cân bằng lành mạnh"
+                  }
+                ]
+              }
+            ]
+          },
+          "vocab": [
+            {
+              "en": "become less patient",
+              "vi": "trở nên ít kiên nhẫn hơn"
+            },
+            {
+              "en": "easily get angry",
+              "vi": "dễ nổi giận"
+            },
+            {
+              "en": "competitive computer games",
+              "vi": "trò chơi máy tính có tính cạnh tranh"
+            },
+            {
+              "en": "lose their temper",
+              "vi": "mất bình tĩnh, nổi nóng"
+            },
+            {
+              "en": "communicate less with others",
+              "vi": "ít giao tiếp với người khác"
+            },
+            {
+              "en": "talk with family or friends",
+              "vi": "trò chuyện với gia đình hoặc bạn bè"
+            },
+            {
+              "en": "hurt communication skills",
+              "vi": "làm giảm kỹ năng giao tiếp"
+            },
+            {
+              "en": "neglect studies and chores",
+              "vi": "bỏ bê việc học và việc nhà"
+            },
+            {
+              "en": "school results suffer",
+              "vi": "kết quả học tập bị ảnh hưởng xấu"
+            },
+            {
+              "en": "limit daily gaming time",
+              "vi": "hạn chế thời gian chơi game hằng ngày"
+            },
+            {
+              "en": "set a time limit each day",
+              "vi": "đặt ra giới hạn thời gian mỗi ngày"
+            },
+            {
+              "en": "finish homework before playing",
+              "vi": "hoàn thành bài tập trước khi chơi"
+            },
+            {
+              "en": "outdoor activities and sports",
+              "vi": "các hoạt động ngoài trời và thể thao"
+            },
+            {
+              "en": "improve social skills",
+              "vi": "cải thiện các kỹ năng xã hội"
+            },
+            {
+              "en": "healthy gaming habits",
+              "vi": "thói quen chơi game lành mạnh"
+            },
+            {
+              "en": "balance gaming with studying",
+              "vi": "cân bằng giữa chơi game và học tập"
+            }
+          ],
+          "sample_b1": "In modern life, <strong>computer games</strong> have become extremely popular among young children. Many kids spend hours every day in front of screens, which raises serious concerns about their development. <strong>This essay will discuss three negative effects of computer games on children's behavior and suggest three practical solutions to solve this problem.</strong>\n\n<strong>To begin with, excessive gaming can lead to three serious behavioral problems.</strong> First of all, <strong><em>children can become less patient and easily get angry.</em></strong> Playing competitive games often makes children get used to winning and losing quickly, so they easily lose their temper when facing difficulties in real life. In addition, <strong><em>children may communicate less with other people.</em></strong> When children spend too much time on computer games, they have less time to talk with family or friends, and this can hurt their communication skills. Finally, <strong><em>children may neglect their studies and daily tasks.</em></strong> Some children spend hours playing games and ignore their homework or chores, so their school results and daily life suffer.\n\n<strong>To address these negative effects, parents and teachers should take immediate action.</strong> The first solution is that <strong><em>parents should limit children's daily gaming time.</em></strong> Parents can set a time limit each day and ask children to finish their homework before they can play. Second, <strong><em>adults should encourage children to take part in outdoor activities.</em></strong> Parents and schools can encourage kids to play sports, join club activities, or spend time with friends to improve social skills. Lastly, <strong><em>it is important to raise children's awareness about healthy gaming habits.</em></strong> Parents and teachers should explain the bad effects of playing too much and guide children to balance gaming with studying.\n\nIn conclusion, playing too many computer games can make children impatient, less sociable, and irresponsible. By setting clear time limits, promoting outdoor sports, and educating young minds, we can help children develop healthy habits and grow up happily.",
+          "translation_b1": "Trong đời sống hiện đại, <strong>trò chơi điện tử</strong> đã trở nên vô cùng phổ biến đối với trẻ nhỏ. Nhiều đứa trẻ dành hàng giờ mỗi ngày trước màn hình, điều này làm dấy lên những mối lo ngại sâu sắc về sự phát triển của các em. <strong>Bài luận này sẽ thảo luận về ba tác động tiêu cực của trò chơi điện tử đối với hành vi của trẻ em và đề xuất ba giải pháp thực tế để giải quyết vấn đề này.</strong>\n\n<strong>Trước hết, việc chơi game quá độ có thể dẫn đến ba vấn đề nghiêm trọng về hành vi.</strong> Đầu tiên, <strong><em>trẻ em có thể trở nên ít kiên nhẫn và dễ tức giận hơn.</em></strong> Việc thường xuyên chơi các trò chơi có tính cạnh tranh cao có thể khiến trẻ quen với việc thắng và thua nhanh, vì vậy các em có thể dễ nổi giận hoặc mất bình tĩnh khi gặp khó khăn trong cuộc sống thực. Thêm vào đó, <strong><em>trẻ em có thể trở nên ít giao tiếp với người khác.</em></strong> Khi dành quá nhiều thời gian chơi game, trẻ có ít thời gian trò chuyện và tham gia các hoạt động với gia đình hoặc bạn bè, từ đó có thể làm giảm kỹ năng giao tiếp. Cuối cùng, <strong><em>trẻ em có thể trở nên thiếu trách nhiệm với việc học tập và các hoạt động hằng ngày.</em></strong> Một số trẻ có thể dành quá nhiều thời gian cho game và bỏ bê bài tập, việc nhà hoặc các hoạt động khác, khiến kết quả học tập và cuộc sống hằng ngày bị ảnh hưởng.\n\n<strong>Để giải quyết những tác động tiêu cực này, phụ huynh và giáo viên cần hành động ngay lập tức.</strong> Giải pháp đầu tiên là <strong><em>hạn chế thời gian chơi game của trẻ.</em></strong> Cha mẹ nên đặt giới hạn thời gian chơi game mỗi ngày và yêu cầu trẻ hoàn thành bài tập hoặc công việc cần thiết trước khi chơi. Thứ hai, <strong><em>khuyến khích trẻ tham gia các hoạt động ngoài trời.</em></strong> Cha mẹ và nhà trường có thể khuyến khích trẻ chơi thể thao, tham gia các hoạt động nhóm hoặc dành thời gian với bạn bè để phát triển kỹ năng giao tiếp và các kỹ năng xã hội. Cuối cùng, <strong><em>nâng cao nhận thức của trẻ về việc sử dụng game hợp lý.</em></strong> Cha mẹ và giáo viên nên giải thích cho trẻ về những tác động tiêu cực của việc chơi game quá nhiều và hướng dẫn các em cân bằng thời gian chơi game với học tập và các hoạt động khác.\n\nTóm lại, chơi game máy tính quá nhiều có thể khiến trẻ em mất kiên nhẫn, ít hòa đồng và thiếu trách nhiệm. Bằng cách đặt ra giới hạn thời gian rõ ràng, khuyến khích các môn thể thao ngoài trời và giáo dục thế hệ trẻ, chúng ta có thể giúp trẻ xây dựng những thói quen lành mạnh và trưởng thành một cách hạnh phúc.",
+          "sample_b2": "In contemporary society, the pervasive popularity of <strong>computer games</strong> among young demographics has sparked intense debate among educators, psychologists, and parents. While interactive digital entertainment can foster cognitive agility, unrestrained gaming habits often exert profound adverse effects on children's behavioral patterns. <strong>This essay will critically analyze the detrimental behavioral impacts of excessive video gaming on children and propose multidimensional interventions to mitigate this issue.</strong>\n\n<strong>On the one hand, unregulated gaming patterns undermine child development in three noticeable ways.</strong> First and foremost, <strong><em>excessive gaming can diminish children's patience and increase irritability.</em></strong> Regular exposure to fast-paced competitive games conditions youngsters to instant outcomes, making them prone to frustration and emotional outbursts when encountering real-world challenges. Furthermore, <strong><em>prolonged gaming sessions often lead to social withdrawal and impaired interpersonal communication.</em></strong> When children immerse themselves in virtual environments for hours, they miss valuable opportunities to engage in face-to-face interactions, which gradually undermines their social competence and empathy. Lastly, <strong><em>gaming addiction frequently causes children to neglect academic commitments and routine responsibilities.</em></strong> Excessive gaming occupies hours of productive time, causing pupils to postpone assignments and household obligations, which severely compromises their academic achievements and overall growth.\n\n<strong>On the other hand, mitigating this behavioral dilemma necessitates coordinated efforts from families, academic institutions, and society.</strong> The most direct remedy is for <strong><em>parents to establish strict boundaries on screen time.</em></strong> Caregivers should restrict gaming duration to fixed daily limits and mandate that all academic assignments and personal responsibilities be completed beforehand. In addition, <strong><em>another viable approach is to promote regular participation in outdoor pursuits and physical exercise.</em></strong> Families and educational institutions ought to motivate youngsters to participate in team sports and community clubs, thereby cultivating essential interpersonal skills and fostering collaborative teamwork. Ultimately, <strong><em>educators and parents must raise young people's consciousness regarding responsible digital consumption.</em></strong> By openly discussing the psychological hazards of gaming addiction and mentoring children on time management, adults can help youngsters strike a healthy balance between digital recreation and intellectual pursuits.\n\nIn conclusion, unchecked video gaming poses tangible risks to emotional stability, sociability, and academic discipline among children. However, by enforcing clear domestic boundaries, encouraging extracurricular activities, and providing proactive mentorship, stakeholders can safeguard adolescent well-being in an increasingly digitalized era.",
+          "translation_b2": "Trong xã hội đương đại, sự phổ biến rộng khắp của <strong>trò chơi điện tử</strong> trong giới trẻ đã làm dấy lên những cuộc tranh luận sôi nổi giữa các nhà giáo dục, nhà tâm lý học và các bậc phụ huynh. Mặc dù giải trí kỹ thuật số tương tác có thể thúc đẩy sự nhanh nhạy về mặt nhận thức, nhưng thói quen chơi game không được kiểm soát thường gây ra những tác động tiêu cực sâu sắc đến các khuôn mẫu hành vi của trẻ. <strong>Bài luận này sẽ phân tích sâu sắc các tác động bất lợi của việc chơi game quá mức đến hành vi của trẻ em và đề xuất các giải pháp đa chiều nhằm giảm thiểu vấn đề này.</strong>\n\n<strong>Một mặt, lối chơi game không được kiểm soát làm suy giảm sự phát triển của trẻ trên ba phương diện rõ rệt.</strong> Trước hết và quan trọng nhất, <strong><em>chơi game quá mức khiến trẻ dễ cáu gắt và suy giảm tính kiên nhẫn.</em></strong> Việc liên tục tiếp xúc với các trò chơi cạnh tranh nhịp độ cao tạo thói quen mong muốn kết quả tức thì, khiến thanh thiếu niên dễ bộc phát cảm xúc tiêu cực và mất bình tĩnh trước những thử thách ngoài đời thực. Hơn nữa, <strong><em>thời lượng chơi game kéo dài dẫn đến sự thu mình khỏi xã hội và suy giảm năng lực giao tiếp.</em></strong> Khi trẻ em đắm chìm hàng giờ trong thế giới ảo, các em bỏ lỡ những cơ hội tương tác trực tiếp ngoài đời thực, điều này dần làm xói mòn sự thấu cảm và các kỹ năng giao tiếp xã hội thiết yếu. Cuối cùng, <strong><em>chứng nghiện game thường khiến học sinh chểnh mảng việc học và trốn tránh các trách nhiệm thường nhật.</em></strong> Việc chơi game vô độ chiếm dụng quỹ thời gian hữu ích, khiến học sinh trì hoãn làm bài tập và công việc gia đình, từ đó làm tổn hại nghiêm trọng đến thành tích học tập và sự phát triển toàn diện.\n\n<strong>Mặt khác, việc giảm thiểu vấn đề hành vi này đòi hỏi những nỗ lực phối hợp nhịp nhàng từ gia đình, nhà trường và xã hội.</strong> Biện pháp trực tiếp nhất là <strong><em>cha mẹ phải thiết lập các giới hạn nghiêm ngặt về thời gian sử dụng thiết bị chơi game.</em></strong> Phụ huynh nên quy định thời lượng chơi game cố định mỗi ngày và yêu cầu tất cả nhiệm vụ học tập cũng như bổn phận cá nhân phải được hoàn tất trước khi chơi. Ngoài ra, <strong><em>thúc đẩy sự tham gia tích cực vào các hoạt động thể thao ngoài trời và câu lạc bộ cộng đồng là một giải pháp khả thi.</em></strong> Gia đình và nhà trường cần tạo động lực cho thanh thiếu niên tham gia thể thao đồng đội và các hoạt động tình nguyện, qua đó nuôi dưỡng tinh thần đồng đội và nâng cao năng lực xã hội. Cuối cùng, <strong><em>các nhà giáo dục và phụ huynh phải nâng cao nhận thức của học sinh về việc sử dụng thiết bị số có trách nhiệm.</em></strong> Bằng cách phân tích thẳng thắn về các tác hại tâm lý của chứng nghiện game và định hướng kỹ năng quản lý thời gian, người lớn có thể giúp trẻ đạt được sự cân bằng hài hòa giữa giải trí và học thuật.\n\nTóm lại, việc chơi trò chơi điện tử không kiểm soát đặt ra những rủi ro rõ ràng đối với sự ổn định cảm xúc, tính hòa đồng và kỷ luật học tập ở trẻ em. Tuy nhiên, thông qua việc thực thi các giới hạn gia đình rõ ràng, khuyến khích các hoạt động ngoại khóa và cung cấp sự định hướng chủ động, các bên liên quan có thể bảo vệ sức khỏe toàn diện của thanh thiếu niên trong thời đại số hóa ngày nay.",
+          "vocab_step": {
+            "theme": "Trò chơi điện tử và hành vi của trẻ em (Computer Games & Children's Behaviour)",
+            "single_words": [
+              {
+                "word": "patient",
+                "ipa": "/ˈpeɪʃnt/",
+                "pos": "adj",
+                "level": "B1",
+                "vi": "kiên nhẫn",
+                "family": "patience (n), impatient (adj)",
+                "example_en": "Playing fast games often makes children less patient in daily life.",
+                "example_vi": "Chơi các trò chơi nhanh thường khiến trẻ em kém kiên nhẫn hơn trong cuộc sống hằng ngày."
+              },
+              {
+                "word": "temper",
+                "ipa": "/ˈtempə/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "sự bình tĩnh, tính khí",
+                "family": "lose one's temper (phr)",
+                "example_en": "Some children easily lose their temper when they face a hard challenge.",
+                "example_vi": "Một số đứa trẻ dễ mất bình tĩnh khi đối mặt với thử thách khó khăn."
+              },
+              {
+                "word": "communicate",
+                "ipa": "/kəˈmjuːnɪkeɪt/",
+                "pos": "verb",
+                "level": "B1",
+                "vi": "giao tiếp, trò chuyện",
+                "family": "communication (n), communicative (adj)",
+                "example_en": "Teenagers should communicate more with their parents and classmates.",
+                "example_vi": "Thiếu niên nên giao tiếp nhiều hơn với cha mẹ và bạn học."
+              },
+              {
+                "word": "neglect",
+                "ipa": "/nɪˈɡlekt/",
+                "pos": "verb",
+                "level": "B1",
+                "vi": "bỏ bê, lơ là",
+                "family": "neglectful (adj), negligence (n)",
+                "example_en": "Students who play games all night often neglect their schoolwork.",
+                "example_vi": "Những học sinh chơi game thâu đêm thường bỏ bê việc học ở trường."
+              },
+              {
+                "word": "chore",
+                "ipa": "/tʃɔː/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "việc nhà, việc vặt",
+                "family": "daily chores (phr)",
+                "example_en": "Children should finish their chores before turning on the computer.",
+                "example_vi": "Trẻ em nên hoàn thành việc nhà trước khi bật máy tính."
+              },
+              {
+                "word": "limit",
+                "ipa": "/ˈlɪmɪt/",
+                "pos": "verb",
+                "level": "B1",
+                "vi": "giới hạn, hạn chế",
+                "family": "limit (n), limitation (n), limited (adj)",
+                "example_en": "Parents must limit screen time to protect children's eyes and health.",
+                "example_vi": "Cha mẹ phải hạn chế thời gian dùng màn hình để bảo vệ mắt và sức khỏe của trẻ."
+              },
+              {
+                "word": "encourage",
+                "ipa": "/ɪnˈkʌrɪdʒ/",
+                "pos": "verb",
+                "level": "B1",
+                "vi": "khuyến khích, động viên",
+                "family": "encouragement (n), encouraging (adj)",
+                "example_en": "Teachers always encourage students to play active sports outdoors.",
+                "example_vi": "Thầy cô luôn khuyến khích học sinh tham gia các môn thể thao năng động ngoài trời."
+              },
+              {
+                "word": "outdoor",
+                "ipa": "/ˈaʊtdɔː/",
+                "pos": "adj",
+                "level": "B1",
+                "vi": "ngoài trời",
+                "family": "outdoors (adv)",
+                "example_en": "Outdoor games help children make new friends and stay active.",
+                "example_vi": "Các trò chơi ngoài trời giúp trẻ kết thêm bạn mới và luôn năng động."
+              },
+              {
+                "word": "balance",
+                "ipa": "/ˈbæləns/",
+                "pos": "verb",
+                "level": "B1",
+                "vi": "cân bằng",
+                "family": "balance (n), balanced (adj)",
+                "example_en": "Young people need to balance playing games with study time.",
+                "example_vi": "Người trẻ cần phải cân bằng giữa việc chơi game và thời gian học tập."
+              },
+              {
+                "word": "habit",
+                "ipa": "/ˈhæbɪt/",
+                "pos": "noun",
+                "level": "B1",
+                "vi": "thói quen",
+                "family": "habitual (adj)",
+                "example_en": "Developing healthy daily habits is crucial for growing kids.",
+                "example_vi": "Xây dựng thói quen hằng ngày lành mạnh là điều tối quan trọng đối với trẻ đang lớn."
+              },
+              {
+                "word": "harmful",
+                "ipa": "/ˈhɑːmfl/",
+                "pos": "adj",
+                "level": "B1",
+                "vi": "có hại",
+                "family": "harm (v/n), harmless (adj)",
+                "example_en": "Playing video games for hours without resting is harmful to mental health.",
+                "example_vi": "Chơi trò chơi điện tử nhiều giờ không nghỉ ngơi rất có hại cho sức khỏe tâm thần."
+              },
+              {
+                "word": "competitive",
+                "ipa": "/kəmˈpetətɪv/",
+                "pos": "adj",
+                "level": "B1",
+                "vi": "có tính cạnh tranh",
+                "family": "compete (v), competition (n)",
+                "example_en": "Many modern online games are extremely competitive.",
+                "example_vi": "Nhiều trò chơi trực tuyến hiện đại có tính cạnh tranh cực kỳ gay gắt."
+              },
+              {
+                "word": "irritability",
+                "ipa": "/ˌɪrɪtəˈbɪləti/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự cáu kỉnh, dễ nổi giận",
+                "family": "irritable (adj), irritate (v)",
+                "example_en": "Frequent gaming triggers chronic irritability and restlessness among teenagers.",
+                "example_vi": "Chơi game thường xuyên kích hoạt sự cáu kỉnh và bồn chồn mãn tính ở thanh thiếu niên."
+              },
+              {
+                "word": "gratification",
+                "ipa": "/ˌɡrætɪfɪˈkeɪʃn/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự thỏa mãn, sự hài lòng",
+                "family": "gratify (v), instant gratification (phr)",
+                "example_en": "Video games foster a craving for instant gratification over long-term effort.",
+                "example_vi": "Trò chơi điện tử nuôi dưỡng sự thèm muốn thỏa mãn tức thì thay vì nỗ lực dài hạn."
+              },
+              {
+                "word": "withdrawal",
+                "ipa": "/wɪðˈdrɔːəl/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự thu mình, xa lánh xã hội",
+                "family": "withdraw (v)",
+                "example_en": "Social withdrawal prevents youngsters from developing empathy and teamwork skills.",
+                "example_vi": "Sự thu mình khỏi xã hội cản trở thanh thiếu niên phát triển lòng thấu cảm và kỹ năng làm việc nhóm."
+              },
+              {
+                "word": "interpersonal",
+                "ipa": "/ˌɪntəˈpɜːsənl/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "giữa các cá nhân",
+                "family": "interpersonal skills (phr)",
+                "example_en": "Isolated gamers often lack the interpersonal skills required in real-life relationships.",
+                "example_vi": "Những người chơi game cô lập thường thiếu các kỹ năng tương tác cần thiết trong các mối quan hệ đời thực."
+              },
+              {
+                "word": "competence",
+                "ipa": "/ˈkɒmpɪtəns/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "năng lực, khả năng thành thạo",
+                "family": "competent (adj)",
+                "example_en": "Face-to-face dialogue significantly improves adolescents' social competence.",
+                "example_vi": "Đối thoại trực tiếp cải thiện đáng kể năng lực xã hội của thanh thiếu niên."
+              },
+              {
+                "word": "compromise",
+                "ipa": "/ˈkɒmprəmaɪz/",
+                "pos": "verb",
+                "level": "B2",
+                "vi": "làm tổn hại, làm suy yếu",
+                "family": "compromised (adj)",
+                "example_en": "Excessive digital entertainment can compromise a pupil's academic progress.",
+                "example_vi": "Giải trí kỹ thuật số quá mức có thể làm tổn hại đến sự tiến bộ học tập của học sinh."
+              },
+              {
+                "word": "addiction",
+                "ipa": "/əˈdɪkʃn/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "chứng nghiện",
+                "family": "addict (n), addictive (adj)",
+                "example_en": "Gaming addiction causes severe behavioral disruptions if left unmonitored.",
+                "example_vi": "Chứng nghiện game gây ra những xáo trộn hành vi nghiêm trọng nếu không được kiểm soát."
+              },
+              {
+                "word": "boundary",
+                "ipa": "/ˈbaʊndri/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "ranh giới, giới hạn kỷ luật",
+                "family": "boundaries (pl.n)",
+                "example_en": "Parents must set explicit boundaries regarding acceptable recreational screen time.",
+                "example_vi": "Cha mẹ phải thiết lập các ranh giới rõ ràng về thời gian giải trí qua màn hình có thể chấp nhận được."
+              },
+              {
+                "word": "mandate",
+                "ipa": "/ˈmændeɪt/",
+                "pos": "verb",
+                "level": "B2",
+                "vi": "yêu cầu bắt buộc, chỉ thị",
+                "family": "mandatory (adj)",
+                "example_en": "Schools should mandate that students engage in regular extracurricular sports.",
+                "example_vi": "Nhà trường nên yêu cầu bắt buộc học sinh tham gia các hoạt động thể thao ngoại khóa thường xuyên."
+              },
+              {
+                "word": "pursuit",
+                "ipa": "/pəˈsjuːt/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "hoạt động theo đuổi, niềm đam mê",
+                "family": "pursue (v)",
+                "example_en": "Participating in outdoor pursuits strengthens physical endurance and mental clarity.",
+                "example_vi": "Tham gia vào các hoạt động ngoài trời củng cố sức bền thể chất và sự minh mẫn tinh thần."
+              },
+              {
+                "word": "recreation",
+                "ipa": "/ˌrekriˈeɪʃn/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự giải trí, tiêu khiển",
+                "family": "recreational (adj)",
+                "example_en": "Video gaming should serve as a moderate recreation rather than a primary lifestyle.",
+                "example_vi": "Chơi game chỉ nên đóng vai trò là một sự giải trí vừa phải thay vì một lối sống chủ đạo."
+              },
+              {
+                "word": "mentor",
+                "ipa": "/ˈmentɔː/",
+                "pos": "verb",
+                "level": "B2",
+                "vi": "định hướng, chỉ dẫn tận tình",
+                "family": "mentorship (n)",
+                "example_en": "Caregivers need to mentor adolescents toward responsible digital device usage.",
+                "example_vi": "Người chăm sóc cần định hướng cho các thanh thiếu niên hướng tới việc sử dụng thiết bị số có trách nhiệm."
+              }
+            ],
+            "collocation_groups": [
+              {
+                "id": "effects",
+                "name": "Nhóm Collocations: Tác động & Hậu quả (Effects)",
+                "icon": "🎮",
+                "badge": "Phần Thân bài 1",
+                "items": [
+                  {
+                    "en": "become less patient and easily get angry",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "trở nên ít kiên nhẫn và dễ nổi giận",
+                    "example": "Children can become less patient and easily get angry when playing games."
+                  },
+                  {
+                    "en": "play fast competitive games",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "chơi các trò chơi cạnh tranh tốc độ nhanh",
+                    "example": "Many boys love to play fast competitive games with online partners."
+                  },
+                  {
+                    "en": "lose their temper easily",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "dễ dàng mất bình tĩnh, nổi cáu",
+                    "example": "Frustrated players often lose their temper easily during difficult matches."
+                  },
+                  {
+                    "en": "face difficulties in real life",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "đối mặt với khó khăn trong cuộc sống thực",
+                    "example": "Youngsters struggle when they face difficulties in real life."
+                  },
+                  {
+                    "en": "communicate less with other people",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "ít giao tiếp với người khác",
+                    "example": "Gamers tend to communicate less with other people around them."
+                  },
+                  {
+                    "en": "talk with family or friends",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "trò chuyện với gia đình hoặc bạn bè",
+                    "example": "Kids have fewer chances to talk with family or friends every evening."
+                  },
+                  {
+                    "en": "hurt their communication skills",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "làm suy giảm kỹ năng giao tiếp",
+                    "example": "Staying in bedrooms playing games can hurt their communication skills."
+                  },
+                  {
+                    "en": "neglect their studies and daily tasks",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "bỏ bê việc học và các công việc hằng ngày",
+                    "example": "Addicted gamers often neglect their studies and daily tasks completely."
+                  },
+                  {
+                    "en": "diminish children's patience and increase irritability",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "làm suy giảm tính kiên nhẫn và gia tăng sự cáu kỉnh",
+                    "example": "High screen exposure can diminish children's patience and increase irritability."
+                  },
+                  {
+                    "en": "condition youngsters to instant outcomes",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "khiến trẻ quen với kết quả tức thì",
+                    "example": "Competitive games condition youngsters to instant outcomes and rapid rewards."
+                  },
+                  {
+                    "en": "prone to frustration and emotional outbursts",
+                    "type": "adj.phr",
+                    "level": "B2",
+                    "vi": "dễ bực bội và bộc phát cảm xúc giận dữ",
+                    "example": "Players become prone to frustration and emotional outbursts over minor setbacks."
+                  },
+                  {
+                    "en": "lead to social withdrawal",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "dẫn đến sự thu mình khỏi đời sống xã hội",
+                    "example": "Excessive virtual gaming frequently leads to social withdrawal and loneliness."
+                  },
+                  {
+                    "en": "impaired interpersonal communication",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "vi": "khả năng giao tiếp giữa các cá nhân bị suy giảm",
+                    "example": "A sedentary gaming habit results in impaired interpersonal communication."
+                  },
+                  {
+                    "en": "engage in face-to-face interactions",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "tham gia vào các tương tác trực tiếp",
+                    "example": "Youngsters lack willingness to engage in face-to-face interactions."
+                  },
+                  {
+                    "en": "undermines their social competence",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "làm xói mòn năng lực giao tiếp xã hội",
+                    "example": "Constant isolation undermines their social competence and emotional maturity."
+                  },
+                  {
+                    "en": "severely compromises academic achievements",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "làm tổn hại nghiêm trọng thành tích học tập",
+                    "example": "Chronic gaming severely compromises academic achievements in high schools."
+                  }
+                ]
+              },
+              {
+                "id": "solutions",
+                "name": "Nhóm Collocations: Giải pháp & Hành động (Solutions)",
+                "icon": "🛡️",
+                "badge": "Phần Thân bài 2",
+                "items": [
+                  {
+                    "en": "limit daily gaming time",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "hạn chế thời gian chơi game hằng ngày",
+                    "example": "Parents must strictly limit daily gaming time to one hour."
+                  },
+                  {
+                    "en": "set a time limit each day",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "đặt ra giới hạn thời gian mỗi ngày",
+                    "example": "It is useful to set a time limit each day for using smartphones."
+                  },
+                  {
+                    "en": "finish homework before playing",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "hoàn thành bài tập về nhà trước khi chơi",
+                    "example": "Children must finish homework before playing any video games."
+                  },
+                  {
+                    "en": "take part in outdoor activities",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "tham gia các hoạt động ngoài trời",
+                    "example": "Kids should take part in outdoor activities on weekend mornings."
+                  },
+                  {
+                    "en": "play sports and join club activities",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "chơi thể thao và tham gia hoạt động câu lạc bộ",
+                    "example": "Pupils can play sports and join club activities to stay healthy."
+                  },
+                  {
+                    "en": "improve their social skills",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "cải thiện các kỹ năng xã hội của mình",
+                    "example": "Group sports help children improve their social skills rapidly."
+                  },
+                  {
+                    "en": "raise awareness about healthy gaming habits",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "nâng cao nhận thức về thói quen chơi game lành mạnh",
+                    "example": "Schools should raise awareness about healthy gaming habits regularly."
+                  },
+                  {
+                    "en": "balance gaming with studying",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "vi": "cân bằng việc chơi game với học tập",
+                    "example": "Every child needs to learn how to balance gaming with studying."
+                  },
+                  {
+                    "en": "establish strict boundaries on screen time",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "thiết lập giới hạn nghiêm ngặt về thời gian màn hình",
+                    "example": "Parents must establish strict boundaries on screen time at home."
+                  },
+                  {
+                    "en": "restrict gaming duration",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "hạn chế thời lượng chơi game",
+                    "example": "Parental control software helps restrict gaming duration effectively."
+                  },
+                  {
+                    "en": "mandate homework completion beforehand",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "yêu cầu bắt buộc hoàn thành bài tập trước đó",
+                    "example": "Caregivers should mandate homework completion beforehand as a firm rule."
+                  },
+                  {
+                    "en": "promote regular participation in outdoor pursuits",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "thúc đẩy tham gia thường xuyên các hoạt động ngoài trời",
+                    "example": "Educators should promote regular participation in outdoor pursuits."
+                  },
+                  {
+                    "en": "cultivating essential interpersonal skills",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "trau dồi các kỹ năng tương tác thiết yếu",
+                    "example": "Team sports are instrumental in cultivating essential interpersonal skills."
+                  },
+                  {
+                    "en": "responsible digital consumption",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "vi": "việc tiêu thụ nội dung số có trách nhiệm",
+                    "example": "Schools need to introduce workshops on responsible digital consumption."
+                  },
+                  {
+                    "en": "mentoring children on time management",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "định hướng cho trẻ về kỹ năng quản lý thời gian",
+                    "example": "Mentoring children on time management reduces gaming dependency."
+                  },
+                  {
+                    "en": "strike a healthy balance",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "đạt được sự cân bằng lành mạnh",
+                    "example": "Students learn to strike a healthy balance between leisure and learning."
+                  }
+                ]
+              }
+            ]
+          }
+        }
       },
       {
         "id": 45,
