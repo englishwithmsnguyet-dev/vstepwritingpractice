@@ -1314,10 +1314,19 @@ function renderStepVocab() {
     </div>
   ` : '';
   
+  let safeThemeTitle = '';
+  if (typeof vData.theme === 'string' && vData.theme.trim()) {
+    safeThemeTitle = vData.theme;
+  } else if (Array.isArray(vData.theme) && vData.theme.length > 0) {
+    safeThemeTitle = (topic.title_vi || topic.title_en || 'Từ vựng chủ đề') + ' (Topic Vocabulary)';
+  } else {
+    safeThemeTitle = (topic.title_vi || topic.title_en || 'Từ vựng chủ đề') + ' (Topic Vocabulary)';
+  }
+
   container.innerHTML = `
     <div class="vocab-hero-banner">
       <span class="vocab-hero-badge">PHÒNG LUYỆN VIẾT VSTEP • BƯỚC 02: NẠP TỪ VỰNG THEO CẤP ĐỘ</span>
-      <h2>${vData.theme}</h2>
+      <h2>${safeThemeTitle}</h2>
       ${vData.overview ? `<p>${vData.overview}</p>` : ''}
     </div>
     

@@ -33648,48 +33648,7 @@ const ESSAY_DATA = [
               "sample_b2": "In recent years, <strong>the practice of working from home</strong> has become a prominent trend in many parts of the world. This phenomenon has created several notable impacts on family dynamics, particularly between parents and their children. <strong>This essay will examine both the positive and negative effects of telecommuting on parent–child relationships.</strong>\n\n<strong>On the one hand, telecommuting can bring several significant positive effects.</strong> First, <strong><em>parents can support their children's academic progress more effectively.</em></strong> Because parents are readily accessible at home, they can assist with complex schoolwork and identify learning obstacles promptly. Second, <strong><em>home-based working provides parents with deeper insights into their children's daily routines and behavior.</em></strong> Regular observation allows adults to understand their children's habits and offer empathetic guidance. Finally, <strong><em>children develop a stronger sense of security and emotional support.</em></strong> Having parents constantly present reassures young people, encouraging them to discuss personal challenges openly.\n\n<strong>On the other hand, remote working can also lead to several negative consequences.</strong> First, <strong><em>telecommuting may inadvertently diminish direct parental attention.</em></strong> When parents are absorbed in demanding digital tasks and video conferences, they often struggle to interact attentively with their children. Second, <strong><em>blurred boundaries between professional obligations and domestic life frequently confuse young children.</em></strong> Youngsters often fail to understand work hours, resulting in untimely disruptions and mutual frustration. Finally, <strong><em>balancing tight job deadlines with household responsibilities can substantially elevate parental stress.</em></strong> Chronic fatigue erodes parents' patience, which often leads to irritability and strained family interactions.\n\nIn conclusion, <strong>working from home leads to several significant effects on parent–child relationships, both positive and negative.</strong> These impacts can enhance educational support and emotional bonding, but they can also create boundary confusion and parental fatigue. Therefore, parents must establish clear schedules to balance professional responsibilities and family life effectively.",
               "translation_b2": "Trong những năm gần đây, <strong>việc làm việc tại nhà</strong> đã trở thành một xu hướng nổi bật ở nhiều nơi trên thế giới. Hiện tượng này đã tạo ra một số tác động đáng chú ý đến đời sống gia đình, đặc biệt là giữa cha mẹ và con cái. <strong>Bài luận này sẽ xem xét cả những tác động tích cực và tiêu cực của việc làm việc từ xa đối với mối quan hệ giữa cha mẹ và con cái.</strong>\n\n<strong>Một mặt, làm việc từ xa có thể mang lại một số ảnh hưởng tích cực đáng kể.</strong> Thứ nhất, <strong><em>cha mẹ có thể hỗ trợ sự tiến bộ học tập của con hiệu quả hơn.</em></strong> Vì cha mẹ luôn dễ tiếp cận tại nhà, họ có thể hỗ trợ các bài học phức tạp và kịp thời phát hiện những trở ngại trong việc học. Thứ hai, <strong><em>làm việc tại nhà mang lại cho cha mẹ những hiểu biết sâu sắc hơn về nề nếp và hành vi hằng ngày của con.</em></strong> Sự quan sát thường xuyên cho phép người lớn hiểu thói quen của con và đưa ra sự định hướng đầy thấu cảm. Cuối cùng, <strong><em>trẻ phát triển cảm giác an toàn và nhận được sự nâng đỡ tinh thần mạnh mẽ hơn.</em></strong> Việc cha mẹ hiện diện thường xuyên giúp trẻ yên lòng, khuyến khích các em thảo luận cởi mở về những thử thách cá nhân.\n\n<strong>Mặt khác, làm việc từ xa cũng có thể dẫn đến một số hậu quả tiêu cực.</strong> Thứ nhất, <strong><em>làm việc từ xa có thể vô tình làm suy giảm sự chú ý trực tiếp của cha mẹ.</em></strong> Khi cha mẹ bị cuốn vào các nhiệm vụ kỹ thuật số đòi hỏi cao và các cuộc họp qua video, họ thường gặp khó khăn trong việc tương tác một cách chú tâm với con cái. Thứ hai, <strong><em>ranh giới bị xóa nhòa giữa nghĩa vụ nghề nghiệp và đời sống gia đình thường khiến trẻ nhỏ bối rối.</em></strong> Trẻ thường không hiểu về giờ làm việc, dẫn đến những sự ngắt quãng không đúng lúc và sự bực bội lẫn nhau. Cuối cùng, <strong><em>việc cân bằng giữa hạn chót công việc căng thẳng với trách nhiệm gia đình có thể làm gia tăng đáng kể áp lực cho cha mẹ.</em></strong> Sự mệt mỏi kinh niên làm xói mòn lòng kiên nhẫn của cha mẹ, điều này thường dẫn đến sự cáu gắt và các tương tác gia đình căng thẳng.\n\nTóm lại, <strong>làm việc tại nhà dẫn đến một số ảnh hưởng đáng kể đối với mối quan hệ giữa cha mẹ và con cái, cả tích cực lẫn tiêu cực.</strong> Những tác động này có thể nâng cao sự hỗ trợ giáo dục và gắn kết tình cảm, nhưng chúng cũng có thể gây nhầm lẫn về ranh giới và tạo ra sự mệt mỏi cho phụ huynh. Vì vậy, các bậc cha mẹ cần thiết lập thời gian biểu rõ ràng để cân bằng hiệu quả giữa nghĩa vụ công việc và đời sống gia đình.",
               "vocab_step": {
-                "theme": [
-                  {
-                    "phrase": "working from home",
-                    "vi": "làm việc tại nhà"
-                  },
-                  {
-                    "phrase": "parent-child relationship",
-                    "vi": "mối quan hệ giữa cha mẹ và con cái"
-                  },
-                  {
-                    "phrase": "academic support",
-                    "vi": "hỗ trợ học tập"
-                  },
-                  {
-                    "phrase": "daily habits and behavior",
-                    "vi": "thói quen và hành vi hằng ngày"
-                  },
-                  {
-                    "phrase": "emotional security",
-                    "vi": "cảm giác an toàn về mặt cảm xúc"
-                  },
-                  {
-                    "phrase": "virtual meetings",
-                    "vi": "các cuộc họp trực tuyến"
-                  },
-                  {
-                    "phrase": "blur the boundary",
-                    "vi": "xóa nhòa ranh giới"
-                  },
-                  {
-                    "phrase": "parental stress",
-                    "vi": "áp lực của cha mẹ"
-                  },
-                  {
-                    "phrase": "household chores",
-                    "vi": "việc nhà"
-                  },
-                  {
-                    "phrase": "family dynamics",
-                    "vi": "đời sống / sự tương tác trong gia đình"
-                  }
-                ],
+                "theme": "Làm việc tại nhà và tác động đa chiều đến gia đình (WFH - Balanced Effects)",
                 "single_words": [
                   {
                     "word": "support",
@@ -33830,6 +33789,48 @@ const ESSAY_DATA = [
                     "family": "strain (n/v)",
                     "example_en": "Exhaustion leads to strained communication.",
                     "example_vi": "Sự kiệt sức dẫn đến giao tiếp căng thẳng."
+                  }
+                ],
+                "theme_phrases": [
+                  {
+                    "phrase": "working from home",
+                    "vi": "làm việc tại nhà"
+                  },
+                  {
+                    "phrase": "parent-child relationship",
+                    "vi": "mối quan hệ giữa cha mẹ và con cái"
+                  },
+                  {
+                    "phrase": "academic support",
+                    "vi": "hỗ trợ học tập"
+                  },
+                  {
+                    "phrase": "daily habits and behavior",
+                    "vi": "thói quen và hành vi hằng ngày"
+                  },
+                  {
+                    "phrase": "emotional security",
+                    "vi": "cảm giác an toàn về mặt cảm xúc"
+                  },
+                  {
+                    "phrase": "virtual meetings",
+                    "vi": "các cuộc họp trực tuyến"
+                  },
+                  {
+                    "phrase": "blur the boundary",
+                    "vi": "xóa nhòa ranh giới"
+                  },
+                  {
+                    "phrase": "parental stress",
+                    "vi": "áp lực của cha mẹ"
+                  },
+                  {
+                    "phrase": "household chores",
+                    "vi": "việc nhà"
+                  },
+                  {
+                    "phrase": "family dynamics",
+                    "vi": "đời sống / sự tương tác trong gia đình"
                   }
                 ]
               },
