@@ -785,6 +785,30 @@ function switchTopicApproach(index) {
   if (chosen.tags) currentTopic.tags = chosen.tags;
   if (chosen.paraphrases) currentTopic.paraphrases = chosen.paraphrases;
   
+  // Update left pane flashcards if present
+  const vocabList = document.getElementById('ws-vocab-list');
+  if (vocabList && currentTopic.details && currentTopic.details.vocab && currentTopic.details.vocab.length > 0) {
+    vocabList.innerHTML = '';
+    currentTopic.details.vocab.forEach(v => {
+      const card = document.createElement('div');
+      card.className = 'flashcard-wrapper';
+      card.onclick = () => card.classList.toggle('flipped');
+      card.innerHTML = `
+        <div class="flashcard">
+          <div class="flashcard-front">
+            <span class="vocab-word">${v.en}</span>
+            <span class="vocab-type">Collocation</span>
+          </div>
+          <div class="flashcard-back">
+            <span class="vocab-translation">${v.vi}</span>
+            <span class="vocab-hint">Chạm để đóng</span>
+          </div>
+        </div>
+      `;
+      vocabList.appendChild(card);
+    });
+  }
+
   // Re-render UI components
   renderWorkspaceApproachSwitcher();
   renderWorkspaceStepHeader();
@@ -795,7 +819,11 @@ function switchTopicApproach(index) {
   renderTranslationExercises();
   renderOutline();
   renderVietnameseOutline();
-  renderModelEssay();
+  renderStep4ModelEssay();
+}
+
+function renderModelEssay() {
+  renderStep4ModelEssay();
 }
 
 // --- WORKSPACE PRACTICE WORKFLOW CONTROLS ---
@@ -808,44 +836,46 @@ function renderWorkspaceStepHeader() {
   const container = document.getElementById('workspace-step-header-tabs');
   if (!container) return;
   
+  const activeKey = currentStepKey || 'read';
+
   if (hasVocabStep()) {
     container.innerHTML = `
-      <div class="step-tab active" id="ws-tab-read" onclick="switchStep('read')">
+      <div class="step-tab ${activeKey === 'read' ? 'active' : ''}" id="ws-tab-read" onclick="switchStep('read')">
         <span class="step-num">1</span>
         <span class="step-label">BƯỚC 01: ĐỌC HIỂU ĐỀ</span>
       </div>
-      <div class="step-tab" id="ws-tab-vocab" onclick="switchStep('vocab')">
+      <div class="step-tab ${activeKey === 'vocab' ? 'active' : ''}" id="ws-tab-vocab" onclick="switchStep('vocab')">
         <span class="step-num">2</span>
         <span class="step-label">BƯỚC 02: NẠP TỪ VỰNG</span>
       </div>
-      <div class="step-tab" id="ws-tab-trans" onclick="switchStep('trans')">
+      <div class="step-tab ${activeKey === 'trans' ? 'active' : ''}" id="ws-tab-trans" onclick="switchStep('trans')">
         <span class="step-num">3</span>
         <span class="step-label">BƯỚC 03: TẬP DIỄN ĐẠT QUAN ĐIỂM</span>
       </div>
-      <div class="step-tab" id="ws-tab-write" onclick="switchStep('write')">
+      <div class="step-tab ${activeKey === 'write' ? 'active' : ''}" id="ws-tab-write" onclick="switchStep('write')">
         <span class="step-num">4</span>
         <span class="step-label">BƯỚC 04: VIẾT BÀI LUẬN</span>
       </div>
-      <div class="step-tab" id="ws-tab-model" onclick="switchStep('model')">
+      <div class="step-tab ${activeKey === 'model' ? 'active' : ''}" id="ws-tab-model" onclick="switchStep('model')">
         <span class="step-num">5</span>
         <span class="step-label">BƯỚC 05: THAM KHẢO BÀI LUẬN MẪU</span>
       </div>
     `;
   } else {
     container.innerHTML = `
-      <div class="step-tab active" id="ws-tab-read" onclick="switchStep('read')">
+      <div class="step-tab ${activeKey === 'read' ? 'active' : ''}" id="ws-tab-read" onclick="switchStep('read')">
         <span class="step-num">1</span>
         <span class="step-label">BƯỚC 01: ĐỌC HIỂU ĐỀ</span>
       </div>
-      <div class="step-tab" id="ws-tab-trans" onclick="switchStep('trans')">
+      <div class="step-tab ${activeKey === 'trans' ? 'active' : ''}" id="ws-tab-trans" onclick="switchStep('trans')">
         <span class="step-num">2</span>
         <span class="step-label">BƯỚC 02: TẬP DIỄN ĐẠT QUAN ĐIỂM</span>
       </div>
-      <div class="step-tab" id="ws-tab-write" onclick="switchStep('write')">
+      <div class="step-tab ${activeKey === 'write' ? 'active' : ''}" id="ws-tab-write" onclick="switchStep('write')">
         <span class="step-num">3</span>
         <span class="step-label">BƯỚC 03: VIẾT BÀI LUẬN</span>
       </div>
-      <div class="step-tab" id="ws-tab-model" onclick="switchStep('model')">
+      <div class="step-tab ${activeKey === 'model' ? 'active' : ''}" id="ws-tab-model" onclick="switchStep('model')">
         <span class="step-num">4</span>
         <span class="step-label">BƯỚC 04: THAM KHẢO BÀI LUẬN MẪU</span>
       </div>
