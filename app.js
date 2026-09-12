@@ -1488,8 +1488,32 @@ function buildTranslationExercises(topic, transLevel, category) {
   const isCausesSolutions = category.id === 2;
   const isOpinion = category.id === 3;
   const isDiscussion = category.id === 4;
-  const benefitLabel = isCausesSolutions ? "Nguyên nhân" : (isOpinion ? "Lý do" : (isDiscussion ? "Quan điểm 1" : "Lợi ích"));
-  const drawbackLabel = isCausesSolutions ? "Giải pháp" : (isOpinion ? "Lý do" : (isDiscussion ? "Quan điểm 2" : "Bất lợi"));
+  let benefitLabel = isCausesSolutions ? "Nguyên nhân" : (isOpinion ? "Lý do" : (isDiscussion ? "Quan điểm 1" : "Lợi ích"));
+  let drawbackLabel = isCausesSolutions ? "Giải pháp" : (isOpinion ? "Lý do" : (isDiscussion ? "Quan điểm 2" : "Bất lợi"));
+  if (isCausesSolutions) {
+    const tags = (topic.tags || '').toLowerCase();
+    if (tags.includes('effect') || tags.includes('impact')) {
+      if (tags.includes('cause')) {
+        benefitLabel = "Nguyên nhân";
+        drawbackLabel = "Ảnh hưởng";
+      } else if (tags.includes('solution') || tags.includes('measure')) {
+        benefitLabel = "Ảnh hưởng";
+        drawbackLabel = "Giải pháp";
+      } else if (tags.includes('positive')) {
+        benefitLabel = "Ảnh hưởng tích cực";
+        drawbackLabel = "Ảnh hưởng tiêu cực";
+      } else {
+        benefitLabel = "Ảnh hưởng";
+        drawbackLabel = "Ảnh hưởng";
+      }
+    } else if (tags.includes('solution') || tags.includes('measure')) {
+      benefitLabel = "Giải pháp";
+      drawbackLabel = "Giải pháp";
+    } else if (tags.includes('problem')) {
+      benefitLabel = "Vấn đề";
+      drawbackLabel = "Giải pháp";
+    }
+  }
   
   const group1Items = ideasObj.benefits || ideasObj.causes || ideasObj.reasons || ideasObj.views || ideasObj.factors;
   const group2Items = ideasObj.drawbacks || ideasObj.effects || ideasObj.solutions || ideasObj.problems || ideasObj.measures;
@@ -3455,8 +3479,32 @@ function renderOutline() {
   const isCausesSolutions = currentCategory.id === 2;
   const isOpinion = currentCategory.id === 3;
   const isDiscussion = currentCategory.id === 4;
-  const benefitLabel = isCausesSolutions ? "CAUSES (NGUYÊN NHÂN)" : (isOpinion ? "REASONS (LÝ DO)" : (isDiscussion ? "VIEW 01 (QUAN ĐIỂM 1)" : "ADVANTAGES (LỢI ÍCH)"));
-  const drawbackLabel = isCausesSolutions ? "SOLUTIONS (GIẢI PHÁP)" : (isOpinion ? "REASONS (LÝ DO)" : (isDiscussion ? "VIEW 02 (QUAN ĐIỂM 2)" : "DISADVANTAGES (BẤT LỢI)"));
+  let benefitLabel = isCausesSolutions ? "CAUSES (NGUYÊN NHÂN)" : (isOpinion ? "REASONS (LÝ DO)" : (isDiscussion ? "VIEW 01 (QUAN ĐIỂM 1)" : "ADVANTAGES (LỢI ÍCH)"));
+  let drawbackLabel = isCausesSolutions ? "SOLUTIONS (GIẢI PHÁP)" : (isOpinion ? "REASONS (LÝ DO)" : (isDiscussion ? "VIEW 02 (QUAN ĐIỂM 2)" : "DISADVANTAGES (BẤT LỢI)"));
+  if (isCausesSolutions && currentTopic) {
+    const tags = (currentTopic.tags || '').toLowerCase();
+    if (tags.includes('effect') || tags.includes('impact')) {
+      if (tags.includes('cause')) {
+        benefitLabel = "CAUSES (NGUYÊN NHÂN)";
+        drawbackLabel = "EFFECTS (ẢNH HƯỞNG)";
+      } else if (tags.includes('solution') || tags.includes('measure')) {
+        benefitLabel = "EFFECTS (ẢNH HƯỞNG)";
+        drawbackLabel = "SOLUTIONS (GIẢI PHÁP)";
+      } else if (tags.includes('positive')) {
+        benefitLabel = "POSITIVE EFFECTS (ẢNH HƯỞNG TÍCH CỰC)";
+        drawbackLabel = "NEGATIVE EFFECTS (ẢNH HƯỞNG TIÊU CỰC)";
+      } else {
+        benefitLabel = "EFFECTS (ẢNH HƯỞNG)";
+        drawbackLabel = "EFFECTS (ẢNH HƯỞNG)";
+      }
+    } else if (tags.includes('solution') || tags.includes('measure')) {
+      benefitLabel = "SOLUTIONS (GIẢI PHÁP)";
+      drawbackLabel = "SOLUTIONS (GIẢI PHÁP)";
+    } else if (tags.includes('problem')) {
+      benefitLabel = "PROBLEMS (VẤN ĐỀ)";
+      drawbackLabel = "SOLUTIONS (GIẢI PHÁP)";
+    }
+  }
   
   const group1Items = ideasObj.benefits || ideasObj.causes || ideasObj.reasons || ideasObj.views || ideasObj.factors;
   const group2Items = ideasObj.drawbacks || ideasObj.effects || ideasObj.solutions || ideasObj.problems || ideasObj.measures;
@@ -5867,10 +5915,31 @@ function renderStep1Reading() {
       outlineIntroText = 'Sau đây là những LUẬN ĐIỂM CHÍNH của hai quan điểm trái chiều và ý kiến cá nhân:';
     }
     
-    const formatPoint = (p, defaultLabel) => {
+    const formatPoint = (p, defaultLabel, idx) => {
       let label = defaultLabel;
-      if (p.title && p.title.includes(':')) {
-        label = p.title.split(':')[0].trim();
+      if (p.title) {
+        const tUpper = p.title.toUpperCase();
+        if (tUpper.includes('POSITIVE EFFECT') || tUpper.startsWith('TÍCH CỰC')) {
+          const num = p.title.match(/\d+/) ? p.title.match(/\d+/)[0] : (typeof idx === 'number' ? String(idx + 1).padStart(2, '0') : '');
+          label = num ? `ẢNH HƯỞNG TÍCH CỰC ${num}` : 'ẢNH HƯỞNG TÍCH CỰC';
+        } else if (tUpper.includes('NEGATIVE EFFECT') || tUpper.startsWith('TIÊU CỰC')) {
+          const num = p.title.match(/\d+/) ? p.title.match(/\d+/)[0] : (typeof idx === 'number' ? String(idx + 1).padStart(2, '0') : '');
+          label = num ? `ẢNH HƯỞNG TIÊU CỰC ${num}` : 'ẢNH HƯỞNG TIÊU CỰC';
+        } else if (tUpper.includes('EFFECT') || tUpper.includes('IMPACT') || tUpper.startsWith('HẬU QUẢ') || tUpper.startsWith('ẢNH HƯỞNG')) {
+          const num = p.title.match(/\d+/) ? p.title.match(/\d+/)[0] : (typeof idx === 'number' ? String(idx + 1).padStart(2, '0') : '');
+          label = num ? `ẢNH HƯỞNG ${num}` : 'ẢNH HƯỞNG';
+        } else if (tUpper.includes('SOLUTION') || tUpper.includes('MEASURE') || tUpper.startsWith('GIẢI PHÁP')) {
+          const num = p.title.match(/\d+/) ? p.title.match(/\d+/)[0] : (typeof idx === 'number' ? String(idx + 1).padStart(2, '0') : '');
+          label = num ? `GIẢI PHÁP ${num}` : 'GIẢI PHÁP';
+        } else if (tUpper.includes('CAUSE') || tUpper.includes('FACTOR') || tUpper.includes('REASON') || tUpper.startsWith('NGUYÊN NHÂN')) {
+          const num = p.title.match(/\d+/) ? p.title.match(/\d+/)[0] : (typeof idx === 'number' ? String(idx + 1).padStart(2, '0') : '');
+          label = num ? `NGUYÊN NHÂN ${num}` : 'NGUYÊN NHÂN';
+        } else if (tUpper.includes('PROBLEM') || tUpper.startsWith('VẤN ĐỀ')) {
+          const num = p.title.match(/\d+/) ? p.title.match(/\d+/)[0] : (typeof idx === 'number' ? String(idx + 1).padStart(2, '0') : '');
+          label = num ? `VẤN ĐỀ ${num}` : 'VẤN ĐỀ';
+        } else if (p.title.includes(':')) {
+          label = p.title.split(':')[0].trim();
+        }
       }
       return `<li><strong>${label}:</strong> ${p.point_vi}</li>`;
     };
@@ -5878,9 +5947,48 @@ function renderStep1Reading() {
     let defaultLabel1 = 'LỢI ÍCH';
     let defaultLabel2 = 'BẤT LỢI';
     if (category.id === 2) {
-      const isCausesSolutions = topic.type === 'causes_solutions';
-      defaultLabel1 = isCausesSolutions ? 'NGUYÊN NHÂN' : 'NGUYÊN NHÂN';
-      defaultLabel2 = isCausesSolutions ? 'GIẢI PHÁP' : 'HẬU QUẢ';
+      const tags = (topic.tags || '').toLowerCase();
+      if (tags.includes('effect') || tags.includes('impact')) {
+        if (tags.includes('cause')) {
+          defaultLabel1 = 'NGUYÊN NHÂN';
+          defaultLabel2 = 'ẢNH HƯỞNG';
+        } else if (tags.includes('solution') || tags.includes('measure')) {
+          defaultLabel1 = 'ẢNH HƯỞNG';
+          defaultLabel2 = 'GIẢI PHÁP';
+        } else if (tags.includes('positive')) {
+          defaultLabel1 = 'ẢNH HƯỞNG TÍCH CỰC';
+          defaultLabel2 = 'ẢNH HƯỞNG TIÊU CỰC';
+        } else {
+          defaultLabel1 = 'ẢNH HƯỞNG';
+          defaultLabel2 = 'ẢNH HƯỞNG';
+        }
+      } else if (tags.includes('solution') || tags.includes('measure')) {
+        defaultLabel1 = 'GIẢI PHÁP';
+        defaultLabel2 = 'GIẢI PHÁP';
+      } else if (tags.includes('problem')) {
+        defaultLabel1 = 'VẤN ĐỀ';
+        defaultLabel2 = 'GIẢI PHÁP';
+      } else {
+        defaultLabel1 = 'NGUYÊN NHÂN';
+        defaultLabel2 = 'GIẢI PHÁP';
+      }
+
+      const activeApp = (topic.approaches && typeof currentApproachIndex !== 'undefined' && topic.approaches[currentApproachIndex])
+        ? topic.approaches[currentApproachIndex]
+        : null;
+      if (activeApp && activeApp.name) {
+        const appName = activeApp.name.toUpperCase();
+        if (appName.includes('TÍCH CỰC') && appName.includes('TIÊU CỰC')) {
+          defaultLabel1 = 'ẢNH HƯỞNG TÍCH CỰC';
+          defaultLabel2 = 'ẢNH HƯỞNG TIÊU CỰC';
+        } else if (appName.includes('TÍCH CỰC')) {
+          defaultLabel1 = 'ẢNH HƯỞNG TÍCH CỰC';
+          defaultLabel2 = 'ẢNH HƯỞNG TÍCH CỰC';
+        } else if (appName.includes('TIÊU CỰC')) {
+          defaultLabel1 = 'ẢNH HƯỞNG TIÊU CỰC';
+          defaultLabel2 = 'ẢNH HƯỞNG TIÊU CỰC';
+        }
+      }
     } else if (category.id === 3) {
       defaultLabel1 = 'LÝ DO';
       defaultLabel2 = 'LÝ DO';
@@ -5889,8 +5997,8 @@ function renderStep1Reading() {
       defaultLabel2 = 'QUAN ĐIỂM 2';
     }
 
-    const b1Benefits = (topic.details.ideas_b1.benefits || []).map(b => formatPoint(b, defaultLabel1)).join('');
-    const b1Drawbacks = (topic.details.ideas_b1.drawbacks || []).map(d => formatPoint(d, defaultLabel2)).join('');
+    const b1Benefits = (topic.details.ideas_b1.benefits || []).map((b, idx) => formatPoint(b, defaultLabel1, idx)).join('');
+    const b1Drawbacks = (topic.details.ideas_b1.drawbacks || []).map((d, idx) => formatPoint(d, defaultLabel2, idx)).join('');
     
     outlineSummaryHtml = `
       <ul class="outline-summary-list">
