@@ -160,6 +160,12 @@ function switchScreen(screenName) {
 
 // Switch to a Category browse screen
 function switchCategory(catId) {
+  const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
+  if (userClass === 'CB210' && (catId === 2 || catId === 3 || catId === 4)) {
+    showToast('🔒 Dạng luận này tạm thời chưa mở cho lớp CB210. Lớp hiện tập trung luyện tập Dạng 1 (Lợi ích & Tác hại)!', 'warning');
+    return;
+  }
+
   if (isExamModeActive()) {
     isPromptingUser = true;
     const confirmLeave = confirm("⚠️ BẠN ĐANG TRONG PHÒNG THI VIẾT BÀI LUẬN:\n\nBạn có chắc chắn muốn THOÁT PHÒNG THI để rời đi không?\n(Tiến độ viết bài của bạn sẽ được tự động lưu lại vào Bản nháp)");
@@ -637,6 +643,12 @@ function handleSearch(val) {
 
 // --- Practice Workspace Logic ---
 function startPractice(catId, topicId) {
+  const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
+  if (userClass === 'CB210' && catId !== 1) {
+    showToast('🔒 Đề bài thuộc Dạng luận chưa mở cho lớp CB210. Lớp hiện tập trung luyện tập Dạng 1 (Lợi ích & Tác hại)!', 'warning');
+    return;
+  }
+
   const category = ESSAY_DATA.find(cat => cat.id === catId);
   if (!category) return;
   
@@ -6767,6 +6779,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   if (savedClass && document.getElementById('gateway-class')) {
     document.getElementById('gateway-class').value = savedClass;
+    updateClassAccessUI();
   }
 
   // Anti-cheat: tab switch & window blur detection
@@ -6920,12 +6933,14 @@ function submitGatewayAccess() {
     // Success! Let them in
     document.getElementById('access-gateway').style.display = 'none';
     document.getElementById('app-container').style.display = 'flex';
+    updateClassAccessUI();
     showToast(`Chào mừng ${nameInput} đã đến với lớp học!`, 'success');
   }).catch((error) => {
     console.error('Error submitting access:', error);
     // Even if there's a network error with Google Forms, we still let them in to avoid blocking legitimate students due to temporary connectivity issues.
     document.getElementById('access-gateway').style.display = 'none';
     document.getElementById('app-container').style.display = 'flex';
+    updateClassAccessUI();
     showToast(`Chào mừng ${nameInput} đã đến với lớp học!`, 'success');
   });
 }
@@ -6943,4 +6958,35 @@ function closeMobileSidebar() {
   const overlay = document.getElementById('sidebar-overlay');
   if (sidebar) sidebar.classList.remove('open');
   if (overlay) overlay.classList.remove('active');
+}
+
+// Class-based Feature Restriction Handler
+function updateClassAccessUI() {
+  const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
+  const isCB210 = (userClass === 'CB210');
+  
+  [2, 3, 4].forEach(catId => {
+    const link = document.getElementById(`nav-link-cat-${catId}`);
+    if (!link) return;
+    
+    // Remove existing lock badge if any
+    const existingBadge = link.querySelector('.cat-lock-badge');
+    if (existingBadge) existingBadge.remove();
+    
+    if (isCB210) {
+      link.classList.add('is-locked');
+      link.setAttribute('title', 'Dạng luận này chưa mở cho lớp CB210');
+      const badge = document.createElement('span');
+      badge.className = 'cat-lock-badge';
+      badge.innerHTML = '🔒 Khoá';
+      link.appendChild(badge);
+    } else {
+      link.classList.remove('is-locked');
+      link.removeAttribute('title');
+    }
+  });
+
+  if (isCB210 && currentCategory && (currentCategory.id === 2 || currentCategory.id === 3 || currentCategory.id === 4)) {
+    switchCategory(1);
+  }
 }

@@ -223,6 +223,34 @@ input, textarea, button, select {
   stroke: white;
 }
 
+.nav-link.is-locked {
+  opacity: 0.6;
+  cursor: not-allowed;
+  position: relative;
+  border: 1px dashed rgba(239, 68, 68, 0.35);
+}
+
+.nav-link.is-locked:hover {
+  background-color: rgba(239, 68, 68, 0.08) !important;
+  color: var(--text-muted) !important;
+  padding-left: 1rem !important;
+}
+
+.cat-lock-badge {
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.15rem 0.45rem;
+  border-radius: 999px;
+  background: rgba(239, 68, 68, 0.15);
+  color: #ef4444;
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  margin-left: auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.2rem;
+  white-space: nowrap;
+}
+
 /* User Profile / System settings in sidebar */
 .sidebar-footer {
   margin-top: auto;
