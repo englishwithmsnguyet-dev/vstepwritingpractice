@@ -3208,4 +3208,62 @@ h1, h2, h3, h4, h5, h6,
   gap: 0.75rem;
 }
 
+/* --- Anti-Cheat & Focus Exam Mode --- */
+.cheat-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(11, 15, 25, 0.92);
+  backdrop-filter: blur(10px);
+  z-index: 999999;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+.cheat-modal-content {
+  background: var(--bg-secondary);
+  border: 2px solid #ef4444;
+  box-shadow: 0 0 40px rgba(239, 68, 68, 0.4);
+  border-radius: var(--radius-lg);
+  padding: 2.25rem;
+  max-width: 490px;
+  width: 100%;
+  text-align: center;
+  animation: cheatShake 0.45s ease;
+}
+
+@keyframes cheatShake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-8px); }
+  40%, 80% { transform: translateX(8px); }
+}
+
+.cheat-modal-icon {
+  font-size: 3.5rem;
+  margin-bottom: 0.5rem;
+  line-height: 1;
+}
+
+.cheat-warning-badge {
+  background: rgba(239, 68, 68, 0.12);
+  color: #ef4444;
+  border: 1px solid rgba(239, 68, 68, 0.35);
+  padding: 0.45rem 1rem;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.88rem;
+  display: inline-block;
+  margin-bottom: 1.15rem;
+}
+
+.step-tab.exam-locked {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+
 

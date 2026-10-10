@@ -19,6 +19,26 @@ let isTimerRunning = false;
 // Unsaved Progress State
 let isDirty = false;
 
+// Anti-Cheat & Exam Lock State
+let cheatViolationCount = 0;
+let lastCheatAlertTime = 0;
+let isPromptingUser = false;
+let currentEvaluationData = null;
+
+function isExamModeActive() {
+  return currentScreen === 'workspace' && currentStepKey === 'write' && !hasSubmitted;
+}
+
+function escapeHtml(str) {
+  if (!str) return '';
+  return String(str)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#039;');
+}
+
 // Mock database check
 if (typeof ESSAY_DATA === 'undefined') {
   console.error("ESSAY_DATA is not loaded! Please check if topics_db.js is imported properly.");
@@ -66,10 +86,21 @@ function setTheme(theme) {
 
 // --- Router / Screen switcher ---
 function switchScreen(screenName) {
-  // Hide active workspace editor panels if we leave workspace
-  if (currentScreen === 'workspace' && screenName !== 'workspace') {
+  // Anti-cheat Exam Lock
+  if (isExamModeActive() && screenName !== 'workspace') {
+    isPromptingUser = true;
+    const confirmLeave = confirm("⚠️ BẠN ĐANG TRONG PHÒNG THI VIẾT BÀI LUẬN:\n\nBạn có chắc chắn muốn THOÁT PHÒNG THI để rời đi không?\n(Tiến độ viết bài của bạn sẽ được tự động lưu lại vào Bản nháp)");
+    setTimeout(() => { isPromptingUser = false; }, 500);
+    if (!confirmLeave) return; // cancel navigation
+    saveProgressAction(true);
+    stopTimer();
+    isDirty = false;
+  } else if (currentScreen === 'workspace' && screenName !== 'workspace') {
+    // Hide active workspace editor panels if we leave workspace
     if (isDirty) {
+      isPromptingUser = true;
       const confirmLeave = confirm("Bạn có tiến độ chưa được sao lưu. Nếu thoát bây giờ, các thay đổi sẽ bị mất. Bạn có chắc chắn muốn thoát?");
+      setTimeout(() => { isPromptingUser = false; }, 500);
       if (!confirmLeave) return; // cancel navigation
     }
     stopTimer();
@@ -129,9 +160,19 @@ function switchScreen(screenName) {
 
 // Switch to a Category browse screen
 function switchCategory(catId) {
-  if (currentScreen === 'workspace') {
+  if (isExamModeActive()) {
+    isPromptingUser = true;
+    const confirmLeave = confirm("⚠️ BẠN ĐANG TRONG PHÒNG THI VIẾT BÀI LUẬN:\n\nBạn có chắc chắn muốn THOÁT PHÒNG THI để rời đi không?\n(Tiến độ viết bài của bạn sẽ được tự động lưu lại vào Bản nháp)");
+    setTimeout(() => { isPromptingUser = false; }, 500);
+    if (!confirmLeave) return;
+    saveProgressAction(true);
+    stopTimer();
+    isDirty = false;
+  } else if (currentScreen === 'workspace') {
     if (isDirty) {
+      isPromptingUser = true;
       const confirmLeave = confirm("Bạn có tiến độ chưa được sao lưu. Nếu thoát bây giờ, các thay đổi sẽ bị mất. Bạn có chắc chắn muốn thoát?");
+      setTimeout(() => { isPromptingUser = false; }, 500);
       if (!confirmLeave) return;
     }
     stopTimer();
@@ -722,6 +763,8 @@ function startPractice(catId, topicId) {
   
   // Reset VSTEP evaluation state
   hasSubmitted = false;
+  cheatViolationCount = 0;
+  currentEvaluationData = null;
   document.getElementById('step3-editor-view').style.display = 'flex';
   document.getElementById('step3-evaluation-view').style.display = 'none';
   
@@ -901,10 +944,34 @@ function switchStep(stepTarget) {
     targetKey = stepTarget;
   }
   
+  // Anti-cheat Exam Lock: prevent leaving 'write' step during active exam without explicit exit confirmation
+  if (isExamModeActive() && targetKey !== 'write') {
+    isPromptingUser = true;
+    const confirmLeave = confirm("⚠️ PHÒNG THI ĐANG KHÓA CHẾ ĐỘ TẬP TRUNG:\n\nBạn không thể chuyển tab khi đang làm bài thi viết luận.\nBạn có muốn THOÁT PHÒNG THI hoàn toàn để quay lại xem tài liệu không?\n(Bài viết của bạn sẽ được tự động lưu lại vào Bản nháp)");
+    setTimeout(() => { isPromptingUser = false; }, 500);
+    if (!confirmLeave) return;
+    saveProgressAction(true);
+    stopTimer();
+  }
+
   currentStepKey = targetKey;
   
-  // Update wizard tabs active state
-  document.querySelectorAll('#workspace-step-header-tabs .step-tab').forEach(tab => tab.classList.remove('active'));
+  // Update wizard tabs active & exam-locked state
+  const stepTabs = document.querySelectorAll('#workspace-step-header-tabs .step-tab');
+  stepTabs.forEach(tab => {
+    tab.classList.remove('active');
+    if (targetKey === 'write' && !hasSubmitted) {
+      if (tab.id !== 'ws-tab-write') {
+        tab.classList.add('exam-locked');
+        tab.title = 'Phòng thi đang khóa: bấm để xác nhận thoát hoàn toàn';
+      } else {
+        tab.classList.remove('exam-locked');
+      }
+    } else {
+      tab.classList.remove('exam-locked');
+      tab.title = '';
+    }
+  });
   const activeTab = document.getElementById(`ws-tab-${targetKey}`);
   if (activeTab) activeTab.classList.add('active');
   
@@ -941,7 +1008,7 @@ function switchStep(stepTarget) {
       document.getElementById('step3-evaluation-view').style.display = 'none';
       startTimer();
       document.getElementById('essay-textarea').focus();
-      showToast("📝 Bạn đã chuyển sang viết bài luận. Thời gian làm bài bắt đầu!", "info");
+      showToast("🔒 PHÒNG THI ĐÃ KHÓA: Chế độ tập trung cao độ, không chuyển tab hoặc thoát cửa sổ!", "warning");
     }
   } else if (targetKey === 'model') {
     if (cModel) { cModel.classList.add('active'); cModel.style.display = 'block'; }
@@ -3837,7 +3904,7 @@ function updateTimerDisplay() {
 }
 
 // --- Manual Progress Save System ---
-function saveProgressAction() {
+function saveProgressAction(silent = false) {
   if (!currentCategory || !currentTopic) return;
   
   // 1. Save all Step 2 translation inputs
@@ -3864,7 +3931,9 @@ function saveProgressAction() {
   // Update UI and state
   updateStats();
   isDirty = false;
-  showToast("💾 Đã lưu tiến độ bài làm thành công!", "success");
+  if (!silent) {
+    showToast("💾 Đã lưu tiến độ bài làm thành công!", "success");
+  }
 }
 
 // --- Textarea helper functions ---
@@ -4864,6 +4933,7 @@ function renderStep3Rejection(message) {
 }
 
 function renderStep3VstepEvaluation(data) {
+  currentEvaluationData = data;
   const container = document.getElementById('step3-evaluation-view');
   if (!container) return;
   
@@ -5291,7 +5361,12 @@ function renderStep3VstepEvaluation(data) {
     </div>
     
     <!-- ACTIONS -->
-    <div class="evaluation-actions-row" style="display: flex; gap: 1rem; justify-content: flex-end; margin-bottom: 2rem;">
+    <div class="evaluation-actions-row" style="display: flex; gap: 1rem; justify-content: flex-end; flex-wrap: wrap; margin-bottom: 2rem;">
+      <button class="btn btn-secondary" style="padding: 0.65rem 1.5rem; border-color: var(--accent-primary); color: var(--accent-primary); font-weight: 700;" onclick="downloadStudentEssay('doc')">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width: 16px; height: 16px; margin-right: 0.35rem; display: inline-block; vertical-align: middle;">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
+        </svg>📥 Tải bài viết về máy (.doc)
+      </button>
       <button class="btn btn-secondary" style="padding: 0.65rem 1.5rem;" onclick="rewriteEssay()">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width: 16px; height: 16px; margin-right: 0.35rem; display: inline-block; vertical-align: middle;">
           <path stroke-linecap="round" stroke-linejoin="round" d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L10.582 16.07a4.5 4.5 0 01-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 011.13-1.897l8.932-8.931zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0115.75 21H5.25A2.25 2.25 0 013 18.75V8.25A2.25 2.25 0 015.25 6H10" />
@@ -5316,6 +5391,294 @@ function rewriteEssay() {
   if (textarea) textarea.focus();
   
   showToast("✏️ Bạn có thể tiếp tục chỉnh sửa bài luận để cải thiện điểm số.", "info");
+}
+
+// --- Exit Exam Mode ---
+function exitExamMode() {
+  if (!isExamModeActive()) {
+    switchStep('read');
+    return;
+  }
+  isPromptingUser = true;
+  const confirmExit = confirm("⚠️ BẠN CÓ CHẮC CHẮN MUỐN THOÁT PHÒNG THI?\n\n- Thời gian làm bài sẽ tạm dừng.\n- Bài viết hiện tại sẽ được tự động sao lưu an toàn vào Bản nháp.\n- Bạn sẽ được chuyển về màn hình Đọc hiểu đề bài.");
+  setTimeout(() => { isPromptingUser = false; }, 500);
+  if (!confirmExit) return;
+  
+  saveProgressAction(true); // silent auto-save
+  stopTimer();
+  switchStep('read');
+  showToast("🚪 Bạn đã rời khỏi phòng thi. Bản nháp đã được lưu an toàn.", "info");
+}
+
+// --- Anti-Cheat Alert & Modal System ---
+function handleCheatViolation(reason) {
+  if (!isExamModeActive() || isPromptingUser) return;
+  const now = Date.now();
+  if (now - lastCheatAlertTime < 2500) return; // Debounce alerts
+  lastCheatAlertTime = now;
+  cheatViolationCount++;
+  
+  const modal = document.getElementById('cheat-warning-modal');
+  const countBadge = document.getElementById('cheat-warning-count');
+  const desc = document.getElementById('cheat-warning-desc');
+  
+  if (countBadge) {
+    countBadge.textContent = `CẢNH BÁO VI PHẠM (LẦN ${cheatViolationCount})`;
+  }
+  
+  if (desc) {
+    if (reason === 'paste') {
+      desc.textContent = `Phòng thi KHÔNG CHO PHÉP DÁN (PASTE) nội dung từ bên ngoài. Vui lòng tự gõ bài viết để rèn luyện kỹ năng thực tế!`;
+    } else {
+      desc.textContent = `Hệ thống phát hiện bạn vừa chuyển tab hoặc rời khỏi cửa sổ phòng thi (Vi phạm lần ${cheatViolationCount}). Mọi vi phạm đều được ghi nhận vào kết quả làm bài. Vui lòng tập trung hoàn thành bài viết!`;
+    }
+  }
+  
+  if (modal) {
+    modal.style.display = 'flex';
+  }
+}
+
+function closeCheatWarningModal() {
+  const modal = document.getElementById('cheat-warning-modal');
+  if (modal) modal.style.display = 'none';
+  const textarea = document.getElementById('essay-textarea');
+  if (textarea) textarea.focus();
+}
+
+// --- Download Student Essay (.doc) ---
+function downloadStudentEssay(format = 'doc') {
+  isPromptingUser = true;
+  setTimeout(() => { isPromptingUser = false; }, 500);
+
+  const studentName = sessionStorage.getItem('current_user_name') || 'Học viên';
+  const studentClass = sessionStorage.getItem('current_user_class') || 'Chưa xác định';
+  const topicTitle = currentTopic ? currentTopic.title_en : 'VSTEP Writing Task 2';
+  const topicCategory = currentCategory ? currentCategory.title_vi : '';
+  
+  let promptText = '';
+  if (currentTopic) {
+    promptText = currentTopic.context ? `${currentTopic.context}\n\n${currentTopic.prompt}` : (currentTopic.prompt || '');
+  }
+  
+  let essayContent = '';
+  if (hasSubmitted && currentEvaluationData && currentEvaluationData.text) {
+    essayContent = currentEvaluationData.text;
+  } else {
+    essayContent = document.getElementById('essay-textarea') ? document.getElementById('essay-textarea').value : '';
+  }
+  
+  if (!essayContent.trim()) {
+    showToast("⚠️ Bài viết đang trống, chưa có nội dung để tải về!", "warning");
+    return;
+  }
+  
+  const trimmed = essayContent.trim();
+  const wordCount = trimmed === '' ? 0 : trimmed.split(/\s+/).length;
+  const now = new Date();
+  const dateStr = now.toLocaleDateString('vi-VN') + ' ' + now.toLocaleTimeString('vi-VN');
+  
+  // Format HTML for Word (.doc)
+  let docHtml = `
+    <html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'>
+    <head>
+      <meta charset='utf-8'>
+      <title>VSTEP Writing Task 2 - ${escapeHtml(studentName)}</title>
+      <style>
+        body {
+          font-family: 'Times New Roman', Times, serif;
+          font-size: 13pt;
+          line-height: 1.6;
+          color: #111827;
+          margin: 1in;
+        }
+        h1 {
+          font-size: 18pt;
+          text-align: center;
+          color: #1e3a8a;
+          margin-bottom: 4pt;
+          text-transform: uppercase;
+        }
+        .header-sub {
+          text-align: center;
+          font-size: 11pt;
+          color: #4b5563;
+          margin-bottom: 20pt;
+        }
+        .info-table {
+          width: 100%;
+          border-collapse: collapse;
+          margin-bottom: 20pt;
+        }
+        .info-table td {
+          padding: 6pt 10pt;
+          font-size: 11pt;
+          border: 1px solid #d1d5db;
+        }
+        .info-label {
+          background-color: #f3f4f6;
+          font-weight: bold;
+          width: 25%;
+          color: #374151;
+        }
+        .section-heading {
+          font-size: 13pt;
+          font-weight: bold;
+          color: #1e40af;
+          border-bottom: 1.5pt solid #2563eb;
+          padding-bottom: 4pt;
+          margin-top: 18pt;
+          margin-bottom: 10pt;
+          text-transform: uppercase;
+        }
+        .prompt-box {
+          background-color: #f8fafc;
+          border-left: 4pt solid #3b82f6;
+          padding: 10pt 14pt;
+          font-style: italic;
+          font-size: 12pt;
+          line-height: 1.5;
+          margin-bottom: 16pt;
+        }
+        .essay-body {
+          font-size: 13pt;
+          line-height: 1.8;
+          text-align: justify;
+          white-space: pre-wrap;
+          margin-bottom: 25pt;
+          background: #ffffff;
+        }
+        .score-box {
+          background-color: #f0fdf4;
+          border: 1px solid #86efac;
+          padding: 12pt;
+          border-radius: 6pt;
+          margin-top: 15pt;
+        }
+        .score-table {
+          width: 100%;
+          border-collapse: collapse;
+          margin-top: 10pt;
+        }
+        .score-table th, .score-table td {
+          border: 1px solid #cbd5e1;
+          padding: 6pt 10pt;
+          text-align: left;
+          font-size: 11pt;
+        }
+        .score-table th {
+          background-color: #e2e8f0;
+          font-weight: bold;
+        }
+        .footer-note {
+          margin-top: 30pt;
+          font-size: 10pt;
+          color: #6b7280;
+          text-align: center;
+          border-top: 1px solid #e5e7eb;
+          padding-top: 8pt;
+        }
+      </style>
+    </head>
+    <body>
+      <h1>BÀI LÀM LUYỆN THI VSTEP WRITING TASK 2</h1>
+      <div class="header-sub">HỆ THỐNG LUYỆN VIẾT VSTEP ESSAY MASTER</div>
+
+      <table class="info-table">
+        <tr>
+          <td class="info-label">Họ và tên học viên:</td>
+          <td><strong>${escapeHtml(studentName)}</strong></td>
+          <td class="info-label">Lớp:</td>
+          <td><strong>${escapeHtml(studentClass)}</strong></td>
+        </tr>
+        <tr>
+          <td class="info-label">Chủ đề bài viết:</td>
+          <td colspan="3">${escapeHtml(topicCategory)} - <strong>${escapeHtml(topicTitle)}</strong></td>
+        </tr>
+        <tr>
+          <td class="info-label">Thời gian xuất bài:</td>
+          <td>${dateStr}</td>
+          <td class="info-label">Tổng số từ:</td>
+          <td><strong>${wordCount} từ</strong> ${wordCount >= 250 ? '(Đạt yêu cầu tối thiểu 250 từ)' : '(Chưa đạt 250 từ)'}</td>
+        </tr>
+        <tr>
+          <td class="info-label">Giám sát phòng thi:</td>
+          <td colspan="3">${cheatViolationCount > 0 ? `<span style="color: #dc2626; font-weight: bold;">Có ${cheatViolationCount} lần rời khỏi màn hình/đổi tab</span>` : '<span style="color: #16a34a; font-weight: bold;">Hoàn thành nghiêm túc (Không vi phạm)</span>'}</td>
+        </tr>
+      </table>
+
+      <div class="section-heading">1. ĐỀ BÀI (WRITING PROMPT)</div>
+      <div class="prompt-box">
+        ${escapeHtml(promptText).replace(/\n/g, '<br>')}
+      </div>
+
+      <div class="section-heading">2. BÀI LUẬN CỦA HỌC VIÊN (STUDENT\'S ESSAY)</div>
+      <div class="essay-body">${escapeHtml(essayContent)}</div>
+  `;
+
+  if (hasSubmitted && currentEvaluationData) {
+    const cefr = currentEvaluationData.score >= 8.5 ? 'C1 (Advanced)' : currentEvaluationData.score >= 6.5 ? 'B2 (Upper-Intermediate)' : currentEvaluationData.score >= 4.0 ? 'B1 (Intermediate)' : 'Dưới B1';
+    docHtml += `
+      <div class="section-heading">3. KẾT QUẢ ĐÁNH GIÁ & CHẤM ĐIỂM CHI TIẾT</div>
+      <div class="score-box">
+        <p style="margin: 0 0 6pt 0; font-size: 13pt;"><strong>Điểm tổng ước tính:</strong> <span style="font-size: 16pt; color: #15803d; font-weight: bold;">${currentEvaluationData.score}/10.0</span> - Trình độ: <strong>${cefr}</strong></p>
+        <table class="score-table">
+          <tr>
+            <th>Tiêu chí chấm VSTEP</th>
+            <th>Điểm</th>
+            <th>Trọng số</th>
+          </tr>
+          <tr>
+            <td>Task Fulfillment (Đáp ứng yêu cầu đề bài)</td>
+            <td><strong>${currentEvaluationData.tfScore != null ? currentEvaluationData.tfScore : '-'}/10.0</strong></td>
+            <td>25%</td>
+          </tr>
+          <tr>
+            <td>Organization (Bố cục, mạch lạc & liên kết ý)</td>
+            <td><strong>${currentEvaluationData.orgScore != null ? currentEvaluationData.orgScore : '-'}/10.0</strong></td>
+            <td>25%</td>
+          </tr>
+          <tr>
+            <td>Vocabulary (Vốn từ & Collocations)</td>
+            <td><strong>${currentEvaluationData.vocabScore != null ? currentEvaluationData.vocabScore : '-'}/10.0</strong></td>
+            <td>25%</td>
+          </tr>
+          <tr>
+            <td>Grammar (Cấu trúc ngữ pháp & độ chính xác)</td>
+            <td><strong>${currentEvaluationData.grammarScore != null ? currentEvaluationData.grammarScore : '-'}/10.0</strong></td>
+            <td>25%</td>
+          </tr>
+        </table>
+        ${currentEvaluationData.feedback ? `
+          <div style="margin-top: 12pt; padding: 10pt; background: #ffffff; border: 1px solid #cbd5e1; border-radius: 4pt;">
+            <strong>Nhận xét tổng quan của hệ thống:</strong>
+            <p style="margin: 6pt 0 0 0; line-height: 1.5;">${escapeHtml(currentEvaluationData.feedback)}</p>
+          </div>
+        ` : ''}
+      </div>
+    `;
+  }
+
+  docHtml += `
+      <div class="footer-note">
+        Tài liệu được xuất tự động từ hệ thống Luyện viết luận VSTEP Task 2 • Giáo viên hướng dẫn: Ms. Nguyệt
+      </div>
+    </body>
+    </html>
+  `;
+
+  const blob = new Blob(['\ufeff' + docHtml], { type: 'application/msword;charset=utf-8' });
+  const downloadLink = document.createElement('a');
+  const safeStudent = (studentName || 'HocVien').normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/\s+/g, '_');
+  const safeTopic = (topicTitle || 'BaiLuan').slice(0, 30).replace(/[^a-zA-Z0-9]/g, '_');
+  downloadLink.href = URL.createObjectURL(blob);
+  downloadLink.download = `VSTEP_Task2_${safeStudent}_${safeTopic}.doc`;
+  document.body.appendChild(downloadLink);
+  downloadLink.click();
+  document.body.removeChild(downloadLink);
+  URL.revokeObjectURL(downloadLink.href);
+
+  showToast("📥 Đã tải bài viết về máy (.doc) thành công!", "success");
 }
 
 // Switch between Right Analysis tabs (Score, Vocab checklist, Model essay)
@@ -5394,7 +5757,8 @@ function saveSubmission(score, wordCount, content) {
     score: score,
     content: content,
     outlineLevel: currentOutlineLevel,
-    sampleLevel: currentSampleLevel
+    sampleLevel: currentSampleLevel,
+    cheatViolations: cheatViolationCount
   };
   
   history.unshift(submission); // Add to beginning
@@ -6400,7 +6764,7 @@ function switchModelEssayLevel(level) {
   renderStep4ModelEssay();
 }
 
-// Function to handle Access Gateway
+// Function to handle Access Gateway & Anti-Cheat Initialization
 document.addEventListener('DOMContentLoaded', () => {
   const gateway = document.getElementById('access-gateway');
   const appContainer = document.getElementById('app-container');
@@ -6408,24 +6772,80 @@ document.addEventListener('DOMContentLoaded', () => {
   // Force login on every page load/refresh
   if (gateway) gateway.style.display = 'flex';
   if (appContainer) appContainer.style.display = 'none';
+
+  // Restore saved session name & class if student refreshed
+  const savedName = sessionStorage.getItem('current_user_name');
+  const savedClass = sessionStorage.getItem('current_user_class');
+  if (savedName && document.getElementById('gateway-name')) {
+    document.getElementById('gateway-name').value = savedName;
+  }
+  if (savedClass && document.getElementById('gateway-class')) {
+    document.getElementById('gateway-class').value = savedClass;
+  }
+
+  // Anti-cheat: tab switch & window blur detection
+  document.addEventListener('visibilitychange', () => {
+    if (document.hidden && isExamModeActive() && !isPromptingUser) {
+      handleCheatViolation('tab_switch');
+    }
+  });
+
+  window.addEventListener('blur', () => {
+    if (isExamModeActive() && !isPromptingUser) {
+      handleCheatViolation('window_blur');
+    }
+  });
+
+  // Anti-cheat: disable pasting external text into essay during exam
+  const essayArea = document.getElementById('essay-textarea');
+  if (essayArea) {
+    essayArea.addEventListener('paste', (e) => {
+      if (isExamModeActive()) {
+        e.preventDefault();
+        handleCheatViolation('paste');
+      }
+    });
+  }
 });
 
-const VALID_STUDENTS_CB206 = [
-  'Nguyễn Thị Vân Anh',
-  'Nguyễn Thị Hồng Duyên',
-  'Nguyễn Thị Thúy Hồng',
-  'Trương Ngọc Nhi',
-  'Nguyễn Phạm Như Quỳnh',
-  'Trần Lê Quỳnh',
-  'Ông Lê Thành',
-  'Trần Nguyễn Thanh Thảo',
-  'Phan Nhật Thiện',
-  'Trần Thị Cẩm Tiên',
-  'Võ Trần Bảo Tính',
-  'Trương Thanh Toàn',
-  'Phạm Ngọc Trâm',
-  'Nguyễn Võ Bảo Trân'
-];
+const VALID_CLASSES = {
+  'CB206': [
+    'Văn Như Anh',
+    'Nguyễn Thị Vân Anh',
+    'Nguyễn Thị Hồng Duyên',
+    'Nguyễn Thị Thúy Hồng',
+    'Trương Ngọc Nhi',
+    'Nguyễn Phạm Như Quỳnh',
+    'Trần Lê Quỳnh',
+    'Thị Mỹ Tâm',
+    'Ông Lê Thành',
+    'Trần Nguyễn Thanh Thảo',
+    'Phan Nhật Thiện',
+    'Nguyễn Mỹ Tiên',
+    'Trần Thị Cẩm Tiên',
+    'Võ Trần Bảo Tính',
+    'Trương Thanh Toàn',
+    'Phạm Ngọc Trâm',
+    'Nguyễn Võ Bảo Trân'
+  ],
+  'CB210': [
+    'Nguyễn Võ Thành Đạt',
+    'Lê Huỳnh Thanh Duy',
+    'Nguyễn Cao Kỳ Duyên',
+    'Đào Ngọc Hân',
+    'Trần Văn Hữu',
+    'Trần Văn Kim Khoa',
+    'Nguyễn Thanh Nâng',
+    'Huỳnh Kỳ Nguyên',
+    'Võ Thị Kim Nguyên',
+    'Võ Hùng Sanh',
+    'Tiền Thị Thanh Thảo',
+    'Trần Thị Thanh Thảo',
+    'Đặng Thị Kim Thoa',
+    'Trần Thị Tiên Tiên',
+    'Lê Kim Tuyền'
+  ]
+};
 
 function normalizeVietnameseName(str) {
   if (!str) return '';
@@ -6460,8 +6880,8 @@ function submitGatewayAccess() {
       return;
     }
     
-    if (classInput !== 'CB206') {
-      errorEl.textContent = 'Mã lớp không hợp lệ. Hệ thống hiện chỉ mở cho lớp CB206!';
+    if (!VALID_CLASSES[classInput]) {
+      errorEl.textContent = 'Mã lớp không hợp lệ. Hệ thống hiện mở cho lớp CB206 và CB210!';
       errorEl.style.display = 'block';
       return;
     }
@@ -6478,11 +6898,12 @@ function submitGatewayAccess() {
       return;
     }
 
+    const validStudentsForClass = VALID_CLASSES[classInput];
     const normInputName = normalizeVietnameseName(nameInput);
-    const isStudentMatched = VALID_STUDENTS_CB206.some(st => normalizeVietnameseName(st) === normInputName);
+    const isStudentMatched = validStudentsForClass.some(st => normalizeVietnameseName(st) === normInputName);
     
     if (!isStudentMatched) {
-      errorEl.textContent = 'Họ và tên không nằm trong danh sách lớp CB206. Vui lòng nhập đúng họ tên đầy đủ!';
+      errorEl.textContent = `Họ và tên không nằm trong danh sách lớp ${classInput}. Vui lòng nhập đúng họ tên đầy đủ!`;
       errorEl.style.display = 'block';
       return;
     }
@@ -6491,6 +6912,10 @@ function submitGatewayAccess() {
   errorEl.style.display = 'none';
   btnSubmit.textContent = 'ĐANG ĐĂNG NHẬP...';
   btnSubmit.disabled = true;
+
+  // Save student session details
+  sessionStorage.setItem('current_user_name', nameInput);
+  sessionStorage.setItem('current_user_class', classInput);
   
   const now = new Date();
   const timeString = now.toLocaleTimeString('vi-VN') + ' ' + now.toLocaleDateString('vi-VN');
