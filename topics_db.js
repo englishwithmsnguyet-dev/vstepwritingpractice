@@ -2990,159 +2990,251 @@ const ESSAY_DATA = [
           "ideas_b1": {
             "benefits": [
               {
-                "title": "LỢI ÍCH 01: TIẾT KIỆM CHI PHÍ ĐI LẠI",
+                "title": "LỢI ÍCH 01: TIẾT KIỆM CHI PHÍ ĐI LẠI (SAVE MONEY)",
                 "collocations": [
                   {
-                    "en": "public transport",
-                    "vi": "giao thông công cộng"
+                    "en": "save money",
+                    "vi": "tiết kiệm tiền"
                   },
                   {
-                    "en": "save transportation costs",
-                    "vi": "tiết kiệm chi phí đi lại"
+                    "en": "lower travel costs",
+                    "vi": "chi phí đi lại thấp hơn"
                   },
                   {
                     "en": "fuel costs",
                     "vi": "chi phí nhiên liệu"
                   },
                   {
-                    "en": "vehicle maintenance",
-                    "vi": "bảo dưỡng phương tiện"
+                    "en": "parking fees",
+                    "vi": "phí đỗ xe"
                   }
                 ],
                 "point_vi": "Giao thông công cộng giúp mọi người tiết kiệm chi phí đi lại.",
-                "point_en": "Public transport helps people save transportation costs.",
-                "evidence_vi": "Người dân không cần phải chi nhiều tiền cho nhiên liệu và bảo dưỡng phương tiện.",
-                "evidence_en": "People do not need to spend much money on fuel and vehicle maintenance."
+                "point_en": "Public transport helps people save money on daily travel.",
+                "evidence_vi": "Người dân không cần phải mua nhiên liệu hay trả phí đỗ xe tốn kém cho các phương tiện cá nhân.",
+                "evidence_en": "Passengers do not need to buy fuel or pay high parking fees for private vehicles."
               },
               {
-                "title": "LỢI ÍCH 02: GIẢM ÙN TẮC GIAO THÔNG",
+                "title": "LỢI ÍCH 02: GIẢM ÙN TẮC GIAO THÔNG (REDUCE TRAFFIC CONGESTION)",
                 "collocations": [
                   {
                     "en": "reduce traffic congestion",
                     "vi": "giảm ùn tắc giao thông"
                   },
                   {
-                    "en": "private vehicles",
-                    "vi": "phương tiện cá nhân"
+                    "en": "fewer cars and motorbikes",
+                    "vi": "ít ô tô và xe máy hơn"
                   },
                   {
-                    "en": "carry many passengers",
-                    "vi": "chở nhiều hành khách"
+                    "en": "shorter travel time",
+                    "vi": "thời gian di chuyển ngắn hơn"
                   }
                 ],
                 "point_vi": "Giao thông công cộng góp phần giảm ùn tắc giao thông.",
                 "point_en": "Public transport helps reduce traffic congestion.",
-                "evidence_vi": "Ví dụ, xe buýt hoặc xe khách có thể chở nhiều hành khách cùng lúc, vì vậy số lượng xe cá nhân trên đường được giảm bớt.",
-                "evidence_en": "For example, buses or coaches can carry many passengers at the same time, so the number of private vehicles on the roads can be reduced."
+                "evidence_vi": "Khi nhiều người sử dụng xe buýt hoặc tàu điện, số lượng ô tô và xe máy trên đường sẽ ít đi, giúp rút ngắn thời gian di chuyển.",
+                "evidence_en": "When more people use buses or trains, there are fewer cars and motorbikes on the roads, leading to shorter travel time."
               },
               {
-                "title": "LỢI ÍCH 03: GIẢM Ô NHIỄM MÔI TRƯỜNG",
+                "title": "LỢI ÍCH 03: BẢO VỆ MÔI TRƯỜNG (PROTECT THE ENVIRONMENT)",
                 "collocations": [
-                  {
-                    "en": "environmental pollution",
-                    "vi": "ô nhiễm môi trường"
-                  },
-                  {
-                    "en": "private vehicles",
-                    "vi": "phương tiện cá nhân"
-                  },
-                  {
-                    "en": "greenhouse gas emissions",
-                    "vi": "khí thải nhà kính"
-                  },
                   {
                     "en": "protect the environment",
                     "vi": "bảo vệ môi trường"
+                  },
+                  {
+                    "en": "produce less air pollution",
+                    "vi": "thải ít ô nhiễm không khí hơn"
+                  },
+                  {
+                    "en": "reduce carbon emissions",
+                    "vi": "giảm lượng phát thải khí carbon"
+                  },
+                  {
+                    "en": "contribute to cleaner cities",
+                    "vi": "góp phần xây dựng đô thị sạch hơn"
                   }
                 ],
-                "point_vi": "Giao thông công cộng giúp giảm ô nhiễm môi trường.",
-                "point_en": "Public transport helps reduce environmental pollution.",
-                "evidence_vi": "Việc sử dụng ít phương tiện cá nhân hơn có thể làm giảm lượng khí thải.",
-                "evidence_en": "Using fewer private vehicles can reduce greenhouse gas emissions."
+                "point_vi": "Giao thông công cộng đóng vai trò quan trọng trong việc bảo vệ môi trường.",
+                "point_en": "Public transport plays an important role in protecting the environment.",
+                "evidence_vi": "Phương tiện công cộng thải ra ít ô nhiễm không khí hơn trên mỗi hành khách, giúp giảm lượng khí thải carbon và làm cho các thành phố sạch đẹp hơn.",
+                "evidence_en": "Public vehicles produce less air pollution per passenger, which helps reduce carbon emissions and makes cities cleaner."
+              },
+              {
+                "title": "LỢI ÍCH 04: MANG LẠI SỰ TIỆN LỢI (PROVIDE CONVENIENCE)",
+                "collocations": [
+                  {
+                    "en": "provide convenience",
+                    "vi": "mang lại sự tiện lợi"
+                  },
+                  {
+                    "en": "routes and stations",
+                    "vi": "tuyến đường và trạm đón"
+                  },
+                  {
+                    "en": "regular services",
+                    "vi": "các chuyến đi đều đặn"
+                  },
+                  {
+                    "en": "no need to drive",
+                    "vi": "không cần phải tự lái xe"
+                  }
+                ],
+                "point_vi": "Giao thông công cộng mang lại sự tiện lợi lớn cho người dân đô thị.",
+                "point_en": "Public transport provides great convenience for urban residents.",
+                "evidence_vi": "Hệ thống có nhiều tuyến đường và trạm đón trả khách cố định với các chuyến xe chạy liên tục, vì vậy hành khách không cần phải tự lái xe.",
+                "evidence_en": "There are many regular routes and stations in cities with frequent services, so passengers do not need to drive themselves."
+              },
+              {
+                "title": "LỢI ÍCH 05: NÂNG CAO AN TOÀN GIAO THÔNG (IMPROVE ROAD SAFETY)",
+                "collocations": [
+                  {
+                    "en": "improve road safety",
+                    "vi": "nâng cao an toàn giao thông"
+                  },
+                  {
+                    "en": "fewer private vehicles",
+                    "vi": "ít phương tiện cá nhân hơn"
+                  },
+                  {
+                    "en": "professional drivers",
+                    "vi": "tài xế chuyên nghiệp"
+                  },
+                  {
+                    "en": "reduce traffic accidents",
+                    "vi": "giảm tai nạn giao thông"
+                  }
+                ],
+                "point_vi": "Giao thông công cộng giúp nâng cao mức độ an toàn giao thông đường bộ.",
+                "point_en": "Public transport helps improve road safety.",
+                "evidence_vi": "Do các phương tiện công cộng được điều khiển bởi đội ngũ tài xế chuyên nghiệp, hành khách không cần tự lái xe và nguy cơ xảy ra tai nạn được giảm thiểu.",
+                "evidence_en": "Because public vehicles are operated by professional drivers, passengers do not need to drive and the risk of traffic accidents is reduced."
               }
             ],
             "drawbacks": [
               {
-                "title": "BẤT LỢI 01: ĐÔNG ĐÚC VÀ KHÔNG THOẢI MÁI",
+                "title": "BẤT LỢI 01: ĐÔNG ĐÚC VÀ KHÔNG THOẢI MÁI (CROWDED)",
                 "collocations": [
                   {
                     "en": "crowded and uncomfortable",
                     "vi": "đông đúc và không thoải mái"
                   },
                   {
-                    "en": "passengers",
-                    "vi": "hành khách"
+                    "en": "too many passengers",
+                    "vi": "quá nhiều hành khách"
                   },
                   {
-                    "en": "rush hours",
-                    "vi": "giờ cao điểm"
+                    "en": "limited personal space",
+                    "vi": "không gian cá nhân hạn chế"
                   },
                   {
-                    "en": "crowded conditions",
-                    "vi": "tình trạng đông đúc"
+                    "en": "long queues",
+                    "vi": "hàng dài chờ đợi"
                   }
                 ],
-                "point_vi": "Giao thông công cộng thường đông đúc và không thoải mái.",
+                "point_vi": "Giao thông công cộng thường đông đúc và gây cảm giác khó chịu.",
                 "point_en": "Public transport is often crowded and uncomfortable.",
-                "evidence_vi": "Hành khách có thể phải đứng hoặc chen chúc trong giờ cao điểm.",
-                "evidence_en": "Passengers may have to stand or travel in crowded conditions during rush hours."
+                "evidence_vi": "Vào giờ cao điểm, có quá nhiều hành khách trên xe khiến không gian cá nhân bị chật chội và mọi người phải xếp hàng dài chờ đợi.",
+                "evidence_en": "During rush hours, there are too many passengers, creating limited personal space and long queues."
               },
               {
-                "title": "BẤT LỢI 02: TỐN THỜI GIAN HƠN",
+                "title": "BẤT LỢI 02: THIẾU TÍNH LINH HOẠT (LACK OF FLEXIBILITY)",
                 "collocations": [
                   {
-                    "en": "time-consuming",
-                    "vi": "tốn thời gian"
+                    "en": "lack of flexibility",
+                    "vi": "thiếu tính linh hoạt"
                   },
                   {
-                    "en": "wait for vehicles",
-                    "vi": "chờ phương tiện"
+                    "en": "fixed departure times",
+                    "vi": "giờ khởi hành cố định"
                   },
                   {
-                    "en": "change routes",
-                    "vi": "chuyển tuyến"
+                    "en": "limited routes",
+                    "vi": "tuyến đường hạn chế"
                   },
                   {
-                    "en": "daily journeys",
-                    "vi": "hành trình hằng ngày"
+                    "en": "remote places",
+                    "vi": "nơi xa xôi"
                   }
                 ],
-                "point_vi": "Sử dụng giao thông công cộng có thể mất nhiều thời gian hơn.",
-                "point_en": "Using public transport may be more time-consuming.",
-                "evidence_vi": "Người dùng thường phải chờ xe hoặc chuyển tuyến trong quá trình di chuyển.",
-                "evidence_en": "Users often have to wait for vehicles or change routes during their journeys."
+                "point_vi": "Việc sử dụng phương tiện công cộng thiếu tính linh hoạt cho người đi lại.",
+                "point_en": "Using public transport lacks flexibility for commuters.",
+                "evidence_vi": "Các phương tiện phải chạy theo giờ khởi hành cố định và tuyến đường hạn chế, khiến việc di chuyển đến các khu vực xa xôi trở nên khó khăn.",
+                "evidence_en": "Vehicles follow fixed departure times and limited routes, making it difficult to travel to remote destinations."
               },
               {
-                "title": "BẤT LỢI 03: LO NGẠI VỀ AN NINH VÀ AN TOÀN",
+                "title": "BẤT LỢI 03: TÌNH TRẠNG CHẬM TRỄ (DELAYS)",
                 "collocations": [
                   {
-                    "en": "safety and security concerns",
-                    "vi": "lo ngại về an ninh và an toàn"
+                    "en": "unexpected delays",
+                    "vi": "sự chậm trễ bất ngờ"
                   },
                   {
-                    "en": "theft",
-                    "vi": "mất cắp"
+                    "en": "technical problems",
+                    "vi": "sự cố kỹ thuật"
                   },
                   {
-                    "en": "pickpocketing",
-                    "vi": "móc túi"
-                  },
-                  {
-                    "en": "crowded places",
-                    "vi": "nơi đông người"
+                    "en": "bad weather conditions",
+                    "vi": "điều kiện thời tiết xấu"
                   }
                 ],
-                "point_vi": "Giao thông công cộng có thể gây ra những lo ngại về an ninh và an toàn.",
-                "point_en": "Public transport may create safety and security concerns.",
-                "evidence_vi": "Tình trạng mất cắp hoặc móc túi có thể xảy ra ở những nơi đông người.",
-                "evidence_en": "Theft or pickpocketing may occur in crowded places."
+                "point_vi": "Người tham gia giao thông công cộng có thể gặp phải tình trạng trễ giờ.",
+                "point_en": "Commuters may experience unexpected delays.",
+                "evidence_vi": "Xe buýt và tàu điện có thể đến muộn do ùn tắc giao thông, trục trặc kỹ thuật hoặc điều kiện thời tiết xấu.",
+                "evidence_en": "Buses and trains can arrive late due to traffic congestion, technical problems, or bad weather conditions."
+              },
+              {
+                "title": "BẤT LỢI 04: THIẾU SỰ RIÊNG TƯ (LESS PRIVACY)",
+                "collocations": [
+                  {
+                    "en": "less privacy",
+                    "vi": "ít sự riêng tư hơn"
+                  },
+                  {
+                    "en": "travel with strangers",
+                    "vi": "đi chung với người lạ"
+                  },
+                  {
+                    "en": "noise from other passengers",
+                    "vi": "tiếng ồn từ hành khách khác"
+                  },
+                  {
+                    "en": "difficult to relax",
+                    "vi": "khó thư giãn"
+                  }
+                ],
+                "point_vi": "Giao thông công cộng mang lại ít không gian riêng tư cho người dùng.",
+                "point_en": "Public transport offers less privacy for passengers.",
+                "evidence_vi": "Hành khách phải di chuyển cùng người lạ và chịu đựng tiếng ồn xung quanh, khiến họ khó có thể nghỉ ngơi thư giãn trên suốt chặng đường.",
+                "evidence_en": "Passengers must travel with strangers and endure loud noises, making it difficult to relax during journeys."
+              },
+              {
+                "title": "BẤT LỢI 05: LO NGẠI VỀ SỨC KHỎE VÀ VỆ SINH (HEALTH AND HYGIENE CONCERNS)",
+                "collocations": [
+                  {
+                    "en": "health and hygiene concerns",
+                    "vi": "lo ngại về sức khỏe và vệ sinh"
+                  },
+                  {
+                    "en": "close contact with strangers",
+                    "vi": "tiếp xúc gần với người lạ"
+                  },
+                  {
+                    "en": "germs can spread easily",
+                    "vi": "vi khuẩn dễ lây lan"
+                  }
+                ],
+                "point_vi": "Phương tiện công cộng có thể gây ra những lo ngại về sức khỏe và vệ sinh.",
+                "point_en": "Public transport can raise health and hygiene concerns.",
+                "evidence_vi": "Việc tiếp xúc gần với người lạ trong không gian kín khiến vi trùng dễ lây lan, và một số phương tiện có thể không được dọn dẹp sạch sẽ.",
+                "evidence_en": "Close contact with strangers in enclosed spaces can cause germs to spread easily, and some vehicles may not be clean."
               }
             ]
           },
           "ideas_b2": {
             "benefits": [
               {
-                "title": "LỢI ÍCH 01: TIẾT KIỆM CHI PHÍ ĐI LẠI",
+                "title": "LỢI ÍCH 01: TIẾT KIỆM CHI PHÍ ĐI LẠI (SAVE MONEY)",
                 "collocations": [
                   {
                     "en": "save transportation costs",
@@ -3159,171 +3251,235 @@ const ESSAY_DATA = [
                   {
                     "en": "financial burden",
                     "vi": "gánh nặng tài chính"
-                  },
-                  {
-                    "en": "daily travel",
-                    "vi": "việc đi lại hằng ngày"
                   }
                 ],
                 "point_vi": "Giao thông công cộng giúp mọi người tiết kiệm chi phí đi lại.",
-                "point_en": "Public transport helps people save transportation costs.",
-                "evidence_vi": "Người dân không cần phải chi nhiều tiền cho nhiên liệu và bảo dưỡng phương tiện. Nhờ đó, họ có thể giảm gánh nặng tài chính cho việc đi lại hằng ngày.",
-                "evidence_en": "People do not need to spend much money on fuel and vehicle maintenance. As a result, they can reduce the financial burden of daily travel."
+                "point_en": "Public transport helps people save money on daily travel.",
+                "evidence_vi": "Người dân không cần phải chi nhiều tiền cho nhiên liệu và bảo dưỡng phương tiện. Nhờ đó, họ có thể giảm bớt gánh nặng tài chính và tiết kiệm đáng kể chi phí đi lại hằng ngày.",
+                "evidence_en": "Commuters do not have to spend substantial money on fuel and vehicle maintenance. Consequently, this helps lower overall travel expenses and eases financial burdens."
               },
               {
-                "title": "LỢI ÍCH 02: GIẢM ÙN TẮC GIAO THÔNG",
+                "title": "LỢI ÍCH 02: GIẢM ÙN TẮC GIAO THÔNG (REDUCE TRAFFIC CONGESTION)",
                 "collocations": [
                   {
                     "en": "reduce traffic congestion",
                     "vi": "giảm ùn tắc giao thông"
                   },
                   {
-                    "en": "private vehicles",
-                    "vi": "phương tiện cá nhân"
+                    "en": "volume of private vehicles",
+                    "vi": "lưu lượng phương tiện cá nhân"
                   },
                   {
-                    "en": "reduce the number of vehicles",
-                    "vi": "giảm số lượng phương tiện"
+                    "en": "high-capacity transit systems",
+                    "vi": "hệ thống vận tải sức chứa lớn"
                   },
                   {
-                    "en": "on the roads",
-                    "vi": "trên đường"
-                  },
-                  {
-                    "en": "rush hours",
-                    "vi": "giờ cao điểm"
+                    "en": "commute more efficiently",
+                    "vi": "di chuyển hiệu quả hơn"
                   }
                 ],
                 "point_vi": "Giao thông công cộng góp phần giảm ùn tắc giao thông.",
                 "point_en": "Public transport helps reduce traffic congestion.",
-                "evidence_vi": "Ví dụ, xe buýt hoặc xe khách có thể chở nhiều hành khách cùng lúc. Điều này giúp giảm số lượng xe cá nhân trên đường, đặc biệt trong giờ cao điểm.",
-                "evidence_en": "For example, buses or coaches can carry many passengers at the same time. This helps reduce the number of private vehicles on the roads, especially during rush hours."
+                "evidence_vi": "Các phương tiện công cộng có thể chuyên chở một lượng lớn hành khách cùng lúc, giúp giảm đáng kể số lượng phương tiện cá nhân trên đường. Hệ quả là tình trạng ùn tắc giao thông được giải tỏa, giúp dòng người lưu thông nhanh chóng hơn.",
+                "evidence_en": "High-capacity transit systems carry numerous passengers simultaneously, which significantly reduces the volume of private vehicles on the roads. As a result, traffic congestion is alleviated, allowing people to commute more efficiently."
               },
               {
-                "title": "LỢI ÍCH 03: GIẢM Ô NHIỄM MÔI TRƯỜNG",
+                "title": "LỢI ÍCH 03: BẢO VỆ MÔI TRƯỜNG (PROTECT THE ENVIRONMENT)",
                 "collocations": [
                   {
-                    "en": "environmental pollution",
-                    "vi": "ô nhiễm môi trường"
-                  },
-                  {
-                    "en": "greenhouse gases",
-                    "vi": "khí nhà kính"
-                  },
-                  {
-                    "en": "protect the environment",
+                    "en": "environmental protection",
                     "vi": "bảo vệ môi trường"
                   },
                   {
-                    "en": "improve air quality",
-                    "vi": "cải thiện chất lượng không khí"
+                    "en": "mass transit",
+                    "vi": "vận tải đại chúng"
                   },
                   {
-                    "en": "contribute to",
-                    "vi": "góp phần vào"
+                    "en": "carbon emissions per passenger",
+                    "vi": "khí thải carbon trên mỗi hành khách"
+                  },
+                  {
+                    "en": "mitigate environmental degradation",
+                    "vi": "hạn chế suy thoái môi trường"
                   }
                 ],
-                "point_vi": "Giao thông công cộng giúp giảm ô nhiễm môi trường.",
-                "point_en": "Public transport helps reduce environmental pollution.",
-                "evidence_vi": "Việc sử dụng ít phương tiện cá nhân hơn có thể làm giảm lượng khí nhà kính. Điều này góp phần bảo vệ môi trường và cải thiện chất lượng không khí.",
-                "evidence_en": "Using fewer private vehicles can reduce greenhouse gases. This contributes to protecting the environment and improving air quality."
+                "point_vi": "Giao thông công cộng đóng vai trò quan trọng trong việc bảo vệ môi trường.",
+                "point_en": "Public transport plays an important role in protecting the environment.",
+                "evidence_vi": "Giao thông công cộng thải ra lượng khí nhà kính trên mỗi đầu người thấp hơn rất nhiều so với xe cá nhân. Do đó, việc thúc đẩy các phương tiện công cộng góp phần cải thiện chất lượng không khí đô thị và hạn chế suy thoái môi trường.",
+                "evidence_en": "Mass transit produces substantially fewer carbon emissions per passenger than private automobiles. Therefore, promoting public transportation contributes to cleaner urban air quality and mitigates environmental degradation."
+              },
+              {
+                "title": "LỢI ÍCH 04: MANG LẠI SỰ TIỆN LỢI (PROVIDE CONVENIENCE)",
+                "collocations": [
+                  {
+                    "en": "extensive transit networks",
+                    "vi": "mạng lưới trung chuyển rộng khắp"
+                  },
+                  {
+                    "en": "frequent schedules",
+                    "vi": "lịch trình dày đặc"
+                  },
+                  {
+                    "en": "metropolitan areas",
+                    "vi": "khu vực đô thị lớn"
+                  },
+                  {
+                    "en": "stress of driving",
+                    "vi": "căng thẳng khi tự lái xe"
+                  }
+                ],
+                "point_vi": "Giao thông công cộng mang lại sự tiện lợi lớn cho người dân đô thị.",
+                "point_en": "Public transport provides great convenience for urban residents.",
+                "evidence_vi": "Mạng lưới phương tiện công cộng hiện đại cung cấp nhiều tuyến đường phủ sóng rộng khắp và lịch trình di chuyển dày đặc trong thành phố. Kết quả là hành khách có thể di chuyển thuận lợi mà không phải chịu áp lực căng thẳng khi tự lái xe trong dòng người đông đúc.",
+                "evidence_en": "Modern transit networks offer extensive routes and frequent schedules throughout metropolitan areas. Consequently, passengers can travel comfortably without the stress of driving in busy streets."
+              },
+              {
+                "title": "LỢI ÍCH 05: NÂNG CAO AN TOÀN GIAO THÔNG (IMPROVE ROAD SAFETY)",
+                "collocations": [
+                  {
+                    "en": "enhance road safety",
+                    "vi": "nâng cao an toàn giao thông"
+                  },
+                  {
+                    "en": "licensed professional drivers",
+                    "vi": "tài xế chuyên nghiệp có bằng cấp"
+                  },
+                  {
+                    "en": "strict safety standards",
+                    "vi": "tiêu chuẩn an toàn nghiêm ngặt"
+                  },
+                  {
+                    "en": "minimize traffic collisions",
+                    "vi": "giảm thiểu va chạm giao thông"
+                  }
+                ],
+                "point_vi": "Giao thông công cộng giúp nâng cao mức độ an toàn giao thông đường bộ.",
+                "point_en": "Public transport helps improve road safety.",
+                "evidence_vi": "Các phương tiện công cộng được điều hành bởi đội ngũ tài xế chuyên nghiệp, tuân thủ nghiêm ngặt các tiêu chuẩn an toàn kỹ thuật. Hơn nữa, việc hạn chế phương tiện cá nhân giúp giảm thiểu va chạm giao thông và bảo vệ an toàn cho toàn xã hội.",
+                "evidence_en": "Transit vehicles are operated by licensed, professional drivers who adhere to strict safety standards. Furthermore, reducing the number of private cars on the streets minimizes traffic collisions and enhances overall public safety."
               }
             ],
             "drawbacks": [
               {
-                "title": "BẤT LỢI 01: ĐÔNG ĐÚC VÀ KHÔNG THOẢI MÁI",
+                "title": "BẤT LỢI 01: ĐÔNG ĐÚC VÀ KHÔNG THOẢI MÁI (CROWDED)",
                 "collocations": [
                   {
-                    "en": "crowded and uncomfortable",
-                    "vi": "đông đúc và không thoải mái"
+                    "en": "overcrowded conditions",
+                    "vi": "tình trạng quá tải đông đúc"
                   },
                   {
-                    "en": "passengers",
-                    "vi": "hành khách"
-                  },
-                  {
-                    "en": "rush hours",
+                    "en": "peak hours",
                     "vi": "giờ cao điểm"
                   },
                   {
-                    "en": "have to stand",
-                    "vi": "phải đứng"
+                    "en": "limited personal space",
+                    "vi": "không gian cá nhân hạn chế"
                   },
                   {
-                    "en": "travel experience",
-                    "vi": "trải nghiệm di chuyển"
-                  },
-                  {
-                    "en": "cause discomfort",
-                    "vi": "gây khó chịu"
+                    "en": "exhausting commutes",
+                    "vi": "hành trình đi lại mệt mỏi"
                   }
                 ],
-                "point_vi": "Giao thông công cộng thường đông đúc và không thoải mái.",
+                "point_vi": "Giao thông công cộng thường đông đúc và gây cảm giác khó chịu.",
                 "point_en": "Public transport is often crowded and uncomfortable.",
-                "evidence_vi": "Hành khách có thể không tìm được chỗ ngồi và phải đứng trong giờ cao điểm. Điều này có thể gây khó chịu và ảnh hưởng tiêu cực đến trải nghiệm di chuyển.",
-                "evidence_en": "Passengers may not find a seat and have to stand during rush hours. This may cause discomfort and negatively affect the travel experience."
+                "evidence_vi": "Phương tiện thường xuyên bị quá tải hành khách trong các khung giờ cao điểm, dẫn đến tình trạng chen chúc và không gian cá nhân bị thu hẹp đáng kể. Môi trường ngột ngạt này có thể làm cho trải nghiệm đi lại hàng ngày trở nên mệt mỏi.",
+                "evidence_en": "Vehicles are frequently overwhelmed with commuters during peak hours, resulting in severe overcrowding and limited personal space. This uncomfortable environment can make daily commutes exhausting."
               },
               {
-                "title": "BẤT LỢI 02: THIẾU SỰ THUẬN TIỆN",
+                "title": "BẤT LỢI 02: THIẾU TÍNH LINH HOẠT (LACK OF FLEXIBILITY)",
                 "collocations": [
                   {
-                    "en": "less convenient",
-                    "vi": "kém thuận tiện"
+                    "en": "inflexible schedules",
+                    "vi": "lịch trình thiếu linh hoạt"
                   },
                   {
-                    "en": "rely on",
-                    "vi": "phụ thuộc vào"
+                    "en": "predetermined routes",
+                    "vi": "tuyến đường định sẵn"
                   },
                   {
-                    "en": "fixed schedules",
-                    "vi": "lịch trình cố định"
+                    "en": "remote locations",
+                    "vi": "địa điểm xa xôi"
                   },
                   {
-                    "en": "fixed routes",
-                    "vi": "tuyến đường cố định"
-                  },
-                  {
-                    "en": "travel flexibly",
-                    "vi": "di chuyển linh hoạt"
-                  },
-                  {
-                    "en": "have difficulty + Ving ~ struggle to + to Vo",
-                    "vi": "gặp khó khăn khi làm gì đó"
+                    "en": "inflexibility",
+                    "vi": "sự thiếu linh hoạt"
                   }
                 ],
-                "point_vi": "Giao thông công cộng có thể kém thuận tiện hơn phương tiện cá nhân.",
-                "point_en": "Public transport may be less convenient than private vehicles.",
-                "evidence_vi": "Hành khách phải phụ thuộc vào lịch trình và tuyến đường cố định. Vì vậy, họ có thể gặp khó khăn trong việc sắp xếp lịch trình cá nhân..",
-                "evidence_en": "Passengers have to rely on fixed schedules and routes. As a result, they may have difficulty arranging their personal schedules."
+                "point_vi": "Việc sử dụng phương tiện công cộng thiếu tính linh hoạt cho người đi lại.",
+                "point_en": "Using public transport lacks flexibility for commuters.",
+                "evidence_vi": "Giao thông công cộng vận hành hoàn toàn dựa trên lịch trình cố định và các tuyến đường định sẵn. Vì lý do này, hành khách có thể gặp nhiều khó khăn và bất tiện khi cần đi đến các khu vực xa xôi hoặc khi có việc gấp.",
+                "evidence_en": "Public transit operates strictly on predetermined schedules and fixed routes. For this reason, passengers may encounter difficulties when attempting to travel to remote locations or during emergencies."
               },
               {
-                "title": "BẤT LỢI 03: LO NGẠI VỀ AN NINH VÀ AN TOÀN",
+                "title": "BẤT LỢI 03: TÌNH TRẠNG CHẬM TRỄ (DELAYS)",
                 "collocations": [
                   {
-                    "en": "safety and security concerns",
-                    "vi": "lo ngại về an ninh và an toàn"
+                    "en": "unexpected schedule disruptions",
+                    "vi": "gián đoạn lịch trình bất ngờ"
                   },
                   {
-                    "en": "theft",
-                    "vi": "mất cắp"
+                    "en": "mechanical failures",
+                    "vi": "sự cố cơ khí / kỹ thuật"
                   },
                   {
-                    "en": "pickpocketing",
-                    "vi": "móc túi"
-                  },
-                  {
-                    "en": "crowded places",
-                    "vi": "nơi đông người"
-                  },
-                  {
-                    "en": "feel unsafe",
-                    "vi": "cảm thấy không an toàn"
+                    "en": "adverse weather conditions",
+                    "vi": "điều kiện thời tiết bất lợi"
                   }
                 ],
-                "point_vi": "Giao thông công cộng có thể gây ra những lo ngại về an ninh và an toàn.",
-                "point_en": "Public transport may create safety and security concerns.",
-                "evidence_vi": "Tình trạng mất cắp hoặc móc túi có thể xảy ra ở những nơi đông người. Điều này có thể khiến một số hành khách cảm thấy không an toàn khi sử dụng các phương tiện này.",
-                "evidence_en": "Theft or pickpocketing may occur in crowded places. As a result, some passengers may feel unsafe when using these services."
+                "point_vi": "Người tham gia giao thông công cộng có thể gặp phải tình trạng trễ giờ.",
+                "point_en": "Commuters may experience unexpected delays.",
+                "evidence_vi": "Lịch trình có thể bị gián đoạn do tắc nghẽn giao thông, sự cố kỹ thuật của phương tiện hoặc thời tiết xấu. Do đó, hành khách có thể bị trễ giờ làm hoặc giờ học, làm đảo lộn kế hoạch làm việc trong ngày.",
+                "evidence_en": "Services may be disrupted by severe traffic congestion, mechanical failures, or adverse weather conditions. Consequently, passengers may arrive late for school or work, causing disruption to their daily plans."
+              },
+              {
+                "title": "BẤT LỢI 04: THIẾU SỰ RIÊNG TƯ (LESS PRIVACY)",
+                "collocations": [
+                  {
+                    "en": "compromised personal privacy",
+                    "vi": "sự riêng tư bị ảnh hưởng"
+                  },
+                  {
+                    "en": "enclosed public spaces",
+                    "vi": "không gian công cộng khép kín"
+                  },
+                  {
+                    "en": "ambient noise",
+                    "vi": "tiếng ồn xung quanh"
+                  },
+                  {
+                    "en": "disturbances",
+                    "vi": "sự phiền toái"
+                  }
+                ],
+                "point_vi": "Giao thông công cộng mang lại ít không gian riêng tư cho người dùng.",
+                "point_en": "Public transport offers less privacy for passengers.",
+                "evidence_vi": "Việc dùng chung không gian kín với nhiều người lạ chắc chắn làm suy giảm sự riêng tư của cá nhân. Thêm vào đó, tiếng ồn và sự xao nhãng từ những người xung quanh khiến hành khách rất khó thư giãn hoặc tập trung làm việc.",
+                "evidence_en": "Sharing enclosed spaces with numerous unfamiliar passengers inevitably compromises personal privacy. In addition, ambient noise and disturbances make it challenging for commuters to rest or concentrate."
+              },
+              {
+                "title": "BẤT LỢI 05: LO NGẠI VỀ SỨC KHỎE VÀ VỆ SINH (HEALTH AND HYGIENE CONCERNS)",
+                "collocations": [
+                  {
+                    "en": "health and sanitation concerns",
+                    "vi": "lo ngại về sức khỏe và vệ sinh"
+                  },
+                  {
+                    "en": "close physical proximity",
+                    "vi": "khoảng cách vật lý gần"
+                  },
+                  {
+                    "en": "transmission of germs",
+                    "vi": "sự lây truyền vi khuẩn"
+                  },
+                  {
+                    "en": "sanitary conditions",
+                    "vi": "điều kiện vệ sinh"
+                  }
+                ],
+                "point_vi": "Phương tiện công cộng có thể gây ra những lo ngại về sức khỏe và vệ sinh.",
+                "point_en": "Public transport can raise health and hygiene concerns.",
+                "evidence_vi": "Sự tiếp xúc gần trong các toa xe đông đúc tạo điều kiện thuận lợi cho các loại vi khuẩn và virus lây truyền nhanh chóng. Hơn nữa, một số phương tiện không được khử khuẩn định kỳ có thể gây ra những nguy cơ sức khỏe tiềm ẩn cho hành khách.",
+                "evidence_en": "Close physical proximity in crowded vehicles facilitates the rapid transmission of infectious germs and viruses. Furthermore, poorly sanitized interiors may expose vulnerable commuters to health hazards."
               }
             ]
           },
@@ -3372,7 +3528,8 @@ const ESSAY_DATA = [
               "en": "safety and security concerns",
               "vi": "lo ngại về an toàn và an ninh"
             }
-          ]
+          ],
+          "mindmap_img": "public_transport_mindmap.jpg"
         },
         "id": 5,
         "paraphrases": [
@@ -9015,103 +9172,133 @@ const ESSAY_DATA = [
           "ideas_b1": {
             "benefits": [
               {
-                "title": "ADVANTAGE 01",
+                "title": "LỢI ÍCH 01: CUNG CẤP NHIỀU NGUỒN TÀI LIỆU (PROVIDE MORE LEARNING RESOURCES)",
                 "collocations": [
                   {
                     "en": "multiple textbooks",
                     "vi": "nhiều sách giáo khoa"
                   },
                   {
-                    "en": "understand lessons deeply",
-                    "vi": "hiểu bài sâu hơn"
+                    "en": "diverse learning resources",
+                    "vi": "nguồn tài liệu học tập đa dạng"
                   },
                   {
                     "en": "different explanations",
                     "vi": "các cách giải thích khác nhau"
                   },
                   {
-                    "en": "access more examples",
-                    "vi": "tiếp cận nhiều ví dụ hơn"
+                    "en": "more examples and exercises",
+                    "vi": "nhiều ví dụ và bài tập hơn"
                   },
                   {
-                    "en": "difficult content",
-                    "vi": "nội dung khó"
-                  },
-                  {
-                    "en": "effective learning",
-                    "vi": "việc học tập hiệu quả"
+                    "en": "wider range of information",
+                    "vi": "phạm vi thông tin rộng hơn"
                   }
                 ],
-                "point_vi": "Việc sử dụng nhiều sách giáo khoa giúp học sinh hiểu bài sâu hơn.",
-                "point_en": "Using multiple textbooks helps students understand lessons more deeply.",
-                "evidence_vi": "Các sách khác nhau có thể giải thích cùng một nội dung theo những cách khác nhau. Học sinh có thể tiếp cận nhiều ví dụ hơn. Điều này giúp các em hiểu rõ hơn những nội dung khó. Nhờ đó, việc học trở nên hiệu quả hơn.",
-                "evidence_en": "Different textbooks can explain the same content in different ways. Students can access more examples. This helps them understand difficult content better. As a result, learning becomes more effective."
+                "point_vi": "Việc sử dụng nhiều sách giáo khoa cung cấp cho học sinh nguồn tài liệu học tập đa dạng hơn.",
+                "point_en": "Using multiple textbooks provides students with more diverse learning resources.",
+                "evidence_vi": "Các cuốn sách khác nhau giải thích cùng một chủ đề theo những cách khác nhau. Thêm vào đó, học sinh có cơ hội tiếp cận nhiều ví dụ và bài tập thực hành hơn. Nhờ đó, các em có thể tiếp nhận được lượng thông tin phong phú và toàn diện hơn.",
+                "evidence_en": "Different books explain the same topic in different ways. In addition, students have access to more examples and exercises to practice. As a result, they can acquire a wider range of information."
               },
               {
-                "title": "ADVANTAGE 02",
+                "title": "LỢI ÍCH 02: ĐÁP ỨNG NHU CẦU HỌC TẬP KHÁC NHAU (MEET DIFFERENT LEARNING NEEDS)",
                 "collocations": [
                   {
-                    "en": "match students' levels",
-                    "vi": "phù hợp với trình độ học sinh"
+                    "en": "meet different learning needs",
+                    "vi": "đáp ứng nhu cầu học tập khác nhau"
                   },
                   {
-                    "en": "learning needs",
-                    "vi": "nhu cầu học tập"
+                    "en": "learning styles",
+                    "vi": "phong cách học tập"
                   },
                   {
-                    "en": "differ in difficulty",
-                    "vi": "khác nhau về độ khó"
+                    "en": "levels of ability",
+                    "vi": "mức độ năng lực"
                   },
                   {
-                    "en": "choose suitable books",
-                    "vi": "chọn sách phù hợp"
-                  },
-                  {
-                    "en": "understand lessons easily",
-                    "vi": "dễ tiếp thu bài học"
-                  },
-                  {
-                    "en": "learn confidently",
-                    "vi": "học tập tự tin"
+                    "en": "different interests",
+                    "vi": "những sở thích khác nhau"
                   }
                 ],
-                "point_vi": "Nhiều sách giáo khoa giúp giáo viên lựa chọn tài liệu phù hợp hơn với trình độ và nhu cầu của học sinh.",
-                "point_en": "Multiple textbooks help teachers choose materials that better match students' levels and needs.",
-                "evidence_vi": "Các sách có thể khác nhau về độ khó và nội dung. Giáo viên có thể chọn sách phù hợp với từng nhóm học sinh. Điều này giúp học sinh dễ tiếp thu kiến thức hơn. Nhờ đó, các em có thể học tập tự tin và hiệu quả hơn.",
-                "evidence_en": "Textbooks can differ in difficulty and content. Teachers can choose suitable books for different groups of students. This makes it easier for students to understand the lessons. As a result, they can learn more confidently and effectively."
+                "point_vi": "Nhiều bộ sách giáo khoa giúp đáp ứng các nhu cầu học tập đa dạng của từng học sinh.",
+                "point_en": "Having multiple textbooks helps meet the varied learning needs of different students.",
+                "evidence_vi": "Các bộ sách khác nhau có thể phù hợp với những phong cách học tập khác nhau như thị giác, thính giác hoặc đọc hiểu. Hơn nữa, học sinh ở các mức độ năng lực khác nhau đều có thể tìm thấy tài liệu phù hợp. Vì vậy, các bài học sẽ thu hút được nhiều sở thích đa dạng của học sinh.",
+                "evidence_en": "Different textbooks can suit different learning styles such as visual, auditory, or reading learners. Moreover, students with different levels of ability can find suitable materials. Therefore, lessons can appeal to students' different interests."
               },
               {
-                "title": "ADVANTAGE 03",
+                "title": "LỢI ÍCH 03: TĂNG TÍNH LINH HOẠT CHO GIÁO VIÊN (GIVE TEACHERS MORE FLEXIBILITY)",
                 "collocations": [
                   {
-                    "en": "learning resources",
-                    "vi": "nguồn tài liệu học tập"
+                    "en": "flexibility in instruction",
+                    "vi": "sự linh hoạt trong giảng dạy"
                   },
                   {
-                    "en": "review knowledge",
-                    "vi": "ôn tập kiến thức"
+                    "en": "appropriate content",
+                    "vi": "nội dung phù hợp"
                   },
                   {
-                    "en": "reinforce learned lessons",
-                    "vi": "củng cố bài đã học"
+                    "en": "adapt lessons",
+                    "vi": "điều chỉnh bài học"
                   },
                   {
-                    "en": "find more information",
-                    "vi": "tìm thêm thông tin"
+                    "en": "teaching methods",
+                    "vi": "phương pháp giảng dạy"
+                  }
+                ],
+                "point_vi": "Nhiều bộ sách giáo khoa mang lại cho giáo viên sự linh hoạt lớn hơn trong giảng dạy.",
+                "point_en": "Multiple textbooks give teachers greater flexibility in instruction.",
+                "evidence_vi": "Giáo viên có thể lựa chọn nội dung phù hợp nhất cho lớp học cụ thể của mình. Bên cạnh đó, thầy cô có thể dễ dàng điều chỉnh bài học cho phù hợp với nhu cầu thực tế của học sinh. Điều này cho phép giáo viên áp dụng các phương pháp giảng dạy khác nhau một cách hiệu quả.",
+                "evidence_en": "Teachers can select the most appropriate content for their specific classes. Besides, they can easily adapt lessons to match students' real needs. This allows educators to use different teaching methods effectively."
+              },
+              {
+                "title": "LỢI ÍCH 04: CẢI THIỆN TRẢI NGHIỆM HỌC TẬP (IMPROVE LEARNING EXPERIENCE)",
+                "collocations": [
+                  {
+                    "en": "improve learning experience",
+                    "vi": "cải thiện trải nghiệm học tập"
                   },
+                  {
+                    "en": "interesting materials",
+                    "vi": "tài liệu thú vị"
+                  },
+                  {
+                    "en": "less repetitive learning",
+                    "vi": "học tập bớt sự lặp lại"
+                  },
+                  {
+                    "en": "motivation to study",
+                    "vi": "động lực học tập"
+                  }
+                ],
+                "point_vi": "Nhiều bộ sách giáo khoa giúp nâng cao trải nghiệm học tập tổng thể của học sinh.",
+                "point_en": "Multiple textbooks help improve students' overall learning experience.",
+                "evidence_vi": "Học sinh được học từ những nguồn tài liệu thú vị và cuốn hút hơn. Việc học cũng bớt đi sự rập khuôn, lặp lại so với việc chỉ dùng duy nhất một cuốn sách cố định. Nhờ đó, các em có thêm nhiều động lực và niềm hứng khởi khi học tập.",
+                "evidence_en": "Students can learn from more interesting and engaging materials. Also, studying is less repetitive compared to using only one standard book. As a result, students develop greater motivation to study."
+              },
+              {
+                "title": "LỢI ÍCH 05: PHÁT TRIỂN NĂNG LỰC TỰ HỌC (DEVELOP INDEPENDENT LEARNING)",
+                "collocations": [
                   {
                     "en": "independent learning skills",
-                    "vi": "kỹ năng tự học"
+                    "vi": "kỹ năng tự học tự chủ"
                   },
                   {
-                    "en": "self-study ability",
-                    "vi": "khả năng tự học"
+                    "en": "compare different sources",
+                    "vi": "so sánh các nguồn khác nhau"
+                  },
+                  {
+                    "en": "evaluate information",
+                    "vi": "đánh giá thông tin"
+                  },
+                  {
+                    "en": "self-study skills",
+                    "vi": "kỹ năng tự học"
                   }
                 ],
-                "point_vi": "Việc sử dụng nhiều sách giáo khoa cung cấp cho học sinh nhiều nguồn tài liệu học tập hơn.",
-                "point_en": "Using multiple textbooks provides students with more learning resources.",
-                "evidence_vi": "Học sinh có thể sử dụng các sách khác nhau để ôn tập kiến thức. Các em có thể củng cố những nội dung đã học. Các tài liệu khác nhau giúp học sinh tìm thêm thông tin. Nhờ đó, các em có thể phát triển khả năng tự học.",
-                "evidence_en": "Students can use different books to review their knowledge. They can reinforce what they have learned. Different materials help students find more information. As a result, they can develop their independent learning skills."
+                "point_vi": "Sử dụng nhiều sách giáo khoa khuyến khích học sinh phát triển kỹ năng tự học tự chủ.",
+                "point_en": "Using multiple textbooks encourages students to develop independent learning skills.",
+                "evidence_vi": "Học sinh học được cách so sánh và đối chiếu thông tin từ nhiều nguồn khác nhau. Ngoài ra, các em có thể rèn luyện việc đánh giá và chọn lọc những tài liệu hữu ích. Vì vậy, các em sẽ trở nên tự tin hơn trong các kỹ năng tự nghiên cứu.",
+                "evidence_en": "Students learn how to compare information from different sources. In addition, they can practice evaluating which materials are useful. Therefore, they become more confident in self-study skills."
               }
             ],
             "drawbacks": []
@@ -9119,103 +9306,109 @@ const ESSAY_DATA = [
           "ideas_b2": {
             "benefits": [
               {
-                "title": "ADVANTAGE 01",
+                "title": "LỢI ÍCH 01: CUNG CẤP NHIỀU NGUỒN TÀI LIỆU (PROVIDE MORE LEARNING RESOURCES)",
                 "collocations": [
                   {
-                    "en": "deeper understanding",
-                    "vi": "sự hiểu biết sâu sắc hơn"
+                    "en": "diverse educational methodologies",
+                    "vi": "các phương pháp luận giáo dục đa dạng"
                   },
                   {
-                    "en": "present the same content",
-                    "vi": "trình bày cùng một nội dung"
+                    "en": "extensive academic repository",
+                    "vi": "kho học liệu học thuật phong phú"
                   },
                   {
-                    "en": "wider range of approaches",
-                    "vi": "nhiều cách tiếp cận rộng hơn"
-                  },
-                  {
-                    "en": "different perspectives",
-                    "vi": "nhiều góc độ khác nhau"
-                  },
-                  {
-                    "en": "complex content",
-                    "vi": "nội dung phức tạp"
-                  },
-                  {
-                    "en": "learn more effectively",
-                    "vi": "học tập hiệu quả hơn"
+                    "en": "synthesize academic information",
+                    "vi": "tổng hợp thông tin học thuật"
                   }
                 ],
-                "point_vi": "Việc sử dụng nhiều sách giáo khoa giúp học sinh có sự hiểu biết sâu hơn về kiến thức được học.",
-                "point_en": "Using multiple textbooks helps students develop a deeper understanding of the knowledge they learn.",
-                "evidence_vi": "Các sách khác nhau có thể trình bày cùng một nội dung bằng những cách giải thích khác nhau. Chúng cũng cung cấp nhiều ví dụ và cách tiếp cận khác nhau. Điều này giúp học sinh nhìn nhận kiến thức từ nhiều góc độ hơn. Nhờ đó, các em có thể hiểu rõ hơn những nội dung phức tạp. Điều này giúp học sinh học tập hiệu quả hơn.",
-                "evidence_en": "Different textbooks can present the same content through different explanations. They also provide a wider range of examples and approaches. This allows students to understand knowledge from different perspectives. As a result, they can understand complex content more clearly. This helps students learn more effectively."
+                "point_vi": "Việc sử dụng nhiều sách giáo khoa cung cấp cho học sinh nguồn tài liệu học tập đa dạng hơn.",
+                "point_en": "Using multiple textbooks provides students with more diverse learning resources.",
+                "evidence_vi": "Nhiều bộ sách giáo khoa trình bày nội dung giáo dục thông qua các cách giải thích và phương pháp luận đa dạng. Hơn nữa, chúng cung cấp kho bài tập bổ trợ và ví dụ minh họa phong phú. Hệ quả là người học có thể tổng hợp được một phạm vi kiến thức học thuật toàn diện.",
+                "evidence_en": "Multiple textbooks present educational content through varied explanations and methodologies. Furthermore, they supply an extensive repository of supplementary exercises and illustrative examples. Consequently, learners can synthesize a comprehensive range of academic information."
               },
               {
-                "title": "ADVANTAGE 02",
+                "title": "LỢI ÍCH 02: ĐÁP ỨNG NHU CẦU HỌC TẬP KHÁC NHAU (MEET DIFFERENT LEARNING NEEDS)",
                 "collocations": [
                   {
-                    "en": "meet differences in levels",
-                    "vi": "đáp ứng sự khác biệt về trình độ"
+                    "en": "accommodate distinct learning styles",
+                    "vi": "đáp ứng các phong cách học khác nhau"
                   },
                   {
-                    "en": "differ in presentation",
-                    "vi": "khác nhau về cách trình bày"
+                    "en": "visual and auditory preferences",
+                    "vi": "sở thích thị giác và thính giác"
                   },
                   {
-                    "en": "suit student abilities",
-                    "vi": "phù hợp với khả năng học sinh"
-                  },
-                  {
-                    "en": "access suitable content",
-                    "vi": "tiếp cận nội dung phù hợp"
-                  },
-                  {
-                    "en": "feel more confident",
-                    "vi": "cảm thấy tự tin hơn"
-                  },
-                  {
-                    "en": "improve learning performance",
-                    "vi": "cải thiện hiệu quả học tập"
+                    "en": "tailored to aptitude levels",
+                    "vi": "tùy chỉnh theo mức độ năng lực"
                   }
                 ],
-                "point_vi": "Việc có nhiều sách giáo khoa giúp trường học đáp ứng tốt hơn sự khác biệt về trình độ và nhu cầu học tập của học sinh.",
-                "point_en": "Having multiple textbooks allows schools to better meet differences in students' levels and learning needs.",
-                "evidence_vi": "Các sách có thể khác nhau về nội dung, độ khó và cách trình bày. Giáo viên có thể lựa chọn tài liệu phù hợp với khả năng của từng nhóm học sinh. Điều này giúp học sinh tiếp cận nội dung phù hợp hơn. Học sinh có thể cảm thấy tự tin hơn khi học. Nhờ đó, hiệu quả học tập có thể được cải thiện.",
-                "evidence_en": "Textbooks can differ in content, difficulty, and presentation. Teachers can select materials that suit the abilities of different groups of students. This helps students access more suitable content. Students may feel more confident when learning. As a result, learning performance can be improved."
+                "point_vi": "Nhiều bộ sách giáo khoa giúp đáp ứng các nhu cầu học tập đa dạng của từng học sinh.",
+                "point_en": "Having multiple textbooks helps meet the varied learning needs of different students.",
+                "evidence_vi": "Chương trình giảng dạy với nhiều bộ sách giáo khoa đa dạng đáp ứng hiệu quả các phong cách học tập khác nhau, bao gồm cả sở thích thị giác và thính giác. Ngoài ra, tài liệu có thể được điều chỉnh theo các cấp độ năng lực khác nhau, đảm bảo mọi học sinh đều được thử thách phù hợp. Nhờ đó, nhà trường có thể kích thích sở thích học thuật đa dạng của học sinh.",
+                "evidence_en": "Curricula featuring diverse textbooks effectively accommodate distinct learning styles, including visual and auditory preferences. Additionally, materials can be tailored to varying aptitude levels, ensuring that all learners are challenged appropriately. As a result, educational institutions can stimulate students' diverse academic interests."
               },
               {
-                "title": "ADVANTAGE 03",
+                "title": "LỢI ÍCH 03: TĂNG TÍNH LINH HOẠT CHO GIÁO VIÊN (GIVE TEACHERS MORE FLEXIBILITY)",
                 "collocations": [
                   {
-                    "en": "additional resources",
-                    "vi": "nguồn tài liệu bổ sung"
+                    "en": "empower educators",
+                    "vi": "trao quyền cho các nhà giáo"
                   },
                   {
-                    "en": "support the learning process",
-                    "vi": "hỗ trợ quá trình học tập"
+                    "en": "customize instructional materials",
+                    "vi": "tùy biến tài liệu giảng dạy"
                   },
                   {
-                    "en": "review and reinforce",
-                    "vi": "ôn tập và củng cố"
-                  },
-                  {
-                    "en": "fill gaps in knowledge",
-                    "vi": "lấp đầy khoảng trống kiến thức"
-                  },
-                  {
-                    "en": "diverse learning approaches",
-                    "vi": "các cách tiếp cận học tập đa dạng"
-                  },
-                  {
-                    "en": "autonomous learning skills",
-                    "vi": "kỹ năng tự học tự chủ"
+                    "en": "deploy innovative pedagogies",
+                    "vi": "triển khai phương pháp sư phạm đổi mới"
                   }
                 ],
-                "point_vi": "Việc sử dụng nhiều sách giáo khoa cung cấp thêm nguồn tài liệu để hỗ trợ quá trình học tập.",
-                "point_en": "Using multiple textbooks provides additional resources to support the learning process.",
-                "evidence_vi": "Học sinh có thể sử dụng nhiều sách để ôn tập và củng cố những kiến thức đã học. Các em có thể tìm thêm thông tin từ những tài liệu khác nhau. Điều này giúp các em lấp đầy những khoảng trống về kiến thức. Học sinh có thể tiếp cận nhiều cách học khác nhau. Nhờ đó, các em có thể phát triển khả năng tự học.",
-                "evidence_en": "Students can use different books to review and reinforce what they have learned. They can find more information from different materials. This helps them fill gaps in their knowledge. Students can access different learning approaches. As a result, they can develop their independent learning skills."
+                "point_vi": "Nhiều bộ sách giáo khoa mang lại cho giáo viên sự linh hoạt lớn hơn trong giảng dạy.",
+                "point_en": "Multiple textbooks give teachers greater flexibility in instruction.",
+                "evidence_vi": "Các nhà giáo dục được trao quyền tự chủ lựa chọn nội dung bài giảng phù hợp nhất với đặc thù lớp học. Hơn nữa, giảng viên có thể dễ dàng tùy chỉnh tài liệu giảng dạy để thích ứng với mức độ tiếp thu của học sinh. Do đó, giáo viên có thể triển khai các phương pháp sư phạm đổi mới để tối đa hóa hiệu quả giảng dạy.",
+                "evidence_en": "Educators are empowered to select curriculum content that best aligns with classroom dynamics. Furthermore, instructors can readily customize instructional materials to accommodate student comprehension levels. Consequently, teachers can deploy innovative pedagogies to maximize instructional efficacy."
+              },
+              {
+                "title": "LỢI ÍCH 04: CẢI THIỆN TRẢI NGHIỆM HỌC TẬP (IMPROVE LEARNING EXPERIENCE)",
+                "collocations": [
+                  {
+                    "en": "multidimensional content",
+                    "vi": "nội dung đa chiều"
+                  },
+                  {
+                    "en": "prevent curricular monotony",
+                    "vi": "ngăn chặn sự đơn điệu trong chương trình"
+                  },
+                  {
+                    "en": "intrinsic motivation",
+                    "vi": "động lực nội tại"
+                  }
+                ],
+                "point_vi": "Nhiều bộ sách giáo khoa giúp nâng cao trải nghiệm học tập tổng thể của học sinh.",
+                "point_en": "Multiple textbooks help improve students' overall learning experience.",
+                "evidence_vi": "Việc tiếp xúc với các ấn phẩm đa dạng làm phong phú môi trường lớp học bằng những nội dung đa chiều, cuốn hút. Hơn nữa, điều này ngăn chặn sự đơn điệu bằng cách giảm bớt sự phụ thuộc rập khuôn vào một cuốn sách duy nhất. Do vậy, người học nuôi dưỡng được sự gắn kết học tập cao hơn và động lực nội tại mạnh mẽ.",
+                "evidence_en": "Exposure to varied publications enriches the classroom environment with engaging, multidimensional content. Moreover, it prevents monotony by reducing repetitive, rigid textbook reliance. Hence, learners cultivate heightened academic engagement and intrinsic motivation."
+              },
+              {
+                "title": "LỢI ÍCH 05: PHÁT TRIỂN NĂNG LỰC TỰ HỌC (DEVELOP INDEPENDENT LEARNING)",
+                "collocations": [
+                  {
+                    "en": "cultivate critical thinking",
+                    "vi": "bồi dưỡng tư duy phản biện"
+                  },
+                  {
+                    "en": "contrast diverse perspectives",
+                    "vi": "đối chiếu các góc nhìn đa dạng"
+                  },
+                  {
+                    "en": "autonomous learning competencies",
+                    "vi": "năng lực tự học tự chủ"
+                  }
+                ],
+                "point_vi": "Sử dụng nhiều sách giáo khoa khuyến khích học sinh phát triển kỹ năng tự học tự chủ.",
+                "point_en": "Using multiple textbooks encourages students to develop independent learning skills.",
+                "evidence_vi": "Việc tiếp cận nhiều văn bản đa dạng giúp bồi dưỡng tư duy phản biện khi học sinh đối chiếu các góc nhìn khác nhau. Hơn nữa, người học trau dồi năng lực phân tích để đánh giá và tổng hợp thông tin đáng tin cậy. Cuối cùng, điều này thúc đẩy năng lực tự học vững chắc và thói quen học tập suốt đời.",
+                "evidence_en": "Navigating diverse texts cultivates critical thinking as students contrast perspectives from alternative authorities. Furthermore, learners refine their analytical capacity to evaluate and synthesize credible information. Ultimately, this fosters robust autonomous learning competencies and lifelong study habits."
               }
             ],
             "drawbacks": []
@@ -9369,7 +9562,8 @@ const ESSAY_DATA = [
           "sample_b1": "In recent years, <strong>having multiple textbooks in education</strong> has become more common in modern society. Many people see this as a positive development. <strong>This essay will discuss the main advantages of this topic.</strong>\n\nOne main advantage is that <strong><em>using multiple textbooks helps students understand lessons more deeply.</em></strong> Different textbooks can explain the same content in different ways. Students can access more examples. This helps them understand difficult content better. As a result, learning becomes more effective.\n\nAnother positive aspect is that <strong><em>multiple textbooks help teachers choose materials that better match students' levels and needs.</em></strong> Textbooks can differ in difficulty and content. Teachers can choose suitable books for different groups of students. This makes it easier for students to understand the lessons. As a result, they can learn more confidently and effectively.\n\nA further benefit is that <strong><em>using multiple textbooks provides students with more learning resources.</em></strong> Students can use different books to review their knowledge. They can reinforce what they have learned. Different materials help students find more information. As a result, they can develop their independent learning skills.\n\nIn conclusion, <strong>having multiple textbooks in education</strong> offers several benefits. These advantages make it useful for many people. Overall, it is a positive development in modern society.",
           "translation_b1": "Trong những năm gần đây, <strong>việc sử dụng nhiều sách giáo khoa trong giáo dục</strong> đã trở nên phổ biến hơn trong xã hội hiện đại. Nhiều người xem đây là một sự phát triển tích cực. <strong>Bài tiểu luận này sẽ thảo luận về những lợi thế chính của chủ đề này.</strong>\n\nMột lợi thế chính là <strong><em>việc sử dụng nhiều sách giáo khoa giúp học sinh hiểu bài sâu hơn.</em></strong> Các sách khác nhau có thể giải thích cùng một nội dung theo những cách khác nhau. Học sinh có thể tiếp cận nhiều ví dụ hơn. Điều này giúp các em hiểu rõ hơn những nội dung khó. Nhờ đó, việc học trở nên hiệu quả hơn.\n\nMột khía cạnh tích cực khác là <strong><em>nhiều sách giáo khoa giúp giáo viên lựa chọn tài liệu phù hợp hơn với trình độ và nhu cầu của học sinh.</em></strong> Các sách có thể khác nhau về độ khó và nội dung. Giáo viên có thể chọn sách phù hợp với từng nhóm học sinh. Điều này giúp học sinh dễ tiếp thu kiến thức hơn. Nhờ đó, các em có thể học tập tự tin và hiệu quả hơn.\n\nMột lợi ích nữa là <strong><em>việc sử dụng nhiều sách giáo khoa cung cấp cho học sinh nhiều nguồn tài liệu học tập hơn.</em></strong> Học sinh có thể sử dụng các sách khác nhau để ôn tập kiến thức. Các em có thể củng cố những nội dung đã học. Các tài liệu khác nhau giúp học sinh tìm thêm thông tin. Nhờ đó, các em có thể phát triển khả năng tự học.\n\nTóm lại, <strong>việc sử dụng nhiều sách giáo khoa trong giáo dục</strong> mang lại một số lợi ích. Những lợi thế này làm cho nó hữu ích cho nhiều người. Nhìn chung, đó là một sự phát triển tích cực trong xã hội hiện đại.",
           "sample_b2": "In recent years, <strong>having multiple textbooks in education</strong> has become increasingly prevalent in modern society. This has led to a range of benefits across different contexts. <strong>This essay will focus on the main advantages associated with it.</strong>\n\nOne major benefit is that <strong><em>using multiple textbooks helps students develop a deeper understanding of the knowledge they learn.</em></strong> Different textbooks can present the same content through different explanations. They also provide a wider range of examples and approaches. This allows students to understand knowledge from different perspectives. As a result, they can understand complex content more clearly. This helps students learn more effectively.\n\nAnother positive effect is that <strong><em>having multiple textbooks allows schools to better meet differences in students' levels and learning needs.</em></strong> Textbooks can differ in content, difficulty, and presentation. Teachers can select materials that suit the abilities of different groups of students. This helps students access more suitable content. Students may feel more confident when learning. As a result, learning performance can be improved.\n\nA further aspect to consider is that <strong><em>using multiple textbooks provides additional resources to support the learning process.</em></strong> Students can use different books to review and reinforce what they have learned. They can find more information from different materials. This helps them fill gaps in their knowledge. Students can access different learning approaches. As a result, they can develop their independent learning skills.\n\nIn conclusion, <strong>having multiple textbooks in education</strong> offers several notable advantages. These positive aspects highlight its value in various areas of life. Overall, examining these factors provides a clearer understanding of the topic.",
-          "translation_b2": "Trong những năm gần đây, <strong>việc sử dụng nhiều sách giáo khoa trong giáo dục</strong> đã trở nên ngày càng phổ biến trong xã hội hiện đại. Điều này đã dẫn đến một loạt các lợi ích trong các bối cảnh khác nhau. <strong>Bài tiểu luận này sẽ tập trung vào những lợi thế chính liên quan đến nó.</strong>\n\nMột lợi ích lớn là <strong><em>việc sử dụng nhiều sách giáo khoa giúp học sinh có sự hiểu biết sâu hơn về kiến thức được học.</em></strong> Các sách khác nhau có thể trình bày cùng một nội dung bằng những cách giải thích khác nhau. Chúng cũng cung cấp nhiều ví dụ và cách tiếp cận khác nhau. Điều này giúp học sinh nhìn nhận kiến thức từ nhiều góc độ hơn. Nhờ đó, các em có thể hiểu rõ hơn những nội dung phức tạp. Điều này giúp học sinh học tập hiệu quả hơn.\n\nMột hiệu ứng tích cực khác là <strong><em>việc có nhiều sách giáo khoa giúp trường học đáp ứng tốt hơn sự khác biệt về trình độ và nhu cầu học tập của học sinh.</em></strong> Các sách có thể khác nhau về nội dung, độ khó và cách trình bày. Giáo viên có thể lựa chọn tài liệu phù hợp với khả năng của từng nhóm học sinh. Điều này giúp học sinh tiếp cận nội dung phù hợp hơn. Học sinh có thể cảm thấy tự tin hơn khi học. Nhờ đó, hiệu quả học tập có thể được cải thiện.\n\nMột khía cạnh nữa cần xem xét là <strong><em>việc sử dụng nhiều sách giáo khoa cung cấp thêm nguồn tài liệu để hỗ trợ quá trình học tập.</em></strong> Học sinh có thể sử dụng nhiều sách để ôn tập và củng cố những kiến thức đã học. Các em có thể tìm thêm thông tin từ những tài liệu khác nhau. Điều này giúp các em lấp đầy những khoảng trống về kiến thức. Học sinh có thể tiếp cận nhiều cách học khác nhau. Nhờ đó, các em có thể phát triển khả năng tự học.\n\nTóm lại, <strong>việc sử dụng nhiều sách giáo khoa trong giáo dục</strong> mang lại một số lợi thế đáng chú ý. Những khía cạnh tích cực này làm nổi bật giá trị của nó trong các lĩnh vực khác nhau của cuộc sống. Nhìn chung, việc xem xét các yếu tố này cung cấp một sự hiểu biết rõ ràng hơn về chủ đề."
+          "translation_b2": "Trong những năm gần đây, <strong>việc sử dụng nhiều sách giáo khoa trong giáo dục</strong> đã trở nên ngày càng phổ biến trong xã hội hiện đại. Điều này đã dẫn đến một loạt các lợi ích trong các bối cảnh khác nhau. <strong>Bài tiểu luận này sẽ tập trung vào những lợi thế chính liên quan đến nó.</strong>\n\nMột lợi ích lớn là <strong><em>việc sử dụng nhiều sách giáo khoa giúp học sinh có sự hiểu biết sâu hơn về kiến thức được học.</em></strong> Các sách khác nhau có thể trình bày cùng một nội dung bằng những cách giải thích khác nhau. Chúng cũng cung cấp nhiều ví dụ và cách tiếp cận khác nhau. Điều này giúp học sinh nhìn nhận kiến thức từ nhiều góc độ hơn. Nhờ đó, các em có thể hiểu rõ hơn những nội dung phức tạp. Điều này giúp học sinh học tập hiệu quả hơn.\n\nMột hiệu ứng tích cực khác là <strong><em>việc có nhiều sách giáo khoa giúp trường học đáp ứng tốt hơn sự khác biệt về trình độ và nhu cầu học tập của học sinh.</em></strong> Các sách có thể khác nhau về nội dung, độ khó và cách trình bày. Giáo viên có thể lựa chọn tài liệu phù hợp với khả năng của từng nhóm học sinh. Điều này giúp học sinh tiếp cận nội dung phù hợp hơn. Học sinh có thể cảm thấy tự tin hơn khi học. Nhờ đó, hiệu quả học tập có thể được cải thiện.\n\nMột khía cạnh nữa cần xem xét là <strong><em>việc sử dụng nhiều sách giáo khoa cung cấp thêm nguồn tài liệu để hỗ trợ quá trình học tập.</em></strong> Học sinh có thể sử dụng nhiều sách để ôn tập và củng cố những kiến thức đã học. Các em có thể tìm thêm thông tin từ những tài liệu khác nhau. Điều này giúp các em lấp đầy những khoảng trống về kiến thức. Học sinh có thể tiếp cận nhiều cách học khác nhau. Nhờ đó, các em có thể phát triển khả năng tự học.\n\nTóm lại, <strong>việc sử dụng nhiều sách giáo khoa trong giáo dục</strong> mang lại một số lợi thế đáng chú ý. Những khía cạnh tích cực này làm nổi bật giá trị của nó trong các lĩnh vực khác nhau của cuộc sống. Nhìn chung, việc xem xét các yếu tố này cung cấp một sự hiểu biết rõ ràng hơn về chủ đề.",
+          "mindmap_img": "multiple_textbooks_mindmap.jpg"
         }
       },
       {

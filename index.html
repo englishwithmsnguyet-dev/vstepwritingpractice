@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>LUYỆN TẬP VIẾT LUẬN - VSTEP WRITING TASK 02</title>
   <!-- Main Stylesheet -->
-  <link rel="stylesheet" href="styles.css?v=61">
+  <link rel="stylesheet" href="styles.css?v=62">
 </head>
 <body>
 
@@ -556,6 +556,19 @@
     </div>
   </div>
 
+  <!-- MINDMAP PREVIEW MODAL -->
+  <div class="modal-overlay" id="mindmap-modal" onclick="if(event.target===this)closeMindmapModal()">
+    <div class="modal-content" style="max-width: 900px; width: 95%;">
+      <div class="modal-header">
+        <h3 class="modal-title" id="mindmap-modal-title">Sơ đồ tư duy mở rộng (Mindmap)</h3>
+        <button class="modal-close" onclick="closeMindmapModal()">✕</button>
+      </div>
+      <div class="modal-body" style="text-align: center; padding: 1.5rem; background: #fff; overflow-y: auto; max-height: 80vh;">
+        <img id="mindmap-modal-img" src="" alt="Mindmap" style="max-width: 100%; height: auto; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
+      </div>
+    </div>
+  </div>
+
   <!-- ACCESS GATEWAY (FULL SCREEN LOGIN) -->
   <div id="access-gateway" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: #2D333B; z-index: 99999; display: flex; align-items: center; justify-content: center; padding: 20px; box-sizing: border-box;">
     <div style="background-color: white; width: 100%; max-width: 480px; border-radius: 24px; padding: 40px 30px; box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04); display: flex; flex-direction: column; align-items: center; box-sizing: border-box;">
@@ -597,8 +610,8 @@
   <div id="toast-container"></div>
 
   <!-- Loaded global topic data -->
-  <script src="topics_db.js?v=61"></script>
+  <script src="topics_db.js?v=62"></script>
   <!-- Application Logic -->
-  <script src="app.js?v=61"></script>
+  <script src="app.js?v=62"></script>
 </body>
 </html>

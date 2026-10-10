@@ -3009,3 +3009,203 @@ h1, h2, h3, h4, h5, h6,
   }
 }
 
+/* --- Interactive Idea Selection System --- */
+.idea-selection-card {
+  border: 1px solid rgba(99, 102, 241, 0.35) !important;
+  background: linear-gradient(180deg, rgba(99, 102, 241, 0.04) 0%, rgba(30, 41, 59, 0.3) 100%) !important;
+  position: relative;
+  overflow: hidden;
+}
+
+.idea-selection-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.85rem;
+  border-bottom: 1px solid var(--panel-border);
+}
+
+.idea-selection-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 1.25rem;
+}
+
+.idea-group-col {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.idea-group-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.4rem 0.6rem;
+  background-color: rgba(255, 255, 255, 0.03);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--panel-border);
+}
+
+.idea-group-title {
+  font-weight: 700;
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.idea-group-title.benefit { color: var(--success); }
+.idea-group-title.drawback { color: var(--danger); }
+
+.idea-group-badge {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  background: rgba(99, 102, 241, 0.15);
+  color: var(--accent-primary);
+}
+
+.idea-checkbox-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  padding: 0.85rem 1rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--panel-border);
+  background: var(--bg-primary);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  position: relative;
+  user-select: none;
+}
+
+.idea-checkbox-card:hover {
+  border-color: var(--panel-hover-border);
+  transform: translateY(-1px);
+}
+
+.idea-checkbox-card.is-selected {
+  border-color: var(--accent-primary);
+  background: rgba(99, 102, 241, 0.08);
+  box-shadow: 0 0 10px rgba(99, 102, 241, 0.15);
+}
+
+.idea-checkbox-card.is-selected.benefit-card {
+  border-color: var(--success);
+  background: rgba(16, 185, 129, 0.06);
+}
+
+.idea-checkbox-card.is-selected.drawback-card {
+  border-color: var(--danger);
+  background: rgba(244, 63, 94, 0.06);
+}
+
+.idea-checkbox-custom {
+  margin-top: 0.2rem;
+  width: 18px;
+  height: 18px;
+  border-radius: 4px;
+  border: 2px solid var(--text-muted);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: all var(--transition-fast);
+}
+
+.idea-checkbox-card.is-selected .idea-checkbox-custom {
+  background-color: var(--accent-primary);
+  border-color: var(--accent-primary);
+}
+
+.idea-checkbox-card.is-selected.benefit-card .idea-checkbox-custom {
+  background-color: var(--success);
+  border-color: var(--success);
+}
+
+.idea-checkbox-card.is-selected.drawback-card .idea-checkbox-custom {
+  background-color: var(--danger);
+  border-color: var(--danger);
+}
+
+.idea-checkbox-custom svg {
+  display: none;
+  width: 12px;
+  height: 12px;
+  color: #fff;
+}
+
+.idea-checkbox-card.is-selected .idea-checkbox-custom svg {
+  display: block;
+}
+
+.idea-card-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.idea-card-title {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.idea-card-point {
+  font-size: 0.85rem;
+  line-height: 1.45;
+  color: var(--text-secondary);
+}
+
+.idea-checkbox-card.is-selected .idea-card-point {
+  color: var(--text-primary);
+}
+
+/* Outline checkbox and selected state */
+.outline-node.is-unselected {
+  opacity: 0.45;
+  border-style: dashed;
+}
+
+.outline-node.is-unselected:hover {
+  opacity: 0.8;
+}
+
+.outline-idea-checkbox {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  accent-color: var(--accent-primary);
+}
+
+.outline-idea-selector-banner {
+  margin-bottom: 0.75rem;
+  padding: 0.5rem 0.75rem;
+  background: rgba(99, 102, 241, 0.08);
+  border: 1px dashed var(--accent-primary);
+  border-radius: var(--radius-sm);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trans-selected-banner {
+  margin-bottom: 1.25rem;
+  padding: 0.85rem 1.25rem;
+  background: rgba(99, 102, 241, 0.08);
+  border: 1px solid rgba(99, 102, 241, 0.3);
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+

@@ -1479,6 +1479,69 @@ function splitSentences(text) {
   return sentences;
 }
 
+// --- Interactive Idea Selection Helpers ---
+function hasSelectableIdeas(topic) {
+  if (!topic || !topic.details || !topic.details.ideas_b1) return false;
+  const bCount = (topic.details.ideas_b1.benefits || []).length;
+  const dCount = (topic.details.ideas_b1.drawbacks || []).length;
+  return bCount > 3 || dCount > 3;
+}
+
+function getSelectedIdeaIndices(topic, groupType) {
+  if (!topic || !topic.details || !topic.details.ideas_b1) return [];
+  const items = (topic.details.ideas_b1[groupType] || []);
+  const total = items.length;
+  if (total <= 3) {
+    return items.map((_, i) => i);
+  }
+  const catId = (currentCategory && currentCategory.id) || 1;
+  const storageKey = `idea_sel_${catId}_${topic.id}_${groupType}`;
+  try {
+    const raw = localStorage.getItem(storageKey);
+    if (raw) {
+      const parsed = JSON.parse(raw);
+      if (Array.isArray(parsed) && parsed.length > 0) {
+        return parsed.filter(idx => idx >= 0 && idx < total);
+      }
+    }
+  } catch (e) {}
+
+  // Default selection if not yet set
+  const dCount = (topic.details.ideas_b1.drawbacks || []).length;
+  if (groupType === 'benefits' && dCount === 0) {
+    return [0, 1, 2].slice(0, total);
+  }
+  return [0, 1].slice(0, total);
+}
+
+function toggleIdeaSelection(groupType, index) {
+  const topic = currentTopic;
+  if (!topic || !hasSelectableIdeas(topic)) return;
+  const currentSelected = getSelectedIdeaIndices(topic, groupType);
+  const exists = currentSelected.includes(index);
+  let updated = [];
+  if (exists) {
+    if (currentSelected.length <= 1) {
+      showToast("Bạn nên chọn ít nhất 1 luận điểm để luyện tập nhé!", "warning");
+      return;
+    }
+    updated = currentSelected.filter(i => i !== index);
+  } else {
+    updated = [...currentSelected, index].sort((a, b) => a - b);
+  }
+  const catId = (currentCategory && currentCategory.id) || 1;
+  localStorage.setItem(`idea_sel_${catId}_${topic.id}_${groupType}`, JSON.stringify(updated));
+
+  // Re-render UI components
+  if (currentStepKey === 'read') {
+    renderStep1Reading();
+  } else if (currentStepKey === 'trans') {
+    renderTranslationExercises();
+  }
+  renderOutline();
+  showToast("Đã cập nhật lựa chọn luận điểm!", "info");
+}
+
 // Helper to build flat translation exercises list
 function buildTranslationExercises(topic, transLevel, category) {
   const ideasObj = transLevel === 'B1' ? topic.details.ideas_b1 : topic.details.ideas_b2;
@@ -1515,8 +1578,22 @@ function buildTranslationExercises(topic, transLevel, category) {
     }
   }
   
-  const group1Items = ideasObj.benefits || ideasObj.causes || ideasObj.reasons || ideasObj.views || ideasObj.factors;
-  const group2Items = ideasObj.drawbacks || ideasObj.effects || ideasObj.solutions || ideasObj.problems || ideasObj.measures;
+  const allGroup1 = ideasObj.benefits || ideasObj.causes || ideasObj.reasons || ideasObj.views || ideasObj.factors;
+  const allGroup2 = ideasObj.drawbacks || ideasObj.effects || ideasObj.solutions || ideasObj.problems || ideasObj.measures;
+
+  let group1Items = allGroup1;
+  let group2Items = allGroup2;
+
+  if (hasSelectableIdeas(topic)) {
+    if (allGroup1 && allGroup1.length > 3) {
+      const sel1 = getSelectedIdeaIndices(topic, 'benefits');
+      group1Items = allGroup1.filter((_, idx) => sel1.includes(idx));
+    }
+    if (allGroup2 && allGroup2.length > 3) {
+      const sel2 = getSelectedIdeaIndices(topic, 'drawbacks');
+      group2Items = allGroup2.filter((_, idx) => sel2.includes(idx));
+    }
+  }
 
   // Push group 1 (benefits / causes / reasons)
   if (group1Items && group1Items.length > 0) {
@@ -1604,6 +1681,28 @@ function renderTranslationExercises() {
   if (exercises.length === 0) {
     container.innerHTML = '<div class="empty-state">Chưa có bài tập dịch cho cấp độ này.</div>';
     return;
+  }
+
+  if (hasSelectableIdeas(topic)) {
+    const selB = getSelectedIdeaIndices(topic, 'benefits');
+    const selD = getSelectedIdeaIndices(topic, 'drawbacks');
+    const totalD = (topic.details.ideas_b1.drawbacks || []).length;
+    const banner = document.createElement('div');
+    banner.className = 'trans-selected-banner';
+    banner.innerHTML = `
+      <div>
+        <div style="font-weight: 700; color: var(--accent-primary); font-size: 0.95rem; display: flex; align-items: center; gap: 0.4rem;">
+          <span>🎯</span> Đang luyện tập diễn đạt cho: ${selB.length} Thuận lợi ${totalD > 0 ? `& ${selD.length} Bất lợi` : ''} bạn đã chọn
+        </div>
+        <div style="font-size: 0.82rem; color: var(--text-secondary); margin-top: 3px;">
+          (Khuyên chọn 2–3 ý mỗi phần để bài viết sâu sắc và vừa vặn). Bạn có thể đổi ý bất cứ lúc nào ở Bước 01 hoặc Cột Dàn ý bên trái.
+        </div>
+      </div>
+      <button class="btn btn-secondary" style="font-size: 0.8rem; padding: 0.4rem 0.8rem; font-weight: 600;" onclick="switchStep('read')">
+        ⚙️ Thay đổi lựa chọn ý ›
+      </button>
+    `;
+    container.appendChild(banner);
   }
   
   exercises.forEach((ex, idx) => {
@@ -3509,16 +3608,54 @@ function renderOutline() {
   const group1Items = ideasObj.benefits || ideasObj.causes || ideasObj.reasons || ideasObj.views || ideasObj.factors;
   const group2Items = ideasObj.drawbacks || ideasObj.effects || ideasObj.solutions || ideasObj.problems || ideasObj.measures;
 
+  const isSelectable = hasSelectableIdeas(topic);
+  const selB = isSelectable ? getSelectedIdeaIndices(topic, 'benefits') : [];
+  const selD = isSelectable ? getSelectedIdeaIndices(topic, 'drawbacks') : [];
+
+  if (isSelectable) {
+    const selBanner = document.createElement('div');
+    selBanner.className = 'outline-idea-selector-banner';
+    selBanner.innerHTML = `
+      <div style="font-weight: 700; font-size: 0.8rem; color: var(--accent-primary);">
+        🎯 Đang chọn: ${selB.length} thuận lợi ${group2Items && group2Items.length > 0 ? `& ${selD.length} bất lợi` : ''}
+      </div>
+      <div style="font-size: 0.72rem; color: var(--text-muted);">
+        (Tick chọn ý luyện viết)
+      </div>
+    `;
+    container.appendChild(selBanner);
+  }
+
+  if (topic.details && topic.details.mindmap_img) {
+    const mmBanner = document.createElement('div');
+    mmBanner.style.cssText = "margin-bottom: 0.75rem; padding: 0.6rem 0.75rem; background: rgba(99, 102, 241, 0.08); border: 1px dashed var(--primary); border-radius: var(--radius-sm); display: flex; align-items: center; justify-content: space-between; gap: 0.5rem;";
+    mmBanner.innerHTML = `
+      <div style="font-size: 0.8rem; color: var(--text-primary); font-weight: 600;">
+        💡 Sơ đồ tư duy (${group1Items ? group1Items.length : 5} lựa chọn)
+      </div>
+      <button class="btn btn-secondary" style="padding: 0.25rem 0.6rem; font-size: 0.75rem; font-weight: 600;" onclick="openMindmapModal('${topic.details.mindmap_img}', 'Sơ đồ tư duy: ${topic.title_vi || topic.title_en}')">
+        Xem Mindmap
+      </button>
+    `;
+    container.appendChild(mmBanner);
+  }
+
   if (group1Items && group1Items.length > 0) {
     group1Items.forEach((item, idx) => {
+      const isSelected = !isSelectable || group1Items.length <= 3 || selB.includes(idx);
       const node = document.createElement('div');
-      node.className = 'outline-node';
+      node.className = `outline-node ${isSelected ? 'is-selected' : 'is-unselected'}`;
       const nodeBodyId = `outline-node-benefit-${idx}`;
       
       node.innerHTML = `
         <div class="outline-node-header benefit" onclick="toggleAccordion('${nodeBodyId}')">
-          <span>${item.title || `${benefitLabel} 0${idx+1}`}</span>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width: 14px; height: 14px;">
+          <div style="display: flex; align-items: center; gap: 0.5rem; flex: 1; min-width: 0;">
+            ${(isSelectable && group1Items.length > 3) ? `
+              <input type="checkbox" class="outline-idea-checkbox" ${isSelected ? 'checked' : ''} onclick="event.stopPropagation(); toggleIdeaSelection('benefits', ${idx});" title="Chọn / bỏ chọn ý này để luyện viết">
+            ` : ''}
+            <span style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${item.title || `${benefitLabel} 0${idx+1}`}</span>
+          </div>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width: 14px; height: 14px; flex-shrink: 0;">
             <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
           </svg>
         </div>
@@ -3538,14 +3675,20 @@ function renderOutline() {
   // Render drawbacks (or solutions / effects)
   if (group2Items && group2Items.length > 0) {
     group2Items.forEach((item, idx) => {
+      const isSelected = !isSelectable || group2Items.length <= 3 || selD.includes(idx);
       const node = document.createElement('div');
-      node.className = 'outline-node';
+      node.className = `outline-node ${isSelected ? 'is-selected' : 'is-unselected'}`;
       const nodeBodyId = `outline-node-drawback-${idx}`;
       
       node.innerHTML = `
         <div class="outline-node-header drawback" onclick="toggleAccordion('${nodeBodyId}')">
-          <span>${item.title || `${drawbackLabel} 0${idx+1}`}</span>
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width: 14px; height: 14px;">
+          <div style="display: flex; align-items: center; gap: 0.5rem; flex: 1; min-width: 0;">
+            ${(isSelectable && group2Items.length > 3) ? `
+              <input type="checkbox" class="outline-idea-checkbox" ${isSelected ? 'checked' : ''} onclick="event.stopPropagation(); toggleIdeaSelection('drawbacks', ${idx});" title="Chọn / bỏ chọn ý này để luyện viết">
+            ` : ''}
+            <span style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">${item.title || `${drawbackLabel} 0${idx+1}`}</span>
+          </div>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width: 14px; height: 14px; flex-shrink: 0;">
             <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
           </svg>
         </div>
@@ -5525,6 +5668,23 @@ function closeComparisonModal() {
   document.getElementById('comparison-modal').classList.remove('active');
 }
 
+// --- Mindmap Modal Controls ---
+function openMindmapModal(imgSrc, title) {
+  const modal = document.getElementById('mindmap-modal');
+  const img = document.getElementById('mindmap-modal-img');
+  const titleEl = document.getElementById('mindmap-modal-title');
+  if (modal && img) {
+    img.src = imgSrc;
+    if (titleEl && title) titleEl.textContent = title;
+    modal.classList.add('active');
+  }
+}
+
+function closeMindmapModal() {
+  const modal = document.getElementById('mindmap-modal');
+  if (modal) modal.classList.remove('active');
+}
+
 // --- Toast notification helpers ---
 function showToast(message, type = 'success') {
   const container = document.getElementById('toast-container');
@@ -5997,8 +6157,22 @@ function renderStep1Reading() {
       defaultLabel2 = 'QUAN ĐIỂM 2';
     }
 
-    const b1Benefits = (topic.details.ideas_b1.benefits || []).map((b, idx) => formatPoint(b, defaultLabel1, idx)).join('');
-    const b1Drawbacks = (topic.details.ideas_b1.drawbacks || []).map((d, idx) => formatPoint(d, defaultLabel2, idx)).join('');
+    const isSelectable = hasSelectableIdeas(topic);
+    const selB = isSelectable ? getSelectedIdeaIndices(topic, 'benefits') : [];
+    const selD = isSelectable ? getSelectedIdeaIndices(topic, 'drawbacks') : [];
+
+    if (isSelectable) {
+      outlineIntroText = 'Tóm tắt các luận điểm bạn ĐÃ CHỌN để chuẩn bị đưa vào bài viết:';
+    }
+
+    const b1Benefits = (topic.details.ideas_b1.benefits || [])
+      .filter((_, idx) => !isSelectable || selB.includes(idx))
+      .map((b, idx) => formatPoint(b, defaultLabel1, idx))
+      .join('');
+    const b1Drawbacks = (topic.details.ideas_b1.drawbacks || [])
+      .filter((_, idx) => !isSelectable || selD.includes(idx))
+      .map((d, idx) => formatPoint(d, defaultLabel2, idx))
+      .join('');
     
     outlineSummaryHtml = `
       <ul class="outline-summary-list">
@@ -6016,6 +6190,86 @@ function renderStep1Reading() {
           <li>Thân bài đoạn 2 (Body Paragraph 2): Phân tích khía cạnh thứ hai (bất lợi / giải pháp).</li>
           <li>Kết bài (Conclusion): Tóm tắt lại vấn đề và đưa ra ý kiến chốt hạ.</li>
         </ul>
+      </div>
+    `;
+  }
+
+  let ideaSelectorHtml = '';
+  if (topic.has_full_details && topic.details && hasSelectableIdeas(topic)) {
+    const bItems = topic.details.ideas_b1.benefits || [];
+    const dItems = topic.details.ideas_b1.drawbacks || [];
+    const selB = getSelectedIdeaIndices(topic, 'benefits');
+    const selD = getSelectedIdeaIndices(topic, 'drawbacks');
+
+    ideaSelectorHtml = `
+      <div class="reading-section-card idea-selection-card">
+        <div class="idea-selection-header">
+          <div>
+            <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.35rem;">
+              <h3 style="margin-bottom: 0;">🎯 Tự chọn Luận điểm bạn muốn đưa vào bài viết</h3>
+              <span class="badge" style="background: rgba(99, 102, 241, 0.15); color: var(--accent-primary); font-weight: 700; font-size: 0.75rem; padding: 0.2rem 0.6rem; border-radius: 999px;">TÙY CHỌN Ý TƯỞNG</span>
+            </div>
+            <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0;">
+              Học viên tự do tick chọn các ý mình muốn diễn đạt (Khuyên chọn <strong>2 đến 3 ý</strong> cho mỗi phần). Dàn ý và Bài tập dịch câu sẽ tự động hiển thị theo đúng các ý bạn đã chọn!
+            </p>
+          </div>
+        </div>
+
+        <div class="idea-selection-grid">
+          ${bItems.length > 0 ? `
+            <div class="idea-group-col">
+              <div class="idea-group-title-row">
+                <span class="idea-group-title benefit">
+                  <span>✨</span> THUẬN LỢI / LỢI ÍCH
+                </span>
+                <span class="idea-group-badge">Đã chọn: ${selB.length} / ${bItems.length} ý</span>
+              </div>
+              ${bItems.map((b, idx) => {
+                const isChecked = selB.includes(idx);
+                return `
+                  <div class="idea-checkbox-card benefit-card ${isChecked ? 'is-selected' : ''}" onclick="toggleIdeaSelection('benefits', ${idx})">
+                    <div class="idea-checkbox-custom">
+                      <svg viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                      </svg>
+                    </div>
+                    <div class="idea-card-content">
+                      <div class="idea-card-title">${b.title || `LỢI ÍCH 0${idx+1}`}</div>
+                      <div class="idea-card-point">${b.point_vi}</div>
+                    </div>
+                  </div>
+                `;
+              }).join('')}
+            </div>
+          ` : ''}
+
+          ${dItems.length > 0 ? `
+            <div class="idea-group-col">
+              <div class="idea-group-title-row">
+                <span class="idea-group-title drawback">
+                  <span>⚠️</span> BẤT LỢI / KHÓ KHĂN
+                </span>
+                <span class="idea-group-badge">Đã chọn: ${selD.length} / ${dItems.length} ý</span>
+              </div>
+              ${dItems.map((d, idx) => {
+                const isChecked = selD.includes(idx);
+                return `
+                  <div class="idea-checkbox-card drawback-card ${isChecked ? 'is-selected' : ''}" onclick="toggleIdeaSelection('drawbacks', ${idx})">
+                    <div class="idea-checkbox-custom">
+                      <svg viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                      </svg>
+                    </div>
+                    <div class="idea-card-content">
+                      <div class="idea-card-title">${d.title || `BẤT LỢI 0${idx+1}`}</div>
+                      <div class="idea-card-point">${d.point_vi}</div>
+                    </div>
+                  </div>
+                `;
+              }).join('')}
+            </div>
+          ` : ''}
+        </div>
       </div>
     `;
   }
@@ -6040,6 +6294,22 @@ function renderStep1Reading() {
       <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.75rem;">Sử dụng các từ đồng nghĩa hoặc cấu trúc khác dưới đây để viết phần mở bài (Introduction) tránh lặp từ khóa của đề:</p>
       ${paraphraseHtml}
     </div>
+
+    ${(topic.details && topic.details.mindmap_img) ? `
+      <div class="reading-section-card">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem;">
+          <h3 style="margin-bottom: 0;">Sơ đồ tư duy mở rộng (Mindmap)</h3>
+          <span style="font-size: 0.8rem; background: rgba(99, 102, 241, 0.15); color: var(--primary); padding: 4px 10px; border-radius: 999px; font-weight: 700;">5 LỰA CHỌN Ý TƯỞNG</span>
+        </div>
+        <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.75rem;">Học viên có thể tham khảo sơ đồ tư duy dưới đây để tự do lựa chọn các ý mình muốn đưa vào bài viết:</p>
+        <div style="text-align: center; background: #fff; padding: 10px; border-radius: var(--radius-sm); border: 1px solid var(--panel-border); cursor: pointer;" onclick="openMindmapModal('${topic.details.mindmap_img}', 'Sơ đồ tư duy: ${topic.title_vi || topic.title_en}')">
+          <img src="${topic.details.mindmap_img}" alt="Mindmap" style="max-width: 100%; max-height: 480px; object-fit: contain; border-radius: var(--radius-sm);" title="Bấm vào để phóng to">
+          <div style="margin-top: 8px; font-size: 0.8rem; color: #64748b; font-weight: 600;">🔍 Bấm vào ảnh để xem kích thước lớn</div>
+        </div>
+      </div>
+    ` : ''}
+
+    ${ideaSelectorHtml}
     
     <div class="reading-section-card">
       <h3>Gợi ý tóm tắt ý tưởng sẽ viết</h3>
