@@ -2521,6 +2521,85 @@ h1, h2, h3, h4, h5, h6,
   #access-gateway h2 {
     font-size: 1.15rem !important;
   }
+
+  /* Updated Topics Banner on Mobile */
+  .updated-topics-banner {
+    padding: 1.15rem 0.85rem !important;
+    margin-bottom: 1rem !important;
+    border-radius: 12px !important;
+  }
+
+  .updated-topics-grid {
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)) !important;
+    gap: 0.65rem !important;
+  }
+
+  .updated-topic-pill {
+    padding: 0.7rem 0.85rem !important;
+    font-size: 0.88rem !important;
+  }
+
+  /* Essay Editor Toolbar on Mobile */
+  .editor-header {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 0.75rem !important;
+    padding: 0.75rem 1rem !important;
+  }
+
+  .editor-header .timer-box {
+    justify-content: center !important;
+  }
+
+  .editor-actions {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 0.5rem !important;
+  }
+
+  .editor-actions .btn {
+    flex: 1 1 calc(50% - 0.5rem) !important;
+    min-width: 120px !important;
+    justify-content: center !important;
+    font-size: 0.8rem !important;
+    padding: 0.45rem 0.6rem !important;
+  }
+
+  .textarea-container {
+    padding: 0.85rem 1rem !important;
+  }
+
+  .editor-status-bar {
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 0.5rem !important;
+    padding: 0.6rem 1rem !important;
+  }
+
+  .word-count-widget {
+    width: 100% !important;
+    gap: 0.75rem !important;
+  }
+
+  /* Interactive Idea Selection on Mobile */
+  .idea-selection-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1rem !important;
+  }
+
+  .idea-checkbox-card {
+    padding: 0.75rem 0.85rem !important;
+  }
+
+  /* Anti-cheat modal on Mobile */
+  .cheat-modal-overlay {
+    padding: 1rem !important;
+  }
+
+  .cheat-modal-content {
+    padding: 1.5rem 1rem !important;
+    max-width: 95vw !important;
+  }
 }
 
 @media (max-width: 480px) {
@@ -2549,6 +2628,21 @@ h1, h2, h3, h4, h5, h6,
 
   .stats-value {
     font-size: 1.25rem !important;
+  }
+
+  /* Compact grid on small phones */
+  .updated-topics-grid {
+    grid-template-columns: 1fr !important;
+    gap: 0.5rem !important;
+  }
+
+  .updated-topic-pill {
+    padding: 0.65rem 0.8rem !important;
+    font-size: 0.85rem !important;
+  }
+
+  .editor-actions .btn {
+    flex: 1 1 100% !important;
   }
 }
 
