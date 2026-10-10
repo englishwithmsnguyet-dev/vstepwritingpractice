@@ -6782,11 +6782,18 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
-  // Anti-cheat: disable pasting external text into essay during exam
+  // Anti-cheat: disable pasting external text into essay during exam (except for Public transport)
   const essayArea = document.getElementById('essay-textarea');
   if (essayArea) {
     essayArea.addEventListener('paste', (e) => {
       if (isExamModeActive()) {
+        const isPublicTransport = currentTopic && (
+          currentTopic.id === 5 ||
+          (currentTopic.title_en && currentTopic.title_en.toLowerCase().trim() === 'public transport')
+        );
+        if (isPublicTransport) {
+          return; // Cho phép copy & paste riêng cho đề Public transport theo yêu cầu
+        }
         e.preventDefault();
         handleCheatViolation('paste');
       }
