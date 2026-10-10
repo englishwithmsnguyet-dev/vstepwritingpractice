@@ -2274,7 +2274,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .updated-topics-banner h3 {
-  color: var(--primary);
+  color: var(--accent-primary);
   margin-top: 0;
   margin-bottom: 1rem;
   font-size: 1.1rem;
@@ -2290,8 +2290,8 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .updated-topic-pill {
-  background: white;
-  border: 1px solid var(--panel-border);
+  background: #ffffff;
+  border: 1px solid rgba(203, 213, 225, 0.8);
   border-radius: 10px;
   padding: 0.8rem 1rem;
   cursor: pointer;
@@ -2299,17 +2299,27 @@ h1, h2, h3, h4, h5, h6,
   align-items: center;
   gap: 0.75rem;
   transition: all 0.2s ease;
-  font-weight: 600;
-  color: var(--text-primary);
+  font-weight: 700;
+  color: #0f172a !important;
   font-size: 0.95rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+}
+
+.updated-topic-pill .item-text {
+  color: #0f172a !important;
+  font-weight: 700;
 }
 
 .updated-topic-pill:hover {
-  background: rgba(99, 102, 241, 0.05);
-  border-color: var(--primary);
+  background: #f8fafc;
+  border-color: var(--accent-primary);
   transform: translateY(-2px);
-  box-shadow: 0 4px 10px rgba(99, 102, 241, 0.1);
-  color: var(--primary);
+  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.25);
+  color: var(--accent-primary) !important;
+}
+
+.updated-topic-pill:hover .item-text {
+  color: var(--accent-primary) !important;
 }
 
 .updated-topic-pill .pill-icon {
