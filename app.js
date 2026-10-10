@@ -1609,6 +1609,86 @@ function toggleIdeaSelection(groupType, index) {
   showToast("Đã cập nhật lựa chọn luận điểm!", "info");
 }
 
+function renderIdeaSelectionComponent(topic) {
+  if (!topic || !topic.has_full_details || !topic.details || !hasSelectableIdeas(topic)) return '';
+  const bItems = topic.details.ideas_b1.benefits || [];
+  const dItems = topic.details.ideas_b1.drawbacks || [];
+  const selB = getSelectedIdeaIndices(topic, 'benefits');
+  const selD = getSelectedIdeaIndices(topic, 'drawbacks');
+
+  return `
+    <div class="reading-section-card idea-selection-card" style="margin-bottom: 1.5rem;">
+      <div class="idea-selection-header">
+        <div>
+          <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.35rem;">
+            <h3 style="margin-bottom: 0;">🎯 Tự chọn Luận điểm bạn muốn đưa vào bài viết</h3>
+            <span class="badge" style="background: rgba(99, 102, 241, 0.15); color: var(--accent-primary); font-weight: 700; font-size: 0.75rem; padding: 0.2rem 0.6rem; border-radius: 999px;">TÙY CHỌN 5 Ý TƯỞNG</span>
+          </div>
+          <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0;">
+            Học viên tự do tick chọn các ý mình muốn diễn đạt (Khuyên chọn <strong>2 đến 3 ý</strong>). Dàn ý và Bài tập dịch câu bên dưới sẽ tự động hiển thị theo đúng các ý bạn đã chọn!
+          </p>
+        </div>
+      </div>
+
+      <div class="idea-selection-grid">
+        ${bItems.length > 0 ? `
+          <div class="idea-group-col">
+            <div class="idea-group-title-row">
+              <span class="idea-group-title benefit">
+                <span>✨</span> THUẬN LỢI / LỢI ÍCH
+              </span>
+              <span class="idea-group-badge">Đã chọn: ${selB.length} / ${bItems.length} ý</span>
+            </div>
+            ${bItems.map((b, idx) => {
+              const isChecked = selB.includes(idx);
+              return `
+                <div class="idea-checkbox-card benefit-card ${isChecked ? 'is-selected' : ''}" onclick="toggleIdeaSelection('benefits', ${idx})">
+                  <div class="idea-checkbox-custom">
+                    <svg viewBox="0 0 20 20" fill="currentColor">
+                      <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                    </svg>
+                  </div>
+                  <div class="idea-card-content">
+                    <div class="idea-card-title">${b.title || `LỢI ÍCH 0${idx+1}`}</div>
+                    <div class="idea-card-point">${b.point_vi}</div>
+                  </div>
+                </div>
+              `;
+            }).join('')}
+          </div>
+        ` : ''}
+
+        ${dItems.length > 0 ? `
+          <div class="idea-group-col">
+            <div class="idea-group-title-row">
+              <span class="idea-group-title drawback">
+                <span>⚠️</span> BẤT LỢI / KHÓ KHĂN
+              </span>
+              <span class="idea-group-badge">Đã chọn: ${selD.length} / ${dItems.length} ý</span>
+            </div>
+            ${dItems.map((d, idx) => {
+              const isChecked = selD.includes(idx);
+              return `
+                <div class="idea-checkbox-card drawback-card ${isChecked ? 'is-selected' : ''}" onclick="toggleIdeaSelection('drawbacks', ${idx})">
+                  <div class="idea-checkbox-custom">
+                    <svg viewBox="0 0 20 20" fill="currentColor">
+                      <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                    </svg>
+                  </div>
+                  <div class="idea-card-content">
+                    <div class="idea-card-title">${d.title || `BẤT LỢI 0${idx+1}`}</div>
+                    <div class="idea-card-point">${d.point_vi}</div>
+                  </div>
+                </div>
+              `;
+            }).join('')}
+          </div>
+        ` : ''}
+      </div>
+    </div>
+  `;
+}
+
 // Helper to build flat translation exercises list
 function buildTranslationExercises(topic, transLevel, category) {
   const ideasObj = transLevel === 'B1' ? topic.details.ideas_b1 : topic.details.ideas_b2;
@@ -1751,25 +1831,9 @@ function renderTranslationExercises() {
   }
 
   if (hasSelectableIdeas(topic)) {
-    const selB = getSelectedIdeaIndices(topic, 'benefits');
-    const selD = getSelectedIdeaIndices(topic, 'drawbacks');
-    const totalD = (topic.details.ideas_b1.drawbacks || []).length;
-    const banner = document.createElement('div');
-    banner.className = 'trans-selected-banner';
-    banner.innerHTML = `
-      <div>
-        <div style="font-weight: 700; color: var(--accent-primary); font-size: 0.95rem; display: flex; align-items: center; gap: 0.4rem;">
-          <span>🎯</span> Đang luyện tập diễn đạt cho: ${selB.length} Thuận lợi ${totalD > 0 ? `& ${selD.length} Bất lợi` : ''} bạn đã chọn
-        </div>
-        <div style="font-size: 0.82rem; color: var(--text-secondary); margin-top: 3px;">
-          (Khuyên chọn 2–3 ý mỗi phần để bài viết sâu sắc và vừa vặn). Bạn có thể đổi ý bất cứ lúc nào ở Bước 01 hoặc Cột Dàn ý bên trái.
-        </div>
-      </div>
-      <button class="btn btn-secondary" style="font-size: 0.8rem; padding: 0.4rem 0.8rem; font-weight: 600;" onclick="switchStep('read')">
-        ⚙️ Thay đổi lựa chọn ý ›
-      </button>
-    `;
-    container.appendChild(banner);
+    const selWrapper = document.createElement('div');
+    selWrapper.innerHTML = renderIdeaSelectionComponent(topic);
+    container.appendChild(selWrapper);
   }
   
   exercises.forEach((ex, idx) => {
@@ -6558,85 +6622,7 @@ function renderStep1Reading() {
     `;
   }
 
-  let ideaSelectorHtml = '';
-  if (topic.has_full_details && topic.details && hasSelectableIdeas(topic)) {
-    const bItems = topic.details.ideas_b1.benefits || [];
-    const dItems = topic.details.ideas_b1.drawbacks || [];
-    const selB = getSelectedIdeaIndices(topic, 'benefits');
-    const selD = getSelectedIdeaIndices(topic, 'drawbacks');
-
-    ideaSelectorHtml = `
-      <div class="reading-section-card idea-selection-card">
-        <div class="idea-selection-header">
-          <div>
-            <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.35rem;">
-              <h3 style="margin-bottom: 0;">🎯 Tự chọn Luận điểm bạn muốn đưa vào bài viết</h3>
-              <span class="badge" style="background: rgba(99, 102, 241, 0.15); color: var(--accent-primary); font-weight: 700; font-size: 0.75rem; padding: 0.2rem 0.6rem; border-radius: 999px;">TÙY CHỌN Ý TƯỞNG</span>
-            </div>
-            <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0;">
-              Học viên tự do tick chọn các ý mình muốn diễn đạt (Khuyên chọn <strong>2 đến 3 ý</strong> cho mỗi phần). Dàn ý và Bài tập dịch câu sẽ tự động hiển thị theo đúng các ý bạn đã chọn!
-            </p>
-          </div>
-        </div>
-
-        <div class="idea-selection-grid">
-          ${bItems.length > 0 ? `
-            <div class="idea-group-col">
-              <div class="idea-group-title-row">
-                <span class="idea-group-title benefit">
-                  <span>✨</span> THUẬN LỢI / LỢI ÍCH
-                </span>
-                <span class="idea-group-badge">Đã chọn: ${selB.length} / ${bItems.length} ý</span>
-              </div>
-              ${bItems.map((b, idx) => {
-                const isChecked = selB.includes(idx);
-                return `
-                  <div class="idea-checkbox-card benefit-card ${isChecked ? 'is-selected' : ''}" onclick="toggleIdeaSelection('benefits', ${idx})">
-                    <div class="idea-checkbox-custom">
-                      <svg viewBox="0 0 20 20" fill="currentColor">
-                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
-                      </svg>
-                    </div>
-                    <div class="idea-card-content">
-                      <div class="idea-card-title">${b.title || `LỢI ÍCH 0${idx+1}`}</div>
-                      <div class="idea-card-point">${b.point_vi}</div>
-                    </div>
-                  </div>
-                `;
-              }).join('')}
-            </div>
-          ` : ''}
-
-          ${dItems.length > 0 ? `
-            <div class="idea-group-col">
-              <div class="idea-group-title-row">
-                <span class="idea-group-title drawback">
-                  <span>⚠️</span> BẤT LỢI / KHÓ KHĂN
-                </span>
-                <span class="idea-group-badge">Đã chọn: ${selD.length} / ${dItems.length} ý</span>
-              </div>
-              ${dItems.map((d, idx) => {
-                const isChecked = selD.includes(idx);
-                return `
-                  <div class="idea-checkbox-card drawback-card ${isChecked ? 'is-selected' : ''}" onclick="toggleIdeaSelection('drawbacks', ${idx})">
-                    <div class="idea-checkbox-custom">
-                      <svg viewBox="0 0 20 20" fill="currentColor">
-                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
-                      </svg>
-                    </div>
-                    <div class="idea-card-content">
-                      <div class="idea-card-title">${d.title || `BẤT LỢI 0${idx+1}`}</div>
-                      <div class="idea-card-point">${d.point_vi}</div>
-                    </div>
-                  </div>
-                `;
-              }).join('')}
-            </div>
-          ` : ''}
-        </div>
-      </div>
-    `;
-  }
+  const ideaSelectorHtml = renderIdeaSelectionComponent(topic);
   
   container.innerHTML = `
     <div class="reading-section-card">
