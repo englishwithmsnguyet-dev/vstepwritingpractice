@@ -161,8 +161,8 @@ function switchScreen(screenName) {
 // Switch to a Category browse screen
 function switchCategory(catId) {
   const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
-  if (userClass === 'CB210' && (catId === 2 || catId === 3 || catId === 4)) {
-    showToast('🔒 Dạng luận này tạm thời chưa mở cho lớp CB210. Lớp hiện tập trung luyện tập Dạng 1 (Lợi ích & Tác hại)!', 'warning');
+  if (userClass === 'CB210' && (catId === 3 || catId === 4)) {
+    showToast('🔒 Dạng luận này tạm thời chưa mở cho lớp CB210. Lớp hiện mở Dạng 1 và Dạng 2!', 'warning');
     return;
   }
 
@@ -644,8 +644,8 @@ function handleSearch(val) {
 // --- Practice Workspace Logic ---
 function startPractice(catId, topicId) {
   const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
-  if (userClass === 'CB210' && catId !== 1) {
-    showToast('🔒 Đề bài thuộc Dạng luận chưa mở cho lớp CB210. Lớp hiện tập trung luyện tập Dạng 1 (Lợi ích & Tác hại)!', 'warning');
+  if (userClass === 'CB210' && (catId === 3 || catId === 4)) {
+    showToast('🔒 Đề bài thuộc Dạng luận chưa mở cho lớp CB210. Lớp hiện mở Dạng 1 và Dạng 2!', 'warning');
     return;
   }
 
@@ -6965,7 +6965,16 @@ function updateClassAccessUI() {
   const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
   const isCB210 = (userClass === 'CB210');
   
-  [2, 3, 4].forEach(catId => {
+  // Ensure Category 2 is unlocked
+  const cat2Link = document.getElementById('nav-link-cat-2');
+  if (cat2Link) {
+    cat2Link.classList.remove('is-locked');
+    cat2Link.removeAttribute('title');
+    const existingBadge2 = cat2Link.querySelector('.cat-lock-badge');
+    if (existingBadge2) existingBadge2.remove();
+  }
+
+  [3, 4].forEach(catId => {
     const link = document.getElementById(`nav-link-cat-${catId}`);
     if (!link) return;
     
@@ -6986,7 +6995,7 @@ function updateClassAccessUI() {
     }
   });
 
-  if (isCB210 && currentCategory && (currentCategory.id === 2 || currentCategory.id === 3 || currentCategory.id === 4)) {
+  if (isCB210 && currentCategory && (currentCategory.id === 3 || currentCategory.id === 4)) {
     switchCategory(1);
   }
 }
