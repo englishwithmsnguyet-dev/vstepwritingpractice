@@ -6891,7 +6891,7 @@ function submitGatewayAccess() {
       return;
     }
 
-    if (passInput.toUpperCase() !== 'PRACTICEWRITING') {
+    if (passInput.toUpperCase() !== 'STUDYHARD') {
       errorEl.textContent = 'Mật khẩu không chính xác. Vui lòng kiểm tra lại!';
       errorEl.style.display = 'block';
       return;

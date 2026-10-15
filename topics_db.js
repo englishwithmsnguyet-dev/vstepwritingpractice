@@ -17207,8 +17207,8 @@ const ESSAY_DATA = [
         "title_en": "Obesity among young people",
         "title_vi": "Béo phì ở giới trẻ",
         "tags": "[Causes & Solutions]",
-        "context": "Obesity among young people has become an increasingly serious health problem in many countries. A growing number of children and teenagers are overweight or obese, which can negatively affect their physical health, mental well-being, and quality of life. This issue has raised concerns among parents, educators, and health experts.",
-        "prompt": "Write an essay to an educated reader to discuss the causes of obesity among young people and suggest possible solutions to this problem. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "context": "Obesity is a serious global problem in today's society, especially among young people. More than one-third of adults and 17% of youth in the United States are obese, although the prevalence remained stable between 2003-2004 and 2009-2010. Obesity causes a lot of conditions, including heart disease, stroke, type 2 diabetes, and certain types of cancer, some of the leading causes of preventable death.",
+        "prompt": "Write an essay to discuss the causes of obesity among young people and suggest possible solutions. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task fulfillment, Organization, Vocabulary, and Grammar.",
         "has_full_details": true,
         "details": {
           "vocab": [
@@ -17330,56 +17330,280 @@ const ESSAY_DATA = [
             }
           ],
           "ideas_b1": {
-            "benefits": [
+            "causes": [
               {
-                "title": "NGUYÊN NHÂN 01: CHẾ ĐỘ ĂN UỐNG KHÔNG LÀNH MẠNH",
-                "collocations": [],
+                "title": "NGUYÊN NHÂN 01: THÓI QUEN ĂN UỐNG KHÔNG LÀNH MẠNH",
+                "collocations": [
+                  {
+                    "en": "unhealthy eating habits",
+                    "vi": "thói quen ăn uống không lành mạnh"
+                  },
+                  {
+                    "en": "fast food",
+                    "vi": "đồ ăn nhanh"
+                  },
+                  {
+                    "en": "sugary beverages",
+                    "vi": "đồ uống có đường"
+                  },
+                  {
+                    "en": "consume too much fat and sugar",
+                    "vi": "tiêu thụ quá nhiều chất béo và đường"
+                  }
+                ],
                 "point_vi": "Nhiều người trẻ có thói quen ăn uống không lành mạnh.",
                 "point_en": "Many young people have unhealthy eating habits.",
-                "evidence_vi": "Họ thường ăn nhiều đồ ăn nhanh và uống nước ngọt có đường, và những loại thực phẩm này thường chứa nhiều calo.",
-                "evidence_en": "They often eat fast food and drink sugary soft drinks, and these foods usually contain a large amount of calories."
+                "evidence_vi": "Điều này là do họ thường ăn đồ ăn nhanh và uống đồ uống có đường, vì vậy họ tiêu thụ quá nhiều chất béo và đường mỗi ngày.",
+                "evidence_en": "This is because they often eat fast food and drink sugary beverages, so they consume too much fat and sugar every day."
               },
               {
-                "title": "NGUYÊN NHÂN 02: THIẾU HOẠT ĐỘNG THỂ CHẤT",
-                "collocations": [],
-                "point_vi": "Nhiều người trẻ không vận động đủ mỗi ngày.",
-                "point_en": "Many young people do not get enough physical activity.",
-                "evidence_vi": "Họ dành ít thời gian cho thể thao hoặc các hoạt động ngoài trời, vì vậy họ đốt cháy ít calo hơn.",
-                "evidence_en": "They spend little time on sports or outdoor activities, so they burn fewer calories."
+                "title": "NGUYÊN NHÂN 02: KHÔNG TẬP THỂ DỤC THƯỜNG XUYÊN",
+                "collocations": [
+                  {
+                    "en": "exercise regularly",
+                    "vi": "tập thể dục thường xuyên"
+                  },
+                  {
+                    "en": "burn enough calories",
+                    "vi": "đốt cháy đủ calo"
+                  },
+                  {
+                    "en": "gain weight easily",
+                    "vi": "dễ bị tăng cân"
+                  }
+                ],
+                "point_vi": "Nhiều người trẻ không tập thể dục thường xuyên.",
+                "point_en": "Many young people do not exercise regularly.",
+                "evidence_vi": "Kết quả là họ không đốt cháy đủ calo và có thể tăng cân dễ dàng.",
+                "evidence_en": "As a result, they do not burn enough calories and may gain weight easily."
               },
               {
                 "title": "NGUYÊN NHÂN 03: THIẾU KIẾN THỨC VỀ DINH DƯỠNG",
-                "collocations": [],
-                "point_vi": "Một số người trẻ chưa có đủ kiến thức về dinh dưỡng.",
-                "point_en": "Some young people do not have enough knowledge about nutrition.",
-                "evidence_vi": "Họ có thể lựa chọn những thực phẩm không tốt cho sức khỏe và hình thành thói quen ăn uống không lành mạnh.",
-                "evidence_en": "They may choose foods that are not good for their health and develop unhealthy eating habits."
+                "collocations": [
+                  {
+                    "en": "lack nutritional knowledge",
+                    "vi": "thiếu kiến thức về dinh dưỡng"
+                  },
+                  {
+                    "en": "choose unhealthy food",
+                    "vi": "chọn thực phẩm không lành mạnh"
+                  },
+                  {
+                    "en": "develop poor eating habits",
+                    "vi": "hình thành thói quen ăn uống kém"
+                  }
+                ],
+                "point_vi": "Nhiều thanh thiếu niên thiếu kiến thức về dinh dưỡng.",
+                "point_en": "Many teenagers lack nutritional knowledge.",
+                "evidence_vi": "Điều này có nghĩa là họ có thể chọn thực phẩm không lành mạnh và hình thành thói quen ăn uống kém.",
+                "evidence_en": "This means that they may choose unhealthy food and develop poor eating habits."
+              }
+            ],
+            "solutions": [
+              {
+                "title": "GIẢI PHÁP 01: KHUYẾN KHÍCH CHẾ ĐỘ ĂN LÀNH MẠNH HƠN",
+                "collocations": [
+                  {
+                    "en": "follow a healthier diet",
+                    "vi": "tuân theo chế độ ăn lành mạnh hơn"
+                  },
+                  {
+                    "en": "eating more vegetables",
+                    "vi": "ăn nhiều rau củ hơn"
+                  },
+                  {
+                    "en": "reducing junk food",
+                    "vi": "giảm đồ ăn vặt"
+                  },
+                  {
+                    "en": "control their weight",
+                    "vi": "kiểm soát cân nặng"
+                  }
+                ],
+                "point_vi": "Khuyến khích người trẻ tuân theo chế độ ăn uống lành mạnh hơn.",
+                "point_en": "Encourage young people to follow a healthier diet.",
+                "evidence_vi": "Điều này là do ăn nhiều rau hơn và giảm đồ ăn vặt có thể giúp họ kiểm soát cân nặng và cải thiện sức khỏe.",
+                "evidence_en": "This is because eating more vegetables and reducing junk food can help them control their weight and improve their health."
+              },
+              {
+                "title": "GIẢI PHÁP 02: THÚC ĐẨY TẬP THỂ DỤC Ở TRƯỜNG HỌC",
+                "collocations": [
+                  {
+                    "en": "promote regular physical exercise",
+                    "vi": "thúc đẩy tập thể dục thường xuyên"
+                  },
+                  {
+                    "en": "sports activities",
+                    "vi": "các hoạt động thể thao"
+                  },
+                  {
+                    "en": "exercise clubs",
+                    "vi": "câu lạc bộ thể dục thể thao"
+                  }
+                ],
+                "point_vi": "Thúc đẩy việc tập thể dục thường xuyên tại các trường học.",
+                "point_en": "Promote regular physical exercise at schools.",
+                "evidence_vi": "Ví dụ, các trường học có thể tổ chức các hoạt động thể thao hoặc khuyến khích học sinh tham gia các câu lạc bộ thể dục sau giờ học.",
+                "evidence_en": "For example, schools can organize sports activities or encourage students to join exercise clubs after class."
+              },
+              {
+                "title": "GIẢI PHÁP 03: GIÁO DỤC VỀ THÓI QUEN ĂN UỐNG LÀNH MẠNH",
+                "collocations": [
+                  {
+                    "en": "educate young people",
+                    "vi": "giáo dục người trẻ"
+                  },
+                  {
+                    "en": "healthy eating habits",
+                    "vi": "thói quen ăn uống lành mạnh"
+                  },
+                  {
+                    "en": "make healthier choices",
+                    "vi": "đưa ra những lựa chọn lành mạnh hơn"
+                  }
+                ],
+                "point_vi": "Giáo dục người trẻ về thói quen ăn uống lành mạnh.",
+                "point_en": "Educate young people about healthy eating habits.",
+                "evidence_vi": "Điều này có nghĩa là họ có thể đưa ra những lựa chọn lành mạnh hơn trong cuộc sống hàng ngày.",
+                "evidence_en": "This means that they can make healthier choices in their daily lives."
+              }
+            ],
+            "benefits": [
+              {
+                "title": "NGUYÊN NHÂN 01: THÓI QUEN ĂN UỐNG KHÔNG LÀNH MẠNH",
+                "collocations": [
+                  {
+                    "en": "unhealthy eating habits",
+                    "vi": "thói quen ăn uống không lành mạnh"
+                  },
+                  {
+                    "en": "fast food",
+                    "vi": "đồ ăn nhanh"
+                  },
+                  {
+                    "en": "sugary beverages",
+                    "vi": "đồ uống có đường"
+                  },
+                  {
+                    "en": "consume too much fat and sugar",
+                    "vi": "tiêu thụ quá nhiều chất béo và đường"
+                  }
+                ],
+                "point_vi": "Nhiều người trẻ có thói quen ăn uống không lành mạnh.",
+                "point_en": "Many young people have unhealthy eating habits.",
+                "evidence_vi": "Điều này là do họ thường ăn đồ ăn nhanh và uống đồ uống có đường, vì vậy họ tiêu thụ quá nhiều chất béo và đường mỗi ngày.",
+                "evidence_en": "This is because they often eat fast food and drink sugary beverages, so they consume too much fat and sugar every day."
+              },
+              {
+                "title": "NGUYÊN NHÂN 02: KHÔNG TẬP THỂ DỤC THƯỜNG XUYÊN",
+                "collocations": [
+                  {
+                    "en": "exercise regularly",
+                    "vi": "tập thể dục thường xuyên"
+                  },
+                  {
+                    "en": "burn enough calories",
+                    "vi": "đốt cháy đủ calo"
+                  },
+                  {
+                    "en": "gain weight easily",
+                    "vi": "dễ bị tăng cân"
+                  }
+                ],
+                "point_vi": "Nhiều người trẻ không tập thể dục thường xuyên.",
+                "point_en": "Many young people do not exercise regularly.",
+                "evidence_vi": "Kết quả là họ không đốt cháy đủ calo và có thể tăng cân dễ dàng.",
+                "evidence_en": "As a result, they do not burn enough calories and may gain weight easily."
+              },
+              {
+                "title": "NGUYÊN NHÂN 03: THIẾU KIẾN THỨC VỀ DINH DƯỠNG",
+                "collocations": [
+                  {
+                    "en": "lack nutritional knowledge",
+                    "vi": "thiếu kiến thức về dinh dưỡng"
+                  },
+                  {
+                    "en": "choose unhealthy food",
+                    "vi": "chọn thực phẩm không lành mạnh"
+                  },
+                  {
+                    "en": "develop poor eating habits",
+                    "vi": "hình thành thói quen ăn uống kém"
+                  }
+                ],
+                "point_vi": "Nhiều thanh thiếu niên thiếu kiến thức về dinh dưỡng.",
+                "point_en": "Many teenagers lack nutritional knowledge.",
+                "evidence_vi": "Điều này có nghĩa là họ có thể chọn thực phẩm không lành mạnh và hình thành thói quen ăn uống kém.",
+                "evidence_en": "This means that they may choose unhealthy food and develop poor eating habits."
               }
             ],
             "drawbacks": [
               {
-                "title": "GIẢI PHÁP 01: KHUYẾN KHÍCH CHẾ ĐỘ ĂN UỐNG LÀNH MẠNH",
-                "collocations": [],
-                "point_vi": "Khuyến khích chế độ ăn uống lành mạnh.",
-                "point_en": "Encourage healthy eating habits.",
-                "evidence_vi": "Người trẻ nên ăn nhiều rau củ và trái cây thay vì đồ ăn nhanh để duy trì sức khỏe tốt hơn.",
-                "evidence_en": "Young people should eat more fruit and vegetables instead of fast food to maintain better health."
+                "title": "GIẢI PHÁP 01: KHUYẾN KHÍCH CHẾ ĐỘ ĂN LÀNH MẠNH HƠN",
+                "collocations": [
+                  {
+                    "en": "follow a healthier diet",
+                    "vi": "tuân theo chế độ ăn lành mạnh hơn"
+                  },
+                  {
+                    "en": "eating more vegetables",
+                    "vi": "ăn nhiều rau củ hơn"
+                  },
+                  {
+                    "en": "reducing junk food",
+                    "vi": "giảm đồ ăn vặt"
+                  },
+                  {
+                    "en": "control their weight",
+                    "vi": "kiểm soát cân nặng"
+                  }
+                ],
+                "point_vi": "Khuyến khích người trẻ tuân theo chế độ ăn uống lành mạnh hơn.",
+                "point_en": "Encourage young people to follow a healthier diet.",
+                "evidence_vi": "Điều này là do ăn nhiều rau hơn và giảm đồ ăn vặt có thể giúp họ kiểm soát cân nặng và cải thiện sức khỏe.",
+                "evidence_en": "This is because eating more vegetables and reducing junk food can help them control their weight and improve their health."
               },
               {
-                "title": "GIẢI PHÁP 02: TĂNG CƯỜNG HOẠT ĐỘNG THỂ CHẤT",
-                "collocations": [],
-                "point_vi": "Tăng cường hoạt động thể chất.",
-                "point_en": "Increase physical activity.",
-                "evidence_vi": "Người trẻ nên tập thể dục hoặc tham gia thể thao thường xuyên hơn để đốt cháy nhiều calo hơn.",
-                "evidence_en": "Young people should exercise or play sports more regularly to burn more calories."
+                "title": "GIẢI PHÁP 02: THÚC ĐẨY TẬP THỂ DỤC Ở TRƯỜNG HỌC",
+                "collocations": [
+                  {
+                    "en": "promote regular physical exercise",
+                    "vi": "thúc đẩy tập thể dục thường xuyên"
+                  },
+                  {
+                    "en": "sports activities",
+                    "vi": "các hoạt động thể thao"
+                  },
+                  {
+                    "en": "exercise clubs",
+                    "vi": "câu lạc bộ thể dục thể thao"
+                  }
+                ],
+                "point_vi": "Thúc đẩy việc tập thể dục thường xuyên tại các trường học.",
+                "point_en": "Promote regular physical exercise at schools.",
+                "evidence_vi": "Ví dụ, các trường học có thể tổ chức các hoạt động thể thao hoặc khuyến khích học sinh tham gia các câu lạc bộ thể dục sau giờ học.",
+                "evidence_en": "For example, schools can organize sports activities or encourage students to join exercise clubs after class."
               },
               {
-                "title": "GIẢI PHÁP 03: NÂNG CAO KIẾN THỨC VỀ DINH DƯỠNG",
-                "collocations": [],
-                "point_vi": "Nâng cao kiến thức về dinh dưỡng.",
-                "point_en": "Improve nutrition education.",
-                "evidence_vi": "Trường học có thể giúp học sinh hiểu tầm quan trọng của chế độ ăn uống cân bằng và lối sống lành mạnh.",
-                "evidence_en": "Schools can help students understand the importance of a balanced diet and a healthy lifestyle."
+                "title": "GIẢI PHÁP 03: GIÁO DỤC VỀ THÓI QUEN ĂN UỐNG LÀNH MẠNH",
+                "collocations": [
+                  {
+                    "en": "educate young people",
+                    "vi": "giáo dục người trẻ"
+                  },
+                  {
+                    "en": "healthy eating habits",
+                    "vi": "thói quen ăn uống lành mạnh"
+                  },
+                  {
+                    "en": "make healthier choices",
+                    "vi": "đưa ra những lựa chọn lành mạnh hơn"
+                  }
+                ],
+                "point_vi": "Giáo dục người trẻ về thói quen ăn uống lành mạnh.",
+                "point_en": "Educate young people about healthy eating habits.",
+                "evidence_vi": "Điều này có nghĩa là họ có thể đưa ra những lựa chọn lành mạnh hơn trong cuộc sống hàng ngày.",
+                "evidence_en": "This means that they can make healthier choices in their daily lives."
               }
             ]
           },
@@ -17559,7 +17783,7 @@ const ESSAY_DATA = [
               }
             ]
           },
-          "sample_b1": "In recent years, <strong>obesity among young people</strong> has become a growing concern in many parts of the world. This issue affects both individuals and society in different ways. <strong>This essay will discuss the main causes of this problem and suggest possible solutions.</strong>\n\n<strong>This issue can be caused by several factors.</strong> One major cause is that <strong><em>many young people have unhealthy eating habits</em></strong>. This is because they often eat fast food and drink sugary soft drinks, and these foods usually contain a large amount of calories. Another contributing factor is that <strong><em>many young people do not get enough physical activity</em></strong>. As a result, they spend little time on sports or outdoor activities and burn fewer calories. A further reason is that <strong><em>some young people do not have enough knowledge about nutrition</em></strong>. Consequently, they may choose foods that are not good for their health and develop unhealthy eating habits.\n\n<strong>To solve this problem, several measures can be taken.</strong> One effective solution is to <strong><em>encourage healthy eating habits</em></strong>. The main reason is that young people should eat more fruit and vegetables instead of fast food to maintain better health. Another possible measure is to <strong><em>increase physical activity</em></strong>. For example, young people should exercise or play sports more regularly to burn more calories. Finally, it is important to <strong><em>improve nutrition education</em></strong>. Therefore, schools can help students understand the importance of a balanced diet and a healthy lifestyle.\n\nIn conclusion, <strong>obesity among young people</strong> is caused by several factors and requires practical solutions. By addressing the causes and applying suitable measures, this problem can be reduced in the future. These actions can help create positive changes for both individuals and society.",
+          "sample_b1": "In recent years, <strong>obesity among young people</strong> has become a growing concern in many parts of the world. This problem affects both individuals and society in different ways. <strong>This essay will discuss its main causes and suggest possible solutions.</strong><br><br><strong>This problem can be caused by several factors.</strong> One major cause is that <strong><em>many young people have unhealthy eating habits</em></strong>. This is because they often eat fast food and drink sugary beverages, so they consume too much fat and sugar every day. Another contributing factor is that <strong><em>many young people do not exercise regularly</em></strong>. As a result, they do not burn enough calories and may gain weight easily. A further reason is that <strong><em>many teenagers lack nutritional knowledge</em></strong>. This means that they may choose unhealthy food and develop poor eating habits.<br><br><strong>To solve this problem, several measures can be taken.</strong> One effective solution is to <strong><em>encourage young people to follow a healthier diet</em></strong>. This is because eating more vegetables and reducing junk food can help them control their weight and improve their health. Another possible measure is to <strong><em>promote regular physical exercise at schools</em></strong>. For example, schools can organize sports activities or encourage students to join exercise clubs after class. Finally, it is important to <strong><em>educate young people about healthy eating habits</em></strong>. This means that they can make healthier choices in their daily lives.<br><br>In conclusion, <strong>obesity among young people</strong> has several causes and requires practical solutions. By addressing these causes and applying suitable measures, this problem can be reduced in the future. These actions can bring positive changes to both individuals and society.",
           "sample_b2": "In recent years, <strong>obesity among young people</strong> has become a growing concern in many parts of the world. This issue has created several challenges for both individuals and society. <strong>This essay will examine the main causes of this problem and suggest possible solutions.</strong>\n\n<strong>This issue can be attributed to several key factors.</strong> One major cause is that <strong><em>many young people have unhealthy eating habits</em></strong>. In fact, they frequently consume fast food and sugary drinks. As a result, they may consume excessive calories and gain weight quickly. Another contributing factor is that <strong><em>many young </em></strong><strong><em>individuals</em></strong><strong><em> do not get enough physical activity</em></strong>. They spend little time on sports or outdoor activities. Consequently, they burn less energy and find it difficult to maintain a healthy weight. A further reason is that <strong><em>some</em></strong><strong><em> of</em></strong><strong><em> </em></strong><strong><em>the youth</em></strong><strong><em> lack sufficient knowledge about nutrition</em></strong>. Because of this, they may choose foods that are unhealthy. As a result, they may develop unbalanced eating habits.\n\n<strong>To address this problem, several practical solutions can be implemented.</strong> One effective solution is to <strong><em>encourage healthy eating habits</em></strong>. For example, young people should eat more fruit and vegetables as well as limit fast food. As a result, they can maintain a healthy weight. Another possible measure is to <strong><em>increase physical activity</em></strong>. This means that teenagers should exercise or play sports more regularly. Therefore, they can burn more calories and improve their health. Finally, it is necessary to <strong><em>improve nutrition education</em></strong>. For example, schools can organize nutrition education programmes to help students understand the importance of a balanced diet. As a result, students can make healthier food choices in their daily lives.\n\nIn conclusion, <strong>obesity among young people</strong> is primarily driven by <strong><em>unhealthy eating habits</em></strong>, <strong><em>insufficient physical activity</em></strong>, and <strong><em>limited nutritional knowledge</em></strong>. However, by implementing targeted measures such as <strong><em>encouraging healthy eating habits</em></strong>, <strong><em>increasing physical activity</em></strong>, and <strong><em>improving nutrition education</em></strong>, this issue can be effectively addressed. These actions can help improve the situation in the long term.",
           "translation_b1": "Trong những năm gần đây, <strong>béo phì ở giới trẻ</strong> đã trở thành mối lo ngại ngày càng tăng ở nhiều nơi trên thế giới. Vấn đề này ảnh hưởng đến cả cá nhân và xã hội theo những cách khác nhau. <strong>Bài viết này sẽ thảo luận về những nguyên nhân chính của vấn đề này và đề xuất các giải pháp khả thi.</strong>\n\n<strong>Vấn đề này có thể do một vài yếu tố gây ra.</strong> Một nguyên nhân lớn là <strong><em>nhiều người trẻ có thói quen ăn uống không lành mạnh</em></strong>. Điều này là do họ thường ăn thức ăn nhanh và uống nước ngọt có đường, và những thực phẩm này thường chứa một lượng lớn calo. Một yếu tố đóng góp khác là <strong><em>nhiều người trẻ không hoạt động thể chất đầy đủ</em></strong>. Kết quả là, họ dành ít thời gian cho thể thao hoặc các hoạt động ngoài trời và đốt cháy ít calo hơn. Một lý do khác nữa là <strong><em>một số người trẻ không có đủ kiến thức về dinh dưỡng</em></strong>. Hệ quả là, họ có thể lựa chọn những thực phẩm không tốt cho sức khỏe và hình thành thói quen ăn uống không lành mạnh.\n\n<strong>Để giải quyết vấn đề này, một số biện pháp có thể được thực hiện.</strong> Một giải pháp hiệu quả là <strong><em>khuyến khích thói quen ăn uống lành mạnh</em></strong>. Lý do chính là người trẻ nên ăn nhiều trái cây và rau củ thay vì thức ăn nhanh để duy trì sức khỏe tốt hơn. Một biện pháp khả thi khác là <strong><em>tăng cường hoạt động thể chất</em></strong>. Ví dụ, người trẻ nên tập thể dục hoặc chơi thể thao thường xuyên hơn để đốt cháy nhiều calo hơn. Cuối cùng, điều quan trọng là phải <strong><em>cải thiện giáo dục dinh dưỡng</em></strong>. Do đó, các trường học có thể giúp học sinh hiểu được tầm quan trọng của một chế độ ăn uống cân bằng và một lối sống lành mạnh.\n\nTóm lại, <strong>béo phì ở giới trẻ</strong> do nhiều yếu tố gây ra và đòi hỏi những giải pháp thực tế. Bằng cách giải quyết các nguyên nhân và áp dụng các biện pháp phù hợp, vấn đề này có thể được giảm thiểu trong tương lai. Những hành động này có thể giúp tạo ra những thay đổi tích cực cho cả cá nhân và xã hội.",
           "translation_b2": "Trong những năm gần đây, <strong>béo phì ở giới trẻ</strong> đã trở thành mối lo ngại ngày càng tăng ở nhiều nơi trên thế giới. Vấn đề này đã tạo ra một số thách thức cho cả cá nhân và xã hội. <strong>Bài viết này sẽ xem xét các nguyên nhân chính của vấn đề này và đề xuất các giải pháp khả thi.</strong>\n\n<strong>Vấn đề này có thể xuất phát từ một vài yếu tố then chốt.</strong> Một nguyên nhân lớn là <strong><em>nhiều người trẻ có thói quen ăn uống không lành mạnh</em></strong>. Trên thực tế, họ thường xuyên tiêu thụ thức ăn nhanh và đồ uống có đường. Kết quả là, họ có thể hấp thụ lượng calo dư thừa và tăng cân nhanh chóng. Một yếu tố đóng góp khác là <strong><em>nhiều cá nhân trẻ tuổi không hoạt động thể chất đầy đủ</em></strong>. Họ dành ít thời gian cho thể thao hoặc các hoạt động ngoài trời. Hệ quả là, họ đốt cháy ít năng lượng hơn và gặp khó khăn trong việc duy trì cân nặng khỏe mạnh. Một lý do khác nữa là <strong><em>một số người trẻ thiếu kiến thức đầy đủ về dinh dưỡng</em></strong>. Vì điều này, họ có thể lựa chọn những thực phẩm không tốt cho sức khỏe. Kết quả là, họ có thể hình thành thói quen ăn uống không cân bằng.\n\n<strong>Để giải quyết vấn đề này, một số giải pháp thực tế có thể được thực hiện.</strong> Một giải pháp hiệu quả là <strong><em>khuyến khích thói quen ăn uống lành mạnh</em></strong>. Ví dụ, người trẻ nên ăn nhiều trái cây và rau củ hơn cũng như hạn chế thức ăn nhanh. Kết quả là, họ có thể duy trì cân nặng khỏe mạnh. Một biện pháp khả thi khác là <strong><em>tăng cường hoạt động thể chất</em></strong>. Điều này có nghĩa là thanh thiếu niên nên tập thể dục hoặc chơi thể thao thường xuyên hơn. Do đó, họ có thể đốt cháy nhiều calo hơn và cải thiện sức khỏe. Cuối cùng, cần phải <strong><em>cải thiện giáo dục dinh dưỡng</em></strong>. Ví dụ, các trường học có thể tổ chức các chương trình giáo dục dinh dưỡng để giúp học sinh hiểu được tầm quan trọng của một chế độ ăn uống cân bằng. Kết quả là, học sinh có thể đưa ra những lựa chọn thực phẩm lành mạnh hơn trong cuộc sống hàng ngày.\n\nTóm lại, <strong>béo phì ở giới trẻ</strong> chủ yếu do <strong><em>thói quen ăn uống không lành mạnh</em></strong>, <strong><em>hoạt động thể chất không đầy đủ</em></strong>, và <strong><em>kiến thức dinh dưỡng hạn chế</em></strong>. Tuy như vậy, bằng cách thực hiện các biện pháp mục tiêu như <strong><em>khuyến khích thói quen ăn uống lành mạnh</em></strong>, <strong><em>tăng cường hoạt động thể chất</em></strong>, và <strong><em>cải thiện giáo dục dinh dưỡng</em></strong>, vấn đề này có thể được giải quyết một cách hiệu quả. Những hành động này có thể giúp cải thiện tình hình trong dài hạn.",
@@ -20300,8 +20524,8 @@ const ESSAY_DATA = [
         "title_en": "Single-parent families",
         "title_vi": "Gia đình đơn thân",
         "tags": "[Causes & Effects]",
-        "context": "In recent years, single-parent families have become increasingly common in many societies. In these families, children are raised by only one parent due to various social, economic, or personal circumstances. This trend has attracted considerable attention because it may influence both family life and society in different ways.",
-        "prompt": "Write an essay to an educated reader to discuss the causes and effects of single-parent families. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "context": "In many countries, the number of single-parent families has been rising steadily in recent decades. This trend has raised concerns about its possible causes and effects on individuals and society.",
+        "prompt": "Write an essay to an educated reader to discuss the causes of this trend and its effects. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task fulfillment, Organization, Vocabulary, and Grammar.",
         "has_full_details": true,
         "paraphrases": [
           {
@@ -20323,182 +20547,256 @@ const ESSAY_DATA = [
         ],
         "details": {
           "ideas_b1": {
-            "benefits": [
+            "causes": [
               {
-                "title": "CAUSE 01",
+                "title": "NGUYÊN NHÂN 01: TỶ LỆ LY HÔN GIA TĂNG",
                 "collocations": [
                   {
-                    "en": "divorce rate",
+                    "en": "divorce rates",
                     "vi": "tỷ lệ ly hôn"
                   },
-                  {
-                    "en": "live with one parent",
-                    "vi": "sống với một phụ huynh"
-                  },
-                  {
-                    "en": "marital breakdown",
-                    "vi": "sự tan vỡ hôn nhân"
-                  },
-                  {
-                    "en": "parental separation",
-                    "vi": "sự ly thân của cha mẹ"
-                  },
-                  {
-                    "en": "family structure",
-                    "vi": "cấu trúc gia đình"
-                  }
-                ],
-                "point_vi": "Tỷ lệ ly hôn ngày càng gia tăng trong xã hội hiện đại.",
-                "point_en": "The rate of divorce is increasing in modern society.",
-                "evidence_vi": "Sau khi cha mẹ ly hôn, con cái có thể sống chủ yếu với một trong hai người.",
-                "evidence_en": "After parents get divorced, children may live mainly with one parent."
-              },
-              {
-                "title": "CAUSE 02",
-                "collocations": [
-                  {
-                    "en": "financial difficulties",
-                    "vi": "khó khăn tài chính"
-                  },
-                  {
-                    "en": "maintain a stable life",
-                    "vi": "duy trì cuộc sống ổn định"
-                  },
-                  {
-                    "en": "economic pressure",
-                    "vi": "áp lực kinh tế"
-                  },
-                  {
-                    "en": "financial instability",
-                    "vi": "sự bất ổn tài chính"
-                  },
-                  {
-                    "en": "cost of living",
-                    "vi": "chi phí sinh hoạt"
-                  }
-                ],
-                "point_vi": "Khó khăn tài chính có thể dẫn đến gia đình đơn thân.",
-                "point_en": "Financial difficulties can lead to single-parent families.",
-                "evidence_vi": "Một số gia đình không đủ khả năng duy trì một cuộc sống gia đình ổn định do áp lực kinh tế.",
-                "evidence_en": "Some families cannot maintain a stable family life because of financial pressure."
-              },
-              {
-                "title": "CAUSE 03",
-                "collocations": [
-                  {
-                    "en": "personal choices",
-                    "vi": "lựa chọn cá nhân"
-                  },
-                  {
-                    "en": "changing family values",
-                    "vi": "quan niệm gia đình thay đổi"
-                  },
-                  {
-                    "en": "raise children alone",
-                    "vi": "nuôi con một mình"
-                  },
-                  {
-                    "en": "personal circumstances",
-                    "vi": "hoàn cảnh cá nhân"
-                  },
-                  {
-                    "en": "independent parenting",
-                    "vi": "nuôi dạy con tự lập"
-                  }
-                ],
-                "point_vi": "Những lựa chọn cá nhân và quan niệm gia đình thay đổi cũng có thể dẫn đến gia đình đơn thân.",
-                "point_en": "Personal choices and changing family values can also lead to single-parent families.",
-                "evidence_vi": "Một số người lựa chọn nuôi con một mình vì họ muốn có một cuộc sống phù hợp hơn với hoàn cảnh cá nhân.",
-                "evidence_en": "Some people choose to raise children alone because they want a life that better suits their personal circumstances."
-              }
-            ],
-            "drawbacks": [
-              {
-                "title": "EFFECT 01",
-                "collocations": [
                   {
                     "en": "financial pressure",
                     "vi": "áp lực tài chính"
                   },
                   {
-                    "en": "cover living costs",
-                    "vi": "chi trả chi phí sinh hoạt"
+                    "en": "relationship problems",
+                    "vi": "vấn đề trong mối quan hệ"
                   },
                   {
-                    "en": "single-income household",
-                    "vi": "hộ gia đình một nguồn thu nhập"
-                  },
-                  {
-                    "en": "daily expenses",
-                    "vi": "chi tiêu hằng ngày"
-                  },
-                  {
-                    "en": "childcare costs",
-                    "vi": "chi phí chăm sóc con cái"
+                    "en": "decide to separate",
+                    "vi": "quyết định ly thân/chia tay"
                   }
                 ],
-                "point_vi": "Gia đình đơn thân có thể tạo ra áp lực tài chính cho cha hoặc mẹ.",
-                "point_en": "Single-parent families can create financial pressure on parents.",
-                "evidence_vi": "Một người phải chịu phần lớn chi phí cho con cái và gia đình.",
-                "evidence_en": "One parent has to cover most of the costs for the children and the family."
+                "point_vi": "Tỷ lệ ly hôn đang gia tăng ở nhiều quốc gia.",
+                "point_en": "Divorce rates are increasing in many countries.",
+                "evidence_vi": "Điều này là do nhiều cặp vợ chồng phải đối mặt với áp lực tài chính hoặc các vấn đề trong mối quan hệ, vì vậy họ quyết định ly hôn.",
+                "evidence_en": "This is because many couples face financial pressure or relationship problems, so they decide to separate."
               },
               {
-                "title": "EFFECT 02",
+                "title": "NGUYÊN NHÂN 02: MANG THAI NGOÀI Ý MUỐN",
                 "collocations": [
                   {
-                    "en": "less time for children",
-                    "vi": "ít thời gian cho con cái"
+                    "en": "unplanned pregnancies",
+                    "vi": "mang thai ngoài ý muốn"
                   },
                   {
-                    "en": "work longer hours",
-                    "vi": "làm việc nhiều giờ hơn"
-                  },
-                  {
-                    "en": "earn a living",
-                    "vi": "kiếm sống"
-                  },
-                  {
-                    "en": "lack of parental care",
-                    "vi": "thiếu sự chăm sóc của cha mẹ"
-                  },
-                  {
-                    "en": "work-life imbalance",
-                    "vi": "mất cân bằng công việc - cuộc sống"
+                    "en": "raised by only one parent",
+                    "vi": "được nuôi dưỡng bởi một người cha/mẹ"
                   }
                 ],
-                "point_vi": "Cha mẹ đơn thân có thể có ít thời gian dành cho con cái.",
-                "point_en": "Single parents may have less time for their children.",
-                "evidence_vi": "Họ thường phải làm việc nhiều hơn để kiếm đủ tiền trang trải cuộc sống.",
-                "evidence_en": "They often have to work more to earn enough money for daily life."
+                "point_vi": "Một số người trẻ mang thai ngoài ý muốn.",
+                "point_en": "Some young people have unplanned pregnancies.",
+                "evidence_vi": "Kết quả là một số đứa trẻ được nuôi dưỡng chỉ bởi một người cha hoặc mẹ.",
+                "evidence_en": "As a result, some children are raised by only one parent."
               },
               {
-                "title": "EFFECT 03",
+                "title": "NGUYÊN NHÂN 03: XÃ HỘI CỞI MỞ HƠN",
                 "collocations": [
                   {
-                    "en": "emotional difficulties",
-                    "vi": "khó khăn về cảm xúc"
+                    "en": "more accepting",
+                    "vi": "cởi mở/chấp nhận hơn"
                   },
                   {
-                    "en": "feel sad and lonely",
-                    "vi": "cảm thấy buồn và cô đơn"
+                    "en": "single-parent families",
+                    "vi": "gia đình đơn thân"
                   },
                   {
-                    "en": "lack of parental attention",
-                    "vi": "thiếu sự quan tâm của cha mẹ"
-                  },
-                  {
-                    "en": "emotional support",
-                    "vi": "sự hỗ trợ về mặt tình cảm"
-                  },
-                  {
-                    "en": "psychological impact",
-                    "vi": "tác động tâm lý"
+                    "en": "feel comfortable",
+                    "vi": "cảm thấy thoải mái"
                   }
                 ],
-                "point_vi": "Trẻ em trong gia đình đơn thân có thể gặp một số khó khăn về cảm xúc.",
-                "point_en": "Children in single-parent families may experience emotional difficulties.",
-                "evidence_vi": "Các em có thể cảm thấy buồn hoặc thiếu sự quan tâm từ cả cha và mẹ.",
-                "evidence_en": "They may feel sad or lack attention from both parents."
+                "point_vi": "Xã hội ngày nay cởi mở hơn với các gia đình đơn thân.",
+                "point_en": "Society is more accepting of single-parent families nowadays.",
+                "evidence_vi": "Điều này có nghĩa là ngày càng có nhiều người cảm thấy thoải mái khi trở thành cha mẹ đơn thân.",
+                "evidence_en": "This means that more people feel comfortable becoming single parents."
+              }
+            ],
+            "effects": [
+              {
+                "title": "ẢNH HƯỞNG 01: THIẾU SỰ GIÁM SÁT CỦA CHA MẸ",
+                "collocations": [
+                  {
+                    "en": "parental supervision",
+                    "vi": "sự giám sát của cha mẹ"
+                  },
+                  {
+                    "en": "working to earn money",
+                    "vi": "làm việc để kiếm tiền"
+                  },
+                  {
+                    "en": "spend time with children",
+                    "vi": "dành thời gian cho con cái"
+                  }
+                ],
+                "point_vi": "Trẻ em trong các gia đình đơn thân có thể không nhận được đủ sự giám sát của cha mẹ.",
+                "point_en": "Children in single-parent families may not receive enough parental supervision.",
+                "evidence_vi": "Ví dụ, một người cha hoặc mẹ đơn thân có thể dành phần lớn thời gian làm việc để kiếm tiền, vì vậy họ không thể dành đủ thời gian cho con cái.",
+                "evidence_en": "For example, a single parent may spend most of their time working to earn money, so they cannot spend enough time with their children."
+              },
+              {
+                "title": "ẢNH HƯỞNG 02: GÁNH NẶNG TÀI CHÍNH",
+                "collocations": [
+                  {
+                    "en": "financial burdens",
+                    "vi": "gánh nặng tài chính"
+                  },
+                  {
+                    "en": "support the whole family",
+                    "vi": "chu cấp cho cả gia đình"
+                  }
+                ],
+                "point_vi": "Cha mẹ đơn thân có thể phải đối mặt với những gánh nặng tài chính.",
+                "point_en": "Single parents may face financial burdens.",
+                "evidence_vi": "Điều này là do họ thường phải một mình gánh vác nuôi sống cả gia đình.",
+                "evidence_en": "This is because they often have to support the whole family alone."
+              },
+              {
+                "title": "ẢNH HƯỞNG 03: VẤN ĐỀ HÀNH VI CỦA TRẺ",
+                "collocations": [
+                  {
+                    "en": "develop bad behavior",
+                    "vi": "hình thành hành vi xấu"
+                  },
+                  {
+                    "en": "guidance from parents",
+                    "vi": "sự định hướng từ cha mẹ"
+                  },
+                  {
+                    "en": "behave badly",
+                    "vi": "cư xử không tốt"
+                  }
+                ],
+                "point_vi": "Một số trẻ em có thể phát triển hành vi không tốt.",
+                "point_en": "Some children may develop bad behavior.",
+                "evidence_vi": "Điều này là do các em có thể không nhận được đủ sự định hướng từ cha mẹ, vì vậy các em có thể cư xử không tốt ở trường hoặc làm những điều tiêu cực.",
+                "evidence_en": "This is because they may not receive enough guidance from their parents, so they may behave badly at school or do negative things."
+              }
+            ],
+            "benefits": [
+              {
+                "title": "NGUYÊN NHÂN 01: TỶ LỆ LY HÔN GIA TĂNG",
+                "collocations": [
+                  {
+                    "en": "divorce rates",
+                    "vi": "tỷ lệ ly hôn"
+                  },
+                  {
+                    "en": "financial pressure",
+                    "vi": "áp lực tài chính"
+                  },
+                  {
+                    "en": "relationship problems",
+                    "vi": "vấn đề trong mối quan hệ"
+                  },
+                  {
+                    "en": "decide to separate",
+                    "vi": "quyết định ly thân/chia tay"
+                  }
+                ],
+                "point_vi": "Tỷ lệ ly hôn đang gia tăng ở nhiều quốc gia.",
+                "point_en": "Divorce rates are increasing in many countries.",
+                "evidence_vi": "Điều này là do nhiều cặp vợ chồng phải đối mặt với áp lực tài chính hoặc các vấn đề trong mối quan hệ, vì vậy họ quyết định ly hôn.",
+                "evidence_en": "This is because many couples face financial pressure or relationship problems, so they decide to separate."
+              },
+              {
+                "title": "NGUYÊN NHÂN 02: MANG THAI NGOÀI Ý MUỐN",
+                "collocations": [
+                  {
+                    "en": "unplanned pregnancies",
+                    "vi": "mang thai ngoài ý muốn"
+                  },
+                  {
+                    "en": "raised by only one parent",
+                    "vi": "được nuôi dưỡng bởi một người cha/mẹ"
+                  }
+                ],
+                "point_vi": "Một số người trẻ mang thai ngoài ý muốn.",
+                "point_en": "Some young people have unplanned pregnancies.",
+                "evidence_vi": "Kết quả là một số đứa trẻ được nuôi dưỡng chỉ bởi một người cha hoặc mẹ.",
+                "evidence_en": "As a result, some children are raised by only one parent."
+              },
+              {
+                "title": "NGUYÊN NHÂN 03: XÃ HỘI CỞI MỞ HƠN",
+                "collocations": [
+                  {
+                    "en": "more accepting",
+                    "vi": "cởi mở/chấp nhận hơn"
+                  },
+                  {
+                    "en": "single-parent families",
+                    "vi": "gia đình đơn thân"
+                  },
+                  {
+                    "en": "feel comfortable",
+                    "vi": "cảm thấy thoải mái"
+                  }
+                ],
+                "point_vi": "Xã hội ngày nay cởi mở hơn với các gia đình đơn thân.",
+                "point_en": "Society is more accepting of single-parent families nowadays.",
+                "evidence_vi": "Điều này có nghĩa là ngày càng có nhiều người cảm thấy thoải mái khi trở thành cha mẹ đơn thân.",
+                "evidence_en": "This means that more people feel comfortable becoming single parents."
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "ẢNH HƯỞNG 01: THIẾU SỰ GIÁM SÁT CỦA CHA MẸ",
+                "collocations": [
+                  {
+                    "en": "parental supervision",
+                    "vi": "sự giám sát của cha mẹ"
+                  },
+                  {
+                    "en": "working to earn money",
+                    "vi": "làm việc để kiếm tiền"
+                  },
+                  {
+                    "en": "spend time with children",
+                    "vi": "dành thời gian cho con cái"
+                  }
+                ],
+                "point_vi": "Trẻ em trong các gia đình đơn thân có thể không nhận được đủ sự giám sát của cha mẹ.",
+                "point_en": "Children in single-parent families may not receive enough parental supervision.",
+                "evidence_vi": "Ví dụ, một người cha hoặc mẹ đơn thân có thể dành phần lớn thời gian làm việc để kiếm tiền, vì vậy họ không thể dành đủ thời gian cho con cái.",
+                "evidence_en": "For example, a single parent may spend most of their time working to earn money, so they cannot spend enough time with their children."
+              },
+              {
+                "title": "ẢNH HƯỞNG 02: GÁNH NẶNG TÀI CHÍNH",
+                "collocations": [
+                  {
+                    "en": "financial burdens",
+                    "vi": "gánh nặng tài chính"
+                  },
+                  {
+                    "en": "support the whole family",
+                    "vi": "chu cấp cho cả gia đình"
+                  }
+                ],
+                "point_vi": "Cha mẹ đơn thân có thể phải đối mặt với những gánh nặng tài chính.",
+                "point_en": "Single parents may face financial burdens.",
+                "evidence_vi": "Điều này là do họ thường phải một mình gánh vác nuôi sống cả gia đình.",
+                "evidence_en": "This is because they often have to support the whole family alone."
+              },
+              {
+                "title": "ẢNH HƯỞNG 03: VẤN ĐỀ HÀNH VI CỦA TRẺ",
+                "collocations": [
+                  {
+                    "en": "develop bad behavior",
+                    "vi": "hình thành hành vi xấu"
+                  },
+                  {
+                    "en": "guidance from parents",
+                    "vi": "sự định hướng từ cha mẹ"
+                  },
+                  {
+                    "en": "behave badly",
+                    "vi": "cư xử không tốt"
+                  }
+                ],
+                "point_vi": "Một số trẻ em có thể phát triển hành vi không tốt.",
+                "point_en": "Some children may develop bad behavior.",
+                "evidence_vi": "Điều này là do các em có thể không nhận được đủ sự định hướng từ cha mẹ, vì vậy các em có thể cư xử không tốt ở trường hoặc làm những điều tiêu cực.",
+                "evidence_en": "This is because they may not receive enough guidance from their parents, so they may behave badly at school or do negative things."
               }
             ]
           },
@@ -20920,7 +21218,7 @@ const ESSAY_DATA = [
               "vi": "các rào cản phát triển"
             }
           ],
-          "sample_b1": "In recent years, <strong>the growth of single-parent families</strong> has become an important topic in modern society. This issue has drawn significant attention. <strong>This essay will explore both the causes and the effects of this issue.</strong>\n\n<strong>This issue can be caused by several factors.</strong> One primary cause is that <strong><em>the rate of divorce is increasing in modern society.</em></strong> After parents get divorced, children may live mainly with one parent. Another factor is that <strong><em>financial difficulties can lead to single-parent families.</em></strong> Some families cannot maintain a stable family life because of financial pressure. A further reason is that <strong><em>personal choices and changing family values can also lead to single-parent families.</em></strong> Some people choose to raise children alone because they want a life that better suits their personal circumstances.\n\n<strong>This issue also leads to several consequences.</strong> One major effect is that <strong><em>single-parent families can create financial pressure on parents.</em></strong> One parent has to cover most of the costs for the children and the family. Another consequence is that <strong><em>single parents may have less time for their children.</em></strong> They often have to work more to earn enough money for daily life. A further impact is that <strong><em>children in single-parent families may experience emotional difficulties.</em></strong> They may feel sad or lack attention from both parents.\n\nIn conclusion, <strong>single-parent families</strong> are influenced by various causes and have important effects. These factors show that it has significant impacts on society. Understanding them can help people find better ways to address this issue.",
+          "sample_b1": "In recent years, <strong>the increase in single-parent families</strong> has become a growing concern in many parts of the world. This problem affects both individuals and society in different ways. <strong>This essay will discuss its main causes and possible effects.</strong><br><br><strong>This problem can be caused by several factors.</strong> One major cause is that <strong><em>divorce rates are increasing in many countries</em></strong>. This is because many couples face financial pressure or relationship problems, so they decide to separate. Another contributing factor is that <strong><em>some young people have unplanned pregnancies</em></strong>. As a result, some children are raised by only one parent. A further reason is that <strong><em>society is more accepting of single-parent families nowadays</em></strong>. This means that more people feel comfortable becoming single parents.<br><br><strong>This issue can lead to several negative effects.</strong> One serious impact is that <strong><em>children in single-parent families may not receive enough parental supervision</em></strong>. For example, a single parent may spend most of their time working to earn money, so they cannot spend enough time with their children. Another consequence is that <strong><em>single parents may face financial burdens</em></strong>. This is because they often have to support the whole family alone. A further problem is that <strong><em>some children may develop bad behavior</em></strong>. This is because they may not receive enough guidance from their parents, so they may behave badly at school or do negative things.<br><br>In conclusion, <strong>the increase in single-parent families</strong> has several causes and can lead to various negative effects. By understanding the causes and paying more attention to this problem, people can help improve the situation in the future. These actions can bring positive changes to both individuals and society.",
           "translation_b1": "Trong những năm gần đây, <strong>sự gia tăng của các gia đình đơn thân</strong> đã trở thành một chủ đề quan trọng trong xã hội hiện đại. Vấn đề này đã thu hút sự chú ý đáng kể. <strong>Bài tiểu luận này sẽ tìm hiểu cả nguyên nhân và tác động của vấn đề này.</strong>\n\n<strong>Vấn đề này có thể do một số yếu tố gây ra.</strong> Một nguyên nhân chính là <strong><em>tỷ lệ ly hôn ngày càng gia tăng trong xã hội hiện đại.</em></strong> Sau khi cha mẹ ly hôn, con cái có thể sống chủ yếu với một trong hai người. Một yếu tố khác là <strong><em>khó khăn tài chính có thể dẫn đến gia đình đơn thân.</em></strong> Một số gia đình không đủ khả năng duy trì một cuộc sống gia đình ổn định do áp lực kinh tế. Một lý do nữa là <strong><em>những lựa chọn cá nhân và quan niệm gia đình thay đổi cũng có thể dẫn đến gia đình đơn thân.</em></strong> Một số người lựa chọn nuôi con một mình vì họ muốn có một cuộc sống phù hợp hơn với hoàn cảnh cá nhân.\n\n<strong>Vấn đề này cũng dẫn đến một số hậu quả.</strong> Một tác động lớn là <strong><em>gia đình đơn thân có thể tạo ra áp lực tài chính cho cha hoặc mẹ.</em></strong> Một người phải chịu phần lớn chi phí cho con cái và gia đình. Một hậu quả khác là <strong><em>cha mẹ đơn thân có thể có ít thời gian dành cho con cái.</em></strong> Họ thường phải làm việc nhiều hơn để kiếm đủ tiền trang trải cuộc sống. Một tác động nữa là <strong><em>trẻ em trong gia đình đơn thân có thể gặp một số khó khăn về cảm xúc.</em></strong> Các em có thể cảm thấy buồn hoặc thiếu sự quan tâm từ cả cha và mẹ.\n\nTóm lại, <strong>gia đình đơn thân</strong> chịu ảnh hưởng bởi nhiều nguyên nhân và gây ra những tác động quan trọng. Những yếu tố này cho thấy nó có ảnh hưởng đáng kể đến xã hội. Việc hiểu rõ chúng có thể giúp mọi người tìm ra những cách tốt hơn để giải quyết vấn đề này.",
           "sample_b2": "In recent years, <strong>the prevalence of single-parent families</strong> has become an increasingly significant issue in modern society. This trend has raised concerns among researchers and policymakers. <strong>This essay will examine both the causes and the effects of this issue.</strong>\n\n<strong>This trend is driven by several underlying factors.</strong> One primary cause is that <strong><em>the rising rate of divorce and marital breakdown has become more prevalent.</em></strong> Long-term conflicts may lead parents to end their marriage. After divorce, children often live mainly with one parent. Another contributing factor is that <strong><em>financial and economic pressure can also contribute to the growth of single-parent families.</em></strong> Financial difficulties can create serious conflicts between parents. Long-term problems may make it difficult for families to maintain a stable life. A further aspect to consider is that <strong><em>personal choices and changing social values also contribute to this trend.</em></strong> Some people choose to raise children alone rather than remain in an unsuitable relationship. Modern society also accepts different family structures more than in the past.\n\n<strong>This development produces several notable consequences.</strong> One major effect is that <strong><em>single-parent families can create significant financial pressure on parents.</em></strong> One parent has to cover most of the costs of housing, education, and children's daily needs. This may require parents to work longer hours or find additional sources of income. Another consequence is that <strong><em>single-parent families can reduce the amount of time and support children receive from their parents.</em></strong> Single parents often have to balance work and childcare responsibilities. Therefore, they may have less time to talk to, care for, and support their children. A further concern is that <strong><em>children in single-parent families may experience emotional and social difficulties.</em></strong> They may feel sad, lonely, or stressed because one parent is not present. These feelings may affect how they communicate and interact with others.\n\nIn conclusion, <strong>single-parent families</strong> stem from several key factors and result in far-reaching effects. These points highlight the complex nature of this issue. A comprehensive understanding of both aspects is essential for developing effective responses.",
           "translation_b2": "Trong những năm gần đây, <strong>sự phổ biến của các gia đình đơn thân</strong> đã trở thành một vấn đề ngày càng đáng kể trong xã hội hiện đại. Xu hướng này đã làm dấy lên mối lo ngại trong giới nghiên cứu và các nhà hoạch định chính sách. <strong>Bài tiểu luận này sẽ xem xét cả nguyên nhân và tác động của vấn đề này.</strong>\n\n<strong>Xu hướng này được thúc đẩy bởi một số yếu tố tiềm ẩn.</strong> Một nguyên nhân chính là <strong><em>sự gia tăng của các vụ ly hôn và đổ vỡ gia đình ngày càng trở nên phổ biến.</em></strong> Những mâu thuẫn kéo dài có thể khiến cha mẹ quyết định chấm dứt cuộc hôn nhân. Sau khi ly hôn, con cái thường sống chủ yếu với một trong hai người. Một yếu tố đóng góp khác là <strong><em>áp lực tài chính và kinh tế cũng có thể góp phần làm gia tăng các gia đình đơn thân.</em></strong> Khó khăn về tiền bạc có thể gây ra những mâu thuẫn nghiêm trọng giữa cha mẹ. Những vấn đề kéo dài có thể khiến gia đình không thể duy trì cuộc sống ổn định. Một khía cạnh nữa cần xem xét là <strong><em>những lựa chọn cá nhân và sự thay đổi trong quan niệm xã hội về gia đình cũng góp phần vào xu hướng này.</em></strong> Một số người lựa chọn nuôi con một mình thay vì duy trì một mối quan hệ không phù hợp. Xã hội hiện đại cũng chấp nhận nhiều hình thức gia đình khác nhau hơn trước.\n\n<strong>Sự phát triển này tạo ra một số hậu quả đáng chú ý.</strong> Một tác động lớn là <strong><em>gia đình đơn thân có thể tạo ra áp lực tài chính đáng kể cho cha hoặc mẹ.</em></strong> Một người phải chịu phần lớn chi phí cho nhà ở, giáo dục và các nhu cầu hằng ngày của con cái. Điều này có thể khiến cha mẹ phải làm việc nhiều giờ hơn hoặc tìm thêm nguồn thu nhập. Một hậu quả khác là <strong><em>gia đình đơn thân có thể làm giảm lượng thời gian và sự hỗ trợ mà trẻ nhận được từ cha mẹ.</em></strong> Cha mẹ đơn thân thường phải cân bằng giữa công việc và việc chăm sóc con cái. Vì vậy, họ có thể có ít thời gian hơn để trò chuyện, chăm sóc và hỗ trợ con. Một mối lo ngại nữa là <strong><em>trẻ em trong gia đình đơn thân có thể gặp một số khó khăn về cảm xúc và xã hội.</em></strong> Các em có thể cảm thấy buồn, cô đơn hoặc căng thẳng vì thiếu sự hiện diện của một phụ huynh. Những cảm xúc này có thể ảnh hưởng đến cách các em giao tiếp và hòa nhập với những người khác.\n\nTóm lại, <strong>gia đình đơn thân</strong> bắt nguồn từ một số yếu tố chính và dẫn đến những tác động sâu rộng. Những điểm này làm nổi bật tính chất phức tạp của vấn đề này. Việc hiểu biết toàn diện về cả hai khía cạnh là điều cần thiết để phát triển các giải pháp ứng phó hiệu quả."
@@ -25181,8 +25479,8 @@ const ESSAY_DATA = [
         "title_en": "Young people leaving their companies to start their own businesses",
         "title_vi": "Giới trẻ rời công ty để khởi nghiệp",
         "tags": "[Causes]",
-        "context": "In recent years, an increasing number of young people have chosen to leave their companies and start their own businesses. Instead of pursuing long-term careers in established organizations, many young professionals are becoming entrepreneurs and creating their own career paths. This trend has become more common in many countries and has attracted considerable attention from both employers and policymakers.",
-        "prompt": "Write an essay to an educated reader to discuss the causes of young people leaving their companies to start their own businesses. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "context": "In recent years, a growing number of young people have chosen to leave traditional jobs in companies to start their own businesses. This trend has attracted attention from the public and sparked discussion about what is driving this change.",
+        "prompt": "Write an essay to discuss the causes of this trend. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task fulfillment, Organization, Vocabulary, and Grammar.",
         "has_full_details": true,
         "paraphrases": [
           {
@@ -25204,96 +25502,184 @@ const ESSAY_DATA = [
         ],
         "details": {
           "ideas_b1": {
-            "benefits": [
+            "causes": [
               {
-                "title": "CAUSE 01",
+                "title": "NGUYÊN NHÂN 01: MONG MUỐN TỰ DO VÀ TỰ CHỦ TRONG CÔNG VIỆC",
                 "collocations": [
                   {
-                    "en": "control over work",
-                    "vi": "quyền kiểm soát công việc"
+                    "en": "freedom and independence",
+                    "vi": "tự do và tự chủ"
                   },
                   {
-                    "en": "make own decisions",
+                    "en": "fixed working hours",
+                    "vi": "giờ làm việc cố định"
+                  },
+                  {
+                    "en": "strict company rules",
+                    "vi": "quy định nghiêm ngặt của công ty"
+                  },
+                  {
+                    "en": "make their own decisions",
                     "vi": "tự đưa ra quyết định"
                   },
                   {
-                    "en": "flexible way of working",
-                    "vi": "cách làm việc linh hoạt"
-                  },
-                  {
-                    "en": "work satisfaction",
-                    "vi": "sự hài lòng với công việc"
-                  },
-                  {
-                    "en": "independent schedule",
-                    "vi": "lịch trình tự chủ"
+                    "en": "self-employment",
+                    "vi": "việc tự làm chủ"
                   }
                 ],
-                "point_vi": "Nhiều người trẻ muốn có nhiều quyền chủ động hơn trong công việc.",
-                "point_en": "Many young people want to have more control over their work.",
-                "evidence_vi": "Họ có thể tự đưa ra quyết định thay vì phải làm theo yêu cầu của công ty. Điều này giúp họ có cách làm việc linh hoạt hơn. Vì vậy, họ có thể cảm thấy thoải mái và hài lòng hơn với công việc của mình.",
-                "evidence_en": "They can make their own decisions instead of following company rules. This gives them a more flexible way of working. As a result, they may feel more comfortable and satisfied with their work."
+                "point_vi": "Nhiều người trẻ mong muốn có nhiều sự tự do và độc lập hơn trong công việc.",
+                "point_en": "Many young people want more freedom and independence at work.",
+                "evidence_vi": "Điều này là do nhiều nhân viên không thích giờ làm việc cố định và các quy định nghiêm ngặt của công ty. Ngoài ra, việc khởi nghiệp cho phép họ tự đưa ra quyết định và phát triển các ý tưởng cá nhân của mình. Kết quả là nhiều người trẻ tin rằng việc tự làm chủ có thể mang lại cho họ một cuộc sống làm việc linh hoạt và hài lòng hơn.",
+                "evidence_en": "This is because many employees dislike fixed working hours and strict company rules. In addition, starting a business allows them to make their own decisions and develop their personal ideas. As a result, many young people believe that self-employment can give them a more flexible and satisfying working life."
               },
               {
-                "title": "CAUSE 02",
+                "title": "NGUYÊN NHÂN 02: MONG MUỐN CÓ THU NHẬP CAO HƠN",
                 "collocations": [
                   {
-                    "en": "earn more money",
-                    "vi": "kiếm nhiều tiền hơn"
+                    "en": "earn higher incomes",
+                    "vi": "kiếm thu nhập cao hơn"
                   },
                   {
-                    "en": "financial expectations",
-                    "vi": "kỳ vọng tài chính"
+                    "en": "low salaries",
+                    "vi": "lương thấp"
                   },
                   {
-                    "en": "successful business",
-                    "vi": "doanh nghiệp thành công"
+                    "en": "opportunities for promotion",
+                    "vi": "cơ hội thăng tiến"
                   },
                   {
-                    "en": "self-employment",
-                    "vi": "tự làm chủ / tự kinh doanh"
+                    "en": "business owners",
+                    "vi": "chủ doanh nghiệp"
                   },
                   {
-                    "en": "improve financial situation",
+                    "en": "improve their financial situation",
                     "vi": "cải thiện tình hình tài chính"
                   }
                 ],
-                "point_vi": "Một số người trẻ muốn có cơ hội kiếm được nhiều tiền hơn.",
-                "point_en": "Some young people want opportunities to earn more money.",
-                "evidence_vi": "Mức lương ở một số công ty có thể không đáp ứng được mong muốn tài chính của họ. Trong khi đó, một doanh nghiệp thành công có thể mang lại thu nhập cao hơn. Do đó, họ có thể lựa chọn tự kinh doanh để cải thiện tình hình tài chính.",
-                "evidence_en": "Salaries in some companies may not meet their financial expectations. Meanwhile, a successful business can provide a higher income. Therefore, they may choose self-employment to improve their financial situation."
+                "point_vi": "Nhiều người trẻ mong muốn có được mức thu nhập cao hơn.",
+                "point_en": "Many young people want to earn higher incomes.",
+                "evidence_vi": "Ở một số công ty, nhân viên có thể nhận mức lương thấp hoặc có cơ hội thăng tiến hạn chế. Hơn nữa, những chủ doanh nghiệp thành công đôi khi có thể kiếm được nhiều tiền hơn nhiều so với nhân viên bình thường. Vì vậy, nhiều người trẻ tin rằng việc tự mở công ty kinh doanh có thể giúp họ cải thiện tình hình tài chính nhanh chóng hơn.",
+                "evidence_en": "In some companies, employees may receive low salaries or have limited opportunities for promotion. Moreover, successful business owners can sometimes earn much more money than regular workers. Therefore, many young people believe that starting their own businesses can help them improve their financial situation more quickly."
               },
               {
-                "title": "CAUSE 03",
+                "title": "NGUYÊN NHÂN 03: SỰ PHÁT TRIỂN CỦA CÔNG NGHỆ VÀ MẠNG XÃ HỘI",
                 "collocations": [
                   {
                     "en": "development of technology",
-                    "vi": "sự phát triển công nghệ"
+                    "vi": "sự phát triển của công nghệ"
                   },
                   {
-                    "en": "promote and sell products",
-                    "vi": "quảng bá và bán sản phẩm"
+                    "en": "social media",
+                    "vi": "mạng xã hội"
                   },
                   {
-                    "en": "online business",
-                    "vi": "kinh doanh trực tuyến"
+                    "en": "online platforms",
+                    "vi": "các nền tảng trực tuyến"
                   },
                   {
-                    "en": "traditional shop",
-                    "vi": "cửa hàng truyền thống"
+                    "en": "content creators",
+                    "vi": "nhà sáng tạo nội dung"
                   },
                   {
-                    "en": "start a business",
-                    "vi": "bắt đầu kinh doanh"
+                    "en": "convenient and accessible",
+                    "vi": "thuận tiện và dễ tiếp cận"
                   }
                 ],
-                "point_vi": "Sự phát triển của công nghệ đã làm việc bắt đầu một doanh nghiệp trở nên dễ dàng hơn.",
-                "point_en": "The development of technology has made it easier to start a business.",
-                "evidence_vi": "Người trẻ có thể quảng bá và bán sản phẩm thông qua Internet. Họ không nhất thiết phải có một cửa hàng truyền thống. Nhờ đó, việc bắt đầu kinh doanh trở nên thuận tiện hơn.",
-                "evidence_en": "Young people can promote and sell products through the Internet. They do not necessarily need a traditional shop. As a result, starting a business has become more convenient."
+                "point_vi": "Sự phát triển của công nghệ và mạng xã hội đã giúp việc khởi nghiệp trở nên dễ dàng hơn.",
+                "point_en": "The development of technology and social media has made starting a business easier.",
+                "evidence_vi": "Giờ đây, người trẻ có thể bán sản phẩm hoặc quảng cáo dịch vụ thông qua các nền tảng trực tuyến với chi phí thấp hơn. Ví dụ, nhiều người mở cửa hàng trực tuyến hoặc trở thành nhà sáng tạo nội dung trên mạng xã hội. Do đó, việc khởi nghiệp kinh doanh đã trở nên thuận tiện và dễ tiếp cận hơn đối với giới trẻ.",
+                "evidence_en": "Young people can now sell products or advertise services through online platforms at lower costs. For example, many people open online shops or become content creators on social media. Consequently, starting a business has become more convenient and accessible for young people."
               }
             ],
-            "drawbacks": []
+            "benefits": [
+              {
+                "title": "NGUYÊN NHÂN 01: MONG MUỐN TỰ DO VÀ TỰ CHỦ TRONG CÔNG VIỆC",
+                "collocations": [
+                  {
+                    "en": "freedom and independence",
+                    "vi": "tự do và tự chủ"
+                  },
+                  {
+                    "en": "fixed working hours",
+                    "vi": "giờ làm việc cố định"
+                  },
+                  {
+                    "en": "strict company rules",
+                    "vi": "quy định nghiêm ngặt của công ty"
+                  },
+                  {
+                    "en": "make their own decisions",
+                    "vi": "tự đưa ra quyết định"
+                  },
+                  {
+                    "en": "self-employment",
+                    "vi": "việc tự làm chủ"
+                  }
+                ],
+                "point_vi": "Nhiều người trẻ mong muốn có nhiều sự tự do và độc lập hơn trong công việc.",
+                "point_en": "Many young people want more freedom and independence at work.",
+                "evidence_vi": "Điều này là do nhiều nhân viên không thích giờ làm việc cố định và các quy định nghiêm ngặt của công ty. Ngoài ra, việc khởi nghiệp cho phép họ tự đưa ra quyết định và phát triển các ý tưởng cá nhân của mình. Kết quả là nhiều người trẻ tin rằng việc tự làm chủ có thể mang lại cho họ một cuộc sống làm việc linh hoạt và hài lòng hơn.",
+                "evidence_en": "This is because many employees dislike fixed working hours and strict company rules. In addition, starting a business allows them to make their own decisions and develop their personal ideas. As a result, many young people believe that self-employment can give them a more flexible and satisfying working life."
+              },
+              {
+                "title": "NGUYÊN NHÂN 02: MONG MUỐN CÓ THU NHẬP CAO HƠN",
+                "collocations": [
+                  {
+                    "en": "earn higher incomes",
+                    "vi": "kiếm thu nhập cao hơn"
+                  },
+                  {
+                    "en": "low salaries",
+                    "vi": "lương thấp"
+                  },
+                  {
+                    "en": "opportunities for promotion",
+                    "vi": "cơ hội thăng tiến"
+                  },
+                  {
+                    "en": "business owners",
+                    "vi": "chủ doanh nghiệp"
+                  },
+                  {
+                    "en": "improve their financial situation",
+                    "vi": "cải thiện tình hình tài chính"
+                  }
+                ],
+                "point_vi": "Nhiều người trẻ mong muốn có được mức thu nhập cao hơn.",
+                "point_en": "Many young people want to earn higher incomes.",
+                "evidence_vi": "Ở một số công ty, nhân viên có thể nhận mức lương thấp hoặc có cơ hội thăng tiến hạn chế. Hơn nữa, những chủ doanh nghiệp thành công đôi khi có thể kiếm được nhiều tiền hơn nhiều so với nhân viên bình thường. Vì vậy, nhiều người trẻ tin rằng việc tự mở công ty kinh doanh có thể giúp họ cải thiện tình hình tài chính nhanh chóng hơn.",
+                "evidence_en": "In some companies, employees may receive low salaries or have limited opportunities for promotion. Moreover, successful business owners can sometimes earn much more money than regular workers. Therefore, many young people believe that starting their own businesses can help them improve their financial situation more quickly."
+              },
+              {
+                "title": "NGUYÊN NHÂN 03: SỰ PHÁT TRIỂN CỦA CÔNG NGHỆ VÀ MẠNG XÃ HỘI",
+                "collocations": [
+                  {
+                    "en": "development of technology",
+                    "vi": "sự phát triển của công nghệ"
+                  },
+                  {
+                    "en": "social media",
+                    "vi": "mạng xã hội"
+                  },
+                  {
+                    "en": "online platforms",
+                    "vi": "các nền tảng trực tuyến"
+                  },
+                  {
+                    "en": "content creators",
+                    "vi": "nhà sáng tạo nội dung"
+                  },
+                  {
+                    "en": "convenient and accessible",
+                    "vi": "thuận tiện và dễ tiếp cận"
+                  }
+                ],
+                "point_vi": "Sự phát triển của công nghệ và mạng xã hội đã giúp việc khởi nghiệp trở nên dễ dàng hơn.",
+                "point_en": "The development of technology and social media has made starting a business easier.",
+                "evidence_vi": "Giờ đây, người trẻ có thể bán sản phẩm hoặc quảng cáo dịch vụ thông qua các nền tảng trực tuyến với chi phí thấp hơn. Ví dụ, nhiều người mở cửa hàng trực tuyến hoặc trở thành nhà sáng tạo nội dung trên mạng xã hội. Do đó, việc khởi nghiệp kinh doanh đã trở nên thuận tiện và dễ tiếp cận hơn đối với giới trẻ.",
+                "evidence_en": "Young people can now sell products or advertise services through online platforms at lower costs. For example, many people open online shops or become content creators on social media. Consequently, starting a business has become more convenient and accessible for young people."
+              }
+            ]
           },
           "ideas_b2": {
             "benefits": [
@@ -25509,7 +25895,7 @@ const ESSAY_DATA = [
               "vi": "sự phổ cập hóa việc khởi nghiệp"
             }
           ],
-          "sample_b1": "In recent years, <strong>young people leaving their companies to start their own businesses</strong> has become a common topic of discussion. This issue affects both individuals and society in different ways. <strong>This essay will discuss the main reasons for this trend.</strong>\n\nOne major reason is that <strong><em>many young people want to have more control over their work.</em></strong> They can make their own decisions instead of following company rules. This gives them a more flexible way of working. As a result, they may feel more comfortable and satisfied with their work.\n\nAnother contributing reason is that <strong><em>some young people want opportunities to earn more money.</em></strong> Salaries in some companies may not meet their financial expectations. Meanwhile, a successful business can provide a higher income. Therefore, they may choose self-employment to improve their financial situation.\n\nA further reason is that <strong><em>the development of technology has made it easier to start a business.</em></strong> Young people can promote and sell products through the Internet. They do not necessarily need a traditional shop. As a result, starting a business has become more convenient.\n\nIn conclusion, <strong>young people leaving their companies to start their own businesses</strong> is driven by several key reasons that affect both individuals and society. Understanding these reasons is important to understand the changing job market. With greater attention, this trend will continue to shape future careers.",
+          "sample_b1": "In recent years, <strong>the trend of young people leaving traditional jobs to start their own businesses</strong> has become more common in many parts of the world. This trend has attracted attention from the public and society in different ways. <strong>This essay will discuss the main causes of this trend.</strong><br><br>One major cause is that <strong><em>many young people want more freedom and independence at work</em></strong>. This is because many employees dislike fixed working hours and strict company rules. In addition, starting a business allows them to make their own decisions and develop their personal ideas. As a result, many young people believe that self-employment can give them a more flexible and satisfying working life.<br><br>Another contributing factor is that <strong><em>many young people want to earn higher incomes</em></strong>. In some companies, employees may receive low salaries or have limited opportunities for promotion. Moreover, successful business owners can sometimes earn much more money than regular workers. Therefore, many young people believe that starting their own businesses can help them improve their financial situation more quickly.<br><br>A further reason is that <strong><em>the development of technology and social media has made starting a business easier</em></strong>. Young people can now sell products or advertise services through online platforms at lower costs. For example, many people open online shops or become content creators on social media. Consequently, starting a business has become more convenient and accessible for young people.<br><br>In conclusion, <strong>the trend of young people starting their own businesses</strong> is caused by several factors. By understanding these causes and taking appropriate action, people can help improve the situation in the future. These efforts can bring positive changes to both individuals and society.",
           "translation_b1": "Trong những năm gần đây, <strong>việc người trẻ rời công ty để tự khởi nghiệp</strong> đã trở thành một chủ đề thảo luận phổ biến. Vấn đề này ảnh hưởng đến cả cá nhân và xã hội theo những cách khác nhau. <strong>Bài tiểu luận này sẽ thảo luận về những lý do chính dẫn đến xu hướng này.</strong>\n\nMột lý do chính là <strong><em>nhiều người trẻ muốn có nhiều quyền chủ động hơn trong công việc.</em></strong> Họ có thể tự đưa ra quyết định thay vì phải làm theo yêu cầu của công ty. Điều này giúp họ có cách làm việc linh hoạt hơn. Vì vậy, họ có thể cảm thấy thoải mái và hài lòng hơn với công việc của mình.\n\nMột lý do đóng góp khác là <strong><em>một số người trẻ muốn có cơ hội kiếm được nhiều tiền hơn.</em></strong> Mức lương ở một số công ty có thể không đáp ứng được mong muốn tài chính của họ. Trong khi đó, một doanh nghiệp thành công có thể mang lại thu nhập cao hơn. Do đó, họ có thể lựa chọn tự kinh doanh để cải thiện tình hình tài chính.\n\nMột lý do nữa là <strong><em>sự phát triển của công nghệ đã làm việc bắt đầu một doanh nghiệp trở nên dễ dàng hơn.</em></strong> Người trẻ có thể quảng bá và bán sản phẩm thông qua Internet. Họ không nhất thiết phải có một cửa hàng truyền thống. Nhờ đó, việc bắt đầu kinh doanh trở nên thuận tiện hơn.\n\nTóm lại, <strong>việc người trẻ rời công ty để tự khởi nghiệp</strong> được thúc đẩy bởi một số lý do chính ảnh hưởng đến cả cá nhân và xã hội. Việc hiểu rõ những lý do này là rất quan trọng để nắm bắt thị trường việc làm đang thay đổi. Với sự chú ý nhiều hơn, xu hướng này sẽ tiếp tục định hình sự nghiệp tương lai."
         }
       },
@@ -27637,7 +28023,7 @@ const ESSAY_DATA = [
         "id": 21,
         "title_en": "Deforestation",
         "title_vi": "Nạn phá rừng",
-        "tags": "[Causes & Effects] / [Effects] / [Causes & Solutions]",
+        "tags": "[Effects]",
         "subtopics": [
           {
             "sub_name": "ĐỀ 01",
@@ -27655,9 +28041,553 @@ const ESSAY_DATA = [
             "prompt": "Write an essay to an educated reader to discuss the causes of deforestation and suggest possible solutions to this problem. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar."
           }
         ],
-        "has_full_details": false,
-        "context": "Deforestation has become a serious environmental problem in many parts of the world. Every year, large areas of forests are cleared for agriculture, urban development, industrial activities, and other human purposes. This issue has attracted growing concern because forests play a vital role in maintaining ecological balance and supporting life on Earth.",
-        "prompt": "Write an essay to an educated reader to discuss the causes and effects of deforestation. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar."
+        "has_full_details": true,
+        "context": "Deforestation has become a serious environmental issue in many parts of the world. As large areas of forest are being cut down every year, this practice is causing significant damage to the environment and human life.",
+        "prompt": "Write an essay to discuss the effects of deforestation. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task fulfillment, Organization, Vocabulary, and Grammar.",
+        "details": {
+          "vocab": [
+            {
+              "en": "deforestation",
+              "vi": "nạn phá rừng"
+            },
+            {
+              "en": "cut down trees",
+              "vi": "chặt hạ cây cối"
+            },
+            {
+              "en": "damage to the environment",
+              "vi": "thiệt hại cho môi trường"
+            },
+            {
+              "en": "natural habitats",
+              "vi": "môi trường sống tự nhiên"
+            },
+            {
+              "en": "biodiversity",
+              "vi": "đa dạng sinh học"
+            },
+            {
+              "en": "climate change",
+              "vi": "biến đổi khí hậu"
+            },
+            {
+              "en": "natural disasters",
+              "vi": "thiên tai"
+            },
+            {
+              "en": "absorb carbon dioxide",
+              "vi": "hấp thụ khí carbon dioxide"
+            },
+            {
+              "en": "greenhouse gases",
+              "vi": "khí nhà kính"
+            },
+            {
+              "en": "global warming",
+              "vi": "sự nóng lên toàn cầu"
+            },
+            {
+              "en": "soil erosion",
+              "vi": "xói mòn đất"
+            },
+            {
+              "en": "farming productivity",
+              "vi": "năng suất canh tác"
+            }
+          ],
+          "sample_b1": "In recent years, <strong>deforestation</strong> has become a growing concern in many parts of the world. This problem affects both individuals and society in different ways. <strong>This essay will discuss its main effects.</strong><br><br>One major effect is that <strong><em>deforestation causes serious damage to the environment and biodiversity</em></strong>. In fact, many forests are natural habitats for animals and plants, so cutting down trees destroys their living environment. In addition, some species may gradually disappear because they cannot survive without forests or find enough food and shelter. As a result, ecosystems become weaker and biodiversity is reduced in many areas around the world.<br><br>Another serious impact is that <strong><em>deforestation contributes to climate change and natural disasters</em></strong>. The main reason is that trees help absorb carbon dioxide and control temperatures in the environment. However, when forests are destroyed, more greenhouse gases remain in the atmosphere and global warming becomes more serious. Consequently, many countries may experience floods, droughts, storms, and soil erosion more frequently than before.<br><br>A further consequence is that <strong><em>deforestation negatively affects human life</em></strong>. This is because many local people depend on forests for food, water, medicine, and income in their daily lives. Moreover, environmental damage caused by deforestation can reduce farming productivity and worsen living conditions in these areas. Therefore, many people may face financial difficulties, unemployment, and health problems in the future.<br><br>In conclusion, <strong>deforestation</strong> can lead to several negative effects on both individuals and society. These effects can influence different areas of life. Therefore, it is important to pay more attention to this issue.",
+          "sample_b2": "In recent years, <strong>deforestation</strong> has become a growing concern in many parts of the world. This problem affects both individuals and society in different ways. <strong>This essay will discuss its main effects.</strong><br><br>One major effect is that <strong><em>deforestation causes serious damage to the environment and biodiversity</em></strong>. In fact, many forests are natural habitats for animals and plants, so cutting down trees destroys their living environment. In addition, some species may gradually disappear because they cannot survive without forests or find enough food and shelter. As a result, ecosystems become weaker and biodiversity is reduced in many areas around the world.<br><br>Another serious impact is that <strong><em>deforestation contributes to climate change and natural disasters</em></strong>. The main reason is that trees help absorb carbon dioxide and control temperatures in the environment. However, when forests are destroyed, more greenhouse gases remain in the atmosphere and global warming becomes more serious. Consequently, many countries may experience floods, droughts, storms, and soil erosion more frequently than before.<br><br>A further consequence is that <strong><em>deforestation negatively affects human life</em></strong>. This is because many local people depend on forests for food, water, medicine, and income in their daily lives. Moreover, environmental damage caused by deforestation can reduce farming productivity and worsen living conditions in these areas. Therefore, many people may face financial difficulties, unemployment, and health problems in the future.<br><br>In conclusion, <strong>deforestation</strong> can lead to several negative effects on both individuals and society. These effects can influence different areas of life. Therefore, it is important to pay more attention to this issue.",
+          "ideas_b1": {
+            "effects": [
+              {
+                "title": "ẢNH HƯỞNG 01: THIỆT HẠI MÔI TRƯỜNG VÀ ĐA DẠNG SINH HỌC",
+                "collocations": [
+                  {
+                    "en": "damage to the environment",
+                    "vi": "thiệt hại cho môi trường"
+                  },
+                  {
+                    "en": "biodiversity",
+                    "vi": "đa dạng sinh học"
+                  },
+                  {
+                    "en": "natural habitats",
+                    "vi": "môi trường sống tự nhiên"
+                  },
+                  {
+                    "en": "ecosystems",
+                    "vi": "hệ sinh thái"
+                  }
+                ],
+                "point_vi": "Nạn phá rừng gây ra thiệt hại nghiêm trọng cho môi trường và đa dạng sinh học.",
+                "point_en": "Deforestation causes serious damage to the environment and biodiversity.",
+                "evidence_vi": "Trên thực tế, nhiều khu rừng là môi trường sống tự nhiên của động thực vật, vì vậy việc chặt phá cây cối sẽ phá hủy môi trường sống của chúng. Ngoài ra, một số loài có thể dần biến mất vì chúng không thể sống sót nếu thiếu rừng hoặc không thể tìm đủ thức ăn và nơi trú ẩn. Kết quả là các hệ sinh thái trở nên yếu đi và đa dạng sinh học bị suy giảm ở nhiều khu vực trên khắp thế giới.",
+                "evidence_en": "In fact, many forests are natural habitats for animals and plants, so cutting down trees destroys their living environment. In addition, some species may gradually disappear because they cannot survive without forests or find enough food and shelter. As a result, ecosystems become weaker and biodiversity is reduced in many areas around the world."
+              },
+              {
+                "title": "ẢNH HƯỞNG 02: BIẾN ĐỔI KHÍ HẬU VÀ THIÊN TAI",
+                "collocations": [
+                  {
+                    "en": "contributes to climate change",
+                    "vi": "góp phần vào biến đổi khí hậu"
+                  },
+                  {
+                    "en": "natural disasters",
+                    "vi": "thiên tai"
+                  },
+                  {
+                    "en": "absorb carbon dioxide",
+                    "vi": "hấp thụ khí carbon dioxide"
+                  },
+                  {
+                    "en": "greenhouse gases",
+                    "vi": "khí nhà kính"
+                  },
+                  {
+                    "en": "soil erosion",
+                    "vi": "xói mòn đất"
+                  }
+                ],
+                "point_vi": "Nạn phá rừng góp phần gây ra biến đổi khí hậu và các thảm họa thiên nhiên.",
+                "point_en": "Deforestation contributes to climate change and natural disasters.",
+                "evidence_vi": "Lý do chính là cây xanh giúp hấp thụ khí carbon dioxide và điều hòa nhiệt độ trong môi trường. Tuy nhiên, khi rừng bị tàn phá, nhiều khí nhà kính hơn sẽ đọng lại trong khí quyển và hiện tượng nóng lên toàn cầu trở nên nghiêm trọng hơn. Do đó, nhiều quốc gia có thể phải trải qua lũ lụt, hạn hán, bão và xói mòn đất thường xuyên hơn trước.",
+                "evidence_en": "The main reason is that trees help absorb carbon dioxide and control temperatures in the environment. However, when forests are destroyed, more greenhouse gases remain in the atmosphere and global warming becomes more serious. Consequently, many countries may experience floods, droughts, storms, and soil erosion more frequently than before."
+              },
+              {
+                "title": "ẢNH HƯỞNG 03: TÁC ĐỘNG TIÊU CỰC ĐẾN ĐỜI SỐNG CON NGƯỜI",
+                "collocations": [
+                  {
+                    "en": "negatively affects human life",
+                    "vi": "ảnh hưởng tiêu cực đến đời sống con người"
+                  },
+                  {
+                    "en": "depend on forests",
+                    "vi": "phụ thuộc vào rừng"
+                  },
+                  {
+                    "en": "farming productivity",
+                    "vi": "năng suất canh tác"
+                  },
+                  {
+                    "en": "financial difficulties",
+                    "vi": "khó khăn tài chính"
+                  }
+                ],
+                "point_vi": "Nạn phá rừng tác động tiêu cực đến đời sống của con người.",
+                "point_en": "Deforestation negatively affects human life.",
+                "evidence_vi": "Điều này là do nhiều người dân địa phương phụ thuộc vào rừng để có thức ăn, nước uống, thuốc men và thu nhập trong cuộc sống hàng ngày. Hơn nữa, những thiệt hại môi trường do nạn phá rừng gây ra có thể làm giảm năng suất canh tác nông nghiệp và làm xấu đi điều kiện sống ở những khu vực này. Vì vậy, nhiều người có thể phải đối mặt với khó khăn tài chính, thất nghiệp và các vấn đề sức khỏe trong tương lai.",
+                "evidence_en": "This is because many local people depend on forests for food, water, medicine, and income in their daily lives. Moreover, environmental damage caused by deforestation can reduce farming productivity and worsen living conditions in these areas. Therefore, many people may face financial difficulties, unemployment, and health problems in the future."
+              }
+            ],
+            "benefits": [
+              {
+                "title": "ẢNH HƯỞNG 01: THIỆT HẠI MÔI TRƯỜNG VÀ ĐA DẠNG SINH HỌC",
+                "collocations": [
+                  {
+                    "en": "damage to the environment",
+                    "vi": "thiệt hại cho môi trường"
+                  },
+                  {
+                    "en": "biodiversity",
+                    "vi": "đa dạng sinh học"
+                  },
+                  {
+                    "en": "natural habitats",
+                    "vi": "môi trường sống tự nhiên"
+                  },
+                  {
+                    "en": "ecosystems",
+                    "vi": "hệ sinh thái"
+                  }
+                ],
+                "point_vi": "Nạn phá rừng gây ra thiệt hại nghiêm trọng cho môi trường và đa dạng sinh học.",
+                "point_en": "Deforestation causes serious damage to the environment and biodiversity.",
+                "evidence_vi": "Trên thực tế, nhiều khu rừng là môi trường sống tự nhiên của động thực vật, vì vậy việc chặt phá cây cối sẽ phá hủy môi trường sống của chúng. Ngoài ra, một số loài có thể dần biến mất vì chúng không thể sống sót nếu thiếu rừng hoặc không thể tìm đủ thức ăn và nơi trú ẩn. Kết quả là các hệ sinh thái trở nên yếu đi và đa dạng sinh học bị suy giảm ở nhiều khu vực trên khắp thế giới.",
+                "evidence_en": "In fact, many forests are natural habitats for animals and plants, so cutting down trees destroys their living environment. In addition, some species may gradually disappear because they cannot survive without forests or find enough food and shelter. As a result, ecosystems become weaker and biodiversity is reduced in many areas around the world."
+              },
+              {
+                "title": "ẢNH HƯỞNG 02: BIẾN ĐỔI KHÍ HẬU VÀ THIÊN TAI",
+                "collocations": [
+                  {
+                    "en": "contributes to climate change",
+                    "vi": "góp phần vào biến đổi khí hậu"
+                  },
+                  {
+                    "en": "natural disasters",
+                    "vi": "thiên tai"
+                  },
+                  {
+                    "en": "absorb carbon dioxide",
+                    "vi": "hấp thụ khí carbon dioxide"
+                  },
+                  {
+                    "en": "greenhouse gases",
+                    "vi": "khí nhà kính"
+                  },
+                  {
+                    "en": "soil erosion",
+                    "vi": "xói mòn đất"
+                  }
+                ],
+                "point_vi": "Nạn phá rừng góp phần gây ra biến đổi khí hậu và các thảm họa thiên nhiên.",
+                "point_en": "Deforestation contributes to climate change and natural disasters.",
+                "evidence_vi": "Lý do chính là cây xanh giúp hấp thụ khí carbon dioxide và điều hòa nhiệt độ trong môi trường. Tuy nhiên, khi rừng bị tàn phá, nhiều khí nhà kính hơn sẽ đọng lại trong khí quyển và hiện tượng nóng lên toàn cầu trở nên nghiêm trọng hơn. Do đó, nhiều quốc gia có thể phải trải qua lũ lụt, hạn hán, bão và xói mòn đất thường xuyên hơn trước.",
+                "evidence_en": "The main reason is that trees help absorb carbon dioxide and control temperatures in the environment. However, when forests are destroyed, more greenhouse gases remain in the atmosphere and global warming becomes more serious. Consequently, many countries may experience floods, droughts, storms, and soil erosion more frequently than before."
+              },
+              {
+                "title": "ẢNH HƯỞNG 03: TÁC ĐỘNG TIÊU CỰC ĐẾN ĐỜI SỐNG CON NGƯỜI",
+                "collocations": [
+                  {
+                    "en": "negatively affects human life",
+                    "vi": "ảnh hưởng tiêu cực đến đời sống con người"
+                  },
+                  {
+                    "en": "depend on forests",
+                    "vi": "phụ thuộc vào rừng"
+                  },
+                  {
+                    "en": "farming productivity",
+                    "vi": "năng suất canh tác"
+                  },
+                  {
+                    "en": "financial difficulties",
+                    "vi": "khó khăn tài chính"
+                  }
+                ],
+                "point_vi": "Nạn phá rừng tác động tiêu cực đến đời sống của con người.",
+                "point_en": "Deforestation negatively affects human life.",
+                "evidence_vi": "Điều này là do nhiều người dân địa phương phụ thuộc vào rừng để có thức ăn, nước uống, thuốc men và thu nhập trong cuộc sống hàng ngày. Hơn nữa, những thiệt hại môi trường do nạn phá rừng gây ra có thể làm giảm năng suất canh tác nông nghiệp và làm xấu đi điều kiện sống ở những khu vực này. Vì vậy, nhiều người có thể phải đối mặt với khó khăn tài chính, thất nghiệp và các vấn đề sức khỏe trong tương lai.",
+                "evidence_en": "This is because many local people depend on forests for food, water, medicine, and income in their daily lives. Moreover, environmental damage caused by deforestation can reduce farming productivity and worsen living conditions in these areas. Therefore, many people may face financial difficulties, unemployment, and health problems in the future."
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "ẢNH HƯỞNG 01: THIỆT HẠI MÔI TRƯỜNG VÀ ĐA DẠNG SINH HỌC",
+                "collocations": [
+                  {
+                    "en": "damage to the environment",
+                    "vi": "thiệt hại cho môi trường"
+                  },
+                  {
+                    "en": "biodiversity",
+                    "vi": "đa dạng sinh học"
+                  },
+                  {
+                    "en": "natural habitats",
+                    "vi": "môi trường sống tự nhiên"
+                  },
+                  {
+                    "en": "ecosystems",
+                    "vi": "hệ sinh thái"
+                  }
+                ],
+                "point_vi": "Nạn phá rừng gây ra thiệt hại nghiêm trọng cho môi trường và đa dạng sinh học.",
+                "point_en": "Deforestation causes serious damage to the environment and biodiversity.",
+                "evidence_vi": "Trên thực tế, nhiều khu rừng là môi trường sống tự nhiên của động thực vật, vì vậy việc chặt phá cây cối sẽ phá hủy môi trường sống của chúng. Ngoài ra, một số loài có thể dần biến mất vì chúng không thể sống sót nếu thiếu rừng hoặc không thể tìm đủ thức ăn và nơi trú ẩn. Kết quả là các hệ sinh thái trở nên yếu đi và đa dạng sinh học bị suy giảm ở nhiều khu vực trên khắp thế giới.",
+                "evidence_en": "In fact, many forests are natural habitats for animals and plants, so cutting down trees destroys their living environment. In addition, some species may gradually disappear because they cannot survive without forests or find enough food and shelter. As a result, ecosystems become weaker and biodiversity is reduced in many areas around the world."
+              },
+              {
+                "title": "ẢNH HƯỞNG 02: BIẾN ĐỔI KHÍ HẬU VÀ THIÊN TAI",
+                "collocations": [
+                  {
+                    "en": "contributes to climate change",
+                    "vi": "góp phần vào biến đổi khí hậu"
+                  },
+                  {
+                    "en": "natural disasters",
+                    "vi": "thiên tai"
+                  },
+                  {
+                    "en": "absorb carbon dioxide",
+                    "vi": "hấp thụ khí carbon dioxide"
+                  },
+                  {
+                    "en": "greenhouse gases",
+                    "vi": "khí nhà kính"
+                  },
+                  {
+                    "en": "soil erosion",
+                    "vi": "xói mòn đất"
+                  }
+                ],
+                "point_vi": "Nạn phá rừng góp phần gây ra biến đổi khí hậu và các thảm họa thiên nhiên.",
+                "point_en": "Deforestation contributes to climate change and natural disasters.",
+                "evidence_vi": "Lý do chính là cây xanh giúp hấp thụ khí carbon dioxide và điều hòa nhiệt độ trong môi trường. Tuy nhiên, khi rừng bị tàn phá, nhiều khí nhà kính hơn sẽ đọng lại trong khí quyển và hiện tượng nóng lên toàn cầu trở nên nghiêm trọng hơn. Do đó, nhiều quốc gia có thể phải trải qua lũ lụt, hạn hán, bão và xói mòn đất thường xuyên hơn trước.",
+                "evidence_en": "The main reason is that trees help absorb carbon dioxide and control temperatures in the environment. However, when forests are destroyed, more greenhouse gases remain in the atmosphere and global warming becomes more serious. Consequently, many countries may experience floods, droughts, storms, and soil erosion more frequently than before."
+              },
+              {
+                "title": "ẢNH HƯỞNG 03: TÁC ĐỘNG TIÊU CỰC ĐẾN ĐỜI SỐNG CON NGƯỜI",
+                "collocations": [
+                  {
+                    "en": "negatively affects human life",
+                    "vi": "ảnh hưởng tiêu cực đến đời sống con người"
+                  },
+                  {
+                    "en": "depend on forests",
+                    "vi": "phụ thuộc vào rừng"
+                  },
+                  {
+                    "en": "farming productivity",
+                    "vi": "năng suất canh tác"
+                  },
+                  {
+                    "en": "financial difficulties",
+                    "vi": "khó khăn tài chính"
+                  }
+                ],
+                "point_vi": "Nạn phá rừng tác động tiêu cực đến đời sống của con người.",
+                "point_en": "Deforestation negatively affects human life.",
+                "evidence_vi": "Điều này là do nhiều người dân địa phương phụ thuộc vào rừng để có thức ăn, nước uống, thuốc men và thu nhập trong cuộc sống hàng ngày. Hơn nữa, những thiệt hại môi trường do nạn phá rừng gây ra có thể làm giảm năng suất canh tác nông nghiệp và làm xấu đi điều kiện sống ở những khu vực này. Vì vậy, nhiều người có thể phải đối mặt với khó khăn tài chính, thất nghiệp và các vấn đề sức khỏe trong tương lai.",
+                "evidence_en": "This is because many local people depend on forests for food, water, medicine, and income in their daily lives. Moreover, environmental damage caused by deforestation can reduce farming productivity and worsen living conditions in these areas. Therefore, many people may face financial difficulties, unemployment, and health problems in the future."
+              }
+            ]
+          },
+          "ideas_b2": {
+            "effects": [
+              {
+                "title": "ẢNH HƯỞNG 01: THIỆT HẠI MÔI TRƯỜNG VÀ ĐA DẠNG SINH HỌC",
+                "collocations": [
+                  {
+                    "en": "damage to the environment",
+                    "vi": "thiệt hại cho môi trường"
+                  },
+                  {
+                    "en": "biodiversity",
+                    "vi": "đa dạng sinh học"
+                  },
+                  {
+                    "en": "natural habitats",
+                    "vi": "môi trường sống tự nhiên"
+                  },
+                  {
+                    "en": "ecosystems",
+                    "vi": "hệ sinh thái"
+                  }
+                ],
+                "point_vi": "Nạn phá rừng gây ra thiệt hại nghiêm trọng cho môi trường và đa dạng sinh học.",
+                "point_en": "Deforestation causes serious damage to the environment and biodiversity.",
+                "evidence_vi": "Trên thực tế, nhiều khu rừng là môi trường sống tự nhiên của động thực vật, vì vậy việc chặt phá cây cối sẽ phá hủy môi trường sống của chúng. Ngoài ra, một số loài có thể dần biến mất vì chúng không thể sống sót nếu thiếu rừng hoặc không thể tìm đủ thức ăn và nơi trú ẩn. Kết quả là các hệ sinh thái trở nên yếu đi và đa dạng sinh học bị suy giảm ở nhiều khu vực trên khắp thế giới.",
+                "evidence_en": "In fact, many forests are natural habitats for animals and plants, so cutting down trees destroys their living environment. In addition, some species may gradually disappear because they cannot survive without forests or find enough food and shelter. As a result, ecosystems become weaker and biodiversity is reduced in many areas around the world."
+              },
+              {
+                "title": "ẢNH HƯỞNG 02: BIẾN ĐỔI KHÍ HẬU VÀ THIÊN TAI",
+                "collocations": [
+                  {
+                    "en": "contributes to climate change",
+                    "vi": "góp phần vào biến đổi khí hậu"
+                  },
+                  {
+                    "en": "natural disasters",
+                    "vi": "thiên tai"
+                  },
+                  {
+                    "en": "absorb carbon dioxide",
+                    "vi": "hấp thụ khí carbon dioxide"
+                  },
+                  {
+                    "en": "greenhouse gases",
+                    "vi": "khí nhà kính"
+                  },
+                  {
+                    "en": "soil erosion",
+                    "vi": "xói mòn đất"
+                  }
+                ],
+                "point_vi": "Nạn phá rừng góp phần gây ra biến đổi khí hậu và các thảm họa thiên nhiên.",
+                "point_en": "Deforestation contributes to climate change and natural disasters.",
+                "evidence_vi": "Lý do chính là cây xanh giúp hấp thụ khí carbon dioxide và điều hòa nhiệt độ trong môi trường. Tuy nhiên, khi rừng bị tàn phá, nhiều khí nhà kính hơn sẽ đọng lại trong khí quyển và hiện tượng nóng lên toàn cầu trở nên nghiêm trọng hơn. Do đó, nhiều quốc gia có thể phải trải qua lũ lụt, hạn hán, bão và xói mòn đất thường xuyên hơn trước.",
+                "evidence_en": "The main reason is that trees help absorb carbon dioxide and control temperatures in the environment. However, when forests are destroyed, more greenhouse gases remain in the atmosphere and global warming becomes more serious. Consequently, many countries may experience floods, droughts, storms, and soil erosion more frequently than before."
+              },
+              {
+                "title": "ẢNH HƯỞNG 03: TÁC ĐỘNG TIÊU CỰC ĐẾN ĐỜI SỐNG CON NGƯỜI",
+                "collocations": [
+                  {
+                    "en": "negatively affects human life",
+                    "vi": "ảnh hưởng tiêu cực đến đời sống con người"
+                  },
+                  {
+                    "en": "depend on forests",
+                    "vi": "phụ thuộc vào rừng"
+                  },
+                  {
+                    "en": "farming productivity",
+                    "vi": "năng suất canh tác"
+                  },
+                  {
+                    "en": "financial difficulties",
+                    "vi": "khó khăn tài chính"
+                  }
+                ],
+                "point_vi": "Nạn phá rừng tác động tiêu cực đến đời sống của con người.",
+                "point_en": "Deforestation negatively affects human life.",
+                "evidence_vi": "Điều này là do nhiều người dân địa phương phụ thuộc vào rừng để có thức ăn, nước uống, thuốc men và thu nhập trong cuộc sống hàng ngày. Hơn nữa, những thiệt hại môi trường do nạn phá rừng gây ra có thể làm giảm năng suất canh tác nông nghiệp và làm xấu đi điều kiện sống ở những khu vực này. Vì vậy, nhiều người có thể phải đối mặt với khó khăn tài chính, thất nghiệp và các vấn đề sức khỏe trong tương lai.",
+                "evidence_en": "This is because many local people depend on forests for food, water, medicine, and income in their daily lives. Moreover, environmental damage caused by deforestation can reduce farming productivity and worsen living conditions in these areas. Therefore, many people may face financial difficulties, unemployment, and health problems in the future."
+              }
+            ],
+            "benefits": [
+              {
+                "title": "ẢNH HƯỞNG 01: THIỆT HẠI MÔI TRƯỜNG VÀ ĐA DẠNG SINH HỌC",
+                "collocations": [
+                  {
+                    "en": "damage to the environment",
+                    "vi": "thiệt hại cho môi trường"
+                  },
+                  {
+                    "en": "biodiversity",
+                    "vi": "đa dạng sinh học"
+                  },
+                  {
+                    "en": "natural habitats",
+                    "vi": "môi trường sống tự nhiên"
+                  },
+                  {
+                    "en": "ecosystems",
+                    "vi": "hệ sinh thái"
+                  }
+                ],
+                "point_vi": "Nạn phá rừng gây ra thiệt hại nghiêm trọng cho môi trường và đa dạng sinh học.",
+                "point_en": "Deforestation causes serious damage to the environment and biodiversity.",
+                "evidence_vi": "Trên thực tế, nhiều khu rừng là môi trường sống tự nhiên của động thực vật, vì vậy việc chặt phá cây cối sẽ phá hủy môi trường sống của chúng. Ngoài ra, một số loài có thể dần biến mất vì chúng không thể sống sót nếu thiếu rừng hoặc không thể tìm đủ thức ăn và nơi trú ẩn. Kết quả là các hệ sinh thái trở nên yếu đi và đa dạng sinh học bị suy giảm ở nhiều khu vực trên khắp thế giới.",
+                "evidence_en": "In fact, many forests are natural habitats for animals and plants, so cutting down trees destroys their living environment. In addition, some species may gradually disappear because they cannot survive without forests or find enough food and shelter. As a result, ecosystems become weaker and biodiversity is reduced in many areas around the world."
+              },
+              {
+                "title": "ẢNH HƯỞNG 02: BIẾN ĐỔI KHÍ HẬU VÀ THIÊN TAI",
+                "collocations": [
+                  {
+                    "en": "contributes to climate change",
+                    "vi": "góp phần vào biến đổi khí hậu"
+                  },
+                  {
+                    "en": "natural disasters",
+                    "vi": "thiên tai"
+                  },
+                  {
+                    "en": "absorb carbon dioxide",
+                    "vi": "hấp thụ khí carbon dioxide"
+                  },
+                  {
+                    "en": "greenhouse gases",
+                    "vi": "khí nhà kính"
+                  },
+                  {
+                    "en": "soil erosion",
+                    "vi": "xói mòn đất"
+                  }
+                ],
+                "point_vi": "Nạn phá rừng góp phần gây ra biến đổi khí hậu và các thảm họa thiên nhiên.",
+                "point_en": "Deforestation contributes to climate change and natural disasters.",
+                "evidence_vi": "Lý do chính là cây xanh giúp hấp thụ khí carbon dioxide và điều hòa nhiệt độ trong môi trường. Tuy nhiên, khi rừng bị tàn phá, nhiều khí nhà kính hơn sẽ đọng lại trong khí quyển và hiện tượng nóng lên toàn cầu trở nên nghiêm trọng hơn. Do đó, nhiều quốc gia có thể phải trải qua lũ lụt, hạn hán, bão và xói mòn đất thường xuyên hơn trước.",
+                "evidence_en": "The main reason is that trees help absorb carbon dioxide and control temperatures in the environment. However, when forests are destroyed, more greenhouse gases remain in the atmosphere and global warming becomes more serious. Consequently, many countries may experience floods, droughts, storms, and soil erosion more frequently than before."
+              },
+              {
+                "title": "ẢNH HƯỞNG 03: TÁC ĐỘNG TIÊU CỰC ĐẾN ĐỜI SỐNG CON NGƯỜI",
+                "collocations": [
+                  {
+                    "en": "negatively affects human life",
+                    "vi": "ảnh hưởng tiêu cực đến đời sống con người"
+                  },
+                  {
+                    "en": "depend on forests",
+                    "vi": "phụ thuộc vào rừng"
+                  },
+                  {
+                    "en": "farming productivity",
+                    "vi": "năng suất canh tác"
+                  },
+                  {
+                    "en": "financial difficulties",
+                    "vi": "khó khăn tài chính"
+                  }
+                ],
+                "point_vi": "Nạn phá rừng tác động tiêu cực đến đời sống của con người.",
+                "point_en": "Deforestation negatively affects human life.",
+                "evidence_vi": "Điều này là do nhiều người dân địa phương phụ thuộc vào rừng để có thức ăn, nước uống, thuốc men và thu nhập trong cuộc sống hàng ngày. Hơn nữa, những thiệt hại môi trường do nạn phá rừng gây ra có thể làm giảm năng suất canh tác nông nghiệp và làm xấu đi điều kiện sống ở những khu vực này. Vì vậy, nhiều người có thể phải đối mặt với khó khăn tài chính, thất nghiệp và các vấn đề sức khỏe trong tương lai.",
+                "evidence_en": "This is because many local people depend on forests for food, water, medicine, and income in their daily lives. Moreover, environmental damage caused by deforestation can reduce farming productivity and worsen living conditions in these areas. Therefore, many people may face financial difficulties, unemployment, and health problems in the future."
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "ẢNH HƯỞNG 01: THIỆT HẠI MÔI TRƯỜNG VÀ ĐA DẠNG SINH HỌC",
+                "collocations": [
+                  {
+                    "en": "damage to the environment",
+                    "vi": "thiệt hại cho môi trường"
+                  },
+                  {
+                    "en": "biodiversity",
+                    "vi": "đa dạng sinh học"
+                  },
+                  {
+                    "en": "natural habitats",
+                    "vi": "môi trường sống tự nhiên"
+                  },
+                  {
+                    "en": "ecosystems",
+                    "vi": "hệ sinh thái"
+                  }
+                ],
+                "point_vi": "Nạn phá rừng gây ra thiệt hại nghiêm trọng cho môi trường và đa dạng sinh học.",
+                "point_en": "Deforestation causes serious damage to the environment and biodiversity.",
+                "evidence_vi": "Trên thực tế, nhiều khu rừng là môi trường sống tự nhiên của động thực vật, vì vậy việc chặt phá cây cối sẽ phá hủy môi trường sống của chúng. Ngoài ra, một số loài có thể dần biến mất vì chúng không thể sống sót nếu thiếu rừng hoặc không thể tìm đủ thức ăn và nơi trú ẩn. Kết quả là các hệ sinh thái trở nên yếu đi và đa dạng sinh học bị suy giảm ở nhiều khu vực trên khắp thế giới.",
+                "evidence_en": "In fact, many forests are natural habitats for animals and plants, so cutting down trees destroys their living environment. In addition, some species may gradually disappear because they cannot survive without forests or find enough food and shelter. As a result, ecosystems become weaker and biodiversity is reduced in many areas around the world."
+              },
+              {
+                "title": "ẢNH HƯỞNG 02: BIẾN ĐỔI KHÍ HẬU VÀ THIÊN TAI",
+                "collocations": [
+                  {
+                    "en": "contributes to climate change",
+                    "vi": "góp phần vào biến đổi khí hậu"
+                  },
+                  {
+                    "en": "natural disasters",
+                    "vi": "thiên tai"
+                  },
+                  {
+                    "en": "absorb carbon dioxide",
+                    "vi": "hấp thụ khí carbon dioxide"
+                  },
+                  {
+                    "en": "greenhouse gases",
+                    "vi": "khí nhà kính"
+                  },
+                  {
+                    "en": "soil erosion",
+                    "vi": "xói mòn đất"
+                  }
+                ],
+                "point_vi": "Nạn phá rừng góp phần gây ra biến đổi khí hậu và các thảm họa thiên nhiên.",
+                "point_en": "Deforestation contributes to climate change and natural disasters.",
+                "evidence_vi": "Lý do chính là cây xanh giúp hấp thụ khí carbon dioxide và điều hòa nhiệt độ trong môi trường. Tuy nhiên, khi rừng bị tàn phá, nhiều khí nhà kính hơn sẽ đọng lại trong khí quyển và hiện tượng nóng lên toàn cầu trở nên nghiêm trọng hơn. Do đó, nhiều quốc gia có thể phải trải qua lũ lụt, hạn hán, bão và xói mòn đất thường xuyên hơn trước.",
+                "evidence_en": "The main reason is that trees help absorb carbon dioxide and control temperatures in the environment. However, when forests are destroyed, more greenhouse gases remain in the atmosphere and global warming becomes more serious. Consequently, many countries may experience floods, droughts, storms, and soil erosion more frequently than before."
+              },
+              {
+                "title": "ẢNH HƯỞNG 03: TÁC ĐỘNG TIÊU CỰC ĐẾN ĐỜI SỐNG CON NGƯỜI",
+                "collocations": [
+                  {
+                    "en": "negatively affects human life",
+                    "vi": "ảnh hưởng tiêu cực đến đời sống con người"
+                  },
+                  {
+                    "en": "depend on forests",
+                    "vi": "phụ thuộc vào rừng"
+                  },
+                  {
+                    "en": "farming productivity",
+                    "vi": "năng suất canh tác"
+                  },
+                  {
+                    "en": "financial difficulties",
+                    "vi": "khó khăn tài chính"
+                  }
+                ],
+                "point_vi": "Nạn phá rừng tác động tiêu cực đến đời sống của con người.",
+                "point_en": "Deforestation negatively affects human life.",
+                "evidence_vi": "Điều này là do nhiều người dân địa phương phụ thuộc vào rừng để có thức ăn, nước uống, thuốc men và thu nhập trong cuộc sống hàng ngày. Hơn nữa, những thiệt hại môi trường do nạn phá rừng gây ra có thể làm giảm năng suất canh tác nông nghiệp và làm xấu đi điều kiện sống ở những khu vực này. Vì vậy, nhiều người có thể phải đối mặt với khó khăn tài chính, thất nghiệp và các vấn đề sức khỏe trong tương lai.",
+                "evidence_en": "This is because many local people depend on forests for food, water, medicine, and income in their daily lives. Moreover, environmental damage caused by deforestation can reduce farming productivity and worsen living conditions in these areas. Therefore, many people may face financial difficulties, unemployment, and health problems in the future."
+              }
+            ]
+          }
+        }
       },
       {
         "id": 22,
@@ -27691,9 +28621,597 @@ const ESSAY_DATA = [
         "title_en": "Promoting language education",
         "title_vi": "Thúc đẩy giáo dục ngôn ngữ",
         "tags": "[Measures / Solutions]",
-        "context": "In an increasingly globalized world, language education plays an important role in communication, international cooperation, cultural exchange, and career development. However, in some places, language learning has not received sufficient attention, and many learners still face difficulties in developing their language skills effectively. Therefore, promoting language education has become an important goal for governments, schools, and communities.",
-        "prompt": "Write an essay to an educated reader to suggest possible measures for promoting language education. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "context": "In today’s globalized world, language education plays a key role in helping people communicate, work, and study across borders. However, in many countries, language learning is still limited or ineffective.",
+        "prompt": "Write an essay to suggest measures that can be taken to promote language education. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task fulfillment, Organization, Vocabulary, and Grammar.",
+        "has_full_details": true,
+        "details": {
+          "vocab": [
+            {
+              "en": "language education",
+              "vi": "giáo dục ngôn ngữ"
+            },
+            {
+              "en": "communicate across borders",
+              "vi": "giao tiếp xuyên biên giới"
+            },
+            {
+              "en": "teaching methods",
+              "vi": "phương pháp giảng dạy"
+            },
+            {
+              "en": "interactive activities",
+              "vi": "các hoạt động tương tác"
+            },
+            {
+              "en": "group discussions",
+              "vi": "thảo luận nhóm"
+            },
+            {
+              "en": "speaking practice",
+              "vi": "luyện nói"
+            },
+            {
+              "en": "learning resources",
+              "vi": "nguồn tài liệu học tập"
+            },
+            {
+              "en": "learning applications",
+              "vi": "ứng dụng học tập"
+            },
+            {
+              "en": "cultural exchange programs",
+              "vi": "chương trình giao lưu văn hóa"
+            },
+            {
+              "en": "speaking confidence",
+              "vi": "sự tự tin khi nói"
+            },
+            {
+              "en": "communication skills",
+              "vi": "kỹ năng giao tiếp"
+            }
+          ],
+          "sample_b1": "In recent years, <strong>language education</strong> has become increasingly important in modern society. Effective language learning helps people communicate, work, and study across borders. <strong>This essay will suggest several practical solutions to improve language education.</strong><br><br>One effective solution is to <strong><em>improve language teaching methods in schools</em></strong>. Teachers should use more interactive activities, such as games, group discussions, and speaking practice, instead of focusing only on grammar exercises. In addition, students should be encouraged to use the language in real communication during lessons and daily activities. As a result, students may become more interested in language learning and improve their language skills.<br><br>Another possible measure is to <strong><em>increase access to language learning resources</em></strong>. Schools and governments can provide more books, online materials, videos, and language learning applications for students. Moreover, free or low-cost language courses can help people from low-income families have better opportunities to learn foreign languages. Consequently, more students and adults may be able to study languages more easily.<br><br>A further approach is to <strong><em>create more opportunities for people to practise foreign languages in daily life</em></strong>. Schools can organize language clubs, cultural exchange programs, or speaking competitions for students on a regular basis. For example, learners can communicate with foreign teachers or international students through these activities and improve their speaking confidence. Therefore, people may become more confident, develop better communication skills, and use foreign languages more naturally in real situations.<br><br>In conclusion, several practical solutions can help <strong>improve language education</strong>. By applying suitable measures, schools and governments can help improve the situation in the future. These efforts can bring positive changes to both individuals and society.",
+          "sample_b2": "In recent years, <strong>language education</strong> has become increasingly important in modern society. Effective language learning helps people communicate, work, and study across borders. <strong>This essay will suggest several practical solutions to improve language education.</strong><br><br>One effective solution is to <strong><em>improve language teaching methods in schools</em></strong>. Teachers should use more interactive activities, such as games, group discussions, and speaking practice, instead of focusing only on grammar exercises. In addition, students should be encouraged to use the language in real communication during lessons and daily activities. As a result, students may become more interested in language learning and improve their language skills.<br><br>Another possible measure is to <strong><em>increase access to language learning resources</em></strong>. Schools and governments can provide more books, online materials, videos, and language learning applications for students. Moreover, free or low-cost language courses can help people from low-income families have better opportunities to learn foreign languages. Consequently, more students and adults may be able to study languages more easily.<br><br>A further approach is to <strong><em>create more opportunities for people to practise foreign languages in daily life</em></strong>. Schools can organize language clubs, cultural exchange programs, or speaking competitions for students on a regular basis. For example, learners can communicate with foreign teachers or international students through these activities and improve their speaking confidence. Therefore, people may become more confident, develop better communication skills, and use foreign languages more naturally in real situations.<br><br>In conclusion, several practical solutions can help <strong>improve language education</strong>. By applying suitable measures, schools and governments can help improve the situation in the future. These efforts can bring positive changes to both individuals and society.",
+          "ideas_b1": {
+            "solutions": [
+              {
+                "title": "GIẢI PHÁP 01: ĐỔI MỚI PHƯƠNG PHÁP GIẢNG DẠY NGÔN NGỮ",
+                "collocations": [
+                  {
+                    "en": "teaching methods",
+                    "vi": "phương pháp giảng dạy"
+                  },
+                  {
+                    "en": "interactive activities",
+                    "vi": "các hoạt động tương tác"
+                  },
+                  {
+                    "en": "group discussions",
+                    "vi": "thảo luận nhóm"
+                  },
+                  {
+                    "en": "speaking practice",
+                    "vi": "luyện nói"
+                  },
+                  {
+                    "en": "real communication",
+                    "vi": "giao tiếp thực tế"
+                  }
+                ],
+                "point_vi": "Cải thiện các phương pháp giảng dạy ngôn ngữ trong nhà trường.",
+                "point_en": "Improve language teaching methods in schools.",
+                "evidence_vi": "Giáo viên nên sử dụng nhiều hoạt động tương tác hơn, chẳng hạn như trò chơi, thảo luận nhóm và luyện nói, thay vì chỉ tập trung vào các bài tập ngữ pháp. Ngoài ra, học sinh nên được khuyến khích sử dụng ngôn ngữ trong giao tiếp thực tế trong các tiết học và sinh hoạt hàng ngày. Kết quả là học sinh có thể trở nên hứng thú hơn với việc học ngôn ngữ và nâng cao các kỹ năng ngôn ngữ của mình.",
+                "evidence_en": "Teachers should use more interactive activities, such as games, group discussions, and speaking practice, instead of focusing only on grammar exercises. In addition, students should be encouraged to use the language in real communication during lessons and daily activities. As a result, students may become more interested in language learning and improve their language skills."
+              },
+              {
+                "title": "GIẢI PHÁP 02: TĂNG CƯỜNG TIẾP CẬN TÀI LIỆU HỌC TẬP",
+                "collocations": [
+                  {
+                    "en": "learning resources",
+                    "vi": "nguồn tài liệu học tập"
+                  },
+                  {
+                    "en": "online materials",
+                    "vi": "tài liệu trực tuyến"
+                  },
+                  {
+                    "en": "learning applications",
+                    "vi": "ứng dụng học tập"
+                  },
+                  {
+                    "en": "low-income families",
+                    "vi": "gia đình thu nhập thấp"
+                  },
+                  {
+                    "en": "foreign languages",
+                    "vi": "ngoại ngữ"
+                  }
+                ],
+                "point_vi": "Tăng cường khả năng tiếp cận các nguồn tài liệu học ngôn ngữ.",
+                "point_en": "Increase access to language learning resources.",
+                "evidence_vi": "Các trường học và chính phủ có thể cung cấp nhiều sách, tài liệu trực tuyến, video và các ứng dụng học ngôn ngữ hơn cho học sinh. Hơn nữa, các khóa học ngôn ngữ miễn phí hoặc chi phí thấp có thể giúp những người từ các gia đình có thu nhập thấp có cơ hội tốt hơn để học ngoại ngữ. Do đó, ngày càng có nhiều học sinh và người lớn có thể học ngoại ngữ một cách dễ dàng hơn.",
+                "evidence_en": "Schools and governments can provide more books, online materials, videos, and language learning applications for students. Moreover, free or low-cost language courses can help people from low-income families have better opportunities to learn foreign languages. Consequently, more students and adults may be able to study languages more easily."
+              },
+              {
+                "title": "GIẢI PHÁP 03: TẠO CƠ HỘI THỰC HÀNH TRONG ĐỜI SỐNG",
+                "collocations": [
+                  {
+                    "en": "practise foreign languages",
+                    "vi": "thực hành ngoại ngữ"
+                  },
+                  {
+                    "en": "language clubs",
+                    "vi": "câu lạc bộ ngoại ngữ"
+                  },
+                  {
+                    "en": "cultural exchange programs",
+                    "vi": "chương trình giao lưu văn hóa"
+                  },
+                  {
+                    "en": "speaking confidence",
+                    "vi": "sự tự tin khi nói"
+                  },
+                  {
+                    "en": "communication skills",
+                    "vi": "kỹ năng giao tiếp"
+                  }
+                ],
+                "point_vi": "Tạo thêm nhiều cơ hội cho mọi người thực hành ngoại ngữ trong cuộc sống hàng ngày.",
+                "point_en": "Create more opportunities for people to practise foreign languages in daily life.",
+                "evidence_vi": "Các trường học có thể tổ chức các câu lạc bộ ngôn ngữ, các chương trình giao lưu văn hóa hoặc các cuộc thi hùng biện cho học sinh một cách thường xuyên. Ví dụ, người học có thể giao tiếp với giáo viên nước ngoài hoặc sinh viên quốc tế thông qua các hoạt động này và nâng cao sự tự tin khi nói. Vì vậy, mọi người có thể trở nên tự tin hơn, phát triển kỹ năng giao tiếp tốt hơn và sử dụng ngoại ngữ một cách tự nhiên hơn trong các tình huống thực tế.",
+                "evidence_en": "Schools can organize language clubs, cultural exchange programs, or speaking competitions for students on a regular basis. For example, learners can communicate with foreign teachers or international students through these activities and improve their speaking confidence. Therefore, people may become more confident, develop better communication skills, and use foreign languages more naturally in real situations."
+              }
+            ],
+            "benefits": [
+              {
+                "title": "GIẢI PHÁP 01: ĐỔI MỚI PHƯƠNG PHÁP GIẢNG DẠY NGÔN NGỮ",
+                "collocations": [
+                  {
+                    "en": "teaching methods",
+                    "vi": "phương pháp giảng dạy"
+                  },
+                  {
+                    "en": "interactive activities",
+                    "vi": "các hoạt động tương tác"
+                  },
+                  {
+                    "en": "group discussions",
+                    "vi": "thảo luận nhóm"
+                  },
+                  {
+                    "en": "speaking practice",
+                    "vi": "luyện nói"
+                  },
+                  {
+                    "en": "real communication",
+                    "vi": "giao tiếp thực tế"
+                  }
+                ],
+                "point_vi": "Cải thiện các phương pháp giảng dạy ngôn ngữ trong nhà trường.",
+                "point_en": "Improve language teaching methods in schools.",
+                "evidence_vi": "Giáo viên nên sử dụng nhiều hoạt động tương tác hơn, chẳng hạn như trò chơi, thảo luận nhóm và luyện nói, thay vì chỉ tập trung vào các bài tập ngữ pháp. Ngoài ra, học sinh nên được khuyến khích sử dụng ngôn ngữ trong giao tiếp thực tế trong các tiết học và sinh hoạt hàng ngày. Kết quả là học sinh có thể trở nên hứng thú hơn với việc học ngôn ngữ và nâng cao các kỹ năng ngôn ngữ của mình.",
+                "evidence_en": "Teachers should use more interactive activities, such as games, group discussions, and speaking practice, instead of focusing only on grammar exercises. In addition, students should be encouraged to use the language in real communication during lessons and daily activities. As a result, students may become more interested in language learning and improve their language skills."
+              },
+              {
+                "title": "GIẢI PHÁP 02: TĂNG CƯỜNG TIẾP CẬN TÀI LIỆU HỌC TẬP",
+                "collocations": [
+                  {
+                    "en": "learning resources",
+                    "vi": "nguồn tài liệu học tập"
+                  },
+                  {
+                    "en": "online materials",
+                    "vi": "tài liệu trực tuyến"
+                  },
+                  {
+                    "en": "learning applications",
+                    "vi": "ứng dụng học tập"
+                  },
+                  {
+                    "en": "low-income families",
+                    "vi": "gia đình thu nhập thấp"
+                  },
+                  {
+                    "en": "foreign languages",
+                    "vi": "ngoại ngữ"
+                  }
+                ],
+                "point_vi": "Tăng cường khả năng tiếp cận các nguồn tài liệu học ngôn ngữ.",
+                "point_en": "Increase access to language learning resources.",
+                "evidence_vi": "Các trường học và chính phủ có thể cung cấp nhiều sách, tài liệu trực tuyến, video và các ứng dụng học ngôn ngữ hơn cho học sinh. Hơn nữa, các khóa học ngôn ngữ miễn phí hoặc chi phí thấp có thể giúp những người từ các gia đình có thu nhập thấp có cơ hội tốt hơn để học ngoại ngữ. Do đó, ngày càng có nhiều học sinh và người lớn có thể học ngoại ngữ một cách dễ dàng hơn.",
+                "evidence_en": "Schools and governments can provide more books, online materials, videos, and language learning applications for students. Moreover, free or low-cost language courses can help people from low-income families have better opportunities to learn foreign languages. Consequently, more students and adults may be able to study languages more easily."
+              },
+              {
+                "title": "GIẢI PHÁP 03: TẠO CƠ HỘI THỰC HÀNH TRONG ĐỜI SỐNG",
+                "collocations": [
+                  {
+                    "en": "practise foreign languages",
+                    "vi": "thực hành ngoại ngữ"
+                  },
+                  {
+                    "en": "language clubs",
+                    "vi": "câu lạc bộ ngoại ngữ"
+                  },
+                  {
+                    "en": "cultural exchange programs",
+                    "vi": "chương trình giao lưu văn hóa"
+                  },
+                  {
+                    "en": "speaking confidence",
+                    "vi": "sự tự tin khi nói"
+                  },
+                  {
+                    "en": "communication skills",
+                    "vi": "kỹ năng giao tiếp"
+                  }
+                ],
+                "point_vi": "Tạo thêm nhiều cơ hội cho mọi người thực hành ngoại ngữ trong cuộc sống hàng ngày.",
+                "point_en": "Create more opportunities for people to practise foreign languages in daily life.",
+                "evidence_vi": "Các trường học có thể tổ chức các câu lạc bộ ngôn ngữ, các chương trình giao lưu văn hóa hoặc các cuộc thi hùng biện cho học sinh một cách thường xuyên. Ví dụ, người học có thể giao tiếp với giáo viên nước ngoài hoặc sinh viên quốc tế thông qua các hoạt động này và nâng cao sự tự tin khi nói. Vì vậy, mọi người có thể trở nên tự tin hơn, phát triển kỹ năng giao tiếp tốt hơn và sử dụng ngoại ngữ một cách tự nhiên hơn trong các tình huống thực tế.",
+                "evidence_en": "Schools can organize language clubs, cultural exchange programs, or speaking competitions for students on a regular basis. For example, learners can communicate with foreign teachers or international students through these activities and improve their speaking confidence. Therefore, people may become more confident, develop better communication skills, and use foreign languages more naturally in real situations."
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "GIẢI PHÁP 01: ĐỔI MỚI PHƯƠNG PHÁP GIẢNG DẠY NGÔN NGỮ",
+                "collocations": [
+                  {
+                    "en": "teaching methods",
+                    "vi": "phương pháp giảng dạy"
+                  },
+                  {
+                    "en": "interactive activities",
+                    "vi": "các hoạt động tương tác"
+                  },
+                  {
+                    "en": "group discussions",
+                    "vi": "thảo luận nhóm"
+                  },
+                  {
+                    "en": "speaking practice",
+                    "vi": "luyện nói"
+                  },
+                  {
+                    "en": "real communication",
+                    "vi": "giao tiếp thực tế"
+                  }
+                ],
+                "point_vi": "Cải thiện các phương pháp giảng dạy ngôn ngữ trong nhà trường.",
+                "point_en": "Improve language teaching methods in schools.",
+                "evidence_vi": "Giáo viên nên sử dụng nhiều hoạt động tương tác hơn, chẳng hạn như trò chơi, thảo luận nhóm và luyện nói, thay vì chỉ tập trung vào các bài tập ngữ pháp. Ngoài ra, học sinh nên được khuyến khích sử dụng ngôn ngữ trong giao tiếp thực tế trong các tiết học và sinh hoạt hàng ngày. Kết quả là học sinh có thể trở nên hứng thú hơn với việc học ngôn ngữ và nâng cao các kỹ năng ngôn ngữ của mình.",
+                "evidence_en": "Teachers should use more interactive activities, such as games, group discussions, and speaking practice, instead of focusing only on grammar exercises. In addition, students should be encouraged to use the language in real communication during lessons and daily activities. As a result, students may become more interested in language learning and improve their language skills."
+              },
+              {
+                "title": "GIẢI PHÁP 02: TĂNG CƯỜNG TIẾP CẬN TÀI LIỆU HỌC TẬP",
+                "collocations": [
+                  {
+                    "en": "learning resources",
+                    "vi": "nguồn tài liệu học tập"
+                  },
+                  {
+                    "en": "online materials",
+                    "vi": "tài liệu trực tuyến"
+                  },
+                  {
+                    "en": "learning applications",
+                    "vi": "ứng dụng học tập"
+                  },
+                  {
+                    "en": "low-income families",
+                    "vi": "gia đình thu nhập thấp"
+                  },
+                  {
+                    "en": "foreign languages",
+                    "vi": "ngoại ngữ"
+                  }
+                ],
+                "point_vi": "Tăng cường khả năng tiếp cận các nguồn tài liệu học ngôn ngữ.",
+                "point_en": "Increase access to language learning resources.",
+                "evidence_vi": "Các trường học và chính phủ có thể cung cấp nhiều sách, tài liệu trực tuyến, video và các ứng dụng học ngôn ngữ hơn cho học sinh. Hơn nữa, các khóa học ngôn ngữ miễn phí hoặc chi phí thấp có thể giúp những người từ các gia đình có thu nhập thấp có cơ hội tốt hơn để học ngoại ngữ. Do đó, ngày càng có nhiều học sinh và người lớn có thể học ngoại ngữ một cách dễ dàng hơn.",
+                "evidence_en": "Schools and governments can provide more books, online materials, videos, and language learning applications for students. Moreover, free or low-cost language courses can help people from low-income families have better opportunities to learn foreign languages. Consequently, more students and adults may be able to study languages more easily."
+              },
+              {
+                "title": "GIẢI PHÁP 03: TẠO CƠ HỘI THỰC HÀNH TRONG ĐỜI SỐNG",
+                "collocations": [
+                  {
+                    "en": "practise foreign languages",
+                    "vi": "thực hành ngoại ngữ"
+                  },
+                  {
+                    "en": "language clubs",
+                    "vi": "câu lạc bộ ngoại ngữ"
+                  },
+                  {
+                    "en": "cultural exchange programs",
+                    "vi": "chương trình giao lưu văn hóa"
+                  },
+                  {
+                    "en": "speaking confidence",
+                    "vi": "sự tự tin khi nói"
+                  },
+                  {
+                    "en": "communication skills",
+                    "vi": "kỹ năng giao tiếp"
+                  }
+                ],
+                "point_vi": "Tạo thêm nhiều cơ hội cho mọi người thực hành ngoại ngữ trong cuộc sống hàng ngày.",
+                "point_en": "Create more opportunities for people to practise foreign languages in daily life.",
+                "evidence_vi": "Các trường học có thể tổ chức các câu lạc bộ ngôn ngữ, các chương trình giao lưu văn hóa hoặc các cuộc thi hùng biện cho học sinh một cách thường xuyên. Ví dụ, người học có thể giao tiếp với giáo viên nước ngoài hoặc sinh viên quốc tế thông qua các hoạt động này và nâng cao sự tự tin khi nói. Vì vậy, mọi người có thể trở nên tự tin hơn, phát triển kỹ năng giao tiếp tốt hơn và sử dụng ngoại ngữ một cách tự nhiên hơn trong các tình huống thực tế.",
+                "evidence_en": "Schools can organize language clubs, cultural exchange programs, or speaking competitions for students on a regular basis. For example, learners can communicate with foreign teachers or international students through these activities and improve their speaking confidence. Therefore, people may become more confident, develop better communication skills, and use foreign languages more naturally in real situations."
+              }
+            ]
+          },
+          "ideas_b2": {
+            "solutions": [
+              {
+                "title": "GIẢI PHÁP 01: ĐỔI MỚI PHƯƠNG PHÁP GIẢNG DẠY NGÔN NGỮ",
+                "collocations": [
+                  {
+                    "en": "teaching methods",
+                    "vi": "phương pháp giảng dạy"
+                  },
+                  {
+                    "en": "interactive activities",
+                    "vi": "các hoạt động tương tác"
+                  },
+                  {
+                    "en": "group discussions",
+                    "vi": "thảo luận nhóm"
+                  },
+                  {
+                    "en": "speaking practice",
+                    "vi": "luyện nói"
+                  },
+                  {
+                    "en": "real communication",
+                    "vi": "giao tiếp thực tế"
+                  }
+                ],
+                "point_vi": "Cải thiện các phương pháp giảng dạy ngôn ngữ trong nhà trường.",
+                "point_en": "Improve language teaching methods in schools.",
+                "evidence_vi": "Giáo viên nên sử dụng nhiều hoạt động tương tác hơn, chẳng hạn như trò chơi, thảo luận nhóm và luyện nói, thay vì chỉ tập trung vào các bài tập ngữ pháp. Ngoài ra, học sinh nên được khuyến khích sử dụng ngôn ngữ trong giao tiếp thực tế trong các tiết học và sinh hoạt hàng ngày. Kết quả là học sinh có thể trở nên hứng thú hơn với việc học ngôn ngữ và nâng cao các kỹ năng ngôn ngữ của mình.",
+                "evidence_en": "Teachers should use more interactive activities, such as games, group discussions, and speaking practice, instead of focusing only on grammar exercises. In addition, students should be encouraged to use the language in real communication during lessons and daily activities. As a result, students may become more interested in language learning and improve their language skills."
+              },
+              {
+                "title": "GIẢI PHÁP 02: TĂNG CƯỜNG TIẾP CẬN TÀI LIỆU HỌC TẬP",
+                "collocations": [
+                  {
+                    "en": "learning resources",
+                    "vi": "nguồn tài liệu học tập"
+                  },
+                  {
+                    "en": "online materials",
+                    "vi": "tài liệu trực tuyến"
+                  },
+                  {
+                    "en": "learning applications",
+                    "vi": "ứng dụng học tập"
+                  },
+                  {
+                    "en": "low-income families",
+                    "vi": "gia đình thu nhập thấp"
+                  },
+                  {
+                    "en": "foreign languages",
+                    "vi": "ngoại ngữ"
+                  }
+                ],
+                "point_vi": "Tăng cường khả năng tiếp cận các nguồn tài liệu học ngôn ngữ.",
+                "point_en": "Increase access to language learning resources.",
+                "evidence_vi": "Các trường học và chính phủ có thể cung cấp nhiều sách, tài liệu trực tuyến, video và các ứng dụng học ngôn ngữ hơn cho học sinh. Hơn nữa, các khóa học ngôn ngữ miễn phí hoặc chi phí thấp có thể giúp những người từ các gia đình có thu nhập thấp có cơ hội tốt hơn để học ngoại ngữ. Do đó, ngày càng có nhiều học sinh và người lớn có thể học ngoại ngữ một cách dễ dàng hơn.",
+                "evidence_en": "Schools and governments can provide more books, online materials, videos, and language learning applications for students. Moreover, free or low-cost language courses can help people from low-income families have better opportunities to learn foreign languages. Consequently, more students and adults may be able to study languages more easily."
+              },
+              {
+                "title": "GIẢI PHÁP 03: TẠO CƠ HỘI THỰC HÀNH TRONG ĐỜI SỐNG",
+                "collocations": [
+                  {
+                    "en": "practise foreign languages",
+                    "vi": "thực hành ngoại ngữ"
+                  },
+                  {
+                    "en": "language clubs",
+                    "vi": "câu lạc bộ ngoại ngữ"
+                  },
+                  {
+                    "en": "cultural exchange programs",
+                    "vi": "chương trình giao lưu văn hóa"
+                  },
+                  {
+                    "en": "speaking confidence",
+                    "vi": "sự tự tin khi nói"
+                  },
+                  {
+                    "en": "communication skills",
+                    "vi": "kỹ năng giao tiếp"
+                  }
+                ],
+                "point_vi": "Tạo thêm nhiều cơ hội cho mọi người thực hành ngoại ngữ trong cuộc sống hàng ngày.",
+                "point_en": "Create more opportunities for people to practise foreign languages in daily life.",
+                "evidence_vi": "Các trường học có thể tổ chức các câu lạc bộ ngôn ngữ, các chương trình giao lưu văn hóa hoặc các cuộc thi hùng biện cho học sinh một cách thường xuyên. Ví dụ, người học có thể giao tiếp với giáo viên nước ngoài hoặc sinh viên quốc tế thông qua các hoạt động này và nâng cao sự tự tin khi nói. Vì vậy, mọi người có thể trở nên tự tin hơn, phát triển kỹ năng giao tiếp tốt hơn và sử dụng ngoại ngữ một cách tự nhiên hơn trong các tình huống thực tế.",
+                "evidence_en": "Schools can organize language clubs, cultural exchange programs, or speaking competitions for students on a regular basis. For example, learners can communicate with foreign teachers or international students through these activities and improve their speaking confidence. Therefore, people may become more confident, develop better communication skills, and use foreign languages more naturally in real situations."
+              }
+            ],
+            "benefits": [
+              {
+                "title": "GIẢI PHÁP 01: ĐỔI MỚI PHƯƠNG PHÁP GIẢNG DẠY NGÔN NGỮ",
+                "collocations": [
+                  {
+                    "en": "teaching methods",
+                    "vi": "phương pháp giảng dạy"
+                  },
+                  {
+                    "en": "interactive activities",
+                    "vi": "các hoạt động tương tác"
+                  },
+                  {
+                    "en": "group discussions",
+                    "vi": "thảo luận nhóm"
+                  },
+                  {
+                    "en": "speaking practice",
+                    "vi": "luyện nói"
+                  },
+                  {
+                    "en": "real communication",
+                    "vi": "giao tiếp thực tế"
+                  }
+                ],
+                "point_vi": "Cải thiện các phương pháp giảng dạy ngôn ngữ trong nhà trường.",
+                "point_en": "Improve language teaching methods in schools.",
+                "evidence_vi": "Giáo viên nên sử dụng nhiều hoạt động tương tác hơn, chẳng hạn như trò chơi, thảo luận nhóm và luyện nói, thay vì chỉ tập trung vào các bài tập ngữ pháp. Ngoài ra, học sinh nên được khuyến khích sử dụng ngôn ngữ trong giao tiếp thực tế trong các tiết học và sinh hoạt hàng ngày. Kết quả là học sinh có thể trở nên hứng thú hơn với việc học ngôn ngữ và nâng cao các kỹ năng ngôn ngữ của mình.",
+                "evidence_en": "Teachers should use more interactive activities, such as games, group discussions, and speaking practice, instead of focusing only on grammar exercises. In addition, students should be encouraged to use the language in real communication during lessons and daily activities. As a result, students may become more interested in language learning and improve their language skills."
+              },
+              {
+                "title": "GIẢI PHÁP 02: TĂNG CƯỜNG TIẾP CẬN TÀI LIỆU HỌC TẬP",
+                "collocations": [
+                  {
+                    "en": "learning resources",
+                    "vi": "nguồn tài liệu học tập"
+                  },
+                  {
+                    "en": "online materials",
+                    "vi": "tài liệu trực tuyến"
+                  },
+                  {
+                    "en": "learning applications",
+                    "vi": "ứng dụng học tập"
+                  },
+                  {
+                    "en": "low-income families",
+                    "vi": "gia đình thu nhập thấp"
+                  },
+                  {
+                    "en": "foreign languages",
+                    "vi": "ngoại ngữ"
+                  }
+                ],
+                "point_vi": "Tăng cường khả năng tiếp cận các nguồn tài liệu học ngôn ngữ.",
+                "point_en": "Increase access to language learning resources.",
+                "evidence_vi": "Các trường học và chính phủ có thể cung cấp nhiều sách, tài liệu trực tuyến, video và các ứng dụng học ngôn ngữ hơn cho học sinh. Hơn nữa, các khóa học ngôn ngữ miễn phí hoặc chi phí thấp có thể giúp những người từ các gia đình có thu nhập thấp có cơ hội tốt hơn để học ngoại ngữ. Do đó, ngày càng có nhiều học sinh và người lớn có thể học ngoại ngữ một cách dễ dàng hơn.",
+                "evidence_en": "Schools and governments can provide more books, online materials, videos, and language learning applications for students. Moreover, free or low-cost language courses can help people from low-income families have better opportunities to learn foreign languages. Consequently, more students and adults may be able to study languages more easily."
+              },
+              {
+                "title": "GIẢI PHÁP 03: TẠO CƠ HỘI THỰC HÀNH TRONG ĐỜI SỐNG",
+                "collocations": [
+                  {
+                    "en": "practise foreign languages",
+                    "vi": "thực hành ngoại ngữ"
+                  },
+                  {
+                    "en": "language clubs",
+                    "vi": "câu lạc bộ ngoại ngữ"
+                  },
+                  {
+                    "en": "cultural exchange programs",
+                    "vi": "chương trình giao lưu văn hóa"
+                  },
+                  {
+                    "en": "speaking confidence",
+                    "vi": "sự tự tin khi nói"
+                  },
+                  {
+                    "en": "communication skills",
+                    "vi": "kỹ năng giao tiếp"
+                  }
+                ],
+                "point_vi": "Tạo thêm nhiều cơ hội cho mọi người thực hành ngoại ngữ trong cuộc sống hàng ngày.",
+                "point_en": "Create more opportunities for people to practise foreign languages in daily life.",
+                "evidence_vi": "Các trường học có thể tổ chức các câu lạc bộ ngôn ngữ, các chương trình giao lưu văn hóa hoặc các cuộc thi hùng biện cho học sinh một cách thường xuyên. Ví dụ, người học có thể giao tiếp với giáo viên nước ngoài hoặc sinh viên quốc tế thông qua các hoạt động này và nâng cao sự tự tin khi nói. Vì vậy, mọi người có thể trở nên tự tin hơn, phát triển kỹ năng giao tiếp tốt hơn và sử dụng ngoại ngữ một cách tự nhiên hơn trong các tình huống thực tế.",
+                "evidence_en": "Schools can organize language clubs, cultural exchange programs, or speaking competitions for students on a regular basis. For example, learners can communicate with foreign teachers or international students through these activities and improve their speaking confidence. Therefore, people may become more confident, develop better communication skills, and use foreign languages more naturally in real situations."
+              }
+            ],
+            "drawbacks": [
+              {
+                "title": "GIẢI PHÁP 01: ĐỔI MỚI PHƯƠNG PHÁP GIẢNG DẠY NGÔN NGỮ",
+                "collocations": [
+                  {
+                    "en": "teaching methods",
+                    "vi": "phương pháp giảng dạy"
+                  },
+                  {
+                    "en": "interactive activities",
+                    "vi": "các hoạt động tương tác"
+                  },
+                  {
+                    "en": "group discussions",
+                    "vi": "thảo luận nhóm"
+                  },
+                  {
+                    "en": "speaking practice",
+                    "vi": "luyện nói"
+                  },
+                  {
+                    "en": "real communication",
+                    "vi": "giao tiếp thực tế"
+                  }
+                ],
+                "point_vi": "Cải thiện các phương pháp giảng dạy ngôn ngữ trong nhà trường.",
+                "point_en": "Improve language teaching methods in schools.",
+                "evidence_vi": "Giáo viên nên sử dụng nhiều hoạt động tương tác hơn, chẳng hạn như trò chơi, thảo luận nhóm và luyện nói, thay vì chỉ tập trung vào các bài tập ngữ pháp. Ngoài ra, học sinh nên được khuyến khích sử dụng ngôn ngữ trong giao tiếp thực tế trong các tiết học và sinh hoạt hàng ngày. Kết quả là học sinh có thể trở nên hứng thú hơn với việc học ngôn ngữ và nâng cao các kỹ năng ngôn ngữ của mình.",
+                "evidence_en": "Teachers should use more interactive activities, such as games, group discussions, and speaking practice, instead of focusing only on grammar exercises. In addition, students should be encouraged to use the language in real communication during lessons and daily activities. As a result, students may become more interested in language learning and improve their language skills."
+              },
+              {
+                "title": "GIẢI PHÁP 02: TĂNG CƯỜNG TIẾP CẬN TÀI LIỆU HỌC TẬP",
+                "collocations": [
+                  {
+                    "en": "learning resources",
+                    "vi": "nguồn tài liệu học tập"
+                  },
+                  {
+                    "en": "online materials",
+                    "vi": "tài liệu trực tuyến"
+                  },
+                  {
+                    "en": "learning applications",
+                    "vi": "ứng dụng học tập"
+                  },
+                  {
+                    "en": "low-income families",
+                    "vi": "gia đình thu nhập thấp"
+                  },
+                  {
+                    "en": "foreign languages",
+                    "vi": "ngoại ngữ"
+                  }
+                ],
+                "point_vi": "Tăng cường khả năng tiếp cận các nguồn tài liệu học ngôn ngữ.",
+                "point_en": "Increase access to language learning resources.",
+                "evidence_vi": "Các trường học và chính phủ có thể cung cấp nhiều sách, tài liệu trực tuyến, video và các ứng dụng học ngôn ngữ hơn cho học sinh. Hơn nữa, các khóa học ngôn ngữ miễn phí hoặc chi phí thấp có thể giúp những người từ các gia đình có thu nhập thấp có cơ hội tốt hơn để học ngoại ngữ. Do đó, ngày càng có nhiều học sinh và người lớn có thể học ngoại ngữ một cách dễ dàng hơn.",
+                "evidence_en": "Schools and governments can provide more books, online materials, videos, and language learning applications for students. Moreover, free or low-cost language courses can help people from low-income families have better opportunities to learn foreign languages. Consequently, more students and adults may be able to study languages more easily."
+              },
+              {
+                "title": "GIẢI PHÁP 03: TẠO CƠ HỘI THỰC HÀNH TRONG ĐỜI SỐNG",
+                "collocations": [
+                  {
+                    "en": "practise foreign languages",
+                    "vi": "thực hành ngoại ngữ"
+                  },
+                  {
+                    "en": "language clubs",
+                    "vi": "câu lạc bộ ngoại ngữ"
+                  },
+                  {
+                    "en": "cultural exchange programs",
+                    "vi": "chương trình giao lưu văn hóa"
+                  },
+                  {
+                    "en": "speaking confidence",
+                    "vi": "sự tự tin khi nói"
+                  },
+                  {
+                    "en": "communication skills",
+                    "vi": "kỹ năng giao tiếp"
+                  }
+                ],
+                "point_vi": "Tạo thêm nhiều cơ hội cho mọi người thực hành ngoại ngữ trong cuộc sống hàng ngày.",
+                "point_en": "Create more opportunities for people to practise foreign languages in daily life.",
+                "evidence_vi": "Các trường học có thể tổ chức các câu lạc bộ ngôn ngữ, các chương trình giao lưu văn hóa hoặc các cuộc thi hùng biện cho học sinh một cách thường xuyên. Ví dụ, người học có thể giao tiếp với giáo viên nước ngoài hoặc sinh viên quốc tế thông qua các hoạt động này và nâng cao sự tự tin khi nói. Vì vậy, mọi người có thể trở nên tự tin hơn, phát triển kỹ năng giao tiếp tốt hơn và sử dụng ngoại ngữ một cách tự nhiên hơn trong các tình huống thực tế.",
+                "evidence_en": "Schools can organize language clubs, cultural exchange programs, or speaking competitions for students on a regular basis. For example, learners can communicate with foreign teachers or international students through these activities and improve their speaking confidence. Therefore, people may become more confident, develop better communication skills, and use foreign languages more naturally in real situations."
+              }
+            ]
+          }
+        }
       },
       {
         "id": 26,
@@ -27718,8 +29236,8 @@ const ESSAY_DATA = [
         "title_en": "Cybercrime",
         "title_vi": "Tội phạm mạng",
         "tags": "[Impacts & Solutions]",
-        "context": "Cybercrime has become an increasingly serious problem in the digital age. With the widespread use of computers, smartphones, and the Internet, criminals can carry out illegal activities such as identity theft, online fraud, hacking, data breaches, and cyberattacks. These crimes affect individuals, businesses, and governments, creating significant social and economic challenges.",
-        "prompt": "Write an essay to an educated reader to discuss the impacts of cybercrime and suggest possible solutions to this problem. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "context": "Cybercrime has become a serious issue in modern society, affecting both individuals and organizations around the world. As technology continues to develop, the impacts of online crime are becoming more widespread and damaging.",
+        "prompt": "Write an essay to discuss the impacts of cybercrime and suggest possible solutions. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task fulfillment, Organization, Vocabulary, and Grammar.",
         "has_full_details": true,
         "paraphrases": [
           {
@@ -27741,158 +29259,280 @@ const ESSAY_DATA = [
         ],
         "details": {
           "ideas_b1": {
-            "benefits": [
+            "effects": [
               {
-                "title": "EFFECT 01",
-                "point_vi": "Tội phạm mạng có thể khiến cá nhân mất một khoản tiền lớn.",
-                "point_en": "First, cybercrime can cause individuals to lose a large amount of money.",
-                "evidence_vi": "Tội phạm có thể sử dụng các vụ lừa đảo trực tuyến để đánh cắp tiền hoặc thông tin ngân hàng của mọi người. Hậu quả là nhiều nạn nhân mất sạch tiền tiết kiệm và gặp khó khăn tài chính.",
-                "evidence_en": "Criminals can use online scams to steal money or bank details from people. As a result, many victims lose their savings and face difficult financial problems.",
+                "title": "ẢNH HƯỞNG 01: THIỆT HẠI VỀ TIỀN BẠC",
                 "collocations": [
                   {
-                    "en": "lose a large amount of money",
-                    "vi": "mất một khoản tiền lớn"
+                    "en": "lose money",
+                    "vi": "mất tiền"
                   },
                   {
-                    "en": "online scams",
-                    "vi": "các vụ lừa đảo trực tuyến"
+                    "en": "steal personal and financial information",
+                    "vi": "đánh cắp thông tin cá nhân và tài chính"
                   },
                   {
-                    "en": "steal bank details",
-                    "vi": "đánh cắp thông tin ngân hàng"
-                  },
-                  {
-                    "en": "lose their savings",
-                    "vi": "mất tiền tiết kiệm"
+                    "en": "bank accounts",
+                    "vi": "tài khoản ngân hàng"
                   }
-                ]
+                ],
+                "point_vi": "Nhiều người có thể bị mất tiền.",
+                "point_en": "Many people may lose money.",
+                "evidence_vi": "Điều này là do tội phạm mạng có thể đánh cắp thông tin cá nhân và tài chính, vì vậy chúng có thể lấy tiền từ tài khoản ngân hàng của nạn nhân.",
+                "evidence_en": "This is because cybercriminals can steal personal and financial information, so they can take money from victims’ bank accounts."
               },
               {
-                "title": "EFFECT 02",
-                "point_vi": "Tội phạm mạng có thể khiến doanh nghiệp mất dữ liệu quan trọng và uy tín.",
-                "point_en": "Second, cybercrime can make businesses lose important data and reputation.",
-                "evidence_vi": "Khi thông tin của khách hàng hoặc dữ liệu công ty bị đánh cắp, doanh nghiệp có thể gặp khó khăn trong hoạt động. Hơn nữa, họ có thể mất lòng tin của khách hàng và bị sụt giảm doanh thu.",
-                "evidence_en": "When customer information or company data is stolen, businesses may face operational problems. Furthermore, they can lose customer trust and suffer a decline in sales.",
+                "title": "ẢNH HƯỞNG 02: MẤT MÁT DỮ LIỆU DOANH NGHIỆP",
                 "collocations": [
                   {
                     "en": "lose important data",
                     "vi": "mất dữ liệu quan trọng"
                   },
                   {
-                    "en": "lose company reputation",
-                    "vi": "mất uy tín công ty"
+                    "en": "attack computer systems",
+                    "vi": "tấn công hệ thống máy tính"
                   },
                   {
-                    "en": "stolen company data",
-                    "vi": "dữ liệu công ty bị đánh cắp"
-                  },
-                  {
-                    "en": "lose customer trust",
-                    "vi": "mất lòng tin của khách hàng"
+                    "en": "valuable business information",
+                    "vi": "thông tin kinh doanh có giá trị"
                   }
-                ]
+                ],
+                "point_vi": "Các công ty có thể bị mất các dữ liệu quan trọng.",
+                "point_en": "Companies may lose important data.",
+                "evidence_vi": "Ví dụ, tin tặc có thể tấn công các hệ thống máy tính và làm hỏng các thông tin kinh doanh có giá trị.",
+                "evidence_en": "For example, hackers can attack computer systems and damage valuable business information."
               },
               {
-                "title": "EFFECT 03",
-                "point_vi": "Tội phạm mạng có thể làm người dùng mất niềm tin vào Internet.",
-                "point_en": "Finally, cybercrime can make users lose trust in the Internet.",
-                "evidence_vi": "Khi mọi người thường xuyên nghe về các vụ lừa đảo và đánh cắp thông tin, họ có thể cảm thấy không an toàn. Do đó, họ ngần ngại mua hàng, thanh toán hoặc chia sẻ thông tin trực tuyến.",
-                "evidence_en": "When people frequently hear about scams and stolen information, they may feel unsafe. Therefore, they hesitate to shop, pay, or share information online.",
+                "title": "ẢNH HƯỞNG 03: CẢM GIÁC BẤT AN KHI DÙNG DỊCH VỤ TRỰC TUYẾN",
                 "collocations": [
-                  {
-                    "en": "lose trust in the Internet",
-                    "vi": "mất niềm tin vào Internet"
-                  },
                   {
                     "en": "feel unsafe",
                     "vi": "cảm thấy không an toàn"
                   },
                   {
-                    "en": "hesitate to shop online",
-                    "vi": "ngần ngại mua hàng trực tuyến"
+                    "en": "online services",
+                    "vi": "các dịch vụ trực tuyến"
                   },
                   {
-                    "en": "share information online",
-                    "vi": "chia sẻ thông tin trực tuyến"
+                    "en": "online shopping",
+                    "vi": "mua sắm trực tuyến"
+                  },
+                  {
+                    "en": "online banking",
+                    "vi": "ngân hàng trực tuyến"
                   }
-                ]
+                ],
+                "point_vi": "Nhiều cá nhân có thể cảm thấy không an toàn khi sử dụng các dịch vụ trực tuyến.",
+                "point_en": "Many individuals may feel unsafe when using online services.",
+                "evidence_vi": "Điều này là do tội phạm mạng có thể làm cho Internet có vẻ nguy hiểm, vì vậy một số người có thể tránh mua sắm trực tuyến hoặc giao dịch ngân hàng trực tuyến.",
+                "evidence_en": "This is because cybercrime can make the Internet seem dangerous, so some people may avoid online shopping or online banking."
+              }
+            ],
+            "solutions": [
+              {
+                "title": "GIẢI PHÁP 01: CẢI THIỆN HỆ THỐNG AN NINH MẠNG",
+                "collocations": [
+                  {
+                    "en": "online security systems",
+                    "vi": "hệ thống an ninh trực tuyến"
+                  },
+                  {
+                    "en": "stronger passwords",
+                    "vi": "mật khẩu mạnh hơn"
+                  },
+                  {
+                    "en": "security software",
+                    "vi": "phần mềm bảo mật"
+                  },
+                  {
+                    "en": "protect users from cyberattacks",
+                    "vi": "bảo vệ người dùng khỏi các cuộc tấn công mạng"
+                  }
+                ],
+                "point_vi": "Cải thiện các hệ thống an ninh trực tuyến.",
+                "point_en": "Improve online security systems.",
+                "evidence_vi": "Điều này là do mật khẩu mạnh hơn và phần mềm bảo mật có thể bảo vệ người dùng tốt hơn trước các cuộc tấn công mạng.",
+                "evidence_en": "This is because stronger passwords and security software can better protect users from cyberattacks."
+              },
+              {
+                "title": "GIẢI PHÁP 02: GIÁO DỤC AN TOÀN TRỰC TUYẾN",
+                "collocations": [
+                  {
+                    "en": "online safety",
+                    "vi": "an toàn trực tuyến"
+                  },
+                  {
+                    "en": "recognize fake messages",
+                    "vi": "nhận biết tin nhắn giả mạo"
+                  },
+                  {
+                    "en": "dangerous websites",
+                    "vi": "trang web nguy hiểm"
+                  }
+                ],
+                "point_vi": "Giáo dục mọi người về an toàn trực tuyến.",
+                "point_en": "Educate people about online safety.",
+                "evidence_vi": "Ví dụ, trường học và các công ty có thể dạy mọi người cách nhận biết các tin nhắn giả mạo hoặc các trang web nguy hiểm.",
+                "evidence_en": "For example, schools and companies can teach people how to recognize fake messages or dangerous websites."
+              },
+              {
+                "title": "GIẢI PHÁP 03: BAN HÀNH LUẬT NGHIÊM KHẮC HƠN",
+                "collocations": [
+                  {
+                    "en": "stricter laws",
+                    "vi": "luật nghiêm khắc hơn"
+                  },
+                  {
+                    "en": "stronger punishments",
+                    "vi": "hình phạt nặng hơn"
+                  },
+                  {
+                    "en": "commit online crimes",
+                    "vi": "phạm tội trực tuyến"
+                  }
+                ],
+                "point_vi": "Ban hành các luật nghiêm khắc hơn để chống lại tội phạm mạng.",
+                "point_en": "Create stricter laws against cybercrime.",
+                "evidence_vi": "Kết quả là tội phạm có thể phải chịu những hình phạt nặng hơn và ít có khả năng thực hiện các hành vi phạm tội trực tuyến hơn.",
+                "evidence_en": "As a result, criminals may receive stronger punishments and become less likely to commit online crimes."
+              }
+            ],
+            "benefits": [
+              {
+                "title": "ẢNH HƯỞNG 01: THIỆT HẠI VỀ TIỀN BẠC",
+                "collocations": [
+                  {
+                    "en": "lose money",
+                    "vi": "mất tiền"
+                  },
+                  {
+                    "en": "steal personal and financial information",
+                    "vi": "đánh cắp thông tin cá nhân và tài chính"
+                  },
+                  {
+                    "en": "bank accounts",
+                    "vi": "tài khoản ngân hàng"
+                  }
+                ],
+                "point_vi": "Nhiều người có thể bị mất tiền.",
+                "point_en": "Many people may lose money.",
+                "evidence_vi": "Điều này là do tội phạm mạng có thể đánh cắp thông tin cá nhân và tài chính, vì vậy chúng có thể lấy tiền từ tài khoản ngân hàng của nạn nhân.",
+                "evidence_en": "This is because cybercriminals can steal personal and financial information, so they can take money from victims’ bank accounts."
+              },
+              {
+                "title": "ẢNH HƯỞNG 02: MẤT MÁT DỮ LIỆU DOANH NGHIỆP",
+                "collocations": [
+                  {
+                    "en": "lose important data",
+                    "vi": "mất dữ liệu quan trọng"
+                  },
+                  {
+                    "en": "attack computer systems",
+                    "vi": "tấn công hệ thống máy tính"
+                  },
+                  {
+                    "en": "valuable business information",
+                    "vi": "thông tin kinh doanh có giá trị"
+                  }
+                ],
+                "point_vi": "Các công ty có thể bị mất các dữ liệu quan trọng.",
+                "point_en": "Companies may lose important data.",
+                "evidence_vi": "Ví dụ, tin tặc có thể tấn công các hệ thống máy tính và làm hỏng các thông tin kinh doanh có giá trị.",
+                "evidence_en": "For example, hackers can attack computer systems and damage valuable business information."
+              },
+              {
+                "title": "ẢNH HƯỞNG 03: CẢM GIÁC BẤT AN KHI DÙNG DỊCH VỤ TRỰC TUYẾN",
+                "collocations": [
+                  {
+                    "en": "feel unsafe",
+                    "vi": "cảm thấy không an toàn"
+                  },
+                  {
+                    "en": "online services",
+                    "vi": "các dịch vụ trực tuyến"
+                  },
+                  {
+                    "en": "online shopping",
+                    "vi": "mua sắm trực tuyến"
+                  },
+                  {
+                    "en": "online banking",
+                    "vi": "ngân hàng trực tuyến"
+                  }
+                ],
+                "point_vi": "Nhiều cá nhân có thể cảm thấy không an toàn khi sử dụng các dịch vụ trực tuyến.",
+                "point_en": "Many individuals may feel unsafe when using online services.",
+                "evidence_vi": "Điều này là do tội phạm mạng có thể làm cho Internet có vẻ nguy hiểm, vì vậy một số người có thể tránh mua sắm trực tuyến hoặc giao dịch ngân hàng trực tuyến.",
+                "evidence_en": "This is because cybercrime can make the Internet seem dangerous, so some people may avoid online shopping or online banking."
               }
             ],
             "drawbacks": [
               {
-                "title": "SOLUTION 01",
-                "point_vi": "Mọi người nên bảo vệ tài khoản ngân hàng và thông tin cá nhân cẩn thận hơn.",
-                "point_en": "First, people should protect their bank accounts and personal information more carefully.",
-                "evidence_vi": "Họ nên sử dụng mật khẩu mạnh và không bao giờ chia sẻ thông tin ngân hàng với người khác. Ngoài ra, người dùng cần kiểm tra kỹ các đường link hoặc tin nhắn đáng ngờ trước khi bấm vào.",
-                "evidence_en": "They should use strong passwords and never share banking information with others. In addition, users need to check suspicious links or messages carefully before clicking.",
+                "title": "GIẢI PHÁP 01: CẢI THIỆN HỆ THỐNG AN NINH MẠNG",
                 "collocations": [
                   {
-                    "en": "protect personal information",
-                    "vi": "bảo vệ thông tin cá nhân"
+                    "en": "online security systems",
+                    "vi": "hệ thống an ninh trực tuyến"
                   },
                   {
-                    "en": "use strong passwords",
-                    "vi": "sử dụng mật khẩu mạnh"
+                    "en": "stronger passwords",
+                    "vi": "mật khẩu mạnh hơn"
                   },
                   {
-                    "en": "suspicious links",
-                    "vi": "các đường link đáng ngờ"
+                    "en": "security software",
+                    "vi": "phần mềm bảo mật"
                   },
                   {
-                    "en": "check messages carefully",
-                    "vi": "kiểm tra tin nhắn cẩn thận"
+                    "en": "protect users from cyberattacks",
+                    "vi": "bảo vệ người dùng khỏi các cuộc tấn công mạng"
                   }
-                ]
+                ],
+                "point_vi": "Cải thiện các hệ thống an ninh trực tuyến.",
+                "point_en": "Improve online security systems.",
+                "evidence_vi": "Điều này là do mật khẩu mạnh hơn và phần mềm bảo mật có thể bảo vệ người dùng tốt hơn trước các cuộc tấn công mạng.",
+                "evidence_en": "This is because stronger passwords and security software can better protect users from cyberattacks."
               },
               {
-                "title": "SOLUTION 02",
-                "point_vi": "Doanh nghiệp nên sử dụng các biện pháp bảo mật tốt để bảo vệ dữ liệu quan trọng.",
-                "point_en": "Second, businesses should use good security measures to protect important data.",
-                "evidence_vi": "Họ có thể sử dụng phần mềm bảo mật, sao lưu dữ liệu thường xuyên và cập nhật hệ thống máy tính. Hơn nữa, các công ty nên hướng dẫn nhân viên về an toàn mạng để tránh lộ thông tin.",
-                "evidence_en": "They can use security software, back up data regularly, and update computer systems. Moreover, companies should train staff on online safety to prevent information leaks.",
+                "title": "GIẢI PHÁP 02: GIÁO DỤC AN TOÀN TRỰC TUYẾN",
                 "collocations": [
                   {
-                    "en": "security measures",
-                    "vi": "các biện pháp bảo mật"
+                    "en": "online safety",
+                    "vi": "an toàn trực tuyến"
                   },
                   {
-                    "en": "protect important data",
-                    "vi": "bảo vệ dữ liệu quan trọng"
+                    "en": "recognize fake messages",
+                    "vi": "nhận biết tin nhắn giả mạo"
                   },
                   {
-                    "en": "back up data regularly",
-                    "vi": "sao lưu dữ liệu thường xuyên"
-                  },
-                  {
-                    "en": "prevent information leaks",
-                    "vi": "ngăn ngừa rò rỉ thông tin"
+                    "en": "dangerous websites",
+                    "vi": "trang web nguy hiểm"
                   }
-                ]
+                ],
+                "point_vi": "Giáo dục mọi người về an toàn trực tuyến.",
+                "point_en": "Educate people about online safety.",
+                "evidence_vi": "Ví dụ, trường học và các công ty có thể dạy mọi người cách nhận biết các tin nhắn giả mạo hoặc các trang web nguy hiểm.",
+                "evidence_en": "For example, schools and companies can teach people how to recognize fake messages or dangerous websites."
               },
               {
-                "title": "SOLUTION 03",
-                "point_vi": "Chính phủ và các tổ chức nên giúp người dùng sử dụng Internet an toàn hơn.",
-                "point_en": "Finally, governments and organizations should help users use the Internet more safely.",
-                "evidence_vi": "Họ có thể hướng dẫn mọi người cách nhận biết lừa đảo trực tuyến và bảo vệ thông tin cá nhân. Bên cạnh đó, chính quyền cần có luật nghiêm khắc để xử phạt tội phạm mạng.",
-                "evidence_en": "They can guide people on how to identify online fraud and protect personal data. Besides, authorities need strict laws to punish cybercriminals.",
+                "title": "GIẢI PHÁP 03: BAN HÀNH LUẬT NGHIÊM KHẮC HƠN",
                 "collocations": [
                   {
-                    "en": "use the Internet safely",
-                    "vi": "sử dụng Internet an toàn"
+                    "en": "stricter laws",
+                    "vi": "luật nghiêm khắc hơn"
                   },
                   {
-                    "en": "identify online fraud",
-                    "vi": "nhận biết lừa đảo trực tuyến"
+                    "en": "stronger punishments",
+                    "vi": "hình phạt nặng hơn"
                   },
                   {
-                    "en": "protect personal data",
-                    "vi": "bảo vệ dữ liệu cá nhân"
-                  },
-                  {
-                    "en": "punish cybercriminals",
-                    "vi": "xử phạt tội phạm mạng"
+                    "en": "commit online crimes",
+                    "vi": "phạm tội trực tuyến"
                   }
-                ]
+                ],
+                "point_vi": "Ban hành các luật nghiêm khắc hơn để chống lại tội phạm mạng.",
+                "point_en": "Create stricter laws against cybercrime.",
+                "evidence_vi": "Kết quả là tội phạm có thể phải chịu những hình phạt nặng hơn và ít có khả năng thực hiện các hành vi phạm tội trực tuyến hơn.",
+                "evidence_en": "As a result, criminals may receive stronger punishments and become less likely to commit online crimes."
               }
             ]
           },
@@ -28102,7 +29742,7 @@ const ESSAY_DATA = [
               "vi": "nhận diện lừa đảo trực tuyến"
             }
           ],
-          "sample_b1": "In modern life, <strong>cybercrime</strong> has become an increasingly serious problem. With the rapid development of the Internet, many criminals now attack online users in different ways. <strong>This essay will discuss three negative impacts of cybercrime and suggest three practical solutions to deal with this problem.</strong>\n\n<strong>To begin with, cybercrime brings three major negative effects to our daily lives.</strong> First of all, <strong><em>cybercrime can cause individuals to lose a large amount of money.</em></strong> Criminals often use fake websites or online scams to steal bank details. As a result, many victims lose their savings and face difficult financial problems. In addition, <strong><em>cybercrime can make businesses lose important data and reputation.</em></strong> When company computers are attacked, customer information and private files can be stolen. Consequently, companies may face serious operational troubles and lose customer trust. Finally, <strong><em>cybercrime can make users lose trust in the Internet.</em></strong> When people constantly hear about online scams, they feel unsafe. Therefore, they may hesitate to shop online, make payments, or share information on the Internet.\n\n<strong>To address these problems, individuals, businesses, and governments should take effective action.</strong> The first solution is that <strong><em>people should protect their personal information and bank accounts more carefully.</em></strong> Users should always use strong passwords and never share their passwords with others. Also, they must avoid clicking on suspicious links in strange messages. Second, <strong><em>businesses should use good security measures to protect their data.</em></strong> Companies can install antivirus software, back up files regularly, and update their computers. Moreover, training workers about online safety helps avoid accidental data leaks. Lastly, <strong><em>governments and organizations should help people use the Internet more safely.</em></strong> Authorities can organize campaigns to teach citizens how to recognize online fraud. At the same time, strict laws should be introduced to punish cybercriminals.\n\nIn conclusion, cybercrime causes financial loss, harms business reputations, and reduces public trust in online activities. By protecting personal accounts, improving corporate security, and raising public awareness, we can create a much safer online environment for everyone.",
+          "sample_b1": "In recent years, <strong>cybercrime</strong> has become a growing concern in many parts of the world. This problem affects both individuals and society in different ways. <strong>This essay will discuss its main effects and suggest possible solutions.</strong><br><br><strong>This problem can lead to several negative effects.</strong> One serious effect is that <strong><em>many people may lose money</em></strong>. This is because cybercriminals can steal personal and financial information, so they can take money from victims’ bank accounts. Another negative consequence is that <strong><em>companies may lose important data</em></strong>. For example, hackers can attack computer systems and damage valuable business information. A further impact is that <strong><em>many individuals may feel unsafe when using online services</em></strong>. This is because cybercrime can make the Internet seem dangerous, so some people may avoid online shopping or online banking.<br><br><strong>To solve this problem, several measures can be taken.</strong> One effective solution is to <strong><em>improve online security systems</em></strong>. This is because stronger passwords and security software can better protect users from cyberattacks. Another possible measure is to <strong><em>educate people about online safety</em></strong>. For example, schools and companies can teach people how to recognize fake messages or dangerous websites. Finally, it is important to <strong><em>create stricter laws against cybercrime</em></strong>. As a result, criminals may receive stronger punishments and become less likely to commit online crimes.<br><br>In conclusion, <strong>cybercrime</strong> can lead to several negative effects and requires practical solutions. By applying suitable measures and paying more attention to this problem, people can help improve the situation in the future. These actions can bring positive changes to both individuals and society.",
           "translation_b1": "Trong đời sống hiện đại, tội phạm mạng đã trở thành một vấn đề ngày càng nghiêm trọng. Cùng với sự phát triển nhanh chóng của Internet, nhiều tội phạm ngày nay tấn công người dùng trực tuyến bằng nhiều cách khác nhau. Bài viết này sẽ thảo luận về ba tác động tiêu cực của tội phạm mạng và đề xuất ba giải pháp thực tế để giải quyết vấn đề này.\n\nĐầu tiên, tội phạm mạng mang lại ba tác động tiêu cực lớn đối với đời sống hằng ngày của chúng ta. Trước hết, tội phạm mạng có thể khiến các cá nhân mất một khoản tiền lớn. Tội phạm thường sử dụng các trang web giả mạo hoặc lừa đảo trực tuyến để đánh cắp thông tin ngân hàng. Kết quả là nhiều nạn nhân bị mất tiền tiết kiệm và đối mặt với những vấn đề tài chính khó khăn. Thêm vào đó, tội phạm mạng có thể khiến doanh nghiệp mất dữ liệu quan trọng và uy tín. Khi máy tính của công ty bị tấn công, thông tin khách hàng và tệp tin mật có thể bị đánh cắp. Do đó, các công ty có thể gặp rắc rối nghiêm trọng về vận hành và đánh mất lòng tin của khách hàng. Cuối cùng, tội phạm mạng có thể khiến người dùng mất niềm tin vào Internet. Khi mọi người liên tục nghe về các vụ lừa đảo qua mạng, họ cảm thấy không an toàn. Vì vậy, họ có thể ngần ngại mua hàng online, thanh toán hoặc chia sẻ thông tin trên Internet.\n\nĐể giải quyết những vấn đề này, các cá nhân, doanh nghiệp và chính phủ nên có hành động hiệu quả. Giải pháp đầu tiên là mọi người nên bảo vệ thông tin cá nhân và tài khoản ngân hàng của mình cẩn thận hơn. Người dùng nên luôn sử dụng mật khẩu mạnh và không bao giờ chia sẻ mật khẩu của mình với người khác. Ngoài ra, họ phải tránh nhấp vào các đường link đáng ngờ trong tin nhắn lạ. Thứ hai, các doanh nghiệp nên sử dụng các biện pháp bảo mật tốt để bảo vệ dữ liệu của mình. Doanh nghiệp có thể cài đặt phần mềm diệt vi-rút, sao lưu tệp thường xuyên và cập nhật máy tính. Hơn nữa, việc đào tạo nhân viên về an toàn mạng giúp tránh được việc rò rỉ dữ liệu ngoài ý muốn. Cuối cùng, chính phủ và các tổ chức nên giúp mọi người sử dụng Internet an toàn hơn. Cơ quan chức năng có thể tổ chức các chiến dịch hướng dẫn người dân nhận diện lừa đảo trực tuyến. Đồng thời, cần ban hành luật pháp nghiêm minh để trừng phạt tội phạm mạng.\n\nTóm lại, tội phạm mạng gây tổn thất tài chính, làm tổn hại uy tín doanh nghiệp và làm suy giảm niềm tin của công chúng vào các hoạt động trực tuyến. Bằng cách bảo vệ tài khoản cá nhân, nâng cao tính bảo mật của doanh nghiệp và tăng cường nhận thức xã hội, chúng ta có thể tạo ra môi trường mạng an toàn hơn nhiều cho mọi người.",
           "sample_b2": "In contemporary society, <strong>cybercrime</strong> has emerged as a serious global problem that affects millions of people. As daily activities increasingly depend on the Internet, digital offenses pose significant threats to individuals, organizations, and the economy. <strong>This essay will analyze three major impacts of cybercrime and suggest three practical solutions to tackle this issue.</strong>\n\n<strong>On the one hand, cybercrime causes widespread damage across multiple areas of society.</strong> First and foremost, <strong><em>cybercrime can cause severe financial losses for individuals.</em></strong> Cybercriminals frequently create fake websites or send phishing emails to steal credit card details and bank accounts. As a result, many victims lose their life savings and face serious financial difficulties in their daily lives. Furthermore, <strong><em>cybercrime can make businesses lose important data and damage their reputation.</em></strong> When corporate systems are hacked, confidential company records and customers' personal data can be leaked. This disrupts business operations and causes clients to lose trust in the company, leading to a considerable decline in sales. Lastly, <strong><em>cybercrime can reduce users' trust in the Internet and online services.</em></strong> When online fraud and identity theft occur frequently, citizens feel anxious and unsafe in the digital environment. Consequently, many consumers hesitate to shop online, perform banking transactions, or share personal information on social platforms.\n\n<strong>On the other hand, addressing this dilemma requires collaborative efforts from internet users, enterprises, and state authorities.</strong> The primary solution is that <strong><em>individuals should proactively protect their personal accounts and information.</em></strong> Internet users ought to generate strong passwords, activate two-factor authentication, and never share verification codes with anyone. In addition, people should exercise caution when receiving unfamiliar messages and avoid clicking on suspicious links. Moreover, <strong><em>businesses should invest in modern cybersecurity systems to protect their data.</em></strong> Companies need to install reliable antivirus programs, back up data regularly, and update their software to prevent cyberattacks. Providing regular cybersecurity training for staff is also essential to minimize the risk of accidental data leaks. Finally, <strong><em>governments and organizations should help citizens use the Internet safely and enforce strict laws.</em></strong> Authorities can launch educational campaigns to teach people how to identify online scams effectively. Simultaneously, lawmakers should introduce severe legal penalties for cybercriminals to deter illegal activities.\n\nIn conclusion, cybercrime exacts significant tolls on individual finances, corporate credibility, and public confidence in digital services. However, by taking personal precautions, enhancing corporate cybersecurity, and strengthening government regulations, society can successfully mitigate these dangers and build a safer digital environment.",
           "translation_b2": "Trong xã hội đương đại, tội phạm mạng đã nổi lên như một vấn đề toàn cầu nghiêm trọng ảnh hưởng đến hàng triệu người. Khi các hoạt động thường ngày ngày càng phụ thuộc vào Internet, các hành vi phạm tội kỹ thuật số đặt ra những mối đe dọa lớn đối với các cá nhân, tổ chức và nền kinh tế. Bài viết này sẽ phân tích ba tác động chính của tội phạm mạng và gợi ý ba giải pháp thực tế để giải quyết vấn đề này.\n\nMột mặt, tội phạm mạng gây ra những thiệt hại trên diện rộng ở nhiều lĩnh vực của xã hội. Trước hết, tội phạm mạng có thể gây ra những tổn thất tài chính nặng nề cho các cá nhân. Tội phạm mạng thường xuyên tạo ra các trang web giả mạo hoặc gửi email lừa đảo để đánh cắp thông tin thẻ tín dụng và tài khoản ngân hàng. Hậu quả là nhiều nạn nhân mất sạch tiền tiết kiệm cả đời và đối mặt với những khó khăn tài chính nghiêm trọng trong cuộc sống thường ngày. Hơn nữa, tội phạm mạng có thể khiến các doanh nghiệp bị mất dữ liệu quan trọng và tổn hại danh tiếng. Khi các hệ thống của công ty bị xâm nhập, hồ sơ tài liệu mật và dữ liệu cá nhân của khách hàng có thể bị rò rỉ. Điều này làm gián đoạn các hoạt động kinh doanh và khiến khách hàng mất niềm tin vào công ty, dẫn đến sự sụt giảm doanh thu đáng kể. Cuối cùng, tội phạm mạng có thể làm suy giảm niềm tin của người dùng vào Internet và các dịch vụ trực tuyến. Khi các vụ gian lận qua mạng và đánh cắp danh tính xảy ra thường xuyên, người dân cảm thấy lo lắng và bất an trong môi trường số. Do đó, nhiều người tiêu dùng ngần ngại mua sắm online, thực hiện giao dịch ngân hàng hoặc chia sẻ thông tin cá nhân trên các nền tảng mạng xã hội.\n\nMặt khác, việc giải quyết vấn đề này đòi hỏi nỗ lực phối hợp từ người dùng internet, các doanh nghiệp và cơ quan nhà nước. Giải pháp đầu tiên là các cá nhân cần chủ động bảo vệ tài khoản và thông tin cá nhân của mình. Người dùng internet nên tạo mật khẩu mạnh, kích hoạt xác thực hai yếu tố và không bao giờ chia sẻ mã xác thực với bất kỳ ai. Ngoài ra, mọi người nên thận trọng khi nhận các tin nhắn lạ và tránh nhấp vào các đường link đáng ngờ. Hơn nữa, các doanh nghiệp nên đầu tư vào các hệ thống an ninh mạng hiện đại để bảo vệ dữ liệu của mình. Doanh nghiệp cần cài đặt các chương trình diệt vi-rút đáng tin cậy, sao lưu dữ liệu định kỳ và cập nhật phần mềm để ngăn ngừa các cuộc tấn công mạng. Cung cấp các buổi tập huấn an ninh mạng thường xuyên cho nhân viên cũng rất cần thiết để giảm thiểu nguy cơ rò rỉ dữ liệu do sơ suất. Cuối cùng, chính phủ và các tổ chức cần hỗ trợ người dân sử dụng Internet an toàn và thực thi pháp luật nghiêm minh. Cơ quan chức năng có thể triển khai các chiến dịch giáo dục nhằm hướng dẫn người dân cách nhận diện lừa đảo trực tuyến một cách hiệu quả. Đồng thời, các nhà lập pháp nên đưa ra những hình phạt pháp lý nghiêm khắc đối với tội phạm mạng để răn đe các hành vi vi phạm.\n\nTóm lại, tội phạm mạng gây ra những tổn hại đáng kể đối với tài chính cá nhân, uy tín doanh nghiệp và niềm tin của cộng đồng vào các dịch vụ kỹ thuật số. Tuy nhiên, bằng việc thực hiện các biện pháp phòng ngừa cá nhân, tăng cường an ninh mạng doanh nghiệp và củng cố các quy định của chính phủ, xã hội hoàn toàn có thể giảm thiểu những mối nguy này và xây dựng một môi trường kỹ thuật số an toàn hơn.",
