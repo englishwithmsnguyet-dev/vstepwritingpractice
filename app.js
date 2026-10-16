@@ -892,50 +892,26 @@ function renderWorkspaceStepHeader() {
   if (!container) return;
   
   const activeKey = currentStepKey || 'read';
+  const isTransActive = (activeKey === 'trans' || activeKey === 'vocab');
 
-  if (hasVocabStep()) {
-    container.innerHTML = `
-      <div class="step-tab ${activeKey === 'read' ? 'active' : ''}" id="ws-tab-read" onclick="switchStep('read')">
-        <span class="step-num">1</span>
-        <span class="step-label">BƯỚC 01: ĐỌC HIỂU ĐỀ</span>
-      </div>
-      <div class="step-tab ${activeKey === 'vocab' ? 'active' : ''}" id="ws-tab-vocab" onclick="switchStep('vocab')">
-        <span class="step-num">2</span>
-        <span class="step-label">BƯỚC 02: NẠP TỪ VỰNG</span>
-      </div>
-      <div class="step-tab ${activeKey === 'trans' ? 'active' : ''}" id="ws-tab-trans" onclick="switchStep('trans')">
-        <span class="step-num">3</span>
-        <span class="step-label">BƯỚC 03: TẬP DIỄN ĐẠT QUAN ĐIỂM</span>
-      </div>
-      <div class="step-tab ${activeKey === 'write' ? 'active' : ''}" id="ws-tab-write" onclick="switchStep('write')">
-        <span class="step-num">4</span>
-        <span class="step-label">BƯỚC 04: VIẾT BÀI LUẬN</span>
-      </div>
-      <div class="step-tab ${activeKey === 'model' ? 'active' : ''}" id="ws-tab-model" onclick="switchStep('model')">
-        <span class="step-num">5</span>
-        <span class="step-label">BƯỚC 05: THAM KHẢO BÀI LUẬN MẪU</span>
-      </div>
-    `;
-  } else {
-    container.innerHTML = `
-      <div class="step-tab ${activeKey === 'read' ? 'active' : ''}" id="ws-tab-read" onclick="switchStep('read')">
-        <span class="step-num">1</span>
-        <span class="step-label">BƯỚC 01: ĐỌC HIỂU ĐỀ</span>
-      </div>
-      <div class="step-tab ${activeKey === 'trans' ? 'active' : ''}" id="ws-tab-trans" onclick="switchStep('trans')">
-        <span class="step-num">2</span>
-        <span class="step-label">BƯỚC 02: TẬP DIỄN ĐẠT QUAN ĐIỂM</span>
-      </div>
-      <div class="step-tab ${activeKey === 'write' ? 'active' : ''}" id="ws-tab-write" onclick="switchStep('write')">
-        <span class="step-num">3</span>
-        <span class="step-label">BƯỚC 03: VIẾT BÀI LUẬN</span>
-      </div>
-      <div class="step-tab ${activeKey === 'model' ? 'active' : ''}" id="ws-tab-model" onclick="switchStep('model')">
-        <span class="step-num">4</span>
-        <span class="step-label">BƯỚC 04: THAM KHẢO BÀI LUẬN MẪU</span>
-      </div>
-    `;
-  }
+  container.innerHTML = `
+    <div class="step-tab ${activeKey === 'read' ? 'active' : ''}" id="ws-tab-read" onclick="switchStep('read')">
+      <span class="step-num">1</span>
+      <span class="step-label">BƯỚC 01: ĐỌC HIỂU ĐỀ</span>
+    </div>
+    <div class="step-tab ${isTransActive ? 'active' : ''}" id="ws-tab-trans" onclick="switchStep('trans')">
+      <span class="step-num">2</span>
+      <span class="step-label">BƯỚC 02: TẬP DIỄN ĐẠT QUAN ĐIỂM</span>
+    </div>
+    <div class="step-tab ${activeKey === 'write' ? 'active' : ''}" id="ws-tab-write" onclick="switchStep('write')">
+      <span class="step-num">3</span>
+      <span class="step-label">BƯỚC 03: VIẾT BÀI LUẬN</span>
+    </div>
+    <div class="step-tab ${activeKey === 'model' ? 'active' : ''}" id="ws-tab-model" onclick="switchStep('model')">
+      <span class="step-num">4</span>
+      <span class="step-label">BƯỚC 04: THAM KHẢO BÀI LUẬN MẪU</span>
+    </div>
+  `;
 }
 
 let currentStepKey = 'read';
@@ -948,9 +924,9 @@ function switchStep(stepTarget) {
   let targetKey = 'read';
   if (typeof stepTarget === 'number') {
     if (stepTarget === 1) targetKey = 'read';
-    else if (stepTarget === 2) targetKey = withVocab ? 'vocab' : 'trans';
-    else if (stepTarget === 3) targetKey = withVocab ? 'trans' : 'write';
-    else if (stepTarget === 4) targetKey = withVocab ? 'write' : 'model';
+    else if (stepTarget === 2) targetKey = 'trans';
+    else if (stepTarget === 3) targetKey = 'write';
+    else if (stepTarget === 4) targetKey = 'model';
     else if (stepTarget === 5) targetKey = 'model';
   } else if (typeof stepTarget === 'string') {
     targetKey = stepTarget;
@@ -984,7 +960,8 @@ function switchStep(stepTarget) {
       tab.title = '';
     }
   });
-  const activeTab = document.getElementById(`ws-tab-${targetKey}`);
+  const activeTabId = (targetKey === 'vocab') ? 'ws-tab-trans' : `ws-tab-${targetKey}`;
+  const activeTab = document.getElementById(activeTabId);
   if (activeTab) activeTab.classList.add('active');
   
   // Containers
@@ -1438,9 +1415,12 @@ function renderStepVocab() {
     
     ${sectionsHtml || '<div class="empty-state" style="padding: 2.5rem; text-align: center;">Không tìm thấy từ vựng hoặc cụm từ phù hợp với từ khóa tìm kiếm.</div>'}
     
-    <div style="text-align: right; margin: 1.5rem 0 2.5rem 0;">
-      <button class="btn btn-primary" style="padding: 0.85rem 2.25rem; font-size: 1.05rem; box-shadow: var(--shadow-glow); font-weight: 700;" onclick="switchStep('trans')">
-        TIẾP THEO: BƯỚC 03 - TẬP DIỄN ĐẠT QUAN ĐIỂM →
+    <div style="display: flex; justify-content: flex-end; gap: 0.75rem; margin: 1.5rem 0 2.5rem 0;">
+      <button class="btn btn-secondary" style="padding: 0.85rem 1.75rem; font-size: 1rem; font-weight: 600;" onclick="switchStep('trans')">
+        ← QUAY LẠI: BƯỚC 02 - TẬP DIỄN ĐẠT
+      </button>
+      <button class="btn btn-primary" style="padding: 0.85rem 2.25rem; font-size: 1.05rem; box-shadow: var(--shadow-glow); font-weight: 700;" onclick="switchStep('write')">
+        CHUYỂN SANG: BƯỚC 03 - VIẾT BÀI LUẬN →
       </button>
     </div>
   `;
@@ -1819,6 +1799,8 @@ function buildTranslationExercises(topic, transLevel, category) {
 
 // Render dynamic translation cards for Step 1
 function renderTranslationExercises() {
+  const btnVocab = document.getElementById('btn-view-vocab-step');
+  if (btnVocab) { btnVocab.style.display = hasVocabStep() ? 'inline-flex' : 'none'; }
   const container = document.getElementById('ws-translation-list');
   container.innerHTML = '';
   
@@ -6680,8 +6662,8 @@ function renderStep1Reading() {
     </div>
     
     <div style="text-align: right; margin: 1rem 0 2rem 0;">
-      <button class="btn btn-primary" style="padding: 0.75rem 2rem; font-size: 1rem; box-shadow: var(--shadow-glow);" onclick="${hasVocabStep() ? "switchStep('vocab')" : "switchStep('trans')"}">
-        ${hasVocabStep() ? "TIẾP THEO: BƯỚC 02 - NẠP TỪ VỰNG CHỦ ĐỀ →" : "TIẾP THEO: LUYỆN DIỄN ĐẠT Ý TƯỞNG CỤ THỂ →"}
+      <button class="btn btn-primary" style="padding: 0.75rem 2rem; font-size: 1rem; box-shadow: var(--shadow-glow);" onclick="switchStep('trans')">
+        TIẾP THEO: BƯỚC 02 - TẬP DIỄN ĐẠT QUAN ĐIỂM →
       </button>
     </div>
   `;

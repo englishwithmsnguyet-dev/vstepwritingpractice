@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>LUYỆN TẬP VIẾT LUẬN - VSTEP WRITING TASK 02</title>
   <!-- Main Stylesheet -->
-  <link rel="stylesheet" href="styles.css?v=73">
+  <link rel="stylesheet" href="styles.css?v=74">
 </head>
 <body>
 
@@ -304,19 +304,19 @@
 
             <!-- Step Selector Tabs -->
             <div class="workspace-step-header" id="workspace-step-header-tabs">
-              <div class="step-tab active" id="ws-step1-tab" onclick="switchStep(1)">
+              <div class="step-tab active" id="ws-tab-read" onclick="switchStep('read')">
                 <span class="step-num">1</span>
                 <span class="step-label">BƯỚC 01: ĐỌC HIỂU ĐỀ</span>
               </div>
-              <div class="step-tab" id="ws-step2-tab" onclick="switchStep(2)">
+              <div class="step-tab" id="ws-tab-trans" onclick="switchStep('trans')">
                 <span class="step-num">2</span>
                 <span class="step-label">BƯỚC 02: TẬP DIỄN ĐẠT QUAN ĐIỂM</span>
               </div>
-              <div class="step-tab" id="ws-step3-tab" onclick="switchStep(3)">
+              <div class="step-tab" id="ws-tab-write" onclick="switchStep('write')">
                 <span class="step-num">3</span>
                 <span class="step-label">BƯỚC 03: VIẾT BÀI LUẬN</span>
               </div>
-              <div class="step-tab" id="ws-step4-tab" onclick="switchStep(4)">
+              <div class="step-tab" id="ws-tab-model" onclick="switchStep('model')">
                 <span class="step-num">4</span>
                 <span class="step-label">BƯỚC 04: THAM KHẢO BÀI LUẬN MẪU</span>
               </div>
@@ -343,7 +343,8 @@
                   <div class="level-pill active" id="ws-trans-level-b1" onclick="switchTransLevel('B1')">LUYỆN TẬP DIỄN ĐẠT Ý TƯỞNG B1</div>
                   <div class="level-pill" id="ws-trans-level-b2" onclick="switchTransLevel('B2')">LUYỆN TẬP DIỄN ĐẠT Ý TƯỞNG B2</div>
                 </div>
-                <div style="display: flex; gap: 0.5rem;">
+                <div style="display: flex; gap: 0.5rem; align-items: center;">
+                  <button class="btn btn-secondary" id="btn-view-vocab-step" style="display: none; border-color: var(--accent-primary); color: var(--accent-primary); font-weight: 600;" onclick="switchStep('vocab')">📖 NẠP TỪ VỰNG CHUYÊN SÂU</button>
                   <button class="btn btn-secondary" style="color: var(--danger-color); border-color: var(--danger-color);" onclick="clearProgressAction()">XÓA BẢN NHÁP</button>
                   <button class="btn btn-secondary" onclick="saveProgressAction()">SAO LƯU TIẾN ĐỘ</button>
                   <button class="btn btn-primary" onclick="switchStep('write')">VIẾT BÀI ›</button>
@@ -627,8 +628,8 @@
   <div id="toast-container"></div>
 
   <!-- Loaded global topic data -->
-  <script src="topics_db.js?v=73"></script>
+  <script src="topics_db.js?v=74"></script>
   <!-- Application Logic -->
-  <script src="app.js?v=73"></script>
+  <script src="app.js?v=74"></script>
 </body>
 </html>
