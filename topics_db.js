@@ -25372,146 +25372,126 @@ const ESSAY_DATA = [
             "causes": [
               {
                 "title": "NGUYÊN NHÂN 01: SỬ DỤNG QUÁ NHIỀU ĐÈN ĐƯỜNG",
-                "point_vi": "Sự gia tăng quá mức của hệ thống đèn đường công cộng là một tác nhân hàng đầu gây ô nhiễm ánh sáng.",
-                "point_en": "The proliferation of overpowered and poorly regulated streetlights constitutes a primary driver of urban skyglow.",
-                "evidence_vi": "Tại các đô thị hiện đại, các cột đèn đường thường được bố trí với mật độ dày đặc và duy trì độ sáng cực đại suốt đêm mà không có cơ chế điều chỉnh tự động. Hệ quả là một lượng lớn quang thông bị tán xạ trực tiếp vào tầng khí quyển, làm mất đi màn đêm tự nhiên.",
-                "evidence_en": "In modern metropolitan centers, high-pressure lamps are densely installed along every thoroughfare and operate at maximum luminosity throughout the night without automated dimming mechanisms. Consequently, vast amounts of luminous flux scatter directly into the atmosphere, completely eradicating natural nocturnal darkness.",
+                "point_vi": "Việc lắp đặt và sử dụng quá nhiều đèn đường công cộng là một nguyên nhân chính gây ô nhiễm ánh sáng.",
+                "point_en": "The excessive installation and prolonged use of public streetlights is a major cause of light pollution.",
+                "evidence_vi": "Tại nhiều thành phố, các bóng đèn đường thường có công suất lớn và được bật sáng liên tục suốt đêm ngay cả khi đường phố vắng người. Điều này khiến cho một lượng lớn ánh sáng phát tán trực tiếp lên bầu trời và làm mất đi bóng tối tự nhiên vào ban đêm.",
+                "evidence_en": "In many cities, streetlights often have high brightness levels and remain active all night even when streets are empty. Consequently, a large amount of artificial light shines directly into the night sky, which reduces the natural darkness of urban areas.",
                 "collocations": [
                   {
-                    "en": "proliferation of streetlights",
-                    "vi": "sự gia tăng nhanh chóng của đèn đường"
+                    "en": "excessive street lighting",
+                    "vi": "sử dụng quá nhiều đèn đường"
                   },
                   {
-                    "en": "overpowered lamps",
-                    "vi": "bóng đèn công suất quá mức"
+                    "en": "prolonged use",
+                    "vi": "sử dụng trong thời gian dài"
                   },
                   {
-                    "en": "urban skyglow",
-                    "vi": "vòm ánh sáng rực trời đô thị"
+                    "en": "high brightness levels",
+                    "vi": "mức độ sáng cao"
                   },
                   {
-                    "en": "automated dimming mechanisms",
-                    "vi": "cơ chế điều chỉnh độ sáng tự động"
-                  },
-                  {
-                    "en": "luminous flux",
-                    "vi": "quang thông"
+                    "en": "natural darkness",
+                    "vi": "bóng tối tự nhiên"
                   }
                 ]
               },
               {
                 "title": "NGUYÊN NHÂN 02: TÒA NHÀ THƯƠNG MẠI CHIẾU SÁNG QUÁ MỨC",
-                "point_vi": "Việc chiếu sáng liên tục tại các tòa nhà thương mại và cao ốc văn phòng làm trầm trọng thêm tình trạng ô nhiễm ánh sáng.",
-                "point_en": "Continuous and redundant interior illumination within commercial high-rises significantly exacerbates night-sky brightness.",
-                "evidence_vi": "Nhiều tập đoàn và trung tâm thương mại vẫn bật sáng toàn bộ các tầng làm việc và đại sảnh ngay cả khi không có người hoạt động. Thêm vào đó, việc sử dụng các bức tường kính trong suốt khiến ánh sáng nhân tạo dễ dàng thoát ra ngoài không gian công cộng, tạo nên sự chói lóa gay gắt.",
-                "evidence_en": "Corporate headquarters and shopping complexes routinely keep interior floor lighting and decorative facades fully active long after business hours have concluded. Furthermore, the prevalence of transparent curtain glass facades allows unshielded indoor light to beam unrestricted into surrounding neighborhoods, creating intense visual glare.",
+                "point_vi": "Các tòa nhà thương mại và văn phòng cao tầng thường tiêu thụ lượng ánh sáng lớn vào ban đêm.",
+                "point_en": "Commercial buildings and high-rise office towers frequently use excessive lighting at night.",
+                "evidence_vi": "Nhiều công ty và trung tâm thương mại vẫn để đèn sáng ở các sảnh lớn và các tầng làm việc sau giờ đóng cửa. Hơn nữa, việc sử dụng các vách kính lớn khiến ánh sáng từ bên trong dễ dàng chiếu ra các khu dân cư xung quanh.",
+                "evidence_en": "Many businesses and shopping centers keep their interior lights on long after working hours have ended. Furthermore, large glass windows allow bright indoor lighting to spread into nearby residential areas, creating unnecessary brightness.",
                 "collocations": [
                   {
-                    "en": "commercial high-rises",
-                    "vi": "tòa nhà cao tầng thương mại"
+                    "en": "commercial buildings",
+                    "vi": "tòa nhà thương mại"
                   },
                   {
-                    "en": "redundant interior illumination",
-                    "vi": "chiếu sáng nội thất dư thừa"
+                    "en": "high-rise office towers",
+                    "vi": "tòa nhà văn phòng cao tầng"
                   },
                   {
-                    "en": "decorative facades",
-                    "vi": "mặt tiền trang trí"
+                    "en": "interior lights",
+                    "vi": "đèn trong nhà / nội thất"
                   },
                   {
-                    "en": "transparent curtain glass",
-                    "vi": "vách kính trong suốt"
-                  },
-                  {
-                    "en": "intense visual glare",
-                    "vi": "chói lóa thị giác gay gắt"
+                    "en": "nearby residential areas",
+                    "vi": "khu dân cư lân cận"
                   }
                 ]
               },
               {
                 "title": "NGUYÊN NHÂN 03: ĐÈN QUẢNG CÁO VÀ BIỂN HIỆU LED/NEON",
-                "point_vi": "Sự bùng nổ của các bảng quảng cáo kỹ thuật số và biển hiệu neon chói lóa góp phần lớn vào ô nhiễm ánh sáng đô thị.",
-                "point_en": "The widespread proliferation of digital billboards and illuminated commercial signage contributes extensively to urban light saturation.",
-                "evidence_vi": "Các màn hình LED khổng lồ và bảng quảng cáo điện tử liên tục phát ra ánh sáng cường độ cao với màu sắc thay đổi liên tục để thu hút người đi đường. Do thiếu các quy định nghiêm ngặt về giới hạn độ sáng vào ban đêm, các nguồn sáng thương mại này gây ô nhiễm quang học nghiêm trọng trong khu vực dân cư.",
-                "evidence_en": "Massive electronic LED billboards constantly project dynamic, ultra-bright advertisements designed specifically to seize the visual attention of pedestrians and motorists. Due to a severe lack of municipal zoning restrictions governing nocturnal luminance, these commercial installations produce immense optical pollution throughout urban corridors.",
+                "point_vi": "Sự gia tăng của các biển quảng cáo điện tử và biển hiệu neon cũng góp phần làm tăng ô nhiễm ánh sáng.",
+                "point_en": "The widespread use of electronic billboards and neon signs also contributes to light pollution.",
+                "evidence_vi": "Các công ty thường sử dụng các màn hình LED khổng lồ và đèn nhấp nháy trên đường phố để thu hút sự chú ý của khách hàng. Do thiếu các quy định hạn chế về ban đêm, những biển hiệu này phát ra ánh sáng rất chói suốt cả đêm.",
+                "evidence_en": "Businesses often install giant LED screens and flashing lights along streets to attract customers' attention. Due to a lack of strict regulations at night, these commercial signs emit intense glare until early morning.",
                 "collocations": [
                   {
-                    "en": "digital billboards",
-                    "vi": "biển quảng cáo kỹ thuật số"
+                    "en": "electronic billboards",
+                    "vi": "biển quảng cáo điện tử"
                   },
                   {
-                    "en": "illuminated commercial signage",
-                    "vi": "biển hiệu thương mại chiếu sáng"
+                    "en": "neon signs",
+                    "vi": "biển hiệu neon"
                   },
                   {
-                    "en": "urban light saturation",
-                    "vi": "sự bão hòa ánh sáng đô thị"
+                    "en": "attract customers' attention",
+                    "vi": "thu hút sự chú ý của khách hàng"
                   },
                   {
-                    "en": "nocturnal luminance",
-                    "vi": "độ sáng ban đêm"
-                  },
-                  {
-                    "en": "optical pollution",
-                    "vi": "ô nhiễm quang học"
+                    "en": "emit intense glare",
+                    "vi": "phát ra ánh sáng chói gay gắt"
                   }
                 ]
               },
               {
                 "title": "NGUYÊN NHÂN 04: HOẠT ĐỘNG GIẢI TRÍ BAN ĐÊM",
-                "point_vi": "Các hoạt động giải trí ngoài trời và sự kiện thể thao ban đêm đòi hỏi lượng ánh sáng công suất cực lớn.",
-                "point_en": "Large-scale nocturnal recreation and athletic events require astronomical amounts of artificial illumination.",
-                "evidence_vi": "Các sân vận động, công viên giải trí và sân khấu hòa nhạc ngoài trời thường trang bị hàng trăm đèn pha cao áp công suất lớn để phục vụ sự kiện. Khi các luồng sáng này hướng lên bầu trời hoặc phản chiếu từ mặt đất, chúng tạo ra hiện tượng tán xạ ánh sáng nhân tạo lan rộng hàng chục cây số.",
-                "evidence_en": "Sports arenas, amusement parks, and outdoor festival venues utilize battery after battery of high-intensity floodlights to illuminate expansive playing fields and spectator stands. When these high-wattage beams radiate upwards or reflect off reflective surfaces, they generate vast halos of diffused light that degrade night skies for miles around.",
+                "point_vi": "Các sự kiện thể thao và hoạt động giải trí vào ban đêm đòi hỏi nguồn ánh sáng nhân tạo rất lớn.",
+                "point_en": "Nighttime sports events and outdoor entertainment activities require substantial amounts of artificial lighting.",
+                "evidence_vi": "Các sân vận động thể thao, công viên giải trí và sân khấu ca nhạc thường trang bị các dàn đèn pha công suất cao để phục vụ khán giả. Ánh sáng từ các địa điểm này thường chiếu lên cao và phản chiếu qua các đám mây, làm sáng cả một vùng trời xung quanh.",
+                "evidence_en": "Sports stadiums, amusement parks, and outdoor concert venues often use powerful floodlights to serve large crowds. The light from these venues frequently radiates upward and reflects off clouds, brightening the entire surrounding area.",
                 "collocations": [
                   {
-                    "en": "nocturnal recreation",
-                    "vi": "hoạt động giải trí ban đêm"
+                    "en": "outdoor entertainment activities",
+                    "vi": "hoạt động giải trí ngoài trời"
                   },
                   {
-                    "en": "high-intensity floodlights",
-                    "vi": "đèn pha cường độ cao"
+                    "en": "sports stadiums",
+                    "vi": "sân vận động thể thao"
                   },
                   {
-                    "en": "expansive playing fields",
-                    "vi": "sân vận động quy mô lớn"
+                    "en": "powerful floodlights",
+                    "vi": "đèn pha công suất lớn"
                   },
                   {
-                    "en": "diffused light halos",
-                    "vi": "quầng ánh sáng khuếch tán"
-                  },
-                  {
-                    "en": "high-wattage beams",
-                    "vi": "chùm sáng công suất cao"
+                    "en": "surrounding area",
+                    "vi": "khu vực xung quanh"
                   }
                 ]
               },
               {
                 "title": "NGUYÊN NHÂN 05: THIẾT KẾ CHIẾU SÁNG CHƯA HỢP LÝ",
-                "point_vi": "Các thiết bị chiếu sáng được thiết kế và lắp đặt thiếu khoa học là nguồn cơn cốt lõi của sự thất thoát ánh sáng.",
-                "point_en": "Poorly engineered lighting fixtures and sub-optimal luminaire designs serve as fundamental catalysts for light spillage.",
-                "evidence_vi": "Nhiều loại đèn đường và đèn trang trí không có nắp chụp chắn sáng, dẫn đến việc ánh sáng bị phân tán không định hướng sang hai bên và lên trời thay vì tập trung xuống lòng đường. Ngoài ra, việc thiếu vắng các cảm biến thông minh hoặc cảm biến chuyển động khiến hệ thống đèn hoạt động liên tục ngay cả khi không có phương tiện lưu thông.",
-                "evidence_en": "A significant proportion of outdoor luminaires are entirely unshielded, causing light to radiate indiscriminately in upward and horizontal directions rather than illuminating targeted ground surfaces. Moreover, the failure to integrate smart motion sensors or adaptive dimming schedules leads to perpetual, unneeded illumination throughout deserted midnight hours.",
+                "point_vi": "Thiết kế hệ thống chiếu sáng chưa hợp lý là một lý do quan trọng dẫn đến việc lãng phí ánh sáng.",
+                "point_en": "Poorly designed lighting systems are another major factor leading to light pollution.",
+                "evidence_vi": "Nhiều loại đèn đường và đèn trang trí không có nắp che chắn phía trên, khiến ánh sáng bị phân tán lên trời thay vì tập trung xuống mặt đất. Ngoài ra, việc thiếu hệ thống cảm biến thông minh khiến đèn vẫn hoạt động hết công suất khi không có người qua lại.",
+                "evidence_en": "Many streetlamps and outdoor lights lack protective shields, causing light to spread into the sky instead of focusing downward on the ground. In addition, the lack of motion sensors means that lights remain on at full power even when nobody is around.",
                 "collocations": [
                   {
-                    "en": "poorly engineered lighting fixtures",
-                    "vi": "thiết bị chiếu sáng thiết kế kém"
+                    "en": "poorly designed lighting systems",
+                    "vi": "hệ thống chiếu sáng thiết kế kém"
                   },
                   {
-                    "en": "light spillage",
-                    "vi": "sự rò rỉ / thất thoát ánh sáng"
+                    "en": "protective shields",
+                    "vi": "nắp che chắn bảo vệ"
                   },
                   {
-                    "en": "unshielded outdoor luminaires",
-                    "vi": "bộ đèn ngoài trời không che chắn"
+                    "en": "motion sensors",
+                    "vi": "cảm biến chuyển động"
                   },
                   {
-                    "en": "radiate indiscriminately",
-                    "vi": "phát tán bừa bãi"
-                  },
-                  {
-                    "en": "adaptive dimming schedules",
-                    "vi": "lịch trình điều chỉnh ánh sáng thích ứng"
+                    "en": "focus downward",
+                    "vi": "tập trung chiếu xuống dưới"
                   }
                 ]
               }
@@ -25519,162 +25499,138 @@ const ESSAY_DATA = [
             "effects": [
               {
                 "title": "TÁC ĐỘNG 01: ẢNH HƯỞNG ĐẾN GIẤC NGỦ VÀ SỨC KHỎE CON NGƯỜI",
-                "point_vi": "Sự xâm nhập của ánh sáng nhân tạo vào ban đêm gây tổn hại nghiêm trọng đến chất lượng giấc ngủ và sức khỏe con người.",
-                "point_en": "Nocturnal light intrusion severely impairs human physiological well-being by disrupting essential sleep cycles.",
-                "evidence_vi": "Việc tiếp xúc liên tục với ánh sáng nhân tạo, đặc biệt là ánh sáng xanh từ đèn LED và màn hình đô thị, ức chế quá trình sản sinh hormone melatonin điều hòa giấc ngủ. Về lâu dài, tình trạng này dẫn đến chứng mất ngủ kinh niên, làm gia tăng nguy cơ mắc các rối loạn tâm lý, béo phì và bệnh lý tim mạch ở cư dân đô thị.",
-                "evidence_en": "Prolonged exposure to artificial illumination at night, particularly blue-wavelength light emitted by urban LEDs, profoundly suppresses the pineal gland's secretion of melatonin, an essential hormone governing circadian rhythms. In the long run, this persistent physiological disruption induces chronic insomnia, severe daytime cognitive deficits, and elevated clinical risks of depression, cardiovascular disorders, and metabolic dysfunctions.",
+                "point_vi": "Ô nhiễm ánh sáng ảnh hưởng tiêu cực đến chất lượng giấc ngủ và sức khỏe của cư dân đô thị.",
+                "point_en": "Light pollution negatively affects sleep quality and overall human health.",
+                "evidence_vi": "Tiếp xúc với ánh sáng mạnh vào ban đêm làm rối loạn nhịp sinh học tự nhiên và giảm sự tiết melatonin, một chất cần thiết cho giấc ngủ. Tình trạng này kéo dài dễ dẫn đến chứng mất ngủ, khiến mọi người cảm thấy mệt mỏi, căng thẳng và giảm năng suất làm việc vào ban ngày.",
+                "evidence_en": "Exposure to bright artificial light at night disrupts the natural body clock and reduces the production of melatonin, a hormone needed for healthy sleep. Over time, this leads to chronic insomnia, leaving people feeling tired, stressed, and less productive during the day.",
                 "collocations": [
                   {
-                    "en": "nocturnal light intrusion",
-                    "vi": "sự xâm nhập ánh sáng vào ban đêm"
+                    "en": "negatively affect sleep quality",
+                    "vi": "ảnh hưởng tiêu cực đến chất lượng giấc ngủ"
                   },
                   {
-                    "en": "impair physiological well-being",
-                    "vi": "làm suy giảm sức khỏe sinh lý"
+                    "en": "natural body clock",
+                    "vi": "đồng hồ sinh học tự nhiên"
                   },
                   {
-                    "en": "suppress melatonin secretion",
-                    "vi": "ức chế tiết melatonin"
-                  },
-                  {
-                    "en": "circadian rhythms",
-                    "vi": "nhịp sinh học"
+                    "en": "production of melatonin",
+                    "vi": "sự sản sinh melatonin"
                   },
                   {
                     "en": "chronic insomnia",
-                    "vi": "mất ngủ mãn tính"
+                    "vi": "chứng mất ngủ kinh niên"
                   },
                   {
-                    "en": "cognitive deficits",
-                    "vi": "suy giảm nhận thức"
+                    "en": "less productive",
+                    "vi": "kém năng suất hơn"
                   }
                 ]
               },
               {
                 "title": "TÁC ĐỘNG 02: ẢNH HƯỞNG TIÊU CỰC ĐẾN ĐỘNG VẬT HOANG DÃ",
-                "point_vi": "Ánh sáng nhân tạo gây mất phương hướng và đe dọa trực tiếp đến sự sống sót của các loài động vật hoang dã.",
-                "point_en": "Artificial nocturnal lighting severely disorients wild animals, posing grave threats to their migratory and survival mechanisms.",
-                "evidence_vi": "Hàng triệu cá thể chim di cư dựa vào vị trí của các vì sao và mặt trăng để định hướng đã bị thu hút vào các đô thị rực sáng, dẫn đến các vụ va chạm chết người vào các tòa nhà kính chọc trời. Tương tự, rùa biển con sau khi nở thường bị nhầm lẫn ánh sáng đèn đường ven biển với đường chân trời đại dương, khiến chúng bò vào đất liền và kiệt sức.",
-                "evidence_en": "Avian species that navigate by starlight and magnetic fields are chronically disoriented by bright city lights, causing fatal building collisions that claim millions of migratory birds annually. Similarly, newly hatched sea turtles instinctively guided by the natural luminosity of the ocean horizon are misdirected toward coastal highways and streetlights, resulting in catastrophic mortality rates from dehydration and vehicle strikes.",
+                "point_vi": "Ánh sáng nhân tạo vào ban đêm làm xáo trộn nghiêm trọng tập tính sống của nhiều loài động vật.",
+                "point_en": "Artificial nocturnal light severely disrupts the natural behaviors of wildlife.",
+                "evidence_vi": "Nhiều loài chim di cư dựa vào ánh trăng và các vì sao để tìm đường thường bị mất phương hướng bởi ánh đèn thành phố và va vào các tòa nhà cao tầng. Tương tự, rùa biển con sau khi nở thường đi nhầm về phía đèn đường ven biển thay vì bò ra đại dương, dẫn đến nguy cơ tử vong cao.",
+                "evidence_en": "Many migratory birds that rely on starlight for navigation get confused by bright city lights and crash into tall glass buildings. Similarly, baby sea turtles often mistake coastal streetlights for the ocean horizon, which leads them away from the sea and increases their mortality rate.",
                 "collocations": [
                   {
-                    "en": "disorient wild animals",
-                    "vi": "làm mất phương hướng động vật hoang dã"
+                    "en": "disrupt natural behaviors",
+                    "vi": "làm xáo trộn tập tính tự nhiên"
                   },
                   {
-                    "en": "migratory mechanisms",
-                    "vi": "cơ chế di cư"
+                    "en": "migratory birds",
+                    "vi": "chim di cư"
                   },
                   {
-                    "en": "fatal building collisions",
-                    "vi": "va chạm chết người vào tòa nhà"
+                    "en": "crash into tall buildings",
+                    "vi": "va vào các tòa nhà cao tầng"
                   },
                   {
-                    "en": "chronically disoriented",
-                    "vi": "bị mất phương hướng mãn tính"
+                    "en": "mistake streetlights for the ocean",
+                    "vi": "nhầm đèn đường với đại dương"
                   },
                   {
-                    "en": "ocean horizon luminosity",
-                    "vi": "độ sáng đường chân trời đại dương"
-                  },
-                  {
-                    "en": "catastrophic mortality rates",
-                    "vi": "tỷ lệ tử vong thảm khốc"
+                    "en": "mortality rate",
+                    "vi": "tỷ lệ tử vong"
                   }
                 ]
               },
               {
-                "title": "TÁC ĐỘNG 03: LÀM GIẢM KHẢ NĂNG QUAN SÁT CÁC VÌ SAO VÀ NGHIÊN CỨU THIÊN VĂN",
-                "point_vi": "Ô nhiễm ánh sáng xóa nhòa vẻ đẹp của bầu trời đêm và cản trở nghiêm trọng các nghiên cứu thiên văn học.",
-                "point_en": "Artificial skyglow obliterates the celestial night sky, severely crippling ground-based optical astronomy and scientific exploration.",
-                "evidence_vi": "Màn ánh sáng khuếch tán nhân tạo bao phủ các vùng đô thị đã làm cho dải Ngân Hà và các chòm sao gần như vô hình trước mắt đại đa số cư dân thành thị. Quan trọng hơn, hiện tượng này làm suy giảm chất lượng dữ liệu từ các đài thiên văn mặt đất, buộc các nhà khoa học phải di dời các đài quan sát đến những vùng núi xa xôi hoặc triển khai kính viễn vọng không gian vô cùng tốn kém.",
-                "evidence_en": "The pervasive luminous haze hanging over urban conglomerates renders the Milky Way and faint constellations utterly invisible to over eighty percent of the global population. More critically, this optical barrier blinding ground-based observatories compromises deep-space photometric observations, compelling scientific institutions to relocate astronomical stations to ultra-remote wilderness areas or rely on prohibitively expensive space telescopes.",
+                "title": "TÁC ĐỘNG 03: LÀM GIẢM KHẢ NĂNG QUAN SÁT CÁC VÌ SAO VÀ THIÊN VĂN HỌC",
+                "point_vi": "Ô nhiễm ánh sáng làm giảm đáng kể khả năng quan sát bầu trời đêm và cản trở nghiên cứu thiên văn học.",
+                "point_en": "Light pollution significantly reduces the visibility of stars and hinders astronomical studies.",
+                "evidence_vi": "Ánh sáng rực rỡ từ các thành phố tạo thành một màn sáng che khuất dải Ngân Hà và hầu hết các ngôi sao đối với người dân đô thị. Hơn nữa, hiện tượng này khiến các nhà khoa học gặp nhiều khó khăn khi quan sát không gian từ mặt đất, buộc họ phải chuyển kính thiên văn đến những vùng núi xa xôi.",
+                "evidence_en": "The bright glow from urban areas creates a haze that hides the Milky Way and most stars from city residents. Furthermore, this condition makes it difficult for astronomers to observe distant space objects, forcing research stations to move to remote mountain areas.",
                 "collocations": [
                   {
-                    "en": "artificial skyglow",
-                    "vi": "quầng sáng bầu trời nhân tạo"
+                    "en": "reduce visibility of stars",
+                    "vi": "làm giảm khả năng quan sát các vì sao"
                   },
                   {
-                    "en": "obliterate the celestial night sky",
-                    "vi": "xóa nhòa bầu trời đêm thiên thể"
+                    "en": "hinder astronomical studies",
+                    "vi": "cản trở các nghiên cứu thiên văn"
                   },
                   {
-                    "en": "ground-based optical astronomy",
-                    "vi": "thiên văn học quang học mặt đất"
+                    "en": "bright glow",
+                    "vi": "quầng sáng rực"
                   },
                   {
-                    "en": "pervasive luminous haze",
-                    "vi": "màn sương mù ánh sáng bao phủ"
-                  },
-                  {
-                    "en": "photometric observations",
-                    "vi": "quan sát trắc quang"
-                  },
-                  {
-                    "en": "astronomical stations",
-                    "vi": "trạm thiên văn"
+                    "en": "remote mountain areas",
+                    "vi": "những vùng núi xa xôi"
                   }
                 ]
               },
               {
-                "title": "TÁC ĐỘNG 04: LÃNG PHÍ NĂNG LƯỢNG VÀ TĂNG PHÁT THẢI KHÍ THẢI",
-                "point_vi": "Chiếu sáng ban đêm quá mức dẫn đến sự phung phí tài nguyên năng lượng và làm gia tăng lượng khí thải carbon.",
-                "point_en": "Excessive nocturnal lighting results in immense squandering of electrical energy and substantially escalates carbon footprints.",
-                "evidence_vi": "Hàng triệu kilowatt-giờ điện bị tiêu tốn vô ích mỗi năm để duy trì những bóng đèn không người sử dụng hoặc những chùm sáng hướng thẳng vào hư không. Vì phần lớn sản lượng điện toàn cầu vẫn phụ thuộc vào việc đốt nhiên liệu hóa thạch, sự lãng phí này làm tăng áp lực tài chính công và thúc đẩy tình trạng biến đổi khí hậu toàn cầu.",
-                "evidence_en": "Billions of kilowatt-hours are squandered annually on illuminating unoccupied structures, vacant streets, and empty commercial lots with misdirected light beams. Because the majority of worldwide electricity generation remains reliant on fossil fuel combustion, this profligate energy consumption inflates municipal utility expenditures while releasing millions of tons of greenhouse gases into the atmosphere.",
+                "title": "TÁC ĐỘNG 04: LÃNG PHÍ NĂNG LƯỢNG VÀ TĂNG PHÁT THẢI KHÍ NHÀ KÍNH",
+                "point_vi": "Chiếu sáng ban đêm quá mức dẫn đến sự lãng phí điện năng khổng lồ và gây hại cho môi trường.",
+                "point_en": "Excessive nighttime illumination leads to huge energy waste and environmental damage.",
+                "evidence_vi": "Các thành phố chi hàng triệu đô la mỗi năm để duy trì những bóng đèn sáng ở các tuyến đường và khu thương mại không có người. Vì phần lớn lượng điện vẫn được tạo ra từ than đá và khí đốt, sự lãng phí này làm tăng lượng khí thải nhà kính và thúc đẩy biến đổi khí hậu.",
+                "evidence_en": "Cities spend millions of dollars each year powering unneeded lights on empty roads and commercial sites. Because much of this electricity is still generated from fossil fuels, such waste increases greenhouse gas emissions and accelerates climate change.",
                 "collocations": [
                   {
-                    "en": "squandering of electrical energy",
-                    "vi": "sự phung phí năng lượng điện"
+                    "en": "huge energy waste",
+                    "vi": "lãng phí năng lượng khổng lồ"
                   },
                   {
-                    "en": "escalate carbon footprints",
-                    "vi": "gia tăng lượng phát thải carbon"
+                    "en": "generated from fossil fuels",
+                    "vi": "được sản xuất từ nhiên liệu hóa thạch"
                   },
                   {
-                    "en": "fossil fuel combustion",
-                    "vi": "đốt nhiên liệu hóa thạch"
+                    "en": "greenhouse gas emissions",
+                    "vi": "phát thải khí nhà kính"
                   },
                   {
-                    "en": "profligate energy consumption",
-                    "vi": "tiêu thụ năng lượng hoang phí"
-                  },
-                  {
-                    "en": "municipal utility expenditures",
-                    "vi": "chi tiêu tiện ích đô thị"
+                    "en": "accelerate climate change",
+                    "vi": "thúc đẩy biến đổi khí hậu"
                   }
                 ]
               },
               {
                 "title": "TÁC ĐỘNG 05: GÂY HẠI ĐẾN HỆ SINH THÁI VÀ CHUỖI THỨC ĂN",
-                "point_vi": "Ô nhiễm ánh sáng phá vỡ cấu trúc của hệ sinh thái và làm xáo trộn nghiêm trọng chuỗi thức ăn tự nhiên.",
-                "point_en": "Light pollution destabilizes complex ecological equilibria and disrupts interlinked food webs across nocturnal biomes.",
-                "evidence_vi": "Nhiều loài côn trùng hoạt động về đêm bị thu hút chết hàng loạt bên các bóng đèn, gây suy giảm đột ngột số lượng sinh vật thụ phấn cho cây trồng ban đêm và nguồn thức ăn cho các loài dơi, chim và bò sát. Đồng thời, sự hiện diện liên tục của ánh sáng nhân tạo làm thay đổi tập tính săn mồi tự nhiên và chu kỳ sinh sản của nhiều sinh vật sống trong môi trường thủy sinh và rừng rậm.",
-                "evidence_en": "Nocturnal insects are fatally drawn to glowing artificial bulbs in staggering numbers, precipitating sharp declines in nocturnal pollination services and severely decimating the primary prey base for insectivorous bats, birds, and amphibians. Concurrently, perpetual artificial twilight alters competitive predator-prey dynamics and upsets seasonal reproductive phenology in both terrestrial and aquatic habitats.",
+                "point_vi": "Ô nhiễm ánh sáng gây mất cân bằng sinh thái và ảnh hưởng đến chuỗi thức ăn tự nhiên.",
+                "point_en": "Light pollution creates ecological imbalances and damages natural food chains.",
+                "evidence_vi": "Hàng triệu loài côn trùng ban đêm bị thu hút vào các bóng đèn và chết vì kiệt sức, làm giảm số lượng sinh vật thụ phấn cho cây trồng. Điều này cũng làm giảm nguồn thức ăn quan trọng của các loài dơi, chim và bò sát, gây ảnh hưởng tiêu cực đến toàn bộ hệ sinh thái địa phương.",
+                "evidence_en": "Millions of nocturnal insects are drawn to bright bulbs and die of exhaustion, which reduces the number of natural pollinators for plants. This also limits an important food source for bats, birds, and reptiles, ultimately harming the entire local ecosystem.",
                 "collocations": [
                   {
-                    "en": "destabilize ecological equilibria",
-                    "vi": "làm mất ổn định cân bằng sinh thái"
+                    "en": "ecological imbalances",
+                    "vi": "sự mất cân bằng sinh thái"
                   },
                   {
-                    "en": "nocturnal biomes",
-                    "vi": "quần xã sinh vật ban đêm"
+                    "en": "natural food chains",
+                    "vi": "chuỗi thức ăn tự nhiên"
                   },
                   {
-                    "en": "nocturnal pollination services",
-                    "vi": "dịch vụ thụ phấn ban đêm"
+                    "en": "nocturnal insects",
+                    "vi": "côn trùng hoạt động ban đêm"
                   },
                   {
-                    "en": "decimate the primary prey base",
-                    "vi": "tàn sát nguồn con mồi chủ yếu"
+                    "en": "natural pollinators",
+                    "vi": "sinh vật thụ phấn tự nhiên"
                   },
                   {
-                    "en": "predator-prey dynamics",
-                    "vi": "động lực giữa kẻ săn mồi và con mồi"
-                  },
-                  {
-                    "en": "reproductive phenology",
-                    "vi": "chu kỳ sinh sản theo mùa"
+                    "en": "harm the entire ecosystem",
+                    "vi": "gây hại cho toàn bộ hệ sinh thái"
                   }
                 ]
               }
@@ -25682,146 +25638,126 @@ const ESSAY_DATA = [
             "benefits": [
               {
                 "title": "NGUYÊN NHÂN 01: SỬ DỤNG QUÁ NHIỀU ĐÈN ĐƯỜNG",
-                "point_vi": "Sự gia tăng quá mức của hệ thống đèn đường công cộng là một tác nhân hàng đầu gây ô nhiễm ánh sáng.",
-                "point_en": "The proliferation of overpowered and poorly regulated streetlights constitutes a primary driver of urban skyglow.",
-                "evidence_vi": "Tại các đô thị hiện đại, các cột đèn đường thường được bố trí với mật độ dày đặc và duy trì độ sáng cực đại suốt đêm mà không có cơ chế điều chỉnh tự động. Hệ quả là một lượng lớn quang thông bị tán xạ trực tiếp vào tầng khí quyển, làm mất đi màn đêm tự nhiên.",
-                "evidence_en": "In modern metropolitan centers, high-pressure lamps are densely installed along every thoroughfare and operate at maximum luminosity throughout the night without automated dimming mechanisms. Consequently, vast amounts of luminous flux scatter directly into the atmosphere, completely eradicating natural nocturnal darkness.",
+                "point_vi": "Việc lắp đặt và sử dụng quá nhiều đèn đường công cộng là một nguyên nhân chính gây ô nhiễm ánh sáng.",
+                "point_en": "The excessive installation and prolonged use of public streetlights is a major cause of light pollution.",
+                "evidence_vi": "Tại nhiều thành phố, các bóng đèn đường thường có công suất lớn và được bật sáng liên tục suốt đêm ngay cả khi đường phố vắng người. Điều này khiến cho một lượng lớn ánh sáng phát tán trực tiếp lên bầu trời và làm mất đi bóng tối tự nhiên vào ban đêm.",
+                "evidence_en": "In many cities, streetlights often have high brightness levels and remain active all night even when streets are empty. Consequently, a large amount of artificial light shines directly into the night sky, which reduces the natural darkness of urban areas.",
                 "collocations": [
                   {
-                    "en": "proliferation of streetlights",
-                    "vi": "sự gia tăng nhanh chóng của đèn đường"
+                    "en": "excessive street lighting",
+                    "vi": "sử dụng quá nhiều đèn đường"
                   },
                   {
-                    "en": "overpowered lamps",
-                    "vi": "bóng đèn công suất quá mức"
+                    "en": "prolonged use",
+                    "vi": "sử dụng trong thời gian dài"
                   },
                   {
-                    "en": "urban skyglow",
-                    "vi": "vòm ánh sáng rực trời đô thị"
+                    "en": "high brightness levels",
+                    "vi": "mức độ sáng cao"
                   },
                   {
-                    "en": "automated dimming mechanisms",
-                    "vi": "cơ chế điều chỉnh độ sáng tự động"
-                  },
-                  {
-                    "en": "luminous flux",
-                    "vi": "quang thông"
+                    "en": "natural darkness",
+                    "vi": "bóng tối tự nhiên"
                   }
                 ]
               },
               {
                 "title": "NGUYÊN NHÂN 02: TÒA NHÀ THƯƠNG MẠI CHIẾU SÁNG QUÁ MỨC",
-                "point_vi": "Việc chiếu sáng liên tục tại các tòa nhà thương mại và cao ốc văn phòng làm trầm trọng thêm tình trạng ô nhiễm ánh sáng.",
-                "point_en": "Continuous and redundant interior illumination within commercial high-rises significantly exacerbates night-sky brightness.",
-                "evidence_vi": "Nhiều tập đoàn và trung tâm thương mại vẫn bật sáng toàn bộ các tầng làm việc và đại sảnh ngay cả khi không có người hoạt động. Thêm vào đó, việc sử dụng các bức tường kính trong suốt khiến ánh sáng nhân tạo dễ dàng thoát ra ngoài không gian công cộng, tạo nên sự chói lóa gay gắt.",
-                "evidence_en": "Corporate headquarters and shopping complexes routinely keep interior floor lighting and decorative facades fully active long after business hours have concluded. Furthermore, the prevalence of transparent curtain glass facades allows unshielded indoor light to beam unrestricted into surrounding neighborhoods, creating intense visual glare.",
+                "point_vi": "Các tòa nhà thương mại và văn phòng cao tầng thường tiêu thụ lượng ánh sáng lớn vào ban đêm.",
+                "point_en": "Commercial buildings and high-rise office towers frequently use excessive lighting at night.",
+                "evidence_vi": "Nhiều công ty và trung tâm thương mại vẫn để đèn sáng ở các sảnh lớn và các tầng làm việc sau giờ đóng cửa. Hơn nữa, việc sử dụng các vách kính lớn khiến ánh sáng từ bên trong dễ dàng chiếu ra các khu dân cư xung quanh.",
+                "evidence_en": "Many businesses and shopping centers keep their interior lights on long after working hours have ended. Furthermore, large glass windows allow bright indoor lighting to spread into nearby residential areas, creating unnecessary brightness.",
                 "collocations": [
                   {
-                    "en": "commercial high-rises",
-                    "vi": "tòa nhà cao tầng thương mại"
+                    "en": "commercial buildings",
+                    "vi": "tòa nhà thương mại"
                   },
                   {
-                    "en": "redundant interior illumination",
-                    "vi": "chiếu sáng nội thất dư thừa"
+                    "en": "high-rise office towers",
+                    "vi": "tòa nhà văn phòng cao tầng"
                   },
                   {
-                    "en": "decorative facades",
-                    "vi": "mặt tiền trang trí"
+                    "en": "interior lights",
+                    "vi": "đèn trong nhà / nội thất"
                   },
                   {
-                    "en": "transparent curtain glass",
-                    "vi": "vách kính trong suốt"
-                  },
-                  {
-                    "en": "intense visual glare",
-                    "vi": "chói lóa thị giác gay gắt"
+                    "en": "nearby residential areas",
+                    "vi": "khu dân cư lân cận"
                   }
                 ]
               },
               {
                 "title": "NGUYÊN NHÂN 03: ĐÈN QUẢNG CÁO VÀ BIỂN HIỆU LED/NEON",
-                "point_vi": "Sự bùng nổ của các bảng quảng cáo kỹ thuật số và biển hiệu neon chói lóa góp phần lớn vào ô nhiễm ánh sáng đô thị.",
-                "point_en": "The widespread proliferation of digital billboards and illuminated commercial signage contributes extensively to urban light saturation.",
-                "evidence_vi": "Các màn hình LED khổng lồ và bảng quảng cáo điện tử liên tục phát ra ánh sáng cường độ cao với màu sắc thay đổi liên tục để thu hút người đi đường. Do thiếu các quy định nghiêm ngặt về giới hạn độ sáng vào ban đêm, các nguồn sáng thương mại này gây ô nhiễm quang học nghiêm trọng trong khu vực dân cư.",
-                "evidence_en": "Massive electronic LED billboards constantly project dynamic, ultra-bright advertisements designed specifically to seize the visual attention of pedestrians and motorists. Due to a severe lack of municipal zoning restrictions governing nocturnal luminance, these commercial installations produce immense optical pollution throughout urban corridors.",
+                "point_vi": "Sự gia tăng của các biển quảng cáo điện tử và biển hiệu neon cũng góp phần làm tăng ô nhiễm ánh sáng.",
+                "point_en": "The widespread use of electronic billboards and neon signs also contributes to light pollution.",
+                "evidence_vi": "Các công ty thường sử dụng các màn hình LED khổng lồ và đèn nhấp nháy trên đường phố để thu hút sự chú ý của khách hàng. Do thiếu các quy định hạn chế về ban đêm, những biển hiệu này phát ra ánh sáng rất chói suốt cả đêm.",
+                "evidence_en": "Businesses often install giant LED screens and flashing lights along streets to attract customers' attention. Due to a lack of strict regulations at night, these commercial signs emit intense glare until early morning.",
                 "collocations": [
                   {
-                    "en": "digital billboards",
-                    "vi": "biển quảng cáo kỹ thuật số"
+                    "en": "electronic billboards",
+                    "vi": "biển quảng cáo điện tử"
                   },
                   {
-                    "en": "illuminated commercial signage",
-                    "vi": "biển hiệu thương mại chiếu sáng"
+                    "en": "neon signs",
+                    "vi": "biển hiệu neon"
                   },
                   {
-                    "en": "urban light saturation",
-                    "vi": "sự bão hòa ánh sáng đô thị"
+                    "en": "attract customers' attention",
+                    "vi": "thu hút sự chú ý của khách hàng"
                   },
                   {
-                    "en": "nocturnal luminance",
-                    "vi": "độ sáng ban đêm"
-                  },
-                  {
-                    "en": "optical pollution",
-                    "vi": "ô nhiễm quang học"
+                    "en": "emit intense glare",
+                    "vi": "phát ra ánh sáng chói gay gắt"
                   }
                 ]
               },
               {
                 "title": "NGUYÊN NHÂN 04: HOẠT ĐỘNG GIẢI TRÍ BAN ĐÊM",
-                "point_vi": "Các hoạt động giải trí ngoài trời và sự kiện thể thao ban đêm đòi hỏi lượng ánh sáng công suất cực lớn.",
-                "point_en": "Large-scale nocturnal recreation and athletic events require astronomical amounts of artificial illumination.",
-                "evidence_vi": "Các sân vận động, công viên giải trí và sân khấu hòa nhạc ngoài trời thường trang bị hàng trăm đèn pha cao áp công suất lớn để phục vụ sự kiện. Khi các luồng sáng này hướng lên bầu trời hoặc phản chiếu từ mặt đất, chúng tạo ra hiện tượng tán xạ ánh sáng nhân tạo lan rộng hàng chục cây số.",
-                "evidence_en": "Sports arenas, amusement parks, and outdoor festival venues utilize battery after battery of high-intensity floodlights to illuminate expansive playing fields and spectator stands. When these high-wattage beams radiate upwards or reflect off reflective surfaces, they generate vast halos of diffused light that degrade night skies for miles around.",
+                "point_vi": "Các sự kiện thể thao và hoạt động giải trí vào ban đêm đòi hỏi nguồn ánh sáng nhân tạo rất lớn.",
+                "point_en": "Nighttime sports events and outdoor entertainment activities require substantial amounts of artificial lighting.",
+                "evidence_vi": "Các sân vận động thể thao, công viên giải trí và sân khấu ca nhạc thường trang bị các dàn đèn pha công suất cao để phục vụ khán giả. Ánh sáng từ các địa điểm này thường chiếu lên cao và phản chiếu qua các đám mây, làm sáng cả một vùng trời xung quanh.",
+                "evidence_en": "Sports stadiums, amusement parks, and outdoor concert venues often use powerful floodlights to serve large crowds. The light from these venues frequently radiates upward and reflects off clouds, brightening the entire surrounding area.",
                 "collocations": [
                   {
-                    "en": "nocturnal recreation",
-                    "vi": "hoạt động giải trí ban đêm"
+                    "en": "outdoor entertainment activities",
+                    "vi": "hoạt động giải trí ngoài trời"
                   },
                   {
-                    "en": "high-intensity floodlights",
-                    "vi": "đèn pha cường độ cao"
+                    "en": "sports stadiums",
+                    "vi": "sân vận động thể thao"
                   },
                   {
-                    "en": "expansive playing fields",
-                    "vi": "sân vận động quy mô lớn"
+                    "en": "powerful floodlights",
+                    "vi": "đèn pha công suất lớn"
                   },
                   {
-                    "en": "diffused light halos",
-                    "vi": "quầng ánh sáng khuếch tán"
-                  },
-                  {
-                    "en": "high-wattage beams",
-                    "vi": "chùm sáng công suất cao"
+                    "en": "surrounding area",
+                    "vi": "khu vực xung quanh"
                   }
                 ]
               },
               {
                 "title": "NGUYÊN NHÂN 05: THIẾT KẾ CHIẾU SÁNG CHƯA HỢP LÝ",
-                "point_vi": "Các thiết bị chiếu sáng được thiết kế và lắp đặt thiếu khoa học là nguồn cơn cốt lõi của sự thất thoát ánh sáng.",
-                "point_en": "Poorly engineered lighting fixtures and sub-optimal luminaire designs serve as fundamental catalysts for light spillage.",
-                "evidence_vi": "Nhiều loại đèn đường và đèn trang trí không có nắp chụp chắn sáng, dẫn đến việc ánh sáng bị phân tán không định hướng sang hai bên và lên trời thay vì tập trung xuống lòng đường. Ngoài ra, việc thiếu vắng các cảm biến thông minh hoặc cảm biến chuyển động khiến hệ thống đèn hoạt động liên tục ngay cả khi không có phương tiện lưu thông.",
-                "evidence_en": "A significant proportion of outdoor luminaires are entirely unshielded, causing light to radiate indiscriminately in upward and horizontal directions rather than illuminating targeted ground surfaces. Moreover, the failure to integrate smart motion sensors or adaptive dimming schedules leads to perpetual, unneeded illumination throughout deserted midnight hours.",
+                "point_vi": "Thiết kế hệ thống chiếu sáng chưa hợp lý là một lý do quan trọng dẫn đến việc lãng phí ánh sáng.",
+                "point_en": "Poorly designed lighting systems are another major factor leading to light pollution.",
+                "evidence_vi": "Nhiều loại đèn đường và đèn trang trí không có nắp che chắn phía trên, khiến ánh sáng bị phân tán lên trời thay vì tập trung xuống mặt đất. Ngoài ra, việc thiếu hệ thống cảm biến thông minh khiến đèn vẫn hoạt động hết công suất khi không có người qua lại.",
+                "evidence_en": "Many streetlamps and outdoor lights lack protective shields, causing light to spread into the sky instead of focusing downward on the ground. In addition, the lack of motion sensors means that lights remain on at full power even when nobody is around.",
                 "collocations": [
                   {
-                    "en": "poorly engineered lighting fixtures",
-                    "vi": "thiết bị chiếu sáng thiết kế kém"
+                    "en": "poorly designed lighting systems",
+                    "vi": "hệ thống chiếu sáng thiết kế kém"
                   },
                   {
-                    "en": "light spillage",
-                    "vi": "sự rò rỉ / thất thoát ánh sáng"
+                    "en": "protective shields",
+                    "vi": "nắp che chắn bảo vệ"
                   },
                   {
-                    "en": "unshielded outdoor luminaires",
-                    "vi": "bộ đèn ngoài trời không che chắn"
+                    "en": "motion sensors",
+                    "vi": "cảm biến chuyển động"
                   },
                   {
-                    "en": "radiate indiscriminately",
-                    "vi": "phát tán bừa bãi"
-                  },
-                  {
-                    "en": "adaptive dimming schedules",
-                    "vi": "lịch trình điều chỉnh ánh sáng thích ứng"
+                    "en": "focus downward",
+                    "vi": "tập trung chiếu xuống dưới"
                   }
                 ]
               }
@@ -25829,162 +25765,138 @@ const ESSAY_DATA = [
             "drawbacks": [
               {
                 "title": "TÁC ĐỘNG 01: ẢNH HƯỞNG ĐẾN GIẤC NGỦ VÀ SỨC KHỎE CON NGƯỜI",
-                "point_vi": "Sự xâm nhập của ánh sáng nhân tạo vào ban đêm gây tổn hại nghiêm trọng đến chất lượng giấc ngủ và sức khỏe con người.",
-                "point_en": "Nocturnal light intrusion severely impairs human physiological well-being by disrupting essential sleep cycles.",
-                "evidence_vi": "Việc tiếp xúc liên tục với ánh sáng nhân tạo, đặc biệt là ánh sáng xanh từ đèn LED và màn hình đô thị, ức chế quá trình sản sinh hormone melatonin điều hòa giấc ngủ. Về lâu dài, tình trạng này dẫn đến chứng mất ngủ kinh niên, làm gia tăng nguy cơ mắc các rối loạn tâm lý, béo phì và bệnh lý tim mạch ở cư dân đô thị.",
-                "evidence_en": "Prolonged exposure to artificial illumination at night, particularly blue-wavelength light emitted by urban LEDs, profoundly suppresses the pineal gland's secretion of melatonin, an essential hormone governing circadian rhythms. In the long run, this persistent physiological disruption induces chronic insomnia, severe daytime cognitive deficits, and elevated clinical risks of depression, cardiovascular disorders, and metabolic dysfunctions.",
+                "point_vi": "Ô nhiễm ánh sáng ảnh hưởng tiêu cực đến chất lượng giấc ngủ và sức khỏe của cư dân đô thị.",
+                "point_en": "Light pollution negatively affects sleep quality and overall human health.",
+                "evidence_vi": "Tiếp xúc với ánh sáng mạnh vào ban đêm làm rối loạn nhịp sinh học tự nhiên và giảm sự tiết melatonin, một chất cần thiết cho giấc ngủ. Tình trạng này kéo dài dễ dẫn đến chứng mất ngủ, khiến mọi người cảm thấy mệt mỏi, căng thẳng và giảm năng suất làm việc vào ban ngày.",
+                "evidence_en": "Exposure to bright artificial light at night disrupts the natural body clock and reduces the production of melatonin, a hormone needed for healthy sleep. Over time, this leads to chronic insomnia, leaving people feeling tired, stressed, and less productive during the day.",
                 "collocations": [
                   {
-                    "en": "nocturnal light intrusion",
-                    "vi": "sự xâm nhập ánh sáng vào ban đêm"
+                    "en": "negatively affect sleep quality",
+                    "vi": "ảnh hưởng tiêu cực đến chất lượng giấc ngủ"
                   },
                   {
-                    "en": "impair physiological well-being",
-                    "vi": "làm suy giảm sức khỏe sinh lý"
+                    "en": "natural body clock",
+                    "vi": "đồng hồ sinh học tự nhiên"
                   },
                   {
-                    "en": "suppress melatonin secretion",
-                    "vi": "ức chế tiết melatonin"
-                  },
-                  {
-                    "en": "circadian rhythms",
-                    "vi": "nhịp sinh học"
+                    "en": "production of melatonin",
+                    "vi": "sự sản sinh melatonin"
                   },
                   {
                     "en": "chronic insomnia",
-                    "vi": "mất ngủ mãn tính"
+                    "vi": "chứng mất ngủ kinh niên"
                   },
                   {
-                    "en": "cognitive deficits",
-                    "vi": "suy giảm nhận thức"
+                    "en": "less productive",
+                    "vi": "kém năng suất hơn"
                   }
                 ]
               },
               {
                 "title": "TÁC ĐỘNG 02: ẢNH HƯỞNG TIÊU CỰC ĐẾN ĐỘNG VẬT HOANG DÃ",
-                "point_vi": "Ánh sáng nhân tạo gây mất phương hướng và đe dọa trực tiếp đến sự sống sót của các loài động vật hoang dã.",
-                "point_en": "Artificial nocturnal lighting severely disorients wild animals, posing grave threats to their migratory and survival mechanisms.",
-                "evidence_vi": "Hàng triệu cá thể chim di cư dựa vào vị trí của các vì sao và mặt trăng để định hướng đã bị thu hút vào các đô thị rực sáng, dẫn đến các vụ va chạm chết người vào các tòa nhà kính chọc trời. Tương tự, rùa biển con sau khi nở thường bị nhầm lẫn ánh sáng đèn đường ven biển với đường chân trời đại dương, khiến chúng bò vào đất liền và kiệt sức.",
-                "evidence_en": "Avian species that navigate by starlight and magnetic fields are chronically disoriented by bright city lights, causing fatal building collisions that claim millions of migratory birds annually. Similarly, newly hatched sea turtles instinctively guided by the natural luminosity of the ocean horizon are misdirected toward coastal highways and streetlights, resulting in catastrophic mortality rates from dehydration and vehicle strikes.",
+                "point_vi": "Ánh sáng nhân tạo vào ban đêm làm xáo trộn nghiêm trọng tập tính sống của nhiều loài động vật.",
+                "point_en": "Artificial nocturnal light severely disrupts the natural behaviors of wildlife.",
+                "evidence_vi": "Nhiều loài chim di cư dựa vào ánh trăng và các vì sao để tìm đường thường bị mất phương hướng bởi ánh đèn thành phố và va vào các tòa nhà cao tầng. Tương tự, rùa biển con sau khi nở thường đi nhầm về phía đèn đường ven biển thay vì bò ra đại dương, dẫn đến nguy cơ tử vong cao.",
+                "evidence_en": "Many migratory birds that rely on starlight for navigation get confused by bright city lights and crash into tall glass buildings. Similarly, baby sea turtles often mistake coastal streetlights for the ocean horizon, which leads them away from the sea and increases their mortality rate.",
                 "collocations": [
                   {
-                    "en": "disorient wild animals",
-                    "vi": "làm mất phương hướng động vật hoang dã"
+                    "en": "disrupt natural behaviors",
+                    "vi": "làm xáo trộn tập tính tự nhiên"
                   },
                   {
-                    "en": "migratory mechanisms",
-                    "vi": "cơ chế di cư"
+                    "en": "migratory birds",
+                    "vi": "chim di cư"
                   },
                   {
-                    "en": "fatal building collisions",
-                    "vi": "va chạm chết người vào tòa nhà"
+                    "en": "crash into tall buildings",
+                    "vi": "va vào các tòa nhà cao tầng"
                   },
                   {
-                    "en": "chronically disoriented",
-                    "vi": "bị mất phương hướng mãn tính"
+                    "en": "mistake streetlights for the ocean",
+                    "vi": "nhầm đèn đường với đại dương"
                   },
                   {
-                    "en": "ocean horizon luminosity",
-                    "vi": "độ sáng đường chân trời đại dương"
-                  },
-                  {
-                    "en": "catastrophic mortality rates",
-                    "vi": "tỷ lệ tử vong thảm khốc"
+                    "en": "mortality rate",
+                    "vi": "tỷ lệ tử vong"
                   }
                 ]
               },
               {
-                "title": "TÁC ĐỘNG 03: LÀM GIẢM KHẢ NĂNG QUAN SÁT CÁC VÌ SAO VÀ NGHIÊN CỨU THIÊN VĂN",
-                "point_vi": "Ô nhiễm ánh sáng xóa nhòa vẻ đẹp của bầu trời đêm và cản trở nghiêm trọng các nghiên cứu thiên văn học.",
-                "point_en": "Artificial skyglow obliterates the celestial night sky, severely crippling ground-based optical astronomy and scientific exploration.",
-                "evidence_vi": "Màn ánh sáng khuếch tán nhân tạo bao phủ các vùng đô thị đã làm cho dải Ngân Hà và các chòm sao gần như vô hình trước mắt đại đa số cư dân thành thị. Quan trọng hơn, hiện tượng này làm suy giảm chất lượng dữ liệu từ các đài thiên văn mặt đất, buộc các nhà khoa học phải di dời các đài quan sát đến những vùng núi xa xôi hoặc triển khai kính viễn vọng không gian vô cùng tốn kém.",
-                "evidence_en": "The pervasive luminous haze hanging over urban conglomerates renders the Milky Way and faint constellations utterly invisible to over eighty percent of the global population. More critically, this optical barrier blinding ground-based observatories compromises deep-space photometric observations, compelling scientific institutions to relocate astronomical stations to ultra-remote wilderness areas or rely on prohibitively expensive space telescopes.",
+                "title": "TÁC ĐỘNG 03: LÀM GIẢM KHẢ NĂNG QUAN SÁT CÁC VÌ SAO VÀ THIÊN VĂN HỌC",
+                "point_vi": "Ô nhiễm ánh sáng làm giảm đáng kể khả năng quan sát bầu trời đêm và cản trở nghiên cứu thiên văn học.",
+                "point_en": "Light pollution significantly reduces the visibility of stars and hinders astronomical studies.",
+                "evidence_vi": "Ánh sáng rực rỡ từ các thành phố tạo thành một màn sáng che khuất dải Ngân Hà và hầu hết các ngôi sao đối với người dân đô thị. Hơn nữa, hiện tượng này khiến các nhà khoa học gặp nhiều khó khăn khi quan sát không gian từ mặt đất, buộc họ phải chuyển kính thiên văn đến những vùng núi xa xôi.",
+                "evidence_en": "The bright glow from urban areas creates a haze that hides the Milky Way and most stars from city residents. Furthermore, this condition makes it difficult for astronomers to observe distant space objects, forcing research stations to move to remote mountain areas.",
                 "collocations": [
                   {
-                    "en": "artificial skyglow",
-                    "vi": "quầng sáng bầu trời nhân tạo"
+                    "en": "reduce visibility of stars",
+                    "vi": "làm giảm khả năng quan sát các vì sao"
                   },
                   {
-                    "en": "obliterate the celestial night sky",
-                    "vi": "xóa nhòa bầu trời đêm thiên thể"
+                    "en": "hinder astronomical studies",
+                    "vi": "cản trở các nghiên cứu thiên văn"
                   },
                   {
-                    "en": "ground-based optical astronomy",
-                    "vi": "thiên văn học quang học mặt đất"
+                    "en": "bright glow",
+                    "vi": "quầng sáng rực"
                   },
                   {
-                    "en": "pervasive luminous haze",
-                    "vi": "màn sương mù ánh sáng bao phủ"
-                  },
-                  {
-                    "en": "photometric observations",
-                    "vi": "quan sát trắc quang"
-                  },
-                  {
-                    "en": "astronomical stations",
-                    "vi": "trạm thiên văn"
+                    "en": "remote mountain areas",
+                    "vi": "những vùng núi xa xôi"
                   }
                 ]
               },
               {
-                "title": "TÁC ĐỘNG 04: LÃNG PHÍ NĂNG LƯỢNG VÀ TĂNG PHÁT THẢI KHÍ THẢI",
-                "point_vi": "Chiếu sáng ban đêm quá mức dẫn đến sự phung phí tài nguyên năng lượng và làm gia tăng lượng khí thải carbon.",
-                "point_en": "Excessive nocturnal lighting results in immense squandering of electrical energy and substantially escalates carbon footprints.",
-                "evidence_vi": "Hàng triệu kilowatt-giờ điện bị tiêu tốn vô ích mỗi năm để duy trì những bóng đèn không người sử dụng hoặc những chùm sáng hướng thẳng vào hư không. Vì phần lớn sản lượng điện toàn cầu vẫn phụ thuộc vào việc đốt nhiên liệu hóa thạch, sự lãng phí này làm tăng áp lực tài chính công và thúc đẩy tình trạng biến đổi khí hậu toàn cầu.",
-                "evidence_en": "Billions of kilowatt-hours are squandered annually on illuminating unoccupied structures, vacant streets, and empty commercial lots with misdirected light beams. Because the majority of worldwide electricity generation remains reliant on fossil fuel combustion, this profligate energy consumption inflates municipal utility expenditures while releasing millions of tons of greenhouse gases into the atmosphere.",
+                "title": "TÁC ĐỘNG 04: LÃNG PHÍ NĂNG LƯỢNG VÀ TĂNG PHÁT THẢI KHÍ NHÀ KÍNH",
+                "point_vi": "Chiếu sáng ban đêm quá mức dẫn đến sự lãng phí điện năng khổng lồ và gây hại cho môi trường.",
+                "point_en": "Excessive nighttime illumination leads to huge energy waste and environmental damage.",
+                "evidence_vi": "Các thành phố chi hàng triệu đô la mỗi năm để duy trì những bóng đèn sáng ở các tuyến đường và khu thương mại không có người. Vì phần lớn lượng điện vẫn được tạo ra từ than đá và khí đốt, sự lãng phí này làm tăng lượng khí thải nhà kính và thúc đẩy biến đổi khí hậu.",
+                "evidence_en": "Cities spend millions of dollars each year powering unneeded lights on empty roads and commercial sites. Because much of this electricity is still generated from fossil fuels, such waste increases greenhouse gas emissions and accelerates climate change.",
                 "collocations": [
                   {
-                    "en": "squandering of electrical energy",
-                    "vi": "sự phung phí năng lượng điện"
+                    "en": "huge energy waste",
+                    "vi": "lãng phí năng lượng khổng lồ"
                   },
                   {
-                    "en": "escalate carbon footprints",
-                    "vi": "gia tăng lượng phát thải carbon"
+                    "en": "generated from fossil fuels",
+                    "vi": "được sản xuất từ nhiên liệu hóa thạch"
                   },
                   {
-                    "en": "fossil fuel combustion",
-                    "vi": "đốt nhiên liệu hóa thạch"
+                    "en": "greenhouse gas emissions",
+                    "vi": "phát thải khí nhà kính"
                   },
                   {
-                    "en": "profligate energy consumption",
-                    "vi": "tiêu thụ năng lượng hoang phí"
-                  },
-                  {
-                    "en": "municipal utility expenditures",
-                    "vi": "chi tiêu tiện ích đô thị"
+                    "en": "accelerate climate change",
+                    "vi": "thúc đẩy biến đổi khí hậu"
                   }
                 ]
               },
               {
                 "title": "TÁC ĐỘNG 05: GÂY HẠI ĐẾN HỆ SINH THÁI VÀ CHUỖI THỨC ĂN",
-                "point_vi": "Ô nhiễm ánh sáng phá vỡ cấu trúc của hệ sinh thái và làm xáo trộn nghiêm trọng chuỗi thức ăn tự nhiên.",
-                "point_en": "Light pollution destabilizes complex ecological equilibria and disrupts interlinked food webs across nocturnal biomes.",
-                "evidence_vi": "Nhiều loài côn trùng hoạt động về đêm bị thu hút chết hàng loạt bên các bóng đèn, gây suy giảm đột ngột số lượng sinh vật thụ phấn cho cây trồng ban đêm và nguồn thức ăn cho các loài dơi, chim và bò sát. Đồng thời, sự hiện diện liên tục của ánh sáng nhân tạo làm thay đổi tập tính săn mồi tự nhiên và chu kỳ sinh sản của nhiều sinh vật sống trong môi trường thủy sinh và rừng rậm.",
-                "evidence_en": "Nocturnal insects are fatally drawn to glowing artificial bulbs in staggering numbers, precipitating sharp declines in nocturnal pollination services and severely decimating the primary prey base for insectivorous bats, birds, and amphibians. Concurrently, perpetual artificial twilight alters competitive predator-prey dynamics and upsets seasonal reproductive phenology in both terrestrial and aquatic habitats.",
+                "point_vi": "Ô nhiễm ánh sáng gây mất cân bằng sinh thái và ảnh hưởng đến chuỗi thức ăn tự nhiên.",
+                "point_en": "Light pollution creates ecological imbalances and damages natural food chains.",
+                "evidence_vi": "Hàng triệu loài côn trùng ban đêm bị thu hút vào các bóng đèn và chết vì kiệt sức, làm giảm số lượng sinh vật thụ phấn cho cây trồng. Điều này cũng làm giảm nguồn thức ăn quan trọng của các loài dơi, chim và bò sát, gây ảnh hưởng tiêu cực đến toàn bộ hệ sinh thái địa phương.",
+                "evidence_en": "Millions of nocturnal insects are drawn to bright bulbs and die of exhaustion, which reduces the number of natural pollinators for plants. This also limits an important food source for bats, birds, and reptiles, ultimately harming the entire local ecosystem.",
                 "collocations": [
                   {
-                    "en": "destabilize ecological equilibria",
-                    "vi": "làm mất ổn định cân bằng sinh thái"
+                    "en": "ecological imbalances",
+                    "vi": "sự mất cân bằng sinh thái"
                   },
                   {
-                    "en": "nocturnal biomes",
-                    "vi": "quần xã sinh vật ban đêm"
+                    "en": "natural food chains",
+                    "vi": "chuỗi thức ăn tự nhiên"
                   },
                   {
-                    "en": "nocturnal pollination services",
-                    "vi": "dịch vụ thụ phấn ban đêm"
+                    "en": "nocturnal insects",
+                    "vi": "côn trùng hoạt động ban đêm"
                   },
                   {
-                    "en": "decimate the primary prey base",
-                    "vi": "tàn sát nguồn con mồi chủ yếu"
+                    "en": "natural pollinators",
+                    "vi": "sinh vật thụ phấn tự nhiên"
                   },
                   {
-                    "en": "predator-prey dynamics",
-                    "vi": "động lực giữa kẻ săn mồi và con mồi"
-                  },
-                  {
-                    "en": "reproductive phenology",
-                    "vi": "chu kỳ sinh sản theo mùa"
+                    "en": "harm the entire ecosystem",
+                    "vi": "gây hại cho toàn bộ hệ sinh thái"
                   }
                 ]
               }
@@ -25996,16 +25908,12 @@ const ESSAY_DATA = [
               "vi": "ô nhiễm ánh sáng"
             },
             {
-              "en": "skyglow",
-              "vi": "vòm ánh sáng rực trời đêm"
-            },
-            {
               "en": "artificial lighting",
               "vi": "chiếu sáng nhân tạo"
             },
             {
-              "en": "excessive illumination",
-              "vi": "chiếu sáng quá mức"
+              "en": "excessive brightness",
+              "vi": "độ sáng quá mức"
             },
             {
               "en": "streetlight",
@@ -26020,24 +25928,20 @@ const ESSAY_DATA = [
               "vi": "đèn pha công suất lớn"
             },
             {
-              "en": "unshielded luminaire",
-              "vi": "bộ đèn không che chắn"
+              "en": "shielded fixture",
+              "vi": "bộ đèn có nắp che chắn"
             },
             {
-              "en": "light spillage",
-              "vi": "sự thất thoát ánh sáng"
+              "en": "intense glare",
+              "vi": "ánh sáng chói lóa gay gắt"
             },
             {
-              "en": "optical glare",
-              "vi": "ánh sáng chói lóa mắt"
+              "en": "melatonin production",
+              "vi": "sự sản sinh hormone melatonin"
             },
             {
-              "en": "melatonin suppression",
-              "vi": "sự ức chế tiết melatonin"
-            },
-            {
-              "en": "circadian rhythm",
-              "vi": "nhịp sinh học ngày đêm"
+              "en": "natural body clock",
+              "vi": "đồng hồ sinh học tự nhiên"
             },
             {
               "en": "chronic insomnia",
@@ -26052,63 +25956,55 @@ const ESSAY_DATA = [
               "vi": "làm mất phương hướng động vật"
             },
             {
-              "en": "fatal collision",
-              "vi": "va chạm chết người / tử vong"
-            },
-            {
-              "en": "nocturnal insect",
+              "en": "nocturnal insects",
               "vi": "côn trùng ăn đêm"
             },
             {
-              "en": "plant pollination",
-              "vi": "thụ phấn thực vật"
+              "en": "natural pollinators",
+              "vi": "sinh vật thụ phấn tự nhiên"
             },
             {
               "en": "visibility of stars",
               "vi": "khả năng quan sát các vì sao"
             },
             {
-              "en": "celestial sky",
-              "vi": "bầu trời thiên thể"
+              "en": "night sky",
+              "vi": "bầu trời đêm"
             },
             {
-              "en": "optical astronomy",
-              "vi": "thiên văn học quang học"
+              "en": "astronomical studies",
+              "vi": "các nghiên cứu thiên văn"
             },
             {
-              "en": "energy squandering",
-              "vi": "sự phung phí năng lượng"
+              "en": "energy waste",
+              "vi": "sự lãng phí năng lượng"
             },
             {
-              "en": "carbon footprint",
-              "vi": "dấu chân carbon"
+              "en": "carbon emissions",
+              "vi": "phát thải khí carbon"
             },
             {
-              "en": "fossil fuel combustion",
-              "vi": "đốt nhiên liệu hóa thạch"
+              "en": "fossil fuels",
+              "vi": "nhiên liệu hóa thạch"
             },
             {
-              "en": "motion sensor",
+              "en": "motion sensors",
               "vi": "cảm biến chuyển động"
             },
             {
-              "en": "adaptive dimming",
-              "vi": "điều chỉnh giảm sáng thích ứng"
-            },
-            {
-              "en": "dark-sky reserve",
-              "vi": "khu bảo tồn bầu trời đêm"
+              "en": "ecological imbalance",
+              "vi": "mất cân bằng sinh thái"
             }
           ],
           "sample_b1": "In recent decades, <strong>light pollution</strong> has become a widespread environmental problem in many urban areas around the world. The excessive use of artificial lighting brightens the night sky and changes natural darkness. <strong>This essay will explore both the causes and the effects of this issue.</strong>\n\n<strong>This issue can be caused by several factors.</strong> One primary cause is that <strong><em>many cities install too many streetlights with excessive brightness.</em></strong> These lamps often stay on all night, so they create a lot of unnecessary artificial light. Another major cause is that <strong><em>commercial buildings and shopping malls use too many lights.</em></strong> High-rise offices often leave their lights on all night after working hours. In addition, large electronic billboards and neon signs shine brightly to attract customers. These commercial lights spread into residential neighborhoods and make the night sky too bright.\n\nOn the other hand, <strong>this problem leads to several negative consequences.</strong> The most significant effect is that <strong><em>excessive artificial light causes serious sleep problems for people.</em></strong> Bright light at night disrupts natural body clocks and leads to insomnia. As a result, many urban residents feel tired and stressed during the day. Furthermore, <strong><em>light pollution causes direct harm to local ecosystems.</em></strong> Millions of nocturnal insects fly around light bulbs and die, so the natural food chain suffers. At the same time, cities consume massive amounts of electricity for public lighting, so this increases costs and air pollution.\n\nIn conclusion, <strong>light pollution</strong> is driven by excessive public lighting and bright commercial buildings. It causes serious sleep problems for humans, harms wildlife, and wastes huge amounts of energy. People and governments should turn off unnecessary lights to protect our health and our planet.",
           "translation_b1": "Trong những thập kỷ gần đây, <strong>ô nhiễm ánh sáng</strong> đã trở thành một vấn đề môi trường lan rộng tại nhiều khu vực đô thị trên thế giới. Việc sử dụng quá mức ánh sáng nhân tạo làm sáng rực bầu trời đêm và thay đổi bóng tối tự nhiên. <strong>Bài luận này sẽ tìm hiểu cả nguyên nhân và tác động của vấn đề này.</strong>\n\n<strong>Vấn đề này có thể bắt nguồn từ một số nguyên nhân.</strong> Một nguyên nhân hàng đầu là <strong><em>nhiều thành phố lắp đặt quá nhiều đèn đường với độ sáng quá cao.</em></strong> Những bóng đèn này thường sáng suốt đêm, vì vậy chúng tạo ra nhiều ánh sáng nhân tạo không cần thiết. Một nguyên nhân quan trọng khác là <strong><em>các tòa nhà thương mại và trung tâm mua sắm sử dụng quá nhiều đèn chiếu sáng.</em></strong> Các văn phòng cao tầng thường để đèn sáng cả đêm sau giờ làm việc. Ngoài ra, các biển quảng cáo điện tử lớn và biển hiệu neon chiếu sáng rực rỡ để thu hút khách hàng. Những ánh sáng thương mại này lan sang các khu dân cư lân cận và khiến bầu trời đêm trở nên quá sáng.\n\nMặt khác, <strong>vấn đề này dẫn đến một số hậu quả tiêu cực.</strong> Tác động đáng kể nhất là <strong><em>ánh sáng nhân tạo quá mức gây ra các vấn đề nghiêm trọng về giấc ngủ cho con người.</em></strong> Ánh sáng mạnh vào ban đêm làm rối loạn nhịp sinh học tự nhiên và dẫn đến chứng mất ngủ. Kết quả là, nhiều cư dân thành thị cảm thấy mệt mỏi và căng thẳng vào ban ngày. Hơn nữa, <strong><em>ô nhiễm ánh sáng gây nguy hại trực tiếp đến sự cân bằng của các hệ sinh thái địa phương.</em></strong> Hàng triệu loài côn trùng ban đêm bay quanh bóng đèn và chết, vì vậy chuỗi thức ăn tự nhiên bị ảnh hưởng xấu. Đồng thời, các thành phố tiêu thụ lượng điện khổng lồ cho việc chiếu sáng công cộng, do đó làm gia tăng chi phí và ô nhiễm không khí.\n\nTóm lại, <strong>ô nhiễm ánh sáng</strong> bắt nguồn từ việc chiếu sáng công cộng quá mức và các tòa nhà thương mại quá sáng. Nó gây ra các vấn đề giấc ngủ nghiêm trọng cho con người, làm hại động vật hoang dã và lãng phí một lượng năng lượng khổng lồ. Người dân và chính phủ nên tắt các bóng đèn không cần thiết để bảo vệ sức khỏe và hành tinh của chúng ta.",
           "mindmap_img": "light_pollution_mindmap_vi.jpg",
           "mindmap_img_en": "light_pollution_mindmap_en.jpg",
-          "sample_b2": "In contemporary society, artificial nocturnal illumination has expanded exponentially alongside rapid urbanization, transforming the nocturnal landscape of modern metropolises. While electric lighting has undeniably enhanced nighttime safety and fostered around-the-clock commerce, over-illumination has created a severe environmental dilemma known as <strong>light pollution</strong>. <strong>This essay will critically evaluate the primary causes of this phenomenon and analyze its far-reaching repercussions on human health and ecological equilibrium.</strong>\n\nThe manifestation of light pollution can be attributed to several interrelated anthropogenic factors. Foremost among these is that <strong><em>the proliferation of overpowered and poorly regulated streetlights constitutes a primary driver of urban skyglow.</em></strong> In modern metropolitan centers, high-pressure lamps are densely installed along every thoroughfare and operate at maximum luminosity throughout the night without automated dimming mechanisms. Consequently, vast amounts of luminous flux scatter directly into the atmosphere, completely eradicating natural nocturnal darkness. Furthermore, <strong><em>continuous and redundant interior illumination within commercial high-rises significantly exacerbates night-sky brightness.</em></strong> Corporate headquarters and shopping complexes routinely keep interior floor lighting and decorative facades fully active long after business hours have concluded. The prevalence of transparent curtain glass facades allows unshielded indoor light to beam unrestricted into surrounding neighborhoods, creating intense visual glare and optical saturation.\n\nThe ramifications of artificial skyglow are equally profound and multifaceted. At an individual level, <strong><em>nocturnal light intrusion severely impairs human physiological well-being by disrupting essential sleep cycles.</em></strong> Prolonged exposure to artificial illumination at night, particularly blue-wavelength light emitted by urban LEDs, profoundly suppresses the pineal gland's secretion of melatonin, an essential hormone governing circadian rhythms. In the long run, this persistent physiological disruption induces chronic insomnia, severe daytime cognitive deficits, and elevated clinical risks of cardiovascular disorders. Beyond human physiology, <strong><em>light pollution destabilizes complex ecological equilibria and disrupts interlinked food webs across nocturnal biomes.</em></strong> Millions of migratory birds navigating by celestial cues are chronically disoriented by glowing skylines, often colliding fatally with glazed towers. Simultaneously, nocturnal insects are drawn to bright light sources in catastrophic numbers, decimating local prey bases and impairing the reproductive phenology of diverse species. Finally, maintaining billions of unneeded lamps squanders immense quantities of electrical energy derived from fossil fuels, thereby escalating global carbon emissions.\n\nIn conclusion, <strong>light pollution</strong> is primarily propelled by redundant public lighting, commercial over-illumination, and poorly shielded luminaires. Its adverse consequences span physiological disorders in humans, the disruption of delicate ecosystems, and massive squandering of energy resources. Consequently, municipal governments must enforce stringent lighting regulations and adopt smart, shielded fixtures to restore natural nocturnal balance.",
-          "translation_b2": "Trong xã hội đương đại, sự chiếu sáng nhân tạo ban đêm đã gia tăng theo cấp số nhân cùng với quá trình đô thị hóa nhanh chóng, biến đổi hoàn toàn cảnh quan ban đêm của các siêu đô thị hiện đại. Mặc dù hệ thống chiếu sáng bằng điện chắc chắn đã nâng cao tính an toàn vào ban đêm và thúc đẩy các hoạt động thương mại suốt ngày đêm, sự chiếu sáng quá mức đã tạo ra một vấn đề môi trường nghiêm trọng được gọi là <strong>ô nhiễm ánh sáng</strong>. <strong>Bài luận này sẽ đánh giá sâu sắc các nguyên nhân chính của hiện tượng này và phân tích những hậu quả sâu rộng của nó đối với sức khỏe con người và sự cân bằng sinh thái.</strong>\n\nSự biểu hiện của ô nhiễm ánh sáng có thể bắt nguồn từ một số yếu tố nhân tạo có mối liên hệ chặt chẽ với nhau. Đứng đầu trong số này là <strong><em>sự gia tăng quá mức của hệ thống đèn đường công cộng công suất cao và thiếu kiểm soát là tác nhân hàng đầu gây nên vòm sáng rực trời đô thị.</em></strong> Tại các trung tâm đô thị hiện đại, các cột đèn cao áp được lắp đặt dày đặc dọc theo mọi đại lộ và hoạt động ở mức độ sáng tối đa suốt đêm mà không có cơ chế giảm sáng tự động. Kết quả là, một lượng lớn quang thông tán xạ trực tiếp vào khí quyển, xóa bỏ hoàn toàn bóng tối tự nhiên vào ban đêm. Hơn nữa, <strong><em>việc chiếu sáng nội thất liên tục và dư thừa trong các tòa nhà cao tầng thương mại làm trầm trọng thêm độ sáng của bầu trời đêm.</em></strong> Các trụ sở tập đoàn và khu phức hợp mua sắm thường xuyên duy trì hệ thống chiếu sáng các tầng và mặt tiền trang trí hoạt động hết công suất rất lâu sau khi giờ làm việc kết thúc. Sự phổ biến của mặt dựng kính trong suốt cho phép ánh sáng trong nhà không được che chắn chiếu thẳng ra các khu dân cư lân cận, gây ra hiện tượng chói mắt gay gắt và bão hòa quang học.\n\nNhững hệ quả của quầng sáng nhân tạo trên bầu trời cũng sâu sắc và đa diện không kém. Ở cấp độ cá nhân, <strong><em>sự xâm nhập của ánh sáng nhân tạo vào ban đêm làm suy giảm nghiêm trọng sức khỏe sinh lý của con người do làm gián đoạn chu kỳ giấc ngủ thiết yếu.</em></strong> Việc tiếp xúc kéo dài với ánh sáng nhân tạo vào ban đêm, đặc biệt là ánh sáng bước sóng xanh phát ra từ đèn LED đô thị, ức chế sâu sắc sự tiết melatonin của tuyến tùng - một hormone thiết yếu điều chỉnh nhịp sinh học. Về lâu dài, sự gián đoạn sinh lý dai dẳng này gây ra chứng mất ngủ kinh niên, suy giảm nhận thức nghiêm trọng vào ban ngày và làm tăng nguy cơ lâm sàng mắc các bệnh tim mạch. Vượt ra ngoài sinh lý con người, <strong><em>ô nhiễm ánh sáng làm mất ổn định các trạng thái cân bằng sinh thái phức tạp và phá vỡ các lưới thức ăn liên kết qua các quần xã sinh vật ban đêm.</em></strong> Hàng triệu cá thể chim di cư định hướng bằng các dấu hiệu thiên thể bị mất phương hướng mãn tính bởi đường chân trời thành phố rực sáng, thường dẫn đến các vụ va chạm chết người vào các tòa tháp kính. Đồng thời, côn trùng ban đêm bị thu hút vào các nguồn sáng rực rỡ với số lượng thảm khốc, làm suy giảm nguồn con mồi địa phương và ảnh hưởng xấu đến chu kỳ sinh sản theo mùa của nhiều loài. Cuối cùng, việc duy trì hàng tỷ bóng đèn không cần thiết làm phung phí một lượng khổng lồ năng lượng điện có nguồn gốc từ nhiên liệu hóa thạch, qua đó làm gia tăng lượng khí thải carbon toàn cầu.\n\nTóm lại, <strong>ô nhiễm ánh sáng</strong> chủ yếu bị thúc đẩy bởi hệ thống chiếu sáng công cộng dư thừa, sự chiếu sáng quá mức tại các cơ sở thương mại và các bộ đèn không có nắp che chắn. Hậu quả tiêu cực của nó bao gồm các rối loạn sinh lý ở người, sự xáo trộn các hệ sinh thái mỏng manh và sự phung phí tài nguyên năng lượng to lớn. Do đó, chính quyền các đô thị cần thực thi các quy định chiếu sáng nghiêm ngặt và áp dụng các thiết bị đèn thông minh có nắp che để khôi phục lại sự cân bằng tự nhiên của màn đêm.",
+          "sample_b2": "In recent years, artificial nighttime lighting has expanded rapidly along with urban development. While electric lights make modern cities safer and support commercial activities after dark, excessive illumination has created a serious environmental issue known as <strong>light pollution</strong>. <strong>This essay will discuss the main causes of this problem and analyze its negative effects on human health and the environment.</strong>\n\nThere are two primary causes of light pollution in modern societies. First, <strong><em>the excessive installation and prolonged use of public streetlights is a major cause of light pollution.</em></strong> In many cities, streetlights often have high brightness levels and remain active all night even when streets are empty. Consequently, a large amount of artificial light shines directly into the night sky, which reduces the natural darkness of urban areas. In addition, <strong><em>commercial buildings and high-rise office towers frequently use excessive lighting at night.</em></strong> Many businesses and shopping centers keep their interior lights on long after working hours have ended. Furthermore, large electronic billboards and bright neon signs along roads emit intense glare until early morning, creating unnecessary brightness throughout neighborhoods.\n\nThis widespread problem leads to several negative consequences for people and nature. The most obvious impact is that <strong><em>light pollution negatively affects sleep quality and overall human health.</em></strong> Exposure to bright artificial light at night disrupts the natural body clock and reduces the production of melatonin, a hormone needed for healthy sleep. Over time, this condition causes chronic insomnia, leaving people feeling tired and stressed during the day. Beyond human health, <strong><em>artificial nocturnal light severely disrupts the natural behaviors of wildlife.</em></strong> Many migratory birds that rely on starlight for navigation get confused by city lights and crash into tall buildings. At the same time, maintaining millions of unneeded lights squanders huge amounts of electricity generated from fossil fuels, which increases carbon emissions and harms local ecosystems.\n\nIn conclusion, <strong>light pollution</strong> is mainly caused by unnecessary streetlights, bright commercial buildings, and advertising signs. It disturbs human sleep cycles, harms wild animals, and leads to significant energy waste. To address this issue, city authorities should introduce smarter lighting designs, install protective shields on lamps, and turn off decorative lights after midnight.",
+          "translation_b2": "Trong những năm gần đây, ánh sáng nhân tạo vào ban đêm đã phát triển nhanh chóng cùng với sự mở rộng của đô thị. Mặc dù đèn điện giúp các thành phố hiện đại an toàn hơn và hỗ trợ các hoạt động thương mại sau khi trời tối, việc chiếu sáng quá mức đã tạo ra một vấn đề môi trường nghiêm trọng được gọi là <strong>ô nhiễm ánh sáng</strong>. <strong>Bài luận này sẽ thảo luận về những nguyên nhân chính của vấn đề này và phân tích các tác động tiêu cực của nó đối với sức khỏe con người và môi trường.</strong>\n\nCó hai nguyên nhân chính dẫn đến ô nhiễm ánh sáng trong xã hội hiện đại. Thứ nhất, <strong><em>việc lắp đặt và sử dụng quá nhiều đèn đường công cộng là một nguyên nhân chính gây ô nhiễm ánh sáng.</em></strong> Tại nhiều thành phố, đèn đường thường có độ sáng cao và bật sáng suốt đêm ngay cả khi đường phố vắng người. Kết quả là, một lượng lớn ánh sáng nhân tạo chiếu thẳng lên bầu trời đêm, làm giảm bóng tối tự nhiên của các khu vực đô thị. Thêm vào đó, <strong><em>các tòa nhà thương mại và văn phòng cao tầng thường tiêu thụ lượng ánh sáng lớn vào ban đêm.</em></strong> Nhiều doanh nghiệp và trung tâm mua sắm vẫn để đèn bên trong bật sáng rất lâu sau khi hết giờ làm việc. Hơn nữa, các biển quảng cáo điện tử lớn và biển hiệu neon chói lọi dọc các tuyến đường phát ra ánh sáng gắt cho đến tận sáng sớm, tạo ra sự sáng chói không cần thiết trên khắp các khu dân cư.\n\nVấn đề lan rộng này dẫn đến một số hậu quả tiêu cực cho con người và tự nhiên. Tác động rõ ràng nhất là <strong><em>ô nhiễm ánh sáng ảnh hưởng tiêu cực đến chất lượng giấc ngủ và sức khỏe của cư dân đô thị.</em></strong> Việc tiếp xúc với ánh sáng nhân tạo mạnh vào ban đêm làm rối loạn đồng hồ sinh học tự nhiên và giảm sản xuất melatonin, một loại hormone cần thiết cho giấc ngủ ngon. Về lâu dài, tình trạng này gây ra chứng mất ngủ kinh niên, khiến con người cảm thấy mệt mỏi và căng thẳng vào ban ngày. Ngoài sức khỏe con người, <strong><em>ánh sáng nhân tạo vào ban đêm làm xáo trộn nghiêm trọng tập tính sống của nhiều loài động vật.</em></strong> Nhiều loài chim di cư dựa vào ánh sao để định hướng bị bối rối bởi ánh đèn thành phố và đâm vào các tòa nhà cao tầng. Đồng thời, việc duy trì hàng triệu bóng đèn không cần thiết gây lãng phí lượng điện khổng lồ được sản xuất từ nhiên liệu hóa thạch, làm tăng lượng khí thải carbon và tổn hại đến các hệ sinh thái địa phương.\n\nTóm lại, <strong>ô nhiễm ánh sáng</strong> chủ yếu bắt nguồn từ đèn đường không cần thiết, các tòa nhà thương mại quá sáng và các biển quảng cáo. Nó làm rối loạn chu kỳ giấc ngủ của con người, gây hại cho động vật hoang dã và dẫn đến sự lãng phí năng lượng đáng kể. Để giải quyết vấn đề này, chính quyền các thành phố nên áp dụng các thiết kế chiếu sáng thông minh hơn, lắp nắp che bảo vệ cho đèn và tắt đèn trang trí sau nửa đêm.",
           "vocab_step": {
             "theme": "Ô nhiễm ánh sáng (Light Pollution)",
-            "overview": "Hệ thống tổng hợp đầy đủ 36 từ đơn và 36 cụm từ liên kết (Collocations) chia đều theo chuẩn B1 và B2. Bao quát trọn vẹn 5 Nguyên nhân (Đèn đường, Tòa nhà thương mại, Biển quảng cáo, Hoạt động giải trí, Thiết kế kém) và 5 Hậu quả (Giấc ngủ con người, Động vật hoang dã, Khả năng quan sát các vì sao, Lãng phí năng lượng, Hệ sinh thái) từ sơ đồ tư duy Mindmap.",
+            "overview": "Hệ thống tổng hợp đầy đủ 36 từ đơn và 36 cụm từ liên kết (Collocations) chia đều theo chuẩn B1 và B2 vừa phải, tự nhiên, dễ áp dụng. Bao quát trọn vẹn 5 Nguyên nhân (Đèn đường, Tòa nhà thương mại, Biển quảng cáo, Hoạt động giải trí, Thiết kế kém) và 5 Hậu quả (Giấc ngủ con người, Động vật hoang dã, Khả năng quan sát các vì sao, Lãng phí năng lượng, Hệ sinh thái) từ sơ đồ tư duy Mindmap.",
             "single_words": [
               {
                 "word": "artificial",
@@ -26291,44 +26187,44 @@ const ESSAY_DATA = [
                 "example_vi": "Cảm biến chuyển động chỉ bật đèn ngoài trời khi có người đi ngang qua."
               },
               {
-                "word": "skyglow",
-                "ipa": "/ˈskaɪ.ɡləʊ/",
-                "pos": "noun",
+                "word": "excessive",
+                "ipa": "/ɪkˈses.ɪv/",
+                "pos": "adj",
                 "level": "B2",
-                "vi": "quầng sáng rực trời đô thị ban đêm",
-                "family": "glow (v/n)",
-                "example_en": "Artificial skyglow completely washes out celestial views for urban astronomers.",
-                "example_vi": "Vòm sáng nhân tạo xóa nhòa hoàn toàn tầm nhìn thiên thể đối với các nhà thiên văn học đô thị."
+                "vi": "quá mức, quá nhiều",
+                "family": "excess (n), excessively (adv)",
+                "example_en": "Excessive use of bright lights at night wastes energy.",
+                "example_vi": "Việc sử dụng quá mức đèn sáng vào ban đêm làm lãng phí năng lượng."
               },
               {
-                "word": "luminaire",
-                "ipa": "/ˌluː.mɪˈneər/",
+                "word": "illumination",
+                "ipa": "/ɪˌluː.mɪˈneɪ.ʃən/",
                 "pos": "noun",
                 "level": "B2",
-                "vi": "bộ đèn chiếu sáng hoàn chỉnh",
-                "family": "luminous (adj), illuminate (v)",
-                "example_en": "Installing fully shielded luminaires prevents upward light trespass.",
-                "example_vi": "Lắp đặt các bộ đèn có nắp che chắn hoàn toàn giúp ngăn chặn sự xâm lấn ánh sáng lên cao."
+                "vi": "sự chiếu sáng, nguồn ánh sáng tỏa ra",
+                "family": "illuminate (v)",
+                "example_en": "Bright illumination from shopping centers affects nearby houses.",
+                "example_vi": "Sự chiếu sáng rực rỡ từ các trung tâm mua sắm ảnh hưởng đến những ngôi nhà gần đó."
               },
               {
-                "word": "luminosity",
-                "ipa": "/ˌluː.mɪˈnɒs.ə.ti/",
-                "pos": "noun",
+                "word": "commercial",
+                "ipa": "/kəˈmɜː.ʃəl/",
+                "pos": "adj",
                 "level": "B2",
-                "vi": "độ chói, quang độ",
-                "family": "luminous (adj)",
-                "example_en": "Commercial LED billboards emit excessive luminosity, causing nighttime driver distraction.",
-                "example_vi": "Các biển quảng cáo LED thương mại phát ra độ chói quá mức, làm phân tâm người lái xe vào ban đêm."
+                "vi": "thuộc về thương mại, kinh doanh",
+                "family": "commerce (n), commercially (adv)",
+                "example_en": "Commercial buildings often keep their lights on after working hours.",
+                "example_vi": "Các tòa nhà thương mại thường để đèn sáng sau giờ làm việc."
               },
               {
-                "word": "spillage",
-                "ipa": "/ˈspɪl.ɪdʒ/",
+                "word": "orientation",
+                "ipa": "/ˌɔː.ri.enˈteɪ.ʃən/",
                 "pos": "noun",
                 "level": "B2",
-                "vi": "sự thất thoát, rò rỉ ánh sáng ra ngoài phạm vi",
-                "family": "spill (v/n)",
-                "example_en": "Poor fixture design results in substantial light spillage into neighboring habitats.",
-                "example_vi": "Thiết kế đèn kém dẫn đến sự thất thoát ánh sáng đáng kể vào các môi trường sống lân cận."
+                "vi": "sự định hướng, phương hướng di chuyển",
+                "family": "orient (v), disorient (v)",
+                "example_en": "Birds lose their orientation when flying near brightly lit cities.",
+                "example_vi": "Chim mất phương hướng khi bay gần các thành phố rực sáng."
               },
               {
                 "word": "melatonin",
@@ -26336,139 +26232,139 @@ const ESSAY_DATA = [
                 "pos": "noun",
                 "level": "B2",
                 "vi": "hormone melatonin điều hòa giấc ngủ",
-                "family": "hormonal (adj)",
-                "example_en": "Blue wavelength light severely suppresses nocturnal melatonin production.",
-                "example_vi": "Ánh sáng bước sóng xanh ức chế nghiêm trọng sự sản sinh melatonin vào ban đêm."
+                "family": "hormone (n)",
+                "example_en": "Blue light from electronic screens reduces natural melatonin production.",
+                "example_vi": "Ánh sáng xanh từ màn hình điện tử làm giảm sự sản sinh melatonin tự nhiên."
               },
               {
-                "word": "circadian",
-                "ipa": "/sɜːˈkeɪ.di.ən/",
-                "pos": "adj",
-                "level": "B2",
-                "vi": "thuộc nhịp sinh học ngày đêm (24 giờ)",
-                "family": "rhythm (n)",
-                "example_en": "Exposure to bright screens after sunset disrupts internal circadian clocks.",
-                "example_vi": "Việc tiếp xúc với màn hình sáng sau khi mặt trời lặn làm xáo trộn đồng hồ sinh học ngày đêm bên trong cơ thể."
-              },
-              {
-                "word": "anthropogenic",
-                "ipa": "/ˌæn.θrə.pəˈdʒen.ɪk/",
-                "pos": "adj",
-                "level": "B2",
-                "vi": "do con người gây ra (nhân tạo)",
-                "family": "anthropology (n)",
-                "example_en": "Anthropogenic sky brightening has increased dramatically across industrialized nations.",
-                "example_vi": "Hiện tượng sáng trời do con người gây ra đã tăng lên đáng kể trên khắp các quốc gia công nghiệp hóa."
-              },
-              {
-                "word": "unshielded",
-                "ipa": "/ʌnˈʃiːl.dɪd/",
-                "pos": "adj",
-                "level": "B2",
-                "vi": "không được che chắn, để hở hướng chiếu",
-                "family": "shield (n/v)",
-                "example_en": "Unshielded globes cast up to half of their light uselessly into the atmosphere.",
-                "example_vi": "Các bóng đèn tròn không có nắp che phát tán tới một nửa lượng ánh sáng một cách vô ích vào bầu khí quyển."
-              },
-              {
-                "word": "proliferation",
-                "ipa": "/prəˌlɪf.ərˈeɪ.ʃən/",
+                "word": "disturbance",
+                "ipa": "/dɪˈstɜː.bəns/",
                 "pos": "noun",
                 "level": "B2",
-                "vi": "sự sinh sôi, gia tăng nhanh chóng",
-                "family": "proliferate (v)",
-                "example_en": "The rapid proliferation of digital advertisement screens worsens urban light pollution.",
-                "example_vi": "Sự gia tăng nhanh chóng của các màn hình quảng cáo kỹ thuật số làm trầm trọng thêm ô nhiễm ánh sáng đô thị."
+                "vi": "sự xáo trộn, sự quấy rầy",
+                "family": "disturb (v), disturbed (adj)",
+                "example_en": "Bright nighttime light causes severe disturbance to animal habitats.",
+                "example_vi": "Ánh sáng ban đêm gây ra sự xáo trộn nghiêm trọng đối với môi trường sống của động vật."
               },
               {
-                "word": "celestial",
-                "ipa": "/sɪˈles.ti.əl/",
-                "pos": "adj",
-                "level": "B2",
-                "vi": "thuộc về bầu trời, thiên thể",
-                "family": "celestially (adv)",
-                "example_en": "Many city dwellers have lost their cultural connection to celestial wonders.",
-                "example_vi": "Nhiều cư dân thành phố đã mất đi mối liên kết văn hóa với các kỳ quan thiên thể."
-              },
-              {
-                "word": "astronomy",
-                "ipa": "/əˈstrɒn.ə.mi/",
-                "pos": "noun",
-                "level": "B2",
-                "vi": "thiên văn học",
-                "family": "astronomical (adj), astronomer (n)",
-                "example_en": "Ground-based astronomy relies heavily on pristine, unpolluted dark skies.",
-                "example_vi": "Thiên văn học mặt đất phụ thuộc rất lớn vào bầu trời đêm nguyên sơ, không bị ô nhiễm."
-              },
-              {
-                "word": "phenology",
-                "ipa": "/fɪˈnɒl.ə.dʒi/",
-                "pos": "noun",
-                "level": "B2",
-                "vi": "chu kỳ sinh học theo mùa (thời điểm ra hoa, sinh sản)",
-                "family": "phenological (adj)",
-                "example_en": "Perpetual illumination disrupts the reproductive phenology of nocturnal amphibians.",
-                "example_vi": "Chiếu sáng liên tục làm gián đoạn chu kỳ sinh sản theo mùa của các loài lưỡng cư hoạt động ban đêm."
-              },
-              {
-                "word": "pollination",
-                "ipa": "/ˌpɒl.ɪˈneɪ.ʃən/",
-                "pos": "noun",
-                "level": "B2",
-                "vi": "sự thụ phấn của thực vật",
-                "family": "pollinate (v), pollinator (n)",
-                "example_en": "Moths and nocturnal beetles play crucial roles in nocturnal plant pollination.",
-                "example_vi": "Bướm đêm và bọ cánh cứng đóng vai trò then chốt trong quá trình thụ phấn cho cây vào ban đêm."
-              },
-              {
-                "word": "profligate",
-                "ipa": "/ˈprɒf.lɪ.ɡət/",
-                "pos": "adj",
-                "level": "B2",
-                "vi": "hoang phí, tiêu xài phung phí không kiểm soát",
-                "family": "profligacy (n)",
-                "example_en": "Profligate consumption of electricity for decorative lighting inflates carbon emissions.",
-                "example_vi": "Việc tiêu thụ điện hoang phí cho chiếu sáng trang trí làm gia tăng lượng phát thải carbon."
-              },
-              {
-                "word": "decimate",
-                "ipa": "/ˈdes.ɪ.meɪt/",
+                "word": "hinder",
+                "ipa": "/ˈhɪn.dər/",
                 "pos": "verb",
                 "level": "B2",
-                "vi": "tàn sát, làm suy giảm nghiêm trọng số lượng",
-                "family": "decimation (n)",
-                "example_en": "Lethal building collisions decimate millions of migratory songbirds annually.",
-                "example_vi": "Các vụ va chạm chết người vào nhà cao tầng làm suy giảm nghiêm trọng hàng triệu cá thể chim biết hót di cư hàng năm."
+                "vi": "cản trở, gây khó khăn cho",
+                "family": "hindrance (n)",
+                "example_en": "City light pollution hinders scientists from studying distant stars.",
+                "example_vi": "Ô nhiễm ánh sáng đô thị cản trở các nhà khoa học nghiên cứu các ngôi sao ở xa."
               },
               {
-                "word": "glare",
-                "ipa": "/ɡleər/",
-                "pos": "noun / verb",
+                "word": "astronomical",
+                "ipa": "/ˌæs.trəˈnɒm.ɪ.kəl/",
+                "pos": "adj",
                 "level": "B2",
-                "vi": "ánh sáng chói lóa làm lóa mắt",
-                "family": "glaring (adj)",
-                "example_en": "Intense architectural glare impairs visual acuity and endangers night drivers.",
-                "example_vi": "Ánh sáng kiến trúc chói lóa làm suy giảm thị lực và gây nguy hiểm cho người lái xe ban đêm."
+                "vi": "thuộc về thiên văn học",
+                "family": "astronomy (n), astronomer (n)",
+                "example_en": "Astronomical observatories are usually built far away from city lights.",
+                "example_vi": "Các đài quan sát thiên văn thường được xây dựng xa ánh đèn thành phố."
               },
               {
-                "word": "clutter",
-                "ipa": "/ˈklʌt.ər/",
-                "pos": "noun / verb",
-                "level": "B2",
-                "vi": "sự lộn xộn, rối loạn quang học do quá nhiều nguồn sáng",
-                "family": "cluttered (adj)",
-                "example_en": "Excessive groupings of bright urban lights generate hazardous visual clutter.",
-                "example_vi": "Các cụm đèn đô thị sáng quá mức tạo ra sự lộn xộn thị giác đầy nguy hiểm."
-              },
-              {
-                "word": "biome",
-                "ipa": "/ˈbaɪ.əʊm/",
+                "word": "consumption",
+                "ipa": "/kənˈsʌmp.ʃən/",
                 "pos": "noun",
                 "level": "B2",
-                "vi": "quần xã sinh vật, hệ sinh cảnh",
-                "family": "biomass (n)",
-                "example_en": "Artificial night lighting penetrates deep into coastal and forest biomes.",
-                "example_vi": "Ánh sáng nhân tạo ban đêm xâm nhập sâu vào các quần xã sinh vật ven biển và rừng rậm."
+                "vi": "sự tiêu thụ, mức tiêu thụ điện năng",
+                "family": "consume (v), consumer (n)",
+                "example_en": "High electricity consumption for streetlights raises city expenses.",
+                "example_vi": "Mức tiêu thụ điện cao cho đèn đường làm tăng chi phí của thành phố."
+              },
+              {
+                "word": "emission",
+                "ipa": "/iˈmɪʃ.ən/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự phát thải khí thải ra môi trường",
+                "family": "emit (v)",
+                "example_en": "Wasting energy from coal power stations increases carbon emissions.",
+                "example_vi": "Lãng phí năng lượng từ các nhà máy nhiệt điện than làm tăng lượng khí phát thải carbon."
+              },
+              {
+                "word": "fixture",
+                "ipa": "/ˈfɪks.tʃər/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "bộ đèn chiếu sáng cố định",
+                "family": "fix (v)",
+                "example_en": "Replacing old fixtures with shielded ones reduces light pollution.",
+                "example_vi": "Thay thế các bộ đèn cũ bằng loại có nắp che giúp giảm ô nhiễm ánh sáng."
+              },
+              {
+                "word": "regulation",
+                "ipa": "/ˌreɡ.jəˈleɪ.ʃən/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "quy định, luật lệ điều chỉnh",
+                "family": "regulate (v), regulatory (adj)",
+                "example_en": "Cities should enforce strict regulations on nighttime advertising signs.",
+                "example_vi": "Các thành phố nên thực thi các quy định nghiêm ngặt đối với biển hiệu quảng cáo ban đêm."
+              },
+              {
+                "word": "imbalance",
+                "ipa": "/ɪmˈbæl.əns/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sự mất cân bằng",
+                "family": "balanced (adj), balance (n/v)",
+                "example_en": "Excessive lighting creates an ecological imbalance in local parks.",
+                "example_vi": "Ánh sáng quá mức tạo ra sự mất cân bằng sinh thái trong các công viên địa phương."
+              },
+              {
+                "word": "pollinator",
+                "ipa": "/ˈpɒl.ɪ.neɪ.tər/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "sinh vật thụ phấn (ong, bướm, côn trùng)",
+                "family": "pollinate (v), pollination (n)",
+                "example_en": "Nocturnal moths are important pollinators for many wild flowers.",
+                "example_vi": "Bướm đêm là những sinh vật thụ phấn quan trọng đối với nhiều loài hoa dại."
+              },
+              {
+                "word": "efficiency",
+                "ipa": "/ɪˈfɪʃ.ən.si/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "hiệu suất, tính hiệu quả tiết kiệm năng lượng",
+                "family": "efficient (adj), efficiently (adv)",
+                "example_en": "Improving energy efficiency in public lighting saves taxpayer money.",
+                "example_vi": "Cải thiện hiệu quả năng lượng trong chiếu sáng công cộng giúp tiết kiệm tiền thuế của người dân."
+              },
+              {
+                "word": "habitat",
+                "ipa": "/ˈhæb.ɪ.tæt/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "môi trường sống tự nhiên của sinh vật",
+                "family": "habitation (n)",
+                "example_en": "Artificial lights invade the natural habitat of nocturnal animals.",
+                "example_vi": "Ánh sáng nhân tạo xâm lấn vào môi trường sống tự nhiên của động vật ăn đêm."
+              },
+              {
+                "word": "consequence",
+                "ipa": "/ˈkɒn.sɪ.kwəns/",
+                "pos": "noun",
+                "level": "B2",
+                "vi": "hậu quả, hệ quả",
+                "family": "consequent (adj), consequently (adv)",
+                "example_en": "Sleep deprivation is a serious consequence of urban light pollution.",
+                "example_vi": "Thiếu ngủ là một hậu quả nghiêm trọng của ô nhiễm ánh sáng đô thị."
+              },
+              {
+                "word": "prolonged",
+                "ipa": "/prəˈlɒŋd/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "kéo dài, trong thời gian dài",
+                "family": "prolong (v)",
+                "example_en": "Prolonged exposure to artificial light disrupts natural sleep rhythms.",
+                "example_vi": "Việc tiếp xúc kéo dài với ánh sáng nhân tạo làm rối loạn nhịp giấc ngủ tự nhiên."
               }
             ],
             "collocation_groups": [
@@ -26521,46 +26417,46 @@ const ESSAY_DATA = [
                     "example": "Most old streetlamps use unshielded light fixtures that scatter light horizontally."
                   },
                   {
-                    "en": "proliferation of overpowered streetlights",
+                    "en": "excessive street lighting",
                     "type": "n.phr",
                     "level": "B2",
-                    "vi": "sự gia tăng nhanh chóng các bóng đèn đường công suất quá mức",
-                    "example": "The proliferation of overpowered streetlights represents a major catalyst for artificial skyglow."
+                    "vi": "việc sử dụng quá nhiều đèn đường",
+                    "example": "Excessive street lighting in residential neighborhoods reduces natural nighttime darkness."
                   },
                   {
-                    "en": "redundant commercial illumination",
+                    "en": "high brightness levels",
                     "type": "n.phr",
                     "level": "B2",
-                    "vi": "sự chiếu sáng thương mại dư thừa và lãng phí",
-                    "example": "Redundant commercial illumination continues to beam out of unoccupied shopping malls."
+                    "vi": "mức độ sáng cao",
+                    "example": "Commercial signs with high brightness levels can distract drivers on highways."
                   },
                   {
-                    "en": "illuminated commercial signage",
-                    "type": "n.phr",
-                    "level": "B2",
-                    "vi": "biển hiệu thương mại chiếu sáng cường độ cao",
-                    "example": "Unregulated illuminated commercial signage creates optical saturation across urban avenues."
-                  },
-                  {
-                    "en": "radiate luminous flux upwards",
+                    "en": "emit intense glare",
                     "type": "v.phr",
                     "level": "B2",
-                    "vi": "phát tán quang thông lên tầng khí quyển",
-                    "example": "Sub-optimal lamp housings radiate luminous flux upwards into the lower atmosphere."
+                    "vi": "phát ra ánh sáng chói lóa gay gắt",
+                    "example": "Uncovered outdoor bulbs emit intense glare that hurts pedestrians' eyes."
                   },
                   {
-                    "en": "lack adaptive dimming mechanisms",
+                    "en": "lack protective shields",
                     "type": "v.phr",
                     "level": "B2",
-                    "vi": "thiếu vắng các cơ chế điều chỉnh độ sáng thích ứng",
-                    "example": "Outdated municipal lighting networks lack adaptive dimming mechanisms during late hours."
+                    "vi": "thiếu nắp che chắn bảo vệ hướng sáng",
+                    "example": "Many streetlights lack protective shields, causing light to spread into the night sky."
                   },
                   {
-                    "en": "unrestricted light spillage",
-                    "type": "n.phr",
+                    "en": "install motion sensors",
+                    "type": "v.phr",
                     "level": "B2",
-                    "vi": "sự thất thoát ánh sáng không bị kiểm soát",
-                    "example": "Transparent glass architecture causes unrestricted light spillage into sensitive nature reserves."
+                    "vi": "lắp đặt các cảm biến chuyển động",
+                    "example": "Offices should install motion sensors to turn off lights when rooms are empty."
+                  },
+                  {
+                    "en": "brighten the surrounding area",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "làm sáng rực cả khu vực xung quanh",
+                    "example": "Nighttime sports venues brighten the surrounding area for miles around."
                   }
                 ]
               },
@@ -26606,39 +26502,39 @@ const ESSAY_DATA = [
                     "example": "Excessive night lighting increases municipal electricity bills and carbon emissions."
                   },
                   {
-                    "en": "nocturnal light intrusion",
-                    "type": "n.phr",
-                    "level": "B2",
-                    "vi": "sự xâm nhập của ánh sáng nhân tạo vào ban đêm",
-                    "example": "Nocturnal light intrusion into residential bedrooms constitutes a recognized public health hazard."
-                  },
-                  {
-                    "en": "suppress melatonin secretion",
+                    "en": "reduce sleep quality",
                     "type": "v.phr",
                     "level": "B2",
-                    "vi": "ức chế quá trình tiết hormone melatonin của cơ thể",
-                    "example": "Blue LED light emitted by outdoor installations suppresses melatonin secretion in the brain."
+                    "vi": "làm suy giảm chất lượng giấc ngủ",
+                    "example": "Artificial lights shining into bedrooms can significantly reduce sleep quality."
                   },
                   {
-                    "en": "disrupt circadian rhythms",
+                    "en": "reduce the production of melatonin",
                     "type": "v.phr",
                     "level": "B2",
-                    "vi": "phá vỡ nhịp sinh học ngày đêm của cơ thể",
-                    "example": "Shift workers constantly exposed to artificial lighting suffer disrupted circadian rhythms."
+                    "vi": "làm giảm sự tiết hormone melatonin",
+                    "example": "Exposure to bright LED lights at night reduces the production of melatonin in the body."
                   },
                   {
-                    "en": "profligate energy consumption",
-                    "type": "n.phr",
-                    "level": "B2",
-                    "vi": "sự tiêu thụ năng lượng phung phí không kiểm soát",
-                    "example": "Profligate energy consumption from unshielded fixtures squanders millions of kilowatt-hours annually."
-                  },
-                  {
-                    "en": "escalate carbon footprints",
+                    "en": "feel tired and less productive",
                     "type": "v.phr",
                     "level": "B2",
-                    "vi": "làm gia tăng đáng kể dấu chân carbon",
-                    "example": "Generating coal-powered electricity for unwanted illumination escalates national carbon footprints."
+                    "vi": "cảm thấy mệt mỏi và kém năng suất làm việc",
+                    "example": "People who lack deep sleep often feel tired and less productive at work."
+                  },
+                  {
+                    "en": "generated from fossil fuels",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "được sản xuất từ nhiên liệu hóa thạch",
+                    "example": "Most electricity used for outdoor lighting is still generated from fossil fuels."
+                  },
+                  {
+                    "en": "increase greenhouse gas emissions",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "làm gia tăng phát thải khí nhà kính",
+                    "example": "Wasting electricity on unneeded illumination increases greenhouse gas emissions."
                   }
                 ]
               },
@@ -26684,39 +26580,39 @@ const ESSAY_DATA = [
                     "example": "Millions of insects die near light bulbs, which harms the natural food chain."
                   },
                   {
-                    "en": "chronically disorient migratory species",
+                    "en": "disrupt natural behaviors",
                     "type": "v.phr",
                     "level": "B2",
-                    "vi": "làm mất phương hướng mãn tính các loài sinh vật di cư",
-                    "example": "Bright city horizons chronically disorient migratory species relying on celestial navigation."
+                    "vi": "làm xáo trộn các tập tính sinh hoạt tự nhiên",
+                    "example": "Continuous artificial lighting disrupts natural behaviors of nocturnal birds and mammals."
                   },
                   {
-                    "en": "fatal building collisions",
-                    "type": "n.phr",
-                    "level": "B2",
-                    "vi": "những vụ va chạm chết người vào nhà cao tầng",
-                    "example": "Light-induced fatal building collisions claim an estimated hundreds of millions of birds each year."
-                  },
-                  {
-                    "en": "destabilize ecological equilibria",
+                    "en": "rely on starlight for navigation",
                     "type": "v.phr",
                     "level": "B2",
-                    "vi": "làm mất ổn định các trạng thái cân bằng sinh thái",
-                    "example": "Artificial lighting can destabilize ecological equilibria by disrupting nocturnal pollination."
+                    "vi": "dựa vào ánh sao để định hướng di chuyển",
+                    "example": "Migratory songbirds rely on starlight for navigation during their seasonal journeys."
                   },
                   {
-                    "en": "obliterate celestial viewscapes",
+                    "en": "create an ecological imbalance",
                     "type": "v.phr",
                     "level": "B2",
-                    "vi": "xóa nhòa hoàn toàn các khung cảnh bầu trời thiên thể",
-                    "example": "Artificial skyglow threatens to obliterate celestial viewscapes for prospective generations."
+                    "vi": "tạo ra sự mất cân bằng sinh thái",
+                    "example": "The death of nocturnal insects creates an ecological imbalance in local environments."
                   },
                   {
-                    "en": "cripple ground-based optical astronomy",
+                    "en": "hinder astronomical studies",
                     "type": "v.phr",
                     "level": "B2",
-                    "vi": "làm tê liệt ngành thiên văn học quang học mặt đất",
-                    "example": "Optical noise from urban sprawl threatens to cripple ground-based optical astronomy completely."
+                    "vi": "cản trở các nghiên cứu thiên văn học",
+                    "example": "City skyglow hinders astronomical studies by obscuring distant galaxies."
+                  },
+                  {
+                    "en": "relocate research stations",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "vi": "di dời các trạm nghiên cứu (thiên văn)",
+                    "example": "Astronomers are forced to relocate research stations to remote desert areas."
                   }
                 ]
               },
@@ -26755,32 +26651,32 @@ const ESSAY_DATA = [
                     "example": "Dimming streetlights late at night saves money and protects migrating wildlife."
                   },
                   {
-                    "en": "mandate fully shielded luminaires",
+                    "en": "introduce smarter lighting designs",
                     "type": "v.phr",
                     "level": "B2",
-                    "vi": "bắt buộc sử dụng các bộ đèn có nắp che chắn hoàn toàn",
-                    "example": "Urban planning authorities should mandate fully shielded luminaires for all new developments."
+                    "vi": "áp dụng các thiết kế chiếu sáng thông minh hơn",
+                    "example": "Municipal councils should introduce smarter lighting designs to minimize energy waste."
                   },
                   {
-                    "en": "enforce nocturnal lighting regulations",
+                    "en": "enforce strict regulations",
                     "type": "v.phr",
                     "level": "B2",
-                    "vi": "thực thi nghiêm ngặt các quy định chiếu sáng ban đêm",
-                    "example": "Governments must enforce nocturnal lighting regulations to curb commercial billboards."
+                    "vi": "thực thi các quy định nghiêm ngặt",
+                    "example": "Governments must enforce strict regulations on commercial billboards after midnight."
                   },
                   {
-                    "en": "establish dark-sky reserves",
+                    "en": "install protective shields on lamps",
                     "type": "v.phr",
                     "level": "B2",
-                    "vi": "thành lập các khu bảo tồn bầu trời đêm nguyên sơ",
-                    "example": "Designating international dark-sky reserves preserves natural nocturnal biomes and astronomical heritage."
+                    "vi": "lắp nắp chụp bảo vệ trên các cột đèn",
+                    "example": "Installing protective shields on lamps directs light downward where it is needed most."
                   },
                   {
-                    "en": "adopt smart adaptive dimming schedules",
+                    "en": "turn off decorative lights after midnight",
                     "type": "v.phr",
                     "level": "B2",
-                    "vi": "áp dụng các lịch trình giảm độ sáng thích ứng thông minh",
-                    "example": "Municipalities can slash emissions by adopting smart adaptive dimming schedules during off-peak hours."
+                    "vi": "tắt đèn trang trí sau nửa đêm",
+                    "example": "Businesses are encouraged to turn off decorative lights after midnight to save energy."
                   }
                 ]
               }
@@ -26813,67 +26709,67 @@ const ESSAY_DATA = [
               "example": "Light pollution makes it difficult to see stars in urban areas."
             },
             {
-              "word": "skyglow",
-              "phonetic": "/ˈskaɪɡləʊ/",
-              "meaning_vi": "vòm sáng rực trời đêm",
-              "explanation": "Quầng sáng bao trùm bầu trời đêm phía trên các thành phố lớn do ánh sáng nhân tạo tán xạ.",
-              "example": "Artificial skyglow hides constellations from millions of city dwellers."
+              "word": "artificial lighting",
+              "phonetic": "/ˌɑːtɪˈfɪʃl ˈlaɪtɪŋ/",
+              "meaning_vi": "hệ thống chiếu sáng nhân tạo",
+              "explanation": "Nguồn ánh sáng do con người tạo ra từ đèn điện, biển hiệu và các tòa nhà.",
+              "example": "Cities rely heavily on artificial lighting for security and night commerce."
             },
             {
-              "word": "unshielded luminaire",
-              "phonetic": "/ʌnˈʃiːldɪd ˌluːmɪˈneə/",
-              "meaning_vi": "bộ đèn chiếu sáng không có nắp che",
-              "explanation": "Thiết bị đèn phát ánh sáng sang hai bên và lên trời thay vì tập trung xuống mặt đường.",
-              "example": "Unshielded luminaires waste electricity and create dangerous glare."
+              "word": "excessive brightness",
+              "phonetic": "/ɪkˈsesɪv ˈbraɪtnəs/",
+              "meaning_vi": "độ sáng quá mức",
+              "explanation": "Mức độ sáng vượt quá mức cần thiết, gây chói mắt và lãng phí điện.",
+              "example": "Excessive brightness from commercial billboards can distract nighttime drivers."
             },
             {
-              "word": "melatonin suppression",
-              "phonetic": "/ˌmeləˈtəʊnɪn səˈpreʃn/",
-              "meaning_vi": "sự ức chế tiết hormone melatonin",
-              "explanation": "Hiện tượng ánh sáng nhân tạo ngăn cản cơ thể tiết ra hormone điều hòa giấc ngủ tự nhiên.",
-              "example": "Melatonin suppression caused by night lighting leads to severe insomnia."
+              "word": "melatonin production",
+              "phonetic": "/ˌmeləˈtəʊnɪn prəˈdʌkʃn/",
+              "meaning_vi": "sự sản sinh hormone melatonin",
+              "explanation": "Quá trình cơ thể tạo ra hormone tự nhiên giúp kiểm soát giấc ngủ vào ban đêm.",
+              "example": "Bright lights at night reduce natural melatonin production in the human body."
             },
             {
-              "word": "circadian rhythm",
-              "phonetic": "/sɜːˈkeɪdiən ˈrɪðəm/",
-              "meaning_vi": "nhịp sinh học ngày đêm",
-              "explanation": "Chu kỳ sinh học 24 giờ tự nhiên điều chỉnh chu kỳ thức ngủ và chuyển hóa của cơ thể.",
-              "example": "Disrupting the circadian rhythm increases the risk of chronic illnesses."
+              "word": "natural body clock",
+              "phonetic": "/ˈnætʃrəl ˈbɒdi klɒk/",
+              "meaning_vi": "đồng hồ sinh học tự nhiên",
+              "explanation": "Cơ chế sinh học tự nhiên điều hòa chu kỳ thức ngủ 24 giờ của con người.",
+              "example": "Disrupting the natural body clock leads to tiredness and health problems."
             },
             {
-              "word": "migratory disorientation",
-              "phonetic": "/ˈmaɪɡrətri dɪsˌɔːriənˈteɪʃn/",
-              "meaning_vi": "sự mất phương hướng khi di cư",
-              "explanation": "Tình trạng chim hoặc sinh vật di cư bị ánh sáng đô thị làm lạc đường và gặp nguy hiểm.",
-              "example": "Migratory disorientation causes thousands of birds to collide with skyscrapers."
+              "word": "migratory birds",
+              "phonetic": "/ˈmaɪɡrətri bɜːdz/",
+              "meaning_vi": "các loài chim di cư",
+              "explanation": "Các loài chim di chuyển theo mùa giữa các vùng địa lý khác nhau.",
+              "example": "Migratory birds often lose their direction when flying over bright cities."
             },
             {
-              "word": "optical spillage",
-              "phonetic": "/ˈɒptɪkl ˈspɪlɪdʒ/",
-              "meaning_vi": "sự thất thoát quang học",
-              "explanation": "Ánh sáng chiếu sai vị trí, tràn ra ngoài khu vực cần chiếu sáng và gây ô nhiễm xung quanh.",
-              "example": "Proper shielding prevents optical spillage into neighboring natural habitats."
+              "word": "shielded fixtures",
+              "phonetic": "/ˈʃiːldɪd ˈfɪkstʃəz/",
+              "meaning_vi": "các bộ đèn có nắp che chắn",
+              "explanation": "Thiết bị đèn có nắp đậy phía trên để ánh sáng chỉ chiếu xuống dưới mặt đất.",
+              "example": "Installing shielded fixtures prevents light from shining uselessly into the sky."
             },
             {
-              "word": "nocturnal biome",
-              "phonetic": "/nɒkˈtɜːnl ˈbaɪəʊm/",
-              "meaning_vi": "quần xã sinh vật hoạt động ban đêm",
-              "explanation": "Môi trường sống của các loài động vật hoang dã thích nghi và hoạt động trong bóng tối.",
-              "example": "Artificial lighting drastically alters predator behavior within the nocturnal biome."
+              "word": "astronomical studies",
+              "phonetic": "/ˌæstrəˈnɒmɪkl ˈstʌdiz/",
+              "meaning_vi": "các nghiên cứu thiên văn học",
+              "explanation": "Các hoạt động nghiên cứu khoa học về các ngôi sao, hành tinh và vũ trụ.",
+              "example": "Light pollution makes astronomical studies very difficult near populated areas."
             },
             {
-              "word": "profligate energy waste",
-              "phonetic": "/ˈprɒflɪɡət ˈenədʒi weɪst/",
-              "meaning_vi": "sự lãng phí năng lượng phung phí",
-              "explanation": "Việc sử dụng năng lượng không cần thiết trên quy mô lớn, làm tăng chi phí và phát thải khí carbon.",
-              "example": "Leaving commercial lights on all night is a clear sign of profligate energy waste."
+              "word": "energy waste",
+              "phonetic": "/ˈenədʒi weɪst/",
+              "meaning_vi": "sự lãng phí năng lượng",
+              "explanation": "Việc tiêu tốn điện năng cho các mục đích không thực sự cần thiết.",
+              "example": "Leaving lights on in empty office towers is a major source of energy waste."
             },
             {
-              "word": "dark-sky reserve",
-              "phonetic": "/dɑːk skaɪ rɪˈzɜːv/",
-              "meaning_vi": "khu bảo tồn bầu trời đêm",
-              "explanation": "Khu vực tự nhiên được bảo vệ đặc biệt khỏi ánh sáng nhân tạo để phục vụ thiên văn và bảo tồn.",
-              "example": "Scientists travel to designated dark-sky reserves to study deep-space galaxies."
+              "word": "ecological imbalance",
+              "phonetic": "/ˌiːkəˈlɒdʒɪkl ɪmˈbæləns/",
+              "meaning_vi": "sự mất cân bằng sinh thái",
+              "explanation": "Tình trạng chuỗi thức ăn và đời sống các loài sinh vật tự nhiên bị xáo trộn.",
+              "example": "The decline of nocturnal insects can cause an ecological imbalance in local parks."
             }
           ]
         }
