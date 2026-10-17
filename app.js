@@ -1,3 +1,37 @@
+
+// --- Mindmap Dual Language Switcher ---
+let currentMindmapLang = 'vi';
+
+function switchMindmapLang(lang) {
+  currentMindmapLang = lang;
+  const imgEl = document.getElementById('active-mindmap-img');
+  const btnVi = document.getElementById('btn-mindmap-vi');
+  const btnEn = document.getElementById('btn-mindmap-en');
+  if (!currentTopic || !currentTopic.details) return;
+  const targetSrc = (lang === 'en' && currentTopic.details.mindmap_img_en) ? currentTopic.details.mindmap_img_en : currentTopic.details.mindmap_img;
+  if (imgEl) imgEl.src = targetSrc;
+  if (btnVi && btnEn) {
+    if (lang === 'en') {
+      btnEn.style.background = 'var(--accent-primary)';
+      btnEn.style.color = '#fff';
+      btnVi.style.background = 'transparent';
+      btnVi.style.color = 'var(--text-secondary)';
+    } else {
+      btnVi.style.background = 'var(--accent-primary)';
+      btnVi.style.color = '#fff';
+      btnEn.style.background = 'transparent';
+      btnEn.style.color = 'var(--text-secondary)';
+    }
+  }
+}
+
+function openActiveMindmapModal() {
+  if (!currentTopic || !currentTopic.details) return;
+  const targetSrc = (currentMindmapLang === 'en' && currentTopic.details.mindmap_img_en) ? currentTopic.details.mindmap_img_en : currentTopic.details.mindmap_img;
+  const title = (currentMindmapLang === 'en') ? `Mindmap: ${currentTopic.title_en}` : `Sơ đồ tư duy: ${currentTopic.title_vi || currentTopic.title_en}`;
+  openMindmapModal(targetSrc, title);
+}
+
 // State Management
 let currentScreen = 'dashboard';
 let currentCategory = null;
@@ -6641,13 +6675,21 @@ function renderStep1Reading() {
 
     ${(topic.details && topic.details.mindmap_img) ? `
       <div class="reading-section-card">
-        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem;">
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem; flex-wrap: wrap; gap: 0.5rem;">
           <h3 style="margin-bottom: 0;">Sơ đồ tư duy mở rộng (Mindmap)</h3>
-          <span style="font-size: 0.8rem; background: rgba(99, 102, 241, 0.15); color: var(--primary); padding: 4px 10px; border-radius: 999px; font-weight: 700;">5 LỰA CHỌN Ý TƯỞNG</span>
+          <div style="display: flex; gap: 0.5rem; align-items: center;">
+            ${topic.details.mindmap_img_en ? `
+              <div class="mindmap-lang-switcher" style="display: inline-flex; background: var(--bg-primary); border: 1px solid var(--panel-border); border-radius: 999px; padding: 2px;">
+                <button type="button" class="btn-mindmap-tab active" id="btn-mindmap-vi" style="border: none; background: var(--accent-primary); color: #fff; padding: 3px 12px; border-radius: 999px; font-size: 0.75rem; font-weight: 700; cursor: pointer;" onclick="switchMindmapLang('vi')">🇻🇳 Tiếng Việt</button>
+                <button type="button" class="btn-mindmap-tab" id="btn-mindmap-en" style="border: none; background: transparent; color: var(--text-secondary); padding: 3px 12px; border-radius: 999px; font-size: 0.75rem; font-weight: 700; cursor: pointer;" onclick="switchMindmapLang('en')">🇬🇧 English</button>
+              </div>
+            ` : ''}
+            <span style="font-size: 0.8rem; background: rgba(99, 102, 241, 0.15); color: var(--primary); padding: 4px 10px; border-radius: 999px; font-weight: 700;">5 LỰA CHỌN Ý TƯỞNG</span>
+          </div>
         </div>
-        <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.75rem;">Học viên có thể tham khảo sơ đồ tư duy dưới đây để tự do lựa chọn các ý mình muốn đưa vào bài viết:</p>
-        <div style="text-align: center; background: #fff; padding: 10px; border-radius: var(--radius-sm); border: 1px solid var(--panel-border); cursor: pointer;" onclick="openMindmapModal('${topic.details.mindmap_img}', 'Sơ đồ tư duy: ${topic.title_vi || topic.title_en}')">
-          <img src="${topic.details.mindmap_img}" alt="Mindmap" style="max-width: 100%; max-height: 480px; object-fit: contain; border-radius: var(--radius-sm);" title="Bấm vào để phóng to">
+        <p style="font-size: 0.85rem; color: var(--text-secondary); margin-bottom: 0.75rem;">Học viên có thể tham khảo sơ đồ tư duy dưới đây (bản Tiếng Việt & Tiếng Anh) để tự do lựa chọn các ý mình muốn đưa vào bài viết:</p>
+        <div style="text-align: center; background: #fff; padding: 10px; border-radius: var(--radius-sm); border: 1px solid var(--panel-border); cursor: pointer;" onclick="openActiveMindmapModal()">
+          <img id="active-mindmap-img" src="${topic.details.mindmap_img}" alt="Mindmap" style="max-width: 100%; max-height: 480px; object-fit: contain; border-radius: var(--radius-sm);" title="Bấm vào để phóng to">
           <div style="margin-top: 8px; font-size: 0.8rem; color: #64748b; font-weight: 600;">🔍 Bấm vào ảnh để xem kích thước lớn</div>
         </div>
       </div>
@@ -6851,10 +6893,17 @@ function submitGatewayAccess() {
   }
 
   // Trường hợp đặc biệt dành cho Giáo viên (PTMN / GV)
-  const isTeacher = nameInput.toUpperCase() === 'PTMN' || classInput === 'GV';
+  const normName = nameInput.toUpperCase();
+  const isTeacher = (normName === 'PTMN' && (classInput === 'GV' || !classInput)) || (normName === 'PTMN' && classInput === 'GV');
   if (isTeacher) {
-    classInput = classInput || 'GV';
+    if (!classInput) classInput = 'GV';
   } else {
+    if (classInput === 'GV') {
+      errorEl.textContent = 'Mã lớp GV chỉ dành riêng cho tài khoản Giáo viên (PTMN)!';
+      errorEl.style.display = 'block';
+      return;
+    }
+
     if (!classInput) {
       errorEl.textContent = 'Vui lòng nhập Lớp học!';
       errorEl.style.display = 'block';
