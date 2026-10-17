@@ -814,13 +814,17 @@ function startPractice(catId, topicId) {
   document.getElementById('step3-editor-view').style.display = 'flex';
   document.getElementById('step3-evaluation-view').style.display = 'none';
   
-  // Set translation level selectors
-  document.getElementById('ws-trans-level-b1').classList.add('active');
-  document.getElementById('ws-trans-level-b2').classList.remove('active');
+  // Set translation level selectors safely
+  const transB1 = document.getElementById('ws-trans-level-b1');
+  const transB2 = document.getElementById('ws-trans-level-b2');
+  if (transB1) transB1.classList.add('active');
+  if (transB2) transB2.classList.remove('active');
   
-  // Set model essay level selectors
-  document.getElementById('ws-model-level-b1').classList.add('active');
-  document.getElementById('ws-model-level-b2').classList.remove('active');
+  // Set model essay level selectors safely
+  const modelB1 = document.getElementById('ws-model-level-b1');
+  const modelB2 = document.getElementById('ws-model-level-b2');
+  if (modelB1) modelB1.classList.add('active');
+  if (modelB2) modelB2.classList.remove('active');
   currentSampleLevel = 'B1';
   
   // Render approach switcher if topic has multiple approaches
@@ -4966,13 +4970,22 @@ function submitEssay() {
     matchContainer.innerHTML = '<div class="empty-state">Không có bộ collocations đối chiếu cho bài luận tự do.</div>';
   }
   
-  renderSampleEssay();
+  try {
+    renderSampleEssay();
+  } catch (e) {
+    console.warn("renderSampleEssay warning:", e);
+  }
   
-  saveSubmission(finalScore, words, text);
-  updateStats();
-  
-  const draftKey = `draft_${currentCategory.id}_${currentTopic.id}`;
-  localStorage.removeItem(draftKey);
+  try {
+    saveSubmission(finalScore, words, text);
+    updateStats();
+    if (currentCategory && currentTopic) {
+      const draftKey = `draft_${currentCategory.id}_${currentTopic.id}`;
+      localStorage.removeItem(draftKey);
+    }
+  } catch (e) {
+    console.warn("Storage warning in submitEssay:", e);
+  }
   
   hasSubmitted = true;
   
@@ -4993,8 +5006,17 @@ function submitEssay() {
     frequentLanguageControlIssues: frequentLanguageControlIssues
   });
 
-  document.getElementById('step3-editor-view').style.display = 'none';
-  document.getElementById('step3-evaluation-view').style.display = 'flex';
+  const editorView = document.getElementById('step3-editor-view');
+  if (editorView) editorView.style.display = 'none';
+
+  const evalView = document.getElementById('step3-evaluation-view');
+  if (evalView) evalView.style.display = 'flex';
+
+  const layoutContainer = document.getElementById('workspace-layout-container');
+  if (layoutContainer) layoutContainer.classList.add('submitted');
+
+  const step3Container = document.getElementById('workspace-step3-container');
+  if (step3Container) step3Container.scrollTop = 0;
   
   showToast("🎉 Đã hoàn thành nộp bài! Báo cáo đánh giá chi tiết hiển thị bên dưới.", "success");
 }
@@ -5799,26 +5821,26 @@ function switchAnalysisTab(tabName) {
 function renderSampleEssay() {
   const textEl = document.getElementById('ws-sample-essay-text');
   
-  // Set sample pills active state
+  // Set sample pills active state safely (handles B1-only and B2-only site DOM)
   const b1Pill = document.getElementById('ws-sample-b1-pill');
   const b2Pill = document.getElementById('ws-sample-b2-pill');
   
   if (currentSampleLevel === 'B1') {
-    b1Pill.classList.add('active');
-    b2Pill.classList.remove('active');
+    if (b1Pill) b1Pill.classList.add('active');
+    if (b2Pill) b2Pill.classList.remove('active');
   } else {
-    b2Pill.classList.add('active');
-    b1Pill.classList.remove('active');
+    if (b2Pill) b2Pill.classList.add('active');
+    if (b1Pill) b1Pill.classList.remove('active');
   }
   
   const topic = currentTopic;
   if (!topic || !topic.has_full_details || !topic.details) {
-    textEl.innerHTML = '<div class="empty-state">Xin lỗi, chủ đề tự viết tự do này hiện chưa có bài giải mẫu được lưu trữ trong cơ sở dữ liệu.</div>';
+    if (textEl) textEl.innerHTML = '<div class="empty-state">Xin lỗi, chủ đề tự viết tự do này hiện chưa có bài giải mẫu được lưu trữ trong cơ sở dữ liệu.</div>';
     return;
   }
   
   const essayText = currentSampleLevel === 'B1' ? topic.details.sample_b1 : topic.details.sample_b2;
-  textEl.innerHTML = essayText;
+  if (textEl) textEl.innerHTML = essayText || '<div class="empty-state">Chưa có bài mẫu cho cấp độ này.</div>';
 }
 
 function switchSampleLevel(level) {
@@ -5837,24 +5859,28 @@ function getHistory() {
 }
 
 function saveSubmission(score, wordCount, content) {
-  const history = getHistory();
-  const submission = {
-    id: Date.now(),
-    date: new Date().toLocaleDateString('vi-VN', { year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit' }),
-    catId: currentCategory.id,
-    catTitleVi: currentCategory.title_vi,
-    topicId: currentTopic.id,
-    topicTitle: currentTopic.title_en,
-    wordCount: wordCount,
-    score: score,
-    content: content,
-    outlineLevel: currentOutlineLevel,
-    sampleLevel: currentSampleLevel,
-    cheatViolations: cheatViolationCount
-  };
-  
-  history.unshift(submission); // Add to beginning
-  localStorage.setItem("writing_history", JSON.stringify(history));
+  try {
+    const history = getHistory();
+    const submission = {
+      id: Date.now(),
+      date: new Date().toLocaleDateString('vi-VN', { year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit' }),
+      catId: currentCategory ? currentCategory.id : 0,
+      catTitleVi: currentCategory ? currentCategory.title_vi : '',
+      topicId: currentTopic ? currentTopic.id : 0,
+      topicTitle: currentTopic ? currentTopic.title_en : '',
+      wordCount: wordCount,
+      score: score,
+      content: content,
+      outlineLevel: currentOutlineLevel,
+      sampleLevel: currentSampleLevel,
+      cheatViolations: cheatViolationCount
+    };
+    
+    history.unshift(submission); // Add to beginning
+    localStorage.setItem("writing_history", JSON.stringify(history));
+  } catch (err) {
+    console.warn("Could not save submission to history:", err);
+  }
 }
 
 function renderHistory() {
@@ -5919,8 +5945,10 @@ function reviewSubmission(submissionId) {
     badge.style.color = 'var(--text-secondary)';
   }
   
-  document.getElementById('ws-prompt-en').innerText = topic.context ? `${topic.context}\n\n${topic.prompt}` : topic.prompt;
-  document.getElementById('ws-prompt-vi').innerHTML = getPromptTranslation(topic, category);
+  const pEn = document.getElementById('ws-prompt-en');
+  const pVi = document.getElementById('ws-prompt-vi');
+  if (pEn) pEn.innerText = topic.context ? `${topic.context}\n\n${topic.prompt}` : topic.prompt;
+  if (pVi) pVi.innerHTML = getPromptTranslation(topic, category);
   
   // Paraphrases
   const paraphraseContainer = document.getElementById('ws-paraphrase-container');
@@ -6064,36 +6092,49 @@ function deleteDraft(key) {
 
 // --- Dynamic Stats calculation ---
 function updateStats() {
-  const history = getHistory();
-  
-  // 1. Completed essays
-  document.getElementById('stat-completed-count').innerText = history.length;
-  
-  // 2. Drafts count
-  let draftsCount = 0;
-  for (let i = 0; i < localStorage.length; i++) {
-    if (localStorage.key(i).startsWith("draft_")) draftsCount++;
+  try {
+    const history = getHistory();
+    
+    // 1. Completed essays
+    const elCompleted = document.getElementById('stat-completed-count');
+    if (elCompleted) elCompleted.innerText = history.length;
+    
+    // 2. Drafts count
+    let draftsCount = 0;
+    for (let i = 0; i < localStorage.length; i++) {
+      const k = localStorage.key(i);
+      if (k && k.startsWith("draft_")) draftsCount++;
+    }
+    const elDrafts = document.getElementById('stat-draft-count');
+    if (elDrafts) elDrafts.innerText = draftsCount;
+    
+    // 3. Vocab accumulated
+    let totalVocab = 0;
+    if (typeof ESSAY_DATA !== 'undefined' && Array.isArray(ESSAY_DATA)) {
+      ESSAY_DATA.forEach(cat => {
+        if (cat.topics && Array.isArray(cat.topics)) {
+          cat.topics.forEach(t => {
+            if (t.has_full_details && t.details && t.details.vocab) {
+              totalVocab += t.details.vocab.length;
+            }
+          });
+        }
+      });
+    }
+    const elVocab = document.getElementById('stat-vocab-count');
+    if (elVocab) elVocab.innerText = totalVocab;
+    
+    // 4. Average score
+    let avgScore = 0.0;
+    if (history.length > 0) {
+      const sum = history.reduce((acc, item) => acc + item.score, 0);
+      avgScore = sum / history.length;
+    }
+    const elAvg = document.getElementById('stat-avg-score');
+    if (elAvg) elAvg.innerText = avgScore.toFixed(1);
+  } catch (err) {
+    console.warn("Could not update stats:", err);
   }
-  document.getElementById('stat-draft-count').innerText = draftsCount;
-  
-  // 3. Vocab accumulated
-  let totalVocab = 0;
-  ESSAY_DATA.forEach(cat => {
-    cat.topics.forEach(t => {
-      if (t.has_full_details && t.details && t.details.vocab) {
-        totalVocab += t.details.vocab.length;
-      }
-    });
-  });
-  document.getElementById('stat-vocab-count').innerText = totalVocab;
-  
-  // 4. Average score
-  let avgScore = 0.0;
-  if (history.length > 0) {
-    const sum = history.reduce((acc, item) => acc + item.score, 0);
-    avgScore = sum / history.length;
-  }
-  document.getElementById('stat-avg-score').innerText = avgScore.toFixed(1);
 }
 
 // --- Side-by-Side Comparison Modal Controls ---
@@ -6779,9 +6820,12 @@ function renderStep4ModelEssay() {
 function switchModelEssayLevel(level) {
   currentSampleLevel = level;
   
-  document.getElementById('ws-model-level-b1').classList.remove('active');
-  document.getElementById('ws-model-level-b2').classList.remove('active');
-  document.getElementById(`ws-model-level-${level.toLowerCase()}`).classList.add('active');
+  const pillB1 = document.getElementById('ws-model-level-b1');
+  const pillB2 = document.getElementById('ws-model-level-b2');
+  const targetPill = document.getElementById(`ws-model-level-${level.toLowerCase()}`);
+  if (pillB1) pillB1.classList.remove('active');
+  if (pillB2) pillB2.classList.remove('active');
+  if (targetPill) targetPill.classList.add('active');
   
   renderStep4ModelEssay();
 }
