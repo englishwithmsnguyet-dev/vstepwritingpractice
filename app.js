@@ -930,26 +930,51 @@ function renderWorkspaceStepHeader() {
   if (!container) return;
   
   const activeKey = currentStepKey || 'read';
-  const isTransActive = (activeKey === 'trans' || activeKey === 'vocab');
+  const withVocab = hasVocabStep();
 
-  container.innerHTML = `
-    <div class="step-tab ${activeKey === 'read' ? 'active' : ''}" id="ws-tab-read" onclick="switchStep('read')">
-      <span class="step-num">1</span>
-      <span class="step-label">BƯỚC 01: ĐỌC HIỂU ĐỀ</span>
-    </div>
-    <div class="step-tab ${isTransActive ? 'active' : ''}" id="ws-tab-trans" onclick="switchStep('trans')">
-      <span class="step-num">2</span>
-      <span class="step-label">BƯỚC 02: TẬP DIỄN ĐẠT QUAN ĐIỂM</span>
-    </div>
-    <div class="step-tab ${activeKey === 'write' ? 'active' : ''}" id="ws-tab-write" onclick="switchStep('write')">
-      <span class="step-num">3</span>
-      <span class="step-label">BƯỚC 03: VIẾT BÀI LUẬN</span>
-    </div>
-    <div class="step-tab ${activeKey === 'model' ? 'active' : ''}" id="ws-tab-model" onclick="switchStep('model')">
-      <span class="step-num">4</span>
-      <span class="step-label">BƯỚC 04: THAM KHẢO BÀI LUẬN MẪU</span>
-    </div>
-  `;
+  if (withVocab) {
+    container.innerHTML = `
+      <div class="step-tab ${activeKey === 'read' ? 'active' : ''}" id="ws-tab-read" onclick="switchStep('read')">
+        <span class="step-num">1</span>
+        <span class="step-label">BƯỚC 01: ĐỌC HIỂU ĐỀ</span>
+      </div>
+      <div class="step-tab ${activeKey === 'vocab' ? 'active' : ''}" id="ws-tab-vocab" onclick="switchStep('vocab')">
+        <span class="step-num">2</span>
+        <span class="step-label">BƯỚC 02: NẠP TỪ VỰNG</span>
+      </div>
+      <div class="step-tab ${activeKey === 'trans' ? 'active' : ''}" id="ws-tab-trans" onclick="switchStep('trans')">
+        <span class="step-num">3</span>
+        <span class="step-label">BƯỚC 03: TẬP DIỄN ĐẠT QUAN ĐIỂM</span>
+      </div>
+      <div class="step-tab ${activeKey === 'write' ? 'active' : ''}" id="ws-tab-write" onclick="switchStep('write')">
+        <span class="step-num">4</span>
+        <span class="step-label">BƯỚC 04: VIẾT BÀI LUẬN</span>
+      </div>
+      <div class="step-tab ${activeKey === 'model' ? 'active' : ''}" id="ws-tab-model" onclick="switchStep('model')">
+        <span class="step-num">5</span>
+        <span class="step-label">BƯỚC 05: THAM KHẢO BÀI LUẬN MẪU</span>
+      </div>
+    `;
+  } else {
+    container.innerHTML = `
+      <div class="step-tab ${activeKey === 'read' ? 'active' : ''}" id="ws-tab-read" onclick="switchStep('read')">
+        <span class="step-num">1</span>
+        <span class="step-label">BƯỚC 01: ĐỌC HIỂU ĐỀ</span>
+      </div>
+      <div class="step-tab ${activeKey === 'trans' ? 'active' : ''}" id="ws-tab-trans" onclick="switchStep('trans')">
+        <span class="step-num">2</span>
+        <span class="step-label">BƯỚC 02: TẬP DIỄN ĐẠT QUAN ĐIỂM</span>
+      </div>
+      <div class="step-tab ${activeKey === 'write' ? 'active' : ''}" id="ws-tab-write" onclick="switchStep('write')">
+        <span class="step-num">3</span>
+        <span class="step-label">BƯỚC 03: VIẾT BÀI LUẬN</span>
+      </div>
+      <div class="step-tab ${activeKey === 'model' ? 'active' : ''}" id="ws-tab-model" onclick="switchStep('model')">
+        <span class="step-num">4</span>
+        <span class="step-label">BƯỚC 04: THAM KHẢO BÀI LUẬN MẪU</span>
+      </div>
+    `;
+  }
 }
 
 let currentStepKey = 'read';
@@ -961,11 +986,19 @@ function switchStep(stepTarget) {
   
   let targetKey = 'read';
   if (typeof stepTarget === 'number') {
-    if (stepTarget === 1) targetKey = 'read';
-    else if (stepTarget === 2) targetKey = 'trans';
-    else if (stepTarget === 3) targetKey = 'write';
-    else if (stepTarget === 4) targetKey = 'model';
-    else if (stepTarget === 5) targetKey = 'model';
+    if (withVocab) {
+      if (stepTarget === 1) targetKey = 'read';
+      else if (stepTarget === 2) targetKey = 'vocab';
+      else if (stepTarget === 3) targetKey = 'trans';
+      else if (stepTarget === 4) targetKey = 'write';
+      else if (stepTarget === 5) targetKey = 'model';
+    } else {
+      if (stepTarget === 1) targetKey = 'read';
+      else if (stepTarget === 2) targetKey = 'trans';
+      else if (stepTarget === 3) targetKey = 'write';
+      else if (stepTarget === 4) targetKey = 'model';
+      else if (stepTarget === 5) targetKey = 'model';
+    }
   } else if (typeof stepTarget === 'string') {
     targetKey = stepTarget;
   }
@@ -998,7 +1031,8 @@ function switchStep(stepTarget) {
       tab.title = '';
     }
   });
-  const activeTabId = (targetKey === 'vocab') ? 'ws-tab-trans' : `ws-tab-${targetKey}`;
+  renderWorkspaceStepHeader();
+  const activeTabId = (targetKey === 'vocab' && !withVocab) ? 'ws-tab-trans' : `ws-tab-${targetKey}`;
   const activeTab = document.getElementById(activeTabId);
   if (activeTab) activeTab.classList.add('active');
   
@@ -1105,9 +1139,32 @@ function renderStepVocab() {
   const singleWordsCount = levelSingleWords.length;
 
   let collocationsCount = 0;
-  const levelCollocationGroups = (vData.collocation_groups || []).map(group => {
+  let rawGroups = vData.collocation_groups;
+  if ((!rawGroups || rawGroups.length === 0) && vData.collocations && vData.collocations.length > 0) {
+    rawGroups = [
+      {
+        id: 'all_cols',
+        name: 'Cụm từ liên kết chủ đề (Topic Collocations)',
+        icon: '🔗',
+        badge: 'Collocations',
+        items: vData.collocations.map(c => ({
+          en: c.en || c.phrase,
+          vi: c.vi,
+          type: c.type || (c.phrase ? 'phrase' : ''),
+          level: c.level || 'B2',
+          example_en: c.example_en || c.example,
+          example_vi: c.example_vi
+        }))
+      }
+    ];
+  }
+  const levelCollocationGroups = (rawGroups || []).map(group => {
     const rawItems = group.items || group.collocations || [];
-    const items = rawItems.filter(filterByLevel);
+    const items = rawItems.map(c => ({
+      ...c,
+      en: c.en || c.phrase,
+      example_en: c.example_en || c.example
+    })).filter(filterByLevel);
     collocationsCount += items.length;
     return { ...group, items };
   });
@@ -1454,11 +1511,11 @@ function renderStepVocab() {
     ${sectionsHtml || '<div class="empty-state" style="padding: 2.5rem; text-align: center;">Không tìm thấy từ vựng hoặc cụm từ phù hợp với từ khóa tìm kiếm.</div>'}
     
     <div style="display: flex; justify-content: flex-end; gap: 0.75rem; margin: 1.5rem 0 2.5rem 0;">
-      <button class="btn btn-secondary" style="padding: 0.85rem 1.75rem; font-size: 1rem; font-weight: 600;" onclick="switchStep('trans')">
-        ← QUAY LẠI: BƯỚC 02 - TẬP DIỄN ĐẠT
+      <button class="btn btn-secondary" style="padding: 0.85rem 1.75rem; font-size: 1rem; font-weight: 600;" onclick="switchStep('read')">
+        ← QUAY LẠI: BƯỚC 01 - ĐỌC HIỂU ĐỀ
       </button>
-      <button class="btn btn-primary" style="padding: 0.85rem 2.25rem; font-size: 1.05rem; box-shadow: var(--shadow-glow); font-weight: 700;" onclick="switchStep('write')">
-        CHUYỂN SANG: BƯỚC 03 - VIẾT BÀI LUẬN →
+      <button class="btn btn-primary" style="padding: 0.85rem 2.25rem; font-size: 1.05rem; box-shadow: var(--shadow-glow); font-weight: 700;" onclick="switchStep('trans')">
+        TIẾP THEO: BƯỚC 03 - TẬP DIỄN ĐẠT QUAN ĐIỂM →
       </button>
     </div>
   `;
@@ -1772,18 +1829,28 @@ function buildTranslationExercises(topic, transLevel, category) {
     }
   }
 
+  // Extract topic-level fallback collocations if item doesn't have any
+  const topicFallbackCols = (topic.details.vocab_step && (topic.details.vocab_step.collocations || []).map(c => ({
+    en: c.en || c.phrase,
+    vi: c.vi
+  }))) || topic.details.vocab || [];
+
   // Push group 1 (benefits / causes / reasons)
   if (group1Items && group1Items.length > 0) {
     group1Items.forEach((item, idx) => {
       const baseTitle = item.title ? item.title : (isDiscussion ? benefitLabel : `${benefitLabel} 0${idx+1}`);
-      const itemCollocations = item.collocations || topic.details.vocab || [];
+      const itemCollocations = (item.collocations && item.collocations.length > 0) ? item.collocations : topicFallbackCols;
       // 1. Point
+      let pointCols = filterCollocationsForSentence(item.point_vi, item.point_en, itemCollocations);
+      if (!pointCols || pointCols.length === 0) {
+        pointCols = (itemCollocations || []).slice(0, 3);
+      }
       exercises.push({
         type: 'benefit_point',
         title: `${baseTitle}<br/>Luận điểm`,
         vi: item.point_vi,
         en: item.point_en,
-        collocations: filterCollocationsForSentence(item.point_vi, item.point_en, itemCollocations)
+        collocations: pointCols
       });
       // 2. Evidence
       const viSentences = splitSentences(item.evidence_vi);
@@ -1791,12 +1858,20 @@ function buildTranslationExercises(topic, transLevel, category) {
       viSentences.forEach((viS, sIdx) => {
         const enS = enSentences[sIdx] || "";
         const sNum = String(sIdx + 1).padStart(2, '0');
+        let evCols = filterCollocationsForSentence(viS, enS, itemCollocations);
+        if (!evCols || evCols.length === 0) {
+          if (itemCollocations.length >= 4) {
+            evCols = sIdx === 0 ? itemCollocations.slice(1, 3) : itemCollocations.slice(2, 4);
+          } else {
+            evCols = (itemCollocations || []).slice(0, 3);
+          }
+        }
         exercises.push({
           type: 'benefit_evidence',
           title: `${baseTitle}<br/>Luận cứ ${sNum}`,
           vi: viS,
           en: enS,
-          collocations: filterCollocationsForSentence(viS, enS, itemCollocations)
+          collocations: evCols
         });
       });
     });
@@ -1806,14 +1881,18 @@ function buildTranslationExercises(topic, transLevel, category) {
   if (group2Items && group2Items.length > 0) {
     group2Items.forEach((item, idx) => {
       const baseTitle = item.title ? item.title : (isDiscussion ? drawbackLabel : `${drawbackLabel} 0${idx+1}`);
-      const itemCollocations = item.collocations || topic.details.vocab || [];
+      const itemCollocations = (item.collocations && item.collocations.length > 0) ? item.collocations : topicFallbackCols;
       // 1. Point
+      let pointCols = filterCollocationsForSentence(item.point_vi, item.point_en, itemCollocations);
+      if (!pointCols || pointCols.length === 0) {
+        pointCols = (itemCollocations || []).slice(0, 3);
+      }
       exercises.push({
         type: 'drawback_point',
         title: `${baseTitle}<br/>Luận điểm`,
         vi: item.point_vi,
         en: item.point_en,
-        collocations: filterCollocationsForSentence(item.point_vi, item.point_en, itemCollocations)
+        collocations: pointCols
       });
       // 2. Evidence
       const viSentences = splitSentences(item.evidence_vi);
@@ -1821,12 +1900,20 @@ function buildTranslationExercises(topic, transLevel, category) {
       viSentences.forEach((viS, sIdx) => {
         const enS = enSentences[sIdx] || "";
         const sNum = String(sIdx + 1).padStart(2, '0');
+        let evCols = filterCollocationsForSentence(viS, enS, itemCollocations);
+        if (!evCols || evCols.length === 0) {
+          if (itemCollocations.length >= 4) {
+            evCols = sIdx === 0 ? itemCollocations.slice(1, 3) : itemCollocations.slice(2, 4);
+          } else {
+            evCols = (itemCollocations || []).slice(0, 3);
+          }
+        }
         exercises.push({
           type: 'drawback_evidence',
           title: `${baseTitle}<br/>Luận cứ ${sNum}`,
           vi: viS,
           en: enS,
-          collocations: filterCollocationsForSentence(viS, enS, itemCollocations)
+          collocations: evCols
         });
       });
     });
@@ -1932,8 +2019,18 @@ function renderTranslationExercises() {
   const footerDiv = document.createElement('div');
   footerDiv.style.display = 'flex';
   footerDiv.style.justifyContent = 'center';
+  footerDiv.style.gap = '1rem';
   footerDiv.style.padding = '1rem 0 2rem 0';
   footerDiv.innerHTML = `
+    ${hasVocabStep() ? `
+      <button class="btn btn-secondary" style="padding: 0.75rem 1.75rem; font-size: 1rem; font-weight: 600;" onclick="switchStep('vocab')">
+        ← QUAY LẠI: BƯỚC 02 - NẠP TỪ VỰNG
+      </button>
+    ` : `
+      <button class="btn btn-secondary" style="padding: 0.75rem 1.75rem; font-size: 1rem; font-weight: 600;" onclick="switchStep('read')">
+        ← QUAY LẠI: BƯỚC 01 - ĐỌC HIỂU ĐỀ
+      </button>
+    `}
     <button class="btn btn-primary" style="padding: 0.75rem 2rem; font-size: 1rem; box-shadow: var(--shadow-glow);" onclick="switchStep('write')">
       HOÀN THÀNH DỊCH Ý TƯỞNG → CHUYỂN SANG VIẾT BÀI LUẬN
     </button>
@@ -6745,8 +6842,8 @@ function renderStep1Reading() {
     </div>
     
     <div style="text-align: right; margin: 1rem 0 2rem 0;">
-      <button class="btn btn-primary" style="padding: 0.75rem 2rem; font-size: 1rem; box-shadow: var(--shadow-glow);" onclick="switchStep('trans')">
-        TIẾP THEO: BƯỚC 02 - TẬP DIỄN ĐẠT QUAN ĐIỂM →
+      <button class="btn btn-primary" style="padding: 0.75rem 2rem; font-size: 1rem; box-shadow: var(--shadow-glow);" onclick="${hasVocabStep() ? "switchStep('vocab')" : "switchStep('trans')"}">
+        ${hasVocabStep() ? "TIẾP THEO: BƯỚC 02 - NẠP TỪ VỰNG CHỦ ĐỀ →" : "TIẾP THEO: BƯỚC 02 - TẬP DIỄN ĐẠT QUAN ĐIỂM →"}
       </button>
     </div>
   `;

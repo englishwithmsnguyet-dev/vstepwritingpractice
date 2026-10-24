@@ -27879,6 +27879,10 @@ const ESSAY_DATA = [
                     "vi": "áp lực học tập"
                   },
                   {
+                    "en": "leading cause of stress",
+                    "vi": "nguyên nhân hàng đầu gây căng thẳng"
+                  },
+                  {
                     "en": "heavy workload",
                     "vi": "khối lượng bài vở lớn"
                   },
@@ -27900,20 +27904,24 @@ const ESSAY_DATA = [
                 "evidence_en": "Young adults worry about choosing the right major and fear failing to find a good job after graduation.",
                 "collocations": [
                   {
-                    "en": "career expectations",
-                    "vi": "kỳ vọng sự nghiệp"
+                    "en": "worry about future careers",
+                    "vi": "lo lắng về công việc tương lai"
+                  },
+                  {
+                    "en": "feel stressed",
+                    "vi": "cảm thấy căng thẳng"
                   },
                   {
                     "en": "choose the right major",
                     "vi": "chọn đúng ngành học"
                   },
                   {
-                    "en": "job opportunities",
-                    "vi": "cơ hội việc làm"
+                    "en": "find a good job",
+                    "vi": "tìm được việc làm tốt"
                   },
                   {
-                    "en": "financial success",
-                    "vi": "thành công về tài chính"
+                    "en": "after graduation",
+                    "vi": "sau khi tốt nghiệp"
                   }
                 ]
               },
@@ -27929,16 +27937,24 @@ const ESSAY_DATA = [
                     "vi": "các mối quan hệ xã hội"
                   },
                   {
-                    "en": "peer pressure",
-                    "vi": "áp lực đồng trang lứa"
+                    "en": "cause a lot of exhaustion",
+                    "vi": "gây ra nhiều mệt mỏi"
                   },
                   {
-                    "en": "compare with others",
-                    "vi": "so sánh với người khác"
+                    "en": "compare themselves with others",
+                    "vi": "so sánh bản thân với người khác"
                   },
                   {
-                    "en": "feeling of loneliness",
-                    "vi": "cảm giác cô đơn"
+                    "en": "on social media",
+                    "vi": "trên mạng xã hội"
+                  },
+                  {
+                    "en": "conflicts with friends",
+                    "vi": "mâu thuẫn với bạn bè"
+                  },
+                  {
+                    "en": "feel lonely",
+                    "vi": "cảm thấy cô đơn"
                   }
                 ]
               },
@@ -27950,20 +27966,24 @@ const ESSAY_DATA = [
                 "evidence_en": "Tuition fees and living costs are rising, so many students have to work long hours in part-time jobs to cover expenses.",
                 "collocations": [
                   {
-                    "en": "financial problems",
-                    "vi": "vấn đề tài chính"
+                    "en": "financial burden",
+                    "vi": "gánh nặng tài chính"
                   },
                   {
-                    "en": "tuition fees",
-                    "vi": "tiền học phí"
+                    "en": "common reason for stress",
+                    "vi": "lý do phổ biến gây căng thẳng"
                   },
                   {
-                    "en": "living expenses",
-                    "vi": "chi phí sinh hoạt"
+                    "en": "tuition fees and living costs",
+                    "vi": "học phí và chi phí sinh hoạt"
                   },
                   {
                     "en": "part-time jobs",
-                    "vi": "việc làm thêm"
+                    "vi": "việc làm thêm bán thời gian"
+                  },
+                  {
+                    "en": "cover expenses",
+                    "vi": "trang trải chi phí"
                   }
                 ]
               },
@@ -27975,20 +27995,24 @@ const ESSAY_DATA = [
                 "evidence_en": "When moving to a new city or starting to live independently, young people must do everything by themselves and easily feel overwhelmed.",
                 "collocations": [
                   {
-                    "en": "life challenges",
-                    "vi": "thách thức trong cuộc sống"
+                    "en": "adapting to major life changes",
+                    "vi": "thích nghi với những thay đổi lớn trong cuộc sống"
+                  },
+                  {
+                    "en": "creates a lot of pressure",
+                    "vi": "tạo ra nhiều áp lực"
+                  },
+                  {
+                    "en": "moving to a new city",
+                    "vi": "chuyển đến một thành phố mới"
                   },
                   {
                     "en": "live independently",
                     "vi": "sống tự lập"
                   },
                   {
-                    "en": "new environment",
-                    "vi": "môi trường mới"
-                  },
-                  {
                     "en": "feel overwhelmed",
-                    "vi": "cảm thấy quá tải / choáng ngợp"
+                    "vi": "cảm thấy bỡ ngỡ / quá tải"
                   }
                 ]
               }
@@ -28006,6 +28030,10 @@ const ESSAY_DATA = [
                     "vi": "áp lực học tập"
                   },
                   {
+                    "en": "leading cause of stress",
+                    "vi": "nguyên nhân hàng đầu gây căng thẳng"
+                  },
+                  {
                     "en": "heavy workload",
                     "vi": "khối lượng bài vở lớn"
                   },
@@ -28027,20 +28055,24 @@ const ESSAY_DATA = [
                 "evidence_en": "Young adults worry about choosing the right major and fear failing to find a good job after graduation.",
                 "collocations": [
                   {
-                    "en": "career expectations",
-                    "vi": "kỳ vọng sự nghiệp"
+                    "en": "worry about future careers",
+                    "vi": "lo lắng về công việc tương lai"
+                  },
+                  {
+                    "en": "feel stressed",
+                    "vi": "cảm thấy căng thẳng"
                   },
                   {
                     "en": "choose the right major",
                     "vi": "chọn đúng ngành học"
                   },
                   {
-                    "en": "job opportunities",
-                    "vi": "cơ hội việc làm"
+                    "en": "find a good job",
+                    "vi": "tìm được việc làm tốt"
                   },
                   {
-                    "en": "financial success",
-                    "vi": "thành công về tài chính"
+                    "en": "after graduation",
+                    "vi": "sau khi tốt nghiệp"
                   }
                 ]
               },
@@ -28056,16 +28088,24 @@ const ESSAY_DATA = [
                     "vi": "các mối quan hệ xã hội"
                   },
                   {
-                    "en": "peer pressure",
-                    "vi": "áp lực đồng trang lứa"
+                    "en": "cause a lot of exhaustion",
+                    "vi": "gây ra nhiều mệt mỏi"
                   },
                   {
-                    "en": "compare with others",
-                    "vi": "so sánh với người khác"
+                    "en": "compare themselves with others",
+                    "vi": "so sánh bản thân với người khác"
                   },
                   {
-                    "en": "feeling of loneliness",
-                    "vi": "cảm giác cô đơn"
+                    "en": "on social media",
+                    "vi": "trên mạng xã hội"
+                  },
+                  {
+                    "en": "conflicts with friends",
+                    "vi": "mâu thuẫn với bạn bè"
+                  },
+                  {
+                    "en": "feel lonely",
+                    "vi": "cảm thấy cô đơn"
                   }
                 ]
               },
@@ -28077,20 +28117,24 @@ const ESSAY_DATA = [
                 "evidence_en": "Tuition fees and living costs are rising, so many students have to work long hours in part-time jobs to cover expenses.",
                 "collocations": [
                   {
-                    "en": "financial problems",
-                    "vi": "vấn đề tài chính"
+                    "en": "financial burden",
+                    "vi": "gánh nặng tài chính"
                   },
                   {
-                    "en": "tuition fees",
-                    "vi": "tiền học phí"
+                    "en": "common reason for stress",
+                    "vi": "lý do phổ biến gây căng thẳng"
                   },
                   {
-                    "en": "living expenses",
-                    "vi": "chi phí sinh hoạt"
+                    "en": "tuition fees and living costs",
+                    "vi": "học phí và chi phí sinh hoạt"
                   },
                   {
                     "en": "part-time jobs",
-                    "vi": "việc làm thêm"
+                    "vi": "việc làm thêm bán thời gian"
+                  },
+                  {
+                    "en": "cover expenses",
+                    "vi": "trang trải chi phí"
                   }
                 ]
               },
@@ -28102,20 +28146,24 @@ const ESSAY_DATA = [
                 "evidence_en": "When moving to a new city or starting to live independently, young people must do everything by themselves and easily feel overwhelmed.",
                 "collocations": [
                   {
-                    "en": "life challenges",
-                    "vi": "thách thức trong cuộc sống"
+                    "en": "adapting to major life changes",
+                    "vi": "thích nghi với những thay đổi lớn trong cuộc sống"
+                  },
+                  {
+                    "en": "creates a lot of pressure",
+                    "vi": "tạo ra nhiều áp lực"
+                  },
+                  {
+                    "en": "moving to a new city",
+                    "vi": "chuyển đến một thành phố mới"
                   },
                   {
                     "en": "live independently",
                     "vi": "sống tự lập"
                   },
                   {
-                    "en": "new environment",
-                    "vi": "môi trường mới"
-                  },
-                  {
                     "en": "feel overwhelmed",
-                    "vi": "cảm thấy quá tải / choáng ngợp"
+                    "vi": "cảm thấy bỡ ngỡ / quá tải"
                   }
                 ]
               }
@@ -28136,16 +28184,32 @@ const ESSAY_DATA = [
                     "vi": "áp lực học tập"
                   },
                   {
-                    "en": "high-stakes examinations",
-                    "vi": "các kỳ thi có tính quyết định cao"
+                    "en": "demanding curriculum requirements",
+                    "vi": "yêu cầu chương trình học khắt khe"
+                  },
+                  {
+                    "en": "dense course schedules",
+                    "vi": "lịch học dày đặc"
+                  },
+                  {
+                    "en": "demanding assignments",
+                    "vi": "vô số bài tập lớn"
+                  },
+                  {
+                    "en": "high-stakes standardized examinations",
+                    "vi": "các kỳ thi chuẩn hóa quan trọng"
                   },
                   {
                     "en": "unrealistic academic expectations",
                     "vi": "kỳ vọng học tập thiếu thực tế"
                   },
                   {
-                    "en": "academic burnout",
-                    "vi": "kiệt sức vì học tập"
+                    "en": "peer comparison",
+                    "vi": "so sánh điểm số với bạn bè"
+                  },
+                  {
+                    "en": "emotional exhaustion and burnout",
+                    "vi": "kiệt sức cả về thể chất lẫn tinh thần"
                   }
                 ]
               },
@@ -28158,19 +28222,31 @@ const ESSAY_DATA = [
                 "collocations": [
                   {
                     "en": "career prospects",
-                    "vi": "triển vọng sự nghiệp"
+                    "vi": "định hướng nghề nghiệp / triển vọng sự nghiệp"
+                  },
+                  {
+                    "en": "achieve financial success",
+                    "vi": "đạt được thành công tài chính"
                   },
                   {
                     "en": "competitive job market",
-                    "vi": "thị trường việc làm cạnh tranh"
+                    "vi": "thị trường lao động cạnh tranh gay gắt"
                   },
                   {
                     "en": "secure stable employment",
-                    "vi": "đảm bảo việc làm ổn định"
+                    "vi": "tìm được việc làm tốt / việc làm ổn định"
+                  },
+                  {
+                    "en": "fear of unemployment",
+                    "vi": "nỗi sợ thất nghiệp"
+                  },
+                  {
+                    "en": "disappointing family expectations",
+                    "vi": "không đáp ứng được kỳ vọng của gia đình"
                   },
                   {
                     "en": "prolonged mental strain",
-                    "vi": "sự căng thẳng tinh thần kéo dài"
+                    "vi": "trạng thái hoang mang và lo âu thường trực"
                   }
                 ]
               },
@@ -28183,19 +28259,31 @@ const ESSAY_DATA = [
                 "collocations": [
                   {
                     "en": "social acceptance",
-                    "vi": "sự chấp nhận của xã hội"
+                    "vi": "hòa nhập xã hội / sự chấp nhận của xã hội"
+                  },
+                  {
+                    "en": "unhealthy comparisons on digital platforms",
+                    "vi": "so sánh bản thân trên mạng xã hội"
+                  },
+                  {
+                    "en": "idealized lifestyles",
+                    "vi": "hình ảnh hào nhoáng thành công"
                   },
                   {
                     "en": "feelings of inadequacy",
-                    "vi": "cảm giác bản thân không đủ tốt"
+                    "vi": "cảm giác tự ti"
                   },
                   {
                     "en": "fear of missing out",
-                    "vi": "hội chứng sợ bỏ lỡ / bị bỏ lại"
+                    "vi": "lo sợ bị bỏ lại phía sau"
                   },
                   {
-                    "en": "emotionally isolated",
-                    "vi": "bị cô lập về mặt cảm xúc"
+                    "en": "interpersonal misunderstandings",
+                    "vi": "những hiểu lầm trong quan hệ bạn bè"
+                  },
+                  {
+                    "en": "emotionally isolated and insecure",
+                    "vi": "cảm thấy bị cô lập và tổn thương"
                   }
                 ]
               },
@@ -28211,16 +28299,24 @@ const ESSAY_DATA = [
                     "vi": "khó khăn về tài chính"
                   },
                   {
-                    "en": "accumulate significant debt",
-                    "vi": "tích lũy khoản nợ lớn"
+                    "en": "escalating education expenses",
+                    "vi": "chi phí học tập đắt đỏ"
                   },
                   {
-                    "en": "juggle part-time jobs",
-                    "vi": "vừa học vừa cáng đáng việc làm thêm"
+                    "en": "skyrocketing university tuition fees",
+                    "vi": "học phí đại học tăng cao"
+                  },
+                  {
+                    "en": "accumulate significant debt",
+                    "vi": "gánh những khoản nợ lớn"
+                  },
+                  {
+                    "en": "juggle demanding part-time jobs",
+                    "vi": "vừa học vừa làm thêm cật lực"
                   },
                   {
                     "en": "chronic sleep deprivation",
-                    "vi": "tình trạng thiếu ngủ kinh niên"
+                    "vi": "tình trạng thiếu ngủ trầm trọng"
                   }
                 ]
               },
@@ -28233,19 +28329,27 @@ const ESSAY_DATA = [
                 "collocations": [
                   {
                     "en": "major transitional phases",
-                    "vi": "các giai đoạn chuyển tiếp lớn"
+                    "vi": "những bước ngoặt lớn trong cuộc sống"
                   },
                   {
                     "en": "independent adulthood",
-                    "vi": "cuộc sống trưởng thành tự lập"
+                    "vi": "cuộc sống độc lập tự lập"
                   },
                   {
-                    "en": "time management skills",
-                    "vi": "kỹ năng quản lý thời gian"
+                    "en": "transitioning to university",
+                    "vi": "chuyển tiếp lên giảng đường đại học"
                   },
                   {
-                    "en": "feel vulnerable and overwhelmed",
-                    "vi": "cảm thấy tổn thương và choáng ngợp"
+                    "en": "time management",
+                    "vi": "quản lý thời gian"
+                  },
+                  {
+                    "en": "emotional guidance from family",
+                    "vi": "sự hỗ trợ trực tiếp từ gia đình"
+                  },
+                  {
+                    "en": "feeling vulnerable and overwhelmed",
+                    "vi": "cảm thấy chới với và căng thẳng sâu sắc"
                   }
                 ]
               }
@@ -28263,16 +28367,32 @@ const ESSAY_DATA = [
                     "vi": "áp lực học tập"
                   },
                   {
-                    "en": "high-stakes examinations",
-                    "vi": "các kỳ thi có tính quyết định cao"
+                    "en": "demanding curriculum requirements",
+                    "vi": "yêu cầu chương trình học khắt khe"
+                  },
+                  {
+                    "en": "dense course schedules",
+                    "vi": "lịch học dày đặc"
+                  },
+                  {
+                    "en": "demanding assignments",
+                    "vi": "vô số bài tập lớn"
+                  },
+                  {
+                    "en": "high-stakes standardized examinations",
+                    "vi": "các kỳ thi chuẩn hóa quan trọng"
                   },
                   {
                     "en": "unrealistic academic expectations",
                     "vi": "kỳ vọng học tập thiếu thực tế"
                   },
                   {
-                    "en": "academic burnout",
-                    "vi": "kiệt sức vì học tập"
+                    "en": "peer comparison",
+                    "vi": "so sánh điểm số với bạn bè"
+                  },
+                  {
+                    "en": "emotional exhaustion and burnout",
+                    "vi": "kiệt sức cả về thể chất lẫn tinh thần"
                   }
                 ]
               },
@@ -28285,19 +28405,31 @@ const ESSAY_DATA = [
                 "collocations": [
                   {
                     "en": "career prospects",
-                    "vi": "triển vọng sự nghiệp"
+                    "vi": "định hướng nghề nghiệp / triển vọng sự nghiệp"
+                  },
+                  {
+                    "en": "achieve financial success",
+                    "vi": "đạt được thành công tài chính"
                   },
                   {
                     "en": "competitive job market",
-                    "vi": "thị trường việc làm cạnh tranh"
+                    "vi": "thị trường lao động cạnh tranh gay gắt"
                   },
                   {
                     "en": "secure stable employment",
-                    "vi": "đảm bảo việc làm ổn định"
+                    "vi": "tìm được việc làm tốt / việc làm ổn định"
+                  },
+                  {
+                    "en": "fear of unemployment",
+                    "vi": "nỗi sợ thất nghiệp"
+                  },
+                  {
+                    "en": "disappointing family expectations",
+                    "vi": "không đáp ứng được kỳ vọng của gia đình"
                   },
                   {
                     "en": "prolonged mental strain",
-                    "vi": "sự căng thẳng tinh thần kéo dài"
+                    "vi": "trạng thái hoang mang và lo âu thường trực"
                   }
                 ]
               },
@@ -28310,19 +28442,31 @@ const ESSAY_DATA = [
                 "collocations": [
                   {
                     "en": "social acceptance",
-                    "vi": "sự chấp nhận của xã hội"
+                    "vi": "hòa nhập xã hội / sự chấp nhận của xã hội"
+                  },
+                  {
+                    "en": "unhealthy comparisons on digital platforms",
+                    "vi": "so sánh bản thân trên mạng xã hội"
+                  },
+                  {
+                    "en": "idealized lifestyles",
+                    "vi": "hình ảnh hào nhoáng thành công"
                   },
                   {
                     "en": "feelings of inadequacy",
-                    "vi": "cảm giác bản thân không đủ tốt"
+                    "vi": "cảm giác tự ti"
                   },
                   {
                     "en": "fear of missing out",
-                    "vi": "hội chứng sợ bỏ lỡ / bị bỏ lại"
+                    "vi": "lo sợ bị bỏ lại phía sau"
                   },
                   {
-                    "en": "emotionally isolated",
-                    "vi": "bị cô lập về mặt cảm xúc"
+                    "en": "interpersonal misunderstandings",
+                    "vi": "những hiểu lầm trong quan hệ bạn bè"
+                  },
+                  {
+                    "en": "emotionally isolated and insecure",
+                    "vi": "cảm thấy bị cô lập và tổn thương"
                   }
                 ]
               },
@@ -28338,16 +28482,24 @@ const ESSAY_DATA = [
                     "vi": "khó khăn về tài chính"
                   },
                   {
-                    "en": "accumulate significant debt",
-                    "vi": "tích lũy khoản nợ lớn"
+                    "en": "escalating education expenses",
+                    "vi": "chi phí học tập đắt đỏ"
                   },
                   {
-                    "en": "juggle part-time jobs",
-                    "vi": "vừa học vừa cáng đáng việc làm thêm"
+                    "en": "skyrocketing university tuition fees",
+                    "vi": "học phí đại học tăng cao"
+                  },
+                  {
+                    "en": "accumulate significant debt",
+                    "vi": "gánh những khoản nợ lớn"
+                  },
+                  {
+                    "en": "juggle demanding part-time jobs",
+                    "vi": "vừa học vừa làm thêm cật lực"
                   },
                   {
                     "en": "chronic sleep deprivation",
-                    "vi": "tình trạng thiếu ngủ kinh niên"
+                    "vi": "tình trạng thiếu ngủ trầm trọng"
                   }
                 ]
               },
@@ -28360,19 +28512,27 @@ const ESSAY_DATA = [
                 "collocations": [
                   {
                     "en": "major transitional phases",
-                    "vi": "các giai đoạn chuyển tiếp lớn"
+                    "vi": "những bước ngoặt lớn trong cuộc sống"
                   },
                   {
                     "en": "independent adulthood",
-                    "vi": "cuộc sống trưởng thành tự lập"
+                    "vi": "cuộc sống độc lập tự lập"
                   },
                   {
-                    "en": "time management skills",
-                    "vi": "kỹ năng quản lý thời gian"
+                    "en": "transitioning to university",
+                    "vi": "chuyển tiếp lên giảng đường đại học"
                   },
                   {
-                    "en": "feel vulnerable and overwhelmed",
-                    "vi": "cảm thấy tổn thương và choáng ngợp"
+                    "en": "time management",
+                    "vi": "quản lý thời gian"
+                  },
+                  {
+                    "en": "emotional guidance from family",
+                    "vi": "sự hỗ trợ trực tiếp từ gia đình"
+                  },
+                  {
+                    "en": "feeling vulnerable and overwhelmed",
+                    "vi": "cảm thấy chới với và căng thẳng sâu sắc"
                   }
                 ]
               }
@@ -29158,6 +29318,248 @@ const ESSAY_DATA = [
                 "context_usage": "Trạng thái cân bằng tâm lý và cảm xúc tích cực",
                 "example_en": "Physical exercise is proven to foster mental wellbeing.",
                 "example_vi": "Tập thể dục được chứng minh là nuôi dưỡng sức khỏe tinh thần."
+              }
+            ],
+            "collocation_groups": [
+              {
+                "id": "group_academic",
+                "name": "Nhóm 1: Áp lực học tập & Thi cử (Academic Pressure & Exams)",
+                "icon": "📚",
+                "badge": "Học tập",
+                "items": [
+                  {
+                    "en": "academic pressure",
+                    "vi": "áp lực học tập",
+                    "type": "n.phr",
+                    "level": "B1",
+                    "example_en": "Students face severe academic pressure.",
+                    "example_vi": "Học sinh đối mặt áp lực học tập nặng nề."
+                  },
+                  {
+                    "en": "heavy workload",
+                    "vi": "khối lượng bài vở lớn",
+                    "type": "n.phr",
+                    "level": "B1",
+                    "example_en": "A heavy workload leads to fatigue.",
+                    "example_vi": "Khối lượng bài vở lớn dẫn đến mệt mỏi."
+                  },
+                  {
+                    "en": "competitive exams",
+                    "vi": "các kỳ thi cạnh tranh",
+                    "type": "n.phr",
+                    "level": "B1",
+                    "example_en": "Competitive exams create anxiety.",
+                    "example_vi": "Các kỳ thi cạnh tranh tạo ra sự lo âu."
+                  },
+                  {
+                    "en": "worry about grades",
+                    "vi": "lo lắng về điểm số",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "Teenagers worry about grades constantly.",
+                    "example_vi": "Thanh thiếu niên lo lắng về điểm số liên tục."
+                  },
+                  {
+                    "en": "unrealistic expectations",
+                    "vi": "kỳ vọng thiếu thực tế",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Unrealistic expectations harm self-esteem.",
+                    "example_vi": "Kỳ vọng thiếu thực tế làm hại lòng tự trọng."
+                  },
+                  {
+                    "en": "peer comparison",
+                    "vi": "so sánh với bạn bè",
+                    "type": "n.phr",
+                    "level": "B1",
+                    "example_en": "Peer comparison causes self-doubt.",
+                    "example_vi": "So sánh với bạn bè gây ra sự tự ti."
+                  },
+                  {
+                    "en": "academic burnout",
+                    "vi": "suy kiệt vì học tập",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Overstudying results in academic burnout.",
+                    "example_vi": "Học quá sức dẫn đến suy kiệt học tập."
+                  }
+                ]
+              },
+              {
+                "id": "group_career",
+                "name": "Nhóm 2: Kỳ vọng sự nghiệp & Tương lai (Career Prospects & Future)",
+                "icon": "💼",
+                "badge": "Sự nghiệp",
+                "items": [
+                  {
+                    "en": "career expectations",
+                    "vi": "kỳ vọng sự nghiệp",
+                    "type": "n.phr",
+                    "level": "B1",
+                    "example_en": "Career expectations weigh on seniors.",
+                    "example_vi": "Kỳ vọng sự nghiệp đè nặng lên sinh viên năm cuối."
+                  },
+                  {
+                    "en": "uncertainty about the future",
+                    "vi": "sự bất định về tương lai",
+                    "type": "n.phr",
+                    "level": "B1",
+                    "example_en": "Uncertainty about the future sparks worry.",
+                    "example_vi": "Sự bất định về tương lai châm ngòi nỗi lo."
+                  },
+                  {
+                    "en": "choose the right major",
+                    "vi": "chọn đúng ngành học",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "Choosing the right major is crucial.",
+                    "example_vi": "Chọn đúng ngành học là điều cốt yếu."
+                  },
+                  {
+                    "en": "competitive job market",
+                    "vi": "thị trường việc làm cạnh tranh",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Standing out in a competitive job market is hard.",
+                    "example_vi": "Nổi bật trong thị trường việc làm cạnh tranh rất khó."
+                  },
+                  {
+                    "en": "fear of unemployment",
+                    "vi": "nỗi sợ thất nghiệp",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Fear of unemployment causes sleeplessness.",
+                    "example_vi": "Nỗi sợ thất nghiệp gây mất ngủ."
+                  },
+                  {
+                    "en": "achieve financial success",
+                    "vi": "đạt được thành công tài chính",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Young people strive to achieve financial success.",
+                    "example_vi": "Người trẻ phấn đấu đạt được thành công tài chính."
+                  }
+                ]
+              },
+              {
+                "id": "group_social",
+                "name": "Nhóm 3: Mối quan hệ xã hội & Mạng xã hội (Social Media & Relationships)",
+                "icon": "👥",
+                "badge": "Xã hội",
+                "items": [
+                  {
+                    "en": "social relationships",
+                    "vi": "các mối quan hệ xã hội",
+                    "type": "n.phr",
+                    "level": "B1",
+                    "example_en": "Healthy social relationships bring happiness.",
+                    "example_vi": "Mối quan hệ xã hội lành mạnh mang lại niềm vui."
+                  },
+                  {
+                    "en": "peer pressure",
+                    "vi": "áp lực từ bạn bè đồng trang lứa",
+                    "type": "n.phr",
+                    "level": "B1",
+                    "example_en": "Peer pressure influences decisions.",
+                    "example_vi": "Áp lực bạn bè chi phối các quyết định."
+                  },
+                  {
+                    "en": "social media comparisons",
+                    "vi": "so sánh trên mạng xã hội",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Social media comparisons cause anxiety.",
+                    "example_vi": "So sánh trên mạng xã hội gây lo âu."
+                  },
+                  {
+                    "en": "feeling of loneliness",
+                    "vi": "cảm giác cô đơn",
+                    "type": "n.phr",
+                    "level": "B1",
+                    "example_en": "A feeling of loneliness hurts mental health.",
+                    "example_vi": "Cảm giác cô đơn làm tổn hại sức khỏe tinh thần."
+                  },
+                  {
+                    "en": "feel emotionally isolated",
+                    "vi": "cảm thấy bị cô lập",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Victims often feel emotionally isolated.",
+                    "example_vi": "Nạn nhân thường cảm thấy bị cô lập."
+                  },
+                  {
+                    "en": "fear of missing out",
+                    "vi": "nỗi sợ bị bỏ rơi (FOMO)",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "The fear of missing out triggers phone checks.",
+                    "example_vi": "Nỗi sợ bỏ lỡ khiến người ta liên tục kiểm tra điện thoại."
+                  }
+                ]
+              },
+              {
+                "id": "group_financial",
+                "name": "Nhóm 4: Tài chính & Thách thức cuộc sống (Financial Strain & Transitions)",
+                "icon": "💰",
+                "badge": "Tài chính & Đời sống",
+                "items": [
+                  {
+                    "en": "financial problems",
+                    "vi": "vấn đề tài chính",
+                    "type": "n.phr",
+                    "level": "B1",
+                    "example_en": "Financial problems burden families.",
+                    "example_vi": "Vấn đề tài chính đè nặng lên các gia đình."
+                  },
+                  {
+                    "en": "tuition fees and living expenses",
+                    "vi": "học phí và chi phí sinh hoạt",
+                    "type": "n.phr",
+                    "level": "B1",
+                    "example_en": "Covering tuition fees and living expenses is tough.",
+                    "example_vi": "Trang trải học phí và chi phí sinh hoạt rất khó khăn."
+                  },
+                  {
+                    "en": "accumulate debt",
+                    "vi": "tích lũy nợ nần",
+                    "type": "v.phr",
+                    "level": "B2",
+                    "example_en": "Students accumulate debt rapidly.",
+                    "example_vi": "Sinh viên tích lũy nợ nần nhanh chóng."
+                  },
+                  {
+                    "en": "part-time jobs",
+                    "vi": "công việc bán thời gian",
+                    "type": "n.phr",
+                    "level": "B1",
+                    "example_en": "Working part-time jobs takes time.",
+                    "example_vi": "Làm công việc bán thời gian tốn nhiều thời gian."
+                  },
+                  {
+                    "en": "chronic sleep deprivation",
+                    "vi": "thiếu ngủ kinh niên",
+                    "type": "n.phr",
+                    "level": "B2",
+                    "example_en": "Chronic sleep deprivation impairs memory.",
+                    "example_vi": "Thiếu ngủ kinh niên làm suy giảm trí nhớ."
+                  },
+                  {
+                    "en": "live independently",
+                    "vi": "sống tự lập",
+                    "type": "v.phr",
+                    "level": "B1",
+                    "example_en": "Living independently teaches maturity.",
+                    "example_vi": "Sống tự lập dạy cho con người sự trưởng thành."
+                  },
+                  {
+                    "en": "feel overwhelmed",
+                    "vi": "cảm thấy choáng ngợp / quá tải",
+                    "type": "adj.phr",
+                    "level": "B2",
+                    "example_en": "Freshmen feel overwhelmed initially.",
+                    "example_vi": "Sinh viên mới cảm thấy choáng ngợp lúc đầu."
+                  }
+                ]
               }
             ]
           }
@@ -34428,6 +34830,328 @@ const ESSAY_DATA = [
                 "context_usage": "Công nghệ vật liệu xanh mới",
                 "example_en": "Inventors are replacing plastics with biodegradable materials.",
                 "example_vi": "Các nhà phát minh đang thay thế nhựa bằng các vật liệu tự phân hủy sinh học."
+              }
+            ],
+            "collocation_groups": [
+              {
+                "id": "group_marine_impact",
+                "name": "Nhóm 1: Tác hại đối với sinh vật biển & Rạn san hô (Marine Wildlife & Coral Reefs)",
+                "icon": "🐢",
+                "badge": "Hậu quả sinh vật",
+                "items": [
+                  {
+                    "en": "plastic waste in the oceans",
+                    "vi": "rác thải nhựa ở các đại dương",
+                    "level": "B1",
+                    "type": "phrase",
+                    "example_en": "Plastic waste in the oceans threatens underwater ecosystems.",
+                    "example_vi": "Rác thải nhựa ở các đại dương đe dọa các hệ sinh thái dưới nước."
+                  },
+                  {
+                    "en": "marine plastic pollution",
+                    "vi": "tình trạng ô nhiễm rác thải nhựa ở biển",
+                    "level": "B2",
+                    "type": "phrase",
+                    "example_en": "Governments must address marine plastic pollution urgently.",
+                    "example_vi": "Chính phủ phải khẩn trương giải quyết ô nhiễm rác thải nhựa ở biển."
+                  },
+                  {
+                    "en": "threaten marine life",
+                    "vi": "đe dọa sinh vật biển",
+                    "level": "B1",
+                    "type": "phrase",
+                    "example_en": "Ocean trash continues to threaten marine life worldwide.",
+                    "example_vi": "Rác đại dương tiếp tục đe dọa sinh vật biển trên toàn thế giới."
+                  },
+                  {
+                    "en": "become entangled in",
+                    "vi": "bị mắc kẹt vào",
+                    "level": "B2",
+                    "type": "phrase",
+                    "example_en": "Dolphins can become entangled in abandoned fishing nets.",
+                    "example_vi": "Cá heo có thể bị mắc kẹt vào lưới đánh cá bị bỏ lại."
+                  },
+                  {
+                    "en": "mistake plastic for food",
+                    "vi": "nhầm rác nhựa với thức ăn",
+                    "level": "B1",
+                    "type": "phrase",
+                    "example_en": "Sea turtles mistake plastic bags for delicious jellyfish.",
+                    "example_vi": "Rùa biển nhầm túi nilon với món sứa ngon lành."
+                  },
+                  {
+                    "en": "cause severe injury",
+                    "vi": "gây ra thương tích nghiêm trọng",
+                    "level": "B1",
+                    "type": "phrase",
+                    "example_en": "Swallowing plastic can cause severe injury or death.",
+                    "example_vi": "Nuốt phải nhựa có thể gây thương tích nghiêm trọng hoặc tử vong."
+                  },
+                  {
+                    "en": "damage coral reefs",
+                    "vi": "làm hư hại các rạn san hô",
+                    "level": "B1",
+                    "type": "phrase",
+                    "example_en": "Plastic debris can easily damage sensitive coral reefs.",
+                    "example_vi": "Mảnh vụn nhựa có thể dễ dàng làm hư hại các rạn san hô nhạy cảm."
+                  },
+                  {
+                    "en": "seafloor habitats",
+                    "vi": "môi trường sống dưới đáy biển",
+                    "level": "B2",
+                    "type": "phrase",
+                    "example_en": "Heavy litter settles down and smothers seafloor habitats.",
+                    "example_vi": "Rác nặng chìm xuống và bóp nghẹt môi trường sống dưới đáy biển."
+                  },
+                  {
+                    "en": "disrupt the food chain",
+                    "vi": "làm mất cân bằng chuỗi thức ăn",
+                    "level": "B2",
+                    "type": "phrase",
+                    "example_en": "Losing marine predators disrupts the entire food chain.",
+                    "example_vi": "Mất đi các loài săn mồi biển làm xáo trộn toàn bộ chuỗi thức ăn."
+                  },
+                  {
+                    "en": "marine biodiversity",
+                    "vi": "đa dạng sinh học biển",
+                    "level": "B2",
+                    "type": "phrase",
+                    "example_en": "Plastic pollution causes a steep drop in marine biodiversity.",
+                    "example_vi": "Ô nhiễm nhựa gây ra sự sụt giảm mạnh về đa dạng sinh học biển."
+                  }
+                ]
+              },
+              {
+                "id": "group_food_chain",
+                "name": "Nhóm 2: Chuỗi thức ăn, Sức khỏe con người & Kinh tế (Food Chain, Health & Economy)",
+                "icon": "🌊",
+                "badge": "Hậu quả toàn diện",
+                "items": [
+                  {
+                    "en": "enter the food chain",
+                    "vi": "đi vào chuỗi thức ăn",
+                    "level": "B1",
+                    "type": "phrase",
+                    "example_en": "Microplastics enter the food chain through small fish.",
+                    "example_vi": "Hạt vi nhựa đi vào chuỗi thức ăn thông qua cá nhỏ."
+                  },
+                  {
+                    "en": "harm human health",
+                    "vi": "gây hại cho sức khỏe con người",
+                    "level": "B1",
+                    "type": "phrase",
+                    "example_en": "Chemicals in plastic can harm human health over time.",
+                    "example_vi": "Hóa chất trong nhựa có thể gây hại cho sức khỏe con người theo thời gian."
+                  },
+                  {
+                    "en": "hormone disruption",
+                    "vi": "rối loạn nội tiết tố",
+                    "level": "B2",
+                    "type": "phrase",
+                    "example_en": "Certain plastic additives can cause hormone disruption.",
+                    "example_vi": "Một số chất phụ gia trong nhựa có thể gây rối loạn nội tiết tố."
+                  },
+                  {
+                    "en": "contaminated seafood",
+                    "vi": "hải sản bị nhiễm độc",
+                    "level": "B2",
+                    "type": "phrase",
+                    "example_en": "Eating contaminated seafood exposes people to toxins.",
+                    "example_vi": "Ăn hải sản nhiễm độc khiến con người tiếp xúc với độc chất."
+                  },
+                  {
+                    "en": "economic losses",
+                    "vi": "thiệt hại về kinh tế",
+                    "level": "B1",
+                    "type": "phrase",
+                    "example_en": "Coastal towns face huge economic losses due to pollution.",
+                    "example_vi": "Các thị trấn ven biển đối mặt thiệt hại kinh tế lớn do ô nhiễm."
+                  },
+                  {
+                    "en": "commercial fishing industry",
+                    "vi": "ngành đánh bắt thủy sản thương mại",
+                    "level": "B2",
+                    "type": "phrase",
+                    "example_en": "Plastic litter causes heavy losses to the commercial fishing industry.",
+                    "example_vi": "Rác nhựa gây tổn thất nặng nề cho ngành đánh bắt thủy sản thương mại."
+                  },
+                  {
+                    "en": "coastal tourism",
+                    "vi": "du lịch ven biển",
+                    "level": "B1",
+                    "type": "phrase",
+                    "example_en": "Polluted beaches directly damage local coastal tourism.",
+                    "example_vi": "Những bãi biển bị ô nhiễm gây hại trực tiếp cho du lịch ven biển địa phương."
+                  },
+                  {
+                    "en": "clean-up costs",
+                    "vi": "chi phí dọn dẹp rác",
+                    "level": "B1",
+                    "type": "phrase",
+                    "example_en": "Cities spend millions of dollars on annual clean-up costs.",
+                    "example_vi": "Các thành phố chi hàng triệu đô la cho chi phí dọn dẹp hằng năm."
+                  },
+                  {
+                    "en": "long-term environmental damage",
+                    "vi": "tác hại môi trường lâu dài",
+                    "level": "B2",
+                    "type": "phrase",
+                    "example_en": "Plastic accumulation creates long-term environmental damage.",
+                    "example_vi": "Sự tích tụ nhựa tạo ra tác hại môi trường lâu dài."
+                  },
+                  {
+                    "en": "fully decompose",
+                    "vi": "phân hủy hoàn toàn",
+                    "level": "B1",
+                    "type": "phrase",
+                    "example_en": "A plastic bottle needs centuries to fully decompose.",
+                    "example_vi": "Một chiếc chai nhựa cần nhiều thế kỷ để phân hủy hoàn toàn."
+                  },
+                  {
+                    "en": "break down into microplastics",
+                    "vi": "vỡ vụn thành các hạt vi nhựa",
+                    "level": "B2",
+                    "type": "phrase",
+                    "example_en": "Waves cause plastic to break down into microplastics.",
+                    "example_vi": "Sóng biển khiến nhựa vỡ vụn thành các hạt vi nhựa."
+                  },
+                  {
+                    "en": "future generations",
+                    "vi": "các thế hệ tương lai",
+                    "level": "B1",
+                    "type": "phrase",
+                    "example_en": "We must preserve pristine oceans for future generations.",
+                    "example_vi": "Chúng ta phải bảo tồn các đại dương nguyên sơ cho các thế hệ tương lai."
+                  }
+                ]
+              },
+              {
+                "id": "group_individual_solutions",
+                "name": "Nhóm 3: Giảm đồ nhựa, Túi vải & Thay thế sinh học (Single-use Plastics & Alternatives)",
+                "icon": "🛍️",
+                "badge": "Giải pháp tiêu dùng",
+                "items": [
+                  {
+                    "en": "reduce single-use plastics",
+                    "vi": "giảm sử dụng đồ nhựa dùng một lần",
+                    "level": "B1",
+                    "type": "phrase",
+                    "example_en": "The easiest solution is to reduce single-use plastics.",
+                    "example_vi": "Giải pháp dễ dàng nhất là giảm đồ nhựa dùng một lần."
+                  },
+                  {
+                    "en": "reusable cloth bags",
+                    "vi": "túi vải có thể tái sử dụng",
+                    "level": "B1",
+                    "type": "phrase",
+                    "example_en": "Shoppers are encouraged to bring reusable cloth bags.",
+                    "example_vi": "Người mua hàng được khuyến khích mang túi vải tái sử dụng."
+                  },
+                  {
+                    "en": "plastic packaging",
+                    "vi": "bao bì nhựa",
+                    "level": "B1",
+                    "type": "phrase",
+                    "example_en": "Supermarkets should minimize excessive plastic packaging.",
+                    "example_vi": "Các siêu thị nên giảm thiểu bao bì nhựa quá mức."
+                  },
+                  {
+                    "en": "eco-friendly alternatives",
+                    "vi": "các giải pháp thân thiện môi trường",
+                    "level": "B2",
+                    "type": "phrase",
+                    "example_en": "Businesses are adopting eco-friendly alternatives to plastic.",
+                    "example_vi": "Các doanh nghiệp đang áp dụng các giải pháp thay thế thân thiện môi trường."
+                  },
+                  {
+                    "en": "waste management system",
+                    "vi": "hệ thống quản lý rác thải",
+                    "level": "B1",
+                    "type": "phrase",
+                    "example_en": "An effective waste management system prevents ocean litter.",
+                    "example_vi": "Hệ thống quản lý rác thải hiệu quả ngăn rác trôi ra đại dương."
+                  },
+                  {
+                    "en": "improve recycling rates",
+                    "vi": "nâng cao tỷ lệ tái chế",
+                    "level": "B2",
+                    "type": "phrase",
+                    "example_en": "Cities invest heavily to improve recycling rates.",
+                    "example_vi": "Các thành phố đầu tư mạnh để nâng cao tỷ lệ tái chế."
+                  },
+                  {
+                    "en": "containment barriers",
+                    "vi": "rào chắn rác / lưới chặn rác",
+                    "level": "B2",
+                    "type": "phrase",
+                    "example_en": "Installing containment barriers stops debris at river mouths.",
+                    "example_vi": "Lắp đặt rào chắn rác giúp chặn mảnh vụn tại các cửa sông."
+                  }
+                ]
+              },
+              {
+                "id": "group_policy_solutions",
+                "name": "Nhóm 4: Chính sách, Pháp luật, Xử phạt & Hợp tác quốc tế (Policies, Laws & Global Action)",
+                "icon": "🏛️",
+                "badge": "Giải pháp vĩ mô",
+                "items": [
+                  {
+                    "en": "raise public awareness",
+                    "vi": "nâng cao nhận thức cộng đồng",
+                    "level": "B1",
+                    "type": "phrase",
+                    "example_en": "Media campaigns help raise public awareness on green living.",
+                    "example_vi": "Các chiến dịch truyền thông giúp nâng cao nhận thức cộng đồng về sống xanh."
+                  },
+                  {
+                    "en": "responsible consumption",
+                    "vi": "tiêu dùng có trách nhiệm",
+                    "level": "B2",
+                    "type": "phrase",
+                    "example_en": "Responsible consumption reduces unnecessary plastic trash.",
+                    "example_vi": "Tiêu dùng có trách nhiệm giúp giảm rác nhựa không cần thiết."
+                  },
+                  {
+                    "en": "beach clean-up campaigns",
+                    "vi": "các chiến dịch dọn sạch bãi biển",
+                    "level": "B1",
+                    "type": "phrase",
+                    "example_en": "Volunteers eagerly joined beach clean-up campaigns.",
+                    "example_vi": "Các tình nguyện viên hào hứng tham gia chiến dịch dọn bãi biển."
+                  },
+                  {
+                    "en": "enforce stricter laws",
+                    "vi": "thực thi pháp luật nghiêm ngặt hơn",
+                    "level": "B2",
+                    "type": "phrase",
+                    "example_en": "Governments must enforce stricter laws against illegal dumping.",
+                    "example_vi": "Chính phủ phải thực thi pháp luật nghiêm ngặt hơn đối với xả rác trái phép."
+                  },
+                  {
+                    "en": "impose heavy fines",
+                    "vi": "áp dụng mức phạt tiền nặng",
+                    "level": "B2",
+                    "type": "phrase",
+                    "example_en": "Authorities impose heavy fines on polluting factories.",
+                    "example_vi": "Nhà chức trách áp dụng mức phạt tiền nặng đối với các nhà máy gây ô nhiễm."
+                  },
+                  {
+                    "en": "international cooperation",
+                    "vi": "hợp tác quốc tế",
+                    "level": "B2",
+                    "type": "phrase",
+                    "example_en": "Stopping ocean pollution requires deep international cooperation.",
+                    "example_vi": "Ngăn chặn ô nhiễm đại dương đòi hỏi sự hợp tác quốc tế sâu rộng."
+                  },
+                  {
+                    "en": "biodegradable materials",
+                    "vi": "các vật liệu tự phân hủy sinh học",
+                    "level": "B2",
+                    "type": "phrase",
+                    "example_en": "Inventors are replacing plastics with biodegradable materials.",
+                    "example_vi": "Các nhà phát minh đang thay thế nhựa bằng các vật liệu tự phân hủy sinh học."
+                  }
+                ]
               }
             ]
           }
