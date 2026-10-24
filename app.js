@@ -120,6 +120,10 @@ function setTheme(theme) {
 
 // --- Router / Screen switcher ---
 function switchScreen(screenName) {
+  if (isCurrentStudentLocked()) {
+    showAccountLockedModal('tab_switch');
+    return;
+  }
   // Anti-cheat Exam Lock
   if (isExamModeActive() && screenName !== 'workspace') {
     isPromptingUser = true;
@@ -677,6 +681,10 @@ function handleSearch(val) {
 
 // --- Practice Workspace Logic ---
 function startPractice(catId, topicId) {
+  if (isCurrentStudentLocked()) {
+    showAccountLockedModal('tab_switch');
+    return;
+  }
   const userClass = (sessionStorage.getItem('current_user_class') || '').toUpperCase();
   if (userClass === 'CB210' && (catId === 3 || catId === 4)) {
     showToast('🔒 Đề bài thuộc Dạng luận chưa mở cho lớp CB210. Lớp hiện mở Dạng 1 và Dạng 2!', 'warning');
@@ -981,6 +989,10 @@ let currentStepKey = 'read';
 
 // Switch between workspace steps (supports both step numbers and step keys)
 function switchStep(stepTarget) {
+  if (isCurrentStudentLocked()) {
+    showAccountLockedModal('tab_switch');
+    return;
+  }
   if (!currentTopic) return;
   const withVocab = hasVocabStep();
   
@@ -5621,7 +5633,194 @@ function exitExamMode() {
   showToast("🚪 Bạn đã rời khỏi phòng thi. Bản nháp đã được lưu an toàn.", "info");
 }
 
-// --- Anti-Cheat Alert & Modal System ---
+// --- Anti-Cheat & Teacher Account Lock System ---
+
+function getStudentLockKey(studentName) {
+  const norm = normalizeVietnameseName(studentName || sessionStorage.getItem('current_user_name') || 'unknown');
+  return `vstep_lock_${norm}`;
+}
+
+function isCurrentStudentLocked() {
+  const studentName = sessionStorage.getItem('current_user_name');
+  if (studentName) {
+    const lockData = localStorage.getItem(getStudentLockKey(studentName));
+    if (lockData) {
+      try {
+        const parsed = JSON.parse(lockData);
+        if (parsed && parsed.locked === true) return true;
+      } catch (e) {
+        return true;
+      }
+    }
+  }
+  return localStorage.getItem('vstep_is_account_locked') === 'true';
+}
+
+function lockCurrentAccount(reason) {
+  const studentName = sessionStorage.getItem('current_user_name') || localStorage.getItem('vstep_locked_student_name') || 'Học viên';
+  const studentClass = sessionStorage.getItem('current_user_class') || localStorage.getItem('vstep_locked_student_class') || '';
+  const lockInfo = {
+    locked: true,
+    studentName: studentName,
+    studentClass: studentClass,
+    time: new Date().toISOString(),
+    timeVi: new Date().toLocaleTimeString('vi-VN') + ' ' + new Date().toLocaleDateString('vi-VN'),
+    reason: reason,
+    violations: cheatViolationCount
+  };
+
+  localStorage.setItem(getStudentLockKey(studentName), JSON.stringify(lockInfo));
+  localStorage.setItem('vstep_is_account_locked', 'true');
+  localStorage.setItem('vstep_locked_student_name', studentName);
+  localStorage.setItem('vstep_locked_student_class', studentClass);
+  sessionStorage.setItem('vstep_session_locked', 'true');
+
+  // Stop timer and auto-save current draft safely
+  stopTimer();
+  saveProgressAction(true);
+
+  // Send lock event to Google Forms
+  try {
+    const formUrl = 'https://docs.google.com/forms/d/e/1FAIpQLSfB9UgCMgYhwLVvjiXnGZTFlj6IwCJfjqwpBfd1qHpeOm4Lvw/formResponse';
+    const topicTitle = (currentTopic && currentTopic.title_en) || 'Task 2 Essay';
+    const reasonText = (reason === 'paste') ? 'Dán (Paste) nội dung ngoài' : 'Chuyển tab/rời phòng thi';
+    const finalData = `[TẠM KHÓA TÀI KHOẢN DO VI PHẠM 3 LẦN] ${studentName} - Lớp ${studentClass} - Đề: ${topicTitle} - Lý do: ${reasonText} lúc ${lockInfo.timeVi}`;
+    const formData = new FormData();
+    formData.append('entry.1205151935', finalData);
+    fetch(formUrl, { method: 'POST', mode: 'no-cors', body: formData }).catch(() => {});
+  } catch (err) {}
+
+  showAccountLockedModal(reason);
+}
+
+function showAccountLockedModal(reason = 'tab_switch') {
+  const modal = document.getElementById('cheat-warning-modal');
+  const countBadge = document.getElementById('cheat-warning-count');
+  const title = document.getElementById('cheat-warning-title');
+  const desc = document.getElementById('cheat-warning-desc');
+  const btnContinue = document.getElementById('cheat-btn-continue');
+  const unlockBox = document.getElementById('teacher-unlock-container');
+  const icon = document.getElementById('cheat-modal-icon');
+  const unlockMsg = document.getElementById('teacher-unlock-msg');
+  const unlockInput = document.getElementById('teacher-unlock-code');
+
+  const studentName = sessionStorage.getItem('current_user_name') || localStorage.getItem('vstep_locked_student_name') || 'Học viên';
+  const studentClass = sessionStorage.getItem('current_user_class') || localStorage.getItem('vstep_locked_student_class') || '';
+
+  if (icon) icon.textContent = '🔒';
+  if (countBadge) {
+    countBadge.textContent = '⛔ TÀI KHOẢN ĐÃ BỊ TẠM KHÓA (VI PHẠM LẦN 03)';
+    countBadge.style.background = '#dc2626';
+    countBadge.style.color = '#ffffff';
+    countBadge.style.borderColor = '#b91c1c';
+  }
+  if (title) {
+    title.textContent = 'TÀI KHOẢN ĐÃ BỊ TẠM KHÓA!';
+    title.style.color = '#dc2626';
+  }
+  if (desc) {
+    let reasonText = 'chuyển tab hoặc rời khỏi cửa sổ phòng thi';
+    if (reason === 'paste') reasonText = 'dán (paste) nội dung từ bên ngoài';
+    desc.innerHTML = `
+      <div style="font-size: 0.96rem; margin-bottom: 0.65rem; color: var(--text-primary);">
+        Học viên: <strong>${escapeHtml(studentName)}</strong> ${studentClass ? `(Lớp: <strong>${escapeHtml(studentClass)}</strong>)` : ''}
+      </div>
+      <div style="color: #ef4444; font-weight: 700; margin-bottom: 0.65rem;">
+        Hệ thống phát hiện vi phạm quy chế thi LẦN 03 (${reasonText}).
+      </div>
+      <div style="line-height: 1.5; font-size: 0.9rem;">
+        Bài viết của bạn đã được <strong>tự động lưu lại an toàn</strong>. Hệ thống đã <strong>TẠM KHÓA TÀI KHOẢN</strong> cho đến khi <strong>GIÁO VIÊN</strong> cho phép mở lại trên hệ thống.
+      </div>
+    `;
+  }
+
+  if (btnContinue) btnContinue.style.display = 'none';
+  if (unlockBox) unlockBox.style.display = 'block';
+  if (unlockMsg) unlockMsg.style.display = 'none';
+  if (unlockInput) {
+    unlockInput.value = '';
+    setTimeout(() => unlockInput.focus(), 300);
+  }
+
+  if (modal) modal.style.display = 'flex';
+}
+
+function teacherUnlockAccount() {
+  const codeInput = document.getElementById('teacher-unlock-code');
+  const msgEl = document.getElementById('teacher-unlock-msg');
+  if (!codeInput) return;
+
+  const code = (codeInput.value || '').trim();
+  const validCodes = ['PTMN', 'GVPTMN', 'COMINHNGUYET', 'STUDYHARD'];
+  const isValid = validCodes.includes(code.toUpperCase());
+
+  if (!isValid) {
+    if (msgEl) {
+      msgEl.className = 'teacher-unlock-msg error';
+      msgEl.textContent = '❌ Mã xác nhận không đúng! Vui lòng nhờ Giáo viên nhập mã.';
+      msgEl.style.display = 'block';
+    }
+    codeInput.select();
+    codeInput.focus();
+    return;
+  }
+
+  // Teacher unlocked successfully
+  const studentName = sessionStorage.getItem('current_user_name') || localStorage.getItem('vstep_locked_student_name') || 'Học viên';
+  const studentClass = sessionStorage.getItem('current_user_class') || localStorage.getItem('vstep_locked_student_class') || '';
+
+  // Clear locks
+  localStorage.removeItem(getStudentLockKey(studentName));
+  localStorage.removeItem('vstep_is_account_locked');
+  localStorage.removeItem('vstep_locked_student_name');
+  localStorage.removeItem('vstep_locked_student_class');
+  sessionStorage.removeItem('vstep_session_locked');
+
+  // Reset violation count
+  cheatViolationCount = 0;
+
+  if (msgEl) {
+    msgEl.className = 'teacher-unlock-msg success';
+    msgEl.textContent = '✅ Mở khóa thành công! Đang khôi phục quyền truy cập...';
+    msgEl.style.display = 'block';
+  }
+
+  // Send unlock event to Google Forms
+  try {
+    const formUrl = 'https://docs.google.com/forms/d/e/1FAIpQLSfB9UgCMgYhwLVvjiXnGZTFlj6IwCJfjqwpBfd1qHpeOm4Lvw/formResponse';
+    const nowVi = new Date().toLocaleTimeString('vi-VN') + ' ' + new Date().toLocaleDateString('vi-VN');
+    const finalData = `[MỞ KHÓA BỞI GIÁO VIÊN] ${studentName} - Lớp ${studentClass} - Giáo viên đã mở khóa tài khoản lúc ${nowVi}`;
+    const formData = new FormData();
+    formData.append('entry.1205151935', finalData);
+    fetch(formUrl, { method: 'POST', mode: 'no-cors', body: formData }).catch(() => {});
+  } catch (err) {}
+
+  setTimeout(() => {
+    const modal = document.getElementById('cheat-warning-modal');
+    if (modal) modal.style.display = 'none';
+
+    // If currently at Access Gateway, show success indicator
+    const gateway = document.getElementById('access-gateway');
+    if (gateway && gateway.style.display === 'flex') {
+      const errorEl = document.getElementById('gateway-error');
+      if (errorEl) {
+        errorEl.textContent = 'Tài khoản đã được Giáo viên mở khóa thành công! Bạn có thể bấm BẮT ĐẦU HỌC NGAY.';
+        errorEl.style.color = '#10B981';
+        errorEl.style.display = 'block';
+      }
+    } else {
+      // In workspace: resume timer if writing
+      if (currentScreen === 'workspace' && currentStepKey === 'write' && !hasSubmitted) {
+        startTimer();
+        const textarea = document.getElementById('essay-textarea');
+        if (textarea) textarea.focus();
+      }
+    }
+
+    showToast(`🔓 Giáo viên đã MỞ KHÓA TÀI KHOẢN thành công cho ${studentName}!`, 'success');
+  }, 800);
+}
+
 function handleCheatViolation(reason) {
   if (!isExamModeActive() || isPromptingUser) return;
   const now = Date.now();
@@ -5629,28 +5828,64 @@ function handleCheatViolation(reason) {
   lastCheatAlertTime = now;
   cheatViolationCount++;
   
+  if (cheatViolationCount >= 3) {
+    lockCurrentAccount(reason);
+    return;
+  }
+
   const modal = document.getElementById('cheat-warning-modal');
   const countBadge = document.getElementById('cheat-warning-count');
+  const title = document.getElementById('cheat-warning-title');
   const desc = document.getElementById('cheat-warning-desc');
-  
+  const btnContinue = document.getElementById('cheat-btn-continue');
+  const unlockBox = document.getElementById('teacher-unlock-container');
+  const icon = document.getElementById('cheat-modal-icon');
+
+  if (icon) icon.textContent = '⚠️';
   if (countBadge) {
-    countBadge.textContent = `CẢNH BÁO VI PHẠM (LẦN ${cheatViolationCount})`;
+    countBadge.textContent = cheatViolationCount === 1 
+      ? 'CẢNH BÁO VI PHẠM (LẦN 1/3)' 
+      : 'CẢNH BÁO NGUY HIỂM (LẦN 2/3)';
+    countBadge.style.background = 'rgba(239, 68, 68, 0.12)';
+    countBadge.style.color = '#ef4444';
+    countBadge.style.borderColor = 'rgba(239, 68, 68, 0.35)';
   }
-  
+  if (title) {
+    title.textContent = cheatViolationCount === 1 
+      ? 'PHÁT HIỆN RỜI KHỎI PHÒNG THI!' 
+      : 'CẢNH BÁO VI PHẠM LẦN 02!';
+    title.style.color = '#ef4444';
+  }
+
   if (desc) {
-    if (reason === 'paste') {
-      desc.textContent = `Phòng thi KHÔNG CHO PHÉP DÁN (PASTE) nội dung từ bên ngoài. Vui lòng tự gõ bài viết để rèn luyện kỹ năng thực tế!`;
-    } else {
-      desc.textContent = `Hệ thống phát hiện bạn vừa chuyển tab hoặc rời khỏi cửa sổ phòng thi (Vi phạm lần ${cheatViolationCount}). Mọi vi phạm đều được ghi nhận vào kết quả làm bài. Vui lòng tập trung hoàn thành bài viết!`;
-    }
+    let reasonText = (reason === 'paste')
+      ? 'Phòng thi KHÔNG CHO PHÉP DÁN (PASTE) nội dung từ bên ngoài. Vui lòng tự gõ bài viết để rèn luyện kỹ năng thực tế!'
+      : 'Hệ thống phát hiện bạn vừa chuyển tab hoặc rời khỏi cửa sổ phòng thi. Mọi vi phạm đều được ghi nhận vào kết quả làm bài.';
+    
+    let penaltyWarning = (cheatViolationCount === 1)
+      ? '<div style="margin-top: 0.75rem; color: #ef4444; font-weight: 700;">⚠️ CHÚ Ý: Nếu vi phạm đến LẦN 03, tài khoản sẽ bị TẠM KHÓA cho đến khi Giáo viên cho phép mở lại!</div>'
+      : '<div style="margin-top: 0.75rem; color: #dc2626; font-weight: 800; font-size: 0.98rem;">🚨 CẢNH BÁO CUỐI CÙNG: Nếu vi phạm thêm 01 LẦN NỮA (Lần 3), TÀI KHOẢN CỦA BẠN SẼ BỊ TẠM KHÓA NGAY LẬP TỨC!</div>';
+
+    desc.innerHTML = reasonText + penaltyWarning;
   }
-  
+
+  if (btnContinue) {
+    btnContinue.style.display = 'block';
+    btnContinue.textContent = cheatViolationCount === 1
+      ? 'TÔI HIỂU VÀ TIẾP TỤC LÀM BÀI'
+      : 'TÔI CAM KẾT KHÔNG TÁI PHẠM VÀ TIẾP TỤC';
+  }
+  if (unlockBox) unlockBox.style.display = 'none';
+
   if (modal) {
     modal.style.display = 'flex';
   }
 }
 
 function closeCheatWarningModal() {
+  if (isCurrentStudentLocked()) {
+    return; // Cannot dismiss if locked
+  }
   const modal = document.getElementById('cheat-warning-modal');
   if (modal) modal.style.display = 'none';
   const textarea = document.getElementById('essay-textarea');
@@ -6936,6 +7171,11 @@ document.addEventListener('DOMContentLoaded', () => {
   if (gateway) gateway.style.display = 'flex';
   if (appContainer) appContainer.style.display = 'none';
 
+  // Check if current user is locked on reload
+  if (isCurrentStudentLocked()) {
+    showAccountLockedModal('tab_switch');
+  }
+
   // Restore saved session name & class if student refreshed
   const savedName = sessionStorage.getItem('current_user_name');
   const savedClass = sessionStorage.getItem('current_user_class');
@@ -7030,6 +7270,23 @@ function submitGatewayAccess() {
   if (!nameInput) {
     errorEl.textContent = 'Vui lòng nhập đầy đủ Họ và Tên!';
     errorEl.style.display = 'block';
+    return;
+  }
+
+  // Check if this student account is locked due to 3 violations
+  const normInput = normalizeVietnameseName(nameInput);
+  const lockDataRaw = localStorage.getItem(`vstep_lock_${normInput}`);
+  let isTargetLocked = false;
+  if (lockDataRaw) {
+    try {
+      const parsed = JSON.parse(lockDataRaw);
+      if (parsed && parsed.locked === true) isTargetLocked = true;
+    } catch(e) { isTargetLocked = true; }
+  }
+  if (isTargetLocked || localStorage.getItem('vstep_is_account_locked') === 'true') {
+    sessionStorage.setItem('current_user_name', nameInput);
+    sessionStorage.setItem('current_user_class', classInput);
+    showAccountLockedModal('tab_switch');
     return;
   }
 

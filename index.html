@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>LUYỆN TẬP VIẾT LUẬN - VSTEP WRITING TASK 02</title>
   <!-- Main Stylesheet -->
-  <link rel="stylesheet" href="styles.css?v=82">
+  <link rel="stylesheet" href="styles.css?v=83">
 </head>
 <body>
 
@@ -609,18 +609,31 @@
     </div>
   </div>
 
-  <!-- ANTI-CHEAT WARNING MODAL -->
+  <!-- ANTI-CHEAT WARNING & ACCOUNT LOCK MODAL -->
   <div id="cheat-warning-modal" class="cheat-modal-overlay">
-    <div class="cheat-modal-content">
-      <div class="cheat-modal-icon">⚠️</div>
-      <div class="cheat-warning-badge" id="cheat-warning-count">CẢNH BÁO VI PHẠM (LẦN 1)</div>
-      <h3 style="color: #ef4444; font-size: 1.25rem; font-weight: 800; margin-bottom: 0.75rem;">PHÁT HIỆN RỜI KHỎI PHÒNG THI!</h3>
-      <p id="cheat-warning-desc" style="color: var(--text-secondary); font-size: 0.92rem; line-height: 1.6; margin-bottom: 1.5rem;">
+    <div class="cheat-modal-content" id="cheat-modal-box">
+      <div class="cheat-modal-icon" id="cheat-modal-icon">⚠️</div>
+      <div class="cheat-warning-badge" id="cheat-warning-count">CẢNH BÁO VI PHẠM (LẦN 1/3)</div>
+      <h3 id="cheat-warning-title" style="color: #ef4444; font-size: 1.25rem; font-weight: 800; margin-bottom: 0.75rem;">PHÁT HIỆN RỜI KHỎI PHÒNG THI!</h3>
+      <div id="cheat-warning-desc" style="color: var(--text-secondary); font-size: 0.92rem; line-height: 1.6; margin-bottom: 1.5rem;">
         Hệ thống phát hiện bạn vừa chuyển tab hoặc rời khỏi cửa sổ phòng thi. Hành vi này được ghi nhận vào lịch sử làm bài. Vui lòng tập trung hoàn thành bài viết!
-      </p>
-      <button class="btn btn-primary" style="width: 100%; background: #ef4444; border-color: #ef4444; font-weight: 700; padding: 0.75rem;" onclick="closeCheatWarningModal()">
+      </div>
+      
+      <!-- Student Continue Button (Active on Violation 1 & 2 only) -->
+      <button id="cheat-btn-continue" class="btn btn-primary" style="width: 100%; background: #ef4444; border-color: #ef4444; font-weight: 700; padding: 0.75rem;" onclick="closeCheatWarningModal()">
         TÔI HIỂU VÀ TIẾP TỤC LÀM BÀI
       </button>
+
+      <!-- Teacher Unlock Section (Displayed when Violation 3 / Locked Account) -->
+      <div id="teacher-unlock-container" class="teacher-unlock-box" style="display: none;">
+        <div class="teacher-unlock-title">🔑 DÀNH CHO GIÁO VIÊN MỞ KHÓA:</div>
+        <p class="teacher-unlock-sub">Học viên vui lòng liên hệ Giáo viên để được kiểm tra và nhập mã mở khóa:</p>
+        <div class="teacher-unlock-inputs">
+          <input type="password" id="teacher-unlock-code" placeholder="Mã mở khóa của Giáo viên..." onkeydown="if(event.key==='Enter') teacherUnlockAccount()" />
+          <button class="btn-teacher-unlock" onclick="teacherUnlockAccount()">MỞ KHÓA</button>
+        </div>
+        <div id="teacher-unlock-msg" class="teacher-unlock-msg" style="display: none;"></div>
+      </div>
     </div>
   </div>
 
@@ -628,8 +641,8 @@
   <div id="toast-container"></div>
 
   <!-- Loaded global topic data -->
-  <script src="topics_db.js?v=82"></script>
+  <script src="topics_db.js?v=83"></script>
   <!-- Application Logic -->
-  <script src="app.js?v=82"></script>
+  <script src="app.js?v=83"></script>
 </body>
 </html>

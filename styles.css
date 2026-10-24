@@ -3399,3 +3399,88 @@ h1, h2, h3, h4, h5, h6,
 
 
 
+
+
+/* --- Teacher Unlock Box for Account Lockout --- */
+.teacher-unlock-box {
+  margin-top: 1.25rem;
+  padding: 1.25rem;
+  background: rgba(239, 68, 68, 0.08);
+  border: 1px dashed rgba(239, 68, 68, 0.4);
+  border-radius: var(--radius-md);
+  text-align: left;
+}
+
+.teacher-unlock-title {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: #ef4444;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.teacher-unlock-sub {
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.75rem;
+  line-height: 1.4;
+}
+
+.teacher-unlock-inputs {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.teacher-unlock-inputs input {
+  flex: 1;
+  padding: 0.65rem 0.85rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(239, 68, 68, 0.3);
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-size: 0.9rem;
+  outline: none;
+}
+
+.teacher-unlock-inputs input:focus {
+  border-color: #ef4444;
+  box-shadow: 0 0 0 2px rgba(239, 68, 68, 0.2);
+}
+
+.btn-teacher-unlock {
+  background: #ef4444;
+  color: #fff;
+  border: none;
+  border-radius: var(--radius-sm);
+  padding: 0.65rem 1rem;
+  font-weight: 700;
+  font-size: 0.85rem;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.2s;
+}
+
+.btn-teacher-unlock:hover {
+  background: #dc2626;
+}
+
+.teacher-unlock-msg {
+  margin-top: 0.5rem;
+  font-size: 0.82rem;
+  font-weight: 600;
+  padding: 0.4rem 0.6rem;
+  border-radius: 4px;
+}
+
+.teacher-unlock-msg.error {
+  background: rgba(239, 68, 68, 0.15);
+  color: #ef4444;
+}
+
+.teacher-unlock-msg.success {
+  background: rgba(16, 185, 129, 0.15);
+  color: #10b981;
+}
+
