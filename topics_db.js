@@ -20240,455 +20240,1827 @@ const ESSAY_DATA = [
         "id": 7,
         "title_en": "Saving freshwater resources",
         "title_vi": "Bảo vệ và tiết kiệm nguồn nước ngọt",
-        "tags": "[Measures]",
+        "tags": [
+          "Measures"
+        ],
         "context": "Freshwater is one of the most important natural resources for human life, agriculture, industry, and environmental sustainability. However, increasing population growth, climate change, pollution, and excessive water consumption have placed significant pressure on freshwater supplies in many parts of the world. As a result, protecting and conserving freshwater resources has become a major concern for governments and communities.",
         "prompt": "Write an essay to an educated reader to suggest possible measures for saving freshwater resources. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
         "has_full_details": true,
         "paraphrases": [
           {
-            "en": "conserving water resources",
-            "vi": "bảo tồn nguồn tài nguyên nước"
+            "en": "conserving freshwater supplies",
+            "vi": "bảo tồn nguồn cung cấp nước ngọt"
           },
           {
-            "en": "protecting freshwater supplies",
-            "vi": "bảo vệ nguồn cung cấp nước ngọt"
+            "en": "protecting natural water resources",
+            "vi": "bảo vệ nguồn tài nguyên nước tự nhiên"
           },
           {
-            "en": "preventing water waste",
-            "vi": "ngăn chặn sự lãng phí nước"
+            "en": "preventing excessive water waste",
+            "vi": "ngăn chặn sự lãng phí nước quá mức"
+          },
+          {
+            "en": "implementing water-saving measures",
+            "vi": "thực hiện các biện pháp tiết kiệm nước"
           }
         ],
         "details": {
+          "mindmap_img": "freshwater_saving_mindmap_vi.jpg",
+          "mindmap_img_en": "freshwater_saving_mindmap_en.jpg",
           "ideas_b1": {
-            "benefits": [
+            "solutions": [
               {
-                "title": "SOLUTION 01",
+                "title": "GIẢI PHÁP 01: NÂNG CAO NHẬN THỨC CỘNG ĐỒNG",
+                "point_vi": "Nâng cao nhận thức của cộng đồng là giải pháp quan trọng đầu tiên để bảo vệ nguồn nước ngọt.",
+                "point_en": "Raising public awareness is the first important solution to protect freshwater resources.",
+                "evidence_vi": "Nhà trường và các tổ chức địa phương nên giáo dục mọi người về tầm quan trọng của nước sạch qua các chiến dịch môi trường, vì vậy người dân sẽ hình thành thói quen tiết kiệm nước mỗi ngày.",
+                "evidence_en": "Schools and local organizations should educate people about the importance of clean water through environmental campaigns, so citizens will build daily water-saving habits.",
                 "collocations": [
                   {
-                    "en": "freshwater",
-                    "vi": "nước ngọt"
+                    "en": "raising public awareness",
+                    "vi": "nâng cao nhận thức cộng đồng"
                   },
                   {
-                    "en": "use freshwater responsibly",
-                    "vi": "sử dụng nước ngọt có trách nhiệm"
+                    "en": "protect freshwater resources",
+                    "vi": "bảo vệ nguồn nước ngọt"
+                  },
+                  {
+                    "en": "importance of clean water",
+                    "vi": "tầm quan trọng của nước sạch"
+                  },
+                  {
+                    "en": "environmental campaigns",
+                    "vi": "các chiến dịch môi trường"
+                  },
+                  {
+                    "en": "daily water-saving habits",
+                    "vi": "thói quen tiết kiệm nước hằng ngày"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 02: TIẾT KIỆM NƯỚC TRONG SINH HOẠT HẰNG NGÀY",
+                "point_vi": "Mỗi cá nhân cần chủ động tiết kiệm nước trong các hoạt động sinh hoạt hằng ngày.",
+                "point_en": "Each individual should actively save water in daily household activities.",
+                "evidence_vi": "Mọi người nên tạo thói quen tắt vòi nước khi đánh răng và sửa chữa ngay các đường ống rò rỉ, đồng thời các gia đình có thể thu gom nước mưa để tưới cây hoặc dọn dẹp nhà cửa.",
+                "evidence_en": "People should turn off taps when brushing teeth and repair leaking pipes promptly, and families can also collect rainwater for watering plants or household cleaning.",
+                "collocations": [
+                  {
+                    "en": "save water in daily life",
+                    "vi": "tiết kiệm nước trong sinh hoạt hằng ngày"
+                  },
+                  {
+                    "en": "household activities",
+                    "vi": "các hoạt động gia đình"
                   },
                   {
                     "en": "turn off taps",
                     "vi": "tắt vòi nước"
                   },
                   {
-                    "en": "avoid wasting water",
-                    "vi": "tránh lãng phí nước"
+                    "en": "repair leaking pipes promptly",
+                    "vi": "sửa chữa đường ống rò rỉ kịp thời"
                   },
                   {
-                    "en": "water waste",
-                    "vi": "sự lãng phí nước"
+                    "en": "collect rainwater",
+                    "vi": "thu gom nước mưa"
                   },
                   {
-                    "en": "daily activities",
-                    "vi": "hoạt động hằng ngày"
-                  },
-                  {
-                    "en": "be available",
-                    "vi": "có sẵn"
-                  },
-                  {
-                    "en": "avoid",
-                    "vi": "tránh"
-                  },
-                  {
-                    "en": "reduce",
-                    "vi": "giảm"
-                  },
-                  {
-                    "en": "turn off",
-                    "vi": "tắt"
+                    "en": "watering plants and cleaning",
+                    "vi": "tưới cây và dọn dẹp vệ sinh"
                   }
-                ],
-                "point_vi": "Mọi người nên sử dụng nước ngọt một cách tiết kiệm và có trách nhiệm hơn.",
-                "point_en": "People should use freshwater more responsibly.",
-                "evidence_vi": "Mọi người nên tắt vòi nước khi không sử dụng. Họ nên tránh lãng phí nước trong các hoạt động hằng ngày. Điều này giúp giảm lượng nước bị lãng phí. Nhờ đó, nhiều nước sạch hơn sẽ được giữ lại cho tương lai.",
-                "evidence_en": "People should turn off taps when they are not in use. They should avoid wasting water in their daily activities. This helps reduce water waste. As a result, more clean water will be available for the future."
+                ]
               },
               {
-                "title": "SOLUTION 02",
+                "title": "GIẢI PHÁP 03: KIỂM SOÁT Ô NHIỄM NGUỒN NƯỚC",
+                "point_vi": "Kiểm soát ô nhiễm nguồn nước là biện pháp cấp bách để giữ cho sông hồ luôn trong sạch.",
+                "point_en": "Controlling water pollution is an urgent measure to keep rivers and lakes clean.",
+                "evidence_vi": "Mọi người không được xả rác xuống kênh rạch, và các nhà máy phải xử lý nước thải công nghiệp cẩn thận trước khi xả ra môi trường tự nhiên.",
+                "evidence_en": "People must not dump rubbish into canals, and factories must treat industrial wastewater carefully before releasing it into the natural environment.",
                 "collocations": [
                   {
-                    "en": "water management",
-                    "vi": "quản lý nguồn nước"
+                    "en": "controlling water pollution",
+                    "vi": "kiểm soát ô nhiễm nguồn nước"
                   },
                   {
-                    "en": "leaking water pipes",
-                    "vi": "đường ống nước bị rò rỉ"
+                    "en": "urgent measure",
+                    "vi": "biện pháp cấp bách"
                   },
                   {
-                    "en": "water storage systems",
-                    "vi": "hệ thống lưu trữ nước"
+                    "en": "keep rivers and lakes clean",
+                    "vi": "giữ cho sông hồ luôn sạch"
                   },
                   {
-                    "en": "water loss",
-                    "vi": "thất thoát nước"
+                    "en": "dump rubbish into canals",
+                    "vi": "vứt rác xuống kênh rạch"
                   },
                   {
-                    "en": "repair",
-                    "vi": "sửa chữa"
+                    "en": "treat industrial wastewater",
+                    "vi": "xử lý nước thải công nghiệp"
                   },
                   {
-                    "en": "build",
-                    "vi": "xây dựng"
+                    "en": "natural environment",
+                    "vi": "môi trường tự nhiên"
                   }
-                ],
-                "point_vi": "Chính phủ nên quản lý nguồn nước hiệu quả hơn.",
-                "point_en": "Governments should improve water management.",
-                "evidence_vi": "Chính phủ có thể sửa chữa các đường ống nước bị rò rỉ. Họ cũng có thể xây dựng thêm các hệ thống lưu trữ nước. Điều này giúp giảm thất thoát nước. Nhờ đó, nhiều người sẽ có đủ nước sạch để sử dụng.",
-                "evidence_en": "Governments can repair leaking water pipes. They can also build more water storage systems. This helps reduce water loss. As a result, more people will have enough clean water."
+                ]
               },
               {
-                "title": "SOLUTION 03",
+                "title": "GIẢI PHÁP 04: ÁP DỤNG NÔNG NGHIỆP BỀN VỮNG",
+                "point_vi": "Nông dân nên áp dụng các phương pháp nông nghiệp bền vững để sử dụng nước hiệu quả hơn.",
+                "point_en": "Farmers should adopt sustainable farming methods to use water more efficiently.",
+                "evidence_vi": "Nông dân có thể lắp đặt hệ thống tưới nhỏ giọt hiện đại và giảm bớt phân bón hóa học, vì các phương pháp này giúp tiết kiệm nước và bảo vệ đất trồng.",
+                "evidence_en": "Farmers can install modern drip irrigation systems and reduce chemical fertilizers, because these methods save water and protect the soil.",
                 "collocations": [
                   {
-                    "en": "the importance of",
-                    "vi": "tầm quan trọng của"
+                    "en": "sustainable farming methods",
+                    "vi": "phương pháp nông nghiệp bền vững"
                   },
                   {
-                    "en": "water conservation",
-                    "vi": "bảo tồn nguồn nước"
+                    "en": "use water efficiently",
+                    "vi": "sử dụng nước hiệu quả"
                   },
                   {
-                    "en": "educational programmes",
-                    "vi": "chương trình giáo dục"
+                    "en": "install drip irrigation systems",
+                    "vi": "lắp đặt hệ thống tưới nhỏ giọt"
                   },
                   {
-                    "en": "the media",
-                    "vi": "phương tiện truyền thông"
+                    "en": "reduce chemical fertilizers",
+                    "vi": "giảm phân bón hóa học"
                   },
                   {
-                    "en": "wasteful habits",
-                    "vi": "thói quen lãng phí"
-                  },
-                  {
-                    "en": "freshwater resources",
-                    "vi": "nguồn nước ngọt"
-                  },
-                  {
-                    "en": "understand",
-                    "vi": "hiểu"
-                  },
-                  {
-                    "en": "change",
-                    "vi": "thay đổi"
-                  },
-                  {
-                    "en": "protect",
-                    "vi": "bảo vệ"
+                    "en": "protect the soil",
+                    "vi": "bảo vệ đất trồng"
                   }
-                ],
-                "point_vi": "Mọi người nên hiểu rõ hơn tầm quan trọng của việc bảo vệ nguồn nước.",
-                "point_en": "People should better understand the importance of water conservation.",
-                "evidence_vi": "Các trường học và phương tiện truyền thông có thể tổ chức các chương trình tuyên truyền. Điều này giúp mọi người hiểu rõ hơn cách tiết kiệm nước. Nhờ đó, họ có thể thay đổi những thói quen lãng phí nước. Điều này sẽ góp phần bảo vệ nguồn nước trong tương lai.",
-                "evidence_en": "Schools and the media can organise educational programmes. This helps people understand how to save water. As a result, they can change their wasteful habits. This will help protect freshwater resources in the future."
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 05: TĂNG CƯỜNG QUẢN LÝ VÀ ĐẦU TƯ TỪ CHÍNH PHỦ",
+                "point_vi": "Chính phủ cần tăng cường quản lý và đầu tư nhiều hơn vào cơ sở hạ tầng nguồn nước.",
+                "point_en": "Governments should strengthen management and invest more in water infrastructure.",
+                "evidence_vi": "Các nhà lãnh đạo nên ban hành luật nghiêm khắc về sử dụng nước và xây dựng các nhà máy xử lý nước hiện đại để cung cấp đủ nước sạch cho người dân.",
+                "evidence_en": "Leaders should introduce strict laws on water use and build modern water treatment plants to provide enough clean water for citizens.",
+                "collocations": [
+                  {
+                    "en": "strengthen management",
+                    "vi": "tăng cường công tác quản lý"
+                  },
+                  {
+                    "en": "water infrastructure",
+                    "vi": "cơ sở hạ tầng nguồn nước"
+                  },
+                  {
+                    "en": "strict laws on water use",
+                    "vi": "luật nghiêm khắc về sử dụng nước"
+                  },
+                  {
+                    "en": "modern water treatment plants",
+                    "vi": "các nhà máy xử lý nước hiện đại"
+                  },
+                  {
+                    "en": "clean water for citizens",
+                    "vi": "nước sạch cho người dân"
+                  }
+                ]
+              }
+            ],
+            "benefits": [
+              {
+                "title": "GIẢI PHÁP 01: NÂNG CAO NHẬN THỨC CỘNG ĐỒNG",
+                "point_vi": "Nâng cao nhận thức của cộng đồng là giải pháp quan trọng đầu tiên để bảo vệ nguồn nước ngọt.",
+                "point_en": "Raising public awareness is the first important solution to protect freshwater resources.",
+                "evidence_vi": "Nhà trường và các tổ chức địa phương nên giáo dục mọi người về tầm quan trọng của nước sạch qua các chiến dịch môi trường, vì vậy người dân sẽ hình thành thói quen tiết kiệm nước mỗi ngày.",
+                "evidence_en": "Schools and local organizations should educate people about the importance of clean water through environmental campaigns, so citizens will build daily water-saving habits.",
+                "collocations": [
+                  {
+                    "en": "raising public awareness",
+                    "vi": "nâng cao nhận thức cộng đồng"
+                  },
+                  {
+                    "en": "protect freshwater resources",
+                    "vi": "bảo vệ nguồn nước ngọt"
+                  },
+                  {
+                    "en": "importance of clean water",
+                    "vi": "tầm quan trọng của nước sạch"
+                  },
+                  {
+                    "en": "environmental campaigns",
+                    "vi": "các chiến dịch môi trường"
+                  },
+                  {
+                    "en": "daily water-saving habits",
+                    "vi": "thói quen tiết kiệm nước hằng ngày"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 02: TIẾT KIỆM NƯỚC TRONG SINH HOẠT HẰNG NGÀY",
+                "point_vi": "Mỗi cá nhân cần chủ động tiết kiệm nước trong các hoạt động sinh hoạt hằng ngày.",
+                "point_en": "Each individual should actively save water in daily household activities.",
+                "evidence_vi": "Mọi người nên tạo thói quen tắt vòi nước khi đánh răng và sửa chữa ngay các đường ống rò rỉ, đồng thời các gia đình có thể thu gom nước mưa để tưới cây hoặc dọn dẹp nhà cửa.",
+                "evidence_en": "People should turn off taps when brushing teeth and repair leaking pipes promptly, and families can also collect rainwater for watering plants or household cleaning.",
+                "collocations": [
+                  {
+                    "en": "save water in daily life",
+                    "vi": "tiết kiệm nước trong sinh hoạt hằng ngày"
+                  },
+                  {
+                    "en": "household activities",
+                    "vi": "các hoạt động gia đình"
+                  },
+                  {
+                    "en": "turn off taps",
+                    "vi": "tắt vòi nước"
+                  },
+                  {
+                    "en": "repair leaking pipes promptly",
+                    "vi": "sửa chữa đường ống rò rỉ kịp thời"
+                  },
+                  {
+                    "en": "collect rainwater",
+                    "vi": "thu gom nước mưa"
+                  },
+                  {
+                    "en": "watering plants and cleaning",
+                    "vi": "tưới cây và dọn dẹp vệ sinh"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 03: KIỂM SOÁT Ô NHIỄM NGUỒN NƯỚC",
+                "point_vi": "Kiểm soát ô nhiễm nguồn nước là biện pháp cấp bách để giữ cho sông hồ luôn trong sạch.",
+                "point_en": "Controlling water pollution is an urgent measure to keep rivers and lakes clean.",
+                "evidence_vi": "Mọi người không được xả rác xuống kênh rạch, và các nhà máy phải xử lý nước thải công nghiệp cẩn thận trước khi xả ra môi trường tự nhiên.",
+                "evidence_en": "People must not dump rubbish into canals, and factories must treat industrial wastewater carefully before releasing it into the natural environment.",
+                "collocations": [
+                  {
+                    "en": "controlling water pollution",
+                    "vi": "kiểm soát ô nhiễm nguồn nước"
+                  },
+                  {
+                    "en": "urgent measure",
+                    "vi": "biện pháp cấp bách"
+                  },
+                  {
+                    "en": "keep rivers and lakes clean",
+                    "vi": "giữ cho sông hồ luôn sạch"
+                  },
+                  {
+                    "en": "dump rubbish into canals",
+                    "vi": "vứt rác xuống kênh rạch"
+                  },
+                  {
+                    "en": "treat industrial wastewater",
+                    "vi": "xử lý nước thải công nghiệp"
+                  },
+                  {
+                    "en": "natural environment",
+                    "vi": "môi trường tự nhiên"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 04: ÁP DỤNG NÔNG NGHIỆP BỀN VỮNG",
+                "point_vi": "Nông dân nên áp dụng các phương pháp nông nghiệp bền vững để sử dụng nước hiệu quả hơn.",
+                "point_en": "Farmers should adopt sustainable farming methods to use water more efficiently.",
+                "evidence_vi": "Nông dân có thể lắp đặt hệ thống tưới nhỏ giọt hiện đại và giảm bớt phân bón hóa học, vì các phương pháp này giúp tiết kiệm nước và bảo vệ đất trồng.",
+                "evidence_en": "Farmers can install modern drip irrigation systems and reduce chemical fertilizers, because these methods save water and protect the soil.",
+                "collocations": [
+                  {
+                    "en": "sustainable farming methods",
+                    "vi": "phương pháp nông nghiệp bền vững"
+                  },
+                  {
+                    "en": "use water efficiently",
+                    "vi": "sử dụng nước hiệu quả"
+                  },
+                  {
+                    "en": "install drip irrigation systems",
+                    "vi": "lắp đặt hệ thống tưới nhỏ giọt"
+                  },
+                  {
+                    "en": "reduce chemical fertilizers",
+                    "vi": "giảm phân bón hóa học"
+                  },
+                  {
+                    "en": "protect the soil",
+                    "vi": "bảo vệ đất trồng"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 05: TĂNG CƯỜNG QUẢN LÝ VÀ ĐẦU TƯ TỪ CHÍNH PHỦ",
+                "point_vi": "Chính phủ cần tăng cường quản lý và đầu tư nhiều hơn vào cơ sở hạ tầng nguồn nước.",
+                "point_en": "Governments should strengthen management and invest more in water infrastructure.",
+                "evidence_vi": "Các nhà lãnh đạo nên ban hành luật nghiêm khắc về sử dụng nước và xây dựng các nhà máy xử lý nước hiện đại để cung cấp đủ nước sạch cho người dân.",
+                "evidence_en": "Leaders should introduce strict laws on water use and build modern water treatment plants to provide enough clean water for citizens.",
+                "collocations": [
+                  {
+                    "en": "strengthen management",
+                    "vi": "tăng cường công tác quản lý"
+                  },
+                  {
+                    "en": "water infrastructure",
+                    "vi": "cơ sở hạ tầng nguồn nước"
+                  },
+                  {
+                    "en": "strict laws on water use",
+                    "vi": "luật nghiêm khắc về sử dụng nước"
+                  },
+                  {
+                    "en": "modern water treatment plants",
+                    "vi": "các nhà máy xử lý nước hiện đại"
+                  },
+                  {
+                    "en": "clean water for citizens",
+                    "vi": "nước sạch cho người dân"
+                  }
+                ]
               }
             ],
             "drawbacks": []
           },
           "ideas_b2": {
-            "benefits": [
+            "solutions": [
               {
-                "title": "SOLUTION 01",
+                "title": "GIẢI PHÁP 01: NÂNG CAO NHẬN THỨC CỘNG ĐỒNG",
+                "point_vi": "Nâng cao nhận thức cộng đồng và giáo dục về bảo tồn nước đóng vai trò then chốt trong việc thay đổi hành vi của xã hội đối với tài nguyên nước ngọt.",
+                "point_en": "Raising public awareness and promoting conservation education play a vital role in transforming societal attitudes toward freshwater preservation.",
+                "evidence_vi": "Các trường học và tổ chức xã hội cần thường xuyên phát động các chiến dịch truyền thông về giá trị vô giá của nước ngọt. Bên cạnh đó, việc tổ chức các hoạt động ngoại khóa thực tế giúp khuyến khích thế hệ trẻ chủ động hình thành nếp sống tiết kiệm nước và cùng nhau bảo vệ nguồn nước tại địa phương.",
+                "evidence_en": "Educational institutions and social organizations should frequently organize environmental campaigns to highlight the essential value of clean water. Moreover, hands-on community projects encourage young citizens to adopt water-saving habits and actively participate in safeguarding local water basins.",
                 "collocations": [
                   {
-                    "en": "freshwater",
-                    "vi": "nước ngọt"
+                    "en": "raising public awareness",
+                    "vi": "nâng cao nhận thức cộng đồng"
                   },
                   {
-                    "en": "freshwater resources",
-                    "vi": "nguồn nước ngọt"
+                    "en": "freshwater preservation",
+                    "vi": "bảo tồn nguồn nước ngọt"
                   },
                   {
-                    "en": "future generations",
-                    "vi": "các thế hệ tương lai"
+                    "en": "transforming societal attitudes",
+                    "vi": "thay đổi thái độ của xã hội"
                   },
                   {
-                    "en": "sustainably",
-                    "vi": "một cách bền vững"
+                    "en": "environmental campaigns",
+                    "vi": "các chiến dịch môi trường"
                   },
                   {
-                    "en": "water waste",
-                    "vi": "sự lãng phí nước"
+                    "en": "hands-on community projects",
+                    "vi": "các dự án cộng đồng thực tế"
                   },
                   {
-                    "en": "avoid",
-                    "vi": "tránh"
+                    "en": "adopt water-saving habits",
+                    "vi": "hình thành thói quen tiết kiệm nước"
                   },
                   {
-                    "en": "protect",
-                    "vi": "bảo vệ"
-                  },
-                  {
-                    "en": "use",
-                    "vi": "sử dụng"
+                    "en": "safeguarding local water basins",
+                    "vi": "bảo vệ các lưu vực nước địa phương"
                   }
-                ],
-                "point_vi": "Mọi người nên sử dụng nước ngọt một cách tiết kiệm và có trách nhiệm hơn.",
-                "point_en": "People should use freshwater more responsibly.",
-                "evidence_vi": "Họ nên tắt vòi nước khi không sử dụng. Họ cũng nên tránh lãng phí nước trong sinh hoạt hằng ngày. Điều này giúp giảm lượng nước bị lãng phí. Nó cũng góp phần bảo vệ nguồn nước cho các thế hệ tương lai. Nhờ đó, nguồn nước sẽ được sử dụng bền vững hơn.",
-                "evidence_en": "They should turn off taps when they are not in use. They should also avoid wasting water in their daily lives. This helps reduce water waste. It also helps protect freshwater resources for future generations. As a result, freshwater resources can be used more sustainably."
+                ]
               },
               {
-                "title": "SOLUTION 02",
+                "title": "GIẢI PHÁP 02: TIẾT KIỆM NƯỚC TRONG SINH HOẠT HẰNG NGÀY",
+                "point_vi": "Thực hành tiết kiệm nước trong sinh hoạt gia đình là một biện pháp thiết thực giúp giảm thiểu đáng kể tình trạng lãng phí nước sạch.",
+                "point_en": "Practicing strict water conservation in domestic environments represents a practical measure to substantially curb excessive freshwater wastage.",
+                "evidence_vi": "Các thành viên trong gia đình cần chú ý tắt vòi nước trong lúc vệ sinh cá nhân và kịp thời sửa chữa hệ thống ống dẫn bị rò rỉ để tránh hao hụt nước sạch. Ngoài ra, việc lắp đặt các bồn chứa để thu gom nước mưa nhằm phục vụ tưới tiêu cây cảnh và vệ sinh sân vườn là một giải pháp đơn giản nhưng mang lại hiệu quả kinh tế và môi trường rất cao.",
+                "evidence_en": "Household members should make a conscious effort to turn off taps during personal hygiene and immediately repair leaking plumbing systems to prevent unneeded loss. Furthermore, installing storage tanks to collect rainwater for landscape irrigation and domestic cleaning provides a cost-effective way to preserve purified municipal water.",
                 "collocations": [
-                  {
-                    "en": "water management",
-                    "vi": "quản lý nguồn nước"
-                  },
-                  {
-                    "en": "freshwater resources",
-                    "vi": "nguồn nước ngọt"
-                  },
-                  {
-                    "en": "leaking water pipes",
-                    "vi": "đường ống nước bị rò rỉ"
-                  },
-                  {
-                    "en": "water storage",
-                    "vi": "hệ thống lưu trữ nước"
-                  },
-                  {
-                    "en": "distribution systems",
-                    "vi": "hệ thống phân phối nước"
-                  },
-                  {
-                    "en": "reliable supply",
-                    "vi": "nguồn cung ổn định"
-                  },
-                  {
-                    "en": "water loss",
-                    "vi": "thất thoát nước"
-                  },
-                  {
-                    "en": "invest in",
-                    "vi": "đầu tư vào"
-                  },
-                  {
-                    "en": "manage",
-                    "vi": "quản lý"
-                  }
-                ],
-                "point_vi": "Chính phủ nên cải thiện việc quản lý và bảo vệ nguồn nước.",
-                "point_en": "Governments should improve water management and protect freshwater resources.",
-                "evidence_vi": "Họ có thể sửa chữa các đường ống nước bị rò rỉ. Họ cũng nên đầu tư vào các hệ thống lưu trữ và phân phối nước hiện đại. Điều này giúp giảm thất thoát nước. Nhiều người sẽ được cung cấp nước sạch ổn định hơn. Nhờ đó, việc sử dụng nguồn nước sẽ hiệu quả hơn.",
-                "evidence_en": "They can repair leaking water pipes. They should also invest in modern water storage and distribution systems. This helps reduce water loss. More people will have a more reliable supply of clean water. As a result, water resources will be managed more efficiently."
-              },
-              {
-                "title": "SOLUTION 03",
-                "collocations": [
-                  {
-                    "en": "the importance of",
-                    "vi": "tầm quan trọng của"
-                  },
                   {
                     "en": "water conservation",
-                    "vi": "bảo tồn nguồn nước"
+                    "vi": "bảo tồn / tiết kiệm nước"
                   },
                   {
-                    "en": "educational campaigns",
-                    "vi": "chiến dịch giáo dục"
+                    "en": "curb excessive freshwater wastage",
+                    "vi": "kiểm soát sự lãng phí nước ngọt quá mức"
                   },
                   {
-                    "en": "the media",
-                    "vi": "phương tiện truyền thông"
+                    "en": "domestic environments",
+                    "vi": "môi trường sinh hoạt gia đình"
                   },
                   {
-                    "en": "use water wisely",
-                    "vi": "sử dụng nước hợp lý"
+                    "en": "turn off taps",
+                    "vi": "tắt vòi nước"
                   },
                   {
-                    "en": "wasteful habits",
-                    "vi": "thói quen lãng phí"
+                    "en": "repair leaking plumbing systems",
+                    "vi": "sửa chữa hệ thống đường ống rò rỉ"
                   },
                   {
-                    "en": "freshwater resources",
-                    "vi": "nguồn nước ngọt"
+                    "en": "collect rainwater for landscape irrigation",
+                    "vi": "thu gom nước mưa để tưới cây cảnh"
                   },
                   {
-                    "en": "future generations",
-                    "vi": "các thế hệ tương lai"
-                  },
-                  {
-                    "en": "understand",
-                    "vi": "hiểu"
-                  },
-                  {
-                    "en": "change",
-                    "vi": "thay đổi"
-                  },
-                  {
-                    "en": "protect",
-                    "vi": "bảo vệ"
-                  },
-                  {
-                    "en": "contribute to",
-                    "vi": "góp phần vào việc"
+                    "en": "cost-effective way",
+                    "vi": "phương pháp hiệu quả về chi phí"
                   }
-                ],
-                "point_vi": "Mọi người nên hiểu rõ hơn tầm quan trọng của việc bảo vệ nguồn nước.",
-                "point_en": "People should better understand the importance of water conservation.",
-                "evidence_vi": "Các trường học và phương tiện truyền thông có thể tổ chức nhiều chiến dịch tuyên truyền hơn. Điều này giúp mọi người hiểu rõ hơn cách sử dụng nước một cách hợp lý. Nhờ đó, họ có thể thay đổi những thói quen lãng phí nước. Nhiều người sẽ sử dụng nước có trách nhiệm hơn trong cuộc sống hằng ngày. Điều này góp phần bảo vệ nguồn nước ngọt cho các thế hệ tương lai.",
-                "evidence_en": "Schools and the media can organise more educational campaigns. This helps people understand how to use water wisely. As a result, they can change their wasteful habits. More people will use freshwater more responsibly in their daily lives. This helps protect freshwater resources for future generations."
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 03: KIỂM SOÁT Ô NHIỄM NGUỒN NƯỚC",
+                "point_vi": "Kiểm soát chặt chẽ các nguồn gây ô nhiễm nước có ý nghĩa quyết định trong việc bảo vệ các hệ sinh thái thủy sinh và nguồn nước uống.",
+                "point_en": "Strictly managing pollutant discharge into natural waterways is crucial for protecting aquatic ecosystems and securing safe drinking water supplies.",
+                "evidence_vi": "Các cơ quan quản lý cần cấm tuyệt đối hành vi vứt rác thải sinh hoạt xuống sông hồ và yêu cầu tất cả các khu công nghiệp phải xử lý nước thải đạt chuẩn trước khi thải ra ngoài. Đồng thời, việc hạn chế lạm dụng các loại hóa chất độc hại và chất tẩy rửa công nghiệp sẽ ngăn ngừa nguy cơ các chất độc ngấm sâu vào các tầng nước ngầm quý giá.",
+                "evidence_en": "Regulatory authorities must strictly prohibit direct dumping of municipal refuse into rivers and mandate that manufacturing factories treat chemical effluents before discharging them. At the same time, reducing the widespread use of hazardous agricultural chemicals and industrial solvents prevents harmful toxins from contaminating vital groundwater reservoirs.",
+                "collocations": [
+                  {
+                    "en": "pollutant discharge",
+                    "vi": "sự xả thải các chất ô nhiễm"
+                  },
+                  {
+                    "en": "natural waterways",
+                    "vi": "các tuyến đường thủy tự nhiên"
+                  },
+                  {
+                    "en": "aquatic ecosystems",
+                    "vi": "các hệ sinh thái thủy sinh"
+                  },
+                  {
+                    "en": "safe drinking water supplies",
+                    "vi": "nguồn cung cấp nước uống an toàn"
+                  },
+                  {
+                    "en": "direct dumping of municipal refuse",
+                    "vi": "xả rác thải sinh hoạt trực tiếp"
+                  },
+                  {
+                    "en": "treat chemical effluents",
+                    "vi": "xử lý nước thải hóa chất"
+                  },
+                  {
+                    "en": "contaminating vital groundwater reservoirs",
+                    "vi": "làm ô nhiễm các tầng chứa nước ngầm quan trọng"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 04: ÁP DỤNG NÔNG NGHIỆP BỀN VỮNG",
+                "point_vi": "Chuyển đổi sang các mô hình nông nghiệp bền vững là giải pháp thiết yếu vì ngành nông nghiệp hiện tiêu thụ phần lớn lượng nước ngọt trên toàn cầu.",
+                "point_en": "Transitioning to sustainable agricultural practices is imperative since farming accounts for the overwhelming majority of global freshwater withdrawals.",
+                "evidence_vi": "Nhà nông cần được hỗ trợ để triển khai các hệ thống tưới tiêu thông minh như công nghệ tưới nhỏ giọt nhằm cung cấp nước trực tiếp vào rễ cây và hạn chế sự bay hơi nước. Thêm vào đó, việc cắt giảm phân bón hóa học và tái sử dụng nguồn nước thải đã qua xử lý an toàn cho cây trồng sẽ giúp tiết kiệm tài nguyên nước quý giá trên quy mô lớn.",
+                "evidence_en": "Agricultural producers should be encouraged to implement precision irrigation technologies such as drip irrigation, which deliver moisture directly to plant roots with minimal evaporation. In addition, minimizing synthetic fertilizers and utilizing purified recycled wastewater for crop irrigation substantially decrease pressure on natural water reserves.",
+                "collocations": [
+                  {
+                    "en": "sustainable agricultural practices",
+                    "vi": "phương thức nông nghiệp bền vững"
+                  },
+                  {
+                    "en": "global freshwater withdrawals",
+                    "vi": "lượng khai thác nước ngọt toàn cầu"
+                  },
+                  {
+                    "en": "precision irrigation technologies",
+                    "vi": "công nghệ tưới tiêu chính xác"
+                  },
+                  {
+                    "en": "drip irrigation",
+                    "vi": "tưới nhỏ giọt"
+                  },
+                  {
+                    "en": "minimal evaporation",
+                    "vi": "sự bay hơi tối thiểu"
+                  },
+                  {
+                    "en": "purified recycled wastewater",
+                    "vi": "nước thải tái chế đã qua làm sạch"
+                  },
+                  {
+                    "en": "natural water reserves",
+                    "vi": "các nguồn trữ nước tự nhiên"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 05: TĂNG CƯỜNG QUẢN LÝ VÀ ĐẦU TƯ TỪ CHÍNH PHỦ",
+                "point_vi": "Sự can thiệp mạnh mẽ từ chính phủ thông qua chính sách quản lý nghiêm ngặt và đầu tư tài chính dài hạn là điều kiện tiên quyết để bảo tồn nguồn nước bền vững.",
+                "point_en": "Robust governmental intervention through stringent policy frameworks and sustained infrastructure funding is essential for long-term freshwater security.",
+                "evidence_vi": "Nhà nước cần ban hành và thực thi các chế tài xử phạt nặng đối với các hành vi xả thải trái phép hoặc khai thác nguồn nước ngầm quá mức. Đồng thời, việc phân bổ ngân sách để nâng cấp mạng lưới đường ống cấp nước đô thị và xây dựng các trạm xử lý nước thải công nghệ cao sẽ giảm bớt thất thoát nước và nâng cao hiệu quả tái tạo tài nguyên nước.",
+                "evidence_en": "Authorities must enforce rigorous environmental regulations and impose punitive fines on unauthorized waste disposal and unregulated groundwater extraction. Furthermore, allocating financial capital to upgrade aging municipal distribution pipe networks and construct advanced purification plants prevents massive physical leakage while boosting recycling capacity.",
+                "collocations": [
+                  {
+                    "en": "governmental intervention",
+                    "vi": "sự can thiệp của chính phủ"
+                  },
+                  {
+                    "en": "stringent policy frameworks",
+                    "vi": "khuôn khổ chính sách nghiêm ngặt"
+                  },
+                  {
+                    "en": "long-term freshwater security",
+                    "vi": "an ninh nguồn nước ngọt lâu dài"
+                  },
+                  {
+                    "en": "rigorous environmental regulations",
+                    "vi": "các quy định môi trường nghiêm ngặt"
+                  },
+                  {
+                    "en": "unregulated groundwater extraction",
+                    "vi": "khai thác nước ngầm không kiểm soát"
+                  },
+                  {
+                    "en": "upgrade municipal distribution networks",
+                    "vi": "nâng cấp mạng lưới phân phối cấp nước đô thị"
+                  },
+                  {
+                    "en": "advanced purification plants",
+                    "vi": "các nhà máy lọc nước tiên tiến"
+                  }
+                ]
+              }
+            ],
+            "benefits": [
+              {
+                "title": "GIẢI PHÁP 01: NÂNG CAO NHẬN THỨC CỘNG ĐỒNG",
+                "point_vi": "Nâng cao nhận thức cộng đồng và giáo dục về bảo tồn nước đóng vai trò then chốt trong việc thay đổi hành vi của xã hội đối với tài nguyên nước ngọt.",
+                "point_en": "Raising public awareness and promoting conservation education play a vital role in transforming societal attitudes toward freshwater preservation.",
+                "evidence_vi": "Các trường học và tổ chức xã hội cần thường xuyên phát động các chiến dịch truyền thông về giá trị vô giá của nước ngọt. Bên cạnh đó, việc tổ chức các hoạt động ngoại khóa thực tế giúp khuyến khích thế hệ trẻ chủ động hình thành nếp sống tiết kiệm nước và cùng nhau bảo vệ nguồn nước tại địa phương.",
+                "evidence_en": "Educational institutions and social organizations should frequently organize environmental campaigns to highlight the essential value of clean water. Moreover, hands-on community projects encourage young citizens to adopt water-saving habits and actively participate in safeguarding local water basins.",
+                "collocations": [
+                  {
+                    "en": "raising public awareness",
+                    "vi": "nâng cao nhận thức cộng đồng"
+                  },
+                  {
+                    "en": "freshwater preservation",
+                    "vi": "bảo tồn nguồn nước ngọt"
+                  },
+                  {
+                    "en": "transforming societal attitudes",
+                    "vi": "thay đổi thái độ của xã hội"
+                  },
+                  {
+                    "en": "environmental campaigns",
+                    "vi": "các chiến dịch môi trường"
+                  },
+                  {
+                    "en": "hands-on community projects",
+                    "vi": "các dự án cộng đồng thực tế"
+                  },
+                  {
+                    "en": "adopt water-saving habits",
+                    "vi": "hình thành thói quen tiết kiệm nước"
+                  },
+                  {
+                    "en": "safeguarding local water basins",
+                    "vi": "bảo vệ các lưu vực nước địa phương"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 02: TIẾT KIỆM NƯỚC TRONG SINH HOẠT HẰNG NGÀY",
+                "point_vi": "Thực hành tiết kiệm nước trong sinh hoạt gia đình là một biện pháp thiết thực giúp giảm thiểu đáng kể tình trạng lãng phí nước sạch.",
+                "point_en": "Practicing strict water conservation in domestic environments represents a practical measure to substantially curb excessive freshwater wastage.",
+                "evidence_vi": "Các thành viên trong gia đình cần chú ý tắt vòi nước trong lúc vệ sinh cá nhân và kịp thời sửa chữa hệ thống ống dẫn bị rò rỉ để tránh hao hụt nước sạch. Ngoài ra, việc lắp đặt các bồn chứa để thu gom nước mưa nhằm phục vụ tưới tiêu cây cảnh và vệ sinh sân vườn là một giải pháp đơn giản nhưng mang lại hiệu quả kinh tế và môi trường rất cao.",
+                "evidence_en": "Household members should make a conscious effort to turn off taps during personal hygiene and immediately repair leaking plumbing systems to prevent unneeded loss. Furthermore, installing storage tanks to collect rainwater for landscape irrigation and domestic cleaning provides a cost-effective way to preserve purified municipal water.",
+                "collocations": [
+                  {
+                    "en": "water conservation",
+                    "vi": "bảo tồn / tiết kiệm nước"
+                  },
+                  {
+                    "en": "curb excessive freshwater wastage",
+                    "vi": "kiểm soát sự lãng phí nước ngọt quá mức"
+                  },
+                  {
+                    "en": "domestic environments",
+                    "vi": "môi trường sinh hoạt gia đình"
+                  },
+                  {
+                    "en": "turn off taps",
+                    "vi": "tắt vòi nước"
+                  },
+                  {
+                    "en": "repair leaking plumbing systems",
+                    "vi": "sửa chữa hệ thống đường ống rò rỉ"
+                  },
+                  {
+                    "en": "collect rainwater for landscape irrigation",
+                    "vi": "thu gom nước mưa để tưới cây cảnh"
+                  },
+                  {
+                    "en": "cost-effective way",
+                    "vi": "phương pháp hiệu quả về chi phí"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 03: KIỂM SOÁT Ô NHIỄM NGUỒN NƯỚC",
+                "point_vi": "Kiểm soát chặt chẽ các nguồn gây ô nhiễm nước có ý nghĩa quyết định trong việc bảo vệ các hệ sinh thái thủy sinh và nguồn nước uống.",
+                "point_en": "Strictly managing pollutant discharge into natural waterways is crucial for protecting aquatic ecosystems and securing safe drinking water supplies.",
+                "evidence_vi": "Các cơ quan quản lý cần cấm tuyệt đối hành vi vứt rác thải sinh hoạt xuống sông hồ và yêu cầu tất cả các khu công nghiệp phải xử lý nước thải đạt chuẩn trước khi thải ra ngoài. Đồng thời, việc hạn chế lạm dụng các loại hóa chất độc hại và chất tẩy rửa công nghiệp sẽ ngăn ngừa nguy cơ các chất độc ngấm sâu vào các tầng nước ngầm quý giá.",
+                "evidence_en": "Regulatory authorities must strictly prohibit direct dumping of municipal refuse into rivers and mandate that manufacturing factories treat chemical effluents before discharging them. At the same time, reducing the widespread use of hazardous agricultural chemicals and industrial solvents prevents harmful toxins from contaminating vital groundwater reservoirs.",
+                "collocations": [
+                  {
+                    "en": "pollutant discharge",
+                    "vi": "sự xả thải các chất ô nhiễm"
+                  },
+                  {
+                    "en": "natural waterways",
+                    "vi": "các tuyến đường thủy tự nhiên"
+                  },
+                  {
+                    "en": "aquatic ecosystems",
+                    "vi": "các hệ sinh thái thủy sinh"
+                  },
+                  {
+                    "en": "safe drinking water supplies",
+                    "vi": "nguồn cung cấp nước uống an toàn"
+                  },
+                  {
+                    "en": "direct dumping of municipal refuse",
+                    "vi": "xả rác thải sinh hoạt trực tiếp"
+                  },
+                  {
+                    "en": "treat chemical effluents",
+                    "vi": "xử lý nước thải hóa chất"
+                  },
+                  {
+                    "en": "contaminating vital groundwater reservoirs",
+                    "vi": "làm ô nhiễm các tầng chứa nước ngầm quan trọng"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 04: ÁP DỤNG NÔNG NGHIỆP BỀN VỮNG",
+                "point_vi": "Chuyển đổi sang các mô hình nông nghiệp bền vững là giải pháp thiết yếu vì ngành nông nghiệp hiện tiêu thụ phần lớn lượng nước ngọt trên toàn cầu.",
+                "point_en": "Transitioning to sustainable agricultural practices is imperative since farming accounts for the overwhelming majority of global freshwater withdrawals.",
+                "evidence_vi": "Nhà nông cần được hỗ trợ để triển khai các hệ thống tưới tiêu thông minh như công nghệ tưới nhỏ giọt nhằm cung cấp nước trực tiếp vào rễ cây và hạn chế sự bay hơi nước. Thêm vào đó, việc cắt giảm phân bón hóa học và tái sử dụng nguồn nước thải đã qua xử lý an toàn cho cây trồng sẽ giúp tiết kiệm tài nguyên nước quý giá trên quy mô lớn.",
+                "evidence_en": "Agricultural producers should be encouraged to implement precision irrigation technologies such as drip irrigation, which deliver moisture directly to plant roots with minimal evaporation. In addition, minimizing synthetic fertilizers and utilizing purified recycled wastewater for crop irrigation substantially decrease pressure on natural water reserves.",
+                "collocations": [
+                  {
+                    "en": "sustainable agricultural practices",
+                    "vi": "phương thức nông nghiệp bền vững"
+                  },
+                  {
+                    "en": "global freshwater withdrawals",
+                    "vi": "lượng khai thác nước ngọt toàn cầu"
+                  },
+                  {
+                    "en": "precision irrigation technologies",
+                    "vi": "công nghệ tưới tiêu chính xác"
+                  },
+                  {
+                    "en": "drip irrigation",
+                    "vi": "tưới nhỏ giọt"
+                  },
+                  {
+                    "en": "minimal evaporation",
+                    "vi": "sự bay hơi tối thiểu"
+                  },
+                  {
+                    "en": "purified recycled wastewater",
+                    "vi": "nước thải tái chế đã qua làm sạch"
+                  },
+                  {
+                    "en": "natural water reserves",
+                    "vi": "các nguồn trữ nước tự nhiên"
+                  }
+                ]
+              },
+              {
+                "title": "GIẢI PHÁP 05: TĂNG CƯỜNG QUẢN LÝ VÀ ĐẦU TƯ TỪ CHÍNH PHỦ",
+                "point_vi": "Sự can thiệp mạnh mẽ từ chính phủ thông qua chính sách quản lý nghiêm ngặt và đầu tư tài chính dài hạn là điều kiện tiên quyết để bảo tồn nguồn nước bền vững.",
+                "point_en": "Robust governmental intervention through stringent policy frameworks and sustained infrastructure funding is essential for long-term freshwater security.",
+                "evidence_vi": "Nhà nước cần ban hành và thực thi các chế tài xử phạt nặng đối với các hành vi xả thải trái phép hoặc khai thác nguồn nước ngầm quá mức. Đồng thời, việc phân bổ ngân sách để nâng cấp mạng lưới đường ống cấp nước đô thị và xây dựng các trạm xử lý nước thải công nghệ cao sẽ giảm bớt thất thoát nước và nâng cao hiệu quả tái tạo tài nguyên nước.",
+                "evidence_en": "Authorities must enforce rigorous environmental regulations and impose punitive fines on unauthorized waste disposal and unregulated groundwater extraction. Furthermore, allocating financial capital to upgrade aging municipal distribution pipe networks and construct advanced purification plants prevents massive physical leakage while boosting recycling capacity.",
+                "collocations": [
+                  {
+                    "en": "governmental intervention",
+                    "vi": "sự can thiệp của chính phủ"
+                  },
+                  {
+                    "en": "stringent policy frameworks",
+                    "vi": "khuôn khổ chính sách nghiêm ngặt"
+                  },
+                  {
+                    "en": "long-term freshwater security",
+                    "vi": "an ninh nguồn nước ngọt lâu dài"
+                  },
+                  {
+                    "en": "rigorous environmental regulations",
+                    "vi": "các quy định môi trường nghiêm ngặt"
+                  },
+                  {
+                    "en": "unregulated groundwater extraction",
+                    "vi": "khai thác nước ngầm không kiểm soát"
+                  },
+                  {
+                    "en": "upgrade municipal distribution networks",
+                    "vi": "nâng cấp mạng lưới phân phối cấp nước đô thị"
+                  },
+                  {
+                    "en": "advanced purification plants",
+                    "vi": "các nhà máy lọc nước tiên tiến"
+                  }
+                ]
               }
             ],
             "drawbacks": []
           },
           "vocab": [
             {
-              "en": "freshwater",
-              "vi": "nước ngọt"
-            },
-            {
-              "en": "use freshwater responsibly",
-              "vi": "sử dụng nước ngọt có trách nhiệm"
-            },
-            {
-              "en": "turn off taps",
-              "vi": "tắt vòi nước"
-            },
-            {
-              "en": "avoid wasting water",
-              "vi": "tránh lãng phí nước"
-            },
-            {
-              "en": "water waste",
-              "vi": "sự lãng phí nước"
-            },
-            {
-              "en": "daily activities",
-              "vi": "hoạt động hằng ngày"
-            },
-            {
-              "en": "be available",
-              "vi": "có sẵn"
-            },
-            {
-              "en": "avoid",
-              "vi": "tránh"
-            },
-            {
-              "en": "reduce",
-              "vi": "giảm"
-            },
-            {
-              "en": "turn off",
-              "vi": "tắt"
-            },
-            {
-              "en": "water management",
-              "vi": "quản lý nguồn nước"
-            },
-            {
-              "en": "leaking water pipes",
-              "vi": "đường ống nước bị rò rỉ"
-            },
-            {
-              "en": "water storage systems",
-              "vi": "hệ thống lưu trữ nước"
-            },
-            {
-              "en": "water loss",
-              "vi": "thất thoát nước"
-            },
-            {
-              "en": "repair",
-              "vi": "sửa chữa"
-            },
-            {
-              "en": "build",
-              "vi": "xây dựng"
-            },
-            {
-              "en": "the importance of",
-              "vi": "tầm quan trọng của"
+              "en": "freshwater resources",
+              "vi": "nguồn tài nguyên nước ngọt"
             },
             {
               "en": "water conservation",
               "vi": "bảo tồn nguồn nước"
             },
             {
-              "en": "educational programmes",
-              "vi": "chương trình giáo dục"
+              "en": "raising public awareness",
+              "vi": "nâng cao nhận thức cộng đồng"
             },
             {
-              "en": "the media",
-              "vi": "phương tiện truyền thông"
+              "en": "water-saving habits",
+              "vi": "thói quen tiết kiệm nước"
             },
             {
-              "en": "wasteful habits",
-              "vi": "thói quen lãng phí"
+              "en": "turn off taps",
+              "vi": "tắt vòi nước"
             },
             {
-              "en": "freshwater resources",
-              "vi": "nguồn nước ngọt"
+              "en": "repair leaking pipes",
+              "vi": "sửa chữa ống nước rò rỉ"
             },
             {
-              "en": "understand",
-              "vi": "hiểu"
+              "en": "collect rainwater",
+              "vi": "thu gom nước mưa"
             },
             {
-              "en": "change",
-              "vi": "thay đổi"
+              "en": "control water pollution",
+              "vi": "kiểm soát ô nhiễm nguồn nước"
             },
             {
-              "en": "protect",
-              "vi": "bảo vệ"
+              "en": "industrial wastewater",
+              "vi": "nước thải công nghiệp"
+            },
+            {
+              "en": "chemical fertilizers",
+              "vi": "phân bón hóa học"
+            },
+            {
+              "en": "harmful pesticides",
+              "vi": "thuốc trừ sâu độc hại"
+            },
+            {
+              "en": "sustainable farming",
+              "vi": "nông nghiệp bền vững"
+            },
+            {
+              "en": "drip irrigation",
+              "vi": "tưới nhỏ giọt"
+            },
+            {
+              "en": "water infrastructure",
+              "vi": "cơ sở hạ tầng nguồn nước"
+            },
+            {
+              "en": "modern treatment facilities",
+              "vi": "các cơ sở xử lý hiện đại"
+            },
+            {
+              "en": "groundwater reservoirs",
+              "vi": "các tầng trữ nước ngầm"
+            },
+            {
+              "en": "enforce strict regulations",
+              "vi": "thực thi quy định nghiêm ngặt"
+            },
+            {
+              "en": "aquatic ecosystems",
+              "vi": "các hệ sinh thái thủy sinh"
+            },
+            {
+              "en": "potable water",
+              "vi": "nước uống được"
+            },
+            {
+              "en": "curb water wastage",
+              "vi": "hạn chế lãng phí nước"
+            },
+            {
+              "en": "purify wastewater",
+              "vi": "tinh lọc nước thải"
+            },
+            {
+              "en": "water shortages",
+              "vi": "tình trạng thiếu nước"
+            },
+            {
+              "en": "water scarcity",
+              "vi": "sự khan hiếm nước"
+            },
+            {
+              "en": "rainwater harvesting",
+              "vi": "thu gom nước mưa"
+            },
+            {
+              "en": "evaporation losses",
+              "vi": "thất thoát do bốc hơi"
+            },
+            {
+              "en": "clean water supplies",
+              "vi": "nguồn cung cấp nước sạch"
+            },
+            {
+              "en": "punitive fines",
+              "vi": "phạt tiền trừng phạt"
+            },
+            {
+              "en": "environmental campaigns",
+              "vi": "chiến dịch môi trường"
             },
             {
               "en": "future generations",
               "vi": "các thế hệ tương lai"
             },
             {
-              "en": "sustainably",
-              "vi": "một cách bền vững"
-            },
-            {
-              "en": "use",
-              "vi": "sử dụng"
-            },
-            {
-              "en": "water storage",
-              "vi": "hệ thống lưu trữ nước"
-            },
-            {
-              "en": "distribution systems",
-              "vi": "hệ thống phân phối nước"
-            },
-            {
-              "en": "reliable supply",
-              "vi": "nguồn cung ổn định"
-            },
-            {
-              "en": "invest in",
-              "vi": "đầu tư vào"
-            },
-            {
-              "en": "manage",
-              "vi": "quản lý"
-            },
-            {
-              "en": "educational campaigns",
-              "vi": "chiến dịch giáo dục"
-            },
-            {
-              "en": "use water wisely",
-              "vi": "sử dụng nước hợp lý"
-            },
-            {
-              "en": "contribute to",
-              "vi": "góp phần vào việc"
+              "en": "long-term freshwater security",
+              "vi": "an ninh nguồn nước ngọt dài hạn"
             }
           ],
-          "sample_b1": "In recent years, <strong>saving freshwater resources</strong> has become increasingly important in modern society. Many people believe that more effective actions are needed in this area. <strong>This essay will suggest several practical measures to improve the situation.</strong>\n\nOne effective solution is to <strong><em>people should use freshwater more responsibly.</em></strong>. People should turn off taps when they are not in use. They should avoid wasting water in their daily activities. This helps reduce water waste. As a result, more clean water will be available for the future.\n\nAnother possible measure is to <strong><em>governments should improve water management.</em></strong>. Governments can repair leaking water pipes. They can also build more water storage systems. This helps reduce water loss. As a result, more people will have enough clean water.\n\nA further approach is to <strong><em>people should better understand the importance of water conservation.</em></strong>. Schools and the media can organise educational programmes. This helps people understand how to save water. As a result, they can change their wasteful habits. This will help protect freshwater resources in the future.\n\nIn conclusion, several practical measures can help improve <strong>saving freshwater resources</strong> effectively. These solutions can bring positive changes for both individuals and society. Therefore, it is important to take suitable actions in the future.",
-          "translation_b1": "Trong những năm gần đây, <strong>việc tiết kiệm nguồn tài nguyên nước ngọt</strong> đã trở nên ngày càng quan trọng trong xã hội hiện đại. Nhiều người tin rằng cần có những hành động hiệu quả hơn trong lĩnh vực này. <strong>Bài tiểu luận này sẽ đề xuất một số biện pháp thực tế để cải thiện tình hình.</strong>\n\nMột giải pháp hiệu quả là <strong><em>mọi người nên sử dụng nước ngọt một cách tiết kiệm và có trách nhiệm hơn.</em></strong>. Mọi người nên tắt vòi nước khi không sử dụng. Họ nên tránh lãng phí nước trong các hoạt động hằng ngày. Điều này giúp giảm lượng nước bị lãng phí. Nhờ đó, nhiều nước sạch hơn sẽ được giữ lại cho tương lai.\n\nMột biện pháp có thể thực hiện khác là <strong><em>chính phủ nên quản lý nguồn nước hiệu quả hơn.</em></strong>. Chính phủ có thể sửa chữa các đường ống nước bị rò rỉ. Họ cũng có thể xây dựng thêm các hệ thống lưu trữ nước. Điều này giúp giảm thất thoát nước. Nhờ đó, nhiều người sẽ có đủ nước sạch để sử dụng.\n\nMột cách tiếp cận nữa là <strong><em>mọi người nên hiểu rõ hơn tầm quan trọng của việc bảo vệ nguồn nước.</em></strong>. Các trường học và phương tiện truyền thông có thể tổ chức các chương trình tuyên truyền. Điều này giúp mọi người hiểu rõ hơn cách tiết kiệm nước. Nhờ đó, họ có thể thay đổi những thói quen lãng phí nước. Điều này sẽ góp phần bảo vệ nguồn nước trong tương lai.\n\nTóm lại, một số biện pháp thực tế có thể giúp cải thiện <strong>việc tiết kiệm nguồn tài nguyên nước ngọt</strong> một cách hiệu quả. Những giải pháp này có thể mang lại những thay đổi tích cực cho cả cá nhân và xã hội. Vì vậy, điều quan trọng là phải có những hành động phù hợp trong tương lai.",
-          "sample_b2": "In recent years, <strong>saving freshwater resources</strong> has become increasingly important in many parts of the world. It has had a profound impact on both individuals and society. <strong>This essay will suggest several practical measures to effectively support such efforts.</strong>\n\nOne effective step is to <strong><em>people should use freshwater more responsibly.</em></strong>. They should turn off taps when they are not in use. They should also avoid wasting water in their daily lives. This helps reduce water waste. It also helps protect freshwater resources for future generations. As a result, freshwater resources can be used more sustainably.\n\nAnother possible measure is to <strong><em>governments should improve water management and protect freshwater resources.</em></strong>. They can repair leaking water pipes. They should also invest in modern water storage and distribution systems. This helps reduce water loss. More people will have a more reliable supply of clean water. As a result, water resources will be managed more efficiently.\n\nA further approach is to <strong><em>people should better understand the importance of water conservation.</em></strong>. Schools and the media can organise more educational campaigns. This helps people understand how to use water wisely. As a result, they can change their wasteful habits. More people will use freshwater more responsibly in their daily lives. This helps protect freshwater resources for future generations.\n\nIn conclusion, several practical measures have been suggested to support <strong>saving freshwater resources</strong>. Implementing these steps is essential to bring significant benefits in the future. With appropriate action, these goals can be effectively achieved over time.",
-          "translation_b2": "Trong những năm gần đây, <strong>việc tiết kiệm nguồn tài nguyên nước ngọt</strong> đã trở nên ngày càng quan trọng ở nhiều nơi trên thế giới. Nó đã có một tác động sâu sắc đến cả cá nhân và xã hội. <strong>Bài tiểu luận này sẽ đề xuất một số biện pháp thực tế để hỗ trợ hiệu quả cho những nỗ lực như vậy.</strong>\n\nMột bước đi hiệu quả là <strong><em>mọi người nên sử dụng nước ngọt một cách tiết kiệm và có trách nhiệm hơn.</em></strong>. Họ nên tắt vòi nước khi không sử dụng. Họ cũng nên tránh lãng phí nước trong sinh hoạt hằng ngày. Điều này giúp giảm lượng nước bị lãng phí. Nó cũng góp phần bảo vệ nguồn nước cho các thế hệ tương lai. Nhờ đó, nguồn nước sẽ được sử dụng bền vững hơn.\n\nMột biện pháp khả thi khác là <strong><em>chính phủ nên cải thiện việc quản lý và bảo vệ nguồn nước.</em></strong>. Họ có thể sửa chữa các đường ống nước bị rò rỉ. Họ cũng nên đầu tư vào các hệ thống lưu trữ và phân phối nước hiện đại. Điều này giúp giảm thất thoát nước. Nhiều người sẽ được cung cấp nước sạch ổn định hơn. Nhờ đó, việc sử dụng nguồn nước sẽ hiệu quả hơn.\n\nMột cách tiếp cận nữa là <strong><em>mọi người nên hiểu rõ hơn tầm quan trọng của việc bảo vệ nguồn nước.</em></strong>. Các trường học và phương tiện truyền thông có thể tổ chức nhiều chiến dịch tuyên truyền hơn. Điều này giúp mọi người hiểu rõ hơn cách sử dụng nước một cách hợp lý. Nhờ đó, họ có thể thay đổi những thói quen lãng phí nước. Nhiều người sẽ sử dụng nước có trách nhiệm hơn trong cuộc sống hằng ngày. Điều này góp phần bảo vệ nguồn nước ngọt cho các thế hệ tương lai.\n\nTóm lại, một số biện pháp thực tế đã được đề xuất để hỗ trợ <strong>việc tiết kiệm nguồn tài nguyên nước ngọt</strong>. Việc thực hiện các bước này là cần thiết để mang lại những lợi ích đáng kể trong tương lai. Với hành động thích hợp, những mục tiêu này có thể đạt được một cách hiệu quả theo thời gian."
+          "vocab_step": {
+            "theme": "Bảo vệ và tiết kiệm nguồn nước ngọt (Saving & Protecting Freshwater Resources)",
+            "overview": "Chủ đề cung cấp từ vựng học thuật chuẩn VSTEP về tài nguyên nước ngọt, các biện pháp tiết kiệm nước sinh hoạt gia đình, kiểm soát ô nhiễm nguồn nước, phương pháp nông nghiệp bền vững và chính sách quản lý của chính phủ.",
+            "single_words": [
+              {
+                "word": "freshwater",
+                "ipa": "/ˈfreʃwɔːtər/",
+                "pos": "n",
+                "level": "B1",
+                "vi": "nước ngọt (nước không mặn)",
+                "family": "water (n, v), watery (adj)",
+                "example_en": "Freshwater is essential for human survival.",
+                "example_vi": "Nước ngọt là thiết yếu cho sự sinh tồn của con người."
+              },
+              {
+                "word": "conserve",
+                "ipa": "/kənˈsɜːrv/",
+                "pos": "v",
+                "level": "B1",
+                "vi": "bảo tồn, giữ gìn, tiết kiệm",
+                "family": "conservation (n), conservationist (n), conservative (adj)",
+                "example_en": "We must conserve water during dry seasons.",
+                "example_vi": "Chúng ta phải tiết kiệm nước trong suốt mùa khô."
+              },
+              {
+                "word": "resource",
+                "ipa": "/ˈriːsɔːrs/",
+                "pos": "n",
+                "level": "B1",
+                "vi": "tài nguyên, nguồn lực",
+                "family": "resourceful (adj), resourcefulness (n)",
+                "example_en": "Water is a precious natural resource.",
+                "example_vi": "Nước là một nguồn tài nguyên thiên nhiên quý giá."
+              },
+              {
+                "word": "shortage",
+                "ipa": "/ˈʃɔːrtɪdʒ/",
+                "pos": "n",
+                "level": "B1",
+                "vi": "sự thiếu hụt",
+                "family": "short (adj), shorten (v), shortly (adv)",
+                "example_en": "Many regions suffer from severe water shortages.",
+                "example_vi": "Nhiều vùng phải gánh chịu tình trạng thiếu hụt nước nghiêm trọng."
+              },
+              {
+                "word": "scarcity",
+                "ipa": "/ˈskersəti/",
+                "pos": "n",
+                "level": "B1",
+                "vi": "sự khan hiếm",
+                "family": "scarce (adj), scarcely (adv)",
+                "example_en": "Water scarcity affects millions of families.",
+                "example_vi": "Sự khan hiếm nước ảnh hưởng đến hàng triệu gia đình."
+              },
+              {
+                "word": "pollute",
+                "ipa": "/pəˈluːt/",
+                "pos": "v",
+                "level": "B1",
+                "vi": "làm ô nhiễm",
+                "family": "pollution (n), pollutant (n), polluted (adj)",
+                "example_en": "Factories should not pollute rivers with chemicals.",
+                "example_vi": "Các nhà máy không nên làm ô nhiễm sông ngòi bằng hóa chất."
+              },
+              {
+                "word": "waste",
+                "ipa": "/weɪst/",
+                "pos": "v, n",
+                "level": "B1",
+                "vi": "lãng phí, chất thải",
+                "family": "wasteful (adj), wastefully (adv), wastewater (n)",
+                "example_en": "Do not waste water while taking a shower.",
+                "example_vi": "Đừng lãng phí nước trong khi đang tắm."
+              },
+              {
+                "word": "leak",
+                "ipa": "/liːk/",
+                "pos": "v, n",
+                "level": "B1",
+                "vi": "rò rỉ, chỗ rò rỉ",
+                "family": "leakage (n), leaky (adj)",
+                "example_en": "Fixing leaking pipes saves water.",
+                "example_vi": "Sửa chữa các đường ống bị rò rỉ giúp tiết kiệm nước."
+              },
+              {
+                "word": "tap",
+                "ipa": "/tæp/",
+                "pos": "n",
+                "level": "B1",
+                "vi": "vòi nước",
+                "family": "tap (v)",
+                "example_en": "Remember to turn off the tap after washing your hands.",
+                "example_vi": "Hãy nhớ tắt vòi nước sau khi rửa tay."
+              },
+              {
+                "word": "rainwater",
+                "ipa": "/ˈreɪnwɔːtər/",
+                "pos": "n",
+                "level": "B1",
+                "vi": "nước mưa",
+                "family": "rain (n, v), rainy (adj)",
+                "example_en": "Collecting rainwater is a useful habit.",
+                "example_vi": "Thu gom nước mưa là một thói quen hữu ích."
+              },
+              {
+                "word": "habit",
+                "ipa": "/ˈhæbɪt/",
+                "pos": "n",
+                "level": "B1",
+                "vi": "thói quen, tập quán",
+                "family": "habitual (adj), habitually (adv)",
+                "example_en": "Saving water should become a daily habit.",
+                "example_vi": "Tiết kiệm nước nên trở thành một thói quen hằng ngày."
+              },
+              {
+                "word": "campaign",
+                "ipa": "/kæmˈpeɪn/",
+                "pos": "n",
+                "level": "B1",
+                "vi": "chiến dịch",
+                "family": "campaigner (n), campaign (v)",
+                "example_en": "Schools launched an environmental campaign.",
+                "example_vi": "Các trường học đã phát động một chiến dịch môi trường."
+              },
+              {
+                "word": "fertilizer",
+                "ipa": "/ˈfɜːrtəlaɪzər/",
+                "pos": "n",
+                "level": "B1",
+                "vi": "phân bón",
+                "family": "fertilize (v), fertile (adj), fertility (n)",
+                "example_en": "Farmers should reduce the use of chemical fertilizers.",
+                "example_vi": "Nông dân nên giảm bớt việc sử dụng phân bón hóa học."
+              },
+              {
+                "word": "pesticide",
+                "ipa": "/ˈpestɪsaɪd/",
+                "pos": "n",
+                "level": "B1",
+                "vi": "thuốc trừ sâu",
+                "family": "pest (n)",
+                "example_en": "Harmful pesticides can wash into local lakes.",
+                "example_vi": "Thuốc trừ sâu độc hại có thể bị rửa trôi vào các hồ nước địa phương."
+              },
+              {
+                "word": "canal",
+                "ipa": "/kəˈnæl/",
+                "pos": "n",
+                "level": "B1",
+                "vi": "kênh, rạch đào",
+                "family": "canal (n)",
+                "example_en": "Rubbish should never be thrown into city canals.",
+                "example_vi": "Rác thải không bao giờ được ném vào các kênh rạch thành phố."
+              },
+              {
+                "word": "treat",
+                "ipa": "/triːt/",
+                "pos": "v",
+                "level": "B1",
+                "vi": "xử lý (nước thải, rác thải)",
+                "family": "treatment (n), treated (adj), untreated (adj)",
+                "example_en": "Wastewater must be treated before being discharged.",
+                "example_vi": "Nước thải phải được xử lý trước khi xả ra ngoài."
+              },
+              {
+                "word": "household",
+                "ipa": "/ˈhaʊshoʊld/",
+                "pos": "n, adj",
+                "level": "B1",
+                "vi": "hộ gia đình, trong gia đình",
+                "family": "house (n)",
+                "example_en": "Every household can contribute to water conservation.",
+                "example_vi": "Mỗi hộ gia đình đều có thể đóng góp vào việc bảo tồn nước."
+              },
+              {
+                "word": "hygiene",
+                "ipa": "/ˈhaɪdʒiːn/",
+                "pos": "n",
+                "level": "B1",
+                "vi": "vệ sinh cá nhân / môi trường",
+                "family": "hygienic (adj), hygienically (adv)",
+                "example_en": "Clean water is required for personal hygiene.",
+                "example_vi": "Nước sạch là cần thiết cho vệ sinh cá nhân."
+              },
+              {
+                "word": "irrigation",
+                "ipa": "/ˌɪrɪˈɡeɪʃn/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "sự tưới tiêu",
+                "family": "irrigate (v), irrigated (adj)",
+                "example_en": "Drip irrigation saves a large amount of water in agriculture.",
+                "example_vi": "Tưới nhỏ giọt tiết kiệm một lượng lớn nước trong nông nghiệp."
+              },
+              {
+                "word": "reservoir",
+                "ipa": "/ˈrezərvwɑːr/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "hồ chứa nước, bể tích trữ",
+                "family": "reserve (v, n)",
+                "example_en": "The city draws drinking water from an artificial reservoir.",
+                "example_vi": "Thành phố lấy nước uống từ một hồ chứa nước nhân tạo."
+              },
+              {
+                "word": "aquifer",
+                "ipa": "/ˈækwɪfər/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "tầng ngậm nước ngầm",
+                "family": "aquatic (adj)",
+                "example_en": "Excessive pumping has depleted the regional aquifer.",
+                "example_vi": "Việc bơm hút quá mức đã làm cạn kiệt tầng ngậm nước ngầm của khu vực."
+              },
+              {
+                "word": "effluent",
+                "ipa": "/ˈefluənt/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "nước thải công nghiệp xả ra",
+                "family": "effluence (n)",
+                "example_en": "Chemical effluents from textile factories poisoned the lake.",
+                "example_vi": "Nước thải hóa chất từ các nhà máy dệt may đã làm nhiễm độc hồ nước."
+              },
+              {
+                "word": "discharge",
+                "ipa": "/dɪsˈtʃɑːrdʒ/",
+                "pos": "v, n",
+                "level": "B2",
+                "vi": "xả thải, sự phóng thích chất lỏng",
+                "family": "discharged (adj)",
+                "example_en": "The plant is forbidden to discharge toxic liquids into the river.",
+                "example_vi": "Nhà máy bị cấm xả các chất lỏng độc hại vào dòng sông."
+              },
+              {
+                "word": "sustainable",
+                "ipa": "/səˈsteɪnəbl/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "bền vững, thân thiện môi trường",
+                "family": "sustain (v), sustainability (n), sustainably (adv)",
+                "example_en": "Sustainable farming methods protect natural waterways.",
+                "example_vi": "Các phương pháp canh tác bền vững bảo vệ các tuyến đường thủy tự nhiên."
+              },
+              {
+                "word": "infrastructure",
+                "ipa": "/ˈɪnfrəstrʌktʃər/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "cơ sở hạ tầng",
+                "family": "infrastructural (adj)",
+                "example_en": "Investing in modern water infrastructure reduces supply losses.",
+                "example_vi": "Đầu tư vào cơ sở hạ tầng nước hiện đại giúp giảm thất thoát nguồn cung."
+              },
+              {
+                "word": "evaporate",
+                "ipa": "/ɪˈvæpəreɪt/",
+                "pos": "v",
+                "level": "B2",
+                "vi": "bay hơi, bốc hơi",
+                "family": "evaporation (n), evaporative (adj)",
+                "example_en": "Much irrigation water evaporates before reaching plant roots.",
+                "example_vi": "Phần lớn nước tưới bị bay hơi trước khi tiếp cận được rễ cây."
+              },
+              {
+                "word": "contaminate",
+                "ipa": "/kənˈtæmɪneɪt/",
+                "pos": "v",
+                "level": "B2",
+                "vi": "làm nhiễm bẩn, làm độc hại",
+                "family": "contamination (n), contaminant (n), contaminated (adj)",
+                "example_en": "Untreated sewage can contaminate rural wells.",
+                "example_vi": "Nước thải chưa qua xử lý có thể làm nhiễm bẩn các giếng nước nông thôn."
+              },
+              {
+                "word": "purify",
+                "ipa": "/ˈpjʊrɪfaɪ/",
+                "pos": "v",
+                "level": "B2",
+                "vi": "lọc sạch, tinh lọc",
+                "family": "purification (n), purifier (n), pure (adj), purity (n)",
+                "example_en": "Advanced facilities purify water for urban redistribution.",
+                "example_vi": "Các cơ sở tiên tiến tinh lọc nước để tái phân phối cho đô thị."
+              },
+              {
+                "word": "mandatory",
+                "ipa": "/ˈmændətɔːri/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "bắt buộc theo luật định",
+                "family": "mandate (n, v)",
+                "example_en": "Water-saving devices should be mandatory in new apartments.",
+                "example_vi": "Thiết bị tiết kiệm nước nên là bắt buộc trong các căn hộ mới."
+              },
+              {
+                "word": "enforce",
+                "ipa": "/ɪnˈfɔːrs/",
+                "pos": "v",
+                "level": "B2",
+                "vi": "thực thi, cưỡng chế thi hành",
+                "family": "enforcement (n), enforceable (adj)",
+                "example_en": "Authorities must enforce strict environmental penalties.",
+                "example_vi": "Cơ quan chức năng phải thực thi các hình phạt môi trường nghiêm khắc."
+              },
+              {
+                "word": "punitive",
+                "ipa": "/ˈpjuːnətɪv/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "trừng phạt, mang tính răn đe",
+                "family": "punish (v), punishment (n)",
+                "example_en": "Courts imposed punitive fines on the polluters.",
+                "example_vi": "Tòa án đã áp dụng các khoản phạt mang tính trừng phạt lên những kẻ gây ô nhiễm."
+              },
+              {
+                "word": "groundwater",
+                "ipa": "/ˈɡraʊndwɔːtər/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "nước ngầm",
+                "family": "ground (n), water (n)",
+                "example_en": "Excessive farming chemicals seep into vital groundwater.",
+                "example_vi": "Hóa chất nông nghiệp quá mức ngấm sâu vào nguồn nước ngầm quan trọng."
+              },
+              {
+                "word": "deplete",
+                "ipa": "/dɪˈpliːt/",
+                "pos": "v",
+                "level": "B2",
+                "vi": "làm cạn kiệt, làm suy giảm nghiêm trọng",
+                "family": "depletion (n), depleted (adj)",
+                "example_en": "Overconsumption continues to deplete freshwater reserves.",
+                "example_vi": "Tiêu dùng quá độ tiếp tục làm cạn kiệt các nguồn dự trữ nước ngọt."
+              },
+              {
+                "word": "allocation",
+                "ipa": "/ˌæləˈkeɪʃn/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "sự phân bổ, cấp phát",
+                "family": "allocate (v)",
+                "example_en": "Fair water allocation between farms and cities is necessary.",
+                "example_vi": "Sự phân bổ nước công bằng giữa nông nghiệp và đô thị là cần thiết."
+              },
+              {
+                "word": "potable",
+                "ipa": "/ˈpoʊtəbl/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "uống được, an toàn cho việc uống",
+                "family": "potability (n)",
+                "example_en": "Access to potable water remains a fundamental human right.",
+                "example_vi": "Quyền tiếp cận nước uống được vẫn là một quyền cơ bản của con người."
+              },
+              {
+                "word": "harvesting",
+                "ipa": "/ˈhɑːrvɪstɪŋ/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "sự thu hoạch, sự thu gom (nước mưa)",
+                "family": "harvest (v, n)",
+                "example_en": "Rainwater harvesting offers a sustainable solution for gardening.",
+                "example_vi": "Thu gom nước mưa mang lại một giải pháp bền vững cho việc làm vườn."
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "raise public awareness",
+                "level": "B1",
+                "vi": "nâng cao nhận thức cộng đồng",
+                "type": "v.phr",
+                "example_en": "We must raise public awareness about water conservation.",
+                "example_vi": "Chúng ta phải nâng cao nhận thức cộng đồng về bảo tồn nước."
+              },
+              {
+                "phrase": "save water in daily life",
+                "level": "B1",
+                "vi": "tiết kiệm nước trong sinh hoạt hằng ngày",
+                "type": "v.phr",
+                "example_en": "Everyone can save water in daily life by changing habits.",
+                "example_vi": "Mọi người đều có thể tiết kiệm nước trong sinh hoạt hằng ngày bằng cách thay đổi thói quen."
+              },
+              {
+                "phrase": "water-saving habits",
+                "level": "B1",
+                "vi": "thói quen tiết kiệm nước",
+                "type": "n.phr",
+                "example_en": "Children should learn water-saving habits early.",
+                "example_vi": "Trẻ em nên học các thói quen tiết kiệm nước từ sớm."
+              },
+              {
+                "phrase": "turn off taps",
+                "level": "B1",
+                "vi": "tắt vòi nước khi không dùng",
+                "type": "v.phr",
+                "example_en": "Turn off taps while brushing your teeth.",
+                "example_vi": "Hãy tắt vòi nước trong lúc bạn đánh răng."
+              },
+              {
+                "phrase": "repair leaking pipes",
+                "level": "B1",
+                "vi": "sửa chữa các đường ống bị rò rỉ",
+                "type": "v.phr",
+                "example_en": "Repair leaking pipes promptly to prevent waste.",
+                "example_vi": "Hãy sửa chữa đường ống rò rỉ kịp thời để ngăn lãng phí."
+              },
+              {
+                "phrase": "collect rainwater",
+                "level": "B1",
+                "vi": "thu gom nước mưa",
+                "type": "v.phr",
+                "example_en": "Collecting rainwater helps water garden plants.",
+                "example_vi": "Thu gom nước mưa giúp tưới cây trong vườn."
+              },
+              {
+                "phrase": "environmental campaigns",
+                "level": "B1",
+                "vi": "các chiến dịch môi trường",
+                "type": "n.phr",
+                "example_en": "Schools organize environmental campaigns each term.",
+                "example_vi": "Nhà trường tổ chức các chiến dịch môi trường mỗi học kỳ."
+              },
+              {
+                "phrase": "domestic water conservation",
+                "level": "B2",
+                "vi": "bảo tồn nước trong sinh hoạt gia đình",
+                "type": "n.phr",
+                "example_en": "Domestic water conservation substantially cuts utility bills.",
+                "example_vi": "Bảo tồn nước trong gia đình giúp cắt giảm đáng kể hóa đơn tiền nước."
+              },
+              {
+                "phrase": "curb excessive water wastage",
+                "level": "B2",
+                "vi": "hạn chế lãng phí nước quá mức",
+                "type": "v.phr",
+                "example_en": "New household appliances curb excessive water wastage.",
+                "example_vi": "Các thiết bị gia dụng mới giúp hạn chế lãng phí nước quá mức."
+              },
+              {
+                "phrase": "rainwater harvesting systems",
+                "level": "B2",
+                "vi": "hệ thống thu gom nước mưa",
+                "type": "n.phr",
+                "example_en": "Modern houses install rainwater harvesting systems.",
+                "example_vi": "Nhà hiện đại lắp đặt các hệ thống thu gom nước mưa."
+              },
+              {
+                "phrase": "control water pollution",
+                "level": "B1",
+                "vi": "kiểm soát ô nhiễm nguồn nước",
+                "type": "v.phr",
+                "example_en": "Communities must work together to control water pollution.",
+                "example_vi": "Cộng đồng phải chung tay để kiểm soát ô nhiễm nguồn nước."
+              },
+              {
+                "phrase": "dump rubbish into rivers",
+                "level": "B1",
+                "vi": "vứt rác thải xuống sông ngòi",
+                "type": "v.phr",
+                "example_en": "Do not dump rubbish into rivers or canals.",
+                "example_vi": "Không được vứt rác thải xuống sông ngòi hoặc kênh rạch."
+              },
+              {
+                "phrase": "industrial wastewater",
+                "level": "B1",
+                "vi": "nước thải công nghiệp",
+                "type": "n.phr",
+                "example_en": "Factories must not release untreated industrial wastewater.",
+                "example_vi": "Các nhà máy không được thải nước thải công nghiệp chưa qua xử lý."
+              },
+              {
+                "phrase": "harmful chemicals",
+                "level": "B1",
+                "vi": "hóa chất độc hại",
+                "type": "n.phr",
+                "example_en": "Harmful chemicals poison fish and aquatic plants.",
+                "example_vi": "Hóa chất độc hại làm nhiễm độc cá và thực vật thủy sinh."
+              },
+              {
+                "phrase": "treat wastewater before discharge",
+                "level": "B2",
+                "vi": "xử lý nước thải trước khi xả ra",
+                "type": "v.phr",
+                "example_en": "Companies are required to treat wastewater before discharge.",
+                "example_vi": "Các công ty bị bắt buộc phải xử lý nước thải trước khi xả ra ngoài."
+              },
+              {
+                "phrase": "contaminate groundwater reservoirs",
+                "level": "B2",
+                "vi": "làm ô nhiễm các tầng trữ nước ngầm",
+                "type": "v.phr",
+                "example_en": "Toxic chemicals contaminate groundwater reservoirs easily.",
+                "example_vi": "Hóa chất độc hại dễ dàng làm ô nhiễm các tầng trữ nước ngầm."
+              },
+              {
+                "phrase": "aquatic ecosystems",
+                "level": "B2",
+                "vi": "các hệ sinh thái thủy sinh",
+                "type": "n.phr",
+                "example_en": "Water pollution poses a direct threat to aquatic ecosystems.",
+                "example_vi": "Ô nhiễm nước đặt ra mối đe dọa trực tiếp cho các hệ sinh thái thủy sinh."
+              },
+              {
+                "phrase": "purify municipal wastewater",
+                "level": "B2",
+                "vi": "tinh lọc nước thải đô thị",
+                "type": "v.phr",
+                "example_en": "Modern centers purify municipal wastewater for recycling.",
+                "example_vi": "Các trung tâm hiện đại tinh lọc nước thải đô thị để tái chế."
+              },
+              {
+                "phrase": "safe drinking water supplies",
+                "level": "B2",
+                "vi": "nguồn cung cấp nước uống an toàn",
+                "type": "n.phr",
+                "example_en": "Protecting rivers ensures safe drinking water supplies.",
+                "example_vi": "Bảo vệ các dòng sông đảm bảo nguồn cung cấp nước uống an toàn."
+              },
+              {
+                "phrase": "sustainable farming practices",
+                "level": "B1",
+                "vi": "các phương thức nông nghiệp bền vững",
+                "type": "n.phr",
+                "example_en": "Sustainable farming practices conserve soil moisture.",
+                "example_vi": "Các phương thức nông nghiệp bền vững giúp giữ độ ẩm cho đất."
+              },
+              {
+                "phrase": "drip irrigation systems",
+                "level": "B1",
+                "vi": "hệ thống tưới nhỏ giọt",
+                "type": "n.phr",
+                "example_en": "Drip irrigation systems supply water directly to plant roots.",
+                "example_vi": "Hệ thống tưới nhỏ giọt cung cấp nước trực tiếp tới rễ cây."
+              },
+              {
+                "phrase": "chemical fertilizers and pesticides",
+                "level": "B1",
+                "vi": "phân bón hóa học và thuốc trừ sâu",
+                "type": "n.phr",
+                "example_en": "Excessive chemical fertilizers and pesticides harm rivers.",
+                "example_vi": "Lạm dụng phân bón hóa học và thuốc trừ sâu gây hại cho sông ngòi."
+              },
+              {
+                "phrase": "reuse treated wastewater",
+                "level": "B1",
+                "vi": "tái sử dụng nước thải đã qua xử lý",
+                "type": "v.phr",
+                "example_en": "Farmers can reuse treated wastewater for crop irrigation.",
+                "example_vi": "Nông dân có thể tái sử dụng nước thải đã qua xử lý để tưới tiêu cây trồng."
+              },
+              {
+                "phrase": "precision irrigation technology",
+                "level": "B2",
+                "vi": "công nghệ tưới tiêu chính xác",
+                "type": "n.phr",
+                "example_en": "Precision irrigation technology minimizes water losses.",
+                "example_vi": "Công nghệ tưới tiêu chính xác giảm thiểu thất thoát nước."
+              },
+              {
+                "phrase": "global freshwater withdrawals",
+                "level": "B2",
+                "vi": "lượng khai thác nước ngọt toàn cầu",
+                "type": "n.phr",
+                "example_en": "Agriculture accounts for 70% of global freshwater withdrawals.",
+                "example_vi": "Nông nghiệp chiếm tới 70% lượng khai thác nước ngọt toàn cầu."
+              },
+              {
+                "phrase": "minimal evaporation losses",
+                "level": "B2",
+                "vi": "thất thoát do bốc hơi tối thiểu",
+                "type": "n.phr",
+                "example_en": "Underground pipes ensure minimal evaporation losses.",
+                "example_vi": "Ống ngầm đảm bảo sự thất thoát do bốc hơi là tối thiểu."
+              },
+              {
+                "phrase": "protect agricultural soil",
+                "level": "B2",
+                "vi": "bảo vệ đất sản xuất nông nghiệp",
+                "type": "v.phr",
+                "example_en": "Organic methods help protect agricultural soil quality.",
+                "example_vi": "Phương pháp hữu cơ giúp bảo vệ chất lượng đất sản xuất nông nghiệp."
+              },
+              {
+                "phrase": "water infrastructure",
+                "level": "B1",
+                "vi": "cơ sở hạ tầng nguồn nước",
+                "type": "n.phr",
+                "example_en": "The city invested in new water infrastructure.",
+                "example_vi": "Thành phố đã đầu tư vào cơ sở hạ tầng nguồn nước mới."
+              },
+              {
+                "phrase": "modern treatment facilities",
+                "level": "B1",
+                "vi": "các cơ sở xử lý nước hiện đại",
+                "type": "n.phr",
+                "example_en": "Building modern treatment facilities improves water quality.",
+                "example_vi": "Xây dựng các cơ sở xử lý hiện đại nâng cao chất lượng nước."
+              },
+              {
+                "phrase": "improve water supply systems",
+                "level": "B1",
+                "vi": "cải thiện các hệ thống cấp nước",
+                "type": "v.phr",
+                "example_en": "Governments must improve water supply systems to stop leaks.",
+                "example_vi": "Chính phủ phải cải thiện hệ thống cấp nước để ngăn rò rỉ."
+              },
+              {
+                "phrase": "enforce strict regulations",
+                "level": "B2",
+                "vi": "thực thi các quy định nghiêm ngặt",
+                "type": "v.phr",
+                "example_en": "Authorities enforce strict regulations against illegal dumping.",
+                "example_vi": "Nhà chức trách thực thi các quy định nghiêm ngặt chống xả rác trái phép."
+              },
+              {
+                "phrase": "impose punitive fines",
+                "level": "B2",
+                "vi": "áp dụng các mức phạt tiền trừng phạt",
+                "type": "v.phr",
+                "example_en": "The state should impose punitive fines on polluting corporations.",
+                "example_vi": "Nhà nước nên áp dụng các mức phạt tiền trừng phạt đối với các tập đoàn gây ô nhiễm."
+              },
+              {
+                "phrase": "governmental intervention",
+                "level": "B2",
+                "vi": "sự can thiệp của chính phủ",
+                "type": "n.phr",
+                "example_en": "Decisive governmental intervention is needed during severe droughts.",
+                "example_vi": "Sự can thiệp quyết liệt của chính phủ là cần thiết trong các đợt hạn hán nghiêm trọng."
+              },
+              {
+                "phrase": "long-term freshwater security",
+                "level": "B2",
+                "vi": "an ninh nguồn nước ngọt dài hạn",
+                "type": "n.phr",
+                "example_en": "Conserving lakes secures long-term freshwater security.",
+                "example_vi": "Bảo tồn các hồ nước giúp đảm bảo an ninh nguồn nước ngọt dài hạn."
+              },
+              {
+                "phrase": "unregulated groundwater extraction",
+                "level": "B2",
+                "vi": "sự khai thác nước ngầm không kiểm soát",
+                "type": "n.phr",
+                "example_en": "Laws must halt unregulated groundwater extraction.",
+                "example_vi": "Pháp luật phải ngăn chặn việc khai thác nước ngầm không kiểm soát."
+              },
+              {
+                "phrase": "upgrade distribution networks",
+                "level": "B2",
+                "vi": "nâng cấp các mạng lưới phân phối nước",
+                "type": "v.phr",
+                "example_en": "Funding helps upgrade distribution networks across rural zones.",
+                "example_vi": "Kinh phí giúp nâng cấp mạng lưới phân phối nước trên khắp các vùng nông thôn."
+              }
+            ],
+            "collocation_groups": [
+              {
+                "id": "group_awareness_daily",
+                "name": "Nhóm 1: Nhận thức cộng đồng & Tiết kiệm sinh hoạt (Public Awareness & Daily Water Conservation)",
+                "icon": "💧",
+                "badge": "Nhận thức & Sinh hoạt",
+                "items": [
+                  {
+                    "phrase": "raise public awareness",
+                    "level": "B1",
+                    "vi": "nâng cao nhận thức cộng đồng",
+                    "type": "v.phr",
+                    "example_en": "We must raise public awareness about water conservation.",
+                    "example_vi": "Chúng ta phải nâng cao nhận thức cộng đồng về bảo tồn nước."
+                  },
+                  {
+                    "phrase": "save water in daily life",
+                    "level": "B1",
+                    "vi": "tiết kiệm nước trong sinh hoạt hằng ngày",
+                    "type": "v.phr",
+                    "example_en": "Everyone can save water in daily life by changing habits.",
+                    "example_vi": "Mọi người đều có thể tiết kiệm nước trong sinh hoạt hằng ngày bằng cách thay đổi thói quen."
+                  },
+                  {
+                    "phrase": "water-saving habits",
+                    "level": "B1",
+                    "vi": "thói quen tiết kiệm nước",
+                    "type": "n.phr",
+                    "example_en": "Children should learn water-saving habits early.",
+                    "example_vi": "Trẻ em nên học các thói quen tiết kiệm nước từ sớm."
+                  },
+                  {
+                    "phrase": "turn off taps",
+                    "level": "B1",
+                    "vi": "tắt vòi nước khi không dùng",
+                    "type": "v.phr",
+                    "example_en": "Turn off taps while brushing your teeth.",
+                    "example_vi": "Hãy tắt vòi nước trong lúc bạn đánh răng."
+                  },
+                  {
+                    "phrase": "repair leaking pipes",
+                    "level": "B1",
+                    "vi": "sửa chữa các đường ống bị rò rỉ",
+                    "type": "v.phr",
+                    "example_en": "Repair leaking pipes promptly to prevent waste.",
+                    "example_vi": "Hãy sửa chữa đường ống rò rỉ kịp thời để ngăn lãng phí."
+                  },
+                  {
+                    "phrase": "collect rainwater",
+                    "level": "B1",
+                    "vi": "thu gom nước mưa",
+                    "type": "v.phr",
+                    "example_en": "Collecting rainwater helps water garden plants.",
+                    "example_vi": "Thu gom nước mưa giúp tưới cây trong vườn."
+                  },
+                  {
+                    "phrase": "environmental campaigns",
+                    "level": "B1",
+                    "vi": "các chiến dịch môi trường",
+                    "type": "n.phr",
+                    "example_en": "Schools organize environmental campaigns each term.",
+                    "example_vi": "Nhà trường tổ chức các chiến dịch môi trường mỗi học kỳ."
+                  },
+                  {
+                    "phrase": "domestic water conservation",
+                    "level": "B2",
+                    "vi": "bảo tồn nước trong sinh hoạt gia đình",
+                    "type": "n.phr",
+                    "example_en": "Domestic water conservation substantially cuts utility bills.",
+                    "example_vi": "Bảo tồn nước trong gia đình giúp cắt giảm đáng kể hóa đơn tiền nước."
+                  },
+                  {
+                    "phrase": "curb excessive water wastage",
+                    "level": "B2",
+                    "vi": "hạn chế lãng phí nước quá mức",
+                    "type": "v.phr",
+                    "example_en": "New household appliances curb excessive water wastage.",
+                    "example_vi": "Các thiết bị gia dụng mới giúp hạn chế lãng phí nước quá mức."
+                  },
+                  {
+                    "phrase": "rainwater harvesting systems",
+                    "level": "B2",
+                    "vi": "hệ thống thu gom nước mưa",
+                    "type": "n.phr",
+                    "example_en": "Modern houses install rainwater harvesting systems.",
+                    "example_vi": "Nhà hiện đại lắp đặt các hệ thống thu gom nước mưa."
+                  }
+                ]
+              },
+              {
+                "id": "group_pollution_wastewater",
+                "name": "Nhóm 2: Kiểm soát ô nhiễm & Xử lý nước thải (Pollution Control & Wastewater Treatment)",
+                "icon": "🚫",
+                "badge": "Kiểm soát ô nhiễm",
+                "items": [
+                  {
+                    "phrase": "control water pollution",
+                    "level": "B1",
+                    "vi": "kiểm soát ô nhiễm nguồn nước",
+                    "type": "v.phr",
+                    "example_en": "Communities must work together to control water pollution.",
+                    "example_vi": "Cộng đồng phải chung tay để kiểm soát ô nhiễm nguồn nước."
+                  },
+                  {
+                    "phrase": "dump rubbish into rivers",
+                    "level": "B1",
+                    "vi": "vứt rác thải xuống sông ngòi",
+                    "type": "v.phr",
+                    "example_en": "Do not dump rubbish into rivers or canals.",
+                    "example_vi": "Không được vứt rác thải xuống sông ngòi hoặc kênh rạch."
+                  },
+                  {
+                    "phrase": "industrial wastewater",
+                    "level": "B1",
+                    "vi": "nước thải công nghiệp",
+                    "type": "n.phr",
+                    "example_en": "Factories must not release untreated industrial wastewater.",
+                    "example_vi": "Các nhà máy không được thải nước thải công nghiệp chưa qua xử lý."
+                  },
+                  {
+                    "phrase": "harmful chemicals",
+                    "level": "B1",
+                    "vi": "hóa chất độc hại",
+                    "type": "n.phr",
+                    "example_en": "Harmful chemicals poison fish and aquatic plants.",
+                    "example_vi": "Hóa chất độc hại làm nhiễm độc cá và thực vật thủy sinh."
+                  },
+                  {
+                    "phrase": "treat wastewater before discharge",
+                    "level": "B2",
+                    "vi": "xử lý nước thải trước khi xả ra",
+                    "type": "v.phr",
+                    "example_en": "Companies are required to treat wastewater before discharge.",
+                    "example_vi": "Các công ty bị bắt buộc phải xử lý nước thải trước khi xả ra ngoài."
+                  },
+                  {
+                    "phrase": "contaminate groundwater reservoirs",
+                    "level": "B2",
+                    "vi": "làm ô nhiễm các tầng trữ nước ngầm",
+                    "type": "v.phr",
+                    "example_en": "Toxic chemicals contaminate groundwater reservoirs easily.",
+                    "example_vi": "Hóa chất độc hại dễ dàng làm ô nhiễm các tầng trữ nước ngầm."
+                  },
+                  {
+                    "phrase": "aquatic ecosystems",
+                    "level": "B2",
+                    "vi": "các hệ sinh thái thủy sinh",
+                    "type": "n.phr",
+                    "example_en": "Water pollution poses a direct threat to aquatic ecosystems.",
+                    "example_vi": "Ô nhiễm nước đặt ra mối đe dọa trực tiếp cho các hệ sinh thái thủy sinh."
+                  },
+                  {
+                    "phrase": "purify municipal wastewater",
+                    "level": "B2",
+                    "vi": "tinh lọc nước thải đô thị",
+                    "type": "v.phr",
+                    "example_en": "Modern centers purify municipal wastewater for recycling.",
+                    "example_vi": "Các trung tâm hiện đại tinh lọc nước thải đô thị để tái chế."
+                  },
+                  {
+                    "phrase": "safe drinking water supplies",
+                    "level": "B2",
+                    "vi": "nguồn cung cấp nước uống an toàn",
+                    "type": "n.phr",
+                    "example_en": "Protecting rivers ensures safe drinking water supplies.",
+                    "example_vi": "Bảo vệ các dòng sông đảm bảo nguồn cung cấp nước uống an toàn."
+                  }
+                ]
+              },
+              {
+                "id": "group_sustainable_farming",
+                "name": "Nhóm 3: Nông nghiệp bền vững & Tưới tiêu thông minh (Sustainable Farming & Smart Irrigation)",
+                "icon": "🌱",
+                "badge": "Nông nghiệp bền vững",
+                "items": [
+                  {
+                    "phrase": "sustainable farming practices",
+                    "level": "B1",
+                    "vi": "các phương thức nông nghiệp bền vững",
+                    "type": "n.phr",
+                    "example_en": "Sustainable farming practices conserve soil moisture.",
+                    "example_vi": "Các phương thức nông nghiệp bền vững giúp giữ độ ẩm cho đất."
+                  },
+                  {
+                    "phrase": "drip irrigation systems",
+                    "level": "B1",
+                    "vi": "hệ thống tưới nhỏ giọt",
+                    "type": "n.phr",
+                    "example_en": "Drip irrigation systems supply water directly to plant roots.",
+                    "example_vi": "Hệ thống tưới nhỏ giọt cung cấp nước trực tiếp tới rễ cây."
+                  },
+                  {
+                    "phrase": "chemical fertilizers and pesticides",
+                    "level": "B1",
+                    "vi": "phân bón hóa học và thuốc trừ sâu",
+                    "type": "n.phr",
+                    "example_en": "Excessive chemical fertilizers and pesticides harm rivers.",
+                    "example_vi": "Lạm dụng phân bón hóa học và thuốc trừ sâu gây hại cho sông ngòi."
+                  },
+                  {
+                    "phrase": "reuse treated wastewater",
+                    "level": "B1",
+                    "vi": "tái sử dụng nước thải đã qua xử lý",
+                    "type": "v.phr",
+                    "example_en": "Farmers can reuse treated wastewater for crop irrigation.",
+                    "example_vi": "Nông dân có thể tái sử dụng nước thải đã qua xử lý để tưới tiêu cây trồng."
+                  },
+                  {
+                    "phrase": "precision irrigation technology",
+                    "level": "B2",
+                    "vi": "công nghệ tưới tiêu chính xác",
+                    "type": "n.phr",
+                    "example_en": "Precision irrigation technology minimizes water losses.",
+                    "example_vi": "Công nghệ tưới tiêu chính xác giảm thiểu thất thoát nước."
+                  },
+                  {
+                    "phrase": "global freshwater withdrawals",
+                    "level": "B2",
+                    "vi": "lượng khai thác nước ngọt toàn cầu",
+                    "type": "n.phr",
+                    "example_en": "Agriculture accounts for 70% of global freshwater withdrawals.",
+                    "example_vi": "Nông nghiệp chiếm tới 70% lượng khai thác nước ngọt toàn cầu."
+                  },
+                  {
+                    "phrase": "minimal evaporation losses",
+                    "level": "B2",
+                    "vi": "thất thoát do bốc hơi tối thiểu",
+                    "type": "n.phr",
+                    "example_en": "Underground pipes ensure minimal evaporation losses.",
+                    "example_vi": "Ống ngầm đảm bảo sự thất thoát do bốc hơi là tối thiểu."
+                  },
+                  {
+                    "phrase": "protect agricultural soil",
+                    "level": "B2",
+                    "vi": "bảo vệ đất sản xuất nông nghiệp",
+                    "type": "v.phr",
+                    "example_en": "Organic methods help protect agricultural soil quality.",
+                    "example_vi": "Phương pháp hữu cơ giúp bảo vệ chất lượng đất sản xuất nông nghiệp."
+                  }
+                ]
+              },
+              {
+                "id": "group_government_infrastructure",
+                "name": "Nhóm 4: Quản lý nhà nước & Cơ sở hạ tầng (Government Management & Infrastructure Investment)",
+                "icon": "🏛️",
+                "badge": "Chính sách & Hạ tầng",
+                "items": [
+                  {
+                    "phrase": "water infrastructure",
+                    "level": "B1",
+                    "vi": "cơ sở hạ tầng nguồn nước",
+                    "type": "n.phr",
+                    "example_en": "The city invested in new water infrastructure.",
+                    "example_vi": "Thành phố đã đầu tư vào cơ sở hạ tầng nguồn nước mới."
+                  },
+                  {
+                    "phrase": "modern treatment facilities",
+                    "level": "B1",
+                    "vi": "các cơ sở xử lý nước hiện đại",
+                    "type": "n.phr",
+                    "example_en": "Building modern treatment facilities improves water quality.",
+                    "example_vi": "Xây dựng các cơ sở xử lý hiện đại nâng cao chất lượng nước."
+                  },
+                  {
+                    "phrase": "improve water supply systems",
+                    "level": "B1",
+                    "vi": "cải thiện các hệ thống cấp nước",
+                    "type": "v.phr",
+                    "example_en": "Governments must improve water supply systems to stop leaks.",
+                    "example_vi": "Chính phủ phải cải thiện hệ thống cấp nước để ngăn rò rỉ."
+                  },
+                  {
+                    "phrase": "enforce strict regulations",
+                    "level": "B2",
+                    "vi": "thực thi các quy định nghiêm ngặt",
+                    "type": "v.phr",
+                    "example_en": "Authorities enforce strict regulations against illegal dumping.",
+                    "example_vi": "Nhà chức trách thực thi các quy định nghiêm ngặt chống xả rác trái phép."
+                  },
+                  {
+                    "phrase": "impose punitive fines",
+                    "level": "B2",
+                    "vi": "áp dụng các mức phạt tiền trừng phạt",
+                    "type": "v.phr",
+                    "example_en": "The state should impose punitive fines on polluting corporations.",
+                    "example_vi": "Nhà nước nên áp dụng các mức phạt tiền trừng phạt đối với các tập đoàn gây ô nhiễm."
+                  },
+                  {
+                    "phrase": "governmental intervention",
+                    "level": "B2",
+                    "vi": "sự can thiệp của chính phủ",
+                    "type": "n.phr",
+                    "example_en": "Decisive governmental intervention is needed during severe droughts.",
+                    "example_vi": "Sự can thiệp quyết liệt của chính phủ là cần thiết trong các đợt hạn hán nghiêm trọng."
+                  },
+                  {
+                    "phrase": "long-term freshwater security",
+                    "level": "B2",
+                    "vi": "an ninh nguồn nước ngọt dài hạn",
+                    "type": "n.phr",
+                    "example_en": "Conserving lakes secures long-term freshwater security.",
+                    "example_vi": "Bảo tồn các hồ nước giúp đảm bảo an ninh nguồn nước ngọt dài hạn."
+                  },
+                  {
+                    "phrase": "unregulated groundwater extraction",
+                    "level": "B2",
+                    "vi": "sự khai thác nước ngầm không kiểm soát",
+                    "type": "n.phr",
+                    "example_en": "Laws must halt unregulated groundwater extraction.",
+                    "example_vi": "Pháp luật phải ngăn chặn việc khai thác nước ngầm không kiểm soát."
+                  },
+                  {
+                    "phrase": "upgrade distribution networks",
+                    "level": "B2",
+                    "vi": "nâng cấp các mạng lưới phân phối nước",
+                    "type": "v.phr",
+                    "example_en": "Funding helps upgrade distribution networks across rural zones.",
+                    "example_vi": "Kinh phí giúp nâng cấp mạng lưới phân phối nước trên khắp các vùng nông thôn."
+                  }
+                ]
+              }
+            ]
+          },
+          "sample_b1": "In recent years, <strong>saving and protecting freshwater resources</strong> has become an urgent task in many parts of the world. Clean water is essential for daily living, food production, and human health. <strong>This essay will suggest several practical solutions to save and protect freshwater resources effectively.</strong>\n\nFirst of all, <strong>raising public awareness and practicing water conservation in daily life are two simple but effective measures.</strong> First, <strong><em>educating citizens about water conservation helps change daily habits.</em></strong> Schools and local media should organize environmental campaigns about clean water, so people will understand the danger of water shortages and build responsible habits. Second, <strong><em>each family should actively save water during daily activities.</em></strong> People can turn off taps when brushing teeth, repair leaking pipes promptly, and collect rainwater for watering household plants. In fact, these simple actions can save thousands of liters of clean water every month.\n\nIn addition, <strong>controlling water pollution and adopting sustainable agriculture also play a vital role.</strong> First, <strong><em>protecting rivers and lakes from pollution keeps water supplies clean.</em></strong> People must not dump plastic trash into waterways, and factories must treat industrial wastewater before releasing it into the environment. Second, <strong><em>farmers should apply modern farming methods to reduce water waste.</em></strong> For example, installing drip irrigation systems delivers water directly to plant roots, so it minimizes water loss from evaporation. Furthermore, reducing chemical fertilizers protects underground water from dangerous toxins.\n\nIn conclusion, <strong>protecting freshwater supplies</strong> requires daily efforts from individuals and practical changes in agriculture. By combining public education, household water saving, pollution control, and modern farming techniques, society can secure enough clean water for future generations.",
+          "translation_b1": "Trong những năm gần đây, <strong>việc tiết kiệm và bảo vệ nguồn nước ngọt</strong> đã trở thành một nhiệm vụ cấp bách ở nhiều nơi trên thế giới. Nước sạch là yếu tố thiết yếu cho sinh hoạt hằng ngày, sản xuất lương thực và sức khỏe con người. <strong>Bài luận này sẽ gợi ý một số giải pháp thiết thực để tiết kiệm và bảo vệ nguồn nước ngọt một cách hiệu quả.</strong>\n\nTrước hết, <strong>nâng cao nhận thức cộng đồng và thực hành tiết kiệm nước trong sinh hoạt hằng ngày là hai biện pháp đơn giản nhưng hiệu quả.</strong> Thứ nhất, <strong><em>việc giáo dục người dân về bảo tồn nước giúp thay đổi thói quen hằng ngày.</em></strong> Nhà trường và truyền thông địa phương nên tổ chức các chiến dịch môi trường về nước sạch, vì vậy người dân sẽ hiểu được nguy cơ thiếu nước và xây dựng các thói quen có trách nhiệm. Thứ hai, <strong><em>mỗi gia đình nên chủ động tiết kiệm nước trong các hoạt động thường nhật.</em></strong> Mọi người có thể tắt vòi nước khi đánh răng, sửa chữa các đường ống rò rỉ kịp thời và thu gom nước mưa để tưới cây trong nhà. Trên thực tế, những hành động đơn giản này có thể tiết kiệm hàng ngàn lít nước sạch mỗi tháng.\n\nBên cạnh đó, <strong>kiểm soát ô nhiễm nguồn nước và áp dụng nông nghiệp bền vững cũng đóng vai trò quan trọng.</strong> Thứ nhất, <strong><em>bảo vệ sông hồ khỏi ô nhiễm giúp giữ cho nguồn cung cấp nước luôn sạch sẽ.</em></strong> Mọi người không được vứt rác nhựa xuống các dòng nước, và các nhà máy phải xử lý nước thải công nghiệp trước khi thải ra môi trường. Thứ hai, <strong><em>nông dân nên áp dụng các phương pháp canh tác hiện đại để giảm lãng phí nước.</em></strong> Ví dụ, việc lắp đặt hệ thống tưới nhỏ giọt đưa nước trực tiếp đến rễ cây, vì vậy nó giảm thiểu lượng nước thất thoát do bay hơi. Hơn nữa, việc giảm phân bón hóa học giúp bảo vệ nguồn nước ngầm khỏi các độc tố nguy hiểm.\n\nTóm lại, <strong>bảo vệ nguồn cung cấp nước ngọt</strong> đòi hỏi nỗ lực hằng ngày từ các cá nhân và những thay đổi thiết thực trong nông nghiệp. Bằng cách kết hợp giáo dục cộng đồng, tiết kiệm nước gia đình, kiểm soát ô nhiễm và các kỹ thuật nông nghiệp hiện đại, xã hội có thể đảm bảo đủ nước sạch cho các thế hệ tương lai.",
+          "sample_b2": "In the contemporary era, the depletion of <strong>freshwater resources</strong> has emerged as one of the most critical environmental challenges facing humanity. Rapid industrial expansion, population growth, and unsustainable consumption patterns have severely strained global aquifers and river systems. <strong>This essay will explore comprehensive measures to conserve freshwater, focusing on public awareness, pollution control, sustainable agriculture, and governmental infrastructure investment.</strong>\n\nTo begin with, <strong>fostering public awareness alongside domestic water conservation forms the foundation of sustainable resource management.</strong> First, <strong><em>comprehensive educational initiatives play a transformative role in altering societal consumption behaviors.</em></strong> Governments and educational institutions should coordinate multimedia campaigns and community workshops that illustrate the catastrophic consequences of water scarcity. Consequently, when citizens fully comprehend the finite nature of potable water, they are far more likely to integrate water-saving habits into their daily routines. Second, <strong><em>widespread adoption of water-saving practices within households generates substantial cumulative savings.</em></strong> Simple modifications, such as turning off taps during personal grooming, repairing leaking domestic pipes promptly, and utilizing rainwater harvesting systems for landscape irrigation, can significantly curtail municipal water wastage.\n\nFurthermore, <strong>combating aquatic pollution and modernizing agricultural techniques are indispensable for securing long-term freshwater reserves.</strong> On the one hand, <strong><em>stringent regulation of industrial effluents and municipal waste protects vulnerable freshwater ecosystems.</em></strong> Manufacturing facilities must be legally obligated to operate modern wastewater purification facilities before discharging byproducts into rivers, while heavy penalties should be enforced against illegal waste dumping. On the other hand, <strong><em>transitioning to sustainable agricultural practices addresses the single largest consumer of freshwater worldwide.</em></strong> By replacing traditional flood irrigation with precision technologies such as drip irrigation, farmers can deliver moisture directly to root zones with minimal evaporation losses. Additionally, minimizing synthetic agrochemicals prevents lethal toxic runoff from permeating groundwater reservoirs.\n\nIn conclusion, <strong>preserving freshwater resources</strong> demands a multi-tiered approach combining individual responsibility, technological innovation in farming, and rigorous state oversight. By integrating public conservation habits with industrial wastewater treatment and smart irrigation systems, modern society can effectively safeguard this irreplaceable resource for upcoming generations.",
+          "translation_b2": "Trong kỷ nguyên hiện đại, sự cạn kiệt <strong>các nguồn tài nguyên nước ngọt</strong> đã trở thành một trong những thách thức môi trường cấp bách nhất mà nhân loại phải đối mặt. Sự mở rộng công nghiệp nhanh chóng, gia tăng dân số và các mô hình tiêu dùng thiếu bền vững đã gây áp lực nghiêm trọng lên các tầng ngậm nước và hệ thống sông ngòi toàn cầu. <strong>Bài luận này sẽ khám phá các biện pháp toàn diện để bảo tồn nước ngọt, tập trung vào nhận thức cộng đồng, kiểm soát ô nhiễm, nông nghiệp bền vững và đầu tư cơ sở hạ tầng của chính phủ.</strong>\n\nTrước hết, <strong>việc bồi dưỡng nhận thức cộng đồng cùng với tiết kiệm nước trong sinh hoạt gia đình tạo nên nền tảng của quản lý tài nguyên bền vững.</strong> Thứ nhất, <strong><em>các sáng kiến giáo dục toàn diện đóng vai trò mang tính chuyển hóa trong việc thay đổi hành vi tiêu dùng của xã hội.</em></strong> Chính phủ và các cơ sở giáo dục nên phối hợp tổ chức các chiến dịch truyền thông đa phương tiện và các buổi hội thảo cộng đồng nhằm minh họa những hậu quả thảm khốc của tình trạng khan hiếm nước. Do đó, khi người dân hiểu rõ bản chất hữu hạn của nước uống được, họ sẽ có nhiều khả năng đưa các thói quen tiết kiệm nước vào sinh hoạt hằng ngày hơn. Thứ hai, <strong><em>việc áp dụng rộng rãi các biện pháp tiết kiệm nước trong các hộ gia đình tạo ra lượng nước tiết kiệm tích lũy rất lớn.</em></strong> Những thay đổi đơn giản như tắt vòi nước khi vệ sinh cá nhân, sửa chữa kịp thời các đường ống sinh hoạt bị rò rỉ và sử dụng hệ thống thu gom nước mưa để tưới cây có thể hạn chế đáng kể sự lãng phí nước sinh hoạt đô thị.\n\nHơn nữa, <strong>việc đấu tranh chống ô nhiễm nguồn nước và hiện đại hóa kỹ thuật nông nghiệp là điều không thể thiếu để bảo đảm nguồn trữ nước ngọt lâu dài.</strong> Một mặt, <strong><em>việc quản lý nghiêm ngặt nước thải công nghiệp và rác thải sinh hoạt giúp bảo vệ các hệ sinh thái nước ngọt dễ bị tổn thương.</em></strong> Các cơ sở sản xuất phải có nghĩa vụ pháp lý vận hành các nhà máy lọc nước thải hiện đại trước khi xả các sản phẩm phụ ra sông, đồng thời cần thực thi các mức phạt nặng đối với hành vi xả rác trái phép. Mặt khác, <strong><em>chuyển đổi sang các phương thức nông nghiệp bền vững giải quyết bài toán của ngành tiêu thụ nước ngọt lớn nhất trên thế giới.</em></strong> Bằng cách thay thế phương pháp tưới ngập truyền thống bằng các công nghệ chính xác như tưới nhỏ giọt, nông dân có thể cung cấp độ ẩm trực tiếp đến các vùng rễ với sự thất thoát do bay hơi là tối thiểu. Ngoài ra, việc giảm thiểu hóa chất nông nghiệp tổng hợp ngăn chặn dòng chảy độc hại chết người thấm vào các tầng chứa nước ngầm.\n\nTóm lại, <strong>việc bảo tồn các nguồn tài nguyên nước ngọt</strong> đòi hỏi một cách tiếp cận đa tầng kết hợp giữa trách nhiệm cá nhân, đổi mới công nghệ trong nông nghiệp và sự giám sát nghiêm ngặt của nhà nước. Bằng cách tích hợp thói quen tiết kiệm của người dân với xử lý nước thải công nghiệp và hệ thống tưới tiêu thông minh, xã hội hiện đại có thể bảo vệ hiệu quả nguồn tài nguyên không thể thay thế này cho các thế hệ tương lai."
         }
       },
       {
@@ -39587,209 +40959,687 @@ const ESSAY_DATA = [
         "id": 52,
         "title_en": "Effects of working in modern glass office buildings",
         "title_vi": "Ảnh hưởng của làm việc trong các toà nhà kính hiện đại",
-        "tags": "[Effects]",
+        "tags": [
+          "Effects"
+        ],
         "context": "In recent years, working in modern glass office buildings has become increasingly common in many cities. However, this type of working environment can have several effects on workers and the environment. It may consume a large amount of energy, cause light pollution, and increase stress among office workers.",
         "prompt": "Write an essay discussing the effects of working in modern glass office buildings. Give reasons for your answer and include relevant examples from your own knowledge or experience. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
         "has_full_details": true,
         "paraphrases": [
           {
-            "en": "working in modern glass office buildings",
-            "vi": "làm việc trong các tòa nhà văn phòng bằng kính hiện đại"
-          },
-          {
-            "en": "occupying glass-fronted office towers",
+            "en": "working in glass-fronted office towers",
             "vi": "làm việc trong các tòa tháp văn phòng mặt kính"
           },
           {
-            "en": "operating in fully glazed commercial buildings",
-            "vi": "làm việc trong các tòa nhà thương mại bọc kính hoàn toàn"
+            "en": "occupying modern glazed commercial buildings",
+            "vi": "làm việc trong các tòa nhà thương mại bọc kính hiện đại"
           },
           {
-            "en": "employment within transparent high-rise architecture",
-            "vi": "làm việc bên trong kiến trúc cao tầng bằng kính trong suốt"
+            "en": "operating within high-rise glass architecture",
+            "vi": "hoạt động bên trong kiến trúc cao tầng bằng kính"
+          },
+          {
+            "en": "employment inside transparent corporate skyscrapers",
+            "vi": "làm việc bên trong các tòa nhà chọc trời bằng kính trong suốt"
           }
         ],
         "details": {
+          "mindmap_img": "glass_office_mindmap_vi.jpg",
+          "mindmap_img_en": "glass_office_mindmap_en.jpg",
           "ideas_b1": {
-            "benefits": [
+            "effects": [
               {
-                "title": "EFFECT 01: HIGH ENERGY CONSUMPTION",
+                "title": "ẢNH HƯỞNG 01: TIÊU THỤ NHIỀU NĂNG LƯỢNG",
+                "point_vi": "Các tòa nhà văn phòng bằng kính tiêu thụ một lượng điện năng rất lớn.",
+                "point_en": "Glass office buildings consume a very large amount of electricity.",
+                "evidence_vi": "Những tòa nhà này phụ thuộc nhiều vào máy điều hòa không khí và đèn chiếu sáng, vì vậy chúng làm tăng lượng khí thải carbon và gây hại cho môi trường.",
+                "evidence_en": "These buildings rely heavily on air conditioning and electric lighting, so they increase carbon emissions and harm the environment.",
                 "collocations": [
                   {
                     "en": "glass office buildings",
                     "vi": "tòa nhà văn phòng bằng kính"
                   },
                   {
-                    "en": "consume a large amount of energy",
-                    "vi": "tiêu thụ lượng lớn năng lượng"
+                    "en": "consume a large amount of electricity",
+                    "vi": "tiêu thụ lượng điện năng lớn"
                   },
                   {
-                    "en": "absorb heat from sunlight",
-                    "vi": "hấp thụ nhiệt từ ánh nắng"
+                    "en": "rely heavily on air conditioning",
+                    "vi": "phụ thuộc nhiều vào điều hòa không khí"
                   },
                   {
-                    "en": "air conditioning systems",
-                    "vi": "hệ thống điều hòa không khí"
+                    "en": "electric lighting",
+                    "vi": "đèn chiếu sáng điện"
                   },
                   {
-                    "en": "high electricity costs",
-                    "vi": "chi phí điện năng cao"
+                    "en": "increase carbon emissions",
+                    "vi": "làm tăng lượng khí thải carbon"
                   }
-                ],
-                "point_vi": "Các tòa nhà văn phòng bằng kính thường tiêu thụ một lượng lớn năng lượng.",
-                "point_en": "Glass office buildings often consume a large amount of energy.",
-                "evidence_vi": "Những tòa nhà này hấp thụ nhiều nhiệt từ ánh sáng mặt trời vào ban ngày. Do đó, các hệ thống điều hòa không khí phải hoạt động liên tục để làm mát không gian làm việc. Điều này dẫn đến chi phí điện năng rất cao và tạo thêm gánh nặng cho lưới điện thành phố. Ví dụ, nhiều văn phòng kính phải bật máy lạnh hết công suất suốt cả ngày hè.",
-                "evidence_en": "These buildings absorb a lot of heat from sunlight during the day. Therefore, air conditioning systems must operate continuously to cool the workspaces. This leads to high electricity costs and puts pressure on the city's power grid. For example, many glass offices have to run their air conditioners at full capacity throughout hot summer days."
+                ]
               },
               {
-                "title": "EFFECT 02: GLARE AND LIGHT POLLUTION",
+                "title": "ẢNH HƯỞNG 02: GÂY Ô NHIỄM ÁNH SÁNG",
+                "point_vi": "Các tòa nhà kính cao tầng gây ra tình trạng ô nhiễm ánh sáng nghiêm trọng vào ban đêm.",
+                "point_en": "Tall glass buildings cause serious light pollution at night.",
+                "evidence_vi": "Nhiều văn phòng vẫn bật đèn sáng rực suốt đêm, vì vậy ánh sáng mạnh này làm gián đoạn giấc ngủ của người dân và hoạt động tự nhiên của các loài chim.",
+                "evidence_en": "Many offices leave bright lights on all night, so this intense light disrupts the sleep of local residents and the natural behavior of birds.",
                 "collocations": [
                   {
-                    "en": "glass surfaces",
-                    "vi": "bề mặt kính"
+                    "en": "tall glass buildings",
+                    "vi": "các tòa nhà kính cao tầng"
                   },
                   {
-                    "en": "cause severe glare",
-                    "vi": "gây chói mắt nghiêm trọng"
+                    "en": "cause serious light pollution",
+                    "vi": "gây ô nhiễm ánh sáng nghiêm trọng"
                   },
                   {
-                    "en": "light pollution",
-                    "vi": "ô nhiễm ánh sáng"
+                    "en": "bright lights at night",
+                    "vi": "ánh sáng rực rỡ vào ban đêm"
                   },
                   {
-                    "en": "reflect strong sunlight",
-                    "vi": "phản chiếu ánh nắng mạnh"
+                    "en": "disrupt the sleep",
+                    "vi": "làm gián đoạn giấc ngủ"
                   },
                   {
-                    "en": "bright artificial lighting",
-                    "vi": "ánh sáng nhân tạo rực rỡ"
+                    "en": "natural behavior of birds",
+                    "vi": "tập tính tự nhiên của loài chim"
                   }
-                ],
-                "point_vi": "Mặt kính của các tòa nhà có thể gây ra hiện tượng chói mắt và ô nhiễm ánh sáng.",
-                "point_en": "The glass surfaces of buildings can cause severe glare and light pollution.",
-                "evidence_vi": "Bề mặt kính phản chiếu ánh sáng mặt trời mạnh vào các khu vực xung quanh và người đi đường. Điều này có thể làm lóa mắt người tham gia giao thông và gây nguy hiểm. Ngoài ra, ánh sáng nhân tạo rực rỡ từ các văn phòng kính vào ban đêm cũng làm sáng bầu trời đô thị. Ví dụ, tài xế lái xe qua các khu phố có nhiều tòa nhà kính thường bị chói mắt vào buổi trưa.",
-                "evidence_en": "Glass surfaces reflect strong sunlight onto surrounding areas and pedestrians. This can dazzle drivers and increase the risk of road accidents. In addition, bright artificial lighting shining from glass offices at night contributes to urban light pollution. For example, motorists driving past modern glass towers often suffer from intense glare during midday."
+                ]
               },
               {
-                "title": "EFFECT 03: WORKER HEALTH ISSUES AND STRESS",
+                "title": "ẢNH HƯỞNG 03: LÀM TĂNG NHIỆT ĐỘ BÊN TRONG VÀ XUNG QUANH",
+                "point_vi": "Vách kính làm tăng nhiệt độ bên trong văn phòng và làm môi trường xung quanh nóng hơn.",
+                "point_en": "Glass walls increase temperatures inside offices and make the surrounding environment hotter.",
+                "evidence_vi": "Kính hấp thụ nhiều nhiệt lượng từ mặt trời, vì vậy các thành phố có nhiều tòa nhà kính thường nóng bức hơn các khu vực nhiều cây xanh.",
+                "evidence_en": "Glass absorbs a lot of heat from the sun, so cities with many glass buildings are often much hotter than green areas.",
                 "collocations": [
                   {
-                    "en": "negatively affect health",
-                    "vi": "ảnh hưởng tiêu cực đến sức khỏe"
+                    "en": "glass walls",
+                    "vi": "vách kính"
                   },
                   {
-                    "en": "eye strain and headaches",
-                    "vi": "mỏi mắt và đau đầu"
+                    "en": "increase temperatures inside offices",
+                    "vi": "làm tăng nhiệt độ bên trong văn phòng"
                   },
                   {
-                    "en": "artificial ventilation",
-                    "vi": "thông gió nhân tạo"
+                    "en": "surrounding environment",
+                    "vi": "môi trường xung quanh"
                   },
                   {
-                    "en": "lack of natural airflow",
-                    "vi": "thiếu luồng không khí tự nhiên"
+                    "en": "absorb heat from the sun",
+                    "vi": "hấp thụ nhiệt từ mặt trời"
                   },
                   {
-                    "en": "feel tired and stressed",
-                    "vi": "cảm thấy mệt mỏi và căng thẳng"
+                    "en": "urban heat",
+                    "vi": "nhiệt độ đô thị"
                   }
-                ],
-                "point_vi": "Làm việc trong môi trường này có thể ảnh hưởng tiêu cực đến sức khỏe và tinh thần của nhân viên.",
-                "point_en": "Working in this environment can negatively affect employees' health and mental well-being.",
-                "evidence_vi": "Ánh sáng chói và nhiệt độ không đồng đều gần các cửa sổ kính có thể gây mỏi mắt và đau đầu. Hơn nữa, việc ở trong không gian kín với không khí nhân tạo suốt cả ngày làm nhân viên cảm thấy mệt mỏi và căng thẳng. Thiếu không khí tự nhiên và sự riêng tư cũng có thể làm giảm khả năng tập trung. Vì vậy, nhiều nhân viên văn phòng cảm thấy kiệt sức sau nhiều giờ làm việc trong các tòa nhà kính.",
-                "evidence_en": "Glare from windows and uneven indoor temperatures can cause eye strain and headaches for office workers. Furthermore, staying in a sealed space with artificial ventilation all day makes employees feel tired and stressed. The lack of natural airflow and personal privacy can also reduce concentration. Therefore, many office workers feel exhausted after long working hours inside glass buildings."
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 04: GÂY CĂNG THẲNG VÀ ẢNH HƯỞNG ĐẾN SỨC KHỎE NHÂN VIÊN",
+                "point_vi": "Làm việc trong các văn phòng kính có thể gây căng thẳng và gây hại cho sức khỏe của nhân viên.",
+                "point_en": "Working in glass offices can cause stress and harm the health of employees.",
+                "evidence_vi": "Ánh sáng chói từ cửa kính làm nhân viên dễ bị mỏi mắt, và không gian thiếu cây xanh làm giảm sự tập trung trong giờ làm việc.",
+                "evidence_en": "Glare from glass windows makes workers suffer from eye strain, and a workspace without natural plants reduces concentration during work hours.",
+                "collocations": [
+                  {
+                    "en": "working in glass offices",
+                    "vi": "làm việc trong văn phòng kính"
+                  },
+                  {
+                    "en": "cause stress",
+                    "vi": "gây căng thẳng"
+                  },
+                  {
+                    "en": "harm the health of employees",
+                    "vi": "làm hại sức khỏe nhân viên"
+                  },
+                  {
+                    "en": "glare from glass windows",
+                    "vi": "ánh sáng chói từ cửa kính"
+                  },
+                  {
+                    "en": "suffer from eye strain",
+                    "vi": "bị mỏi mắt"
+                  },
+                  {
+                    "en": "reduce concentration",
+                    "vi": "làm giảm sự tập trung"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 05: GÂY NGUY HIỂM CHO CÁC LOÀI CHIM",
+                "point_vi": "Các tòa nhà kính là mối nguy hiểm chết người đối với nhiều loài chim trong thành phố.",
+                "point_en": "Glass buildings are a deadly danger to many birds in the city.",
+                "evidence_vi": "Mặt kính trong suốt phản chiếu bầu trời và cây xanh, vì vậy những con chim không nhìn thấy kính và thường bay đâm vào cửa sổ dẫn đến tử vong.",
+                "evidence_en": "Transparent glass reflects the sky and trees, so birds cannot see the glass and often fly into windows leading to death.",
+                "collocations": [
+                  {
+                    "en": "deadly danger to birds",
+                    "vi": "mối nguy hiểm chết người với loài chim"
+                  },
+                  {
+                    "en": "transparent glass",
+                    "vi": "kính trong suốt"
+                  },
+                  {
+                    "en": "reflect the sky and trees",
+                    "vi": "phản chiếu bầu trời và cây cối"
+                  },
+                  {
+                    "en": "fly into windows",
+                    "vi": "bay đâm vào cửa kính"
+                  },
+                  {
+                    "en": "injure or kill birds",
+                    "vi": "làm chim bị thương hoặc tử vong"
+                  }
+                ]
+              }
+            ],
+            "benefits": [
+              {
+                "title": "ẢNH HƯỞNG 01: TIÊU THỤ NHIỀU NĂNG LƯỢNG",
+                "point_vi": "Các tòa nhà văn phòng bằng kính tiêu thụ một lượng điện năng rất lớn.",
+                "point_en": "Glass office buildings consume a very large amount of electricity.",
+                "evidence_vi": "Những tòa nhà này phụ thuộc nhiều vào máy điều hòa không khí và đèn chiếu sáng, vì vậy chúng làm tăng lượng khí thải carbon và gây hại cho môi trường.",
+                "evidence_en": "These buildings rely heavily on air conditioning and electric lighting, so they increase carbon emissions and harm the environment.",
+                "collocations": [
+                  {
+                    "en": "glass office buildings",
+                    "vi": "tòa nhà văn phòng bằng kính"
+                  },
+                  {
+                    "en": "consume a large amount of electricity",
+                    "vi": "tiêu thụ lượng điện năng lớn"
+                  },
+                  {
+                    "en": "rely heavily on air conditioning",
+                    "vi": "phụ thuộc nhiều vào điều hòa không khí"
+                  },
+                  {
+                    "en": "electric lighting",
+                    "vi": "đèn chiếu sáng điện"
+                  },
+                  {
+                    "en": "increase carbon emissions",
+                    "vi": "làm tăng lượng khí thải carbon"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 02: GÂY Ô NHIỄM ÁNH SÁNG",
+                "point_vi": "Các tòa nhà kính cao tầng gây ra tình trạng ô nhiễm ánh sáng nghiêm trọng vào ban đêm.",
+                "point_en": "Tall glass buildings cause serious light pollution at night.",
+                "evidence_vi": "Nhiều văn phòng vẫn bật đèn sáng rực suốt đêm, vì vậy ánh sáng mạnh này làm gián đoạn giấc ngủ của người dân và hoạt động tự nhiên của các loài chim.",
+                "evidence_en": "Many offices leave bright lights on all night, so this intense light disrupts the sleep of local residents and the natural behavior of birds.",
+                "collocations": [
+                  {
+                    "en": "tall glass buildings",
+                    "vi": "các tòa nhà kính cao tầng"
+                  },
+                  {
+                    "en": "cause serious light pollution",
+                    "vi": "gây ô nhiễm ánh sáng nghiêm trọng"
+                  },
+                  {
+                    "en": "bright lights at night",
+                    "vi": "ánh sáng rực rỡ vào ban đêm"
+                  },
+                  {
+                    "en": "disrupt the sleep",
+                    "vi": "làm gián đoạn giấc ngủ"
+                  },
+                  {
+                    "en": "natural behavior of birds",
+                    "vi": "tập tính tự nhiên của loài chim"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 03: LÀM TĂNG NHIỆT ĐỘ BÊN TRONG VÀ XUNG QUANH",
+                "point_vi": "Vách kính làm tăng nhiệt độ bên trong văn phòng và làm môi trường xung quanh nóng hơn.",
+                "point_en": "Glass walls increase temperatures inside offices and make the surrounding environment hotter.",
+                "evidence_vi": "Kính hấp thụ nhiều nhiệt lượng từ mặt trời, vì vậy các thành phố có nhiều tòa nhà kính thường nóng bức hơn các khu vực nhiều cây xanh.",
+                "evidence_en": "Glass absorbs a lot of heat from the sun, so cities with many glass buildings are often much hotter than green areas.",
+                "collocations": [
+                  {
+                    "en": "glass walls",
+                    "vi": "vách kính"
+                  },
+                  {
+                    "en": "increase temperatures inside offices",
+                    "vi": "làm tăng nhiệt độ bên trong văn phòng"
+                  },
+                  {
+                    "en": "surrounding environment",
+                    "vi": "môi trường xung quanh"
+                  },
+                  {
+                    "en": "absorb heat from the sun",
+                    "vi": "hấp thụ nhiệt từ mặt trời"
+                  },
+                  {
+                    "en": "urban heat",
+                    "vi": "nhiệt độ đô thị"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 04: GÂY CĂNG THẲNG VÀ ẢNH HƯỞNG ĐẾN SỨC KHỎE NHÂN VIÊN",
+                "point_vi": "Làm việc trong các văn phòng kính có thể gây căng thẳng và gây hại cho sức khỏe của nhân viên.",
+                "point_en": "Working in glass offices can cause stress and harm the health of employees.",
+                "evidence_vi": "Ánh sáng chói từ cửa kính làm nhân viên dễ bị mỏi mắt, và không gian thiếu cây xanh làm giảm sự tập trung trong giờ làm việc.",
+                "evidence_en": "Glare from glass windows makes workers suffer from eye strain, and a workspace without natural plants reduces concentration during work hours.",
+                "collocations": [
+                  {
+                    "en": "working in glass offices",
+                    "vi": "làm việc trong văn phòng kính"
+                  },
+                  {
+                    "en": "cause stress",
+                    "vi": "gây căng thẳng"
+                  },
+                  {
+                    "en": "harm the health of employees",
+                    "vi": "làm hại sức khỏe nhân viên"
+                  },
+                  {
+                    "en": "glare from glass windows",
+                    "vi": "ánh sáng chói từ cửa kính"
+                  },
+                  {
+                    "en": "suffer from eye strain",
+                    "vi": "bị mỏi mắt"
+                  },
+                  {
+                    "en": "reduce concentration",
+                    "vi": "làm giảm sự tập trung"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 05: GÂY NGUY HIỂM CHO CÁC LOÀI CHIM",
+                "point_vi": "Các tòa nhà kính là mối nguy hiểm chết người đối với nhiều loài chim trong thành phố.",
+                "point_en": "Glass buildings are a deadly danger to many birds in the city.",
+                "evidence_vi": "Mặt kính trong suốt phản chiếu bầu trời và cây xanh, vì vậy những con chim không nhìn thấy kính và thường bay đâm vào cửa sổ dẫn đến tử vong.",
+                "evidence_en": "Transparent glass reflects the sky and trees, so birds cannot see the glass and often fly into windows leading to death.",
+                "collocations": [
+                  {
+                    "en": "deadly danger to birds",
+                    "vi": "mối nguy hiểm chết người với loài chim"
+                  },
+                  {
+                    "en": "transparent glass",
+                    "vi": "kính trong suốt"
+                  },
+                  {
+                    "en": "reflect the sky and trees",
+                    "vi": "phản chiếu bầu trời và cây cối"
+                  },
+                  {
+                    "en": "fly into windows",
+                    "vi": "bay đâm vào cửa kính"
+                  },
+                  {
+                    "en": "injure or kill birds",
+                    "vi": "làm chim bị thương hoặc tử vong"
+                  }
+                ]
               }
             ],
             "drawbacks": []
           },
           "ideas_b2": {
-            "benefits": [
+            "effects": [
               {
-                "title": "EFFECT 01: MASSIVE ENERGY CONSUMPTION",
+                "title": "ẢNH HƯỞNG 01: TIÊU THỤ NHIỀU NĂNG LƯỢNG",
+                "point_vi": "Kiến trúc văn phòng bọc kính gây ra sự gia tăng đột biến trong mức tiêu thụ năng lượng và phát thải khí nhà kính của các đô thị.",
+                "point_en": "Extensive glass facades in modern office towers cause a dramatic surge in operational energy consumption and urban carbon footprints.",
+                "evidence_vi": "Do khả năng cách nhiệt kém của vật liệu kính thông thường, các tòa nhà này phụ thuộc nặng nề vào các hệ thống điều hòa không khí công suất lớn để duy trì nhiệt độ làm việc. Thêm vào đó, việc vận hành liên tục các thiết bị chiếu sáng nhân tạo và máy móc văn phòng đòi hỏi nguồn điện khổng lồ, trực tiếp làm trầm trọng thêm tình trạng biến đổi khí hậu toàn cầu.",
+                "evidence_en": "Due to the thermal conductivity of large glass panels, commercial complexes rely heavily on high-powered HVAC systems to maintain habitable indoor temperatures. Furthermore, continuous dependence on artificial lighting and electronic office equipment consumes tremendous electrical power, directly intensifying global climate change.",
                 "collocations": [
                   {
-                    "en": "massive energy consumption",
-                    "vi": "tiêu thụ năng lượng khổng lồ"
+                    "en": "glass facades",
+                    "vi": "mặt kính tòa nhà"
                   },
                   {
-                    "en": "temperature regulation",
-                    "vi": "điều hòa nhiệt độ"
+                    "en": "energy consumption",
+                    "vi": "mức tiêu thụ năng lượng"
                   },
                   {
-                    "en": "internal greenhouse effect",
-                    "vi": "hiệu ứng nhà kính bên trong"
+                    "en": "urban carbon footprints",
+                    "vi": "dấu chân carbon đô thị"
                   },
                   {
-                    "en": "heavy-duty HVAC systems",
-                    "vi": "hệ thống thông gió làm mát công suất lớn"
+                    "en": "thermal conductivity",
+                    "vi": "tính dẫn nhiệt"
                   },
                   {
-                    "en": "carbon emissions",
-                    "vi": "phát thải khí carbon"
+                    "en": "maintain habitable indoor temperatures",
+                    "vi": "duy trì nhiệt độ phòng dễ chịu"
+                  },
+                  {
+                    "en": "intensifying global climate change",
+                    "vi": "làm trầm trọng thêm biến đổi khí hậu toàn cầu"
                   }
-                ],
-                "point_vi": "Một ảnh hưởng đáng kể của các tòa nhà văn phòng bằng kính là mức tiêu thụ năng lượng khổng lồ cho việc điều hòa nhiệt độ.",
-                "point_en": "A major impact of glass office buildings is the massive energy consumption required for temperature regulation.",
-                "evidence_vi": "Các bức tường kính lớn tạo ra hiệu ứng nhà kính bên trong, làm tăng đáng kể nhiệt độ trong nhà khi tiếp xúc với ánh nắng mặt trời. Do đó, các tòa nhà này đòi hỏi các hệ thống điều hòa không khí công suất lớn hoạt động không ngừng để duy trì môi trường làm việc thoải mái. Nhu cầu năng lượng cao này không chỉ làm gia tăng chi phí vận hành cho các doanh nghiệp mà còn góp phần phát thải khí nhà kính vào bầu khí quyển. Chẳng hạn, các tòa nhà chọc trời bằng kính tiêu thụ năng lượng làm mát cao gấp nhiều lần so với các kiến trúc truyền thống có cách nhiệt tốt.",
-                "evidence_en": "Expansive glass facades create an internal greenhouse effect, substantially increasing indoor temperatures when exposed to direct sunlight. Consequently, these structures require heavy-duty HVAC systems to run continuously to maintain a comfortable working climate. This intense energy demand not only inflates corporate operational expenditures but also contributes significantly to carbon emissions. For instance, fully glazed skyscrapers often consume several times more cooling energy than well-insulated conventional buildings."
+                ]
               },
               {
-                "title": "EFFECT 02: SEVERE GLARE AND URBAN LIGHT POLLUTION",
+                "title": "ẢNH HƯỞNG 02: GÂY Ô NHIỄM ÁNH SÁNG",
+                "point_vi": "Hiện tượng ô nhiễm ánh sáng phát ra từ các tòa tháp văn phòng kính làm xáo trộn nghiêm trọng môi trường xung quanh và đời sống hoang dã.",
+                "point_en": "Pervasive light pollution emanating from fully glazed office high-rises profoundly disrupts the nocturnal environment and local wildlife.",
+                "evidence_vi": "Hàng ngàn bóng đèn công suất lớn được thắp sáng xuyên đêm trong các văn phòng kính tạo ra quầng sáng chói lọi bao phủ bầu trời thành phố. Hiện tượng này không chỉ ảnh hưởng tiêu cực đến nhịp sinh học của cư dân sống ở khu vực lân cận mà còn làm mất phương hướng của các loài chim di cư ban đêm, khiến chúng lạc đường và suy kiệt sức lực.",
+                "evidence_en": "Thousands of interior fixtures illuminated overnight transform glass skyscrapers into massive radiant beacons that illuminate the urban sky. This continuous nighttime glare impairs the circadian rhythms of nearby residents while critically disorienting nocturnal migratory birds, causing them to deviate from their flight paths and suffer severe exhaustion.",
                 "collocations": [
                   {
-                    "en": "intense solar reflection",
-                    "vi": "phản xạ ánh sáng mặt trời gay gắt"
+                    "en": "pervasive light pollution",
+                    "vi": "ô nhiễm ánh sáng lan rộng"
                   },
                   {
-                    "en": "exacerbate light pollution",
-                    "vi": "làm trầm trọng thêm ô nhiễm ánh sáng"
+                    "en": "glazed office high-rises",
+                    "vi": "tòa nhà văn phòng cao tầng bọc kính"
                   },
                   {
-                    "en": "visual hazards for motorists",
-                    "vi": "mối nguy hiểm thị giác cho tài xế"
+                    "en": "nocturnal environment",
+                    "vi": "môi trường ban đêm"
                   },
                   {
-                    "en": "circadian rhythm disruption",
-                    "vi": "gián đoạn nhịp sinh học"
+                    "en": "nighttime glare",
+                    "vi": "ánh sáng chói lóa ban đêm"
                   },
                   {
-                    "en": "urban skyglow",
-                    "vi": "quầng sáng đô thị"
+                    "en": "impair circadian rhythms",
+                    "vi": "làm suy giảm nhịp sinh học"
+                  },
+                  {
+                    "en": "disorienting migratory birds",
+                    "vi": "làm mất phương hướng của chim di cư"
                   }
-                ],
-                "point_vi": "Các cấu trúc kính hiện đại tạo ra phản xạ ánh sáng gay gắt và góp phần làm trầm trọng thêm ô nhiễm ánh sáng đô thị.",
-                "point_en": "Modern glazed structures generate intense solar reflection and exacerbate urban light pollution.",
-                "evidence_vi": "Vào ban ngày, các bề mặt kính phản chiếu lượng lớn bức xạ mặt trời, gây chói lóa nguy hiểm cho người điều khiển phương tiện và làm nóng môi trường xung quanh. Vào ban đêm, hệ thống chiếu sáng nội thất rực rỡ xuyên qua các bức tường trong suốt, làm gián đoạn hệ sinh thái tự nhiên và chu kỳ giấc ngủ của cư dân lân cận. Hiện tượng này làm biến đổi cảnh quan ban đêm của các thành phố và gây lãng phí ánh sáng không cần thiết. Ví dụ, phản xạ từ các tòa nhà kính lớn tại các trung tâm thương mại đã từng làm tăng nhiệt độ đường phố và gây khó chịu cho người dân xung quanh.",
-                "evidence_en": "During daylight hours, reflective exterior panels redirect intense solar glare into neighboring streets, posing visual hazards to motorists and elevating local ambient temperatures. At night, extensive interior illumination radiates outward through transparent walls, disrupting natural ecosystems and interfering with the circadian rhythms of nearby residents. This phenomenon significantly contributes to urban skyglow and unnecessary photon waste. For example, concentrated reflections from curved glass towers have been documented to melt vehicle parts and cause severe discomfort in surrounding districts."
+                ]
               },
               {
-                "title": "EFFECT 03: PHYSIOLOGICAL AND PSYCHOLOGICAL STRAINS",
+                "title": "ẢNH HƯỞNG 03: LÀM TĂNG NHIỆT ĐỘ BÊN TRONG VÀ XUNG QUANH",
+                "point_vi": "Bề mặt kính tạo ra hiệu ứng nhà kính nhân tạo bên trong nơi làm việc và khuếch đại hiện tượng đảo nhiệt đô thị.",
+                "point_en": "Expansive glass envelopes generate localized greenhouse effects within workspaces while substantially intensifying urban heat islands.",
+                "evidence_vi": "Vật liệu kính liên tục giữ lại bức xạ nhiệt mặt trời, buộc hệ thống làm mát trung tâm phải hoạt động liên tục và thải một lượng nhiệt khổng lồ ra không khí bên ngoài. Hệ quả là nhiệt độ tại các khu phố tập trung nhiều tòa nhà kính thường cao hơn đáng kể so với vùng ngoại ô, làm trầm trọng thêm sự ngột ngạt và khó chịu cho người dân thành phố.",
+                "evidence_en": "Transparent facades trap solar radiation inside office suites, forcing refrigeration machinery to expel massive amounts of waste heat directly into external streets. Consequently, dense financial districts suffer from elevated ambient temperatures compared to greener suburbs, worsening urban heat stress and degrading metropolitan air quality.",
                 "collocations": [
                   {
-                    "en": "physiological and psychological strains",
-                    "vi": "căng thẳng sinh lý và tâm lý"
+                    "en": "localized greenhouse effects",
+                    "vi": "hiệu ứng nhà kính cục bộ"
                   },
                   {
-                    "en": "chronic ocular fatigue",
+                    "en": "urban heat islands",
+                    "vi": "hiệu ứng đảo nhiệt đô thị"
+                  },
+                  {
+                    "en": "trap solar radiation",
+                    "vi": "giữ lại bức xạ mặt trời"
+                  },
+                  {
+                    "en": "waste heat",
+                    "vi": "nhiệt thải"
+                  },
+                  {
+                    "en": "elevated ambient temperatures",
+                    "vi": "nhiệt độ môi trường tăng cao"
+                  },
+                  {
+                    "en": "urban heat stress",
+                    "vi": "căng thẳng nhiệt đô thị"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 04: GÂY CĂNG THẲNG VÀ ẢNH HƯỞNG ĐẾN SỨC KHỎE NHÂN VIÊN",
+                "point_vi": "Môi trường văn phòng kính ảnh hưởng tiêu cực đến sức khỏe thể chất và tinh thần của người lao động qua hiện tượng chói mắt và cảm giác ngột ngạt.",
+                "point_en": "Glazed office environments can undermine employees' physical health and psychological well-being through severe visual fatigue and environmental discomfort.",
+                "evidence_vi": "Hiện tượng ánh sáng mặt trời phản quang mạnh mẽ qua các ô kính lớn dễ gây chói lóa màn hình máy tính, dẫn đến tình trạng mỏi mắt kinh niên và những cơn đau đầu liên tục. Hơn nữa, việc bị bao bọc trong một khối kính kín mít thiếu sự tương tác với thiên nhiên và không khí trong lành có thể gia tăng cảm giác căng thẳng thần kinh và làm giảm hiệu suất lao động.",
+                "evidence_en": "Uncontrolled solar glare reflecting off wide glazed surfaces creates harsh screen reflections, provoking chronic eye strain, migraines, and visual exhaustion among computer users. Furthermore, spending long hours enclosed within synthetic glass compartments without natural ventilation or biophilic elements heightens psychological fatigue and diminishes cognitive performance.",
+                "collocations": [
+                  {
+                    "en": "undermine physical health",
+                    "vi": "làm suy giảm sức khỏe thể chất"
+                  },
+                  {
+                    "en": "visual fatigue",
+                    "vi": "mệt mỏi thị giác"
+                  },
+                  {
+                    "en": "uncontrolled solar glare",
+                    "vi": "ánh sáng chói mặt trời không được kiểm soát"
+                  },
+                  {
+                    "en": "chronic eye strain",
                     "vi": "mỏi mắt mãn tính"
                   },
                   {
-                    "en": "Sick Building Syndrome",
-                    "vi": "hội chứng tòa nhà bệnh tật"
+                    "en": "natural ventilation",
+                    "vi": "thông gió tự nhiên"
                   },
                   {
-                    "en": "hermetically sealed spaces",
-                    "vi": "không gian đóng kín hoàn toàn"
+                    "en": "heightens psychological fatigue",
+                    "vi": "làm tăng sự mệt mỏi về tâm lý"
                   },
                   {
-                    "en": "occupational anxiety",
-                    "vi": "lo âu nghề nghiệp"
+                    "en": "diminishes cognitive performance",
+                    "vi": "làm suy giảm hiệu suất nhận thức"
                   }
-                ],
-                "point_vi": "Môi trường làm việc bằng kính hoàn toàn có thể gây ra những bất lợi về sinh lý và tâm lý cho nhân viên văn phòng.",
-                "point_en": "An all-glass office environment can impose considerable physiological and psychological strains on employees.",
-                "evidence_vi": "Nhân viên ngồi gần mặt tiền kính thường xuyên chịu đựng ánh sáng chói lóa và sự dao động nhiệt độ cục bộ, dẫn đến mỏi mắt mãn tính, đau đầu và giảm hiệu suất công việc. Thêm vào đó, việc phụ thuộc hoàn toàn vào hệ thống thông gió nhân tạo trong các không gian kín có thể dẫn đến 'Hội chứng tòa nhà bệnh tật' (Sick Building Syndrome), làm suy giảm chất lượng không khí hít thở. Sự thiếu hụt không gian riêng tư do thiết kế trong suốt cũng làm gia tăng mức độ lo âu và căng thẳng nghề nghiệp. Ví dụ, các nghiên cứu chỉ ra rằng nhân viên văn phòng trong các tòa nhà kính kín thường báo cáo mức độ mệt mỏi và đau đầu cao hơn so với những người làm việc trong không gian có thông gió tự nhiên.",
-                "evidence_en": "Employees stationed near expansive glass perimeters frequently endure visual glare and severe thermal fluctuations, culminating in chronic ocular fatigue, persistent migraines, and diminished productivity. Furthermore, absolute reliance on artificial ventilation within hermetically sealed buildings can trigger Sick Building Syndrome, deteriorating indoor air quality and worker vitality. The pervasive lack of visual privacy in transparent corporate settings also amplifies occupational anxiety and interpersonal stress. For example, empirical studies reveal that desk workers in fully glazed corporate towers report significantly higher rates of lethargy and headaches compared to those in naturally ventilated, climate-responsive workspaces."
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 05: GÂY NGUY HIỂM CHO CÁC LOÀI CHIM",
+                "point_vi": "Bề mặt kính phản quang của các tòa cao ốc văn phòng là nguyên nhân hàng đầu gây ra hàng triệu vụ tai nạn chết chim mỗi năm.",
+                "point_en": "Reflective glass exteriors on corporate high-rises represent a catastrophic hazard responsible for millions of fatal avian collisions annually.",
+                "evidence_vi": "Các tấm kính lớn tạo ra hình ảnh phản chiếu hoàn hảo của bầu trời, mây và tán cây, khiến các loài chim nhầm tưởng rằng đó là không gian bay lượn an toàn. Khi di chuyển với tốc độ cao, những con chim va chạm trực diện với kính cứng với lực rất mạnh, dẫn đến chấn thương nặng hoặc tử vong tức thì.",
+                "evidence_en": "Polished glass surfaces produce deceitful reflections of open skies and surrounding foliage, leading birds to mistake mirrored glass for unobstructed flight corridors. Flying at high cruising velocities, birds collide with the rigid structural glass with violent impact, sustaining lethal trauma or dying instantaneously.",
+                "collocations": [
+                  {
+                    "en": "reflective glass exteriors",
+                    "vi": "mặt ngoài bằng kính phản quang"
+                  },
+                  {
+                    "en": "catastrophic hazard",
+                    "vi": "mối nguy hiểm thảm khốc"
+                  },
+                  {
+                    "en": "fatal avian collisions",
+                    "vi": "các vụ va chạm chết chóc của chim"
+                  },
+                  {
+                    "en": "deceitful reflections",
+                    "vi": "hình ảnh phản chiếu đánh lừa"
+                  },
+                  {
+                    "en": "unobstructed flight corridors",
+                    "vi": "hành lang bay không có vật cản"
+                  },
+                  {
+                    "en": "violent impact",
+                    "vi": "lực va đập dữ dội"
+                  },
+                  {
+                    "en": "sustaining lethal trauma",
+                    "vi": "bị chấn thương gây tử vong"
+                  }
+                ]
+              }
+            ],
+            "benefits": [
+              {
+                "title": "ẢNH HƯỞNG 01: TIÊU THỤ NHIỀU NĂNG LƯỢNG",
+                "point_vi": "Kiến trúc văn phòng bọc kính gây ra sự gia tăng đột biến trong mức tiêu thụ năng lượng và phát thải khí nhà kính của các đô thị.",
+                "point_en": "Extensive glass facades in modern office towers cause a dramatic surge in operational energy consumption and urban carbon footprints.",
+                "evidence_vi": "Do khả năng cách nhiệt kém của vật liệu kính thông thường, các tòa nhà này phụ thuộc nặng nề vào các hệ thống điều hòa không khí công suất lớn để duy trì nhiệt độ làm việc. Thêm vào đó, việc vận hành liên tục các thiết bị chiếu sáng nhân tạo và máy móc văn phòng đòi hỏi nguồn điện khổng lồ, trực tiếp làm trầm trọng thêm tình trạng biến đổi khí hậu toàn cầu.",
+                "evidence_en": "Due to the thermal conductivity of large glass panels, commercial complexes rely heavily on high-powered HVAC systems to maintain habitable indoor temperatures. Furthermore, continuous dependence on artificial lighting and electronic office equipment consumes tremendous electrical power, directly intensifying global climate change.",
+                "collocations": [
+                  {
+                    "en": "glass facades",
+                    "vi": "mặt kính tòa nhà"
+                  },
+                  {
+                    "en": "energy consumption",
+                    "vi": "mức tiêu thụ năng lượng"
+                  },
+                  {
+                    "en": "urban carbon footprints",
+                    "vi": "dấu chân carbon đô thị"
+                  },
+                  {
+                    "en": "thermal conductivity",
+                    "vi": "tính dẫn nhiệt"
+                  },
+                  {
+                    "en": "maintain habitable indoor temperatures",
+                    "vi": "duy trì nhiệt độ phòng dễ chịu"
+                  },
+                  {
+                    "en": "intensifying global climate change",
+                    "vi": "làm trầm trọng thêm biến đổi khí hậu toàn cầu"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 02: GÂY Ô NHIỄM ÁNH SÁNG",
+                "point_vi": "Hiện tượng ô nhiễm ánh sáng phát ra từ các tòa tháp văn phòng kính làm xáo trộn nghiêm trọng môi trường xung quanh và đời sống hoang dã.",
+                "point_en": "Pervasive light pollution emanating from fully glazed office high-rises profoundly disrupts the nocturnal environment and local wildlife.",
+                "evidence_vi": "Hàng ngàn bóng đèn công suất lớn được thắp sáng xuyên đêm trong các văn phòng kính tạo ra quầng sáng chói lọi bao phủ bầu trời thành phố. Hiện tượng này không chỉ ảnh hưởng tiêu cực đến nhịp sinh học của cư dân sống ở khu vực lân cận mà còn làm mất phương hướng của các loài chim di cư ban đêm, khiến chúng lạc đường và suy kiệt sức lực.",
+                "evidence_en": "Thousands of interior fixtures illuminated overnight transform glass skyscrapers into massive radiant beacons that illuminate the urban sky. This continuous nighttime glare impairs the circadian rhythms of nearby residents while critically disorienting nocturnal migratory birds, causing them to deviate from their flight paths and suffer severe exhaustion.",
+                "collocations": [
+                  {
+                    "en": "pervasive light pollution",
+                    "vi": "ô nhiễm ánh sáng lan rộng"
+                  },
+                  {
+                    "en": "glazed office high-rises",
+                    "vi": "tòa nhà văn phòng cao tầng bọc kính"
+                  },
+                  {
+                    "en": "nocturnal environment",
+                    "vi": "môi trường ban đêm"
+                  },
+                  {
+                    "en": "nighttime glare",
+                    "vi": "ánh sáng chói lóa ban đêm"
+                  },
+                  {
+                    "en": "impair circadian rhythms",
+                    "vi": "làm suy giảm nhịp sinh học"
+                  },
+                  {
+                    "en": "disorienting migratory birds",
+                    "vi": "làm mất phương hướng của chim di cư"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 03: LÀM TĂNG NHIỆT ĐỘ BÊN TRONG VÀ XUNG QUANH",
+                "point_vi": "Bề mặt kính tạo ra hiệu ứng nhà kính nhân tạo bên trong nơi làm việc và khuếch đại hiện tượng đảo nhiệt đô thị.",
+                "point_en": "Expansive glass envelopes generate localized greenhouse effects within workspaces while substantially intensifying urban heat islands.",
+                "evidence_vi": "Vật liệu kính liên tục giữ lại bức xạ nhiệt mặt trời, buộc hệ thống làm mát trung tâm phải hoạt động liên tục và thải một lượng nhiệt khổng lồ ra không khí bên ngoài. Hệ quả là nhiệt độ tại các khu phố tập trung nhiều tòa nhà kính thường cao hơn đáng kể so với vùng ngoại ô, làm trầm trọng thêm sự ngột ngạt và khó chịu cho người dân thành phố.",
+                "evidence_en": "Transparent facades trap solar radiation inside office suites, forcing refrigeration machinery to expel massive amounts of waste heat directly into external streets. Consequently, dense financial districts suffer from elevated ambient temperatures compared to greener suburbs, worsening urban heat stress and degrading metropolitan air quality.",
+                "collocations": [
+                  {
+                    "en": "localized greenhouse effects",
+                    "vi": "hiệu ứng nhà kính cục bộ"
+                  },
+                  {
+                    "en": "urban heat islands",
+                    "vi": "hiệu ứng đảo nhiệt đô thị"
+                  },
+                  {
+                    "en": "trap solar radiation",
+                    "vi": "giữ lại bức xạ mặt trời"
+                  },
+                  {
+                    "en": "waste heat",
+                    "vi": "nhiệt thải"
+                  },
+                  {
+                    "en": "elevated ambient temperatures",
+                    "vi": "nhiệt độ môi trường tăng cao"
+                  },
+                  {
+                    "en": "urban heat stress",
+                    "vi": "căng thẳng nhiệt đô thị"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 04: GÂY CĂNG THẲNG VÀ ẢNH HƯỞNG ĐẾN SỨC KHỎE NHÂN VIÊN",
+                "point_vi": "Môi trường văn phòng kính ảnh hưởng tiêu cực đến sức khỏe thể chất và tinh thần của người lao động qua hiện tượng chói mắt và cảm giác ngột ngạt.",
+                "point_en": "Glazed office environments can undermine employees' physical health and psychological well-being through severe visual fatigue and environmental discomfort.",
+                "evidence_vi": "Hiện tượng ánh sáng mặt trời phản quang mạnh mẽ qua các ô kính lớn dễ gây chói lóa màn hình máy tính, dẫn đến tình trạng mỏi mắt kinh niên và những cơn đau đầu liên tục. Hơn nữa, việc bị bao bọc trong một khối kính kín mít thiếu sự tương tác với thiên nhiên và không khí trong lành có thể gia tăng cảm giác căng thẳng thần kinh và làm giảm hiệu suất lao động.",
+                "evidence_en": "Uncontrolled solar glare reflecting off wide glazed surfaces creates harsh screen reflections, provoking chronic eye strain, migraines, and visual exhaustion among computer users. Furthermore, spending long hours enclosed within synthetic glass compartments without natural ventilation or biophilic elements heightens psychological fatigue and diminishes cognitive performance.",
+                "collocations": [
+                  {
+                    "en": "undermine physical health",
+                    "vi": "làm suy giảm sức khỏe thể chất"
+                  },
+                  {
+                    "en": "visual fatigue",
+                    "vi": "mệt mỏi thị giác"
+                  },
+                  {
+                    "en": "uncontrolled solar glare",
+                    "vi": "ánh sáng chói mặt trời không được kiểm soát"
+                  },
+                  {
+                    "en": "chronic eye strain",
+                    "vi": "mỏi mắt mãn tính"
+                  },
+                  {
+                    "en": "natural ventilation",
+                    "vi": "thông gió tự nhiên"
+                  },
+                  {
+                    "en": "heightens psychological fatigue",
+                    "vi": "làm tăng sự mệt mỏi về tâm lý"
+                  },
+                  {
+                    "en": "diminishes cognitive performance",
+                    "vi": "làm suy giảm hiệu suất nhận thức"
+                  }
+                ]
+              },
+              {
+                "title": "ẢNH HƯỞNG 05: GÂY NGUY HIỂM CHO CÁC LOÀI CHIM",
+                "point_vi": "Bề mặt kính phản quang của các tòa cao ốc văn phòng là nguyên nhân hàng đầu gây ra hàng triệu vụ tai nạn chết chim mỗi năm.",
+                "point_en": "Reflective glass exteriors on corporate high-rises represent a catastrophic hazard responsible for millions of fatal avian collisions annually.",
+                "evidence_vi": "Các tấm kính lớn tạo ra hình ảnh phản chiếu hoàn hảo của bầu trời, mây và tán cây, khiến các loài chim nhầm tưởng rằng đó là không gian bay lượn an toàn. Khi di chuyển với tốc độ cao, những con chim va chạm trực diện với kính cứng với lực rất mạnh, dẫn đến chấn thương nặng hoặc tử vong tức thì.",
+                "evidence_en": "Polished glass surfaces produce deceitful reflections of open skies and surrounding foliage, leading birds to mistake mirrored glass for unobstructed flight corridors. Flying at high cruising velocities, birds collide with the rigid structural glass with violent impact, sustaining lethal trauma or dying instantaneously.",
+                "collocations": [
+                  {
+                    "en": "reflective glass exteriors",
+                    "vi": "mặt ngoài bằng kính phản quang"
+                  },
+                  {
+                    "en": "catastrophic hazard",
+                    "vi": "mối nguy hiểm thảm khốc"
+                  },
+                  {
+                    "en": "fatal avian collisions",
+                    "vi": "các vụ va chạm chết chóc của chim"
+                  },
+                  {
+                    "en": "deceitful reflections",
+                    "vi": "hình ảnh phản chiếu đánh lừa"
+                  },
+                  {
+                    "en": "unobstructed flight corridors",
+                    "vi": "hành lang bay không có vật cản"
+                  },
+                  {
+                    "en": "violent impact",
+                    "vi": "lực va đập dữ dội"
+                  },
+                  {
+                    "en": "sustaining lethal trauma",
+                    "vi": "bị chấn thương gây tử vong"
+                  }
+                ]
               }
             ],
             "drawbacks": []
@@ -39800,126 +41650,1104 @@ const ESSAY_DATA = [
               "vi": "tòa nhà văn phòng bằng kính"
             },
             {
-              "en": "consume a large amount of energy",
-              "vi": "tiêu thụ lượng lớn năng lượng"
+              "en": "modern glass buildings",
+              "vi": "các tòa nhà kính hiện đại"
             },
             {
-              "en": "absorb heat from sunlight",
-              "vi": "hấp thụ nhiệt từ ánh nắng"
+              "en": "energy consumption",
+              "vi": "mức tiêu thụ năng lượng"
             },
             {
-              "en": "air conditioning systems",
-              "vi": "hệ thống điều hòa không khí"
+              "en": "rely on air conditioning",
+              "vi": "phụ thuộc vào điều hòa không khí"
             },
             {
-              "en": "high electricity costs",
-              "vi": "chi phí điện năng cao"
-            },
-            {
-              "en": "glass surfaces",
-              "vi": "bề mặt kính"
-            },
-            {
-              "en": "cause severe glare",
-              "vi": "gây chói mắt nghiêm trọng"
+              "en": "carbon emissions",
+              "vi": "lượng khí thải carbon"
             },
             {
               "en": "light pollution",
               "vi": "ô nhiễm ánh sáng"
             },
             {
-              "en": "reflect strong sunlight",
-              "vi": "phản chiếu ánh nắng mạnh"
+              "en": "bright lights at night",
+              "vi": "ánh sáng rực rỡ vào ban đêm"
             },
             {
-              "en": "bright artificial lighting",
-              "vi": "ánh sáng nhân tạo rực rỡ"
+              "en": "disrupt the sleep",
+              "vi": "làm gián đoạn giấc ngủ"
             },
             {
-              "en": "negatively affect health",
-              "vi": "ảnh hưởng tiêu cực đến sức khỏe"
+              "en": "nocturnal environment",
+              "vi": "môi trường ban đêm"
             },
             {
-              "en": "eye strain and headaches",
-              "vi": "mỏi mắt và đau đầu"
+              "en": "absorb heat from the sun",
+              "vi": "hấp thụ nhiệt từ mặt trời"
             },
             {
-              "en": "artificial ventilation",
-              "vi": "thông gió nhân tạo"
+              "en": "increase indoor temperatures",
+              "vi": "làm tăng nhiệt độ bên trong"
             },
             {
-              "en": "lack of natural airflow",
-              "vi": "thiếu luồng không khí tự nhiên"
+              "en": "urban heat island effect",
+              "vi": "hiệu ứng đảo nhiệt đô thị"
             },
             {
-              "en": "feel tired and stressed",
-              "vi": "cảm thấy mệt mỏi và căng thẳng"
+              "en": "eye strain",
+              "vi": "mỏi mắt"
             },
             {
-              "en": "massive energy consumption",
-              "vi": "tiêu thụ năng lượng khổng lồ"
+              "en": "sunlight glare",
+              "vi": "ánh sáng mặt trời chói chang"
             },
             {
-              "en": "temperature regulation",
-              "vi": "điều hòa nhiệt độ"
+              "en": "cause stress",
+              "vi": "gây căng thẳng"
             },
             {
-              "en": "internal greenhouse effect",
-              "vi": "hiệu ứng nhà kính bên trong"
+              "en": "disconnected from nature",
+              "vi": "tách biệt với thiên nhiên"
             },
             {
-              "en": "heavy-duty HVAC systems",
-              "vi": "hệ thống thông gió làm mát công suất lớn"
+              "en": "deadly danger to birds",
+              "vi": "mối nguy hiểm chết người với loài chim"
             },
             {
-              "en": "carbon emissions",
-              "vi": "phát thải khí carbon"
+              "en": "reflect the sky and trees",
+              "vi": "phản chiếu bầu trời và cây cối"
             },
             {
-              "en": "intense solar reflection",
-              "vi": "phản xạ ánh sáng mặt trời gay gắt"
+              "en": "fly into windows",
+              "vi": "bay đâm vào cửa sổ"
             },
             {
-              "en": "exacerbate light pollution",
-              "vi": "làm trầm trọng thêm ô nhiễm ánh sáng"
+              "en": "fatal collisions",
+              "vi": "các vụ va chạm gây tử vong"
             },
             {
-              "en": "visual hazards for motorists",
-              "vi": "mối nguy hiểm thị giác cho tài xế"
+              "en": "thermal conductivity",
+              "vi": "tính dẫn nhiệt"
             },
             {
-              "en": "circadian rhythm disruption",
-              "vi": "gián đoạn nhịp sinh học"
+              "en": "fully glazed facades",
+              "vi": "mặt ngoài bọc kính toàn phần"
             },
             {
-              "en": "urban skyglow",
-              "vi": "quầng sáng đô thị"
+              "en": "impair circadian rhythms",
+              "vi": "làm suy giảm nhịp sinh học"
             },
             {
-              "en": "physiological and psychological strains",
-              "vi": "căng thẳng sinh lý và tâm lý"
+              "en": "migratory birds",
+              "vi": "các loài chim di cư"
             },
             {
-              "en": "chronic ocular fatigue",
-              "vi": "mỏi mắt mãn tính"
+              "en": "trap solar radiation",
+              "vi": "giữ lại bức xạ mặt trời"
             },
             {
-              "en": "Sick Building Syndrome",
-              "vi": "hội chứng tòa nhà bệnh tật"
+              "en": "waste heat",
+              "vi": "nhiệt thải"
             },
             {
-              "en": "hermetically sealed spaces",
-              "vi": "không gian đóng kín hoàn toàn"
+              "en": "visual fatigue",
+              "vi": "mệt mỏi thị giác"
             },
             {
-              "en": "occupational anxiety",
-              "vi": "lo âu nghề nghiệp"
+              "en": "cognitive performance",
+              "vi": "hiệu suất nhận thức"
+            },
+            {
+              "en": "urban biodiversity",
+              "vi": "đa dạng sinh học đô thị"
+            },
+            {
+              "en": "eco-friendly buildings",
+              "vi": "các tòa nhà thân thiện môi trường"
             }
           ],
-          "sample_b1": "In recent years, <strong>working in modern glass office buildings</strong> has become increasingly common in many cities. However, this environment has drawn significant concern. <strong>This essay will explore the major effects of this working environment.</strong>\n\nOne major effect is that <strong><em>glass office buildings often consume a large amount of energy.</em></strong> These buildings absorb a lot of heat from sunlight during the day. Therefore, air conditioning systems must operate continuously to cool the workspaces. This leads to high electricity costs and puts pressure on the city's power grid. For example, many glass offices have to run their air conditioners at full capacity throughout hot summer days.\n\nAnother significant impact is that <strong><em>the glass surfaces of buildings can cause severe glare and light pollution.</em></strong> Glass surfaces reflect strong sunlight onto surrounding areas and pedestrians. This can dazzle drivers and increase the risk of road accidents. In addition, bright artificial lighting shining from glass offices at night contributes to urban light pollution. For example, motorists driving past modern glass towers often suffer from intense glare during midday.\n\nA further consequence is that <strong><em>working in this environment can negatively affect employees' health and mental well-being.</em></strong> Glare from windows and uneven indoor temperatures can cause eye strain and headaches for office workers. Furthermore, staying in a sealed space with artificial ventilation all day makes employees feel tired and stressed. The lack of natural airflow and personal privacy can also reduce concentration. Therefore, many office workers feel exhausted after long working hours inside glass buildings.\n\nIn conclusion, <strong>working in modern glass office buildings</strong> produces notable effects on energy use, the urban environment, and worker well-being. Understanding these effects helps developers and companies design better workplaces in the future.",
-          "translation_b1": "Trong những năm gần đây, <strong>việc làm việc trong các tòa nhà văn phòng bằng kính hiện đại</strong> ngày càng trở nên phổ biến ở nhiều thành phố. Tuy nhiên, môi trường này đã thu hút sự quan tâm đáng kể. <strong>Bài tiểu luận này sẽ tìm hiểu những ảnh hưởng chính của môi trường làm việc này.</strong>\n\nMột tác động lớn là <strong><em>các tòa nhà văn phòng bằng kính thường tiêu thụ một lượng lớn năng lượng.</em></strong> Những tòa nhà này hấp thụ nhiều nhiệt từ ánh sáng mặt trời vào ban ngày. Do đó, các hệ thống điều hòa không khí phải hoạt động liên tục để làm mát không gian làm việc. Điều này dẫn đến chi phí điện năng rất cao và tạo thêm gánh nặng cho lưới điện thành phố. Ví dụ, nhiều văn phòng kính phải bật máy lạnh hết công suất suốt cả ngày hè.\n\nMột ảnh hưởng đáng kể khác là <strong><em>mặt kính của các tòa nhà có thể gây ra hiện tượng chói mắt và ô nhiễm ánh sáng.</em></strong> Bề mặt kính phản chiếu ánh sáng mặt trời mạnh vào các khu vực xung quanh và người đi đường. Điều này có thể làm lóa mắt người tham gia giao thông và gây nguy hiểm. Ngoài ra, ánh sáng nhân tạo rực rỡ từ các văn phòng kính vào ban đêm cũng làm sáng bầu trời đô thị. Ví dụ, tài xế lái xe qua các khu phố có nhiều tòa nhà kính thường bị chói mắt vào buổi trưa.\n\nMột hậu quả nữa là <strong><em>làm việc trong môi trường này có thể ảnh hưởng tiêu cực đến sức khỏe và tinh thần của nhân viên.</em></strong> Ánh sáng chói và nhiệt độ không đồng đều gần các cửa sổ kính có thể gây mỏi mắt và đau đầu. Hơn nữa, việc ở trong không gian kín với không khí nhân tạo suốt cả ngày làm nhân viên cảm thấy mệt mỏi và căng thẳng. Thiếu không khí tự nhiên và sự riêng tư cũng có thể làm giảm khả năng tập trung. Vì vậy, nhiều nhân viên văn phòng cảm thấy kiệt sức sau nhiều giờ làm việc trong các tòa nhà kính.\n\nTóm lại, <strong>việc làm việc trong các tòa nhà văn phòng bằng kính hiện đại</strong> tạo ra những tác động đáng kể đến việc sử dụng năng lượng, môi trường đô thị và sức khỏe của nhân viên. Việc hiểu rõ những tác động này sẽ giúp các nhà phát triển và doanh nghiệp thiết kế nơi làm việc tốt hơn trong tương lai.",
-          "sample_b2": "In recent years, <strong>the prevalence of working in modern glass office buildings</strong> has become a prominent architectural trend in major metropolitan areas. While these transparent structures present a sleek aesthetic, they exert far-reaching consequences on energy systems, urban surroundings, and occupational health. <strong>This essay will examine the primary effects associated with this work environment.</strong>\n\nOne primary impact is that <strong><em>a major consequence of glass office buildings is the massive energy consumption required for temperature regulation.</em></strong> Expansive glass facades create an internal greenhouse effect, substantially increasing indoor temperatures when exposed to direct sunlight. Consequently, these structures require heavy-duty HVAC systems to run continuously to maintain a comfortable working climate. This intense energy demand not only inflates corporate operational expenditures but also contributes significantly to carbon emissions. For instance, fully glazed skyscrapers often consume several times more cooling energy than well-insulated conventional buildings.\n\nAnother significant concern is that <strong><em>modern glazed structures generate intense solar reflection and exacerbate urban light pollution.</em></strong> During daylight hours, reflective exterior panels redirect intense solar glare into neighboring streets, posing visual hazards to motorists and elevating local ambient temperatures. At night, extensive interior illumination radiates outward through transparent walls, disrupting natural ecosystems and interfering with the circadian rhythms of nearby residents. This phenomenon significantly contributes to urban skyglow and unnecessary photon waste. For example, concentrated reflections from curved glass towers have been documented to melt vehicle parts and cause severe discomfort in surrounding districts.\n\nA further adverse effect to consider is that <strong><em>an all-glass office environment can impose considerable physiological and psychological strains on employees.</em></strong> Employees stationed near expansive glass perimeters frequently endure visual glare and severe thermal fluctuations, culminating in chronic ocular fatigue, persistent migraines, and diminished productivity. Furthermore, absolute reliance on artificial ventilation within hermetically sealed buildings can trigger Sick Building Syndrome, deteriorating indoor air quality and worker vitality. The pervasive lack of visual privacy in transparent corporate settings also amplifies occupational anxiety and interpersonal stress. For example, empirical studies reveal that desk workers in fully glazed corporate towers report significantly higher rates of lethargy and headaches compared to those in naturally ventilated, climate-responsive workspaces.\n\nIn conclusion, <strong>working in modern glass office buildings</strong> generates substantial repercussions, ranging from excessive cooling energy consumption and urban light pollution to physiological and mental health burdens on employees. Recognizing these multifaceted consequences underscores the necessity for sustainable architectural designs and ergonomic workplace modifications. By implementing energy-efficient glazing and improved indoor environments, modern cities can balance visual elegance with human and environmental well-being.",
-          "translation_b2": "Trong những năm gần đây, <strong>sự phổ biến của việc làm việc trong các tòa nhà văn phòng bằng kính hiện đại</strong> đã trở thành một xu hướng kiến trúc nổi bật tại các khu đô thị lớn. Mặc dù các cấu trúc trong suốt này mang lại vẻ ngoài thẩm mỹ hiện đại, chúng gây ra những hậu quả sâu rộng đối với hệ thống năng lượng, môi trường đô thị xung quanh và sức khỏe nghề nghiệp. <strong>Bài tiểu luận này sẽ xem xét các tác động chính liên quan đến môi trường làm việc này.</strong>\n\nMột tác động chính là <strong><em>mức tiêu thụ năng lượng khổng lồ cho việc điều hòa nhiệt độ là một hậu quả lớn của các tòa nhà văn phòng bằng kính.</em></strong> Các bức tường kính lớn tạo ra hiệu ứng nhà kính bên trong, làm tăng đáng kể nhiệt độ trong nhà khi tiếp xúc với ánh nắng mặt trời. Do đó, các tòa nhà này đòi hỏi các hệ thống điều hòa không khí công suất lớn hoạt động không ngừng để duy trì môi trường làm việc thoải mái. Nhu cầu năng lượng cao này không chỉ làm gia tăng chi phí vận hành cho các doanh nghiệp mà còn góp phần phát thải khí nhà kính vào bầu khí quyển. Chẳng hạn, các tòa nhà chọc trời bằng kính tiêu thụ năng lượng làm mát cao gấp nhiều lần so với các kiến trúc truyền thống có cách nhiệt tốt.\n\nMột mối lo ngại đáng kể khác là <strong><em>các cấu trúc kính hiện đại tạo ra phản xạ ánh sáng gay gắt và góp phần làm trầm trọng thêm ô nhiễm ánh sáng đô thị.</em></strong> Vào ban ngày, các bề mặt kính phản chiếu lượng lớn bức xạ mặt trời, gây chói lóa nguy hiểm cho người điều khiển phương tiện và làm nóng môi trường xung quanh. Vào ban đêm, hệ thống chiếu sáng nội thất rực rỡ xuyên qua các bức tường trong suốt, làm gián đoạn hệ sinh thái tự nhiên và chu kỳ giấc ngủ của cư dân lân cận. Hiện tượng này làm biến đổi cảnh quan ban đêm của các thành phố và gây lãng phí ánh sáng không cần thiết. Ví dụ, phản xạ từ các tòa nhà kính lớn tại các trung tâm thương mại đã từng làm tăng nhiệt độ đường phố và gây khó chịu cho người dân xung quanh.\n\nMột tác động bất lợi nữa cần xem xét là <strong><em>môi trường làm việc bằng kính hoàn toàn có thể gây ra những áp lực sinh lý và tâm lý đáng kể cho nhân viên.</em></strong> Nhân viên ngồi gần mặt tiền kính thường xuyên chịu đựng ánh sáng chói lóa và sự dao động nhiệt độ cục bộ, dẫn đến mỏi mắt mãn tính, đau đầu và giảm hiệu suất công việc. Thêm vào đó, việc phụ thuộc hoàn toàn vào hệ thống thông gió nhân tạo trong các không gian kín có thể dẫn đến 'Hội chứng tòa nhà bệnh tật' (Sick Building Syndrome), làm suy giảm chất lượng không khí hít thở. Sự thiếu hụt không gian riêng tư do thiết kế trong suốt cũng làm gia tăng mức độ lo âu và căng thẳng nghề nghiệp. Ví dụ, các nghiên cứu chỉ ra rằng nhân viên văn phòng trong các tòa nhà kính kín thường báo cáo mức độ mệt mỏi và đau đầu cao hơn so với những người làm việc trong không gian có thông gió tự nhiên.\n\nTóm lại, <strong>việc làm việc trong các tòa nhà văn phòng bằng kính hiện đại</strong> tạo ra những hậu quả đáng kể, từ việc tiêu thụ quá mức năng lượng làm mát và ô nhiễm ánh sáng đô thị cho đến những gánh nặng về sức khỏe thể chất và tinh thần của nhân viên. Việc nhận thức được các hệ quả đa chiều này nhấn mạnh sự cần thiết của các thiết kế kiến trúc bền vững và những điều chỉnh công thái học tại nơi làm việc. Bằng cách áp dụng các loại kính tiết kiệm năng lượng và cải thiện môi trường trong nhà, các thành phố hiện đại có thể cân bằng giữa vẻ đẹp thẩm mỹ với sức khỏe con người và môi trường."
+          "vocab_step": {
+            "theme": "Ảnh hưởng của việc làm việc trong các tòa nhà văn phòng bằng kính (Effects of Working in Modern Glass Office Buildings)",
+            "overview": "Chủ đề cung cấp từ vựng học thuật chuẩn VSTEP về kiến trúc cao ốc kính, tiêu thụ năng lượng và biến đổi khí hậu, ô nhiễm ánh sáng ban đêm, nhiệt độ đô thị, sức khỏe thể chất/tinh thần nhân viên văn phòng và nguy cơ va chạm chết chim.",
+            "single_words": [
+              {
+                "word": "glass",
+                "ipa": "/ɡlæs/",
+                "pos": "n",
+                "level": "B1",
+                "vi": "kính, thủy tinh",
+                "family": "glassy (adj), glassware (n)",
+                "example_en": "Modern offices are made almost entirely of glass.",
+                "example_vi": "Các văn phòng hiện đại được làm gần như hoàn toàn bằng kính."
+              },
+              {
+                "word": "office",
+                "ipa": "/ˈɔːfɪs/",
+                "pos": "n",
+                "level": "B1",
+                "vi": "văn phòng làm việc",
+                "family": "officer (n), official (adj, n), officially (adv)",
+                "example_en": "Many people work in tall office towers downtown.",
+                "example_vi": "Nhiều người làm việc trong các tòa tháp văn phòng cao tầng ở trung tâm."
+              },
+              {
+                "word": "building",
+                "ipa": "/ˈbɪldɪŋ/",
+                "pos": "n",
+                "level": "B1",
+                "vi": "tòa nhà, công trình xây dựng",
+                "family": "build (v), builder (n)",
+                "example_en": "Glass buildings dominate the skyline of modern cities.",
+                "example_vi": "Các tòa nhà kính chiếm ưu thế trên đường chân trời của các thành phố hiện đại."
+              },
+              {
+                "word": "energy",
+                "ipa": "/ˈenərdʒi/",
+                "pos": "n",
+                "level": "B1",
+                "vi": "năng lượng, điện năng",
+                "family": "energetic (adj), energize (v)",
+                "example_en": "These towers consume too much electrical energy.",
+                "example_vi": "Những tòa tháp này tiêu thụ quá nhiều năng lượng điện."
+              },
+              {
+                "word": "temperature",
+                "ipa": "/ˈtemprətʃər/",
+                "pos": "n",
+                "level": "B1",
+                "vi": "nhiệt độ",
+                "family": "temperate (adj)",
+                "example_en": "High temperatures inside the office make workers tired.",
+                "example_vi": "Nhiệt độ cao bên trong văn phòng khiến nhân viên mệt mỏi."
+              },
+              {
+                "word": "stress",
+                "ipa": "/stres/",
+                "pos": "n, v",
+                "level": "B1",
+                "vi": "sự căng thẳng, áp lực",
+                "family": "stressful (adj), stressed (adj)",
+                "example_en": "Harsh glare increases stress levels for employees.",
+                "example_vi": "Ánh sáng chói chang làm gia tăng mức độ căng thẳng cho nhân viên."
+              },
+              {
+                "word": "glare",
+                "ipa": "/ɡler/",
+                "pos": "n, v",
+                "level": "B1",
+                "vi": "ánh sáng chói lóa, chói mắt",
+                "family": "glaring (adj), glaringly (adv)",
+                "example_en": "Sunlight glare makes it hard to see computer monitors.",
+                "example_vi": "Ánh sáng mặt trời chói chang khiến khó nhìn thấy màn hình máy tính."
+              },
+              {
+                "word": "strain",
+                "ipa": "/streɪn/",
+                "pos": "n, v",
+                "level": "B1",
+                "vi": "sự căng thẳng, sự mỏi (mắt, cơ)",
+                "family": "strained (adj)",
+                "example_en": "Working near glass windows often leads to eye strain.",
+                "example_vi": "Làm việc gần cửa sổ kính thường dẫn đến mỏi mắt."
+              },
+              {
+                "word": "bird",
+                "ipa": "/bɜːrd/",
+                "pos": "n",
+                "level": "B1",
+                "vi": "loài chim",
+                "family": "birdlike (adj)",
+                "example_en": "Many birds die because of window collisions.",
+                "example_vi": "Nhiều loài chim chết vì va chạm vào cửa sổ."
+              },
+              {
+                "word": "reflect",
+                "ipa": "/rɪˈflekt/",
+                "pos": "v",
+                "level": "B1",
+                "vi": "phản chiếu, phản xạ",
+                "family": "reflection (n), reflective (adj), reflector (n)",
+                "example_en": "Glass windows reflect the blue sky and trees.",
+                "example_vi": "Cửa sổ kính phản chiếu bầu trời xanh và cây cối."
+              },
+              {
+                "word": "absorb",
+                "ipa": "/əbˈzɔːrb/",
+                "pos": "v",
+                "level": "B1",
+                "vi": "hấp thụ, hút lấy (nhiệt, ánh sáng)",
+                "family": "absorption (n), absorbent (adj)",
+                "example_en": "Dark glass can absorb high amounts of solar heat.",
+                "example_vi": "Kính tối màu có thể hấp thụ lượng nhiệt mặt trời lớn."
+              },
+              {
+                "word": "conditioner",
+                "ipa": "/kənˈdɪʃənər/",
+                "pos": "n",
+                "level": "B1",
+                "vi": "máy điều hòa (air conditioner)",
+                "family": "condition (n, v), conditioned (adj)",
+                "example_en": "Air conditioners must run all day to cool the office.",
+                "example_vi": "Máy điều hòa phải chạy cả ngày để làm mát văn phòng."
+              },
+              {
+                "word": "lighting",
+                "ipa": "/ˈlaɪtɪŋ/",
+                "pos": "n",
+                "level": "B1",
+                "vi": "hệ thống chiếu sáng",
+                "family": "light (n, v, adj)",
+                "example_en": "Electric lighting consumes large amounts of power at night.",
+                "example_vi": "Chiếu sáng điện tiêu thụ lượng điện lớn vào ban đêm."
+              },
+              {
+                "word": "headache",
+                "ipa": "/ˈhedeɪk/",
+                "pos": "n",
+                "level": "B1",
+                "vi": "cơn đau đầu",
+                "family": "head (n), ache (n, v)",
+                "example_en": "Office employees frequently suffer from severe headaches.",
+                "example_vi": "Nhân viên văn phòng thường xuyên bị những cơn đau đầu dữ dội."
+              },
+              {
+                "word": "disrupt",
+                "ipa": "/dɪsˈrʌpt/",
+                "pos": "v",
+                "level": "B1",
+                "vi": "làm gián đoạn, phá vỡ",
+                "family": "disruption (n), disruptive (adj)",
+                "example_en": "Night lighting disrupts the natural sleep of animals.",
+                "example_vi": "Ánh sáng ban đêm làm gián đoạn giấc ngủ tự nhiên của động vật."
+              },
+              {
+                "word": "collide",
+                "ipa": "/kəˈlaɪd/",
+                "pos": "v",
+                "level": "B1",
+                "vi": "va chạm, đâm vào nhau",
+                "family": "collision (n)",
+                "example_en": "Birds collide with clear glass because they cannot see it.",
+                "example_vi": "Chim va chạm với kính trong suốt vì chúng không thể nhìn thấy nó."
+              },
+              {
+                "word": "injure",
+                "ipa": "/ˈɪndʒər/",
+                "pos": "v",
+                "level": "B1",
+                "vi": "làm bị thương",
+                "family": "injury (n), injured (adj)",
+                "example_en": "Window crashes can severely injure flying birds.",
+                "example_vi": "Va đập vào cửa sổ có thể làm chim bay bị thương nặng."
+              },
+              {
+                "word": "concentrate",
+                "ipa": "/ˈkɑːnsntreɪt/",
+                "pos": "v",
+                "level": "B1",
+                "vi": "tập trung tư tưởng",
+                "family": "concentration (n)",
+                "example_en": "Excessive indoor heat makes it difficult to concentrate.",
+                "example_vi": "Nhiệt độ phòng quá cao khiến việc tập trung trở nên khó khăn."
+              },
+              {
+                "word": "facade",
+                "ipa": "/fəˈsɑːd/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "mặt ngoài, mặt tiền tòa nhà",
+                "family": "facade (n)",
+                "example_en": "Fully glazed facades dominate the metropolitan business district.",
+                "example_vi": "Những mặt tiền bọc kính hoàn toàn chiếm ưu thế tại khu trung tâm thương mại đô thị."
+              },
+              {
+                "word": "glazing",
+                "ipa": "/ˈɡleɪzɪŋ/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "hệ thống lắp kính, vật liệu kính phủ",
+                "family": "glaze (v, n), glazed (adj)",
+                "example_en": "Double glazing helps minimize thermal heat transfer.",
+                "example_vi": "Kính hai lớp giúp giảm thiểu sự truyền nhiệt."
+              },
+              {
+                "word": "nocturnal",
+                "ipa": "/nɑːkˈtɜːrnl/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "về ban đêm, hoạt động về đêm",
+                "family": "nocturnally (adv)",
+                "example_en": "Nocturnal animals are disturbed by bright city lights.",
+                "example_vi": "Động vật ăn đêm bị quấy nhiễu bởi ánh sáng rực rỡ của thành phố."
+              },
+              {
+                "word": "migratory",
+                "ipa": "/ˈmaɪɡrətɔːri/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "di cư (chim, động vật)",
+                "family": "migrate (v), migration (n), migrant (n)",
+                "example_en": "Illuminated skyscrapers disorient nocturnal migratory birds.",
+                "example_vi": "Các tòa nhà chọc trời sáng đèn làm mất phương hướng của chim di cư ban đêm."
+              },
+              {
+                "word": "disorient",
+                "ipa": "/dɪsˈɔːriənt/",
+                "pos": "v",
+                "level": "B2",
+                "vi": "làm mất phương hướng",
+                "family": "disorientation (n), disoriented (adj)",
+                "example_en": "Artificial lights disorient pilots and wildlife alike.",
+                "example_vi": "Ánh sáng nhân tạo làm mất phương hướng của cả phi công và động vật hoang dã."
+              },
+              {
+                "word": "thermal",
+                "ipa": "/ˈθɜːrml/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "thuộc về nhiệt",
+                "family": "thermally (adv)",
+                "example_en": "Glass provides poor thermal insulation compared to stone walls.",
+                "example_vi": "Kính có khả năng cách nhiệt kém hơn nhiều so với tường đá."
+              },
+              {
+                "word": "conductivity",
+                "ipa": "/ˌkɑːndʌkˈtɪvəti/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "tính dẫn nhiệt / dẫn điện",
+                "family": "conduct (v), conductor (n), conductive (adj)",
+                "example_en": "The high thermal conductivity of glass leads to overheating.",
+                "example_vi": "Tính dẫn nhiệt cao của kính dẫn đến việc bị quá nhiệt."
+              },
+              {
+                "word": "insulation",
+                "ipa": "/ˌɪnsəˈleɪʃn/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "sự cách nhiệt, vật liệu cách nhiệt",
+                "family": "insulate (v), insulator (n), insulated (adj)",
+                "example_en": "Modern buildings require high-performance insulation.",
+                "example_vi": "Các tòa nhà hiện đại đòi hỏi khả năng cách nhiệt hiệu suất cao."
+              },
+              {
+                "word": "emission",
+                "ipa": "/ɪˈmɪʃn/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "sự phát thải, khí thải",
+                "family": "emit (v), emitter (n)",
+                "example_en": "Cooling skyscrapers increases greenhouse gas emissions.",
+                "example_vi": "Làm mát các tòa nhà chọc trời làm tăng lượng khí thải nhà kính."
+              },
+              {
+                "word": "footprint",
+                "ipa": "/ˈfʊtprɪnt/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "dấu chân (carbon footprint: lượng phát thải carbon)",
+                "family": "foot (n)",
+                "example_en": "Commercial towers leave a heavy carbon footprint.",
+                "example_vi": "Các tòa tháp thương mại để lại dấu chân carbon rất nặng nề."
+              },
+              {
+                "word": "ambient",
+                "ipa": "/ˈæmbiənt/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "xung quanh, môi trường bao quanh",
+                "family": "ambience (n)",
+                "example_en": "Waste heat from air conditioners raises ambient temperatures.",
+                "example_vi": "Nhiệt thải từ điều hòa không khí làm tăng nhiệt độ môi trường xung quanh."
+              },
+              {
+                "word": "circadian",
+                "ipa": "/sɜːrˈkeɪdiən/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "thuộc về nhịp sinh học (ngày và đêm)",
+                "family": "circadian rhythm (n)",
+                "example_en": "Nighttime light pollution impairs natural circadian rhythms.",
+                "example_vi": "Ô nhiễm ánh sáng ban đêm làm suy giảm nhịp sinh học tự nhiên."
+              },
+              {
+                "word": "migraine",
+                "ipa": "/ˈmaɪɡreɪn/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "chứng đau nửa đầu",
+                "family": "migraine (n)",
+                "example_en": "Persistent screen reflections can trigger severe migraines.",
+                "example_vi": "Sự phản chiếu màn hình liên tục có thể kích hoạt chứng đau nửa đầu dữ dội."
+              },
+              {
+                "word": "fatigue",
+                "ipa": "/fəˈtiːɡ/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "sự mệt mỏi, suy nhược thể chất hoặc tinh thần",
+                "family": "fatigued (adj), fatiguing (adj)",
+                "example_en": "Workers experience visual fatigue from reflective monitors.",
+                "example_vi": "Người lao động bị mệt mỏi thị giác do màn hình bị phản quang."
+              },
+              {
+                "word": "biophilic",
+                "ipa": "/ˌbaɪoʊˈfɪlɪk/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "gắn kết với thiên nhiên, thiết kế sinh thái",
+                "family": "biophilia (n)",
+                "example_en": "Offices lacking biophilic elements tend to increase employee anxiety.",
+                "example_vi": "Văn phòng thiếu các yếu tố kết nối thiên nhiên có xu hướng làm tăng sự lo âu của nhân viên."
+              },
+              {
+                "word": "corridor",
+                "ipa": "/ˈkɔːrɪdɔːr/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "hành lang bay (flight corridor)",
+                "family": "corridor (n)",
+                "example_en": "Birds perceive glass reflections as safe flight corridors.",
+                "example_vi": "Chim coi hình ảnh phản chiếu trên kính như những hành lang bay an toàn."
+              },
+              {
+                "word": "foliage",
+                "ipa": "/ˈfoʊliɪdʒ/",
+                "pos": "n",
+                "level": "B2",
+                "vi": "tán lá, vòm cây xanh",
+                "family": "leaf (n)",
+                "example_en": "Mirrored windows reflect nearby tree foliage.",
+                "example_vi": "Cửa sổ tráng gương phản chiếu tán lá cây gần đó."
+              },
+              {
+                "word": "lethal",
+                "ipa": "/ˈliːθl/",
+                "pos": "adj",
+                "level": "B2",
+                "vi": "gây chết người, gây tử vong",
+                "family": "lethally (adv), lethality (n)",
+                "example_en": "High-velocity collisions with building glass are often lethal for birds.",
+                "example_vi": "Những cú va chạm tốc độ cao với kính tòa nhà thường gây tử vong cho chim."
+              }
+            ],
+            "collocations": [
+              {
+                "phrase": "glass office buildings",
+                "level": "B1",
+                "vi": "tòa nhà văn phòng bằng kính",
+                "type": "n.phr",
+                "example_en": "Many companies operate in glass office buildings.",
+                "example_vi": "Nhiều công ty hoạt động trong các tòa nhà văn phòng bằng kính."
+              },
+              {
+                "phrase": "consume a large amount of electricity",
+                "level": "B1",
+                "vi": "tiêu thụ lượng điện năng lớn",
+                "type": "v.phr",
+                "example_en": "Glass skyscrapers consume a large amount of electricity.",
+                "example_vi": "Các tòa nhà chọc trời bằng kính tiêu thụ lượng điện năng lớn."
+              },
+              {
+                "phrase": "rely heavily on air conditioning",
+                "level": "B1",
+                "vi": "phụ thuộc nhiều vào điều hòa không khí",
+                "type": "v.phr",
+                "example_en": "These towers rely heavily on air conditioning in summer.",
+                "example_vi": "Những tòa tháp này phụ thuộc nhiều vào điều hòa không khí vào mùa hè."
+              },
+              {
+                "phrase": "increase carbon emissions",
+                "level": "B1",
+                "vi": "làm tăng lượng khí thải carbon",
+                "type": "v.phr",
+                "example_en": "Excessive power usage will increase carbon emissions.",
+                "example_vi": "Sử dụng điện quá mức sẽ làm tăng lượng khí thải carbon."
+              },
+              {
+                "phrase": "fully glazed facades",
+                "level": "B2",
+                "vi": "mặt ngoài bọc kính toàn phần",
+                "type": "n.phr",
+                "example_en": "Fully glazed facades require constant climate control.",
+                "example_vi": "Mặt ngoài bọc kính toàn phần đòi hỏi điều hòa vi khí hậu liên tục."
+              },
+              {
+                "phrase": "operational energy consumption",
+                "level": "B2",
+                "vi": "mức tiêu thụ năng lượng vận hành",
+                "type": "n.phr",
+                "example_en": "High operational energy consumption damages urban sustainability.",
+                "example_vi": "Mức tiêu thụ năng lượng vận hành cao làm tổn hại tính bền vững đô thị."
+              },
+              {
+                "phrase": "urban carbon footprints",
+                "level": "B2",
+                "vi": "dấu chân carbon của các đô thị",
+                "type": "n.phr",
+                "example_en": "Corporate towers significantly expand urban carbon footprints.",
+                "example_vi": "Các tòa tháp doanh nghiệp làm mở rộng đáng kể dấu chân carbon đô thị."
+              },
+              {
+                "phrase": "thermal heat transfer",
+                "level": "B2",
+                "vi": "sự truyền nhiệt qua vật liệu",
+                "type": "n.phr",
+                "example_en": "Rapid thermal heat transfer overheats glass rooms.",
+                "example_vi": "Sự truyền nhiệt nhanh chóng làm các phòng kính bị quá nhiệt."
+              },
+              {
+                "phrase": "contribute to global climate change",
+                "level": "B2",
+                "vi": "góp phần vào biến đổi khí hậu toàn cầu",
+                "type": "v.phr",
+                "example_en": "Building emissions contribute to global climate change.",
+                "example_vi": "Khí thải từ các tòa nhà góp phần vào biến đổi khí hậu toàn cầu."
+              },
+              {
+                "phrase": "light pollution",
+                "level": "B1",
+                "vi": "ô nhiễm ánh sáng",
+                "type": "n.phr",
+                "example_en": "Light pollution is a growing issue in big cities.",
+                "example_vi": "Ô nhiễm ánh sáng là một vấn đề ngày càng tăng ở các thành phố lớn."
+              },
+              {
+                "phrase": "bright lights at night",
+                "level": "B1",
+                "vi": "ánh sáng rực rỡ vào ban đêm",
+                "type": "n.phr",
+                "example_en": "Offices leave bright lights at night for decoration.",
+                "example_vi": "Các văn phòng để ánh sáng rực rỡ vào ban đêm để trang trí."
+              },
+              {
+                "phrase": "disrupt the sleep of residents",
+                "level": "B1",
+                "vi": "làm gián đoạn giấc ngủ của cư dân",
+                "type": "v.phr",
+                "example_en": "Shining beacons disrupt the sleep of residents nearby.",
+                "example_vi": "Những luồng sáng chói lọi làm gián đoạn giấc ngủ của cư dân gần đó."
+              },
+              {
+                "phrase": "natural behavior of wildlife",
+                "level": "B1",
+                "vi": "tập tính tự nhiên của động vật hoang dã",
+                "type": "n.phr",
+                "example_en": "City glare disturbs the natural behavior of wildlife.",
+                "example_vi": "Ánh sáng chói đô thị quấy rầy tập tính tự nhiên của động vật hoang dã."
+              },
+              {
+                "phrase": "pervasive light pollution",
+                "level": "B2",
+                "vi": "ô nhiễm ánh sáng lan rộng khắp nơi",
+                "type": "n.phr",
+                "example_en": "Pervasive light pollution obscures the night sky.",
+                "example_vi": "Ô nhiễm ánh sáng lan rộng làm che khuất bầu trời đêm."
+              },
+              {
+                "phrase": "nocturnal environment",
+                "level": "B2",
+                "vi": "môi trường ban đêm",
+                "type": "n.phr",
+                "example_en": "Commercial high-rises alter the nocturnal environment.",
+                "example_vi": "Các tòa nhà thương mại cao tầng làm biến đổi môi trường ban đêm."
+              },
+              {
+                "phrase": "impair circadian rhythms",
+                "level": "B2",
+                "vi": "làm suy giảm nhịp sinh học",
+                "type": "v.phr",
+                "example_en": "Constant night glare can impair circadian rhythms.",
+                "example_vi": "Ánh sáng chói lóa ban đêm liên tục có thể làm suy giảm nhịp sinh học."
+              },
+              {
+                "phrase": "disorient nocturnal migratory birds",
+                "level": "B2",
+                "vi": "làm mất phương hướng của chim di cư ban đêm",
+                "type": "v.phr",
+                "example_en": "Bright office spires disorient nocturnal migratory birds.",
+                "example_vi": "Những ngọn tháp văn phòng sáng rực làm mất phương hướng của chim di cư ban đêm."
+              },
+              {
+                "phrase": "radiant beacons",
+                "level": "B2",
+                "vi": "những ngọn hải đăng phát sáng rực rỡ",
+                "type": "n.phr",
+                "example_en": "Glass skyscrapers turn into radiant beacons after dark.",
+                "example_vi": "Những tòa nhà chọc trời bằng kính biến thành những ngọn hải đăng rực rỡ sau khi trời tối."
+              },
+              {
+                "phrase": "increase indoor temperatures",
+                "level": "B1",
+                "vi": "làm tăng nhiệt độ bên trong",
+                "type": "v.phr",
+                "example_en": "Direct sunlight increases indoor temperatures quickly.",
+                "example_vi": "Ánh nắng trực tiếp làm tăng nhiệt độ bên trong rất nhanh."
+              },
+              {
+                "phrase": "absorb heat from the sun",
+                "level": "B1",
+                "vi": "hấp thụ nhiệt lượng từ mặt trời",
+                "type": "v.phr",
+                "example_en": "Glass panels absorb heat from the sun throughout the day.",
+                "example_vi": "Các tấm kính hấp thụ nhiệt từ mặt trời suốt cả ngày."
+              },
+              {
+                "phrase": "make cities hotter",
+                "level": "B1",
+                "vi": "làm các thành phố trở nên nóng bức hơn",
+                "type": "v.phr",
+                "example_en": "Reflective structures make cities hotter during summer months.",
+                "example_vi": "Các công trình phản quang làm các thành phố nóng hơn vào các tháng hè."
+              },
+              {
+                "phrase": "urban heat island effect",
+                "level": "B2",
+                "vi": "hiệu ứng đảo nhiệt đô thị",
+                "type": "n.phr",
+                "example_en": "Glass architecture exacerbates the urban heat island effect.",
+                "example_vi": "Kiến trúc kính làm trầm trọng thêm hiệu ứng đảo nhiệt đô thị."
+              },
+              {
+                "phrase": "localized greenhouse effects",
+                "level": "B2",
+                "vi": "hiệu ứng nhà kính cục bộ",
+                "type": "n.phr",
+                "example_en": "Unshaded windows generate localized greenhouse effects.",
+                "example_vi": "Cửa sổ không che chắn tạo ra hiệu ứng nhà kính cục bộ."
+              },
+              {
+                "phrase": "trap solar radiation",
+                "level": "B2",
+                "vi": "giữ lại bức xạ mặt trời",
+                "type": "v.phr",
+                "example_en": "Sealed glass towers trap solar radiation continuously.",
+                "example_vi": "Các tháp kính đóng kín giữ lại bức xạ mặt trời liên tục."
+              },
+              {
+                "phrase": "expel mechanical waste heat",
+                "level": "B2",
+                "vi": "thải nhiệt cơ học ra ngoài môi trường",
+                "type": "v.phr",
+                "example_en": "Cooling units expel mechanical waste heat onto streets.",
+                "example_vi": "Các thiết bị làm mát thải nhiệt cơ học ra đường phố."
+              },
+              {
+                "phrase": "elevated ambient temperatures",
+                "level": "B2",
+                "vi": "nhiệt độ môi trường xung quanh tăng cao",
+                "type": "n.phr",
+                "example_en": "Downtown zones suffer from elevated ambient temperatures.",
+                "example_vi": "Các khu vực trung tâm phải chịu nhiệt độ môi trường xung quanh tăng cao."
+              },
+              {
+                "phrase": "degrade metropolitan air quality",
+                "level": "B2",
+                "vi": "làm suy giảm chất lượng không khí đô thị",
+                "type": "v.phr",
+                "example_en": "Heat pockets degrade metropolitan air quality.",
+                "example_vi": "Các túi nhiệt làm suy giảm chất lượng không khí của vùng đô thị."
+              },
+              {
+                "phrase": "suffer from eye strain",
+                "level": "B1",
+                "vi": "bị mỏi mắt do làm việc máy tính",
+                "type": "v.phr",
+                "example_en": "Office employees suffer from eye strain from window glare.",
+                "example_vi": "Nhân viên văn phòng bị mỏi mắt do ánh sáng chói từ cửa sổ."
+              },
+              {
+                "phrase": "lack of connection with nature",
+                "level": "B1",
+                "vi": "sự thiếu kết nối với thiên nhiên",
+                "type": "n.phr",
+                "example_en": "A lack of connection with nature increases worker stress.",
+                "example_vi": "Sự thiếu kết nối với thiên nhiên làm tăng căng thẳng cho người lao động."
+              },
+              {
+                "phrase": "fly into windows",
+                "level": "B1",
+                "vi": "bay đâm vào cửa sổ kính",
+                "type": "v.phr",
+                "example_en": "Birds frequently fly into windows because of reflections.",
+                "example_vi": "Chim thường xuyên bay đâm vào cửa sổ do hình ảnh phản chiếu."
+              },
+              {
+                "phrase": "injure or kill birds",
+                "level": "B1",
+                "vi": "làm chim bị thương hoặc tử vong",
+                "type": "v.phr",
+                "example_en": "Violent window collisions injure or kill birds instantly.",
+                "example_vi": "Những vụ va chạm mạnh vào cửa kính làm chim bị thương hoặc chết ngay lập tức."
+              },
+              {
+                "phrase": "uncontrolled solar glare",
+                "level": "B2",
+                "vi": "ánh sáng chói mặt trời không được kiểm soát",
+                "type": "n.phr",
+                "example_en": "Uncontrolled solar glare causes monitor washouts.",
+                "example_vi": "Ánh sáng chói mặt trời không được kiểm soát làm lóa màn hình."
+              },
+              {
+                "phrase": "diminish cognitive performance",
+                "level": "B2",
+                "vi": "làm suy giảm hiệu suất nhận thức / tập trung",
+                "type": "v.phr",
+                "example_en": "Discomfort and headaches diminish cognitive performance.",
+                "example_vi": "Sự khó chịu và đau đầu làm suy giảm hiệu suất nhận thức."
+              },
+              {
+                "phrase": "catastrophic avian collisions",
+                "level": "B2",
+                "vi": "những vụ va chạm chết chóc thảm khốc của loài chim",
+                "type": "n.phr",
+                "example_en": "Glass buildings cause catastrophic avian collisions.",
+                "example_vi": "Các tòa nhà kính gây ra những vụ va chạm chết chóc thảm khốc của loài chim."
+              },
+              {
+                "phrase": "deceitful reflections of open skies",
+                "level": "B2",
+                "vi": "hình ảnh phản chiếu đánh lừa của bầu trời rộng mở",
+                "type": "n.phr",
+                "example_en": "Deceitful reflections of open skies confuse birds.",
+                "example_vi": "Hình ảnh phản chiếu đánh lừa của bầu trời mở làm chim bị nhầm lẫn."
+              },
+              {
+                "phrase": "sustain lethal trauma",
+                "level": "B2",
+                "vi": "bị chấn thương gây tử vong",
+                "type": "v.phr",
+                "example_en": "Birds sustain lethal trauma upon hitting reinforced glass.",
+                "example_vi": "Chim bị chấn thương gây tử vong khi va vào kính cường lực."
+              }
+            ],
+            "collocation_groups": [
+              {
+                "id": "group_energy_emissions",
+                "name": "Nhóm 1: Tiêu thụ năng lượng & Phát thải carbon (Energy Consumption & Carbon Footprint)",
+                "icon": "⚡",
+                "badge": "Tiêu thụ năng lượng",
+                "items": [
+                  {
+                    "phrase": "glass office buildings",
+                    "level": "B1",
+                    "vi": "tòa nhà văn phòng bằng kính",
+                    "type": "n.phr",
+                    "example_en": "Many companies operate in glass office buildings.",
+                    "example_vi": "Nhiều công ty hoạt động trong các tòa nhà văn phòng bằng kính."
+                  },
+                  {
+                    "phrase": "consume a large amount of electricity",
+                    "level": "B1",
+                    "vi": "tiêu thụ lượng điện năng lớn",
+                    "type": "v.phr",
+                    "example_en": "Glass skyscrapers consume a large amount of electricity.",
+                    "example_vi": "Các tòa nhà chọc trời bằng kính tiêu thụ lượng điện năng lớn."
+                  },
+                  {
+                    "phrase": "rely heavily on air conditioning",
+                    "level": "B1",
+                    "vi": "phụ thuộc nhiều vào điều hòa không khí",
+                    "type": "v.phr",
+                    "example_en": "These towers rely heavily on air conditioning in summer.",
+                    "example_vi": "Những tòa tháp này phụ thuộc nhiều vào điều hòa không khí vào mùa hè."
+                  },
+                  {
+                    "phrase": "increase carbon emissions",
+                    "level": "B1",
+                    "vi": "làm tăng lượng khí thải carbon",
+                    "type": "v.phr",
+                    "example_en": "Excessive power usage will increase carbon emissions.",
+                    "example_vi": "Sử dụng điện quá mức sẽ làm tăng lượng khí thải carbon."
+                  },
+                  {
+                    "phrase": "fully glazed facades",
+                    "level": "B2",
+                    "vi": "mặt ngoài bọc kính toàn phần",
+                    "type": "n.phr",
+                    "example_en": "Fully glazed facades require constant climate control.",
+                    "example_vi": "Mặt ngoài bọc kính toàn phần đòi hỏi điều hòa vi khí hậu liên tục."
+                  },
+                  {
+                    "phrase": "operational energy consumption",
+                    "level": "B2",
+                    "vi": "mức tiêu thụ năng lượng vận hành",
+                    "type": "n.phr",
+                    "example_en": "High operational energy consumption damages urban sustainability.",
+                    "example_vi": "Mức tiêu thụ năng lượng vận hành cao làm tổn hại tính bền vững đô thị."
+                  },
+                  {
+                    "phrase": "urban carbon footprints",
+                    "level": "B2",
+                    "vi": "dấu chân carbon của các đô thị",
+                    "type": "n.phr",
+                    "example_en": "Corporate towers significantly expand urban carbon footprints.",
+                    "example_vi": "Các tòa tháp doanh nghiệp làm mở rộng đáng kể dấu chân carbon đô thị."
+                  },
+                  {
+                    "phrase": "thermal heat transfer",
+                    "level": "B2",
+                    "vi": "sự truyền nhiệt qua vật liệu",
+                    "type": "n.phr",
+                    "example_en": "Rapid thermal heat transfer overheats glass rooms.",
+                    "example_vi": "Sự truyền nhiệt nhanh chóng làm các phòng kính bị quá nhiệt."
+                  },
+                  {
+                    "phrase": "contribute to global climate change",
+                    "level": "B2",
+                    "vi": "góp phần vào biến đổi khí hậu toàn cầu",
+                    "type": "v.phr",
+                    "example_en": "Building emissions contribute to global climate change.",
+                    "example_vi": "Khí thải từ các tòa nhà góp phần vào biến đổi khí hậu toàn cầu."
+                  }
+                ]
+              },
+              {
+                "id": "group_light_pollution",
+                "name": "Nhóm 2: Ô nhiễm ánh sáng & Xáo trộn ban đêm (Light Pollution & Nocturnal Disruption)",
+                "icon": "💡",
+                "badge": "Ô nhiễm ánh sáng",
+                "items": [
+                  {
+                    "phrase": "light pollution",
+                    "level": "B1",
+                    "vi": "ô nhiễm ánh sáng",
+                    "type": "n.phr",
+                    "example_en": "Light pollution is a growing issue in big cities.",
+                    "example_vi": "Ô nhiễm ánh sáng là một vấn đề ngày càng tăng ở các thành phố lớn."
+                  },
+                  {
+                    "phrase": "bright lights at night",
+                    "level": "B1",
+                    "vi": "ánh sáng rực rỡ vào ban đêm",
+                    "type": "n.phr",
+                    "example_en": "Offices leave bright lights at night for decoration.",
+                    "example_vi": "Các văn phòng để ánh sáng rực rỡ vào ban đêm để trang trí."
+                  },
+                  {
+                    "phrase": "disrupt the sleep of residents",
+                    "level": "B1",
+                    "vi": "làm gián đoạn giấc ngủ của cư dân",
+                    "type": "v.phr",
+                    "example_en": "Shining beacons disrupt the sleep of residents nearby.",
+                    "example_vi": "Những luồng sáng chói lọi làm gián đoạn giấc ngủ của cư dân gần đó."
+                  },
+                  {
+                    "phrase": "natural behavior of wildlife",
+                    "level": "B1",
+                    "vi": "tập tính tự nhiên của động vật hoang dã",
+                    "type": "n.phr",
+                    "example_en": "City glare disturbs the natural behavior of wildlife.",
+                    "example_vi": "Ánh sáng chói đô thị quấy rầy tập tính tự nhiên của động vật hoang dã."
+                  },
+                  {
+                    "phrase": "pervasive light pollution",
+                    "level": "B2",
+                    "vi": "ô nhiễm ánh sáng lan rộng khắp nơi",
+                    "type": "n.phr",
+                    "example_en": "Pervasive light pollution obscures the night sky.",
+                    "example_vi": "Ô nhiễm ánh sáng lan rộng làm che khuất bầu trời đêm."
+                  },
+                  {
+                    "phrase": "nocturnal environment",
+                    "level": "B2",
+                    "vi": "môi trường ban đêm",
+                    "type": "n.phr",
+                    "example_en": "Commercial high-rises alter the nocturnal environment.",
+                    "example_vi": "Các tòa nhà thương mại cao tầng làm biến đổi môi trường ban đêm."
+                  },
+                  {
+                    "phrase": "impair circadian rhythms",
+                    "level": "B2",
+                    "vi": "làm suy giảm nhịp sinh học",
+                    "type": "v.phr",
+                    "example_en": "Constant night glare can impair circadian rhythms.",
+                    "example_vi": "Ánh sáng chói lóa ban đêm liên tục có thể làm suy giảm nhịp sinh học."
+                  },
+                  {
+                    "phrase": "disorient nocturnal migratory birds",
+                    "level": "B2",
+                    "vi": "làm mất phương hướng của chim di cư ban đêm",
+                    "type": "v.phr",
+                    "example_en": "Bright office spires disorient nocturnal migratory birds.",
+                    "example_vi": "Những ngọn tháp văn phòng sáng rực làm mất phương hướng của chim di cư ban đêm."
+                  },
+                  {
+                    "phrase": "radiant beacons",
+                    "level": "B2",
+                    "vi": "những ngọn hải đăng phát sáng rực rỡ",
+                    "type": "n.phr",
+                    "example_en": "Glass skyscrapers turn into radiant beacons after dark.",
+                    "example_vi": "Những tòa nhà chọc trời bằng kính biến thành những ngọn hải đăng rực rỡ sau khi trời tối."
+                  }
+                ]
+              },
+              {
+                "id": "group_heat_island",
+                "name": "Nhóm 3: Nhiệt độ bên trong & Đảo nhiệt đô thị (Indoor Heat & Urban Heat Islands)",
+                "icon": "🌡️",
+                "badge": "Nhiệt độ đô thị",
+                "items": [
+                  {
+                    "phrase": "increase indoor temperatures",
+                    "level": "B1",
+                    "vi": "làm tăng nhiệt độ bên trong",
+                    "type": "v.phr",
+                    "example_en": "Direct sunlight increases indoor temperatures quickly.",
+                    "example_vi": "Ánh nắng trực tiếp làm tăng nhiệt độ bên trong rất nhanh."
+                  },
+                  {
+                    "phrase": "absorb heat from the sun",
+                    "level": "B1",
+                    "vi": "hấp thụ nhiệt lượng từ mặt trời",
+                    "type": "v.phr",
+                    "example_en": "Glass panels absorb heat from the sun throughout the day.",
+                    "example_vi": "Các tấm kính hấp thụ nhiệt từ mặt trời suốt cả ngày."
+                  },
+                  {
+                    "phrase": "make cities hotter",
+                    "level": "B1",
+                    "vi": "làm các thành phố trở nên nóng bức hơn",
+                    "type": "v.phr",
+                    "example_en": "Reflective structures make cities hotter during summer months.",
+                    "example_vi": "Các công trình phản quang làm các thành phố nóng hơn vào các tháng hè."
+                  },
+                  {
+                    "phrase": "urban heat island effect",
+                    "level": "B2",
+                    "vi": "hiệu ứng đảo nhiệt đô thị",
+                    "type": "n.phr",
+                    "example_en": "Glass architecture exacerbates the urban heat island effect.",
+                    "example_vi": "Kiến trúc kính làm trầm trọng thêm hiệu ứng đảo nhiệt đô thị."
+                  },
+                  {
+                    "phrase": "localized greenhouse effects",
+                    "level": "B2",
+                    "vi": "hiệu ứng nhà kính cục bộ",
+                    "type": "n.phr",
+                    "example_en": "Unshaded windows generate localized greenhouse effects.",
+                    "example_vi": "Cửa sổ không che chắn tạo ra hiệu ứng nhà kính cục bộ."
+                  },
+                  {
+                    "phrase": "trap solar radiation",
+                    "level": "B2",
+                    "vi": "giữ lại bức xạ mặt trời",
+                    "type": "v.phr",
+                    "example_en": "Sealed glass towers trap solar radiation continuously.",
+                    "example_vi": "Các tháp kính đóng kín giữ lại bức xạ mặt trời liên tục."
+                  },
+                  {
+                    "phrase": "expel mechanical waste heat",
+                    "level": "B2",
+                    "vi": "thải nhiệt cơ học ra ngoài môi trường",
+                    "type": "v.phr",
+                    "example_en": "Cooling units expel mechanical waste heat onto streets.",
+                    "example_vi": "Các thiết bị làm mát thải nhiệt cơ học ra đường phố."
+                  },
+                  {
+                    "phrase": "elevated ambient temperatures",
+                    "level": "B2",
+                    "vi": "nhiệt độ môi trường xung quanh tăng cao",
+                    "type": "n.phr",
+                    "example_en": "Downtown zones suffer from elevated ambient temperatures.",
+                    "example_vi": "Các khu vực trung tâm phải chịu nhiệt độ môi trường xung quanh tăng cao."
+                  },
+                  {
+                    "phrase": "degrade metropolitan air quality",
+                    "level": "B2",
+                    "vi": "làm suy giảm chất lượng không khí đô thị",
+                    "type": "v.phr",
+                    "example_en": "Heat pockets degrade metropolitan air quality.",
+                    "example_vi": "Các túi nhiệt làm suy giảm chất lượng không khí của vùng đô thị."
+                  }
+                ]
+              },
+              {
+                "id": "group_health_birds",
+                "name": "Nhóm 4: Mỏi mắt, Căng thẳng & Hiểm họa loài chim (Employee Strain & Avian Hazards)",
+                "icon": "🦅",
+                "badge": "Sức khỏe & Sinh thái",
+                "items": [
+                  {
+                    "phrase": "suffer from eye strain",
+                    "level": "B1",
+                    "vi": "bị mỏi mắt do làm việc máy tính",
+                    "type": "v.phr",
+                    "example_en": "Office employees suffer from eye strain from window glare.",
+                    "example_vi": "Nhân viên văn phòng bị mỏi mắt do ánh sáng chói từ cửa sổ."
+                  },
+                  {
+                    "phrase": "lack of connection with nature",
+                    "level": "B1",
+                    "vi": "sự thiếu kết nối với thiên nhiên",
+                    "type": "n.phr",
+                    "example_en": "A lack of connection with nature increases worker stress.",
+                    "example_vi": "Sự thiếu kết nối với thiên nhiên làm tăng căng thẳng cho người lao động."
+                  },
+                  {
+                    "phrase": "fly into windows",
+                    "level": "B1",
+                    "vi": "bay đâm vào cửa sổ kính",
+                    "type": "v.phr",
+                    "example_en": "Birds frequently fly into windows because of reflections.",
+                    "example_vi": "Chim thường xuyên bay đâm vào cửa sổ do hình ảnh phản chiếu."
+                  },
+                  {
+                    "phrase": "injure or kill birds",
+                    "level": "B1",
+                    "vi": "làm chim bị thương hoặc tử vong",
+                    "type": "v.phr",
+                    "example_en": "Violent window collisions injure or kill birds instantly.",
+                    "example_vi": "Những vụ va chạm mạnh vào cửa kính làm chim bị thương hoặc chết ngay lập tức."
+                  },
+                  {
+                    "phrase": "uncontrolled solar glare",
+                    "level": "B2",
+                    "vi": "ánh sáng chói mặt trời không được kiểm soát",
+                    "type": "n.phr",
+                    "example_en": "Uncontrolled solar glare causes monitor washouts.",
+                    "example_vi": "Ánh sáng chói mặt trời không được kiểm soát làm lóa màn hình."
+                  },
+                  {
+                    "phrase": "diminish cognitive performance",
+                    "level": "B2",
+                    "vi": "làm suy giảm hiệu suất nhận thức / tập trung",
+                    "type": "v.phr",
+                    "example_en": "Discomfort and headaches diminish cognitive performance.",
+                    "example_vi": "Sự khó chịu và đau đầu làm suy giảm hiệu suất nhận thức."
+                  },
+                  {
+                    "phrase": "catastrophic avian collisions",
+                    "level": "B2",
+                    "vi": "những vụ va chạm chết chóc thảm khốc của loài chim",
+                    "type": "n.phr",
+                    "example_en": "Glass buildings cause catastrophic avian collisions.",
+                    "example_vi": "Các tòa nhà kính gây ra những vụ va chạm chết chóc thảm khốc của loài chim."
+                  },
+                  {
+                    "phrase": "deceitful reflections of open skies",
+                    "level": "B2",
+                    "vi": "hình ảnh phản chiếu đánh lừa của bầu trời rộng mở",
+                    "type": "n.phr",
+                    "example_en": "Deceitful reflections of open skies confuse birds.",
+                    "example_vi": "Hình ảnh phản chiếu đánh lừa của bầu trời mở làm chim bị nhầm lẫn."
+                  },
+                  {
+                    "phrase": "sustain lethal trauma",
+                    "level": "B2",
+                    "vi": "bị chấn thương gây tử vong",
+                    "type": "v.phr",
+                    "example_en": "Birds sustain lethal trauma upon hitting reinforced glass.",
+                    "example_vi": "Chim bị chấn thương gây tử vong khi va vào kính cường lực."
+                  }
+                ]
+              }
+            ]
+          },
+          "sample_b1": "In modern cities, <strong>working in modern glass office buildings</strong> has become very popular. While these tall towers look shiny and impressive from the outside, they cause many negative consequences for people and the environment. <strong>This essay will discuss the main effects of working in these glass structures.</strong>\n\nFirst of all, <strong>glass office buildings consume a lot of energy and increase temperatures in cities.</strong> First, <strong><em>these buildings use a very large amount of electricity.</em></strong> Glass absorbs heat from the sun easily, so air conditioning systems must run all day to keep offices cool. In addition, offices leave bright lights on continuously, so they produce huge carbon emissions. Second, <strong><em>glass skyscrapers make the surrounding urban area hotter.</em></strong> The reflection of sunlight from glass walls heats up city streets, and this problem causes uncomfortable living conditions for local residents.\n\nFurthermore, <strong>working in glass buildings harms employee health and threatens wildlife.</strong> First, <strong><em>office workers frequently suffer from stress and eye strain.</em></strong> Strong sunlight reflecting through large windows creates severe glare on computer screens, so employees easily get tired eyes and painful headaches. Moreover, closed glass rooms lack fresh air, so workers feel disconnected from nature and experience high stress levels. Second, <strong><em>glass towers create deadly dangers for birds.</em></strong> Clean glass mirrors the blue sky and green trees, so flying birds cannot see the solid glass. As a result, millions of birds fly into windows and die every year.\n\nIn conclusion, <strong>working in glass office buildings</strong> produces negative impacts on energy consumption, urban temperature, human well-being, and bird life. Architects and city planners should design eco-friendly buildings with solar shading and bird-safe glass to protect both people and urban nature.",
+          "translation_b1": "Ở các thành phố hiện đại, <strong>việc làm việc trong các tòa nhà văn phòng bằng kính hiện đại</strong> đã trở nên rất phổ biến. Mặc dù những tòa tháp cao này trông sáng bóng và ấn tượng từ bên ngoài, chúng gây ra nhiều hậu quả tiêu cực đối với con người và môi trường. <strong>Bài luận này sẽ thảo luận về những ảnh hưởng chính của việc làm việc trong các công trình kính này.</strong>\n\nTrước hết, <strong>các tòa nhà văn phòng bằng kính tiêu thụ nhiều năng lượng và làm tăng nhiệt độ ở các thành phố.</strong> Thứ nhất, <strong><em>những tòa nhà này sử dụng một lượng điện năng rất lớn.</em></strong> Kính hấp thụ nhiệt từ mặt trời dễ dàng, vì vậy hệ thống điều hòa không khí phải hoạt động cả ngày để giữ cho văn phòng mát mẻ. Ngoài ra, các văn phòng bật đèn sáng liên tục, do đó chúng tạo ra lượng khí thải carbon khổng lồ. Thứ hai, <strong><em>các tòa nhà chọc trời bằng kính làm cho khu vực đô thị xung quanh nóng hơn.</em></strong> Sự phản chiếu ánh nắng từ các bức tường kính làm nóng các đường phố, và vấn đề này gây ra điều kiện sống khó chịu cho cư dân địa phương.\n\nHơn nữa, <strong>làm việc trong các tòa nhà kính gây hại cho sức khỏe nhân viên và đe dọa động vật hoang dã.</strong> Thứ nhất, <strong><em>nhân viên văn phòng thường xuyên bị căng thẳng và mỏi mắt.</em></strong> Ánh nắng chói chang phản chiếu qua các cửa sổ lớn tạo ra độ chói nghiêm trọng trên màn hình máy tính, vì vậy nhân viên dễ bị mỏi mắt và đau đầu. Hơn nữa, các phòng kính đóng kín thiếu không khí trong lành, cho nên người lao động cảm thấy tách biệt với thiên nhiên và trải qua mức độ căng thẳng cao. Thứ hai, <strong><em>các tòa tháp kính tạo ra những mối nguy hiểm chết người đối với loài chim.</em></strong> Kính sạch phản chiếu bầu trời xanh và cây cối, vì thế chim đang bay không thể nhìn thấy kính cứng. Kết quả là hàng triệu con chim bay đâm vào cửa sổ và chết mỗi năm.\n\nTóm lại, <strong>làm việc trong các tòa nhà văn phòng bằng kính</strong> tạo ra những tác động tiêu cực đến mức tiêu thụ năng lượng, nhiệt độ đô thị, sức khỏe con người và đời sống của loài chim. Các kiến trúc sư và nhà quy hoạch đô thị nên thiết kế các tòa nhà thân thiện với môi trường có tấm che nắng và kính an toàn cho chim để bảo vệ cả con người lẫn thiên nhiên đô thị.",
+          "sample_b2": "In contemporary architecture, <strong>modern glass office buildings</strong> have become iconic symbols of urban prosperity and economic dynamism. Across major metropolitan centers, commercial enterprises increasingly inhabit fully glazed skyscrapers designed with transparent aesthetics. However, beneath their sleek exterior, these architectural marvels generate substantial ecological and occupational repercussions. <strong>This essay will analyze the principal effects of working in glass high-rises, examining excessive energy expenditure, ambient temperature elevation, occupational health detriments, and ecological hazards to bird populations.</strong>\n\nTo begin with, <strong>fully glazed corporate architecture triggers massive energy consumption while exacerbating urban climate challenges.</strong> First, <strong><em>poor thermal insulation in extensive glass facades demands extraordinary amounts of electrical power.</em></strong> Because glass conducts and traps solar radiation efficiently, interior spaces heat up rapidly during daylight hours. Consequently, massive industrial heating, ventilation, and air conditioning systems must operate at maximum capacity year-round, generating excessive electricity demands and intensifying metropolitan carbon emissions. Second, <strong><em>these reflective structures significantly elevate ambient temperatures across urban centers.</em></strong> By expelling enormous volumes of mechanical waste heat and reflecting intense solar beams onto adjacent streets, glass towers magnify the urban heat island effect, degrading the outdoor comfort and air quality for nearby communities.\n\nFurthermore, <strong>working within glass-clad environments undermines human well-being and poses lethal threats to wildlife.</strong> On the one hand, <strong><em>uncontrolled solar exposure and visual glare compromise the health and productivity of office personnel.</em></strong> Intense sunlight reflecting off exterior glass creates severe monitor reflections, which frequently provokes chronic eye strain, migraines, and cognitive fatigue among desk-bound workers. Additionally, working inside sealed transparent enclosures devoid of operable windows or natural ventilation fosters psychological detachment from the natural environment. On the other hand, <strong><em>glass skyscrapers present a catastrophic peril to avian species.</em></strong> Highly reflective surfaces mirror surrounding vegetation and open skies, deceiving migratory birds into flying directly toward transparent facades at full speed. As a result, countless birds suffer fatal collisions annually, severely threatening urban biodiversity.\n\nIn conclusion, <strong>working in modern glass office buildings</strong> entails serious drawbacks, including unsustainable energy usage, microclimate disruption, visual fatigue for employees, and catastrophic bird mortality. To reconcile corporate modernization with ecological sustainability, city planners and developers must implement stricter building standards, including solar-shading devices and bird-friendly glass treatments.",
+          "translation_b2": "Trong kiến trúc đương đại, <strong>các tòa nhà văn phòng bằng kính hiện đại</strong> đã trở thành biểu tượng mang tính biểu tượng của sự thịnh vượng đô thị và tính năng động kinh tế. Tại các trung tâm đô thị lớn, các doanh nghiệp thương mại ngày càng có xu hướng làm việc trong các tòa nhà chọc trời bọc kính được thiết kế với tính thẩm mỹ trong suốt. Tuy nhiên, đằng sau vẻ ngoài bóng bẩy, những kỳ quan kiến trúc này tạo ra nhiều hậu quả đáng kể về mặt sinh thái và sức khỏe nghề nghiệp. <strong>Bài luận này sẽ phân tích các ảnh hưởng chính của việc làm việc trong các tòa nhà cao tầng bằng kính, xem xét mức tiêu hao năng lượng quá mức, sự gia tăng nhiệt độ môi trường, các tổn hại sức khỏe nghề nghiệp và các mối nguy hiểm sinh thái đối với quần thể chim.</strong>\n\nTrước hết, <strong>kiến trúc doanh nghiệp bọc kính hoàn toàn kích hoạt mức tiêu thụ năng lượng khổng lồ đồng thời làm trầm trọng thêm các thách thức khí hậu đô thị.</strong> Thứ nhất, <strong><em>khả năng cách nhiệt kém ở các mặt kính rộng lớn đòi hỏi nguồn điện năng phi thường.</em></strong> Bởi vì kính dẫn nhiệt và giữ lại bức xạ mặt trời rất hiệu quả, các không gian bên trong nóng lên nhanh chóng vào ban ngày. Do đó, các hệ thống sưởi, thông gió và điều hòa không khí công nghiệp quy mô lớn phải hoạt động hết công suất quanh năm, tạo ra nhu cầu điện năng quá mức và làm tăng lượng khí thải carbon đô thị. Thứ hai, <strong><em>những công trình phản quang này làm tăng đáng kể nhiệt độ môi trường xung quanh tại các trung tâm đô thị.</em></strong> Bằng cách thải ra lượng nhiệt cơ học khổng lồ và phản xạ các chùm bức xạ mặt trời gay gắt xuống các đường phố lân cận, các tháp kính khuếch đại hiệu ứng đảo nhiệt đô thị, làm suy giảm sự thoải mái ngoài trời và chất lượng không khí cho các cộng đồng xung quanh.\n\nHơn nữa, <strong>làm việc bên trong môi trường bọc kính làm suy giảm sức khỏe con người và đặt ra các mối đe dọa chết người đối với động vật hoang dã.</strong> Một mặt, <strong><em>sự tiếp xúc với ánh nắng mặt trời không được kiểm soát và độ chói thị giác làm tổn hại sức khỏe và năng suất của nhân viên văn phòng.</em></strong> Ánh nắng gay gắt phản chiếu từ kính bên ngoài tạo ra sự phản quang nghiêm trọng trên màn hình, điều này thường xuyên gây ra mỏi mắt mãn tính, chứng đau nửa đầu và mệt mỏi nhận thức ở những người làm việc bàn giấy. Ngoài ra, làm việc bên trong các khối không gian kín trong suốt không có cửa sổ mở được hoặc thông gió tự nhiên thúc đẩy sự tách rời tâm lý khỏi môi trường tự nhiên. Mặt khác, <strong><em>các tòa nhà chọc trời bằng kính tạo ra mối nguy hiểm thảm khốc cho các loài chim.</em></strong> Các bề mặt có độ phản chiếu cao phản chiếu thảm thực vật xung quanh và bầu trời rộng mở, đánh lừa các loài chim di cư bay thẳng vào các mặt kính với tốc độ tối đa. Kết quả là vô số loài chim bị va chạm dẫn đến tử vong hằng năm, đe dọa nghiêm trọng đến đa dạng sinh học đô thị.\n\nTóm lại, <strong>làm việc trong các tòa nhà văn phòng bằng kính hiện đại</strong> mang lại nhiều bất lợi nghiêm trọng, bao gồm việc sử dụng năng lượng thiếu bền vững, gián đoạn vi khí hậu, mệt mỏi thị giác cho nhân viên và tỷ lệ tử vong thảm khốc ở loài chim. Để dung hòa giữa hiện đại hóa doanh nghiệp với tính bền vững sinh thái, các nhà quy hoạch và nhà phát triển đô thị phải áp dụng các tiêu chuẩn xây dựng nghiêm ngặt hơn, bao gồm các thiết bị che nắng và các giải pháp kính an toàn cho chim."
         }
       }
     ]
