@@ -262,7 +262,7 @@ function switchCategory(catId) {
   } else if (currentCategory.id === 2) {
     let cs = 0, ce = 0, es = 0, oc = 0, oe = 0, os = 0;
     currentCategory.topics.forEach(t => {
-      const rawTag = (t.tags || '').trim();
+      const rawTag = (Array.isArray(t.tags) ? t.tags.join(', ') : (t.tags || '')).trim();
       let firstTag = '';
       if (rawTag.includes(']')) {
         firstTag = rawTag.split(']')[0].trim() + ']';
@@ -450,7 +450,7 @@ function renderCategoryTopics(searchQuery = '') {
       createGroupSection('NHÓM 2: CHỈ PHÂN TÍCH THUẬN LỢI', '✨', '#10b981', benefitsOnlyList);
     } else if (currentCategory.id === 2) {
       const getCategory2Group = (t) => {
-        const tag = (t.tags || '').toLowerCase();
+        const tag = (Array.isArray(t.tags) ? t.tags.join(', ') : (t.tags || '')).toLowerCase();
         const prompt = (t.prompt || '').toLowerCase();
         
         // 1. Check details.ideas_b1 keys if present
@@ -1800,7 +1800,7 @@ function buildTranslationExercises(topic, transLevel, category) {
   let benefitLabel = isCausesSolutions ? "Nguyên nhân" : (isOpinion ? "Lý do" : (isDiscussion ? "Quan điểm 1" : "Lợi ích"));
   let drawbackLabel = isCausesSolutions ? "Giải pháp" : (isOpinion ? "Lý do" : (isDiscussion ? "Quan điểm 2" : "Bất lợi"));
   if (isCausesSolutions) {
-    const tags = (topic.tags || '').toLowerCase();
+    const tags = (Array.isArray(topic.tags) ? topic.tags.join(', ') : (topic.tags || '')).toLowerCase();
     if (tags.includes('effect') || tags.includes('impact')) {
       if (tags.includes('cause')) {
         benefitLabel = "Nguyên nhân";
@@ -3853,7 +3853,7 @@ function renderOutline() {
   let benefitLabel = isCausesSolutions ? "CAUSES (NGUYÊN NHÂN)" : (isOpinion ? "REASONS (LÝ DO)" : (isDiscussion ? "VIEW 01 (QUAN ĐIỂM 1)" : "ADVANTAGES (LỢI ÍCH)"));
   let drawbackLabel = isCausesSolutions ? "SOLUTIONS (GIẢI PHÁP)" : (isOpinion ? "REASONS (LÝ DO)" : (isDiscussion ? "VIEW 02 (QUAN ĐIỂM 2)" : "DISADVANTAGES (BẤT LỢI)"));
   if (isCausesSolutions && currentTopic) {
-    const tags = (currentTopic.tags || '').toLowerCase();
+    const tags = (Array.isArray(currentTopic.tags) ? currentTopic.tags.join(', ') : (currentTopic.tags || '')).toLowerCase();
     if (tags.includes('effect') || tags.includes('impact')) {
       if (tags.includes('cause')) {
         benefitLabel = "CAUSES (NGUYÊN NHÂN)";
@@ -6627,7 +6627,7 @@ function getTopicSubtypeLabel(topic, catId) {
     return "THUẬN LỢI & BẤT LỢI";
   }
   if (catId === 2) {
-    const rawTag = (topic.tags || '').trim();
+    const rawTag = (Array.isArray(topic.tags) ? topic.tags.join(', ') : (topic.tags || '')).trim();
     let firstTag = '';
     if (rawTag.includes(']')) {
       firstTag = rawTag.split(']')[0].trim() + ']';
@@ -6936,7 +6936,7 @@ function renderStep1Reading() {
     let defaultLabel1 = 'LỢI ÍCH';
     let defaultLabel2 = 'BẤT LỢI';
     if (category.id === 2) {
-      const tags = (topic.tags || '').toLowerCase();
+      const tags = (Array.isArray(topic.tags) ? topic.tags.join(', ') : (topic.tags || '')).toLowerCase();
       if (tags.includes('effect') || tags.includes('impact')) {
         if (tags.includes('cause')) {
           defaultLabel1 = 'NGUYÊN NHÂN';

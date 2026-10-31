@@ -20240,9 +20240,7 @@ const ESSAY_DATA = [
         "id": 7,
         "title_en": "Saving freshwater resources",
         "title_vi": "Bảo vệ và tiết kiệm nguồn nước ngọt",
-        "tags": [
-          "Measures"
-        ],
+        "tags": "[Measures]",
         "context": "Freshwater is one of the most important natural resources for human life, agriculture, industry, and environmental sustainability. However, increasing population growth, climate change, pollution, and excessive water consumption have placed significant pressure on freshwater supplies in many parts of the world. As a result, protecting and conserving freshwater resources has become a major concern for governments and communities.",
         "prompt": "Write an essay to an educated reader to suggest possible measures for saving freshwater resources. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
         "has_full_details": true,
@@ -40959,9 +40957,7 @@ const ESSAY_DATA = [
         "id": 52,
         "title_en": "Effects of working in modern glass office buildings",
         "title_vi": "Ảnh hưởng của làm việc trong các toà nhà kính hiện đại",
-        "tags": [
-          "Effects"
-        ],
+        "tags": "[Effects]",
         "context": "In recent years, working in modern glass office buildings has become increasingly common in many cities. However, this type of working environment can have several effects on workers and the environment. It may consume a large amount of energy, cause light pollution, and increase stress among office workers.",
         "prompt": "Write an essay discussing the effects of working in modern glass office buildings. Give reasons for your answer and include relevant examples from your own knowledge or experience. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
         "has_full_details": true,
