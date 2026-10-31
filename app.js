@@ -1554,14 +1554,27 @@ function normalizeTextForMatching(str) {
     .trim();
 }
 
-function matchWordsInSequence(phraseWords, sentenceWords, maxGap = 2) {
+function wordsEqual(w1, w2) {
+  if (w1 === w2) return true;
+  if (!w1 || !w2) return false;
+  // Plural & verb inflection checks: -s, -es, -d, -ed, -ing, -ies
+  if (w1 + 's' === w2 || w2 + 's' === w1) return true;
+  if (w1 + 'es' === w2 || w2 + 'es' === w1) return true;
+  if (w1 + 'd' === w2 || w2 + 'd' === w1) return true;
+  if (w1 + 'ed' === w2 || w2 + 'ed' === w1) return true;
+  if (w1.replace(/ing$/, '') === w2 || w2.replace(/ing$/, '') === w1) return true;
+  if (w1.replace(/ies$/, 'y') === w2 || w2.replace(/ies$/, 'y') === w1) return true;
+  return false;
+}
+
+function matchWordsInSequence(phraseWords, sentenceWords, maxGap = 3) {
   if (!phraseWords || phraseWords.length === 0) return false;
   if (!sentenceWords || sentenceWords.length === 0) return false;
   
   let pIdx = 0;
   let lastSIdx = -1;
   for (let sIdx = 0; sIdx < sentenceWords.length; sIdx++) {
-    if (sentenceWords[sIdx] === phraseWords[pIdx]) {
+    if (wordsEqual(sentenceWords[sIdx], phraseWords[pIdx])) {
       if (pIdx === 0 || (sIdx - lastSIdx - 1) <= maxGap) {
         pIdx++;
         lastSIdx = sIdx;
@@ -1570,7 +1583,7 @@ function matchWordsInSequence(phraseWords, sentenceWords, maxGap = 2) {
         }
       } else {
         pIdx = 0;
-        if (sentenceWords[sIdx] === phraseWords[0]) {
+        if (wordsEqual(sentenceWords[sIdx], phraseWords[0])) {
           pIdx = 1;
           lastSIdx = sIdx;
         }
@@ -1605,15 +1618,20 @@ function filterCollocationsForSentence(sentenceVi, sentenceEn, collocations) {
     if (colVi && normVi.includes(colVi)) return true;
     if (colEn && normEn.includes(colEn)) return true;
 
-    // 2. In-sequence phrase matching allowing up to 2 filler words between keywords
+    // 2. In-sequence phrase matching allowing up to 3 filler words between keywords
     const enWords = colEn.split(' ').filter(w => w.length > 2 && !['and', 'the', 'for', 'with', 'that', 'this', 'are', 'can', 'may', 'has', 'have', 'from', 'also', 'their', 'some', 'sb', 'sth'].includes(w));
     const viWords = colVi.split(' ').filter(w => w.length > 1 && !['và', 'các', 'những', 'của', 'trong', 'được', 'cho', 'có', 'là', 'nhiều', 'thể', 'cũng', 'một', 'số'].includes(w));
 
-    if (enWords.length >= 2 && matchWordsInSequence(enWords, sWordsEn, 2)) {
+    if (enWords.length >= 2 && matchWordsInSequence(enWords, sWordsEn, 3)) {
       return true;
     }
 
-    if (viWords.length >= 2 && matchWordsInSequence(viWords, sWordsVi, 2)) {
+    if (viWords.length >= 2 && matchWordsInSequence(viWords, sWordsVi, 3)) {
+      return true;
+    }
+
+    // 3. Short key phrase / key content word match
+    if (enWords.length === 1 && enWords[0].length >= 4 && sWordsEn.some(sw => wordsEqual(sw, enWords[0]))) {
       return true;
     }
 
@@ -1625,6 +1643,46 @@ function filterCollocationsForSentence(sentenceVi, sentenceEn, collocations) {
     const isSubphrase = matched.some(other => other !== c && other.vi.includes(c.vi) && other.en.includes(c.en));
     return !isSubphrase;
   });
+}
+
+// Guarantee at least 4-6 rich vocabulary suggestions for any sentence
+function getRichCollocationsForSentence(viSentence, enSentence, itemCollocations, topicFallbackCols, targetMin = 4, targetMax = 6) {
+  // Step 1: Match directly from current idea item collocations
+  let matched = filterCollocationsForSentence(viSentence, enSentence, itemCollocations);
+
+  // Step 2: Also match against topic-level vocabulary
+  if (topicFallbackCols && topicFallbackCols.length > 0) {
+    const topicMatched = filterCollocationsForSentence(viSentence, enSentence, topicFallbackCols);
+    topicMatched.forEach(col => {
+      if (!matched.some(m => (m.en || '').toLowerCase() === (col.en || '').toLowerCase())) {
+        matched.push(col);
+      }
+    });
+  }
+
+  // Step 3: If fewer than targetMin, supplement from itemCollocations
+  if (matched.length < targetMin && itemCollocations && itemCollocations.length > 0) {
+    for (const col of itemCollocations) {
+      if (!col || !col.en) continue;
+      if (!matched.some(m => (m.en || '').toLowerCase() === (col.en || '').toLowerCase())) {
+        matched.push(col);
+        if (matched.length >= targetMin) break;
+      }
+    }
+  }
+
+  // Step 4: If still fewer than targetMin, supplement from topicFallbackCols
+  if (matched.length < targetMin && topicFallbackCols && topicFallbackCols.length > 0) {
+    for (const col of topicFallbackCols) {
+      if (!col || !col.en) continue;
+      if (!matched.some(m => (m.en || '').toLowerCase() === (col.en || '').toLowerCase())) {
+        matched.push(col);
+        if (matched.length >= targetMin) break;
+      }
+    }
+  }
+
+  return matched.slice(0, targetMax);
 }
 
 // Helper to split paragraph into sentences
@@ -1853,10 +1911,7 @@ function buildTranslationExercises(topic, transLevel, category) {
       const baseTitle = item.title ? item.title : (isDiscussion ? benefitLabel : `${benefitLabel} 0${idx+1}`);
       const itemCollocations = (item.collocations && item.collocations.length > 0) ? item.collocations : topicFallbackCols;
       // 1. Point
-      let pointCols = filterCollocationsForSentence(item.point_vi, item.point_en, itemCollocations);
-      if (!pointCols || pointCols.length === 0) {
-        pointCols = (itemCollocations || []).slice(0, 3);
-      }
+      let pointCols = getRichCollocationsForSentence(item.point_vi, item.point_en, itemCollocations, topicFallbackCols, 4, 6);
       exercises.push({
         type: 'benefit_point',
         title: `${baseTitle}<br/>Luận điểm`,
@@ -1870,14 +1925,7 @@ function buildTranslationExercises(topic, transLevel, category) {
       viSentences.forEach((viS, sIdx) => {
         const enS = enSentences[sIdx] || "";
         const sNum = String(sIdx + 1).padStart(2, '0');
-        let evCols = filterCollocationsForSentence(viS, enS, itemCollocations);
-        if (!evCols || evCols.length === 0) {
-          if (itemCollocations.length >= 4) {
-            evCols = sIdx === 0 ? itemCollocations.slice(1, 3) : itemCollocations.slice(2, 4);
-          } else {
-            evCols = (itemCollocations || []).slice(0, 3);
-          }
-        }
+        let evCols = getRichCollocationsForSentence(viS, enS, itemCollocations, topicFallbackCols, 4, 6);
         exercises.push({
           type: 'benefit_evidence',
           title: `${baseTitle}<br/>Luận cứ ${sNum}`,
@@ -1895,10 +1943,7 @@ function buildTranslationExercises(topic, transLevel, category) {
       const baseTitle = item.title ? item.title : (isDiscussion ? drawbackLabel : `${drawbackLabel} 0${idx+1}`);
       const itemCollocations = (item.collocations && item.collocations.length > 0) ? item.collocations : topicFallbackCols;
       // 1. Point
-      let pointCols = filterCollocationsForSentence(item.point_vi, item.point_en, itemCollocations);
-      if (!pointCols || pointCols.length === 0) {
-        pointCols = (itemCollocations || []).slice(0, 3);
-      }
+      let pointCols = getRichCollocationsForSentence(item.point_vi, item.point_en, itemCollocations, topicFallbackCols, 4, 6);
       exercises.push({
         type: 'drawback_point',
         title: `${baseTitle}<br/>Luận điểm`,
@@ -1912,14 +1957,7 @@ function buildTranslationExercises(topic, transLevel, category) {
       viSentences.forEach((viS, sIdx) => {
         const enS = enSentences[sIdx] || "";
         const sNum = String(sIdx + 1).padStart(2, '0');
-        let evCols = filterCollocationsForSentence(viS, enS, itemCollocations);
-        if (!evCols || evCols.length === 0) {
-          if (itemCollocations.length >= 4) {
-            evCols = sIdx === 0 ? itemCollocations.slice(1, 3) : itemCollocations.slice(2, 4);
-          } else {
-            evCols = (itemCollocations || []).slice(0, 3);
-          }
-        }
+        let evCols = getRichCollocationsForSentence(viS, enS, itemCollocations, topicFallbackCols, 4, 6);
         exercises.push({
           type: 'drawback_evidence',
           title: `${baseTitle}<br/>Luận cứ ${sNum}`,

@@ -20279,8 +20279,20 @@ const ESSAY_DATA = [
                     "vi": "nâng cao nhận thức cộng đồng"
                   },
                   {
+                    "en": "first important solution",
+                    "vi": "giải pháp quan trọng đầu tiên"
+                  },
+                  {
                     "en": "protect freshwater resources",
                     "vi": "bảo vệ nguồn nước ngọt"
+                  },
+                  {
+                    "en": "schools and local organizations",
+                    "vi": "nhà trường và các tổ chức địa phương"
+                  },
+                  {
+                    "en": "educate people",
+                    "vi": "giáo dục mọi người"
                   },
                   {
                     "en": "importance of clean water",
@@ -20291,8 +20303,16 @@ const ESSAY_DATA = [
                     "vi": "các chiến dịch môi trường"
                   },
                   {
+                    "en": "citizens",
+                    "vi": "người dân"
+                  },
+                  {
                     "en": "daily water-saving habits",
                     "vi": "thói quen tiết kiệm nước hằng ngày"
+                  },
+                  {
+                    "en": "save water every day",
+                    "vi": "tiết kiệm nước mỗi ngày"
                   }
                 ]
               },
@@ -20312,6 +20332,14 @@ const ESSAY_DATA = [
                     "vi": "các hoạt động gia đình"
                   },
                   {
+                    "en": "actively save water",
+                    "vi": "chủ động tiết kiệm nước"
+                  },
+                  {
+                    "en": "turn off taps when brushing teeth",
+                    "vi": "tắt vòi nước khi đánh răng"
+                  },
+                  {
                     "en": "turn off taps",
                     "vi": "tắt vòi nước"
                   },
@@ -20320,12 +20348,20 @@ const ESSAY_DATA = [
                     "vi": "sửa chữa đường ống rò rỉ kịp thời"
                   },
                   {
+                    "en": "leaking pipes",
+                    "vi": "đường ống rò rỉ"
+                  },
+                  {
                     "en": "collect rainwater",
                     "vi": "thu gom nước mưa"
                   },
                   {
-                    "en": "watering plants and cleaning",
-                    "vi": "tưới cây và dọn dẹp vệ sinh"
+                    "en": "watering plants or household cleaning",
+                    "vi": "tưới cây hoặc dọn dẹp nhà cửa"
+                  },
+                  {
+                    "en": "watering plants",
+                    "vi": "tưới cây"
                   }
                 ]
               },
@@ -20353,12 +20389,24 @@ const ESSAY_DATA = [
                     "vi": "vứt rác xuống kênh rạch"
                   },
                   {
+                    "en": "rivers and lakes",
+                    "vi": "sông và hồ"
+                  },
+                  {
                     "en": "treat industrial wastewater",
                     "vi": "xử lý nước thải công nghiệp"
                   },
                   {
+                    "en": "wastewater treatment",
+                    "vi": "xử lý nước thải"
+                  },
+                  {
                     "en": "natural environment",
                     "vi": "môi trường tự nhiên"
+                  },
+                  {
+                    "en": "releasing into the natural environment",
+                    "vi": "xả ra môi trường tự nhiên"
                   }
                 ]
               },
@@ -20374,12 +20422,16 @@ const ESSAY_DATA = [
                     "vi": "phương pháp nông nghiệp bền vững"
                   },
                   {
-                    "en": "use water efficiently",
-                    "vi": "sử dụng nước hiệu quả"
+                    "en": "use water more efficiently",
+                    "vi": "sử dụng nước hiệu quả hơn"
                   },
                   {
-                    "en": "install drip irrigation systems",
-                    "vi": "lắp đặt hệ thống tưới nhỏ giọt"
+                    "en": "install modern drip irrigation systems",
+                    "vi": "lắp đặt hệ thống tưới nhỏ giọt hiện đại"
+                  },
+                  {
+                    "en": "drip irrigation systems",
+                    "vi": "hệ thống tưới nhỏ giọt"
                   },
                   {
                     "en": "reduce chemical fertilizers",
@@ -20388,6 +20440,14 @@ const ESSAY_DATA = [
                   {
                     "en": "protect the soil",
                     "vi": "bảo vệ đất trồng"
+                  },
+                  {
+                    "en": "save water and protect the soil",
+                    "vi": "tiết kiệm nước và bảo vệ đất"
+                  },
+                  {
+                    "en": "agricultural practices",
+                    "vi": "phương thức canh tác nông nghiệp"
                   }
                 ]
               },
@@ -20403,16 +20463,32 @@ const ESSAY_DATA = [
                     "vi": "tăng cường công tác quản lý"
                   },
                   {
+                    "en": "invest in water infrastructure",
+                    "vi": "đầu tư vào cơ sở hạ tầng nguồn nước"
+                  },
+                  {
                     "en": "water infrastructure",
                     "vi": "cơ sở hạ tầng nguồn nước"
                   },
                   {
-                    "en": "strict laws on water use",
-                    "vi": "luật nghiêm khắc về sử dụng nước"
+                    "en": "introduce strict laws on water use",
+                    "vi": "ban hành luật nghiêm khắc về sử dụng nước"
                   },
                   {
-                    "en": "modern water treatment plants",
-                    "vi": "các nhà máy xử lý nước hiện đại"
+                    "en": "strict laws",
+                    "vi": "luật nghiêm khắc"
+                  },
+                  {
+                    "en": "build modern water treatment plants",
+                    "vi": "xây dựng nhà máy xử lý nước hiện đại"
+                  },
+                  {
+                    "en": "water treatment plants",
+                    "vi": "nhà máy xử lý nước"
+                  },
+                  {
+                    "en": "provide enough clean water",
+                    "vi": "cung cấp đủ nước sạch"
                   },
                   {
                     "en": "clean water for citizens",
@@ -20434,8 +20510,20 @@ const ESSAY_DATA = [
                     "vi": "nâng cao nhận thức cộng đồng"
                   },
                   {
+                    "en": "first important solution",
+                    "vi": "giải pháp quan trọng đầu tiên"
+                  },
+                  {
                     "en": "protect freshwater resources",
                     "vi": "bảo vệ nguồn nước ngọt"
+                  },
+                  {
+                    "en": "schools and local organizations",
+                    "vi": "nhà trường và các tổ chức địa phương"
+                  },
+                  {
+                    "en": "educate people",
+                    "vi": "giáo dục mọi người"
                   },
                   {
                     "en": "importance of clean water",
@@ -20446,8 +20534,16 @@ const ESSAY_DATA = [
                     "vi": "các chiến dịch môi trường"
                   },
                   {
+                    "en": "citizens",
+                    "vi": "người dân"
+                  },
+                  {
                     "en": "daily water-saving habits",
                     "vi": "thói quen tiết kiệm nước hằng ngày"
+                  },
+                  {
+                    "en": "save water every day",
+                    "vi": "tiết kiệm nước mỗi ngày"
                   }
                 ]
               },
@@ -20467,6 +20563,14 @@ const ESSAY_DATA = [
                     "vi": "các hoạt động gia đình"
                   },
                   {
+                    "en": "actively save water",
+                    "vi": "chủ động tiết kiệm nước"
+                  },
+                  {
+                    "en": "turn off taps when brushing teeth",
+                    "vi": "tắt vòi nước khi đánh răng"
+                  },
+                  {
                     "en": "turn off taps",
                     "vi": "tắt vòi nước"
                   },
@@ -20475,12 +20579,20 @@ const ESSAY_DATA = [
                     "vi": "sửa chữa đường ống rò rỉ kịp thời"
                   },
                   {
+                    "en": "leaking pipes",
+                    "vi": "đường ống rò rỉ"
+                  },
+                  {
                     "en": "collect rainwater",
                     "vi": "thu gom nước mưa"
                   },
                   {
-                    "en": "watering plants and cleaning",
-                    "vi": "tưới cây và dọn dẹp vệ sinh"
+                    "en": "watering plants or household cleaning",
+                    "vi": "tưới cây hoặc dọn dẹp nhà cửa"
+                  },
+                  {
+                    "en": "watering plants",
+                    "vi": "tưới cây"
                   }
                 ]
               },
@@ -20508,12 +20620,24 @@ const ESSAY_DATA = [
                     "vi": "vứt rác xuống kênh rạch"
                   },
                   {
+                    "en": "rivers and lakes",
+                    "vi": "sông và hồ"
+                  },
+                  {
                     "en": "treat industrial wastewater",
                     "vi": "xử lý nước thải công nghiệp"
                   },
                   {
+                    "en": "wastewater treatment",
+                    "vi": "xử lý nước thải"
+                  },
+                  {
                     "en": "natural environment",
                     "vi": "môi trường tự nhiên"
+                  },
+                  {
+                    "en": "releasing into the natural environment",
+                    "vi": "xả ra môi trường tự nhiên"
                   }
                 ]
               },
@@ -20529,12 +20653,16 @@ const ESSAY_DATA = [
                     "vi": "phương pháp nông nghiệp bền vững"
                   },
                   {
-                    "en": "use water efficiently",
-                    "vi": "sử dụng nước hiệu quả"
+                    "en": "use water more efficiently",
+                    "vi": "sử dụng nước hiệu quả hơn"
                   },
                   {
-                    "en": "install drip irrigation systems",
-                    "vi": "lắp đặt hệ thống tưới nhỏ giọt"
+                    "en": "install modern drip irrigation systems",
+                    "vi": "lắp đặt hệ thống tưới nhỏ giọt hiện đại"
+                  },
+                  {
+                    "en": "drip irrigation systems",
+                    "vi": "hệ thống tưới nhỏ giọt"
                   },
                   {
                     "en": "reduce chemical fertilizers",
@@ -20543,6 +20671,14 @@ const ESSAY_DATA = [
                   {
                     "en": "protect the soil",
                     "vi": "bảo vệ đất trồng"
+                  },
+                  {
+                    "en": "save water and protect the soil",
+                    "vi": "tiết kiệm nước và bảo vệ đất"
+                  },
+                  {
+                    "en": "agricultural practices",
+                    "vi": "phương thức canh tác nông nghiệp"
                   }
                 ]
               },
@@ -20558,16 +20694,32 @@ const ESSAY_DATA = [
                     "vi": "tăng cường công tác quản lý"
                   },
                   {
+                    "en": "invest in water infrastructure",
+                    "vi": "đầu tư vào cơ sở hạ tầng nguồn nước"
+                  },
+                  {
                     "en": "water infrastructure",
                     "vi": "cơ sở hạ tầng nguồn nước"
                   },
                   {
-                    "en": "strict laws on water use",
-                    "vi": "luật nghiêm khắc về sử dụng nước"
+                    "en": "introduce strict laws on water use",
+                    "vi": "ban hành luật nghiêm khắc về sử dụng nước"
                   },
                   {
-                    "en": "modern water treatment plants",
-                    "vi": "các nhà máy xử lý nước hiện đại"
+                    "en": "strict laws",
+                    "vi": "luật nghiêm khắc"
+                  },
+                  {
+                    "en": "build modern water treatment plants",
+                    "vi": "xây dựng nhà máy xử lý nước hiện đại"
+                  },
+                  {
+                    "en": "water treatment plants",
+                    "vi": "nhà máy xử lý nước"
+                  },
+                  {
+                    "en": "provide enough clean water",
+                    "vi": "cung cấp đủ nước sạch"
                   },
                   {
                     "en": "clean water for citizens",
@@ -20604,16 +20756,24 @@ const ESSAY_DATA = [
                     "vi": "các chiến dịch môi trường"
                   },
                   {
+                    "en": "essential value of clean water",
+                    "vi": "giá trị vô giá của nước sạch"
+                  },
+                  {
                     "en": "hands-on community projects",
                     "vi": "các dự án cộng đồng thực tế"
                   },
                   {
                     "en": "adopt water-saving habits",
-                    "vi": "hình thành thói quen tiết kiệm nước"
+                    "vi": "hình thành nếp sống tiết kiệm nước"
                   },
                   {
                     "en": "safeguarding local water basins",
-                    "vi": "bảo vệ các lưu vực nước địa phương"
+                    "vi": "bảo vệ nguồn nước tại địa phương"
+                  },
+                  {
+                    "en": "educational institutions",
+                    "vi": "các cơ sở giáo dục"
                   }
                 ]
               },
@@ -20625,32 +20785,48 @@ const ESSAY_DATA = [
                 "evidence_en": "Household members should make a conscious effort to turn off taps during personal hygiene and immediately repair leaking plumbing systems to prevent unneeded loss. Furthermore, installing storage tanks to collect rainwater for landscape irrigation and domestic cleaning provides a cost-effective way to preserve purified municipal water.",
                 "collocations": [
                   {
-                    "en": "water conservation",
-                    "vi": "bảo tồn / tiết kiệm nước"
+                    "en": "household water conservation",
+                    "vi": "bảo tồn nước trong hộ gia đình"
                   },
                   {
-                    "en": "curb excessive freshwater wastage",
-                    "vi": "kiểm soát sự lãng phí nước ngọt quá mức"
+                    "en": "cumulative impact",
+                    "vi": "tác động tích lũy"
                   },
                   {
-                    "en": "domestic environments",
-                    "vi": "môi trường sinh hoạt gia đình"
+                    "en": "domestic water demand",
+                    "vi": "nhu cầu nước sinh hoạt"
                   },
                   {
-                    "en": "turn off taps",
-                    "vi": "tắt vòi nước"
+                    "en": "water-efficient fixtures",
+                    "vi": "thiết bị tiết kiệm nước"
                   },
                   {
-                    "en": "repair leaking plumbing systems",
-                    "vi": "sửa chữa hệ thống đường ống rò rỉ"
+                    "en": "low-flow aerators",
+                    "vi": "đầu vòi sục khí lưu lượng thấp"
                   },
                   {
-                    "en": "collect rainwater for landscape irrigation",
-                    "vi": "thu gom nước mưa để tưới cây cảnh"
+                    "en": "dual-flush toilets",
+                    "vi": "bồn cầu hai chế độ xả"
                   },
                   {
-                    "en": "cost-effective way",
-                    "vi": "phương pháp hiệu quả về chi phí"
+                    "en": "unnecessary water dissipation",
+                    "vi": "sự lãng phí nước không cần thiết"
+                  },
+                  {
+                    "en": "rainwater harvesting systems",
+                    "vi": "hệ thống thu gom nước mưa"
+                  },
+                  {
+                    "en": "residential gardens",
+                    "vi": "vườn nhà ở"
+                  },
+                  {
+                    "en": "non-potable domestic tasks",
+                    "vi": "các công việc gia đình không dùng nước uống"
+                  },
+                  {
+                    "en": "municipal water supplies",
+                    "vi": "nguồn cấp nước đô thị"
                   }
                 ]
               },
@@ -20686,8 +20862,20 @@ const ESSAY_DATA = [
                     "vi": "xử lý nước thải hóa chất"
                   },
                   {
+                    "en": "industrial facilities",
+                    "vi": "các cơ sở công nghiệp"
+                  },
+                  {
+                    "en": "stringent filtration standards",
+                    "vi": "tiêu chuẩn lọc nghiêm ngặt"
+                  },
+                  {
                     "en": "contaminating vital groundwater reservoirs",
                     "vi": "làm ô nhiễm các tầng chứa nước ngầm quan trọng"
+                  },
+                  {
+                    "en": "groundwater reservoirs",
+                    "vi": "tầng chứa nước ngầm"
                   }
                 ]
               },
@@ -20715,12 +20903,24 @@ const ESSAY_DATA = [
                     "vi": "tưới nhỏ giọt"
                   },
                   {
+                    "en": "deliver moisture directly to plant roots",
+                    "vi": "cung cấp độ ẩm trực tiếp vào rễ cây"
+                  },
+                  {
                     "en": "minimal evaporation",
                     "vi": "sự bay hơi tối thiểu"
                   },
                   {
+                    "en": "minimizing synthetic fertilizers",
+                    "vi": "cắt giảm phân bón hóa học tổng hợp"
+                  },
+                  {
                     "en": "purified recycled wastewater",
                     "vi": "nước thải tái chế đã qua làm sạch"
+                  },
+                  {
+                    "en": "crop irrigation",
+                    "vi": "tưới tiêu cây trồng"
                   },
                   {
                     "en": "natural water reserves",
@@ -20756,12 +20956,28 @@ const ESSAY_DATA = [
                     "vi": "khai thác nước ngầm không kiểm soát"
                   },
                   {
+                    "en": "punitive fines",
+                    "vi": "các chế tài xử phạt nặng"
+                  },
+                  {
+                    "en": "aging municipal distribution pipe networks",
+                    "vi": "mạng lưới đường ống phân phối đô thị xuống cấp"
+                  },
+                  {
                     "en": "upgrade municipal distribution networks",
                     "vi": "nâng cấp mạng lưới phân phối cấp nước đô thị"
                   },
                   {
                     "en": "advanced purification plants",
                     "vi": "các nhà máy lọc nước tiên tiến"
+                  },
+                  {
+                    "en": "physical leakage",
+                    "vi": "thất thoát vật lý"
+                  },
+                  {
+                    "en": "recycling capacity",
+                    "vi": "khả năng tái chế nước"
                   }
                 ]
               }
@@ -20791,16 +21007,24 @@ const ESSAY_DATA = [
                     "vi": "các chiến dịch môi trường"
                   },
                   {
+                    "en": "essential value of clean water",
+                    "vi": "giá trị vô giá của nước sạch"
+                  },
+                  {
                     "en": "hands-on community projects",
                     "vi": "các dự án cộng đồng thực tế"
                   },
                   {
                     "en": "adopt water-saving habits",
-                    "vi": "hình thành thói quen tiết kiệm nước"
+                    "vi": "hình thành nếp sống tiết kiệm nước"
                   },
                   {
                     "en": "safeguarding local water basins",
-                    "vi": "bảo vệ các lưu vực nước địa phương"
+                    "vi": "bảo vệ nguồn nước tại địa phương"
+                  },
+                  {
+                    "en": "educational institutions",
+                    "vi": "các cơ sở giáo dục"
                   }
                 ]
               },
@@ -20812,32 +21036,48 @@ const ESSAY_DATA = [
                 "evidence_en": "Household members should make a conscious effort to turn off taps during personal hygiene and immediately repair leaking plumbing systems to prevent unneeded loss. Furthermore, installing storage tanks to collect rainwater for landscape irrigation and domestic cleaning provides a cost-effective way to preserve purified municipal water.",
                 "collocations": [
                   {
-                    "en": "water conservation",
-                    "vi": "bảo tồn / tiết kiệm nước"
+                    "en": "household water conservation",
+                    "vi": "bảo tồn nước trong hộ gia đình"
                   },
                   {
-                    "en": "curb excessive freshwater wastage",
-                    "vi": "kiểm soát sự lãng phí nước ngọt quá mức"
+                    "en": "cumulative impact",
+                    "vi": "tác động tích lũy"
                   },
                   {
-                    "en": "domestic environments",
-                    "vi": "môi trường sinh hoạt gia đình"
+                    "en": "domestic water demand",
+                    "vi": "nhu cầu nước sinh hoạt"
                   },
                   {
-                    "en": "turn off taps",
-                    "vi": "tắt vòi nước"
+                    "en": "water-efficient fixtures",
+                    "vi": "thiết bị tiết kiệm nước"
                   },
                   {
-                    "en": "repair leaking plumbing systems",
-                    "vi": "sửa chữa hệ thống đường ống rò rỉ"
+                    "en": "low-flow aerators",
+                    "vi": "đầu vòi sục khí lưu lượng thấp"
                   },
                   {
-                    "en": "collect rainwater for landscape irrigation",
-                    "vi": "thu gom nước mưa để tưới cây cảnh"
+                    "en": "dual-flush toilets",
+                    "vi": "bồn cầu hai chế độ xả"
                   },
                   {
-                    "en": "cost-effective way",
-                    "vi": "phương pháp hiệu quả về chi phí"
+                    "en": "unnecessary water dissipation",
+                    "vi": "sự lãng phí nước không cần thiết"
+                  },
+                  {
+                    "en": "rainwater harvesting systems",
+                    "vi": "hệ thống thu gom nước mưa"
+                  },
+                  {
+                    "en": "residential gardens",
+                    "vi": "vườn nhà ở"
+                  },
+                  {
+                    "en": "non-potable domestic tasks",
+                    "vi": "các công việc gia đình không dùng nước uống"
+                  },
+                  {
+                    "en": "municipal water supplies",
+                    "vi": "nguồn cấp nước đô thị"
                   }
                 ]
               },
@@ -20873,8 +21113,20 @@ const ESSAY_DATA = [
                     "vi": "xử lý nước thải hóa chất"
                   },
                   {
+                    "en": "industrial facilities",
+                    "vi": "các cơ sở công nghiệp"
+                  },
+                  {
+                    "en": "stringent filtration standards",
+                    "vi": "tiêu chuẩn lọc nghiêm ngặt"
+                  },
+                  {
                     "en": "contaminating vital groundwater reservoirs",
                     "vi": "làm ô nhiễm các tầng chứa nước ngầm quan trọng"
+                  },
+                  {
+                    "en": "groundwater reservoirs",
+                    "vi": "tầng chứa nước ngầm"
                   }
                 ]
               },
@@ -20902,12 +21154,24 @@ const ESSAY_DATA = [
                     "vi": "tưới nhỏ giọt"
                   },
                   {
+                    "en": "deliver moisture directly to plant roots",
+                    "vi": "cung cấp độ ẩm trực tiếp vào rễ cây"
+                  },
+                  {
                     "en": "minimal evaporation",
                     "vi": "sự bay hơi tối thiểu"
                   },
                   {
+                    "en": "minimizing synthetic fertilizers",
+                    "vi": "cắt giảm phân bón hóa học tổng hợp"
+                  },
+                  {
                     "en": "purified recycled wastewater",
                     "vi": "nước thải tái chế đã qua làm sạch"
+                  },
+                  {
+                    "en": "crop irrigation",
+                    "vi": "tưới tiêu cây trồng"
                   },
                   {
                     "en": "natural water reserves",
@@ -20943,12 +21207,28 @@ const ESSAY_DATA = [
                     "vi": "khai thác nước ngầm không kiểm soát"
                   },
                   {
+                    "en": "punitive fines",
+                    "vi": "các chế tài xử phạt nặng"
+                  },
+                  {
+                    "en": "aging municipal distribution pipe networks",
+                    "vi": "mạng lưới đường ống phân phối đô thị xuống cấp"
+                  },
+                  {
                     "en": "upgrade municipal distribution networks",
                     "vi": "nâng cấp mạng lưới phân phối cấp nước đô thị"
                   },
                   {
                     "en": "advanced purification plants",
                     "vi": "các nhà máy lọc nước tiên tiến"
+                  },
+                  {
+                    "en": "physical leakage",
+                    "vi": "thất thoát vật lý"
+                  },
+                  {
+                    "en": "recycling capacity",
+                    "vi": "khả năng tái chế nước"
                   }
                 ]
               }
@@ -40996,12 +41276,24 @@ const ESSAY_DATA = [
                     "vi": "tòa nhà văn phòng bằng kính"
                   },
                   {
-                    "en": "consume a large amount of electricity",
-                    "vi": "tiêu thụ lượng điện năng lớn"
+                    "en": "consume a very large amount of electricity",
+                    "vi": "tiêu thụ một lượng điện năng rất lớn"
+                  },
+                  {
+                    "en": "large amount of electricity",
+                    "vi": "lượng điện năng lớn"
+                  },
+                  {
+                    "en": "high energy consumption",
+                    "vi": "mức tiêu thụ năng lượng cao"
                   },
                   {
                     "en": "rely heavily on air conditioning",
                     "vi": "phụ thuộc nhiều vào điều hòa không khí"
+                  },
+                  {
+                    "en": "air conditioning",
+                    "vi": "điều hòa không khí"
                   },
                   {
                     "en": "electric lighting",
@@ -41010,6 +41302,14 @@ const ESSAY_DATA = [
                   {
                     "en": "increase carbon emissions",
                     "vi": "làm tăng lượng khí thải carbon"
+                  },
+                  {
+                    "en": "harm the environment",
+                    "vi": "gây hại cho môi trường"
+                  },
+                  {
+                    "en": "office equipment",
+                    "vi": "thiết bị văn phòng"
                   }
                 ]
               },
@@ -41029,16 +41329,36 @@ const ESSAY_DATA = [
                     "vi": "gây ô nhiễm ánh sáng nghiêm trọng"
                   },
                   {
+                    "en": "light pollution at night",
+                    "vi": "ô nhiễm ánh sáng vào ban đêm"
+                  },
+                  {
+                    "en": "leave bright lights on all night",
+                    "vi": "bật đèn sáng suốt đêm"
+                  },
+                  {
                     "en": "bright lights at night",
                     "vi": "ánh sáng rực rỡ vào ban đêm"
                   },
                   {
-                    "en": "disrupt the sleep",
-                    "vi": "làm gián đoạn giấc ngủ"
+                    "en": "intense light",
+                    "vi": "ánh sáng mạnh"
+                  },
+                  {
+                    "en": "disrupt the sleep of local residents",
+                    "vi": "làm gián đoạn giấc ngủ của cư dân địa phương"
+                  },
+                  {
+                    "en": "local residents",
+                    "vi": "người dân địa phương"
                   },
                   {
                     "en": "natural behavior of birds",
                     "vi": "tập tính tự nhiên của loài chim"
+                  },
+                  {
+                    "en": "modern glass architecture",
+                    "vi": "kiến trúc kính hiện đại"
                   }
                 ]
               },
@@ -41058,12 +41378,44 @@ const ESSAY_DATA = [
                     "vi": "làm tăng nhiệt độ bên trong văn phòng"
                   },
                   {
+                    "en": "temperatures inside offices",
+                    "vi": "nhiệt độ bên trong văn phòng"
+                  },
+                  {
                     "en": "surrounding environment",
                     "vi": "môi trường xung quanh"
                   },
                   {
+                    "en": "make the surrounding environment hotter",
+                    "vi": "làm môi trường xung quanh nóng hơn"
+                  },
+                  {
                     "en": "absorb heat from the sun",
                     "vi": "hấp thụ nhiệt từ mặt trời"
+                  },
+                  {
+                    "en": "absorb a lot of heat",
+                    "vi": "hấp thụ nhiều nhiệt lượng"
+                  },
+                  {
+                    "en": "heat from the sun",
+                    "vi": "nhiệt lượng từ mặt trời"
+                  },
+                  {
+                    "en": "cities with many glass buildings",
+                    "vi": "các thành phố có nhiều tòa nhà kính"
+                  },
+                  {
+                    "en": "glass buildings",
+                    "vi": "các tòa nhà kính"
+                  },
+                  {
+                    "en": "often much hotter",
+                    "vi": "thường nóng bức hơn nhiều"
+                  },
+                  {
+                    "en": "green areas",
+                    "vi": "các khu vực nhiều cây xanh"
                   },
                   {
                     "en": "urban heat",
@@ -41099,8 +41451,24 @@ const ESSAY_DATA = [
                     "vi": "bị mỏi mắt"
                   },
                   {
+                    "en": "workspace without natural plants",
+                    "vi": "không gian làm việc thiếu cây xanh"
+                  },
+                  {
+                    "en": "natural plants",
+                    "vi": "cây xanh tự nhiên"
+                  },
+                  {
                     "en": "reduce concentration",
                     "vi": "làm giảm sự tập trung"
+                  },
+                  {
+                    "en": "during work hours",
+                    "vi": "trong giờ làm việc"
+                  },
+                  {
+                    "en": "visual fatigue",
+                    "vi": "mệt mỏi thị giác"
                   }
                 ]
               },
@@ -41116,6 +41484,10 @@ const ESSAY_DATA = [
                     "vi": "mối nguy hiểm chết người với loài chim"
                   },
                   {
+                    "en": "birds in the city",
+                    "vi": "các loài chim trong thành phố"
+                  },
+                  {
                     "en": "transparent glass",
                     "vi": "kính trong suốt"
                   },
@@ -41124,12 +41496,24 @@ const ESSAY_DATA = [
                     "vi": "phản chiếu bầu trời và cây cối"
                   },
                   {
+                    "en": "cannot see the glass",
+                    "vi": "không nhìn thấy kính"
+                  },
+                  {
                     "en": "fly into windows",
                     "vi": "bay đâm vào cửa kính"
                   },
                   {
+                    "en": "leading to death",
+                    "vi": "dẫn đến tử vong"
+                  },
+                  {
                     "en": "injure or kill birds",
                     "vi": "làm chim bị thương hoặc tử vong"
+                  },
+                  {
+                    "en": "glass buildings",
+                    "vi": "các tòa nhà kính"
                   }
                 ]
               }
@@ -41147,12 +41531,24 @@ const ESSAY_DATA = [
                     "vi": "tòa nhà văn phòng bằng kính"
                   },
                   {
-                    "en": "consume a large amount of electricity",
-                    "vi": "tiêu thụ lượng điện năng lớn"
+                    "en": "consume a very large amount of electricity",
+                    "vi": "tiêu thụ một lượng điện năng rất lớn"
+                  },
+                  {
+                    "en": "large amount of electricity",
+                    "vi": "lượng điện năng lớn"
+                  },
+                  {
+                    "en": "high energy consumption",
+                    "vi": "mức tiêu thụ năng lượng cao"
                   },
                   {
                     "en": "rely heavily on air conditioning",
                     "vi": "phụ thuộc nhiều vào điều hòa không khí"
+                  },
+                  {
+                    "en": "air conditioning",
+                    "vi": "điều hòa không khí"
                   },
                   {
                     "en": "electric lighting",
@@ -41161,6 +41557,14 @@ const ESSAY_DATA = [
                   {
                     "en": "increase carbon emissions",
                     "vi": "làm tăng lượng khí thải carbon"
+                  },
+                  {
+                    "en": "harm the environment",
+                    "vi": "gây hại cho môi trường"
+                  },
+                  {
+                    "en": "office equipment",
+                    "vi": "thiết bị văn phòng"
                   }
                 ]
               },
@@ -41180,16 +41584,36 @@ const ESSAY_DATA = [
                     "vi": "gây ô nhiễm ánh sáng nghiêm trọng"
                   },
                   {
+                    "en": "light pollution at night",
+                    "vi": "ô nhiễm ánh sáng vào ban đêm"
+                  },
+                  {
+                    "en": "leave bright lights on all night",
+                    "vi": "bật đèn sáng suốt đêm"
+                  },
+                  {
                     "en": "bright lights at night",
                     "vi": "ánh sáng rực rỡ vào ban đêm"
                   },
                   {
-                    "en": "disrupt the sleep",
-                    "vi": "làm gián đoạn giấc ngủ"
+                    "en": "intense light",
+                    "vi": "ánh sáng mạnh"
+                  },
+                  {
+                    "en": "disrupt the sleep of local residents",
+                    "vi": "làm gián đoạn giấc ngủ của cư dân địa phương"
+                  },
+                  {
+                    "en": "local residents",
+                    "vi": "người dân địa phương"
                   },
                   {
                     "en": "natural behavior of birds",
                     "vi": "tập tính tự nhiên của loài chim"
+                  },
+                  {
+                    "en": "modern glass architecture",
+                    "vi": "kiến trúc kính hiện đại"
                   }
                 ]
               },
@@ -41209,12 +41633,44 @@ const ESSAY_DATA = [
                     "vi": "làm tăng nhiệt độ bên trong văn phòng"
                   },
                   {
+                    "en": "temperatures inside offices",
+                    "vi": "nhiệt độ bên trong văn phòng"
+                  },
+                  {
                     "en": "surrounding environment",
                     "vi": "môi trường xung quanh"
                   },
                   {
+                    "en": "make the surrounding environment hotter",
+                    "vi": "làm môi trường xung quanh nóng hơn"
+                  },
+                  {
                     "en": "absorb heat from the sun",
                     "vi": "hấp thụ nhiệt từ mặt trời"
+                  },
+                  {
+                    "en": "absorb a lot of heat",
+                    "vi": "hấp thụ nhiều nhiệt lượng"
+                  },
+                  {
+                    "en": "heat from the sun",
+                    "vi": "nhiệt lượng từ mặt trời"
+                  },
+                  {
+                    "en": "cities with many glass buildings",
+                    "vi": "các thành phố có nhiều tòa nhà kính"
+                  },
+                  {
+                    "en": "glass buildings",
+                    "vi": "các tòa nhà kính"
+                  },
+                  {
+                    "en": "often much hotter",
+                    "vi": "thường nóng bức hơn nhiều"
+                  },
+                  {
+                    "en": "green areas",
+                    "vi": "các khu vực nhiều cây xanh"
                   },
                   {
                     "en": "urban heat",
@@ -41250,8 +41706,24 @@ const ESSAY_DATA = [
                     "vi": "bị mỏi mắt"
                   },
                   {
+                    "en": "workspace without natural plants",
+                    "vi": "không gian làm việc thiếu cây xanh"
+                  },
+                  {
+                    "en": "natural plants",
+                    "vi": "cây xanh tự nhiên"
+                  },
+                  {
                     "en": "reduce concentration",
                     "vi": "làm giảm sự tập trung"
+                  },
+                  {
+                    "en": "during work hours",
+                    "vi": "trong giờ làm việc"
+                  },
+                  {
+                    "en": "visual fatigue",
+                    "vi": "mệt mỏi thị giác"
                   }
                 ]
               },
@@ -41267,6 +41739,10 @@ const ESSAY_DATA = [
                     "vi": "mối nguy hiểm chết người với loài chim"
                   },
                   {
+                    "en": "birds in the city",
+                    "vi": "các loài chim trong thành phố"
+                  },
+                  {
                     "en": "transparent glass",
                     "vi": "kính trong suốt"
                   },
@@ -41275,12 +41751,24 @@ const ESSAY_DATA = [
                     "vi": "phản chiếu bầu trời và cây cối"
                   },
                   {
+                    "en": "cannot see the glass",
+                    "vi": "không nhìn thấy kính"
+                  },
+                  {
                     "en": "fly into windows",
                     "vi": "bay đâm vào cửa kính"
                   },
                   {
+                    "en": "leading to death",
+                    "vi": "dẫn đến tử vong"
+                  },
+                  {
                     "en": "injure or kill birds",
                     "vi": "làm chim bị thương hoặc tử vong"
+                  },
+                  {
+                    "en": "glass buildings",
+                    "vi": "các tòa nhà kính"
                   }
                 ]
               }
@@ -41297,24 +41785,48 @@ const ESSAY_DATA = [
                 "evidence_en": "Due to the thermal conductivity of large glass panels, commercial complexes rely heavily on high-powered HVAC systems to maintain habitable indoor temperatures. Furthermore, continuous dependence on artificial lighting and electronic office equipment consumes tremendous electrical power, directly intensifying global climate change.",
                 "collocations": [
                   {
-                    "en": "glass facades",
-                    "vi": "mặt kính tòa nhà"
+                    "en": "extensive glass facades",
+                    "vi": "mặt kính tòa nhà diện rộng"
                   },
                   {
-                    "en": "energy consumption",
-                    "vi": "mức tiêu thụ năng lượng"
+                    "en": "modern office towers",
+                    "vi": "các tòa tháp văn phòng hiện đại"
+                  },
+                  {
+                    "en": "dramatic surge in operational energy consumption",
+                    "vi": "sự gia tăng đột biến trong mức tiêu thụ năng lượng vận hành"
                   },
                   {
                     "en": "urban carbon footprints",
                     "vi": "dấu chân carbon đô thị"
                   },
                   {
-                    "en": "thermal conductivity",
-                    "vi": "tính dẫn nhiệt"
+                    "en": "thermal conductivity of glass panels",
+                    "vi": "tính dẫn nhiệt của các tấm kính"
+                  },
+                  {
+                    "en": "commercial complexes",
+                    "vi": "các khu phức hợp thương mại"
+                  },
+                  {
+                    "en": "high-powered HVAC systems",
+                    "vi": "hệ thống sưởi, thông gió và điều hòa công suất lớn"
                   },
                   {
                     "en": "maintain habitable indoor temperatures",
                     "vi": "duy trì nhiệt độ phòng dễ chịu"
+                  },
+                  {
+                    "en": "continuous dependence on artificial lighting",
+                    "vi": "sự phụ thuộc liên tục vào chiếu sáng nhân tạo"
+                  },
+                  {
+                    "en": "electronic office equipment",
+                    "vi": "thiết bị văn phòng điện tử"
+                  },
+                  {
+                    "en": "consumes tremendous electrical power",
+                    "vi": "tiêu thụ nguồn điện năng khổng lồ"
                   },
                   {
                     "en": "intensifying global climate change",
@@ -41334,15 +41846,31 @@ const ESSAY_DATA = [
                     "vi": "ô nhiễm ánh sáng lan rộng"
                   },
                   {
-                    "en": "glazed office high-rises",
-                    "vi": "tòa nhà văn phòng cao tầng bọc kính"
+                    "en": "fully glazed office high-rises",
+                    "vi": "các tòa nhà văn phòng cao tầng bọc kính"
                   },
                   {
-                    "en": "nocturnal environment",
-                    "vi": "môi trường ban đêm"
+                    "en": "disrupts the nocturnal environment",
+                    "vi": "làm xáo trộn môi trường ban đêm"
                   },
                   {
-                    "en": "nighttime glare",
+                    "en": "local wildlife",
+                    "vi": "động vật hoang dã địa phương"
+                  },
+                  {
+                    "en": "interior fixtures illuminated overnight",
+                    "vi": "các bóng đèn bên trong thắp sáng xuyên đêm"
+                  },
+                  {
+                    "en": "massive radiant beacons",
+                    "vi": "quầng sáng phát quang khổng lồ"
+                  },
+                  {
+                    "en": "illuminate the urban sky",
+                    "vi": "thắp sáng bầu trời đô thị"
+                  },
+                  {
+                    "en": "continuous nighttime glare",
                     "vi": "ánh sáng chói lóa ban đêm"
                   },
                   {
@@ -41350,8 +41878,20 @@ const ESSAY_DATA = [
                     "vi": "làm suy giảm nhịp sinh học"
                   },
                   {
-                    "en": "disorienting migratory birds",
-                    "vi": "làm mất phương hướng của chim di cư"
+                    "en": "nearby residents",
+                    "vi": "cư dân sống lân cận"
+                  },
+                  {
+                    "en": "disorienting nocturnal migratory birds",
+                    "vi": "làm mất phương hướng của chim di cư ban đêm"
+                  },
+                  {
+                    "en": "deviate from flight paths",
+                    "vi": "chệch khỏi đường bay"
+                  },
+                  {
+                    "en": "suffer severe exhaustion",
+                    "vi": "kiệt sức nghiêm trọng"
                   }
                 ]
               },
@@ -41363,28 +41903,56 @@ const ESSAY_DATA = [
                 "evidence_en": "Transparent facades trap solar radiation inside office suites, forcing refrigeration machinery to expel massive amounts of waste heat directly into external streets. Consequently, dense financial districts suffer from elevated ambient temperatures compared to greener suburbs, worsening urban heat stress and degrading metropolitan air quality.",
                 "collocations": [
                   {
+                    "en": "expansive glass envelopes",
+                    "vi": "bề mặt bao che bằng kính rộng lớn"
+                  },
+                  {
                     "en": "localized greenhouse effects",
                     "vi": "hiệu ứng nhà kính cục bộ"
                   },
                   {
-                    "en": "urban heat islands",
-                    "vi": "hiệu ứng đảo nhiệt đô thị"
+                    "en": "intensifying urban heat islands",
+                    "vi": "khuếch đại hiện tượng đảo nhiệt đô thị"
                   },
                   {
-                    "en": "trap solar radiation",
-                    "vi": "giữ lại bức xạ mặt trời"
+                    "en": "transparent facades",
+                    "vi": "các mặt tiền bằng kính trong suốt"
                   },
                   {
-                    "en": "waste heat",
-                    "vi": "nhiệt thải"
+                    "en": "trap solar radiation inside office suites",
+                    "vi": "giữ lại bức xạ mặt trời bên trong văn phòng"
+                  },
+                  {
+                    "en": "refrigeration machinery",
+                    "vi": "hệ thống máy móc làm lạnh"
+                  },
+                  {
+                    "en": "expel massive amounts of waste heat",
+                    "vi": "thải một lượng nhiệt khổng lồ"
+                  },
+                  {
+                    "en": "external streets",
+                    "vi": "đường phố bên ngoài"
+                  },
+                  {
+                    "en": "dense financial districts",
+                    "vi": "các khu tài chính mật độ cao"
                   },
                   {
                     "en": "elevated ambient temperatures",
                     "vi": "nhiệt độ môi trường tăng cao"
                   },
                   {
-                    "en": "urban heat stress",
-                    "vi": "căng thẳng nhiệt đô thị"
+                    "en": "greener suburbs",
+                    "vi": "các vùng ngoại ô nhiều cây xanh hơn"
+                  },
+                  {
+                    "en": "worsening urban heat stress",
+                    "vi": "làm trầm trọng thêm căng thẳng nhiệt đô thị"
+                  },
+                  {
+                    "en": "degrading metropolitan air quality",
+                    "vi": "làm suy giảm chất lượng không khí đô thị"
                   }
                 ]
               },
@@ -41396,28 +41964,52 @@ const ESSAY_DATA = [
                 "evidence_en": "Uncontrolled solar glare reflecting off wide glazed surfaces creates harsh screen reflections, provoking chronic eye strain, migraines, and visual exhaustion among computer users. Furthermore, spending long hours enclosed within synthetic glass compartments without natural ventilation or biophilic elements heightens psychological fatigue and diminishes cognitive performance.",
                 "collocations": [
                   {
-                    "en": "undermine physical health",
-                    "vi": "làm suy giảm sức khỏe thể chất"
+                    "en": "glazed office environments",
+                    "vi": "môi trường văn phòng bọc kính"
                   },
                   {
-                    "en": "visual fatigue",
-                    "vi": "mệt mỏi thị giác"
+                    "en": "undermine employees physical health",
+                    "vi": "làm suy giảm sức khỏe thể chất của nhân viên"
+                  },
+                  {
+                    "en": "psychological well-being",
+                    "vi": "sức khỏe tâm lý"
+                  },
+                  {
+                    "en": "severe visual fatigue",
+                    "vi": "mệt mỏi thị giác nghiêm trọng"
+                  },
+                  {
+                    "en": "environmental discomfort",
+                    "vi": "sự khó chịu về môi trường"
                   },
                   {
                     "en": "uncontrolled solar glare",
-                    "vi": "ánh sáng chói mặt trời không được kiểm soát"
+                    "vi": "ánh sáng chói mặt trời mất kiểm soát"
                   },
                   {
-                    "en": "chronic eye strain",
-                    "vi": "mỏi mắt mãn tính"
+                    "en": "harsh screen reflections",
+                    "vi": "phản chiếu gay gắt trên màn hình"
+                  },
+                  {
+                    "en": "chronic eye strain and migraines",
+                    "vi": "mỏi mắt mãn tính và đau đầu"
+                  },
+                  {
+                    "en": "enclosed within synthetic glass compartments",
+                    "vi": "bị giam hãm trong các ngăn kính nhân tạo"
                   },
                   {
                     "en": "natural ventilation",
                     "vi": "thông gió tự nhiên"
                   },
                   {
+                    "en": "biophilic elements",
+                    "vi": "yếu tố thiên nhiên gắn kết"
+                  },
+                  {
                     "en": "heightens psychological fatigue",
-                    "vi": "làm tăng sự mệt mỏi về tâm lý"
+                    "vi": "làm tăng sự mệt mỏi tâm lý"
                   },
                   {
                     "en": "diminishes cognitive performance",
@@ -41437,6 +42029,10 @@ const ESSAY_DATA = [
                     "vi": "mặt ngoài bằng kính phản quang"
                   },
                   {
+                    "en": "corporate high-rises",
+                    "vi": "các tòa cao ốc doanh nghiệp"
+                  },
+                  {
                     "en": "catastrophic hazard",
                     "vi": "mối nguy hiểm thảm khốc"
                   },
@@ -41445,12 +42041,28 @@ const ESSAY_DATA = [
                     "vi": "các vụ va chạm chết chóc của chim"
                   },
                   {
-                    "en": "deceitful reflections",
-                    "vi": "hình ảnh phản chiếu đánh lừa"
+                    "en": "polished glass surfaces",
+                    "vi": "bề mặt kính sáng bóng"
+                  },
+                  {
+                    "en": "deceitful reflections of open skies",
+                    "vi": "hình ảnh phản chiếu đánh lừa của bầu trời"
+                  },
+                  {
+                    "en": "surrounding foliage",
+                    "vi": "tán cây xung quanh"
                   },
                   {
                     "en": "unobstructed flight corridors",
                     "vi": "hành lang bay không có vật cản"
+                  },
+                  {
+                    "en": "cruising velocities",
+                    "vi": "tốc độ bay"
+                  },
+                  {
+                    "en": "rigid structural glass",
+                    "vi": "kính kiến trúc cứng"
                   },
                   {
                     "en": "violent impact",
@@ -41459,6 +42071,10 @@ const ESSAY_DATA = [
                   {
                     "en": "sustaining lethal trauma",
                     "vi": "bị chấn thương gây tử vong"
+                  },
+                  {
+                    "en": "dying instantaneously",
+                    "vi": "tử vong tức thì"
                   }
                 ]
               }
@@ -41472,24 +42088,48 @@ const ESSAY_DATA = [
                 "evidence_en": "Due to the thermal conductivity of large glass panels, commercial complexes rely heavily on high-powered HVAC systems to maintain habitable indoor temperatures. Furthermore, continuous dependence on artificial lighting and electronic office equipment consumes tremendous electrical power, directly intensifying global climate change.",
                 "collocations": [
                   {
-                    "en": "glass facades",
-                    "vi": "mặt kính tòa nhà"
+                    "en": "extensive glass facades",
+                    "vi": "mặt kính tòa nhà diện rộng"
                   },
                   {
-                    "en": "energy consumption",
-                    "vi": "mức tiêu thụ năng lượng"
+                    "en": "modern office towers",
+                    "vi": "các tòa tháp văn phòng hiện đại"
+                  },
+                  {
+                    "en": "dramatic surge in operational energy consumption",
+                    "vi": "sự gia tăng đột biến trong mức tiêu thụ năng lượng vận hành"
                   },
                   {
                     "en": "urban carbon footprints",
                     "vi": "dấu chân carbon đô thị"
                   },
                   {
-                    "en": "thermal conductivity",
-                    "vi": "tính dẫn nhiệt"
+                    "en": "thermal conductivity of glass panels",
+                    "vi": "tính dẫn nhiệt của các tấm kính"
+                  },
+                  {
+                    "en": "commercial complexes",
+                    "vi": "các khu phức hợp thương mại"
+                  },
+                  {
+                    "en": "high-powered HVAC systems",
+                    "vi": "hệ thống sưởi, thông gió và điều hòa công suất lớn"
                   },
                   {
                     "en": "maintain habitable indoor temperatures",
                     "vi": "duy trì nhiệt độ phòng dễ chịu"
+                  },
+                  {
+                    "en": "continuous dependence on artificial lighting",
+                    "vi": "sự phụ thuộc liên tục vào chiếu sáng nhân tạo"
+                  },
+                  {
+                    "en": "electronic office equipment",
+                    "vi": "thiết bị văn phòng điện tử"
+                  },
+                  {
+                    "en": "consumes tremendous electrical power",
+                    "vi": "tiêu thụ nguồn điện năng khổng lồ"
                   },
                   {
                     "en": "intensifying global climate change",
@@ -41509,15 +42149,31 @@ const ESSAY_DATA = [
                     "vi": "ô nhiễm ánh sáng lan rộng"
                   },
                   {
-                    "en": "glazed office high-rises",
-                    "vi": "tòa nhà văn phòng cao tầng bọc kính"
+                    "en": "fully glazed office high-rises",
+                    "vi": "các tòa nhà văn phòng cao tầng bọc kính"
                   },
                   {
-                    "en": "nocturnal environment",
-                    "vi": "môi trường ban đêm"
+                    "en": "disrupts the nocturnal environment",
+                    "vi": "làm xáo trộn môi trường ban đêm"
                   },
                   {
-                    "en": "nighttime glare",
+                    "en": "local wildlife",
+                    "vi": "động vật hoang dã địa phương"
+                  },
+                  {
+                    "en": "interior fixtures illuminated overnight",
+                    "vi": "các bóng đèn bên trong thắp sáng xuyên đêm"
+                  },
+                  {
+                    "en": "massive radiant beacons",
+                    "vi": "quầng sáng phát quang khổng lồ"
+                  },
+                  {
+                    "en": "illuminate the urban sky",
+                    "vi": "thắp sáng bầu trời đô thị"
+                  },
+                  {
+                    "en": "continuous nighttime glare",
                     "vi": "ánh sáng chói lóa ban đêm"
                   },
                   {
@@ -41525,8 +42181,20 @@ const ESSAY_DATA = [
                     "vi": "làm suy giảm nhịp sinh học"
                   },
                   {
-                    "en": "disorienting migratory birds",
-                    "vi": "làm mất phương hướng của chim di cư"
+                    "en": "nearby residents",
+                    "vi": "cư dân sống lân cận"
+                  },
+                  {
+                    "en": "disorienting nocturnal migratory birds",
+                    "vi": "làm mất phương hướng của chim di cư ban đêm"
+                  },
+                  {
+                    "en": "deviate from flight paths",
+                    "vi": "chệch khỏi đường bay"
+                  },
+                  {
+                    "en": "suffer severe exhaustion",
+                    "vi": "kiệt sức nghiêm trọng"
                   }
                 ]
               },
@@ -41538,28 +42206,56 @@ const ESSAY_DATA = [
                 "evidence_en": "Transparent facades trap solar radiation inside office suites, forcing refrigeration machinery to expel massive amounts of waste heat directly into external streets. Consequently, dense financial districts suffer from elevated ambient temperatures compared to greener suburbs, worsening urban heat stress and degrading metropolitan air quality.",
                 "collocations": [
                   {
+                    "en": "expansive glass envelopes",
+                    "vi": "bề mặt bao che bằng kính rộng lớn"
+                  },
+                  {
                     "en": "localized greenhouse effects",
                     "vi": "hiệu ứng nhà kính cục bộ"
                   },
                   {
-                    "en": "urban heat islands",
-                    "vi": "hiệu ứng đảo nhiệt đô thị"
+                    "en": "intensifying urban heat islands",
+                    "vi": "khuếch đại hiện tượng đảo nhiệt đô thị"
                   },
                   {
-                    "en": "trap solar radiation",
-                    "vi": "giữ lại bức xạ mặt trời"
+                    "en": "transparent facades",
+                    "vi": "các mặt tiền bằng kính trong suốt"
                   },
                   {
-                    "en": "waste heat",
-                    "vi": "nhiệt thải"
+                    "en": "trap solar radiation inside office suites",
+                    "vi": "giữ lại bức xạ mặt trời bên trong văn phòng"
+                  },
+                  {
+                    "en": "refrigeration machinery",
+                    "vi": "hệ thống máy móc làm lạnh"
+                  },
+                  {
+                    "en": "expel massive amounts of waste heat",
+                    "vi": "thải một lượng nhiệt khổng lồ"
+                  },
+                  {
+                    "en": "external streets",
+                    "vi": "đường phố bên ngoài"
+                  },
+                  {
+                    "en": "dense financial districts",
+                    "vi": "các khu tài chính mật độ cao"
                   },
                   {
                     "en": "elevated ambient temperatures",
                     "vi": "nhiệt độ môi trường tăng cao"
                   },
                   {
-                    "en": "urban heat stress",
-                    "vi": "căng thẳng nhiệt đô thị"
+                    "en": "greener suburbs",
+                    "vi": "các vùng ngoại ô nhiều cây xanh hơn"
+                  },
+                  {
+                    "en": "worsening urban heat stress",
+                    "vi": "làm trầm trọng thêm căng thẳng nhiệt đô thị"
+                  },
+                  {
+                    "en": "degrading metropolitan air quality",
+                    "vi": "làm suy giảm chất lượng không khí đô thị"
                   }
                 ]
               },
@@ -41571,28 +42267,52 @@ const ESSAY_DATA = [
                 "evidence_en": "Uncontrolled solar glare reflecting off wide glazed surfaces creates harsh screen reflections, provoking chronic eye strain, migraines, and visual exhaustion among computer users. Furthermore, spending long hours enclosed within synthetic glass compartments without natural ventilation or biophilic elements heightens psychological fatigue and diminishes cognitive performance.",
                 "collocations": [
                   {
-                    "en": "undermine physical health",
-                    "vi": "làm suy giảm sức khỏe thể chất"
+                    "en": "glazed office environments",
+                    "vi": "môi trường văn phòng bọc kính"
                   },
                   {
-                    "en": "visual fatigue",
-                    "vi": "mệt mỏi thị giác"
+                    "en": "undermine employees physical health",
+                    "vi": "làm suy giảm sức khỏe thể chất của nhân viên"
+                  },
+                  {
+                    "en": "psychological well-being",
+                    "vi": "sức khỏe tâm lý"
+                  },
+                  {
+                    "en": "severe visual fatigue",
+                    "vi": "mệt mỏi thị giác nghiêm trọng"
+                  },
+                  {
+                    "en": "environmental discomfort",
+                    "vi": "sự khó chịu về môi trường"
                   },
                   {
                     "en": "uncontrolled solar glare",
-                    "vi": "ánh sáng chói mặt trời không được kiểm soát"
+                    "vi": "ánh sáng chói mặt trời mất kiểm soát"
                   },
                   {
-                    "en": "chronic eye strain",
-                    "vi": "mỏi mắt mãn tính"
+                    "en": "harsh screen reflections",
+                    "vi": "phản chiếu gay gắt trên màn hình"
+                  },
+                  {
+                    "en": "chronic eye strain and migraines",
+                    "vi": "mỏi mắt mãn tính và đau đầu"
+                  },
+                  {
+                    "en": "enclosed within synthetic glass compartments",
+                    "vi": "bị giam hãm trong các ngăn kính nhân tạo"
                   },
                   {
                     "en": "natural ventilation",
                     "vi": "thông gió tự nhiên"
                   },
                   {
+                    "en": "biophilic elements",
+                    "vi": "yếu tố thiên nhiên gắn kết"
+                  },
+                  {
                     "en": "heightens psychological fatigue",
-                    "vi": "làm tăng sự mệt mỏi về tâm lý"
+                    "vi": "làm tăng sự mệt mỏi tâm lý"
                   },
                   {
                     "en": "diminishes cognitive performance",
@@ -41612,6 +42332,10 @@ const ESSAY_DATA = [
                     "vi": "mặt ngoài bằng kính phản quang"
                   },
                   {
+                    "en": "corporate high-rises",
+                    "vi": "các tòa cao ốc doanh nghiệp"
+                  },
+                  {
                     "en": "catastrophic hazard",
                     "vi": "mối nguy hiểm thảm khốc"
                   },
@@ -41620,12 +42344,28 @@ const ESSAY_DATA = [
                     "vi": "các vụ va chạm chết chóc của chim"
                   },
                   {
-                    "en": "deceitful reflections",
-                    "vi": "hình ảnh phản chiếu đánh lừa"
+                    "en": "polished glass surfaces",
+                    "vi": "bề mặt kính sáng bóng"
+                  },
+                  {
+                    "en": "deceitful reflections of open skies",
+                    "vi": "hình ảnh phản chiếu đánh lừa của bầu trời"
+                  },
+                  {
+                    "en": "surrounding foliage",
+                    "vi": "tán cây xung quanh"
                   },
                   {
                     "en": "unobstructed flight corridors",
                     "vi": "hành lang bay không có vật cản"
+                  },
+                  {
+                    "en": "cruising velocities",
+                    "vi": "tốc độ bay"
+                  },
+                  {
+                    "en": "rigid structural glass",
+                    "vi": "kính kiến trúc cứng"
                   },
                   {
                     "en": "violent impact",
@@ -41634,6 +42374,10 @@ const ESSAY_DATA = [
                   {
                     "en": "sustaining lethal trauma",
                     "vi": "bị chấn thương gây tử vong"
+                  },
+                  {
+                    "en": "dying instantaneously",
+                    "vi": "tử vong tức thì"
                   }
                 ]
               }
