@@ -1899,11 +1899,23 @@ function buildTranslationExercises(topic, transLevel, category) {
     }
   }
 
-  // Extract topic-level fallback collocations if item doesn't have any
-  const topicFallbackCols = (topic.details.vocab_step && (topic.details.vocab_step.collocations || []).map(c => ({
-    en: c.en || c.phrase,
-    vi: c.vi
-  }))) || topic.details.vocab || [];
+  // Extract topic-level fallback collocations if item doesn't have enough
+  let topicFallbackCols = [];
+  if (topic.details.vocab_step && Array.isArray(topic.details.vocab_step.collocations) && topic.details.vocab_step.collocations.length > 0) {
+    topicFallbackCols = topic.details.vocab_step.collocations.map(c => ({ en: c.en || c.phrase, vi: c.vi }));
+  } else if (topic.details.vocab_step && Array.isArray(topic.details.vocab_step.collocation_groups) && topic.details.vocab_step.collocation_groups.length > 0) {
+    topic.details.vocab_step.collocation_groups.forEach(g => {
+      (g.items || g.collocations || []).forEach(c => {
+        topicFallbackCols.push({ en: c.en || c.phrase, vi: c.vi });
+      });
+    });
+  }
+  if (topicFallbackCols.length === 0 && Array.isArray(topic.details.vocab) && topic.details.vocab.length > 0) {
+    topicFallbackCols = topic.details.vocab.map(c => ({ en: c.en || c.phrase, vi: c.vi }));
+  }
+  if (topicFallbackCols.length === 0 && topic.details.vocab_step && Array.isArray(topic.details.vocab_step.single_words) && topic.details.vocab_step.single_words.length > 0) {
+    topicFallbackCols = topic.details.vocab_step.single_words.map(w => ({ en: w.word || w.en, vi: w.meaning || w.vi }));
+  }
 
   // Push group 1 (benefits / causes / reasons)
   if (group1Items && group1Items.length > 0) {
