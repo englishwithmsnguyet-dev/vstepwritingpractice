@@ -7060,15 +7060,45 @@ function renderStep1Reading() {
       </ul>
     `;
   } else {
-    outlineSummaryHtml = `
-      <div class="empty-state" style="padding: 1.5rem; border: 1px dashed var(--panel-border); text-align: left; font-size: 0.9rem; border-radius: var(--radius-md);">
-        Chủ đề tự viết tự do này không có dàn ý ý tưởng sẵn. Bạn có thể dựa trên cấu trúc chuẩn của thể loại này để triển khai:
+    let customOutlineGuide = '';
+    if (category.id === 3) {
+      customOutlineGuide = `
+        <ul style="padding-left: 1.25rem; margin-top: 0.5rem; display: flex; flex-direction: column; gap: 0.45rem;">
+          <li><strong>Mở bài (Introduction):</strong> <em>Nowadays, the idea that [quan điểm trong đề bài – mệnh đề] has become a common topic of discussion. From my perspective, I completely agree / disagree with this opinion for several important reasons. This essay will present the main arguments supporting my viewpoint.</em></li>
+          <li><strong>Thân bài 1 (Body 1):</strong> <em>The first reason why I agree / disagree with this opinion is that [lý do 1 – mệnh đề].</em>
+            <div style="font-size: 0.85rem; color: var(--text-secondary); margin-top: 0.2rem; padding-left: 0.5rem; border-left: 2px solid var(--accent-primary);">
+              Phát triển theo công thức 3 bước: <strong>Bước 1</strong> (Giải thích: <em>This is because...</em> hoặc <em>In fact,...</em>) &rarr; <strong>Bước 2</strong> (Ví dụ: <em>For example,...</em>) &rarr; <strong>Bước 3</strong> (Kết quả: <em>As a result,...</em> hoặc <em>Therefore,...</em>).
+            </div>
+          </li>
+          <li><strong>Thân bài 2 (Body 2):</strong> <em>Another important reason is that [lý do 2 – mệnh đề].</em> (Tiếp tục phát triển bằng giải thích và ví dụ cụ thể 3-4 câu).</li>
+          <li><strong>Thân bài 3 (Body 3 - tùy chọn):</strong> <em>A further reason supporting my viewpoint is that [lý do 3 – mệnh đề].</em> (Phát triển lý do thứ 3 và nhấn mạnh tác động 3-4 câu).</li>
+          <li><strong>Kết bài (Conclusion):</strong> <em>In conclusion, I strongly agree / disagree with the idea that [quan điểm trong đề bài – mệnh đề]. The reasons above clearly explain why I support / oppose this viewpoint. Therefore, it is essential that [đối tượng] take this matter into consideration.</em></li>
+        </ul>
+      `;
+    } else if (category.id === 4) {
+      customOutlineGuide = `
+        <ul style="padding-left: 1.25rem; margin-top: 0.5rem; display: flex; flex-direction: column; gap: 0.45rem;">
+          <li><strong>Mở bài (Introduction):</strong> <em>Nowadays, [chủ đề] has become a common topic of discussion. Some people believe that [ý kiến 1 – mệnh đề], while others argue that [ý kiến 2 – mệnh đề]. This essay will discuss both views and give my own opinion.</em></li>
+          <li><strong>Thân bài đoạn 1 (Body 1):</strong> <em>On the one hand, it is argued that [ý kiến 1 – mệnh đề].</em> (Phân tích và phát triển quan điểm thứ nhất bằng giải thích, ví dụ hoặc dẫn chứng phù hợp).</li>
+          <li><strong>Thân bài đoạn 2 (Body 2):</strong> <em>On the other hand, it is believed that [ý kiến 2 – mệnh đề].</em> (Phân tích quan điểm đối lập bằng các lập luận và ví dụ phù hợp).</li>
+          <li><strong>Kết bài (Conclusion):</strong> <em>In conclusion, both views have their own reasons. However, I believe that [quan điểm cá nhân – mệnh đề] because [lý do ngắn gọn – mệnh đề]. Therefore, it is important that people consider both views carefully.</em></li>
+        </ul>
+      `;
+    } else {
+      customOutlineGuide = `
         <ul style="padding-left: 1.25rem; margin-top: 0.5rem; display: flex; flex-direction: column; gap: 0.35rem;">
           <li>Mở bài (Introduction): Nêu ngữ cảnh và quan điểm tổng quan.</li>
           <li>Thân bài đoạn 1 (Body Paragraph 1): Phân tích khía cạnh thứ nhất (thuận lợi / nguyên nhân).</li>
           <li>Thân bài đoạn 2 (Body Paragraph 2): Phân tích khía cạnh thứ hai (bất lợi / giải pháp).</li>
           <li>Kết bài (Conclusion): Tóm tắt lại vấn đề và đưa ra ý kiến chốt hạ.</li>
         </ul>
+      `;
+    }
+
+    outlineSummaryHtml = `
+      <div class="empty-state" style="padding: 1.5rem; border: 1px dashed var(--panel-border); text-align: left; font-size: 0.9rem; border-radius: var(--radius-md);">
+        Chủ đề tự viết tự do này không có dàn ý ý tưởng sẵn. Bạn có thể dựa trên cấu trúc chuẩn của thể loại này để triển khai:
+        ${customOutlineGuide}
       </div>
     `;
   }

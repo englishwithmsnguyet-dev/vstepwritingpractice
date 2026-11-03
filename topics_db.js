@@ -45228,130 +45228,134 @@ const ESSAY_DATA = [
             "vi": "trang bị kỹ năng sống"
           }
         ],
-        "context": "In modern society, many household appliances and services have made daily chores easier and more convenient than in the past. As a result, some people believe that children, especially girls, no longer need to learn how to cook or do housework because these skills are less important today. Others, however, argue that domestic skills remain essential for children's personal development and future independence.",
-        "prompt": "Do you agree or disagree that children, especially girls, do not need to learn how to cook and do housework? Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "context": "In today's modern society, many families can afford to hire domestic helpers or rely on convenient services for meals and housework. As a result, some people believe that children, especially girls, no longer need to learn how to cook or do household chores.",
+        "prompt": "To what extent do you agree or disagree with this opinion? Write an essay to express your opinion. Give reasons for your answer and include relevant examples from your own knowledge or experience. You should write at least 250 words. Your response will be evaluated in terms of Task fulfillment, Organization, Vocabulary, and Grammar.",
         "has_full_details": true,
         "details": {
           "ideas_b1": {
             "benefits": [
               {
                 "title": "REASON 01",
+                "point_vi": "Học làm việc nhà giúp trẻ em phát triển những kỹ năng sống quan trọng.",
+                "point_en": "Learning household chores helps children develop important life skills.",
+                "evidence_vi": "Việc nấu ăn, dọn dẹp và sắp xếp đồ dùng cá nhân là những kỹ năng hữu ích trong cuộc sống hằng ngày. Nếu trẻ không học làm những việc này từ sớm, các em có thể phụ thuộc quá nhiều vào người khác trong tương lai. Bằng cách học những kỹ năng cơ bản này, các em có thể trở nên độc lập hơn và chuẩn bị tốt hơn cho cuộc sống trưởng thành.",
+                "evidence_en": "Cooking, cleaning, and organizing personal things are useful skills in daily life. If children do not learn to do these tasks at an early age, they may depend too much on other people in the future. By learning these basic skills, they can become more independent and better prepared for adult life.",
                 "collocations": [
                   {
-                    "en": "essential life skills",
-                    "vi": "kỹ năng sống thiết yếu"
+                    "en": "learning household chores",
+                    "vi": "học làm việc nhà"
                   },
                   {
-                    "en": "prepare simple meals",
-                    "vi": "chuẩn bị những bữa ăn đơn giản"
+                    "en": "develop important life skills",
+                    "vi": "phát triển các kỹ năng sống quan trọng"
                   },
                   {
-                    "en": "take care of the home",
-                    "vi": "chăm sóc nhà cửa"
+                    "en": "useful skills in daily life",
+                    "vi": "kỹ năng hữu ích trong cuộc sống hằng ngày"
                   },
                   {
-                    "en": "daily life",
-                    "vi": "cuộc sống hằng ngày"
+                    "en": "organize personal things",
+                    "vi": "sắp xếp đồ dùng cá nhân"
                   },
                   {
-                    "en": "future life",
-                    "vi": "cuộc sống tương lai"
+                    "en": "depend too much on",
+                    "vi": "phụ thuộc quá nhiều vào"
                   },
                   {
-                    "en": "learn how to",
-                    "vi": "học cách làm gì"
+                    "en": "at an early age",
+                    "vi": "từ khi còn nhỏ"
                   },
                   {
-                    "en": "prepare for",
-                    "vi": "chuẩn bị cho"
+                    "en": "become more independent",
+                    "vi": "trở nên độc lập hơn"
                   },
                   {
-                    "en": "be useful",
-                    "vi": "hữu ích"
+                    "en": "better prepared for adult life",
+                    "vi": "chuẩn bị tốt hơn cho cuộc sống trưởng thành"
                   }
-                ],
-                "point_vi": "Học nấu ăn và làm việc nhà giúp trẻ em phát triển những kỹ năng sống thiết yếu.",
-                "point_en": "Learning to cook and do housework helps children develop essential life skills.",
-                "evidence_vi": "Các em học cách chuẩn bị những bữa ăn đơn giản. Các em biết cách dọn dẹp và chăm sóc ngôi nhà. Những kỹ năng này rất hữu ích trong cuộc sống hằng ngày. Nhờ đó, các em sẽ chuẩn bị tốt hơn cho cuộc sống trong tương lai.",
-                "evidence_en": "They learn how to prepare simple meals. They know how to clean and take care of the home. These skills are useful in daily life. As a result, they will be better prepared for future life."
+                ]
               },
               {
                 "title": "REASON 02",
+                "point_vi": "Làm việc nhà có thể thắt chặt mối quan hệ gia đình và khuyến khích trẻ trở nên có trách nhiệm hơn.",
+                "point_en": "Household chores can strengthen family relationships and encourage children to become more responsible.",
+                "evidence_vi": "Khi trẻ giúp cha mẹ nấu ăn hoặc dọn dẹp, các em có thể học cách chia sẻ công việc gia đình. Điều này có thể giúp các thành viên trong gia đình thấu hiểu và hỗ trợ lẫn nhau tốt hơn. Nhờ đó, những đứa trẻ thường xuyên làm việc nhà có thể có mối quan hệ gần gũi hơn với cha mẹ. Các em cũng có thể phát triển ý thức trách nhiệm mạnh mẽ hơn ngay từ khi còn nhỏ.",
+                "evidence_en": "When children help their parents with cooking or cleaning, they can learn to share family duties. This can make family members understand and support each other better. As a result, children who often do housework may have closer relationships with their parents. They can also develop a stronger sense of responsibility from a young age.",
                 "collocations": [
                   {
-                    "en": "a sense of responsibility",
-                    "vi": "tinh thần trách nhiệm"
+                    "en": "strengthen family relationships",
+                    "vi": "thắt chặt mối quan hệ gia đình"
                   },
                   {
-                    "en": "household chores",
-                    "vi": "việc nhà"
+                    "en": "encourage children",
+                    "vi": "khuyến khích trẻ em"
                   },
                   {
-                    "en": "complete tasks",
-                    "vi": "hoàn thành công việc"
+                    "en": "become more responsible",
+                    "vi": "trở nên có trách nhiệm hơn"
                   },
                   {
-                    "en": "good habits",
-                    "vi": "thói quen tốt"
+                    "en": "share family duties",
+                    "vi": "chia sẻ bổn phận gia đình"
                   },
                   {
-                    "en": "teach",
-                    "vi": "dạy"
+                    "en": "support each other",
+                    "vi": "hỗ trợ lẫn nhau"
                   },
                   {
-                    "en": "become",
-                    "vi": "trở nên"
+                    "en": "closer relationships",
+                    "vi": "mối quan hệ gần gũi hơn"
                   },
                   {
-                    "en": "develop",
-                    "vi": "hình thành"
+                    "en": "a stronger sense of responsibility",
+                    "vi": "ý thức trách nhiệm mạnh mẽ hơn"
+                  },
+                  {
+                    "en": "from a young age",
+                    "vi": "từ khi còn nhỏ"
                   }
-                ],
-                "point_vi": "Làm việc nhà giúp trẻ em học được tinh thần trách nhiệm.",
-                "point_en": "Doing housework teaches children a sense of responsibility.",
-                "evidence_vi": "Các em hiểu rằng mọi thành viên đều nên chia sẻ việc nhà. Các em học cách hoàn thành những công việc được giao. Điều này giúp các em trở nên có trách nhiệm hơn. Nhờ đó, các em hình thành những thói quen tốt.",
-                "evidence_en": "They learn that every family member should share household chores. They learn to complete the tasks they are given. This helps them become more responsible. As a result, they develop good habits."
+                ]
               },
               {
                 "title": "REASON 03",
+                "point_vi": "Cả bé trai và bé gái đều nên học việc nhà để thúc đẩy bình đẳng giới.",
+                "point_en": "Both boys and girls should learn household chores to promote gender equality.",
+                "evidence_vi": "Trong xã hội hiện đại, việc nhà không nên chỉ là trách nhiệm của phụ nữ. Dạy cả con trai và con gái nấu ăn và dọn dẹp có thể giúp giảm bớt những quan niệm cũ về vai trò giới. Vì vậy, trẻ có thể học được rằng cả nam và nữ đều nên chia sẻ trách nhiệm trong gia đình.",
+                "evidence_en": "In modern society, housework should not be only the responsibility of women. Teaching both boys and girls to cook and clean can help reduce old ideas about gender roles. Therefore, children can learn that both men and women should share responsibilities in the family.",
                 "collocations": [
                   {
-                    "en": "strengthen family bonds",
-                    "vi": "gắn kết các thành viên trong gia đình"
+                    "en": "promote gender equality",
+                    "vi": "thúc đẩy bình đẳng giới"
                   },
                   {
-                    "en": "work together",
-                    "vi": "làm việc cùng nhau"
+                    "en": "modern society",
+                    "vi": "xã hội hiện đại"
                   },
                   {
-                    "en": "help each other",
-                    "vi": "giúp đỡ lẫn nhau"
+                    "en": "responsibility of women",
+                    "vi": "trách nhiệm của phụ nữ"
                   },
                   {
-                    "en": "daily chores",
-                    "vi": "việc nhà hằng ngày"
+                    "en": "teach both boys and girls",
+                    "vi": "dạy cả con trai và con gái"
                   },
                   {
-                    "en": "become closer",
-                    "vi": "trở nên gắn bó hơn"
+                    "en": "reduce old ideas",
+                    "vi": "giảm bớt những quan niệm cũ"
                   },
                   {
-                    "en": "have opportunities to",
-                    "vi": "có cơ hội làm gì"
+                    "en": "gender roles",
+                    "vi": "vai trò giới"
                   },
                   {
-                    "en": "understand each other",
-                    "vi": "hiểu nhau"
+                    "en": "share responsibilities",
+                    "vi": "chia sẻ trách nhiệm"
                   },
                   {
-                    "en": "strengthen",
-                    "vi": "tăng cường"
+                    "en": "encourage both sons and daughters",
+                    "vi": "khuyến khích cả con trai và con gái"
                   }
-                ],
-                "point_vi": "Làm việc nhà giúp gắn kết các thành viên trong gia đình.",
-                "point_en": "Doing housework helps strengthen family bonds.",
-                "evidence_vi": "Cha mẹ và con cái có nhiều cơ hội làm việc cùng nhau. Các thành viên trong gia đình có thể giúp đỡ lẫn nhau trong công việc hằng ngày. Điều này giúp mọi người hiểu nhau hơn. Vì vậy, gia đình có thể trở nên gắn bó hơn.",
-                "evidence_en": "Parents and children have more opportunities to work together. Family members can help each other with daily chores. This helps them understand each other better. Therefore, families can become closer."
+                ]
               }
             ],
             "drawbacks": []
@@ -45650,8 +45654,8 @@ const ESSAY_DATA = [
               "vi": "giao tiếp với"
             }
           ],
-          "sample_b1": "In recent years, the idea that <strong>children should learn to cook and do housework</strong> has become a common topic of discussion. From my perspective, I completely agree with this opinion for several important reasons. <strong>This essay will present the main arguments supporting my viewpoint.</strong>\n\nThe first reason why I agree with this opinion is that <strong><em>learning household chores helps children develop life skills</em></strong>. Cooking and cleaning are essential abilities that people need in daily life.\n\nAnother important reason is that <strong><em>doing housework encourages children to become more responsible</em></strong>. When children help their parents, they learn to share responsibilities within the family.\n\nA further reason supporting my viewpoint is that <strong><em>teaching both boys and girls to do housework promotes gender equality</em></strong>. In modern society, household tasks should not be considered the duty of women alone.\n\nIn conclusion, I strongly agree with the idea that <strong>children should learn to cook and do housework</strong>. The reasons above clearly explain why I support this viewpoint. Therefore, people should think about this opinion carefully in modern society.",
-          "translation_b1": "Trong những năm gần đây, ý tưởng rằng <strong>trẻ em nên học nấu ăn và làm việc nhà</strong> đã trở thành một chủ đề thảo luận phổ biến. Từ quan điểm của tôi, tôi hoàn toàn đồng ý với ý kiến này vì một số lý do quan trọng. <strong>Bài tiểu luận này sẽ trình bày các lập luận chính hỗ trợ quan điểm của tôi.</strong>\n\nLý do đầu tiên tại sao tôi đồng ý với ý kiến này là <strong><em>học làm việc nhà giúp trẻ phát triển kỹ năng sống</em></strong>. Nấu ăn và dọn dẹp là những khả năng thiết yếu mà con người cần trong cuộc sống hằng ngày.\n\nMột lý do quan trọng khác là <strong><em>làm việc nhà khuyến khích trẻ trở nên có trách nhiệm hơn</em></strong>. Khi trẻ giúp đỡ cha mẹ, chúng học được cách chia sẻ trách nhiệm trong gia đình.\n\nMột lý do nữa hỗ trợ quan điểm của tôi là <strong><em>dạy cả bé trai và bé gái làm việc nhà thúc đẩy bình đẳng giới</em></strong>. Trong xã hội hiện đại, công việc gia đình không nên được coi là nhiệm vụ của riêng phụ nữ.\n\nTóm lại, tôi hoàn toàn đồng ý với ý tưởng rằng <strong>trẻ em nên học nấu ăn và làm việc nhà</strong>. Những lý do trên giải thích rõ ràng tại sao tôi ủng hộ quan điểm này. Vì vậy, mọi người nên suy nghĩ về ý kiến này cẩn thận trong xã hội hiện đại.",
+          "sample_b1": "Nowadays, the idea that <strong>children, especially girls, no longer need to learn how to cook or do household chores</strong> has become a common topic of discussion. From my perspective, <strong>I completely disagree with this opinion for several important reasons.</strong> This essay will present the main arguments supporting my viewpoint.\n\nThe first reason why I disagree with this opinion is that <strong><em>learning household chores helps children develop important life skills.</em></strong> This is because cooking, cleaning, and organizing personal things are useful skills in daily life. If children do not learn to do these tasks at an early age, they may depend too much on other people in the future. By learning these basic skills, they can become more independent and better prepared for adult life.\n\nAnother important reason is that <strong><em>household chores can strengthen family relationships and encourage children to become more responsible.</em></strong> When children help their parents with cooking or cleaning, they can learn to share family duties. This can make family members understand and support each other better. As a result, children who often do housework may have closer relationships with their parents. They can also develop a stronger sense of responsibility from a young age.\n\nA further reason supporting my viewpoint is that <strong><em>both boys and girls should learn household chores to promote gender equality.</em></strong> In modern society, housework should not be only the responsibility of women. Teaching both boys and girls to cook and clean can help reduce old ideas about gender roles. Therefore, children can learn that both men and women should share responsibilities in the family.\n\nIn conclusion, <strong>I strongly disagree with the idea</strong> that <strong><em>household chores are no longer necessary for children in modern society.</em></strong> The reasons above clearly explain why I oppose this viewpoint. Therefore, it is essential that parents encourage both sons and daughters to share household chores from an early age.",
+          "translation_b1": "Ngày nay, quan điểm cho rằng <strong>trẻ em, đặc biệt là các bé gái, không còn cần phải học nấu ăn hay làm việc nhà</strong> đã trở thành một chủ đề thảo luận phổ biến. Theo quan điểm của tôi, <strong>tôi hoàn toàn không đồng ý với ý kiến này vì một số lý do quan trọng.</strong> Bài luận này sẽ trình bày những lập luận chính ủng hộ quan điểm của tôi.\n\nLý do đầu tiên khiến tôi không đồng ý với quan điểm này là <strong><em>học làm việc nhà giúp trẻ phát triển những kỹ năng sống quan trọng.</em></strong> Điều này là do nấu ăn, dọn dẹp và sắp xếp đồ dùng cá nhân là những kỹ năng hữu ích trong cuộc sống hằng ngày. Nếu trẻ không học làm những việc này từ sớm, các em có thể phụ thuộc quá nhiều vào người khác trong tương lai. Bằng cách học những kỹ năng cơ bản này, các em có thể trở nên độc lập hơn và chuẩn bị tốt hơn cho cuộc sống trưởng thành.\n\nMột lý do quan trọng khác là <strong><em>làm việc nhà có thể thắt chặt các mối quan hệ gia đình và khuyến khích trẻ trở nên có trách nhiệm hơn.</em></strong> Khi trẻ giúp cha mẹ nấu ăn hoặc dọn dẹp, các em có thể học cách chia sẻ bổn phận trong gia đình. Điều này có thể giúp các thành viên trong gia đình thấu hiểu và hỗ trợ lẫn nhau tốt hơn. Nhờ đó, những đứa trẻ thường xuyên làm việc nhà có thể có mối quan hệ gần gũi hơn với cha mẹ. Các em cũng có thể phát triển ý thức trách nhiệm mạnh mẽ hơn ngay từ khi còn nhỏ.\n\nMột lý do sâu xa hơn ủng hộ quan điểm của tôi là <strong><em>cả bé trai và bé gái đều nên học việc nhà để thúc đẩy bình đẳng giới.</em></strong> Trong xã hội hiện đại, việc nhà không nên chỉ là trách nhiệm của riêng phụ nữ. Dạy cả con trai và con gái nấu ăn và dọn dẹp có thể giúp giảm bớt những quan niệm cũ về vai trò giới. Vì vậy, trẻ có thể học được rằng cả nam và nữ đều nên chia sẻ trách nhiệm trong gia đình.\n\nTóm lại, <strong>tôi kịch liệt không đồng ý với quan điểm</strong> rằng <strong><em>việc nhà không còn cần thiết cho trẻ em trong xã hội hiện đại.</em></strong> Những lý do trên giải thích rõ ràng tại sao tôi phản đối quan điểm này. Do đó, điều cốt yếu là các bậc cha mẹ cần khuyến khích cả con trai và con gái cùng chia sẻ công việc nhà ngay từ khi còn nhỏ.",
           "sample_b2": "In recent years, the idea that children should learn to cook and do housework has attracted considerable public attention and discussion. From my perspective, I completely agree with this opinion for several important reasons. This essay will present the main arguments supporting my viewpoint.\n\n<strong>The first reason why I agree with this opinion is that learning to cook and do housework helps children develop essential life skills.</strong> They learn how to prepare meals and take care of themselves. They also learn how to keep their home clean and tidy. These skills are highly useful in everyday life. This helps them become more confident when living independently in the future. Therefore, they will be better prepared for adult life.\n\n<strong>Another important reason is that doing housework teaches children a sense of responsibility.</strong> They learn that every family member should share household chores. They learn to complete their tasks on time. This helps them become more responsible and reliable. They also learn to appreciate their parents' efforts. As a result, they develop good habits for the future.\n\n<strong>A further reason supporting my viewpoint is that doing housework helps strengthen family bonds.</strong> Parents and children have more opportunities to work together. Family members can help and support each other. This encourages family members to communicate more often. As a result, they understand and respect each other better. Therefore, families can become closer and happier.\n\nIn conclusion, I strongly agree with the idea that children should learn to cook and do housework. The arguments presented above clearly explain why I support this viewpoint. Therefore, I believe that this perspective should be carefully considered in modern society.",
           "translation_b2": "Trong những năm gần đây, ý tưởng rằng trẻ em nên học nấu ăn và làm việc nhà đã thu hút sự chú ý và thảo luận đáng kể của công chúng. Từ quan điểm của tôi, tôi hoàn toàn đồng ý với ý kiến này vì một số lý do quan trọng. Bài tiểu luận này sẽ trình bày các lập luận chính hỗ trợ quan điểm của tôi.\n\n<strong>Lý do đầu tiên tại sao tôi đồng ý với ý kiến này là học nấu ăn và làm việc nhà giúp trẻ em phát triển những kỹ năng sống thiết yếu.</strong> Các em học cách chuẩn bị bữa ăn và chăm sóc bản thân. Các em cũng biết cách giữ gìn nhà cửa sạch sẽ và ngăn nắp. Những kỹ năng này rất hữu ích trong cuộc sống hằng ngày. Điều này giúp các em tự tin hơn khi sống tự lập trong tương lai. Vì vậy, các em sẽ chuẩn bị tốt hơn cho cuộc sống trưởng thành.\n\n<strong>Một lý do quan trọng khác là làm việc nhà giúp trẻ em học được tinh thần trách nhiệm.</strong> Các em hiểu rằng mọi thành viên đều nên chia sẻ việc nhà. Các em học cách hoàn thành công việc đúng thời hạn. Điều này giúp các em trở nên đáng tin cậy hơn. Các em cũng biết trân trọng công sức của cha mẹ hơn. Nhờ đó, các em hình thành những thói quen tốt cho tương lai.\n\n<strong>Một lý do nữa hỗ trợ quan điểm của tôi là làm việc nhà giúp gắn kết các thành viên trong gia đình.</strong> Cha mẹ và con cái có nhiều cơ hội làm việc cùng nhau. Các thành viên trong gia đình có thể giúp đỡ và hỗ trợ lẫn nhau. Điều này giúp mọi người giao tiếp với nhau nhiều hơn. Nhờ đó, các thành viên hiểu và tôn trọng nhau hơn. Vì vậy, gia đình có thể trở nên gắn bó và hạnh phúc hơn.\n\nTóm lại, tôi hoàn toàn đồng ý với ý tưởng rằng trẻ em nên học nấu ăn và làm việc nhà. Những lập luận được trình bày ở trên giải thích rõ ràng tại sao tôi ủng hộ quan điểm này. Vì vậy, tôi tin rằng quan điểm này cần được xem xét cẩn thận trong xã hội hiện đại."
         }
@@ -48280,9 +48284,145 @@ const ESSAY_DATA = [
           "The importance of AI in human life is growing rapidly.",
           "AI is playing a more significant role in various aspects of human life."
         ],
-        "context": "Artificial intelligence (AI) has developed rapidly in recent years and is now widely used in many aspects of daily life. From virtual assistants and online learning platforms to healthcare, transportation, and business operations, AI has transformed the way people live, work, and communicate. As technology continues to advance, many people believe that artificial intelligence is playing an increasingly important role in human life and will have an even greater influence in the future.",
-        "prompt": "Do you agree or disagree that artificial intelligence plays an increasingly important role in human life? Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
-        "has_full_details": false
+        "context": "Artificial intelligence plays an increasingly important role in human life, influencing the way people work, study, and communicate.",
+        "prompt": "Therefore, many people believe that the development of artificial intelligence brings significant benefits to society. To what extent do you agree or disagree with this opinion? Write an essay to express your opinion. Give reasons for your answer and include relevant examples from your own knowledge or experience. You should write at least 250 words. Your response will be evaluated in terms of Task fulfillment, Organization, Vocabulary, and Grammar.",
+        "has_full_details": true,
+        "details": {
+          "ideas_b1": {
+            "benefits": [
+              {
+                "title": "REASON 01: NÂNG CAO HIỆU QUẢ CÔNG VIỆC",
+                "point_vi": "Trí tuệ nhân tạo có thể giúp con người làm việc nhanh hơn và hiệu quả hơn trong nhiều lĩnh vực.",
+                "point_en": "Artificial intelligence can help people work faster and more efficiently in many fields.",
+                "evidence_vi": "Các hệ thống AI có thể xử lý dữ liệu và thực hiện những công việc lặp đi lặp lại với tốc độ rất cao. Điều này giúp người lao động giảm bớt khối lượng công việc và tiết kiệm nhiều thời gian trong quá trình làm việc. Ngoài ra, AI còn có thể hạn chế sai sót trong những công việc cần độ chính xác cao như quản lý dữ liệu hoặc kiểm tra thông tin.",
+                "evidence_en": "AI systems can process data and perform repetitive tasks at very high speed. This helps workers reduce their workload and save a lot of time during the work process. In addition, AI can reduce errors in tasks that require high accuracy such as data management or checking information.",
+                "collocations": [
+                  {
+                    "en": "work faster and more efficiently",
+                    "vi": "làm việc nhanh hơn và hiệu quả hơn"
+                  },
+                  {
+                    "en": "process data",
+                    "vi": "xử lý dữ liệu"
+                  },
+                  {
+                    "en": "perform repetitive tasks",
+                    "vi": "thực hiện các công việc lặp đi lặp lại"
+                  },
+                  {
+                    "en": "at very high speed",
+                    "vi": "với tốc độ rất cao"
+                  },
+                  {
+                    "en": "reduce workload",
+                    "vi": "giảm bớt khối lượng công việc"
+                  },
+                  {
+                    "en": "save a lot of time",
+                    "vi": "tiết kiệm nhiều thời gian"
+                  },
+                  {
+                    "en": "reduce errors",
+                    "vi": "hạn chế sai sót"
+                  },
+                  {
+                    "en": "high accuracy",
+                    "vi": "độ chính xác cao"
+                  },
+                  {
+                    "en": "data management",
+                    "vi": "quản lý dữ liệu"
+                  }
+                ]
+              },
+              {
+                "title": "REASON 02: HỖ TRỢ GIÁO DỤC VÀ Y TẾ",
+                "point_vi": "AI mang lại nhiều lợi ích quan trọng trong lĩnh vực giáo dục và y tế.",
+                "point_en": "AI brings many important benefits in the fields of education and healthcare.",
+                "evidence_vi": "Trong giáo dục, AI có thể giúp người học tiếp cận tài liệu phù hợp với trình độ và nhu cầu cá nhân. Nhờ các ứng dụng học tập thông minh, học sinh có thể luyện tập nhiều hơn và cải thiện kỹ năng học tập hiệu quả hơn. Trong lĩnh vực y tế, AI có thể hỗ trợ bác sĩ phân tích dữ liệu, phát hiện bệnh sớm hơn và theo dõi tình trạng bệnh nhân tốt hơn.",
+                "evidence_en": "In education, AI can help learners access materials suitable for their level and personal needs. Thanks to smart learning applications, students can practice more and improve their learning skills more effectively. In the medical field, AI can assist doctors in analyzing data, detecting diseases earlier, and monitoring patient conditions better.",
+                "collocations": [
+                  {
+                    "en": "important benefits",
+                    "vi": "những lợi ích quan trọng"
+                  },
+                  {
+                    "en": "access suitable materials",
+                    "vi": "tiếp cận tài liệu phù hợp"
+                  },
+                  {
+                    "en": "personal needs",
+                    "vi": "nhu cầu cá nhân"
+                  },
+                  {
+                    "en": "smart learning applications",
+                    "vi": "ứng dụng học tập thông minh"
+                  },
+                  {
+                    "en": "improve learning skills",
+                    "vi": "cải thiện kỹ năng học tập"
+                  },
+                  {
+                    "en": "analyze data",
+                    "vi": "phân tích dữ liệu"
+                  },
+                  {
+                    "en": "detect diseases earlier",
+                    "vi": "phát hiện bệnh sớm hơn"
+                  },
+                  {
+                    "en": "monitor patient conditions",
+                    "vi": "theo dõi tình trạng bệnh nhân"
+                  }
+                ]
+              },
+              {
+                "title": "REASON 03: GIÚP CUỘC SỐNG THUẬN TIỆN HƠN",
+                "point_vi": "AI giúp con người có cuộc sống tiện lợi và thoải mái hơn trong sinh hoạt hằng ngày.",
+                "point_en": "AI helps people have a more convenient and comfortable life in daily activities.",
+                "evidence_vi": "Nhiều thiết bị và ứng dụng sử dụng AI có thể hỗ trợ con người trong các hoạt động hằng ngày như tìm kiếm thông tin, học tập hoặc quản lý công việc. Các công nghệ thông minh cũng giúp người dùng tiết kiệm thời gian và công sức khi thực hiện nhiều nhiệm vụ khác nhau. Bên cạnh đó, AI có thể đưa ra các gợi ý cá nhân hóa dựa trên nhu cầu và sở thích của từng người, nên cuộc sống trở nên thuận tiện hơn.",
+                "evidence_en": "Many devices and applications using AI can support people in daily activities such as searching for information, studying, or managing work. Smart technologies also help users save time and effort when performing many different tasks. Besides, AI can provide personalized suggestions based on each person's needs and preferences, making life more convenient.",
+                "collocations": [
+                  {
+                    "en": "convenient and comfortable life",
+                    "vi": "cuộc sống tiện lợi và thoải mái"
+                  },
+                  {
+                    "en": "support people in daily activities",
+                    "vi": "hỗ trợ con người trong các hoạt động hằng ngày"
+                  },
+                  {
+                    "en": "search for information",
+                    "vi": "tìm kiếm thông tin"
+                  },
+                  {
+                    "en": "save time and effort",
+                    "vi": "tiết kiệm thời gian và công sức"
+                  },
+                  {
+                    "en": "perform different tasks",
+                    "vi": "thực hiện các nhiệm vụ khác nhau"
+                  },
+                  {
+                    "en": "personalized suggestions",
+                    "vi": "các gợi ý cá nhân hóa"
+                  },
+                  {
+                    "en": "needs and preferences",
+                    "vi": "nhu cầu và sở thích"
+                  },
+                  {
+                    "en": "make life more convenient",
+                    "vi": "làm cho cuộc sống thuận tiện hơn"
+                  }
+                ]
+              }
+            ],
+            "drawbacks": []
+          },
+          "sample_b1": "Nowadays, the idea that <strong>the development of artificial intelligence brings significant benefits to society</strong> has become a common topic of discussion. From my perspective, <strong>I completely agree with this opinion for several important reasons.</strong> This essay will present the main arguments supporting my viewpoint.\n\nThe first reason why I agree with this opinion is that <strong><em>artificial intelligence helps improve work efficiency.</em></strong> This is because AI systems can process data and perform repetitive tasks at very high speed. As a result, this helps workers reduce their workload and save a lot of time during the work process. In addition, AI can reduce errors in tasks that require high accuracy such as data management or checking information.\n\nAnother important reason is that <strong><em>artificial intelligence supports education and healthcare.</em></strong> In education, AI can help learners access materials suitable for their level and personal needs. Thanks to smart learning apps, students can practice more and improve their learning skills effectively. In healthcare, AI can assist doctors in analyzing data, detecting diseases earlier, and monitoring patients better.\n\nA further reason supporting my viewpoint is that <strong><em>artificial intelligence makes daily life more convenient.</em></strong> In fact, many devices and apps using AI support people in searching for information, studying, and managing daily work. Furthermore, smart technologies help users save time and effort when performing various tasks. In addition, AI provides personalized suggestions based on individual preferences, making life much more convenient.\n\nIn conclusion, <strong>I strongly agree with the idea</strong> that <strong><em>the development of artificial intelligence brings significant benefits to society.</em></strong> The reasons above clearly explain why I support this viewpoint. Therefore, it is essential that people learn to use this modern technology wisely.",
+          "translation_b1": "Ngày nay, quan điểm cho rằng <strong>sự phát triển của trí tuệ nhân tạo mang lại những lợi ích to lớn cho xã hội</strong> đã trở thành một chủ đề thảo luận phổ biến. Theo quan điểm của tôi, <strong>tôi hoàn toàn đồng ý với ý kiến này vì một số lý do quan trọng.</strong> Bài luận này sẽ trình bày những lập luận chính ủng hộ quan điểm của tôi.\n\nLý do đầu tiên khiến tôi đồng ý với quan điểm này là <strong><em>trí tuệ nhân tạo giúp nâng cao hiệu quả công việc.</em></strong> Điều này là do các hệ thống AI có thể xử lý dữ liệu và thực hiện các công việc lặp đi lặp lại với tốc độ rất cao. Nhờ đó, điều này giúp người lao động giảm bớt khối lượng công việc và tiết kiệm nhiều thời gian trong quá trình làm việc. Ngoài ra, AI có thể giảm thiểu sai sót trong các công việc đòi hỏi độ chính xác cao như quản lý dữ liệu hoặc kiểm tra thông tin.\n\nMột lý do quan trọng khác là <strong><em>trí tuệ nhân tạo hỗ trợ đắc lực cho giáo dục và y tế.</em></strong> Trong giáo dục, AI có thể giúp người học tiếp cận các tài liệu phù hợp với trình độ và nhu cầu cá nhân. Nhờ các ứng dụng học tập thông minh, học sinh có thể thực hành nhiều hơn và cải thiện kỹ năng học tập một cách hiệu quả. Trong y tế, AI có thể hỗ trợ bác sĩ phân tích dữ liệu, phát hiện bệnh sớm hơn và theo dõi bệnh nhân tốt hơn.\n\nMột lý do sâu xa hơn ủng hộ quan điểm của tôi là <strong><em>trí tuệ nhân tạo giúp cuộc sống hằng ngày trở nên thuận tiện hơn.</em></strong> Trên thực tế, nhiều thiết bị và ứng dụng sử dụng AI hỗ trợ con người tìm kiếm thông tin, học tập và quản lý công việc hằng ngày. Hơn nữa, các công nghệ thông minh giúp người dùng tiết kiệm thời gian và công sức khi thực hiện nhiều nhiệm vụ khác nhau. Ngoài ra, AI còn đưa ra các gợi ý cá nhân hóa dựa trên sở thích của từng người, làm cho cuộc sống tiện lợi hơn rất nhiều.\n\nTóm lại, <strong>tôi hoàn toàn đồng ý với ý kiến</strong> cho rằng <strong><em>sự phát triển của trí tuệ nhân tạo mang lại những lợi ích to lớn cho xã hội.</em></strong> Những lý do trên giải thích rõ ràng tại sao tôi ủng hộ quan điểm này. Do đó, điều cốt yếu là mọi người cần học cách sử dụng công nghệ hiện đại này một cách khôn ngoan."
+        }
       }
     ]
   },
@@ -48295,8 +48435,8 @@ const ESSAY_DATA = [
         "title_en": "Children should or should not read picture books?",
         "title_vi": "Trẻ em nên hay không nên đọc sách tranh.",
         "tags": "",
-        "context": "Reading plays an important role in children's development, and picture books are among the most popular reading materials for young children. Some people believe that picture books are interesting, easy to understand, and encourage children to develop a reading habit. Others argue that picture books may reduce children's imagination and creativity, similar to the effects of watching television.",
-        "prompt": "Discuss both views and give your own opinion. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "context": "Reading plays an important role in children's development, and picture books are among the most popular reading materials for young children. Some people believe that children should read picture books because they are easier to understand and more enjoyable. However, others argue that picture books may negatively affect children's imagination, just like watching television.",
+        "prompt": "Discuss both views and give your own opinion. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task fulfillment, Organization, Vocabulary, and Grammar.",
         "has_full_details": true,
         "details": {
           "vocab": [
@@ -48500,112 +48640,88 @@ const ESSAY_DATA = [
           "ideas_b1": {
             "benefits": [
               {
-                "title": "VIEW 01: CHILDREN SHOULD READ PICTURE BOOKS",
+                "title": "VIEW 01: SÁCH TRANH MANG LẠI NHIỀU LỢI ÍCH",
+                "point_vi": "Sách tranh mang lại nhiều lợi ích cho trẻ em.",
+                "point_en": "Picture books bring many benefits to children.",
+                "evidence_vi": "Hình ảnh giúp trẻ em hiểu nội dung câu chuyện dễ dàng hơn, đặc biệt khi các em đang học từ mới. Độc giả nhỏ tuổi có thể theo dõi nội dung tốt hơn vì các hình minh họa giải thích những phần quan trọng của câu chuyện. Việc đọc cũng trở nên thú vị hơn vì hình ảnh nhiều màu sắc thu hút sự chú ý của trẻ. Nhờ đó, trẻ em thường hứng thú hơn với việc đọc và học tập. Ví dụ, nhiều giáo viên tiểu học sử dụng sách tranh để khuyến khích học sinh tham gia tích cực vào các tiết đọc sách.",
+                "evidence_en": "Pictures can help children understand stories more easily, especially when they are learning new words. Young readers can follow the content more easily because illustrations explain important parts of the story. Reading also becomes more enjoyable because colorful images attract children's attention. As a result, children are often more interested in reading and learning. For example, many primary teachers use picture books to encourage students to participate actively in reading lessons.",
                 "collocations": [
                   {
-                    "en": "picture books",
-                    "vi": "sách tranh"
+                    "en": "bring many benefits",
+                    "vi": "mang lại nhiều lợi ích"
                   },
                   {
-                    "en": "understand stories",
-                    "vi": "hiểu câu chuyện"
+                    "en": "understand stories more easily",
+                    "vi": "hiểu câu chuyện dễ dàng hơn"
                   },
                   {
-                    "en": "be interested in",
-                    "vi": "hứng thú với"
+                    "en": "learn new words",
+                    "vi": "học từ mới"
                   },
                   {
-                    "en": "at an early age ~ from a young age",
-                    "vi": "từ khi còn nhỏ"
+                    "en": "follow the content",
+                    "vi": "theo dõi nội dung"
                   },
                   {
-                    "en": "academic performance",
-                    "vi": "thành tích học tập"
+                    "en": "colorful images",
+                    "vi": "hình ảnh nhiều màu sắc"
                   },
                   {
-                    "en": "connect A with B",
-                    "vi": "liên kết A với B"
+                    "en": "attract children's attention",
+                    "vi": "thu hút sự chú ý của trẻ em"
                   },
                   {
-                    "en": "be/become interested in + N/Ving",
-                    "vi": "hứng thú với"
+                    "en": "be interested in reading",
+                    "vi": "hứng thú với việc đọc"
                   },
                   {
-                    "en": "develop a habit",
-                    "vi": "hình thành thói quen"
+                    "en": "encourage students to participate actively",
+                    "vi": "khuyến khích học sinh tham gia tích cực"
                   }
-                ],
-                "point_vi": "Trẻ em nên đọc sách tranh vì chúng giúp việc đọc trở nên thú vị và dễ tiếp cận hơn.",
-                "point_en": "Children should read picture books because they make reading more enjoyable and accessible.",
-                "evidence_vi": "Hình ảnh giúp trẻ hiểu nội dung câu chuyện dễ dàng hơn. Trẻ em có thể liên kết hình ảnh với từ ngữ mới và học từ vựng nhanh hơn. Điều này giúp các em cảm thấy hứng thú hơn với việc đọc sách. Nhờ đó, các em có thể hình thành thói quen đọc sách từ khi còn nhỏ. Thói quen này có thể giúp cải thiện kỹ năng đọc và kết quả học tập trong tương lai.",
-                "evidence_en": "Pictures help children understand stories more easily. Children can connect pictures with new words and learn vocabulary more quickly. This helps them become more interested in reading. As a result, they can develop a reading habit from an early age. This habit can improve their reading skills and academic performance in the future."
+                ]
               }
             ],
             "drawbacks": [
               {
-                "title": "VIEW 02: CHILDREN SHOULD NOT READ PICTURE BOOKS",
+                "title": "VIEW 02: TÁC ĐỘNG TIÊU CỰC CỦA SÁCH TRANH",
+                "point_vi": "Sách tranh có thể gây ra một số ảnh hưởng tiêu cực đối với trẻ em.",
+                "point_en": "Picture books may have some negative effects on children.",
+                "evidence_vi": "Trẻ em có thể phụ thuộc quá nhiều vào hình ảnh thay vì sử dụng trí tưởng tượng của bản thân. Khi nhìn thấy hình minh họa liên tục, các em có thể không cố gắng tự hình dung các nhân vật hay sự việc trong câu chuyện. Sự phụ thuộc này có thể làm giảm tư duy sáng tạo và khiến các em khó chuyển sang đọc những cuốn sách chỉ có chữ. Ví dụ, một số trẻ em chủ yếu đọc sách tranh có thể cảm thấy chán nản khi phải đọc những câu chuyện dài hơn mà không có tranh vẽ.",
+                "evidence_en": "Children may rely too much on pictures instead of using their own imagination. When they see illustrations all the time, they may not try to imagine characters or events in the story. This reliance may reduce their creative thinking and make it harder for them to move on to books that contain only text. For example, some children who read mostly picture books may feel bored when they have to read longer stories without illustrations.",
                 "collocations": [
                   {
-                    "en": "rely on",
-                    "vi": "phụ thuộc vào"
+                    "en": "have negative effects",
+                    "vi": "có những ảnh hưởng tiêu cực"
                   },
                   {
-                    "en": "written text",
-                    "vi": "nội dung văn bản"
+                    "en": "rely too much on",
+                    "vi": "phụ thuộc quá nhiều vào"
                   },
                   {
-                    "en": "sentence structures",
-                    "vi": "cấu trúc câu"
+                    "en": "use their own imagination",
+                    "vi": "sử dụng trí tưởng tượng của bản thân"
                   },
                   {
-                    "en": "imagination",
-                    "vi": "trí tưởng tượng"
+                    "en": "imagine characters or events",
+                    "vi": "hình dung các nhân vật hoặc sự việc"
                   },
                   {
-                    "en": "creativity",
-                    "vi": "sự sáng tạo"
+                    "en": "reduce creative thinking",
+                    "vi": "làm giảm tư duy sáng tạo"
                   },
                   {
-                    "en": "characters",
-                    "vi": "nhân vật"
+                    "en": "books that contain only text",
+                    "vi": "sách chỉ chứa văn bản"
                   },
                   {
-                    "en": "events",
-                    "vi": "sự kiện"
+                    "en": "feel bored",
+                    "vi": "cảm thấy chán nản"
                   },
                   {
-                    "en": "books with more text",
-                    "vi": "sách có nhiều chữ hơn"
-                  },
-                  {
-                    "en": "pay attention to",
-                    "vi": "chú ý đến"
-                  },
-                  {
-                    "en": "focus on + N",
-                    "vi": "tập trung vào"
-                  },
-                  {
-                    "en": "make + O + Vo",
-                    "vi": "khiến ai làm gì"
-                  },
-                  {
-                    "en": "pay attention to + N",
-                    "vi": "chú ý đến"
-                  },
-                  {
-                    "en": "have difficulty + Ving",
-                    "vi": "gặp khó khăn khi làm gì"
-                  },
-                  {
-                    "en": "move on to + N",
-                    "vi": "chuyển sang cái gì"
+                    "en": "read longer stories",
+                    "vi": "đọc những câu chuyện dài hơn"
                   }
-                ],
-                "point_vi": "Một số người cho rằng trẻ em không nên phụ thuộc quá nhiều vào truyện tranh minh họa.",
-                "point_en": "Some people believe that children should not rely too much on picture books.",
-                "evidence_vi": "Trẻ em có thể tập trung vào hình ảnh nhiều hơn là nội dung văn bản. Điều này có thể khiến các em ít chú ý đến từ vựng và cấu trúc câu. Các em có thể phụ thuộc vào hình ảnh thay vì tự tưởng tượng câu chuyện. Vì vậy, khả năng tưởng tượng và sáng tạo của các em có thể bị hạn chế. Ngoài ra, một số trẻ có thể gặp khó khăn khi chuyển sang những cuốn sách có nhiều chữ hơn.",
-                "evidence_en": "Children may focus more on pictures than on written text. This may make them pay less attention to vocabulary and sentence structures. They may rely on pictures instead of imagining the story themselves. As a result, their imagination and creativity may be limited. In addition, some children may have difficulty moving on to books with more text."
+                ]
               }
             ]
           },
@@ -48741,9 +48857,9 @@ const ESSAY_DATA = [
               }
             ]
           },
-          "sample_b1": "In recent years, <strong>the use of picture books for children</strong> has become a common topic of discussion. Some people believe that <strong><em>children should read picture books because they make reading more enjoyable and accessible</em></strong>, while others argue that <strong><em>children should not rely too much on picture books</em></strong>. <strong>This essay will discuss both views and give my own opinion.</strong>\n\nOn the one hand, it is argued that <strong>children should read picture books because they bring many benefits to young readers</strong>. First of all, pictures help children understand stories more easily. In addition, children can connect pictures with new words and learn vocabulary more quickly. As a result, they become more interested in reading. Furthermore, this interest can help them develop a reading habit from a young age. This habit can improve their reading skills and academic performance in the future. Therefore, many people believe that picture books are useful for children's learning and development.\n\nOn the other hand, it is believed that <strong>children should not rely too much on picture books</strong>. To begin with, children may focus more on pictures than on written text. Consequently, they may pay less attention to vocabulary and sentence structures. In addition, they may rely on pictures instead of imagining the story themselves. As a result, their imagination and creativity may be limited. Furthermore, some children may have difficulty moving on to books with more text. Therefore, some people think that reading too many picture books may have negative effects on children.\n\nIn conclusion, both views have their own reasons. However, I believe that <strong><em>children should read picture books</em></strong> because <strong><em>they help young readers understand stories, learn new vocabulary, and develop a reading habit</em></strong>. Therefore, picture books can be a useful tool for supporting children's reading development.",
+          "sample_b1": "In recent years, <strong>the use of picture books for children</strong> has become a common topic of discussion. Some people believe that <strong><em>children should read picture books because they are easier to understand and more enjoyable</em></strong>, while others argue that <strong><em>picture books may negatively affect children's imagination, just like watching television</em></strong>. <strong>This essay will discuss both views and give my own opinion.</strong>\n\nOn the one hand, it is argued that <strong>picture books bring many benefits to children</strong>. This is because pictures can help children understand stories more easily, especially when they are learning new words. In addition, young readers can follow the content more easily because the illustrations explain important parts of the story. Reading also becomes more enjoyable because colorful images attract children's attention. As a result, children are often more interested in reading and learning. For example, many primary teachers use picture books to encourage students to participate actively in reading lessons.\n\nOn the other hand, it is believed that <strong>picture books may have some negative effects on children</strong>. The main reason is that children may rely too much on pictures instead of using their own imagination. When they see illustrations all the time, they may not try to imagine characters or events in the story. In addition, this reliance may reduce their creative thinking and make it harder for them to move on to books that contain only text. For example, some children who read mostly picture books may feel bored when they have to read longer stories without illustrations.\n\nIn conclusion, both views have their own reasons. However, I believe that <strong><em>picture books are beneficial for children</em></strong> because <strong><em>they help young readers enjoy reading and improve language skills</em></strong>. Therefore, it is important that parents and teachers guide children to read a variety of books as they grow older.",
           "sample_b2": "In recent years, <strong>the use of picture books for children</strong> has become a subject of considerable debate. Some people believe that <strong><em>children should read picture books because they are easy to understand and enjoyable</em></strong>, while others argue that <strong><em>relying too heavily on such</em></strong> <strong><em>books may have negative effects on children</em></strong>. <strong>This essay will discuss both perspectives and present my personal viewpoint.</strong>\n\nOn the one hand, it is argued that <strong>picture books play an important role in developing children's reading and learning abilities</strong>. First of all, illustrations help children understand story content more quickly and easily. In addition, children can connect images with new words to expand their vocabulary. As a result, the reading process becomes more enjoyable and less stressful for young readers. Furthermore, engaging books can motivate children to read more regularly and develop positive reading habits. These habits can provide long-term educational benefits and support language development. Therefore, many people believe that picture books are an effective tool for encouraging a love of reading among children.\n\nOn the other hand, it is believed that <strong>relying too heavily on picture books may have negative effects on children</strong>. To begin with, children may pay more attention to pictures than to written content. Consequently, they may rely on visual information instead of imagining characters, settings, and events on their own. This may reduce their imagination and creative thinking over time. Moreover, it may limit their reading comprehension and independent thinking skills. In addition, some children may have difficulty moving on to books with more text because they are accustomed to visual support. Therefore, many people believe that excessive use of picture books can create challenges for children's intellectual development.\n\nIn conclusion, both sides of the argument present valid points. However, <strong><em>I personally believe that children should read picture books</em></strong> because <strong><em>they help young readers develop reading habits, improve vocabulary, and become more interested in reading</em></strong>. Nevertheless, <strong><em>parents and teachers should encourage children to read different types of books as they grow older</em></strong>. Therefore, a balanced approach is the best way to support children's reading development.",
-          "translation_b1": "Trong những năm gần đây, <strong>việc sử dụng sách tranh cho trẻ em</strong> đã trở thành một chủ đề thảo luận phổ biến. Một số người tin rằng <strong><em>trẻ em nên đọc sách tranh vì chúng giúp việc đọc trở nên thú vị và dễ tiếp cận hơn</em></strong>, trong khi những người khác cho rằng <strong><em>trẻ em không nên phụ thuộc quá nhiều vào sách tranh</em></strong>. <strong>Bài viết này sẽ thảo luận về cả hai quan điểm và đưa ra ý kiến của riêng tôi.</strong>\n\n<strong>Một mặt, có ý kiến cho rằng trẻ em nên đọc sách tranh vì chúng mang lại nhiều lợi ích cho độc giả nhỏ tuổi.</strong> Trước hết, hình ảnh giúp trẻ hiểu nội dung câu chuyện dễ dàng hơn. Ngoài ra, trẻ có thể liên kết hình ảnh với từ ngữ mới và học từ vựng nhanh hơn. Kết quả là, các em trở nên hứng thú hơn với việc đọc sách. Hơn nữa, sự hứng thú này có thể giúp các em hình thành thói quen đọc sách từ khi còn nhỏ. Thói quen này có thể cải thiện kỹ năng đọc và kết quả học tập trong tương lai của các em. Do đó, nhiều người tin rằng sách tranh rất hữu ích cho việc học tập và phát triển của trẻ.\n\n<strong>Mặt khác, người ta tin rằng trẻ em không nên phụ thuộc quá nhiều vào sách tranh.</strong> Trước hết, trẻ em có thể tập trung vào hình ảnh nhiều hơn nội dung văn bản. Do đó, các em có thể ít chú ý hơn đến từ vựng và cấu trúc câu. Ngoài ra, các em có thể phụ thuộc vào hình ảnh thay vì tự mình tưởng tượng câu chuyện. Kết quả là, trí tưởng tượng và sự sáng tạo của các em có thể bị hạn chế. Hơn nữa, một số trẻ có thể gặp khó khăn khi chuyển sang những cuốn sách có nhiều chữ hơn. Vì vậy, một số người nghĩ rằng đọc quá nhiều sách tranh có thể gây ra những tác động tiêu cực đối với trẻ em.\n\nTóm lại, cả hai quan điểm đều có lý do riêng. Tuy nhiên, tôi tin rằng <strong><em>trẻ em nên đọc sách tranh</em></strong> bởi vì <strong><em>chúng giúp độc giả nhỏ tuổi hiểu câu chuyện, học từ vựng mới và hình thành thói quen đọc sách</em></strong>. Vì vậy, sách tranh có thể là một công cụ hữu ích để hỗ trợ sự phát triển khả năng đọc của trẻ.",
+          "translation_b1": "Trong những năm gần đây, <strong>việc sử dụng sách tranh cho trẻ em</strong> đã trở thành một chủ đề thảo luận phổ biến. Một số người tin rằng <strong><em>trẻ em nên đọc sách tranh vì chúng dễ hiểu và thú vị hơn</em></strong>, trong khi những người khác lại cho rằng <strong><em>sách tranh có thể ảnh hưởng tiêu cực đến trí tưởng tượng của trẻ, tương tự như việc xem ti vi</em></strong>. <strong>Bài luận này sẽ thảo luận về cả hai quan điểm và đưa ra ý kiến của riêng tôi.</strong>\n\nMột mặt, có ý kiến cho rằng <strong>sách tranh mang lại nhiều lợi ích cho trẻ em</strong>. Điều này là do hình ảnh có thể giúp trẻ hiểu các câu chuyện dễ dàng hơn, đặc biệt là khi các em đang học từ mới. Ngoài ra, độc giả nhỏ tuổi có thể theo dõi nội dung dễ dàng hơn vì tranh minh họa giải thích những phần quan trọng của câu chuyện. Việc đọc cũng trở nên thú vị hơn vì hình ảnh nhiều màu sắc thu hút sự chú ý của trẻ. Nhờ đó, trẻ em thường hứng thú hơn với việc đọc và học tập. Ví dụ, nhiều giáo viên tiểu học sử dụng sách tranh để khuyến khích học sinh tham gia tích cực vào các tiết đọc sách.\n\nMặt khác, nhiều người tin rằng <strong>sách tranh có thể gây ra một số ảnh hưởng tiêu cực đối với trẻ em</strong>. Lý do chính là trẻ có thể phụ thuộc quá nhiều vào hình ảnh thay vì sử dụng trí tưởng tượng của bản thân. Khi luôn nhìn thấy tranh minh họa, các em có thể không cố gắng hình dung về các nhân vật hoặc sự việc trong câu chuyện. Thêm vào đó, sự phụ thuộc này có thể làm giảm tư duy sáng tạo và khiến các em gặp khó khăn hơn khi chuyển sang đọc những cuốn sách chỉ toàn chữ. Ví dụ, một số trẻ em chủ yếu đọc sách tranh có thể cảm thấy nhàm chán khi phải đọc những câu chuyện dài hơn không có tranh vẽ.\n\nTóm lại, cả hai quan điểm đều có lý do riêng. Tuy nhiên, tôi tin rằng <strong><em>sách tranh rất có lợi cho trẻ em</em></strong> bởi vì <strong><em>chúng giúp độc giả nhỏ tuổi yêu thích việc đọc và nâng cao kỹ năng ngôn ngữ</em></strong>. Do đó, điều quan trọng là cha mẹ và giáo viên cần hướng dẫn trẻ đọc đa dạng các loại sách khi các em lớn lên.",
           "translation_b2": "Trong những năm gần đây, <strong>việc sử dụng sách tranh cho trẻ em</strong> đã trở thành một chủ đề tranh luận đáng kể. Một số người tin rằng <strong><em>trẻ em nên đọc sách tranh vì chúng dễ hiểu và thú vị</em></strong>, trong khi những người khác lập luận rằng <strong><em>việc phụ thuộc quá nhiều vào những cuốn sách như vậy có thể gây ra những tác động tiêu cực đối với trẻ em</em></strong>. <strong>Bài viết này sẽ thảo luận về cả hai khía cạnh và trình bày quan điểm cá nhân của tôi.</strong>\n\n<strong>Một mặt, có ý kiến cho rằng sách tranh đóng vai trò quan trọng trong việc phát triển kỹ năng đọc và khả năng học tập của trẻ em.</strong> Trước hết, hình ảnh minh họa giúp trẻ hiểu nội dung câu chuyện nhanh chóng và dễ dàng hơn. Ngoài ra, trẻ có thể liên kết hình ảnh với từ mới để mở rộng vốn từ vựng của mình. Kết quả là, quá trình đọc trở nên thú vị hơn và ít áp lực hơn đối với độc giả nhỏ tuổi. Hơn nữa, những cuốn sách hấp dẫn có thể tạo động lực cho trẻ đọc sách thường xuyên hơn và hình thành những thói quen đọc sách tích cực. Những thói quen này có thể mang lại lợi ích giáo dục lâu dài và hỗ trợ phát triển ngôn ngữ. Vì vậy, nhiều người tin rằng sách tranh là một công cụ hiệu quả để khuyến khích niềm yêu thích đọc sách của trẻ.\n\n<strong>Mặt khác, người ta tin rằng việc phụ thuộc quá nhiều vào sách tranh có thể gây ra những tác động tiêu cực đối với trẻ em.</strong> Trước hết, trẻ em có thể chú ý đến hình ảnh nhiều hơn nội dung văn bản. Hệ quả là, các em có thể dựa vào thông tin trực quan thay vì tự mình hình dung ra các nhân vật, bối cảnh và sự kiện trong câu chuyện. Điều này có thể làm giảm trí tưởng tượng và tư duy sáng tạo của các em theo thời gian. Hơn nữa, nó có thể hạn chế khả năng đọc hiểu và kỹ năng tư duy độc lập của trẻ. Ngoài ra, một số trẻ có thể gặp khó khăn khi chuyển sang những cuốn sách có nhiều chữ hơn vì các em đã quen với sự hỗ trợ của hình ảnh. Do đó, nhiều người tin rằng việc sử dụng sách tranh quá mức có thể tạo ra những thách thức đối với sự phát triển trí tuệ của trẻ.\n\nTóm lại, cả hai bên của cuộc tranh luận đều đưa ra những quan điểm hợp lý. Tuy nhiên, <strong><em>cá nhân tôi tin rằng trẻ em nên đọc sách tranh</em></strong> bởi vì <strong><em>chúng giúp độc giả nhỏ tuổi hình thành thói quen đọc sách, cải thiện từ vựng và trở nên hứng thú hơn với việc đọc</em></strong>. Mặc dù vậy, <strong><em>cha mẹ và giáo viên nên khuyến khích trẻ đọc các loại sách khác nhau khi các em lớn lên</em></strong>. Vì vậy, một phương pháp tiếp cận cân bằng là cách tốt nhất để hỗ trợ sự phát triển kỹ năng đọc của trẻ.",
           "key_vocab_notes": [
             {
@@ -49549,85 +49665,97 @@ const ESSAY_DATA = [
         "id": 6,
         "title_en": "Arranged marriage vs love marriage by personal choice?",
         "title_vi": "Hôn nhân sắp đặt so với hôn nhân tình yêu tự nguyện.",
-        "context": "Marriage customs vary across cultures and societies. In some countries, such as India, arranged marriages remain a common tradition, with parents and families playing an important role in selecting suitable partners. However, many people believe that individuals should have the freedom to choose their own life partners based on love and personal compatibility. As a result, there is ongoing debate about which approach leads to more successful and satisfying marriages. Some people believe that parents should arrange marriages because they have more experience and can help ensure stability. Others argue that people should choose their own partners based on love and compatibility.",
-        "prompt": "Discuss both views and give your own opinion. Include reasons and any relevant examples to support your answer. You should write at least 250 words. Your response will be evaluated in terms of Task Fulfillment, Organization, Vocabulary, and Grammar.",
+        "context": "In many societies, marriage is considered one of the most important decisions in a person's life. While some people believe that arranged marriages are more stable and beneficial because families are involved in the decision-making process, others argue that people should be free to choose their own partners based on love and personal choice.",
+        "prompt": "Discuss both views and give your own opinion. Give reasons for your answer and include relevant examples from your own knowledge or experience. You should write at least 250 words. Your response will be evaluated in terms of Task fulfillment, Organization, Vocabulary, and Grammar.",
         "has_full_details": true,
         "details": {
           "ideas_b1": {
             "benefits": [
               {
-                "title": "VIEW 01",
-                "point_vi": "Hôn nhân sắp đặt mang lại sự ổn định và hỗ trợ từ gia đình.",
-                "point_en": "Arranged marriages bring stability and family support.",
-                "evidence_vi": "Cha mẹ có nhiều kinh nghiệm sống hơn. Vì vậy, họ có thể chọn một người bạn đời phù hợp cho con cái của họ. Ngoài ra, hai gia đình có thể hỗ trợ cặp đôi khi họ gặp khó khăn. Do đó, cuộc sống hôn nhân thường ổn định và ít xảy ra ly hôn hơn.",
-                "evidence_en": "Parents have more life experience. Therefore, they can choose a suitable partner for their children. In addition, both families can support the couple when they face difficulties. As a result, married life is often stable and less likely to end in divorce.",
+                "title": "VIEW 01: HÔN NHÂN SẮP ĐẶT ỔN ĐỊNH VÀ LÂU DÀI",
+                "point_vi": "Hôn nhân sắp đặt có thể tạo ra các mối quan hệ ổn định và lâu dài hơn.",
+                "point_en": "Arranged marriages can create more stable and long-lasting relationships.",
+                "evidence_vi": "Nhiều người tin rằng gia đình có nhiều kinh nghiệm sống hơn trong việc lựa chọn một người bạn đời phù hợp. Cha mẹ thường cân nhắc các yếu tố như tính cách, học vấn và hoàn cảnh gia đình trước khi đưa ra quyết định. Điều này có thể giúp các cặp đôi giảm xung đột và duy trì mối quan hệ ổn định hơn sau khi kết hôn. Ngoài ra, các cặp vợ chồng trong hôn nhân sắp đặt thường nhận được nhiều sự hỗ trợ từ gia đình hai bên. Ví dụ, ở nhiều quốc gia châu Á, nhiều cuộc hôn nhân sắp đặt vẫn duy trì hạnh phúc và bền vững trong thời gian dài.",
+                "evidence_en": "Many people believe that families have more life experience in choosing a suitable partner. Parents often consider factors such as personality, education, and family background before making a decision. This can help couples reduce conflicts and maintain a more stable relationship after marriage. In addition, couples in arranged marriages often receive a lot of support from both families. For example, in many Asian countries, many arranged marriages still maintain happiness and stability for a long time.",
                 "collocations": [
                   {
-                    "en": "bring stability",
-                    "vi": "mang lại sự ổn định"
-                  },
-                  {
-                    "en": "family support",
-                    "vi": "sự hỗ trợ từ gia đình"
+                    "en": "stable and long-lasting relationships",
+                    "vi": "các mối quan hệ ổn định và lâu dài"
                   },
                   {
                     "en": "life experience",
                     "vi": "kinh nghiệm sống"
                   },
                   {
-                    "en": "suitable partner",
-                    "vi": "người bạn đời phù hợp"
+                    "en": "choose a suitable partner",
+                    "vi": "lựa chọn người bạn đời phù hợp"
                   },
                   {
-                    "en": "face difficulties",
-                    "vi": "gặp khó khăn"
+                    "en": "personality and education",
+                    "vi": "tính cách và học vấn"
                   },
                   {
-                    "en": "stable",
-                    "vi": "ổn định"
+                    "en": "family background",
+                    "vi": "hoàn cảnh gia đình"
                   },
                   {
-                    "en": "end in divorce",
-                    "vi": "dẫn đến ly hôn"
+                    "en": "reduce conflicts",
+                    "vi": "giảm bớt xung đột"
+                  },
+                  {
+                    "en": "maintain a stable relationship",
+                    "vi": "duy trì mối quan hệ ổn định"
+                  },
+                  {
+                    "en": "receive support from both families",
+                    "vi": "nhận được sự hỗ trợ từ hai bên gia đình"
+                  },
+                  {
+                    "en": "arranged marriages",
+                    "vi": "hôn nhân sắp đặt"
                   }
                 ]
               }
             ],
             "drawbacks": [
               {
-                "title": "VIEW 02",
-                "point_vi": "Hôn nhân tự nguyện giúp các cặp đôi hạnh phúc hơn.",
-                "point_en": "Love marriages help couples be happier.",
-                "evidence_vi": "Mọi người có quyền tự do lựa chọn người bạn đời của mình. Điều này giúp họ hiểu rõ tính cách và sở thích của nhau trước khi kết hôn. Hơn nữa, tình yêu là nền tảng quan trọng của một cuộc hôn nhân hạnh phúc. Nhờ đó, họ có thể dễ dàng cùng nhau giải quyết các vấn đề.",
-                "evidence_en": "People have the freedom to choose their own partners. This helps them understand each other's personalities and interests before getting married. Moreover, love is an important foundation of a happy marriage. As a result, they can easily solve problems together.",
+                "title": "VIEW 02: TỰ DO LỰA CHỌN BẠN ĐỜI DỰA TRÊN TÌNH YÊU",
+                "point_vi": "Mọi người nên được tự do lựa chọn bạn đời dựa trên tình yêu và cảm xúc cá nhân.",
+                "point_en": "People should be free to choose their own partners based on love and personal feelings.",
+                "evidence_vi": "Khi tự lựa chọn bạn đời, các cặp đôi thường hiểu rõ tính cách, sở thích và quan điểm sống của nhau hơn. Điều này có thể giúp họ xây dựng sự gắn kết tình cảm mạnh mẽ hơn trong hôn nhân. Ngoài ra, việc tự quyết định hôn nhân cũng thể hiện quyền tự do cá nhân và sự độc lập trong cuộc sống. Trên thực tế, khi tự lựa chọn bạn đời, mọi người thường cảm thấy hài lòng hơn với quyết định của mình. Ví dụ, nhiều cặp đôi hiện nay xây dựng mối quan hệ thành công nhờ sự thấu hiểu và tình yêu chân thành trước khi kết hôn.",
+                "evidence_en": "When choosing their own partners, couples usually understand each other's personalities, hobbies, and life views better. This can help them build a stronger emotional bond in marriage. In addition, deciding on marriage oneself shows personal freedom and independence in life. In fact, when freely choosing a partner, people often feel more satisfied with their decisions. For example, many couples today build successful relationships thanks to mutual understanding and sincere love before getting married.",
                 "collocations": [
                   {
-                    "en": "freedom to choose",
-                    "vi": "quyền tự do lựa chọn"
+                    "en": "free to choose partners",
+                    "vi": "tự do lựa chọn bạn đời"
                   },
                   {
-                    "en": "understand each other",
-                    "vi": "hiểu nhau"
+                    "en": "personal feelings",
+                    "vi": "cảm xúc cá nhân"
                   },
                   {
-                    "en": "personalities and interests",
-                    "vi": "tính cách và sở thích"
+                    "en": "understand each other's personalities",
+                    "vi": "hiểu rõ tính cách của nhau"
                   },
                   {
-                    "en": "important foundation",
-                    "vi": "nền tảng quan trọng"
+                    "en": "stronger emotional bond",
+                    "vi": "sự gắn kết tình cảm mạnh mẽ hơn"
                   },
                   {
-                    "en": "happy marriage",
-                    "vi": "cuộc hôn nhân hạnh phúc"
+                    "en": "personal freedom and independence",
+                    "vi": "quyền tự do cá nhân và sự độc lập"
                   },
                   {
-                    "en": "solve problems",
-                    "vi": "giải quyết vấn đề"
+                    "en": "feel more satisfied",
+                    "vi": "cảm thấy hài lòng hơn"
                   },
                   {
-                    "en": "share responsibilities",
-                    "vi": "chia sẻ trách nhiệm"
+                    "en": "mutual understanding",
+                    "vi": "sự thấu hiểu lẫn nhau"
+                  },
+                  {
+                    "en": "sincere love",
+                    "vi": "tình yêu chân thành"
                   }
                 ]
               }
@@ -49851,8 +49979,8 @@ const ESSAY_DATA = [
               "vi": "mức độ hài lòng cá nhân"
             }
           ],
-          "sample_b1": "In recent years, **marriage decisions** have become a common topic of discussion. Some people believe that ***arranged marriages are more stable and beneficial***, while others argue that ***people should be free to choose their own partners based on love***. **This essay will discuss both views and give my own opinion.**\n\nOn the one hand, it is argued that **arranged marriages can create more stable and long-lasting relationships**. Many people believe that families have more life experience in choosing a suitable partner. Parents often consider factors such as personality, education, and family background before making a decision. This can help couples reduce conflicts and maintain a more stable relationship after marriage. In addition, couples in arranged marriages often receive a lot of support from both families.\n\nOn the other hand, it is believed that **people should be free to choose their partners based on love and personal feelings**. When choosing their own partners, couples usually understand each other's personalities, hobbies, and life views better. This can help them build a stronger emotional bond in marriage. Moreover, deciding on marriage oneself also shows personal freedom and independence in life. In fact, when freely choosing a partner, people often feel more satisfied with their decisions.\n\nIn conclusion, both views have their own reasons. However, I believe that ***people should be free to choose their partners based on love and mutual understanding*** because ***they are the foundation of a happy marriage***. Therefore, people should think carefully before forming an opinion.",
-          "translation_b1": "Trong những năm gần đây, **các quyết định hôn nhân** đã trở thành một chủ đề thảo luận phổ biến. Một số người tin rằng ***hôn nhân sắp đặt ổn định và có lợi hơn***, trong khi những người khác cho rằng ***mọi người nên được tự do chọn bạn đời dựa trên tình yêu***. **Bài luận này sẽ thảo luận về cả hai quan điểm và đưa ra ý kiến của riêng tôi.**\n\nMột mặt, người ta lập luận rằng **hôn nhân sắp đặt có thể tạo ra các mối quan hệ ổn định và lâu dài hơn**. Nhiều người tin rằng gia đình có nhiều kinh nghiệm sống hơn trong việc lựa chọn bạn đời phù hợp. Cha mẹ thường cân nhắc các yếu tố như tính cách, học vấn và hoàn cảnh gia đình trước khi đưa ra quyết định. Điều này có thể giúp các cặp đôi giảm xung đột và duy trì mối quan hệ ổn định hơn sau khi kết hôn. Ngoài ra, các cặp vợ chồng trong hôn nhân sắp đặt thường nhận được nhiều sự hỗ trợ từ gia đình hai bên.\n\nMặt khác, người ta tin rằng **mọi người nên được tự do lựa chọn bạn đời dựa trên tình yêu và cảm xúc cá nhân**. Khi tự lựa chọn bạn đời, các cặp đôi thường hiểu rõ tính cách, sở thích và quan điểm sống của nhau hơn. Điều này có thể giúp họ xây dựng sự gắn kết tình cảm mạnh mẽ hơn trong hôn nhân. Ngoài ra, việc tự quyết định hôn nhân cũng thể hiện quyền tự do cá nhân và sự độc lập trong cuộc sống. Trên thực tế, khi tự lựa chọn bạn đời, mọi người thường cảm thấy hài lòng hơn với quyết định của mình.\n\nTóm lại, cả hai quan điểm đều có những lý do riêng. Tuy nhiên, tôi tin rằng ***mọi người nên được tự do chọn bạn đời dựa trên tình yêu và sự thấu hiểu lẫn nhau*** bởi vì ***chúng là nền tảng của một cuộc hôn nhân hạnh phúc***. Do đó, mọi người nên suy nghĩ cẩn thận trước khi hình thành một quan điểm.",
+          "sample_b1": "In recent years, <strong>marriage decisions</strong> have become a common topic of discussion. Some people believe that <strong><em>arranged marriages are more stable and beneficial</em></strong>, while others argue that <strong><em>people should be free to choose their own partners based on love and personal choice</em></strong>. <strong>This essay will discuss both views and give my own opinion.</strong>\n\nOn the one hand, it is argued that <strong>arranged marriages can create more stable and long-lasting relationships</strong>. Many people believe that families have more life experience in choosing a suitable partner. Parents often consider important factors such as personality, education, and family background before making a decision. This can help couples reduce conflicts and maintain a more stable relationship after marriage. In addition, couples in arranged marriages often receive a lot of support from both families. For example, in many Asian countries, many arranged marriages still maintain happiness and stability for a long time.\n\nOn the other hand, it is believed that <strong>people should be free to choose their partners based on love and personal feelings</strong>. When choosing their own partners, couples usually understand each other's personalities, hobbies, and life views better. This can help them build a stronger emotional bond in marriage. In addition, deciding on marriage oneself shows personal freedom and independence in life. In fact, when freely choosing a partner, people often feel more satisfied with their decisions. For example, many couples today build successful relationships thanks to mutual understanding and sincere love before getting married.\n\nIn conclusion, both views have their own reasons. However, I believe that <strong><em>people should be free to choose their partners based on love and mutual understanding</em></strong> because <strong><em>they are the foundation of a happy marriage</em></strong>. Therefore, it is important that people consider both views carefully.",
+          "translation_b1": "Trong những năm gần đây, <strong>các quyết định hôn nhân</strong> đã trở thành một chủ đề thảo luận phổ biến. Một số người tin rằng <strong><em>hôn nhân sắp đặt ổn định và có lợi hơn</em></strong>, trong khi những người khác lại cho rằng <strong><em>mọi người nên được tự do lựa chọn bạn đời dựa trên tình yêu và sự lựa chọn cá nhân</em></strong>. <strong>Bài luận này sẽ thảo luận về cả hai quan điểm và đưa ra ý kiến của riêng tôi.</strong>\n\nMột mặt, có ý kiến cho rằng <strong>hôn nhân sắp đặt có thể tạo ra các mối quan hệ ổn định và lâu dài hơn</strong>. Nhiều người tin rằng gia đình có nhiều kinh nghiệm sống hơn trong việc lựa chọn người bạn đời phù hợp. Cha mẹ thường cân nhắc các yếu tố quan trọng như tính cách, học vấn và hoàn cảnh gia đình trước khi đưa ra quyết định. Điều này có thể giúp các cặp đôi giảm bớt xung đột và duy trì mối quan hệ ổn định hơn sau khi kết hôn. Ngoài ra, các cặp vợ chồng trong hôn nhân sắp đặt thường nhận được nhiều sự hỗ trợ từ cả hai bên gia đình. Ví dụ, ở nhiều nước châu Á, nhiều cuộc hôn nhân sắp đặt vẫn duy trì được hạnh phúc và sự bền vững trong một thời gian dài.\n\nMặt khác, nhiều người tin rằng <strong>mọi người nên được tự do lựa chọn bạn đời dựa trên tình yêu và cảm xúc cá nhân</strong>. Khi tự chọn bạn đời, các cặp đôi thường hiểu rõ hơn về tính cách, sở thích và quan điểm sống của nhau. Điều này có thể giúp họ xây dựng mối gắn kết tình cảm bền chặt hơn trong hôn nhân. Ngoài ra, việc tự quyết định hôn nhân thể hiện quyền tự do cá nhân và sự độc lập trong cuộc sống. Trên thực tế, khi được tự do lựa chọn bạn đời, mọi người thường cảm thấy hài lòng hơn với quyết định của mình. Ví dụ, nhiều cặp đôi hiện nay xây dựng mối quan hệ thành công nhờ sự thấu hiểu và tình yêu chân thành trước khi kết hôn.\n\nTóm lại, cả hai quan điểm đều có những lý lẽ riêng. Tuy nhiên, tôi tin rằng <strong><em>mọi người nên được tự do lựa chọn bạn đời dựa trên tình yêu và sự thấu hiểu lẫn nhau</em></strong> bởi vì <strong><em>đó là nền tảng của một cuộc hôn nhân hạnh phúc</em></strong>. Do đó, điều quan trọng là mọi người cần cân nhắc kỹ lưỡng cả hai quan điểm.",
           "sample_b2": "In recent years, **marriage decisions** have become a subject of considerable debate. Some people believe that ***arranged marriages are more stable and beneficial***, while others argue that ***people should be free to choose their own partners based on love***. **This essay will discuss both perspectives and present my personal viewpoint.**\n\nOn the one hand, it is argued that **arranged marriages can create more stable and long-lasting relationships**. Many people believe that families have more life experience in choosing a suitable partner. Parents often consider factors such as personality, education, and family background before making a decision. This can help couples reduce conflicts and maintain a more stable relationship after marriage. In addition, couples in arranged marriages often receive a lot of support from both families. For example, in many Asian countries, numerous arranged marriages still remain happy and sustainable for a long time.\n\nOn the other hand, it is believed that **people should be free to choose their partners based on love and personal feelings**. When choosing their own partners, couples usually understand each other's personalities, hobbies, and life views better. This can help them build a stronger emotional bond in marriage. Moreover, deciding on marriage oneself also shows personal freedom and independence in life. In fact, when freely choosing a partner, people often feel more satisfied with their decisions. For instance, many couples today build successful relationships thanks to empathy and genuine love before getting married.\n\nIn conclusion, both sides of the argument present valid points. However, I personally believe that ***people should be free to choose their partners based on love and mutual understanding*** because ***they are the foundation of a happy marriage***. Therefore, people should carefully consider both perspectives before forming a final opinion.",
           "translation_b2": "Trong những năm gần đây, **các quyết định hôn nhân** đã trở thành một chủ đề tranh luận đáng kể. Một số người tin rằng ***hôn nhân sắp đặt ổn định và có lợi hơn***, trong khi những người khác cho rằng ***mọi người nên được tự do chọn bạn đời dựa trên tình yêu***. **Bài luận này sẽ thảo luận về cả hai góc nhìn và trình bày quan điểm cá nhân của tôi.**\n\nMột mặt, người ta lập luận rằng **hôn nhân sắp đặt có thể tạo ra các mối quan hệ ổn định và lâu dài hơn**. Nhiều người tin rằng gia đình có nhiều kinh nghiệm sống hơn trong việc lựa chọn bạn đời phù hợp. Cha mẹ thường cân nhắc các yếu tố như tính cách, học vấn và hoàn cảnh gia đình trước khi đưa ra quyết định. Điều này có thể giúp các cặp đôi giảm xung đột và duy trì mối quan hệ ổn định hơn sau khi kết hôn. Ngoài ra, các cặp vợ chồng trong hôn nhân sắp đặt thường nhận được nhiều sự hỗ trợ từ gia đình hai bên. Ví dụ, ở nhiều quốc gia châu Á, nhiều cuộc hôn nhân sắp đặt vẫn duy trì hạnh phúc và bền vững trong thời gian dài.\n\nMặt khác, người ta tin rằng **mọi người nên được tự do lựa chọn bạn đời dựa trên tình yêu và cảm xúc cá nhân**. Khi tự lựa chọn bạn đời, các cặp đôi thường hiểu rõ tính cách, sở thích và quan điểm sống của nhau hơn. Điều này có thể giúp họ xây dựng sự gắn kết tình cảm mạnh mẽ hơn trong hôn nhân. Ngoài ra, việc tự quyết định hôn nhân cũng thể hiện quyền tự do cá nhân và sự độc lập trong cuộc sống. Trên thực tế, khi tự lựa chọn bạn đời, mọi người thường cảm thấy hài lòng hơn với quyết định của mình. Ví dụ, nhiều cặp đôi hiện nay xây dựng mối quan hệ thành công nhờ sự thấu hiểu và tình yêu chân thành trước khi kết hôn.\n\nTóm lại, cả hai bên của cuộc tranh luận đều đưa ra những điểm hợp lý. Tuy nhiên, cá nhân tôi tin rằng ***mọi người nên được tự do chọn bạn đời dựa trên tình yêu và sự thấu hiểu lẫn nhau*** bởi vì ***chúng là nền tảng của một cuộc hôn nhân hạnh phúc***. Do đó, mọi người nên xem xét cẩn thận cả hai góc nhìn trước khi hình thành một quan điểm cuối cùng."
         },
