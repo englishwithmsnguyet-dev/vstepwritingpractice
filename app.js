@@ -5692,23 +5692,31 @@ function getStudentLockKey(studentName) {
 
 function isCurrentStudentLocked() {
   const studentName = sessionStorage.getItem('current_user_name');
-  if (studentName) {
-    const lockData = localStorage.getItem(getStudentLockKey(studentName));
-    if (lockData) {
-      try {
-        const parsed = JSON.parse(lockData);
-        if (parsed && parsed.locked === true) return true;
-      } catch (e) {
-        return true;
-      }
+  if (!studentName) return false;
+  if (typeof checkIsTeacher === 'function' && checkIsTeacher(studentName, sessionStorage.getItem('current_user_class') || '', '')) {
+    return false;
+  }
+  const lockData = localStorage.getItem(getStudentLockKey(studentName));
+  if (lockData) {
+    try {
+      const parsed = JSON.parse(lockData);
+      if (parsed && parsed.locked === true) return true;
+    } catch (e) {
+      return false;
     }
   }
-  return localStorage.getItem('vstep_is_account_locked') === 'true';
+  return false;
 }
 
 function lockCurrentAccount(reason) {
   const studentName = sessionStorage.getItem('current_user_name') || localStorage.getItem('vstep_locked_student_name') || 'Học viên';
   const studentClass = sessionStorage.getItem('current_user_class') || localStorage.getItem('vstep_locked_student_class') || '';
+
+  // Never lock teacher
+  if (typeof checkIsTeacher === 'function' && checkIsTeacher(studentName, studentClass, '')) {
+    return;
+  }
+
   const lockInfo = {
     locked: true,
     studentName: studentName,
@@ -5720,7 +5728,6 @@ function lockCurrentAccount(reason) {
   };
 
   localStorage.setItem(getStudentLockKey(studentName), JSON.stringify(lockInfo));
-  localStorage.setItem('vstep_is_account_locked', 'true');
   localStorage.setItem('vstep_locked_student_name', studentName);
   localStorage.setItem('vstep_locked_student_class', studentClass);
   sessionStorage.setItem('vstep_session_locked', 'true');
@@ -7328,8 +7335,70 @@ const VALID_CLASSES = {
     'Đặng Thị Kim Thoa',
     'Trần Thị Tiên Tiên',
     'Lê Kim Tuyền'
+  ],
+  'CB211': [
+    'Hồ Anh Quân',
+    'Lê Thành Nghiệp',
+    'Lê Khánh Lâm',
+    'Huỳnh Thị Ngọc Thắm',
+    'Mai Trần Xuân Mai',
+    'Lê Thị Uyển Nhi',
+    'Nguyễn Thụy Thanh Trúc'
+  ],
+  'CB213': [
+    'Nguyễn Quốc Anh',
+    'Hoàng Hợp Minh Châu',
+    'Đặng Châu Gia Huy',
+    'Trần Minh Tuệ Mẩn',
+    'Đặng Thị Trúc Măng',
+    'Trương Thị Kha My',
+    'Ngô Diễm My',
+    'Chiêm Chúc Ngân',
+    'Huỳnh Thị Yến Nhi',
+    'Phạm Nguyễn Tâm Như',
+    'Phạm Nhựt Tiến',
+    'Lê Thị Tú Trinh',
+    'Trần Ngọc Vinh'
+  ],
+  'ONB103': [
+    'Nguyễn Thị Duy',
+    'Phạm Trần Mỹ Hân',
+    'Trịnh Thị Thu Hiền',
+    'Nguyễn Hoàng Kha',
+    'Phạm Thị Út Lụa',
+    'Lê Huỳnh Diễm My',
+    'Nguyễn Thị Ngọc Mỹ',
+    'Huỳnh Thị Kim Ngân',
+    'Trần Thị Kim Ngân',
+    'Nguyễn Thị Tiểu Phụng',
+    'Trần Yến Phụng',
+    'Phạm Ngọc Thạch',
+    'Cao Thị Thu Trang',
+    'Nguyễn Thị Thanh Tuyền',
+    'Trần Phạm Phương Uyên',
+    'Trần Ngô Mỹ Vy'
   ]
 };
+
+const VALID_PASSWORDS = [
+  'STUDYHARD',
+  'PRACTICEWRITING',
+  'VSTEPSEPTEMBER',
+  'PTMN',
+  'GVPTMN',
+  'COMINHNGUYET',
+  'PTMN2896',
+  'PTMN2412',
+  'PTMN2805'
+];
+
+function removeVietnameseTones(str) {
+  if (!str) return '';
+  return str
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/đ/g, 'd').replace(/Đ/g, 'D');
+}
 
 function normalizeVietnameseName(str) {
   if (!str) return '';
@@ -7340,118 +7409,163 @@ function normalizeVietnameseName(str) {
     .toLowerCase();
 }
 
+function checkIsTeacher(nameInput, classInput, passInput) {
+  const normName = normalizeVietnameseName(nameInput);
+  const noTone = removeVietnameseTones(normName);
+  const upPass = (passInput || '').trim().toUpperCase();
+  const upClass = (classInput || '').trim().toUpperCase();
+
+  const teacherKeywords = [
+    'ptmn', 'co nguyet', 'miss nguyet', 'pham thi minh nguyet',
+    'nguyet pham', 'giao vien', 'teacher', 'admin', 'gv'
+  ];
+  const teacherPasswords = ['PTMN', 'GVPTMN', 'COMINHNGUYET', 'PTMN2896', 'PTMN2412', 'PTMN2805'];
+
+  if (teacherKeywords.includes(noTone) || normName.includes('nguyệt') || normName.includes('nguyet')) return true;
+  if (upClass === 'GV' || upClass === 'TEACHER' || upClass === 'ADMIN') return true;
+  if (teacherPasswords.includes(upPass)) return true;
+  return false;
+}
+
 function submitGatewayAccess() {
   const nameInput = document.getElementById('gateway-name').value.trim();
   let classInput = document.getElementById('gateway-class').value.trim().toUpperCase();
   const passInput = (document.getElementById('gateway-pass')?.value || '').trim();
   const errorEl = document.getElementById('gateway-error');
   const btnSubmit = document.getElementById('btn-gateway-submit');
-  
+
   if (!nameInput) {
     errorEl.textContent = 'Vui lòng nhập đầy đủ Họ và Tên!';
     errorEl.style.display = 'block';
     return;
   }
 
-  // Check if this student account is locked due to 3 violations
-  const normInput = normalizeVietnameseName(nameInput);
-  const lockDataRaw = localStorage.getItem(`vstep_lock_${normInput}`);
+  // 1. TEACHER ACCESS (Bypasses all restrictions, always permitted)
+  const isTeacher = checkIsTeacher(nameInput, classInput, passInput);
+  if (isTeacher) {
+    if (!classInput) classInput = 'GV';
+    try {
+      localStorage.removeItem('vstep_is_account_locked');
+      localStorage.removeItem('vstep_locked_student_name');
+    } catch(e) {}
+
+    errorEl.style.display = 'none';
+    const teacherName = nameInput || 'Cô Nguyệt (PTMN)';
+    sessionStorage.setItem('current_user_name', teacherName);
+    sessionStorage.setItem('current_user_class', 'GV');
+
+    const gateway = document.getElementById('access-gateway');
+    const appContainer = document.getElementById('app-container');
+    if (gateway) gateway.style.display = 'none';
+    if (appContainer) appContainer.style.display = 'flex';
+    updateClassAccessUI();
+    showToast(`Chào mừng Giáo viên ${teacherName} đã đăng nhập hệ thống!`, 'success');
+
+    // Post teacher entry in background
+    try {
+      const now = new Date();
+      const timeString = now.toLocaleTimeString('vi-VN') + ' ' + now.toLocaleDateString('vi-VN');
+      const finalData = `[GIÁO VIÊN] ${teacherName} - Lớp ${classInput} - Đăng nhập lúc ${timeString}`;
+      const formUrl = 'https://docs.google.com/forms/d/e/1FAIpQLSfB9UgCMgYhwLVvjiXnGZTFlj6IwCJfjqwpBfd1qHpeOm4Lvw/formResponse';
+      const formData = new FormData();
+      formData.append('entry.1205151935', finalData);
+      fetch(formUrl, { method: 'POST', mode: 'no-cors', body: formData }).catch(() => {});
+    } catch(e) {}
+    return;
+  }
+
+  // 2. CHECK SPECIFIC STUDENT ACCOUNT LOCK
+  const lockKey = getStudentLockKey(nameInput);
+  const lockDataRaw = localStorage.getItem(lockKey);
   let isTargetLocked = false;
   if (lockDataRaw) {
     try {
       const parsed = JSON.parse(lockDataRaw);
       if (parsed && parsed.locked === true) isTargetLocked = true;
-    } catch(e) { isTargetLocked = true; }
+    } catch(e) { isTargetLocked = false; }
   }
-  if (isTargetLocked || localStorage.getItem('vstep_is_account_locked') === 'true') {
+  if (isTargetLocked) {
     sessionStorage.setItem('current_user_name', nameInput);
     sessionStorage.setItem('current_user_class', classInput);
     showAccountLockedModal('tab_switch');
     return;
   }
 
-  // Trường hợp đặc biệt dành cho Giáo viên (PTMN / GV)
-  const normName = nameInput.toUpperCase();
-  const isTeacher = (normName === 'PTMN' && (classInput === 'GV' || !classInput)) || (normName === 'PTMN' && classInput === 'GV');
-  if (isTeacher) {
-    if (!classInput) classInput = 'GV';
+  // 3. STUDENT VALIDATION
+  if (!classInput) {
+    errorEl.textContent = 'Vui lòng nhập Mã lớp học!';
+    errorEl.style.display = 'block';
+    return;
+  }
+
+  if (!passInput) {
+    errorEl.textContent = 'Vui lòng nhập Mật khẩu truy cập!';
+    errorEl.style.display = 'block';
+    return;
+  }
+
+  if (!VALID_PASSWORDS.includes(passInput.toUpperCase())) {
+    errorEl.textContent = 'Mật khẩu không chính xác! Vui lòng kiểm tra lại (mật khẩu mặc định: STUDYHARD).';
+    errorEl.style.display = 'block';
+    return;
+  }
+
+  // Match student name
+  let matchedName = nameInput;
+  const normInput = normalizeVietnameseName(nameInput);
+  const noToneInput = removeVietnameseTones(normInput);
+
+  if (VALID_CLASSES[classInput]) {
+    const roster = VALID_CLASSES[classInput];
+    const found = roster.find(st => {
+      const normSt = normalizeVietnameseName(st);
+      const noToneSt = removeVietnameseTones(normSt);
+      return normSt === normInput || noToneSt === noToneInput;
+    });
+
+    if (found) {
+      matchedName = found;
+    } else {
+      const words = nameInput.split(/\s+/).filter(Boolean);
+      if (words.length < 2) {
+        errorEl.textContent = `Họ và tên chưa chính xác trong danh sách lớp ${classInput}. Vui lòng nhập đầy đủ cả Họ và Tên!`;
+        errorEl.style.display = 'block';
+        return;
+      }
+    }
   } else {
-    if (classInput === 'GV') {
-      errorEl.textContent = 'Mã lớp GV chỉ dành riêng cho tài khoản Giáo viên (PTMN)!';
-      errorEl.style.display = 'block';
-      return;
-    }
-
-    if (!classInput) {
-      errorEl.textContent = 'Vui lòng nhập Lớp học!';
-      errorEl.style.display = 'block';
-      return;
-    }
-    
-    if (!VALID_CLASSES[classInput]) {
-      errorEl.textContent = 'Mã lớp không hợp lệ. Hệ thống hiện mở cho lớp CB206 và CB210!';
-      errorEl.style.display = 'block';
-      return;
-    }
-
-    if (!passInput) {
-      errorEl.textContent = 'Vui lòng nhập Mật khẩu!';
-      errorEl.style.display = 'block';
-      return;
-    }
-
-    if (passInput.toUpperCase() !== 'STUDYHARD') {
-      errorEl.textContent = 'Mật khẩu không chính xác. Vui lòng kiểm tra lại!';
-      errorEl.style.display = 'block';
-      return;
-    }
-
-    const validStudentsForClass = VALID_CLASSES[classInput];
-    const normInputName = normalizeVietnameseName(nameInput);
-    const isStudentMatched = validStudentsForClass.some(st => normalizeVietnameseName(st) === normInputName);
-    
-    if (!isStudentMatched) {
-      errorEl.textContent = `Họ và tên không nằm trong danh sách lớp ${classInput}. Vui lòng nhập đúng họ tên đầy đủ!`;
+    // If class is not in pre-defined roster (e.g. B1, B2, VSTEP, CB201, etc.)
+    const words = nameInput.split(/\s+/).filter(Boolean);
+    if (words.length < 2) {
+      errorEl.textContent = 'Vui lòng nhập đầy đủ Họ và Tên học viên (ít nhất 2 từ)!';
       errorEl.style.display = 'block';
       return;
     }
   }
-  
-  errorEl.style.display = 'none';
-  btnSubmit.textContent = 'ĐANG ĐĂNG NHẬP...';
-  btnSubmit.disabled = true;
 
-  // Save student session details
-  sessionStorage.setItem('current_user_name', nameInput);
+  // SUCCESSFUL STUDENT LOGIN
+  errorEl.style.display = 'none';
+  sessionStorage.setItem('current_user_name', matchedName);
   sessionStorage.setItem('current_user_class', classInput);
-  
-  const now = new Date();
-  const timeString = now.toLocaleTimeString('vi-VN') + ' ' + now.toLocaleDateString('vi-VN');
-  const finalData = `${nameInput} - Lớp ${classInput} - Đã truy cập hệ thống lúc ${timeString}`;
-  
-  // Google Form POST URL and Entry ID
-  const formUrl = 'https://docs.google.com/forms/d/e/1FAIpQLSfB9UgCMgYhwLVvjiXnGZTFlj6IwCJfjqwpBfd1qHpeOm4Lvw/formResponse';
-  const formData = new FormData();
-  formData.append('entry.1205151935', finalData);
-  
-  fetch(formUrl, {
-    method: 'POST',
-    mode: 'no-cors',
-    body: formData
-  }).then(() => {
-    // Success! Let them in
-    document.getElementById('access-gateway').style.display = 'none';
-    document.getElementById('app-container').style.display = 'flex';
-    updateClassAccessUI();
-    showToast(`Chào mừng ${nameInput} đã đến với lớp học!`, 'success');
-  }).catch((error) => {
-    console.error('Error submitting access:', error);
-    // Even if there's a network error with Google Forms, we still let them in to avoid blocking legitimate students due to temporary connectivity issues.
-    document.getElementById('access-gateway').style.display = 'none';
-    document.getElementById('app-container').style.display = 'flex';
-    updateClassAccessUI();
-    showToast(`Chào mừng ${nameInput} đã đến với lớp học!`, 'success');
-  });
+
+  // Instantly allow access into the workspace
+  const gateway = document.getElementById('access-gateway');
+  const appContainer = document.getElementById('app-container');
+  if (gateway) gateway.style.display = 'none';
+  if (appContainer) appContainer.style.display = 'flex';
+  updateClassAccessUI();
+  showToast(`Chào mừng ${matchedName} đã đến với lớp học!`, 'success');
+
+  // Attendance log in background
+  try {
+    const now = new Date();
+    const timeString = now.toLocaleTimeString('vi-VN') + ' ' + now.toLocaleDateString('vi-VN');
+    const finalData = `${matchedName} - Lớp ${classInput} - Đã truy cập hệ thống lúc ${timeString}`;
+    const formUrl = 'https://docs.google.com/forms/d/e/1FAIpQLSfB9UgCMgYhwLVvjiXnGZTFlj6IwCJfjqwpBfd1qHpeOm4Lvw/formResponse';
+    const formData = new FormData();
+    formData.append('entry.1205151935', finalData);
+    fetch(formUrl, { method: 'POST', mode: 'no-cors', body: formData }).catch(() => {});
+  } catch(e) {}
 }
 
 // Mobile Sidebar Helpers
@@ -7508,3 +7622,21 @@ function updateClassAccessUI() {
     switchCategory(1);
   }
 }
+
+function toggleGatewayPasswordVisibility() {
+  const pwdInput = document.getElementById('gateway-pass');
+  const icon = document.getElementById('toggle-gateway-pwd-icon');
+  if (!pwdInput) return;
+  if (pwdInput.type === 'password') {
+    pwdInput.type = 'text';
+    if (icon) {
+      icon.innerHTML = '<path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"></path><line x1="1" y1="1" x2="23" y2="23"></line>';
+    }
+  } else {
+    pwdInput.type = 'password';
+    if (icon) {
+      icon.innerHTML = '<path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle>';
+    }
+  }
+}
+window.toggleGatewayPasswordVisibility = toggleGatewayPasswordVisibility;
