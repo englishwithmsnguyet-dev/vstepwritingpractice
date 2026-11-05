@@ -7255,8 +7255,13 @@ document.addEventListener('DOMContentLoaded', () => {
   const appContainer = document.getElementById('app-container');
   
   // Force login on every page load/refresh
-  if (gateway) gateway.style.display = 'flex';
-  if (appContainer) appContainer.style.display = 'none';
+  if (gateway) {
+    gateway.classList.remove('hidden-gateway');
+    gateway.style.display = 'flex';
+  }
+  if (appContainer) {
+    appContainer.style.display = 'none';
+  }
 
   // Check if current user is locked on reload
   if (isCurrentStudentLocked()) {
@@ -7456,8 +7461,13 @@ function submitGatewayAccess() {
 
     const gateway = document.getElementById('access-gateway');
     const appContainer = document.getElementById('app-container');
-    if (gateway) gateway.style.display = 'none';
-    if (appContainer) appContainer.style.display = 'flex';
+    if (gateway) {
+      gateway.classList.add('hidden-gateway');
+      gateway.style.setProperty('display', 'none', 'important');
+    }
+    if (appContainer) {
+      appContainer.style.setProperty('display', 'flex', 'important');
+    }
     updateClassAccessUI();
     showToast(`Chào mừng Giáo viên ${teacherName} đã đăng nhập hệ thống!`, 'success');
 
@@ -7551,8 +7561,13 @@ function submitGatewayAccess() {
   // Instantly allow access into the workspace
   const gateway = document.getElementById('access-gateway');
   const appContainer = document.getElementById('app-container');
-  if (gateway) gateway.style.display = 'none';
-  if (appContainer) appContainer.style.display = 'flex';
+  if (gateway) {
+    gateway.classList.add('hidden-gateway');
+    gateway.style.setProperty('display', 'none', 'important');
+  }
+  if (appContainer) {
+    appContainer.style.setProperty('display', 'flex', 'important');
+  }
   updateClassAccessUI();
   showToast(`Chào mừng ${matchedName} đã đến với lớp học!`, 'success');
 
